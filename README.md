@@ -60,6 +60,14 @@ npm run build:index
 
 ---
 
+## Shared Resolver Client (`shared/vocab-resolver.js`)
+
+Other repositories in the ecosystem import `shared/vocab-resolver.js` via a `<script type="module">` tag to resolve vocabulary entries and hydrate HTML elements at runtime.
+
+See [`shared/README.md`](shared/README.md) for full usage instructions and API details.
+
+---
+
 ## Vocabulary Entry Schema & Fields
 
 Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined in `schemas/vocabulary.schema.json`.
@@ -123,5 +131,5 @@ PRs touching vocabulary data must pass these automated checks before merging.
 1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/en/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
 2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
 3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
-4. **Validate**: Run local validation (`npm run validate` after installing `ajv@^8 ajv-formats@^2`) to ensure all JSON files pass validation.
+4. **Validate**: Run local validation (`npm run validate` after installing dependencies) to ensure all JSON files pass validation.
 5. **Submit PR**: Open a pull request targeting `main`.
