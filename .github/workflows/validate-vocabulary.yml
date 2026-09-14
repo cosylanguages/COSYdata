@@ -1,0 +1,16 @@
+name: Validate Vocabulary
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Validate (Placeholder)
+        run: echo "Vocabulary validation workflow placeholder"
