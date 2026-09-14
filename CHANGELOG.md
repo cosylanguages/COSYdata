@@ -7,9 +7,10 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial scaffold for `COSYdata` repository.
 - Vocabulary schema (`schemas/vocabulary.schema.json`) using JSON Schema draft 2020-12 with form-dependent conditionals (`if`/`then`).
-- Complete English CEFR A0–C2 general vocabulary and A0–C2 spoken English vocabulary datasets in `vocabulary/en/` (reaching 10,700+ total word entries across 86 theme files). Entries shared between general and spoken courses are tagged with `domain: "general, spoken"`.
+- Complete English CEFR A0–C2 general and A0–C2 spoken English vocabulary datasets in `vocabulary/en/`.
+- Monolingual A0-A1 beginner vocabulary datasets for 13 additional languages in `vocabulary/`: French (`fr`), Italian (`it`), Spanish (`es`), German (`de`), Russian (`ru`), Greek (`el`), Portuguese (`pt`), Armenian (`hy`), Georgian (`ka`), Tatar (`tt`), Bashkir (`ba`), Chuvash (`cv`), and Breton (`br`).
 - Index generator script (`scripts/build-index.cjs`) and `npm run build:index` task to automatically generate `index.json` maps for language directories.
-- Validation script (`scripts/validate.cjs`) verifying vocabulary theme entries against schema and checking index mapping target references.
+- Validation script (`scripts/validate.cjs`) verifying vocabulary theme entries against schema and checking index mapping target references across all language folders.
 - Shared vocabulary resolver client module (`shared/vocab-resolver.js`) providing `resolveVocab` and `hydrateVocabElements` functions with 24h `localStorage` TTL caching and graceful fallback handling.
 - Documentation for shared resolver module in `shared/README.md`.
 - GitHub Actions CI workflow (`.github/workflows/validate-vocabulary.yml`) running vocabulary schema validation, index mapping checks, and index freshness checks on PRs.

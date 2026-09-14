@@ -24,34 +24,53 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 ### Examples:
 - `"en:healthy:adjective"`
 - `"en:cat:noun"`
+- `"fr:bonjour:noun"`
 - `"es:casa:noun"`
 
 ---
 
-## Vocabulary File Organization & Datasets
+## Vocabulary File Organization & Languages
 
 Vocabulary entries are **batched into theme files** across everyday topics rather than having individual JSON files per word:
 
 ```
 vocabulary/
-└── <lang>/
-    ├── index.json
-    ├── animals.json
-    ├── family.json
-    ├── food_drink.json
-    ├── personality.json
-    ├── rare_adjectives.json
-    ├── rare_verbs.json
-    └── ...
+├── en/
+│   ├── index.json
+│   ├── animals.json
+│   └── ...
+├── fr/
+│   ├── index.json
+│   └── beginner.json
+├── it/
+├── es/
+├── de/
+├── ru/
+├── el/
+├── pt/
+├── hy/
+├── ka/
+├── tt/
+├── ba/
+├── cv/
+└── br/
 ```
 
-- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `family.json`, `food_drink.json`, `personality.json`).
-- **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its corresponding theme file.
-
-### Course Domains
-- **`general`**: Standard CEFR course vocabulary (A0–C2).
-- **`spoken`**: Spoken course vocabulary focused on conversation (A0–C2).
-- **`general, spoken`**: Words present in both general and spoken course lists.
+### Supported Languages (14 Total)
+- **`en`**: English (CEFR A0–C2 General & Spoken)
+- **`fr`**: French (A0–A1)
+- **`it`**: Italian (A0–A1)
+- **`es`**: Spanish (A0–A1)
+- **`de`**: German (A0–A1)
+- **`ru`**: Russian (A0–A1)
+- **`el`**: Greek (A0–A1)
+- **`pt`**: Portuguese (A0–A1)
+- **`hy`**: Armenian (A0–A1)
+- **`ka`**: Georgian (A0–A1)
+- **`tt`**: Tatar (A0–A1)
+- **`ba`**: Bashkir (A0–A1)
+- **`cv`**: Chuvash (A0–A1)
+- **`br`**: Breton (A0–A1)
 
 To regenerate `index.json` for all language folders, run:
 
@@ -75,8 +94,8 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 
 ### Required Fields
 - **`id`** *(string)*: Unique identifier matching pattern `^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$` (e.g. `en:healthy:adjective`).
-- **`word`** *(string)*: The canonical word or term.
-- **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `es`, `fr`).
+- **`word`** *(string)*: The canonical word or term in native script.
+- **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `fr`, `es`).
 - **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`).
 
 ### Form-Dependent Fields (Validated via JSON Schema `if`/`then`)
@@ -91,7 +110,7 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 ### Optional Fields
 - **`level`** *(string)*: CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
 - **`emoji`** *(string)*: Representative emoji or icon string.
-- **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string).
+- **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string or transliteration).
 - **`audio`** *(string)*: Audio file path or URL.
 - **`image`** *(string)*: Image file path or URL.
 - **`definitions`** *(string[])*: Array of clear definition strings (minimum 1 item if present).
@@ -129,7 +148,7 @@ PRs touching vocabulary data must pass these automated checks before merging.
 
 ## Contribution Guide: How to Add a Word
 
-1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/en/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
+1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/fr/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
 2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
 3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
 4. **Validate**: Run local validation (`npm run validate` after installing dependencies) to ensure all JSON files pass validation.
