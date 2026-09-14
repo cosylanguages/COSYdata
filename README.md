@@ -41,10 +41,11 @@ vocabulary/
     ├── food_drink.json
     ├── personality.json
     ├── abstract_concepts.json
+    ├── academic_vocabulary.json
     └── ...
 ```
 
-- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `family.json`, `food_drink.json`, `personality.json`, `abstract_concepts.json`).
+- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `family.json`, `food_drink.json`, `personality.json`, `academic_vocabulary.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its corresponding theme file.
 
 For example, `vocabulary/en/index.json` maps word IDs to their location:
