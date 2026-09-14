@@ -1,12 +1,15 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/vocabulary.schema.json",
   "title": "Vocabulary Entry",
-  "description": "Schema definition for vocabulary entries in COSYdata",
+  "description": "JSON Schema (draft 2020-12) for COSYdata vocabulary entries",
   "type": "object",
+  "required": ["id", "word", "language", "form"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique vocabulary identifier in language:word:form format, e.g., en:healthy:adjective"
+      "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$",
+      "description": "Identifier matching <language>:<word-slug>:<form>, e.g. en:healthy:adjective"
     },
     "word": {
       "type": "string",
@@ -14,109 +17,166 @@
     },
     "language": {
       "type": "string",
-      "description": "Language code (e.g. en, es, fr)"
+      "pattern": "^[a-z]{2}$",
+      "description": "2-letter language code, e.g. en, es, fr"
     },
     "form": {
       "type": "string",
-      "description": "Part of speech or form (e.g. noun, verb, adjective)"
+      "description": "Grammatical form or part of speech, e.g. noun, verb, adjective, adverb"
     },
     "level": {
       "type": "string",
-      "description": "CEFR or difficulty level (e.g. A1, B2)"
+      "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"],
+      "description": "CEFR level"
     },
     "emoji": {
       "type": "string",
-      "description": "Representative emoji or icon string"
+      "description": "Representative emoji string"
     },
     "transcription": {
       "type": "string",
-      "description": "Phonetic or pronunciation transcription (e.g. IPA)"
+      "description": "Phonetic transcription (e.g., IPA)"
+    },
+    "audio": {
+      "type": "string",
+      "description": "Audio file path or URL"
+    },
+    "image": {
+      "type": "string",
+      "description": "Image file path or URL"
     },
     "definitions": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "List of definitions"
+      "minItems": 1,
+      "description": "Array of definition strings (min 1 if present)"
     },
     "examples": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "Example usage sentences"
-    },
-    "gender": {
-      "type": "string",
-      "description": "Grammatical gender (e.g. masculine, feminine, neuter)"
-    },
-    "article": {
-      "type": "string",
-      "description": "Grammatical article (e.g. der, die, das, el, la)"
-    },
-    "plural_form": {
-      "type": "string",
-      "description": "Plural form of the word"
-    },
-    "comparative": {
-      "type": "string",
-      "description": "Comparative form for adjectives/adverbs"
-    },
-    "superlative": {
-      "type": "string",
-      "description": "Superlative form for adjectives/adverbs"
+      "description": "Array of example usage strings"
     },
     "synonyms": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "List of synonym word IDs or terms"
+      "description": "Array of synonym terms or IDs"
     },
     "antonyms": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "List of antonym word IDs or terms"
+      "description": "Array of antonym terms or IDs"
     },
     "collocations": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "Common collocations or phrases"
+      "description": "Array of common collocations"
     },
     "related_forms": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "Related forms or derivative word IDs"
+      "description": "Array of ID references into another COSY repo's data, e.g. COSYtools:fr-conjugeur:aimer"
     },
     "domain": {
       "type": "string",
-      "description": "Broader subject domain"
+      "description": "Subject domain"
     },
     "theme": {
       "type": "string",
-      "description": "Primary thematic category"
+      "description": "Primary theme"
     },
     "sub_theme": {
       "type": "string",
-      "description": "Sub-theme classification"
+      "description": "Sub-theme"
     },
     "tags": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "Searchable tags"
+      "description": "Array of searchable tag strings"
     },
     "updated": {
       "type": "string",
-      "description": "Timestamp or ISO date string of last update"
+      "format": "date",
+      "description": "ISO date format string YYYY-MM-DD"
+    },
+    "article": {
+      "type": "string",
+      "description": "Grammatical article (meaningful for nouns)"
+    },
+    "gender": {
+      "type": "string",
+      "description": "Grammatical gender (meaningful for nouns)"
+    },
+    "plural_form": {
+      "type": "string",
+      "description": "Plural form (meaningful for nouns)"
+    },
+    "comparative": {
+      "type": "string",
+      "description": "Comparative form (meaningful for adjectives/adverbs)"
+    },
+    "superlative": {
+      "type": "string",
+      "description": "Superlative form (meaningful for adjectives/adverbs)"
     }
   },
-  "required": ["id", "word", "language", "form"]
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "form": { "const": "noun" }
+        },
+        "required": ["form"]
+      },
+      "then": {
+        "properties": {
+          "article": { "type": "string" },
+          "gender": { "type": "string" },
+          "plural_form": { "type": "string" },
+          "comparative": false,
+          "superlative": false
+        }
+      },
+      "else": {
+        "properties": {
+          "article": false,
+          "gender": false,
+          "plural_form": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "form": { "enum": ["adjective", "adverb"] }
+        },
+        "required": ["form"]
+      },
+      "then": {
+        "properties": {
+          "comparative": { "type": "string" },
+          "superlative": { "type": "string" }
+        }
+      },
+      "else": {
+        "properties": {
+          "comparative": false,
+          "superlative": false
+        }
+      }
+    }
+  ]
 }

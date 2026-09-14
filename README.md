@@ -17,9 +17,9 @@ There is no backend service or build step required for the data itself. All cano
 
 ## ID Scheme
 
-Vocabulary entries are identified using a standard colon-separated scheme:
+Vocabulary entries are identified using a standard colon-separated scheme matching `<language>:<word-slug>:<form>`:
 
-$$\text{\{language\}}:\text{\{word\}}:\text{\{form\}}$$
+$$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ### Examples:
 - `"en:healthy:adjective"`
@@ -53,40 +53,51 @@ For example, `vocabulary/en/index.json` maps word IDs to their location:
 
 ---
 
-## Vocabulary Entry Fields
+## Vocabulary Entry Schema & Fields
 
-Vocabulary entries in theme files follow the schema defined in `schemas/vocabulary.schema.json`. Fields include:
+Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined in `schemas/vocabulary.schema.json`.
 
-- **`id`** *(string)*: Unique identifier (`language:word:form`).
+### Required Fields
+- **`id`** *(string)*: Unique identifier matching pattern `^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$` (e.g. `en:healthy:adjective`).
 - **`word`** *(string)*: The canonical word or term.
-- **`language`** *(string)*: Language code (e.g., `en`, `es`).
-- **`form`** *(string)*: Part of speech or grammatical form (e.g., `adjective`, `noun`, `verb`).
-- **`level`** *(string)*: CEFR or difficulty level (e.g., `A1`, `B2`).
+- **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `es`, `fr`).
+- **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`).
+
+### Form-Dependent Fields (Validated via JSON Schema `if`/`then`)
+- **Noun fields** (relevant when `form` is `"noun"`):
+  - **`article`** *(string)*: Grammatical article (e.g. `a`, `an`, `el`, `la`, `der`).
+  - **`gender`** *(string)*: Grammatical gender (e.g. `masculine`, `feminine`, `neuter`).
+  - **`plural_form`** *(string)*: Plural form.
+- **Adjective / Adverb fields** (relevant when `form` is `"adjective"` or `"adverb"`):
+  - **`comparative`** *(string)*: Comparative form (e.g. `healthier`).
+  - **`superlative`** *(string)*: Superlative form (e.g. `healthiest`).
+
+### Optional Fields
+- **`level`** *(string)*: CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
 - **`emoji`** *(string)*: Representative emoji or icon string.
 - **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string).
-- **`definitions`** *(string[])*: Array of clear definition strings.
+- **`audio`** *(string)*: Audio file path or URL.
+- **`image`** *(string)*: Image file path or URL.
+- **`definitions`** *(string[])*: Array of clear definition strings (minimum 1 item if present).
 - **`examples`** *(string[])*: Array of example sentences demonstrating usage.
-- **`gender`** *(string)*: Grammatical gender (where applicable, e.g., `masculine`, `feminine`).
-- **`article`** *(string)*: Grammatical article (e.g., `el`, `la`, `der`, `die`, `das`).
-- **`plural_form`** *(string)*: Plural form of the word.
-- **`comparative`** *(string)*: Comparative form for adjectives or adverbs.
-- **`superlative`** *(string)*: Superlative form for adjectives or adverbs.
 - **`synonyms`** *(string[])*: Array of synonym word IDs or terms.
 - **`antonyms`** *(string[])*: Array of antonym word IDs or terms.
 - **`collocations`** *(string[])*: Array of common word pairings or phrases.
-- **`related_forms`** *(string[])*: Array of related word IDs or derivative forms.
+- **`related_forms`** *(string[])*: Array of ID references into another COSY repo's data (e.g. `"COSYtools:fr-conjugeur:aimer"`).
 - **`domain`** *(string)*: Broad subject domain.
 - **`theme`** *(string)*: Primary thematic category.
 - **`sub_theme`** *(string)*: Sub-thematic classification.
 - **`tags`** *(string[])*: Array of searchable tags.
-- **`updated`** *(string)*: ISO date or timestamp of last update.
+- **`updated`** *(string)*: Date string in ISO `YYYY-MM-DD` format.
+
+Test fixtures for schema validation are provided in `schemas/examples/`.
 
 ---
 
 ## Contribution Guide: How to Add a Word
 
 1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/en/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
-2. **Add Entry**: Add the word entry matching the field structure defined in `schemas/vocabulary.schema.json`.
-3. **Update Index**: Update `vocabulary/<lang>/index.json` to map the new word ID (`language:word:form`) to the theme JSON file name.
-4. **Validate**: Ensure all JSON files are formatted properly and valid JSON.
+2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
+3. **Update Index**: Update `vocabulary/<lang>/index.json` to map the new word ID (`<language>:<word-slug>:<form>`) to the theme JSON file name.
+4. **Validate**: Ensure all JSON files pass validation against `schemas/vocabulary.schema.json`.
 5. **Submit PR**: Open a pull request targeting `main`.
