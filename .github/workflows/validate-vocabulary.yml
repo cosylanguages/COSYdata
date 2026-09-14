@@ -3,8 +3,16 @@ name: Validate Vocabulary
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'vocabulary/**'
+      - 'schemas/**'
+      - 'scripts/**'
   pull_request:
     branches: [ main ]
+    paths:
+      - 'vocabulary/**'
+      - 'schemas/**'
+      - 'scripts/**'
 
 jobs:
   validate:
@@ -12,5 +20,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Validate (Placeholder)
-        run: echo "Vocabulary validation workflow placeholder"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-save ajv@^8 ajv-formats@^2
+
+      - name: Validate Vocabulary Files & Index References
+        run: node scripts/validate.js
