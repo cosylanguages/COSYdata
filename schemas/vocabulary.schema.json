@@ -29,6 +29,15 @@
       "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"],
       "description": "CEFR level"
     },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "minItems": 1,
+      "description": "Array of all CEFR levels this word appears at across merged source entries"
+    },
     "emoji": {
       "type": "string",
       "description": "Representative emoji string"

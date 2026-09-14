@@ -4,2942 +4,29 @@
 
 - **Dataset Location**: `vocabulary/en/`
 - **Total Theme Files**: 92
-- **Total Vocabulary Entries**: 8766
+- **Total Canonical Vocabulary Entries**: 7576
 - **Total Unique IDs**: 7576
-- **Duplicate IDs Across Theme Files**: 867
-- **Templated Entries**: 8756 (99.89%)
-- **Non-Templated Entries**: 10 (0.11%)
+- **Current Duplicate IDs Across Theme Files**: 0
+- **Templated Entries**: 7566 (99.87%)
+- **Non-Templated Entries**: 10 (0.13%)
+- **Merged Entries Requiring Content Review (Placeholder-Only)**: 583
 
 ---
 
 ## 1. Duplicate Entry IDs Across Theme Files
 
-A total of **867 IDs** appear in more than one theme file across the dataset. Below is the complete listing of duplicate IDs, grouped by ID, detailing the files and CEFR levels for each occurrence.
+### Audit Summary & ID Collision Resolution
 
-- **`en:a:article`** (word: "a"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `comparisons.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `ethics.json` | Level: `C1` | Theme Field: `ethics`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `time.json` | Level: `B1` | Theme Field: `time`
-- **`en:about:preposition`** (word: "about"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:above:preposition`** (word: "above"):
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:accountability:noun`** (word: "accountability"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:acknowledge:verb`** (word: "acknowledge"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-- **`en:actor:noun`** (word: "actor"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `media.json` | Level: `B1` | Theme Field: `media`
-- **`en:ad:noun`** (word: "ad"):
-  - File: `ethics.json` | Level: `C2` | Theme Field: `ethics`
-  - File: `rhetoric.json` | Level: `C2` | Theme Field: `communication`
-- **`en:adaptation:noun`** (word: "adaptation"):
-  - File: `environment.json` | Level: `B2` | Theme Field: `environment`
-  - File: `media.json` | Level: `B2` | Theme Field: `media`
-- **`en:advantage:noun`** (word: "advantage"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:afraid:adjective`** (word: "afraid"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-- **`en:after:preposition`** (word: "after"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `time.json` | Level: `A2` | Theme Field: `time`
-- **`en:agree:verb`** (word: "agree"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:agreement:noun`** (word: "agreement"):
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-- **`en:aid:noun`** (word: "aid"):
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-- **`en:airport:noun`** (word: "airport"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:algorithm:noun`** (word: "algorithm"):
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:all:adverb`** (word: "all"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `time.json` | Level: `B1` | Theme Field: `time`
-- **`en:all:phrase`** (word: "all"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:allergy:noun`** (word: "allergy"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-- **`en:although:conjunction`** (word: "although"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:ambiguity:noun`** (word: "ambiguity"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `conflict.json` | Level: `C1` | Theme Field: `politics`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:ambiguous:adjective`** (word: "ambiguous"):
-  - File: `communication.json` | Level: `B1` | Theme Field: `communication`
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-- **`en:ameliorate:verb`** (word: "ameliorate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:america:noun`** (word: "America"):
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `nationalities.json` | Level: `A1` | Theme Field: `geography`
-- **`en:an:article`** (word: "an"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:analyse:verb`** (word: "analyse"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:analysis:noun`** (word: "analysis"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:analyze:verb`** (word: "analyze"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:ancient:adjective`** (word: "ancient"):
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:and:conjunction`** (word: "and"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:angry:adjective`** (word: "angry"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:anomaly:noun`** (word: "anomaly"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:anticipate:verb`** (word: "anticipate"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:apologize:verb`** (word: "apologize"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-- **`en:application:noun`** (word: "application"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:appointment:noun`** (word: "appointment"):
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:approach:noun`** (word: "approach"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `education.json` | Level: `C1` | Theme Field: `education`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-- **`en:approximately:noun`** (word: "approximately"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:archetype:noun`** (word: "archetype"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:argue:verb`** (word: "argue"):
-  - File: `communication.json` | Level: `A2` | Theme Field: `communication`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-- **`en:argument:noun`** (word: "argument"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `communication.json` | Level: `A2` | Theme Field: `communication`
-- **`en:art:noun`** (word: "art"):
-  - File: `arts.json` | Level: `C1` | Theme Field: `arts`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:articulate:verb`** (word: "articulate"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:artificial:adjective`** (word: "artificial"):
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:as:adverb`** (word: "as"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `comparisons.json` | Level: `A2` | Theme Field: `grammar`
-- **`en:as:phrase`** (word: "as"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:assert:verb`** (word: "assert"):
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:assume:verb`** (word: "assume"):
-  - File: `grammar.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:assumption:noun`** (word: "assumption"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-- **`en:asylum:noun`** (word: "asylum"):
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:at:preposition`** (word: "at"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `time.json` | Level: `B1` | Theme Field: `time`
-- **`en:attitude:noun`** (word: "attitude"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-- **`en:authenticity:noun`** (word: "authenticity"):
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `relationships.json` | Level: `B2` | Theme Field: `relationships`
-- **`en:autonomy:noun`** (word: "autonomy"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:avant-garde:noun`** (word: "avant-garde"):
-  - File: `arts.json` | Level: `C1` | Theme Field: `arts`
-  - File: `media.json` | Level: `B2` | Theme Field: `media`
-- **`en:average:noun`** (word: "average"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:awareness:noun`** (word: "awareness"):
-  - File: `abstract_nouns.json` | Level: `B1` | Theme Field: `general`
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:bag:noun`** (word: "bag"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:bake:verb`** (word: "bake"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-- **`en:balance:noun`** (word: "balance"):
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:balance:phrase`** (word: "balance"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:balanced:adjective`** (word: "balanced"):
-  - File: `food_health.json` | Level: `B1` | Theme Field: `health`
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-- **`en:bank:noun`** (word: "bank"):
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:be-that-as-it-may:phrase`** (word: "be that as it may"):
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:be:phrase`** (word: "be"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:be:verb`** (word: "be"):
-  - File: `auxiliary_verbs.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:beautiful:adjective`** (word: "beautiful"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-- **`en:behavior:noun`** (word: "behavior"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:behaviour:noun`** (word: "behaviour"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:belief:noun`** (word: "belief"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-- **`en:below:preposition`** (word: "below"):
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:belt:noun`** (word: "belt"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:between:preposition`** (word: "between"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:bias:noun`** (word: "bias"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `media.json` | Level: `B2` | Theme Field: `media`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:big:adjective`** (word: "big"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:bill:noun`** (word: "bill"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:biodiversity:noun`** (word: "biodiversity"):
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:board:noun`** (word: "board"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:boil:verb`** (word: "boil"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-- **`en:book:noun`** (word: "book"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:border:noun`** (word: "border"):
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:boundaries:noun`** (word: "boundaries"):
-  - File: `environment.json` | Level: `C1` | Theme Field: `environment`
-  - File: `relationships.json` | Level: `B2` | Theme Field: `relationships`
-- **`en:brand:noun`** (word: "brand"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:break:verb`** (word: "break"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `relationships.json` | Level: `B1` | Theme Field: `relationships`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:brush:noun`** (word: "brush"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:budget:noun`** (word: "budget"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:build:verb`** (word: "build"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:burnout:noun`** (word: "burnout"):
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:bus:noun`** (word: "bus"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:but:conjunction`** (word: "but"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:by:preposition`** (word: "by"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:cajole:verb`** (word: "cajole"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:call:phrase`** (word: "call"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:calm:adjective`** (word: "calm"):
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:campaign:verb`** (word: "campaign"):
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:can-you-help-me:phrase`** (word: "Can you help me"):
-  - File: `directions.json` | Level: `A0` | Theme Field: `navigation`
-  - File: `expressions.json` | Level: `A0` | Theme Field: `communication`
-- **`en:can:phrase`** (word: "can"):
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:capital:noun`** (word: "capital"):
-  - File: `crime.json` | Level: `B2` | Theme Field: `law`
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:capitulate:verb`** (word: "capitulate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:capricious:adjective`** (word: "capricious"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:carbon:noun`** (word: "carbon"):
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:card:noun`** (word: "card"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:careful:adjective`** (word: "careful"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:careless:adjective`** (word: "careless"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:carry:verb`** (word: "carry"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:cash:noun`** (word: "cash"):
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:castigate:verb`** (word: "castigate"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:catch:verb`** (word: "catch"):
-  - File: `crime.json` | Level: `A2` | Theme Field: `law`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:ceiling:noun`** (word: "ceiling"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:celebration:noun`** (word: "celebration"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-- **`en:censure:verb`** (word: "censure"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:chain:noun`** (word: "chain"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:championship:noun`** (word: "championship"):
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:change:noun`** (word: "change"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:chicken:noun`** (word: "chicken"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-- **`en:choose:verb`** (word: "choose"):
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:circumvent:verb`** (word: "circumvent"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:city:noun`** (word: "city"):
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:civil:noun`** (word: "civil"):
-  - File: `crime.json` | Level: `B2` | Theme Field: `law`
-  - File: `society.json` | Level: `B2` | Theme Field: `society`
-- **`en:class:noun`** (word: "class"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:clean:adjective`** (word: "clean"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:climate:noun`** (word: "climate"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `weather.json` | Level: `A1` | Theme Field: `weather`
-- **`en:clock:noun`** (word: "clock"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-- **`en:closed:adjective`** (word: "closed"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:cloud:noun`** (word: "cloud"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:club:noun`** (word: "club"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:coach:verb`** (word: "coach"):
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:coalesce:verb`** (word: "coalesce"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:coherence:noun`** (word: "coherence"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-- **`en:cold:adjective`** (word: "cold"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-- **`en:college:noun`** (word: "college"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:come:phrase`** (word: "come"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:come:verb`** (word: "come"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:comfortable:adjective`** (word: "comfortable"):
-  - File: `feelings.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:community:noun`** (word: "community"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:company:noun`** (word: "company"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-- **`en:compare:verb`** (word: "compare"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:compelling:adjective`** (word: "compelling"):
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:competition:noun`** (word: "competition"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:concept:noun`** (word: "concept"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:conclude:verb`** (word: "conclude"):
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:condition:noun`** (word: "condition"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-- **`en:conditioning:noun`** (word: "conditioning"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:conflate:verb`** (word: "conflate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:conflict:noun`** (word: "conflict"):
-  - File: `conflict.json` | Level: `C1` | Theme Field: `politics`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-- **`en:connotation:noun`** (word: "connotation"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:consciousness:noun`** (word: "consciousness"):
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:consequence:noun`** (word: "consequence"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-- **`en:conservation:noun`** (word: "conservation"):
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:contend:verb`** (word: "contend"):
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:content:adjective`** (word: "content"):
-  - File: `emotions.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:context:noun`** (word: "context"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `communication.json` | Level: `B1` | Theme Field: `communication`
-- **`en:contract:noun`** (word: "contract"):
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:control:noun`** (word: "control"):
-  - File: `communication.json` | Level: `C1` | Theme Field: `communication`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:controversial:adjective`** (word: "controversial"):
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-- **`en:convenient:adjective`** (word: "convenient"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:cook:noun`** (word: "cook"):
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:cool:adjective`** (word: "cool"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-- **`en:corporate:adjective`** (word: "corporate"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:corporation:noun`** (word: "corporation"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:correlation:noun`** (word: "correlation"):
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:could:phrase`** (word: "could"):
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:counterintuitive:adjective`** (word: "counterintuitive"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `word_building.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:country:noun`** (word: "country"):
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `nationalities.json` | Level: `A1` | Theme Field: `geography`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:course:noun`** (word: "course"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-- **`en:course:phrase`** (word: "course"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-- **`en:creative:noun`** (word: "creative"):
-  - File: `arts.json` | Level: `C1` | Theme Field: `arts`
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-- **`en:credible:adjective`** (word: "credible"):
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:crisis:noun`** (word: "crisis"):
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:criteria:noun`** (word: "criteria"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-- **`en:critical:adjective`** (word: "critical"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-- **`en:crowded:adjective`** (word: "crowded"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:cry:verb`** (word: "cry"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:cultural:noun`** (word: "cultural"):
-  - File: `arts.json` | Level: `C1` | Theme Field: `arts`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:culture:noun`** (word: "culture"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:custom:noun`** (word: "custom"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-- **`en:customer:noun`** (word: "customer"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:damage:noun`** (word: "damage"):
-  - File: `environment.json` | Level: `C1` | Theme Field: `environment`
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-- **`en:dark:adjective`** (word: "dark"):
-  - File: `colors.json` | Level: `A1` | Theme Field: `colors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:data:noun`** (word: "data"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:date:verb`** (word: "date"):
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:day:noun`** (word: "day"):
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:debate:verb`** (word: "debate"):
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:debt:noun`** (word: "debt"):
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:decide:verb`** (word: "decide"):
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:decline:verb`** (word: "decline"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:decorate:verb`** (word: "decorate"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-- **`en:defence:noun`** (word: "defence"):
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-  - File: `psychology.json` | Level: `C1` | Theme Field: `psychology`
-- **`en:defense:noun`** (word: "defense"):
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-  - File: `psychology.json` | Level: `C1` | Theme Field: `psychology`
-- **`en:degree:noun`** (word: "degree"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `weather.json` | Level: `A1` | Theme Field: `weather`
-- **`en:delineate:verb`** (word: "delineate"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:delivery:noun`** (word: "delivery"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:demonstrate:verb`** (word: "demonstrate"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:denouement:noun`** (word: "denouement"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:department:noun`** (word: "department"):
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:depression:noun`** (word: "depression"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-- **`en:derive:verb`** (word: "derive"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-- **`en:desk:noun`** (word: "desk"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:destruction:noun`** (word: "destruction"):
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:determinism:noun`** (word: "determinism"):
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `psychology.json` | Level: `C1` | Theme Field: `psychology`
-- **`en:development:noun`** (word: "development"):
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-  - File: `environment.json` | Level: `C1` | Theme Field: `environment`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:device:noun`** (word: "device"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:dichotomy:noun`** (word: "dichotomy"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:diet:noun`** (word: "diet"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `food_health.json` | Level: `B1` | Theme Field: `health`
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-- **`en:difference:verb`** (word: "difference"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:different:adjective`** (word: "different"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:difficult:adjective`** (word: "difficult"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:digital:adjective`** (word: "digital"):
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:diligence:noun`** (word: "diligence"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `crime.json` | Level: `C1` | Theme Field: `law`
-- **`en:diplomacy:noun`** (word: "diplomacy"):
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:diplomatic:adjective`** (word: "diplomatic"):
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:dirty:adjective`** (word: "dirty"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:disagree:verb`** (word: "disagree"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:discrimination:noun`** (word: "discrimination"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:dishonest:adjective`** (word: "dishonest"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:disruptive:adjective`** (word: "disruptive"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:dissemble:verb`** (word: "dissemble"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:dissonance:noun`** (word: "dissonance"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `psychology.json` | Level: `C1` | Theme Field: `psychology`
-- **`en:distance:noun`** (word: "distance"):
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-- **`en:diversity:noun`** (word: "diversity"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-  - File: `society.json` | Level: `B2` | Theme Field: `society`
-- **`en:do:verb`** (word: "do"):
-  - File: `auxiliary_verbs.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:doctor:noun`** (word: "doctor"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `communication.json` | Level: `C1` | Theme Field: `communication`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-- **`en:document:noun`** (word: "document"):
-  - File: `common_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-- **`en:double-edged:phrase`** (word: "double-edged"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:double:noun`** (word: "double"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `rhetoric.json` | Level: `C2` | Theme Field: `communication`
-- **`en:down:preposition`** (word: "down"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:draw:noun`** (word: "draw"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-- **`en:draw:phrase`** (word: "draw"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:draw:verb`** (word: "draw"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:dress:noun`** (word: "dress"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-- **`en:driver:noun`** (word: "driver"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:drop:verb`** (word: "drop"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-- **`en:drought:noun`** (word: "drought"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-- **`en:due:noun`** (word: "due"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `crime.json` | Level: `B2` | Theme Field: `law`
-- **`en:duty:noun`** (word: "duty"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:early:adjective`** (word: "early"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:early:noun`** (word: "early"):
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:earthquake:noun`** (word: "earthquake"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-- **`en:easy:adjective`** (word: "easy"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:ecological:adjective`** (word: "ecological"):
-  - File: `environment.json` | Level: `B2` | Theme Field: `environment`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:economy:noun`** (word: "economy"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:ecosystem:noun`** (word: "ecosystem"):
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:effect:noun`** (word: "effect"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-- **`en:electricity:noun`** (word: "electricity"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-- **`en:empirical:adjective`** (word: "empirical"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:employee:noun`** (word: "employee"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:empty:adjective`** (word: "empty"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:end:phrase`** (word: "end"):
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:end:verb`** (word: "end"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-- **`en:engagement:noun`** (word: "engagement"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:england:noun`** (word: "England"):
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `nationalities.json` | Level: `A1` | Theme Field: `geography`
-- **`en:entreat:verb`** (word: "entreat"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:environment:noun`** (word: "environment"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:epidemiological:adjective`** (word: "epidemiological"):
-  - File: `health.json` | Level: `C1` | Theme Field: `health`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:epistemic:adjective`** (word: "epistemic"):
-  - File: `education.json` | Level: `C1` | Theme Field: `education`
-  - File: `ethics.json` | Level: `C2` | Theme Field: `ethics`
-- **`en:equality:noun`** (word: "equality"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:equivocate:verb`** (word: "equivocate"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:eschew:verb`** (word: "eschew"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:esoteric:adjective`** (word: "esoteric"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:ethical:noun`** (word: "ethical"):
-  - File: `crime.json` | Level: `C1` | Theme Field: `law`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-- **`en:euphemism:noun`** (word: "euphemism"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-- **`en:evaluate:verb`** (word: "evaluate"):
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:evidence:noun`** (word: "evidence"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:exam:noun`** (word: "exam"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:example:noun`** (word: "example"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:exchange:noun`** (word: "exchange"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:excited:adjective`** (word: "excited"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-- **`en:excoriate:verb`** (word: "excoriate"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:excuse-me:phrase`** (word: "Excuse me"):
-  - File: `directions.json` | Level: `A0` | Theme Field: `navigation`
-  - File: `expressions.json` | Level: `A0` | Theme Field: `communication`
-- **`en:exhibition:noun`** (word: "exhibition"):
-  - File: `media.json` | Level: `B1` | Theme Field: `media`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:explain:verb`** (word: "explain"):
-  - File: `communication.json` | Level: `A2` | Theme Field: `communication`
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-- **`en:extent:phrase`** (word: "extent"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:extol:verb`** (word: "extol"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:extrapolate:verb`** (word: "extrapolate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:face:phrase`** (word: "face"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:facie:phrase`** (word: "facie"):
-  - File: `academic_vocabulary.json` | Level: `C2` | Theme Field: `academic`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:facto:phrase`** (word: "facto"):
-  - File: `academic_vocabulary.json` | Level: `C2` | Theme Field: `academic`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:factor:noun`** (word: "factor"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-- **`en:failure:noun`** (word: "failure"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-- **`en:fall:noun`** (word: "fall"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:fall:verb`** (word: "fall"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-- **`en:fallacy:noun`** (word: "fallacy"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `ethics.json` | Level: `C1` | Theme Field: `ethics`
-  - File: `literary_devices.json` | Level: `C2` | Theme Field: `media`
-- **`en:false:adjective`** (word: "false"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:famous:adjective`** (word: "famous"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:farm:noun`** (word: "farm"):
-  - File: `animals.json` | Level: `A0` | Theme Field: `animals`
-  - File: `places_transport.json` | Level: `A0` | Theme Field: `travel`
-- **`en:fast:adjective`** (word: "fast"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:fastidious:adjective`** (word: "fastidious"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:festival:noun`** (word: "festival"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:find:verb`** (word: "find"):
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:fine:phrase`** (word: "fine"):
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:first:adverb`** (word: "first"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `time.json` | Level: `A2` | Theme Field: `time`
-- **`en:first:noun`** (word: "first"):
-  - File: `ethics.json` | Level: `C1` | Theme Field: `ethics`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:fish:noun`** (word: "fish"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-- **`en:fix:verb`** (word: "fix"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:flag:noun`** (word: "flag"):
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:flat:noun`** (word: "flat"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:food:noun`** (word: "food"):
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-  - File: `food_health.json` | Level: `B1` | Theme Field: `health`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:for-what-it-s-worth:phrase`** (word: "for what it's worth"):
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:for:preposition`** (word: "for"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:forecast:noun`** (word: "forecast"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:foreign:noun`** (word: "foreign"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:forgive:verb`** (word: "forgive"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-- **`en:foster:verb`** (word: "foster"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-- **`en:framework:noun`** (word: "framework"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `environment.json` | Level: `B2` | Theme Field: `environment`
-- **`en:free:noun`** (word: "free"):
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:friend:noun`** (word: "friend"):
-  - File: `family.json` | Level: `A1` | Theme Field: `family`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:friendly:adjective`** (word: "friendly"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:from:preposition`** (word: "from"):
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:frustrated:adjective`** (word: "frustrated"):
-  - File: `emotions.json` | Level: `B1` | Theme Field: `emotions`
-  - File: `feelings.json` | Level: `A2` | Theme Field: `emotions`
-- **`en:fry:verb`** (word: "fry"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-- **`en:full:adjective`** (word: "full"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:funny:adjective`** (word: "funny"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:gadget:noun`** (word: "gadget"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:galvanise:verb`** (word: "galvanise"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:galvanize:verb`** (word: "galvanize"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:game:noun`** (word: "game"):
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:garden:noun`** (word: "garden"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:garrulous:adjective`** (word: "garrulous"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:gas:noun`** (word: "gas"):
-  - File: `environment.json` | Level: `C1` | Theme Field: `environment`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-- **`en:generation:noun`** (word: "generation"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:genetic:noun`** (word: "genetic"):
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:geopolitical:adjective`** (word: "geopolitical"):
-  - File: `conflict.json` | Level: `C1` | Theme Field: `politics`
-  - File: `politics.json` | Level: `C1` | Theme Field: `politics`
-- **`en:get:noun`** (word: "get"):
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:get:verb`** (word: "get"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:gift:noun`** (word: "gift"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-- **`en:give:verb`** (word: "give"):
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:glass:noun`** (word: "glass"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:glasses:noun`** (word: "glasses"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:globalisation:noun`** (word: "globalisation"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-- **`en:globalization:noun`** (word: "globalization"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-- **`en:go:verb`** (word: "go"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:goal:noun`** (word: "goal"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:good:phrase`** (word: "good"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:government:noun`** (word: "government"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:gratuitous:adjective`** (word: "gratuitous"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:grocery:noun`** (word: "grocery"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-- **`en:group:noun`** (word: "group"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:grow:verb`** (word: "grow"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:growth:noun`** (word: "growth"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:guess:verb`** (word: "guess"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:habit:noun`** (word: "habit"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-- **`en:habitat:noun`** (word: "habitat"):
-  - File: `animals.json` | Level: `A2` | Theme Field: `nature`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:hand:phrase`** (word: "hand"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:hand:verb`** (word: "hand"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:handsome:adjective`** (word: "handsome"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-- **`en:hang:verb`** (word: "hang"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-- **`en:happy:adjective`** (word: "happy"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:hard:adjective`** (word: "hard"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:have:verb`** (word: "have"):
-  - File: `auxiliary_verbs.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:having-said-that:phrase`** (word: "having said that"):
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:health:noun`** (word: "health"):
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-- **`en:healthy:adjective`** (word: "healthy"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-- **`en:heavy:adjective`** (word: "heavy"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:hegemony:noun`** (word: "hegemony"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `politics.json` | Level: `C1` | Theme Field: `politics`
-- **`en:here:adverb`** (word: "here"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-- **`en:heritage:noun`** (word: "heritage"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-- **`en:hierarchy:noun`** (word: "hierarchy"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:high:adjective`** (word: "high"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:history:noun`** (word: "history"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:hold:phrase`** (word: "hold"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-- **`en:hold:verb`** (word: "hold"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:holiday:noun`** (word: "holiday"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:homework:noun`** (word: "homework"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:homogenisation:noun`** (word: "homogenisation"):
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:homogenization:noun`** (word: "homogenization"):
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:hospital:noun`** (word: "hospital"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:hot:adjective`** (word: "hot"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-- **`en:hotel:noun`** (word: "hotel"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:hour:noun`** (word: "hour"):
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:house:noun`** (word: "house"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-- **`en:how:phrase`** (word: "how"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-- **`en:however:adverb`** (word: "however"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:hungry:noun`** (word: "hungry"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-- **`en:hyperbole:noun`** (word: "hyperbole"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-- **`en:hypothesize:verb`** (word: "hypothesize"):
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:i:phrase`** (word: "I"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:identity:noun`** (word: "identity"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:imagine:verb`** (word: "imagine"):
-  - File: `grammar.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:impact:verb`** (word: "impact"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-- **`en:impatient:adjective`** (word: "impatient"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:implication:noun`** (word: "implication"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `communication.json` | Level: `B1` | Theme Field: `communication`
-- **`en:implicit:adjective`** (word: "implicit"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `psychology.json` | Level: `C1` | Theme Field: `psychology`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:important:adjective`** (word: "important"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:improve:verb`** (word: "improve"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-- **`en:in:preposition`** (word: "in"):
-  - File: `academic_vocabulary.json` | Level: `C2` | Theme Field: `academic`
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `grammar.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-  - File: `time.json` | Level: `A2` | Theme Field: `time`
-- **`en:incentive:noun`** (word: "incentive"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-- **`en:inconvenient:adjective`** (word: "inconvenient"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:increase:noun`** (word: "increase"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:increase:verb`** (word: "increase"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:inculcate:verb`** (word: "inculcate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:indefatigable:adjective`** (word: "indefatigable"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `word_building.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:independent:adjective`** (word: "independent"):
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:industry:noun`** (word: "industry"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-- **`en:influence:noun`** (word: "influence"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `media.json` | Level: `B1` | Theme Field: `media`
-- **`en:information:noun`** (word: "information"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-- **`en:initiative:noun`** (word: "initiative"):
-  - File: `environment.json` | Level: `B2` | Theme Field: `environment`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:injury:noun`** (word: "injury"):
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-- **`en:innovation:noun`** (word: "innovation"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:integration:noun`** (word: "integration"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `society.json` | Level: `B2` | Theme Field: `society`
-- **`en:integrity:noun`** (word: "integrity"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-- **`en:intelligence:noun`** (word: "intelligence"):
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:interdisciplinary:adjective`** (word: "interdisciplinary"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-- **`en:interest:noun`** (word: "interest"):
-  - File: `crime.json` | Level: `C1` | Theme Field: `law`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:international:noun`** (word: "international"):
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:internet:noun`** (word: "internet"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `technology.json` | Level: `A1` | Theme Field: `technology`
-- **`en:interpret:verb`** (word: "interpret"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:into:preposition`** (word: "into"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:intransigent:adjective`** (word: "intransigent"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:inveigle:verb`** (word: "inveigle"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:investment:noun`** (word: "investment"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:invite:verb`** (word: "invite"):
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:irony:noun`** (word: "irony"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:is:phrase`** (word: "is"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:issue:noun`** (word: "issue"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-- **`en:it:pronoun`** (word: "it"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-  - File: `pronouns.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:itinerary:noun`** (word: "itinerary"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:its:pronoun`** (word: "its"):
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `pronouns.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:jealous:adjective`** (word: "jealous"):
-  - File: `feelings.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:job:noun`** (word: "job"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:journey:noun`** (word: "journey"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:judge:verb`** (word: "judge"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-- **`en:jump:verb`** (word: "jump"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:justice:noun`** (word: "justice"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-- **`en:juxtaposition:noun`** (word: "juxtaposition"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:keep:verb`** (word: "keep"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:kind:adjective`** (word: "kind"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:knife:noun`** (word: "knife"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:knowledge:noun`** (word: "knowledge"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-- **`en:label:noun`** (word: "label"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:landlord:noun`** (word: "landlord"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:landscape:noun`** (word: "landscape"):
-  - File: `animals.json` | Level: `A2` | Theme Field: `nature`
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-- **`en:language:noun`** (word: "language"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `nationalities.json` | Level: `A1` | Theme Field: `geography`
-- **`en:large:adjective`** (word: "large"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:last:phrase`** (word: "last"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:late:adjective`** (word: "late"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:laugh:verb`** (word: "laugh"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:law:noun`** (word: "law"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `crime.json` | Level: `A2` | Theme Field: `law`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:left:noun`** (word: "left"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:legislation:noun`** (word: "legislation"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:letter:noun`** (word: "letter"):
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:liability:noun`** (word: "liability"):
-  - File: `crime.json` | Level: `C1` | Theme Field: `law`
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-- **`en:lifestyle:noun`** (word: "lifestyle"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-- **`en:light:adjective`** (word: "light"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `colors.json` | Level: `A1` | Theme Field: `colors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:light:noun`** (word: "light"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-- **`en:like:verb`** (word: "like"):
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:literacy:noun`** (word: "literacy"):
-  - File: `communication.json` | Level: `C1` | Theme Field: `communication`
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-- **`en:local:noun`** (word: "local"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:long:adjective`** (word: "long"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:look:verb`** (word: "look"):
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:loquacious:adjective`** (word: "loquacious"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:lose:verb`** (word: "lose"):
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:loss:noun`** (word: "loss"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `environment.json` | Level: `B2` | Theme Field: `environment`
-- **`en:loud:adjective`** (word: "loud"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:low:adjective`** (word: "low"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:lucid:adjective`** (word: "lucid"):
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:machine:noun`** (word: "machine"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:magazine:noun`** (word: "magazine"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:majority:noun`** (word: "majority"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:make-a-difference:phrase`** (word: "make a difference"):
-  - File: `collocations.json` | Level: `B1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:make:phrase`** (word: "make"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:man:noun`** (word: "man"):
-  - File: `family.json` | Level: `A1` | Theme Field: `family`
-  - File: `rhetoric.json` | Level: `C2` | Theme Field: `communication`
-- **`en:manager:noun`** (word: "manager"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:map:noun`** (word: "map"):
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:marginal:adjective`** (word: "marginal"):
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:market:noun`** (word: "market"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:matter:noun`** (word: "matter"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-- **`en:may:phrase`** (word: "may"):
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:maybe:adverb`** (word: "maybe"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:me:pronoun`** (word: "me"):
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `pronouns.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:media:noun`** (word: "media"):
-  - File: `communication.json` | Level: `C1` | Theme Field: `communication`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-- **`en:medicine:noun`** (word: "medicine"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-- **`en:medium:noun`** (word: "medium"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:meet:phrase`** (word: "meet"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:member:noun`** (word: "member"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:membership:noun`** (word: "membership"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:mercurial:adjective`** (word: "mercurial"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:message:noun`** (word: "message"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `technology.json` | Level: `A1` | Theme Field: `technology`
-- **`en:method:noun`** (word: "method"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `education.json` | Level: `C1` | Theme Field: `education`
-- **`en:methodology:noun`** (word: "methodology"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:meticulous:adjective`** (word: "meticulous"):
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:migration:noun`** (word: "migration"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:mind-you:phrase`** (word: "mind you"):
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:mind:phrase`** (word: "mind"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:minimum:noun`** (word: "minimum"):
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-- **`en:minority:noun`** (word: "minority"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:mirror:noun`** (word: "mirror"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:mitigate:verb`** (word: "mitigate"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:mix:verb`** (word: "mix"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-- **`en:model:noun`** (word: "model"):
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:modern:adjective`** (word: "modern"):
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:money:noun`** (word: "money"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-- **`en:moral-hazard:noun`** (word: "moral hazard"):
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-  - File: `politics.json` | Level: `C2` | Theme Field: `politics`
-- **`en:moral:noun`** (word: "moral"):
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-- **`en:mortgage:noun`** (word: "mortgage"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:mother:noun`** (word: "mother"):
-  - File: `communication.json` | Level: `B1` | Theme Field: `communication`
-  - File: `family.json` | Level: `A1` | Theme Field: `family`
-- **`en:motivation:noun`** (word: "motivation"):
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `emotions.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:move:verb`** (word: "move"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:multicultural:adjective`** (word: "multicultural"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `word_building.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:museum:noun`** (word: "museum"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:music:noun`** (word: "music"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:mutandis:phrase`** (word: "mutandis"):
-  - File: `academic_vocabulary.json` | Level: `C2` | Theme Field: `academic`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:mutatis:phrase`** (word: "mutatis"):
-  - File: `academic_vocabulary.json` | Level: `C2` | Theme Field: `academic`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:my:pronoun`** (word: "my"):
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `pronouns.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:name:noun`** (word: "name"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `family.json` | Level: `A1` | Theme Field: `family`
-- **`en:narrative:noun`** (word: "narrative"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `media.json` | Level: `B2` | Theme Field: `media`
-- **`en:nation:noun`** (word: "nation"):
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `nationalities.json` | Level: `A1` | Theme Field: `geography`
-- **`en:national:noun`** (word: "national"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:nature:noun`** (word: "nature"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-- **`en:neighbourhood:noun`** (word: "neighbourhood"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:nervous:adjective`** (word: "nervous"):
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:network:noun`** (word: "network"):
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:new:adjective`** (word: "new"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:news:noun`** (word: "news"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-- **`en:newspaper:noun`** (word: "newspaper"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:nihilism:noun`** (word: "nihilism"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `ethics.json` | Level: `C1` | Theme Field: `ethics`
-- **`en:no:phrase`** (word: "no"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-- **`en:non:noun`** (word: "non"):
-  - File: `politics.json` | Level: `C2` | Theme Field: `politics`
-  - File: `rhetoric.json` | Level: `C2` | Theme Field: `communication`
-- **`en:not:phrase`** (word: "not"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:notwithstanding:adverb`** (word: "notwithstanding"):
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:nuance:noun`** (word: "nuance"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `communication.json` | Level: `B1` | Theme Field: `communication`
-- **`en:nurse:noun`** (word: "nurse"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-- **`en:obdurate:adjective`** (word: "obdurate"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:obfuscate:verb`** (word: "obfuscate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:objectivity:noun`** (word: "objectivity"):
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `media.json` | Level: `B2` | Theme Field: `media`
-- **`en:of:adverb`** (word: "of"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `time.json` | Level: `B1` | Theme Field: `time`
-- **`en:of:noun`** (word: "of"):
-  - File: `crime.json` | Level: `B2` | Theme Field: `law`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:of:phrase`** (word: "of"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:of:verb`** (word: "of"):
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-- **`en:off:preposition`** (word: "off"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:office:noun`** (word: "office"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:old:adjective`** (word: "old"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:on:preposition`** (word: "on"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:online:noun`** (word: "online"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:ontological:adjective`** (word: "ontological"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `ethics.json` | Level: `C2` | Theme Field: `ethics`
-- **`en:open:adjective`** (word: "open"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:order:noun`** (word: "order"):
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:other:phrase`** (word: "other"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:other:verb`** (word: "other"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:outsourcing:noun`** (word: "outsourcing"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:over:preposition`** (word: "over"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:overqualified:adjective`** (word: "overqualified"):
-  - File: `word_building.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:overweight:adjective`** (word: "overweight"):
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:paint:verb`** (word: "paint"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:paper:noun`** (word: "paper"):
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:paradigm:noun`** (word: "paradigm"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:paradox:noun`** (word: "paradox"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `literary_devices.json` | Level: `C2` | Theme Field: `media`
-- **`en:part-time:noun`** (word: "part-time"):
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:party:noun`** (word: "party"):
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:pass:noun`** (word: "pass"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:password:noun`** (word: "password"):
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `technology.json` | Level: `A1` | Theme Field: `technology`
-- **`en:past:noun`** (word: "past"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:pattern:noun`** (word: "pattern"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:pay:noun`** (word: "pay"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-- **`en:peaceful:adjective`** (word: "peaceful"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:peer:noun`** (word: "peer"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-- **`en:pellucid:adjective`** (word: "pellucid"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:perceive:verb`** (word: "perceive"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:percentage:noun`** (word: "percentage"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:performance:noun`** (word: "performance"):
-  - File: `media.json` | Level: `B1` | Theme Field: `media`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:personification:noun`** (word: "personification"):
-  - File: `literary_devices.json` | Level: `C2` | Theme Field: `media`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:perspective:noun`** (word: "perspective"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-- **`en:persuasive:adjective`** (word: "persuasive"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:phenomenon:noun`** (word: "phenomenon"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `ethics.json` | Level: `C2` | Theme Field: `ethics`
-- **`en:photo:noun`** (word: "photo"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `technology.json` | Level: `A1` | Theme Field: `technology`
-- **`en:picture:noun`** (word: "picture"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `technology.json` | Level: `A1` | Theme Field: `technology`
-- **`en:placate:verb`** (word: "placate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:planning:noun`** (word: "planning"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:plastic:noun`** (word: "plastic"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:plateau:noun`** (word: "plateau"):
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:platform:noun`** (word: "platform"):
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:plausible:adjective`** (word: "plausible"):
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:play:phrase`** (word: "play"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-- **`en:point-out:verb`** (word: "point out"):
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `B1` | Theme Field: `communication`
-- **`en:point:verb`** (word: "point"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `time.json` | Level: `B1` | Theme Field: `time`
-- **`en:police:noun`** (word: "police"):
-  - File: `crime.json` | Level: `A2` | Theme Field: `law`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-- **`en:policy:noun`** (word: "policy"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:polite:adjective`** (word: "polite"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:politics:noun`** (word: "politics"):
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:portion:noun`** (word: "portion"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `food_health.json` | Level: `B1` | Theme Field: `health`
-- **`en:posit:verb`** (word: "posit"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:possibly:adverb`** (word: "possibly"):
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:power:noun`** (word: "power"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:precedent:noun`** (word: "precedent"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `crime.json` | Level: `C1` | Theme Field: `law`
-- **`en:predator:noun`** (word: "predator"):
-  - File: `animals.json` | Level: `A2` | Theme Field: `nature`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:prejudice:noun`** (word: "prejudice"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:present:noun`** (word: "present"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-- **`en:pretty:adjective`** (word: "pretty"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-- **`en:prevaricate:verb`** (word: "prevaricate"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:prima:phrase`** (word: "prima"):
-  - File: `academic_vocabulary.json` | Level: `C2` | Theme Field: `academic`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:principle:noun`** (word: "principle"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-- **`en:priority:noun`** (word: "priority"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `abstract_nouns.json` | Level: `B1` | Theme Field: `general`
-- **`en:privacy:noun`** (word: "privacy"):
-  - File: `abstract_nouns.json` | Level: `B1` | Theme Field: `general`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:private:adjective`** (word: "private"):
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:problem:noun`** (word: "problem"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `economy.json` | Level: `C2` | Theme Field: `business`
-- **`en:process:noun`** (word: "process"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `crime.json` | Level: `B2` | Theme Field: `law`
-- **`en:product:noun`** (word: "product"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:project:noun`** (word: "project"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:projection:noun`** (word: "projection"):
-  - File: `psychology.json` | Level: `C1` | Theme Field: `psychology`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:propaganda:noun`** (word: "propaganda"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `media.json` | Level: `B2` | Theme Field: `media`
-- **`en:property:noun`** (word: "property"):
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:proposition:noun`** (word: "proposition"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:proprietary:adjective`** (word: "proprietary"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:pros-and-cons:phrase`** (word: "pros and cons"):
-  - File: `collocations.json` | Level: `B1` | Theme Field: `communication`
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-- **`en:protectionism:noun`** (word: "protectionism"):
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `politics.json` | Level: `C1` | Theme Field: `politics`
-- **`en:protest:verb`** (word: "protest"):
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:proud:adjective`** (word: "proud"):
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:public:adjective`** (word: "public"):
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:public:noun`** (word: "public"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:pull:verb`** (word: "pull"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:push:verb`** (word: "push"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:put:verb`** (word: "put"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:qualification:noun`** (word: "qualification"):
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:qualitative:adjective`** (word: "qualitative"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:quality:noun`** (word: "quality"):
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:quiet:adjective`** (word: "quiet"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-- **`en:quite:adverb`** (word: "quite"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `comparisons.json` | Level: `A2` | Theme Field: `grammar`
-- **`en:raise:phrase`** (word: "raise"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:rate:noun`** (word: "rate"):
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:read:noun`** (word: "read"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:reason:noun`** (word: "reason"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-- **`en:rebuild:verb`** (word: "rebuild"):
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:recalcitrant:adjective`** (word: "recalcitrant"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:receipt:noun`** (word: "receipt"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:recipe:noun`** (word: "recipe"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-- **`en:reciprocate:verb`** (word: "reciprocate"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `relationships.json` | Level: `B2` | Theme Field: `relationships`
-- **`en:reciprocity:noun`** (word: "reciprocity"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `relationships.json` | Level: `B2` | Theme Field: `relationships`
-- **`en:reconcile:verb`** (word: "reconcile"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `relationships.json` | Level: `B1` | Theme Field: `relationships`
-- **`en:recovery:noun`** (word: "recovery"):
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-- **`en:refugee:noun`** (word: "refugee"):
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:refute:verb`** (word: "refute"):
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:rehabilitation:noun`** (word: "rehabilitation"):
-  - File: `crime.json` | Level: `B2` | Theme Field: `law`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-- **`en:reinforce:verb`** (word: "reinforce"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:relativism:noun`** (word: "relativism"):
-  - File: `crime.json` | Level: `C1` | Theme Field: `law`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:relaxed:adjective`** (word: "relaxed"):
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:remote:adjective`** (word: "remote"):
-  - File: `places_transport.json` | Level: `A2` | Theme Field: `places`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:research:verb`** (word: "research"):
-  - File: `education.json` | Level: `B1` | Theme Field: `education`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:reserve:noun`** (word: "reserve"):
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:resilience:noun`** (word: "resilience"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `environment.json` | Level: `B2` | Theme Field: `environment`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:resilient:adjective`** (word: "resilient"):
-  - File: `emotions.json` | Level: `B1` | Theme Field: `emotions`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:resolve:verb`** (word: "resolve"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `relationships.json` | Level: `B1` | Theme Field: `relationships`
-- **`en:responsibility:noun`** (word: "responsibility"):
-  - File: `abstract_nouns.json` | Level: `B1` | Theme Field: `general`
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:retirement:noun`** (word: "retirement"):
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:review:verb`** (word: "review"):
-  - File: `consumer_items.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `media.json` | Level: `B1` | Theme Field: `media`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:rhetoric:noun`** (word: "rhetoric"):
-  - File: `arts.json` | Level: `C1` | Theme Field: `arts`
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-- **`en:right:adjective`** (word: "right"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:right:noun`** (word: "right"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:rights:noun`** (word: "rights"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:rigorous:adjective`** (word: "rigorous"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-- **`en:rise:verb`** (word: "rise"):
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:roast:verb`** (word: "roast"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-- **`en:roughly:noun`** (word: "roughly"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:routine:noun`** (word: "routine"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-- **`en:rule:noun`** (word: "rule"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `crime.json` | Level: `A2` | Theme Field: `law`
-- **`en:run:verb`** (word: "run"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:sad:adjective`** (word: "sad"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:salary:noun`** (word: "salary"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:salient:adjective`** (word: "salient"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:same:adjective`** (word: "same"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:same:phrase`** (word: "same"):
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:satisfied:adjective`** (word: "satisfied"):
-  - File: `emotions.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `feelings.json` | Level: `A2` | Theme Field: `emotions`
-- **`en:save:verb`** (word: "save"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:say:phrase`** (word: "say"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `linking_words.json` | Level: `C2` | Theme Field: `grammar`
-- **`en:scalability:noun`** (word: "scalability"):
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:scared:adjective`** (word: "scared"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-- **`en:schedule:noun`** (word: "schedule"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-- **`en:school:noun`** (word: "school"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:science:noun`** (word: "science"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:scientist:noun`** (word: "scientist"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:score:verb`** (word: "score"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:sculpture:noun`** (word: "sculpture"):
-  - File: `media.json` | Level: `B1` | Theme Field: `media`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:sector:noun`** (word: "sector"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `politics.json` | Level: `B1` | Theme Field: `politics`
-- **`en:security:noun`** (word: "security"):
-  - File: `abstract_nouns.json` | Level: `B1` | Theme Field: `general`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:see:phrase`** (word: "see"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `B2` | Theme Field: `communication`
-- **`en:sentence:noun`** (word: "sentence"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:service:noun`** (word: "service"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:set:phrase`** (word: "set"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:share:verb`** (word: "share"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-- **`en:shift:noun`** (word: "shift"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:shop:noun`** (word: "shop"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:shopping:noun`** (word: "shopping"):
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:short:adjective`** (word: "short"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:short:phrase`** (word: "short"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:shortage:noun`** (word: "shortage"):
-  - File: `geography.json` | Level: `B1` | Theme Field: `geography`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:shy:adjective`** (word: "shy"):
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:side:noun`** (word: "side"):
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-- **`en:sign:noun`** (word: "sign"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:significance:noun`** (word: "significance"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-- **`en:significant:adjective`** (word: "significant"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:similar:adjective`** (word: "similar"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:simple:adjective`** (word: "simple"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:single:adjective`** (word: "single"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-- **`en:sit:phrase`** (word: "sit"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:size:noun`** (word: "size"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `food_health.json` | Level: `B1` | Theme Field: `health`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:skill:noun`** (word: "skill"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:skills:noun`** (word: "skills"):
-  - File: `education.json` | Level: `C1` | Theme Field: `education`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:slow:adjective`** (word: "slow"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:small:adjective`** (word: "small"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:small:noun`** (word: "small"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:smile:verb`** (word: "smile"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:so:conjunction`** (word: "so"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-- **`en:social:adjective`** (word: "social"):
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-- **`en:social:noun`** (word: "social"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `media.json` | Level: `A2` | Theme Field: `technology`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-  - File: `society.json` | Level: `B2` | Theme Field: `society`
-- **`en:society:noun`** (word: "society"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-- **`en:soft:adjective`** (word: "soft"):
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:solidarity:noun`** (word: "solidarity"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `relationships.json` | Level: `B2` | Theme Field: `relationships`
-  - File: `society.json` | Level: `C1` | Theme Field: `society`
-- **`en:solipsism:noun`** (word: "solipsism"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `ethics.json` | Level: `C1` | Theme Field: `ethics`
-- **`en:solution:noun`** (word: "solution"):
-  - File: `abstract_nouns.json` | Level: `A2` | Theme Field: `general`
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-- **`en:sort:verb`** (word: "sort"):
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:sound:verb`** (word: "sound"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-- **`en:sovereignty:noun`** (word: "sovereignty"):
-  - File: `conflict.json` | Level: `C1` | Theme Field: `politics`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:species:noun`** (word: "species"):
-  - File: `animals.json` | Level: `A2` | Theme Field: `nature`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `nature.json` | Level: `B2` | Theme Field: `nature`
-- **`en:speculative:adjective`** (word: "speculative"):
-  - File: `economy.json` | Level: `C1` | Theme Field: `business`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:speed:noun`** (word: "speed"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:spend:noun`** (word: "spend"):
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:stakeholder:noun`** (word: "stakeholder"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-- **`en:stand:verb`** (word: "stand"):
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:station:noun`** (word: "station"):
-  - File: `crime.json` | Level: `A2` | Theme Field: `law`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:stereotype:noun`** (word: "stereotype"):
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:stir:verb`** (word: "stir"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-- **`en:stone:noun`** (word: "stone"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:store:noun`** (word: "store"):
-  - File: `money_shopping.json` | Level: `A1` | Theme Field: `shopping`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-- **`en:storm:noun`** (word: "storm"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-- **`en:straight:adjective`** (word: "straight"):
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:strategic:noun`** (word: "strategic"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `conflict.json` | Level: `C1` | Theme Field: `politics`
-- **`en:strategy:noun`** (word: "strategy"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `environment.json` | Level: `C1` | Theme Field: `environment`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-- **`en:stress:verb`** (word: "stress"):
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-- **`en:stretch:noun`** (word: "stretch"):
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-  - File: `sports.json` | Level: `A2` | Theme Field: `sports`
-- **`en:strict:adjective`** (word: "strict"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-- **`en:strong:adjective`** (word: "strong"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:stubborn:adjective`** (word: "stubborn"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:student:noun`** (word: "student"):
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:study:noun`** (word: "study"):
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:subject:noun`** (word: "subject"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:subjectivity:noun`** (word: "subjectivity"):
-  - File: `communication.json` | Level: `C1` | Theme Field: `communication`
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-- **`en:subjugate:verb`** (word: "subjugate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:substantial:adjective`** (word: "substantial"):
-  - File: `academic_vocabulary.json` | Level: `B2` | Theme Field: `academic`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:substantiate:verb`** (word: "substantiate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:subtext:noun`** (word: "subtext"):
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:suburb:noun`** (word: "suburb"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:suitcase:noun`** (word: "suitcase"):
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:supermarket:noun`** (word: "supermarket"):
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:supplant:verb`** (word: "supplant"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:supply:noun`** (word: "supply"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-- **`en:support:verb`** (word: "support"):
-  - File: `opinions.json` | Level: `B1` | Theme Field: `communication`
-  - File: `relationships.json` | Level: `B1` | Theme Field: `relationships`
-- **`en:suppose:verb`** (word: "suppose"):
-  - File: `grammar.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:surmise:verb`** (word: "surmise"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:surprised:adjective`** (word: "surprised"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-- **`en:surreptitious:adjective`** (word: "surreptitious"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:suspect:verb`** (word: "suspect"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `verbs_cognition.json` | Level: `B1` | Theme Field: `cognition`
-- **`en:sustainability:noun`** (word: "sustainability"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-- **`en:sustainable:adjective`** (word: "sustainable"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `environment.json` | Level: `B1` | Theme Field: `environment`
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-  - File: `urban_housing.json` | Level: `B2` | Theme Field: `housing`
-- **`en:sword:phrase`** (word: "sword"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:sympathize:verb`** (word: "sympathize"):
-  - File: `emotions.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `relationships.json` | Level: `B1` | Theme Field: `relationships`
-- **`en:synergy:noun`** (word: "synergy"):
-  - File: `abstract_nouns.json` | Level: `C1` | Theme Field: `concepts`
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-- **`en:synthesis:noun`** (word: "synthesis"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `science.json` | Level: `C1` | Theme Field: `science`
-- **`en:systemic:adjective`** (word: "systemic"):
-  - File: `environment.json` | Level: `C1` | Theme Field: `environment`
-  - File: `society.json` | Level: `B2` | Theme Field: `society`
-- **`en:tablet:noun`** (word: "tablet"):
-  - File: `health.json` | Level: `A2` | Theme Field: `health`
-  - File: `technology.json` | Level: `A1` | Theme Field: `technology`
-- **`en:take:verb`** (word: "take"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:talkative:adjective`** (word: "talkative"):
-  - File: `personality.json` | Level: `A2` | Theme Field: `personality`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:tall:adjective`** (word: "tall"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:taste:verb`** (word: "taste"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `cooking.json` | Level: `A2` | Theme Field: `food`
-- **`en:teacher:noun`** (word: "teacher"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:team:noun`** (word: "team"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-- **`en:technique:noun`** (word: "technique"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `communication.json` | Level: `B2` | Theme Field: `communication`
-- **`en:temperature:noun`** (word: "temperature"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `weather.json` | Level: `A1` | Theme Field: `weather`
-- **`en:tenant:noun`** (word: "tenant"):
-  - File: `living.json` | Level: `A2` | Theme Field: `housing`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:tenuous:adjective`** (word: "tenuous"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:terms:phrase`** (word: "terms"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:test:noun`** (word: "test"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `school.json` | Level: `A1` | Theme Field: `education`
-- **`en:that:phrase`** (word: "that"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:the:article`** (word: "the"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `time.json` | Level: `A2` | Theme Field: `time`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:theater:noun`** (word: "theater"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:theatre:noun`** (word: "theatre"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:then:adverb`** (word: "then"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `time.json` | Level: `A2` | Theme Field: `time`
-- **`en:theoretical:adjective`** (word: "theoretical"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `science.json` | Level: `B2` | Theme Field: `science`
-- **`en:theory:noun`** (word: "theory"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `science.json` | Level: `B1` | Theme Field: `science`
-- **`en:therapy:noun`** (word: "therapy"):
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:there:adverb`** (word: "there"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-- **`en:thin:adjective`** (word: "thin"):
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:think:phrase`** (word: "think"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `B2` | Theme Field: `communication`
-- **`en:think:verb`** (word: "think"):
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:thirsty:noun`** (word: "thirsty"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-- **`en:this:phrase`** (word: "this"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `linking_words.json` | Level: `C1` | Theme Field: `grammar`
-- **`en:though:conjunction`** (word: "though"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `opinions.json` | Level: `A2` | Theme Field: `communication`
-- **`en:through:preposition`** (word: "through"):
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:throw:verb`** (word: "throw"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-- **`en:ticket:noun`** (word: "ticket"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:time:noun`** (word: "time"):
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `technology.json` | Level: `B1` | Theme Field: `technology`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:timetable:noun`** (word: "timetable"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:tip:phrase`** (word: "tip"):
-  - File: `collocations.json` | Level: `C1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `B2` | Theme Field: `communication`
-- **`en:tired:adjective`** (word: "tired"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `feelings.json` | Level: `A1` | Theme Field: `emotions`
-- **`en:to:preposition`** (word: "to"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `cause_effect.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `grammar.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `idioms.json` | Level: `B2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:tongue:noun`** (word: "tongue"):
-  - File: `body_health.json` | Level: `A1` | Theme Field: `health`
-  - File: `communication.json` | Level: `B1` | Theme Field: `communication`
-- **`en:too:adverb`** (word: "too"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `comparisons.json` | Level: `A2` | Theme Field: `grammar`
-- **`en:tourism:noun`** (word: "tourism"):
-  - File: `culture.json` | Level: `B1` | Theme Field: `culture`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:tournament:noun`** (word: "tournament"):
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `sports_hobbies.json` | Level: `A2` | Theme Field: `leisure`
-- **`en:towel:noun`** (word: "towel"):
-  - File: `house_furniture.json` | Level: `A1` | Theme Field: `housing`
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-- **`en:trade:noun`** (word: "trade"):
-  - File: `economy.json` | Level: `B1` | Theme Field: `business`
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-- **`en:tradition:noun`** (word: "tradition"):
-  - File: `common_nouns.json` | Level: `A1` | Theme Field: `general`
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `family.json` | Level: `B1` | Theme Field: `family`
-- **`en:train:noun`** (word: "train"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-- **`en:training:noun`** (word: "training"):
-  - File: `education.json` | Level: `B2` | Theme Field: `education`
-  - File: `sports.json` | Level: `B1` | Theme Field: `sports`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:transcend:verb`** (word: "transcend"):
-  - File: `ethics.json` | Level: `B2` | Theme Field: `ethics`
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-- **`en:transform:verb`** (word: "transform"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `synonyms.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:treaty:noun`** (word: "treaty"):
-  - File: `global_issues.json` | Level: `B1` | Theme Field: `politics`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:trend:noun`** (word: "trend"):
-  - File: `abstract_concepts.json` | Level: `B1` | Theme Field: `concepts`
-  - File: `statistics.json` | Level: `B1` | Theme Field: `statistics`
-- **`en:trial:noun`** (word: "trial"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `health.json` | Level: `B2` | Theme Field: `health`
-- **`en:trip:noun`** (word: "trip"):
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:true:adjective`** (word: "true"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:try:verb`** (word: "try"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `shopping.json` | Level: `A2` | Theme Field: `shopping`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:turn:verb`** (word: "turn"):
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `transport.json` | Level: `A2` | Theme Field: `transport`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:ubiquitous:adjective`** (word: "ubiquitous"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:ugly:adjective`** (word: "ugly"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-- **`en:umbrage:adjective`** (word: "umbrage"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:umbrella:noun`** (word: "umbrella"):
-  - File: `objects.json` | Level: `A1` | Theme Field: `objects`
-  - File: `weather.json` | Level: `A1` | Theme Field: `weather`
-- **`en:uncomfortable:adjective`** (word: "uncomfortable"):
-  - File: `feelings.json` | Level: `A2` | Theme Field: `emotions`
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-- **`en:under:preposition`** (word: "under"):
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:undermine:verb`** (word: "undermine"):
-  - File: `advanced_verbs.json` | Level: `B2` | Theme Field: `actions`
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `opinions.json` | Level: `B2` | Theme Field: `communication`
-- **`en:unemployment:noun`** (word: "unemployment"):
-  - File: `society.json` | Level: `B1` | Theme Field: `society`
-  - File: `work.json` | Level: `A2` | Theme Field: `work`
-- **`en:unequivocal:adjective`** (word: "unequivocal"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:university:noun`** (word: "university"):
-  - File: `education.json` | Level: `A2` | Theme Field: `education`
-  - File: `places_transport.json` | Level: `A1` | Theme Field: `travel`
-- **`en:unless:conjunction`** (word: "unless"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `grammar.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:unnecessary:adjective`** (word: "unnecessary"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:unusual:adjective`** (word: "unusual"):
-  - File: `general_adjectives.json` | Level: `A2` | Theme Field: `descriptors`
-  - File: `word_building.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:up:preposition`** (word: "up"):
-  - File: `adverbs_connectors.json` | Level: `A2` | Theme Field: `grammar`
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `directions.json` | Level: `A1` | Theme Field: `navigation`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-  - File: `relationships.json` | Level: `B1` | Theme Field: `relationships`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:vacation:noun`** (word: "vacation"):
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `tourism.json` | Level: `A2` | Theme Field: `travel`
-- **`en:value:noun`** (word: "value"):
-  - File: `business.json` | Level: `C1` | Theme Field: `business`
-  - File: `ethics.json` | Level: `B1` | Theme Field: `ethics`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:venerate:verb`** (word: "venerate"):
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:venture:noun`** (word: "venture"):
-  - File: `economy.json` | Level: `B2` | Theme Field: `business`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:verbose:adjective`** (word: "verbose"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `synonyms.json` | Level: `C2` | Theme Field: `descriptors`
-- **`en:verdict:noun`** (word: "verdict"):
-  - File: `crime.json` | Level: `B1` | Theme Field: `law`
-  - File: `politics.json` | Level: `B2` | Theme Field: `politics`
-- **`en:verisimilitude:noun`** (word: "verisimilitude"):
-  - File: `abstract_nouns.json` | Level: `C2` | Theme Field: `concepts`
-  - File: `media.json` | Level: `C1` | Theme Field: `media`
-- **`en:very:adverb`** (word: "very"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `comparisons.json` | Level: `A2` | Theme Field: `grammar`
-- **`en:viable:adjective`** (word: "viable"):
-  - File: `general_adjectives.json` | Level: `B2` | Theme Field: `descriptors`
-  - File: `innovation.json` | Level: `B2` | Theme Field: `business`
-- **`en:vindicate:verb`** (word: "vindicate"):
-  - File: `nuanced_verbs.json` | Level: `C1` | Theme Field: `actions`
-  - File: `rare_verbs.json` | Level: `C2` | Theme Field: `actions`
-- **`en:vindictive:adjective`** (word: "vindictive"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:vitriolic:adjective`** (word: "vitriolic"):
-  - File: `rare_adjectives.json` | Level: `C2` | Theme Field: `descriptors`
-  - File: `sophisticated_adjectives.json` | Level: `C1` | Theme Field: `descriptors`
-- **`en:volatility:noun`** (word: "volatility"):
-  - File: `economy.json` | Level: `C1` | Theme Field: `business`
-  - File: `statistics.json` | Level: `B2` | Theme Field: `statistics`
-- **`en:waiter:noun`** (word: "waiter"):
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-- **`en:wake:verb`** (word: "wake"):
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:walk:verb`** (word: "walk"):
-  - File: `daily_verbs.json` | Level: `A1` | Theme Field: `activities`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-- **`en:warm:adjective`** (word: "warm"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-- **`en:watch:noun`** (word: "watch"):
-  - File: `clothes.json` | Level: `A1` | Theme Field: `clothing`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `urban_housing.json` | Level: `B1` | Theme Field: `housing`
-- **`en:water:noun`** (word: "water"):
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-  - File: `food_drink.json` | Level: `A1` | Theme Field: `food`
-- **`en:weak:adjective`** (word: "weak"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:wedding:noun`** (word: "wedding"):
-  - File: `culture.json` | Level: `A2` | Theme Field: `culture`
-  - File: `relationships.json` | Level: `A2` | Theme Field: `relationships`
-- **`en:weekend:noun`** (word: "weekend"):
-  - File: `lifestyle.json` | Level: `A2` | Theme Field: `lifestyle`
-  - File: `sports_hobbies.json` | Level: `A1` | Theme Field: `leisure`
-  - File: `time.json` | Level: `A1` | Theme Field: `time`
-- **`en:weight:noun`** (word: "weight"):
-  - File: `measurement.json` | Level: `A2` | Theme Field: `measurement`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:welcome:phrase`** (word: "welcome"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-- **`en:wellbeing:noun`** (word: "wellbeing"):
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-  - File: `psychology.json` | Level: `B2` | Theme Field: `psychology`
-- **`en:what:phrase`** (word: "what"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-- **`en:when:phrase`** (word: "when"):
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-- **`en:whereas:conjunction`** (word: "whereas"):
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-- **`en:while:conjunction`** (word: "while"):
-  - File: `adverbs_connectors.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `comparisons.json` | Level: `B1` | Theme Field: `grammar`
-- **`en:wildlife:noun`** (word: "wildlife"):
-  - File: `animals.json` | Level: `A2` | Theme Field: `nature`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-- **`en:wind:noun`** (word: "wind"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `environment.json` | Level: `A2` | Theme Field: `environment`
-- **`en:with:preposition`** (word: "with"):
-  - File: `collocations.json` | Level: `B2` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C2` | Theme Field: `communication`
-  - File: `linking_words.json` | Level: `B2` | Theme Field: `grammar`
-  - File: `phrasal_verbs.json` | Level: `B1` | Theme Field: `actions`
-  - File: `prepositions.json` | Level: `A1` | Theme Field: `grammar`
-- **`en:wood:noun`** (word: "wood"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `shapes_materials.json` | Level: `A1` | Theme Field: `shapes`
-- **`en:work-life-balance:noun`** (word: "work-life balance"):
-  - File: `health.json` | Level: `B1` | Theme Field: `health`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:work:noun`** (word: "work"):
-  - File: `academic_vocabulary.json` | Level: `C1` | Theme Field: `academic`
-  - File: `work.json` | Level: `B2` | Theme Field: `work`
-- **`en:work:verb`** (word: "work"):
-  - File: `jobs.json` | Level: `A1` | Theme Field: `work`
-  - File: `phrasal_verbs.json` | Level: `A2` | Theme Field: `actions`
-  - File: `verbs.json` | Level: `A1` | Theme Field: `actions`
-  - File: `work.json` | Level: `B1` | Theme Field: `work`
-- **`en:world:noun`** (word: "world"):
-  - File: `animals.json` | Level: `A1` | Theme Field: `animals`
-  - File: `geography.json` | Level: `A1` | Theme Field: `geography`
-- **`en:would:phrase`** (word: "would"):
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:wrong:adjective`** (word: "wrong"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:xenophobia:noun`** (word: "xenophobia"):
-  - File: `global_issues.json` | Level: `B2` | Theme Field: `politics`
-  - File: `migration.json` | Level: `B2` | Theme Field: `society`
-- **`en:you:pronoun`** (word: "you"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `expressions.json` | Level: `A1` | Theme Field: `communication`
-  - File: `idioms.json` | Level: `C1` | Theme Field: `communication`
-  - File: `pronouns.json` | Level: `A1` | Theme Field: `grammar`
-  - File: `register.json` | Level: `B1` | Theme Field: `communication`
-- **`en:young:adjective`** (word: "young"):
-  - File: `adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-  - File: `appearance.json` | Level: `A2` | Theme Field: `appearance`
-  - File: `general_adjectives.json` | Level: `A1` | Theme Field: `descriptors`
-- **`en:your:pronoun`** (word: "your"):
-  - File: `classroom_phrases.json` | Level: `A1` | Theme Field: `education`
-  - File: `idioms.json` | Level: `B1` | Theme Field: `communication`
-  - File: `pronouns.json` | Level: `A1` | Theme Field: `grammar`
+All **867 ID collisions** originally identified across theme files have been merged into single canonical entries per `word`+`form` ID.
+Each canonical entry now:
+- Retains the lowest CEFR level at which the word is introduced as its primary `level` field.
+- Includes a `levels` array property containing all CEFR levels across which the word was present (e.g., `["B1", "B2"]`).
+- Retains the richest non-placeholder definitions and examples where available.
+- Resides in a single primary theme file, with all redundant duplicate copies removed.
+
+**Current Duplicate IDs Remaining**: **0**
+
+*(Zero duplicate IDs remain in the dataset. Validation strictly enforces unique IDs across theme files.)*
 
 ---
 
@@ -2947,8 +34,8 @@ A total of **867 IDs** appear in more than one theme file across the dataset. Be
 
 ### Pattern Audit Results
 
-- **Matching Templated Entries**: **8756** / 8766 (99.89%)
-- **Non-Templated Entries**: **10** / 8766
+- **Matching Templated Entries**: **7566** / 7576 (99.87%)
+- **Non-Templated Entries**: **10** / 7576
 
 ### Identified Templated Patterns
 
@@ -2968,7 +55,7 @@ The vast majority of entries in the dataset contain automatically generated plac
 
 ### Exceptions (Non-Templated Entries)
 
-Only **10 entries** across the entire dataset contain genuine, human-authored definitions and examples (all located in `animals.json`):
+Only **10 entries** across the entire dataset contain genuine, human-authored definitions and examples (located in `animals.json`):
 
 - **`en:cat:noun`** in `animals.json`:
   - *Definition*: "A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws."
@@ -3009,111 +96,111 @@ Only **10 entries** across the entire dataset contain genuine, human-authored de
 
 | CEFR Level | Templated Entries Count | Percentage of Templated Total | Percentage of All Entries |
 |------------|------------------------|------------------------------|--------------------------|
-| **A0** | 283 | 3.23% | 3.23% |
-| **A1** | 1,479 | 16.89% | 16.87% |
-| **A2** | 1,615 | 18.44% | 18.42% |
-| **B1** | 1,609 | 18.38% | 18.36% |
-| **B2** | 1,492 | 17.04% | 17.02% |
-| **C1** | 1,211 | 13.83% | 13.81% |
-| **C2** | 1,067 | 12.19% | 12.17% |
-| **Total** | **8,756** | **100.00%** | **99.89%** |
+| **A0** | 280 | 3.70% | 3.70% |
+| **A1** | 1,291 | 17.06% | 17.04% |
+| **A2** | 1,361 | 17.99% | 17.96% |
+| **B1** | 1,354 | 17.90% | 17.87% |
+| **B2** | 1,277 | 16.88% | 16.86% |
+| **C1** | 1,052 | 13.90% | 13.89% |
+| **C2** | 951 | 12.57% | 12.55% |
+| **Total** | **7,566** | **100.00%** | **99.87%** |
 
 ### 3.2 Breakdown by Theme File and CEFR Level
 
 | Theme File | A0 | A1 | A2 | B1 | B2 | C1 | C2 | Total Templated | Total File Entries |
 |------------|----|----|----|----|----|----|----|-----------------|--------------------|
-| `abstract_concepts.json` | 0 | 0 | 0 | 46 | 0 | 0 | 0 | **46** | 46 |
-| `abstract_nouns.json` | 0 | 0 | 37 | 13 | 0 | 40 | 127 | **217** | 217 |
-| `academic_vocabulary.json` | 0 | 0 | 0 | 0 | 47 | 47 | 29 | **123** | 123 |
-| `adjectives.json` | 0 | 74 | 0 | 0 | 0 | 0 | 0 | **74** | 74 |
-| `advanced_verbs.json` | 0 | 0 | 0 | 0 | 28 | 0 | 0 | **28** | 28 |
-| `adverbs_connectors.json` | 4 | 46 | 27 | 0 | 0 | 0 | 0 | **77** | 77 |
-| `animals.json` | 7 | 51 | 48 | 0 | 0 | 0 | 0 | **106** | 116 |
-| `appearance.json` | 0 | 0 | 39 | 0 | 0 | 0 | 0 | **39** | 39 |
-| `arts.json` | 0 | 0 | 0 | 0 | 0 | 21 | 0 | **21** | 21 |
+| `abstract_concepts.json` | 0 | 0 | 0 | 35 | 0 | 0 | 0 | **35** | 35 |
+| `abstract_nouns.json` | 0 | 0 | 34 | 9 | 0 | 26 | 113 | **182** | 182 |
+| `academic_vocabulary.json` | 0 | 0 | 0 | 0 | 29 | 29 | 28 | **86** | 86 |
+| `adjectives.json` | 0 | 69 | 0 | 0 | 0 | 0 | 0 | **69** | 69 |
+| `advanced_verbs.json` | 0 | 0 | 0 | 0 | 22 | 0 | 0 | **22** | 22 |
+| `adverbs_connectors.json` | 4 | 46 | 19 | 0 | 0 | 0 | 0 | **69** | 69 |
+| `animals.json` | 7 | 51 | 46 | 0 | 0 | 0 | 0 | **104** | 114 |
+| `appearance.json` | 0 | 0 | 28 | 0 | 0 | 0 | 0 | **28** | 28 |
+| `arts.json` | 0 | 0 | 0 | 0 | 0 | 17 | 0 | **17** | 17 |
 | `auxiliary_verbs.json` | 0 | 23 | 0 | 0 | 0 | 0 | 0 | **23** | 23 |
-| `body_health.json` | 1 | 53 | 0 | 0 | 0 | 0 | 0 | **54** | 54 |
-| `business.json` | 0 | 0 | 0 | 0 | 0 | 58 | 0 | **58** | 58 |
-| `cause_effect.json` | 0 | 0 | 0 | 25 | 0 | 0 | 0 | **25** | 25 |
-| `classroom_phrases.json` | 0 | 55 | 0 | 0 | 0 | 0 | 0 | **55** | 55 |
-| `clothes.json` | 8 | 34 | 0 | 0 | 0 | 0 | 0 | **42** | 42 |
-| `collocations.json` | 0 | 0 | 0 | 56 | 67 | 65 | 0 | **188** | 188 |
+| `body_health.json` | 1 | 51 | 0 | 0 | 0 | 0 | 0 | **52** | 52 |
+| `business.json` | 0 | 0 | 0 | 0 | 0 | 47 | 0 | **47** | 47 |
+| `cause_effect.json` | 0 | 0 | 0 | 15 | 0 | 0 | 0 | **15** | 15 |
+| `classroom_phrases.json` | 0 | 54 | 0 | 0 | 0 | 0 | 0 | **54** | 54 |
+| `clothes.json` | 8 | 31 | 0 | 0 | 0 | 0 | 0 | **39** | 39 |
+| `collocations.json` | 0 | 0 | 0 | 56 | 52 | 59 | 0 | **167** | 167 |
 | `colors.json` | 4 | 18 | 0 | 0 | 0 | 0 | 0 | **22** | 22 |
-| `common_nouns.json` | 6 | 60 | 15 | 0 | 0 | 0 | 0 | **81** | 81 |
-| `communication.json` | 0 | 0 | 29 | 22 | 39 | 36 | 16 | **142** | 142 |
-| `comparisons.json` | 0 | 0 | 54 | 37 | 19 | 23 | 0 | **133** | 133 |
-| `conflict.json` | 0 | 0 | 0 | 0 | 0 | 20 | 0 | **20** | 20 |
-| `consumer_items.json` | 0 | 0 | 25 | 0 | 0 | 0 | 0 | **25** | 25 |
-| `cooking.json` | 0 | 0 | 67 | 0 | 0 | 0 | 0 | **67** | 67 |
-| `crime.json` | 0 | 0 | 37 | 22 | 24 | 20 | 0 | **103** | 103 |
-| `culture.json` | 0 | 0 | 28 | 42 | 19 | 0 | 0 | **89** | 89 |
-| `daily_verbs.json` | 0 | 78 | 0 | 0 | 0 | 0 | 0 | **78** | 78 |
-| `directions.json` | 14 | 35 | 18 | 0 | 0 | 0 | 0 | **67** | 67 |
-| `economy.json` | 0 | 0 | 0 | 52 | 66 | 18 | 44 | **180** | 180 |
-| `education.json` | 0 | 0 | 49 | 46 | 48 | 16 | 0 | **159** | 159 |
-| `emotions.json` | 0 | 0 | 21 | 43 | 26 | 21 | 12 | **123** | 123 |
-| `environment.json` | 0 | 0 | 44 | 44 | 46 | 36 | 0 | **170** | 170 |
-| `ethics.json` | 0 | 0 | 0 | 27 | 41 | 19 | 45 | **132** | 132 |
-| `expressions.json` | 89 | 38 | 122 | 40 | 30 | 0 | 0 | **319** | 319 |
-| `family.json` | 33 | 40 | 0 | 34 | 0 | 0 | 16 | **123** | 123 |
-| `feelings.json` | 3 | 24 | 37 | 0 | 0 | 0 | 0 | **64** | 64 |
-| `food_drink.json` | 5 | 70 | 0 | 0 | 0 | 0 | 0 | **75** | 75 |
-| `food_health.json` | 0 | 0 | 0 | 28 | 0 | 0 | 0 | **28** | 28 |
-| `general_adjectives.json` | 4 | 73 | 63 | 0 | 50 | 0 | 0 | **190** | 190 |
-| `geography.json` | 0 | 29 | 0 | 34 | 0 | 0 | 0 | **63** | 63 |
-| `global_issues.json` | 0 | 0 | 0 | 25 | 29 | 0 | 0 | **54** | 54 |
-| `grammar.json` | 0 | 0 | 0 | 41 | 0 | 0 | 0 | **41** | 41 |
-| `health.json` | 0 | 0 | 53 | 45 | 53 | 23 | 0 | **174** | 174 |
-| `house_furniture.json` | 5 | 61 | 0 | 0 | 0 | 0 | 0 | **66** | 66 |
-| `idioms.json` | 0 | 0 | 0 | 85 | 90 | 138 | 103 | **416** | 416 |
-| `innovation.json` | 0 | 0 | 0 | 0 | 32 | 0 | 0 | **32** | 32 |
-| `jobs.json` | 13 | 35 | 0 | 0 | 0 | 0 | 0 | **48** | 48 |
-| `lifestyle.json` | 0 | 0 | 28 | 0 | 18 | 0 | 0 | **46** | 46 |
-| `linking_words.json` | 0 | 0 | 19 | 20 | 63 | 56 | 58 | **216** | 216 |
-| `literary_devices.json` | 0 | 0 | 0 | 0 | 0 | 0 | 22 | **22** | 22 |
-| `living.json` | 0 | 0 | 50 | 0 | 0 | 0 | 0 | **50** | 50 |
-| `measurement.json` | 0 | 19 | 43 | 0 | 0 | 0 | 0 | **62** | 62 |
-| `media.json` | 0 | 0 | 54 | 53 | 43 | 36 | 14 | **200** | 200 |
-| `migration.json` | 0 | 0 | 0 | 0 | 24 | 0 | 0 | **24** | 24 |
-| `money_shopping.json` | 0 | 23 | 0 | 0 | 0 | 0 | 0 | **23** | 23 |
-| `nationalities.json` | 3 | 18 | 0 | 0 | 0 | 0 | 0 | **21** | 21 |
-| `nature.json` | 0 | 0 | 0 | 0 | 31 | 0 | 0 | **31** | 31 |
-| `nuanced_verbs.json` | 0 | 0 | 0 | 0 | 0 | 42 | 0 | **42** | 42 |
+| `common_nouns.json` | 6 | 55 | 15 | 0 | 0 | 0 | 0 | **76** | 76 |
+| `communication.json` | 0 | 0 | 28 | 20 | 37 | 31 | 16 | **132** | 132 |
+| `comparisons.json` | 0 | 0 | 49 | 22 | 19 | 23 | 0 | **113** | 113 |
+| `conflict.json` | 0 | 0 | 0 | 0 | 0 | 15 | 0 | **15** | 15 |
+| `consumer_items.json` | 0 | 0 | 18 | 0 | 0 | 0 | 0 | **18** | 18 |
+| `cooking.json` | 0 | 0 | 51 | 0 | 0 | 0 | 0 | **51** | 51 |
+| `crime.json` | 0 | 0 | 32 | 17 | 18 | 14 | 0 | **81** | 81 |
+| `culture.json` | 0 | 0 | 22 | 36 | 19 | 0 | 0 | **77** | 77 |
+| `daily_verbs.json` | 0 | 74 | 0 | 0 | 0 | 0 | 0 | **74** | 74 |
+| `directions.json` | 14 | 31 | 18 | 0 | 0 | 0 | 0 | **63** | 63 |
+| `economy.json` | 0 | 0 | 0 | 43 | 57 | 16 | 35 | **151** | 151 |
+| `education.json` | 0 | 0 | 39 | 41 | 42 | 13 | 0 | **135** | 135 |
+| `emotions.json` | 0 | 0 | 21 | 42 | 26 | 21 | 12 | **122** | 122 |
+| `environment.json` | 0 | 0 | 36 | 42 | 44 | 30 | 0 | **152** | 152 |
+| `ethics.json` | 0 | 0 | 0 | 24 | 39 | 17 | 42 | **122** | 122 |
+| `expressions.json` | 87 | 30 | 122 | 40 | 30 | 0 | 0 | **309** | 309 |
+| `family.json` | 33 | 40 | 0 | 30 | 0 | 0 | 16 | **119** | 119 |
+| `feelings.json` | 3 | 15 | 35 | 0 | 0 | 0 | 0 | **53** | 53 |
+| `food_drink.json` | 5 | 66 | 0 | 0 | 0 | 0 | 0 | **71** | 71 |
+| `food_health.json` | 0 | 0 | 0 | 23 | 0 | 0 | 0 | **23** | 23 |
+| `general_adjectives.json` | 4 | 34 | 60 | 0 | 47 | 0 | 0 | **145** | 145 |
+| `geography.json` | 0 | 28 | 0 | 30 | 0 | 0 | 0 | **58** | 58 |
+| `global_issues.json` | 0 | 0 | 0 | 13 | 16 | 0 | 0 | **29** | 29 |
+| `grammar.json` | 0 | 0 | 0 | 37 | 0 | 0 | 0 | **37** | 37 |
+| `health.json` | 0 | 0 | 50 | 42 | 43 | 23 | 0 | **158** | 158 |
+| `house_furniture.json` | 5 | 55 | 0 | 0 | 0 | 0 | 0 | **60** | 60 |
+| `idioms.json` | 0 | 0 | 0 | 65 | 86 | 121 | 91 | **363** | 363 |
+| `innovation.json` | 0 | 0 | 0 | 0 | 19 | 0 | 0 | **19** | 19 |
+| `jobs.json` | 13 | 31 | 0 | 0 | 0 | 0 | 0 | **44** | 44 |
+| `lifestyle.json` | 0 | 0 | 20 | 0 | 18 | 0 | 0 | **38** | 38 |
+| `linking_words.json` | 0 | 0 | 19 | 20 | 49 | 49 | 48 | **185** | 185 |
+| `literary_devices.json` | 0 | 0 | 0 | 0 | 0 | 0 | 19 | **19** | 19 |
+| `living.json` | 0 | 0 | 44 | 0 | 0 | 0 | 0 | **44** | 44 |
+| `measurement.json` | 0 | 19 | 40 | 0 | 0 | 0 | 0 | **59** | 59 |
+| `media.json` | 0 | 0 | 44 | 48 | 38 | 33 | 14 | **177** | 177 |
+| `migration.json` | 0 | 0 | 0 | 0 | 15 | 0 | 0 | **15** | 15 |
+| `money_shopping.json` | 0 | 17 | 0 | 0 | 0 | 0 | 0 | **17** | 17 |
+| `nationalities.json` | 3 | 15 | 0 | 0 | 0 | 0 | 0 | **18** | 18 |
+| `nature.json` | 0 | 0 | 0 | 0 | 17 | 0 | 0 | **17** | 17 |
+| `nuanced_verbs.json` | 0 | 0 | 0 | 0 | 0 | 34 | 0 | **34** | 34 |
 | `numbers.json` | 3 | 52 | 0 | 0 | 0 | 0 | 0 | **55** | 55 |
-| `objects.json` | 1 | 48 | 0 | 0 | 0 | 0 | 0 | **49** | 49 |
-| `opinions.json` | 0 | 0 | 66 | 84 | 73 | 20 | 0 | **243** | 243 |
-| `personality.json` | 0 | 0 | 55 | 22 | 33 | 20 | 0 | **130** | 130 |
-| `phrasal_verbs.json` | 0 | 0 | 79 | 73 | 70 | 42 | 0 | **264** | 264 |
-| `places_transport.json` | 11 | 57 | 37 | 0 | 0 | 0 | 0 | **105** | 105 |
-| `politics.json` | 0 | 0 | 0 | 41 | 37 | 46 | 53 | **177** | 177 |
-| `prepositions.json` | 4 | 27 | 0 | 0 | 0 | 0 | 0 | **31** | 31 |
-| `pronouns.json` | 15 | 38 | 0 | 0 | 0 | 0 | 0 | **53** | 53 |
-| `psychology.json` | 0 | 0 | 0 | 0 | 49 | 39 | 20 | **108** | 108 |
-| `rare_adjectives.json` | 0 | 0 | 0 | 0 | 0 | 0 | 189 | **189** | 189 |
-| `rare_verbs.json` | 0 | 0 | 0 | 0 | 0 | 0 | 169 | **169** | 169 |
-| `register.json` | 0 | 0 | 0 | 45 | 34 | 37 | 30 | **146** | 146 |
-| `relationships.json` | 0 | 0 | 59 | 44 | 44 | 0 | 11 | **158** | 158 |
-| `rhetoric.json` | 0 | 0 | 0 | 0 | 0 | 18 | 42 | **60** | 60 |
-| `school.json` | 4 | 40 | 0 | 0 | 0 | 0 | 0 | **44** | 44 |
-| `science.json` | 0 | 0 | 0 | 33 | 45 | 40 | 0 | **118** | 118 |
-| `shapes_materials.json` | 0 | 29 | 0 | 0 | 0 | 0 | 0 | **29** | 29 |
-| `shopping.json` | 1 | 0 | 61 | 0 | 0 | 0 | 0 | **62** | 62 |
-| `society.json` | 0 | 0 | 0 | 47 | 25 | 44 | 20 | **136** | 136 |
-| `sophisticated_adjectives.json` | 0 | 0 | 0 | 0 | 0 | 71 | 0 | **71** | 71 |
-| `sports.json` | 0 | 0 | 12 | 30 | 0 | 0 | 0 | **42** | 42 |
-| `sports_hobbies.json` | 4 | 44 | 51 | 0 | 0 | 0 | 0 | **99** | 99 |
-| `statistics.json` | 0 | 0 | 0 | 57 | 28 | 0 | 0 | **85** | 85 |
-| `synonyms.json` | 0 | 0 | 0 | 0 | 0 | 50 | 47 | **97** | 97 |
-| `technology.json` | 4 | 25 | 0 | 48 | 0 | 0 | 0 | **77** | 77 |
-| `time.json` | 4 | 60 | 32 | 43 | 18 | 17 | 0 | **174** | 174 |
-| `tourism.json` | 0 | 0 | 60 | 0 | 0 | 0 | 0 | **60** | 60 |
-| `transport.json` | 5 | 0 | 35 | 0 | 0 | 0 | 0 | **40** | 40 |
-| `urban_housing.json` | 0 | 0 | 0 | 28 | 25 | 0 | 0 | **53** | 53 |
-| `verbs.json` | 27 | 97 | 0 | 19 | 0 | 0 | 0 | **143** | 143 |
-| `verbs_cognition.json` | 0 | 0 | 0 | 20 | 0 | 0 | 0 | **20** | 20 |
-| `weather.json` | 1 | 5 | 14 | 0 | 0 | 0 | 0 | **20** | 20 |
-| `word_building.json` | 0 | 0 | 0 | 47 | 20 | 17 | 0 | **84** | 84 |
-| `work.json` | 0 | 0 | 47 | 48 | 58 | 15 | 0 | **168** | 168 |
+| `objects.json` | 1 | 47 | 0 | 0 | 0 | 0 | 0 | **48** | 48 |
+| `opinions.json` | 0 | 0 | 50 | 78 | 63 | 20 | 0 | **211** | 211 |
+| `personality.json` | 0 | 0 | 46 | 22 | 33 | 20 | 0 | **121** | 121 |
+| `phrasal_verbs.json` | 0 | 0 | 47 | 63 | 70 | 42 | 0 | **222** | 222 |
+| `places_transport.json` | 10 | 46 | 29 | 0 | 0 | 0 | 0 | **85** | 85 |
+| `politics.json` | 0 | 0 | 0 | 34 | 32 | 45 | 53 | **164** | 164 |
+| `prepositions.json` | 4 | 18 | 0 | 0 | 0 | 0 | 0 | **22** | 22 |
+| `pronouns.json` | 15 | 35 | 0 | 0 | 0 | 0 | 0 | **50** | 50 |
+| `psychology.json` | 0 | 0 | 0 | 0 | 38 | 34 | 20 | **92** | 92 |
+| `rare_adjectives.json` | 0 | 0 | 0 | 0 | 0 | 0 | 174 | **174** | 174 |
+| `rare_verbs.json` | 0 | 0 | 0 | 0 | 0 | 0 | 148 | **148** | 148 |
+| `register.json` | 0 | 0 | 0 | 30 | 34 | 37 | 30 | **131** | 131 |
+| `relationships.json` | 0 | 0 | 50 | 41 | 43 | 0 | 11 | **145** | 145 |
+| `rhetoric.json` | 0 | 0 | 0 | 0 | 0 | 18 | 38 | **56** | 56 |
+| `school.json` | 4 | 32 | 0 | 0 | 0 | 0 | 0 | **36** | 36 |
+| `science.json` | 0 | 0 | 0 | 27 | 41 | 33 | 0 | **101** | 101 |
+| `shapes_materials.json` | 0 | 20 | 0 | 0 | 0 | 0 | 0 | **20** | 20 |
+| `shopping.json` | 1 | 0 | 48 | 0 | 0 | 0 | 0 | **49** | 49 |
+| `society.json` | 0 | 0 | 0 | 33 | 22 | 33 | 20 | **108** | 108 |
+| `sophisticated_adjectives.json` | 0 | 0 | 0 | 0 | 0 | 68 | 0 | **68** | 68 |
+| `sports.json` | 0 | 0 | 11 | 22 | 0 | 0 | 0 | **33** | 33 |
+| `sports_hobbies.json` | 4 | 30 | 42 | 0 | 0 | 0 | 0 | **76** | 76 |
+| `statistics.json` | 0 | 0 | 0 | 48 | 20 | 0 | 0 | **68** | 68 |
+| `synonyms.json` | 0 | 0 | 0 | 0 | 0 | 36 | 23 | **59** | 59 |
+| `technology.json` | 4 | 25 | 0 | 40 | 0 | 0 | 0 | **69** | 69 |
+| `time.json` | 4 | 60 | 29 | 38 | 18 | 17 | 0 | **166** | 166 |
+| `tourism.json` | 0 | 0 | 49 | 0 | 0 | 0 | 0 | **49** | 49 |
+| `transport.json` | 5 | 0 | 17 | 0 | 0 | 0 | 0 | **22** | 22 |
+| `urban_housing.json` | 0 | 0 | 0 | 18 | 16 | 0 | 0 | **34** | 34 |
+| `verbs.json` | 27 | 69 | 0 | 18 | 0 | 0 | 0 | **114** | 114 |
+| `verbs_cognition.json` | 0 | 0 | 0 | 14 | 0 | 0 | 0 | **14** | 14 |
+| `weather.json` | 1 | 4 | 14 | 0 | 0 | 0 | 0 | **19** | 19 |
+| `word_building.json` | 0 | 0 | 0 | 36 | 18 | 16 | 0 | **70** | 70 |
+| `work.json` | 0 | 0 | 39 | 42 | 47 | 15 | 0 | **143** | 143 |
 
 ---
 
@@ -3154,95 +241,685 @@ Across the 92 theme files, many JSON files use broader taxonomy categories for t
 
 | Theme File | Total Entries | Entry `theme` Values Present & Counts |
 |------------|---------------|----------------------------------------|
-| `abstract_concepts.json` | 46 | `concepts`: 46 |
-| `abstract_nouns.json` | 217 | `concepts`: 167, `general`: 50 |
-| `academic_vocabulary.json` | 123 | `academic`: 123 |
-| `adjectives.json` | 74 | `descriptors`: 74 |
-| `advanced_verbs.json` | 28 | `actions`: 28 |
-| `adverbs_connectors.json` | 77 | `grammar`: 77 |
-| `animals.json` | 116 | `animals`: 68, `nature`: 48 |
-| `appearance.json` | 39 | `appearance`: 39 |
-| `arts.json` | 21 | `arts`: 21 |
+| `abstract_concepts.json` | 35 | `concepts`: 35 |
+| `abstract_nouns.json` | 182 | `concepts`: 139, `general`: 43 |
+| `academic_vocabulary.json` | 86 | `academic`: 86 |
+| `adjectives.json` | 69 | `descriptors`: 69 |
+| `advanced_verbs.json` | 22 | `actions`: 22 |
+| `adverbs_connectors.json` | 69 | `grammar`: 69 |
+| `animals.json` | 114 | `animals`: 68, `nature`: 46 |
+| `appearance.json` | 28 | `appearance`: 28 |
+| `arts.json` | 17 | `arts`: 17 |
 | `auxiliary_verbs.json` | 23 | `grammar`: 23 |
-| `body_health.json` | 54 | `health`: 54 |
-| `business.json` | 58 | `business`: 58 |
-| `cause_effect.json` | 25 | `concepts`: 25 |
-| `classroom_phrases.json` | 55 | `education`: 55 |
-| `clothes.json` | 42 | `clothing`: 42 |
-| `collocations.json` | 188 | `communication`: 188 |
+| `body_health.json` | 52 | `health`: 52 |
+| `business.json` | 47 | `business`: 47 |
+| `cause_effect.json` | 15 | `concepts`: 15 |
+| `classroom_phrases.json` | 54 | `education`: 54 |
+| `clothes.json` | 39 | `clothing`: 39 |
+| `collocations.json` | 167 | `communication`: 167 |
 | `colors.json` | 22 | `colors`: 22 |
-| `common_nouns.json` | 81 | `general`: 81 |
-| `communication.json` | 142 | `communication`: 142 |
-| `comparisons.json` | 133 | `grammar`: 133 |
-| `conflict.json` | 20 | `politics`: 20 |
-| `consumer_items.json` | 25 | `shopping`: 25 |
-| `cooking.json` | 67 | `food`: 67 |
-| `crime.json` | 103 | `law`: 103 |
-| `culture.json` | 89 | `culture`: 89 |
-| `daily_verbs.json` | 78 | `activities`: 78 |
-| `directions.json` | 67 | `navigation`: 67 |
-| `economy.json` | 180 | `business`: 180 |
-| `education.json` | 159 | `education`: 159 |
-| `emotions.json` | 123 | `emotions`: 123 |
-| `environment.json` | 170 | `environment`: 163, `society`: 7 |
-| `ethics.json` | 132 | `ethics`: 132 |
-| `expressions.json` | 319 | `communication`: 296, `grammar`: 23 |
-| `family.json` | 123 | `family`: 123 |
-| `feelings.json` | 64 | `emotions`: 64 |
-| `food_drink.json` | 75 | `food`: 75 |
-| `food_health.json` | 28 | `health`: 28 |
-| `general_adjectives.json` | 190 | `descriptors`: 190 |
-| `geography.json` | 63 | `geography`: 63 |
-| `global_issues.json` | 54 | `politics`: 54 |
-| `grammar.json` | 41 | `grammar`: 41 |
-| `health.json` | 174 | `health`: 174 |
-| `house_furniture.json` | 66 | `housing`: 66 |
-| `idioms.json` | 416 | `communication`: 416 |
-| `innovation.json` | 32 | `business`: 32 |
-| `jobs.json` | 48 | `work`: 48 |
-| `lifestyle.json` | 46 | `lifestyle`: 46 |
-| `linking_words.json` | 216 | `grammar`: 216 |
-| `literary_devices.json` | 22 | `media`: 22 |
-| `living.json` | 50 | `housing`: 50 |
-| `measurement.json` | 62 | `measurement`: 62 |
-| `media.json` | 200 | `media`: 146, `technology`: 54 |
-| `migration.json` | 24 | `society`: 24 |
-| `money_shopping.json` | 23 | `shopping`: 23 |
-| `nationalities.json` | 21 | `geography`: 21 |
-| `nature.json` | 31 | `nature`: 31 |
-| `nuanced_verbs.json` | 42 | `actions`: 42 |
+| `common_nouns.json` | 76 | `general`: 76 |
+| `communication.json` | 132 | `communication`: 132 |
+| `comparisons.json` | 113 | `grammar`: 113 |
+| `conflict.json` | 15 | `politics`: 15 |
+| `consumer_items.json` | 18 | `shopping`: 18 |
+| `cooking.json` | 51 | `food`: 51 |
+| `crime.json` | 81 | `law`: 81 |
+| `culture.json` | 77 | `culture`: 77 |
+| `daily_verbs.json` | 74 | `activities`: 74 |
+| `directions.json` | 63 | `navigation`: 63 |
+| `economy.json` | 151 | `business`: 151 |
+| `education.json` | 135 | `education`: 135 |
+| `emotions.json` | 122 | `emotions`: 122 |
+| `environment.json` | 152 | `environment`: 145, `society`: 7 |
+| `ethics.json` | 122 | `ethics`: 122 |
+| `expressions.json` | 309 | `communication`: 286, `grammar`: 23 |
+| `family.json` | 119 | `family`: 119 |
+| `feelings.json` | 53 | `emotions`: 53 |
+| `food_drink.json` | 71 | `food`: 71 |
+| `food_health.json` | 23 | `health`: 23 |
+| `general_adjectives.json` | 145 | `descriptors`: 145 |
+| `geography.json` | 58 | `geography`: 58 |
+| `global_issues.json` | 29 | `politics`: 29 |
+| `grammar.json` | 37 | `grammar`: 37 |
+| `health.json` | 158 | `health`: 158 |
+| `house_furniture.json` | 60 | `housing`: 60 |
+| `idioms.json` | 363 | `communication`: 363 |
+| `innovation.json` | 19 | `business`: 19 |
+| `jobs.json` | 44 | `work`: 44 |
+| `lifestyle.json` | 38 | `lifestyle`: 38 |
+| `linking_words.json` | 185 | `grammar`: 185 |
+| `literary_devices.json` | 19 | `media`: 19 |
+| `living.json` | 44 | `housing`: 44 |
+| `measurement.json` | 59 | `measurement`: 59 |
+| `media.json` | 177 | `technology`: 44, `media`: 133 |
+| `migration.json` | 15 | `society`: 15 |
+| `money_shopping.json` | 17 | `shopping`: 17 |
+| `nationalities.json` | 18 | `geography`: 18 |
+| `nature.json` | 17 | `nature`: 17 |
+| `nuanced_verbs.json` | 34 | `actions`: 34 |
 | `numbers.json` | 55 | `numbers`: 55 |
-| `objects.json` | 49 | `objects`: 49 |
-| `opinions.json` | 243 | `communication`: 243 |
-| `personality.json` | 130 | `personality`: 130 |
-| `phrasal_verbs.json` | 264 | `actions`: 264 |
-| `places_transport.json` | 105 | `travel`: 68, `places`: 37 |
-| `politics.json` | 177 | `politics`: 177 |
-| `prepositions.json` | 31 | `grammar`: 31 |
-| `pronouns.json` | 53 | `grammar`: 53 |
-| `psychology.json` | 108 | `psychology`: 108 |
-| `rare_adjectives.json` | 189 | `descriptors`: 189 |
-| `rare_verbs.json` | 169 | `actions`: 169 |
-| `register.json` | 146 | `communication`: 146 |
-| `relationships.json` | 158 | `relationships`: 158 |
-| `rhetoric.json` | 60 | `communication`: 60 |
-| `school.json` | 44 | `education`: 44 |
-| `science.json` | 118 | `science`: 118 |
-| `shapes_materials.json` | 29 | `shapes`: 29 |
-| `shopping.json` | 62 | `shopping`: 62 |
-| `society.json` | 136 | `society`: 136 |
-| `sophisticated_adjectives.json` | 71 | `descriptors`: 71 |
-| `sports.json` | 42 | `sports`: 42 |
-| `sports_hobbies.json` | 99 | `leisure`: 99 |
-| `statistics.json` | 85 | `statistics`: 85 |
-| `synonyms.json` | 97 | `descriptors`: 97 |
-| `technology.json` | 77 | `technology`: 77 |
-| `time.json` | 174 | `time`: 174 |
-| `tourism.json` | 60 | `travel`: 60 |
-| `transport.json` | 40 | `transport`: 40 |
-| `urban_housing.json` | 53 | `housing`: 53 |
-| `verbs.json` | 143 | `actions`: 124, `communication`: 19 |
-| `verbs_cognition.json` | 20 | `cognition`: 20 |
-| `weather.json` | 20 | `weather`: 20 |
-| `word_building.json` | 84 | `grammar`: 84 |
-| `work.json` | 168 | `work`: 168 |
+| `objects.json` | 48 | `objects`: 48 |
+| `opinions.json` | 211 | `communication`: 211 |
+| `personality.json` | 121 | `personality`: 121 |
+| `phrasal_verbs.json` | 222 | `actions`: 222 |
+| `places_transport.json` | 85 | `travel`: 56, `places`: 29 |
+| `politics.json` | 164 | `politics`: 164 |
+| `prepositions.json` | 22 | `grammar`: 22 |
+| `pronouns.json` | 50 | `grammar`: 50 |
+| `psychology.json` | 92 | `psychology`: 92 |
+| `rare_adjectives.json` | 174 | `descriptors`: 174 |
+| `rare_verbs.json` | 148 | `actions`: 148 |
+| `register.json` | 131 | `communication`: 131 |
+| `relationships.json` | 145 | `relationships`: 145 |
+| `rhetoric.json` | 56 | `communication`: 56 |
+| `school.json` | 36 | `education`: 36 |
+| `science.json` | 101 | `science`: 101 |
+| `shapes_materials.json` | 20 | `shapes`: 20 |
+| `shopping.json` | 49 | `shopping`: 49 |
+| `society.json` | 108 | `society`: 108 |
+| `sophisticated_adjectives.json` | 68 | `descriptors`: 68 |
+| `sports.json` | 33 | `sports`: 33 |
+| `sports_hobbies.json` | 76 | `leisure`: 76 |
+| `statistics.json` | 68 | `statistics`: 68 |
+| `synonyms.json` | 59 | `descriptors`: 59 |
+| `technology.json` | 69 | `technology`: 69 |
+| `time.json` | 166 | `time`: 166 |
+| `tourism.json` | 49 | `travel`: 49 |
+| `transport.json` | 22 | `transport`: 22 |
+| `urban_housing.json` | 34 | `housing`: 34 |
+| `verbs.json` | 114 | `actions`: 96, `communication`: 18 |
+| `verbs_cognition.json` | 14 | `cognition`: 14 |
+| `weather.json` | 19 | `weather`: 19 |
+| `word_building.json` | 70 | `grammar`: 70 |
+| `work.json` | 143 | `work`: 143 |
+
+---
+
+## 5. Follow-up List: Merged Entries Requiring Human Definition Review
+
+The following **583 merged entries** were created by consolidating multi-level ID collisions, but currently possess only placeholder definitions and examples. Content editors should review and replace these placeholder definitions/examples with rich, human-authored content:
+
+- **`en:a:article`** (word: "a") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2, C1]`
+- **`en:about:preposition`** (word: "about") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:accountability:noun`** (word: "accountability") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:acknowledge:verb`** (word: "acknowledge") in `opinions.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:actor:noun`** (word: "actor") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:advantage:noun`** (word: "advantage") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:after:preposition`** (word: "after") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:agree:verb`** (word: "agree") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:agreement:noun`** (word: "agreement") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:airport:noun`** (word: "airport") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:algorithm:noun`** (word: "algorithm") in `technology.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:all:adverb`** (word: "all") in `adverbs_connectors.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:although:conjunction`** (word: "although") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:ambiguous:adjective`** (word: "ambiguous") in `communication.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:ameliorate:verb`** (word: "ameliorate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:an:article`** (word: "an") in `idioms.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:analyse:verb`** (word: "analyse") in `education.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:analysis:noun`** (word: "analysis") in `science.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:analyze:verb`** (word: "analyze") in `science.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:ancient:adjective`** (word: "ancient") in `general_adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:and:conjunction`** (word: "and") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, B2, C2]`
+- **`en:angry:adjective`** (word: "angry") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:anomaly:noun`** (word: "anomaly") in `statistics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:anticipate:verb`** (word: "anticipate") in `verbs_cognition.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:apologize:verb`** (word: "apologize") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:approach:noun`** (word: "approach") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2, C1]`
+- **`en:approximately:noun`** (word: "approximately") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:archetype:noun`** (word: "archetype") in `media.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:argue:verb`** (word: "argue") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:argument:noun`** (word: "argument") in `communication.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:art:noun`** (word: "art") in `school.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:articulate:verb`** (word: "articulate") in `advanced_verbs.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:as:phrase`** (word: "as") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:assert:verb`** (word: "assert") in `opinions.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:assumption:noun`** (word: "assumption") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:asylum:noun`** (word: "asylum") in `society.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:at:preposition`** (word: "at") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1, C1, C2]`
+- **`en:attitude:noun`** (word: "attitude") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:autonomy:noun`** (word: "autonomy") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:avant-garde:noun`** (word: "avant-garde") in `media.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:average:noun`** (word: "average") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:awareness:noun`** (word: "awareness") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:bake:verb`** (word: "bake") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:balance:noun`** (word: "balance") in `lifestyle.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:balanced:adjective`** (word: "balanced") in `health.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:be:phrase`** (word: "be") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:beautiful:adjective`** (word: "beautiful") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:behavior:noun`** (word: "behavior") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:behaviour:noun`** (word: "behaviour") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:belief:noun`** (word: "belief") in `culture.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:belt:noun`** (word: "belt") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:between:preposition`** (word: "between") in `directions.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:bias:noun`** (word: "bias") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:big:adjective`** (word: "big") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:bill:noun`** (word: "bill") in `food_drink.json` | Intro Level: `A1` | All Levels: `[A1, A2, B2]`
+- **`en:biodiversity:noun`** (word: "biodiversity") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:board:noun`** (word: "board") in `school.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:boil:verb`** (word: "boil") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:book:noun`** (word: "book") in `school.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:border:noun`** (word: "border") in `geography.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:boundaries:noun`** (word: "boundaries") in `relationships.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:brand:noun`** (word: "brand") in `shopping.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:break:verb`** (word: "break") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:budget:noun`** (word: "budget") in `shopping.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:bus:noun`** (word: "bus") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:but:conjunction`** (word: "but") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:by:preposition`** (word: "by") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B2, C2]`
+- **`en:calm:adjective`** (word: "calm") in `feelings.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:can:phrase`** (word: "can") in `expressions.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:capital:noun`** (word: "capital") in `geography.json` | Intro Level: `A1` | All Levels: `[A1, B2, C1]`
+- **`en:capitulate:verb`** (word: "capitulate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:capricious:adjective`** (word: "capricious") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:carbon:noun`** (word: "carbon") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:card:noun`** (word: "card") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:careful:adjective`** (word: "careful") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:careless:adjective`** (word: "careless") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:carry:verb`** (word: "carry") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:cash:noun`** (word: "cash") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:catch:verb`** (word: "catch") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:ceiling:noun`** (word: "ceiling") in `house_furniture.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:championship:noun`** (word: "championship") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:choose:verb`** (word: "choose") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:circumvent:verb`** (word: "circumvent") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:city:noun`** (word: "city") in `geography.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:class:noun`** (word: "class") in `school.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:clean:adjective`** (word: "clean") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:climate:noun`** (word: "climate") in `weather.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:clock:noun`** (word: "clock") in `house_furniture.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:cloud:noun`** (word: "cloud") in `animals.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:club:noun`** (word: "club") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:coach:verb`** (word: "coach") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:coalesce:verb`** (word: "coalesce") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:coherence:noun`** (word: "coherence") in `academic_vocabulary.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:college:noun`** (word: "college") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:come:phrase`** (word: "come") in `collocations.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:come:verb`** (word: "come") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:comfortable:adjective`** (word: "comfortable") in `feelings.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:community:noun`** (word: "community") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:company:noun`** (word: "company") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:compare:verb`** (word: "compare") in `opinions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:competition:noun`** (word: "competition") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:concept:noun`** (word: "concept") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:condition:noun`** (word: "condition") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:conditioning:noun`** (word: "conditioning") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:conflate:verb`** (word: "conflate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:conflict:noun`** (word: "conflict") in `global_issues.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:connotation:noun`** (word: "connotation") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:consciousness:noun`** (word: "consciousness") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:consequence:noun`** (word: "consequence") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:conservation:noun`** (word: "conservation") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:contend:verb`** (word: "contend") in `opinions.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:content:adjective`** (word: "content") in `emotions.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:context:noun`** (word: "context") in `communication.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:contract:noun`** (word: "contract") in `work.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:control:noun`** (word: "control") in `science.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:controversial:adjective`** (word: "controversial") in `opinions.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:corporation:noun`** (word: "corporation") in `economy.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:could:phrase`** (word: "could") in `register.json` | Intro Level: `B1` | All Levels: `[B1, C2]`
+- **`en:course:phrase`** (word: "course") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B2, C2]`
+- **`en:creative:noun`** (word: "creative") in `arts.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:crisis:noun`** (word: "crisis") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:critical:adjective`** (word: "critical") in `education.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:cultural:noun`** (word: "cultural") in `global_issues.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:culture:noun`** (word: "culture") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2, C1]`
+- **`en:custom:noun`** (word: "custom") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:damage:noun`** (word: "damage") in `geography.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:data:noun`** (word: "data") in `media.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:date:verb`** (word: "date") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:day:noun`** (word: "day") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:debt:noun`** (word: "debt") in `shopping.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:decide:verb`** (word: "decide") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:decorate:verb`** (word: "decorate") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:defence:noun`** (word: "defence") in `politics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:defense:noun`** (word: "defense") in `politics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:degree:noun`** (word: "degree") in `weather.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:delineate:verb`** (word: "delineate") in `academic_vocabulary.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:demonstrate:verb`** (word: "demonstrate") in `advanced_verbs.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:denouement:noun`** (word: "denouement") in `media.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:depression:noun`** (word: "depression") in `health.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:destruction:noun`** (word: "destruction") in `geography.json` | Intro Level: `B1` | All Levels: `[B1, B2, C2]`
+- **`en:determinism:noun`** (word: "determinism") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:development:noun`** (word: "development") in `science.json` | Intro Level: `B1` | All Levels: `[B1, B2, C1]`
+- **`en:device:noun`** (word: "device") in `media.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:diet:noun`** (word: "diet") in `health.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:difference:verb`** (word: "difference") in `opinions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:diligence:noun`** (word: "diligence") in `business.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:diplomacy:noun`** (word: "diplomacy") in `global_issues.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:disagree:verb`** (word: "disagree") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:dishonest:adjective`** (word: "dishonest") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:disruptive:adjective`** (word: "disruptive") in `science.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:dissonance:noun`** (word: "dissonance") in `psychology.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:distance:noun`** (word: "distance") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:diversity:noun`** (word: "diversity") in `culture.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:doctor:noun`** (word: "doctor") in `body_health.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:double-edged:phrase`** (word: "double-edged") in `collocations.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:double:noun`** (word: "double") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, C2]`
+- **`en:down:preposition`** (word: "down") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, A2, C2]`
+- **`en:draw:noun`** (word: "draw") in `sports.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:draw:phrase`** (word: "draw") in `collocations.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:dress:noun`** (word: "dress") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:drop:verb`** (word: "drop") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:drought:noun`** (word: "drought") in `environment.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:due:noun`** (word: "due") in `cause_effect.json` | Intro Level: `B1` | All Levels: `[B1, B2, C1]`
+- **`en:duty:noun`** (word: "duty") in `work.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:early:noun`** (word: "early") in `time.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:earthquake:noun`** (word: "earthquake") in `environment.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:economy:noun`** (word: "economy") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:ecosystem:noun`** (word: "ecosystem") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:effect:noun`** (word: "effect") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:empirical:adjective`** (word: "empirical") in `science.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:employee:noun`** (word: "employee") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:end:verb`** (word: "end") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:engagement:noun`** (word: "engagement") in `relationships.json` | Intro Level: `A2` | All Levels: `[A2, B2, C1]`
+- **`en:environment:noun`** (word: "environment") in `environment.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:epistemic:adjective`** (word: "epistemic") in `education.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:eschew:verb`** (word: "eschew") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:esoteric:adjective`** (word: "esoteric") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:ethical:noun`** (word: "ethical") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:euphemism:noun`** (word: "euphemism") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:evidence:noun`** (word: "evidence") in `science.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:exam:noun`** (word: "exam") in `school.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:exhibition:noun`** (word: "exhibition") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:extrapolate:verb`** (word: "extrapolate") in `statistics.json` | Intro Level: `B2` | All Levels: `[B2, C1, C2]`
+- **`en:factor:noun`** (word: "factor") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:failure:noun`** (word: "failure") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, C2]`
+- **`en:fall:noun`** (word: "fall") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:fallacy:noun`** (word: "fallacy") in `ethics.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:famous:adjective`** (word: "famous") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:fastidious:adjective`** (word: "fastidious") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:find:verb`** (word: "find") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:fine:phrase`** (word: "fine") in `expressions.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:first:noun`** (word: "first") in `transport.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:food:noun`** (word: "food") in `food_drink.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2]`
+- **`en:for:preposition`** (word: "for") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1, C1, C2]`
+- **`en:forecast:noun`** (word: "forecast") in `environment.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:foreign:noun`** (word: "foreign") in `tourism.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:forgive:verb`** (word: "forgive") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:foster:verb`** (word: "foster") in `family.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:free:noun`** (word: "free") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:friendly:adjective`** (word: "friendly") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:from:preposition`** (word: "from") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1, C2]`
+- **`en:frustrated:adjective`** (word: "frustrated") in `feelings.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:fry:verb`** (word: "fry") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:funny:adjective`** (word: "funny") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:gadget:noun`** (word: "gadget") in `media.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:galvanise:verb`** (word: "galvanise") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:galvanize:verb`** (word: "galvanize") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:game:noun`** (word: "game") in `sports_hobbies.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:gas:noun`** (word: "gas") in `living.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:generation:noun`** (word: "generation") in `culture.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:get:verb`** (word: "get") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:gift:noun`** (word: "gift") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:give:verb`** (word: "give") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:glass:noun`** (word: "glass") in `house_furniture.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:go:verb`** (word: "go") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:good:phrase`** (word: "good") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:government:noun`** (word: "government") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:gratuitous:adjective`** (word: "gratuitous") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:group:noun`** (word: "group") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:grow:verb`** (word: "grow") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:growth:noun`** (word: "growth") in `economy.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:guess:verb`** (word: "guess") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:habit:noun`** (word: "habit") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:habitat:noun`** (word: "habitat") in `animals.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:hand:phrase`** (word: "hand") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:hand:verb`** (word: "hand") in `opinions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:handsome:adjective`** (word: "handsome") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:hang:verb`** (word: "hang") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:happy:adjective`** (word: "happy") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:healthy:adjective`** (word: "healthy") in `body_health.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:hegemony:noun`** (word: "hegemony") in `politics.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:heritage:noun`** (word: "heritage") in `culture.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:hierarchy:noun`** (word: "hierarchy") in `work.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:hold:phrase`** (word: "hold") in `collocations.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:hold:verb`** (word: "hold") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:holiday:noun`** (word: "holiday") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:homework:noun`** (word: "homework") in `school.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:homogenisation:noun`** (word: "homogenisation") in `global_issues.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:homogenization:noun`** (word: "homogenization") in `global_issues.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:hotel:noun`** (word: "hotel") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:hour:noun`** (word: "hour") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:house:noun`** (word: "house") in `house_furniture.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:hyperbole:noun`** (word: "hyperbole") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:hypothesize:verb`** (word: "hypothesize") in `opinions.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:i:phrase`** (word: "I") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:identity:noun`** (word: "identity") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2, C1]`
+- **`en:impatient:adjective`** (word: "impatient") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:implication:noun`** (word: "implication") in `communication.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:implicit:adjective`** (word: "implicit") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:important:adjective`** (word: "important") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:improve:verb`** (word: "improve") in `education.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:in:preposition`** (word: "in") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1, B2, C2]`
+- **`en:incentive:noun`** (word: "incentive") in `abstract_nouns.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:inconvenient:adjective`** (word: "inconvenient") in `general_adjectives.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:increase:noun`** (word: "increase") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:inculcate:verb`** (word: "inculcate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:indefatigable:adjective`** (word: "indefatigable") in `word_building.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:industry:noun`** (word: "industry") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:information:noun`** (word: "information") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:initiative:noun`** (word: "initiative") in `work.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:injury:noun`** (word: "injury") in `health.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:innovation:noun`** (word: "innovation") in `science.json` | Intro Level: `B1` | All Levels: `[B1, B2, C1]`
+- **`en:integration:noun`** (word: "integration") in `culture.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:integrity:noun`** (word: "integrity") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2, C1]`
+- **`en:intelligence:noun`** (word: "intelligence") in `science.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:interdisciplinary:adjective`** (word: "interdisciplinary") in `education.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:interest:noun`** (word: "interest") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:internet:noun`** (word: "internet") in `technology.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:interpret:verb`** (word: "interpret") in `education.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:into:preposition`** (word: "into") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2]`
+- **`en:intransigent:adjective`** (word: "intransigent") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:investment:noun`** (word: "investment") in `economy.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:invite:verb`** (word: "invite") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:irony:noun`** (word: "irony") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C1, C2]`
+- **`en:is:phrase`** (word: "is") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:issue:noun`** (word: "issue") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:it:pronoun`** (word: "it") in `pronouns.json` | Intro Level: `A1` | All Levels: `[A1, B1, C1]`
+- **`en:itinerary:noun`** (word: "itinerary") in `tourism.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:its:pronoun`** (word: "its") in `pronouns.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:job:noun`** (word: "job") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B2]`
+- **`en:journey:noun`** (word: "journey") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:keep:verb`** (word: "keep") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:kind:adjective`** (word: "kind") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:knowledge:noun`** (word: "knowledge") in `education.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:label:noun`** (word: "label") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:landlord:noun`** (word: "landlord") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:landscape:noun`** (word: "landscape") in `animals.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:language:noun`** (word: "language") in `nationalities.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:last:phrase`** (word: "last") in `idioms.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:law:noun`** (word: "law") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:left:noun`** (word: "left") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:letter:noun`** (word: "letter") in `objects.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:liability:noun`** (word: "liability") in `economy.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:lifestyle:noun`** (word: "lifestyle") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:like:verb`** (word: "like") in `expressions.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:literacy:noun`** (word: "literacy") in `education.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:look:verb`** (word: "look") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:loss:noun`** (word: "loss") in `economy.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:lucid:adjective`** (word: "lucid") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:machine:noun`** (word: "machine") in `house_furniture.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:magazine:noun`** (word: "magazine") in `objects.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:majority:noun`** (word: "majority") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:make:phrase`** (word: "make") in `idioms.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:man:noun`** (word: "man") in `family.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:manager:noun`** (word: "manager") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:marginal:adjective`** (word: "marginal") in `statistics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:market:noun`** (word: "market") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2]`
+- **`en:matter:noun`** (word: "matter") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:may:phrase`** (word: "may") in `expressions.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:maybe:adverb`** (word: "maybe") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:media:noun`** (word: "media") in `media.json` | Intro Level: `A2` | All Levels: `[A2, C1]`
+- **`en:medicine:noun`** (word: "medicine") in `body_health.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:meet:phrase`** (word: "meet") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:member:noun`** (word: "member") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:method:noun`** (word: "method") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:meticulous:adjective`** (word: "meticulous") in `general_adjectives.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:migration:noun`** (word: "migration") in `culture.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:mind:phrase`** (word: "mind") in `idioms.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:minimum:noun`** (word: "minimum") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:minority:noun`** (word: "minority") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:mitigate:verb`** (word: "mitigate") in `advanced_verbs.json` | Intro Level: `B2` | All Levels: `[B2, C1, C2]`
+- **`en:mix:verb`** (word: "mix") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:model:noun`** (word: "model") in `family.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:modern:adjective`** (word: "modern") in `general_adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:moral:noun`** (word: "moral") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:mortgage:noun`** (word: "mortgage") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:mother:noun`** (word: "mother") in `family.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:motivation:noun`** (word: "motivation") in `emotions.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:move:verb`** (word: "move") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:multicultural:adjective`** (word: "multicultural") in `culture.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:museum:noun`** (word: "museum") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:my:pronoun`** (word: "my") in `pronouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:name:noun`** (word: "name") in `family.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:nation:noun`** (word: "nation") in `nationalities.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:national:noun`** (word: "national") in `culture.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:nature:noun`** (word: "nature") in `animals.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:neighbourhood:noun`** (word: "neighbourhood") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:nervous:adjective`** (word: "nervous") in `feelings.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:network:noun`** (word: "network") in `technology.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:news:noun`** (word: "news") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:newspaper:noun`** (word: "newspaper") in `objects.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:nihilism:noun`** (word: "nihilism") in `ethics.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:no:phrase`** (word: "no") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:not:phrase`** (word: "not") in `idioms.json` | Intro Level: `B1` | All Levels: `[B1, C2]`
+- **`en:notwithstanding:adverb`** (word: "notwithstanding") in `linking_words.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:nuance:noun`** (word: "nuance") in `communication.json` | Intro Level: `B1` | All Levels: `[B1, C2]`
+- **`en:obfuscate:verb`** (word: "obfuscate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:of:adverb`** (word: "of") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:of:noun`** (word: "of") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:of:phrase`** (word: "of") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2]`
+- **`en:off:preposition`** (word: "off") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:office:noun`** (word: "office") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:old:adjective`** (word: "old") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:on:preposition`** (word: "on") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1, B2]`
+- **`en:ontological:adjective`** (word: "ontological") in `academic_vocabulary.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:order:noun`** (word: "order") in `food_drink.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:other:verb`** (word: "other") in `opinions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:over:preposition`** (word: "over") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1, C1]`
+- **`en:overweight:adjective`** (word: "overweight") in `appearance.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:paper:noun`** (word: "paper") in `school.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:paradox:noun`** (word: "paradox") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1, C2]`
+- **`en:party:noun`** (word: "party") in `sports_hobbies.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:password:noun`** (word: "password") in `technology.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:pattern:noun`** (word: "pattern") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:peer:noun`** (word: "peer") in `education.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:perceive:verb`** (word: "perceive") in `verbs_cognition.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:percentage:noun`** (word: "percentage") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:performance:noun`** (word: "performance") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:personification:noun`** (word: "personification") in `media.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:perspective:noun`** (word: "perspective") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:phenomenon:noun`** (word: "phenomenon") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2, C2]`
+- **`en:placate:verb`** (word: "placate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:planning:noun`** (word: "planning") in `urban_housing.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:plastic:noun`** (word: "plastic") in `shapes_materials.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:plateau:noun`** (word: "plateau") in `geography.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:platform:noun`** (word: "platform") in `transport.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:plausible:adjective`** (word: "plausible") in `general_adjectives.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:play:phrase`** (word: "play") in `collocations.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:point:verb`** (word: "point") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:police:noun`** (word: "police") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:policy:noun`** (word: "policy") in `politics.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:polite:adjective`** (word: "polite") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:politics:noun`** (word: "politics") in `politics.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:portion:noun`** (word: "portion") in `cooking.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:posit:verb`** (word: "posit") in `synonyms.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:possibly:adverb`** (word: "possibly") in `opinions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:power:noun`** (word: "power") in `environment.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:predator:noun`** (word: "predator") in `animals.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:prejudice:noun`** (word: "prejudice") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:pretty:adjective`** (word: "pretty") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:principle:noun`** (word: "principle") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:private:adjective`** (word: "private") in `general_adjectives.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:problem:noun`** (word: "problem") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:process:noun`** (word: "process") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:project:noun`** (word: "project") in `education.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:projection:noun`** (word: "projection") in `statistics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:property:noun`** (word: "property") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:proposition:noun`** (word: "proposition") in `innovation.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:protectionism:noun`** (word: "protectionism") in `global_issues.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:proud:adjective`** (word: "proud") in `feelings.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:public:adjective`** (word: "public") in `general_adjectives.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:public:noun`** (word: "public") in `culture.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:put:verb`** (word: "put") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:qualification:noun`** (word: "qualification") in `work.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:qualitative:adjective`** (word: "qualitative") in `statistics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:quality:noun`** (word: "quality") in `shopping.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:quiet:adjective`** (word: "quiet") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:quite:adverb`** (word: "quite") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:raise:phrase`** (word: "raise") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B2, C1]`
+- **`en:rate:noun`** (word: "rate") in `shopping.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:reason:noun`** (word: "reason") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:receipt:noun`** (word: "receipt") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:recipe:noun`** (word: "recipe") in `food_drink.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:reciprocate:verb`** (word: "reciprocate") in `relationships.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:reciprocity:noun`** (word: "reciprocity") in `relationships.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:reconcile:verb`** (word: "reconcile") in `relationships.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:refute:verb`** (word: "refute") in `opinions.json` | Intro Level: `B2` | All Levels: `[B2, C2]`
+- **`en:relativism:noun`** (word: "relativism") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:relaxed:adjective`** (word: "relaxed") in `feelings.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:remote:adjective`** (word: "remote") in `places_transport.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:reserve:noun`** (word: "reserve") in `tourism.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:resilience:noun`** (word: "resilience") in `environment.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:resilient:adjective`** (word: "resilient") in `emotions.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:resolve:verb`** (word: "resolve") in `relationships.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:responsibility:noun`** (word: "responsibility") in `work.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:retirement:noun`** (word: "retirement") in `work.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:review:verb`** (word: "review") in `education.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:rhetoric:noun`** (word: "rhetoric") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:right:noun`** (word: "right") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:rights:noun`** (word: "rights") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:rigorous:adjective`** (word: "rigorous") in `general_adjectives.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:roast:verb`** (word: "roast") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:roughly:noun`** (word: "roughly") in `measurement.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:rule:noun`** (word: "rule") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:run:verb`** (word: "run") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:sad:adjective`** (word: "sad") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:salary:noun`** (word: "salary") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:salient:adjective`** (word: "salient") in `synonyms.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:same:phrase`** (word: "same") in `linking_words.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:save:verb`** (word: "save") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:say:phrase`** (word: "say") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C2]`
+- **`en:scalability:noun`** (word: "scalability") in `innovation.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:science:noun`** (word: "science") in `school.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:scientist:noun`** (word: "scientist") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:score:verb`** (word: "score") in `sports_hobbies.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:sculpture:noun`** (word: "sculpture") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:security:noun`** (word: "security") in `abstract_nouns.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:see:phrase`** (word: "see") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:sentence:noun`** (word: "sentence") in `school.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:share:verb`** (word: "share") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:shopping:noun`** (word: "shopping") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:short:adjective`** (word: "short") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:shortage:noun`** (word: "shortage") in `geography.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:shy:adjective`** (word: "shy") in `feelings.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:side:noun`** (word: "side") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2]`
+- **`en:significance:noun`** (word: "significance") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:similar:adjective`** (word: "similar") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:single:adjective`** (word: "single") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:sit:phrase`** (word: "sit") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:size:noun`** (word: "size") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1, B2]`
+- **`en:skills:noun`** (word: "skills") in `work.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:small:adjective`** (word: "small") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:so:conjunction`** (word: "so") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:social:noun`** (word: "social") in `media.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:society:noun`** (word: "society") in `abstract_nouns.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:soft:adjective`** (word: "soft") in `general_adjectives.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:solidarity:noun`** (word: "solidarity") in `relationships.json` | Intro Level: `B2` | All Levels: `[B2, C1, C2]`
+- **`en:solipsism:noun`** (word: "solipsism") in `ethics.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:solution:noun`** (word: "solution") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:sound:verb`** (word: "sound") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:sovereignty:noun`** (word: "sovereignty") in `politics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:species:noun`** (word: "species") in `environment.json` | Intro Level: `A2` | All Levels: `[A2, B2]`
+- **`en:spend:noun`** (word: "spend") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:stakeholder:noun`** (word: "stakeholder") in `economy.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:stand:verb`** (word: "stand") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:station:noun`** (word: "station") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:stereotype:noun`** (word: "stereotype") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:stir:verb`** (word: "stir") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:store:noun`** (word: "store") in `money_shopping.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:storm:noun`** (word: "storm") in `animals.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:straight:adjective`** (word: "straight") in `directions.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:strategy:noun`** (word: "strategy") in `sports.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:stubborn:adjective`** (word: "stubborn") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, C2]`
+- **`en:student:noun`** (word: "student") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:study:noun`** (word: "study") in `school.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:subject:noun`** (word: "subject") in `school.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:subjectivity:noun`** (word: "subjectivity") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:subjugate:verb`** (word: "subjugate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:substantial:adjective`** (word: "substantial") in `academic_vocabulary.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:substantiate:verb`** (word: "substantiate") in `opinions.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:subtext:noun`** (word: "subtext") in `communication.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:suburb:noun`** (word: "suburb") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:suitcase:noun`** (word: "suitcase") in `objects.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:supermarket:noun`** (word: "supermarket") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:supplant:verb`** (word: "supplant") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:supply:noun`** (word: "supply") in `economy.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:suppose:verb`** (word: "suppose") in `opinions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:surmise:verb`** (word: "surmise") in `synonyms.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:sustainability:noun`** (word: "sustainability") in `environment.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:sustainable:adjective`** (word: "sustainable") in `culture.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:sword:phrase`** (word: "sword") in `collocations.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:sympathize:verb`** (word: "sympathize") in `emotions.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:synthesis:noun`** (word: "synthesis") in `science.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:systemic:adjective`** (word: "systemic") in `society.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:tablet:noun`** (word: "tablet") in `technology.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:take:verb`** (word: "take") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:talkative:adjective`** (word: "talkative") in `personality.json` | Intro Level: `A2` | All Levels: `[A2, C2]`
+- **`en:tall:adjective`** (word: "tall") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:taste:verb`** (word: "taste") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:teacher:noun`** (word: "teacher") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:technique:noun`** (word: "technique") in `abstract_concepts.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:temperature:noun`** (word: "temperature") in `weather.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:tenant:noun`** (word: "tenant") in `living.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:tenuous:adjective`** (word: "tenuous") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:test:noun`** (word: "test") in `school.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:that:phrase`** (word: "that") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B2, C1]`
+- **`en:the:article`** (word: "the") in `time.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2, C1]`
+- **`en:theater:noun`** (word: "theater") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:theatre:noun`** (word: "theatre") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:then:adverb`** (word: "then") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:theoretical:adjective`** (word: "theoretical") in `science.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:therapy:noun`** (word: "therapy") in `health.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:thin:adjective`** (word: "thin") in `general_adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:think:phrase`** (word: "think") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B2]`
+- **`en:think:verb`** (word: "think") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:this:phrase`** (word: "this") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:through:preposition`** (word: "through") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:throw:verb`** (word: "throw") in `daily_verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:ticket:noun`** (word: "ticket") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:time:noun`** (word: "time") in `time.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:tip:phrase`** (word: "tip") in `idioms.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:to:preposition`** (word: "to") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1, B2]`
+- **`en:tongue:noun`** (word: "tongue") in `body_health.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:too:adverb`** (word: "too") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:tourism:noun`** (word: "tourism") in `tourism.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:tournament:noun`** (word: "tournament") in `sports_hobbies.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:tradition:noun`** (word: "tradition") in `common_nouns.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:train:noun`** (word: "train") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:training:noun`** (word: "training") in `work.json` | Intro Level: `A2` | All Levels: `[A2, B1, B2]`
+- **`en:transcend:verb`** (word: "transcend") in `ethics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:transform:verb`** (word: "transform") in `comparisons.json` | Intro Level: `B1` | All Levels: `[B1, C1]`
+- **`en:treaty:noun`** (word: "treaty") in `global_issues.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:trial:noun`** (word: "trial") in `crime.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:trip:noun`** (word: "trip") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:try:verb`** (word: "try") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:turn:verb`** (word: "turn") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:ubiquitous:adjective`** (word: "ubiquitous") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:ugly:adjective`** (word: "ugly") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:under:preposition`** (word: "under") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:undermine:verb`** (word: "undermine") in `advanced_verbs.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:unemployment:noun`** (word: "unemployment") in `work.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:unequivocal:adjective`** (word: "unequivocal") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:university:noun`** (word: "university") in `places_transport.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:unless:conjunction`** (word: "unless") in `adverbs_connectors.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:unnecessary:adjective`** (word: "unnecessary") in `general_adjectives.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:unusual:adjective`** (word: "unusual") in `general_adjectives.json` | Intro Level: `A2` | All Levels: `[A2, B1]`
+- **`en:up:preposition`** (word: "up") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:vacation:noun`** (word: "vacation") in `sports_hobbies.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:value:noun`** (word: "value") in `ethics.json` | Intro Level: `B1` | All Levels: `[B1, B2, C1]`
+- **`en:verdict:noun`** (word: "verdict") in `crime.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:verisimilitude:noun`** (word: "verisimilitude") in `media.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:very:adverb`** (word: "very") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:vindicate:verb`** (word: "vindicate") in `nuanced_verbs.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:vindictive:adjective`** (word: "vindictive") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:vitriolic:adjective`** (word: "vitriolic") in `sophisticated_adjectives.json` | Intro Level: `C1` | All Levels: `[C1, C2]`
+- **`en:volatility:noun`** (word: "volatility") in `statistics.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:wake:verb`** (word: "wake") in `verbs.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:watch:noun`** (word: "watch") in `clothes.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:water:noun`** (word: "water") in `food_drink.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:weekend:noun`** (word: "weekend") in `time.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:weight:noun`** (word: "weight") in `shapes_materials.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:wellbeing:noun`** (word: "wellbeing") in `health.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:when:phrase`** (word: "when") in `expressions.json` | Intro Level: `A1` | All Levels: `[A1, C1]`
+- **`en:whereas:conjunction`** (word: "whereas") in `comparisons.json` | Intro Level: `B1` | All Levels: `[B1, B2]`
+- **`en:while:conjunction`** (word: "while") in `adverbs_connectors.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:wind:noun`** (word: "wind") in `animals.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:with:preposition`** (word: "with") in `prepositions.json` | Intro Level: `A1` | All Levels: `[A1, B1, B2, C2]`
+- **`en:work:noun`** (word: "work") in `work.json` | Intro Level: `B2` | All Levels: `[B2, C1]`
+- **`en:work:verb`** (word: "work") in `jobs.json` | Intro Level: `A1` | All Levels: `[A1, A2, B1]`
+- **`en:would:phrase`** (word: "would") in `expressions.json` | Intro Level: `A1` | All Levels: `[A1, B1]`
+- **`en:you:pronoun`** (word: "you") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B1, C1]`
+- **`en:young:adjective`** (word: "young") in `adjectives.json` | Intro Level: `A1` | All Levels: `[A1, A2]`
+- **`en:your:pronoun`** (word: "your") in `classroom_phrases.json` | Intro Level: `A1` | All Levels: `[A1, B1]`

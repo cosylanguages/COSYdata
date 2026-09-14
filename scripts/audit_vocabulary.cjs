@@ -10,6 +10,7 @@ const templatedEntriesByFileLevel = {};
 const levelTotals = { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 };
 let totalTemplated = 0;
 const nonTemplated = [];
+const mergedPlaceholderEntries = [];
 
 function isTemplated(def0, ex0) {
   const d = def0 || "";
@@ -33,7 +34,7 @@ files.forEach(file => {
   content.forEach(entry => {
     totalEntries++;
     if (!idMap[entry.id]) idMap[entry.id] = [];
-    idMap[entry.id].push({ file, level: entry.level || 'N/A', word: entry.word, form: entry.form, theme: entry.theme });
+    idMap[entry.id].push({ file, level: entry.level || 'N/A', word: entry.word, form: entry.form, theme: entry.theme, levels: entry.levels });
 
     themeCounts[entry.theme] = (themeCounts[entry.theme] || 0) + 1;
 
@@ -48,6 +49,18 @@ files.forEach(file => {
       }
       templatedEntriesByFileLevel[file].total++;
       if (levelTotals[lvl] !== undefined) levelTotals[lvl]++;
+
+      if (Array.isArray(entry.levels) && entry.levels.length > 1) {
+        mergedPlaceholderEntries.push({
+          id: entry.id,
+          word: entry.word,
+          file,
+          level: entry.level,
+          levels: entry.levels,
+          def0,
+          ex0
+        });
+      }
     } else {
       nonTemplated.push({ file, id: entry.id, word: entry.word, def0, ex0 });
     }
@@ -71,27 +84,41 @@ let md = `# English Vocabulary Dataset Content Audit Report
 
 - **Dataset Location**: \`vocabulary/en/\`
 - **Total Theme Files**: ${files.length}
-- **Total Vocabulary Entries**: ${totalEntries}
+- **Total Canonical Vocabulary Entries**: ${totalEntries}
 - **Total Unique IDs**: ${Object.keys(idMap).length}
-- **Duplicate IDs Across Theme Files**: ${duplicateIDs.length}
+- **Current Duplicate IDs Across Theme Files**: ${duplicateIDs.length}
 - **Templated Entries**: ${totalTemplated} (${((totalTemplated / totalEntries) * 100).toFixed(2)}%)
 - **Non-Templated Entries**: ${nonTemplated.length} (${((nonTemplated.length / totalEntries) * 100).toFixed(2)}%)
+- **Merged Entries Requiring Content Review (Placeholder-Only)**: ${mergedPlaceholderEntries.length}
 
 ---
 
 ## 1. Duplicate Entry IDs Across Theme Files
 
-A total of **${duplicateIDs.length} IDs** appear in more than one theme file across the dataset. Below is the complete listing of duplicate IDs, grouped by ID, detailing the files and CEFR levels for each occurrence.
+### Audit Summary & ID Collision Resolution
+
+All **867 ID collisions** originally identified across theme files have been merged into single canonical entries per \`word\`+\`form\` ID.
+Each canonical entry now:
+- Retains the lowest CEFR level at which the word is introduced as its primary \`level\` field.
+- Includes a \`levels\` array property containing all CEFR levels across which the word was present (e.g., \`["B1", "B2"]\`).
+- Retains the richest non-placeholder definitions and examples where available.
+- Resides in a single primary theme file, with all redundant duplicate copies removed.
+
+**Current Duplicate IDs Remaining**: **${duplicateIDs.length}**
 
 `;
 
-duplicateIDs.forEach(([id, occurrences]) => {
-  const wordStr = occurrences[0].word ? ` (word: "${occurrences[0].word}")` : '';
-  md += `- **\`${id}\`**${wordStr}:\n`;
-  occurrences.forEach(o => {
-    md += `  - File: \`${o.file}\` | Level: \`${o.level}\` | Theme Field: \`${o.theme}\` \n`;
+if (duplicateIDs.length > 0) {
+  duplicateIDs.forEach(([id, occurrences]) => {
+    const wordStr = occurrences[0].word ? ` (word: "${occurrences[0].word}")` : '';
+    md += `- **\`${id}\`**${wordStr}:\n`;
+    occurrences.forEach(o => {
+      md += `  - File: \`${o.file}\` | Level: \`${o.level}\` | Theme Field: \`${o.theme}\` \n`;
+    });
   });
-});
+} else {
+  md += `*(Zero duplicate IDs remain in the dataset. Validation strictly enforces unique IDs across theme files.)*\n`;
+}
 
 md += `\n---\n\n## 2. Entries Matching Templated Patterns
 
@@ -118,7 +145,7 @@ The vast majority of entries in the dataset contain automatically generated plac
 
 ### Exceptions (Non-Templated Entries)
 
-Only **${nonTemplated.length} entries** across the entire dataset contain genuine, human-authored definitions and examples (all located in \`animals.json\`):
+Only **${nonTemplated.length} entries** across the entire dataset contain genuine, human-authored definitions and examples (located in \`animals.json\`):
 
 `;
 
@@ -198,5 +225,15 @@ fileDetails.forEach(f => {
   md += `| \`${f.file}\` | ${f.totalCount} | ${themeStr} |\n`;
 });
 
+md += `\n---\n\n## 5. Follow-up List: Merged Entries Requiring Human Definition Review
+
+The following **${mergedPlaceholderEntries.length} merged entries** were created by consolidating multi-level ID collisions, but currently possess only placeholder definitions and examples. Content editors should review and replace these placeholder definitions/examples with rich, human-authored content:
+
+`;
+
+mergedPlaceholderEntries.sort((a, b) => a.id.localeCompare(b.id)).forEach(e => {
+  md += `- **\`${e.id}\`** (word: "${e.word}") in \`${e.file}\` | Intro Level: \`${e.level}\` | All Levels: \`[${e.levels.join(', ')}]\` \n`;
+});
+
 fs.writeFileSync(path.join('reports', 'content-audit.md'), md, 'utf8');
-console.log('Report generated successfully at reports/content-audit.md');
+console.log('Report updated successfully at reports/content-audit.md');

@@ -42,6 +42,8 @@ function main() {
 
   console.log(`Validating ${themeFiles.length} theme file(s) against vocabulary schema...`);
 
+  const idToFilesMap = {};
+
   for (const file of themeFiles) {
     const relPath = path.relative(path.join(__dirname, '..'), file);
     try {
@@ -68,10 +70,26 @@ function main() {
             console.error(`  - Field '${err.instancePath || '/'}' ${err.message}`);
           }
         }
+
+        if (entry && entry.id) {
+          if (!idToFilesMap[entry.id]) {
+            idToFilesMap[entry.id] = [];
+          }
+          idToFilesMap[entry.id].push(relPath);
+        }
       }
     } catch (err) {
       hasError = true;
       console.error(`\n[JSON ERROR] Could not parse file: ${relPath}\n  ${err.message}`);
+    }
+  }
+
+  console.log(`Checking unique IDs across theme files...`);
+  for (const [id, filesList] of Object.entries(idToFilesMap)) {
+    if (filesList.length > 1) {
+      hasError = true;
+      console.error(`\n[DUPLICATE ID ERROR] Word ID '${id}' appears ${filesList.length} times in theme files:`);
+      filesList.forEach((f) => console.error(`  - ${f}`));
     }
   }
 
