@@ -30,7 +30,7 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ## Vocabulary File Organization & Datasets
 
-Vocabulary entries are **batched into theme files** across everyday and specialized topics rather than having individual JSON files per word:
+Vocabulary entries are **batched into theme files** across everyday topics rather than having individual JSON files per word:
 
 ```
 vocabulary/
@@ -45,17 +45,13 @@ vocabulary/
     └── ...
 ```
 
-- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `family.json`, `food_drink.json`, `rare_adjectives.json`, `rare_verbs.json`).
+- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `family.json`, `food_drink.json`, `personality.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its corresponding theme file.
 
-For example, `vocabulary/en/index.json` maps word IDs to their location:
-
-```json
-{
-  "en:cat:noun": "animals.json",
-  "en:dog:noun": "animals.json"
-}
-```
+### Course Domains
+- **`general`**: Standard CEFR course vocabulary (A0–C2).
+- **`spoken`**: Spoken course vocabulary focused on conversation (A0–C2).
+- **`general, spoken`**: Words present in both general and spoken course lists.
 
 To regenerate `index.json` for all language folders, run:
 
@@ -104,7 +100,7 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 - **`antonyms`** *(string[])*: Array of antonym word IDs or terms.
 - **`collocations`** *(string[])*: Array of common word pairings or phrases.
 - **`related_forms`** *(string[])*: Array of ID references into another COSY repo's data (e.g. `"COSYtools:fr-conjugeur:aimer"`).
-- **`domain`** *(string)*: Broad subject domain.
+- **`domain`** *(string)*: Subject domain (e.g., `general`, `spoken`, `general, spoken`).
 - **`theme`** *(string)*: Primary thematic category.
 - **`sub_theme`** *(string)*: Sub-thematic classification.
 - **`tags`** *(string[])*: Array of searchable tags.
