@@ -9,7 +9,8 @@
  *   import { resolveVocab, hydrateVocabElements } from 'https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js';
  *
  *   // 1. Programmatic resolution
- *   const entry = await resolveVocab('en:animals:cat');
+ *   const entry = await resolveVocab('en:animals:cat'); // theme explicitly provided
+ *   const entry2 = await resolveVocab('en:cat:noun');   // canonical ID
  *   console.log(entry.word, entry.emoji); // "cat", "🐱"
  *
  *   // 2. DOM Hydration
@@ -30,7 +31,7 @@ function getStorage() {
       return window.localStorage;
     }
   } catch (err) {
-    // localStorage might be blocked or restricted
+    // localStorage might be restricted
   }
   return null;
 }
@@ -75,7 +76,7 @@ function setCache(key, data, ttlMs = DEFAULT_TTL_MS) {
     try {
       storage.setItem(fullKey, JSON.stringify(payload));
     } catch (err) {
-      // Ignore quota exceeded or storage write error
+      // Ignore storage write error
     }
   }
 
@@ -99,10 +100,15 @@ async function fetchJson(url) {
 /**
  * Resolves a vocabulary reference into a vocabulary entry object.
  *
- * @param {string} ref - "language:theme:word-slug" (e.g. "en:animals:cat") OR "language:word-slug" (e.g. "en:cat")
+ * Supported reference formats:
+ * - "lang:theme:word-slug" (e.g. "en:animals:cat")
+ * - "lang:word-slug:form"  (e.g. "en:healthy:adjective" or "en:cat:noun")
+ * - "lang:word-slug"       (e.g. "en:cat")
+ *
+ * @param {string} ref - Vocabulary reference string
  * @param {Object} [options]
- * @param {string} [options.baseUrl] - Base URL for COSYdata repo (default: https://cosylanguages.github.io/COSYdata/)
- * @param {number} [options.ttlMs] - Cache TTL in milliseconds (default: 24h)
+ * @param {string} [options.baseUrl] - Base URL for COSYdata repo
+ * @param {number} [options.ttlMs] - Cache TTL in milliseconds
  * @returns {Promise<Object|null>} Vocabulary entry object or null if not found
  */
 export async function resolveVocab(ref, options = {}) {
@@ -113,21 +119,33 @@ export async function resolveVocab(ref, options = {}) {
 
   const parts = ref.split(':');
   if (parts.length < 2) {
-    console.warn(`[COSYdata] Malformed ref '${ref}'. Expected 'lang:word' or 'lang:theme:word'.`);
+    console.warn(`[COSYdata] Malformed ref '${ref}'. Expected 'lang:word' or 'lang:theme:word' or 'lang:word:form'.`);
     return null;
   }
 
   const baseUrl = (options.baseUrl || DEFAULT_BASE_URL).replace(/\/?$/, '/');
   const ttlMs = typeof options.ttlMs === 'number' ? options.ttlMs : DEFAULT_TTL_MS;
 
-  let lang, theme, wordSlug;
+  const lang = parts[0];
+  let theme = null;
+  let wordSlug = null;
+  let targetForm = null;
+
+  const KNOWN_FORMS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase', 'number']);
 
   if (parts.length >= 3) {
-    lang = parts[0];
-    theme = parts[1];
-    wordSlug = parts.slice(2).join(':');
+    const lastPart = parts[parts.length - 1];
+    if (KNOWN_FORMS.has(lastPart.toLowerCase())) {
+      // Format: lang:word-slug:form
+      wordSlug = parts[1];
+      targetForm = lastPart;
+    } else {
+      // Format: lang:theme:word-slug
+      theme = parts[1];
+      wordSlug = parts.slice(2).join(':');
+    }
   } else {
-    lang = parts[0];
+    // Format: lang:word-slug
     wordSlug = parts[1];
   }
 
@@ -148,20 +166,29 @@ export async function resolveVocab(ref, options = {}) {
       return null;
     }
 
-    // Match wordSlug in index map:
-    // Mappings in index.json can be "en:cat:noun": "animals.json" or "cat": "animals.json"
-    let targetFile = null;
-    for (const [idKey, filename] of Object.entries(indexData)) {
-      const keyParts = idKey.split(':');
-      const slugInKey = keyParts.length >= 2 ? keyParts[1] : idKey;
-      if (idKey === wordSlug || slugInKey === wordSlug || idKey.startsWith(`${lang}:${wordSlug}:`)) {
-        targetFile = filename;
-        break;
+    // Match wordSlug / exact ref / canonical ID in index.json
+    let targetFile = indexData[ref];
+
+    if (!targetFile) {
+      for (const [idKey, filename] of Object.entries(indexData)) {
+        const keyParts = idKey.split(':');
+        const slugInKey = keyParts.length >= 2 ? keyParts[1] : idKey;
+        const formInKey = keyParts.length >= 3 ? keyParts[2] : null;
+
+        if (
+          idKey === ref ||
+          idKey === wordSlug ||
+          slugInKey === wordSlug ||
+          (targetForm && slugInKey === wordSlug && formInKey === targetForm)
+        ) {
+          targetFile = filename;
+          break;
+        }
       }
     }
 
     if (!targetFile) {
-      console.warn(`[COSYdata] Word slug '${wordSlug}' not found in index for language '${lang}'.`);
+      console.warn(`[COSYdata] Word reference '${ref}' not found in index for language '${lang}'.`);
       return null;
     }
 
@@ -196,13 +223,20 @@ export async function resolveVocab(ref, options = {}) {
     if (!entry || !entry.id) continue;
     const keyParts = entry.id.split(':');
     const slugInId = keyParts.length >= 2 ? keyParts[1] : entry.word;
+    const formInId = keyParts.length >= 3 ? keyParts[2] : entry.form;
 
-    if (entry.id === wordSlug || entry.word === wordSlug || slugInId === wordSlug || entry.id.startsWith(`${lang}:${wordSlug}:`)) {
+    if (
+      entry.id === ref ||
+      entry.id === wordSlug ||
+      entry.word === wordSlug ||
+      slugInId === wordSlug ||
+      (targetForm && slugInId === wordSlug && formInId === targetForm)
+    ) {
       return entry;
     }
   }
 
-  console.warn(`[COSYdata] Word '${wordSlug}' not found in theme '${theme}' for language '${lang}'.`);
+  console.warn(`[COSYdata] Word reference '${ref}' not found in theme '${theme}' for language '${lang}'.`);
   return null;
 }
 
