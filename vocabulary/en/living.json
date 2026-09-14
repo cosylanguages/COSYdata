@@ -1,37 +1,166 @@
 [
   {
-    "id": "en:neighbourhood:noun",
-    "word": "neighbourhood",
+    "id": "en:in:noun",
+    "word": "in",
     "language": "en",
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"neighbourhood\" in English vocabulary."
+      "A2 entry for \"in\" in English vocabulary."
     ],
     "examples": [
-      "This is an example sentence using \"neighbourhood\"."
+      "This is an example sentence using \"in\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "plural_form": "neighbourhoods"
+    "plural_form": "ins",
+    "tags": [
+      "spoken"
+    ]
   },
   {
-    "id": "en:neighborhood:noun",
-    "word": "neighborhood",
+    "id": "en:out:noun",
+    "word": "out",
     "language": "en",
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"neighborhood\" in English vocabulary."
+      "A2 entry for \"out\" in English vocabulary."
     ],
     "examples": [
-      "This is an example sentence using \"neighborhood\"."
+      "This is an example sentence using \"out\"."
     ],
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15",
-    "plural_form": "neighborhoods"
+    "plural_form": "outs"
+  },
+  {
+    "id": "en:move:verb",
+    "word": "move",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"move\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"move\"."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ]
+  },
+  {
+    "id": "en:own:verb",
+    "word": "own",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"own\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"own\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15"
+  },
+  {
+    "id": "en:quiet:noun",
+    "word": "quiet",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"quiet\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"quiet\"."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "quiets",
+    "tags": [
+      "spoken"
+    ]
+  },
+  {
+    "id": "en:bill:noun",
+    "word": "bill",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"bill\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"bill\"."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "bills",
+    "tags": [
+      "spoken"
+    ]
+  },
+  {
+    "id": "en:electricity:noun",
+    "word": "electricity",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"electricity\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"electricity\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "electricitys"
+  },
+  {
+    "id": "en:gas:noun",
+    "word": "gas",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"gas\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"gas\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "gases"
+  },
+  {
+    "id": "en:conditioning:noun",
+    "word": "conditioning",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"conditioning\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"conditioning\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "conditionings"
   },
   {
     "id": "en:suburb:noun",
@@ -51,20 +180,57 @@
     "plural_form": "suburbs"
   },
   {
-    "id": "en:rent:verb",
-    "word": "rent",
+    "id": "en:house:noun",
+    "word": "house",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"house\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"house\"."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "houses",
+    "tags": [
+      "spoken"
+    ]
+  },
+  {
+    "id": "en:decorate:verb",
+    "word": "decorate",
     "language": "en",
     "form": "verb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"rent\" in English vocabulary."
+      "A2 entry for \"decorate\" in English vocabulary."
     ],
     "examples": [
-      "This is an example sentence using \"rent\"."
+      "This is an example sentence using \"decorate\"."
     ],
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15"
+  },
+  {
+    "id": "en:property:noun",
+    "word": "property",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"property\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"property\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "propertys"
   },
   {
     "id": "en:landlord:noun",
@@ -134,104 +300,88 @@
     "plural_form": "mortgages"
   },
   {
-    "id": "en:own:verb",
-    "word": "own",
+    "id": "en:neighbourhood:noun",
+    "word": "neighbourhood",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"neighbourhood\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"neighbourhood\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "neighbourhoods"
+  },
+  {
+    "id": "en:agreement:noun",
+    "word": "agreement",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"agreement\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"agreement\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "agreements"
+  },
+  {
+    "id": "en:noisy:noun",
+    "word": "noisy",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"noisy\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"noisy\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "noisys"
+  },
+  {
+    "id": "en:neighborhood:noun",
+    "word": "neighborhood",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 entry for \"neighborhood\" in English vocabulary."
+    ],
+    "examples": [
+      "This is an example sentence using \"neighborhood\"."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2025-01-15",
+    "plural_form": "neighborhoods"
+  },
+  {
+    "id": "en:rent:verb",
+    "word": "rent",
     "language": "en",
     "form": "verb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"own\" in English vocabulary."
+      "A2 entry for \"rent\" in English vocabulary."
     ],
     "examples": [
-      "This is an example sentence using \"own\"."
+      "This is an example sentence using \"rent\"."
     ],
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15"
-  },
-  {
-    "id": "en:property:noun",
-    "word": "property",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"property\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"property\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "propertys"
-  },
-  {
-    "id": "en:move:verb",
-    "word": "move",
-    "language": "en",
-    "form": "verb",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"move\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"move\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15"
-  },
-  {
-    "id": "en:house:noun",
-    "word": "house",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"house\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"house\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "houses"
-  },
-  {
-    "id": "en:in:noun",
-    "word": "in",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"in\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"in\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "ins"
-  },
-  {
-    "id": "en:out:noun",
-    "word": "out",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"out\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"out\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "outs"
   },
   {
     "id": "en:renovate:verb",
@@ -244,22 +394,6 @@
     ],
     "examples": [
       "This is an example sentence using \"renovate\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15"
-  },
-  {
-    "id": "en:decorate:verb",
-    "word": "decorate",
-    "language": "en",
-    "form": "verb",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"decorate\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"decorate\"."
     ],
     "domain": "general",
     "theme": "housing",
@@ -327,10 +461,13 @@
     "examples": [
       "This is an example sentence using \"yard\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "plural_form": "yards"
+    "plural_form": "yards",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:basement:noun",
@@ -395,128 +532,12 @@
     "examples": [
       "This is an example sentence using \"air\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "plural_form": "airs"
-  },
-  {
-    "id": "en:conditioning:noun",
-    "word": "conditioning",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"conditioning\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"conditioning\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "conditionings"
-  },
-  {
-    "id": "en:electricity:noun",
-    "word": "electricity",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"electricity\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"electricity\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "electricitys"
-  },
-  {
-    "id": "en:bill:noun",
-    "word": "bill",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"bill\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"bill\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "bills"
-  },
-  {
-    "id": "en:gas:noun",
-    "word": "gas",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"gas\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"gas\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "gases"
-  },
-  {
-    "id": "en:agreement:noun",
-    "word": "agreement",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"agreement\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"agreement\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "agreements"
-  },
-  {
-    "id": "en:noisy:noun",
-    "word": "noisy",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"noisy\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"noisy\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "noisys"
-  },
-  {
-    "id": "en:quiet:noun",
-    "word": "quiet",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A2 entry for \"quiet\" in English vocabulary."
-    ],
-    "examples": [
-      "This is an example sentence using \"quiet\"."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "quiets"
+    "plural_form": "airs",
+    "tags": [
+      "spoken"
+    ]
   }
 ]
