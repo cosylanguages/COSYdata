@@ -30,7 +30,7 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ## Vocabulary File Organization & Datasets
 
-Vocabulary entries are **batched into theme files** across general and spoken course topics rather than having individual JSON files per word:
+Vocabulary entries are **batched into theme files** across everyday topics rather than having individual JSON files per word:
 
 ```
 vocabulary/
@@ -49,8 +49,8 @@ vocabulary/
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its corresponding theme file.
 
 ### Course Domains
-- **`general`**: Standard CEFR course vocabulary.
-- **`spoken`**: Spoken course vocabulary focused on conversation.
+- **`general`**: Standard CEFR course vocabulary (A0–C2).
+- **`spoken`**: Spoken course vocabulary focused on conversation (A0–A2).
 - **`general, spoken`**: Words present in both general and spoken course lists.
 
 To regenerate `index.json` for all language folders, run:

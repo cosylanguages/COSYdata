@@ -1,9 +1,9 @@
 [
   {
-    "id": "en:up:adverb",
+    "id": "en:up:preposition",
     "word": "up",
     "language": "en",
-    "form": "adverb",
+    "form": "preposition",
     "level": "A1",
     "definitions": [
       "Entry for \"up\" in general English vocabulary."
@@ -38,10 +38,10 @@
     ]
   },
   {
-    "id": "en:between:adverb",
+    "id": "en:between:preposition",
     "word": "between",
     "language": "en",
-    "form": "adverb",
+    "form": "preposition",
     "level": "A1",
     "definitions": [
       "Entry for \"between\" in general English vocabulary."
@@ -57,10 +57,10 @@
     ]
   },
   {
-    "id": "en:down:adverb",
+    "id": "en:down:preposition",
     "word": "down",
     "language": "en",
-    "form": "adverb",
+    "form": "preposition",
     "level": "A1",
     "definitions": [
       "Entry for \"down\" in general English vocabulary."
@@ -166,6 +166,26 @@
     "tags": [
       "spoken"
     ]
+  },
+  {
+    "id": "en:address:phrase",
+    "word": "address",
+    "language": "en",
+    "form": "phrase",
+    "level": "A0",
+    "definitions": [
+      "Spoken English entry for \"address\"."
+    ],
+    "examples": [
+      "Spoken usage example with \"address\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "beginner"
+    ],
+    "updated": "2025-01-15"
   },
   {
     "id": "en:north:adverb",
@@ -281,9 +301,12 @@
     "examples": [
       "This is an example sentence using \"straight\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "navigation",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:ahead:adverb",
@@ -369,10 +392,10 @@
     "updated": "2025-01-15"
   },
   {
-    "id": "en:above:adverb",
+    "id": "en:above:preposition",
     "word": "above",
     "language": "en",
-    "form": "adverb",
+    "form": "preposition",
     "level": "A1",
     "definitions": [
       "Entry for \"above\" in general English vocabulary."
@@ -388,10 +411,10 @@
     ]
   },
   {
-    "id": "en:below:adverb",
+    "id": "en:below:preposition",
     "word": "below",
     "language": "en",
-    "form": "adverb",
+    "form": "preposition",
     "level": "A1",
     "definitions": [
       "Entry for \"below\" in general English vocabulary."
@@ -880,23 +903,381 @@
     "updated": "2025-01-15"
   },
   {
-    "id": "en:address:phrase",
-    "word": "address",
+    "id": "en:intersection:noun",
+    "word": "intersection",
     "language": "en",
-    "form": "phrase",
-    "level": "A0",
+    "form": "noun",
+    "level": "A2",
     "definitions": [
-      "Spoken English entry for \"address\"."
+      "A2 Spoken English entry for \"intersection\"."
     ],
     "examples": [
-      "Spoken usage example with \"address\"."
+      "A2 spoken usage example with \"intersection\"."
     ],
     "domain": "spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
-      "beginner"
+      "elementary"
     ],
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "plural_form": "intersections"
+  },
+  {
+    "id": "en:crosswalk:noun",
+    "word": "crosswalk",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"crosswalk\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"crosswalk\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "crosswalks"
+  },
+  {
+    "id": "en:sidewalk:noun",
+    "word": "sidewalk",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"sidewalk\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"sidewalk\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "sidewalks"
+  },
+  {
+    "id": "en:pavement:noun",
+    "word": "pavement",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"pavement\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"pavement\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "pavements"
+  },
+  {
+    "id": "en:block:noun",
+    "word": "block",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"block\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"block\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "blocks"
+  },
+  {
+    "id": "en:avenue:noun",
+    "word": "avenue",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"avenue\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"avenue\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "avenues"
+  },
+  {
+    "id": "en:lane:noun",
+    "word": "lane",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"lane\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"lane\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "lanes"
+  },
+  {
+    "id": "en:one-way-street:noun",
+    "word": "one-way street",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"one-way street\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"one-way street\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "one-way streets"
+  },
+  {
+    "id": "en:dead-end:noun",
+    "word": "dead end",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"dead end\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"dead end\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "dead ends"
+  },
+  {
+    "id": "en:parking-lot:noun",
+    "word": "parking lot",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"parking lot\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"parking lot\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "parking lots"
+  },
+  {
+    "id": "en:car-park:noun",
+    "word": "car park",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"car park\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"car park\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "car parks"
+  },
+  {
+    "id": "en:entrance:noun",
+    "word": "entrance",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"entrance\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"entrance\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "entrances"
+  },
+  {
+    "id": "en:exit:noun",
+    "word": "exit",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"exit\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"exit\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "exits"
+  },
+  {
+    "id": "en:gps:noun",
+    "word": "GPS",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"GPS\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"GPS\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "GPSs"
+  },
+  {
+    "id": "en:navigation:noun",
+    "word": "navigation",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"navigation\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"navigation\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "navigations"
+  },
+  {
+    "id": "en:nearby:noun",
+    "word": "nearby",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"nearby\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"nearby\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "nearbys"
+  },
+  {
+    "id": "en:uptown:noun",
+    "word": "uptown",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"uptown\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"uptown\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "uptowns"
+  },
+  {
+    "id": "en:district:noun",
+    "word": "district",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A2 Spoken English entry for \"district\"."
+    ],
+    "examples": [
+      "A2 spoken usage example with \"district\"."
+    ],
+    "domain": "spoken",
+    "theme": "navigation",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "districts"
   }
 ]

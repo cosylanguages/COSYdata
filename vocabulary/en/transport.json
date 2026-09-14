@@ -1,9 +1,9 @@
 [
   {
-    "id": "en:the:noun",
+    "id": "en:the:article",
     "word": "the",
     "language": "en",
-    "form": "noun",
+    "form": "article",
     "level": "A2",
     "definitions": [
       "A2 entry for \"the\" in English vocabulary."
@@ -13,8 +13,7 @@
     ],
     "domain": "general",
     "theme": "transport",
-    "updated": "2025-01-15",
-    "plural_form": "thes"
+    "updated": "2025-01-15"
   },
   {
     "id": "en:get:noun",
@@ -37,10 +36,10 @@
     ]
   },
   {
-    "id": "en:on:noun",
+    "id": "en:on:preposition",
     "word": "on",
     "language": "en",
-    "form": "noun",
+    "form": "preposition",
     "level": "A2",
     "definitions": [
       "A2 entry for \"on\" in English vocabulary."
@@ -51,7 +50,6 @@
     "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "ons",
     "tags": [
       "spoken"
     ]
@@ -131,10 +129,10 @@
     ]
   },
   {
-    "id": "en:off:noun",
+    "id": "en:off:preposition",
     "word": "off",
     "language": "en",
-    "form": "noun",
+    "form": "preposition",
     "level": "A2",
     "definitions": [
       "A2 entry for \"off\" in English vocabulary."
@@ -144,8 +142,7 @@
     ],
     "domain": "general",
     "theme": "transport",
-    "updated": "2025-01-15",
-    "plural_form": "offs"
+    "updated": "2025-01-15"
   },
   {
     "id": "en:catch:verb",
@@ -252,9 +249,12 @@
     "examples": [
       "This is an example sentence using \"straight\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:bus:noun",
@@ -325,10 +325,55 @@
     "examples": [
       "This is an example sentence using \"timetable\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "timetables"
+    "plural_form": "timetables",
+    "tags": [
+      "spoken"
+    ]
+  },
+  {
+    "id": "en:arrive:noun",
+    "word": "arrive",
+    "language": "en",
+    "form": "noun",
+    "level": "A0",
+    "definitions": [
+      "Spoken English entry for \"arrive\"."
+    ],
+    "examples": [
+      "Spoken usage example with \"arrive\"."
+    ],
+    "domain": "spoken",
+    "theme": "transport",
+    "tags": [
+      "spoken",
+      "beginner"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "arrives"
+  },
+  {
+    "id": "en:leave:noun",
+    "word": "leave",
+    "language": "en",
+    "form": "noun",
+    "level": "A0",
+    "definitions": [
+      "Spoken English entry for \"leave\"."
+    ],
+    "examples": [
+      "Spoken usage example with \"leave\"."
+    ],
+    "domain": "spoken",
+    "theme": "transport",
+    "tags": [
+      "spoken",
+      "beginner"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "leaves"
   },
   {
     "id": "en:speed:noun",
@@ -433,10 +478,13 @@
     "examples": [
       "This is an example sentence using \"crossroads\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "crossroadses"
+    "plural_form": "crossroadses",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:roundabout:noun",
@@ -450,10 +498,13 @@
     "examples": [
       "This is an example sentence using \"roundabout\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "roundabouts"
+    "plural_form": "roundabouts",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:junction:noun",
@@ -484,10 +535,13 @@
     "examples": [
       "This is an example sentence using \"motorway\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "motorways"
+    "plural_form": "motorways",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:highway:noun",
@@ -501,10 +555,13 @@
     "examples": [
       "This is an example sentence using \"highway\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "highways"
+    "plural_form": "highways",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:pedestrian:noun",
@@ -518,10 +575,13 @@
     "examples": [
       "This is an example sentence using \"pedestrian\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "plural_form": "pedestrians"
+    "plural_form": "pedestrians",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:crossing:noun",
@@ -620,9 +680,12 @@
     "examples": [
       "This is an example sentence using \"miss\"."
     ],
-    "domain": "general",
+    "domain": "general, spoken",
     "theme": "transport",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ]
   },
   {
     "id": "en:motorbike:noun",
@@ -686,47 +749,5 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "traffic lights"
-  },
-  {
-    "id": "en:arrive:noun",
-    "word": "arrive",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "Spoken English entry for \"arrive\"."
-    ],
-    "examples": [
-      "Spoken usage example with \"arrive\"."
-    ],
-    "domain": "spoken",
-    "theme": "transport",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "plural_form": "arrives"
-  },
-  {
-    "id": "en:leave:noun",
-    "word": "leave",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "Spoken English entry for \"leave\"."
-    ],
-    "examples": [
-      "Spoken usage example with \"leave\"."
-    ],
-    "domain": "spoken",
-    "theme": "transport",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "plural_form": "leaves"
   }
 ]
