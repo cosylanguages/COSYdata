@@ -7,12 +7,14 @@ on:
       - 'vocabulary/**'
       - 'schemas/**'
       - 'scripts/**'
+      - 'shared/**'
   pull_request:
     branches: [ main ]
     paths:
       - 'vocabulary/**'
       - 'schemas/**'
       - 'scripts/**'
+      - 'shared/**'
 
 jobs:
   validate:
@@ -30,7 +32,7 @@ jobs:
         run: npm install --no-save ajv@^8 ajv-formats@^2
 
       - name: Validate Vocabulary Files & Index References
-        run: node scripts/validate.js
+        run: node scripts/validate.cjs
 
       - name: Check Index Freshness
         run: |
