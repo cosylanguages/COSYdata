@@ -1,0 +1,13 @@
+{
+  "name": "cosydata",
+  "version": "0.1.0",
+  "description": "Canonical static data repository for the COSYlanguages ecosystem",
+  "scripts": {
+    "build:index": "node scripts/build-index.js",
+    "validate": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^2.1.1"
+  }
+}
