@@ -90,7 +90,23 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 - **`tags`** *(string[])*: Array of searchable tags.
 - **`updated`** *(string)*: Date string in ISO `YYYY-MM-DD` format.
 
-Test fixtures for schema validation are provided in `schemas/examples/`.
+---
+
+## Validation & CI Workflow
+
+Every pull request touching `vocabulary/**` triggers an automated GitHub Actions validation check (`.github/workflows/validate-vocabulary.yml`).
+
+### What is Checked:
+1. **Schema Validation**: Every theme file under `vocabulary/**/*.json` (excluding `index.json`) is validated against `schemas/vocabulary.schema.json`.
+2. **Index Mapping Integrity**: Every word ID mapped in an `index.json` file is verified to exist within the target theme file it references.
+
+### Schema Sanity Checking
+When editing `schemas/vocabulary.schema.json` itself, you can use the test fixtures in `schemas/examples/` as a sanity check to verify that your schema updates correctly accept valid entries and reject invalid ones:
+
+- `schemas/examples/valid-*.json`: Must pass schema validation.
+- `schemas/examples/invalid-*.json`: Must fail schema validation.
+
+PRs touching vocabulary data must pass these automated checks before merging.
 
 ---
 
@@ -99,5 +115,5 @@ Test fixtures for schema validation are provided in `schemas/examples/`.
 1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/en/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
 2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
 3. **Update Index**: Update `vocabulary/<lang>/index.json` to map the new word ID (`<language>:<word-slug>:<form>`) to the theme JSON file name.
-4. **Validate**: Ensure all JSON files pass validation against `schemas/vocabulary.schema.json`.
+4. **Validate**: Run local validation (`node scripts/validate.js` after `npm install ajv@^8 ajv-formats@^2`) to ensure all JSON files pass validation.
 5. **Submit PR**: Open a pull request targeting `main`.
