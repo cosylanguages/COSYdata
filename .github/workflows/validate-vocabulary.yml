@@ -31,3 +31,11 @@ jobs:
 
       - name: Validate Vocabulary Files & Index References
         run: node scripts/validate.js
+
+      - name: Check Index Freshness
+        run: |
+          npm run build:index
+          if ! git diff --exit-code vocabulary/; then
+            echo "Error: vocabulary index.json files are out of date! Please run 'npm run build:index' and commit the changes."
+            exit 1
+          fi

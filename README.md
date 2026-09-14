@@ -23,7 +23,7 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ### Examples:
 - `"en:healthy:adjective"`
-- `"en:run:verb"`
+- `"en:cat:noun"`
 - `"es:casa:noun"`
 
 ---
@@ -40,15 +40,22 @@ vocabulary/
     └── ...
 ```
 
-- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `health.json`, `food.json`).
+- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `health.json`, `food.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its corresponding theme file.
 
 For example, `vocabulary/en/index.json` maps word IDs to their location:
 
 ```json
 {
-  "en:healthy:adjective": "health.json"
+  "en:cat:noun": "animals.json",
+  "en:dog:noun": "animals.json"
 }
+```
+
+To regenerate `index.json` for all language folders, run:
+
+```bash
+npm run build:index
 ```
 
 ---
@@ -99,6 +106,7 @@ Every pull request touching `vocabulary/**` triggers an automated GitHub Actions
 ### What is Checked:
 1. **Schema Validation**: Every theme file under `vocabulary/**/*.json` (excluding `index.json`) is validated against `schemas/vocabulary.schema.json`.
 2. **Index Mapping Integrity**: Every word ID mapped in an `index.json` file is verified to exist within the target theme file it references.
+3. **Index Freshness**: Verifies that `index.json` is completely up-to-date by running `npm run build:index` and ensuring no uncommitted differences exist.
 
 ### Schema Sanity Checking
 When editing `schemas/vocabulary.schema.json` itself, you can use the test fixtures in `schemas/examples/` as a sanity check to verify that your schema updates correctly accept valid entries and reject invalid ones:
@@ -114,6 +122,6 @@ PRs touching vocabulary data must pass these automated checks before merging.
 
 1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/en/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
 2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
-3. **Update Index**: Update `vocabulary/<lang>/index.json` to map the new word ID (`<language>:<word-slug>:<form>`) to the theme JSON file name.
-4. **Validate**: Run local validation (`node scripts/validate.js` after `npm install ajv@^8 ajv-formats@^2`) to ensure all JSON files pass validation.
+3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
+4. **Validate**: Run local validation (`npm run validate` after installing `ajv@^8 ajv-formats@^2`) to ensure all JSON files pass validation.
 5. **Submit PR**: Open a pull request targeting `main`.
