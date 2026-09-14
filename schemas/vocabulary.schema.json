@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Vocabulary Entry",
+  "description": "Schema definition for vocabulary entries in COSYdata",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique vocabulary identifier in language:word:form format, e.g., en:healthy:adjective"
+    },
+    "word": {
+      "type": "string",
+      "description": "The target word or term"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language code (e.g. en, es, fr)"
+    },
+    "form": {
+      "type": "string",
+      "description": "Part of speech or form (e.g. noun, verb, adjective)"
+    },
+    "level": {
+      "type": "string",
+      "description": "CEFR or difficulty level (e.g. A1, B2)"
+    },
+    "emoji": {
+      "type": "string",
+      "description": "Representative emoji or icon string"
+    },
+    "transcription": {
+      "type": "string",
+      "description": "Phonetic or pronunciation transcription (e.g. IPA)"
+    },
+    "definitions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of definitions"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Example usage sentences"
+    },
+    "gender": {
+      "type": "string",
+      "description": "Grammatical gender (e.g. masculine, feminine, neuter)"
+    },
+    "article": {
+      "type": "string",
+      "description": "Grammatical article (e.g. der, die, das, el, la)"
+    },
+    "plural_form": {
+      "type": "string",
+      "description": "Plural form of the word"
+    },
+    "comparative": {
+      "type": "string",
+      "description": "Comparative form for adjectives/adverbs"
+    },
+    "superlative": {
+      "type": "string",
+      "description": "Superlative form for adjectives/adverbs"
+    },
+    "synonyms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of synonym word IDs or terms"
+    },
+    "antonyms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of antonym word IDs or terms"
+    },
+    "collocations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Common collocations or phrases"
+    },
+    "related_forms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Related forms or derivative word IDs"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Broader subject domain"
+    },
+    "theme": {
+      "type": "string",
+      "description": "Primary thematic category"
+    },
+    "sub_theme": {
+      "type": "string",
+      "description": "Sub-theme classification"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags"
+    },
+    "updated": {
+      "type": "string",
+      "description": "Timestamp or ISO date string of last update"
+    }
+  },
+  "required": ["id", "word", "language", "form"]
+}
