@@ -18,9 +18,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/piece/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/piːs/",
+    "no_antonym": true,
+    "emoji": "🧩",
+    "countability": "countable"
   },
   {
     "id": "en:end:verb",
@@ -41,9 +42,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/end/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɛnd/",
+    "emoji": "🏁",
+    "antonyms": [
+      "begin",
+      "start"
+    ]
   },
   {
     "id": "en:news:noun",
@@ -67,10 +71,10 @@
       "A1",
       "A2"
     ],
-    "countability": "false_plural",
-    "transcription": "/news/",
-    "no_emoji": true,
-    "no_antonym": true
+    "countability": "uncountable",
+    "transcription": "/nuːz/",
+    "no_antonym": true,
+    "emoji": "📰"
   },
   {
     "id": "en:tradition:noun",
@@ -96,9 +100,10 @@
       "A2",
       "B1"
     ],
-    "transcription": "/tradition/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/trəˈdɪʃən/",
+    "no_antonym": true,
+    "emoji": "📜",
+    "countability": "countable"
   },
   {
     "id": "en:sound:verb",
@@ -122,9 +127,9 @@
       "A1",
       "A2"
     ],
-    "transcription": "/sound/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/saʊnd/",
+    "no_antonym": true,
+    "emoji": "🔊"
   },
   {
     "id": "en:light:noun",
@@ -148,9 +153,12 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/light/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/laɪt/",
+    "emoji": "💡",
+    "antonyms": [
+      "dark"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:dark:noun",
@@ -167,13 +175,15 @@
     "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "darks",
     "tags": [
       "spoken"
     ],
-    "transcription": "/dark/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/dɑːrk/",
+    "emoji": "🌙",
+    "antonyms": [
+      "light"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:group:noun",
@@ -198,9 +208,10 @@
       "A1",
       "B2"
     ],
-    "transcription": "/group/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɡruːp/",
+    "no_antonym": true,
+    "emoji": "👥",
+    "countability": "countable"
   },
   {
     "id": "en:whole:noun",
@@ -218,9 +229,12 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "wholes",
-    "transcription": "/whole/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/hoʊl/",
+    "emoji": "🔴",
+    "antonyms": [
+      "part"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:side:noun",
@@ -246,9 +260,10 @@
       "B1",
       "B2"
     ],
-    "transcription": "/side/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/saɪd/",
+    "no_antonym": true,
+    "emoji": "➡️",
+    "countability": "countable"
   },
   {
     "id": "en:example:noun",
@@ -272,9 +287,10 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/example/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɪɡˈzæmpəl/",
+    "no_antonym": true,
+    "emoji": "💡",
+    "countability": "countable"
   },
   {
     "id": "en:idea:noun",
@@ -295,9 +311,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/idea/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/aɪˈdiːə/",
+    "no_antonym": true,
+    "emoji": "💡",
+    "countability": "countable"
   },
   {
     "id": "en:plan:noun",
@@ -318,9 +335,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/plan/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/plæn/",
+    "no_antonym": true,
+    "emoji": "📋",
+    "countability": "countable"
   },
   {
     "id": "en:problem:noun",
@@ -345,9 +363,12 @@
       "A1",
       "C2"
     ],
-    "transcription": "/problem/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈprɑːbləm/",
+    "emoji": "❓",
+    "antonyms": [
+      "solution"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:solution:noun",
@@ -372,9 +393,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/solution/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/səˈluːʃən/",
+    "emoji": "💡",
+    "antonyms": [
+      "problem"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:reason:noun",
@@ -399,9 +423,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/reason/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈriːzən/",
+    "no_antonym": true,
+    "emoji": "💭",
+    "countability": "countable"
   },
   {
     "id": "en:information:noun",
@@ -426,9 +451,9 @@
       "C2"
     ],
     "countability": "uncountable",
-    "transcription": "/information/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˌɪnfərˈmeɪʃən/",
+    "no_antonym": true,
+    "emoji": "ℹ️"
   },
   {
     "id": "en:advice:noun",
@@ -446,9 +471,9 @@
     "theme": "general",
     "updated": "2025-01-15",
     "countability": "uncountable",
-    "transcription": "/advice/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ədˈvaɪs/",
+    "no_antonym": true,
+    "emoji": "💡"
   },
   {
     "id": "en:list:noun",
@@ -469,9 +494,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/list/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/lɪst/",
+    "no_antonym": true,
+    "emoji": "📝",
+    "countability": "countable"
   },
   {
     "id": "en:team:noun",
@@ -495,9 +521,10 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/team/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/tiːm/",
+    "no_antonym": true,
+    "emoji": "👥",
+    "countability": "countable"
   },
   {
     "id": "en:club:noun",
@@ -519,9 +546,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/club/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/klʌb/",
+    "no_antonym": true,
+    "emoji": "🏛️",
+    "countability": "countable"
   },
   {
     "id": "en:member:noun",
@@ -543,9 +571,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/member/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmɛmbər/",
+    "no_antonym": true,
+    "emoji": "👤",
+    "countability": "countable"
   },
   {
     "id": "en:noise:noun",
@@ -566,9 +595,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/noise/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/nɔɪz/",
+    "emoji": "🔊",
+    "antonyms": [
+      "silence"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:voice:noun",
@@ -586,9 +618,10 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "voices",
-    "transcription": "/voice/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/vɔɪs/",
+    "no_antonym": true,
+    "emoji": "🗣️",
+    "countability": "countable"
   },
   {
     "id": "en:smell:noun",
@@ -609,9 +642,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/smell/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/smɛl/",
+    "no_antonym": true,
+    "emoji": "👃",
+    "countability": "countable"
   },
   {
     "id": "en:taste:verb",
@@ -635,9 +669,9 @@
       "A1",
       "A2"
     ],
-    "transcription": "/taste/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/teɪst/",
+    "no_antonym": true,
+    "emoji": "👅"
   },
   {
     "id": "en:touch:noun",
@@ -654,13 +688,13 @@
     "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "touchs",
     "tags": [
       "spoken"
     ],
-    "transcription": "/touch/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/tʌtʃ/",
+    "no_antonym": true,
+    "emoji": "👆",
+    "countability": "uncountable"
   },
   {
     "id": "en:image:noun",
@@ -678,9 +712,10 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "images",
-    "transcription": "/image/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɪmɪdʒ/",
+    "no_antonym": true,
+    "emoji": "🖼️",
+    "countability": "countable"
   },
   {
     "id": "en:drawing:noun",
@@ -701,9 +736,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/drawing/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈdrɔːɪŋ/",
+    "no_antonym": true,
+    "emoji": "🎨",
+    "countability": "countable"
   },
   {
     "id": "en:shadow:noun",
@@ -724,9 +760,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/shadow/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈʃædoʊ/",
+    "no_antonym": true,
+    "emoji": "👤",
+    "countability": "countable"
   },
   {
     "id": "en:part:noun",
@@ -747,9 +784,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/part/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/pɑːrt/",
+    "emoji": "🧩",
+    "antonyms": [
+      "whole"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:beginning:noun",
@@ -767,9 +807,12 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "beginnings",
-    "transcription": "/beginning/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/bɪˈɡɪnɪŋ/",
+    "emoji": "🎬",
+    "antonyms": [
+      "end"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:middle:noun",
@@ -790,9 +833,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/middle/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmɪdəl/",
+    "no_antonym": true,
+    "emoji": "↔️",
+    "countability": "countable"
   },
   {
     "id": "en:chance:noun",
@@ -813,9 +857,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/chance/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/tʃæns/",
+    "no_antonym": true,
+    "emoji": "🎲",
+    "countability": "countable"
   },
   {
     "id": "en:luck:noun",
@@ -832,10 +877,10 @@
     "domain": "general",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "lucks",
-    "transcription": "/luck/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/lʌk/",
+    "no_antonym": true,
+    "emoji": "🍀",
+    "countability": "uncountable"
   },
   {
     "id": "en:mistake:noun",
@@ -856,9 +901,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/mistake/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/mɪˈsteɪk/",
+    "no_antonym": true,
+    "emoji": "❌",
+    "countability": "countable"
   },
   {
     "id": "en:rule:noun",
@@ -883,9 +929,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/rule/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ruːl/",
+    "no_antonym": true,
+    "emoji": "📜",
+    "countability": "countable"
   },
   {
     "id": "en:law:noun",
@@ -911,9 +958,10 @@
       "A2",
       "B1"
     ],
-    "transcription": "/law/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/lɔː/",
+    "no_antonym": true,
+    "emoji": "⚖️",
+    "countability": "countable"
   },
   {
     "id": "en:symbol:noun",
@@ -934,9 +982,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/symbol/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈsɪmbəl/",
+    "no_antonym": true,
+    "emoji": "🔣",
+    "countability": "countable"
   },
   {
     "id": "en:label:noun",
@@ -958,9 +1007,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/label/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈleɪbəl/",
+    "no_antonym": true,
+    "emoji": "🏷️",
+    "countability": "countable"
   },
   {
     "id": "en:custom:noun",
@@ -985,9 +1035,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/custom/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈkʌstəm/",
+    "no_antonym": true,
+    "emoji": "📜",
+    "countability": "countable"
   },
   {
     "id": "en:culture:noun",
@@ -1014,9 +1065,10 @@
       "B2",
       "C1"
     ],
-    "transcription": "/culture/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈkʌltʃər/",
+    "no_antonym": true,
+    "emoji": "🏛️",
+    "countability": "countable"
   },
   {
     "id": "en:war:noun",
@@ -1034,9 +1086,12 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "wars",
-    "transcription": "/war/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/wɔːr/",
+    "emoji": "⚔️",
+    "antonyms": [
+      "peace"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:peace:noun",
@@ -1053,10 +1108,12 @@
     "domain": "general",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "peaces",
-    "transcription": "/peace/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/piːs/",
+    "emoji": "🕊️",
+    "antonyms": [
+      "war"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:history:noun",
@@ -1073,16 +1130,16 @@
     "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "historys",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1"
     ],
-    "transcription": "/history/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈhɪstəri/",
+    "no_antonym": true,
+    "emoji": "📜",
+    "countability": "uncountable"
   },
   {
     "id": "en:future:noun",
@@ -1100,9 +1157,12 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "futures",
-    "transcription": "/future/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈfjuːtʃər/",
+    "emoji": "🔮",
+    "antonyms": [
+      "past"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:present:noun",
@@ -1126,9 +1186,13 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/present/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈprɛzənt/",
+    "emoji": "🎁",
+    "antonyms": [
+      "past",
+      "future"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:dream:noun",
@@ -1149,9 +1213,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/dream/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/driːm/",
+    "no_antonym": true,
+    "emoji": "💭",
+    "countability": "countable"
   },
   {
     "id": "en:hope:noun",
@@ -1172,9 +1237,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/hope/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/hoʊp/",
+    "no_antonym": true,
+    "emoji": "🌟",
+    "countability": "countable"
   },
   {
     "id": "en:wish:noun",
@@ -1191,13 +1257,14 @@
     "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "wishs",
+    "plural_form": "wishes",
     "tags": [
       "spoken"
     ],
-    "transcription": "/wish/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/wɪʃ/",
+    "no_antonym": true,
+    "emoji": "🌠",
+    "countability": "countable"
   },
   {
     "id": "en:secret:noun",
@@ -1215,9 +1282,10 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "secrets",
-    "transcription": "/secret/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈsiːkrət/",
+    "no_antonym": true,
+    "emoji": "🤫",
+    "countability": "countable"
   },
   {
     "id": "en:surprise:noun",
@@ -1235,9 +1303,10 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "surprises",
-    "transcription": "/surprise/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/sərˈpraɪz/",
+    "no_antonym": true,
+    "emoji": "🎉",
+    "countability": "countable"
   },
   {
     "id": "en:gift:noun",
@@ -1262,9 +1331,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/gift/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɡɪft/",
+    "no_antonym": true,
+    "emoji": "🎁",
+    "countability": "countable"
   },
   {
     "id": "en:prize:noun",
@@ -1282,9 +1352,10 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "prizes",
-    "transcription": "/prize/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/praɪz/",
+    "no_antonym": true,
+    "emoji": "🏆",
+    "countability": "countable"
   },
   {
     "id": "en:reward:noun",
@@ -1302,9 +1373,10 @@
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "rewards",
-    "transcription": "/reward/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/rɪˈwɔːrd/",
+    "no_antonym": true,
+    "emoji": "🥇",
+    "countability": "countable"
   },
   {
     "id": "en:address:noun",
@@ -1327,9 +1399,9 @@
     "updated": "2025-01-15",
     "plural_form": "addresses",
     "countability": "countable",
-    "transcription": "/address/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈædrɛs/",
+    "no_antonym": true,
+    "emoji": "🏠"
   },
   {
     "id": "en:story:noun",
@@ -1351,9 +1423,10 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "stories",
-    "transcription": "/story/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈstɔːri/",
+    "no_antonym": true,
+    "emoji": "📖",
+    "countability": "countable"
   },
   {
     "id": "en:place:noun",
@@ -1375,9 +1448,10 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "places",
-    "transcription": "/place/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/pleɪs/",
+    "no_antonym": true,
+    "emoji": "📍",
+    "countability": "countable"
   },
   {
     "id": "en:thing:noun",
@@ -1399,9 +1473,10 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "things",
-    "transcription": "/thing/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/θɪŋ/",
+    "no_antonym": true,
+    "emoji": "📦",
+    "countability": "countable"
   },
   {
     "id": "en:type:noun",
@@ -1423,9 +1498,10 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "types",
-    "transcription": "/type/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/taɪp/",
+    "no_antonym": true,
+    "emoji": "🏷️",
+    "countability": "countable"
   },
   {
     "id": "en:moment:noun",
@@ -1447,8 +1523,9 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "moments",
-    "transcription": "/moment/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmoʊmənt/",
+    "no_antonym": true,
+    "emoji": "⏱️",
+    "countability": "countable"
   }
 ]

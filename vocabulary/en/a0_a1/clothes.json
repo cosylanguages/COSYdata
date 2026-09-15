@@ -21,9 +21,9 @@
       "A1",
       "A2"
     ],
-    "transcription": "/try/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/traɪ/",
+    "no_antonym": true,
+    "emoji": "🎯"
   },
   {
     "id": "en:on:preposition",
@@ -49,11 +49,11 @@
       "B1",
       "B2"
     ],
-    "transcription": "/on/",
-    "no_emoji": true,
+    "transcription": "/ɑːn/",
     "antonyms": [
       "off"
-    ]
+    ],
+    "emoji": "🔛"
   },
   {
     "id": "en:off:preposition",
@@ -74,11 +74,11 @@
       "A1",
       "A2"
     ],
-    "transcription": "/off/",
-    "no_emoji": true,
+    "transcription": "/ɔːf/",
     "antonyms": [
       "on"
-    ]
+    ],
+    "emoji": "📴"
   },
   {
     "id": "en:put:verb",
@@ -103,9 +103,11 @@
       "A2",
       "B1"
     ],
-    "transcription": "/put/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/pʊt/",
+    "emoji": "📥",
+    "antonyms": [
+      "take"
+    ]
   },
   {
     "id": "en:size:noun",
@@ -132,9 +134,10 @@
       "B1",
       "B2"
     ],
-    "transcription": "/size/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/saɪz/",
+    "no_antonym": true,
+    "emoji": "📐",
+    "countability": "countable"
   },
   {
     "id": "en:dress:noun",
@@ -160,9 +163,9 @@
       "A2"
     ],
     "countability": "countable",
-    "transcription": "/dress/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/drɛs/",
+    "no_antonym": true,
+    "emoji": "👗"
   },
   {
     "id": "en:small:noun",
@@ -186,9 +189,12 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/small/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/smɔːl/",
+    "emoji": "🤏",
+    "antonyms": [
+      "large"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:large:noun",
@@ -209,9 +215,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/large/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/lɑːrdʒ/",
+    "emoji": "🐘",
+    "antonyms": [
+      "small"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:watch:noun",
@@ -228,7 +237,7 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "watchs",
+    "plural_form": "watches",
     "tags": [
       "spoken"
     ],
@@ -236,9 +245,10 @@
       "A1",
       "B1"
     ],
-    "transcription": "/watch/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/wɑːtʃ/",
+    "no_antonym": true,
+    "emoji": "⌚",
+    "countability": "countable"
   },
   {
     "id": "en:wear:noun",
@@ -255,13 +265,13 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "wears",
     "tags": [
       "spoken"
     ],
-    "transcription": "/wear/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/wɛər/",
+    "no_antonym": true,
+    "emoji": "👕",
+    "countability": "uncountable"
   },
   {
     "id": "en:put-on:noun",
@@ -282,10 +292,13 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "put ons",
-    "transcription": "/puton/",
-    "no_emoji": true,
-    "no_antonym": true
+    "plural_form": "put-ons",
+    "transcription": "/pʊt ɑːn/",
+    "emoji": "👕",
+    "antonyms": [
+      "take off"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:take-off:noun",
@@ -306,10 +319,13 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "take offs",
-    "transcription": "/takeoff/",
-    "no_emoji": true,
-    "no_antonym": true
+    "plural_form": "take-offs",
+    "transcription": "/teɪk ɔːf/",
+    "emoji": "🎽",
+    "antonyms": [
+      "put on"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:belt:noun",
@@ -334,9 +350,10 @@
       "A1",
       "B2"
     ],
-    "transcription": "/belt/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/bɛlt/",
+    "no_antonym": true,
+    "emoji": "🥋",
+    "countability": "countable"
   },
   {
     "id": "en:clothes:noun",
@@ -357,9 +374,9 @@
       "spoken"
     ],
     "countability": "pluralia_tantum",
-    "transcription": "/clothes/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/kloʊðz/",
+    "no_antonym": true,
+    "emoji": "👔"
   },
   {
     "id": "en:shirt:noun",
@@ -380,9 +397,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/shirt/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ʃɜːrt/",
+    "no_antonym": true,
+    "emoji": "👔",
+    "countability": "countable"
   },
   {
     "id": "en:t-shirt:noun",
@@ -403,9 +421,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/tshirt/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈtiːʃɜːrt/",
+    "no_antonym": true,
+    "emoji": "👕",
+    "countability": "countable"
   },
   {
     "id": "en:trousers:noun",
@@ -427,9 +446,9 @@
     ],
     "countability": "pluralia_tantum",
     "singular_workaround": "a pair of trousers",
-    "transcription": "/trousers/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈtraʊzərz/",
+    "no_antonym": true,
+    "emoji": "👖"
   },
   {
     "id": "en:pants:noun",
@@ -451,9 +470,9 @@
     ],
     "countability": "pluralia_tantum",
     "singular_workaround": "a pair of pants",
-    "transcription": "/pants/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/pænts/",
+    "no_antonym": true,
+    "emoji": "👖"
   },
   {
     "id": "en:jeans:noun",
@@ -475,9 +494,9 @@
     ],
     "countability": "pluralia_tantum",
     "singular_workaround": "a pair of jeans",
-    "transcription": "/jeans/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/dʒiːnz/",
+    "no_antonym": true,
+    "emoji": "👖"
   },
   {
     "id": "en:skirt:noun",
@@ -498,9 +517,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/skirt/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/skɜːrt/",
+    "no_antonym": true,
+    "emoji": "👗",
+    "countability": "countable"
   },
   {
     "id": "en:jacket:noun",
@@ -521,9 +541,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/jacket/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈdʒækɪt/",
+    "no_antonym": true,
+    "emoji": "🧥",
+    "countability": "countable"
   },
   {
     "id": "en:coat:noun",
@@ -544,9 +565,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/coat/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/koʊt/",
+    "no_antonym": true,
+    "emoji": "🧥",
+    "countability": "countable"
   },
   {
     "id": "en:sweater:noun",
@@ -567,9 +589,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/sweater/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈswɛtər/",
+    "no_antonym": true,
+    "emoji": "🧶",
+    "countability": "countable"
   },
   {
     "id": "en:jumper:noun",
@@ -587,9 +610,10 @@
     "theme": "clothing",
     "updated": "2025-01-15",
     "plural_form": "jumpers",
-    "transcription": "/jumper/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈdʒʌmpər/",
+    "no_antonym": true,
+    "emoji": "🧶",
+    "countability": "countable"
   },
   {
     "id": "en:shoes:noun",
@@ -611,9 +635,9 @@
       "spoken"
     ],
     "countability": "countable",
-    "transcription": "/shoes/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ʃuːz/",
+    "no_antonym": true,
+    "emoji": "👟"
   },
   {
     "id": "en:boots:noun",
@@ -632,9 +656,9 @@
     "updated": "2025-01-15",
     "plural_form": "boots",
     "countability": "countable",
-    "transcription": "/boots/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/buːts/",
+    "no_antonym": true,
+    "emoji": "🥾"
   },
   {
     "id": "en:socks:noun",
@@ -656,9 +680,9 @@
       "spoken"
     ],
     "countability": "countable",
-    "transcription": "/socks/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/sɑːks/",
+    "no_antonym": true,
+    "emoji": "🧦"
   },
   {
     "id": "en:hat:noun",
@@ -679,9 +703,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/hat/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/hæt/",
+    "no_antonym": true,
+    "emoji": "🎩",
+    "countability": "countable"
   },
   {
     "id": "en:cap:noun",
@@ -702,9 +727,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/cap/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/kæp/",
+    "no_antonym": true,
+    "emoji": "🧢",
+    "countability": "countable"
   },
   {
     "id": "en:gloves:noun",
@@ -726,9 +752,9 @@
       "spoken"
     ],
     "countability": "countable",
-    "transcription": "/gloves/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɡlʌvz/",
+    "no_antonym": true,
+    "emoji": "🧤"
   },
   {
     "id": "en:scarf:noun",
@@ -745,13 +771,14 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "scarfs",
+    "plural_form": "scarves",
     "tags": [
       "spoken"
     ],
-    "transcription": "/scarf/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/skɑːrf/",
+    "no_antonym": true,
+    "emoji": "🧣",
+    "countability": "countable"
   },
   {
     "id": "en:ring:noun",
@@ -772,9 +799,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ring/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/rɪŋ/",
+    "no_antonym": true,
+    "emoji": "💍",
+    "countability": "countable"
   },
   {
     "id": "en:medium:noun",
@@ -795,9 +823,10 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/medium/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmiːdiəm/",
+    "no_antonym": true,
+    "emoji": "📐",
+    "countability": "countable"
   },
   {
     "id": "en:jewelry:noun",
@@ -818,10 +847,10 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "jewelrys",
-    "transcription": "/jewelry/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈdʒuːəlri/",
+    "no_antonym": true,
+    "emoji": "💎",
+    "countability": "uncountable"
   },
   {
     "id": "en:necklace:noun",
@@ -843,9 +872,10 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "necklaces",
-    "transcription": "/necklace/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈnɛkləs/",
+    "no_antonym": true,
+    "emoji": "📿",
+    "countability": "countable"
   },
   {
     "id": "en:pajamas:noun",
@@ -868,9 +898,9 @@
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
     "singular_workaround": "a pair of pajamas",
-    "transcription": "/pajamas/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/pəˈdʒɑːməz/",
+    "no_antonym": true,
+    "emoji": "🥼"
   },
   {
     "id": "en:underwear:noun",
@@ -891,10 +921,10 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "underwears",
-    "transcription": "/underwear/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈʌndərwɛər/",
+    "no_antonym": true,
+    "emoji": "🩲",
+    "countability": "uncountable"
   },
   {
     "id": "en:tight:noun",
@@ -915,10 +945,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "tights",
-    "transcription": "/tight/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/taɪt/",
+    "emoji": "👖",
+    "antonyms": [
+      "loose"
+    ],
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:loose:noun",
@@ -939,9 +971,11 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "looses",
-    "transcription": "/loose/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/luːs/",
+    "emoji": "👕",
+    "antonyms": [
+      "tight"
+    ],
+    "countability": "uncountable"
   }
 ]
