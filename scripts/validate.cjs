@@ -43,7 +43,6 @@ function main() {
   console.log(`Validating ${themeFiles.length} theme file(s) against vocabulary schema...`);
 
   const idToFilesMap = {};
-  const transitionProperties = ['countability', 'transcription', 'emoji', 'antonyms', 'synonyms'];
 
   for (const file of themeFiles) {
     const relPath = path.relative(path.join(__dirname, '..'), file);
@@ -65,14 +64,7 @@ function main() {
       for (const [idx, entry] of entries.entries()) {
         const valid = validate(entry);
         if (!valid) {
-          // Filter out transition errors for missing required fields on existing entries during audit phase
-          const blockingErrors = validate.errors.filter((err) => {
-            if (err.keyword === 'if') return false;
-            if (err.keyword === 'required' && err.params && transitionProperties.includes(err.params.missingProperty)) {
-              return false;
-            }
-            return true;
-          });
+          const blockingErrors = validate.errors.filter((err) => err.keyword !== 'if');
 
           if (blockingErrors.length > 0) {
             hasError = true;
