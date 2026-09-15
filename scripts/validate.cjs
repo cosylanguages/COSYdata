@@ -64,10 +64,19 @@ function main() {
       for (const [idx, entry] of entries.entries()) {
         const valid = validate(entry);
         if (!valid) {
-          hasError = true;
-          console.error(`\n[SCHEMA ERROR] File: ${relPath} (Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
-          for (const err of validate.errors) {
-            console.error(`  - Field '${err.instancePath || '/'}' ${err.message}`);
+          // Filter out transition errors for missing countability on existing entries during audit phase
+          const blockingErrors = validate.errors.filter((err) => {
+            if (err.keyword === 'required' && err.params && err.params.missingProperty === 'countability') return false;
+            if (err.keyword === 'if' && err.params && err.params.failingKeyword === 'then') return false;
+            return true;
+          });
+
+          if (blockingErrors.length > 0) {
+            hasError = true;
+            console.error(`\n[SCHEMA ERROR] File: ${relPath} (Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
+            for (const err of blockingErrors) {
+              console.error(`  - Field '${err.instancePath || '/'}' ${err.message}`);
+            }
           }
         }
 

@@ -4,7 +4,12 @@
   "title": "Vocabulary Entry",
   "description": "JSON Schema (draft 2020-12) for COSYdata vocabulary entries",
   "type": "object",
-  "required": ["id", "word", "language", "form"],
+  "required": [
+    "id",
+    "word",
+    "language",
+    "form"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -26,14 +31,30 @@
     },
     "level": {
       "type": "string",
-      "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"],
+      "enum": [
+        "A0",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
       "description": "CEFR level"
     },
     "levels": {
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+        "enum": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
       },
       "minItems": 1,
       "description": "Array of all CEFR levels this word appears at across merged source entries"
@@ -129,9 +150,28 @@
       "type": "string",
       "description": "Grammatical gender (meaningful for nouns)"
     },
+    "countability": {
+      "type": "string",
+      "enum": [
+        "countable",
+        "uncountable",
+        "pluralia_tantum",
+        "invariable",
+        "false_plural"
+      ],
+      "description": "Noun countability classification"
+    },
     "plural_form": {
       "type": "string",
       "description": "Plural form (meaningful for nouns)"
+    },
+    "singular_workaround": {
+      "type": "string",
+      "description": "Countable phrase used to refer to one item for pluralia tantum nouns, e.g. a pair of scissors"
+    },
+    "collective_note": {
+      "type": "string",
+      "description": "Note for countable nouns whose verb agreement varies by dialect or reading"
     },
     "comparative": {
       "type": "string",
@@ -146,15 +186,44 @@
     {
       "if": {
         "properties": {
-          "form": { "const": "noun" }
+          "form": {
+            "const": "noun"
+          }
         },
-        "required": ["form"]
+        "required": [
+          "form"
+        ]
       },
       "then": {
+        "required": [
+          "countability"
+        ],
         "properties": {
-          "article": { "type": "string" },
-          "gender": { "type": "string" },
-          "plural_form": { "type": "string" },
+          "article": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string"
+          },
+          "countability": {
+            "type": "string",
+            "enum": [
+              "countable",
+              "uncountable",
+              "pluralia_tantum",
+              "invariable",
+              "false_plural"
+            ]
+          },
+          "plural_form": {
+            "type": "string"
+          },
+          "singular_workaround": {
+            "type": "string"
+          },
+          "collective_note": {
+            "type": "string"
+          },
           "comparative": false,
           "superlative": false
         }
@@ -163,27 +232,135 @@
         "properties": {
           "article": false,
           "gender": false,
-          "plural_form": false
+          "countability": false,
+          "plural_form": false,
+          "singular_workaround": false,
+          "collective_note": false
         }
       }
     },
     {
       "if": {
         "properties": {
-          "form": { "enum": ["adjective", "adverb"] }
+          "form": {
+            "enum": [
+              "adjective",
+              "adverb"
+            ]
+          }
         },
-        "required": ["form"]
+        "required": [
+          "form"
+        ]
       },
       "then": {
         "properties": {
-          "comparative": { "type": "string" },
-          "superlative": { "type": "string" }
+          "comparative": {
+            "type": "string"
+          },
+          "superlative": {
+            "type": "string"
+          }
         }
       },
       "else": {
         "properties": {
           "comparative": false,
           "superlative": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": {
+            "const": "countable"
+          }
+        },
+        "required": [
+          "countability"
+        ]
+      },
+      "then": {
+        "required": [
+          "plural_form"
+        ],
+        "properties": {
+          "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": {
+            "const": "uncountable"
+          }
+        },
+        "required": [
+          "countability"
+        ]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": {
+            "const": "pluralia_tantum"
+          }
+        },
+        "required": [
+          "countability"
+        ]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": {
+            "const": "invariable"
+          }
+        },
+        "required": [
+          "countability"
+        ]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": {
+            "const": "false_plural"
+          }
+        },
+        "required": [
+          "countability"
+        ]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": false
         }
       }
     }
