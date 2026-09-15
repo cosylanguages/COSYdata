@@ -64,10 +64,8 @@ function main() {
       for (const [idx, entry] of entries.entries()) {
         const valid = validate(entry);
         if (!valid) {
-          // Filter out transition errors for missing countability on existing entries during audit phase
           const blockingErrors = validate.errors.filter((err) => {
-            if (err.keyword === 'required' && err.params && err.params.missingProperty === 'countability') return false;
-            if (err.keyword === 'if' && err.params && err.params.failingKeyword === 'then') return false;
+            if (err.keyword === 'if') return false;
             return true;
           });
 
@@ -75,7 +73,15 @@ function main() {
             hasError = true;
             console.error(`\n[SCHEMA ERROR] File: ${relPath} (Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
             for (const err of blockingErrors) {
-              console.error(`  - Field '${err.instancePath || '/'}' ${err.message}`);
+              let fieldName = '/';
+              if (err.keyword === 'required' && err.params && err.params.missingProperty) {
+                fieldName = err.instancePath
+                  ? `${err.instancePath.replace(/^\//, '')}.${err.params.missingProperty}`
+                  : err.params.missingProperty;
+              } else if (err.instancePath) {
+                fieldName = err.instancePath.replace(/^\//, '');
+              }
+              console.error(`  - Field '${fieldName}': ${err.message}`);
             }
           }
         }
