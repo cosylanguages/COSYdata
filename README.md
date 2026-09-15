@@ -89,7 +89,8 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
   - **`superlative`** *(string)*: Superlative form (e.g. `healthiest`).
 
 ### Optional Fields
-- **`level`** *(string)*: CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
+- **`level`** *(string)*: Primary CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
+- **`levels`** *(string[])*: Array of all CEFR levels this word entry appears at across merged source entries (e.g. `["B1", "B2"]`).
 - **`emoji`** *(string)*: Representative emoji or icon string.
 - **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string).
 - **`audio`** *(string)*: Audio file path or URL.
