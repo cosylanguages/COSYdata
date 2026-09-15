@@ -30,27 +30,30 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ## Vocabulary File Organization & Datasets
 
-Vocabulary entries are **batched into theme files** across everyday topics rather than having individual JSON files per word:
+Vocabulary entries are **batched into theme files** organized by CEFR levels and courses:
 
 ```
 vocabulary/
 └── <lang>/
     ├── index.json
-    ├── animals.json
-    ├── family.json
-    ├── food_drink.json
-    ├── personality.json
-    ├── rare_adjectives.json
-    ├── rare_verbs.json
+    ├── a0_a1/
+    │   ├── animals.json
+    │   ├── colors.json
+    │   ├── family.json
+    │   ├── food_drink.json
+    │   └── ...
+    ├── animals.json (A2+)
+    ├── family.json (B1+)
     └── ...
 ```
 
-- **`vocabulary/<lang>/<theme>.json`**: Contains array or map of word entries belonging to a given theme (e.g. `animals.json`, `family.json`, `food_drink.json`, `personality.json`).
-- **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its corresponding theme file.
+- **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`).
+- **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its relative theme file path (e.g. `"en:cat:noun": "a0_a1/animals.json"`).
 
-### Course Domains
-- **`general`**: Standard CEFR course vocabulary (A0–C2).
-- **`spoken`**: Spoken course vocabulary focused on conversation (A0–C2).
+### Course Domains & Level Folders
+- **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.
+- **`general`**: Standard CEFR course vocabulary.
+- **`spoken`**: Spoken course vocabulary focused on conversation.
 - **`general, spoken`**: Words present in both general and spoken course lists.
 
 To regenerate `index.json` for all language folders, run:
@@ -137,7 +140,7 @@ PRs touching vocabulary data must pass these automated checks before merging.
 
 ## Contribution Guide: How to Add a Word
 
-1. **Locate or Create Theme File**: Find the target language directory (e.g., `vocabulary/en/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
+1. **Locate or Create Theme File**: Find the target language and level directory (e.g., `vocabulary/en/a0_a1/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
 2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
 3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
 4. **Validate**: Run local validation (`npm run validate` after installing dependencies) to ensure all JSON files pass validation.

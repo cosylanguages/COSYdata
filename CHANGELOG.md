@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Separated A0–A1 level vocabulary into a dedicated `vocabulary/en/a0_a1/` directory:
+  - Extracted all 1,581 CEFR A0 and A1 vocabulary entries into 36 theme files under `vocabulary/en/a0_a1/`.
+  - Removed A0 and A1 entries from root `vocabulary/en/` theme files (deleting theme files whose entries were 100% A0/A1).
+  - Updated `scripts/build-index.cjs` to recursively scan language subdirectories (such as `vocabulary/en/a0_a1/`) and generate relative file paths in `vocabulary/<lang>/index.json`.
 - Re-audited and updated all 1,581 CEFR A0/A1 vocabulary entries across 36 theme files in `vocabulary/en/` in single-pass updates:
   - **Definitions**: 1,581 replaced with simple, natural A0/A1-level definitions (present simple only, max one relative clause, no passive voice, no perfect tenses, strictly using known A0/A1 vocabulary).
   - **Examples**: 1,581 updated with 5–8 word everyday concrete usage sentences in present or past simple.

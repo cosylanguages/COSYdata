@@ -1,6 +1,22 @@
 const fs = require('fs');
 const path = require('path');
 
+function getJsonFiles(dir) {
+  let results = [];
+  if (!fs.existsSync(dir)) return results;
+  const list = fs.readdirSync(dir);
+  for (const item of list) {
+    const fullPath = path.join(dir, item);
+    const stat = fs.statSync(fullPath);
+    if (stat && stat.isDirectory()) {
+      results = results.concat(getJsonFiles(fullPath));
+    } else if (item.endsWith('.json') && item !== 'index.json') {
+      results.push(fullPath);
+    }
+  }
+  return results;
+}
+
 function main() {
   const vocabDir = path.join(__dirname, '..', 'vocabulary');
 
@@ -18,12 +34,10 @@ function main() {
     const lang = path.basename(langDir);
     const indexMap = {};
 
-    const files = fs
-      .readdirSync(langDir)
-      .filter((file) => file.endsWith('.json') && file !== 'index.json');
+    const files = getJsonFiles(langDir);
 
-    for (const file of files) {
-      const filePath = path.join(langDir, file);
+    for (const filePath of files) {
+      const relativePath = path.relative(langDir, filePath).replace(/\\/g, '/');
       try {
         const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         const entries = Array.isArray(content)
@@ -36,7 +50,7 @@ function main() {
 
         for (const entry of entries) {
           if (entry && entry.id) {
-            indexMap[entry.id] = file;
+            indexMap[entry.id] = relativePath;
           }
         }
       } catch (err) {
