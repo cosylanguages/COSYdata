@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Re-audited and updated all 1,581 CEFR A0/A1 vocabulary entries across 36 theme files in `vocabulary/en/` in single-pass updates:
+  - **Definitions**: 1,581 replaced with simple, natural A0/A1-level definitions (present simple only, max one relative clause, no passive voice, no perfect tenses, strictly using known A0/A1 vocabulary).
+  - **Examples**: 1,581 updated with 5–8 word everyday concrete usage sentences in present or past simple.
+  - **Transcriptions**: 1,581 updated with accurate IPA phonetic transcriptions.
+  - **Emoji**: 1,581 updated with representative emoji icons or explicit `no_emoji: true` waivers.
+  - **Antonyms**: 1,581 updated with simple A1 opposite terms or explicit `no_antonym: true` waivers.
 - Updated countability, plural forms, singular workarounds, and collective notes across 283 flagged noun entries in `vocabulary/en/` according to `/reports/countability-audit.md`:
   - `countable`: 130 entries (corrected naive or incorrect plural forms, added collective notes where appropriate)
   - `uncountable`: 84 entries (removed prohibited plural forms)
