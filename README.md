@@ -149,10 +149,62 @@ PRs touching vocabulary data must pass these automated checks before merging.
 
 ---
 
+## Definition Guidelines (A0–A1 and A2 Levels)
+
+When creating or revising definitions for vocabulary entries at **A0–A1** and **A2** levels, strictly follow the principles, pattern taxonomy, and grammar guardrails outlined below.
+
+### Core A0–A1 Principles
+1. **Clause & Tense Limits**: One relative clause maximum, present simple tense only. No passive voice, no perfect tenses, and no subordinate clauses nested inside relative clauses.
+2. **Relative Pronoun Agreement**:
+   - `who` for people (e.g., *a person who...*)
+   - `that` or `which` for things and animals (e.g., *an animal that...*)
+   - `where` for physical locations only (e.g., *a place where...*)
+   - `when` for time (e.g., *a time when...*)
+3. **Vocabulary Level Constraint**: Never define a word using a harder word than itself. If an A1 definition requires a B1 word, simplify the wording or choose a different pattern.
+4. **Avoid Self-Reference**: Never use self-referential phrases like *"a word that means..."*. Always define the real-world concept or object directly.
+
+### Pattern Library by Category (A0–A1)
+
+| Category | Reusable Frame / Pattern | Example |
+| :--- | :--- | :--- |
+| **People / Professions / Roles** | `"a person who [verb]s"`<br>`"a person whose job is to [verb]"`<br>`"a person in your family who..."` | **teacher**: *a person who teaches children.*<br>**doctor**: *a person whose job is to help sick people.*<br>**mother**: *a woman who has a child.* |
+| **Animals** | `"an animal that [verb]s"`<br>`"a small/big animal with [feature]"`<br>`"an animal people keep at home"` | **fish**: *an animal that lives in water.*<br>**bird**: *an animal with wings that can fly.*<br>**pet**: *an animal that lives with people in their house.* |
+| **Places** | `"a place where people [verb]"`<br>`"a place where you can [verb]"`<br>`"a room where you [verb]"` | **school**: *a place where children learn.*<br>**shop**: *a place where you can buy things.*<br>**kitchen**: *a room where you cook food.* |
+| **Things / Objects** | `"a thing you use to [verb]"`<br>`"a thing you [verb] on/in/with"`<br>`"a thing that [verb]s"` | **pen**: *a thing you use to write.*<br>**chair**: *a thing you sit on.*<br>**clock**: *a thing that shows the time.* |
+| **Food & Drink** | `"a food made from [ingredient]"`<br>`"a drink made from [ingredient]"`<br>`"a sweet food people eat"` | **bread**: *a food made from flour.*<br>**tea**: *a drink made from hot water and leaves.*<br>**cake**: *a sweet food people eat on birthdays.* |
+| **Clothes** | `"a thing you wear on your [body part]"` | **hat**: *a thing you wear on your head.*<br>**shoes**: *things you wear on your feet.* |
+| **Time Words** | `"a time when [clause]"`<br>`"the day before/after [day]"`<br>`"a part of the day when..."` | **morning**: *a time when the day starts.*<br>**Tuesday**: *the day after Monday.*<br>**evening**: *a part of the day when the sun goes down.* |
+| **Feelings / Emotions** | `"how you feel when [clause]"`<br>`"how you feel when you [verb]"` | **happy**: *how you feel when something good happens.*<br>**tired**: *how you feel when you need to sleep.* |
+| **Verbs (Actions)** | `"to [do something] using [body part/tool]"`<br>`"when you [verb1], you [verb2]"`<br>`"to make [something] [happen]"` | **walk**: *to move using your legs.*<br>**eat**: *when you eat, food goes into your mouth.*<br>**open**: *to make something no longer closed.* |
+| **Adjectives (Qualities)** | `"opposite of [known antonym]"` *(reuse `antonyms` field)*<br>`"how [something] is when [clause]"` | **small**: *the opposite of big.*<br>**hot**: *how food or weather is when it has a lot of heat.* |
+| **Colors** | `"the color of [common concrete thing]"` | **red**: *the color of blood, or a tomato.*<br>**green**: *the color of grass.* |
+| **Numbers** | `"the number after/before [number]"`<br>`"the number you get when you count [set]"` | **six**: *the number after five.*<br>**ten**: *the number of your fingers.* |
+| **Family** | `"a person in your family who is [relation]"` | **sister**: *a girl or woman who has the same parents as you.* |
+| **Function Words** | Short functional gloss instead of full relative clause. | **where**: *asks about a place.*<br>**who**: *asks about a person.*<br>**in**: *shows that something is inside another thing.*<br>**and**: *joins two words or ideas together.* |
+
+### Grammar Guardrails
+- **Relative Pronoun Agreement**: Enforce strict agreement (`who` for people only, `where` for concrete physical locations only—do not use `where` for abstract situations).
+- **Single Relative Clause Limit**: Reject sentences with nested relative clauses (e.g., *"a person who teaches children who go to primary school"* is B1-structured).
+- **Circularity Prevention**: Do not use a word inside a definition (e.g., using *teaches* to define *teacher*) unless that word itself is introduced at $\le$A1 level.
+
+### A2 Shift
+At the **A2 level**, rigid pattern scaffolding (`"a thing that..."`) is dropped in favor of natural, dictionary-style definitions using simple A1–A2 vocabulary:
+- **Structure**: Can use up to two clauses joined by `and` or `or`.
+- **Purpose Constructions**: `"used for/to"` constructions are permitted.
+- **Abstraction**: Mild abstraction is allowed while keeping inner vocabulary strictly $\le$A2.
+
+**Comparison Examples**:
+- **A1**: *restaurant* — a place where you eat food.
+- **A2**: *restaurant* — a place where you pay to eat a meal that someone else cooks for you.
+- **A1**: *angry* — how you feel when something bad happens.
+- **A2**: *angry* — feeling strong displeasure about something someone did wrong.
+
+---
+
 ## Contribution Guide: How to Add a Word
 
 1. **Locate or Create Theme File**: Find the target language and level directory (e.g., `vocabulary/en/a0_a1/`, `vocabulary/en/a2/`, `vocabulary/en/b1/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
-2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
+2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`. Ensure definitions follow the [Definition Guidelines (A0–A1 and A2 Levels)](#definition-guidelines-a0a1-and-a2-levels).
 3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
 4. **Validate**: Run local validation (`npm run validate` after installing dependencies) to ensure all JSON files pass validation.
 5. **Submit PR**: Open a pull request targeting `main`.
