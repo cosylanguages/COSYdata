@@ -8,7 +8,8 @@
     "id",
     "word",
     "language",
-    "form"
+    "form",
+    "transcription"
   ],
   "properties": {
     "id": {
@@ -67,6 +68,14 @@
       "type": "string",
       "description": "Phonetic transcription (e.g., IPA)"
     },
+    "no_emoji": {
+      "type": "boolean",
+      "description": "Waives the required emoji constraint if true"
+    },
+    "no_antonym": {
+      "type": "boolean",
+      "description": "Waives the required antonyms constraint if true"
+    },
     "audio": {
       "type": "string",
       "description": "Audio file path or URL"
@@ -95,6 +104,7 @@
       "items": {
         "type": "string"
       },
+      "minItems": 1,
       "description": "Array of synonym terms or IDs"
     },
     "antonyms": {
@@ -102,6 +112,7 @@
       "items": {
         "type": "string"
       },
+      "minItems": 1,
       "description": "Array of antonym terms or IDs"
     },
     "collocations": {
@@ -183,6 +194,62 @@
     }
   },
   "allOf": [
+    {
+      "if": {
+        "properties": {
+          "no_emoji": {
+            "const": true
+          }
+        },
+        "required": [
+          "no_emoji"
+        ]
+      },
+      "else": {
+        "required": [
+          "emoji"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "no_antonym": {
+            "const": true
+          }
+        },
+        "required": [
+          "no_antonym"
+        ]
+      },
+      "else": {
+        "required": [
+          "antonyms"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "level": {
+            "enum": [
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          }
+        },
+        "required": [
+          "level"
+        ]
+      },
+      "then": {
+        "required": [
+          "synonyms"
+        ]
+      }
+    },
     {
       "if": {
         "properties": {
