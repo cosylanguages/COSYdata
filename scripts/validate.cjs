@@ -44,6 +44,13 @@ function main() {
 
   const idToFilesMap = {};
 
+  const levelStats = {
+    transcription: { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0, Unspecified: 0 },
+    emoji: { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0, Unspecified: 0 },
+    antonyms: { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0, Unspecified: 0 },
+    synonyms: { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0, Unspecified: 0 }
+  };
+
   for (const file of themeFiles) {
     const relPath = path.relative(path.join(__dirname, '..'), file);
     try {
@@ -62,12 +69,33 @@ function main() {
       }
 
       for (const [idx, entry] of entries.entries()) {
+        const lvl = (entry && entry.level) || 'Unspecified';
+        if (!entry || !entry.transcription || typeof entry.transcription !== 'string' || entry.transcription.trim() === '') {
+          if (levelStats.transcription[lvl] !== undefined) levelStats.transcription[lvl]++;
+        }
+        if (!entry || (!entry.no_emoji && (!entry.emoji || typeof entry.emoji !== 'string' || entry.emoji.trim() === ''))) {
+          if (levelStats.emoji[lvl] !== undefined) levelStats.emoji[lvl]++;
+        }
+        if (!entry || (!entry.no_antonym && (!Array.isArray(entry.antonyms) || entry.antonyms.length === 0))) {
+          if (levelStats.antonyms[lvl] !== undefined) levelStats.antonyms[lvl]++;
+        }
+        if (entry && ['B1', 'B2', 'C1', 'C2'].includes(lvl)) {
+          if (!Array.isArray(entry.synonyms) || entry.synonyms.length === 0) {
+            if (levelStats.synonyms[lvl] !== undefined) levelStats.synonyms[lvl]++;
+          }
+        }
+
         const valid = validate(entry);
         if (!valid) {
           hasError = true;
           console.error(`\n[SCHEMA ERROR] File: ${relPath} (Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
           for (const err of validate.errors) {
-            console.error(`  - Field '${err.instancePath || '/'}' ${err.message}`);
+            const field = err.params && err.params.missingProperty
+              ? err.params.missingProperty
+              : err.instancePath
+              ? err.instancePath.replace(/^\//, '')
+              : '/';
+            console.error(`  - Field '${field}' ${err.message}`);
           }
         }
 
@@ -147,6 +175,15 @@ function main() {
     } catch (err) {
       hasError = true;
       console.error(`\n[JSON ERROR] Could not parse index file: ${relIndexPath}\n  ${err.message}`);
+    }
+  }
+
+  console.log('\n=== NEW REQUIREMENT FAILURE BREAKDOWN BY LEVEL ===');
+  const levelsList = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  for (const field of ['transcription', 'emoji', 'antonyms', 'synonyms']) {
+    console.log(`\nRequirement: ${field}`);
+    for (const lvl of levelsList) {
+      console.log(`  ${lvl}: ${levelStats[field][lvl]} failure(s)`);
     }
   }
 
