@@ -78,6 +78,14 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 - **`word`** *(string)*: The canonical word or term.
 - **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `es`, `fr`).
 - **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`).
+- **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string), required for every entry at every level regardless of form.
+- **`emoji`** *(string)*: Representative emoji or icon string, required for every entry at every level (unless waived via `no_emoji`).
+- **`antonyms`** *(string[])*: Array of antonym terms or IDs (minimum 1 item), required for every entry at every level (unless waived via `no_antonym`).
+- **`synonyms`** *(string[])*: Array of synonym terms or IDs (minimum 1 item), required for every entry where `level` is `B1`, `B2`, `C1`, or `C2`. Optional for levels `A0`, `A1`, and `A2`.
+
+### Escape Hatch Flags (Waiving Requirements)
+- **`no_emoji`** *(boolean)*: Set to `true` for entries with no sensible single-emoji representation (e.g. highly abstract or formal words). When `true`, waives the required `emoji` field constraint.
+- **`no_antonym`** *(boolean)*: Set to `true` for entries with no meaningful antonym (e.g. concrete nouns, function words, proper nouns). When `true`, waives the required `antonyms` field constraint.
 
 ### Form-Dependent Fields (Validated via JSON Schema `if`/`then`)
 - **Noun fields** (relevant when `form` is `"noun"`):
@@ -91,14 +99,10 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 ### Optional Fields
 - **`level`** *(string)*: Primary CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
 - **`levels`** *(string[])*: Array of all CEFR levels this word entry appears at across merged source entries (e.g. `["B1", "B2"]`).
-- **`emoji`** *(string)*: Representative emoji or icon string.
-- **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string).
 - **`audio`** *(string)*: Audio file path or URL.
 - **`image`** *(string)*: Image file path or URL.
 - **`definitions`** *(string[])*: Array of clear definition strings (minimum 1 item if present).
 - **`examples`** *(string[])*: Array of example sentences demonstrating usage.
-- **`synonyms`** *(string[])*: Array of synonym word IDs or terms.
-- **`antonyms`** *(string[])*: Array of antonym word IDs or terms.
 - **`collocations`** *(string[])*: Array of common word pairings or phrases.
 - **`related_forms`** *(string[])*: Array of ID references into another COSY repo's data (e.g. `"COSYtools:fr-conjugeur:aimer"`).
 - **`domain`** *(string)*: Subject domain (e.g., `general`, `spoken`, `general, spoken`).

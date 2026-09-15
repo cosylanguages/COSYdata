@@ -4,7 +4,7 @@
   "title": "Vocabulary Entry",
   "description": "JSON Schema (draft 2020-12) for COSYdata vocabulary entries",
   "type": "object",
-  "required": ["id", "word", "language", "form"],
+  "required": ["id", "word", "language", "form", "transcription"],
   "properties": {
     "id": {
       "type": "string",
@@ -42,6 +42,10 @@
       "type": "string",
       "description": "Representative emoji string"
     },
+    "no_emoji": {
+      "type": "boolean",
+      "description": "When true, waives the required emoji field constraint"
+    },
     "transcription": {
       "type": "string",
       "description": "Phonetic transcription (e.g., IPA)"
@@ -74,6 +78,7 @@
       "items": {
         "type": "string"
       },
+      "minItems": 1,
       "description": "Array of synonym terms or IDs"
     },
     "antonyms": {
@@ -81,7 +86,12 @@
       "items": {
         "type": "string"
       },
+      "minItems": 1,
       "description": "Array of antonym terms or IDs"
+    },
+    "no_antonym": {
+      "type": "boolean",
+      "description": "When true, waives the required antonyms field constraint"
     },
     "collocations": {
       "type": "array",
@@ -185,6 +195,39 @@
           "comparative": false,
           "superlative": false
         }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "no_emoji": { "const": true }
+        },
+        "required": ["no_emoji"]
+      },
+      "else": {
+        "required": ["emoji"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "no_antonym": { "const": true }
+        },
+        "required": ["no_antonym"]
+      },
+      "else": {
+        "required": ["antonyms"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "level": { "enum": ["B1", "B2", "C1", "C2"] }
+        },
+        "required": ["level"]
+      },
+      "then": {
+        "required": ["synonyms"]
       }
     }
   ]
