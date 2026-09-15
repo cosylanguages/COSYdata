@@ -54,14 +54,14 @@
     "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "news",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "countability": "false_plural"
   },
   {
     "id": "en:document:noun",
@@ -394,14 +394,14 @@
     "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "information",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
       "C2"
-    ]
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:advice:noun",
@@ -418,7 +418,7 @@
     "domain": "general",
     "theme": "general",
     "updated": "2025-01-15",
-    "plural_form": "advice"
+    "countability": "uncountable"
   },
   {
     "id": "en:list:noun",
@@ -1184,7 +1184,8 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "addresses"
+    "plural_form": "addresses",
+    "countability": "countable"
   },
   {
     "id": "en:story:noun",
@@ -1436,7 +1437,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "plural_form": "detailses"
+    "plural_form": "details",
+    "countability": "countable"
   },
   {
     "id": "en:date-of-birth:noun",
@@ -1478,7 +1480,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "plural_form": "marital statuses"
+    "plural_form": "marital statuses",
+    "countability": "countable"
   },
   {
     "id": "en:contact-information:noun",
@@ -1541,7 +1544,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "plural_form": "email addresses"
+    "plural_form": "email addresses",
+    "countability": "countable"
   },
   {
     "id": "en:postal-code:noun",

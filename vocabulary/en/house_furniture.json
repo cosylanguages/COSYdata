@@ -161,7 +161,8 @@
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15",
-    "plural_form": "roomses"
+    "plural_form": "rooms",
+    "countability": "countable"
   },
   {
     "id": "en:kitchen:noun",
@@ -419,10 +420,11 @@
     "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "plural_form": "stairses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a flight of stairs"
   },
   {
     "id": "en:table:noun",
@@ -733,7 +735,8 @@
     "levels": [
       "A1",
       "B2"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:bowl:noun",

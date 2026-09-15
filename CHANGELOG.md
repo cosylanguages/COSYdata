@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.0] - Unreleased
 
+### Changed
+- Updated countability, plural forms, singular workarounds, and collective notes across 283 flagged noun entries in `vocabulary/en/` according to `/reports/countability-audit.md`:
+  - `countable`: 130 entries (corrected naive or incorrect plural forms, added collective notes where appropriate)
+  - `uncountable`: 84 entries (removed prohibited plural forms)
+  - `pluralia_tantum`: 45 entries (removed prohibited plural forms, added `singular_workaround` phrases such as "a pair of ..." where applicable)
+  - `false_plural`: 15 entries (removed prohibited plural forms)
+  - `invariable`: 9 entries (removed prohibited plural forms)
+
 ### Added
 - Initial scaffold for `COSYdata` repository.
 - Vocabulary schema (`schemas/vocabulary.schema.json`) using JSON Schema draft 2020-12 with form-dependent conditionals (`if`/`then`).

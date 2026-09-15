@@ -14,10 +14,10 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "researchs",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:researcher:noun",
@@ -176,10 +176,11 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "hypothesises",
+    "plural_form": "hypotheses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:evidence:noun",
@@ -196,14 +197,14 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "evidence",
     "tags": [
       "spoken"
     ],
     "levels": [
       "B1",
       "C1"
-    ]
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:technology:noun",
@@ -377,10 +378,10 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "software",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:hardware:noun",
@@ -397,10 +398,10 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "software",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:digital:adjective",
@@ -960,7 +961,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "bioethics"
+    "countability": "false_plural"
   },
   {
     "id": "en:computational:adjective",
@@ -1100,11 +1101,12 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "synthesises",
+    "plural_form": "syntheses",
     "levels": [
       "C1",
       "C2"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:synthesize:verb",
@@ -1137,7 +1139,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "physicses"
+    "countability": "false_plural"
   },
   {
     "id": "en:translational:noun",
@@ -1406,7 +1408,7 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "algorithmic biases"
+    "countability": "uncountable"
   },
   {
     "id": "en:deepfake:noun",
@@ -1490,7 +1492,7 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "ethical implicationses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:technological-disruption:noun",
@@ -1532,7 +1534,7 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "cutting cornerses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:trial-and-error:noun",
@@ -1679,7 +1681,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "unintended consequenceses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:existential-risk:noun",
@@ -1721,7 +1723,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "algorithmic accountabilitys"
+    "countability": "uncountable"
   },
   {
     "id": "en:data-sovereignty:noun",
@@ -1763,7 +1765,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "digital ethicses"
+    "countability": "false_plural"
   },
   {
     "id": "en:technological-determinism:noun",
@@ -1952,7 +1954,8 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "iterative processes"
+    "plural_form": "iterative processes",
+    "countability": "countable"
   },
   {
     "id": "en:first-mover-advantage:noun",

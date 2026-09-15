@@ -139,7 +139,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:small:noun",
@@ -309,10 +310,10 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "clotheses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:shirt:noun",
@@ -369,10 +370,11 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "trouserses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of trousers"
   },
   {
     "id": "en:pants:noun",
@@ -389,10 +391,11 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "pantses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of pants"
   },
   {
     "id": "en:jeans:noun",
@@ -409,10 +412,11 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "jeanses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of jeans"
   },
   {
     "id": "en:skirt:noun",
@@ -526,10 +530,11 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "shoeses",
+    "plural_form": "shoes",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:boots:noun",
@@ -546,7 +551,8 @@
     "domain": "general",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "bootses"
+    "plural_form": "boots",
+    "countability": "countable"
   },
   {
     "id": "en:socks:noun",
@@ -563,10 +569,11 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "sockses",
+    "plural_form": "socks",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:hat:noun",
@@ -623,10 +630,11 @@
     "domain": "general, spoken",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "gloveses",
+    "plural_form": "gloves",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:scarf:noun",
@@ -749,7 +757,8 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "pajamases"
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of pajamas"
   },
   {
     "id": "en:underwear:noun",
