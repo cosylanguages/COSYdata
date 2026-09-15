@@ -89,7 +89,8 @@ function main() {
         if (!valid) {
           hasError = true;
           console.error(`\n[SCHEMA ERROR] File: ${relPath} (Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
-          for (const err of validate.errors) {
+          const filteredErrors = validate.errors.filter((err) => !['if', 'then', 'else'].includes(err.keyword));
+          for (const err of filteredErrors) {
             const field = err.params && err.params.missingProperty
               ? err.params.missingProperty
               : err.instancePath
