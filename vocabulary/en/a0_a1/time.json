@@ -14,7 +14,6 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "times",
     "tags": [
       "spoken"
     ],
@@ -22,9 +21,10 @@
       "A1",
       "B1"
     ],
-    "transcription": "/time/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/taɪm/",
+    "no_antonym": true,
+    "emoji": "⏰",
+    "countability": "uncountable"
   },
   {
     "id": "en:second:noun",
@@ -45,9 +45,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/second/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈsɛkənd/",
+    "no_antonym": true,
+    "emoji": "⏱️",
+    "countability": "countable"
   },
   {
     "id": "en:to:preposition",
@@ -73,9 +74,11 @@
       "B1",
       "B2"
     ],
-    "transcription": "/to/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/tuː/",
+    "emoji": "➡️",
+    "antonyms": [
+      "from"
+    ]
   },
   {
     "id": "en:day:noun",
@@ -100,9 +103,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/day/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/deɪ/",
+    "emoji": "☀️",
+    "antonyms": [
+      "night"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:fall:noun",
@@ -127,9 +133,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/fall/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/fɔːl/",
+    "emoji": "🍂",
+    "antonyms": [
+      "spring"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:now:noun",
@@ -146,13 +155,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "nows",
     "tags": [
       "spoken"
     ],
-    "transcription": "/now/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/naʊ/",
+    "emoji": "⏱️",
+    "antonyms": [
+      "then"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:then:noun",
@@ -169,13 +180,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "thens",
     "tags": [
       "spoken"
     ],
-    "transcription": "/then/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ðɛn/",
+    "emoji": "⏳",
+    "antonyms": [
+      "now"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:today:noun",
@@ -192,13 +205,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "todays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/today/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/təˈdeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "uncountable"
   },
   {
     "id": "en:tomorrow:noun",
@@ -215,13 +228,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "tomorrows",
     "tags": [
       "spoken"
     ],
-    "transcription": "/tomorrow/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/təˈmɔːroʊ/",
+    "emoji": "📅➡️",
+    "antonyms": [
+      "yesterday"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:yesterday:noun",
@@ -238,13 +253,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "yesterdays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/yesterday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈjɛstərdeɪ/",
+    "emoji": "📅⬅️",
+    "antonyms": [
+      "tomorrow"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:always:noun",
@@ -261,14 +278,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "always",
     "tags": [
       "spoken"
     ],
-    "countability": "countable",
-    "transcription": "/always/",
-    "no_emoji": true,
-    "no_antonym": true
+    "countability": "uncountable",
+    "transcription": "/ˈɔːlweɪz/",
+    "emoji": "♾️",
+    "antonyms": [
+      "never"
+    ]
   },
   {
     "id": "en:usually:noun",
@@ -285,13 +303,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "usuallys",
     "tags": [
       "spoken"
     ],
-    "transcription": "/usually/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈjuːʒuəli/",
+    "emoji": "🔄",
+    "antonyms": [
+      "rarely"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:often:noun",
@@ -308,13 +328,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "oftens",
     "tags": [
       "spoken"
     ],
-    "transcription": "/often/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɔːfən/",
+    "emoji": "🔁",
+    "antonyms": [
+      "rarely"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:sometimes:noun",
@@ -331,14 +353,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "sometimes",
     "tags": [
       "spoken"
     ],
-    "countability": "countable",
-    "transcription": "/sometimes/",
-    "no_emoji": true,
-    "no_antonym": true
+    "countability": "uncountable",
+    "transcription": "/ˈsʌmtaɪmz/",
+    "no_antonym": true,
+    "emoji": "🔂"
   },
   {
     "id": "en:never:noun",
@@ -355,13 +376,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "nevers",
     "tags": [
       "spoken"
     ],
-    "transcription": "/never/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈnɛvər/",
+    "emoji": "🚫",
+    "antonyms": [
+      "always"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:past:noun",
@@ -378,13 +401,15 @@
     "domain": "general",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "pasts",
     "levels": [
       "A1"
     ],
-    "transcription": "/past/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/pæst/",
+    "emoji": "📜",
+    "antonyms": [
+      "future"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:later:noun",
@@ -401,13 +426,16 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "laters",
     "tags": [
       "spoken"
     ],
-    "transcription": "/later/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈleɪtər/",
+    "emoji": "⏰",
+    "antonyms": [
+      "earlier",
+      "sooner"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:soon:noun",
@@ -424,13 +452,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "soons",
     "tags": [
       "spoken"
     ],
-    "transcription": "/soon/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/suːn/",
+    "emoji": "⏱️",
+    "antonyms": [
+      "later"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:birthday:noun",
@@ -448,9 +478,10 @@
     "theme": "time",
     "updated": "2025-01-15",
     "plural_form": "birthdays",
-    "transcription": "/birthday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈbɜːrθdeɪ/",
+    "no_antonym": true,
+    "emoji": "🎂",
+    "countability": "countable"
   },
   {
     "id": "en:holiday:noun",
@@ -475,9 +506,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/holiday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈhɑːləˌdeɪ/",
+    "no_antonym": true,
+    "emoji": "🏖️",
+    "countability": "countable"
   },
   {
     "id": "en:morning:noun",
@@ -498,9 +530,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/morning/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmɔːrnɪŋ/",
+    "emoji": "🌅",
+    "antonyms": [
+      "evening",
+      "night"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:afternoon:noun",
@@ -521,9 +557,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/afternoon/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˌæftərˈnuːn/",
+    "emoji": "☀️",
+    "antonyms": [
+      "morning"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:evening:noun",
@@ -544,9 +583,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/evening/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈiːvnɪŋ/",
+    "emoji": "🌆",
+    "antonyms": [
+      "morning"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:night:noun",
@@ -567,9 +609,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/night/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/naɪt/",
+    "emoji": "🌙",
+    "antonyms": [
+      "day"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:may:noun",
@@ -586,13 +631,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Mays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/may/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/meɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:weekend:noun",
@@ -617,9 +662,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/weekend/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈwiːkˌɛnd/",
+    "no_antonym": true,
+    "emoji": "🗓️",
+    "countability": "countable"
   },
   {
     "id": "en:early:noun",
@@ -636,7 +682,6 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "earlys",
     "tags": [
       "spoken"
     ],
@@ -644,9 +689,12 @@
       "A1",
       "B2"
     ],
-    "transcription": "/early/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɜːrli/",
+    "emoji": "🌅",
+    "antonyms": [
+      "late"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:late:noun",
@@ -663,13 +711,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "lates",
     "tags": [
       "spoken"
     ],
-    "transcription": "/late/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/leɪt/",
+    "emoji": "🌇",
+    "antonyms": [
+      "early"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:date:verb",
@@ -690,9 +740,9 @@
       "A1",
       "A2"
     ],
-    "transcription": "/date/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/deɪt/",
+    "no_antonym": true,
+    "emoji": "📅"
   },
   {
     "id": "en:hour:noun",
@@ -717,9 +767,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/hour/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈaʊər/",
+    "no_antonym": true,
+    "emoji": "⏳",
+    "countability": "countable"
   },
   {
     "id": "en:monday:noun",
@@ -736,13 +787,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Mondays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/monday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmʌndeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:tuesday:noun",
@@ -759,13 +810,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Tuesdays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/tuesday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈtuːzdeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:wednesday:noun",
@@ -782,13 +833,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Wednesdays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/wednesday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈwɛnzdeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:thursday:noun",
@@ -805,13 +856,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Thursdays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/thursday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈθɜːrzdeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:friday:noun",
@@ -828,13 +879,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Fridays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/friday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈfraɪdeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:saturday:noun",
@@ -851,13 +902,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Saturdays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/saturday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈsætərdeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:sunday:noun",
@@ -874,13 +925,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Sundays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/sunday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈsʌndeɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "invariable"
   },
   {
     "id": "en:january:noun",
@@ -897,13 +948,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Januarys",
     "tags": [
       "spoken"
     ],
-    "transcription": "/january/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈdʒænjuˌɛri/",
+    "no_antonym": true,
+    "emoji": "❄️",
+    "countability": "invariable"
   },
   {
     "id": "en:february:noun",
@@ -920,13 +971,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Februarys",
     "tags": [
       "spoken"
     ],
-    "transcription": "/february/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈfɛbruˌɛri/",
+    "no_antonym": true,
+    "emoji": "❄️",
+    "countability": "invariable"
   },
   {
     "id": "en:march:noun",
@@ -943,13 +994,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Marchs",
     "tags": [
       "spoken"
     ],
-    "transcription": "/march/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/mɑːrtʃ/",
+    "no_antonym": true,
+    "emoji": "🌱",
+    "countability": "invariable"
   },
   {
     "id": "en:april:noun",
@@ -966,13 +1017,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Aprils",
     "tags": [
       "spoken"
     ],
-    "transcription": "/april/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈeɪprəl/",
+    "no_antonym": true,
+    "emoji": "🌧️",
+    "countability": "invariable"
   },
   {
     "id": "en:june:noun",
@@ -989,13 +1040,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Junes",
     "tags": [
       "spoken"
     ],
-    "transcription": "/june/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/dʒuːn/",
+    "no_antonym": true,
+    "emoji": "☀️",
+    "countability": "invariable"
   },
   {
     "id": "en:july:noun",
@@ -1012,13 +1063,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Julys",
     "tags": [
       "spoken"
     ],
-    "transcription": "/july/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/dʒuːˈlaɪ/",
+    "no_antonym": true,
+    "emoji": "☀️",
+    "countability": "invariable"
   },
   {
     "id": "en:august:noun",
@@ -1035,13 +1086,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Augusts",
     "tags": [
       "spoken"
     ],
-    "transcription": "/august/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɔːɡəst/",
+    "no_antonym": true,
+    "emoji": "🏖️",
+    "countability": "invariable"
   },
   {
     "id": "en:september:noun",
@@ -1058,13 +1109,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Septembers",
     "tags": [
       "spoken"
     ],
-    "transcription": "/september/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/sɛpˈtɛmbər/",
+    "no_antonym": true,
+    "emoji": "🍂",
+    "countability": "invariable"
   },
   {
     "id": "en:october:noun",
@@ -1081,13 +1132,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Octobers",
     "tags": [
       "spoken"
     ],
-    "transcription": "/october/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɑːkˈtoʊbər/",
+    "no_antonym": true,
+    "emoji": "🎃",
+    "countability": "invariable"
   },
   {
     "id": "en:november:noun",
@@ -1104,13 +1155,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Novembers",
     "tags": [
       "spoken"
     ],
-    "transcription": "/november/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/noʊˈvɛmbər/",
+    "no_antonym": true,
+    "emoji": "🍂",
+    "countability": "invariable"
   },
   {
     "id": "en:december:noun",
@@ -1127,13 +1178,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "Decembers",
     "tags": [
       "spoken"
     ],
-    "transcription": "/december/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/dɪˈsɛmbər/",
+    "no_antonym": true,
+    "emoji": "🎄",
+    "countability": "invariable"
   },
   {
     "id": "en:spring:noun",
@@ -1154,9 +1205,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/spring/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/sprɪŋ/",
+    "emoji": "🌱",
+    "antonyms": [
+      "autumn",
+      "fall"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:summer:noun",
@@ -1177,9 +1232,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/summer/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈsʌmər/",
+    "emoji": "☀️",
+    "antonyms": [
+      "winter"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:autumn:noun",
@@ -1197,9 +1255,12 @@
     "theme": "time",
     "updated": "2025-01-15",
     "plural_form": "autumns",
-    "transcription": "/autumn/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɔːtəm/",
+    "emoji": "🍂",
+    "antonyms": [
+      "spring"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:winter:noun",
@@ -1220,9 +1281,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/winter/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈwɪntər/",
+    "emoji": "❄️",
+    "antonyms": [
+      "summer"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:noon:noun",
@@ -1239,13 +1303,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "noons",
     "tags": [
       "spoken"
     ],
-    "transcription": "/noon/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/nuːn/",
+    "emoji": "☀️",
+    "antonyms": [
+      "midnight"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:midnight:noun",
@@ -1262,13 +1328,15 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "midnights",
     "tags": [
       "spoken"
     ],
-    "transcription": "/midnight/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmɪdˌnaɪt/",
+    "emoji": "🌕",
+    "antonyms": [
+      "noon"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:week:noun",
@@ -1289,9 +1357,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/week/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/wiːk/",
+    "no_antonym": true,
+    "emoji": "🗓️",
+    "countability": "countable"
   },
   {
     "id": "en:month:noun",
@@ -1312,9 +1381,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/month/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/mʌnθ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "countable"
   },
   {
     "id": "en:year:noun",
@@ -1335,9 +1405,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/year/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/jɪər/",
+    "no_antonym": true,
+    "emoji": "🗓️",
+    "countability": "countable"
   },
   {
     "id": "en:minute:noun",
@@ -1358,9 +1429,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/minute/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmɪnɪt/",
+    "no_antonym": true,
+    "emoji": "⏱️",
+    "countability": "countable"
   },
   {
     "id": "en:o-clock:noun",
@@ -1377,13 +1449,13 @@
     "domain": "general, spoken",
     "theme": "time",
     "updated": "2025-01-15",
-    "plural_form": "o'clocks",
     "tags": [
       "spoken"
     ],
-    "transcription": "/oclock/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/əˈklɑːk/",
+    "no_antonym": true,
+    "emoji": "🕒",
+    "countability": "uncountable"
   },
   {
     "id": "en:quarter:noun",
@@ -1404,9 +1476,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/quarter/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈkwɔːrtər/",
+    "no_antonym": true,
+    "emoji": "🕒",
+    "countability": "countable"
   },
   {
     "id": "en:autumn-fall:noun",
@@ -1427,10 +1500,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "autumn/falls",
-    "transcription": "/autumnfall/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɔːtəm fɔːl/",
+    "emoji": "🍂",
+    "antonyms": [
+      "spring"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:half-past:noun",
@@ -1451,10 +1526,10 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "half pasts",
-    "transcription": "/halfpast/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/hæf pæst/",
+    "no_antonym": true,
+    "emoji": "🕞",
+    "countability": "uncountable"
   },
   {
     "id": "en:every-day:noun",
@@ -1475,10 +1550,10 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "every days",
-    "transcription": "/everyday/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈɛvri deɪ/",
+    "no_antonym": true,
+    "emoji": "📅",
+    "countability": "uncountable"
   },
   {
     "id": "en:ago:noun",
@@ -1499,9 +1574,11 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "plural_form": "agos",
-    "transcription": "/ago/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/əˈɡoʊ/",
+    "emoji": "⏪",
+    "antonyms": [
+      "from now"
+    ],
+    "countability": "uncountable"
   }
 ]

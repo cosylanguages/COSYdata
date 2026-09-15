@@ -22,9 +22,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/receipt/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/rɪˈsiːt/",
+    "no_antonym": true,
+    "emoji": "🧾",
+    "countability": "countable"
   },
   {
     "id": "en:card:noun",
@@ -49,9 +50,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/card/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/kɑːrd/",
+    "no_antonym": true,
+    "emoji": "💳",
+    "countability": "countable"
   },
   {
     "id": "en:cash:noun",
@@ -68,7 +70,6 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "cashs",
     "tags": [
       "spoken"
     ],
@@ -76,9 +77,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/cash/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/kæʃ/",
+    "emoji": "💵",
+    "antonyms": [
+      "card"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:coin:noun",
@@ -99,9 +103,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/coin/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/kɔɪn/",
+    "no_antonym": true,
+    "emoji": "🪙",
+    "countability": "countable"
   },
   {
     "id": "en:note:noun",
@@ -119,9 +124,10 @@
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "notes",
-    "transcription": "/note/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/noʊt/",
+    "no_antonym": true,
+    "emoji": "💵",
+    "countability": "countable"
   },
   {
     "id": "en:bank:noun",
@@ -145,9 +151,10 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/bank/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/bæŋk/",
+    "no_antonym": true,
+    "emoji": "🏦",
+    "countability": "countable"
   },
   {
     "id": "en:price:noun",
@@ -168,9 +175,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/price/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/praɪs/",
+    "no_antonym": true,
+    "emoji": "🏷️",
+    "countability": "countable"
   },
   {
     "id": "en:cost:noun",
@@ -191,9 +199,10 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/cost/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/kɔːst/",
+    "no_antonym": true,
+    "emoji": "💰",
+    "countability": "countable"
   },
   {
     "id": "en:cheap:noun",
@@ -210,13 +219,15 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "cheaps",
     "tags": [
       "spoken"
     ],
-    "transcription": "/cheap/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/tʃiːp/",
+    "emoji": "🏷️",
+    "antonyms": [
+      "expensive"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:expensive:noun",
@@ -233,13 +244,15 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "expensives",
     "tags": [
       "spoken"
     ],
-    "transcription": "/expensive/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ɪkˈspɛnsɪv/",
+    "emoji": "💎",
+    "antonyms": [
+      "cheap"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:free:noun",
@@ -256,7 +269,6 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "frees",
     "tags": [
       "spoken"
     ],
@@ -264,9 +276,12 @@
       "A1",
       "B2"
     ],
-    "transcription": "/free/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/friː/",
+    "emoji": "🆓",
+    "antonyms": [
+      "paid"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:buy:noun",
@@ -287,9 +302,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/buy/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/baɪ/",
+    "emoji": "🛒",
+    "antonyms": [
+      "sell"
+    ],
+    "countability": "countable"
   },
   {
     "id": "en:sell:noun",
@@ -306,13 +324,15 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "sells",
     "tags": [
       "spoken"
     ],
-    "transcription": "/sell/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/sɛl/",
+    "emoji": "🏷️",
+    "antonyms": [
+      "buy"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:spend:noun",
@@ -329,7 +349,6 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "spends",
     "tags": [
       "spoken"
     ],
@@ -337,9 +356,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/spend/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/spɛnd/",
+    "emoji": "💸",
+    "antonyms": [
+      "save"
+    ],
+    "countability": "uncountable"
   },
   {
     "id": "en:shopping:noun",
@@ -356,7 +378,6 @@
     "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
-    "plural_form": "shoppings",
     "tags": [
       "spoken"
     ],
@@ -364,9 +385,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/shopping/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈʃɑːpɪŋ/",
+    "no_antonym": true,
+    "emoji": "🛒",
+    "countability": "uncountable"
   },
   {
     "id": "en:store:noun",
@@ -391,9 +413,10 @@
       "A1",
       "A2"
     ],
-    "transcription": "/store/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/stɔːr/",
+    "no_antonym": true,
+    "emoji": "🏪",
+    "countability": "countable"
   },
   {
     "id": "en:market:noun",
@@ -419,8 +442,9 @@
       "B1",
       "B2"
     ],
-    "transcription": "/market/",
-    "no_emoji": true,
-    "no_antonym": true
+    "transcription": "/ˈmɑːrkət/",
+    "no_antonym": true,
+    "emoji": "🛍️",
+    "countability": "countable"
   }
 ]
