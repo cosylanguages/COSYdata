@@ -81,9 +81,12 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 
 ### Form-Dependent Fields (Validated via JSON Schema `if`/`then`)
 - **Noun fields** (relevant when `form` is `"noun"`):
+  - **`countability`** *(string, required)*: Classification enum: `["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]`.
   - **`article`** *(string)*: Grammatical article (e.g. `a`, `an`, `el`, `la`, `der`).
   - **`gender`** *(string)*: Grammatical gender (e.g. `masculine`, `feminine`, `neuter`).
-  - **`plural_form`** *(string)*: Plural form.
+  - **`plural_form`** *(string)*: Plural form (required when `countability` is `"countable"`, must NOT be present for other `countability` types).
+  - **`singular_workaround`** *(string)*: Countable phrase used to refer to one item for pluralia tantum nouns (e.g. `"a pair of scissors"`).
+  - **`collective_note`** *(string)*: Optional note for countable nouns whose verb agreement varies by dialect or reading (e.g. `"Can take a singular or plural verb depending on whether the group is meant as a whole or as its members."`).
 - **Adjective / Adverb fields** (relevant when `form` is `"adjective"` or `"adverb"`):
   - **`comparative`** *(string)*: Comparative form (e.g. `healthier`).
   - **`superlative`** *(string)*: Superlative form (e.g. `healthiest`).

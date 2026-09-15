@@ -129,9 +129,22 @@
       "type": "string",
       "description": "Grammatical gender (meaningful for nouns)"
     },
+    "countability": {
+      "type": "string",
+      "enum": ["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"],
+      "description": "Noun countability classification"
+    },
     "plural_form": {
       "type": "string",
       "description": "Plural form (meaningful for nouns)"
+    },
+    "singular_workaround": {
+      "type": "string",
+      "description": "Countable phrase used to refer to one item for pluralia tantum nouns, e.g. a pair of scissors"
+    },
+    "collective_note": {
+      "type": "string",
+      "description": "Note for countable nouns whose verb agreement varies by dialect or reading"
     },
     "comparative": {
       "type": "string",
@@ -151,10 +164,17 @@
         "required": ["form"]
       },
       "then": {
+        "required": ["countability"],
         "properties": {
           "article": { "type": "string" },
           "gender": { "type": "string" },
+          "countability": {
+            "type": "string",
+            "enum": ["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]
+          },
           "plural_form": { "type": "string" },
+          "singular_workaround": { "type": "string" },
+          "collective_note": { "type": "string" },
           "comparative": false,
           "superlative": false
         }
@@ -163,7 +183,10 @@
         "properties": {
           "article": false,
           "gender": false,
-          "plural_form": false
+          "countability": false,
+          "plural_form": false,
+          "singular_workaround": false,
+          "collective_note": false
         }
       }
     },
@@ -184,6 +207,76 @@
         "properties": {
           "comparative": false,
           "superlative": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": { "const": "countable" }
+        },
+        "required": ["countability"]
+      },
+      "then": {
+        "required": ["plural_form"],
+        "properties": {
+          "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": { "const": "uncountable" }
+        },
+        "required": ["countability"]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": { "const": "pluralia_tantum" }
+        },
+        "required": ["countability"]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": { "type": "string" }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": { "const": "invariable" }
+        },
+        "required": ["countability"]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "countability": { "const": "false_plural" }
+        },
+        "required": ["countability"]
+      },
+      "then": {
+        "properties": {
+          "plural_form": false,
+          "singular_workaround": false
         }
       }
     }
