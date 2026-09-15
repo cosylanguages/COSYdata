@@ -65,8 +65,22 @@
       "description": "Representative emoji string"
     },
     "transcription": {
-      "type": "string",
-      "description": "Phonetic transcription (e.g., IPA)"
+      "type": "object",
+      "required": [
+        "uk",
+        "us"
+      ],
+      "properties": {
+        "uk": {
+          "type": "string",
+          "description": "British English (RP) IPA transcription"
+        },
+        "us": {
+          "type": "string",
+          "description": "American English (General American) IPA transcription"
+        }
+      },
+      "additionalProperties": false
     },
     "no_emoji": {
       "type": "boolean",
