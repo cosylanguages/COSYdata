@@ -102,7 +102,9 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 - **`word`** *(string)*: The canonical word or term.
 - **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `es`, `fr`).
 - **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`).
-- **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string). Required for every entry at every level.
+- **`transcription`** *(object)*: Phonetic IPA transcription object required for every entry at every level. Must contain two required string properties:
+  - **`uk`** *(string)*: British English (RP) IPA transcription. Listed first as the convention throughout this dataset.
+  - **`us`** *(string)*: American English (General American) IPA transcription.
 - **`emoji`** *(string)*: Representative emoji or short emoji sequence. Required for every entry at every level (unless waived by `no_emoji: true`).
 - **`antonyms`** *(string[])*: Array of antonym word IDs or terms (minimum 1 item). Required for every entry at every level (unless waived by `no_antonym: true`).
 
