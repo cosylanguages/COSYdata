@@ -79,14 +79,14 @@
     "domain": "general, spoken",
     "theme": "politics",
     "updated": "2025-01-15",
-    "plural_form": "politics",
     "tags": [
       "spoken"
     ],
     "levels": [
       "B1",
       "C1"
-    ]
+    ],
+    "countability": "false_plural"
   },
   {
     "id": "en:debate:verb",
@@ -427,7 +427,9 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "plural_form": "congresses"
+    "plural_form": "congresses",
+    "countability": "countable",
+    "collective_note": "Can take a singular or plural verb depending on whether the group is considered as a single unit or as individual members."
   },
   {
     "id": "en:citizen:noun",
@@ -1434,7 +1436,7 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "plural_form": "casuses"
+    "countability": "invariable"
   },
   {
     "id": "en:belli:noun",
@@ -1804,7 +1806,7 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "public serviceses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:opposition:noun",
@@ -1867,7 +1869,7 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "civil libertieses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:human-rights-violations:noun",
@@ -1888,7 +1890,7 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "human rights violationses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:acquittal:noun",
@@ -1930,7 +1932,7 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "civil rightses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:affirmative-action:noun",
@@ -2224,7 +2226,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "checks and balanceses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:separation-of-powers:noun",
@@ -2245,7 +2247,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "separation of powerses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:judicial-review:noun",
@@ -2350,7 +2352,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "plural_form": "due processes"
+    "countability": "uncountable"
   },
   {
     "id": "en:asylum-seeker:noun",
@@ -2965,7 +2967,7 @@
       "mastery"
     ],
     "updated": "2025-01-15",
-    "plural_form": "realpolitik calculationses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:strategic-ambiguity:noun",
@@ -3049,7 +3051,7 @@
       "mastery"
     ],
     "updated": "2025-01-15",
-    "plural_form": "dog-whistle politicses"
+    "countability": "false_plural"
   },
   {
     "id": "en:culture-war-flashpoint:noun",

@@ -371,13 +371,14 @@
     "domain": "general, spoken",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "glasseses",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1"
-    ]
+    ],
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of glasses"
   },
   {
     "id": "en:bottle:noun",
@@ -454,7 +455,7 @@
     "domain": "general",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "toyses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:doll:noun",
@@ -525,7 +526,7 @@
     "domain": "general",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "keyses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:sunglasses:noun",
@@ -542,10 +543,11 @@
     "domain": "general, spoken",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "sunglasseses",
     "tags": [
       "spoken"
-    ]
+    ],
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of sunglasses"
   },
   {
     "id": "en:stamp:noun",
@@ -616,7 +618,7 @@
     "domain": "general",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "matcheses"
+    "countability": "pluralia_tantum"
   },
   {
     "id": "en:lighter:noun",
@@ -835,7 +837,8 @@
     "domain": "general",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "compasses"
+    "plural_form": "compasses",
+    "countability": "countable"
   },
   {
     "id": "en:scissors:noun",
@@ -852,7 +855,8 @@
     "domain": "general",
     "theme": "objects",
     "updated": "2025-01-15",
-    "plural_form": "scissorses"
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a pair of scissors"
   },
   {
     "id": "en:rope:noun",
