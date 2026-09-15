@@ -4,7 +4,12 @@
   "title": "Vocabulary Entry",
   "description": "JSON Schema (draft 2020-12) for COSYdata vocabulary entries",
   "type": "object",
-  "required": ["id", "word", "language", "form"],
+  "required": [
+    "id",
+    "word",
+    "language",
+    "form"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -26,14 +31,30 @@
     },
     "level": {
       "type": "string",
-      "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"],
+      "enum": [
+        "A0",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
       "description": "CEFR level"
     },
     "levels": {
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+        "enum": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
       },
       "minItems": 1,
       "description": "Array of all CEFR levels this word appears at across merged source entries"
@@ -131,7 +152,13 @@
     },
     "countability": {
       "type": "string",
-      "enum": ["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"],
+      "enum": [
+        "countable",
+        "uncountable",
+        "pluralia_tantum",
+        "invariable",
+        "false_plural"
+      ],
       "description": "Noun countability classification"
     },
     "plural_form": {
@@ -159,22 +186,44 @@
     {
       "if": {
         "properties": {
-          "form": { "const": "noun" }
+          "form": {
+            "const": "noun"
+          }
         },
-        "required": ["form"]
+        "required": [
+          "form"
+        ]
       },
       "then": {
-        "required": ["countability"],
+        "required": [
+          "countability"
+        ],
         "properties": {
-          "article": { "type": "string" },
-          "gender": { "type": "string" },
+          "article": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string"
+          },
           "countability": {
             "type": "string",
-            "enum": ["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]
+            "enum": [
+              "countable",
+              "uncountable",
+              "pluralia_tantum",
+              "invariable",
+              "false_plural"
+            ]
           },
-          "plural_form": { "type": "string" },
-          "singular_workaround": { "type": "string" },
-          "collective_note": { "type": "string" },
+          "plural_form": {
+            "type": "string"
+          },
+          "singular_workaround": {
+            "type": "string"
+          },
+          "collective_note": {
+            "type": "string"
+          },
           "comparative": false,
           "superlative": false
         }
@@ -193,14 +242,25 @@
     {
       "if": {
         "properties": {
-          "form": { "enum": ["adjective", "adverb"] }
+          "form": {
+            "enum": [
+              "adjective",
+              "adverb"
+            ]
+          }
         },
-        "required": ["form"]
+        "required": [
+          "form"
+        ]
       },
       "then": {
         "properties": {
-          "comparative": { "type": "string" },
-          "superlative": { "type": "string" }
+          "comparative": {
+            "type": "string"
+          },
+          "superlative": {
+            "type": "string"
+          }
         }
       },
       "else": {
@@ -213,12 +273,18 @@
     {
       "if": {
         "properties": {
-          "countability": { "const": "countable" }
+          "countability": {
+            "const": "countable"
+          }
         },
-        "required": ["countability"]
+        "required": [
+          "countability"
+        ]
       },
       "then": {
-        "required": ["plural_form"],
+        "required": [
+          "plural_form"
+        ],
         "properties": {
           "singular_workaround": false
         }
@@ -227,9 +293,13 @@
     {
       "if": {
         "properties": {
-          "countability": { "const": "uncountable" }
+          "countability": {
+            "const": "uncountable"
+          }
         },
-        "required": ["countability"]
+        "required": [
+          "countability"
+        ]
       },
       "then": {
         "properties": {
@@ -241,23 +311,33 @@
     {
       "if": {
         "properties": {
-          "countability": { "const": "pluralia_tantum" }
+          "countability": {
+            "const": "pluralia_tantum"
+          }
         },
-        "required": ["countability"]
+        "required": [
+          "countability"
+        ]
       },
       "then": {
         "properties": {
           "plural_form": false,
-          "singular_workaround": { "type": "string" }
+          "singular_workaround": {
+            "type": "string"
+          }
         }
       }
     },
     {
       "if": {
         "properties": {
-          "countability": { "const": "invariable" }
+          "countability": {
+            "const": "invariable"
+          }
         },
-        "required": ["countability"]
+        "required": [
+          "countability"
+        ]
       },
       "then": {
         "properties": {
@@ -269,9 +349,13 @@
     {
       "if": {
         "properties": {
-          "countability": { "const": "false_plural" }
+          "countability": {
+            "const": "false_plural"
+          }
         },
-        "required": ["countability"]
+        "required": [
+          "countability"
+        ]
       },
       "then": {
         "properties": {
