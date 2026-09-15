@@ -30,7 +30,7 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ## Vocabulary File Organization & Datasets
 
-Vocabulary entries are **batched into theme files** organized by CEFR levels and courses:
+Vocabulary entries are **batched into theme files** organized into level-specific subdirectories across CEFR levels and courses:
 
 ```
 vocabulary/
@@ -40,29 +40,39 @@ vocabulary/
     │   ├── animals.json
     │   ├── colors.json
     │   ├── family.json
-    │   ├── food_drink.json
     │   └── ...
     ├── a2/
-    │   ├── animals.json
     │   ├── appearance.json
     │   ├── personality.json
     │   └── ...
     ├── b1/
     │   ├── abstract_concepts.json
     │   ├── cause_effect.json
-    │   ├── society.json
     │   └── ...
-    ├── b2/ (B2+)
-    └── ...
+    ├── b2/
+    │   ├── business.json
+    │   ├── innovation.json
+    │   └── ...
+    ├── c1/
+    │   ├── rhetoric.json
+    │   ├── sophisticated_adjectives.json
+    │   └── ...
+    └── c2/
+        ├── literary_devices.json
+        ├── rare_adjectives.json
+        └── ...
 ```
 
-- **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`).
+- **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`, `vocabulary/en/b2/business.json`, `vocabulary/en/c1/rhetoric.json`, `vocabulary/en/c2/rare_adjectives.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its relative theme file path (e.g. `"en:cat:noun": "a0_a1/animals.json"`).
 
 ### Course Domains & Level Folders
 - **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.
 - **`a2/`**: Elementary CEFR A2 level vocabulary files across general and spoken courses.
 - **`b1/`**: Intermediate CEFR B1 level vocabulary files across general and spoken courses.
+- **`b2/`**: Upper-Intermediate CEFR B2 level vocabulary files across general and spoken courses.
+- **`c1/`**: Advanced CEFR C1 level vocabulary files across general and spoken courses.
+- **`c2/`**: Mastery CEFR C2 level vocabulary files across general and spoken courses.
 - **`general`**: Standard CEFR course vocabulary.
 - **`spoken`**: Spoken course vocabulary focused on conversation.
 - **`general, spoken`**: Words present in both general and spoken course lists.
@@ -151,7 +161,7 @@ PRs touching vocabulary data must pass these automated checks before merging.
 
 ## Contribution Guide: How to Add a Word
 
-1. **Locate or Create Theme File**: Find the target language and level directory (e.g., `vocabulary/en/a0_a1/`, `vocabulary/en/a2/`, `vocabulary/en/b1/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
+1. **Locate or Create Theme File**: Find the target language and level directory (e.g., `vocabulary/en/a0_a1/`, `vocabulary/en/a2/`, `vocabulary/en/b1/`, `vocabulary/en/b2/`, `vocabulary/en/c1/`, `vocabulary/en/c2/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
 2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`.
 3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
 4. **Validate**: Run local validation (`npm run validate` after installing dependencies) to ensure all JSON files pass validation.

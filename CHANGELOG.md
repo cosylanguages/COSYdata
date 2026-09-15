@@ -5,14 +5,14 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
-- Separated CEFR A2 and B1 level vocabulary into dedicated `vocabulary/en/a2/` and `vocabulary/en/b1/` directories:
-  - Extracted all 1,361 CEFR A2 vocabulary entries into 37 theme files under `vocabulary/en/a2/`.
-  - Extracted all 1,354 CEFR B1 vocabulary entries into 40 theme files under `vocabulary/en/b1/`.
-  - Removed extracted A2 and B1 entries from root `vocabulary/en/` theme files (deleting theme files whose entries were 100% A2 or B1).
-- Separated A0–A1 level vocabulary into a dedicated `vocabulary/en/a0_a1/` directory:
-  - Extracted all 1,581 CEFR A0 and A1 vocabulary entries into 36 theme files under `vocabulary/en/a0_a1/`.
-  - Removed A0 and A1 entries from root `vocabulary/en/` theme files (deleting theme files whose entries were 100% A0/A1).
-  - Updated `scripts/build-index.cjs` to recursively scan language subdirectories (such as `vocabulary/en/a0_a1/`, `a2/`, `b1/`) and generate relative file paths in `vocabulary/<lang>/index.json`.
+- Separated all English CEFR vocabulary entries into dedicated level subdirectories under `vocabulary/en/`:
+  - `a0_a1/`: 1,581 A0 and A1 level entries across 36 theme files.
+  - `a2/`: 1,361 A2 level entries across 37 theme files.
+  - `b1/`: 1,354 B1 level entries across 40 theme files.
+  - `b2/`: 1,277 B2 level entries across 37 theme files.
+  - `c1/`: 1,052 C1 level entries across 33 theme files.
+  - `c2/`: 951 C2 level entries across 20 theme files.
+  - Updated `scripts/build-index.cjs` to recursively scan language subdirectories and generate relative file paths in `vocabulary/<lang>/index.json`.
 - Re-audited and updated all 1,581 CEFR A0/A1 vocabulary entries across 36 theme files in `vocabulary/en/` in single-pass updates:
   - **Definitions**: 1,581 replaced with simple, natural A0/A1-level definitions (present simple only, max one relative clause, no passive voice, no perfect tenses, strictly using known A0/A1 vocabulary).
   - **Examples**: 1,581 updated with 5–8 word everyday concrete usage sentences in present or past simple.
