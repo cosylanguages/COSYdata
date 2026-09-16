@@ -6,10 +6,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"press\" in English vocabulary."
+      "Newspapers, magazines, and journalists taken collectively as news media."
     ],
     "examples": [
-      "This is an example sentence using \"press\"."
+      "The minister spoke to the gathered press outside parliament yesterday."
     ],
     "domain": "general",
     "theme": "media",
@@ -19,7 +19,13 @@
       "uk": "/pres/",
       "us": "/pres/"
     },
-    "emoji": "📰"
+    "emoji": "📰",
+    "synonyms": [
+      "news media",
+      "journalism",
+      "newspapers"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:journalist:noun",
@@ -28,10 +34,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"journalist\" in English vocabulary."
+      "A person who writes news reports or articles for newspapers or broadcasting."
     ],
     "examples": [
-      "This is an example sentence using \"journalist\"."
+      "An investigative journalist exposed the environmental scandal in local newspaper."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -45,7 +51,12 @@
       "us": "/ˈdʒɝː.nə.lɪst/"
     },
     "emoji": "📰",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "reporter",
+      "correspondent"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:journalism:noun",
@@ -54,10 +65,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"journalism\" in English vocabulary."
+      "The activity or profession of writing for newspapers, magazines, or news broadcasts."
     ],
     "examples": [
-      "This is an example sentence using \"journalism\"."
+      "She decided to pursue a degree in international broadcast journalism."
     ],
     "domain": "general",
     "theme": "media",
@@ -67,7 +78,12 @@
       "us": "/ˈdʒɝː.nə.lɪ.zəm/"
     },
     "emoji": "📰",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "reporting",
+      "the press"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:broadcast:verb",
@@ -76,10 +92,10 @@
     "form": "verb",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"broadcast\" in English vocabulary."
+      "To transmit a program or information by radio or television."
     ],
     "examples": [
-      "This is an example sentence using \"broadcast\"."
+      "The network will broadcast the national football match live tonight."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -91,7 +107,16 @@
       "uk": "/ˈbrɔːd.kɑːst/",
       "us": "/ˈbrɑːd.kæst/"
     },
-    "emoji": "📻"
+    "emoji": "📻",
+    "synonyms": [
+      "air",
+      "transmit",
+      "televise"
+    ],
+    "antonyms": [
+      "suppress",
+      "withhold"
+    ]
   },
   {
     "id": "en:documentary:noun",
@@ -100,10 +125,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"documentary\" in English vocabulary."
+      "A movie or television program documenting real events, facts, or nature."
     ],
     "examples": [
-      "This is an example sentence using \"documentary\"."
+      "We watched an educational documentary about marine life in oceans."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -117,7 +142,12 @@
       "us": "/ˌdɑː.kjəˈmen.t̬ɚ.i/"
     },
     "emoji": "🎥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "factual film",
+      "non-fiction film"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:critic:noun",
@@ -126,10 +156,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"critic\" in English vocabulary."
+      "A person who expresses judgments or opinions on books, music, or art."
     ],
     "examples": [
-      "This is an example sentence using \"critic\"."
+      "The art critic wrote a favorable review of the new exhibition."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -143,7 +173,12 @@
       "us": "/ˈkrɪt.ɪk/"
     },
     "emoji": "✍️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "reviewer",
+      "commentator"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:plot:noun",
@@ -152,10 +187,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"plot\" in English vocabulary."
+      "The main sequence of events devised and presented in a novel or movie."
     ],
     "examples": [
-      "This is an example sentence using \"plot\"."
+      "The novel featured a thrilling plot with many unexpected twists."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -169,7 +204,12 @@
       "us": "/plɑːt/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "storyline",
+      "narrative"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:character:noun",
@@ -178,10 +218,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"character\" in English vocabulary."
+      "A person, animal, or fictional being in a novel, play, or movie."
     ],
     "examples": [
-      "This is an example sentence using \"character\"."
+      "The main character in the story faces many difficult challenges."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -195,7 +235,12 @@
       "us": "/ˈkær.ək.tɚ/"
     },
     "emoji": "🎭",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "persona",
+      "role"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:genre:noun",
@@ -204,10 +249,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"genre\" in English vocabulary."
+      "A category of artistic, musical, or literary composition characterized by style."
     ],
     "examples": [
-      "This is an example sentence using \"genre\"."
+      "Science fiction is my favorite genre of literature and movies."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -221,7 +266,13 @@
       "us": "/ˈʒɑːn.rə/"
     },
     "emoji": "📚",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "category",
+      "style",
+      "type"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:fiction:noun",
@@ -230,10 +281,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"fiction\" in English vocabulary."
+      "Literature in the form of prose describing imaginary events and people."
     ],
     "examples": [
-      "This is an example sentence using \"fiction\"."
+      "She loves reading historical fiction during her spare time at weekend."
     ],
     "domain": "general",
     "theme": "media",
@@ -243,7 +294,15 @@
       "us": "/ˈfɪk.ʃən/"
     },
     "emoji": "📖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "narrative prose",
+      "storytelling"
+    ],
+    "antonyms": [
+      "non-fiction",
+      "fact"
+    ]
   },
   {
     "id": "en:non-fiction:noun",
@@ -252,10 +311,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"non-fiction\" in English vocabulary."
+      "Prose writing that is based on real facts, real events, and real people."
     ],
     "examples": [
-      "This is an example sentence using \"non-fiction\"."
+      "Biographies and history books belong to the category of non-fiction."
     ],
     "domain": "general",
     "theme": "media",
@@ -265,7 +324,14 @@
       "us": "/ˌnɑːnˈfɪk.ʃən/"
     },
     "emoji": "📖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "factual writing",
+      "biography"
+    ],
+    "antonyms": [
+      "fiction"
+    ]
   },
   {
     "id": "en:novel:noun",
@@ -274,10 +340,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"novel\" in English vocabulary."
+      "A long fictional narrative in prose book form, representing character actions."
     ],
     "examples": [
-      "This is an example sentence using \"novel\"."
+      "He spent two years writing his first mystery novel set in Paris."
     ],
     "domain": "general",
     "theme": "media",
@@ -288,7 +354,12 @@
       "us": "/ˈnɑː.vəl/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "book",
+      "work of fiction"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:author:noun",
@@ -297,10 +368,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"author\" in English vocabulary."
+      "A writer of a book, article, or document; creator of literature."
     ],
     "examples": [
-      "This is an example sentence using \"author\"."
+      "The famous author signed copies of her new book at bookstore."
     ],
     "domain": "general",
     "theme": "media",
@@ -311,7 +382,12 @@
       "us": "/ˈɑː.θɚ/"
     },
     "emoji": "✍️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "writer",
+      "novelist"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:poem:noun",
@@ -320,10 +396,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"poem\" in English vocabulary."
+      "A piece of writing in which words are chosen for their sound and imagery."
     ],
     "examples": [
-      "This is an example sentence using \"poem\"."
+      "The student recited a romantic poem during the school literature festival."
     ],
     "domain": "general",
     "theme": "media",
@@ -334,7 +410,12 @@
       "us": "/ˈpoʊ.əm/"
     },
     "emoji": "📜",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "verse",
+      "rhyme"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:poetry:noun",
@@ -343,10 +424,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"poetry\" in English vocabulary."
+      "Literary work in which special intensity is given to expression of feelings."
     ],
     "examples": [
-      "This is an example sentence using \"poetry\"."
+      "She reads classical poetry to find inspiration for her own writing."
     ],
     "domain": "general",
     "theme": "media",
@@ -356,7 +437,14 @@
       "uk": "/ˈpəʊ.ɪ.tri/",
       "us": "/ˈpoʊ.ə.tri/"
     },
-    "emoji": "📜"
+    "emoji": "📜",
+    "synonyms": [
+      "verse",
+      "poetic works"
+    ],
+    "antonyms": [
+      "prose"
+    ]
   },
   {
     "id": "en:soundtrack:noun",
@@ -365,10 +453,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"soundtrack\" in English vocabulary."
+      "The recorded music accompanying and synchronized to a motion picture."
     ],
     "examples": [
-      "This is an example sentence using \"soundtrack\"."
+      "The movie soundtrack won an award for its beautiful orchestral score."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -382,7 +470,12 @@
       "us": "/ˈsaʊnd.træk/"
     },
     "emoji": "🎵",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "film music",
+      "score"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:director:noun",
@@ -391,10 +484,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"director\" in English vocabulary."
+      "A person who controls and supervises the creative aspects of making a movie."
     ],
     "examples": [
-      "This is an example sentence using \"director\"."
+      "The film director instructed actors during the shooting of emotional scene."
     ],
     "domain": "general",
     "theme": "media",
@@ -405,7 +498,12 @@
       "us": "/dəˈrek.tɚ/"
     },
     "emoji": "🎬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "filmmaker",
+      "head manager"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:audience:noun",
@@ -414,10 +512,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"audience\" in English vocabulary."
+      "The assembled spectators or listeners at a public event such as a play."
     ],
     "examples": [
-      "This is an example sentence using \"audience\"."
+      "The enthusiastic audience applauded loudly at the end of performance."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -431,7 +529,13 @@
       "us": "/ˈɑː.di.əns/"
     },
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "spectators",
+      "viewers",
+      "listeners"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:critically:noun",
@@ -440,10 +544,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"critically\" in English vocabulary."
+      "In a way that expresses analytical judgment, often by film or art reviewers."
     ],
     "examples": [
-      "This is an example sentence using \"critically\"."
+      "Her new drama play was critically praised by major newspaper reviewers."
     ],
     "domain": "general",
     "theme": "media",
@@ -453,7 +557,14 @@
       "us": "/ˈkrɪt̬.ɪ.kəl.i/"
     },
     "emoji": "✍️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "analytically",
+      "evaluatively"
+    ],
+    "antonyms": [
+      "uncritically"
+    ]
   },
   {
     "id": "en:acclaimed:adjective",
@@ -462,10 +573,10 @@
     "form": "adjective",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"acclaimed\" in English vocabulary."
+      "Publicly praised, celebrated, and acknowledged for high quality and skill."
     ],
     "examples": [
-      "This is an example sentence using \"acclaimed\"."
+      "The critically acclaimed novel was translated into twenty foreign languages."
     ],
     "domain": "general",
     "theme": "media",
@@ -474,7 +585,15 @@
       "uk": "/əˈkleɪmd/",
       "us": "/əˈkleɪmd/"
     },
-    "emoji": "👏"
+    "emoji": "👏",
+    "synonyms": [
+      "praised",
+      "celebrated"
+    ],
+    "antonyms": [
+      "criticized",
+      "panned"
+    ]
   },
   {
     "id": "en:bestseller:noun",
@@ -483,10 +602,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"bestseller\" in English vocabulary."
+      "A book or product that sells in extremely large numbers."
     ],
     "examples": [
-      "This is an example sentence using \"bestseller\"."
+      "Her autobiography became an international bestseller within weeks of release."
     ],
     "domain": "general",
     "theme": "media",
@@ -497,7 +616,14 @@
       "us": "/ˌbestˈsel.ɚ/"
     },
     "emoji": "📚",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "hit book",
+      "blockbuster book"
+    ],
+    "antonyms": [
+      "flop"
+    ]
   },
   {
     "id": "en:publish:verb",
@@ -506,10 +632,10 @@
     "form": "verb",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"publish\" in English vocabulary."
+      "To prepare and issue a book, journal, or piece of writing for public sale."
     ],
     "examples": [
-      "This is an example sentence using \"publish\"."
+      "The company plans to publish her new poetry collection next month."
     ],
     "domain": "general",
     "theme": "media",
@@ -518,7 +644,13 @@
       "uk": "/ˈpʌb.lɪʃ/",
       "us": "/ˈpʌb.lɪʃ/"
     },
-    "emoji": "📖"
+    "emoji": "📖",
+    "synonyms": [
+      "issue",
+      "release",
+      "print"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:publication:noun",
@@ -527,10 +659,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"publication\" in English vocabulary."
+      "The preparation and issuing of a book, journal, or piece of music."
     ],
     "examples": [
-      "This is an example sentence using \"publication\"."
+      "The research paper was accepted for publication in a medical journal."
     ],
     "domain": "general",
     "theme": "media",
@@ -541,7 +673,12 @@
       "us": "/ˌpʌb.ləˈkeɪ.ʃən/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "periodical",
+      "release"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:censorship:noun",
@@ -550,10 +687,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"censorship\" in English vocabulary."
+      "The suppression or prohibition of books, films, or news considered unacceptable."
     ],
     "examples": [
-      "This is an example sentence using \"censorship\"."
+      "Strict government censorship restricted what news media could report publicly."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -566,7 +703,15 @@
       "us": "/ˈsen.sɚ.ʃɪp/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "suppression",
+      "banning"
+    ],
+    "antonyms": [
+      "free speech",
+      "openness"
+    ]
   },
   {
     "id": "en:influence:noun",
@@ -575,10 +720,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"influence\" in English vocabulary."
+      "The capacity to have an effect on the character, development, or behavior."
     ],
     "examples": [
-      "This is an example sentence using \"influence\"."
+      "Social media influencers exert significant influence over teenage consumer buying habits."
     ],
     "domain": "general, spoken",
     "theme": "media",
@@ -594,7 +739,13 @@
       "us": "/ˈɪn.flu.əns/"
     },
     "emoji": "✨",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "impact",
+      "sway",
+      "effect"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:storyline:noun",
@@ -603,10 +754,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"storyline\"."
+      "The plot or sequence of events in a novel, play, or movie."
     ],
     "examples": [
-      "B1 spoken usage example with \"storyline\"."
+      "The movie was entertaining despite having a fairly predictable storyline."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -621,7 +772,12 @@
       "us": "/ˈstɔːr.i.laɪn/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "plot",
+      "narrative"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:box-office:noun",
@@ -630,10 +786,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"box office\"."
+      "A place at a theater where tickets are sold, or total commercial ticket sales."
     ],
     "examples": [
-      "B1 spoken usage example with \"box office\"."
+      "The superhero movie broke box office sales records on opening weekend."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -648,7 +804,11 @@
       "us": "/ˈbɑːks ˌɑː.fɪs/"
     },
     "emoji": "🎟️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "ticket sales"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:blockbuster:noun",
@@ -657,10 +817,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"blockbuster\"."
+      "A movie or book that is great commercial success and extremely popular."
     ],
     "examples": [
-      "B1 spoken usage example with \"blockbuster\"."
+      "The summer blockbuster attracted millions of cinema visitors across the globe."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -675,7 +835,15 @@
       "us": "/ˈblɑːkˌbʌs.tɚ/"
     },
     "emoji": "💥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "hit",
+      "smash hit"
+    ],
+    "antonyms": [
+      "flop",
+      "bomb"
+    ]
   },
   {
     "id": "en:lyrics:noun",
@@ -684,10 +852,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"lyrics\"."
+      "The words of a popular song written to accompany music."
     ],
     "examples": [
-      "B1 spoken usage example with \"lyrics\"."
+      "Fans sang along enthusiastically to the catchy lyrics of hit song."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -701,7 +869,12 @@
       "uk": "/ˈlɪr.ɪks/",
       "us": "/ˈlɪr.ɪks/"
     },
-    "emoji": "🎶"
+    "emoji": "🎶",
+    "synonyms": [
+      "words",
+      "song text"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:album:noun",
@@ -710,10 +883,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"album\"."
+      "A collection of audio recordings issued as a single item on CD or online."
     ],
     "examples": [
-      "B1 spoken usage example with \"album\"."
+      "The rock band recorded their third studio album in London."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -728,7 +901,12 @@
       "us": "/ˈæl.bəm/"
     },
     "emoji": "💿",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "record",
+      "release"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:release:noun",
@@ -737,10 +915,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"release\"."
+      "The action of making a movie, record, or book available for general view."
     ],
     "examples": [
-      "B1 spoken usage example with \"release\"."
+      "The studio scheduled the movie release for the upcoming holiday season."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -755,7 +933,14 @@
       "us": "/rɪˈliːs/"
     },
     "emoji": "🚀",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "launch",
+      "debut"
+    ],
+    "antonyms": [
+      "withdrawal"
+    ]
   },
   {
     "id": "en:premiere:noun",
@@ -764,10 +949,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"premiere\"."
+      "The first performance of a play or first showing of a movie."
     ],
     "examples": [
-      "B1 spoken usage example with \"premiere\"."
+      "Celebrities walked the red carpet during the glamorous movie premiere."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -782,7 +967,12 @@
       "us": "/prɪˈmɪr/"
     },
     "emoji": "🎬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "first showing",
+      "debut"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:remake:noun",
@@ -791,10 +981,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"remake\"."
+      "A movie or piece of music that has been filmed or recorded again."
     ],
     "examples": [
-      "B1 spoken usage example with \"remake\"."
+      "The modern remake of classic horror movie received mixed reviews."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -809,7 +999,12 @@
       "us": "/ˈriː.meɪk/"
     },
     "emoji": "🔄",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "new version",
+      "adaptation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:sequel:noun",
@@ -818,10 +1013,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"sequel\"."
+      "A published work or movie that continues the story of a preceding work."
     ],
     "examples": [
-      "B1 spoken usage example with \"sequel\"."
+      "Fans are eagerly awaiting the release of the action movie sequel."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -836,7 +1031,14 @@
       "us": "/ˈsiː.kwəl/"
     },
     "emoji": "2️⃣",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "continuation",
+      "follow-up"
+    ],
+    "antonyms": [
+      "prequel"
+    ]
   },
   {
     "id": "en:prequel:noun",
@@ -845,10 +1047,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"prequel\"."
+      "A movie or book containing events that precede those of an existing work."
     ],
     "examples": [
-      "B1 spoken usage example with \"prequel\"."
+      "The prequel explains how the main character first acquired his powers."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -863,7 +1065,13 @@
       "us": "/ˈpriː.kwəl/"
     },
     "emoji": "◀️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "preceding story"
+    ],
+    "antonyms": [
+      "sequel"
+    ]
   },
   {
     "id": "en:sitcom:noun",
@@ -872,10 +1080,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"sitcom\"."
+      "A situation comedy; a television comedy series based on recurring characters."
     ],
     "examples": [
-      "B1 spoken usage example with \"sitcom\"."
+      "We love watching that popular television sitcom after dinner every night."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -890,7 +1098,12 @@
       "us": "/ˈsɪt.kɑːm/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "situation comedy",
+      "comedy show"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:series:noun",
@@ -899,10 +1112,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"series\"."
+      "A set of related television or radio programs broadcast over time."
     ],
     "examples": [
-      "B1 spoken usage example with \"series\"."
+      "The drama series consists of ten thrilling episodes in total."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -916,7 +1129,12 @@
       "uk": "/ˈsɪə.riːz/",
       "us": "/ˈsɪr.iːz/"
     },
-    "emoji": "📺"
+    "emoji": "📺",
+    "synonyms": [
+      "show",
+      "tv series"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:episode:noun",
@@ -925,10 +1143,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"episode\"."
+      "An individual installment of a television or radio drama series."
     ],
     "examples": [
-      "B1 spoken usage example with \"episode\"."
+      "Tonight's episode features a dramatic confrontation between the main characters."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -943,7 +1161,12 @@
       "us": "/ˈep.ə.soʊd/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "installment",
+      "chapter"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:cliffhanger:noun",
@@ -952,10 +1175,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"cliffhanger\"."
+      "A dramatic ending to an episode leaving the audience in suspense."
     ],
     "examples": [
-      "B1 spoken usage example with \"cliffhanger\"."
+      "The season finale ended on a shocking cliffhanger that surprised everyone."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -970,7 +1193,11 @@
       "us": "/ˈklɪfˌhæŋ.ɚ/"
     },
     "emoji": "🧗",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "suspenseful ending"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:spoiler:noun",
@@ -979,10 +1206,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"spoiler\"."
+      "A piece of news or commentary that reveals key plot elements of a movie."
     ],
     "examples": [
-      "B1 spoken usage example with \"spoiler\"."
+      "Please do not post a spoiler about the movie ending online."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -997,7 +1224,11 @@
       "us": "/ˈspɔɪ.lɚ/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "plot leak"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:fan-base:noun",
@@ -1006,10 +1237,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"fan base\"."
+      "The group of fans who regularly support a team, band, or franchise."
     ],
     "examples": [
-      "B1 spoken usage example with \"fan base\"."
+      "The pop group has a loyal fan base that attends every concert."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1024,7 +1255,12 @@
       "us": "/ˈfæn.beɪs/"
     },
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "fandom",
+      "following"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:celebrity:noun",
@@ -1033,10 +1269,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"celebrity\"."
+      "A famous person, especially in entertainment or sport sectors."
     ],
     "examples": [
-      "B1 spoken usage example with \"celebrity\"."
+      "The famous celebrity was surrounded by photographers outside the hotel entrance."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1051,7 +1287,15 @@
       "us": "/səˈleb.rə.t̬i/"
     },
     "emoji": "⭐",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "star",
+      "famous person"
+    ],
+    "antonyms": [
+      "nobody",
+      "unknown"
+    ]
   },
   {
     "id": "en:fame:noun",
@@ -1060,10 +1304,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"fame\"."
+      "The state of being known or talked about by many people."
     ],
     "examples": [
-      "B1 spoken usage example with \"fame\"."
+      "Achieving international fame did not alter his modest and quiet personality."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1077,7 +1321,15 @@
       "us": "/feɪm/"
     },
     "emoji": "⭐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "renown",
+      "stardom"
+    ],
+    "antonyms": [
+      "obscurity",
+      "anonymity"
+    ]
   },
   {
     "id": "en:gossip-magazine:noun",
@@ -1086,10 +1338,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"gossip magazine\"."
+      "A publication containing news and sensational stories about celebrities' lives."
     ],
     "examples": [
-      "B1 spoken usage example with \"gossip magazine\"."
+      "She picked up a gossip magazine to read while waiting at salon."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1104,7 +1356,12 @@
       "us": "/ˈɡɑː.səp mæɡ.əˌziːn/"
     },
     "emoji": "📰",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "tabloid",
+      "scandal sheet"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:masterpiece:noun",
@@ -1113,10 +1370,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"masterpiece\"."
+      "A work of outstanding artistry, skill, or artistic workmanship."
     ],
     "examples": [
-      "B1 spoken usage example with \"masterpiece\"."
+      "The artist's portrait painting is widely considered an absolute masterpiece."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1131,7 +1388,15 @@
       "us": "/ˈmæs.tɚ.piːs/"
     },
     "emoji": "🖼️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "masterwork",
+      "jewel"
+    ],
+    "antonyms": [
+      "failure",
+      "dud"
+    ]
   },
   {
     "id": "en:contemporary-art:noun",
@@ -1140,10 +1405,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"contemporary art\"."
+      "Art produced at the present period in time, reflecting modern concepts."
     ],
     "examples": [
-      "B1 spoken usage example with \"contemporary art\"."
+      "The local gallery opened a new exhibition showcasing contemporary art pieces."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1157,7 +1422,13 @@
       "us": "/kənˈtem.pə.rer.i ɑːrt/"
     },
     "emoji": "🎨",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "modern art"
+    ],
+    "antonyms": [
+      "classical art"
+    ]
   },
   {
     "id": "en:abstract:noun",
@@ -1166,10 +1437,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"abstract\"."
+      "Art that does not attempt to represent external reality directly."
     ],
     "examples": [
-      "B1 spoken usage example with \"abstract\"."
+      "She prefers abstract paintings featuring bold colors and unusual shapes."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1184,7 +1455,14 @@
       "us": "/ˈæb.strækt/"
     },
     "emoji": "🎨",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "summary",
+      "non-representational art"
+    ],
+    "antonyms": [
+      "concrete"
+    ]
   },
   {
     "id": "en:realistic:noun",
@@ -1193,10 +1471,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 Spoken English entry for \"realistic\"."
+      "Representing things in a way that is accurate and true to life."
     ],
     "examples": [
-      "B1 spoken usage example with \"realistic\"."
+      "The drawing was so realistic that it looked like a photograph."
     ],
     "domain": "spoken",
     "theme": "media",
@@ -1210,6 +1488,14 @@
       "us": "/ˌriː.əˈlɪs.tɪk/"
     },
     "emoji": "🎯",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "representational",
+      "lifelike"
+    ],
+    "antonyms": [
+      "abstract",
+      "unrealistic"
+    ]
   }
 ]
