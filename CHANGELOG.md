@@ -5,9 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
-- Added B1-register synonyms and antonyms across all 1,354 vocabulary entries in `vocabulary/en/b1/` across 40 theme files:
-  - **Synonyms**: Added 3,229 synonyms across all 1,354 B1 entries (1–3 terms per entry appropriate to B1 level, using plainer phrases/idioms for collocations and expressions).
-  - **Antonyms**: Added 1,179 genuine antonyms across 710 entries; applied `no_antonym: true` waivers to 644 entries representing idioms, collocations, or unique concepts with no direct opposite.
+- Updated all templated C2 vocabulary definitions and example sentences across 585+ entries in 12 theme files (Batch 1: 154 entries across 8 files; Batch 2: 431+ entries across `abstract_nouns.json`, `idioms.json`, `rare_adjectives.json`, `rare_verbs.json`, and associated C2 theme files) with genuine native-level definitions highlighting register/connotation and 15–25 word rhetorically rich example sentences.
+- Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,277 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
+  - **Transcriptions**: Sourced and formatted standard dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) for all 1,277 entries from reliable dictionary references (RP for UK, General American for US), providing full-phrase transcriptions for multi-word collocations, idioms, phrasal verbs, and expressions.
+  - **Emoji & Symbols**: Evaluated representative emojis, symbols, and combinations across all 1,277 entries; assigned emojis to 1,150 entries and applied `no_emoji: true` waivers to 127 highly abstract, academic, political, analytical, or function terms where forcing an emoji would be misleading.
+  - **Countability & Plurals**: Classified and updated all 561 noun entries (`countable`: 352 with correct plural forms, `uncountable`: 183 abstract/mass nouns removing naive plurals, `pluralia_tantum`: 22 with appropriate `singular_workaround` entries where applicable, and `false_plural`: 4).
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
   - **Transcriptions**: Converted all 1,361 entries to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard learner dictionaries (RP for UK, General American for US), including full phrase transcriptions for multi-word entries.
   - **Emoji & Symbols**: Assigned representative emojis, directional/preposition Unicode symbols, or 2-unit logical combinations across 1,322 entries; set `no_emoji: true` for 39 purely abstract or function/connector words.
