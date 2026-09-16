@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Updated all templated C2 vocabulary definitions and example sentences across 585+ entries in 12 theme files (Batch 1: 154 entries across 8 files; Batch 2: 431+ entries across `abstract_nouns.json`, `idioms.json`, `rare_adjectives.json`, `rare_verbs.json`, and associated C2 theme files) with genuine native-level definitions highlighting register/connotation and 15–25 word rhetorically rich example sentences.
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,277 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
   - **Transcriptions**: Sourced and formatted standard dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) for all 1,277 entries from reliable dictionary references (RP for UK, General American for US), providing full-phrase transcriptions for multi-word collocations, idioms, phrasal verbs, and expressions.
   - **Emoji & Symbols**: Evaluated representative emojis, symbols, and combinations across all 1,277 entries; assigned emojis to 1,150 entries and applied `no_emoji: true` waivers to 127 highly abstract, academic, political, analytical, or function terms where forcing an emoji would be misleading.
