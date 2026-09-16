@@ -38,6 +38,9 @@ All notable changes to this project will be documented in this file.
   - `pluralia_tantum`: 45 entries (removed prohibited plural forms, added `singular_workaround` phrases such as "a pair of ..." where applicable)
   - `false_plural`: 15 entries (removed prohibited plural forms)
   - `invariable`: 9 entries (removed prohibited plural forms)
+- Rewrote definitions and example sentences across all 1,052 vocabulary entries in `vocabulary/en/c1/` across 33 theme files:
+  - **Definitions**: Replaced templated placeholder text with formal, precise definitions highlighting semantic nuance and distinguishing terms from nearest synonyms, or defining figurative meanings for idioms, collocations, and phrasal verbs.
+  - **Example Sentences**: Crafting sophisticated 15–20 word example sentences with natural idiomatic phrasing for all 1,052 entries.
 - Added `synonyms` and `antonyms` (or `no_antonym: true`) across all 1,052 vocabulary entries in `vocabulary/en/c1/` across 33 theme files:
   - **Synonyms**: Added 1–3 genuine C1-level synonyms per entry matching register and formality across all 1,052 entries.
   - **Antonyms**: Assigned genuine antonyms to 620 entries (e.g. *meticulous* ~ *careless*, *alleviate* ~ *aggravate*) and set `no_antonym: true` for 432 entries (primarily phrasal verbs, idioms, and terms lacking clear direct opposites).
