@@ -1,6 +1,15 @@
 const fs = require('fs');
 const path = require('path');
 
+function slugify(text) {
+  return text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 function getJsonFiles(dir) {
   let results = [];
   if (!fs.existsSync(dir)) return results;
@@ -50,6 +59,15 @@ function main() {
 
         for (const entry of entries) {
           if (entry && entry.id) {
+            // Validate slug format
+            const parts = entry.id.split(':');
+            if (parts.length >= 2 && entry.word) {
+              const currentSlug = parts[1];
+              const expectedSlug = slugify(entry.word);
+              if (currentSlug.includes('--')) {
+                console.warn(`[WARNING] Malformed multi-hyphen slug in ${entry.id} (word: "${entry.word}")`);
+              }
+            }
             indexMap[entry.id] = relativePath;
           }
         }
