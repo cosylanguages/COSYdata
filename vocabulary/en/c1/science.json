@@ -22,7 +22,13 @@
       "uk": "/rɪˈsɜːtʃ/",
       "us": "/ˈriː.sɝːtʃ/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "investigation",
+      "inquiry",
+      "study"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:neural:noun",
@@ -44,7 +50,12 @@
       "us": "/ˈnʊr.əl/"
     },
     "emoji": "🧠",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "nervous",
+      "neurological"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:bioethics:noun",
@@ -67,7 +78,12 @@
       "us": "/ˌbaɪ.oʊˈeθ.ɪks/"
     },
     "emoji": "⚖️",
-    "singular_workaround": "bioethic"
+    "singular_workaround": "bioethic",
+    "synonyms": [
+      "medical ethics",
+      "biological ethics"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:computational:adjective",
@@ -88,7 +104,12 @@
       "uk": "/ˌkɒm.pjəˈteɪ.ʃən.əl/",
       "us": "/ˌkɑːm.pjəˈteɪ.ʃən.əl/"
     },
-    "emoji": "💻"
+    "emoji": "💻",
+    "synonyms": [
+      "algorithmic",
+      "digital"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:genome:noun",
@@ -111,7 +132,12 @@
       "us": "/ˈdʒiː.noʊm/"
     },
     "emoji": "🧬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "genetic makeup",
+      "DNA sequence"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:neuroscience:noun",
@@ -133,7 +159,12 @@
       "us": "/ˈnʊr.oʊˌsaɪ.əns/"
     },
     "emoji": "🧠",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "brain science",
+      "neurobiology"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:computing:noun",
@@ -155,7 +186,12 @@
       "us": "/kəmˈpjuː.t̬ɪŋ/"
     },
     "emoji": "💻",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "data processing",
+      "computation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:replicability:noun",
@@ -177,7 +213,14 @@
       "us": "/ˌrep.lɪ.kəˈbɪl.ə.t̬i/"
     },
     "emoji": "🔄",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "reproducibility",
+      "repeatability"
+    ],
+    "antonyms": [
+      "unreplicability"
+    ]
   },
   {
     "id": "en:singularity:noun",
@@ -203,7 +246,12 @@
       "us": "/ˌsɪŋ.ɡjəˈlær.ə.t̬i/"
     },
     "emoji": "🤖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "technological singularity",
+      "uniqueness"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:speculative:adjective",
@@ -227,7 +275,16 @@
       "uk": "/ˈspek.jə.lə.tɪv/",
       "us": "/ˈspek.jə.lə.t̬ɪv/"
     },
-    "emoji": "💭"
+    "emoji": "💭",
+    "synonyms": [
+      "conjectural",
+      "theoretical",
+      "hypothetical"
+    ],
+    "antonyms": [
+      "proven",
+      "empirical"
+    ]
   },
   {
     "id": "en:synthesis:noun",
@@ -254,7 +311,16 @@
       "uk": "/ˈsɪn.θə.sɪs/",
       "us": "/ˈsɪn.θə.sɪs/"
     },
-    "emoji": "🧪"
+    "emoji": "🧪",
+    "synonyms": [
+      "combination",
+      "amalgamation",
+      "integration"
+    ],
+    "antonyms": [
+      "analysis",
+      "decomposition"
+    ]
   },
   {
     "id": "en:synthesize:verb",
@@ -275,7 +341,16 @@
       "uk": "/ˈsɪn.θə.saɪz/",
       "us": "/ˈsɪn.θə.saɪz/"
     },
-    "emoji": "🧪"
+    "emoji": "🧪",
+    "synonyms": [
+      "amalgamate",
+      "integrate",
+      "combine"
+    ],
+    "antonyms": [
+      "decompose",
+      "dissect"
+    ]
   },
   {
     "id": "en:physics:noun",
@@ -298,7 +373,12 @@
       "us": "/ˈfɪz.ɪks/"
     },
     "emoji": "⚛️",
-    "singular_workaround": "branch of physics"
+    "singular_workaround": "branch of physics",
+    "synonyms": [
+      "natural philosophy",
+      "physical science"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:translational:noun",
@@ -320,7 +400,14 @@
       "us": "/trænzˈleɪ.ʃən.əl/"
     },
     "emoji": "🔄",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "applied",
+      "practical"
+    ],
+    "antonyms": [
+      "purely theoretical"
+    ]
   },
   {
     "id": "en:paradigm-shift:noun",
@@ -347,7 +434,12 @@
       "us": "/ˈpær.ə.daɪm ʃɪft/"
     },
     "emoji": "💡",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "fundamental transformation",
+      "breakthrough"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:disruptive-technology:noun",
@@ -374,7 +466,12 @@
       "us": "/dɪsˈrʌp.tɪv tekˈnɑː.lə.dʒi/"
     },
     "emoji": "🚀",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "breakthrough technology",
+      "game-changer"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:emergent-technology:noun",
@@ -401,7 +498,14 @@
       "us": "/iˈmɝː.dʒənt tekˈnɑː.lə.dʒi/"
     },
     "emoji": "🤖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "frontier technology",
+      "cutting-edge technology"
+    ],
+    "antonyms": [
+      "obsolete technology"
+    ]
   },
   {
     "id": "en:exponential-growth:noun",
@@ -427,7 +531,15 @@
       "us": "/ˌek.spoʊˈnen.ʃəl ɡroʊθ/"
     },
     "emoji": "📈",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "rapid expansion",
+      "accelerated growth"
+    ],
+    "antonyms": [
+      "exponential decay",
+      "stagnation"
+    ]
   },
   {
     "id": "en:unintended-consequences:noun",
@@ -454,7 +566,12 @@
       "us": "/ˌʌn.ɪnˈten.dɪd ˈkɑːn.sə.kwən.sɪz/"
     },
     "emoji": "💥",
-    "singular_workaround": "unintended consequence"
+    "singular_workaround": "unintended consequence",
+    "synonyms": [
+      "unforeseen fallout",
+      "side effects"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:existential-risk:noun",
@@ -481,7 +598,12 @@
       "us": "/ˌeɡ.zɪˈsten.ʃəl rɪsk/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "catastrophic risk",
+      "extinction risk"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:algorithmic-accountability:noun",
@@ -507,7 +629,12 @@
       "uk": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.təˈbɪl.ə.ti/",
       "us": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.t̬əˈbɪl.ə.t̬i/"
     },
-    "emoji": "🤖"
+    "emoji": "🤖",
+    "synonyms": [
+      "algorithmic transparency",
+      "AI oversight"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:data-sovereignty:noun",
@@ -533,7 +660,12 @@
       "us": "/ˈdeɪ.t̬ə ˈsɑːv.rən.ti/"
     },
     "emoji": "🔒",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "data autonomy",
+      "data control"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:digital-ethics:noun",
@@ -560,7 +692,12 @@
       "us": "/ˈdɪdʒ.ə.t̬əl ˈeθ.ɪks/"
     },
     "emoji": "💻",
-    "singular_workaround": "digital ethic"
+    "singular_workaround": "digital ethic",
+    "synonyms": [
+      "tech ethics",
+      "information ethics"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:technological-determinism:noun",
@@ -586,7 +723,11 @@
       "us": "/ˌtek.nəˈlɑː.dʒɪ.kəl dɪˈtɝː.mɪ.nɪ.zəm/"
     },
     "no_emoji": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "tech-driven evolution"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:biohacking:noun",
@@ -612,7 +753,12 @@
       "us": "/ˈbaɪ.oʊˌhæk.ɪŋ/"
     },
     "emoji": "🧬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "do-it-yourself biology",
+      "biological optimization"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:gene-editing:noun",
@@ -638,7 +784,12 @@
       "us": "/ˈdʒiːn ˌed.ɪ.tɪŋ/"
     },
     "emoji": "🧬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "genome editing",
+      "genetic modification"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:synthetic-biology:noun",
@@ -664,7 +815,12 @@
       "us": "/sɪnˈθet̬.ɪk baɪˈɑː.lə.dʒi/"
     },
     "emoji": "🧪",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "engineered biology",
+      "bio-engineering"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:precision-medicine:noun",
@@ -690,7 +846,12 @@
       "us": "/prɪˈsɪʒ.ən ˈmed.ə.sən/"
     },
     "emoji": "🩺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "personalized medicine",
+      "targeted therapy"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:quantum-leap:noun",
@@ -717,7 +878,14 @@
       "us": "/ˈkwɑːn.t̬əm liːp/"
     },
     "emoji": "⚛️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "breakthrough",
+      "major advance"
+    ],
+    "antonyms": [
+      "minor step"
+    ]
   },
   {
     "id": "en:scalable-solution:noun",
@@ -744,7 +912,14 @@
       "us": "/ˈskeɪ.lə.bəl səˈluː.ʃən/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "adaptable model",
+      "expandable system"
+    ],
+    "antonyms": [
+      "unscalable model"
+    ]
   },
   {
     "id": "en:minimum-viable-product:noun",
@@ -771,7 +946,12 @@
       "us": "/ˈmɪn.ə.məm ˈvaɪ.ə.bəl ˈprɑː.dʌkt/"
     },
     "emoji": "📦",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "MVP",
+      "prototype"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:iterative-process:noun",
@@ -798,7 +978,12 @@
       "uk": "/ˈɪt.ər.ə.tɪv ˈprəʊ.ses/",
       "us": "/ˈɪt̬.ə.reɪ.t̬ɪv ˈprɑː.ses/"
     },
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "synonyms": [
+      "cyclical development",
+      "step-by-step refinement"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:first-mover-advantage:noun",
@@ -825,6 +1010,13 @@
       "us": "/ˌfɝːst ˈmuː.vɚ ədˈvæn.t̬ɪdʒ/"
     },
     "emoji": "🥇",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "pioneer advantage",
+      "early-entry edge"
+    ],
+    "antonyms": [
+      "late-mover disadvantage"
+    ]
   }
 ]
