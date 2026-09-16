@@ -18,7 +18,10 @@ function main() {
   const schemaData = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
   const validate = ajv.compile(schemaData);
 
-  const vocabDir = path.join(__dirname, '..', 'vocabulary');
+  const targetArg = process.argv[2];
+  const vocabDir = targetArg
+    ? path.resolve(process.cwd(), targetArg)
+    : path.join(__dirname, '..', 'vocabulary');
 
   function findFiles(dir, fileList = []) {
     if (!fs.existsSync(dir)) return fileList;
