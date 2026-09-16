@@ -26,7 +26,13 @@
     },
     "emoji": "📋",
     "countability": "false_plural",
-    "singular_workaround": "criterion"
+    "singular_workaround": "criterion",
+    "synonyms": [
+      "standards",
+      "benchmarks",
+      "measures"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:critical:noun",
@@ -48,7 +54,12 @@
       "us": "/ˈkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ/"
     },
     "emoji": "🧠",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "analytical thinking",
+      "evaluation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:interdisciplinary:adjective",
@@ -76,7 +87,16 @@
       "uk": "/ˌɪn.tə.dɪs.əˈplɪn.ər.i/",
       "us": "/ˌɪn.t̬ɚ.dɪs.əˈplɪn.er.i/"
     },
-    "emoji": "🌐"
+    "emoji": "🌐",
+    "synonyms": [
+      "cross-disciplinary",
+      "multidisciplinary",
+      "integrative"
+    ],
+    "antonyms": [
+      "specialized",
+      "monodisciplinary"
+    ]
   },
   {
     "id": "en:academic:noun",
@@ -102,7 +122,13 @@
       "us": "/ˌæk.əˈdem.ɪk/"
     },
     "emoji": "🎓",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "scholar",
+      "researcher",
+      "intellectual"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:pedagogy:noun",
@@ -127,7 +153,12 @@
       "us": "/ˈped.ə.ɡɑː.dʒi/"
     },
     "emoji": "🏫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "teaching methodology",
+      "educational theory"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:pedagogical:adjective",
@@ -148,7 +179,13 @@
       "uk": "/ˌped.əˈɡɒdʒ.ɪ.kəl/",
       "us": "/ˌped.əˈɡɑː.dʒɪ.kəl/"
     },
-    "emoji": "🏫"
+    "emoji": "🏫",
+    "synonyms": [
+      "educational",
+      "instructional",
+      "didactic"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:lifelong:adjective",
@@ -169,7 +206,16 @@
       "uk": "/ˈlaɪf.lɒŋ/",
       "us": "/ˈlaɪf.lɑːŋ/"
     },
-    "emoji": "♾️"
+    "emoji": "♾️",
+    "synonyms": [
+      "enduring",
+      "continuous",
+      "abiding"
+    ],
+    "antonyms": [
+      "temporary",
+      "transient"
+    ]
   },
   {
     "id": "en:higher:noun",
@@ -191,7 +237,14 @@
       "us": "/ˌhaɪ.ɚ ed.jəˈkeɪ.ʃən/"
     },
     "emoji": "🎓",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "tertiary education",
+      "university level"
+    ],
+    "antonyms": [
+      "primary education"
+    ]
   },
   {
     "id": "en:education:noun",
@@ -213,7 +266,13 @@
       "us": "/ˌed.jəˈkeɪ.ʃən/"
     },
     "emoji": "📚",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "schooling",
+      "instruction",
+      "learning"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:standardized:noun",
@@ -235,7 +294,15 @@
       "us": "/ˈstæn.dɚ.daɪzd ˈtes.tɪŋ/"
     },
     "emoji": "📝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "uniform assessment",
+      "formal testing"
+    ],
+    "antonyms": [
+      "custom assessment",
+      "unstandardized testing"
+    ]
   },
   {
     "id": "en:testing:noun",
@@ -257,7 +324,13 @@
       "us": "/ˈtes.tɪŋ/"
     },
     "emoji": "📝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "assessment",
+      "examination",
+      "evaluation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:standardised:noun",
@@ -279,7 +352,15 @@
       "us": "/ˈstæn.dɚ.daɪzd ˈtes.tɪŋ/"
     },
     "emoji": "📝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "uniform assessment",
+      "formal testing"
+    ],
+    "antonyms": [
+      "custom assessment",
+      "unstandardized testing"
+    ]
   },
   {
     "id": "en:vocational:noun",
@@ -301,7 +382,14 @@
       "us": "/voʊˈkeɪ.ʃən.əl ed.jəˈkeɪ.ʃən/"
     },
     "emoji": "🛠️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "occupational training",
+      "technical education"
+    ],
+    "antonyms": [
+      "academic education"
+    ]
   },
   {
     "id": "en:self-directed:noun",
@@ -323,7 +411,15 @@
       "us": "/ˌself.dəˈrek.tɪd ˈlɝː.nɪŋ/"
     },
     "emoji": "🧑‍💻",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "autonomous learning",
+      "independent study"
+    ],
+    "antonyms": [
+      "teacher-led learning",
+      "guided study"
+    ]
   },
   {
     "id": "en:extracurricular:noun",
@@ -348,7 +444,14 @@
       "us": "/ˌek.strə.kəˈrɪk.jə.lɚ ækˈtɪv.ə.t̬iz/"
     },
     "emoji": "🎨",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "synonyms": [
+      "after-school activities",
+      "co-curricular activities"
+    ],
+    "antonyms": [
+      "curricular activities"
+    ]
   },
   {
     "id": "en:accreditation:noun",
@@ -370,7 +473,16 @@
       "us": "/əˌkred.əˈteɪ.ʃən/"
     },
     "emoji": "📜",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "certification",
+      "recognition",
+      "authorization"
+    ],
+    "antonyms": [
+      "disqualification",
+      "de-certification"
+    ]
   },
   {
     "id": "en:fees:noun",
@@ -392,7 +504,13 @@
       "uk": "/tjuːˈɪʃ.ən fiːz/",
       "us": "/tuːˈɪʃ.ən fiːz/"
     },
-    "emoji": "💰"
+    "emoji": "💰",
+    "synonyms": [
+      "tuition",
+      "charges",
+      "dues"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:rigor:noun",
@@ -414,7 +532,16 @@
       "us": "/ˈrɪɡ.ɚ/"
     },
     "emoji": "📐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "thoroughness",
+      "strictness",
+      "exactingness"
+    ],
+    "antonyms": [
+      "laxity",
+      "leniency"
+    ]
   },
   {
     "id": "en:rigour:noun",
@@ -436,7 +563,16 @@
       "us": "/ˈrɪɡ.ɚ/"
     },
     "emoji": "📐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "thoroughness",
+      "strictness",
+      "exactingness"
+    ],
+    "antonyms": [
+      "laxity",
+      "leniency"
+    ]
   },
   {
     "id": "en:outcomes:noun",
@@ -459,7 +595,16 @@
       "uk": "/ˈaʊt.kʌmz/",
       "us": "/ˈaʊt.kʌmz/"
     },
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "synonyms": [
+      "results",
+      "consequences",
+      "achievements"
+    ],
+    "antonyms": [
+      "inputs",
+      "causes"
+    ]
   },
   {
     "id": "en:rote-learning:noun",
@@ -485,7 +630,15 @@
       "us": "/roʊt ˈlɝː.nɪŋ/"
     },
     "emoji": "🔁",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "memorization",
+      "learning by heart"
+    ],
+    "antonyms": [
+      "meaningful learning",
+      "critical thinking"
+    ]
   },
   {
     "id": "en:experiential-learning:noun",
@@ -511,7 +664,15 @@
       "us": "/ɪkˌspɪr.iˈen.ʃəl ˈlɝː.nɪŋ/"
     },
     "emoji": "🧪",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "hands-on learning",
+      "practical learning"
+    ],
+    "antonyms": [
+      "theoretical learning",
+      "rote learning"
+    ]
   },
   {
     "id": "en:critical-thinking-skills:noun",
@@ -537,7 +698,12 @@
       "uk": "/ˈkrɪt.ɪ.kəl ˈθɪŋ.kɪŋ skɪlz/",
       "us": "/ˈkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ skɪlz/"
     },
-    "emoji": "🧠"
+    "emoji": "🧠",
+    "synonyms": [
+      "analytical skills",
+      "reasoning ability"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:problem-solving-skills:noun",
@@ -563,7 +729,12 @@
       "uk": "/ˈprɒb.ləm ˌsɒl.vɪŋ skɪlz/",
       "us": "/ˈprɑː.bləm ˌsɑːl.vɪŋ skɪlz/"
     },
-    "emoji": "🧩"
+    "emoji": "🧩",
+    "synonyms": [
+      "analytical skills",
+      "troubleshooting ability"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:transferable-skills:noun",
@@ -589,7 +760,12 @@
       "uk": "/trænsˈfɜː.rə.bəl skɪlz/",
       "us": "/trænˈsfɝː.ə.bəl skɪlz/"
     },
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "synonyms": [
+      "portable skills",
+      "adaptable skills"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:soft-skills:noun",
@@ -615,7 +791,15 @@
       "uk": "/sɒft skɪlz/",
       "us": "/sɑːft skɪlz/"
     },
-    "emoji": "🤝"
+    "emoji": "🤝",
+    "synonyms": [
+      "interpersonal skills",
+      "people skills"
+    ],
+    "antonyms": [
+      "hard skills",
+      "technical skills"
+    ]
   },
   {
     "id": "en:hard-skills:noun",
@@ -641,7 +825,15 @@
       "uk": "/hɑːd skɪlz/",
       "us": "/hɑːrd skɪlz/"
     },
-    "emoji": "💻"
+    "emoji": "💻",
+    "synonyms": [
+      "technical skills",
+      "specialized abilities"
+    ],
+    "antonyms": [
+      "soft skills",
+      "interpersonal skills"
+    ]
   },
   {
     "id": "en:continuing-education:noun",
@@ -667,7 +859,12 @@
       "us": "/kənˈtɪn.ju.ɪŋ ed.jəˈkeɪ.ʃən/"
     },
     "emoji": "📚",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "further education",
+      "adult education"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:professional-certification:noun",
@@ -694,7 +891,12 @@
       "us": "/prəˈfeʃ.ən.əl sɝː.t̬ə.fəˈkeɪ.ʃən/"
     },
     "emoji": "📜",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "professional credential",
+      "qualification"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:academic-rigor:noun",
@@ -720,7 +922,14 @@
       "us": "/ˌæk.əˈdem.ɪk ˈrɪɡ.ɚ/"
     },
     "emoji": "📐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "scholarly standards",
+      "intellectual rigor"
+    ],
+    "antonyms": [
+      "academic laxity"
+    ]
   },
   {
     "id": "en:standardized-testing:noun",
@@ -746,7 +955,15 @@
       "us": "/ˈstæn.dɚ.daɪzd ˈtes.tɪŋ/"
     },
     "emoji": "📝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "uniform assessment",
+      "formal examination"
+    ],
+    "antonyms": [
+      "formative assessment",
+      "custom evaluation"
+    ]
   },
   {
     "id": "en:educational-inequality:noun",
@@ -772,7 +989,14 @@
       "us": "/ˌed.jəˈkeɪ.ʃən.əl ˌɪn.ɪˈkwɑː.lə.t̬i/"
     },
     "emoji": "⚖️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "disparity in education",
+      "unequal access"
+    ],
+    "antonyms": [
+      "educational equity"
+    ]
   },
   {
     "id": "en:access-to-education:noun",
@@ -798,7 +1022,14 @@
       "us": "/ˈæk.ses tuː ed.jəˈkeɪ.ʃən/"
     },
     "emoji": "🔓",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "educational availability",
+      "equal opportunity"
+    ],
+    "antonyms": [
+      "educational exclusion"
+    ]
   },
   {
     "id": "en:literacy-rate:noun",
@@ -825,7 +1056,14 @@
       "us": "/ˈlɪt̬.ɚ.ə.si reɪt/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "literacy level",
+      "reading percentage"
+    ],
+    "antonyms": [
+      "illiteracy rate"
+    ]
   },
   {
     "id": "en:dropout-rate:noun",
@@ -852,7 +1090,15 @@
       "us": "/ˈdrɑːp.aʊt reɪt/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "attrition rate",
+      "withdrawal rate"
+    ],
+    "antonyms": [
+      "retention rate",
+      "graduation rate"
+    ]
   },
   {
     "id": "en:student-debt:noun",
@@ -878,7 +1124,12 @@
       "us": "/ˈstuː.dənt det/"
     },
     "emoji": "💳",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "student loan debt",
+      "educational liability"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:tuition-fees:noun",
@@ -904,7 +1155,12 @@
       "uk": "/tjuːˈɪʃ.ən fiːz/",
       "us": "/tuːˈɪʃ.ən fiːz/"
     },
-    "emoji": "💳"
+    "emoji": "💳",
+    "synonyms": [
+      "tuition costs",
+      "instructional fees"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:work-study-program:noun",
@@ -931,7 +1187,12 @@
       "us": "/wɝːk ˈstʌd.i ˌproʊ.ɡræm/"
     },
     "emoji": "💼",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "co-op program",
+      "work-study scheme"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:self-directed-learning:noun",
@@ -957,7 +1218,15 @@
       "us": "/ˌself.dəˈrek.tɪd ˈlɝː.nɪŋ/"
     },
     "emoji": "🧑‍💻",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "autonomous learning",
+      "independent study"
+    ],
+    "antonyms": [
+      "directed learning",
+      "instructor-led learning"
+    ]
   },
   {
     "id": "en:skill-gap:noun",
@@ -984,7 +1253,15 @@
       "us": "/skɪl ɡæp/"
     },
     "emoji": "📉",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "skills deficit",
+      "capability gap"
+    ],
+    "antonyms": [
+      "skill alignment",
+      "competency match"
+    ]
   },
   {
     "id": "en:upskilling:noun",
@@ -1010,7 +1287,14 @@
       "us": "/ˈʌpˌskɪl.ɪŋ/"
     },
     "emoji": "📈",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "skill enhancement",
+      "professional development"
+    ],
+    "antonyms": [
+      "deskilling"
+    ]
   },
   {
     "id": "en:reskilling:noun",
@@ -1036,6 +1320,11 @@
       "us": "/ˌriːˈskɪl.ɪŋ/"
     },
     "emoji": "🔄",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "retraining",
+      "skill reassignment"
+    ],
+    "no_antonym": true
   }
 ]
