@@ -6,10 +6,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"of\" in English vocabulary."
+      "Belonging to or connected with something."
     ],
     "examples": [
-      "This is an example sentence using \"of\"."
+      "A cup of hot coffee tastes good."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -26,7 +26,8 @@
       "us": "/ɑːv/"
     },
     "no_emoji": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:a:article",
@@ -35,10 +36,10 @@
     "form": "article",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"a\" in English vocabulary."
+      "Used before singular countable nouns."
     ],
     "examples": [
-      "This is an example sentence using \"a\"."
+      "She bought a new book at the store."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -53,7 +54,8 @@
       "uk": "/eɪ/",
       "us": "/eɪ/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:minority:noun",
@@ -62,10 +64,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"minority\" in English vocabulary."
+      "The smaller part or number of a group."
     ],
     "examples": [
-      "This is an example sentence using \"minority\"."
+      "Only a small minority voted against the plan."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -84,7 +86,10 @@
       "us": "/məˈnɔːr.ə.t̬i/"
     },
     "emoji": "🔹",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "majority"
+    ]
   },
   {
     "id": "en:majority:noun",
@@ -93,10 +98,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"majority\" in English vocabulary."
+      "The larger part or number of a group."
     ],
     "examples": [
-      "This is an example sentence using \"majority\"."
+      "The majority of students passed the test."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -114,7 +119,10 @@
       "us": "/məˈdʒɑː.rə.t̬i/"
     },
     "emoji": "🔷",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "minority"
+    ]
   },
   {
     "id": "en:increase:noun",
@@ -123,10 +131,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"increase\" in English vocabulary."
+      "A rise in size, amount, or degree."
     ],
     "examples": [
-      "This is an example sentence using \"increase\"."
+      "There was an increase in gas prices."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -144,7 +152,10 @@
       "us": "/ˈɪn.kriːs/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "decrease"
+    ]
   },
   {
     "id": "en:decrease:noun",
@@ -153,10 +164,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"decrease\" in English vocabulary."
+      "A fall in size, amount, or degree."
     ],
     "examples": [
-      "This is an example sentence using \"decrease\"."
+      "We saw a decrease in sales last month."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -170,7 +181,10 @@
       "us": "/ˈdiː.kriːs/"
     },
     "emoji": "📉",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "increase"
+    ]
   },
   {
     "id": "en:rise:noun",
@@ -179,10 +193,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"rise\" in English vocabulary."
+      "An increase in amount, number, or level."
     ],
     "examples": [
-      "This is an example sentence using \"rise\"."
+      "There was a steady rise in temperature."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -196,7 +210,11 @@
       "us": "/raɪz/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "fall",
+      "drop"
+    ]
   },
   {
     "id": "en:double:noun",
@@ -205,10 +223,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"double\" in English vocabulary."
+      "To become twice as much or twice as many."
     ],
     "examples": [
-      "This is an example sentence using \"double\"."
+      "Prices will double within a few years."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -226,7 +244,10 @@
       "us": "/ˈdʌb.əl/"
     },
     "emoji": "2️⃣",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "half"
+    ]
   },
   {
     "id": "en:exactly:noun",
@@ -235,10 +256,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"exactly\"."
+      "In an exact manner or precisely."
     ],
     "examples": [
-      "A2 spoken usage example with \"exactly\"."
+      "The train arrives at exactly four o'clock."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -252,7 +273,11 @@
       "us": "/ɪɡˈzækt.li/"
     },
     "emoji": "🎯",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "approximately",
+      "roughly"
+    ]
   },
   {
     "id": "en:distance:noun",
@@ -261,10 +286,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"distance\" in English vocabulary."
+      "The amount of space between two places."
     ],
     "examples": [
-      "This is an example sentence using \"distance\"."
+      "The distance from home to work is short."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -282,7 +307,8 @@
       "us": "/ˈdɪs.təns/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:few:noun",
@@ -291,10 +317,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"few\" in English vocabulary."
+      "A small number of people or things."
     ],
     "examples": [
-      "This is an example sentence using \"few\"."
+      "Only a few students were late today."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -307,7 +333,10 @@
       "us": "/fjuː/"
     },
     "emoji": "🤏",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "many"
+    ]
   },
   {
     "id": "en:minimum:noun",
@@ -316,10 +345,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"minimum\" in English vocabulary."
+      "The smallest amount or degree possible."
     ],
     "examples": [
-      "This is an example sentence using \"minimum\"."
+      "The minimum age for driving is eighteen."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -334,7 +363,10 @@
       "us": "/ˈmɪn.ə.məm/"
     },
     "emoji": "🔻",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "maximum"
+    ]
   },
   {
     "id": "en:approximately:noun",
@@ -343,10 +375,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"approximately\" in English vocabulary."
+      "Close to an exact amount or roughly."
     ],
     "examples": [
-      "This is an example sentence using \"approximately\"."
+      "The journey takes approximately two hours."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -363,7 +395,10 @@
       "us": "/əˈprɑːk.sə.mət.li/"
     },
     "emoji": "≈",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "exactly"
+    ]
   },
   {
     "id": "en:roughly:noun",
@@ -372,10 +407,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"roughly\" in English vocabulary."
+      "Approximately or not exactly."
     ],
     "examples": [
-      "This is an example sentence using \"roughly\"."
+      "There were roughly fifty people at the party."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -392,7 +427,10 @@
       "us": "/ˈrʌf.li/"
     },
     "emoji": "≈",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "exactly"
+    ]
   },
   {
     "id": "en:several:noun",
@@ -401,10 +439,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"several\" in English vocabulary."
+      "More than two but not many."
     ],
     "examples": [
-      "This is an example sentence using \"several\"."
+      "I have visited that park several times."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -417,7 +455,10 @@
       "us": "/ˈsev.ɚ.əl/"
     },
     "emoji": "📦",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "few"
+    ]
   },
   {
     "id": "en:couple:noun",
@@ -426,10 +467,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"couple\" in English vocabulary."
+      "Two people or a small number of things."
     ],
     "examples": [
-      "This is an example sentence using \"couple\"."
+      "We spent a couple of days in London."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -443,7 +484,8 @@
       "us": "/ˈkʌp.əl/"
     },
     "emoji": "👫",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:average:noun",
@@ -452,10 +494,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"average\" in English vocabulary."
+      "An amount calculated by adding quantities together."
     ],
     "examples": [
-      "This is an example sentence using \"average\"."
+      "The average temperature in July is high."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -473,7 +515,8 @@
       "us": "/ˈæv.ɚ.ɪdʒ/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:percentage:noun",
@@ -482,10 +525,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"percentage\" in English vocabulary."
+      "A rate or amount per hundred."
     ],
     "examples": [
-      "This is an example sentence using \"percentage\"."
+      "A large percentage of people voted."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -500,7 +543,8 @@
       "us": "/pɚˈsen.t̬ɪdʒ/"
     },
     "emoji": "%",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:fraction:noun",
@@ -509,10 +553,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"fraction\" in English vocabulary."
+      "A small part or portion of something."
     ],
     "examples": [
-      "This is an example sentence using \"fraction\"."
+      "Only a fraction of work is done."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -523,7 +567,8 @@
       "us": "/ˈfræk.ʃən/"
     },
     "emoji": "🍕",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:triple:noun",
@@ -532,10 +577,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"triple\" in English vocabulary."
+      "To become three times as much or many."
     ],
     "examples": [
-      "This is an example sentence using \"triple\"."
+      "Sales tripled in the third quarter."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -549,7 +594,8 @@
       "us": "/ˈtrɪp.əl/"
     },
     "emoji": "3️⃣",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:maximum:noun",
@@ -558,10 +604,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"maximum\" in English vocabulary."
+      "The largest amount or degree possible."
     ],
     "examples": [
-      "This is an example sentence using \"maximum\"."
+      "The maximum speed limit here is fifty."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -572,7 +618,10 @@
       "us": "/ˈmæk.sə.məm/"
     },
     "emoji": "🔺",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "minimum"
+    ]
   },
   {
     "id": "en:height:noun",
@@ -581,10 +630,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"height\" in English vocabulary."
+      "The measurement of someone from head to foot."
     ],
     "examples": [
-      "This is an example sentence using \"height\"."
+      "His height is one hundred eighty centimeters."
     ],
     "domain": "general, spoken",
     "theme": "measurement",
@@ -598,7 +647,8 @@
       "us": "/haɪt/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:length:noun",
@@ -607,10 +657,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"length\" in English vocabulary."
+      "The measurement of something from end to end."
     ],
     "examples": [
-      "This is an example sentence using \"length\"."
+      "Measure the length of the wooden table."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -621,7 +671,10 @@
       "us": "/leŋθ/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "width"
+    ]
   },
   {
     "id": "en:width:noun",
@@ -630,10 +683,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"width\" in English vocabulary."
+      "The measurement of something from side to side."
     ],
     "examples": [
-      "This is an example sentence using \"width\"."
+      "Check the width of the door frame."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -644,7 +697,10 @@
       "us": "/wɪdθ/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "length"
+    ]
   },
   {
     "id": "en:depth:noun",
@@ -653,10 +709,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"depth\" in English vocabulary."
+      "The distance from the top down to bottom."
     ],
     "examples": [
-      "This is an example sentence using \"depth\"."
+      "The depth of pool is two meters."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -667,7 +723,8 @@
       "us": "/depθ/"
     },
     "emoji": "🌊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:speed:noun",
@@ -676,10 +733,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"speed\" in English vocabulary."
+      "The rate at which someone moves or travels."
     ],
     "examples": [
-      "This is an example sentence using \"speed\"."
+      "He drove at a moderate speed."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -693,7 +750,8 @@
       "us": "/spiːd/"
     },
     "emoji": "⚡",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:a-couple-of:noun",
@@ -702,10 +760,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"a couple of\"."
+      "Two or a few people or things."
     ],
     "examples": [
-      "A2 spoken usage example with \"a couple of\"."
+      "I bought a couple of books yesterday."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -719,7 +777,8 @@
       "us": "/ə ˈkʌp.əl ɑːv/"
     },
     "emoji": "👫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:a-few:noun",
@@ -728,10 +787,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"a few\"."
+      "A small number of things or people."
     ],
     "examples": [
-      "A2 spoken usage example with \"a few\"."
+      "There are a few apples in basket."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -745,7 +804,11 @@
       "us": "/ə fjuː/"
     },
     "emoji": "🤏",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "a lot of",
+      "many"
+    ]
   },
   {
     "id": "en:a-lot-of:noun",
@@ -754,10 +817,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"a lot of\"."
+      "A large number or amount of something."
     ],
     "examples": [
-      "A2 spoken usage example with \"a lot of\"."
+      "She has a lot of friends here."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -771,7 +834,11 @@
       "us": "/ə lɑːt ɑːv/"
     },
     "emoji": "📦",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "a few",
+      "a little"
+    ]
   },
   {
     "id": "en:plenty-of:noun",
@@ -780,10 +847,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"plenty of\"."
+      "More than enough of something."
     ],
     "examples": [
-      "A2 spoken usage example with \"plenty of\"."
+      "We have plenty of time before train leaves."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -797,7 +864,10 @@
       "us": "/ˈplen.t̬i ɑːv/"
     },
     "emoji": "🧺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "little"
+    ]
   },
   {
     "id": "en:most-of:noun",
@@ -806,10 +876,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"most of\"."
+      "Nearly all of a group or quantity."
     ],
     "examples": [
-      "A2 spoken usage example with \"most of\"."
+      "Most of the students passed their exams."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -823,7 +893,10 @@
       "us": "/moʊst ɑːv/"
     },
     "emoji": "🔝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "none of"
+    ]
   },
   {
     "id": "en:none-of:noun",
@@ -832,10 +905,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"none of\"."
+      "Not any of a group or quantity."
     ],
     "examples": [
-      "A2 spoken usage example with \"none of\"."
+      "None of the stores were open today."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -849,7 +922,11 @@
       "us": "/nʌn ɑːv/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "all of",
+      "most of"
+    ]
   },
   {
     "id": "en:half-of:noun",
@@ -858,10 +935,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"half of\"."
+      "One of two equal parts of something."
     ],
     "examples": [
-      "A2 spoken usage example with \"half of\"."
+      "She ate half of the sweet melon."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -875,7 +952,8 @@
       "us": "/hæf ɑːv/"
     },
     "emoji": "🌗",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:a-third:noun",
@@ -884,10 +962,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"a third\"."
+      "One of three equal parts of something."
     ],
     "examples": [
-      "A2 spoken usage example with \"a third\"."
+      "A third of the class was absent."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -902,7 +980,8 @@
       "us": "/ə θɝːd/"
     },
     "emoji": "🥉",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:a-quarter:noun",
@@ -911,10 +990,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"a quarter\"."
+      "One of four equal parts of something."
     ],
     "examples": [
-      "A2 spoken usage example with \"a quarter\"."
+      "Cut the pie into a quarter pieces."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -929,7 +1008,8 @@
       "us": "/ə ˈkwɔːr.t̬ɚ/"
     },
     "emoji": "🪙",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:at-least:noun",
@@ -938,10 +1018,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"at least\"."
+      "Not less than a specific number or amount."
     ],
     "examples": [
-      "A2 spoken usage example with \"at least\"."
+      "Drink at least eight glasses of water."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -955,7 +1035,10 @@
       "us": "/æt liːst/"
     },
     "emoji": "🔻",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "at most"
+    ]
   },
   {
     "id": "en:at-most:noun",
@@ -964,10 +1047,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"at most\"."
+      "Not more than a specific number or amount."
     ],
     "examples": [
-      "A2 spoken usage example with \"at most\"."
+      "The task will take at most an hour."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -981,7 +1064,10 @@
       "us": "/æt moʊst/"
     },
     "emoji": "🔺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "at least"
+    ]
   },
   {
     "id": "en:per-cent:noun",
@@ -990,10 +1076,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"per cent\"."
+      "One part in every hundred."
     ],
     "examples": [
-      "A2 spoken usage example with \"per cent\"."
+      "Ten per cent of students were late."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -1008,7 +1094,8 @@
       "us": "/pɚ ˈsent/"
     },
     "emoji": "%",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:quantity:noun",
@@ -1017,10 +1104,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"quantity\"."
+      "An amount or number of something."
     ],
     "examples": [
-      "A2 spoken usage example with \"quantity\"."
+      "We bought a large quantity of paper."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -1035,7 +1122,8 @@
       "us": "/ˈkwɑːn.t̬ə.t̬i/"
     },
     "emoji": "📦",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:statistic:noun",
@@ -1044,10 +1132,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 Spoken English entry for \"statistic\"."
+      "A fact or piece of data obtained from study."
     ],
     "examples": [
-      "A2 spoken usage example with \"statistic\"."
+      "The latest statistic shows sales growth."
     ],
     "domain": "spoken",
     "theme": "measurement",
@@ -1062,6 +1150,7 @@
       "us": "/stəˈtɪs.tɪk/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   }
 ]

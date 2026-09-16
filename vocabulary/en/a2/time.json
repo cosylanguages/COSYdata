@@ -6,10 +6,10 @@
     "form": "article",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"the\" in English vocabulary."
+      "Used to refer to a specific time or event."
     ],
     "examples": [
-      "This is an example sentence using \"the\"."
+      "At the moment, everything is quiet."
     ],
     "domain": "general",
     "theme": "time",
@@ -24,7 +24,8 @@
       "uk": "/ðiː/",
       "us": "/ðiː/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:once:adverb",
@@ -33,10 +34,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"once\" in English vocabulary."
+      "On one occasion or at a past time."
     ],
     "examples": [
-      "This is an example sentence using \"once\"."
+      "I visited Paris once many years ago."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -48,7 +49,8 @@
       "uk": "/wʌns/",
       "us": "/wʌns/"
     },
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "no_antonym": true
   },
   {
     "id": "en:that:adverb",
@@ -57,10 +59,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"that\" in English vocabulary."
+      "To a specific degree or extent."
     ],
     "examples": [
-      "This is an example sentence using \"that\"."
+      "The exam was not that difficult."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -72,7 +74,8 @@
       "uk": "/ðæt/",
       "us": "/ðæt/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:first:adverb",
@@ -81,10 +84,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"first\" in English vocabulary."
+      "Before all others in order or time."
     ],
     "examples": [
-      "This is an example sentence using \"first\"."
+      "First, wash your hands before eating."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -99,7 +102,10 @@
       "uk": "/fɜːst/",
       "us": "/fɝːst/"
     },
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "antonyms": [
+      "last"
+    ]
   },
   {
     "id": "en:future:adverb",
@@ -108,10 +114,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"future\" in English vocabulary."
+      "At a time that is yet to come."
     ],
     "examples": [
-      "This is an example sentence using \"future\"."
+      "She hopes to study law in the future."
     ],
     "domain": "general",
     "theme": "time",
@@ -120,7 +126,10 @@
       "uk": "/ˈfjuː.tʃər/",
       "us": "/ˈfjuː.tʃɚ/"
     },
-    "emoji": "🚀"
+    "emoji": "🚀",
+    "antonyms": [
+      "past"
+    ]
   },
   {
     "id": "en:past:adverb",
@@ -129,10 +138,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"past\" in English vocabulary."
+      "Relating to time before the present."
     ],
     "examples": [
-      "This is an example sentence using \"past\"."
+      "In the past, people traveled by horse."
     ],
     "domain": "general",
     "theme": "time",
@@ -141,7 +150,10 @@
       "uk": "/pɑːst/",
       "us": "/pæst/"
     },
-    "emoji": "📜"
+    "emoji": "📜",
+    "antonyms": [
+      "future"
+    ]
   },
   {
     "id": "en:later:adverb",
@@ -150,10 +162,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"later\" in English vocabulary."
+      "At a time after the present or expected."
     ],
     "examples": [
-      "This is an example sentence using \"later\"."
+      "See you later at the bus station."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -165,7 +177,10 @@
       "uk": "/ˈleɪ.tər/",
       "us": "/ˈleɪ.t̬ɚ/"
     },
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "antonyms": [
+      "earlier"
+    ]
   },
   {
     "id": "en:next:adverb",
@@ -174,10 +189,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"next\" in English vocabulary."
+      "Immediately following in time or order."
     ],
     "examples": [
-      "This is an example sentence using \"next\"."
+      "We will leave next Monday morning."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -189,7 +204,11 @@
       "uk": "/nekst/",
       "us": "/nekst/"
     },
-    "emoji": "➡️"
+    "emoji": "➡️",
+    "antonyms": [
+      "previous",
+      "last"
+    ]
   },
   {
     "id": "en:modern:adverb",
@@ -198,10 +217,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"modern\" in English vocabulary."
+      "Relating to present or recent times."
     ],
     "examples": [
-      "This is an example sentence using \"modern\"."
+      "Smartphones are essential in modern life."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -213,7 +232,11 @@
       "uk": "/ˈmɒd.ən/",
       "us": "/ˈmɑː.dɚn/"
     },
-    "emoji": "🏙️"
+    "emoji": "🏙️",
+    "antonyms": [
+      "ancient",
+      "traditional"
+    ]
   },
   {
     "id": "en:three:adverb",
@@ -222,10 +245,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"three\" in English vocabulary."
+      "The number 3 or three times."
     ],
     "examples": [
-      "This is an example sentence using \"three\"."
+      "The bell rang three times this morning."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -237,7 +260,8 @@
       "uk": "/θriː/",
       "us": "/θriː/"
     },
-    "emoji": "3️⃣"
+    "emoji": "3️⃣",
+    "no_antonym": true
   },
   {
     "id": "en:eventually:adverb",
@@ -246,10 +270,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"eventually\" in English vocabulary."
+      "In the end after a long time."
     ],
     "examples": [
-      "This is an example sentence using \"eventually\"."
+      "He eventually passed his driving test."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -261,7 +285,8 @@
       "uk": "/ɪˈven.tʃu.ə.li/",
       "us": "/ɪˈven.tʃu.ə.li/"
     },
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "no_antonym": true
   },
   {
     "id": "en:finally:adverb",
@@ -270,10 +295,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"finally\" in English vocabulary."
+      "After a long time or at the end."
     ],
     "examples": [
-      "This is an example sentence using \"finally\"."
+      "Finally, the long meeting came to end."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -285,7 +310,11 @@
       "uk": "/ˈfaɪ.nəl.i/",
       "us": "/ˈfaɪ.nəl.i/"
     },
-    "emoji": "🏁"
+    "emoji": "🏁",
+    "antonyms": [
+      "initially",
+      "at first"
+    ]
   },
   {
     "id": "en:suddenly:adverb",
@@ -294,10 +323,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"suddenly\" in English vocabulary."
+      "Quickly and unexpectedly without warning."
     ],
     "examples": [
-      "This is an example sentence using \"suddenly\"."
+      "Suddenly, the rain started pouring down."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -309,7 +338,8 @@
       "uk": "/ˈsʌd.ən.li/",
       "us": "/ˈsʌd.ən.li/"
     },
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "no_antonym": true
   },
   {
     "id": "en:immediately:adverb",
@@ -318,10 +348,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"immediately\" in English vocabulary."
+      "Without any delay or right away."
     ],
     "examples": [
-      "This is an example sentence using \"immediately\"."
+      "Please respond to this email immediately."
     ],
     "domain": "general",
     "theme": "time",
@@ -330,7 +360,11 @@
       "uk": "/ɪˈmiː.di.ət.li/",
       "us": "/ɪˈmiː.di.ət.li/"
     },
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "antonyms": [
+      "eventually",
+      "later"
+    ]
   },
   {
     "id": "en:meanwhile:adverb",
@@ -339,10 +373,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"meanwhile\" in English vocabulary."
+      "In the intervening period of time."
     ],
     "examples": [
-      "This is an example sentence using \"meanwhile\"."
+      "She cooked, meanwhile he set table."
     ],
     "domain": "general, spoken",
     "theme": "time",
@@ -354,7 +388,8 @@
       "uk": "/ˈmiːn.waɪl/",
       "us": "/ˈmiːn.waɪl/"
     },
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "no_antonym": true
   },
   {
     "id": "en:afterwards:adverb",
@@ -363,10 +398,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"afterwards\" in English vocabulary."
+      "At a later time after an event."
     ],
     "examples": [
-      "This is an example sentence using \"afterwards\"."
+      "We ate dinner and walked afterwards."
     ],
     "domain": "general",
     "theme": "time",
@@ -375,7 +410,10 @@
       "uk": "/ˈɑːf.tə.wədz/",
       "us": "/ˈæf.tɚ.wɚdz/"
     },
-    "emoji": "➡️"
+    "emoji": "➡️",
+    "antonyms": [
+      "beforehand"
+    ]
   },
   {
     "id": "en:recently:adverb",
@@ -384,10 +422,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"recently\" in English vocabulary."
+      "In the recent past or not long ago."
     ],
     "examples": [
-      "This is an example sentence using \"recently\"."
+      "I recently bought a new laptop computer."
     ],
     "domain": "general",
     "theme": "time",
@@ -396,7 +434,8 @@
       "uk": "/ˈriː.sənt.li/",
       "us": "/ˈriː.sənt.li/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "no_antonym": true
   },
   {
     "id": "en:lately:adverb",
@@ -405,10 +444,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"lately\" in English vocabulary."
+      "In the period of time just before now."
     ],
     "examples": [
-      "This is an example sentence using \"lately\"."
+      "He has been very busy lately at work."
     ],
     "domain": "general",
     "theme": "time",
@@ -417,7 +456,8 @@
       "uk": "/ˈleɪt.li/",
       "us": "/ˈleɪt.li/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "no_antonym": true
   },
   {
     "id": "en:nowadays:adverb",
@@ -426,10 +466,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"nowadays\" in English vocabulary."
+      "In the present time or modern era."
     ],
     "examples": [
-      "This is an example sentence using \"nowadays\"."
+      "Nowadays, most people use smartphones daily."
     ],
     "domain": "general",
     "theme": "time",
@@ -438,7 +478,10 @@
       "uk": "/ˈnaʊ.ə.deɪz/",
       "us": "/ˈnaʊ.ə.deɪz/"
     },
-    "emoji": "📅"
+    "emoji": "📅",
+    "antonyms": [
+      "in the past"
+    ]
   },
   {
     "id": "en:twice:adverb",
@@ -447,10 +490,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"twice\" in English vocabulary."
+      "Two times or on two occasions."
     ],
     "examples": [
-      "This is an example sentence using \"twice\"."
+      "Brush your teeth at least twice daily."
     ],
     "domain": "general",
     "theme": "time",
@@ -459,7 +502,8 @@
       "uk": "/twaɪs/",
       "us": "/twaɪs/"
     },
-    "emoji": "2️⃣"
+    "emoji": "2️⃣",
+    "no_antonym": true
   },
   {
     "id": "en:times:adverb",
@@ -468,10 +512,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"times\" in English vocabulary."
+      "Occasions or multiplied by a number."
     ],
     "examples": [
-      "This is an example sentence using \"times\"."
+      "I called him three times today."
     ],
     "domain": "general",
     "theme": "time",
@@ -480,7 +524,8 @@
       "uk": "/taɪmz/",
       "us": "/taɪmz/"
     },
-    "emoji": "✖️"
+    "emoji": "✖️",
+    "no_antonym": true
   },
   {
     "id": "en:rarely:adverb",
@@ -489,10 +534,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"rarely\" in English vocabulary."
+      "Not often or seldom in frequency."
     ],
     "examples": [
-      "This is an example sentence using \"rarely\"."
+      "She rarely eats fast food these days."
     ],
     "domain": "general",
     "theme": "time",
@@ -501,7 +546,11 @@
       "uk": "/ˈreə.li/",
       "us": "/ˈrer.li/"
     },
-    "emoji": "📉"
+    "emoji": "📉",
+    "antonyms": [
+      "frequently",
+      "often"
+    ]
   },
   {
     "id": "en:occasionally:adverb",
@@ -510,10 +559,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"occasionally\" in English vocabulary."
+      "Sometimes but not often or regularly."
     ],
     "examples": [
-      "This is an example sentence using \"occasionally\"."
+      "We occasionally eat out at restaurants."
     ],
     "domain": "general",
     "theme": "time",
@@ -522,7 +571,11 @@
       "uk": "/əˈkeɪ.ʒən.əl.i/",
       "us": "/əˈkeɪ.ʒən.əl.i/"
     },
-    "emoji": "📅"
+    "emoji": "📅",
+    "antonyms": [
+      "frequently",
+      "always"
+    ]
   },
   {
     "id": "en:regularly:adverb",
@@ -531,10 +584,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"regularly\" in English vocabulary."
+      "At uniform intervals or repeatedly."
     ],
     "examples": [
-      "This is an example sentence using \"regularly\"."
+      "Exercise regularly to stay healthy and fit."
     ],
     "domain": "general",
     "theme": "time",
@@ -543,7 +596,11 @@
       "uk": "/ˈreɡ.jə.lə.li/",
       "us": "/ˈreɡ.jə.lɚ.li/"
     },
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "antonyms": [
+      "irregularly",
+      "rarely"
+    ]
   },
   {
     "id": "en:century:adverb",
@@ -552,10 +609,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"century\" in English vocabulary."
+      "A period of one hundred years."
     ],
     "examples": [
-      "This is an example sentence using \"century\"."
+      "The castle was built in sixteenth century."
     ],
     "domain": "general",
     "theme": "time",
@@ -564,7 +621,8 @@
       "uk": "/ˈsen.tʃər.i/",
       "us": "/ˈsen.tʃɚ.i/"
     },
-    "emoji": "💯"
+    "emoji": "💯",
+    "no_antonym": true
   },
   {
     "id": "en:decade:adverb",
@@ -573,10 +631,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"decade\" in English vocabulary."
+      "A period of ten consecutive years."
     ],
     "examples": [
-      "This is an example sentence using \"decade\"."
+      "Technology changed rapidly in past decade."
     ],
     "domain": "general",
     "theme": "time",
@@ -585,7 +643,8 @@
       "uk": "/ˈdek.eɪd/",
       "us": "/ˈdek.eɪd/"
     },
-    "emoji": "🔟"
+    "emoji": "🔟",
+    "no_antonym": true
   },
   {
     "id": "en:recent:adverb",
@@ -594,10 +653,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"recent\" in English vocabulary."
+      "Having happened or been done lately."
     ],
     "examples": [
-      "This is an example sentence using \"recent\"."
+      "Read the recent news report online."
     ],
     "domain": "general",
     "theme": "time",
@@ -606,7 +665,11 @@
       "uk": "/ˈriː.sənt/",
       "us": "/ˈriː.sənt/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "antonyms": [
+      "old",
+      "distant"
+    ]
   },
   {
     "id": "en:period:adverb",
@@ -615,10 +678,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"period\" in English vocabulary."
+      "A length or portion of time."
     ],
     "examples": [
-      "This is an example sentence using \"period\"."
+      "They lived abroad for a short period."
     ],
     "domain": "general",
     "theme": "time",
@@ -627,7 +690,8 @@
       "uk": "/ˈpɪə.ri.əd/",
       "us": "/ˈpɪr.i.əd/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "no_antonym": true
   },
   {
     "id": "en:stage:adverb",
@@ -636,10 +700,10 @@
     "form": "adverb",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"stage\" in English vocabulary."
+      "A point or phase in a development."
     ],
     "examples": [
-      "This is an example sentence using \"stage\"."
+      "The project is in its final stage."
     ],
     "domain": "general",
     "theme": "time",
@@ -648,6 +712,7 @@
       "uk": "/steɪdʒ/",
       "us": "/steɪdʒ/"
     },
-    "emoji": "🎭"
+    "emoji": "🎭",
+    "no_antonym": true
   }
 ]

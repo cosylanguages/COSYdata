@@ -6,10 +6,10 @@
     "form": "adjective",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"organic\" in English vocabulary."
+      "Produced without the use of chemical fertilizers, pesticides, or artificial additives."
     ],
     "examples": [
-      "This is an example sentence using \"organic\"."
+      "Buying organic vegetables helps reduce exposure to synthetic chemical farm sprays."
     ],
     "domain": "general, spoken",
     "theme": "health",
@@ -21,7 +21,16 @@
       "uk": "/ɔːˈɡæn.ɪk/",
       "us": "/ɔːrˈɡæn.ɪk/"
     },
-    "emoji": "🌿"
+    "emoji": "🌿",
+    "synonyms": [
+      "natural",
+      "pesticide-free",
+      "additive-free"
+    ],
+    "antonyms": [
+      "inorganic",
+      "conventional"
+    ]
   },
   {
     "id": "en:processed:adjective",
@@ -30,10 +39,10 @@
     "form": "adjective",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"processed\" in English vocabulary."
+      "Food treated or prepared with chemical additives to change or preserve it."
     ],
     "examples": [
-      "This is an example sentence using \"processed\"."
+      "Eating too much highly processed food can cause long-term health issues."
     ],
     "domain": "general",
     "theme": "health",
@@ -42,7 +51,17 @@
       "uk": "/ˈprəʊ.sest/",
       "us": "/ˈprɑː.sest/"
     },
-    "emoji": "🥫"
+    "emoji": "🥫",
+    "synonyms": [
+      "refined",
+      "treated",
+      "manufactured"
+    ],
+    "antonyms": [
+      "unprocessed",
+      "raw",
+      "fresh"
+    ]
   },
   {
     "id": "en:additive:noun",
@@ -51,10 +70,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"additive\" in English vocabulary."
+      "A substance added to food in small quantities to improve or preserve."
     ],
     "examples": [
-      "This is an example sentence using \"additive\"."
+      "Check the ingredients label for artificial food additive chemical numbers before buying."
     ],
     "domain": "general",
     "theme": "health",
@@ -65,7 +84,13 @@
       "us": "/ˈæd.ə.t̬ɪv/"
     },
     "emoji": "🧪",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "supplement",
+      "chemical additive",
+      "ingredient"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:preservative:noun",
@@ -74,10 +99,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"preservative\" in English vocabulary."
+      "A substance used to preserve foodstuffs against decay, fungi, or bacteria."
     ],
     "examples": [
-      "This is an example sentence using \"preservative\"."
+      "Natural salt acts as a traditional preservative for curing meat products."
     ],
     "domain": "general",
     "theme": "health",
@@ -88,7 +113,12 @@
       "us": "/prɪˈzɝː.və.t̬ɪv/"
     },
     "emoji": "🧪",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "additive",
+      "conservant"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:calorie:noun",
@@ -97,10 +127,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"calorie\" in English vocabulary."
+      "A unit of energy derived from food and burned through physical activity."
     ],
     "examples": [
-      "This is an example sentence using \"calorie\"."
+      "Monitoring daily calorie intake helps people maintain or lose body weight."
     ],
     "domain": "general",
     "theme": "health",
@@ -111,7 +141,12 @@
       "us": "/ˈkæl.ɚ.i/"
     },
     "emoji": "🔥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "energy unit",
+      "kilocalorie"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:protein:noun",
@@ -120,10 +155,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"protein\" in English vocabulary."
+      "An essential nutrient found in meat, eggs, beans, and dairy products."
     ],
     "examples": [
-      "This is an example sentence using \"protein\"."
+      "Eating sufficient protein helps repair muscles after completing intensive physical exercise."
     ],
     "domain": "general",
     "theme": "health",
@@ -133,7 +168,12 @@
       "us": "/ˈproʊ.tiːn/"
     },
     "emoji": "🥩",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "polypeptide",
+      "nutrient"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:carbohydrate:noun",
@@ -142,10 +182,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"carbohydrate\" in English vocabulary."
+      "Nutrients like sugars and starches providing energy to the human body."
     ],
     "examples": [
-      "This is an example sentence using \"carbohydrate\"."
+      "Athletes eat foods rich in carbohydrate before competing in marathon races."
     ],
     "domain": "general",
     "theme": "health",
@@ -156,7 +196,13 @@
       "us": "/ˌkɑːr.boʊˈhaɪ.dreɪt/"
     },
     "emoji": "🍞",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "carb",
+      "saccharide",
+      "starch"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:fibre:noun",
@@ -165,10 +211,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"fibre\" in English vocabulary."
+      "Plant material in food that cannot be digested, aiding gut health."
     ],
     "examples": [
-      "This is an example sentence using \"fibre\"."
+      "Whole grain bread provides plenty of dietary fibre for healthy digestion."
     ],
     "domain": "general",
     "theme": "health",
@@ -178,7 +224,12 @@
       "us": "/ˈfaɪ.bɚ/"
     },
     "emoji": "🌾",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "fiber",
+      "roughage"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:fiber:noun",
@@ -187,10 +238,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"fiber\" in English vocabulary."
+      "Plant material in food that cannot be digested, aiding gut health."
     ],
     "examples": [
-      "This is an example sentence using \"fiber\"."
+      "Whole grain bread provides plenty of dietary fiber for healthy digestion."
     ],
     "domain": "general",
     "theme": "health",
@@ -200,7 +251,12 @@
       "us": "/ˈfaɪ.bɚ/"
     },
     "emoji": "🌾",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "fibre",
+      "roughage"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:cholesterol:noun",
@@ -209,10 +265,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"cholesterol\" in English vocabulary."
+      "A fatty substance found in blood and cell membranes of animals."
     ],
     "examples": [
-      "This is an example sentence using \"cholesterol\"."
+      "High blood cholesterol levels increase the risk of developing heart disease."
     ],
     "domain": "general",
     "theme": "health",
@@ -222,7 +278,12 @@
       "us": "/kəˈles.tɚ.oʊl/"
     },
     "emoji": "🫀",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "blood fat",
+      "lipid"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:overeat:verb",
@@ -231,10 +292,10 @@
     "form": "verb",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"overeat\" in English vocabulary."
+      "To eat excessive amounts of food beyond what your body needs."
     ],
     "examples": [
-      "This is an example sentence using \"overeat\"."
+      "People tend to overeat when watching television or feeling stressed emotionally."
     ],
     "domain": "general",
     "theme": "health",
@@ -243,7 +304,16 @@
       "uk": "/ˌəʊ.vərˈiːt/",
       "us": "/ˌoʊ.vɚˈiːt/"
     },
-    "emoji": "🍔"
+    "emoji": "🍔",
+    "synonyms": [
+      "gorge",
+      "binge",
+      "overindulge"
+    ],
+    "antonyms": [
+      "fast",
+      "starve"
+    ]
   },
   {
     "id": "en:malnutrition:noun",
@@ -252,10 +322,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"malnutrition\" in English vocabulary."
+      "Lack of proper nutrition caused by not eating enough or correct foods."
     ],
     "examples": [
-      "This is an example sentence using \"malnutrition\"."
+      "Severe drought in the region caused widespread malnutrition among rural children."
     ],
     "domain": "general",
     "theme": "health",
@@ -265,7 +335,15 @@
       "us": "/ˌmæl.nuːˈtrɪʃ.ən/"
     },
     "emoji": "⚠️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "undernourishment",
+      "poor diet"
+    ],
+    "antonyms": [
+      "nourishment",
+      "good nutrition"
+    ]
   },
   {
     "id": "en:poisoning:noun",
@@ -274,10 +352,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"poisoning\" in English vocabulary."
+      "Illness caused by eating food contaminated with toxic bacteria or poisons."
     ],
     "examples": [
-      "This is an example sentence using \"poisoning\"."
+      "Eating undercooked chicken caused severe food poisoning during their summer holiday."
     ],
     "domain": "general",
     "theme": "health",
@@ -287,7 +365,12 @@
       "us": "/ˈpɔɪ.zən.ɪŋ/"
     },
     "emoji": "🤢",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "toxicity",
+      "intoxication"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:allergic:adjective",
@@ -296,10 +379,10 @@
     "form": "adjective",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"allergic\" in English vocabulary."
+      "Having a medical condition causing adverse reaction when eating specific foods."
     ],
     "examples": [
-      "This is an example sentence using \"allergic\"."
+      "She is severely allergic to peanuts, so she carries emergency medicine."
     ],
     "domain": "general, spoken",
     "theme": "health",
@@ -311,7 +394,15 @@
       "uk": "/əˈlɜː.dʒɪk/",
       "us": "/əˈlɝː.dʒɪk/"
     },
-    "emoji": "⚠️"
+    "emoji": "⚠️",
+    "synonyms": [
+      "sensitive",
+      "hypersensitive"
+    ],
+    "antonyms": [
+      "tolerant",
+      "immune"
+    ]
   },
   {
     "id": "en:reaction:noun",
@@ -320,10 +411,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"reaction\" in English vocabulary."
+      "An adverse physical response caused by eating an allergen or drug."
     ],
     "examples": [
-      "This is an example sentence using \"reaction\"."
+      "He suffered an allergic reaction after eating soup containing hidden shellfish."
     ],
     "domain": "general",
     "theme": "health",
@@ -334,7 +425,13 @@
       "us": "/riˈæk.ʃən/"
     },
     "emoji": "💥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "response",
+      "side effect",
+      "reflex"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:intolerance:noun",
@@ -343,10 +440,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"intolerance\" in English vocabulary."
+      "An inability to eat certain foods without suffering physical discomfort or illness."
     ],
     "examples": [
-      "This is an example sentence using \"intolerance\"."
+      "Her lactose intolerance means she avoids drinking fresh cow milk daily."
     ],
     "domain": "general",
     "theme": "health",
@@ -356,7 +453,14 @@
       "us": "/ɪnˈtɑː.lɚ.əns/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "sensitivity",
+      "inability to digest"
+    ],
+    "antonyms": [
+      "tolerance"
+    ]
   },
   {
     "id": "en:fasting:noun",
@@ -365,10 +469,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"fasting\" in English vocabulary."
+      "Abstaining from all or certain foods and drinks for a period."
     ],
     "examples": [
-      "This is an example sentence using \"fasting\"."
+      "Intermittent fasting has become a popular method for managing body weight."
     ],
     "domain": "general",
     "theme": "health",
@@ -378,7 +482,15 @@
       "us": "/ˈfæs.tɪŋ/"
     },
     "emoji": "⏳",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "starving",
+      "abstinence from food"
+    ],
+    "antonyms": [
+      "feasting",
+      "gorging"
+    ]
   },
   {
     "id": "en:supplement:noun",
@@ -387,10 +499,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"supplement\" in English vocabulary."
+      "A pill or powder taken to add extra nutrients to diet."
     ],
     "examples": [
-      "This is an example sentence using \"supplement\"."
+      "She takes a daily vitamin D supplement during dark winter months."
     ],
     "domain": "general",
     "theme": "health",
@@ -401,7 +513,13 @@
       "us": "/ˈsʌp.lə.mənt/"
     },
     "emoji": "💊",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "additive",
+      "booster",
+      "addition"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:metabolism:noun",
@@ -410,10 +528,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"metabolism\" in English vocabulary."
+      "The chemical processes in organisms that convert food into bodily energy."
     ],
     "examples": [
-      "This is an example sentence using \"metabolism\"."
+      "Regular exercise speeds up your metabolism and burns calories more efficiently."
     ],
     "domain": "general",
     "theme": "health",
@@ -423,7 +541,12 @@
       "us": "/məˈtæb.əl.ɪ.zəm/"
     },
     "emoji": "⚡",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "metabolic rate",
+      "energy processing"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:digestion:noun",
@@ -432,10 +555,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"digestion\" in English vocabulary."
+      "The bodily process of breaking down food into substances absorbed easily."
     ],
     "examples": [
-      "This is an example sentence using \"digestion\"."
+      "Drinking plenty of water throughout the day aids healthy stomach digestion."
     ],
     "domain": "general",
     "theme": "health",
@@ -445,7 +568,12 @@
       "us": "/daɪˈdʒes.tʃən/"
     },
     "emoji": "🩺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "breakdown of food",
+      "assimilation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:hydration:noun",
@@ -454,10 +582,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"hydration\" in English vocabulary."
+      "The process of absorbing water into the body to maintain health."
     ],
     "examples": [
-      "This is an example sentence using \"hydration\"."
+      "Proper hydration is essential when exercising outdoors under hot summer weather."
     ],
     "domain": "general",
     "theme": "health",
@@ -467,7 +595,14 @@
       "us": "/haɪˈdreɪ.ʃən/"
     },
     "emoji": "💧",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "fluid intake",
+      "moisturization"
+    ],
+    "antonyms": [
+      "dehydration"
+    ]
   },
   {
     "id": "en:moderation:noun",
@@ -476,10 +611,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"moderation\" in English vocabulary."
+      "The avoidance of excess or extremes, especially in eating habits."
     ],
     "examples": [
-      "This is an example sentence using \"moderation\"."
+      "You can enjoy sweet desserts occasionally if you eat them in moderation."
     ],
     "domain": "general",
     "theme": "health",
@@ -489,7 +624,16 @@
       "us": "/ˌmɑː.dəˈreɪ.ʃən/"
     },
     "emoji": "⚖️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "restraint",
+      "temperance",
+      "balance"
+    ],
+    "antonyms": [
+      "excess",
+      "immoderation"
+    ]
   },
   {
     "id": "en:craving:noun",
@@ -498,10 +642,10 @@
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "B1 entry for \"craving\" in English vocabulary."
+      "A powerful, intense, or irresistible desire for a specific food type."
     ],
     "examples": [
-      "This is an example sentence using \"craving\"."
+      "She experienced a strong craving for chocolate late last night."
     ],
     "domain": "general",
     "theme": "health",
@@ -512,6 +656,15 @@
       "us": "/ˈkreɪ.vɪŋ/"
     },
     "emoji": "🍫",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "urge",
+      "desire",
+      "longing"
+    ],
+    "antonyms": [
+      "aversion",
+      "dislike"
+    ]
   }
 ]

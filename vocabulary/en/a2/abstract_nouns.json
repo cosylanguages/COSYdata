@@ -6,10 +6,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"purpose\" in English vocabulary."
+      "The reason why you do something or why something exists."
     ],
     "examples": [
-      "This is an example sentence using \"purpose\"."
+      "Her main purpose was to learn English."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -23,7 +23,8 @@
       "us": "/ˈpɝː.pəs/"
     },
     "emoji": "🎯",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:society:noun",
@@ -32,10 +33,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"society\" in English vocabulary."
+      "A large group of people living together in an organized way."
     ],
     "examples": [
-      "This is an example sentence using \"society\"."
+      "Technology changes how people live in society."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -53,7 +54,8 @@
       "us": "/səˈsaɪ.ə.t̬i/"
     },
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:community:noun",
@@ -62,10 +64,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"community\" in English vocabulary."
+      "The people who live in a particular area or share interests."
     ],
     "examples": [
-      "This is an example sentence using \"community\"."
+      "Our local community built a new park."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -83,7 +85,8 @@
       "us": "/kəˈmjuː.nə.t̬i/"
     },
     "emoji": "🏘️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:rights:noun",
@@ -92,10 +95,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"rights\" in English vocabulary."
+      "Legal or moral permissions that every person should have."
     ],
     "examples": [
-      "This is an example sentence using \"rights\"."
+      "Workers fought to protect their basic rights."
     ],
     "domain": "general",
     "theme": "general",
@@ -110,7 +113,8 @@
       "us": "/raɪts/"
     },
     "emoji": "⚖️",
-    "singular_workaround": "a right"
+    "singular_workaround": "a right",
+    "no_antonym": true
   },
   {
     "id": "en:identity:noun",
@@ -119,10 +123,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"identity\" in English vocabulary."
+      "Who a person is or the qualities that make them unique."
     ],
     "examples": [
-      "This is an example sentence using \"identity\"."
+      "She kept her identity secret for years."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -142,7 +146,8 @@
       "us": "/aɪˈden.t̬ə.t̬i/"
     },
     "emoji": "🪪",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:result:noun",
@@ -151,10 +156,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"result\" in English vocabulary."
+      "Something that happens because of an action or event."
     ],
     "examples": [
-      "This is an example sentence using \"result\"."
+      "He was very happy with his test result."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -168,7 +173,10 @@
       "us": "/rɪˈzʌlt/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:cause:noun",
@@ -177,10 +185,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"cause\" in English vocabulary."
+      "A person, event, or thing that makes something happen."
     ],
     "examples": [
-      "This is an example sentence using \"cause\"."
+      "Heavy rain was the main cause of flooding."
     ],
     "domain": "general",
     "theme": "general",
@@ -191,7 +199,11 @@
       "us": "/kɑːz/"
     },
     "emoji": "🌱",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "effect",
+      "result"
+    ]
   },
   {
     "id": "en:consequence:noun",
@@ -200,10 +212,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"consequence\" in English vocabulary."
+      "A result of a particular action, especially a bad one."
     ],
     "examples": [
-      "This is an example sentence using \"consequence\"."
+      "Losing his job was a direct consequence."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -221,7 +233,10 @@
       "us": "/ˈkɑːn.sə.kwəns/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:effect:noun",
@@ -230,10 +245,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"effect\" in English vocabulary."
+      "A change that is produced by an action or another cause."
     ],
     "examples": [
-      "This is an example sentence using \"effect\"."
+      "The new law had a positive effect."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -252,7 +267,10 @@
       "us": "/əˈfekt/"
     },
     "emoji": "⚡",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:behaviour:noun",
@@ -261,10 +279,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"behaviour\" in English vocabulary."
+      "The way a person or animal acts in different situations."
     ],
     "examples": [
-      "This is an example sentence using \"behaviour\"."
+      "His bad behaviour upset the whole class."
     ],
     "domain": "general",
     "theme": "general",
@@ -278,7 +296,8 @@
       "us": "/bɪˈheɪ.vjɚ/"
     },
     "emoji": "🧑",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:behavior:noun",
@@ -287,10 +306,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"behavior\" in English vocabulary."
+      "The way a person or animal acts in different situations."
     ],
     "examples": [
-      "This is an example sentence using \"behavior\"."
+      "Good behavior is expected in the classroom."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -307,7 +326,8 @@
       "us": "/bɪˈheɪ.vjɚ/"
     },
     "emoji": "🧑",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:population:noun",
@@ -316,10 +336,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"population\" in English vocabulary."
+      "All the people living in a particular town or country."
     ],
     "examples": [
-      "This is an example sentence using \"population\"."
+      "The city population grew fast last year."
     ],
     "domain": "general",
     "theme": "general",
@@ -330,7 +350,8 @@
       "us": "/ˌpɑː.pjəˈleɪ.ʃən/"
     },
     "emoji": "👨‍👩‍👧‍👦",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:government:noun",
@@ -339,10 +360,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"government\" in English vocabulary."
+      "The group of people who officially rule a country."
     ],
     "examples": [
-      "This is an example sentence using \"government\"."
+      "The government announced a new tax plan."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -360,7 +381,8 @@
       "us": "/ˈɡʌv.ɚn.mənt/"
     },
     "emoji": "🏛️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:industry:noun",
@@ -369,10 +391,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"industry\" in English vocabulary."
+      "The production of goods or services in factories and businesses."
     ],
     "examples": [
-      "This is an example sentence using \"industry\"."
+      "Tourism is an important industry in Spain."
     ],
     "domain": "general",
     "theme": "general",
@@ -387,7 +409,8 @@
       "us": "/ˈɪn.də.stri/"
     },
     "emoji": "🏭",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:economy:noun",
@@ -396,10 +419,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"economy\" in English vocabulary."
+      "The system of trade, industry, and money in a country."
     ],
     "examples": [
-      "This is an example sentence using \"economy\"."
+      "The local economy improved after the festival."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -418,7 +441,8 @@
       "us": "/ɪˈkɑː.nə.mi/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:success:noun",
@@ -427,10 +451,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"success\" in English vocabulary."
+      "The achieving of a desired result or goal."
     ],
     "examples": [
-      "This is an example sentence using \"success\"."
+      "Her new business was a great success."
     ],
     "domain": "general",
     "theme": "general",
@@ -441,7 +465,10 @@
       "uk": "/səkˈses/",
       "us": "/səkˈses/"
     },
-    "emoji": "🏆"
+    "emoji": "🏆",
+    "antonyms": [
+      "failure"
+    ]
   },
   {
     "id": "en:failure:noun",
@@ -450,10 +477,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"failure\" in English vocabulary."
+      "A lack of success in doing or achieving something."
     ],
     "examples": [
-      "This is an example sentence using \"failure\"."
+      "The project ended in total failure yesterday."
     ],
     "domain": "general",
     "theme": "general",
@@ -468,7 +495,10 @@
       "us": "/ˈfeɪ.ljɚ/"
     },
     "emoji": "❌",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "success"
+    ]
   },
   {
     "id": "en:advantage:noun",
@@ -477,10 +507,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"advantage\" in English vocabulary."
+      "A condition or quality that puts someone in a better position."
     ],
     "examples": [
-      "This is an example sentence using \"advantage\"."
+      "Speaking two languages gives you an advantage."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -498,7 +528,10 @@
       "us": "/ədˈvæn.t̬ɪdʒ/"
     },
     "emoji": "👍",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "disadvantage"
+    ]
   },
   {
     "id": "en:disadvantage:noun",
@@ -507,10 +540,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"disadvantage\" in English vocabulary."
+      "A condition or problem that causes difficulty or lowers success."
     ],
     "examples": [
-      "This is an example sentence using \"disadvantage\"."
+      "Living far away is a major disadvantage."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -524,7 +557,10 @@
       "us": "/ˌdɪs.ədˈvæn.t̬ɪdʒ/"
     },
     "emoji": "👎",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "advantage"
+    ]
   },
   {
     "id": "en:achievement:noun",
@@ -533,10 +569,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"achievement\" in English vocabulary."
+      "Something good and impressive that you succeed in doing."
     ],
     "examples": [
-      "This is an example sentence using \"achievement\"."
+      "Winning the prize was an amazing achievement."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -550,7 +586,10 @@
       "us": "/əˈtʃiːv.mənt/"
     },
     "emoji": "🏆",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "failure"
+    ]
   },
   {
     "id": "en:goal:noun",
@@ -559,10 +598,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"goal\" in English vocabulary."
+      "An aim or target that you hope to achieve."
     ],
     "examples": [
-      "This is an example sentence using \"goal\"."
+      "My main goal is to buy a house."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -579,7 +618,8 @@
       "us": "/ɡoʊl/"
     },
     "emoji": "🎯",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:target:noun",
@@ -588,10 +628,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"target\" in English vocabulary."
+      "A specific result or level that you try to reach."
     ],
     "examples": [
-      "This is an example sentence using \"target\"."
+      "They reached their sales target this month."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -605,7 +645,8 @@
       "us": "/ˈtɑːr.ɡɪt/"
     },
     "emoji": "🎯",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:challenge:noun",
@@ -614,10 +655,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"challenge\" in English vocabulary."
+      "A new or difficult task that tests your ability."
     ],
     "examples": [
-      "This is an example sentence using \"challenge\"."
+      "Learning a new language is a challenge."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -631,7 +672,8 @@
       "us": "/ˈtʃæl.ɪndʒ/"
     },
     "emoji": "🧗",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:opportunity:noun",
@@ -640,10 +682,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"opportunity\" in English vocabulary."
+      "A time or situation that makes it possible to do something."
     ],
     "examples": [
-      "This is an example sentence using \"opportunity\"."
+      "She got an opportunity to work abroad."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -657,7 +699,8 @@
       "us": "/ˌɑː.pɚˈtuː.nə.t̬i/"
     },
     "emoji": "🚪",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:issue:noun",
@@ -666,10 +709,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"issue\" in English vocabulary."
+      "An important subject or problem that people discuss."
     ],
     "examples": [
-      "This is an example sentence using \"issue\"."
+      "Traffic congestion is a big urban issue."
     ],
     "domain": "general",
     "theme": "general",
@@ -684,7 +727,8 @@
       "us": "/ˈɪs.juː/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:matter:noun",
@@ -693,10 +737,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"matter\" in English vocabulary."
+      "A subject or situation that needs to be considered or handled."
     ],
     "examples": [
-      "This is an example sentence using \"matter\"."
+      "We need to discuss this private matter."
     ],
     "domain": "general",
     "theme": "general",
@@ -711,7 +755,8 @@
       "us": "/ˈmæt̬.ɚ/"
     },
     "emoji": "📌",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:situation:noun",
@@ -720,10 +765,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"situation\" in English vocabulary."
+      "The set of conditions and events happening at a particular time."
     ],
     "examples": [
-      "This is an example sentence using \"situation\"."
+      "The police arrived to handle the situation."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -737,7 +782,8 @@
       "us": "/ˌsɪtʃ.uˈeɪ.ʃən/"
     },
     "emoji": "📍",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:condition:noun",
@@ -746,10 +792,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"condition\" in English vocabulary."
+      "The state that something or someone is in at a time."
     ],
     "examples": [
-      "This is an example sentence using \"condition\"."
+      "The old car was in excellent condition."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -767,7 +813,8 @@
       "us": "/kənˈdɪʃ.ən/"
     },
     "emoji": "📋",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:circumstance:noun",
@@ -776,10 +823,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"circumstance\" in English vocabulary."
+      "A fact or detail connected with an event or action."
     ],
     "examples": [
-      "This is an example sentence using \"circumstance\"."
+      "Due to bad circumstance, the train stopped."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -793,7 +840,8 @@
       "us": "/ˈsɝː.kəm.stæns/"
     },
     "emoji": "🌐",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:attitude:noun",
@@ -802,10 +850,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"attitude\" in English vocabulary."
+      "The feeling or opinion that you have about something."
     ],
     "examples": [
-      "This is an example sentence using \"attitude\"."
+      "She has a very positive attitude toward work."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -823,7 +871,8 @@
       "us": "/ˈæt̬.ə.tuːd/"
     },
     "emoji": "💭",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:habit:noun",
@@ -832,10 +881,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"habit\" in English vocabulary."
+      "Something that you do regularly and repeatedly without thinking."
     ],
     "examples": [
-      "This is an example sentence using \"habit\"."
+      "Drinking morning coffee is my daily habit."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -853,7 +902,8 @@
       "us": "/ˈhæb.ɪt/"
     },
     "emoji": "🔄",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:lifestyle:noun",
@@ -862,10 +912,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"lifestyle\" in English vocabulary."
+      "The way in which a person or group of people lives."
     ],
     "examples": [
-      "This is an example sentence using \"lifestyle\"."
+      "They enjoy an active and healthy lifestyle."
     ],
     "domain": "general",
     "theme": "general",
@@ -880,7 +930,8 @@
       "us": "/ˈlaɪf.staɪl/"
     },
     "emoji": "🧘",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:personality:noun",
@@ -889,10 +940,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"personality\" in English vocabulary."
+      "The combination of qualities that form a person's character."
     ],
     "examples": [
-      "This is an example sentence using \"personality\"."
+      "He has a friendly and outgoing personality."
     ],
     "domain": "general",
     "theme": "general",
@@ -903,7 +954,8 @@
       "us": "/ˌpɝː.sənˈæl.ə.t̬i/"
     },
     "emoji": "😊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:freedom:noun",
@@ -912,10 +964,10 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "A2 entry for \"freedom\" in English vocabulary."
+      "The power or right to act, speak, or think freely."
     ],
     "examples": [
-      "This is an example sentence using \"freedom\"."
+      "Birds represent freedom to many different cultures."
     ],
     "domain": "general, spoken",
     "theme": "general",
@@ -928,6 +980,10 @@
       "us": "/ˈfriː.dəm/"
     },
     "emoji": "🕊️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "slavery",
+      "restriction"
+    ]
   }
 ]
