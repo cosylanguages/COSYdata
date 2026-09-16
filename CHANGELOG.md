@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Added B1-register synonyms and antonyms across all 1,354 vocabulary entries in `vocabulary/en/b1/` across 40 theme files:
+  - **Synonyms**: Added 3,229 synonyms across all 1,354 B1 entries (1–3 terms per entry appropriate to B1 level, using plainer phrases/idioms for collocations and expressions).
+  - **Antonyms**: Added 1,179 genuine antonyms across 710 entries; applied `no_antonym: true` waivers to 644 entries representing idioms, collocations, or unique concepts with no direct opposite.
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
   - **Transcriptions**: Converted all 1,361 entries to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard learner dictionaries (RP for UK, General American for US), including full phrase transcriptions for multi-word entries.
   - **Emoji & Symbols**: Assigned representative emojis, directional/preposition Unicode symbols, or 2-unit logical combinations across 1,322 entries; set `no_emoji: true` for 39 purely abstract or function/connector words.
