@@ -102,9 +102,7 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
 - **`word`** *(string)*: The canonical word or term.
 - **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `es`, `fr`).
 - **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`).
-- **`transcription`** *(object)*: Phonetic IPA transcription object required for every entry at every level. Must contain two required string properties:
-  - **`uk`** *(string)*: British English (RP) IPA transcription. Listed first as the convention throughout this dataset.
-  - **`us`** *(string)*: American English (General American) IPA transcription.
+- **`transcription`** *(string)*: Primary or neutral IPA phonetic transcription string required for every entry at every level (e.g. `"/kæt/"`).
 - **`emoji`** *(string)*: Representative emoji or short emoji sequence. Required for every entry at every level (unless waived by `no_emoji: true`).
 - **`antonyms`** *(string[])*: Array of antonym word IDs or terms (minimum 1 item). Required for every entry at every level (unless waived by `no_antonym: true`).
 
@@ -124,6 +122,9 @@ Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined
   - **`superlative`** *(string)*: Superlative form (e.g. `healthiest`).
 
 ### Optional & Escape Hatch Fields
+- **`transcription_variants`** *(object)*: Optional map of dialect-specific IPA pronunciation variants. Supported keys are a subset of `["uk", "us", "ca", "au", "nz"]` (e.g. `{ "us": "/ˈweð.ɚ/" }`). Omitted when pronunciations are identical to primary `transcription`.
+- **`region`** *(string[])*: Optional array marking regions where this specific word or spelling is preferred. Items are a subset of `["UK", "US", "CA", "AU", "NZ"]` (e.g. `["UK", "AU"]`).
+- **`regional_equivalents`** *(string[])*: Optional array of vocabulary IDs pointing to equivalent words used in other regions (e.g. `["en:apartment:noun"]`).
 - **`level`** *(string)*: Primary CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
 - **`levels`** *(string[])*: Array of all CEFR levels this word entry appears at across merged source entries (e.g. `["B1", "B2"]`).
 - **`no_emoji`** *(boolean)*: When `true`, waives the required `emoji` constraint for entries with no sensible single-emoji representation (e.g. highly abstract or formal words).

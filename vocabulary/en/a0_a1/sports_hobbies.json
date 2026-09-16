@@ -20,10 +20,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/luːz/",
-      "us": "/luːz/"
-    },
+    "transcription": "/luːz/",
     "emoji": "💔",
     "antonyms": [
       "win"
@@ -48,10 +45,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/pleɪ/",
-      "us": "/pleɪ/"
-    },
+    "transcription": "/pleɪ/",
     "emoji": "🎮",
     "antonyms": [
       "work"
@@ -81,10 +75,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/veɪˈkeɪ.ʃən/",
-      "us": "/veɪˈkeɪ.ʃən/"
-    },
+    "transcription": "/veɪˈkeɪ.ʃən/",
     "no_antonym": true,
     "emoji": "🏖️",
     "countability": "countable"
@@ -111,12 +102,12 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/skɔː/",
-      "us": "/skɔːr/"
-    },
+    "transcription": "/skɔː/",
     "no_antonym": true,
-    "emoji": "⚽"
+    "emoji": "⚽",
+    "transcription_variants": {
+      "us": "/skɔːr/"
+    }
   },
   {
     "id": "en:game:noun",
@@ -141,10 +132,7 @@
       "A1",
       "C2"
     ],
-    "transcription": {
-      "uk": "/ɡeɪm/",
-      "us": "/ɡeɪm/"
-    },
+    "transcription": "/ɡeɪm/",
     "no_antonym": true,
     "emoji": "🎮",
     "countability": "countable"
@@ -169,13 +157,13 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ˈpɑː.ti/",
-      "us": "/ˈpɑːr.t̬i/"
-    },
+    "transcription": "/ˈpɑː.ti/",
     "no_antonym": true,
     "emoji": "🎉",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈpɑːr.t̬i/"
+    }
   },
   {
     "id": "en:paint:noun",
@@ -192,10 +180,7 @@
     "domain": "general",
     "theme": "leisure",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/peɪnt/",
-      "us": "/peɪnt/"
-    },
+    "transcription": "/peɪnt/",
     "no_antonym": true,
     "emoji": "🎨",
     "countability": "uncountable"
@@ -219,13 +204,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/spɔːt/",
-      "us": "/spɔːrt/"
-    },
+    "transcription": "/spɔːt/",
     "no_antonym": true,
     "emoji": "⚽",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/spɔːrt/"
+    }
   },
   {
     "id": "en:sports:noun",
@@ -243,13 +228,13 @@
     "theme": "leisure",
     "updated": "2025-01-15",
     "countability": "countable",
-    "transcription": {
-      "uk": "/spɔːts/",
-      "us": "/spɔːrts/"
-    },
+    "transcription": "/spɔːts/",
     "no_antonym": true,
     "emoji": "⚽",
-    "plural_form": "sports"
+    "plural_form": "sports",
+    "transcription_variants": {
+      "us": "/spɔːrts/"
+    }
   },
   {
     "id": "en:football:noun",
@@ -269,13 +254,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈfʊt.bɔːl/",
-      "us": "/ˈfʊt.bɑːl/"
-    },
+    "transcription": "/ˈfʊt.bɔːl/",
     "no_antonym": true,
     "emoji": "⚽",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ˈfʊt.bɑːl/"
+    }
   },
   {
     "id": "en:soccer:noun",
@@ -295,13 +280,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsɒk.ə/",
-      "us": "/ˈsɑː.kɚ/"
-    },
+    "transcription": "/ˈsɒk.ə/",
     "no_antonym": true,
     "emoji": "⚽",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ˈsɑː.kɚ/"
+    }
   },
   {
     "id": "en:basketball:noun",
@@ -321,13 +306,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈbɑː.skɪt.bɔːl/",
-      "us": "/ˈbæs.kət.bɑːl/"
-    },
+    "transcription": "/ˈbɑː.skɪt.bɔːl/",
     "no_antonym": true,
     "emoji": "🏀",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ˈbæs.kət.bɑːl/"
+    }
   },
   {
     "id": "en:tennis:noun",
@@ -348,10 +333,7 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ˈten.ɪs/",
-      "us": "/ˈten.ɪs/"
-    },
+    "transcription": "/ˈten.ɪs/",
     "no_antonym": true,
     "emoji": "🎾"
   },
@@ -373,10 +355,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈswɪm.ɪŋ/",
-      "us": "/ˈswɪm.ɪŋ/"
-    },
+    "transcription": "/ˈswɪm.ɪŋ/",
     "no_antonym": true,
     "emoji": "🏊",
     "countability": "uncountable"
@@ -399,10 +378,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈrʌn.ɪŋ/",
-      "us": "/ˈrʌn.ɪŋ/"
-    },
+    "transcription": "/ˈrʌn.ɪŋ/",
     "no_antonym": true,
     "emoji": "🏃",
     "countability": "uncountable"
@@ -423,10 +399,7 @@
     "theme": "leisure",
     "updated": "2025-01-15",
     "countability": "countable",
-    "transcription": {
-      "uk": "/ɡeɪmz/",
-      "us": "/ɡeɪmz/"
-    },
+    "transcription": "/ɡeɪmz/",
     "no_antonym": true,
     "emoji": "🎮",
     "plural_form": "games"
@@ -450,13 +423,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈpleɪ.ə/",
-      "us": "/ˈpleɪ.ɚ/"
-    },
+    "transcription": "/ˈpleɪ.ə/",
     "no_antonym": true,
     "emoji": "🏃",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈpleɪ.ɚ/"
+    }
   },
   {
     "id": "en:win:verb",
@@ -476,10 +449,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/wɪn/",
-      "us": "/wɪn/"
-    },
+    "transcription": "/wɪn/",
     "emoji": "🏆",
     "antonyms": [
       "lose"
@@ -501,13 +471,13 @@
     "theme": "leisure",
     "updated": "2025-01-15",
     "plural_form": "songs",
-    "transcription": {
-      "uk": "/sɒŋ/",
-      "us": "/sɑːŋ/"
-    },
+    "transcription": "/sɒŋ/",
     "no_antonym": true,
     "emoji": "🎵",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/sɑːŋ/"
+    }
   },
   {
     "id": "en:sing:noun",
@@ -527,10 +497,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/sɪŋ/",
-      "us": "/sɪŋ/"
-    },
+    "transcription": "/sɪŋ/",
     "no_antonym": true,
     "emoji": "🎤",
     "countability": "uncountable"
@@ -554,13 +521,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/dɑːns/",
-      "us": "/dæns/"
-    },
+    "transcription": "/dɑːns/",
     "no_antonym": true,
     "emoji": "💃",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/dæns/"
+    }
   },
   {
     "id": "en:dancing:noun",
@@ -580,13 +547,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈdɑːn.sɪŋ/",
-      "us": "/ˈdæn.sɪŋ/"
-    },
+    "transcription": "/ˈdɑːn.sɪŋ/",
     "no_antonym": true,
     "emoji": "💃",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ˈdæn.sɪŋ/"
+    }
   },
   {
     "id": "en:reading:noun",
@@ -606,10 +573,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈriː.dɪŋ/",
-      "us": "/ˈriː.dɪŋ/"
-    },
+    "transcription": "/ˈriː.dɪŋ/",
     "no_antonym": true,
     "emoji": "📖",
     "countability": "uncountable"
@@ -630,10 +594,7 @@
     "theme": "leisure",
     "updated": "2025-01-15",
     "plural_form": "movies",
-    "transcription": {
-      "uk": "/ˈmuː.vi/",
-      "us": "/ˈmuː.vi/"
-    },
+    "transcription": "/ˈmuː.vi/",
     "no_antonym": true,
     "emoji": "🍿",
     "countability": "countable"
@@ -654,10 +615,7 @@
     "theme": "leisure",
     "updated": "2025-01-15",
     "plural_form": "films",
-    "transcription": {
-      "uk": "/fɪlm/",
-      "us": "/fɪlm/"
-    },
+    "transcription": "/fɪlm/",
     "no_antonym": true,
     "emoji": "🎬",
     "countability": "countable"
@@ -680,13 +638,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/fəˈtɒɡ.rə.fi/",
-      "us": "/fəˈtɑː.ɡrə.fi/"
-    },
+    "transcription": "/fəˈtɒɡ.rə.fi/",
     "no_antonym": true,
     "emoji": "📷",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/fəˈtɑː.ɡrə.fi/"
+    }
   },
   {
     "id": "en:gardening:noun",
@@ -706,13 +664,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈɡɑː.dən.ɪŋ/",
-      "us": "/ˈɡɑːr.dən.ɪŋ/"
-    },
+    "transcription": "/ˈɡɑː.dən.ɪŋ/",
     "no_antonym": true,
     "emoji": "🪴",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ˈɡɑːr.dən.ɪŋ/"
+    }
   },
   {
     "id": "en:cooking:noun",
@@ -732,10 +690,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈkʊk.ɪŋ/",
-      "us": "/ˈkʊk.ɪŋ/"
-    },
+    "transcription": "/ˈkʊk.ɪŋ/",
     "no_antonym": true,
     "emoji": "🍳",
     "countability": "uncountable"
@@ -759,13 +714,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈhɒb.i/",
-      "us": "/ˈhɑː.bi/"
-    },
+    "transcription": "/ˈhɒb.i/",
     "no_antonym": true,
     "emoji": "🎨",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈhɑː.bi/"
+    }
   },
   {
     "id": "en:fun:noun",
@@ -783,10 +738,7 @@
     "theme": "leisure",
     "updated": "2025-01-15",
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/fʌn/",
-      "us": "/fʌn/"
-    },
+    "transcription": "/fʌn/",
     "emoji": "🎉",
     "antonyms": [
       "boredom"
@@ -811,10 +763,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈsɪŋ.ɪŋ/",
-      "us": "/ˈsɪŋ.ɪŋ/"
-    },
+    "transcription": "/ˈsɪŋ.ɪŋ/",
     "no_antonym": true,
     "emoji": "🎤",
     "countability": "uncountable"
@@ -838,10 +787,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈtræv.əl.ɪŋ/",
-      "us": "/ˈtræv.əl.ɪŋ/"
-    },
+    "transcription": "/ˈtræv.əl.ɪŋ/",
     "no_antonym": true,
     "emoji": "🧳",
     "countability": "uncountable"
@@ -865,10 +811,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈɡeɪ.mɪŋ/",
-      "us": "/ˈɡeɪ.mɪŋ/"
-    },
+    "transcription": "/ˈɡeɪ.mɪŋ/",
     "no_antonym": true,
     "emoji": "🎮",
     "countability": "uncountable"
@@ -893,10 +836,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "races",
-    "transcription": {
-      "uk": "/reɪs/",
-      "us": "/reɪs/"
-    },
+    "transcription": "/reɪs/",
     "no_antonym": true,
     "emoji": "🏁",
     "countability": "countable"

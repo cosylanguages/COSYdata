@@ -15,17 +15,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "researchers",
-    "transcription": {
-      "uk": "/rɪˈsɜː.tʃə/",
-      "us": "/ˈriː.sɝː.tʃɚ/"
-    },
+    "transcription": "/rɪˈsɜː.tʃə/",
     "emoji": "🔬",
     "countability": "countable",
     "synonyms": [
       "investigator",
       "scientist"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈriː.sɝː.tʃɚ/"
+    }
   },
   {
     "id": "en:experiment:verb",
@@ -42,16 +42,16 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪkˈsper.ɪ.mənt/",
-      "us": "/ɪkˈsper.ə.mənt/"
-    },
+    "transcription": "/ɪkˈsper.ɪ.mənt/",
     "emoji": "🧪",
     "synonyms": [
       "test",
       "try out"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ɪkˈsper.ə.mənt/"
+    }
   },
   {
     "id": "en:discover:verb",
@@ -68,10 +68,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/dɪˈskʌv.ə/",
-      "us": "/dɪˈskʌv.ɚ/"
-    },
+    "transcription": "/dɪˈskʌv.ə/",
     "emoji": "🔍",
     "synonyms": [
       "find",
@@ -80,7 +77,10 @@
     "antonyms": [
       "hide",
       "conceal"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/dɪˈskʌv.ɚ/"
+    }
   },
   {
     "id": "en:discovery:noun",
@@ -98,17 +98,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "discoveries",
-    "transcription": {
-      "uk": "/dɪˈskʌv.ər.i/",
-      "us": "/dɪˈskʌv.ɚ.i/"
-    },
+    "transcription": "/dɪˈskʌv.ər.i/",
     "emoji": "🔍",
     "countability": "countable",
     "synonyms": [
       "finding",
       "breakthrough"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/dɪˈskʌv.ɚ.i/"
+    }
   },
   {
     "id": "en:invent:verb",
@@ -125,10 +125,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪnˈvent/",
-      "us": "/ɪnˈvent/"
-    },
+    "transcription": "/ɪnˈvent/",
     "emoji": "💡",
     "synonyms": [
       "devise",
@@ -155,10 +152,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɪnˈven.ʃən/",
-      "us": "/ɪnˈven.ʃən/"
-    },
+    "transcription": "/ɪnˈven.ʃən/",
     "emoji": "💡",
     "countability": "countable",
     "synonyms": [
@@ -183,17 +177,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "laboratories",
-    "transcription": {
-      "uk": "/ləˈbɒr.ə.tr.i/",
-      "us": "/ˈlæb.rə.tɔːr.i/"
-    },
+    "transcription": "/ləˈbɒr.ə.tr.i/",
     "emoji": "🧪",
     "countability": "countable",
     "synonyms": [
       "lab",
       "research facility"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈlæb.rə.tɔːr.i/"
+    }
   },
   {
     "id": "en:theory:noun",
@@ -217,10 +211,7 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˈθɪə.ri/",
-      "us": "/ˈθiː.ər.i/"
-    },
+    "transcription": "/ˈθɪə.ri/",
     "emoji": "📖",
     "countability": "countable",
     "synonyms": [
@@ -230,7 +221,10 @@
     "antonyms": [
       "fact",
       "practice"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈθiː.ər.i/"
+    }
   },
   {
     "id": "en:hypothesis:noun",
@@ -252,10 +246,7 @@
       "spoken"
     ],
     "countability": "countable",
-    "transcription": {
-      "uk": "/haɪˈpɒθ.ə.sɪs/",
-      "us": "/haɪˈpɑː.θə.sɪs/"
-    },
+    "transcription": "/haɪˈpɒθ.ə.sɪs/",
     "emoji": "💭",
     "synonyms": [
       "theory",
@@ -264,7 +255,10 @@
     "antonyms": [
       "fact",
       "proof"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/haɪˈpɑː.θə.sɪs/"
+    }
   },
   {
     "id": "en:evidence:noun",
@@ -289,10 +283,7 @@
       "C1"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ˈev.ɪ.dəns/",
-      "us": "/ˈev.ə.dəns/"
-    },
+    "transcription": "/ˈev.ɪ.dəns/",
     "emoji": "🔍",
     "synonyms": [
       "proof",
@@ -300,7 +291,10 @@
     ],
     "antonyms": [
       "disproof"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈev.ə.dəns/"
+    }
   },
   {
     "id": "en:technology:noun",
@@ -318,17 +312,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "technologies",
-    "transcription": {
-      "uk": "/tekˈnɒl.ə.dʒi/",
-      "us": "/tekˈnɑː.lə.dʒi/"
-    },
+    "transcription": "/tekˈnɒl.ə.dʒi/",
     "emoji": "💻",
     "countability": "countable",
     "synonyms": [
       "tech",
       "machinery"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/tekˈnɑː.lə.dʒi/"
+    }
   },
   {
     "id": "en:innovation:noun",
@@ -354,10 +348,7 @@
       "B2",
       "C1"
     ],
-    "transcription": {
-      "uk": "/ˌɪn.əˈveɪ.ʃən/",
-      "us": "/ˌɪn.əˈveɪ.ʃən/"
-    },
+    "transcription": "/ˌɪn.əˈveɪ.ʃən/",
     "emoji": "💡",
     "countability": "countable",
     "synonyms": [
@@ -383,10 +374,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/dɪˈvel.əp/",
-      "us": "/dɪˈvel.əp/"
-    },
+    "transcription": "/dɪˈvel.əp/",
     "emoji": "🌱",
     "synonyms": [
       "grow",
@@ -420,10 +408,7 @@
       "B2",
       "C1"
     ],
-    "transcription": {
-      "uk": "/dɪˈvel.əp.mənt/",
-      "us": "/dɪˈvel.əp.mənt/"
-    },
+    "transcription": "/dɪˈvel.əp.mənt/",
     "emoji": "🌱",
     "countability": "uncountable",
     "synonyms": [
@@ -453,10 +438,7 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˌɑː.tɪˈfɪʃ.əl/",
-      "us": "/ˌɑːr.t̬əˈfɪʃ.əl/"
-    },
+    "transcription": "/ˌɑː.tɪˈfɪʃ.əl/",
     "emoji": "🤖",
     "synonyms": [
       "synthetic",
@@ -465,7 +447,10 @@
     "antonyms": [
       "natural",
       "genuine"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌɑːr.t̬əˈfɪʃ.əl/"
+    }
   },
   {
     "id": "en:intelligence:noun",
@@ -486,10 +471,7 @@
       "B1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/ɪnˈtel.ɪ.dʒəns/",
-      "us": "/ɪnˈtel.ə.dʒəns/"
-    },
+    "transcription": "/ɪnˈtel.ɪ.dʒəns/",
     "emoji": "🧠",
     "countability": "uncountable",
     "synonyms": [
@@ -499,7 +481,10 @@
     "antonyms": [
       "stupidity",
       "foolishness"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ɪnˈtel.ə.dʒəns/"
+    }
   },
   {
     "id": "en:robot:noun",
@@ -517,17 +502,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "robots",
-    "transcription": {
-      "uk": "/ˈrəʊ.bɒt/",
-      "us": "/ˈroʊ.bɑːt/"
-    },
+    "transcription": "/ˈrəʊ.bɒt/",
     "emoji": "🤖",
     "countability": "countable",
     "synonyms": [
       "android",
       "automaton"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈroʊ.bɑːt/"
+    }
   },
   {
     "id": "en:software:noun",
@@ -548,10 +533,7 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ˈsɒft.weə/",
-      "us": "/ˈsɑːft.wer/"
-    },
+    "transcription": "/ˈsɒft.weə/",
     "emoji": "💻",
     "synonyms": [
       "program",
@@ -559,7 +541,10 @@
     ],
     "antonyms": [
       "hardware"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈsɑːft.wer/"
+    }
   },
   {
     "id": "en:hardware:noun",
@@ -580,10 +565,7 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ˈhɑːd.weə/",
-      "us": "/ˈhɑːrd.wer/"
-    },
+    "transcription": "/ˈhɑːd.weə/",
     "emoji": "🖥️",
     "synonyms": [
       "machinery",
@@ -591,7 +573,10 @@
     ],
     "antonyms": [
       "software"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈhɑːrd.wer/"
+    }
   },
   {
     "id": "en:digital:adjective",
@@ -611,10 +596,7 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˈdɪdʒ.ɪ.təl/",
-      "us": "/ˈdɪdʒ.ə.t̬əl/"
-    },
+    "transcription": "/ˈdɪdʒ.ɪ.təl/",
     "emoji": "📱",
     "synonyms": [
       "electronic",
@@ -622,7 +604,10 @@
     ],
     "antonyms": [
       "analog"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈdɪdʒ.ə.t̬əl/"
+    }
   },
   {
     "id": "en:virtual:adjective",
@@ -639,10 +624,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈvɜː.tʃu.əl/",
-      "us": "/ˈvɝː.tʃu.əl/"
-    },
+    "transcription": "/ˈvɜː.tʃu.əl/",
     "emoji": "🥽",
     "synonyms": [
       "simulated",
@@ -651,7 +633,10 @@
     "antonyms": [
       "real",
       "actual"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈvɝː.tʃu.əl/"
+    }
   },
   {
     "id": "en:automatic:adjective",
@@ -668,10 +653,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌɔː.təˈmæt.ɪk/",
-      "us": "/ˌɑː.t̬əˈmæt̬.ɪk/"
-    },
+    "transcription": "/ˌɔː.təˈmæt.ɪk/",
     "emoji": "⚡",
     "synonyms": [
       "automated",
@@ -679,7 +661,10 @@
     ],
     "antonyms": [
       "manual"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌɑː.t̬əˈmæt̬.ɪk/"
+    }
   },
   {
     "id": "en:automation:noun",
@@ -699,10 +684,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˌɔː.təˈmeɪ.ʃən/",
-      "us": "/ˌɑː.t̬əˈmeɪ.ʃən/"
-    },
+    "transcription": "/ˌɔː.təˈmeɪ.ʃən/",
     "emoji": "🤖",
     "countability": "uncountable",
     "synonyms": [
@@ -711,7 +693,10 @@
     ],
     "antonyms": [
       "manual labor"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌɑː.t̬əˈmeɪ.ʃən/"
+    }
   },
   {
     "id": "en:breakthrough:noun",
@@ -732,10 +717,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈbreɪk.θruː/",
-      "us": "/ˈbreɪk.θruː/"
-    },
+    "transcription": "/ˈbreɪk.θruː/",
     "emoji": "🚀",
     "countability": "countable",
     "synonyms": [
@@ -761,10 +743,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌsaɪənˈtɪf.ɪk/",
-      "us": "/ˌsaɪənˈtɪf.ɪk/"
-    },
+    "transcription": "/ˌsaɪənˈtɪf.ɪk/",
     "emoji": "🔬",
     "synonyms": [
       "empirical",
@@ -793,10 +772,7 @@
       "B1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/ˈæn.əl.aɪz/",
-      "us": "/ˈæn.əl.aɪz/"
-    },
+    "transcription": "/ˈæn.əl.aɪz/",
     "emoji": "🔍",
     "synonyms": [
       "examine",
@@ -824,10 +800,7 @@
       "B1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/əˈnæl.ə.sɪs/",
-      "us": "/əˈnæl.ə.sɪs/"
-    },
+    "transcription": "/əˈnæl.ə.sɪs/",
     "emoji": "📊",
     "countability": "countable",
     "synonyms": [
