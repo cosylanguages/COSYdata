@@ -23,7 +23,8 @@
       "us": "/ˈwɔːr.ən.ti/"
     },
     "emoji": "📜",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:guarantee:noun",
@@ -49,7 +50,8 @@
       "us": "/ˌɡær.ənˈtiː/"
     },
     "emoji": "🛡️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:invoice:noun",
@@ -72,7 +74,8 @@
       "us": "/ˈɪn.vɔɪs/"
     },
     "emoji": "🧾",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:tag:noun",
@@ -95,7 +98,8 @@
       "us": "/tæɡ/"
     },
     "emoji": "🏷️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:rating:noun",
@@ -121,7 +125,8 @@
       "us": "/ˈreɪ.t̬ɪŋ/"
     },
     "emoji": "⭐",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:secondhand:noun",
@@ -143,7 +148,10 @@
       "us": "/ˌsek.əndˈhænd/"
     },
     "emoji": "🔄",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "new"
+    ]
   },
   {
     "id": "en:used:noun",
@@ -165,7 +173,10 @@
       "us": "/juːzd/"
     },
     "emoji": "🔄",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "new"
+    ]
   },
   {
     "id": "en:original:noun",
@@ -188,7 +199,11 @@
       "us": "/əˈrɪdʒ.ən.əl/"
     },
     "emoji": "✨",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "fake",
+      "copy"
+    ]
   },
   {
     "id": "en:imitation:noun",
@@ -211,7 +226,11 @@
       "us": "/ˌɪm.əˈteɪ.ʃən/"
     },
     "emoji": "🎭",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "original",
+      "real"
+    ]
   },
   {
     "id": "en:fake:noun",
@@ -234,7 +253,11 @@
       "us": "/feɪk/"
     },
     "emoji": "❌",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "real",
+      "genuine"
+    ]
   },
   {
     "id": "en:package:noun",
@@ -257,7 +280,8 @@
       "us": "/ˈpæk.ɪdʒ/"
     },
     "emoji": "📦",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:packaging:noun",
@@ -279,7 +303,8 @@
       "us": "/ˈpæk.ɪ.dʒɪŋ/"
     },
     "emoji": "📦",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:container:noun",
@@ -302,7 +327,8 @@
       "us": "/kənˈteɪ.nɚ/"
     },
     "emoji": "🫙",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:manufacturer:noun",
@@ -325,7 +351,11 @@
       "us": "/ˌmæn.jəˈfæk.tʃɚ.ɚ/"
     },
     "emoji": "🏭",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "consumer",
+      "customer"
+    ]
   },
   {
     "id": "en:retailer:noun",
@@ -351,7 +381,10 @@
       "us": "/ˈriː.teɪ.lɚ/"
     },
     "emoji": "🏪",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "wholesaler"
+    ]
   },
   {
     "id": "en:wholesale:noun",
@@ -373,7 +406,10 @@
       "us": "/ˈhoʊl.seɪl/"
     },
     "emoji": "🏬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "retail"
+    ]
   },
   {
     "id": "en:loyalty:noun",
@@ -398,7 +434,10 @@
       "us": "/ˈlɔɪ.əl.t̬i/"
     },
     "emoji": "🤝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "disloyalty"
+    ]
   },
   {
     "id": "en:membership:noun",
@@ -427,6 +466,7 @@
       "us": "/ˈmem.bɚ.ʃɪp/"
     },
     "emoji": "🪪",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   }
 ]

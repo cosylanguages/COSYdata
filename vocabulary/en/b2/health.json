@@ -14,7 +14,17 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "cares"
+    "transcription": {
+      "uk": "/keər/",
+      "us": "/ker/"
+    },
+    "emoji": "🏥",
+    "countability": "uncountable",
+    "synonyms": [
+      "medical treatment",
+      "health services"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:rehabilitation:noun",
@@ -31,12 +41,26 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "rehabilitation",
     "tags": [
       "spoken"
     ],
     "levels": [
       "B2"
+    ],
+    "transcription": {
+      "uk": "/ˌriː.həˌbɪl.ɪˈteɪ.ʃən/",
+      "us": "/ˌriː.həˌbɪl.əˈteɪ.ʃən/"
+    },
+    "emoji": "🏥",
+    "countability": "uncountable",
+    "synonyms": [
+      "recovery",
+      "recuperation",
+      "rehab"
+    ],
+    "antonyms": [
+      "relapse",
+      "deterioration"
     ]
   },
   {
@@ -54,12 +78,26 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "burnout",
     "tags": [
       "spoken"
     ],
     "levels": [
       "B2"
+    ],
+    "transcription": {
+      "uk": "/ˈbɜːn.aʊt/",
+      "us": "/ˈbɝːn.aʊt/"
+    },
+    "emoji": "😫",
+    "countability": "uncountable",
+    "synonyms": [
+      "exhaustion",
+      "collapse",
+      "prostration"
+    ],
+    "antonyms": [
+      "vigorousness",
+      "rejuvenation"
     ]
   },
   {
@@ -77,7 +115,19 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "mentals"
+    "transcription": {
+      "uk": "/ˈmen.təl helθ/",
+      "us": "/ˈmen.t̬əl helθ/"
+    },
+    "emoji": "🧠",
+    "countability": "uncountable",
+    "synonyms": [
+      "psychological wellbeing",
+      "emotional health"
+    ],
+    "antonyms": [
+      "mental illness"
+    ]
   },
   {
     "id": "en:immune:noun",
@@ -94,7 +144,18 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "immunes"
+    "plural_form": "immune systems",
+    "transcription": {
+      "uk": "/ɪˈmjuːn ˈsɪs.təm/",
+      "us": "/ɪˈmjuːn ˈsɪs.təm/"
+    },
+    "emoji": "🛡️",
+    "countability": "countable",
+    "synonyms": [
+      "defense mechanism",
+      "immunity"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:chronic:adjective",
@@ -110,7 +171,21 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/ˈkrɒn.ɪk/",
+      "us": "/ˈkrɑː.nɪk/"
+    },
+    "emoji": "⏳",
+    "synonyms": [
+      "persistent",
+      "long-standing",
+      "lingering"
+    ],
+    "antonyms": [
+      "acute",
+      "temporary"
+    ]
   },
   {
     "id": "en:prognosis:noun",
@@ -131,7 +206,18 @@
     "tags": [
       "spoken"
     ],
-    "countability": "countable"
+    "countability": "countable",
+    "transcription": {
+      "uk": "/prɒɡˈnəʊ.sɪs/",
+      "us": "/prɑːɡˈnoʊ.sɪs/"
+    },
+    "emoji": "📋",
+    "synonyms": [
+      "forecast",
+      "medical outlook",
+      "prediction"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:epidemiology:noun",
@@ -148,7 +234,17 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "epidemiology"
+    "transcription": {
+      "uk": "/ˌep.ɪ.diː.miˈɒl.ə.dʒi/",
+      "us": "/ˌep.ə.diː.miˈɑː.lə.dʒi/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "disease surveillance",
+      "public health science"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:response:noun",
@@ -165,7 +261,18 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "responses"
+    "plural_form": "responses",
+    "transcription": {
+      "uk": "/rɪˈspɒns/",
+      "us": "/rɪˈspɑːns/"
+    },
+    "emoji": "💬",
+    "countability": "countable",
+    "synonyms": [
+      "health intervention",
+      "outbreak response"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:preventive:adjective",
@@ -181,7 +288,21 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/prɪˈven.tɪv/",
+      "us": "/prɪˈven.t̬ɪv/"
+    },
+    "emoji": "🛡️",
+    "synonyms": [
+      "prophylactic",
+      "precautionary",
+      "preventative"
+    ],
+    "antonyms": [
+      "curative",
+      "reactive"
+    ]
   },
   {
     "id": "en:holistic:adjective",
@@ -200,6 +321,20 @@
     "updated": "2025-01-15",
     "tags": [
       "spoken"
+    ],
+    "transcription": {
+      "uk": "/həʊˈlɪs.tɪk/",
+      "us": "/hoʊˈlɪs.tɪk/"
+    },
+    "emoji": "🧘",
+    "synonyms": [
+      "comprehensive",
+      "integrative",
+      "all-inclusive"
+    ],
+    "antonyms": [
+      "segmented",
+      "fragmented"
     ]
   },
   {
@@ -217,9 +352,21 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "alternatives",
     "tags": [
       "spoken"
+    ],
+    "transcription": {
+      "uk": "/ɔːlˈtɜː.nə.tɪv med.ɪ.sən/",
+      "us": "/ɑːlˈtɝː.nə.t̬ɪv med.ə.sən/"
+    },
+    "emoji": "🌿",
+    "countability": "uncountable",
+    "synonyms": [
+      "complementary medicine",
+      "natural therapy"
+    ],
+    "antonyms": [
+      "conventional medicine"
     ]
   },
   {
@@ -237,7 +384,18 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "clinicals"
+    "plural_form": "clinical trials",
+    "transcription": {
+      "uk": "/ˈklɪn.ɪ.kəl traɪ.əl/",
+      "us": "/ˈklɪn.ɪ.kəl traɪ.əl/"
+    },
+    "emoji": "🧪",
+    "countability": "countable",
+    "synonyms": [
+      "medical study",
+      "clinical experiment"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:overprescribe:noun",
@@ -254,7 +412,19 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "overprescribes"
+    "transcription": {
+      "uk": "/ˌəʊ.və.prɪˈskraɪb/",
+      "us": "/ˌoʊ.vɚ.prɪˈskraɪb/"
+    },
+    "emoji": "💊",
+    "countability": "uncountable",
+    "synonyms": [
+      "excessive medication",
+      "over-medication"
+    ],
+    "antonyms": [
+      "underprescribe"
+    ]
   },
   {
     "id": "en:malpractice:noun",
@@ -271,7 +441,20 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "malpractice"
+    "transcription": {
+      "uk": "/ˌmælˈpræk.tɪs/",
+      "us": "/ˌmælˈpræk.tɪs/"
+    },
+    "emoji": "⚖️",
+    "countability": "uncountable",
+    "synonyms": [
+      "medical negligence",
+      "misconduct"
+    ],
+    "antonyms": [
+      "duty of care",
+      "proper practice"
+    ]
   },
   {
     "id": "en:healthcare:noun",
@@ -288,7 +471,17 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "healthcares"
+    "transcription": {
+      "uk": "/ˈhelθ.keər/",
+      "us": "/ˈhelθ.ker/"
+    },
+    "emoji": "🏥",
+    "countability": "uncountable",
+    "synonyms": [
+      "medical care",
+      "health system"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:life:noun",
@@ -305,10 +498,20 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "lives",
     "tags": [
       "spoken"
-    ]
+    ],
+    "transcription": {
+      "uk": "/laɪf ɪkˈspek.tən.si/",
+      "us": "/laɪf ɪkˈspek.tən.si/"
+    },
+    "emoji": "⏳",
+    "countability": "uncountable",
+    "synonyms": [
+      "longevity",
+      "life span"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:expectancy:noun",
@@ -325,7 +528,17 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "expectancys"
+    "transcription": {
+      "uk": "/ɪkˈspek.tən.si/",
+      "us": "/ɪkˈspek.tən.si/"
+    },
+    "emoji": "⏳",
+    "countability": "uncountable",
+    "synonyms": [
+      "anticipated lifespan",
+      "projected age"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:palliative:noun",
@@ -342,7 +555,19 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "plural_form": "palliatives"
+    "transcription": {
+      "uk": "/ˈpæl.i.ə.tɪv keər/",
+      "us": "/ˈpæl.i.ə.t̬ɪv ker/"
+    },
+    "emoji": "🕊️",
+    "countability": "uncountable",
+    "synonyms": [
+      "hospice care",
+      "end-of-life care"
+    ],
+    "antonyms": [
+      "curative care"
+    ]
   },
   {
     "id": "en:holistic-health:noun",
@@ -363,7 +588,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "holistic healths"
+    "transcription": {
+      "uk": "/həʊˈlɪs.tɪk helθ/",
+      "us": "/hoʊˈlɪs.tɪk helθ/"
+    },
+    "emoji": "🧘",
+    "countability": "uncountable",
+    "synonyms": [
+      "integrative wellness",
+      "whole-person care"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:preventive-care:noun",
@@ -384,7 +619,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "preventive cares"
+    "transcription": {
+      "uk": "/prɪˈven.tɪv keər/",
+      "us": "/prɪˈven.t̬ɪv ker/"
+    },
+    "emoji": "🛡️",
+    "countability": "uncountable",
+    "synonyms": [
+      "prophylactic care",
+      "preventative medicine"
+    ],
+    "antonyms": [
+      "reactive treatment"
+    ]
   },
   {
     "id": "en:chronic-condition:noun",
@@ -405,7 +652,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "chronic conditions"
+    "plural_form": "chronic conditions",
+    "transcription": {
+      "uk": "/ˈkrɒn.ɪk kənˈdɪʃ.ən/",
+      "us": "/ˈkrɑː.nɪk kənˈdɪʃ.ən/"
+    },
+    "emoji": "⏳",
+    "countability": "countable",
+    "synonyms": [
+      "persistent illness",
+      "long-term ailment"
+    ],
+    "antonyms": [
+      "acute condition"
+    ]
   },
   {
     "id": "en:underlying-condition:noun",
@@ -426,7 +686,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "underlying conditions"
+    "plural_form": "underlying conditions",
+    "transcription": {
+      "uk": "/ˌʌn.dəˈlaɪ.ɪŋ kənˈdɪʃ.ən/",
+      "us": "/ˌʌn.dɚˈlaɪ.ɪŋ kənˈdɪʃ.ən/"
+    },
+    "emoji": "🔍",
+    "countability": "countable",
+    "synonyms": [
+      "pre-existing condition",
+      "latent illness"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:mental-health-awareness:noun",
@@ -447,7 +718,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription": {
+      "uk": "/ˈmen.təl helθ əˈweə.nəs/",
+      "us": "/ˈmen.t̬əl helθ əˈwer.nəs/"
+    },
+    "emoji": "🧠",
+    "synonyms": [
+      "psychological literacy",
+      "mental wellness education"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:stigma-around-mental-illness:noun",
@@ -468,8 +749,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "stigmas around mental illness",
-    "countability": "countable"
+    "countability": "uncountable",
+    "transcription": {
+      "uk": "/ˈstɪɡ.mə əˈraʊnd ˈmen.təl ˈɪl.nəs/",
+      "us": "/ˈstɪɡ.mə əˈraʊnd ˈmen.t̬əl ˈɪl.nəs/"
+    },
+    "emoji": "🏷️",
+    "synonyms": [
+      "social prejudice",
+      "mental health taboo"
+    ],
+    "antonyms": [
+      "acceptance of mental illness"
+    ]
   },
   {
     "id": "en:coping-strategy:noun",
@@ -490,7 +782,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "coping strategys"
+    "plural_form": "coping strategies",
+    "transcription": {
+      "uk": "/ˈkəʊ.pɪŋ stræt.ə.dʒi/",
+      "us": "/ˈkoʊ.pɪŋ stræt̬.ə.dʒi/"
+    },
+    "emoji": "🧘",
+    "countability": "countable",
+    "synonyms": [
+      "coping mechanism",
+      "stress management tool"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:therapy-session:noun",
@@ -511,7 +814,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "therapy sessions"
+    "plural_form": "therapy sessions",
+    "transcription": {
+      "uk": "/ˈθer.ə.pi ˌseʃ.ən/",
+      "us": "/ˈθer.ə.pi ˌseʃ.ən/"
+    },
+    "emoji": "🛋️",
+    "countability": "countable",
+    "synonyms": [
+      "counseling session",
+      "psychotherapy appointment"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:cognitive-behavioral-therapy:noun",
@@ -532,7 +846,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "cognitive behavioral therapys"
+    "transcription": {
+      "uk": "/ˈkɒɡ.nə.tɪv bɪˈheɪ.vjər.əl ˈθer.ə.pi/",
+      "us": "/ˈkɑːɡ.nə.t̬ɪv bɪˈheɪ.vjɚ.əl ˈθer.ə.pi/"
+    },
+    "emoji": "🧠",
+    "countability": "uncountable",
+    "synonyms": [
+      "CBT",
+      "talk therapy"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:medication:noun",
@@ -553,7 +877,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "medications"
+    "transcription": {
+      "uk": "/ˌmed.ɪˈkeɪ.ʃən/",
+      "us": "/ˌmed.əˈkeɪ.ʃən/"
+    },
+    "emoji": "💊",
+    "countability": "uncountable",
+    "synonyms": [
+      "pharmaceuticals",
+      "prescription drugs",
+      "medicine"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:dosage:noun",
@@ -574,7 +909,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "dosages"
+    "plural_form": "dosages",
+    "transcription": {
+      "uk": "/ˈdəʊ.sɪdʒ/",
+      "us": "/ˈdoʊ.sɪdʒ/"
+    },
+    "emoji": "💊",
+    "countability": "countable",
+    "synonyms": [
+      "posology",
+      "prescribed amount"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:side-effects:noun",
@@ -595,8 +941,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "side effects",
-    "countability": "countable"
+    "countability": "pluralia_tantum",
+    "transcription": {
+      "uk": "/saɪd ɪˈfekts/",
+      "us": "/saɪd ɪˈfekts/"
+    },
+    "emoji": "⚠️",
+    "synonyms": [
+      "adverse reactions",
+      "secondary effects"
+    ],
+    "antonyms": [
+      "intended effect"
+    ]
   },
   {
     "id": "en:alternative-treatment:noun",
@@ -617,7 +974,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "alternative treatments"
+    "plural_form": "alternative treatments",
+    "transcription": {
+      "uk": "/ɔːlˈtɜː.nə.tɪv ˈtriːt.mənt/",
+      "us": "/ɑːlˈtɝː.nə.t̬ɪv ˈtriːt.mənt/"
+    },
+    "emoji": "🌿",
+    "countability": "countable",
+    "synonyms": [
+      "complementary therapy",
+      "holistic remedy"
+    ],
+    "antonyms": [
+      "conventional treatment"
+    ]
   },
   {
     "id": "en:clinical-trial:noun",
@@ -638,7 +1008,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "clinical trials"
+    "plural_form": "clinical trials",
+    "transcription": {
+      "uk": "/ˈklɪn.ɪ.kəl traɪ.əl/",
+      "us": "/ˈklɪn.ɪ.kəl traɪ.əl/"
+    },
+    "emoji": "🧪",
+    "countability": "countable",
+    "synonyms": [
+      "medical study",
+      "drug trial"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:life-expectancy:noun",
@@ -659,7 +1040,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "life expectancys"
+    "transcription": {
+      "uk": "/laɪf ɪkˈspek.tən.si/",
+      "us": "/laɪf ɪkˈspek.tən.si/"
+    },
+    "emoji": "⏳",
+    "countability": "uncountable",
+    "synonyms": [
+      "average lifespan",
+      "longevity projection"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:quality-of-life:noun",
@@ -680,7 +1071,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "quality of lifes"
+    "transcription": {
+      "uk": "/ˈkwɒl.ə.ti əv laɪf/",
+      "us": "/ˈkwɑː.lə.t̬i əv laɪf/"
+    },
+    "emoji": "✨",
+    "countability": "uncountable",
+    "synonyms": [
+      "well-being",
+      "standard of living"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:palliative-care:noun",
@@ -701,7 +1102,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "palliative cares"
+    "transcription": {
+      "uk": "/ˈpæl.i.ə.tɪv keər/",
+      "us": "/ˈpæl.i.ə.t̬ɪv ker/"
+    },
+    "emoji": "🕊️",
+    "countability": "uncountable",
+    "synonyms": [
+      "hospice care",
+      "comfort care"
+    ],
+    "antonyms": [
+      "curative care"
+    ]
   },
   {
     "id": "en:terminal-illness:noun",
@@ -722,8 +1135,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "terminal illnesses",
-    "countability": "countable"
+    "countability": "uncountable",
+    "transcription": {
+      "uk": "/ˈtɜː.mɪ.nəl ˈɪl.nəs/",
+      "us": "/ˈtɝː.mə.nəl ˈɪl.nəs/"
+    },
+    "emoji": "🏥",
+    "synonyms": [
+      "incurable disease",
+      "fatal illness"
+    ],
+    "antonyms": [
+      "curable condition"
+    ]
   },
   {
     "id": "en:public-health-crisis:noun",
@@ -745,7 +1169,19 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "public health crises",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription": {
+      "uk": "/ˈpʌb.lɪk helθ ˈkraɪ.sɪs/",
+      "us": "/ˈpʌb.lɪk helθ ˈkraɪ.sɪs/"
+    },
+    "emoji": "🚨",
+    "synonyms": [
+      "epidemic",
+      "health emergency"
+    ],
+    "antonyms": [
+      "health stability"
+    ]
   },
   {
     "id": "en:healthcare-disparity:noun",
@@ -766,7 +1202,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "healthcare disparitys"
+    "plural_form": "healthcare disparities",
+    "transcription": {
+      "uk": "/ˈhelθ.keər dɪˈspær.ə.ti/",
+      "us": "/ˈhelθ.ker dɪˈspær.ə.t̬i/"
+    },
+    "emoji": "⚖️",
+    "countability": "countable",
+    "synonyms": [
+      "health inequality",
+      "medical gap"
+    ],
+    "antonyms": [
+      "healthcare equity"
+    ]
   },
   {
     "id": "en:access-to-healthcare:noun",
@@ -787,7 +1236,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "access to healthcares"
+    "transcription": {
+      "uk": "/ˈæk.ses tuː ˈhelθ.keər/",
+      "us": "/ˈæk.ses tuː ˈhelθ.ker/"
+    },
+    "emoji": "🔓",
+    "countability": "uncountable",
+    "synonyms": [
+      "medical accessibility",
+      "healthcare availability"
+    ],
+    "antonyms": [
+      "healthcare exclusion"
+    ]
   },
   {
     "id": "en:health-insurance:noun",
@@ -808,7 +1269,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "health insurances"
+    "transcription": {
+      "uk": "/helθ ɪnˈʃɔː.rəns/",
+      "us": "/helθ ɪnˈʃʊr.əns/"
+    },
+    "emoji": "💳",
+    "countability": "uncountable",
+    "synonyms": [
+      "medical coverage",
+      "health plan"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:preventable-disease:noun",
@@ -829,7 +1300,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "preventable diseases"
+    "plural_form": "preventable diseases",
+    "transcription": {
+      "uk": "/prɪˈven.tə.bəl dɪˈziːz/",
+      "us": "/prɪˈven.t̬ə.bəl dɪˈziːz/"
+    },
+    "emoji": "🛡️",
+    "countability": "countable",
+    "synonyms": [
+      "avoidable illness",
+      "prophylactically avoidable disease"
+    ],
+    "antonyms": [
+      "unpreventable disease"
+    ]
   },
   {
     "id": "en:lifestyle-related-illness:noun",
@@ -850,7 +1334,16 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "lifestyle-related illnesses",
-    "countability": "countable"
+    "countability": "uncountable",
+    "transcription": {
+      "uk": "/ˈlaɪf.staɪl rɪˌleɪ.tɪd ˈɪl.nəs/",
+      "us": "/ˈlaɪf.staɪl rɪˌleɪ.t̬ɪd ˈɪl.nəs/"
+    },
+    "emoji": "🏥",
+    "synonyms": [
+      "non-communicable disease",
+      "lifestyle disease"
+    ],
+    "no_antonym": true
   }
 ]

@@ -14,7 +14,18 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "artificials"
+    "plural_form": "artificials",
+    "transcription": {
+      "uk": "/artificial/",
+      "us": "/artificial/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "AI",
+      "machine intelligence"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:methodology:noun",
@@ -37,7 +48,18 @@
     ],
     "levels": [
       "B2"
-    ]
+    ],
+    "transcription": {
+      "uk": "/methodology/",
+      "us": "/methodology/"
+    },
+    "no_emoji": true,
+    "countability": "countable",
+    "synonyms": [
+      "research design",
+      "systematic procedure"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:variable:noun",
@@ -57,6 +79,20 @@
     "plural_form": "variables",
     "tags": [
       "spoken"
+    ],
+    "transcription": {
+      "uk": "/variable/",
+      "us": "/variable/"
+    },
+    "no_emoji": true,
+    "countability": "countable",
+    "synonyms": [
+      "factor",
+      "element",
+      "parameter"
+    ],
+    "antonyms": [
+      "constant"
     ]
   },
   {
@@ -74,12 +110,26 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "correlations",
     "tags": [
       "spoken"
     ],
     "levels": [
       "B2"
+    ],
+    "transcription": {
+      "uk": "/correlation/",
+      "us": "/correlation/"
+    },
+    "no_emoji": true,
+    "countability": "uncountable",
+    "synonyms": [
+      "association",
+      "relationship",
+      "interdependence"
+    ],
+    "antonyms": [
+      "uncorrelatedness",
+      "independence"
     ]
   },
   {
@@ -97,9 +147,21 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "causations",
     "tags": [
       "spoken"
+    ],
+    "transcription": {
+      "uk": "/causation/",
+      "us": "/causation/"
+    },
+    "no_emoji": true,
+    "countability": "uncountable",
+    "synonyms": [
+      "causality",
+      "causal linkage"
+    ],
+    "antonyms": [
+      "coincidence"
     ]
   },
   {
@@ -121,7 +183,18 @@
     "levels": [
       "B2",
       "C1"
-    ]
+    ],
+    "transcription": {
+      "uk": "/control/",
+      "us": "/control/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "benchmark group",
+      "control sample"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:peer-reviewed:noun",
@@ -141,6 +214,19 @@
     "plural_form": "peer-revieweds",
     "tags": [
       "spoken"
+    ],
+    "transcription": {
+      "uk": "/peer-reviewed/",
+      "us": "/peer-reviewed/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "refereed publication",
+      "evaluated study"
+    ],
+    "antonyms": [
+      "unvetted paper"
     ]
   },
   {
@@ -164,6 +250,20 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "transcription": {
+      "uk": "/empirical/",
+      "us": "/empirical/"
+    },
+    "no_emoji": true,
+    "synonyms": [
+      "observational",
+      "experimental",
+      "factual"
+    ],
+    "antonyms": [
+      "theoretical",
+      "hypothetical"
     ]
   },
   {
@@ -184,6 +284,20 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "transcription": {
+      "uk": "/theoretical/",
+      "us": "/theoretical/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "hypothetical",
+      "abstract",
+      "conjectural"
+    ],
+    "antonyms": [
+      "empirical",
+      "practical"
     ]
   },
   {
@@ -200,7 +314,18 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/replicate/",
+      "us": "/replicate/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "reproduce",
+      "duplicate",
+      "repeat"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:replication:noun",
@@ -217,7 +342,18 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "replications"
+    "plural_form": "replications",
+    "transcription": {
+      "uk": "/replication/",
+      "us": "/replication/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "reproduction",
+      "duplication"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:prototype:noun",
@@ -234,7 +370,19 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "prototypes"
+    "plural_form": "prototypes",
+    "transcription": {
+      "uk": "/prototype/",
+      "us": "/prototype/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "mock-up",
+      "archetype",
+      "model"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:biotechnology:noun",
@@ -251,10 +399,20 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "biotechnology",
     "tags": [
       "spoken"
-    ]
+    ],
+    "transcription": {
+      "uk": "/biotechnology/",
+      "us": "/biotechnology/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "bio-engineering",
+      "life science tech"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:engineering:noun",
@@ -271,7 +429,17 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "engineerings"
+    "transcription": {
+      "uk": "/engineering/",
+      "us": "/engineering/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "tech engineering",
+      "applied science"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:nanotechnology:noun",
@@ -288,10 +456,20 @@
     "domain": "general, spoken",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "nanotechnology",
     "tags": [
       "spoken"
-    ]
+    ],
+    "transcription": {
+      "uk": "/nanotechnology/",
+      "us": "/nanotechnology/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "molecular tech",
+      "nanotech"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:disruptive:adjective",
@@ -311,6 +489,20 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "transcription": {
+      "uk": "/disruptive/",
+      "us": "/disruptive/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "groundbreaking",
+      "transformative",
+      "revolutionary"
+    ],
+    "antonyms": [
+      "traditional",
+      "incremental"
     ]
   },
   {
@@ -327,7 +519,17 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/quantum/",
+      "us": "/quantum/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "subatomic",
+      "quantum-mechanical"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:simulate:verb",
@@ -343,7 +545,18 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/simulate/",
+      "us": "/simulate/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "model",
+      "replicate",
+      "imitate"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:simulation:noun",
@@ -360,7 +573,20 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "plural_form": "simulations"
+    "plural_form": "simulations",
+    "transcription": {
+      "uk": "/simulation/",
+      "us": "/simulation/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "virtual model",
+      "computer model"
+    ],
+    "antonyms": [
+      "real-world phenomenon"
+    ]
   },
   {
     "id": "en:optimize:verb",
@@ -376,7 +602,21 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/optimize/",
+      "us": "/optimize/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "streamline",
+      "maximize efficiency",
+      "fine-tune"
+    ],
+    "antonyms": [
+      "impair",
+      "worsen"
+    ]
   },
   {
     "id": "en:optimise:verb",
@@ -392,7 +632,21 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-01-15"
+    "updated": "2025-01-15",
+    "transcription": {
+      "uk": "/optimise/",
+      "us": "/optimise/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "streamline",
+      "maximize efficiency",
+      "fine-tune"
+    ],
+    "antonyms": [
+      "impair",
+      "worsen"
+    ]
   },
   {
     "id": "en:cutting-edge:noun",
@@ -413,7 +667,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "cutting-edges"
+    "plural_form": "cutting-edges",
+    "transcription": {
+      "uk": "/cutting-edge/",
+      "us": "/cutting-edge/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "state-of-the-art",
+      "frontline tech"
+    ],
+    "antonyms": [
+      "obsolete tech"
+    ]
   },
   {
     "id": "en:groundbreaking:noun",
@@ -434,7 +701,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "groundbreakings"
+    "transcription": {
+      "uk": "/ˈɡraʊndˌbreɪ.kɪŋ/",
+      "us": "/ˈɡraʊndˌbreɪ.kɪŋ/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "pioneering innovation",
+      "breakthrough"
+    ],
+    "antonyms": [
+      "conventional work"
+    ]
   },
   {
     "id": "en:innovative:noun",
@@ -455,7 +734,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "innovatives"
+    "plural_form": "innovatives",
+    "transcription": {
+      "uk": "/innovative/",
+      "us": "/innovative/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "inventiveness",
+      "novel approach"
+    ],
+    "antonyms": [
+      "orthodoxy"
+    ]
   },
   {
     "id": "en:revolutionary:noun",
@@ -476,7 +768,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "revolutionarys"
+    "plural_form": "revolutionarys",
+    "transcription": {
+      "uk": "/revolutionary/",
+      "us": "/revolutionary/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "radical shift",
+      "paradigm shift"
+    ],
+    "antonyms": [
+      "traditional approach"
+    ]
   },
   {
     "id": "en:machine-learning:noun",
@@ -497,7 +802,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "machine learnings"
+    "plural_form": "machine learnings",
+    "transcription": {
+      "uk": "/machine learning/",
+      "us": "/machine learning/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "ML",
+      "automated learning"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:genetic-engineering:noun",
@@ -518,7 +834,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "genetic engineerings"
+    "transcription": {
+      "uk": "/genetic engineering/",
+      "us": "/genetic engineering/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "gene editing",
+      "genetic modification"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:quantum-computing:noun",
@@ -539,7 +865,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "quantum computings"
+    "plural_form": "quantum computings",
+    "transcription": {
+      "uk": "/quantum computing/",
+      "us": "/quantum computing/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "quantum processing",
+      "subatomic computing"
+    ],
+    "antonyms": [
+      "classical computing"
+    ]
   },
   {
     "id": "en:renewable-technology:noun",
@@ -560,7 +899,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "renewable technologys"
+    "plural_form": "renewable technologys",
+    "transcription": {
+      "uk": "/renewable technology/",
+      "us": "/renewable technology/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "green tech",
+      "clean energy tech"
+    ],
+    "antonyms": [
+      "fossil technology"
+    ]
   },
   {
     "id": "en:sustainable-innovation:noun",
@@ -581,7 +933,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "sustainable innovations"
+    "plural_form": "sustainable innovations",
+    "transcription": {
+      "uk": "/sustainable innovation/",
+      "us": "/sustainable innovation/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "eco-innovation",
+      "viable tech"
+    ],
+    "antonyms": [
+      "unsustainable tech"
+    ]
   },
   {
     "id": "en:digital-transformation:noun",
@@ -602,7 +967,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "digital transformations"
+    "plural_form": "digital transformations",
+    "transcription": {
+      "uk": "/digital transformation/",
+      "us": "/digital transformation/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "digitization",
+      "digital modernization"
+    ],
+    "antonyms": [
+      "analog retention"
+    ]
   },
   {
     "id": "en:data-privacy:noun",
@@ -623,7 +1001,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "data privacys"
+    "transcription": {
+      "uk": "/data privacy/",
+      "us": "/data privacy/"
+    },
+    "emoji": "🔬",
+    "countability": "uncountable",
+    "synonyms": [
+      "information privacy",
+      "data protection"
+    ],
+    "antonyms": [
+      "data exposure"
+    ]
   },
   {
     "id": "en:algorithmic-bias:noun",
@@ -644,7 +1034,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription": {
+      "uk": "/algorithmic bias/",
+      "us": "/algorithmic bias/"
+    },
+    "no_emoji": true,
+    "synonyms": [
+      "AI bias",
+      "code prejudice"
+    ],
+    "antonyms": [
+      "algorithmic neutrality"
+    ]
   },
   {
     "id": "en:deepfake:noun",
@@ -665,7 +1067,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "deepfakes"
+    "plural_form": "deepfakes",
+    "transcription": {
+      "uk": "/deepfake/",
+      "us": "/deepfake/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "synthetic media",
+      "AI forgery"
+    ],
+    "antonyms": [
+      "authentic video"
+    ]
   },
   {
     "id": "en:blockchain:noun",
@@ -686,7 +1101,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "blockchains"
+    "plural_form": "blockchains",
+    "transcription": {
+      "uk": "/blockchain/",
+      "us": "/blockchain/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "distributed ledger",
+      "decentralized database"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:virtual-assistant:noun",
@@ -707,7 +1133,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "virtual assistants"
+    "plural_form": "virtual assistants",
+    "transcription": {
+      "uk": "/virtual assistant/",
+      "us": "/virtual assistant/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "AI assistant",
+      "digital assistant"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:ethical-implications:noun",
@@ -728,7 +1165,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "transcription": {
+      "uk": "/ethical implications/",
+      "us": "/ethical implications/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "moral ramifications",
+      "ethical consequences"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:technological-disruption:noun",
@@ -749,7 +1196,20 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "technological disruptions"
+    "plural_form": "technological disruptions",
+    "transcription": {
+      "uk": "/technological disruption/",
+      "us": "/technological disruption/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "market upheaval",
+      "tech disruption"
+    ],
+    "antonyms": [
+      "technological stability"
+    ]
   },
   {
     "id": "en:cutting-corners:noun",
@@ -770,7 +1230,19 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "transcription": {
+      "uk": "/cutting corners/",
+      "us": "/cutting corners/"
+    },
+    "emoji": "🔬",
+    "synonyms": [
+      "taking shortcuts",
+      "skimping"
+    ],
+    "antonyms": [
+      "meticulous research"
+    ]
   },
   {
     "id": "en:trial-and-error:noun",
@@ -791,7 +1263,18 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "trial and errors"
+    "plural_form": "trial and errors",
+    "transcription": {
+      "uk": "/trial and error/",
+      "us": "/trial and error/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "empirical testing",
+      "experimentation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:proof-of-concept:noun",
@@ -812,6 +1295,17 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "plural_form": "proof of concepts"
+    "plural_form": "proof of concepts",
+    "transcription": {
+      "uk": "/proof of concept/",
+      "us": "/proof of concept/"
+    },
+    "emoji": "🔬",
+    "countability": "countable",
+    "synonyms": [
+      "POC",
+      "feasibility demonstration"
+    ],
+    "no_antonym": true
   }
 ]

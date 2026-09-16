@@ -26,7 +26,8 @@
       "us": "/ɑːv/"
     },
     "no_emoji": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:a:article",
@@ -53,7 +54,8 @@
       "uk": "/eɪ/",
       "us": "/eɪ/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:minority:noun",
@@ -84,7 +86,10 @@
       "us": "/məˈnɔːr.ə.t̬i/"
     },
     "emoji": "🔹",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "majority"
+    ]
   },
   {
     "id": "en:majority:noun",
@@ -114,7 +119,10 @@
       "us": "/məˈdʒɑː.rə.t̬i/"
     },
     "emoji": "🔷",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "minority"
+    ]
   },
   {
     "id": "en:increase:noun",
@@ -144,7 +152,10 @@
       "us": "/ˈɪn.kriːs/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "decrease"
+    ]
   },
   {
     "id": "en:decrease:noun",
@@ -170,7 +181,10 @@
       "us": "/ˈdiː.kriːs/"
     },
     "emoji": "📉",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "increase"
+    ]
   },
   {
     "id": "en:rise:noun",
@@ -196,7 +210,11 @@
       "us": "/raɪz/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "fall",
+      "drop"
+    ]
   },
   {
     "id": "en:double:noun",
@@ -226,7 +244,10 @@
       "us": "/ˈdʌb.əl/"
     },
     "emoji": "2️⃣",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "half"
+    ]
   },
   {
     "id": "en:exactly:noun",
@@ -252,7 +273,11 @@
       "us": "/ɪɡˈzækt.li/"
     },
     "emoji": "🎯",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "approximately",
+      "roughly"
+    ]
   },
   {
     "id": "en:distance:noun",
@@ -282,7 +307,8 @@
       "us": "/ˈdɪs.təns/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:few:noun",
@@ -307,7 +333,10 @@
       "us": "/fjuː/"
     },
     "emoji": "🤏",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "many"
+    ]
   },
   {
     "id": "en:minimum:noun",
@@ -334,7 +363,10 @@
       "us": "/ˈmɪn.ə.məm/"
     },
     "emoji": "🔻",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "maximum"
+    ]
   },
   {
     "id": "en:approximately:noun",
@@ -363,7 +395,10 @@
       "us": "/əˈprɑːk.sə.mət.li/"
     },
     "emoji": "≈",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "exactly"
+    ]
   },
   {
     "id": "en:roughly:noun",
@@ -392,7 +427,10 @@
       "us": "/ˈrʌf.li/"
     },
     "emoji": "≈",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "exactly"
+    ]
   },
   {
     "id": "en:several:noun",
@@ -417,7 +455,10 @@
       "us": "/ˈsev.ɚ.əl/"
     },
     "emoji": "📦",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "few"
+    ]
   },
   {
     "id": "en:couple:noun",
@@ -443,7 +484,8 @@
       "us": "/ˈkʌp.əl/"
     },
     "emoji": "👫",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:average:noun",
@@ -473,7 +515,8 @@
       "us": "/ˈæv.ɚ.ɪdʒ/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:percentage:noun",
@@ -500,7 +543,8 @@
       "us": "/pɚˈsen.t̬ɪdʒ/"
     },
     "emoji": "%",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:fraction:noun",
@@ -523,7 +567,8 @@
       "us": "/ˈfræk.ʃən/"
     },
     "emoji": "🍕",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:triple:noun",
@@ -549,7 +594,8 @@
       "us": "/ˈtrɪp.əl/"
     },
     "emoji": "3️⃣",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:maximum:noun",
@@ -572,7 +618,10 @@
       "us": "/ˈmæk.sə.məm/"
     },
     "emoji": "🔺",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "minimum"
+    ]
   },
   {
     "id": "en:height:noun",
@@ -598,7 +647,8 @@
       "us": "/haɪt/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:length:noun",
@@ -621,7 +671,10 @@
       "us": "/leŋθ/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "width"
+    ]
   },
   {
     "id": "en:width:noun",
@@ -644,7 +697,10 @@
       "us": "/wɪdθ/"
     },
     "emoji": "📏",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "length"
+    ]
   },
   {
     "id": "en:depth:noun",
@@ -667,7 +723,8 @@
       "us": "/depθ/"
     },
     "emoji": "🌊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:speed:noun",
@@ -693,7 +750,8 @@
       "us": "/spiːd/"
     },
     "emoji": "⚡",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:a-couple-of:noun",
@@ -719,7 +777,8 @@
       "us": "/ə ˈkʌp.əl ɑːv/"
     },
     "emoji": "👫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:a-few:noun",
@@ -745,7 +804,11 @@
       "us": "/ə fjuː/"
     },
     "emoji": "🤏",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "a lot of",
+      "many"
+    ]
   },
   {
     "id": "en:a-lot-of:noun",
@@ -771,7 +834,11 @@
       "us": "/ə lɑːt ɑːv/"
     },
     "emoji": "📦",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "a few",
+      "a little"
+    ]
   },
   {
     "id": "en:plenty-of:noun",
@@ -797,7 +864,10 @@
       "us": "/ˈplen.t̬i ɑːv/"
     },
     "emoji": "🧺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "little"
+    ]
   },
   {
     "id": "en:most-of:noun",
@@ -823,7 +893,10 @@
       "us": "/moʊst ɑːv/"
     },
     "emoji": "🔝",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "none of"
+    ]
   },
   {
     "id": "en:none-of:noun",
@@ -849,7 +922,11 @@
       "us": "/nʌn ɑːv/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "all of",
+      "most of"
+    ]
   },
   {
     "id": "en:half-of:noun",
@@ -875,7 +952,8 @@
       "us": "/hæf ɑːv/"
     },
     "emoji": "🌗",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:a-third:noun",
@@ -902,7 +980,8 @@
       "us": "/ə θɝːd/"
     },
     "emoji": "🥉",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:a-quarter:noun",
@@ -929,7 +1008,8 @@
       "us": "/ə ˈkwɔːr.t̬ɚ/"
     },
     "emoji": "🪙",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:at-least:noun",
@@ -955,7 +1035,10 @@
       "us": "/æt liːst/"
     },
     "emoji": "🔻",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "at most"
+    ]
   },
   {
     "id": "en:at-most:noun",
@@ -981,7 +1064,10 @@
       "us": "/æt moʊst/"
     },
     "emoji": "🔺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "at least"
+    ]
   },
   {
     "id": "en:per-cent:noun",
@@ -1008,7 +1094,8 @@
       "us": "/pɚ ˈsent/"
     },
     "emoji": "%",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:quantity:noun",
@@ -1035,7 +1122,8 @@
       "us": "/ˈkwɑːn.t̬ə.t̬i/"
     },
     "emoji": "📦",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:statistic:noun",
@@ -1062,6 +1150,7 @@
       "us": "/stəˈtɪs.tɪk/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   }
 ]
