@@ -23,7 +23,8 @@
       "us": "/ˈweb.saɪt/"
     },
     "emoji": "🌐",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:app:noun",
@@ -49,7 +50,8 @@
       "us": "/æp/"
     },
     "emoji": "📱",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:download:noun",
@@ -75,7 +77,10 @@
       "us": "/ˈdaʊn.loʊd/"
     },
     "emoji": "📥",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "upload"
+    ]
   },
   {
     "id": "en:upload:noun",
@@ -101,7 +106,10 @@
       "us": "/ˈʌp.loʊd/"
     },
     "emoji": "📤",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "download"
+    ]
   },
   {
     "id": "en:social:noun",
@@ -127,7 +135,11 @@
       "us": "/ˈsoʊ.ʃəl/"
     },
     "emoji": "👥",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "unsocial",
+      "private"
+    ]
   },
   {
     "id": "en:media:noun",
@@ -154,7 +166,8 @@
     },
     "emoji": "📰",
     "countability": "pluralia_tantum",
-    "singular_workaround": "a media outlet"
+    "singular_workaround": "a media outlet",
+    "no_antonym": true
   },
   {
     "id": "en:connection:noun",
@@ -180,7 +193,10 @@
       "us": "/kəˈnek.ʃən/"
     },
     "emoji": "🔗",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "disconnection"
+    ]
   },
   {
     "id": "en:wifi:noun",
@@ -202,7 +218,8 @@
       "us": "/ˈwaɪ.faɪ/"
     },
     "emoji": "📶",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:username:noun",
@@ -225,7 +242,8 @@
       "us": "/ˈjuː.zɚ.neɪm/"
     },
     "emoji": "👤",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:account:noun",
@@ -251,7 +269,8 @@
       "us": "/əˈkaʊnt/"
     },
     "emoji": "👤",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:update:verb",
@@ -275,7 +294,8 @@
       "uk": "/ʌpˈdeɪt/",
       "us": "/ʌpˈdeɪt/"
     },
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "no_antonym": true
   },
   {
     "id": "en:install:verb",
@@ -299,7 +319,10 @@
       "uk": "/ɪnˈstɔːl/",
       "us": "/ɪnˈstɑːl/"
     },
-    "emoji": "📥"
+    "emoji": "📥",
+    "antonyms": [
+      "uninstall"
+    ]
   },
   {
     "id": "en:device:noun",
@@ -329,7 +352,8 @@
       "us": "/dɪˈvaɪs/"
     },
     "emoji": "💻",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:gadget:noun",
@@ -359,7 +383,8 @@
       "us": "/ˈɡædʒ.ət/"
     },
     "emoji": "⌚",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:article:noun",
@@ -385,7 +410,8 @@
       "us": "/ˈɑːr.t̬ɪ.kəl/"
     },
     "emoji": "📰",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:channel:noun",
@@ -411,7 +437,8 @@
       "us": "/ˈtʃæn.əl/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:program:noun",
@@ -434,7 +461,8 @@
       "us": "/ˈproʊ.ɡræm/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:programme:noun",
@@ -457,7 +485,8 @@
       "us": "/ˈproʊ.ɡræm/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:advertisement:noun",
@@ -480,7 +509,8 @@
       "us": "/ˌæd.vɚˈtaɪz.mənt/"
     },
     "emoji": "📢",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:advert:noun",
@@ -503,7 +533,8 @@
       "us": "/ˈæd.vɝːt/"
     },
     "emoji": "📢",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:commercial:noun",
@@ -526,7 +557,8 @@
       "us": "/kəˈmɝː.ʃəl/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:subscribe:verb",
@@ -547,7 +579,10 @@
       "uk": "/səbˈskraɪb/",
       "us": "/səbˈskraɪb/"
     },
-    "emoji": "🔔"
+    "emoji": "🔔",
+    "antonyms": [
+      "unsubscribe"
+    ]
   },
   {
     "id": "en:follow:verb",
@@ -571,7 +606,10 @@
       "uk": "/ˈfɒl.əʊ/",
       "us": "/ˈfɑː.loʊ/"
     },
-    "emoji": "👤"
+    "emoji": "👤",
+    "antonyms": [
+      "unfollow"
+    ]
   },
   {
     "id": "en:comment:verb",
@@ -595,7 +633,8 @@
       "uk": "/ˈkɒm.ent/",
       "us": "/ˈkɑː.ment/"
     },
-    "emoji": "💬"
+    "emoji": "💬",
+    "no_antonym": true
   },
   {
     "id": "en:offline:noun",
@@ -617,7 +656,10 @@
       "us": "/ˌɑːfˈlaɪn/"
     },
     "emoji": "📡",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "online"
+    ]
   },
   {
     "id": "en:data:noun",
@@ -647,7 +689,8 @@
       "us": "/ˈdeɪ.t̬ə/"
     },
     "emoji": "📊",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:file:noun",
@@ -673,7 +716,8 @@
       "us": "/faɪl/"
     },
     "emoji": "📁",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:folder:noun",
@@ -699,7 +743,8 @@
       "us": "/ˈfoʊl.dɚ/"
     },
     "emoji": "📁",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:search:noun",
@@ -725,7 +770,8 @@
       "us": "/sɝːtʃ/"
     },
     "emoji": "🔍",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:engine:noun",
@@ -748,7 +794,8 @@
       "us": "/ˈen.dʒɪn/"
     },
     "emoji": "⚙️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:browser:noun",
@@ -774,7 +821,8 @@
       "us": "/ˈbraʊ.zɚ/"
     },
     "emoji": "🌐",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:social-media:noun",
@@ -800,7 +848,8 @@
       "us": "/ˌsoʊ.ʃəl ˈmiː.di.ə/"
     },
     "emoji": "📱",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:profile:noun",
@@ -827,7 +876,8 @@
       "us": "/ˈproʊ.faɪl/"
     },
     "emoji": "👤",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:subscriber:noun",
@@ -854,7 +904,8 @@
       "us": "/səbˈskraɪ.bɚ/"
     },
     "emoji": "👤",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:uninstall:noun",
@@ -880,7 +931,10 @@
       "us": "/ˌʌn.ɪnˈstɑːl/"
     },
     "emoji": "🗑️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "install"
+    ]
   },
   {
     "id": "en:settings:noun",
@@ -907,7 +961,8 @@
       "us": "/ˈset̬.ɪŋz/"
     },
     "emoji": "⚙️",
-    "singular_workaround": "a setting"
+    "singular_workaround": "a setting",
+    "no_antonym": true
   },
   {
     "id": "en:memory:noun",
@@ -934,7 +989,8 @@
       "us": "/ˈmem.ɚ.i/"
     },
     "emoji": "🧠",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:plug-in:noun",
@@ -961,7 +1017,10 @@
       "us": "/ˈplʌɡ.ɪn/"
     },
     "emoji": "🔌",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "unplug"
+    ]
   },
   {
     "id": "en:connect:noun",
@@ -987,7 +1046,10 @@
       "us": "/kəˈnekt/"
     },
     "emoji": "🔗",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "disconnect"
+    ]
   },
   {
     "id": "en:signal:noun",
@@ -1014,7 +1076,8 @@
       "us": "/ˈsɪɡ.nəl/"
     },
     "emoji": "📶",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:hack:noun",
@@ -1041,7 +1104,8 @@
       "us": "/hæk/"
     },
     "emoji": "💻",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:spam:noun",
@@ -1067,7 +1131,8 @@
       "us": "/spæm/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:search-engine:noun",
@@ -1094,7 +1159,8 @@
       "us": "/ˈsɝːtʃ ˌen.dʒɪn/"
     },
     "emoji": "🔍",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:link:noun",
@@ -1121,6 +1187,7 @@
       "us": "/lɪŋk/"
     },
     "emoji": "🔗",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   }
 ]

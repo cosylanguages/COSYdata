@@ -19,7 +19,13 @@
       "uk": "/æz/",
       "us": "/æz/"
     },
-    "emoji": "🔗"
+    "emoji": "🔗",
+    "synonyms": [
+      "because",
+      "since",
+      "while"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:rise:verb",
@@ -46,7 +52,16 @@
       "uk": "/raɪz/",
       "us": "/raɪz/"
     },
-    "emoji": "📈"
+    "emoji": "📈",
+    "synonyms": [
+      "increase",
+      "go up",
+      "climb"
+    ],
+    "antonyms": [
+      "fall",
+      "decrease"
+    ]
   },
   {
     "id": "en:therefore:noun",
@@ -71,7 +86,13 @@
       "us": "/ˈðer.fɔːr/"
     },
     "emoji": "➡️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "consequently",
+      "thus",
+      "hence"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:result:verb",
@@ -95,7 +116,13 @@
       "uk": "/rɪˈzʌlt/",
       "us": "/rɪˈzʌlt/"
     },
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "synonyms": [
+      "stem from",
+      "ensue",
+      "arise"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:cause:verb",
@@ -116,7 +143,15 @@
       "uk": "/kɔːz/",
       "us": "/kɑːz/"
     },
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "synonyms": [
+      "bring about",
+      "lead to",
+      "trigger"
+    ],
+    "antonyms": [
+      "prevent"
+    ]
   },
   {
     "id": "en:lead:verb",
@@ -137,7 +172,15 @@
       "uk": "/liːd/",
       "us": "/liːd/"
     },
-    "emoji": "👉"
+    "emoji": "👉",
+    "synonyms": [
+      "guide",
+      "direct",
+      "heading"
+    ],
+    "antonyms": [
+      "follow"
+    ]
   },
   {
     "id": "en:outcome:noun",
@@ -163,7 +206,15 @@
       "us": "/ˈaʊt.kʌm/"
     },
     "emoji": "🏁",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "result",
+      "consequence",
+      "effect"
+    ],
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:due:noun",
@@ -190,7 +241,13 @@
       "us": "/duː/"
     },
     "emoji": "⏳",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "owing to",
+      "caused by",
+      "expected"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:owing:noun",
@@ -212,7 +269,13 @@
       "us": "/ˈoʊ.ɪŋ/"
     },
     "emoji": "🔗",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "due to",
+      "because of",
+      "attributable"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:consequently:noun",
@@ -237,7 +300,13 @@
       "us": "/ˈkɑːn.sə.kwənt.li/"
     },
     "emoji": "➡️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "therefore",
+      "as a result",
+      "thus"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:trigger:verb",
@@ -261,7 +330,16 @@
       "uk": "/ˈtrɪɡ.ə/",
       "us": "/ˈtrɪɡ.ɚ/"
     },
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "synonyms": [
+      "activate",
+      "spark",
+      "cause"
+    ],
+    "antonyms": [
+      "prevent",
+      "halt"
+    ]
   },
   {
     "id": "en:contribute:verb",
@@ -282,7 +360,15 @@
       "uk": "/kənˈtrɪb.juːt/",
       "us": "/kənˈtrɪb.juːt/"
     },
-    "emoji": "🧩"
+    "emoji": "🧩",
+    "synonyms": [
+      "add to",
+      "help",
+      "promote"
+    ],
+    "antonyms": [
+      "detract from"
+    ]
   },
   {
     "id": "en:affect:verb",
@@ -303,7 +389,13 @@
       "uk": "/əˈfekt/",
       "us": "/əˈfekt/"
     },
-    "emoji": "💥"
+    "emoji": "💥",
+    "synonyms": [
+      "influence",
+      "impact",
+      "alter"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:stem:verb",
@@ -324,7 +416,13 @@
       "uk": "/stem/",
       "us": "/stem/"
     },
-    "emoji": "🌱"
+    "emoji": "🌱",
+    "synonyms": [
+      "originate",
+      "arise",
+      "derive"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:knock-on:noun",
@@ -347,6 +445,12 @@
       "us": "/ˈnɑːk.ɑːn/"
     },
     "emoji": "🥌",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "domino effect",
+      "chain reaction",
+      "indirect effect"
+    ],
+    "no_antonym": true
   }
 ]

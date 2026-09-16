@@ -23,7 +23,8 @@
       "us": "/tɪp/"
     },
     "emoji": "💵",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:portion:noun",
@@ -53,7 +54,8 @@
       "us": "/ˈpɔːr.ʃən/"
     },
     "emoji": "🍱",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:allergic:noun",
@@ -78,7 +80,8 @@
       "us": "/əˈlɝː.dʒɪk/"
     },
     "emoji": "🤧",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:ingredient:noun",
@@ -104,7 +107,8 @@
       "us": "/ɪnˈɡriː.di.ənt/"
     },
     "emoji": "🥕",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:fresh:adjective",
@@ -128,7 +132,11 @@
       "uk": "/freʃ/",
       "us": "/freʃ/"
     },
-    "emoji": "🌿"
+    "emoji": "🌿",
+    "antonyms": [
+      "stale",
+      "frozen"
+    ]
   },
   {
     "id": "en:frozen:adjective",
@@ -152,7 +160,10 @@
       "uk": "/ˈfrəʊ.zən/",
       "us": "/ˈfroʊ.zən/"
     },
-    "emoji": "🧊"
+    "emoji": "🧊",
+    "antonyms": [
+      "fresh"
+    ]
   },
   {
     "id": "en:tinned:adjective",
@@ -173,7 +184,10 @@
       "uk": "/tɪnd/",
       "us": "/tɪnd/"
     },
-    "emoji": "🥫"
+    "emoji": "🥫",
+    "antonyms": [
+      "fresh"
+    ]
   },
   {
     "id": "en:canned:adjective",
@@ -194,7 +208,10 @@
       "uk": "/kænd/",
       "us": "/kænd/"
     },
-    "emoji": "🥫"
+    "emoji": "🥫",
+    "antonyms": [
+      "fresh"
+    ]
   },
   {
     "id": "en:grill:verb",
@@ -215,7 +232,8 @@
       "uk": "/ɡrɪl/",
       "us": "/ɡrɪl/"
     },
-    "emoji": "🥩"
+    "emoji": "🥩",
+    "no_antonym": true
   },
   {
     "id": "en:steam:verb",
@@ -236,7 +254,8 @@
       "uk": "/stiːm/",
       "us": "/stiːm/"
     },
-    "emoji": "💨"
+    "emoji": "💨",
+    "no_antonym": true
   },
   {
     "id": "en:slice:verb",
@@ -257,7 +276,8 @@
       "uk": "/slaɪs/",
       "us": "/slaɪs/"
     },
-    "emoji": "🍕"
+    "emoji": "🍕",
+    "no_antonym": true
   },
   {
     "id": "en:chop:verb",
@@ -278,7 +298,8 @@
       "uk": "/tʃɒp/",
       "us": "/tʃɑːp/"
     },
-    "emoji": "🔪"
+    "emoji": "🔪",
+    "no_antonym": true
   },
   {
     "id": "en:peel:verb",
@@ -299,7 +320,8 @@
       "uk": "/piːl/",
       "us": "/piːl/"
     },
-    "emoji": "🍌"
+    "emoji": "🍌",
+    "no_antonym": true
   },
   {
     "id": "en:flavour:noun",
@@ -322,7 +344,8 @@
       "us": "/ˈfleɪ.vɚ/"
     },
     "emoji": "👅",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:flavor:noun",
@@ -348,7 +371,8 @@
       "us": "/ˈfleɪ.vɚ/"
     },
     "emoji": "👅",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:vegetarian:noun",
@@ -374,7 +398,8 @@
       "us": "/ˌvedʒ.əˈter.i.ən/"
     },
     "emoji": "🥗",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:vegan:noun",
@@ -400,7 +425,8 @@
       "us": "/ˈviː.ɡən/"
     },
     "emoji": "🌱",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:leftovers:noun",
@@ -426,7 +452,8 @@
       "us": "/ˈleftˌoʊ.vɚz/"
     },
     "emoji": "🍱",
-    "singular_workaround": "a leftover"
+    "singular_workaround": "a leftover",
+    "no_antonym": true
   },
   {
     "id": "en:takeaway:noun",
@@ -452,7 +479,8 @@
       "us": "/ˈteɪk.ə.weɪ/"
     },
     "emoji": "🥡",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:takeout:noun",
@@ -477,7 +505,8 @@
       "us": "/ˈteɪk.aʊt/"
     },
     "emoji": "🥡",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:starter:noun",
@@ -503,7 +532,10 @@
       "us": "/ˈstɑːr.t̬ɚ/"
     },
     "emoji": "🥗",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "dessert"
+    ]
   },
   {
     "id": "en:main:noun",
@@ -526,7 +558,8 @@
       "us": "/meɪn/"
     },
     "emoji": "🥩",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:dessert:noun",
@@ -552,7 +585,10 @@
       "us": "/dɪˈzɝːt/"
     },
     "emoji": "🍰",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "starter"
+    ]
   },
   {
     "id": "en:charge:noun",
@@ -578,7 +614,8 @@
       "us": "/tʃɑːrdʒ/"
     },
     "emoji": "💵",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:aisle:noun",
@@ -601,7 +638,8 @@
       "us": "/aɪl/"
     },
     "emoji": "🛒",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:serving:noun",
@@ -628,7 +666,8 @@
       "us": "/ˈsɝː.vɪŋ/"
     },
     "emoji": "🍽️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:bland:noun",
@@ -654,7 +693,11 @@
       "us": "/blænd/"
     },
     "emoji": "😐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "tasty",
+      "spicy"
+    ]
   },
   {
     "id": "en:raw:noun",
@@ -680,7 +723,10 @@
       "us": "/rɑː/"
     },
     "emoji": "🥩",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "cooked"
+    ]
   },
   {
     "id": "en:boiled:noun",
@@ -706,7 +752,10 @@
       "us": "/bɔɪld/"
     },
     "emoji": "🥚",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "raw"
+    ]
   },
   {
     "id": "en:fried:noun",
@@ -732,7 +781,10 @@
       "us": "/fraɪd/"
     },
     "emoji": "🍳",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "raw"
+    ]
   },
   {
     "id": "en:grilled:noun",
@@ -758,7 +810,10 @@
       "us": "/ɡrɪld/"
     },
     "emoji": "🥩",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "raw"
+    ]
   },
   {
     "id": "en:roasted:noun",
@@ -784,7 +839,10 @@
       "us": "/ˈroʊ.stɪd/"
     },
     "emoji": "🍗",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "raw"
+    ]
   },
   {
     "id": "en:baked:noun",
@@ -810,7 +868,10 @@
       "us": "/beɪkt/"
     },
     "emoji": "🥖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "raw"
+    ]
   },
   {
     "id": "en:steamed:noun",
@@ -836,7 +897,10 @@
       "us": "/stiːmd/"
     },
     "emoji": "💨",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "raw"
+    ]
   },
   {
     "id": "en:chopped:noun",
@@ -862,7 +926,8 @@
       "us": "/tʃɑːpt/"
     },
     "emoji": "🔪",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:sliced:noun",
@@ -888,7 +953,8 @@
       "us": "/slaɪst/"
     },
     "emoji": "🍕",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:mixed:noun",
@@ -914,7 +980,10 @@
       "us": "/mɪkst/"
     },
     "emoji": "🥣",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "separate"
+    ]
   },
   {
     "id": "en:seasoning:noun",
@@ -941,7 +1010,8 @@
       "us": "/ˈsiː.zən.ɪŋ/"
     },
     "emoji": "🧂",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:herb:noun",
@@ -968,7 +1038,8 @@
       "us": "/ɝːb/"
     },
     "emoji": "🌿",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:spice:noun",
@@ -995,7 +1066,8 @@
       "us": "/spaɪs/"
     },
     "emoji": "🌶️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:vinegar:noun",
@@ -1021,7 +1093,8 @@
       "us": "/ˈvɪn.ə.ɡɚ/"
     },
     "emoji": "🍾",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:sauce:noun",
@@ -1048,7 +1121,8 @@
       "us": "/sɑːs/"
     },
     "emoji": "🥫",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:dressing:noun",
@@ -1075,7 +1149,8 @@
       "us": "/ˈdres.ɪŋ/"
     },
     "emoji": "🥗",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:appetizer:noun",
@@ -1102,7 +1177,10 @@
       "us": "/ˈæp.ə.taɪ.zɚ/"
     },
     "emoji": "🥗",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "dessert"
+    ]
   },
   {
     "id": "en:main-course:noun",
@@ -1129,7 +1207,8 @@
       "us": "/ˌmeɪn ˈkɔːrs/"
     },
     "emoji": "🥩",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:side-dish:noun",
@@ -1156,7 +1235,8 @@
       "us": "/ˈsaɪd dɪʃ/"
     },
     "emoji": "🍟",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:calories:noun",
@@ -1183,7 +1263,8 @@
       "us": "/ˈkæl.ɚ.iz/"
     },
     "emoji": "⚡",
-    "singular_workaround": "a calorie"
+    "singular_workaround": "a calorie",
+    "no_antonym": true
   },
   {
     "id": "en:healthy-eating:noun",
@@ -1209,7 +1290,10 @@
       "us": "/ˌhel.θi ˈiː.t̬ɪŋ/"
     },
     "emoji": "🥗",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "unhealthy eating"
+    ]
   },
   {
     "id": "en:buffet:noun",
@@ -1236,7 +1320,8 @@
       "us": "/bəˈfeɪ/"
     },
     "emoji": "🍱",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:generous-portion:noun",
@@ -1263,7 +1348,10 @@
       "us": "/ˌdʒen.ər.əs ˈpɔːr.ʃən/"
     },
     "emoji": "🍱",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "small portion"
+    ]
   },
   {
     "id": "en:homemade:noun",
@@ -1289,6 +1377,10 @@
       "us": "/ˌhoʊmˈmeɪd/"
     },
     "emoji": "🏠",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "store-bought",
+      "bought"
+    ]
   }
 ]

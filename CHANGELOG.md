@@ -40,7 +40,10 @@ All notable changes to this project will be documented in this file.
   - `pluralia_tantum`: 45 entries (removed prohibited plural forms, added `singular_workaround` phrases such as "a pair of ..." where applicable)
   - `false_plural`: 15 entries (removed prohibited plural forms)
   - `invariable`: 9 entries (removed prohibited plural forms)
-- Updated transcription, emoji, countability, synonyms, and antonyms across all 951 entries in `vocabulary/en/c2/` across 20 theme files:
+- Added `synonyms` and `antonyms` (or `no_antonym: true`) across all 1,052 vocabulary entries in `vocabulary/en/c1/` across 33 theme files:
+  - **Synonyms**: Added 1–3 genuine C1-level synonyms per entry matching register and formality across all 1,052 entries.
+  - **Antonyms**: Assigned genuine antonyms to 620 entries (e.g. *meticulous* ~ *careless*, *alleviate* ~ *aggravate*) and set `no_antonym: true` for 432 entries (primarily phrasal verbs, idioms, and terms lacking clear direct opposites).
+- Updated transcription, emoji, and countability fields across all 951 entries in `vocabulary/en/c2/` across 20 theme files:
   - **Transcription**: Added dual-accent British (UK) and American (US) IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard dictionary references for all 951 entries (including full-phrase transcriptions for idioms, proverbs, and multi-word C2 expressions).
   - **Emoji & Symbol**: Evaluated all 951 entries; retained `no_emoji: true` waivers for 736 rare, literary, or formal abstract words (e.g. *perfunctory*, *ubiquitous*, *sui generis*), while adding genuine single emojis, symbols, or combinations to 215 entries with vivid or concrete imagery (e.g. proverbs, idioms, concrete concepts).
   - **Countability & Plurals**: Classified all 311 noun entries in `vocabulary/en/c2/`: 213 abstract/mass nouns as `uncountable` (removing naive plural forms), 96 as `countable` with accurate plural forms, and 2 as `pluralia_tantum` with appropriate `singular_workaround` phrases.

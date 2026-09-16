@@ -24,7 +24,8 @@
       "uk": "/ɒv/",
       "us": "/ɑːv/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:other:verb",
@@ -52,7 +53,8 @@
       "uk": "/ˈʌð.ər/",
       "us": "/ˈʌð.ɚ/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:hand:verb",
@@ -80,7 +82,8 @@
       "uk": "/hænd/",
       "us": "/hænd/"
     },
-    "emoji": "✋"
+    "emoji": "✋",
+    "no_antonym": true
   },
   {
     "id": "en:that:verb",
@@ -104,7 +107,8 @@
       "uk": "/ðæt/",
       "us": "/ðæt/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:course:verb",
@@ -128,7 +132,8 @@
       "uk": "/kɔːs/",
       "us": "/kɔːrs/"
     },
-    "emoji": "📚"
+    "emoji": "📚",
+    "no_antonym": true
   },
   {
     "id": "en:as:verb",
@@ -149,7 +154,8 @@
       "uk": "/æz/",
       "us": "/æz/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:compare:verb",
@@ -174,7 +180,8 @@
       "uk": "/kəmˈpeər/",
       "us": "/kəmˈper/"
     },
-    "emoji": "⚖️"
+    "emoji": "⚖️",
+    "no_antonym": true
   },
   {
     "id": "en:difference:verb",
@@ -199,7 +206,10 @@
       "uk": "/ˈdɪf.ər.əns/",
       "us": "/ˈdɪf.ɚ.əns/"
     },
-    "emoji": "≠"
+    "emoji": "≠",
+    "antonyms": [
+      "similarity"
+    ]
   },
   {
     "id": "en:similar:verb",
@@ -223,7 +233,10 @@
       "uk": "/ˈsɪm.ɪ.lər/",
       "us": "/ˈsɪm.ə.lɚ/"
     },
-    "emoji": "≈"
+    "emoji": "≈",
+    "antonyms": [
+      "different"
+    ]
   },
   {
     "id": "en:opinion:verb",
@@ -244,7 +257,8 @@
       "uk": "/əˈpɪn.jən/",
       "us": "/əˈpɪn.jən/"
     },
-    "emoji": "💬"
+    "emoji": "💬",
+    "no_antonym": true
   },
   {
     "id": "en:argument:verb",
@@ -265,7 +279,10 @@
       "uk": "/ˈɑːɡ.jə.mənt/",
       "us": "/ˈɑːrɡ.jə.mənt/"
     },
-    "emoji": "🗣️"
+    "emoji": "🗣️",
+    "antonyms": [
+      "agreement"
+    ]
   },
   {
     "id": "en:believe:verb",
@@ -289,7 +306,11 @@
       "uk": "/bɪˈliːv/",
       "us": "/bɪˈliːv/"
     },
-    "emoji": "🙏"
+    "emoji": "🙏",
+    "antonyms": [
+      "disbelieve",
+      "doubt"
+    ]
   },
   {
     "id": "en:suppose:verb",
@@ -314,7 +335,8 @@
       "uk": "/səˈpəʊz/",
       "us": "/səˈpoʊz/"
     },
-    "emoji": "🤔"
+    "emoji": "🤔",
+    "no_antonym": true
   },
   {
     "id": "en:sure:verb",
@@ -338,7 +360,11 @@
       "uk": "/ʃɔːr/",
       "us": "/ʃʊr/"
     },
-    "emoji": "👍"
+    "emoji": "👍",
+    "antonyms": [
+      "unsure",
+      "uncertain"
+    ]
   },
   {
     "id": "en:certain:verb",
@@ -359,7 +385,11 @@
       "uk": "/ˈsɜː.tən/",
       "us": "/ˈsɝː.tən/"
     },
-    "emoji": "💯"
+    "emoji": "💯",
+    "antonyms": [
+      "uncertain",
+      "unsure"
+    ]
   },
   {
     "id": "en:unsure:verb",
@@ -380,7 +410,11 @@
       "uk": "/ʌnˈʃɔːr/",
       "us": "/ʌnˈʃʊr/"
     },
-    "emoji": "❓"
+    "emoji": "❓",
+    "antonyms": [
+      "sure",
+      "certain"
+    ]
   },
   {
     "id": "en:probably:adverb",
@@ -404,7 +438,8 @@
       "uk": "/ˈprɒb.ə.bli/",
       "us": "/ˈprɑː.bə.bli/"
     },
-    "emoji": "📊"
+    "emoji": "📊",
+    "no_antonym": true
   },
   {
     "id": "en:possibly:adverb",
@@ -429,7 +464,8 @@
       "uk": "/ˈpɒs.ə.bli/",
       "us": "/ˈpɑː.sə.bli/"
     },
-    "emoji": "❓"
+    "emoji": "❓",
+    "no_antonym": true
   },
   {
     "id": "en:definitely:adverb",
@@ -453,7 +489,8 @@
       "uk": "/ˈdef.ɪ.nət.li/",
       "us": "/ˈdef.ən.ət.li/"
     },
-    "emoji": "💯"
+    "emoji": "💯",
+    "no_antonym": true
   },
   {
     "id": "en:i:verb",
@@ -477,7 +514,8 @@
       "uk": "/aɪ/",
       "us": "/aɪ/"
     },
-    "emoji": "👤"
+    "emoji": "👤",
+    "no_antonym": true
   },
   {
     "id": "en:actually:adverb",
@@ -501,7 +539,8 @@
       "uk": "/ˈæk.tʃu.ə.li/",
       "us": "/ˈæk.tʃu.ə.li/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:example:verb",
@@ -525,7 +564,8 @@
       "uk": "/ɪɡˈzɑːm.pəl/",
       "us": "/ɪɡˈzæm.pəl/"
     },
-    "emoji": "💡"
+    "emoji": "💡",
+    "no_antonym": true
   },
   {
     "id": "en:such:verb",
@@ -546,7 +586,8 @@
       "uk": "/sʌtʃ/",
       "us": "/sʌtʃ/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:prefer:verb",
@@ -570,7 +611,8 @@
       "uk": "/prɪˈfɜːr/",
       "us": "/prɪˈfɝː/"
     },
-    "emoji": "❤️"
+    "emoji": "❤️",
+    "no_antonym": true
   },
   {
     "id": "en:favourite:verb",
@@ -591,7 +633,10 @@
       "uk": "/ˈfeɪ.vər.ɪt/",
       "us": "/ˈfeɪ.vər.ɪt/"
     },
-    "emoji": "⭐"
+    "emoji": "⭐",
+    "antonyms": [
+      "least favourite"
+    ]
   },
   {
     "id": "en:favorite:verb",
@@ -612,7 +657,10 @@
       "uk": "/ˈfeɪ.vər.ɪt/",
       "us": "/ˈfeɪ.vər.ɪt/"
     },
-    "emoji": "⭐"
+    "emoji": "⭐",
+    "antonyms": [
+      "least favorite"
+    ]
   },
   {
     "id": "en:choice:verb",
@@ -633,7 +681,8 @@
       "uk": "/tʃɔɪs/",
       "us": "/tʃɔɪs/"
     },
-    "emoji": "👉"
+    "emoji": "👉",
+    "no_antonym": true
   },
   {
     "id": "en:convince:verb",
@@ -657,7 +706,8 @@
       "uk": "/kənˈvɪns/",
       "us": "/kənˈvɪns/"
     },
-    "emoji": "🗣️"
+    "emoji": "🗣️",
+    "no_antonym": true
   },
   {
     "id": "en:persuade:verb",
@@ -681,7 +731,10 @@
       "uk": "/pəˈsweɪd/",
       "us": "/pɚˈsweɪd/"
     },
-    "emoji": "🗣️"
+    "emoji": "🗣️",
+    "antonyms": [
+      "dissuade"
+    ]
   },
   {
     "id": "en:i-think:phrase",
@@ -706,7 +759,8 @@
       "uk": "/aɪ θɪŋk/",
       "us": "/aɪ θɪŋk/"
     },
-    "emoji": "💭"
+    "emoji": "💭",
+    "no_antonym": true
   },
   {
     "id": "en:i-believe:phrase",
@@ -731,7 +785,8 @@
       "uk": "/aɪ bɪˈliːv/",
       "us": "/aɪ bɪˈliːv/"
     },
-    "emoji": "🙏"
+    "emoji": "🙏",
+    "no_antonym": true
   },
   {
     "id": "en:in-my-opinion:phrase",
@@ -756,7 +811,8 @@
       "uk": "/ɪn maɪ əˈpɪn.jən/",
       "us": "/ɪn maɪ əˈpɪn.jən/"
     },
-    "emoji": "💬"
+    "emoji": "💬",
+    "no_antonym": true
   },
   {
     "id": "en:i-guess:phrase",
@@ -781,7 +837,8 @@
       "uk": "/aɪ ɡes/",
       "us": "/aɪ ɡes/"
     },
-    "emoji": "🎲"
+    "emoji": "🎲",
+    "no_antonym": true
   },
   {
     "id": "en:i-suppose:phrase",
@@ -806,7 +863,8 @@
       "uk": "/aɪ səˈpəʊz/",
       "us": "/aɪ səˈpoʊz/"
     },
-    "emoji": "🤔"
+    "emoji": "🤔",
+    "no_antonym": true
   },
   {
     "id": "en:i-doubt-it:phrase",
@@ -831,7 +889,10 @@
       "uk": "/aɪ daʊt ɪt/",
       "us": "/aɪ daʊt ɪt/"
     },
-    "emoji": "🤨"
+    "emoji": "🤨",
+    "antonyms": [
+      "I believe so"
+    ]
   },
   {
     "id": "en:exactly:phrase",
@@ -856,7 +917,8 @@
       "uk": "/ɪɡˈzækt.li/",
       "us": "/ɪɡˈzækt.li/"
     },
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "no_antonym": true
   },
   {
     "id": "en:that-s-true:phrase",
@@ -881,7 +943,11 @@
       "uk": "/ðæts truː/",
       "us": "/ðæts truː/"
     },
-    "emoji": "✔️"
+    "emoji": "✔️",
+    "antonyms": [
+      "that's false",
+      "that's not true"
+    ]
   },
   {
     "id": "en:that-s-not-true:phrase",
@@ -906,7 +972,10 @@
       "uk": "/ðæts nɒt truː/",
       "us": "/ðæts nɑːt truː/"
     },
-    "emoji": "❌"
+    "emoji": "❌",
+    "antonyms": [
+      "that's true"
+    ]
   },
   {
     "id": "en:you-re-right:phrase",
@@ -931,7 +1000,10 @@
       "uk": "/jɔː raɪt/",
       "us": "/jʊr raɪt/"
     },
-    "emoji": "✅"
+    "emoji": "✅",
+    "antonyms": [
+      "you're wrong"
+    ]
   },
   {
     "id": "en:you-re-wrong:phrase",
@@ -956,7 +1028,10 @@
       "uk": "/jɔː rɒŋ/",
       "us": "/jʊr rɑːŋ/"
     },
-    "emoji": "❌"
+    "emoji": "❌",
+    "antonyms": [
+      "you're right"
+    ]
   },
   {
     "id": "en:it-depends:phrase",
@@ -981,7 +1056,8 @@
       "uk": "/ɪt dɪˈpendz/",
       "us": "/ɪt dɪˈpendz/"
     },
-    "emoji": "⚖️"
+    "emoji": "⚖️",
+    "no_antonym": true
   },
   {
     "id": "en:on-the-other-hand:phrase",
@@ -1006,7 +1082,8 @@
       "uk": "/ɒn ði ˈʌð.ər hænd/",
       "us": "/ɑːn ði ˈʌð.ɚ hænd/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:honestly:phrase",
@@ -1031,7 +1108,8 @@
       "uk": "/ˈɒn.ɪst.li/",
       "us": "/ˈɑː.nɪst.li/"
     },
-    "emoji": "🤝"
+    "emoji": "🤝",
+    "no_antonym": true
   },
   {
     "id": "en:to-be-honest:phrase",
@@ -1056,7 +1134,8 @@
       "uk": "/tə bi ˈɒn.ɪst/",
       "us": "/tə bi ˈɑː.nɪst/"
     },
-    "emoji": "🤝"
+    "emoji": "🤝",
+    "no_antonym": true
   },
   {
     "id": "en:as-far-as-i-know:phrase",
@@ -1081,7 +1160,8 @@
       "uk": "/əz fɑːr əz aɪ nəʊ/",
       "us": "/əz fɑːr əz aɪ noʊ/"
     },
-    "emoji": "💡"
+    "emoji": "💡",
+    "no_antonym": true
   },
   {
     "id": "en:it-seems-that:phrase",
@@ -1106,7 +1186,8 @@
       "uk": "/ɪt siːmz ðæt/",
       "us": "/ɪt siːmz ðæt/"
     },
-    "emoji": "💡"
+    "emoji": "💡",
+    "no_antonym": true
   },
   {
     "id": "en:it-looks-like:phrase",
@@ -1131,7 +1212,8 @@
       "uk": "/ɪt lʊks laɪk/",
       "us": "/ɪt lʊks laɪk/"
     },
-    "emoji": "👀"
+    "emoji": "👀",
+    "no_antonym": true
   },
   {
     "id": "en:i-d-say:phrase",
@@ -1156,7 +1238,8 @@
       "uk": "/aɪd seɪ/",
       "us": "/aɪd seɪ/"
     },
-    "emoji": "🗣️"
+    "emoji": "🗣️",
+    "no_antonym": true
   },
   {
     "id": "en:personally:phrase",
@@ -1181,7 +1264,8 @@
       "uk": "/ˈpɜː.sən.əl.i/",
       "us": "/ˈpɝː.sən.əl.i/"
     },
-    "emoji": "👤"
+    "emoji": "👤",
+    "no_antonym": true
   },
   {
     "id": "en:i-feel-that:phrase",
@@ -1206,6 +1290,7 @@
       "uk": "/aɪ fiːl ðæt/",
       "us": "/aɪ fiːl ðæt/"
     },
-    "emoji": "❤️"
+    "emoji": "❤️",
+    "no_antonym": true
   }
 ]
