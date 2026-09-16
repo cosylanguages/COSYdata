@@ -24,7 +24,8 @@
       "us": "/ˌɪn.t̬ɚˈsek.ʃən/"
     },
     "emoji": "🚥",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:crosswalk:noun",
@@ -51,7 +52,8 @@
       "us": "/ˈkrɑːs.wɑːk/"
     },
     "emoji": "🚶",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:sidewalk:noun",
@@ -78,7 +80,8 @@
       "us": "/ˈsaɪd.wɑːk/"
     },
     "emoji": "🚶",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:pavement:noun",
@@ -105,7 +108,8 @@
       "us": "/ˈpeɪv.mənt/"
     },
     "emoji": "🚶",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:block:noun",
@@ -132,7 +136,8 @@
       "us": "/blɑːk/"
     },
     "emoji": "🏢",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:avenue:noun",
@@ -159,7 +164,8 @@
       "us": "/ˈæv.ə.nuː/"
     },
     "emoji": "🛣️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:lane:noun",
@@ -186,7 +192,8 @@
       "us": "/leɪn/"
     },
     "emoji": "🛣️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:one-way-street:noun",
@@ -213,7 +220,10 @@
       "us": "/ˌwʌn.weɪ ˈstriːt/"
     },
     "emoji": "⬆️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "two-way street"
+    ]
   },
   {
     "id": "en:dead-end:noun",
@@ -240,7 +250,8 @@
       "us": "/ˌded ˈend/"
     },
     "emoji": "🚫",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:parking-lot:noun",
@@ -267,7 +278,8 @@
       "us": "/ˈpɑːr.kɪŋ lɑːt/"
     },
     "emoji": "🅿️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:car-park:noun",
@@ -294,7 +306,8 @@
       "us": "/ˈkɑːr pɑːrk/"
     },
     "emoji": "🅿️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:entrance:noun",
@@ -321,7 +334,10 @@
       "us": "/ˈen.trəns/"
     },
     "emoji": "🚪",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "exit"
+    ]
   },
   {
     "id": "en:exit:noun",
@@ -348,7 +364,10 @@
       "us": "/ˈeɡ.zɪt/"
     },
     "emoji": "🚪",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "entrance"
+    ]
   },
   {
     "id": "en:gps:noun",
@@ -374,7 +393,8 @@
       "uk": "/ˌdʒiː.piːˈes/",
       "us": "/ˌdʒiː.piːˈes/"
     },
-    "emoji": "📍"
+    "emoji": "📍",
+    "no_antonym": true
   },
   {
     "id": "en:navigation:noun",
@@ -400,7 +420,8 @@
       "us": "/ˌnæv.əˈɡeɪ.ʃən/"
     },
     "emoji": "🧭",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:nearby:noun",
@@ -426,7 +447,11 @@
       "us": "/ˌnɪrˈbaɪ/"
     },
     "emoji": "📍",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "faraway",
+      "distant"
+    ]
   },
   {
     "id": "en:uptown:noun",
@@ -452,7 +477,10 @@
       "us": "/ˌʌpˈtaʊn/"
     },
     "emoji": "🏙️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "downtown"
+    ]
   },
   {
     "id": "en:district:noun",
@@ -479,6 +507,7 @@
       "us": "/ˈdɪs.trɪkt/"
     },
     "emoji": "🏙️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   }
 ]
