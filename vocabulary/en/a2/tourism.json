@@ -23,7 +23,8 @@
       "us": "/ˈtʊr.ɪst/"
     },
     "emoji": "📸",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:tourism:noun",
@@ -49,7 +50,8 @@
       "us": "/ˈtʊr.ɪ.zəm/"
     },
     "emoji": "🧳",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:passport:noun",
@@ -75,7 +77,8 @@
       "us": "/ˈpæs.pɔːrt/"
     },
     "emoji": "🛂",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:visa:noun",
@@ -101,7 +104,8 @@
       "us": "/ˈviː.zə/"
     },
     "emoji": "🛂",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:luggage:noun",
@@ -126,7 +130,8 @@
       "uk": "/ˈlʌɡ.ɪdʒ/",
       "us": "/ˈlʌɡ.ɪdʒ/"
     },
-    "emoji": "🧳"
+    "emoji": "🧳",
+    "no_antonym": true
   },
   {
     "id": "en:baggage:noun",
@@ -151,7 +156,8 @@
       "uk": "/ˈbæɡ.ɪdʒ/",
       "us": "/ˈbæɡ.ɪdʒ/"
     },
-    "emoji": "🧳"
+    "emoji": "🧳",
+    "no_antonym": true
   },
   {
     "id": "en:booking:noun",
@@ -174,7 +180,8 @@
       "us": "/ˈbʊk.ɪŋ/"
     },
     "emoji": "📅",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:reservation:noun",
@@ -200,7 +207,8 @@
       "us": "/ˌrez.ɚˈveɪ.ʃən/"
     },
     "emoji": "📅",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:reserve:noun",
@@ -227,7 +235,10 @@
       "us": "/rɪˈzɝːv/"
     },
     "emoji": "🔖",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cancel"
+    ]
   },
   {
     "id": "en:departure:noun",
@@ -250,7 +261,10 @@
       "us": "/dɪˈpɑːr.tʃɚ/"
     },
     "emoji": "🛫",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "arrival"
+    ]
   },
   {
     "id": "en:arrival:noun",
@@ -273,7 +287,10 @@
       "us": "/əˈraɪ.vəl/"
     },
     "emoji": "🛬",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "departure"
+    ]
   },
   {
     "id": "en:delay:noun",
@@ -299,7 +316,8 @@
       "us": "/dɪˈleɪ/"
     },
     "emoji": "⏳",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:cancel:noun",
@@ -325,7 +343,11 @@
       "us": "/ˈkæn.səl/"
     },
     "emoji": "❌",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "confirm",
+      "book"
+    ]
   },
   {
     "id": "en:flight:noun",
@@ -351,7 +373,8 @@
       "us": "/flaɪt/"
     },
     "emoji": "✈️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:gate:noun",
@@ -374,7 +397,8 @@
       "us": "/ɡeɪt/"
     },
     "emoji": "🚪",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:boarding:noun",
@@ -396,7 +420,10 @@
       "us": "/ˈbɔːr.dɪŋ/"
     },
     "emoji": "🎫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "disembarking"
+    ]
   },
   {
     "id": "en:railway:noun",
@@ -419,7 +446,8 @@
       "us": "/ˈreɪl.weɪ/"
     },
     "emoji": "🛤️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:subway:noun",
@@ -445,7 +473,8 @@
       "us": "/ˈsʌb.weɪ/"
     },
     "emoji": "🚇",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:underground:noun",
@@ -467,7 +496,10 @@
       "us": "/ˈʌn.dɚ.ɡraʊnd/"
     },
     "emoji": "🚇",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "overground"
+    ]
   },
   {
     "id": "en:metro:noun",
@@ -493,7 +525,8 @@
       "us": "/ˈmet.roʊ/"
     },
     "emoji": "🚇",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:reception:noun",
@@ -516,7 +549,8 @@
       "us": "/rɪˈsep.ʃən/"
     },
     "emoji": "🛎️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:check-in:noun",
@@ -542,7 +576,10 @@
       "us": "/ˈtʃek.ɪn/"
     },
     "emoji": "🛎️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "check-out"
+    ]
   },
   {
     "id": "en:check-out:noun",
@@ -568,7 +605,10 @@
       "us": "/ˈtʃek.aʊt/"
     },
     "emoji": "🔑",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "check-in"
+    ]
   },
   {
     "id": "en:guide:noun",
@@ -591,7 +631,8 @@
       "us": "/ɡaɪd/"
     },
     "emoji": "🚩",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:tour:noun",
@@ -617,7 +658,8 @@
       "us": "/tʊr/"
     },
     "emoji": "🚌",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:guidebook:noun",
@@ -643,7 +685,8 @@
       "us": "/ˈɡaɪd.bʊk/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:sightseeing:noun",
@@ -668,7 +711,8 @@
       "us": "/ˈsaɪtˌsiː.ɪŋ/"
     },
     "emoji": "📸",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:souvenir:noun",
@@ -694,7 +738,8 @@
       "us": "/ˌsuː.vənˈɪr/"
     },
     "emoji": "🎁",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:postcard:noun",
@@ -720,7 +765,8 @@
       "us": "/ˈpoʊst.kɑːrd/"
     },
     "emoji": "🏞️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:abroad:noun",
@@ -745,7 +791,10 @@
       "us": "/əˈbrɑːd/"
     },
     "emoji": "✈️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "home"
+    ]
   },
   {
     "id": "en:foreign:noun",
@@ -774,7 +823,11 @@
       "us": "/ˈfɔːr.ən/"
     },
     "emoji": "🌐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "domestic",
+      "native"
+    ]
   },
   {
     "id": "en:overseas:noun",
@@ -796,7 +849,10 @@
       "uk": "/ˌəʊ.vəˈsiːz/",
       "us": "/ˌoʊ.vɚˈsiːz/"
     },
-    "emoji": "✈️"
+    "emoji": "✈️",
+    "antonyms": [
+      "domestic"
+    ]
   },
   {
     "id": "en:destination:noun",
@@ -822,7 +878,10 @@
       "us": "/ˌdes.təˈneɪ.ʃən/"
     },
     "emoji": "📍",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "origin"
+    ]
   },
   {
     "id": "en:itinerary:noun",
@@ -852,7 +911,8 @@
       "us": "/aɪˈtɪn.ə.rer.i/"
     },
     "emoji": "📋",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:route:noun",
@@ -875,7 +935,8 @@
       "us": "/ruːt/"
     },
     "emoji": "🗺️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:customs:noun",
@@ -901,7 +962,8 @@
       "us": "/ˈkʌs.təmz/"
     },
     "emoji": "🛃",
-    "singular_workaround": "a customs declaration"
+    "singular_workaround": "a customs declaration",
+    "no_antonym": true
   },
   {
     "id": "en:accommodation:noun",
@@ -923,7 +985,8 @@
       "uk": "/əˌkɒm.əˈdeɪ.ʃən/",
       "us": "/əˌkɑː.məˈdeɪ.ʃən/"
     },
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "no_antonym": true
   },
   {
     "id": "en:campsite:noun",
@@ -949,7 +1012,8 @@
       "us": "/ˈkæmp.saɪt/"
     },
     "emoji": "🏕️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:tent:noun",
@@ -972,7 +1036,8 @@
       "us": "/tent/"
     },
     "emoji": "⛺",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:hostel:noun",
@@ -998,7 +1063,8 @@
       "us": "/ˈhɑː.stəl/"
     },
     "emoji": "🛏️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:tour-guide:noun",
@@ -1025,7 +1091,8 @@
       "us": "/ˈtʊr ɡaɪd/"
     },
     "emoji": "🚩",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:cancelled:noun",
@@ -1051,7 +1118,10 @@
       "us": "/ˈkæn.səld/"
     },
     "emoji": "❌",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "confirmed"
+    ]
   },
   {
     "id": "en:boarding-pass:noun",
@@ -1078,7 +1148,8 @@
       "uk": "/ˈbɔː.dɪŋ pɑːs/",
       "us": "/ˈbɔːr.dɪŋ pæs/"
     },
-    "emoji": "🎫"
+    "emoji": "🎫",
+    "no_antonym": true
   },
   {
     "id": "en:embassy:noun",
@@ -1105,7 +1176,8 @@
       "us": "/ˈem.bə.si/"
     },
     "emoji": "🏛️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:exchange-rate:noun",
@@ -1132,7 +1204,8 @@
       "us": "/ɪksˈtʃeɪndʒ reɪt/"
     },
     "emoji": "💱",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:cruise:noun",
@@ -1159,7 +1232,8 @@
       "us": "/kruːz/"
     },
     "emoji": "🚢",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:foreigner:noun",
@@ -1186,7 +1260,11 @@
       "us": "/ˈfɔːr.ən.ɚ/"
     },
     "emoji": "👤",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "native",
+      "local"
+    ]
   },
   {
     "id": "en:culture-shock:noun",
@@ -1212,7 +1290,8 @@
       "us": "/ˈkʌl.tʃɚ ʃɑːk/"
     },
     "emoji": "🤯",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:jet-lag:noun",
@@ -1238,6 +1317,7 @@
       "us": "/ˈdʒet læɡ/"
     },
     "emoji": "😴",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   }
 ]

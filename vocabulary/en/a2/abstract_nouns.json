@@ -23,7 +23,8 @@
       "us": "/ˈpɝː.pəs/"
     },
     "emoji": "🎯",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:society:noun",
@@ -53,7 +54,8 @@
       "us": "/səˈsaɪ.ə.t̬i/"
     },
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:community:noun",
@@ -83,7 +85,8 @@
       "us": "/kəˈmjuː.nə.t̬i/"
     },
     "emoji": "🏘️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:rights:noun",
@@ -110,7 +113,8 @@
       "us": "/raɪts/"
     },
     "emoji": "⚖️",
-    "singular_workaround": "a right"
+    "singular_workaround": "a right",
+    "no_antonym": true
   },
   {
     "id": "en:identity:noun",
@@ -142,7 +146,8 @@
       "us": "/aɪˈden.t̬ə.t̬i/"
     },
     "emoji": "🪪",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:result:noun",
@@ -168,7 +173,10 @@
       "us": "/rɪˈzʌlt/"
     },
     "emoji": "📊",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:cause:noun",
@@ -191,7 +199,11 @@
       "us": "/kɑːz/"
     },
     "emoji": "🌱",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "effect",
+      "result"
+    ]
   },
   {
     "id": "en:consequence:noun",
@@ -221,7 +233,10 @@
       "us": "/ˈkɑːn.sə.kwəns/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:effect:noun",
@@ -252,7 +267,10 @@
       "us": "/əˈfekt/"
     },
     "emoji": "⚡",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "cause"
+    ]
   },
   {
     "id": "en:behaviour:noun",
@@ -278,7 +296,8 @@
       "us": "/bɪˈheɪ.vjɚ/"
     },
     "emoji": "🧑",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:behavior:noun",
@@ -307,7 +326,8 @@
       "us": "/bɪˈheɪ.vjɚ/"
     },
     "emoji": "🧑",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:population:noun",
@@ -330,7 +350,8 @@
       "us": "/ˌpɑː.pjəˈleɪ.ʃən/"
     },
     "emoji": "👨‍👩‍👧‍👦",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:government:noun",
@@ -360,7 +381,8 @@
       "us": "/ˈɡʌv.ɚn.mənt/"
     },
     "emoji": "🏛️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:industry:noun",
@@ -387,7 +409,8 @@
       "us": "/ˈɪn.də.stri/"
     },
     "emoji": "🏭",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:economy:noun",
@@ -418,7 +441,8 @@
       "us": "/ɪˈkɑː.nə.mi/"
     },
     "emoji": "📈",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:success:noun",
@@ -441,7 +465,10 @@
       "uk": "/səkˈses/",
       "us": "/səkˈses/"
     },
-    "emoji": "🏆"
+    "emoji": "🏆",
+    "antonyms": [
+      "failure"
+    ]
   },
   {
     "id": "en:failure:noun",
@@ -468,7 +495,10 @@
       "us": "/ˈfeɪ.ljɚ/"
     },
     "emoji": "❌",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "success"
+    ]
   },
   {
     "id": "en:advantage:noun",
@@ -498,7 +528,10 @@
       "us": "/ədˈvæn.t̬ɪdʒ/"
     },
     "emoji": "👍",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "disadvantage"
+    ]
   },
   {
     "id": "en:disadvantage:noun",
@@ -524,7 +557,10 @@
       "us": "/ˌdɪs.ədˈvæn.t̬ɪdʒ/"
     },
     "emoji": "👎",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "advantage"
+    ]
   },
   {
     "id": "en:achievement:noun",
@@ -550,7 +586,10 @@
       "us": "/əˈtʃiːv.mənt/"
     },
     "emoji": "🏆",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "failure"
+    ]
   },
   {
     "id": "en:goal:noun",
@@ -579,7 +618,8 @@
       "us": "/ɡoʊl/"
     },
     "emoji": "🎯",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:target:noun",
@@ -605,7 +645,8 @@
       "us": "/ˈtɑːr.ɡɪt/"
     },
     "emoji": "🎯",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:challenge:noun",
@@ -631,7 +672,8 @@
       "us": "/ˈtʃæl.ɪndʒ/"
     },
     "emoji": "🧗",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:opportunity:noun",
@@ -657,7 +699,8 @@
       "us": "/ˌɑː.pɚˈtuː.nə.t̬i/"
     },
     "emoji": "🚪",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:issue:noun",
@@ -684,7 +727,8 @@
       "us": "/ˈɪs.juː/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:matter:noun",
@@ -711,7 +755,8 @@
       "us": "/ˈmæt̬.ɚ/"
     },
     "emoji": "📌",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:situation:noun",
@@ -737,7 +782,8 @@
       "us": "/ˌsɪtʃ.uˈeɪ.ʃən/"
     },
     "emoji": "📍",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:condition:noun",
@@ -767,7 +813,8 @@
       "us": "/kənˈdɪʃ.ən/"
     },
     "emoji": "📋",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:circumstance:noun",
@@ -793,7 +840,8 @@
       "us": "/ˈsɝː.kəm.stæns/"
     },
     "emoji": "🌐",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:attitude:noun",
@@ -823,7 +871,8 @@
       "us": "/ˈæt̬.ə.tuːd/"
     },
     "emoji": "💭",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:habit:noun",
@@ -853,7 +902,8 @@
       "us": "/ˈhæb.ɪt/"
     },
     "emoji": "🔄",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:lifestyle:noun",
@@ -880,7 +930,8 @@
       "us": "/ˈlaɪf.staɪl/"
     },
     "emoji": "🧘",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:personality:noun",
@@ -903,7 +954,8 @@
       "us": "/ˌpɝː.sənˈæl.ə.t̬i/"
     },
     "emoji": "😊",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:freedom:noun",
@@ -928,6 +980,10 @@
       "us": "/ˈfriː.dəm/"
     },
     "emoji": "🕊️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "slavery",
+      "restriction"
+    ]
   }
 ]
