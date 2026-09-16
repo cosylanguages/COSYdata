@@ -5,15 +5,13 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
-- Replaced templated placeholder text with genuine B1 definitions and 8–14 word example sentences across all 1,354 entries in `vocabulary/en/b1/` across all 40 theme files:
-  - Batch 1 (210 entries): `abstract_concepts.json`, `abstract_nouns.json`, `cause_effect.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`.
-  - Batch 2 (285 entries): `economy.json`, `education.json`, `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `family.json`, `food_health.json`.
-  - Batch 3 (333 entries): `geography.json`, `global_issues.json`, `grammar.json`, `health.json`, `idioms.json`, `linking_words.json`, `media.json`, `opinions.json`.
-  - Batch 4 (272 entries): `personality.json`, `phrasal_verbs.json`, `politics.json`, `register.json`, `relationships.json`, `science.json`, `society.json`, `sports.json`.
-  - Batch 5 (254 entries): `statistics.json`, `technology.json`, `time.json`, `urban_housing.json`, `verbs.json`, `verbs_cognition.json`, `word_building.json`, `work.json`.
-- Added B1-register synonyms and antonyms across all 1,354 vocabulary entries in `vocabulary/en/b1/` across 40 theme files:
-  - **Synonyms**: Added 3,229 synonyms across all 1,354 B1 entries (1–3 terms per entry appropriate to B1 level, using plainer phrases/idioms for collocations and expressions).
-  - **Antonyms**: Added 1,179 genuine antonyms across 710 entries; applied `no_antonym: true` waivers to 644 entries representing idioms, collocations, or unique concepts with no direct opposite.
+- Rewrote templated placeholder definitions and examples into bespoke A0/A1-level content across 290 vocabulary entries in Batch 4 (9 files in `vocabulary/en/a0_a1/`: `school.json`, `shapes_materials.json`, `shopping.json`, `sports_hobbies.json`, `technology.json`, `time.json`, `transport.json`, `verbs.json`, `weather.json`).
+- Rewrote templated placeholder definitions and examples into bespoke A0/A1-level content across 329 vocabulary entries in Batch 3 (9 files in `vocabulary/en/a0_a1/`: `jobs.json`, `measurement.json`, `money_shopping.json`, `nationalities.json`, `numbers.json`, `objects.json`, `places_transport.json`, `prepositions.json`, `pronouns.json`).
+- Rewrote templated placeholder definitions and examples into bespoke A0/A1-level content across 516 vocabulary entries in Batch 2 (9 files in `vocabulary/en/a0_a1/`: `daily_verbs.json`, `directions.json`, `expressions.json`, `family.json`, `feelings.json`, `food_drink.json`, `general_adjectives.json`, `geography.json`, `house_furniture.json`).
+- Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,277 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
+  - **Transcriptions**: Sourced and formatted standard dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) for all 1,277 entries from reliable dictionary references (RP for UK, General American for US), providing full-phrase transcriptions for multi-word collocations, idioms, phrasal verbs, and expressions.
+  - **Emoji & Symbols**: Evaluated representative emojis, symbols, and combinations across all 1,277 entries; assigned emojis to 1,150 entries and applied `no_emoji: true` waivers to 127 highly abstract, academic, political, analytical, or function terms where forcing an emoji would be misleading.
+  - **Countability & Plurals**: Classified and updated all 561 noun entries (`countable`: 352 with correct plural forms, `uncountable`: 183 abstract/mass nouns removing naive plurals, `pluralia_tantum`: 22 with appropriate `singular_workaround` entries where applicable, and `false_plural`: 4).
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
   - **Transcriptions**: Converted all 1,361 entries to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard learner dictionaries (RP for UK, General American for US), including full phrase transcriptions for multi-word entries.
   - **Emoji & Symbols**: Assigned representative emojis, directional/preposition Unicode symbols, or 2-unit logical combinations across 1,322 entries; set `no_emoji: true` for 39 purely abstract or function/connector words.
