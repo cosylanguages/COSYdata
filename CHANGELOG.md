@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Updated C1 vocabulary entries in Batch 4 (`register.json`, `rhetoric.json`, `science.json`, `society.json`, `sophisticated_adjectives.json`, `synonyms.json`, `time.json`, `word_building.json`, `work.json` — 273 total entries):
+  - **Transcription**: Added UK/US dual IPA transcriptions to all 273 entries.
+  - **Emoji/Symbol**: Updated emoji/symbol representations across 273 entries (268 with representative single/compound emojis, 5 with `no_emoji: true` waivers for abstract terms).
+  - **Countability & Plurals**: Added schema-compliant `countability` and accurate `plural_form` fields to all 114 noun entries (43 countable, 66 uncountable, 5 pluralia_tantum with `singular_workaround`).
+- Updated C1 vocabulary entries in Batch 3 (`linking_words.json`, `media.json`, `nuanced_verbs.json`, `opinions.json`, `personality.json`, `phrasal_verbs.json`, `politics.json`, `psychology.json` — 277 total entries):
+  - **Transcription**: Added UK/US dual IPA transcriptions to all 277 entries.
+  - **Emoji/Symbol**: Updated emoji/symbol representations across 277 entries (249 with representative single/compound emojis, 28 with `no_emoji: true` waivers for functional or abstract terms).
+  - **Countability & Plurals**: Added schema-compliant `countability` and accurate `plural_form` fields to all 104 noun entries (51 countable, 50 uncountable, 3 pluralia_tantum with `singular_workaround`).
+- Updated C1 vocabulary entries in Batch 2 (`crime.json`, `economy.json`, `education.json`, `emotions.json`, `environment.json`, `ethics.json`, `health.json`, `idioms.json` — 255 total entries):
+  - **Transcription**: Added UK/US dual IPA transcriptions to all 255 entries.
+  - **Emoji/Symbol**: Updated emoji/symbol representations across 255 entries (253 with representative single/compound emojis, 2 with `no_emoji: true` waivers for abstract terms).
+  - **Countability & Plurals**: Added schema-compliant `countability` and accurate `plural_form` fields to all 109 noun entries (31 countable, 74 uncountable, 4 pluralia_tantum with `singular_workaround`).
+- Updated C1 vocabulary entries in Batch 1 (`abstract_nouns.json`, `academic_vocabulary.json`, `arts.json`, `business.json`, `collocations.json`, `communication.json`, `comparisons.json`, `conflict.json` — 247 total entries):
+  - **Transcription**: Added UK/US dual IPA transcriptions to all 247 entries.
+  - **Emoji/Symbol**: Updated emoji/symbol representations across 247 entries (219 with representative single/compound emojis, 28 with `no_emoji: true` waivers for abstract/functional terms).
+  - **Countability & Plurals**: Added schema-compliant `countability` and accurate `plural_form` fields to all 147 noun entries (51 countable, 94 uncountable, 2 pluralia_tantum with `singular_workaround`).
 - Separated all English CEFR vocabulary entries into dedicated level subdirectories under `vocabulary/en/`:
   - `a0_a1/`: 1,581 A0 and A1 level entries across 36 theme files.
   - `a2/`: 1,361 A2 level entries across 37 theme files.
