@@ -20,7 +20,13 @@
       "us": "/kraɪˈtɪr.i.ən/"
     },
     "no_emoji": true,
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "standard",
+      "benchmark",
+      "yardstick"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:derive:verb",
@@ -44,7 +50,16 @@
       "uk": "/dɪˈraɪv/",
       "us": "/dɪˈraɪv/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "synonyms": [
+      "obtain",
+      "extract",
+      "deduce"
+    ],
+    "antonyms": [
+      "impart",
+      "provide"
+    ]
   },
   {
     "id": "en:establish:verb",
@@ -65,7 +80,16 @@
       "uk": "/ɪˈstæb.lɪʃ/",
       "us": "/ɪˈstæb.lɪʃ/"
     },
-    "emoji": "🏛️"
+    "emoji": "🏛️",
+    "synonyms": [
+      "institute",
+      "set up",
+      "found"
+    ],
+    "antonyms": [
+      "abolish",
+      "dismantle"
+    ]
   },
   {
     "id": "en:interpretation:noun",
@@ -91,7 +115,16 @@
       "us": "/ɪnˌtɝː.prəˈteɪ.ʃən/"
     },
     "emoji": "🗣️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "explanation",
+      "reading",
+      "understanding"
+    ],
+    "antonyms": [
+      "misinterpretation",
+      "misunderstanding"
+    ]
   },
   {
     "id": "en:notion:noun",
@@ -117,7 +150,16 @@
       "us": "/ˈnoʊ.ʃən/"
     },
     "emoji": "💡",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "concept",
+      "impression",
+      "perception"
+    ],
+    "antonyms": [
+      "fact",
+      "reality"
+    ]
   },
   {
     "id": "en:phenomena:noun",
@@ -140,7 +182,13 @@
     },
     "emoji": "✨",
     "countability": "false_plural",
-    "singular_workaround": "phenomenon"
+    "singular_workaround": "phenomenon",
+    "synonyms": [
+      "occurrences",
+      "events",
+      "facts"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:underlying:adjective",
@@ -161,7 +209,17 @@
       "uk": "/ˌʌn.dəˈlaɪ.ɪŋ/",
       "us": "/ˌʌn.dɚˈlaɪ.ɪŋ/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "synonyms": [
+      "fundamental",
+      "implicit",
+      "latent"
+    ],
+    "antonyms": [
+      "surface",
+      "explicit",
+      "overt"
+    ]
   },
   {
     "id": "en:valid:adjective",
@@ -182,7 +240,16 @@
       "uk": "/ˈvæl.ɪd/",
       "us": "/ˈvæl.ɪd/"
     },
-    "emoji": "✅"
+    "emoji": "✅",
+    "synonyms": [
+      "legitimate",
+      "sound",
+      "well-founded"
+    ],
+    "antonyms": [
+      "invalid",
+      "unfounded"
+    ]
   },
   {
     "id": "en:validity:noun",
@@ -207,7 +274,16 @@
       "us": "/vəˈlɪd.ə.t̬i/"
     },
     "emoji": "✅",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "legitimacy",
+      "soundness",
+      "authenticity"
+    ],
+    "antonyms": [
+      "invalidity",
+      "inaccuracy"
+    ]
   },
   {
     "id": "en:coherent:adjective",
@@ -231,7 +307,16 @@
       "uk": "/kəʊˈhɪə.rənt/",
       "us": "/koʊˈhɪr.ənt/"
     },
-    "emoji": "🧩"
+    "emoji": "🧩",
+    "synonyms": [
+      "logical",
+      "consistent",
+      "lucid"
+    ],
+    "antonyms": [
+      "incoherent",
+      "disjointed"
+    ]
   },
   {
     "id": "en:coherence:noun",
@@ -257,7 +342,16 @@
       "us": "/koʊˈhɪr.əns/"
     },
     "emoji": "🧩",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "consistency",
+      "clarity",
+      "cohesion"
+    ],
+    "antonyms": [
+      "incoherence",
+      "disjointedness"
+    ]
   },
   {
     "id": "en:consistent:adjective",
@@ -278,7 +372,16 @@
       "uk": "/kənˈsɪs.tənt/",
       "us": "/kənˈsɪs.tənt/"
     },
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "synonyms": [
+      "steady",
+      "uniform",
+      "constant"
+    ],
+    "antonyms": [
+      "inconsistent",
+      "erratic"
+    ]
   },
   {
     "id": "en:consistency:noun",
@@ -300,7 +403,16 @@
       "us": "/kənˈsɪs.tən.si/"
     },
     "emoji": "🔄",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "uniformity",
+      "regularity",
+      "steadiness"
+    ],
+    "antonyms": [
+      "inconsistency",
+      "irregularity"
+    ]
   },
   {
     "id": "en:comprehensive:adjective",
@@ -321,7 +433,16 @@
       "uk": "/ˌkɒm.prɪˈhen.sɪv/",
       "us": "/ˌkɑːm.prəˈhen.sɪv/"
     },
-    "emoji": "📚"
+    "emoji": "📚",
+    "synonyms": [
+      "exhaustive",
+      "inclusive",
+      "thorough"
+    ],
+    "antonyms": [
+      "partial",
+      "incomplete"
+    ]
   },
   {
     "id": "en:substantial:adjective",
@@ -346,7 +467,16 @@
       "uk": "/səbˈstæn.ʃəl/",
       "us": "/səbˈstæn.ʃəl/"
     },
-    "emoji": "📊"
+    "emoji": "📊",
+    "synonyms": [
+      "considerable",
+      "significant",
+      "sizeable"
+    ],
+    "antonyms": [
+      "insignificant",
+      "negligible"
+    ]
   },
   {
     "id": "en:inherent:adjective",
@@ -367,7 +497,16 @@
       "uk": "/ɪnˈher.ənt/",
       "us": "/ɪnˈhɪr.ənt/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "synonyms": [
+      "intrinsic",
+      "innate",
+      "inbuilt"
+    ],
+    "antonyms": [
+      "extrinsic",
+      "acquired"
+    ]
   },
   {
     "id": "en:subsequent:adjective",
@@ -388,7 +527,16 @@
       "uk": "/ˈsʌb.sɪ.kwənt/",
       "us": "/ˈsʌb.sɪ.kwənt/"
     },
-    "emoji": "➡️"
+    "emoji": "➡️",
+    "synonyms": [
+      "following",
+      "consecutive",
+      "succeeding"
+    ],
+    "antonyms": [
+      "prior",
+      "previous"
+    ]
   },
   {
     "id": "en:inference:noun",
@@ -415,7 +563,16 @@
       "us": "/ˈɪn.fɚ.əns/"
     },
     "emoji": "🔍",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "deduction",
+      "conclusion",
+      "extrapolation"
+    ],
+    "antonyms": [
+      "premise",
+      "fact"
+    ]
   },
   {
     "id": "en:presumption:noun",
@@ -442,7 +599,16 @@
       "us": "/prɪˈzʌmp.ʃən/"
     },
     "emoji": "💭",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "assumption",
+      "conjecture",
+      "premise"
+    ],
+    "antonyms": [
+      "fact",
+      "proof"
+    ]
   },
   {
     "id": "en:misconception:noun",
@@ -469,7 +635,16 @@
       "us": "/ˌmɪs.kənˈsep.ʃən/"
     },
     "emoji": "❌",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "misunderstanding",
+      "fallacy",
+      "delusion"
+    ],
+    "antonyms": [
+      "truth",
+      "fact"
+    ]
   },
   {
     "id": "en:parallel:noun",
@@ -496,7 +671,16 @@
       "us": "/ˈpær.ə.lel/"
     },
     "emoji": "⏸️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "similarity",
+      "analogy",
+      "correspondence"
+    ],
+    "antonyms": [
+      "divergence",
+      "disparity"
+    ]
   },
   {
     "id": "en:analogy:noun",
@@ -523,7 +707,16 @@
       "us": "/əˈnæl.ə.dʒi/"
     },
     "emoji": "🔄",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "comparison",
+      "parallel",
+      "correlation"
+    ],
+    "antonyms": [
+      "difference",
+      "disparity"
+    ]
   },
   {
     "id": "en:insight:noun",
@@ -550,7 +743,16 @@
       "us": "/ˈɪn.saɪt/"
     },
     "emoji": "💡",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "understanding",
+      "perception",
+      "discernment"
+    ],
+    "antonyms": [
+      "ignorance",
+      "blindness"
+    ]
   },
   {
     "id": "en:standpoint:noun",
@@ -577,7 +779,13 @@
       "us": "/ˈstænd.pɔɪnt/"
     },
     "emoji": "👁️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "perspective",
+      "viewpoint",
+      "stance"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:dimension:noun",
@@ -604,7 +812,13 @@
       "us": "/ˌdɪˈmen.ʃən/"
     },
     "emoji": "📐",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "aspect",
+      "facet",
+      "element"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:facet:noun",
@@ -631,7 +845,13 @@
       "us": "/ˈfæs.ət/"
     },
     "emoji": "💎",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "aspect",
+      "side",
+      "feature"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:spectrum:noun",
@@ -658,7 +878,13 @@
       "us": "/ˈspek.trəm/"
     },
     "emoji": "🌈",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "range",
+      "gamut",
+      "continuum"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:continuum:noun",
@@ -685,7 +911,13 @@
       "us": "/kənˈtɪn.ju.əm/"
     },
     "emoji": "♾️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "sequence",
+      "spectrum",
+      "progression"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:threshold:noun",
@@ -712,6 +944,12 @@
       "us": "/ˈθreʃ.hoʊld/"
     },
     "emoji": "🚪",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "limit",
+      "boundary",
+      "starting point"
+    ],
+    "no_antonym": true
   }
 ]
