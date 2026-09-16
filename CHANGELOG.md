@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Comprehensive update of antonyms across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
+  - **Real Antonyms**: Assigned 1–2 genuine A2-register antonyms to 543 entries (adjectives, verbs, emotion/quality nouns, directional/relational concepts, etc.).
+  - **no_antonym Waivers**: Applied `no_antonym: true` waivers to 818 entries representing concrete object nouns, proper nouns, function words, and one-directional concepts with no natural opposite.
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
   - **Transcriptions**: Converted all 1,361 entries to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard learner dictionaries (RP for UK, General American for US), including full phrase transcriptions for multi-word entries.
   - **Emoji & Symbols**: Assigned representative emojis, directional/preposition Unicode symbols, or 2-unit logical combinations across 1,322 entries; set `no_emoji: true` for 39 purely abstract or function/connector words.
@@ -42,6 +45,7 @@ All notable changes to this project will be documented in this file.
   - **Transcription**: Added dual-accent British (UK) and American (US) IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard dictionary references for all 951 entries (including full-phrase transcriptions for idioms, proverbs, and multi-word C2 expressions).
   - **Emoji & Symbol**: Evaluated all 951 entries; retained `no_emoji: true` waivers for 736 rare, literary, or formal abstract words (e.g. *perfunctory*, *ubiquitous*, *sui generis*), while adding genuine single emojis, symbols, or combinations to 215 entries with vivid or concrete imagery (e.g. proverbs, idioms, concrete concepts).
   - **Countability & Plurals**: Classified all 311 noun entries in `vocabulary/en/c2/`: 213 abstract/mass nouns as `uncountable` (removing naive plural forms), 96 as `countable` with accurate plural forms, and 2 as `pluralia_tantum` with appropriate `singular_workaround` phrases.
+  - **Synonyms & Antonyms**: Populated `synonyms` and `antonyms` / `no_antonym` across all 951 entries in `vocabulary/en/c2/`. Added 1–3 precise near-synonyms preserving register and nuance to all 951 entries, added genuine antonym lists to 677 entries, and applied `no_antonym: true` waivers to 274 entries genuinely lacking direct opposites.
 
 ### Added
 - Initial scaffold for `COSYdata` repository.

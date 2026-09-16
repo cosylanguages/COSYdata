@@ -24,7 +24,8 @@
       "uk": "/ðiː/",
       "us": "/ðiː/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:once:adverb",
@@ -48,7 +49,8 @@
       "uk": "/wʌns/",
       "us": "/wʌns/"
     },
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "no_antonym": true
   },
   {
     "id": "en:that:adverb",
@@ -72,7 +74,8 @@
       "uk": "/ðæt/",
       "us": "/ðæt/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "no_antonym": true
   },
   {
     "id": "en:first:adverb",
@@ -99,7 +102,10 @@
       "uk": "/fɜːst/",
       "us": "/fɝːst/"
     },
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "antonyms": [
+      "last"
+    ]
   },
   {
     "id": "en:future:adverb",
@@ -120,7 +126,10 @@
       "uk": "/ˈfjuː.tʃər/",
       "us": "/ˈfjuː.tʃɚ/"
     },
-    "emoji": "🚀"
+    "emoji": "🚀",
+    "antonyms": [
+      "past"
+    ]
   },
   {
     "id": "en:past:adverb",
@@ -141,7 +150,10 @@
       "uk": "/pɑːst/",
       "us": "/pæst/"
     },
-    "emoji": "📜"
+    "emoji": "📜",
+    "antonyms": [
+      "future"
+    ]
   },
   {
     "id": "en:later:adverb",
@@ -165,7 +177,10 @@
       "uk": "/ˈleɪ.tər/",
       "us": "/ˈleɪ.t̬ɚ/"
     },
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "antonyms": [
+      "earlier"
+    ]
   },
   {
     "id": "en:next:adverb",
@@ -189,7 +204,11 @@
       "uk": "/nekst/",
       "us": "/nekst/"
     },
-    "emoji": "➡️"
+    "emoji": "➡️",
+    "antonyms": [
+      "previous",
+      "last"
+    ]
   },
   {
     "id": "en:modern:adverb",
@@ -213,7 +232,11 @@
       "uk": "/ˈmɒd.ən/",
       "us": "/ˈmɑː.dɚn/"
     },
-    "emoji": "🏙️"
+    "emoji": "🏙️",
+    "antonyms": [
+      "ancient",
+      "traditional"
+    ]
   },
   {
     "id": "en:three:adverb",
@@ -237,7 +260,8 @@
       "uk": "/θriː/",
       "us": "/θriː/"
     },
-    "emoji": "3️⃣"
+    "emoji": "3️⃣",
+    "no_antonym": true
   },
   {
     "id": "en:eventually:adverb",
@@ -261,7 +285,8 @@
       "uk": "/ɪˈven.tʃu.ə.li/",
       "us": "/ɪˈven.tʃu.ə.li/"
     },
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "no_antonym": true
   },
   {
     "id": "en:finally:adverb",
@@ -285,7 +310,11 @@
       "uk": "/ˈfaɪ.nəl.i/",
       "us": "/ˈfaɪ.nəl.i/"
     },
-    "emoji": "🏁"
+    "emoji": "🏁",
+    "antonyms": [
+      "initially",
+      "at first"
+    ]
   },
   {
     "id": "en:suddenly:adverb",
@@ -309,7 +338,8 @@
       "uk": "/ˈsʌd.ən.li/",
       "us": "/ˈsʌd.ən.li/"
     },
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "no_antonym": true
   },
   {
     "id": "en:immediately:adverb",
@@ -330,7 +360,11 @@
       "uk": "/ɪˈmiː.di.ət.li/",
       "us": "/ɪˈmiː.di.ət.li/"
     },
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "antonyms": [
+      "eventually",
+      "later"
+    ]
   },
   {
     "id": "en:meanwhile:adverb",
@@ -354,7 +388,8 @@
       "uk": "/ˈmiːn.waɪl/",
       "us": "/ˈmiːn.waɪl/"
     },
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "no_antonym": true
   },
   {
     "id": "en:afterwards:adverb",
@@ -375,7 +410,10 @@
       "uk": "/ˈɑːf.tə.wədz/",
       "us": "/ˈæf.tɚ.wɚdz/"
     },
-    "emoji": "➡️"
+    "emoji": "➡️",
+    "antonyms": [
+      "beforehand"
+    ]
   },
   {
     "id": "en:recently:adverb",
@@ -396,7 +434,8 @@
       "uk": "/ˈriː.sənt.li/",
       "us": "/ˈriː.sənt.li/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "no_antonym": true
   },
   {
     "id": "en:lately:adverb",
@@ -417,7 +456,8 @@
       "uk": "/ˈleɪt.li/",
       "us": "/ˈleɪt.li/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "no_antonym": true
   },
   {
     "id": "en:nowadays:adverb",
@@ -438,7 +478,10 @@
       "uk": "/ˈnaʊ.ə.deɪz/",
       "us": "/ˈnaʊ.ə.deɪz/"
     },
-    "emoji": "📅"
+    "emoji": "📅",
+    "antonyms": [
+      "in the past"
+    ]
   },
   {
     "id": "en:twice:adverb",
@@ -459,7 +502,8 @@
       "uk": "/twaɪs/",
       "us": "/twaɪs/"
     },
-    "emoji": "2️⃣"
+    "emoji": "2️⃣",
+    "no_antonym": true
   },
   {
     "id": "en:times:adverb",
@@ -480,7 +524,8 @@
       "uk": "/taɪmz/",
       "us": "/taɪmz/"
     },
-    "emoji": "✖️"
+    "emoji": "✖️",
+    "no_antonym": true
   },
   {
     "id": "en:rarely:adverb",
@@ -501,7 +546,11 @@
       "uk": "/ˈreə.li/",
       "us": "/ˈrer.li/"
     },
-    "emoji": "📉"
+    "emoji": "📉",
+    "antonyms": [
+      "frequently",
+      "often"
+    ]
   },
   {
     "id": "en:occasionally:adverb",
@@ -522,7 +571,11 @@
       "uk": "/əˈkeɪ.ʒən.əl.i/",
       "us": "/əˈkeɪ.ʒən.əl.i/"
     },
-    "emoji": "📅"
+    "emoji": "📅",
+    "antonyms": [
+      "frequently",
+      "always"
+    ]
   },
   {
     "id": "en:regularly:adverb",
@@ -543,7 +596,11 @@
       "uk": "/ˈreɡ.jə.lə.li/",
       "us": "/ˈreɡ.jə.lɚ.li/"
     },
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "antonyms": [
+      "irregularly",
+      "rarely"
+    ]
   },
   {
     "id": "en:century:adverb",
@@ -564,7 +621,8 @@
       "uk": "/ˈsen.tʃər.i/",
       "us": "/ˈsen.tʃɚ.i/"
     },
-    "emoji": "💯"
+    "emoji": "💯",
+    "no_antonym": true
   },
   {
     "id": "en:decade:adverb",
@@ -585,7 +643,8 @@
       "uk": "/ˈdek.eɪd/",
       "us": "/ˈdek.eɪd/"
     },
-    "emoji": "🔟"
+    "emoji": "🔟",
+    "no_antonym": true
   },
   {
     "id": "en:recent:adverb",
@@ -606,7 +665,11 @@
       "uk": "/ˈriː.sənt/",
       "us": "/ˈriː.sənt/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "antonyms": [
+      "old",
+      "distant"
+    ]
   },
   {
     "id": "en:period:adverb",
@@ -627,7 +690,8 @@
       "uk": "/ˈpɪə.ri.əd/",
       "us": "/ˈpɪr.i.əd/"
     },
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "no_antonym": true
   },
   {
     "id": "en:stage:adverb",
@@ -648,6 +712,7 @@
       "uk": "/steɪdʒ/",
       "us": "/steɪdʒ/"
     },
-    "emoji": "🎭"
+    "emoji": "🎭",
+    "no_antonym": true
   }
 ]
