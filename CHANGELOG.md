@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
+  - **Transcriptions**: Converted all 1,361 entries to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard learner dictionaries (RP for UK, General American for US), including full phrase transcriptions for multi-word entries.
+  - **Emoji & Symbols**: Assigned representative emojis, directional/preposition Unicode symbols, or 2-unit logical combinations across 1,322 entries; set `no_emoji: true` for 39 purely abstract or function/connector words.
+  - **Countability & Plurals**: Set `countability` for all 761 noun entries (`countable`: 535, `uncountable`: 212, `pluralia_tantum`: 14 with `singular_workaround` where applicable). Verified that no prohibited `plural_form` fields remain on uncountable or pluralia tantum nouns.
 - Separated all English CEFR vocabulary entries into dedicated level subdirectories under `vocabulary/en/`:
   - `a0_a1/`: 1,581 A0 and A1 level entries across 36 theme files.
   - `a2/`: 1,361 A2 level entries across 37 theme files.
