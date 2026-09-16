@@ -5,16 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
-- Added B2-register `synonyms` (1-3 nuanced terms) and `antonyms` (1-2 genuine antonyms or `no_antonym: true` waivers) across all 1,277 B2 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
-  - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `economy.json`, `education.json`): 738 synonyms, 377 antonyms, 94 `no_antonym: true` waivers across 295 entries.
-  - **Batch 2** (9 files: `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `general_adjectives.json`, `global_issues.json`, `health.json`, `idioms.json`, `innovation.json`): 807 synonyms, 413 antonyms, 105 `no_antonym: true` waivers across 350 entries.
-  - **Batch 3** (9 files: `lifestyle.json`, `linking_words.json`, `media.json`, `migration.json`, `nature.json`, `opinions.json`, `personality.json`, `phrasal_verbs.json`, `politics.json`): 812 synonyms, 453 antonyms, 76 `no_antonym: true` waivers across 335 entries.
-  - **Batch 4** (10 files: `psychology.json`, `register.json`, `relationships.json`, `science.json`, `society.json`, `statistics.json`, `time.json`, `urban_housing.json`, `word_building.json`, `work.json`): 699 synonyms, 338 antonyms, 85 `no_antonym: true` waivers across 297 entries.
-  - **Total B2 Coverage**: 3,056 synonyms, 1,581 antonyms, and 360 `no_antonym: true` waivers added across 1,277 entries.
-- Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,277 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
-  - **Transcriptions**: Sourced and formatted standard dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) for all 1,277 entries from reliable dictionary references (RP for UK, General American for US), providing full-phrase transcriptions for multi-word collocations, idioms, phrasal verbs, and expressions.
-  - **Emoji & Symbols**: Evaluated representative emojis, symbols, and combinations across all 1,277 entries; assigned emojis to 1,150 entries and applied `no_emoji: true` waivers to 127 highly abstract, academic, political, analytical, or function terms where forcing an emoji would be misleading.
-  - **Countability & Plurals**: Classified and updated all 561 noun entries (`countable`: 352 with correct plural forms, `uncountable`: 183 abstract/mass nouns removing naive plurals, `pluralia_tantum`: 22 with appropriate `singular_workaround` entries where applicable, and `false_plural`: 4).
+- Added B1-register synonyms and antonyms across all 1,354 vocabulary entries in `vocabulary/en/b1/` across 40 theme files:
+  - **Synonyms**: Added 3,229 synonyms across all 1,354 B1 entries (1–3 terms per entry appropriate to B1 level, using plainer phrases/idioms for collocations and expressions).
+  - **Antonyms**: Added 1,179 genuine antonyms across 710 entries; applied `no_antonym: true` waivers to 644 entries representing idioms, collocations, or unique concepts with no direct opposite.
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
   - **Transcriptions**: Converted all 1,361 entries to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard learner dictionaries (RP for UK, General American for US), including full phrase transcriptions for multi-word entries.
   - **Emoji & Symbols**: Assigned representative emojis, directional/preposition Unicode symbols, or 2-unit logical combinations across 1,322 entries; set `no_emoji: true` for 39 purely abstract or function/connector words.
