@@ -18,12 +18,12 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ˈweð.ə/",
-      "us": "/ˈweð.ɚ/"
-    },
+    "transcription": "/ˈweð.ə/",
     "no_antonym": true,
-    "emoji": "🌤️"
+    "emoji": "🌤️",
+    "transcription_variants": {
+      "us": "/ˈweð.ɚ/"
+    }
   },
   {
     "id": "en:moon:noun",
@@ -44,10 +44,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/muːn/",
-      "us": "/muːn/"
-    },
+    "transcription": "/muːn/",
     "emoji": "🌙",
     "no_antonym": true,
     "countability": "countable"
@@ -71,10 +68,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/triː/",
-      "us": "/triː/"
-    },
+    "transcription": "/triː/",
     "emoji": "🌳",
     "no_antonym": true,
     "countability": "countable"
@@ -101,13 +95,13 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/stəʊn/",
-      "us": "/stoʊn/"
-    },
+    "transcription": "/stəʊn/",
     "no_antonym": true,
     "emoji": "🪨",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/stoʊn/"
+    }
   },
   {
     "id": "en:cloud:noun",
@@ -132,10 +126,7 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/klaʊd/",
-      "us": "/klaʊd/"
-    },
+    "transcription": "/klaʊd/",
     "no_antonym": true,
     "emoji": "☁️",
     "countability": "countable"
@@ -159,13 +150,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈel.ɪ.fənt/",
-      "us": "/ˈel.ə.fənt/"
-    },
+    "transcription": "/ˈel.ɪ.fənt/",
     "no_antonym": true,
     "emoji": "🐘",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈel.ə.fənt/"
+    }
   },
   {
     "id": "en:world:noun",
@@ -189,13 +180,13 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/wɜːld/",
-      "us": "/wɝːld/"
-    },
+    "transcription": "/wɜːld/",
     "no_antonym": true,
     "emoji": "🌍",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/wɝːld/"
+    }
   },
   {
     "id": "en:cat:noun",
@@ -204,10 +195,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐱",
-    "transcription": {
-      "uk": "/kæt/",
-      "us": "/kæt/"
-    },
+    "transcription": "/kæt/",
     "definitions": [
       "a small soft pet catching mice"
     ],
@@ -231,10 +219,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐶",
-    "transcription": {
-      "uk": "/dɒɡ/",
-      "us": "/dɑːɡ/"
-    },
+    "transcription": "/dɒɡ/",
     "definitions": [
       "a loyal pet animal that barks"
     ],
@@ -249,7 +234,10 @@
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/dɑːɡ/"
+    }
   },
   {
     "id": "en:cow:noun",
@@ -258,10 +246,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐮",
-    "transcription": {
-      "uk": "/kaʊ/",
-      "us": "/kaʊ/"
-    },
+    "transcription": "/kaʊ/",
     "definitions": [
       "a large farm animal giving milk"
     ],
@@ -285,10 +270,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐴",
-    "transcription": {
-      "uk": "/hɔːs/",
-      "us": "/hɔːrs/"
-    },
+    "transcription": "/hɔːs/",
     "definitions": [
       "a large farm animal people ride"
     ],
@@ -303,7 +285,10 @@
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/hɔːrs/"
+    }
   },
   {
     "id": "en:bird:noun",
@@ -312,10 +297,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐦",
-    "transcription": {
-      "uk": "/bɜːd/",
-      "us": "/bɝːd/"
-    },
+    "transcription": "/bɜːd/",
     "definitions": [
       "an animal with wings that flies"
     ],
@@ -330,7 +312,10 @@
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/bɝːd/"
+    }
   },
   {
     "id": "en:fish:noun",
@@ -339,10 +324,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐟",
-    "transcription": {
-      "uk": "/fɪʃ/",
-      "us": "/fɪʃ/"
-    },
+    "transcription": "/fɪʃ/",
     "definitions": [
       "an animal swimming in water"
     ],
@@ -369,10 +351,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐭",
-    "transcription": {
-      "uk": "/maʊs/",
-      "us": "/maʊs/"
-    },
+    "transcription": "/maʊs/",
     "definitions": [
       "a tiny animal with long tail"
     ],
@@ -396,10 +375,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐷",
-    "transcription": {
-      "uk": "/pɪɡ/",
-      "us": "/pɪɡ/"
-    },
+    "transcription": "/pɪɡ/",
     "definitions": [
       "a pink farm animal liking mud"
     ],
@@ -423,10 +399,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐑",
-    "transcription": {
-      "uk": "/ʃiːp/",
-      "us": "/ʃiːp/"
-    },
+    "transcription": "/ʃiːp/",
     "definitions": [
       "a farm animal providing warm wool"
     ],
@@ -450,10 +423,7 @@
     "form": "noun",
     "level": "A1",
     "emoji": "🐔",
-    "transcription": {
-      "uk": "/hen/",
-      "us": "/hen/"
-    },
+    "transcription": "/hen/",
     "definitions": [
       "a female bird laying farm eggs"
     ],
@@ -486,10 +456,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈæn.ɪ.məl/",
-      "us": "/ˈæn.ɪ.məl/"
-    },
+    "transcription": "/ˈæn.ɪ.məl/",
     "no_antonym": true,
     "emoji": "🐾",
     "countability": "countable"
@@ -511,10 +478,7 @@
     "updated": "2025-01-15",
     "plural_form": "animals",
     "countability": "countable",
-    "transcription": {
-      "uk": "/ˈæn.ɪ.məl/",
-      "us": "/ˈæn.ɪ.məl/"
-    },
+    "transcription": "/ˈæn.ɪ.məl/",
     "no_antonym": true,
     "emoji": "🐾"
   },
@@ -540,10 +504,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/ˈtʃɪk.ɪn/",
-      "us": "/ˈtʃɪk.ɪn/"
-    },
+    "transcription": "/ˈtʃɪk.ɪn/",
     "no_antonym": true,
     "emoji": "🐔",
     "countability": "countable"
@@ -567,10 +528,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/dʌk/",
-      "us": "/dʌk/"
-    },
+    "transcription": "/dʌk/",
     "no_antonym": true,
     "emoji": "🦆",
     "countability": "countable"
@@ -594,10 +552,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈræb.ɪt/",
-      "us": "/ˈræb.ɪt/"
-    },
+    "transcription": "/ˈræb.ɪt/",
     "no_antonym": true,
     "emoji": "🐰",
     "countability": "countable"
@@ -621,10 +576,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈlaɪ.ən/",
-      "us": "/ˈlaɪ.ən/"
-    },
+    "transcription": "/ˈlaɪ.ən/",
     "no_antonym": true,
     "emoji": "🦁",
     "countability": "countable"
@@ -648,13 +600,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈtaɪ.ɡə/",
-      "us": "/ˈtaɪ.ɡɚ/"
-    },
+    "transcription": "/ˈtaɪ.ɡə/",
     "no_antonym": true,
     "emoji": "🐯",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈtaɪ.ɡɚ/"
+    }
   },
   {
     "id": "en:bear:noun",
@@ -675,13 +627,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/beə/",
-      "us": "/ber/"
-    },
+    "transcription": "/beə/",
     "no_antonym": true,
     "emoji": "🐻",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ber/"
+    }
   },
   {
     "id": "en:monkey:noun",
@@ -702,10 +654,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈmʌŋ.ki/",
-      "us": "/ˈmʌŋ.ki/"
-    },
+    "transcription": "/ˈmʌŋ.ki/",
     "no_antonym": true,
     "emoji": "🐒",
     "countability": "countable"
@@ -729,10 +678,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/sneɪk/",
-      "us": "/sneɪk/"
-    },
+    "transcription": "/sneɪk/",
     "no_antonym": true,
     "emoji": "🐍",
     "countability": "countable"
@@ -756,13 +702,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/flaʊə/",
-      "us": "/ˈflaʊ.ɚ/"
-    },
+    "transcription": "/flaʊə/",
     "no_antonym": true,
     "emoji": "🌸",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈflaʊ.ɚ/"
+    }
   },
   {
     "id": "en:grass:noun",
@@ -783,12 +729,12 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ɡrɑːs/",
-      "us": "/ɡræs/"
-    },
+    "transcription": "/ɡrɑːs/",
     "no_antonym": true,
-    "emoji": "🌱"
+    "emoji": "🌱",
+    "transcription_variants": {
+      "us": "/ɡræs/"
+    }
   },
   {
     "id": "en:leaf:noun",
@@ -809,10 +755,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/liːf/",
-      "us": "/liːf/"
-    },
+    "transcription": "/liːf/",
     "no_antonym": true,
     "emoji": "🍃",
     "countability": "countable"
@@ -833,10 +776,7 @@
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "leaves",
-    "transcription": {
-      "uk": "/liːvz/",
-      "us": "/liːvz/"
-    },
+    "transcription": "/liːvz/",
     "no_antonym": true,
     "emoji": "🍃",
     "countability": "countable"
@@ -860,13 +800,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈfɒr.ɪst/",
-      "us": "/ˈfɔːr.ɪst/"
-    },
+    "transcription": "/ˈfɒr.ɪst/",
     "no_antonym": true,
     "emoji": "🌲",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈfɔːr.ɪst/"
+    }
   },
   {
     "id": "en:wood:noun",
@@ -886,10 +826,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/wʊd/",
-      "us": "/wʊd/"
-    },
+    "transcription": "/wʊd/",
     "no_antonym": true,
     "emoji": "🪵",
     "countability": "uncountable"
@@ -913,13 +850,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈmaʊn.tɪn/",
-      "us": "/ˈmaʊn.tən/"
-    },
+    "transcription": "/ˈmaʊn.tɪn/",
     "no_antonym": true,
     "emoji": "⛰️",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈmaʊn.tən/"
+    }
   },
   {
     "id": "en:hill:noun",
@@ -937,10 +874,7 @@
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "hills",
-    "transcription": {
-      "uk": "/hɪl/",
-      "us": "/hɪl/"
-    },
+    "transcription": "/hɪl/",
     "no_antonym": true,
     "emoji": "⛰️",
     "countability": "countable"
@@ -964,13 +898,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈrɪv.ə/",
-      "us": "/ˈrɪv.ɚ/"
-    },
+    "transcription": "/ˈrɪv.ə/",
     "no_antonym": true,
     "emoji": "🏞️",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈrɪv.ɚ/"
+    }
   },
   {
     "id": "en:lake:noun",
@@ -991,10 +925,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/leɪk/",
-      "us": "/leɪk/"
-    },
+    "transcription": "/leɪk/",
     "no_antonym": true,
     "emoji": "🌊",
     "countability": "countable"
@@ -1018,10 +949,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/siː/",
-      "us": "/siː/"
-    },
+    "transcription": "/siː/",
     "no_antonym": true,
     "emoji": "🌊",
     "countability": "countable"
@@ -1045,13 +973,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈəʊ.ʃən/",
-      "us": "/ˈoʊ.ʃən/"
-    },
+    "transcription": "/ˈəʊ.ʃən/",
     "no_antonym": true,
     "emoji": "🌊",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈoʊ.ʃən/"
+    }
   },
   {
     "id": "en:beach:noun",
@@ -1072,10 +1000,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/biːtʃ/",
-      "us": "/biːtʃ/"
-    },
+    "transcription": "/biːtʃ/",
     "no_antonym": true,
     "emoji": "🏖️",
     "countability": "countable"
@@ -1099,10 +1024,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈaɪ.lənd/",
-      "us": "/ˈaɪ.lənd/"
-    },
+    "transcription": "/ˈaɪ.lənd/",
     "no_antonym": true,
     "emoji": "🏝️",
     "countability": "countable"
@@ -1126,10 +1048,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/skaɪ/",
-      "us": "/skaɪ/"
-    },
+    "transcription": "/skaɪ/",
     "no_antonym": true,
     "emoji": "🌌",
     "countability": "countable"
@@ -1153,10 +1072,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/sʌn/",
-      "us": "/sʌn/"
-    },
+    "transcription": "/sʌn/",
     "emoji": "☀️",
     "no_antonym": true,
     "countability": "countable"
@@ -1180,13 +1096,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/stɑː/",
-      "us": "/stɑːr/"
-    },
+    "transcription": "/stɑː/",
     "no_antonym": true,
     "emoji": "⭐",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/stɑːr/"
+    }
   },
   {
     "id": "en:rain:noun",
@@ -1206,10 +1122,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/reɪn/",
-      "us": "/reɪn/"
-    },
+    "transcription": "/reɪn/",
     "no_antonym": true,
     "emoji": "🌧️",
     "countability": "uncountable"
@@ -1232,13 +1145,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/snəʊ/",
-      "us": "/snoʊ/"
-    },
+    "transcription": "/snəʊ/",
     "no_antonym": true,
     "emoji": "❄️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/snoʊ/"
+    }
   },
   {
     "id": "en:wind:noun",
@@ -1262,10 +1175,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/wɪnd/",
-      "us": "/wɪnd/"
-    },
+    "transcription": "/wɪnd/",
     "no_antonym": true,
     "emoji": "💨",
     "countability": "uncountable"
@@ -1293,13 +1203,13 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/stɔːm/",
-      "us": "/stɔːrm/"
-    },
+    "transcription": "/stɔːm/",
     "no_antonym": true,
     "emoji": "🌩️",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/stɔːrm/"
+    }
   },
   {
     "id": "en:hot:adjective",
@@ -1322,14 +1232,14 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/hɒt/",
-      "us": "/hɑːt/"
-    },
+    "transcription": "/hɒt/",
     "antonyms": [
       "cold"
     ],
-    "emoji": "🔥"
+    "emoji": "🔥",
+    "transcription_variants": {
+      "us": "/hɑːt/"
+    }
   },
   {
     "id": "en:cold:adjective",
@@ -1352,15 +1262,15 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/kəʊld/",
-      "us": "/koʊld/"
-    },
+    "transcription": "/kəʊld/",
     "antonyms": [
       "hot",
       "warm"
     ],
-    "emoji": "🥶"
+    "emoji": "🥶",
+    "transcription_variants": {
+      "us": "/koʊld/"
+    }
   },
   {
     "id": "en:warm:adjective",
@@ -1383,15 +1293,15 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/wɔːm/",
-      "us": "/wɔːrm/"
-    },
+    "transcription": "/wɔːm/",
     "emoji": "🌤️",
     "antonyms": [
       "cool",
       "cold"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/wɔːrm/"
+    }
   },
   {
     "id": "en:cool:adjective",
@@ -1414,10 +1324,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/kuːl/",
-      "us": "/kuːl/"
-    },
+    "transcription": "/kuːl/",
     "emoji": "😎",
     "antonyms": [
       "warm"
@@ -1441,10 +1348,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsʌn.i/",
-      "us": "/ˈsʌn.i/"
-    },
+    "transcription": "/ˈsʌn.i/",
     "emoji": "☀️",
     "antonyms": [
       "cloudy",
@@ -1469,10 +1373,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈreɪ.ni/",
-      "us": "/ˈreɪ.ni/"
-    },
+    "transcription": "/ˈreɪ.ni/",
     "emoji": "🌧️",
     "antonyms": [
       "sunny"
@@ -1496,10 +1397,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈklaʊ.di/",
-      "us": "/ˈklaʊ.di/"
-    },
+    "transcription": "/ˈklaʊ.di/",
     "emoji": "☁️",
     "antonyms": [
       "sunny",
@@ -1524,10 +1422,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈwɪn.di/",
-      "us": "/ˈwɪn.di/"
-    },
+    "transcription": "/ˈwɪn.di/",
     "emoji": "💨",
     "antonyms": [
       "calm"
@@ -1551,14 +1446,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsnəʊ.i/",
-      "us": "/ˈsnoʊ.i/"
-    },
+    "transcription": "/ˈsnəʊ.i/",
     "emoji": "❄️",
     "antonyms": [
       "sunny"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈsnoʊ.i/"
+    }
   },
   {
     "id": "en:earth:noun",
@@ -1578,13 +1473,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɜːθ/",
-      "us": "/ɝːθ/"
-    },
+    "transcription": "/ɜːθ/",
     "no_antonym": true,
     "emoji": "🌍",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ɝːθ/"
+    }
   },
   {
     "id": "en:nature:noun",
@@ -1608,13 +1503,13 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ˈneɪ.tʃə/",
-      "us": "/ˈneɪ.tʃɚ/"
-    },
+    "transcription": "/ˈneɪ.tʃə/",
     "no_antonym": true,
     "emoji": "🌿",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/ˈneɪ.tʃɚ/"
+    }
   },
   {
     "id": "en:rock:noun",
@@ -1635,13 +1530,13 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/rɒk/",
-      "us": "/rɑːk/"
-    },
+    "transcription": "/rɒk/",
     "no_antonym": true,
     "emoji": "🪨",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/rɑːk/"
+    }
   },
   {
     "id": "en:sand:noun",
@@ -1661,10 +1556,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/sænd/",
-      "us": "/sænd/"
-    },
+    "transcription": "/sænd/",
     "no_antonym": true,
     "emoji": "🏖️",
     "countability": "uncountable"
@@ -1689,13 +1581,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "goats",
-    "transcription": {
-      "uk": "/ɡəʊt/",
-      "us": "/ɡoʊt/"
-    },
+    "transcription": "/ɡəʊt/",
     "no_antonym": true,
     "emoji": "🐐",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ɡoʊt/"
+    }
   },
   {
     "id": "en:frog:noun",
@@ -1717,13 +1609,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "frogs",
-    "transcription": {
-      "uk": "/frɒɡ/",
-      "us": "/frɑːɡ/"
-    },
+    "transcription": "/frɒɡ/",
     "no_antonym": true,
     "emoji": "🐸",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/frɑːɡ/"
+    }
   },
   {
     "id": "en:spider:noun",
@@ -1745,13 +1637,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "spiders",
-    "transcription": {
-      "uk": "/ˈspaɪ.də/",
-      "us": "/ˈspaɪ.dɚ/"
-    },
+    "transcription": "/ˈspaɪ.də/",
     "no_antonym": true,
     "emoji": "🕷️",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈspaɪ.dɚ/"
+    }
   },
   {
     "id": "en:bee:noun",
@@ -1773,10 +1665,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "bees",
-    "transcription": {
-      "uk": "/biː/",
-      "us": "/biː/"
-    },
+    "transcription": "/biː/",
     "no_antonym": true,
     "emoji": "🐝",
     "countability": "countable"
@@ -1801,13 +1690,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "butterflies",
-    "transcription": {
-      "uk": "/ˈbʌt.ə.flaɪ/",
-      "us": "/ˈbʌt̬.ɚ.flaɪ/"
-    },
+    "transcription": "/ˈbʌt.ə.flaɪ/",
     "no_antonym": true,
     "emoji": "🦋",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/ˈbʌt̬.ɚ.flaɪ/"
+    }
   },
   {
     "id": "en:ant:noun",
@@ -1829,10 +1718,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "ants",
-    "transcription": {
-      "uk": "/ænt/",
-      "us": "/ænt/"
-    },
+    "transcription": "/ænt/",
     "no_antonym": true,
     "emoji": "🐜",
     "countability": "countable"
@@ -1860,12 +1746,12 @@
     "levels": [
       "A0"
     ],
-    "transcription": {
-      "uk": "/fɑːm/",
-      "us": "/fɑːrm/"
-    },
+    "transcription": "/fɑːm/",
     "no_antonym": true,
     "emoji": "🚜",
-    "countability": "countable"
+    "countability": "countable",
+    "transcription_variants": {
+      "us": "/fɑːrm/"
+    }
   }
 ]

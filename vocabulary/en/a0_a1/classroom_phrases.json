@@ -22,12 +22,12 @@
       "B1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/ɒv/",
-      "us": "/əv/"
-    },
+    "transcription": "/ɒv/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/əv/"
+    }
   },
   {
     "id": "en:up:preposition",
@@ -52,10 +52,7 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/ʌp/",
-      "us": "/ʌp/"
-    },
+    "transcription": "/ʌp/",
     "antonyms": [
       "down"
     ],
@@ -83,12 +80,12 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/jɔː/",
-      "us": "/jʊr/"
-    },
+    "transcription": "/jɔː/",
     "no_antonym": true,
-    "emoji": "👉"
+    "emoji": "👉",
+    "transcription_variants": {
+      "us": "/jʊr/"
+    }
   },
   {
     "id": "en:raise-your-hand:phrase",
@@ -114,10 +111,7 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/hænd/",
-      "us": "/hænd/"
-    },
+    "transcription": "/hænd/",
     "emoji": "✋",
     "no_antonym": true
   },
@@ -144,10 +138,7 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/teɪk/",
-      "us": "/teɪk/"
-    },
+    "transcription": "/teɪk/",
     "emoji": "🤲",
     "antonyms": [
       "give"
@@ -175,10 +166,7 @@
       "A1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/θɪŋk/",
-      "us": "/θɪŋk/"
-    },
+    "transcription": "/θɪŋk/",
     "no_antonym": true,
     "emoji": "💭"
   },
@@ -205,10 +193,7 @@
       "B2",
       "C1"
     ],
-    "transcription": {
-      "uk": "/ðæt/",
-      "us": "/ðæt/"
-    },
+    "transcription": "/ðæt/",
     "no_antonym": true,
     "emoji": "👉"
   },
@@ -235,10 +220,7 @@
       "B1",
       "C1"
     ],
-    "transcription": {
-      "uk": "/juː/",
-      "us": "/juː/"
-    },
+    "transcription": "/juː/",
     "no_antonym": true,
     "emoji": "🫵"
   },
@@ -264,10 +246,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/kʌm/",
-      "us": "/kʌm/"
-    },
+    "transcription": "/kʌm/",
     "emoji": "🚶➡️",
     "antonyms": [
       "go"
@@ -295,15 +274,15 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ɡəʊ/",
-      "us": "/ɡoʊ/"
-    },
+    "transcription": "/ɡəʊ/",
     "emoji": "🚶➡️",
     "antonyms": [
       "come",
       "stop"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ɡoʊ/"
+    }
   },
   {
     "id": "en:for:preposition",
@@ -330,12 +309,12 @@
       "C1",
       "C2"
     ],
-    "transcription": {
-      "uk": "/fɔː/",
-      "us": "/fɔːr/"
-    },
+    "transcription": "/fɔː/",
     "no_antonym": true,
-    "emoji": "🎁"
+    "emoji": "🎁",
+    "transcription_variants": {
+      "us": "/fɔːr/"
+    }
   },
   {
     "id": "en:down:preposition",
@@ -360,10 +339,7 @@
       "A2",
       "C2"
     ],
-    "transcription": {
-      "uk": "/daʊn/",
-      "us": "/daʊn/"
-    },
+    "transcription": "/daʊn/",
     "antonyms": [
       "up"
     ],
@@ -387,10 +363,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/neɪm/",
-      "us": "/neɪm/"
-    },
+    "transcription": "/neɪm/",
     "no_antonym": true,
     "emoji": "🏷️"
   },
@@ -412,10 +385,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/lʊk/",
-      "us": "/lʊk/"
-    },
+    "transcription": "/lʊk/",
     "no_antonym": true,
     "emoji": "👀"
   },
@@ -438,10 +408,7 @@
       "A1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/æz/",
-      "us": "/æz/"
-    },
+    "transcription": "/æz/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -463,14 +430,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/hɪə/",
-      "us": "/hɪr/"
-    },
+    "transcription": "/hɪə/",
     "emoji": "📍",
     "antonyms": [
       "there"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/hɪr/"
+    }
   },
   {
     "id": "en:over-there:phrase",
@@ -490,14 +457,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ðeə/",
-      "us": "/ðer/"
-    },
+    "transcription": "/ðeə/",
     "emoji": "👉",
     "antonyms": [
       "here"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ðer/"
+    }
   },
   {
     "id": "en:again:phrase",
@@ -517,10 +484,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/əˈɡen/",
-      "us": "/əˈɡen/"
-    },
+    "transcription": "/əˈɡen/",
     "no_antonym": true,
     "emoji": "🔄"
   },
@@ -542,10 +506,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/əˈɡriː/",
-      "us": "/əˈɡriː/"
-    },
+    "transcription": "/əˈɡriː/",
     "emoji": "🤝",
     "antonyms": [
       "disagree"
@@ -569,10 +530,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˌdɪs.əˈɡriː/",
-      "us": "/ˌdɪs.əˈɡriː/"
-    },
+    "transcription": "/ˌdɪs.əˈɡriː/",
     "emoji": "🙅",
     "antonyms": [
       "agree"
@@ -600,10 +558,7 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/aɪ/",
-      "us": "/aɪ/"
-    },
+    "transcription": "/aɪ/",
     "no_antonym": true,
     "emoji": "👤"
   },
@@ -625,12 +580,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɪɡˈzɑːm.pəl/",
-      "us": "/ɪɡˈzæm.pəl/"
-    },
+    "transcription": "/ɪɡˈzɑːm.pəl/",
     "no_antonym": true,
-    "emoji": "💡"
+    "emoji": "💡",
+    "transcription_variants": {
+      "us": "/ɪɡˈzæm.pəl/"
+    }
   },
   {
     "id": "en:such:phrase",
@@ -647,10 +602,7 @@
     "domain": "general",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/sʌtʃ/",
-      "us": "/sʌtʃ/"
-    },
+    "transcription": "/sʌtʃ/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -672,14 +624,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈprɒb.ləm/",
-      "us": "/ˈprɑː.bləm/"
-    },
+    "transcription": "/ˈprɒb.ləm/",
     "emoji": "❓",
     "antonyms": [
       "solution"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈprɑː.bləm/"
+    }
   },
   {
     "id": "en:mean:phrase",
@@ -699,10 +651,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/miːn/",
-      "us": "/miːn/"
-    },
+    "transcription": "/miːn/",
     "no_antonym": true,
     "emoji": "💡"
   },
@@ -726,10 +675,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈkwaɪ.ət/",
-      "us": "/ˈkwaɪ.ət/"
-    },
+    "transcription": "/ˈkwaɪ.ət/",
     "emoji": "🤫",
     "antonyms": [
       "loud"
@@ -753,10 +699,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈlɪs.ən/",
-      "us": "/ˈlɪs.ən/"
-    },
+    "transcription": "/ˈlɪs.ən/",
     "no_antonym": true,
     "emoji": "👂"
   },
@@ -775,14 +718,14 @@
     "domain": "general",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈkeə.fəl.i/",
-      "us": "/ˈker.fəl.i/"
-    },
+    "transcription": "/ˈkeə.fəl.i/",
     "emoji": "🔍",
     "antonyms": [
       "carelessly"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈker.fəl.i/"
+    }
   },
   {
     "id": "en:repeat-after-me:phrase",
@@ -802,10 +745,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/rɪˈpiːt/",
-      "us": "/rɪˈpiːt/"
-    },
+    "transcription": "/rɪˈpiːt/",
     "no_antonym": true,
     "emoji": "🔁"
   },
@@ -830,12 +770,12 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/wɒt/",
-      "us": "/wɑːt/"
-    },
+    "transcription": "/wɒt/",
     "no_antonym": true,
-    "emoji": "❓"
+    "emoji": "❓",
+    "transcription_variants": {
+      "us": "/wɑːt/"
+    }
   },
   {
     "id": "en:does:phrase",
@@ -852,10 +792,7 @@
     "domain": "general",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/dʌz/",
-      "us": "/dʌz/"
-    },
+    "transcription": "/dʌz/",
     "no_antonym": true,
     "emoji": "⚙️"
   },
@@ -881,10 +818,7 @@
       "A1",
       "C1"
     ],
-    "transcription": {
-      "uk": "/ðɪs/",
-      "us": "/ðɪs/"
-    },
+    "transcription": "/ðɪs/",
     "emoji": "👇",
     "antonyms": [
       "that"
@@ -911,10 +845,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/haʊ/",
-      "us": "/haʊ/"
-    },
+    "transcription": "/haʊ/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -936,10 +867,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/də/",
-      "us": "/də/"
-    },
+    "transcription": "/də/",
     "no_antonym": true,
     "emoji": "⚙️"
   },
@@ -965,10 +893,7 @@
       "A1",
       "C2"
     ],
-    "transcription": {
-      "uk": "/seɪ/",
-      "us": "/seɪ/"
-    },
+    "transcription": "/seɪ/",
     "no_antonym": true,
     "emoji": "💬"
   },
@@ -991,10 +916,7 @@
       "A1",
       "C2"
     ],
-    "transcription": {
-      "uk": "/s/",
-      "us": "/s/"
-    },
+    "transcription": "/s/",
     "no_antonym": true,
     "emoji": "👉"
   },
@@ -1016,10 +938,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/naɪs/",
-      "us": "/naɪs/"
-    },
+    "transcription": "/naɪs/",
     "emoji": "😊",
     "antonyms": [
       "mean"
@@ -1043,10 +962,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/suːn/",
-      "us": "/suːn/"
-    },
+    "transcription": "/suːn/",
     "emoji": "⏱️",
     "antonyms": [
       "later"
@@ -1067,14 +983,14 @@
     "domain": "general",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/keə/",
-      "us": "/ker/"
-    },
+    "transcription": "/keə/",
     "emoji": "❤️",
     "antonyms": [
       "neglect"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ker/"
+    }
   },
   {
     "id": "en:happy:phrase",
@@ -1094,10 +1010,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈhæp.i/",
-      "us": "/ˈhæp.i/"
-    },
+    "transcription": "/ˈhæp.i/",
     "emoji": "😀",
     "antonyms": [
       "sad"
@@ -1121,10 +1034,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/kənˌɡrætʃ.əˈleɪ.ʃənz/",
-      "us": "/kənˌɡrætʃ.əˈleɪ.ʃənz/"
-    },
+    "transcription": "/kənˌɡrætʃ.əˈleɪ.ʃənz/",
     "no_antonym": true,
     "emoji": "🎉"
   },
@@ -1149,10 +1059,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/ˈwel.kəm/",
-      "us": "/ˈwel.kəm/"
-    },
+    "transcription": "/ˈwel.kəm/",
     "no_antonym": true,
     "emoji": "🤗"
   }

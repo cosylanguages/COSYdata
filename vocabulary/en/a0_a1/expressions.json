@@ -21,10 +21,7 @@
       "A1",
       "C1"
     ],
-    "transcription": {
-      "uk": "/wen/",
-      "us": "/wen/"
-    },
+    "transcription": "/wen/",
     "no_antonym": true,
     "emoji": "⏰"
   },
@@ -50,10 +47,7 @@
       "A1",
       "C1"
     ],
-    "transcription": {
-      "uk": "/kæn/",
-      "us": "/kæn/"
-    },
+    "transcription": "/kæn/",
     "no_antonym": true,
     "emoji": "💪"
   },
@@ -76,10 +70,7 @@
       "A1",
       "C1"
     ],
-    "transcription": {
-      "uk": "/faɪn/",
-      "us": "/faɪn/"
-    },
+    "transcription": "/faɪn/",
     "emoji": "👍",
     "antonyms": [
       "bad"
@@ -107,10 +98,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/laɪk/",
-      "us": "/laɪk/"
-    },
+    "transcription": "/laɪk/",
     "emoji": "❤️",
     "antonyms": [
       "dislike",
@@ -135,10 +123,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/mʌtʃ/",
-      "us": "/mʌtʃ/"
-    },
+    "transcription": "/mʌtʃ/",
     "emoji": "📊",
     "antonyms": [
       "little"
@@ -162,10 +147,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈmen.i/",
-      "us": "/ˈmen.i/"
-    },
+    "transcription": "/ˈmen.i/",
     "emoji": "🔢",
     "antonyms": [
       "few"
@@ -192,10 +174,7 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/miː/",
-      "us": "/miː/"
-    },
+    "transcription": "/miː/",
     "no_antonym": true,
     "emoji": "👤"
   },
@@ -217,10 +196,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/huː/",
-      "us": "/huː/"
-    },
+    "transcription": "/huː/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -242,12 +218,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/weə/",
-      "us": "/wer/"
-    },
+    "transcription": "/weə/",
     "no_antonym": true,
-    "emoji": "📍"
+    "emoji": "📍",
+    "transcription_variants": {
+      "us": "/wer/"
+    }
   },
   {
     "id": "en:why:phrase",
@@ -267,10 +243,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/waɪ/",
-      "us": "/waɪ/"
-    },
+    "transcription": "/waɪ/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -292,10 +265,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/wɪtʃ/",
-      "us": "/wɪtʃ/"
-    },
+    "transcription": "/wɪtʃ/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -317,14 +287,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/heˈləʊ/",
-      "us": "/heˈloʊ/"
-    },
+    "transcription": "/heˈləʊ/",
     "emoji": "👋",
     "antonyms": [
       "goodbye"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/heˈloʊ/"
+    }
   },
   {
     "id": "en:hi:phrase",
@@ -344,10 +314,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/haɪ/",
-      "us": "/haɪ/"
-    },
+    "transcription": "/haɪ/",
     "emoji": "👋",
     "antonyms": [
       "goodbye",
@@ -372,10 +339,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɡʊdˈbaɪ/",
-      "us": "/ɡʊdˈbaɪ/"
-    },
+    "transcription": "/ɡʊdˈbaɪ/",
     "emoji": "👋",
     "antonyms": [
       "hello",
@@ -400,10 +364,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/baɪ/",
-      "us": "/baɪ/"
-    },
+    "transcription": "/baɪ/",
     "emoji": "👋",
     "antonyms": [
       "hello",
@@ -429,15 +390,15 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈmɔː.nɪŋ/",
-      "us": "/ˈmɔːr.nɪŋ/"
-    },
+    "transcription": "/ˈmɔː.nɪŋ/",
     "emoji": "🌅",
     "antonyms": [
       "evening",
       "night"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈmɔːr.nɪŋ/"
+    }
   },
   {
     "id": "en:good-afternoon:phrase",
@@ -458,14 +419,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˌɑːf.təˈnuːn/",
-      "us": "/ˌæf.tɚˈnuːn/"
-    },
+    "transcription": "/ˌɑːf.təˈnuːn/",
     "emoji": "☀️",
     "antonyms": [
       "morning"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌæf.tɚˈnuːn/"
+    }
   },
   {
     "id": "en:good-evening:phrase",
@@ -486,10 +447,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈiːv.nɪŋ/",
-      "us": "/ˈiːv.nɪŋ/"
-    },
+    "transcription": "/ˈiːv.nɪŋ/",
     "emoji": "🌆",
     "antonyms": [
       "morning"
@@ -514,10 +472,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/naɪt/",
-      "us": "/naɪt/"
-    },
+    "transcription": "/naɪt/",
     "emoji": "🌙",
     "antonyms": [
       "day"
@@ -541,10 +496,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/pliːz/",
-      "us": "/pliːz/"
-    },
+    "transcription": "/pliːz/",
     "no_antonym": true,
     "emoji": "🙏"
   },
@@ -566,10 +518,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/θæŋk/",
-      "us": "/θæŋk/"
-    },
+    "transcription": "/θæŋk/",
     "no_antonym": true,
     "emoji": "🙏"
   },
@@ -591,10 +540,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/θæŋks/",
-      "us": "/θæŋks/"
-    },
+    "transcription": "/θæŋks/",
     "no_antonym": true,
     "emoji": "🙏"
   },
@@ -616,12 +562,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsɒr.i/",
-      "us": "/ˈsɔːr.i/"
-    },
+    "transcription": "/ˈsɒr.i/",
     "no_antonym": true,
-    "emoji": "🙏"
+    "emoji": "🙏",
+    "transcription_variants": {
+      "us": "/ˈsɔːr.i/"
+    }
   },
   {
     "id": "en:excuse:phrase",
@@ -638,10 +584,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪkˈskjuːz/",
-      "us": "/ɪkˈskjuːz/"
-    },
+    "transcription": "/ɪkˈskjuːz/",
     "no_antonym": true,
     "emoji": "🙋"
   },
@@ -663,10 +606,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/jes/",
-      "us": "/jes/"
-    },
+    "transcription": "/jes/",
     "emoji": "✅",
     "antonyms": [
       "no"
@@ -687,12 +627,12 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɑː/",
-      "us": "/ɑːr/"
-    },
+    "transcription": "/ɑː/",
     "no_antonym": true,
-    "emoji": "👥"
+    "emoji": "👥",
+    "transcription_variants": {
+      "us": "/ɑːr/"
+    }
   },
   {
     "id": "en:may:phrase",
@@ -716,10 +656,7 @@
       "A1",
       "C1"
     ],
-    "transcription": {
-      "uk": "/meɪ/",
-      "us": "/meɪ/"
-    },
+    "transcription": "/meɪ/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -745,10 +682,7 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/wʊd/",
-      "us": "/wʊd/"
-    },
+    "transcription": "/wʊd/",
     "no_antonym": true,
     "emoji": "💭"
   },
@@ -767,12 +701,12 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/dəʊnt/",
-      "us": "/doʊnt/"
-    },
+    "transcription": "/dəʊnt/",
     "no_antonym": true,
-    "emoji": "🚫"
+    "emoji": "🚫",
+    "transcription_variants": {
+      "us": "/doʊnt/"
+    }
   },
   {
     "id": "en:understand:phrase",
@@ -792,14 +726,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˌʌn.dəˈstænd/",
-      "us": "/ˌʌn.dɚˈstænd/"
-    },
+    "transcription": "/ˌʌn.dəˈstænd/",
     "emoji": "💡",
     "antonyms": [
       "misunderstand"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌʌn.dɚˈstænd/"
+    }
   },
   {
     "id": "en:see-you-soon:phrase",
@@ -820,10 +754,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/siː juː suːn/",
-      "us": "/siː juː suːn/"
-    },
+    "transcription": "/siː juː suːn/",
     "no_antonym": true,
     "emoji": "👋"
   },
@@ -846,12 +777,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ ɑː juː/",
-      "us": "/haʊ ɑːr juː/"
-    },
+    "transcription": "/haʊ ɑː juː/",
     "no_antonym": true,
-    "emoji": "❓"
+    "emoji": "❓",
+    "transcription_variants": {
+      "us": "/haʊ ɑːr juː/"
+    }
   },
   {
     "id": "en:i-m-fine:phrase",
@@ -872,10 +803,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌaɪˈem faɪn/",
-      "us": "/ˌaɪˈem faɪn/"
-    },
+    "transcription": "/ˌaɪˈem faɪn/",
     "no_antonym": true,
     "emoji": "👍"
   },
@@ -898,10 +826,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌaɪˈem ɡʊd/",
-      "us": "/ˌaɪˈem ɡʊd/"
-    },
+    "transcription": "/ˌaɪˈem ɡʊd/",
     "no_antonym": true,
     "emoji": "👍"
   },
@@ -924,12 +849,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌaɪˈem ˌəʊˈkeɪ/",
-      "us": "/ˌaɪˈem ˌoʊˈkeɪ/"
-    },
+    "transcription": "/ˌaɪˈem ˌəʊˈkeɪ/",
     "no_antonym": true,
-    "emoji": "👌"
+    "emoji": "👌",
+    "transcription_variants": {
+      "us": "/ˌaɪˈem ˌoʊˈkeɪ/"
+    }
   },
   {
     "id": "en:not-bad:phrase",
@@ -950,12 +875,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/nɒt bæd/",
-      "us": "/nɑːt bæd/"
-    },
+    "transcription": "/nɒt bæd/",
     "no_antonym": true,
-    "emoji": "👍"
+    "emoji": "👍",
+    "transcription_variants": {
+      "us": "/nɑːt bæd/"
+    }
   },
   {
     "id": "en:and-you:phrase",
@@ -976,10 +901,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ænd juː/",
-      "us": "/ænd juː/"
-    },
+    "transcription": "/ænd juː/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -1002,10 +924,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/naɪs tuː miːt juː tuː/",
-      "us": "/naɪs tuː miːt juː tuː/"
-    },
+    "transcription": "/naɪs tuː miːt juː tuː/",
     "no_antonym": true,
     "emoji": "🤝"
   },
@@ -1028,10 +947,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈθæŋk juː/",
-      "us": "/ˈθæŋk juː/"
-    },
+    "transcription": "/ˈθæŋk juː/",
     "no_antonym": true,
     "emoji": "🙏"
   },
@@ -1054,10 +970,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/θæŋk juː ˈver.i mʌtʃ/",
-      "us": "/θæŋk juː ˈver.i mʌtʃ/"
-    },
+    "transcription": "/θæŋk juː ˈver.i mʌtʃ/",
     "no_antonym": true,
     "emoji": "🙏"
   },
@@ -1080,12 +993,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/jɔː ˈwel.kəm/",
-      "us": "/jʊr ˈwel.kəm/"
-    },
+    "transcription": "/jɔː ˈwel.kəm/",
     "no_antonym": true,
-    "emoji": "🤗"
+    "emoji": "🤗",
+    "transcription_variants": {
+      "us": "/jʊr ˈwel.kəm/"
+    }
   },
   {
     "id": "en:i-m-sorry:phrase",
@@ -1106,12 +1019,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌaɪˈem ˈsɒr.i/",
-      "us": "/ˌaɪˈem ˈsɔːr.i/"
-    },
+    "transcription": "/ˌaɪˈem ˈsɒr.i/",
     "no_antonym": true,
-    "emoji": "🙏"
+    "emoji": "🙏",
+    "transcription_variants": {
+      "us": "/ˌaɪˈem ˈsɔːr.i/"
+    }
   },
   {
     "id": "en:that-s-okay:phrase",
@@ -1132,12 +1045,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ðæt ˌəʊˈkeɪ/",
-      "us": "/ðæt ˌoʊˈkeɪ/"
-    },
+    "transcription": "/ðæt ˌəʊˈkeɪ/",
     "no_antonym": true,
-    "emoji": "👌"
+    "emoji": "👌",
+    "transcription_variants": {
+      "us": "/ðæt ˌoʊˈkeɪ/"
+    }
   },
   {
     "id": "en:okay:phrase",
@@ -1158,12 +1071,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌəʊˈkeɪ/",
-      "us": "/ˌoʊˈkeɪ/"
-    },
+    "transcription": "/ˌəʊˈkeɪ/",
     "no_antonym": true,
-    "emoji": "👌"
+    "emoji": "👌",
+    "transcription_variants": {
+      "us": "/ˌoʊˈkeɪ/"
+    }
   },
   {
     "id": "en:ok:phrase",
@@ -1184,12 +1097,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌəʊˈkeɪ/",
-      "us": "/ˌoʊˈkeɪ/"
-    },
+    "transcription": "/ˌəʊˈkeɪ/",
     "no_antonym": true,
-    "emoji": "👌"
+    "emoji": "👌",
+    "transcription_variants": {
+      "us": "/ˌoʊˈkeɪ/"
+    }
   },
   {
     "id": "en:take-care:phrase",
@@ -1210,12 +1123,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/teɪk keə/",
-      "us": "/teɪk ker/"
-    },
+    "transcription": "/teɪk keə/",
     "no_antonym": true,
-    "emoji": "🤗"
+    "emoji": "🤗",
+    "transcription_variants": {
+      "us": "/teɪk ker/"
+    }
   },
   {
     "id": "en:have-a-nice-day:phrase",
@@ -1236,10 +1149,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/hæv ə naɪs deɪ/",
-      "us": "/hæv ə naɪs deɪ/"
-    },
+    "transcription": "/hæv ə naɪs deɪ/",
     "no_antonym": true,
     "emoji": "☀️"
   },
@@ -1262,10 +1172,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/hæv ə ɡʊd deɪ/",
-      "us": "/hæv ə ɡʊd deɪ/"
-    },
+    "transcription": "/hæv ə ɡʊd deɪ/",
     "no_antonym": true,
     "emoji": "☀️"
   },
@@ -1288,12 +1195,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/siː juː təˈmɒr.əʊ/",
-      "us": "/siː juː təˈmɔːr.oʊ/"
-    },
+    "transcription": "/siː juː təˈmɒr.əʊ/",
     "no_antonym": true,
-    "emoji": "👋"
+    "emoji": "👋",
+    "transcription_variants": {
+      "us": "/siː juː təˈmɔːr.oʊ/"
+    }
   },
   {
     "id": "en:how-much:pronoun",
@@ -1314,10 +1221,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ mʌtʃ/",
-      "us": "/haʊ mʌtʃ/"
-    },
+    "transcription": "/haʊ mʌtʃ/",
     "no_antonym": true,
     "emoji": "💰"
   },
@@ -1340,10 +1244,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ ˈmen.i/",
-      "us": "/haʊ ˈmen.i/"
-    },
+    "transcription": "/haʊ ˈmen.i/",
     "no_antonym": true,
     "emoji": "🔢"
   },
@@ -1366,12 +1267,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ əʊld/",
-      "us": "/haʊ oʊld/"
-    },
+    "transcription": "/haʊ əʊld/",
     "no_antonym": true,
-    "emoji": "🎂"
+    "emoji": "🎂",
+    "transcription_variants": {
+      "us": "/haʊ oʊld/"
+    }
   },
   {
     "id": "en:how-far:pronoun",
@@ -1392,12 +1293,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ fɑː/",
-      "us": "/haʊ fɑːr/"
-    },
+    "transcription": "/haʊ fɑː/",
     "no_antonym": true,
-    "emoji": "📏"
+    "emoji": "📏",
+    "transcription_variants": {
+      "us": "/haʊ fɑːr/"
+    }
   },
   {
     "id": "en:how-long:pronoun",
@@ -1418,12 +1319,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ lɒŋ/",
-      "us": "/haʊ lɑːŋ/"
-    },
+    "transcription": "/haʊ lɒŋ/",
     "no_antonym": true,
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "transcription_variants": {
+      "us": "/haʊ lɑːŋ/"
+    }
   },
   {
     "id": "en:how-often:pronoun",
@@ -1444,12 +1345,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ ˈɒf.ən/",
-      "us": "/haʊ ˈɑːf.ən/"
-    },
+    "transcription": "/haʊ ˈɒf.ən/",
     "no_antonym": true,
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "transcription_variants": {
+      "us": "/haʊ ˈɑːf.ən/"
+    }
   },
   {
     "id": "en:what-s-your-name:phrase",
@@ -1470,12 +1371,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɒts jɔː neɪm/",
-      "us": "/wɑːts jʊr neɪm/"
-    },
+    "transcription": "/wɒts jɔː neɪm/",
     "no_antonym": true,
-    "emoji": "❓"
+    "emoji": "❓",
+    "transcription_variants": {
+      "us": "/wɑːts jʊr neɪm/"
+    }
   },
   {
     "id": "en:my-name-is:phrase",
@@ -1496,10 +1397,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/maɪ neɪm s/",
-      "us": "/maɪ neɪm s/"
-    },
+    "transcription": "/maɪ neɪm s/",
     "no_antonym": true,
     "emoji": "🏷️"
   },
@@ -1522,12 +1420,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ əʊld ɑː juː/",
-      "us": "/haʊ oʊld ɑːr juː/"
-    },
+    "transcription": "/haʊ əʊld ɑː juː/",
     "no_antonym": true,
-    "emoji": "🎂"
+    "emoji": "🎂",
+    "transcription_variants": {
+      "us": "/haʊ oʊld ɑːr juː/"
+    }
   },
   {
     "id": "en:i-am-years-old:phrase",
@@ -1548,12 +1446,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ ˌeɪˈem jɪəz əʊld/",
-      "us": "/aɪ ˌeɪˈem jɪrz oʊld/"
-    },
+    "transcription": "/aɪ ˌeɪˈem jɪəz əʊld/",
     "no_antonym": true,
-    "emoji": "🎂"
+    "emoji": "🎂",
+    "transcription_variants": {
+      "us": "/aɪ ˌeɪˈem jɪrz oʊld/"
+    }
   },
   {
     "id": "en:where-are-you-from:phrase",
@@ -1574,12 +1472,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/weər ɑː juː frɒm/",
-      "us": "/wer ɑːr juː frʌm/"
-    },
+    "transcription": "/weər ɑː juː frɒm/",
     "no_antonym": true,
-    "emoji": "🌍"
+    "emoji": "🌍",
+    "transcription_variants": {
+      "us": "/wer ɑːr juː frʌm/"
+    }
   },
   {
     "id": "en:i-m-from:phrase",
@@ -1600,12 +1498,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪm frɒm/",
-      "us": "/aɪm frʌm/"
-    },
+    "transcription": "/aɪm frɒm/",
     "no_antonym": true,
-    "emoji": "📍"
+    "emoji": "📍",
+    "transcription_variants": {
+      "us": "/aɪm frʌm/"
+    }
   },
   {
     "id": "en:where-do-you-live:phrase",
@@ -1626,12 +1524,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/weə də juː lɪv/",
-      "us": "/wer də juː lɪv/"
-    },
+    "transcription": "/weə də juː lɪv/",
     "no_antonym": true,
-    "emoji": "🏠"
+    "emoji": "🏠",
+    "transcription_variants": {
+      "us": "/wer də juː lɪv/"
+    }
   },
   {
     "id": "en:i-live-in:phrase",
@@ -1652,10 +1550,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ lɪv ɪn/",
-      "us": "/aɪ lɪv ɪn/"
-    },
+    "transcription": "/aɪ lɪv ɪn/",
     "no_antonym": true,
     "emoji": "🏠"
   },
@@ -1678,12 +1573,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɒt də juː də/",
-      "us": "/wɑːt də juː də/"
-    },
+    "transcription": "/wɒt də juː də/",
     "no_antonym": true,
-    "emoji": "💼"
+    "emoji": "💼",
+    "transcription_variants": {
+      "us": "/wɑːt də juː də/"
+    }
   },
   {
     "id": "en:i-m-a-teacher:phrase",
@@ -1704,12 +1599,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌaɪˈem eɪ ˈtiː.tʃə/",
-      "us": "/ˌaɪˈem eɪ ˈtiː.tʃɚ/"
-    },
+    "transcription": "/ˌaɪˈem eɪ ˈtiː.tʃə/",
     "no_antonym": true,
-    "emoji": "👩‍🏫"
+    "emoji": "👩‍🏫",
+    "transcription_variants": {
+      "us": "/ˌaɪˈem eɪ ˈtiː.tʃɚ/"
+    }
   },
   {
     "id": "en:do-you-speak-english:phrase",
@@ -1730,10 +1625,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/də juː spiːk ˈɪŋ.ɡlɪʃ/",
-      "us": "/də juː spiːk ˈɪŋ.ɡlɪʃ/"
-    },
+    "transcription": "/də juː spiːk ˈɪŋ.ɡlɪʃ/",
     "no_antonym": true,
     "emoji": "🗣️"
   },
@@ -1756,12 +1648,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ dəʊnt ˌʌn.dəˈstænd/",
-      "us": "/aɪ doʊnt ˌʌn.dɚˈstænd/"
-    },
+    "transcription": "/aɪ dəʊnt ˌʌn.dəˈstænd/",
     "no_antonym": true,
-    "emoji": "🤷"
+    "emoji": "🤷",
+    "transcription_variants": {
+      "us": "/aɪ doʊnt ˌʌn.dɚˈstænd/"
+    }
   },
   {
     "id": "en:can-you-repeat-that-please:phrase",
@@ -1782,10 +1674,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kæn juː rɪˈpiːt ðæt pliːz/",
-      "us": "/kæn juː rɪˈpiːt ðæt pliːz/"
-    },
+    "transcription": "/kæn juː rɪˈpiːt ðæt pliːz/",
     "no_antonym": true,
     "emoji": "🔁"
   },
@@ -1808,12 +1697,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kæn juː spiːk ˈsləʊ.li pliːz/",
-      "us": "/kæn juː spiːk ˈsloʊ.li pliːz/"
-    },
+    "transcription": "/kæn juː spiːk ˈsləʊ.li pliːz/",
     "no_antonym": true,
-    "emoji": "🐢"
+    "emoji": "🐢",
+    "transcription_variants": {
+      "us": "/kæn juː spiːk ˈsloʊ.li pliːz/"
+    }
   },
   {
     "id": "en:how-do-you-say-in-english:phrase",
@@ -1834,10 +1723,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ də juː seɪ ɪn ˈɪŋ.ɡlɪʃ/",
-      "us": "/haʊ də juː seɪ ɪn ˈɪŋ.ɡlɪʃ/"
-    },
+    "transcription": "/haʊ də juː seɪ ɪn ˈɪŋ.ɡlɪʃ/",
     "no_antonym": true,
     "emoji": "❓"
   },
@@ -1860,12 +1746,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɒt dʌz miːn/",
-      "us": "/wɑːt dʌz miːn/"
-    },
+    "transcription": "/wɒt dʌz miːn/",
     "no_antonym": true,
-    "emoji": "💡"
+    "emoji": "💡",
+    "transcription_variants": {
+      "us": "/wɑːt dʌz miːn/"
+    }
   },
   {
     "id": "en:i-don-t-know:phrase",
@@ -1886,12 +1772,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ dəʊnt nəʊ/",
-      "us": "/aɪ doʊnt noʊ/"
-    },
+    "transcription": "/aɪ dəʊnt nəʊ/",
     "no_antonym": true,
-    "emoji": "🤷"
+    "emoji": "🤷",
+    "transcription_variants": {
+      "us": "/aɪ doʊnt noʊ/"
+    }
   },
   {
     "id": "en:i-think-so:phrase",
@@ -1912,12 +1798,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ θɪŋk səʊ/",
-      "us": "/aɪ θɪŋk soʊ/"
-    },
+    "transcription": "/aɪ θɪŋk səʊ/",
     "no_antonym": true,
-    "emoji": "💭"
+    "emoji": "💭",
+    "transcription_variants": {
+      "us": "/aɪ θɪŋk soʊ/"
+    }
   },
   {
     "id": "en:i-m-not-sure:phrase",
@@ -1938,12 +1824,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌaɪˈem nɒt ʃɔː/",
-      "us": "/ˌaɪˈem nɑːt ʃʊr/"
-    },
+    "transcription": "/ˌaɪˈem nɒt ʃɔː/",
     "no_antonym": true,
-    "emoji": "🤷"
+    "emoji": "🤷",
+    "transcription_variants": {
+      "us": "/ˌaɪˈem nɑːt ʃʊr/"
+    }
   },
   {
     "id": "en:can-i-help-you:phrase",
@@ -1964,10 +1850,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kæn aɪ help juː/",
-      "us": "/kæn aɪ help juː/"
-    },
+    "transcription": "/kæn aɪ help juː/",
     "no_antonym": true,
     "emoji": "🤝"
   },
@@ -1990,10 +1873,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ niːd help/",
-      "us": "/aɪ niːd help/"
-    },
+    "transcription": "/aɪ niːd help/",
     "no_antonym": true,
     "emoji": "🆘"
   },
@@ -2016,12 +1896,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɒt taɪm s ɪt/",
-      "us": "/wɑːt taɪm s ɪt/"
-    },
+    "transcription": "/wɒt taɪm s ɪt/",
     "no_antonym": true,
-    "emoji": "⌚"
+    "emoji": "⌚",
+    "transcription_variants": {
+      "us": "/wɑːt taɪm s ɪt/"
+    }
   },
   {
     "id": "en:how-much-is-it:phrase",
@@ -2042,10 +1922,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/haʊ mʌtʃ s ɪt/",
-      "us": "/haʊ mʌtʃ s ɪt/"
-    },
+    "transcription": "/haʊ mʌtʃ s ɪt/",
     "no_antonym": true,
     "emoji": "💰"
   },
@@ -2068,10 +1945,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kæn aɪ hæv/",
-      "us": "/kæn aɪ hæv/"
-    },
+    "transcription": "/kæn aɪ hæv/",
     "no_antonym": true,
     "emoji": "🤲"
   },
@@ -2094,10 +1968,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪd laɪk/",
-      "us": "/ɪd laɪk/"
-    },
+    "transcription": "/ɪd laɪk/",
     "no_antonym": true,
     "emoji": "💭"
   },
@@ -2120,12 +1991,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ wɒnt/",
-      "us": "/aɪ wɑːnt/"
-    },
+    "transcription": "/aɪ wɒnt/",
     "no_antonym": true,
-    "emoji": "🙋"
+    "emoji": "🙋",
+    "transcription_variants": {
+      "us": "/aɪ wɑːnt/"
+    }
   },
   {
     "id": "en:is-it-okay:phrase",
@@ -2146,12 +2017,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/s ɪt ˌəʊˈkeɪ/",
-      "us": "/s ɪt ˌoʊˈkeɪ/"
-    },
+    "transcription": "/s ɪt ˌəʊˈkeɪ/",
     "no_antonym": true,
-    "emoji": "❓"
+    "emoji": "❓",
+    "transcription_variants": {
+      "us": "/s ɪt ˌoʊˈkeɪ/"
+    }
   },
   {
     "id": "en:let-s-go:phrase",
@@ -2172,12 +2043,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/let ɡəʊ/",
-      "us": "/let ɡoʊ/"
-    },
+    "transcription": "/let ɡəʊ/",
     "no_antonym": true,
-    "emoji": "🚶➡️"
+    "emoji": "🚶➡️",
+    "transcription_variants": {
+      "us": "/let ɡoʊ/"
+    }
   },
   {
     "id": "en:wait-a-minute:phrase",
@@ -2198,10 +2069,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/weɪt eɪ ˈmɪn.ɪt/",
-      "us": "/weɪt eɪ ˈmɪn.ɪt/"
-    },
+    "transcription": "/weɪt eɪ ˈmɪn.ɪt/",
     "no_antonym": true,
     "emoji": "⏱️"
   },
@@ -2224,12 +2092,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈhʌr.i ʌp/",
-      "us": "/ˈhɝː.i ʌp/"
-    },
+    "transcription": "/ˈhʌr.i ʌp/",
     "no_antonym": true,
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "transcription_variants": {
+      "us": "/ˈhɝː.i ʌp/"
+    }
   },
   {
     "id": "en:be-careful:phrase",
@@ -2250,12 +2118,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/bi ˈkeə.fəl/",
-      "us": "/bi ˈker.fəl/"
-    },
+    "transcription": "/bi ˈkeə.fəl/",
     "no_antonym": true,
-    "emoji": "⚠️"
+    "emoji": "⚠️",
+    "transcription_variants": {
+      "us": "/bi ˈker.fəl/"
+    }
   },
   {
     "id": "en:look-out:phrase",
@@ -2276,10 +2144,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/lʊk aʊt/",
-      "us": "/lʊk aʊt/"
-    },
+    "transcription": "/lʊk aʊt/",
     "no_antonym": true,
     "emoji": "👀"
   },
@@ -2302,12 +2167,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɒtʃ aʊt/",
-      "us": "/wɑːtʃ aʊt/"
-    },
+    "transcription": "/wɒtʃ aʊt/",
     "no_antonym": true,
-    "emoji": "⚠️"
+    "emoji": "⚠️",
+    "transcription_variants": {
+      "us": "/wɑːtʃ aʊt/"
+    }
   },
   {
     "id": "en:come-here:phrase",
@@ -2328,14 +2193,14 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kʌm hɪə/",
-      "us": "/kʌm hɪr/"
-    },
+    "transcription": "/kʌm hɪə/",
     "emoji": "👇",
     "antonyms": [
       "go away"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/kʌm hɪr/"
+    }
   },
   {
     "id": "en:come-in:phrase",
@@ -2356,10 +2221,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kʌm ɪn/",
-      "us": "/kʌm ɪn/"
-    },
+    "transcription": "/kʌm ɪn/",
     "emoji": "🚪",
     "antonyms": [
       "go out"
@@ -2384,12 +2246,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈlɪs.ən ˈkeə.fəl.i/",
-      "us": "/ˈlɪs.ən ˈker.fəl.i/"
-    },
+    "transcription": "/ˈlɪs.ən ˈkeə.fəl.i/",
     "no_antonym": true,
-    "emoji": "👂"
+    "emoji": "👂",
+    "transcription_variants": {
+      "us": "/ˈlɪs.ən ˈker.fəl.i/"
+    }
   },
   {
     "id": "en:look-at-me:phrase",
@@ -2410,10 +2272,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/lʊk ət miː/",
-      "us": "/lʊk ət miː/"
-    },
+    "transcription": "/lʊk ət miː/",
     "no_antonym": true,
     "emoji": "👀"
   },
@@ -2436,10 +2295,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/let miː siː/",
-      "us": "/let miː siː/"
-    },
+    "transcription": "/let miː siː/",
     "no_antonym": true,
     "emoji": "🔍"
   },
@@ -2462,10 +2318,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ əˈɡriː/",
-      "us": "/aɪ əˈɡriː/"
-    },
+    "transcription": "/aɪ əˈɡriː/",
     "emoji": "🤝",
     "antonyms": [
       "I disagree"
@@ -2490,10 +2343,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ ˌdɪs.əˈɡriː/",
-      "us": "/aɪ ˌdɪs.əˈɡriː/"
-    },
+    "transcription": "/aɪ ˌdɪs.əˈɡriː/",
     "emoji": "🙅",
     "antonyms": [
       "I agree"
@@ -2518,14 +2368,14 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌɔːl ˈraɪt/",
-      "us": "/ˌɑːl ˈraɪt/"
-    },
+    "transcription": "/ˌɔːl ˈraɪt/",
     "emoji": "✅",
     "antonyms": [
       "that's wrong"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌɑːl ˈraɪt/"
+    }
   },
   {
     "id": "en:that-s-wrong:phrase",
@@ -2546,14 +2396,14 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ðæt rɒŋ/",
-      "us": "/ðæt rɑːŋ/"
-    },
+    "transcription": "/ðæt rɒŋ/",
     "emoji": "❌",
     "antonyms": [
       "that's right"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ðæt rɑːŋ/"
+    }
   },
   {
     "id": "en:well-done:phrase",
@@ -2574,10 +2424,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌwel ˈdʌn/",
-      "us": "/ˌwel ˈdʌn/"
-    },
+    "transcription": "/ˌwel ˈdʌn/",
     "no_antonym": true,
     "emoji": "👏"
   },
@@ -2600,12 +2447,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/dəʊnt ˈwʌr.i/",
-      "us": "/doʊnt ˈwɝː.i/"
-    },
+    "transcription": "/dəʊnt ˈwʌr.i/",
     "no_antonym": true,
-    "emoji": "😌"
+    "emoji": "😌",
+    "transcription_variants": {
+      "us": "/doʊnt ˈwɝː.i/"
+    }
   },
   {
     "id": "en:it-s-okay:phrase",
@@ -2626,12 +2473,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪts ˌəʊˈkeɪ/",
-      "us": "/ɪts ˌoʊˈkeɪ/"
-    },
+    "transcription": "/ɪts ˌəʊˈkeɪ/",
     "no_antonym": true,
-    "emoji": "👌"
+    "emoji": "👌",
+    "transcription_variants": {
+      "us": "/ɪts ˌoʊˈkeɪ/"
+    }
   },
   {
     "id": "en:take-your-time:phrase",
@@ -2652,12 +2499,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/teɪk jɔː taɪm/",
-      "us": "/teɪk jʊr taɪm/"
-    },
+    "transcription": "/teɪk jɔː taɪm/",
     "no_antonym": true,
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "transcription_variants": {
+      "us": "/teɪk jʊr taɪm/"
+    }
   },
   {
     "id": "en:one-moment-please:phrase",
@@ -2678,12 +2525,12 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wʌn ˈməʊ.mənt pliːz/",
-      "us": "/wʌn ˈmoʊ.mənt pliːz/"
-    },
+    "transcription": "/wʌn ˈməʊ.mənt pliːz/",
     "no_antonym": true,
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "transcription_variants": {
+      "us": "/wʌn ˈmoʊ.mənt pliːz/"
+    }
   },
   {
     "id": "en:just-a-minute:phrase",
@@ -2704,10 +2551,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/dʒʌst eɪ ˈmɪn.ɪt/",
-      "us": "/dʒʌst eɪ ˈmɪn.ɪt/"
-    },
+    "transcription": "/dʒʌst eɪ ˈmɪn.ɪt/",
     "no_antonym": true,
     "emoji": "⏱️"
   },
@@ -2732,10 +2576,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɡʊd dʒɒb/",
-      "us": "/ɡʊd dʒɑːb/"
-    },
+    "transcription": "/ɡʊd dʒɒb/",
     "no_antonym": true,
     "emoji": "👏",
     "levels": [
@@ -2745,7 +2586,10 @@
     ],
     "antonyms": [
       "bad"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ɡʊd dʒɑːb/"
+    }
   },
   {
     "id": "en:see-you:phrase",
@@ -2768,10 +2612,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/siː juː/",
-      "us": "/siː juː/"
-    },
+    "transcription": "/siː juː/",
     "no_antonym": true,
     "emoji": "👋",
     "levels": [
@@ -2801,10 +2642,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌnaɪs tə ˈmiːt juː/",
-      "us": "/ˌnaɪs tə ˈmiːt juː/"
-    },
+    "transcription": "/ˌnaɪs tə ˈmiːt juː/",
     "no_antonym": true,
     "emoji": "🤝",
     "levels": [
@@ -2834,10 +2672,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/sɪt daʊn/",
-      "us": "/sɪt daʊn/"
-    },
+    "transcription": "/sɪt daʊn/",
     "emoji": "🪑",
     "antonyms": [
       "stand",
@@ -2870,10 +2705,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/əv kɔːs/",
-      "us": "/əv kɔːrs/"
-    },
+    "transcription": "/əv kɔːs/",
     "no_antonym": true,
     "emoji": "✅",
     "levels": [
@@ -2881,7 +2713,10 @@
       "A1",
       "B2",
       "C2"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/əv kɔːrs/"
+    }
   },
   {
     "id": "en:no-problem:phrase",
@@ -2904,10 +2739,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/nəʊ ˈprɒb.ləm/",
-      "us": "/noʊ ˈprɑː.bləm/"
-    },
+    "transcription": "/nəʊ ˈprɒb.ləm/",
     "no_antonym": true,
     "emoji": "👌",
     "levels": [
@@ -2917,7 +2749,10 @@
     ],
     "antonyms": [
       "yes"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/noʊ ˈprɑː.bləm/"
+    }
   },
   {
     "id": "en:stand-up:phrase",
@@ -2940,10 +2775,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/stænd ʌp/",
-      "us": "/stænd ʌp/"
-    },
+    "transcription": "/stænd ʌp/",
     "emoji": "🧍",
     "antonyms": [
       "sit",
@@ -2975,10 +2807,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɡʊd lʌk/",
-      "us": "/ɡʊd lʌk/"
-    },
+    "transcription": "/ɡʊd lʌk/",
     "no_antonym": true,
     "emoji": "🍀",
     "levels": [
@@ -3007,10 +2836,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/siː juː ˈleɪ.tə/",
-      "us": "/siː juː ˈleɪ.t̬ɚ/"
-    },
+    "transcription": "/siː juː ˈleɪ.tə/",
     "no_antonym": true,
     "emoji": "👋",
     "levels": [
@@ -3020,7 +2846,10 @@
     "antonyms": [
       "now",
       "sooner"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/siː juː ˈleɪ.t̬ɚ/"
+    }
   },
   {
     "id": "en:happy-birthday:phrase",
@@ -3043,15 +2872,15 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈhæp.i ˈbɜːθ.deɪ/",
-      "us": "/ˈhæp.i ˈbɝːθ.deɪ/"
-    },
+    "transcription": "/ˈhæp.i ˈbɜːθ.deɪ/",
     "no_antonym": true,
     "emoji": "🎂",
     "levels": [
       "A0",
       "A1"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈhæp.i ˈbɝːθ.deɪ/"
+    }
   }
 ]

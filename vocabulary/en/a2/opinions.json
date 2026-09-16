@@ -20,12 +20,12 @@
     "levels": [
       "A2"
     ],
-    "transcription": {
-      "uk": "/ɒv/",
-      "us": "/ɑːv/"
-    },
+    "transcription": "/ɒv/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ɑːv/"
+    }
   },
   {
     "id": "en:other:verb",
@@ -49,12 +49,12 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˈʌð.ər/",
-      "us": "/ˈʌð.ɚ/"
-    },
+    "transcription": "/ˈʌð.ər/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈʌð.ɚ/"
+    }
   },
   {
     "id": "en:hand:verb",
@@ -78,10 +78,7 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/hænd/",
-      "us": "/hænd/"
-    },
+    "transcription": "/hænd/",
     "emoji": "✋",
     "no_antonym": true
   },
@@ -103,10 +100,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ðæt/",
-      "us": "/ðæt/"
-    },
+    "transcription": "/ðæt/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -128,12 +122,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/kɔːs/",
-      "us": "/kɔːrs/"
-    },
+    "transcription": "/kɔːs/",
     "emoji": "📚",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/kɔːrs/"
+    }
   },
   {
     "id": "en:as:verb",
@@ -150,10 +144,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/æz/",
-      "us": "/æz/"
-    },
+    "transcription": "/æz/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -176,12 +167,12 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/kəmˈpeər/",
-      "us": "/kəmˈper/"
-    },
+    "transcription": "/kəmˈpeər/",
     "emoji": "⚖️",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/kəmˈper/"
+    }
   },
   {
     "id": "en:difference:verb",
@@ -202,14 +193,14 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˈdɪf.ər.əns/",
-      "us": "/ˈdɪf.ɚ.əns/"
-    },
+    "transcription": "/ˈdɪf.ər.əns/",
     "emoji": "≠",
     "antonyms": [
       "similarity"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈdɪf.ɚ.əns/"
+    }
   },
   {
     "id": "en:similar:verb",
@@ -229,14 +220,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsɪm.ɪ.lər/",
-      "us": "/ˈsɪm.ə.lɚ/"
-    },
+    "transcription": "/ˈsɪm.ɪ.lər/",
     "emoji": "≈",
     "antonyms": [
       "different"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈsɪm.ə.lɚ/"
+    }
   },
   {
     "id": "en:opinion:verb",
@@ -253,10 +244,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/əˈpɪn.jən/",
-      "us": "/əˈpɪn.jən/"
-    },
+    "transcription": "/əˈpɪn.jən/",
     "emoji": "💬",
     "no_antonym": true
   },
@@ -275,14 +263,14 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈɑːɡ.jə.mənt/",
-      "us": "/ˈɑːrɡ.jə.mənt/"
-    },
+    "transcription": "/ˈɑːɡ.jə.mənt/",
     "emoji": "🗣️",
     "antonyms": [
       "agreement"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈɑːrɡ.jə.mənt/"
+    }
   },
   {
     "id": "en:believe:verb",
@@ -302,10 +290,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/bɪˈliːv/",
-      "us": "/bɪˈliːv/"
-    },
+    "transcription": "/bɪˈliːv/",
     "emoji": "🙏",
     "antonyms": [
       "disbelieve",
@@ -331,12 +316,12 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/səˈpəʊz/",
-      "us": "/səˈpoʊz/"
-    },
+    "transcription": "/səˈpəʊz/",
     "emoji": "🤔",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/səˈpoʊz/"
+    }
   },
   {
     "id": "en:sure:verb",
@@ -356,15 +341,15 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ʃɔːr/",
-      "us": "/ʃʊr/"
-    },
+    "transcription": "/ʃɔːr/",
     "emoji": "👍",
     "antonyms": [
       "unsure",
       "uncertain"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ʃʊr/"
+    }
   },
   {
     "id": "en:certain:verb",
@@ -381,15 +366,15 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈsɜː.tən/",
-      "us": "/ˈsɝː.tən/"
-    },
+    "transcription": "/ˈsɜː.tən/",
     "emoji": "💯",
     "antonyms": [
       "uncertain",
       "unsure"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈsɝː.tən/"
+    }
   },
   {
     "id": "en:unsure:verb",
@@ -406,15 +391,15 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ʌnˈʃɔːr/",
-      "us": "/ʌnˈʃʊr/"
-    },
+    "transcription": "/ʌnˈʃɔːr/",
     "emoji": "❓",
     "antonyms": [
       "sure",
       "certain"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ʌnˈʃʊr/"
+    }
   },
   {
     "id": "en:probably:adverb",
@@ -434,12 +419,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈprɒb.ə.bli/",
-      "us": "/ˈprɑː.bə.bli/"
-    },
+    "transcription": "/ˈprɒb.ə.bli/",
     "emoji": "📊",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈprɑː.bə.bli/"
+    }
   },
   {
     "id": "en:possibly:adverb",
@@ -460,12 +445,12 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˈpɒs.ə.bli/",
-      "us": "/ˈpɑː.sə.bli/"
-    },
+    "transcription": "/ˈpɒs.ə.bli/",
     "emoji": "❓",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈpɑː.sə.bli/"
+    }
   },
   {
     "id": "en:definitely:adverb",
@@ -485,12 +470,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈdef.ɪ.nət.li/",
-      "us": "/ˈdef.ən.ət.li/"
-    },
+    "transcription": "/ˈdef.ɪ.nət.li/",
     "emoji": "💯",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈdef.ən.ət.li/"
+    }
   },
   {
     "id": "en:i:verb",
@@ -510,10 +495,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/aɪ/",
-      "us": "/aɪ/"
-    },
+    "transcription": "/aɪ/",
     "emoji": "👤",
     "no_antonym": true
   },
@@ -535,10 +517,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈæk.tʃu.ə.li/",
-      "us": "/ˈæk.tʃu.ə.li/"
-    },
+    "transcription": "/ˈæk.tʃu.ə.li/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -560,12 +539,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɪɡˈzɑːm.pəl/",
-      "us": "/ɪɡˈzæm.pəl/"
-    },
+    "transcription": "/ɪɡˈzɑːm.pəl/",
     "emoji": "💡",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ɪɡˈzæm.pəl/"
+    }
   },
   {
     "id": "en:such:verb",
@@ -582,10 +561,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/sʌtʃ/",
-      "us": "/sʌtʃ/"
-    },
+    "transcription": "/sʌtʃ/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -607,12 +583,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/prɪˈfɜːr/",
-      "us": "/prɪˈfɝː/"
-    },
+    "transcription": "/prɪˈfɜːr/",
     "emoji": "❤️",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/prɪˈfɝː/"
+    }
   },
   {
     "id": "en:favourite:verb",
@@ -629,10 +605,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈfeɪ.vər.ɪt/",
-      "us": "/ˈfeɪ.vər.ɪt/"
-    },
+    "transcription": "/ˈfeɪ.vər.ɪt/",
     "emoji": "⭐",
     "antonyms": [
       "least favourite"
@@ -653,10 +626,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈfeɪ.vər.ɪt/",
-      "us": "/ˈfeɪ.vər.ɪt/"
-    },
+    "transcription": "/ˈfeɪ.vər.ɪt/",
     "emoji": "⭐",
     "antonyms": [
       "least favorite"
@@ -677,10 +647,7 @@
     "domain": "general",
     "theme": "communication",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/tʃɔɪs/",
-      "us": "/tʃɔɪs/"
-    },
+    "transcription": "/tʃɔɪs/",
     "emoji": "👉",
     "no_antonym": true
   },
@@ -702,10 +669,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/kənˈvɪns/",
-      "us": "/kənˈvɪns/"
-    },
+    "transcription": "/kənˈvɪns/",
     "emoji": "🗣️",
     "no_antonym": true
   },
@@ -727,14 +691,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/pəˈsweɪd/",
-      "us": "/pɚˈsweɪd/"
-    },
+    "transcription": "/pəˈsweɪd/",
     "emoji": "🗣️",
     "antonyms": [
       "dissuade"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/pɚˈsweɪd/"
+    }
   },
   {
     "id": "en:i-think:phrase",
@@ -755,10 +719,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ θɪŋk/",
-      "us": "/aɪ θɪŋk/"
-    },
+    "transcription": "/aɪ θɪŋk/",
     "emoji": "💭",
     "no_antonym": true
   },
@@ -781,10 +742,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ bɪˈliːv/",
-      "us": "/aɪ bɪˈliːv/"
-    },
+    "transcription": "/aɪ bɪˈliːv/",
     "emoji": "🙏",
     "no_antonym": true
   },
@@ -807,10 +765,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪn maɪ əˈpɪn.jən/",
-      "us": "/ɪn maɪ əˈpɪn.jən/"
-    },
+    "transcription": "/ɪn maɪ əˈpɪn.jən/",
     "emoji": "💬",
     "no_antonym": true
   },
@@ -833,10 +788,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ ɡes/",
-      "us": "/aɪ ɡes/"
-    },
+    "transcription": "/aɪ ɡes/",
     "emoji": "🎲",
     "no_antonym": true
   },
@@ -859,12 +811,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ səˈpəʊz/",
-      "us": "/aɪ səˈpoʊz/"
-    },
+    "transcription": "/aɪ səˈpəʊz/",
     "emoji": "🤔",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/aɪ səˈpoʊz/"
+    }
   },
   {
     "id": "en:i-doubt-it:phrase",
@@ -885,10 +837,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ daʊt ɪt/",
-      "us": "/aɪ daʊt ɪt/"
-    },
+    "transcription": "/aɪ daʊt ɪt/",
     "emoji": "🤨",
     "antonyms": [
       "I believe so"
@@ -913,10 +862,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪɡˈzækt.li/",
-      "us": "/ɪɡˈzækt.li/"
-    },
+    "transcription": "/ɪɡˈzækt.li/",
     "emoji": "🎯",
     "no_antonym": true
   },
@@ -939,10 +885,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ðæts truː/",
-      "us": "/ðæts truː/"
-    },
+    "transcription": "/ðæts truː/",
     "emoji": "✔️",
     "antonyms": [
       "that's false",
@@ -968,14 +911,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ðæts nɒt truː/",
-      "us": "/ðæts nɑːt truː/"
-    },
+    "transcription": "/ðæts nɒt truː/",
     "emoji": "❌",
     "antonyms": [
       "that's true"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ðæts nɑːt truː/"
+    }
   },
   {
     "id": "en:you-re-right:phrase",
@@ -996,14 +939,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/jɔː raɪt/",
-      "us": "/jʊr raɪt/"
-    },
+    "transcription": "/jɔː raɪt/",
     "emoji": "✅",
     "antonyms": [
       "you're wrong"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/jʊr raɪt/"
+    }
   },
   {
     "id": "en:you-re-wrong:phrase",
@@ -1024,14 +967,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/jɔː rɒŋ/",
-      "us": "/jʊr rɑːŋ/"
-    },
+    "transcription": "/jɔː rɒŋ/",
     "emoji": "❌",
     "antonyms": [
       "you're right"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/jʊr rɑːŋ/"
+    }
   },
   {
     "id": "en:it-depends:phrase",
@@ -1052,10 +995,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪt dɪˈpendz/",
-      "us": "/ɪt dɪˈpendz/"
-    },
+    "transcription": "/ɪt dɪˈpendz/",
     "emoji": "⚖️",
     "no_antonym": true
   },
@@ -1078,12 +1018,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɒn ði ˈʌð.ər hænd/",
-      "us": "/ɑːn ði ˈʌð.ɚ hænd/"
-    },
+    "transcription": "/ɒn ði ˈʌð.ər hænd/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ɑːn ði ˈʌð.ɚ hænd/"
+    }
   },
   {
     "id": "en:honestly:phrase",
@@ -1104,12 +1044,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈɒn.ɪst.li/",
-      "us": "/ˈɑː.nɪst.li/"
-    },
+    "transcription": "/ˈɒn.ɪst.li/",
     "emoji": "🤝",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈɑː.nɪst.li/"
+    }
   },
   {
     "id": "en:to-be-honest:phrase",
@@ -1130,12 +1070,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/tə bi ˈɒn.ɪst/",
-      "us": "/tə bi ˈɑː.nɪst/"
-    },
+    "transcription": "/tə bi ˈɒn.ɪst/",
     "emoji": "🤝",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/tə bi ˈɑː.nɪst/"
+    }
   },
   {
     "id": "en:as-far-as-i-know:phrase",
@@ -1156,12 +1096,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/əz fɑːr əz aɪ nəʊ/",
-      "us": "/əz fɑːr əz aɪ noʊ/"
-    },
+    "transcription": "/əz fɑːr əz aɪ nəʊ/",
     "emoji": "💡",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/əz fɑːr əz aɪ noʊ/"
+    }
   },
   {
     "id": "en:it-seems-that:phrase",
@@ -1182,10 +1122,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪt siːmz ðæt/",
-      "us": "/ɪt siːmz ðæt/"
-    },
+    "transcription": "/ɪt siːmz ðæt/",
     "emoji": "💡",
     "no_antonym": true
   },
@@ -1208,10 +1145,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪt lʊks laɪk/",
-      "us": "/ɪt lʊks laɪk/"
-    },
+    "transcription": "/ɪt lʊks laɪk/",
     "emoji": "👀",
     "no_antonym": true
   },
@@ -1234,10 +1168,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪd seɪ/",
-      "us": "/aɪd seɪ/"
-    },
+    "transcription": "/aɪd seɪ/",
     "emoji": "🗣️",
     "no_antonym": true
   },
@@ -1260,12 +1191,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈpɜː.sən.əl.i/",
-      "us": "/ˈpɝː.sən.əl.i/"
-    },
+    "transcription": "/ˈpɜː.sən.əl.i/",
     "emoji": "👤",
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈpɝː.sən.əl.i/"
+    }
   },
   {
     "id": "en:i-feel-that:phrase",
@@ -1286,10 +1217,7 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/aɪ fiːl ðæt/",
-      "us": "/aɪ fiːl ðæt/"
-    },
+    "transcription": "/aɪ fiːl ðæt/",
     "emoji": "❤️",
     "no_antonym": true
   }

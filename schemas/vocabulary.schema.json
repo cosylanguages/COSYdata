@@ -65,22 +65,61 @@
       "description": "Representative emoji string"
     },
     "transcription": {
+      "type": "string",
+      "description": "Primary or neutral IPA transcription"
+    },
+    "transcription_variants": {
       "type": "object",
-      "required": [
-        "uk",
-        "us"
-      ],
       "properties": {
         "uk": {
           "type": "string",
-          "description": "British English (RP) IPA transcription"
+          "description": "British English (RP) IPA transcription variant"
         },
         "us": {
           "type": "string",
-          "description": "American English (General American) IPA transcription"
+          "description": "American English (General American) IPA transcription variant"
+        },
+        "ca": {
+          "type": "string",
+          "description": "Canadian English IPA transcription variant"
+        },
+        "au": {
+          "type": "string",
+          "description": "Australian English IPA transcription variant"
+        },
+        "nz": {
+          "type": "string",
+          "description": "New Zealand English IPA transcription variant"
         }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "description": "IPA pronunciation variants by dialect code"
+    },
+    "region": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "UK",
+          "US",
+          "CA",
+          "AU",
+          "NZ"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Region(s) where this specific word or spelling is preferred"
+    },
+    "regional_equivalents": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Array of vocabulary IDs pointing to regional equivalent words"
     },
     "no_emoji": {
       "type": "boolean",

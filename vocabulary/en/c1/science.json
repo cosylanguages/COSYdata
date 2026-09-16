@@ -18,17 +18,17 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/rɪˈsɜːtʃ/",
-      "us": "/ˈriː.sɝːtʃ/"
-    },
+    "transcription": "/rɪˈsɜːtʃ/",
     "emoji": "🔬",
     "synonyms": [
       "investigation",
       "inquiry",
       "study"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈriː.sɝːtʃ/"
+    }
   },
   {
     "id": "en:neural:noun",
@@ -45,17 +45,17 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈnjʊə.rəl/",
-      "us": "/ˈnʊr.əl/"
-    },
+    "transcription": "/ˈnjʊə.rəl/",
     "emoji": "🧠",
     "countability": "uncountable",
     "synonyms": [
       "neurological",
       "nervous-system"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈnʊr.əl/"
+    }
   },
   {
     "id": "en:bioethics:noun",
@@ -73,17 +73,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": {
-      "uk": "/ˌbaɪ.əʊˈeθ.ɪks/",
-      "us": "/ˌbaɪ.oʊˈeθ.ɪks/"
-    },
+    "transcription": "/ˌbaɪ.əʊˈeθ.ɪks/",
     "emoji": "⚖️",
     "singular_workaround": "bioethic",
     "synonyms": [
       "medical ethics",
       "life-science ethics"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌbaɪ.oʊˈeθ.ɪks/"
+    }
   },
   {
     "id": "en:computational:adjective",
@@ -100,17 +100,17 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌkɒm.pjəˈteɪ.ʃən.əl/",
-      "us": "/ˌkɑːm.pjəˈteɪ.ʃən.əl/"
-    },
+    "transcription": "/ˌkɒm.pjəˈteɪ.ʃən.əl/",
     "emoji": "💻",
     "synonyms": [
       "algorithmic",
       "digital",
       "quantitative"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌkɑːm.pjəˈteɪ.ʃən.əl/"
+    }
   },
   {
     "id": "en:genome:noun",
@@ -128,17 +128,17 @@
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "genomes",
-    "transcription": {
-      "uk": "/ˈdʒiː.nəʊm/",
-      "us": "/ˈdʒiː.noʊm/"
-    },
+    "transcription": "/ˈdʒiː.nəʊm/",
     "emoji": "🧬",
     "countability": "countable",
     "synonyms": [
       "genetic code",
       "DNA profile"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈdʒiː.noʊm/"
+    }
   },
   {
     "id": "en:neuroscience:noun",
@@ -155,17 +155,17 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈnjʊə.rəʊˌsaɪ.əns/",
-      "us": "/ˈnʊr.oʊˌsaɪ.əns/"
-    },
+    "transcription": "/ˈnjʊə.rəʊˌsaɪ.əns/",
     "emoji": "🧠",
     "countability": "uncountable",
     "synonyms": [
       "brain science",
       "neurobiology"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈnʊr.oʊˌsaɪ.əns/"
+    }
   },
   {
     "id": "en:computing:noun",
@@ -182,17 +182,17 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/kəmˈpjuː.tɪŋ/",
-      "us": "/kəmˈpjuː.t̬ɪŋ/"
-    },
+    "transcription": "/kəmˈpjuː.tɪŋ/",
     "emoji": "💻",
     "countability": "uncountable",
     "synonyms": [
       "computation",
       "data processing"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/kəmˈpjuː.t̬ɪŋ/"
+    }
   },
   {
     "id": "en:replicability:noun",
@@ -209,10 +209,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌrep.lɪ.kəˈbɪl.ə.ti/",
-      "us": "/ˌrep.lɪ.kəˈbɪl.ə.t̬i/"
-    },
+    "transcription": "/ˌrep.lɪ.kəˈbɪl.ə.ti/",
     "emoji": "🔄",
     "countability": "uncountable",
     "synonyms": [
@@ -222,7 +219,10 @@
     "antonyms": [
       "irreproducibility",
       "unreliability"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌrep.lɪ.kəˈbɪl.ə.t̬i/"
+    }
   },
   {
     "id": "en:singularity:noun",
@@ -243,17 +243,17 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˌsɪŋ.ɡjəˈlær.ə.ti/",
-      "us": "/ˌsɪŋ.ɡjəˈlær.ə.t̬i/"
-    },
+    "transcription": "/ˌsɪŋ.ɡjəˈlær.ə.ti/",
     "emoji": "🤖",
     "countability": "countable",
     "synonyms": [
       "technological singularity",
       "uniqueness"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌsɪŋ.ɡjəˈlær.ə.t̬i/"
+    }
   },
   {
     "id": "en:speculative:adjective",
@@ -273,10 +273,7 @@
     "levels": [
       "C1"
     ],
-    "transcription": {
-      "uk": "/ˈspek.jə.lə.tɪv/",
-      "us": "/ˈspek.jə.lə.t̬ɪv/"
-    },
+    "transcription": "/ˈspek.jə.lə.tɪv/",
     "emoji": "💭",
     "synonyms": [
       "conjectural",
@@ -287,7 +284,10 @@
       "proven",
       "empirical",
       "established"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈspek.jə.lə.t̬ɪv/"
+    }
   },
   {
     "id": "en:synthesis:noun",
@@ -310,10 +310,7 @@
       "C2"
     ],
     "countability": "countable",
-    "transcription": {
-      "uk": "/ˈsɪn.θə.sɪs/",
-      "us": "/ˈsɪn.θə.sɪs/"
-    },
+    "transcription": "/ˈsɪn.θə.sɪs/",
     "emoji": "🧪",
     "synonyms": [
       "amalgamation",
@@ -340,10 +337,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈsɪn.θə.saɪz/",
-      "us": "/ˈsɪn.θə.saɪz/"
-    },
+    "transcription": "/ˈsɪn.θə.saɪz/",
     "emoji": "🧪",
     "synonyms": [
       "amalgamate",
@@ -372,10 +366,7 @@
     "theme": "science",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": {
-      "uk": "/ˈfɪz.ɪks/",
-      "us": "/ˈfɪz.ɪks/"
-    },
+    "transcription": "/ˈfɪz.ɪks/",
     "emoji": "⚛️",
     "singular_workaround": "branch of physics",
     "synonyms": [
@@ -399,10 +390,7 @@
     "domain": "general",
     "theme": "science",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/trænzˈleɪ.ʃən.əl/",
-      "us": "/trænzˈleɪ.ʃən.əl/"
-    },
+    "transcription": "/trænzˈleɪ.ʃən.əl/",
     "emoji": "🔄",
     "countability": "uncountable",
     "synonyms": [
@@ -431,10 +419,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "paradigm shifts",
-    "transcription": {
-      "uk": "/ˈpær.ə.daɪm ʃɪft/",
-      "us": "/ˈpær.ə.daɪm ʃɪft/"
-    },
+    "transcription": "/ˈpær.ə.daɪm ʃɪft/",
     "emoji": "💡",
     "countability": "countable",
     "synonyms": [
@@ -463,10 +448,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "disruptive technologies",
-    "transcription": {
-      "uk": "/dɪsˈrʌp.tɪv tekˈnɒl.ə.dʒi/",
-      "us": "/dɪsˈrʌp.tɪv tekˈnɑː.lə.dʒi/"
-    },
+    "transcription": "/dɪsˈrʌp.tɪv tekˈnɒl.ə.dʒi/",
     "emoji": "🚀",
     "countability": "countable",
     "synonyms": [
@@ -475,7 +457,10 @@
     ],
     "antonyms": [
       "sustaining technology"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/dɪsˈrʌp.tɪv tekˈnɑː.lə.dʒi/"
+    }
   },
   {
     "id": "en:emergent-technology:noun",
@@ -497,10 +482,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "emergent technologies",
-    "transcription": {
-      "uk": "/iˈmɜː.dʒənt tekˈnɒl.ə.dʒi/",
-      "us": "/iˈmɝː.dʒənt tekˈnɑː.lə.dʒi/"
-    },
+    "transcription": "/iˈmɜː.dʒənt tekˈnɒl.ə.dʒi/",
     "emoji": "🤖",
     "countability": "countable",
     "synonyms": [
@@ -510,7 +492,10 @@
     "antonyms": [
       "obsolete tech",
       "legacy tech"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/iˈmɝː.dʒənt tekˈnɑː.lə.dʒi/"
+    }
   },
   {
     "id": "en:exponential-growth:noun",
@@ -531,10 +516,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌek.spəˈnen.ʃəl ɡrəʊθ/",
-      "us": "/ˌek.spoʊˈnen.ʃəl ɡroʊθ/"
-    },
+    "transcription": "/ˌek.spəˈnen.ʃəl ɡrəʊθ/",
     "emoji": "📈",
     "countability": "uncountable",
     "synonyms": [
@@ -544,7 +526,10 @@
     "antonyms": [
       "linear growth",
       "decline"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌek.spoʊˈnen.ʃəl ɡroʊθ/"
+    }
   },
   {
     "id": "en:unintended-consequences:noun",
@@ -566,17 +551,17 @@
     ],
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": {
-      "uk": "/ˌʌn.ɪnˈten.dɪd ˈkɒn.sɪ.kwən.sɪz/",
-      "us": "/ˌʌn.ɪnˈten.dɪd ˈkɑːn.sə.kwən.sɪz/"
-    },
+    "transcription": "/ˌʌn.ɪnˈten.dɪd ˈkɒn.sɪ.kwən.sɪz/",
     "emoji": "💥",
     "singular_workaround": "unintended consequence",
     "synonyms": [
       "side effects",
       "unforeseen fallout"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌʌn.ɪnˈten.dɪd ˈkɑːn.sə.kwən.sɪz/"
+    }
   },
   {
     "id": "en:existential-risk:noun",
@@ -598,10 +583,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "existential risks",
-    "transcription": {
-      "uk": "/ˌeɡ.zɪˈsten.ʃəl rɪsk/",
-      "us": "/ˌeɡ.zɪˈsten.ʃəl rɪsk/"
-    },
+    "transcription": "/ˌeɡ.zɪˈsten.ʃəl rɪsk/",
     "emoji": "⚠️",
     "countability": "countable",
     "synonyms": [
@@ -630,10 +612,7 @@
     ],
     "updated": "2025-01-15",
     "countability": "uncountable",
-    "transcription": {
-      "uk": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.təˈbɪl.ə.ti/",
-      "us": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.t̬əˈbɪl.ə.t̬i/"
-    },
+    "transcription": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.təˈbɪl.ə.ti/",
     "emoji": "🤖",
     "synonyms": [
       "algorithmic transparency",
@@ -641,7 +620,10 @@
     ],
     "antonyms": [
       "algorithmic opacity"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.t̬əˈbɪl.ə.t̬i/"
+    }
   },
   {
     "id": "en:data-sovereignty:noun",
@@ -662,17 +644,17 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈdeɪ.tə ˈsɒv.rɪn.ti/",
-      "us": "/ˈdeɪ.t̬ə ˈsɑːv.rən.ti/"
-    },
+    "transcription": "/ˈdeɪ.tə ˈsɒv.rɪn.ti/",
     "emoji": "🔒",
     "countability": "uncountable",
     "synonyms": [
       "information governance",
       "data autonomy"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈdeɪ.t̬ə ˈsɑːv.rən.ti/"
+    }
   },
   {
     "id": "en:digital-ethics:noun",
@@ -694,17 +676,17 @@
     ],
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": {
-      "uk": "/ˈdɪdʒ.ɪ.təl ˈeθ.ɪks/",
-      "us": "/ˈdɪdʒ.ə.t̬əl ˈeθ.ɪks/"
-    },
+    "transcription": "/ˈdɪdʒ.ɪ.təl ˈeθ.ɪks/",
     "emoji": "💻",
     "singular_workaround": "digital ethic",
     "synonyms": [
       "cyberethics",
       "tech ethics"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈdɪdʒ.ə.t̬əl ˈeθ.ɪks/"
+    }
   },
   {
     "id": "en:technological-determinism:noun",
@@ -725,16 +707,16 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌtek.nəˈlɒdʒ.ɪ.kəl dɪˈtɜː.mɪ.nɪ.zəm/",
-      "us": "/ˌtek.nəˈlɑː.dʒɪ.kəl dɪˈtɝː.mɪ.nɪ.zəm/"
-    },
+    "transcription": "/ˌtek.nəˈlɒdʒ.ɪ.kəl dɪˈtɜː.mɪ.nɪ.zəm/",
     "no_emoji": true,
     "countability": "uncountable",
     "synonyms": [
       "tech-driven evolution"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌtek.nəˈlɑː.dʒɪ.kəl dɪˈtɝː.mɪ.nɪ.zəm/"
+    }
   },
   {
     "id": "en:biohacking:noun",
@@ -755,17 +737,17 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈbaɪ.əʊˌhæk.ɪŋ/",
-      "us": "/ˈbaɪ.oʊˌhæk.ɪŋ/"
-    },
+    "transcription": "/ˈbaɪ.əʊˌhæk.ɪŋ/",
     "emoji": "🧬",
     "countability": "uncountable",
     "synonyms": [
       "DIY biology",
       "biological enhancement"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈbaɪ.oʊˌhæk.ɪŋ/"
+    }
   },
   {
     "id": "en:gene-editing:noun",
@@ -786,10 +768,7 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈdʒiːn ˌed.ɪ.tɪŋ/",
-      "us": "/ˈdʒiːn ˌed.ɪ.tɪŋ/"
-    },
+    "transcription": "/ˈdʒiːn ˌed.ɪ.tɪŋ/",
     "emoji": "🧬",
     "countability": "uncountable",
     "synonyms": [
@@ -817,17 +796,17 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/sɪnˈθet.ɪk baɪˈɒl.ə.dʒi/",
-      "us": "/sɪnˈθet̬.ɪk baɪˈɑː.lə.dʒi/"
-    },
+    "transcription": "/sɪnˈθet.ɪk baɪˈɒl.ə.dʒi/",
     "emoji": "🧪",
     "countability": "uncountable",
     "synonyms": [
       "engineering biology",
       "synbio"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/sɪnˈθet̬.ɪk baɪˈɑː.lə.dʒi/"
+    }
   },
   {
     "id": "en:precision-medicine:noun",
@@ -848,17 +827,17 @@
       "advanced"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/prɪˈsɪʒ.ən ˈmed.ɪ.sən/",
-      "us": "/prɪˈsɪʒ.ən ˈmed.ə.sən/"
-    },
+    "transcription": "/prɪˈsɪʒ.ən ˈmed.ɪ.sən/",
     "emoji": "🩺",
     "countability": "uncountable",
     "synonyms": [
       "personalized medicine",
       "targeted therapy"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/prɪˈsɪʒ.ən ˈmed.ə.sən/"
+    }
   },
   {
     "id": "en:quantum-leap:noun",
@@ -880,10 +859,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "quantum leaps",
-    "transcription": {
-      "uk": "/ˈkwɒn.təm liːp/",
-      "us": "/ˈkwɑːn.t̬əm liːp/"
-    },
+    "transcription": "/ˈkwɒn.təm liːp/",
     "emoji": "⚛️",
     "countability": "countable",
     "synonyms": [
@@ -892,7 +868,10 @@
     ],
     "antonyms": [
       "incremental step"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈkwɑːn.t̬əm liːp/"
+    }
   },
   {
     "id": "en:scalable-solution:noun",
@@ -914,10 +893,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "scalable solutions",
-    "transcription": {
-      "uk": "/ˈskeɪ.lə.bəl səˈluː.ʃən/",
-      "us": "/ˈskeɪ.lə.bəl səˈluː.ʃən/"
-    },
+    "transcription": "/ˈskeɪ.lə.bəl səˈluː.ʃən/",
     "emoji": "📈",
     "countability": "countable",
     "synonyms": [
@@ -946,17 +922,17 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "minimum viable products",
-    "transcription": {
-      "uk": "/ˈmɪn.ɪ.məm ˈvaɪ.ə.bəl ˈprɒd.ʌkt/",
-      "us": "/ˈmɪn.ə.məm ˈvaɪ.ə.bəl ˈprɑː.dʌkt/"
-    },
+    "transcription": "/ˈmɪn.ɪ.məm ˈvaɪ.ə.bəl ˈprɒd.ʌkt/",
     "emoji": "📦",
     "countability": "countable",
     "synonyms": [
       "MVP",
       "baseline prototype"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈmɪn.ə.məm ˈvaɪ.ə.bəl ˈprɑː.dʌkt/"
+    }
   },
   {
     "id": "en:iterative-process:noun",
@@ -979,16 +955,16 @@
     "updated": "2025-01-15",
     "plural_form": "iterative processes",
     "countability": "countable",
-    "transcription": {
-      "uk": "/ˈɪt.ər.ə.tɪv ˈprəʊ.ses/",
-      "us": "/ˈɪt̬.ə.reɪ.t̬ɪv ˈprɑː.ses/"
-    },
+    "transcription": "/ˈɪt.ər.ə.tɪv ˈprəʊ.ses/",
     "emoji": "🔄",
     "synonyms": [
       "cyclical development",
       "step-by-step refinement"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈɪt̬.ə.reɪ.t̬ɪv ˈprɑː.ses/"
+    }
   },
   {
     "id": "en:first-mover-advantage:noun",
@@ -1010,10 +986,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "first-mover advantages",
-    "transcription": {
-      "uk": "/ˌfɜːst ˈmuː.vər ədˈvɑːn.tɪdʒ/",
-      "us": "/ˌfɝːst ˈmuː.vɚ ədˈvæn.t̬ɪdʒ/"
-    },
+    "transcription": "/ˌfɜːst ˈmuː.vər ədˈvɑːn.tɪdʒ/",
     "emoji": "🥇",
     "countability": "countable",
     "synonyms": [
@@ -1022,6 +995,9 @@
     ],
     "antonyms": [
       "latecomer disadvantage"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌfɝːst ˈmuː.vɚ ədˈvæn.t̬ɪdʒ/"
+    }
   }
 ]

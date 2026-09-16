@@ -20,10 +20,7 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/prəˈtest/",
-      "us": "/prəˈtest/"
-    },
+    "transcription": "/prəˈtest/",
     "emoji": "🪧",
     "synonyms": [
       "demonstrate",
@@ -57,16 +54,16 @@
       "C1"
     ],
     "countability": "false_plural",
-    "transcription": {
-      "uk": "/ˈpɒl.ə.tɪks/",
-      "us": "/ˈpɑː.lə.tɪks/"
-    },
+    "transcription": "/ˈpɒl.ə.tɪks/",
     "emoji": "🏛️",
     "synonyms": [
       "government affairs",
       "public affairs"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈpɑː.lə.tɪks/"
+    }
   },
   {
     "id": "en:debate:verb",
@@ -86,10 +83,7 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/dɪˈbeɪt/",
-      "us": "/dɪˈbeɪt/"
-    },
+    "transcription": "/dɪˈbeɪt/",
     "emoji": "🗣️",
     "synonyms": [
       "discuss",
@@ -114,16 +108,16 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/pəˈlɪt.ɪ.kəl/",
-      "us": "/pəˈlɪt̬.ɪ.kəl/"
-    },
+    "transcription": "/pəˈlɪt.ɪ.kəl/",
     "emoji": "🏛️",
     "synonyms": [
       "governmental",
       "civic"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/pəˈlɪt̬.ɪ.kəl/"
+    }
   },
   {
     "id": "en:president:noun",
@@ -144,10 +138,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈprez.ɪ.dənt/",
-      "us": "/ˈprez.ɪ.dənt/"
-    },
+    "transcription": "/ˈprez.ɪ.dənt/",
     "emoji": "👔",
     "countability": "countable",
     "synonyms": [
@@ -171,10 +162,7 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/praɪm/",
-      "us": "/praɪm/"
-    },
+    "transcription": "/praɪm/",
     "emoji": "⭐",
     "countability": "uncountable",
     "synonyms": [
@@ -199,17 +187,17 @@
     "theme": "politics",
     "updated": "2025-01-15",
     "plural_form": "ministers",
-    "transcription": {
-      "uk": "/ˈmɪn.ɪ.stə/",
-      "us": "/ˈmɪn.ə.stɚ/"
-    },
+    "transcription": "/ˈmɪn.ɪ.stə/",
     "emoji": "👔",
     "countability": "countable",
     "synonyms": [
       "cabinet member",
       "official"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈmɪn.ə.stɚ/"
+    }
   },
   {
     "id": "en:election:noun",
@@ -230,10 +218,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/iˈlek.ʃən/",
-      "us": "/iˈlek.ʃən/"
-    },
+    "transcription": "/iˈlek.ʃən/",
     "emoji": "🗳️",
     "countability": "countable",
     "synonyms": [
@@ -260,16 +245,16 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/vəʊt/",
-      "us": "/voʊt/"
-    },
+    "transcription": "/vəʊt/",
     "emoji": "🗳️",
     "synonyms": [
       "ballot",
       "cast a vote"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/voʊt/"
+    }
   },
   {
     "id": "en:voter:noun",
@@ -290,17 +275,17 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈvəʊ.tə/",
-      "us": "/ˈvoʊ.t̬ɚ/"
-    },
+    "transcription": "/ˈvəʊ.tə/",
     "emoji": "🗳️",
     "countability": "countable",
     "synonyms": [
       "elector",
       "constituent"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈvoʊ.t̬ɚ/"
+    }
   },
   {
     "id": "en:democracy:noun",
@@ -321,10 +306,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/dɪˈmɒk.rə.si/",
-      "us": "/dɪˈmɑː.krə.si/"
-    },
+    "transcription": "/dɪˈmɒk.rə.si/",
     "emoji": "🗳️",
     "countability": "countable",
     "synonyms": [
@@ -334,7 +316,10 @@
     "antonyms": [
       "dictatorship",
       "autocracy"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/dɪˈmɑː.krə.si/"
+    }
   },
   {
     "id": "en:democratic:adjective",
@@ -351,10 +336,7 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˌdem.əˈkræt.ɪk/",
-      "us": "/ˌdem.əˈkræt̬.ɪk/"
-    },
+    "transcription": "/ˌdem.əˈkræt.ɪk/",
     "emoji": "🗳️",
     "synonyms": [
       "representative",
@@ -363,7 +345,10 @@
     "antonyms": [
       "authoritarian",
       "undemocratic"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌdem.əˈkræt̬.ɪk/"
+    }
   },
   {
     "id": "en:policy:noun",
@@ -388,17 +373,17 @@
       "B1",
       "B2"
     ],
-    "transcription": {
-      "uk": "/ˈpɒl.ə.si/",
-      "us": "/ˈpɑː.lə.si/"
-    },
+    "transcription": "/ˈpɒl.ə.si/",
     "emoji": "📜",
     "countability": "countable",
     "synonyms": [
       "strategy",
       "guideline"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈpɑː.lə.si/"
+    }
   },
   {
     "id": "en:legislation:noun",
@@ -421,17 +406,17 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˌledʒ.ɪˈsleɪ.ʃən/",
-      "us": "/ˌledʒ.əˈsleɪ.ʃən/"
-    },
+    "transcription": "/ˌledʒ.ɪˈsleɪ.ʃən/",
     "emoji": "📜",
     "countability": "uncountable",
     "synonyms": [
       "laws",
       "statutes"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌledʒ.əˈsleɪ.ʃən/"
+    }
   },
   {
     "id": "en:parliament:noun",
@@ -449,17 +434,17 @@
     "theme": "politics",
     "updated": "2025-01-15",
     "plural_form": "parliaments",
-    "transcription": {
-      "uk": "/ˈpɑː.lɪ.mənt/",
-      "us": "/ˈpɑːr.lə.mənt/"
-    },
+    "transcription": "/ˈpɑː.lɪ.mənt/",
     "emoji": "🏛️",
     "countability": "countable",
     "synonyms": [
       "legislature",
       "assembly"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈpɑːr.lə.mənt/"
+    }
   },
   {
     "id": "en:congress:noun",
@@ -479,16 +464,16 @@
     "plural_form": "congresses",
     "countability": "countable",
     "collective_note": "Can take a singular or plural verb depending on whether the group is considered as a single unit or as individual members.",
-    "transcription": {
-      "uk": "/ˈkɒŋ.ɡres/",
-      "us": "/ˈkɑːŋ.ɡrəs/"
-    },
+    "transcription": "/ˈkɒŋ.ɡres/",
     "emoji": "🏛️",
     "synonyms": [
       "legislature",
       "assembly"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈkɑːŋ.ɡrəs/"
+    }
   },
   {
     "id": "en:citizen:noun",
@@ -506,10 +491,7 @@
     "theme": "politics",
     "updated": "2025-01-15",
     "plural_form": "citizens",
-    "transcription": {
-      "uk": "/ˈsɪt.ɪ.zən/",
-      "us": "/ˈsɪt̬.ə.zən/"
-    },
+    "transcription": "/ˈsɪt.ɪ.zən/",
     "emoji": "👤",
     "countability": "countable",
     "synonyms": [
@@ -519,7 +501,10 @@
     "antonyms": [
       "alien",
       "foreigner"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈsɪt̬.ə.zən/"
+    }
   },
   {
     "id": "en:citizenship:noun",
@@ -536,17 +521,17 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈsɪt.ɪ.zən.ʃɪp/",
-      "us": "/ˈsɪt̬.ə.zən.ʃɪp/"
-    },
+    "transcription": "/ˈsɪt.ɪ.zən.ʃɪp/",
     "emoji": "🪪",
     "countability": "uncountable",
     "synonyms": [
       "nationality",
       "residency"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈsɪt̬.ə.zən.ʃɪp/"
+    }
   },
   {
     "id": "en:tax:noun",
@@ -567,10 +552,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/tæks/",
-      "us": "/tæks/"
-    },
+    "transcription": "/tæks/",
     "emoji": "💵",
     "countability": "countable",
     "synonyms": [
@@ -594,10 +576,7 @@
     "domain": "general",
     "theme": "politics",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/tækˈseɪ.ʃən/",
-      "us": "/tækˈseɪ.ʃən/"
-    },
+    "transcription": "/tækˈseɪ.ʃən/",
     "emoji": "💵",
     "countability": "uncountable",
     "synonyms": [
@@ -624,17 +603,17 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˈsek.tə/",
-      "us": "/ˈsek.tɚ/"
-    },
+    "transcription": "/ˈsek.tə/",
     "emoji": "🏢",
     "countability": "countable",
     "synonyms": [
       "area",
       "division"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈsek.tɚ/"
+    }
   },
   {
     "id": "en:candidate:noun",
@@ -655,17 +634,17 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈkæn.dɪ.dət/",
-      "us": "/ˈkæn.dɪ.deɪt/"
-    },
+    "transcription": "/ˈkæn.dɪ.dət/",
     "emoji": "👔",
     "countability": "countable",
     "synonyms": [
       "contender",
       "nominee"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈkæn.dɪ.deɪt/"
+    }
   },
   {
     "id": "en:authority:noun",
@@ -683,10 +662,7 @@
     "theme": "politics",
     "updated": "2025-01-15",
     "plural_form": "authorities",
-    "transcription": {
-      "uk": "/ɔːˈθɒr.ə.ti/",
-      "us": "/əˈθɔːr.ə.t̬i/"
-    },
+    "transcription": "/ɔːˈθɒr.ə.ti/",
     "emoji": "👮",
     "countability": "countable",
     "synonyms": [
@@ -695,7 +671,10 @@
     ],
     "antonyms": [
       "powerlessness"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/əˈθɔːr.ə.t̬i/"
+    }
   },
   {
     "id": "en:council:noun",
@@ -713,10 +692,7 @@
     "theme": "politics",
     "updated": "2025-01-15",
     "plural_form": "councils",
-    "transcription": {
-      "uk": "/ˈkaʊn.səl/",
-      "us": "/ˈkaʊn.səl/"
-    },
+    "transcription": "/ˈkaʊn.səl/",
     "emoji": "🏛️",
     "countability": "countable",
     "synonyms": [
@@ -743,10 +719,7 @@
     "levels": [
       "B1"
     ],
-    "transcription": {
-      "uk": "/ˌɪn.təˈnæʃ.ən.əl/",
-      "us": "/ˌɪn.t̬ɚˈnæʃ.ən.əl/"
-    },
+    "transcription": "/ˌɪn.təˈnæʃ.ən.əl/",
     "emoji": "🌐",
     "countability": "uncountable",
     "synonyms": [
@@ -756,7 +729,10 @@
     "antonyms": [
       "domestic",
       "national"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌɪn.t̬ɚˈnæʃ.ən.əl/"
+    }
   },
   {
     "id": "en:reform:noun",
@@ -777,10 +753,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/rɪˈfɔːm/",
-      "us": "/rɪˈfɔːrm/"
-    },
+    "transcription": "/rɪˈfɔːm/",
     "emoji": "🔄",
     "countability": "countable",
     "synonyms": [
@@ -789,7 +762,10 @@
     ],
     "antonyms": [
       "stagnation"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/rɪˈfɔːrm/"
+    }
   },
   {
     "id": "en:demonstration:noun",
@@ -810,10 +786,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˌdem.ənˈstreɪ.ʃən/",
-      "us": "/ˌdem.ənˈstreɪ.ʃən/"
-    },
+    "transcription": "/ˌdem.ənˈstreɪ.ʃən/",
     "emoji": "🪧",
     "countability": "countable",
     "synonyms": [
@@ -842,17 +815,17 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "political parties",
-    "transcription": {
-      "uk": "/pəˈlɪt.ɪ.kəl ˈpɑː.ti/",
-      "us": "/pəˈlɪt̬.ɪ.kəl ˈpɑːr.t̬i/"
-    },
+    "transcription": "/pəˈlɪt.ɪ.kəl ˈpɑː.ti/",
     "emoji": "🗳️",
     "countability": "countable",
     "synonyms": [
       "faction",
       "political group"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/pəˈlɪt̬.ɪ.kəl ˈpɑːr.t̬i/"
+    }
   },
   {
     "id": "en:dictatorship:noun",
@@ -874,10 +847,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "dictatorships",
-    "transcription": {
-      "uk": "/dɪkˈteɪ.tə.ʃɪp/",
-      "us": "/dɪkˈteɪ.t̬ɚ.ʃɪp/"
-    },
+    "transcription": "/dɪkˈteɪ.tə.ʃɪp/",
     "emoji": "👑",
     "countability": "countable",
     "synonyms": [
@@ -886,7 +856,10 @@
     ],
     "antonyms": [
       "democracy"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/dɪkˈteɪ.t̬ɚ.ʃɪp/"
+    }
   },
   {
     "id": "en:public-sector:noun",
@@ -908,10 +881,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "public sectors",
-    "transcription": {
-      "uk": "/ˌpʌb.lɪk ˈsek.tə/",
-      "us": "/ˌpʌb.lɪk ˈsek.tɚ/"
-    },
+    "transcription": "/ˌpʌb.lɪk ˈsek.tə/",
     "emoji": "🏛️",
     "countability": "countable",
     "synonyms": [
@@ -919,7 +889,10 @@
     ],
     "antonyms": [
       "private sector"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌpʌb.lɪk ˈsek.tɚ/"
+    }
   },
   {
     "id": "en:private-sector:noun",
@@ -941,10 +914,7 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "private sectors",
-    "transcription": {
-      "uk": "/ˌpraɪ.vət ˈsek.tə/",
-      "us": "/ˌpraɪ.vət ˈsek.tɚ/"
-    },
+    "transcription": "/ˌpraɪ.vət ˈsek.tə/",
     "emoji": "🏢",
     "countability": "countable",
     "synonyms": [
@@ -952,7 +922,10 @@
     ],
     "antonyms": [
       "public sector"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˌpraɪ.vət ˈsek.tɚ/"
+    }
   },
   {
     "id": "en:minimum-wage:noun",
@@ -974,16 +947,16 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "minimum wages",
-    "transcription": {
-      "uk": "/ˌmɪn.ɪ.məm ˈweɪdʒ/",
-      "us": "/ˌmɪn.ə.məm ˈweɪdʒ/"
-    },
+    "transcription": "/ˌmɪn.ɪ.məm ˈweɪdʒ/",
     "emoji": "💵",
     "countability": "countable",
     "synonyms": [
       "base pay"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌmɪn.ə.məm ˈweɪdʒ/"
+    }
   },
   {
     "id": "en:healthcare-system:noun",
@@ -1005,16 +978,16 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "healthcare systems",
-    "transcription": {
-      "uk": "/ˈhelθ.keə ˈsɪs.təm/",
-      "us": "/ˈhelθ.ker ˈsɪs.təm/"
-    },
+    "transcription": "/ˈhelθ.keə ˈsɪs.təm/",
     "emoji": "🏥",
     "countability": "countable",
     "synonyms": [
       "medical system"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈhelθ.ker ˈsɪs.təm/"
+    }
   },
   {
     "id": "en:public-services:noun",
@@ -1036,14 +1009,14 @@
     ],
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": {
-      "uk": "/ˌpʌb.lɪk ˈsɜː.vɪ.sɪz/",
-      "us": "/ˌpʌb.lɪk ˈsɝː.vɪ.sɪz/"
-    },
+    "transcription": "/ˌpʌb.lɪk ˈsɜː.vɪ.sɪz/",
     "emoji": "🚌",
     "synonyms": [
       "civic services"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˌpʌb.lɪk ˈsɝː.vɪ.sɪz/"
+    }
   }
 ]

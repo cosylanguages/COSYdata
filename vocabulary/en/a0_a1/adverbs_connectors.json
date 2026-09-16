@@ -21,12 +21,12 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/ɒv/",
-      "us": "/əv/"
-    },
+    "transcription": "/ɒv/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/əv/"
+    }
   },
   {
     "id": "en:but:conjunction",
@@ -51,10 +51,7 @@
       "A2",
       "B1"
     ],
-    "transcription": {
-      "uk": "/bʌt/",
-      "us": "/bʌt/"
-    },
+    "transcription": "/bʌt/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -80,12 +77,12 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/səʊ/",
-      "us": "/soʊ/"
-    },
+    "transcription": "/səʊ/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/soʊ/"
+    }
   },
   {
     "id": "en:and:conjunction",
@@ -110,10 +107,7 @@
       "B2",
       "C2"
     ],
-    "transcription": {
-      "uk": "/ænd/",
-      "us": "/ænd/"
-    },
+    "transcription": "/ænd/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -135,10 +129,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/wen/",
-      "us": "/wen/"
-    },
+    "transcription": "/wen/",
     "no_antonym": true,
     "emoji": "⏰"
   },
@@ -164,14 +155,14 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ˈɑːf.tə/",
-      "us": "/ˈæf.tɚ/"
-    },
+    "transcription": "/ˈɑːf.tə/",
     "emoji": "➡️",
     "antonyms": [
       "before"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈæf.tɚ/"
+    }
   },
   {
     "id": "en:too:adverb",
@@ -195,10 +186,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/tuː/",
-      "us": "/tuː/"
-    },
+    "transcription": "/tuː/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -224,10 +212,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ˈver.i/",
-      "us": "/ˈver.i/"
-    },
+    "transcription": "/ˈver.i/",
     "no_antonym": true,
     "emoji": "‼️"
   },
@@ -250,10 +235,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/kwaɪt/",
-      "us": "/kwaɪt/"
-    },
+    "transcription": "/kwaɪt/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -279,10 +261,7 @@
       "A1",
       "B1"
     ],
-    "transcription": {
-      "uk": "/waɪl/",
-      "us": "/waɪl/"
-    },
+    "transcription": "/waɪl/",
     "no_antonym": true,
     "emoji": "⏳"
   },
@@ -304,12 +283,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈɔːl.səʊ/",
-      "us": "/ˈɑːl.soʊ/"
-    },
+    "transcription": "/ˈɔːl.səʊ/",
     "no_antonym": true,
-    "emoji": "➕"
+    "emoji": "➕",
+    "transcription_variants": {
+      "us": "/ˈɑːl.soʊ/"
+    }
   },
   {
     "id": "en:just:adverb",
@@ -329,10 +308,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/dʒʌst/",
-      "us": "/dʒʌst/"
-    },
+    "transcription": "/dʒʌst/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -354,12 +330,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈəʊn.li/",
-      "us": "/ˈoʊn.li/"
-    },
+    "transcription": "/ˈəʊn.li/",
     "no_antonym": true,
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "transcription_variants": {
+      "us": "/ˈoʊn.li/"
+    }
   },
   {
     "id": "en:really:adverb",
@@ -379,12 +355,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈrɪə.li/",
-      "us": "/ˈriː.ə.li/"
-    },
+    "transcription": "/ˈrɪə.li/",
     "no_antonym": true,
-    "emoji": "💯"
+    "emoji": "💯",
+    "transcription_variants": {
+      "us": "/ˈriː.ə.li/"
+    }
   },
   {
     "id": "en:well:adverb",
@@ -404,10 +380,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/wel/",
-      "us": "/wel/"
-    },
+    "transcription": "/wel/",
     "emoji": "👍",
     "antonyms": [
       "badly"
@@ -431,10 +404,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈbæd.li/",
-      "us": "/ˈbæd.li/"
-    },
+    "transcription": "/ˈbæd.li/",
     "emoji": "👎",
     "antonyms": [
       "well"
@@ -458,15 +428,15 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsləʊ.li/",
-      "us": "/ˈsloʊ.li/"
-    },
+    "transcription": "/ˈsləʊ.li/",
     "emoji": "🐢",
     "antonyms": [
       "quickly",
       "fast"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈsloʊ.li/"
+    }
   },
   {
     "id": "en:quickly:adverb",
@@ -486,10 +456,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈkwɪk.li/",
-      "us": "/ˈkwɪk.li/"
-    },
+    "transcription": "/ˈkwɪk.li/",
     "emoji": "⚡",
     "antonyms": [
       "slowly"
@@ -513,14 +480,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/fɑːst/",
-      "us": "/fæst/"
-    },
+    "transcription": "/fɑːst/",
     "antonyms": [
       "slowly"
     ],
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "transcription_variants": {
+      "us": "/fæst/"
+    }
   },
   {
     "id": "en:hard:adverb",
@@ -540,14 +507,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/hɑːd/",
-      "us": "/hɑːrd/"
-    },
+    "transcription": "/hɑːd/",
     "antonyms": [
       "easily"
     ],
-    "emoji": "🏋️"
+    "emoji": "🏋️",
+    "transcription_variants": {
+      "us": "/hɑːrd/"
+    }
   },
   {
     "id": "en:here:adverb",
@@ -570,14 +537,14 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/hɪə/",
-      "us": "/hɪr/"
-    },
+    "transcription": "/hɪə/",
     "emoji": "📍",
     "antonyms": [
       "there"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/hɪr/"
+    }
   },
   {
     "id": "en:there:adverb",
@@ -600,14 +567,14 @@
     "levels": [
       "A1"
     ],
-    "transcription": {
-      "uk": "/ðeə/",
-      "us": "/ðer/"
-    },
+    "transcription": "/ðeə/",
     "emoji": "👉",
     "antonyms": [
       "here"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ðer/"
+    }
   },
   {
     "id": "en:now:adverb",
@@ -627,10 +594,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/naʊ/",
-      "us": "/naʊ/"
-    },
+    "transcription": "/naʊ/",
     "emoji": "⏱️",
     "antonyms": [
       "then"
@@ -658,10 +622,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ðen/",
-      "us": "/ðen/"
-    },
+    "transcription": "/ðen/",
     "emoji": "⏳",
     "antonyms": [
       "now"
@@ -685,10 +646,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/təˈdeɪ/",
-      "us": "/təˈdeɪ/"
-    },
+    "transcription": "/təˈdeɪ/",
     "no_antonym": true,
     "emoji": "📅"
   },
@@ -710,14 +668,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/təˈmɒr.əʊ/",
-      "us": "/təˈmɔːr.oʊ/"
-    },
+    "transcription": "/təˈmɒr.əʊ/",
     "emoji": "📅➡️",
     "antonyms": [
       "yesterday"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/təˈmɔːr.oʊ/"
+    }
   },
   {
     "id": "en:yesterday:adverb",
@@ -737,14 +695,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈjes.tə.deɪ/",
-      "us": "/ˈjes.tɚ.deɪ/"
-    },
+    "transcription": "/ˈjes.tə.deɪ/",
     "emoji": "📅⬅️",
     "antonyms": [
       "tomorrow"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈjes.tɚ.deɪ/"
+    }
   },
   {
     "id": "en:always:adverb",
@@ -764,14 +722,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈɔːl.weɪz/",
-      "us": "/ˈɑːl.weɪz/"
-    },
+    "transcription": "/ˈɔːl.weɪz/",
     "emoji": "♾️",
     "antonyms": [
       "never"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈɑːl.weɪz/"
+    }
   },
   {
     "id": "en:usually:adverb",
@@ -791,10 +749,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈjuː.ʒu.ə.li/",
-      "us": "/ˈjuː.ʒu.ə.li/"
-    },
+    "transcription": "/ˈjuː.ʒu.ə.li/",
     "emoji": "🔄",
     "antonyms": [
       "rarely",
@@ -819,15 +774,15 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈɒf.ən/",
-      "us": "/ˈɑːf.ən/"
-    },
+    "transcription": "/ˈɒf.ən/",
     "emoji": "🔁",
     "antonyms": [
       "rarely",
       "seldom"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈɑːf.ən/"
+    }
   },
   {
     "id": "en:sometimes:adverb",
@@ -847,10 +802,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈsʌm.taɪmz/",
-      "us": "/ˈsʌm.taɪmz/"
-    },
+    "transcription": "/ˈsʌm.taɪmz/",
     "no_antonym": true,
     "emoji": "🔂"
   },
@@ -872,14 +824,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ˈnev.ə/",
-      "us": "/ˈnev.ɚ/"
-    },
+    "transcription": "/ˈnev.ə/",
     "emoji": "🚫",
     "antonyms": [
       "always"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/ˈnev.ɚ/"
+    }
   },
   {
     "id": "en:again:adverb",
@@ -899,10 +851,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/əˈɡen/",
-      "us": "/əˈɡen/"
-    },
+    "transcription": "/əˈɡen/",
     "no_antonym": true,
     "emoji": "🔄"
   },
@@ -924,12 +873,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɔː/",
-      "us": "/ɔːr/"
-    },
+    "transcription": "/ɔː/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ɔːr/"
+    }
   },
   {
     "id": "en:because:conjunction",
@@ -949,12 +898,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/bɪˈkəz/",
-      "us": "/bɪˈkʌz/"
-    },
+    "transcription": "/bɪˈkəz/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/bɪˈkʌz/"
+    }
   },
   {
     "id": "en:if:adverb",
@@ -974,10 +923,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɪf/",
-      "us": "/ɪf/"
-    },
+    "transcription": "/ɪf/",
     "no_emoji": true,
     "no_antonym": true
   },
@@ -999,14 +945,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/bɪˈfɔː/",
-      "us": "/bɪˈfɔːr/"
-    },
+    "transcription": "/bɪˈfɔː/",
     "emoji": "⬅️",
     "antonyms": [
       "after"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/bɪˈfɔːr/"
+    }
   },
   {
     "id": "en:during:preposition",
@@ -1023,12 +969,12 @@
     "domain": "general",
     "theme": "grammar",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈdʒʊə.rɪŋ/",
-      "us": "/ˈdʊr.ɪŋ/"
-    },
+    "transcription": "/ˈdʒʊə.rɪŋ/",
     "no_antonym": true,
-    "emoji": "⏳"
+    "emoji": "⏳",
+    "transcription_variants": {
+      "us": "/ˈdʊr.ɪŋ/"
+    }
   },
   {
     "id": "en:since:adverb",
@@ -1045,10 +991,7 @@
     "domain": "general",
     "theme": "grammar",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/sɪns/",
-      "us": "/sɪns/"
-    },
+    "transcription": "/sɪns/",
     "no_antonym": true,
     "emoji": "⏱️"
   },
@@ -1070,10 +1013,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ənˈtɪl/",
-      "us": "/ənˈtɪl/"
-    },
+    "transcription": "/ənˈtɪl/",
     "no_antonym": true,
     "emoji": "🛑"
   },
@@ -1099,12 +1039,12 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ɔːlˈðəʊ/",
-      "us": "/ɑːlˈðoʊ/"
-    },
+    "transcription": "/ɔːlˈðəʊ/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ɑːlˈðoʊ/"
+    }
   },
   {
     "id": "en:maybe:adverb",
@@ -1128,10 +1068,7 @@
       "A1",
       "A2"
     ],
-    "transcription": {
-      "uk": "/ˈmeɪ.bi/",
-      "us": "/ˈmeɪ.bi/"
-    },
+    "transcription": "/ˈmeɪ.bi/",
     "no_antonym": true,
     "emoji": "🤷"
   },
@@ -1150,12 +1087,12 @@
     "domain": "general",
     "theme": "grammar",
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/pəˈhæps/",
-      "us": "/pɚˈhæps/"
-    },
+    "transcription": "/pəˈhæps/",
     "no_antonym": true,
-    "emoji": "🤷"
+    "emoji": "🤷",
+    "transcription_variants": {
+      "us": "/pɚˈhæps/"
+    }
   },
   {
     "id": "en:still:adverb",
@@ -1175,10 +1112,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/stɪl/",
-      "us": "/stɪl/"
-    },
+    "transcription": "/stɪl/",
     "no_antonym": true,
     "emoji": "⏳"
   },
@@ -1200,10 +1134,7 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/jet/",
-      "us": "/jet/"
-    },
+    "transcription": "/jet/",
     "no_antonym": true,
     "emoji": "⏳"
   },
@@ -1225,12 +1156,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": {
-      "uk": "/ɔːlˈred.i/",
-      "us": "/ɑːlˈred.i/"
-    },
+    "transcription": "/ɔːlˈred.i/",
     "no_antonym": true,
-    "emoji": "✅"
+    "emoji": "✅",
+    "transcription_variants": {
+      "us": "/ɑːlˈred.i/"
+    }
   },
   {
     "id": "en:easily:adverb",
@@ -1251,10 +1182,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈiː.zəl.i/",
-      "us": "/ˈiː.zəl.i/"
-    },
+    "transcription": "/ˈiː.zəl.i/",
     "emoji": "🟢",
     "antonyms": [
       "hardly",
@@ -1280,15 +1208,15 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/təˈɡeð.ə/",
-      "us": "/təˈɡeð.ɚ/"
-    },
+    "transcription": "/təˈɡeð.ə/",
     "emoji": "👫",
     "antonyms": [
       "alone",
       "apart"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/təˈɡeð.ɚ/"
+    }
   },
   {
     "id": "en:alone:adverb",
@@ -1309,14 +1237,14 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/əˈləʊn/",
-      "us": "/əˈloʊn/"
-    },
+    "transcription": "/əˈləʊn/",
     "emoji": "👤",
     "antonyms": [
       "together"
-    ]
+    ],
+    "transcription_variants": {
+      "us": "/əˈloʊn/"
+    }
   },
   {
     "id": "en:especially:adverb",
@@ -1337,10 +1265,7 @@
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ɪˈspeʃ.əl.i/",
-      "us": "/ɪˈspeʃ.əl.i/"
-    },
+    "transcription": "/ɪˈspeʃ.əl.i/",
     "no_antonym": true,
     "emoji": "⭐"
   }
