@@ -38,10 +38,11 @@ All notable changes to this project will be documented in this file.
   - `pluralia_tantum`: 45 entries (removed prohibited plural forms, added `singular_workaround` phrases such as "a pair of ..." where applicable)
   - `false_plural`: 15 entries (removed prohibited plural forms)
   - `invariable`: 9 entries (removed prohibited plural forms)
-- Updated transcription, emoji, and countability fields across all 951 entries in `vocabulary/en/c2/` across 20 theme files:
+- Updated transcription, emoji, countability, synonyms, and antonyms across all 951 entries in `vocabulary/en/c2/` across 20 theme files:
   - **Transcription**: Added dual-accent British (UK) and American (US) IPA objects (`{ "uk": "...", "us": "..." }`) sourced from standard dictionary references for all 951 entries (including full-phrase transcriptions for idioms, proverbs, and multi-word C2 expressions).
   - **Emoji & Symbol**: Evaluated all 951 entries; retained `no_emoji: true` waivers for 736 rare, literary, or formal abstract words (e.g. *perfunctory*, *ubiquitous*, *sui generis*), while adding genuine single emojis, symbols, or combinations to 215 entries with vivid or concrete imagery (e.g. proverbs, idioms, concrete concepts).
   - **Countability & Plurals**: Classified all 311 noun entries in `vocabulary/en/c2/`: 213 abstract/mass nouns as `uncountable` (removing naive plural forms), 96 as `countable` with accurate plural forms, and 2 as `pluralia_tantum` with appropriate `singular_workaround` phrases.
+  - **Synonyms & Antonyms**: Populated `synonyms` and `antonyms` / `no_antonym` across all 951 entries in `vocabulary/en/c2/`. Added 1–3 precise near-synonyms preserving register and nuance to all 951 entries, added genuine antonym lists to 677 entries, and applied `no_antonym: true` waivers to 274 entries genuinely lacking direct opposites.
 
 ### Added
 - Initial scaffold for `COSYdata` repository.
