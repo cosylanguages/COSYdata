@@ -19,7 +19,13 @@
       "uk": "/pres/",
       "us": "/pres/"
     },
-    "emoji": "📰"
+    "emoji": "📰",
+    "synonyms": [
+      "news media",
+      "journalism",
+      "newspapers"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:journalist:noun",
@@ -45,7 +51,12 @@
       "us": "/ˈdʒɝː.nə.lɪst/"
     },
     "emoji": "📰",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "reporter",
+      "correspondent"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:journalism:noun",
@@ -67,7 +78,12 @@
       "us": "/ˈdʒɝː.nə.lɪ.zəm/"
     },
     "emoji": "📰",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "reporting",
+      "the press"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:broadcast:verb",
@@ -91,7 +107,16 @@
       "uk": "/ˈbrɔːd.kɑːst/",
       "us": "/ˈbrɑːd.kæst/"
     },
-    "emoji": "📻"
+    "emoji": "📻",
+    "synonyms": [
+      "air",
+      "transmit",
+      "televise"
+    ],
+    "antonyms": [
+      "suppress",
+      "withhold"
+    ]
   },
   {
     "id": "en:documentary:noun",
@@ -117,7 +142,12 @@
       "us": "/ˌdɑː.kjəˈmen.t̬ɚ.i/"
     },
     "emoji": "🎥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "factual film",
+      "non-fiction film"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:critic:noun",
@@ -143,7 +173,12 @@
       "us": "/ˈkrɪt.ɪk/"
     },
     "emoji": "✍️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "reviewer",
+      "commentator"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:plot:noun",
@@ -169,7 +204,12 @@
       "us": "/plɑːt/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "storyline",
+      "narrative"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:character:noun",
@@ -195,7 +235,12 @@
       "us": "/ˈkær.ək.tɚ/"
     },
     "emoji": "🎭",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "persona",
+      "role"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:genre:noun",
@@ -221,7 +266,13 @@
       "us": "/ˈʒɑːn.rə/"
     },
     "emoji": "📚",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "category",
+      "style",
+      "type"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:fiction:noun",
@@ -243,7 +294,15 @@
       "us": "/ˈfɪk.ʃən/"
     },
     "emoji": "📖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "narrative prose",
+      "storytelling"
+    ],
+    "antonyms": [
+      "non-fiction",
+      "fact"
+    ]
   },
   {
     "id": "en:non-fiction:noun",
@@ -265,7 +324,14 @@
       "us": "/ˌnɑːnˈfɪk.ʃən/"
     },
     "emoji": "📖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "factual writing",
+      "biography"
+    ],
+    "antonyms": [
+      "fiction"
+    ]
   },
   {
     "id": "en:novel:noun",
@@ -288,7 +354,12 @@
       "us": "/ˈnɑː.vəl/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "book",
+      "work of fiction"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:author:noun",
@@ -311,7 +382,12 @@
       "us": "/ˈɑː.θɚ/"
     },
     "emoji": "✍️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "writer",
+      "novelist"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:poem:noun",
@@ -334,7 +410,12 @@
       "us": "/ˈpoʊ.əm/"
     },
     "emoji": "📜",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "verse",
+      "rhyme"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:poetry:noun",
@@ -356,7 +437,14 @@
       "uk": "/ˈpəʊ.ɪ.tri/",
       "us": "/ˈpoʊ.ə.tri/"
     },
-    "emoji": "📜"
+    "emoji": "📜",
+    "synonyms": [
+      "verse",
+      "poetic works"
+    ],
+    "antonyms": [
+      "prose"
+    ]
   },
   {
     "id": "en:soundtrack:noun",
@@ -382,7 +470,12 @@
       "us": "/ˈsaʊnd.træk/"
     },
     "emoji": "🎵",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "film music",
+      "score"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:director:noun",
@@ -405,7 +498,12 @@
       "us": "/dəˈrek.tɚ/"
     },
     "emoji": "🎬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "filmmaker",
+      "head manager"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:audience:noun",
@@ -431,7 +529,13 @@
       "us": "/ˈɑː.di.əns/"
     },
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "spectators",
+      "viewers",
+      "listeners"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:critically:noun",
@@ -453,7 +557,14 @@
       "us": "/ˈkrɪt̬.ɪ.kəl.i/"
     },
     "emoji": "✍️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "analytically",
+      "evaluatively"
+    ],
+    "antonyms": [
+      "uncritically"
+    ]
   },
   {
     "id": "en:acclaimed:adjective",
@@ -474,7 +585,15 @@
       "uk": "/əˈkleɪmd/",
       "us": "/əˈkleɪmd/"
     },
-    "emoji": "👏"
+    "emoji": "👏",
+    "synonyms": [
+      "praised",
+      "celebrated"
+    ],
+    "antonyms": [
+      "criticized",
+      "panned"
+    ]
   },
   {
     "id": "en:bestseller:noun",
@@ -497,7 +616,14 @@
       "us": "/ˌbestˈsel.ɚ/"
     },
     "emoji": "📚",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "hit book",
+      "blockbuster book"
+    ],
+    "antonyms": [
+      "flop"
+    ]
   },
   {
     "id": "en:publish:verb",
@@ -518,7 +644,13 @@
       "uk": "/ˈpʌb.lɪʃ/",
       "us": "/ˈpʌb.lɪʃ/"
     },
-    "emoji": "📖"
+    "emoji": "📖",
+    "synonyms": [
+      "issue",
+      "release",
+      "print"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:publication:noun",
@@ -541,7 +673,12 @@
       "us": "/ˌpʌb.ləˈkeɪ.ʃən/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "periodical",
+      "release"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:censorship:noun",
@@ -566,7 +703,15 @@
       "us": "/ˈsen.sɚ.ʃɪp/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "suppression",
+      "banning"
+    ],
+    "antonyms": [
+      "free speech",
+      "openness"
+    ]
   },
   {
     "id": "en:influence:noun",
@@ -594,7 +739,13 @@
       "us": "/ˈɪn.flu.əns/"
     },
     "emoji": "✨",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "impact",
+      "sway",
+      "effect"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:storyline:noun",
@@ -621,7 +772,12 @@
       "us": "/ˈstɔːr.i.laɪn/"
     },
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "plot",
+      "narrative"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:box-office:noun",
@@ -648,7 +804,11 @@
       "us": "/ˈbɑːks ˌɑː.fɪs/"
     },
     "emoji": "🎟️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "ticket sales"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:blockbuster:noun",
@@ -675,7 +835,15 @@
       "us": "/ˈblɑːkˌbʌs.tɚ/"
     },
     "emoji": "💥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "hit",
+      "smash hit"
+    ],
+    "antonyms": [
+      "flop",
+      "bomb"
+    ]
   },
   {
     "id": "en:lyrics:noun",
@@ -701,7 +869,12 @@
       "uk": "/ˈlɪr.ɪks/",
       "us": "/ˈlɪr.ɪks/"
     },
-    "emoji": "🎶"
+    "emoji": "🎶",
+    "synonyms": [
+      "words",
+      "song text"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:album:noun",
@@ -728,7 +901,12 @@
       "us": "/ˈæl.bəm/"
     },
     "emoji": "💿",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "record",
+      "release"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:release:noun",
@@ -755,7 +933,14 @@
       "us": "/rɪˈliːs/"
     },
     "emoji": "🚀",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "launch",
+      "debut"
+    ],
+    "antonyms": [
+      "withdrawal"
+    ]
   },
   {
     "id": "en:premiere:noun",
@@ -782,7 +967,12 @@
       "us": "/prɪˈmɪr/"
     },
     "emoji": "🎬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "first showing",
+      "debut"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:remake:noun",
@@ -809,7 +999,12 @@
       "us": "/ˈriː.meɪk/"
     },
     "emoji": "🔄",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "new version",
+      "adaptation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:sequel:noun",
@@ -836,7 +1031,14 @@
       "us": "/ˈsiː.kwəl/"
     },
     "emoji": "2️⃣",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "continuation",
+      "follow-up"
+    ],
+    "antonyms": [
+      "prequel"
+    ]
   },
   {
     "id": "en:prequel:noun",
@@ -863,7 +1065,13 @@
       "us": "/ˈpriː.kwəl/"
     },
     "emoji": "◀️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "preceding story"
+    ],
+    "antonyms": [
+      "sequel"
+    ]
   },
   {
     "id": "en:sitcom:noun",
@@ -890,7 +1098,12 @@
       "us": "/ˈsɪt.kɑːm/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "situation comedy",
+      "comedy show"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:series:noun",
@@ -916,7 +1129,12 @@
       "uk": "/ˈsɪə.riːz/",
       "us": "/ˈsɪr.iːz/"
     },
-    "emoji": "📺"
+    "emoji": "📺",
+    "synonyms": [
+      "show",
+      "tv series"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:episode:noun",
@@ -943,7 +1161,12 @@
       "us": "/ˈep.ə.soʊd/"
     },
     "emoji": "📺",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "installment",
+      "chapter"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:cliffhanger:noun",
@@ -970,7 +1193,11 @@
       "us": "/ˈklɪfˌhæŋ.ɚ/"
     },
     "emoji": "🧗",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "suspenseful ending"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:spoiler:noun",
@@ -997,7 +1224,11 @@
       "us": "/ˈspɔɪ.lɚ/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "plot leak"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:fan-base:noun",
@@ -1024,7 +1255,12 @@
       "us": "/ˈfæn.beɪs/"
     },
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "fandom",
+      "following"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:celebrity:noun",
@@ -1051,7 +1287,15 @@
       "us": "/səˈleb.rə.t̬i/"
     },
     "emoji": "⭐",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "star",
+      "famous person"
+    ],
+    "antonyms": [
+      "nobody",
+      "unknown"
+    ]
   },
   {
     "id": "en:fame:noun",
@@ -1077,7 +1321,15 @@
       "us": "/feɪm/"
     },
     "emoji": "⭐",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "renown",
+      "stardom"
+    ],
+    "antonyms": [
+      "obscurity",
+      "anonymity"
+    ]
   },
   {
     "id": "en:gossip-magazine:noun",
@@ -1104,7 +1356,12 @@
       "us": "/ˈɡɑː.səp mæɡ.əˌziːn/"
     },
     "emoji": "📰",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "tabloid",
+      "scandal sheet"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:masterpiece:noun",
@@ -1131,7 +1388,15 @@
       "us": "/ˈmæs.tɚ.piːs/"
     },
     "emoji": "🖼️",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "masterwork",
+      "jewel"
+    ],
+    "antonyms": [
+      "failure",
+      "dud"
+    ]
   },
   {
     "id": "en:contemporary-art:noun",
@@ -1157,7 +1422,13 @@
       "us": "/kənˈtem.pə.rer.i ɑːrt/"
     },
     "emoji": "🎨",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "modern art"
+    ],
+    "antonyms": [
+      "classical art"
+    ]
   },
   {
     "id": "en:abstract:noun",
@@ -1184,7 +1455,14 @@
       "us": "/ˈæb.strækt/"
     },
     "emoji": "🎨",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "summary",
+      "non-representational art"
+    ],
+    "antonyms": [
+      "concrete"
+    ]
   },
   {
     "id": "en:realistic:noun",
@@ -1210,6 +1488,14 @@
       "us": "/ˌriː.əˈlɪs.tɪk/"
     },
     "emoji": "🎯",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "representational",
+      "lifelike"
+    ],
+    "antonyms": [
+      "abstract",
+      "unrealistic"
+    ]
   }
 ]
