@@ -21,7 +21,12 @@
       "uk": "/ˌep.ɪ.diː.mi.əˈlɒdʒ.ɪ.kəl/",
       "us": "/ˌep.ə.diː.mi.əˈlɑː.dʒɪ.kəl/"
     },
-    "emoji": "📊"
+    "emoji": "📊",
+    "synonyms": [
+      "disease-tracking",
+      "epidemic-related"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:palliative:adjective",
@@ -42,7 +47,16 @@
       "uk": "/ˈpæl.i.ə.tɪv/",
       "us": "/ˈpæl.i.ə.t̬ɪv/"
     },
-    "emoji": "🕊️"
+    "emoji": "🕊️",
+    "synonyms": [
+      "soothing",
+      "alleviative",
+      "sedative"
+    ],
+    "antonyms": [
+      "curative",
+      "therapeutic"
+    ]
   },
   {
     "id": "en:comorbidity:adjective",
@@ -63,7 +77,12 @@
       "uk": "/ˌkəʊ.mɔːˈbɪd.ə.ti/",
       "us": "/ˌkoʊ.mɔːrˈbɪd.ə.t̬i/"
     },
-    "emoji": "🩺"
+    "emoji": "🩺",
+    "synonyms": [
+      "co-occurring condition",
+      "secondary illness"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:efficacious:adjective",
@@ -84,7 +103,16 @@
       "uk": "/ˌef.ɪˈkeɪ.ʃəs/",
       "us": "/ˌef.əˈkeɪ.ʃəs/"
     },
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "synonyms": [
+      "effective",
+      "potent",
+      "successful"
+    ],
+    "antonyms": [
+      "inefficacious",
+      "ineffective"
+    ]
   },
   {
     "id": "en:modelling:noun",
@@ -106,7 +134,12 @@
       "us": "/ˈmɑː.dəl.ɪŋ/"
     },
     "emoji": "💻",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "simulation",
+      "representation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:etiology:noun",
@@ -128,7 +161,13 @@
       "us": "/ˌiː.t̬iˈɑː.lə.dʒi/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "causation",
+      "origin",
+      "genesis"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:aetiology:noun",
@@ -150,7 +189,13 @@
       "us": "/ˌiː.t̬iˈɑː.lə.dʒi/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "causation",
+      "origin",
+      "genesis"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:genomic:adjective",
@@ -171,7 +216,12 @@
       "uk": "/dʒəˈnəʊ.mɪk/",
       "us": "/dʒəˈnoʊ.mɪk/"
     },
-    "emoji": "🧬"
+    "emoji": "🧬",
+    "synonyms": [
+      "genetic",
+      "DNA-related"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:sequencing:noun",
@@ -193,7 +243,12 @@
       "us": "/ˈsiː.kwən.sɪŋ/"
     },
     "emoji": "🧬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "mapping",
+      "gene sequencing"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:iatrogenic:adjective",
@@ -214,7 +269,12 @@
       "uk": "/aɪˌæt.rəˈdʒen.ɪk/",
       "us": "/aɪˌæt.rəˈdʒen.ɪk/"
     },
-    "emoji": "🩺"
+    "emoji": "🩺",
+    "synonyms": [
+      "physician-induced",
+      "treatment-induced"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:informed:noun",
@@ -236,7 +296,15 @@
       "us": "/ɪnˈfɔːrmd/"
     },
     "emoji": "📋",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "knowledgeable",
+      "enlightened"
+    ],
+    "antonyms": [
+      "uninformed",
+      "ignorant"
+    ]
   },
   {
     "id": "en:consent:noun",
@@ -258,7 +326,16 @@
       "us": "/kənˈsent/"
     },
     "emoji": "✍️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "agreement",
+      "approval",
+      "acquiescence"
+    ],
+    "antonyms": [
+      "dissent",
+      "refusal"
+    ]
   },
   {
     "id": "en:morbidity:noun",
@@ -280,7 +357,14 @@
       "us": "/mɔːrˈbɪd.ə.t̬i/"
     },
     "emoji": "🩺",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "disease rate",
+      "illness rate"
+    ],
+    "antonyms": [
+      "healthiness"
+    ]
   },
   {
     "id": "en:mortality:noun",
@@ -302,7 +386,15 @@
       "us": "/mɔːrˈtæl.ə.t̬i/"
     },
     "emoji": "📊",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "death rate",
+      "fatality rate"
+    ],
+    "antonyms": [
+      "immortality",
+      "survival"
+    ]
   },
   {
     "id": "en:pathogenesis:noun",
@@ -324,7 +416,12 @@
       "us": "/ˌpæθ.əˈdʒen.ə.sɪs/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "disease development",
+      "pathology"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:precision:noun",
@@ -346,7 +443,16 @@
       "us": "/prɪˈsɪʒ.ən/"
     },
     "emoji": "🎯",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "accuracy",
+      "exactness",
+      "meticulousness"
+    ],
+    "antonyms": [
+      "inaccuracy",
+      "imprecision"
+    ]
   },
   {
     "id": "en:prophylactic:adjective",
@@ -367,7 +473,15 @@
       "uk": "/ˌprɒf.ɪˈlæk.tɪk/",
       "us": "/ˌproʊ.fəˈlæk.tɪk/"
     },
-    "emoji": "🛡️"
+    "emoji": "🛡️",
+    "synonyms": [
+      "preventative",
+      "protective"
+    ],
+    "antonyms": [
+      "therapeutic",
+      "curative"
+    ]
   },
   {
     "id": "en:psychosomatic:adjective",
@@ -388,7 +502,12 @@
       "uk": "/ˌsaɪ.kəʊ.səˈmæt.ɪk/",
       "us": "/ˌsaɪ.koʊ.səˈmæt̬.ɪk/"
     },
-    "emoji": "🧠"
+    "emoji": "🧠",
+    "synonyms": [
+      "psychogenic",
+      "mind-body"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:intervention:noun",
@@ -411,7 +530,13 @@
       "us": "/ˌɪn.t̬ɚˈven.ʃən/"
     },
     "emoji": "🩺",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "treatment",
+      "procedure",
+      "involvement"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:resistant:noun",
@@ -433,7 +558,15 @@
       "us": "/rɪˈzɪs.tənt/"
     },
     "emoji": "🛡️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "impervious",
+      "refractory"
+    ],
+    "antonyms": [
+      "susceptible",
+      "vulnerable"
+    ]
   },
   {
     "id": "en:strain:noun",
@@ -456,7 +589,12 @@
       "us": "/streɪn/"
     },
     "emoji": "🦠",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "variant",
+      "subtype"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:therapeutic:adjective",
@@ -477,7 +615,16 @@
       "uk": "/ˌθer.əˈpjuː.tɪk/",
       "us": "/ˌθer.əˈpjuː.t̬ɪk/"
     },
-    "emoji": "💊"
+    "emoji": "💊",
+    "synonyms": [
+      "curative",
+      "healing",
+      "remedial"
+    ],
+    "antonyms": [
+      "harmful",
+      "detrimental"
+    ]
   },
   {
     "id": "en:triage:noun",
@@ -499,6 +646,11 @@
       "us": "/triːˈɑːʒ/"
     },
     "emoji": "🏥",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "prioritization",
+      "sorting"
+    ],
+    "no_antonym": true
   }
 ]
