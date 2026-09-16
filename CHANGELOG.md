@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Corrected missing articles before singular countable common nouns in example sentences across all English CEFR level subdirectories in `vocabulary/en/` (58 corrections across 31 theme files):
+  - `a0_a1/`: 43 corrections across 18 files (`adjectives.json`, `adverbs_connectors.json`, `animals.json`, `common_nouns.json`, `directions.json`, `feelings.json`, `general_adjectives.json`, `house_furniture.json`, `jobs.json`, `measurement.json`, `money_shopping.json`, `nationalities.json`, `numbers.json`, `objects.json`, `places_transport.json`, `technology.json`, `time.json`, `verbs.json`).
+  - `a2/`: 2 corrections across 2 files (`general_adjectives.json`, `work.json`).
+  - `b1/`: 5 corrections across 4 files (`expressions.json`, `idioms.json`, `linking_words.json`, `phrasal_verbs.json`).
+  - `b2/`: 4 corrections across 3 files (`advanced_verbs.json`, `phrasal_verbs.json`, `work.json`).
+  - `c1/`: 3 corrections across 3 files (`collocations.json`, `emotions.json`, `synonyms.json`).
+  - `c2/`: 1 correction in 1 file (`rare_adjectives.json`).
 - Replaced templated placeholder definitions and example sentences across all 1,277 B2 vocabulary entries in `vocabulary/en/b2/` across 37 theme files with genuine, nuanced B2 definitions and complex 12–18 word example sentences featuring subordinate clauses, passive voice, or reported speech where natural:
   - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `economy.json`, `education.json`): 295 entries rewritten.
   - **Batch 2** (9 files: `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `general_adjectives.json`, `global_issues.json`, `health.json`, `idioms.json`, `innovation.json`): 350 entries rewritten.
