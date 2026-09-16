@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Replaced templated placeholder definitions and example sentences across all 1,277 B2 vocabulary entries in `vocabulary/en/b2/` across 37 theme files with genuine, nuanced B2 definitions and complex 12–18 word example sentences featuring subordinate clauses, passive voice, or reported speech where natural:
+  - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `economy.json`, `education.json`): 295 entries rewritten.
+  - **Batch 2** (9 files: `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `general_adjectives.json`, `global_issues.json`, `health.json`, `idioms.json`, `innovation.json`): 350 entries rewritten.
+  - **Batch 3** (9 files: `lifestyle.json`, `linking_words.json`, `media.json`, `migration.json`, `nature.json`, `opinions.json`, `personality.json`, `phrasal_verbs.json`, `politics.json`): 335 entries rewritten.
+  - **Batch 4** (10 files: `psychology.json`, `register.json`, `relationships.json`, `science.json`, `society.json`, `statistics.json`, `time.json`, `urban_housing.json`, `word_building.json`, `work.json`): 297 entries rewritten.
+  - **Total B2 Coverage**: 1,277 entries rewritten with zero remaining templated phrases.
 - Added B2-register `synonyms` (1-3 nuanced terms) and `antonyms` (1-2 genuine antonyms or `no_antonym: true` waivers) across all 1,277 B2 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
   - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `economy.json`, `education.json`): 738 synonyms, 377 antonyms, 94 `no_antonym: true` waivers across 295 entries.
   - **Batch 2** (9 files: `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `general_adjectives.json`, `global_issues.json`, `health.json`, `idioms.json`, `innovation.json`): 807 synonyms, 413 antonyms, 105 `no_antonym: true` waivers across 350 entries.
