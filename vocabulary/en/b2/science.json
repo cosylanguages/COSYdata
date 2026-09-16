@@ -20,7 +20,12 @@
       "us": "/artificial/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "AI",
+      "machine intelligence"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:methodology:noun",
@@ -49,7 +54,12 @@
       "us": "/methodology/"
     },
     "no_emoji": true,
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "research design",
+      "systematic procedure"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:variable:noun",
@@ -75,7 +85,15 @@
       "us": "/variable/"
     },
     "no_emoji": true,
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "factor",
+      "element",
+      "parameter"
+    ],
+    "antonyms": [
+      "constant"
+    ]
   },
   {
     "id": "en:correlation:noun",
@@ -103,7 +121,16 @@
       "us": "/correlation/"
     },
     "no_emoji": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "association",
+      "relationship",
+      "interdependence"
+    ],
+    "antonyms": [
+      "uncorrelatedness",
+      "independence"
+    ]
   },
   {
     "id": "en:causation:noun",
@@ -128,7 +155,14 @@
       "us": "/causation/"
     },
     "no_emoji": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "causality",
+      "causal linkage"
+    ],
+    "antonyms": [
+      "coincidence"
+    ]
   },
   {
     "id": "en:control:noun",
@@ -155,7 +189,12 @@
       "us": "/control/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "benchmark group",
+      "control sample"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:peer-reviewed:noun",
@@ -181,7 +220,14 @@
       "us": "/peer-reviewed/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "refereed publication",
+      "evaluated study"
+    ],
+    "antonyms": [
+      "unvetted paper"
+    ]
   },
   {
     "id": "en:empirical:adjective",
@@ -209,7 +255,16 @@
       "uk": "/empirical/",
       "us": "/empirical/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "synonyms": [
+      "observational",
+      "experimental",
+      "factual"
+    ],
+    "antonyms": [
+      "theoretical",
+      "hypothetical"
+    ]
   },
   {
     "id": "en:theoretical:adjective",
@@ -234,7 +289,16 @@
       "uk": "/theoretical/",
       "us": "/theoretical/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "hypothetical",
+      "abstract",
+      "conjectural"
+    ],
+    "antonyms": [
+      "empirical",
+      "practical"
+    ]
   },
   {
     "id": "en:replicate:verb",
@@ -255,7 +319,13 @@
       "uk": "/replicate/",
       "us": "/replicate/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "reproduce",
+      "duplicate",
+      "repeat"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:replication:noun",
@@ -278,7 +348,12 @@
       "us": "/replication/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "reproduction",
+      "duplication"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:prototype:noun",
@@ -301,7 +376,13 @@
       "us": "/prototype/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "mock-up",
+      "archetype",
+      "model"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:biotechnology:noun",
@@ -326,7 +407,12 @@
       "us": "/biotechnology/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "bio-engineering",
+      "life science tech"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:engineering:noun",
@@ -348,7 +434,12 @@
       "us": "/engineering/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "tech engineering",
+      "applied science"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:nanotechnology:noun",
@@ -373,7 +464,12 @@
       "us": "/nanotechnology/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "molecular tech",
+      "nanotech"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:disruptive:adjective",
@@ -398,7 +494,16 @@
       "uk": "/disruptive/",
       "us": "/disruptive/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "groundbreaking",
+      "transformative",
+      "revolutionary"
+    ],
+    "antonyms": [
+      "traditional",
+      "incremental"
+    ]
   },
   {
     "id": "en:quantum:adjective",
@@ -419,7 +524,12 @@
       "uk": "/quantum/",
       "us": "/quantum/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "subatomic",
+      "quantum-mechanical"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:simulate:verb",
@@ -440,7 +550,13 @@
       "uk": "/simulate/",
       "us": "/simulate/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "model",
+      "replicate",
+      "imitate"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:simulation:noun",
@@ -463,7 +579,14 @@
       "us": "/simulation/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "virtual model",
+      "computer model"
+    ],
+    "antonyms": [
+      "real-world phenomenon"
+    ]
   },
   {
     "id": "en:optimize:verb",
@@ -484,7 +607,16 @@
       "uk": "/optimize/",
       "us": "/optimize/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "streamline",
+      "maximize efficiency",
+      "fine-tune"
+    ],
+    "antonyms": [
+      "impair",
+      "worsen"
+    ]
   },
   {
     "id": "en:optimise:verb",
@@ -505,7 +637,16 @@
       "uk": "/optimise/",
       "us": "/optimise/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "streamline",
+      "maximize efficiency",
+      "fine-tune"
+    ],
+    "antonyms": [
+      "impair",
+      "worsen"
+    ]
   },
   {
     "id": "en:cutting-edge:noun",
@@ -532,7 +673,14 @@
       "us": "/cutting-edge/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "state-of-the-art",
+      "frontline tech"
+    ],
+    "antonyms": [
+      "obsolete tech"
+    ]
   },
   {
     "id": "en:groundbreaking:noun",
@@ -558,7 +706,14 @@
       "us": "/ˈɡraʊndˌbreɪ.kɪŋ/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "pioneering innovation",
+      "breakthrough"
+    ],
+    "antonyms": [
+      "conventional work"
+    ]
   },
   {
     "id": "en:innovative:noun",
@@ -585,7 +740,14 @@
       "us": "/innovative/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "inventiveness",
+      "novel approach"
+    ],
+    "antonyms": [
+      "orthodoxy"
+    ]
   },
   {
     "id": "en:revolutionary:noun",
@@ -612,7 +774,14 @@
       "us": "/revolutionary/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "radical shift",
+      "paradigm shift"
+    ],
+    "antonyms": [
+      "traditional approach"
+    ]
   },
   {
     "id": "en:machine-learning:noun",
@@ -639,7 +808,12 @@
       "us": "/machine learning/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "ML",
+      "automated learning"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:genetic-engineering:noun",
@@ -665,7 +839,12 @@
       "us": "/genetic engineering/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "gene editing",
+      "genetic modification"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:quantum-computing:noun",
@@ -692,7 +871,14 @@
       "us": "/quantum computing/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "quantum processing",
+      "subatomic computing"
+    ],
+    "antonyms": [
+      "classical computing"
+    ]
   },
   {
     "id": "en:renewable-technology:noun",
@@ -719,7 +905,14 @@
       "us": "/renewable technology/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "green tech",
+      "clean energy tech"
+    ],
+    "antonyms": [
+      "fossil technology"
+    ]
   },
   {
     "id": "en:sustainable-innovation:noun",
@@ -746,7 +939,14 @@
       "us": "/sustainable innovation/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "eco-innovation",
+      "viable tech"
+    ],
+    "antonyms": [
+      "unsustainable tech"
+    ]
   },
   {
     "id": "en:digital-transformation:noun",
@@ -773,7 +973,14 @@
       "us": "/digital transformation/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "digitization",
+      "digital modernization"
+    ],
+    "antonyms": [
+      "analog retention"
+    ]
   },
   {
     "id": "en:data-privacy:noun",
@@ -799,7 +1006,14 @@
       "us": "/data privacy/"
     },
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "synonyms": [
+      "information privacy",
+      "data protection"
+    ],
+    "antonyms": [
+      "data exposure"
+    ]
   },
   {
     "id": "en:algorithmic-bias:noun",
@@ -825,7 +1039,14 @@
       "uk": "/algorithmic bias/",
       "us": "/algorithmic bias/"
     },
-    "no_emoji": true
+    "no_emoji": true,
+    "synonyms": [
+      "AI bias",
+      "code prejudice"
+    ],
+    "antonyms": [
+      "algorithmic neutrality"
+    ]
   },
   {
     "id": "en:deepfake:noun",
@@ -852,7 +1073,14 @@
       "us": "/deepfake/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "synthetic media",
+      "AI forgery"
+    ],
+    "antonyms": [
+      "authentic video"
+    ]
   },
   {
     "id": "en:blockchain:noun",
@@ -879,7 +1107,12 @@
       "us": "/blockchain/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "distributed ledger",
+      "decentralized database"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:virtual-assistant:noun",
@@ -906,7 +1139,12 @@
       "us": "/virtual assistant/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "AI assistant",
+      "digital assistant"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:ethical-implications:noun",
@@ -932,7 +1170,12 @@
       "uk": "/ethical implications/",
       "us": "/ethical implications/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "moral ramifications",
+      "ethical consequences"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:technological-disruption:noun",
@@ -959,7 +1202,14 @@
       "us": "/technological disruption/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "market upheaval",
+      "tech disruption"
+    ],
+    "antonyms": [
+      "technological stability"
+    ]
   },
   {
     "id": "en:cutting-corners:noun",
@@ -985,7 +1235,14 @@
       "uk": "/cutting corners/",
       "us": "/cutting corners/"
     },
-    "emoji": "🔬"
+    "emoji": "🔬",
+    "synonyms": [
+      "taking shortcuts",
+      "skimping"
+    ],
+    "antonyms": [
+      "meticulous research"
+    ]
   },
   {
     "id": "en:trial-and-error:noun",
@@ -1012,7 +1269,12 @@
       "us": "/trial and error/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "empirical testing",
+      "experimentation"
+    ],
+    "no_antonym": true
   },
   {
     "id": "en:proof-of-concept:noun",
@@ -1039,6 +1301,11 @@
       "us": "/proof of concept/"
     },
     "emoji": "🔬",
-    "countability": "countable"
+    "countability": "countable",
+    "synonyms": [
+      "POC",
+      "feasibility demonstration"
+    ],
+    "no_antonym": true
   }
 ]
