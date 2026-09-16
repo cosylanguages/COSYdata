@@ -21,7 +21,8 @@
       "uk": "/stiːl/",
       "us": "/stiːl/"
     },
-    "emoji": "🥷"
+    "emoji": "🥷",
+    "no_antonym": true
   },
   {
     "id": "en:fine:noun",
@@ -44,7 +45,8 @@
       "us": "/faɪn/"
     },
     "emoji": "💵",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:crime:noun",
@@ -67,7 +69,8 @@
       "us": "/kraɪm/"
     },
     "emoji": "🚔",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:criminal:noun",
@@ -90,7 +93,8 @@
       "us": "/ˈkrɪm.ə.nəl/"
     },
     "emoji": "🦹",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:stolen:noun",
@@ -112,7 +116,11 @@
       "us": "/ˈstoʊ.lən/"
     },
     "emoji": "🥷",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "returned",
+      "found"
+    ]
   },
   {
     "id": "en:theft:noun",
@@ -138,7 +146,8 @@
       "us": "/θeft/"
     },
     "emoji": "🎒",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:robbery:noun",
@@ -164,7 +173,8 @@
       "us": "/ˈrɑː.bɚ.i/"
     },
     "emoji": "🏦",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:arrest:noun",
@@ -187,7 +197,10 @@
       "us": "/əˈrest/"
     },
     "emoji": "⛓️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "release"
+    ]
   },
   {
     "id": "en:escape:noun",
@@ -210,7 +223,8 @@
       "us": "/ɪˈskeɪp/"
     },
     "emoji": "🏃",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:witness:noun",
@@ -236,7 +250,8 @@
       "uk": "/ˈwɪt.nəs/",
       "us": "/ˈwɪt.nəs/"
     },
-    "emoji": "👁️"
+    "emoji": "👁️",
+    "no_antonym": true
   },
   {
     "id": "en:victim:noun",
@@ -259,7 +274,11 @@
       "us": "/ˈvɪk.təm/"
     },
     "emoji": "👤",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "offender",
+      "criminal"
+    ]
   },
   {
     "id": "en:report:noun",
@@ -285,7 +304,8 @@
       "us": "/rɪˈpɔːrt/"
     },
     "emoji": "📝",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:punishment:noun",
@@ -308,7 +328,10 @@
       "us": "/ˈpʌn.ɪʃ.mənt/"
     },
     "emoji": "⚖️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "reward"
+    ]
   },
   {
     "id": "en:illegal:noun",
@@ -330,7 +353,10 @@
       "us": "/ɪˈliː.ɡəl/"
     },
     "emoji": "🚫",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "legal"
+    ]
   },
   {
     "id": "en:legal:noun",
@@ -352,7 +378,10 @@
       "us": "/ˈliː.ɡəl/"
     },
     "emoji": "✔️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "illegal"
+    ]
   },
   {
     "id": "en:safety:noun",
@@ -374,7 +403,10 @@
       "us": "/ˈseɪf.ti/"
     },
     "emoji": "🛡️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "danger"
+    ]
   },
   {
     "id": "en:danger:noun",
@@ -400,7 +432,10 @@
       "us": "/ˈdeɪn.dʒɚ/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "antonyms": [
+      "safety"
+    ]
   },
   {
     "id": "en:dangerous:noun",
@@ -425,7 +460,10 @@
       "uk": "/ˈdeɪn.dʒər.əs/",
       "us": "/ˈdeɪn.dʒɚ.əs/"
     },
-    "emoji": "⚠️"
+    "emoji": "⚠️",
+    "antonyms": [
+      "safe"
+    ]
   },
   {
     "id": "en:lost:noun",
@@ -450,7 +488,10 @@
       "us": "/lɑːst/"
     },
     "emoji": "❓",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "found"
+    ]
   },
   {
     "id": "en:found:noun",
@@ -472,7 +513,10 @@
       "us": "/faʊnd/"
     },
     "emoji": "✔️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "lost"
+    ]
   },
   {
     "id": "en:warning:noun",
@@ -498,7 +542,8 @@
       "us": "/ˈwɔːr.nɪŋ/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:prison:noun",
@@ -521,7 +566,8 @@
       "us": "/ˈprɪz.ən/"
     },
     "emoji": "🏛️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:guard:noun",
@@ -544,7 +590,8 @@
       "us": "/ɡɑːrd/"
     },
     "emoji": "💂",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:accident:noun",
@@ -571,7 +618,8 @@
       "us": "/ˈæk.sə.dənt/"
     },
     "emoji": "💥",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:fire-department:noun",
@@ -598,7 +646,8 @@
       "us": "/ˈfaɪər dɪˌpɑːrt.mənt/"
     },
     "emoji": "🚒",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:missing:noun",
@@ -624,7 +673,11 @@
       "us": "/ˈmɪs.ɪŋ/"
     },
     "emoji": "❓",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "found",
+      "present"
+    ]
   },
   {
     "id": "en:broken:noun",
@@ -650,7 +703,11 @@
       "us": "/ˈbroʊ.kən/"
     },
     "emoji": "💔",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "fixed",
+      "unbroken"
+    ]
   },
   {
     "id": "en:damaged:noun",
@@ -676,7 +733,11 @@
       "us": "/ˈdæm.ɪdʒd/"
     },
     "emoji": "🛠️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "repaired",
+      "undamaged"
+    ]
   },
   {
     "id": "en:complain:noun",
@@ -702,7 +763,10 @@
       "us": "/kəmˈpleɪn/"
     },
     "emoji": "🗣️",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "praise"
+    ]
   },
   {
     "id": "en:solve:noun",
@@ -728,7 +792,8 @@
       "us": "/sɑːlv/"
     },
     "emoji": "🧩",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "no_antonym": true
   },
   {
     "id": "en:fault:noun",
@@ -755,7 +820,8 @@
       "us": "/fɑːlt/"
     },
     "emoji": "⚠️",
-    "countability": "countable"
+    "countability": "countable",
+    "no_antonym": true
   },
   {
     "id": "en:blame:noun",
@@ -781,6 +847,10 @@
       "us": "/bleɪm/"
     },
     "emoji": "👉",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "antonyms": [
+      "praise",
+      "forgive"
+    ]
   }
 ]
