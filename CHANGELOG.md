@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Rewrote definitions and example sentences in `vocabulary/en/a2/`:
+  - **Batch 1**: Updated 288 entries across 9 theme files (`abstract_nouns.json`, `adverbs_connectors.json`, `animals.json`, `appearance.json`, `common_nouns.json`, `communication.json`, `comparisons.json`, `consumer_items.json`, `cooking.json`) with natural A2 dictionary-style definitions and 6-10 word example sentences.
+  - **Batch 2**: Updated 385 entries across 9 theme files (`crime.json`, `culture.json`, `directions.json`, `education.json`, `emotions.json`, `environment.json`, `expressions.json`, `feelings.json`, `general_adjectives.json`) with natural A2 dictionary-style definitions and 6-10 word example sentences.
+  - **Batch 3**: Updated 360 entries across 9 theme files (`health.json`, `lifestyle.json`, `linking_words.json`, `living.json`, `measurement.json`, `media.json`, `opinions.json`, `personality.json`, `phrasal_verbs.json`) with natural A2 dictionary-style definitions and 6-10 word example sentences.
+  - **Batch 4**: Updated 328 entries across 10 theme files (`places_transport.json`, `relationships.json`, `shopping.json`, `sports.json`, `sports_hobbies.json`, `time.json`, `tourism.json`, `transport.json`, `weather.json`, `work.json`) with natural A2 dictionary-style definitions and 6-10 word example sentences.
 - Comprehensive update of antonyms across all 1,361 vocabulary entries in `vocabulary/en/a2/` across 37 theme files:
   - **Real Antonyms**: Assigned 1–2 genuine A2-register antonyms to 543 entries (adjectives, verbs, emotion/quality nouns, directional/relational concepts, etc.).
   - **no_antonym Waivers**: Applied `no_antonym: true` waivers to 818 entries representing concrete object nouns, proper nouns, function words, and one-directional concepts with no natural opposite.
