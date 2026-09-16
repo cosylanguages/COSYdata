@@ -1,15 +1,19 @@
 [
   {
-    "id": "en:if:phrase",
-    "word": "if",
+    "id": "en:i-was-wondering:phrase",
+    "word": "I was wondering",
     "language": "en",
     "form": "phrase",
     "level": "B1",
     "definitions": [
-      "Used to express conditionality in polite or formal register requests."
+      "Used to express conditionality in polite or formal register requests.",
+      "Past tense auxiliary used in polite indirect inquiries and phrasing.",
+      "Feeling curiosity or introducing a polite indirect request to someone."
     ],
     "examples": [
-      "I was wondering if you could spare a few minutes today."
+      "I was wondering if you could spare a few minutes today.",
+      "I was wondering if you had time to review my draft.",
+      "I was wondering whether you could help me move this box."
     ],
     "domain": "general, spoken",
     "theme": "communication",
@@ -24,39 +28,16 @@
     "emoji": "❓",
     "synonyms": [
       "provided that",
-      "supposing"
+      "supposing",
+      "existed",
+      "thinking",
+      "pondering"
     ],
     "no_antonym": true
   },
   {
-    "id": "en:sum:phrase",
-    "word": "sum",
-    "language": "en",
-    "form": "phrase",
-    "level": "B1",
-    "definitions": [
-      "A summary or concise statement of points made in discussion."
-    ],
-    "examples": [
-      "To sum up, we must focus our efforts on sustainability."
-    ],
-    "domain": "general",
-    "theme": "communication",
-    "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/sʌm/",
-      "us": "/sʌm/"
-    },
-    "emoji": "➕",
-    "synonyms": [
-      "total",
-      "amount"
-    ],
-    "no_antonym": true
-  },
-  {
-    "id": "en:kind:phrase",
-    "word": "kind",
+    "id": "en:be-so-kind-as-to:phrase",
+    "word": "be so kind as to",
     "language": "en",
     "form": "phrase",
     "level": "B1",
@@ -84,8 +65,8 @@
     "no_antonym": true
   },
   {
-    "id": "en:apologise:phrase",
-    "word": "apologise",
+    "id": "en:sincerely-apologise-for:phrase",
+    "word": "sincerely apologise for",
     "language": "en",
     "form": "phrase",
     "level": "B1",
@@ -110,8 +91,8 @@
     "no_antonym": true
   },
   {
-    "id": "en:could:phrase",
-    "word": "could",
+    "id": "en:could-you-please:phrase",
+    "word": "could you please",
     "language": "en",
     "form": "phrase",
     "level": "B1",
@@ -261,109 +242,6 @@
     ]
   },
   {
-    "id": "en:was:phrase",
-    "word": "was",
-    "language": "en",
-    "form": "phrase",
-    "level": "B1",
-    "definitions": [
-      "Past tense auxiliary used in polite indirect inquiries and phrasing."
-    ],
-    "examples": [
-      "I was wondering if you had time to review my draft."
-    ],
-    "domain": "general",
-    "theme": "communication",
-    "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɒz/",
-      "us": "/wʌz/"
-    },
-    "emoji": "🕒",
-    "synonyms": [
-      "existed"
-    ],
-    "no_antonym": true
-  },
-  {
-    "id": "en:wondering:phrase",
-    "word": "wondering",
-    "language": "en",
-    "form": "phrase",
-    "level": "B1",
-    "definitions": [
-      "Feeling curiosity or introducing a polite indirect request to someone."
-    ],
-    "examples": [
-      "I was wondering whether you could help me move this box."
-    ],
-    "domain": "general",
-    "theme": "communication",
-    "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈwʌn.də.rɪŋ/",
-      "us": "/ˈwʌn.dɚ.ɪŋ/"
-    },
-    "emoji": "🤔",
-    "synonyms": [
-      "thinking",
-      "pondering"
-    ],
-    "no_antonym": true
-  },
-  {
-    "id": "en:words:phrase",
-    "word": "words",
-    "language": "en",
-    "form": "phrase",
-    "level": "B1",
-    "definitions": [
-      "Speech or language chosen to express thoughts in specific registers."
-    ],
-    "examples": [
-      "In other words, we need to complete the work by Friday."
-    ],
-    "domain": "general",
-    "theme": "communication",
-    "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/wɜːdz/",
-      "us": "/wɝːdz/"
-    },
-    "emoji": "💬",
-    "synonyms": [
-      "terms",
-      "expressions"
-    ],
-    "no_antonym": true
-  },
-  {
-    "id": "en:simply:phrase",
-    "word": "simply",
-    "language": "en",
-    "form": "phrase",
-    "level": "B1",
-    "definitions": [
-      "In a straightforward, plain, or uncomplicated manner without embellishment."
-    ],
-    "examples": [
-      "To put it simply, the current project plan is too expensive."
-    ],
-    "domain": "general",
-    "theme": "communication",
-    "updated": "2025-01-15",
-    "transcription": {
-      "uk": "/ˈsɪm.pli/",
-      "us": "/ˈsɪm.pli/"
-    },
-    "emoji": "🟢",
-    "synonyms": [
-      "merely",
-      "just"
-    ],
-    "no_antonym": true
-  },
-  {
     "id": "en:basically:phrase",
     "word": "basically",
     "language": "en",
@@ -419,8 +297,8 @@
     "no_antonym": true
   },
   {
-    "id": "en:gonna:phrase",
-    "word": "gonna",
+    "id": "en:going-to:phrase",
+    "word": "going to",
     "language": "en",
     "form": "phrase",
     "level": "B1",
@@ -444,8 +322,8 @@
     "no_antonym": true
   },
   {
-    "id": "en:wanna:phrase",
-    "word": "wanna",
+    "id": "en:want-to:phrase",
+    "word": "want to",
     "language": "en",
     "form": "phrase",
     "level": "B1",
