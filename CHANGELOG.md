@@ -13,8 +13,11 @@ All notable changes to this project will be documented in this file.
   - `c1/`: 1,052 C1 level entries across 33 theme files.
   - `c2/`: 951 C2 level entries across 20 theme files.
   - Updated `scripts/build-index.cjs` to recursively scan language subdirectories and generate relative file paths in `vocabulary/<lang>/index.json`.
-- Comprehensive linguistic re-audit of transcription, emoji/symbols, antonyms, and countability/plural_form across all 1,581 A0/A1 vocabulary entries in `vocabulary/en/a0_a1/`:
-  - **IPA Transcriptions**: 1,581 replaced with standard General American IPA transcriptions.
+- Converted all 1,581 vocabulary entries in `vocabulary/en/a0_a1/` across 36 theme files from single string transcriptions to dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) verified against standard dictionary sources (RP for UK, General American for US):
+  - **Total converted**: 1,581 entries.
+  - **Straightforward splits**: 926 entries (original single string accurately represented UK, US, or both).
+  - **Actual corrections**: 655 entries (original single string was wrong-accent or inaccurate and required phoneme/accent correction).
+- Comprehensive linguistic re-audit of emoji/symbols, antonyms, and countability/plural_form across all 1,581 A0/A1 vocabulary entries in `vocabulary/en/a0_a1/`:
   - **Emoji & Symbols**: Re-evaluated all `no_emoji` waivers; added single emojis, symbols (e.g. directional/preposition arrows `⬆️`, `⬇️`, `👈`, `👉`, gender symbols `♀`/`♂`), or logical 2-unit combinations (e.g. `📅➡️`, `👴👵`). Replaced 1,541 previous `no_emoji: true` waivers with real emojis/symbols. Retained only 15 `no_emoji: true` waivers for purely abstract function words (`and`, `because`, `although`, etc.).
   - **Antonyms**: Re-evaluated all `no_antonym` waivers; added genuine A1 antonyms to common verbs, adjectives, and feelings (e.g., `hate` -> `["love", "like"]`). Replaced 385 previous `no_antonym: true` waivers with real antonym lists. Retained 1,057 `no_antonym: true` waivers for concrete object nouns, proper nouns, and function words with no meaningful opposite.
   - **Countability & Plurals**: Added required `countability` fields to all 824 noun entries in `vocabulary/en/a0_a1/`. Applied linguistically correct irregular/regular plural forms for countable nouns, and marked proper nouns (e.g., `portugal`, country/day/month names) as `countability: "invariable"` with no `plural_form`.
