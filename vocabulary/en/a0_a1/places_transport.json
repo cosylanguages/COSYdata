@@ -1550,7 +1550,7 @@
     "examples": [
       "They walked across the stone bridge."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "bridges",
@@ -1584,5 +1584,77 @@
     "no_antonym": true,
     "emoji": "🇺🇸",
     "countability": "invariable"
+  },
+  {
+    "id": "en:blocks:noun",
+    "word": "blocks",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "buildings or city street units bounded by streets"
+    ],
+    "examples": [
+      "Walk two blocks down this street to find the station."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/blɒks/",
+    "transcription_variants": {
+      "us": "/blɑːks/"
+    },
+    "emoji": "🏙️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "blocks"
+  },
+  {
+    "id": "en:tram:noun",
+    "word": "tram",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "a passenger vehicle powered by overhead electric rails"
+    ],
+    "examples": [
+      "Take line 4 on the tram to reach the downtown station."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/træm/",
+    "transcription_variants": {
+      "us": "/træm/"
+    },
+    "emoji": "🚊",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "trams"
+  },
+  {
+    "id": "en:way:noun",
+    "word": "way",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "a direction, path, or route to a destination"
+    ],
+    "examples": [
+      "Can you tell me the best way to get to the subway station?"
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/weɪ/",
+    "transcription_variants": {
+      "us": "/weɪ/"
+    },
+    "emoji": "🛣️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "ways"
   }
 ]

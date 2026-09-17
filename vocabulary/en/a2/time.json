@@ -727,7 +727,7 @@
     "examples": [
       "Check the wall calendar for upcoming event dates."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "time",
     "updated": "2025-01-15",
     "transcription": "/ˈkæl.ən.dər/",
@@ -748,7 +748,7 @@
     "examples": [
       "Every student passed the final exam."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "time",
     "updated": "2025-01-15",
     "transcription": "/ˈev.ri/",
@@ -817,6 +817,54 @@
       "A2",
       "B1",
       "B2"
+    ]
+  },
+  {
+    "id": "en:monthly:adverb",
+    "word": "monthly",
+    "language": "en",
+    "form": "adverb",
+    "level": "A2",
+    "definitions": [
+      "occurring or done once every month"
+    ],
+    "examples": [
+      "Rent payments are due monthly on the first day."
+    ],
+    "domain": "general, relocation",
+    "theme": "time",
+    "updated": "2025-01-15",
+    "transcription": "/ˈmʌnθ.li/",
+    "transcription_variants": {
+      "us": "/ˈmʌnθ.li/"
+    },
+    "emoji": "🗓️",
+    "antonyms": [
+      "yearly"
+    ]
+  },
+  {
+    "id": "en:weekly:adverb",
+    "word": "weekly",
+    "language": "en",
+    "form": "adverb",
+    "level": "A2",
+    "definitions": [
+      "occurring or done once a week"
+    ],
+    "examples": [
+      "We attend weekly language practice sessions on Tuesday."
+    ],
+    "domain": "general, relocation",
+    "theme": "time",
+    "updated": "2025-01-15",
+    "transcription": "/ˈwiːk.li/",
+    "transcription_variants": {
+      "us": "/ˈwiːk.li/"
+    },
+    "emoji": "🗓️",
+    "antonyms": [
+      "monthly"
     ]
   }
 ]

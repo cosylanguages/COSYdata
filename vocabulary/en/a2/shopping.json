@@ -1306,7 +1306,7 @@
     "examples": [
       "I withdrew money from a cash machine outside."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "shopping",
     "updated": "2025-01-15",
     "transcription": "/ˈkæʃ məˌʃiːn/",
@@ -1348,7 +1348,7 @@
     "examples": [
       "You can pay by debit card or cash."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "shopping",
     "updated": "2025-01-15",
     "transcription": "/ˈdeb.ɪt ˌkɑːd/",
@@ -1436,5 +1436,101 @@
     "transcription": "/əʊ/",
     "emoji": "💸",
     "no_antonym": true
+  },
+  {
+    "id": "en:payment:noun",
+    "word": "payment",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "an amount of money paid or the act of paying"
+    ],
+    "examples": [
+      "Keep the bank receipt as official proof of payment."
+    ],
+    "domain": "general, relocation",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˈpeɪ.mənt/",
+    "transcription_variants": {
+      "us": "/ˈpeɪ.mənt/"
+    },
+    "emoji": "💳",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "payments"
+  },
+  {
+    "id": "en:pin:noun",
+    "word": "pin",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a personal identification number used for bank cards"
+    ],
+    "examples": [
+      "Never share your bank card PIN with anyone."
+    ],
+    "domain": "relocation",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/pɪn/",
+    "transcription_variants": {
+      "us": "/pɪn/"
+    },
+    "emoji": "🔢",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "pins"
+  },
+  {
+    "id": "en:price-tag:noun",
+    "word": "price tag",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a label attached to an item showing its cost"
+    ],
+    "examples": [
+      "Check the price tag before taking items to the cashier."
+    ],
+    "domain": "general, relocation",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˈpraɪs tæɡ/",
+    "transcription_variants": {
+      "us": "/ˈpraɪs tæɡ/"
+    },
+    "emoji": "🏷️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "price tags"
+  },
+  {
+    "id": "en:savings:noun",
+    "word": "savings",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "money accumulated and set aside for future use"
+    ],
+    "examples": [
+      "He used personal savings to cover initial apartment deposits."
+    ],
+    "domain": "general, relocation",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˈseɪ.vɪŋz/",
+    "transcription_variants": {
+      "us": "/ˈseɪ.vɪŋz/"
+    },
+    "emoji": "💰",
+    "no_antonym": true,
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a saving"
   }
 ]
