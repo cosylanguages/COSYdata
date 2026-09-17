@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Corrected `theme` field values across 54 vocabulary entries in `vocabulary/en/` according to Section 1 of `/reports/theme-domain-regional-audit.md`:
+  - `a0_a1/`: 39 entries in `animals.json` corrected from `theme: "animals"` to `weather` (18 entries) or `nature` (21 entries).
+  - `a2/`: 15 entries corrected across `environment.json` (3 entries) and `media.json` (12 entries) to accurate `media` or `politics` themes.
 - Corrected missing articles before singular countable common nouns in example sentences across all English CEFR level subdirectories in `vocabulary/en/` (58 corrections across 31 theme files):
   - `a0_a1/`: 43 corrections across 18 files (`adjectives.json`, `adverbs_connectors.json`, `animals.json`, `common_nouns.json`, `directions.json`, `feelings.json`, `general_adjectives.json`, `house_furniture.json`, `jobs.json`, `measurement.json`, `money_shopping.json`, `nationalities.json`, `numbers.json`, `objects.json`, `places_transport.json`, `technology.json`, `time.json`, `verbs.json`).
   - `a2/`: 2 corrections across 2 files (`general_adjectives.json`, `work.json`).
