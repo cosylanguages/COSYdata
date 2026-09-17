@@ -9,16 +9,23 @@ function main() {
   const ajv = new Ajv2020({ allErrors: true });
   addFormats(ajv);
 
-  const schemaPath = path.join(__dirname, '..', 'schemas', 'vocabulary.schema.json');
-  if (!fs.existsSync(schemaPath)) {
-    console.error(`Schema file not found at ${schemaPath}`);
-    process.exit(1);
+  const schemaFiles = {
+    vocab: 'vocabulary.schema.json',
+    phrase: 'functional-phrase.schema.json',
+    curriculum: 'curriculum-competency.schema.json',
+  };
+
+  const validators = {};
+
+  for (const [key, filename] of Object.entries(schemaFiles)) {
+    const sPath = path.join(__dirname, '..', 'schemas', filename);
+    if (!fs.existsSync(sPath)) {
+      console.error(`Schema file not found at ${sPath}`);
+      process.exit(1);
+    }
+    const sData = JSON.parse(fs.readFileSync(sPath, 'utf8'));
+    validators[key] = ajv.compile(sData);
   }
-
-  const schemaData = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
-  const validate = ajv.compile(schemaData);
-
-  const vocabDir = path.join(__dirname, '..', 'vocabulary');
 
   function findFiles(dir, fileList = []) {
     if (!fs.existsSync(dir)) return fileList;
@@ -35,20 +42,59 @@ function main() {
     return fileList;
   }
 
-  const allJsonFiles = findFiles(vocabDir);
+  const rootDir = path.join(__dirname, '..');
+  let targetPaths = [];
+
+  if (process.argv[2]) {
+    targetPaths = [path.resolve(rootDir, process.argv[2])];
+  } else {
+    targetPaths = [
+      path.join(rootDir, 'vocabulary'),
+      path.join(rootDir, 'functional-phrases'),
+      path.join(rootDir, 'curriculum'),
+    ];
+  }
+
+  let allJsonFiles = [];
+  for (const tPath of targetPaths) {
+    if (fs.existsSync(tPath)) {
+      const stat = fs.statSync(tPath);
+      if (stat.isDirectory()) {
+        allJsonFiles = allJsonFiles.concat(findFiles(tPath));
+      } else if (tPath.endsWith('.json')) {
+        allJsonFiles.push(tPath);
+      }
+    }
+  }
 
   const themeFiles = allJsonFiles.filter((f) => path.basename(f) !== 'index.json');
   const indexFiles = allJsonFiles.filter((f) => path.basename(f) === 'index.json');
 
-  console.log(`Validating ${themeFiles.length} theme file(s) against vocabulary schema...`);
+  console.log(`Validating ${themeFiles.length} data file(s)...`);
 
   const idToFilesMap = {};
 
   for (const file of themeFiles) {
-    const relPath = path.relative(path.join(__dirname, '..'), file);
+    const relPath = path.relative(rootDir, file).replace(/\\/g, '/');
+    let validate = null;
+    let schemaType = '';
+
+    if (relPath.startsWith('vocabulary/')) {
+      validate = validators.vocab;
+      schemaType = 'vocabulary';
+    } else if (relPath.startsWith('functional-phrases/')) {
+      validate = validators.phrase;
+      schemaType = 'functional phrase';
+    } else if (relPath.startsWith('curriculum/')) {
+      validate = validators.curriculum;
+      schemaType = 'curriculum competency';
+    } else {
+      console.warn(`[WARNING] Skipping ${relPath}: unknown directory context for schema selection.`);
+      continue;
+    }
+
     try {
       const content = JSON.parse(fs.readFileSync(file, 'utf8'));
-      // Content may be an array of entries or a single object / map of entries
       const entries = Array.isArray(content)
         ? content
         : typeof content === 'object' && content !== null && content.id
@@ -58,7 +104,7 @@ function main() {
         : [];
 
       if (entries.length === 0) {
-        console.warn(`[WARNING] File ${relPath} contains no vocabulary entries.`);
+        console.warn(`[WARNING] File ${relPath} contains no entries.`);
       }
 
       for (const [idx, entry] of entries.entries()) {
@@ -68,7 +114,7 @@ function main() {
 
           if (blockingErrors.length > 0) {
             hasError = true;
-            console.error(`\n[SCHEMA ERROR] File: ${relPath} (Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
+            console.error(`\n[SCHEMA ERROR] File: ${relPath} (${schemaType}, Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
             for (const err of blockingErrors) {
               let fieldName = '/';
               if (err.keyword === 'required' && err.params && err.params.missingProperty) {
@@ -96,11 +142,11 @@ function main() {
     }
   }
 
-  console.log(`Checking unique IDs across theme files...`);
+  console.log(`Checking unique IDs across data files...`);
   for (const [id, filesList] of Object.entries(idToFilesMap)) {
     if (filesList.length > 1) {
       hasError = true;
-      console.error(`\n[DUPLICATE ID ERROR] Word ID '${id}' appears ${filesList.length} times in theme files:`);
+      console.error(`\n[DUPLICATE ID ERROR] ID '${id}' appears ${filesList.length} times in data files:`);
       filesList.forEach((f) => console.error(`  - ${f}`));
     }
   }
@@ -108,25 +154,25 @@ function main() {
   console.log(`Checking ${indexFiles.length} index.json file(s)...`);
 
   for (const indexFile of indexFiles) {
-    const relIndexPath = path.relative(path.join(__dirname, '..'), indexFile);
+    const relIndexPath = path.relative(rootDir, indexFile).replace(/\\/g, '/');
     const langDir = path.dirname(indexFile);
 
     try {
       const indexMap = JSON.parse(fs.readFileSync(indexFile, 'utf8'));
       if (typeof indexMap !== 'object' || indexMap === null || Array.isArray(indexMap)) {
         hasError = true;
-        console.error(`\n[INDEX ERROR] File ${relIndexPath} must be a JSON object mapping word IDs to filenames.`);
+        console.error(`\n[INDEX ERROR] File ${relIndexPath} must be a JSON object mapping IDs to filenames.`);
         continue;
       }
 
       for (const [wordId, targetFilename] of Object.entries(indexMap)) {
         const targetPath = path.join(langDir, targetFilename);
-        const relTargetPath = path.relative(path.join(__dirname, '..'), targetPath);
+        const relTargetPath = path.relative(rootDir, targetPath).replace(/\\/g, '/');
 
         if (!fs.existsSync(targetPath)) {
           hasError = true;
           console.error(`\n[INDEX ERROR] Missing Target File in ${relIndexPath}:`);
-          console.error(`  Word ID '${wordId}' points to '${targetFilename}', but file '${relTargetPath}' does not exist.`);
+          console.error(`  ID '${wordId}' points to '${targetFilename}', but file '${relTargetPath}' does not exist.`);
           continue;
         }
 
@@ -149,11 +195,11 @@ function main() {
           if (!exists) {
             hasError = true;
             console.error(`\n[INDEX MISMATCH ERROR] File: ${relIndexPath}`);
-            console.error(`  Word ID '${wordId}' is mapped to '${targetFilename}' in index.json, but '${wordId}' was not found inside '${relTargetPath}'.`);
+            console.error(`  ID '${wordId}' is mapped to '${targetFilename}' in index.json, but '${wordId}' was not found inside '${relTargetPath}'.`);
           }
         } catch (err) {
           hasError = true;
-          console.error(`\n[INDEX ERROR] Failed to parse target file '${relTargetPath}' referenced by '${relIndexPath}':\n  ${err.message}`);
+          console.error(`\n[JSON ERROR] Failed to parse target file '${relTargetPath}' referenced by '${relIndexPath}':\n  ${err.message}`);
         }
       }
     } catch (err) {
@@ -166,7 +212,7 @@ function main() {
     console.error('\nValidation failed.');
     process.exit(1);
   } else {
-    console.log('\nAll vocabulary files and index mapping checks passed successfully!');
+    console.log('\nAll data files and index mapping checks passed successfully!');
   }
 }
 

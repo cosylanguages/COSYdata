@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/curriculum-competency.schema.json",
+  "title": "Curriculum Competency Entry",
+  "description": "JSON Schema (draft 2020-12) for COSYdata curriculum competency entries",
+  "type": "object",
+  "required": [
+    "id",
+    "objective",
+    "language",
+    "level",
+    "stage",
+    "audience",
+    "domain",
+    "category"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^en:relocation:competency:[a-z0-9-]+$",
+      "description": "Identifier matching en:relocation:competency:<slug>"
+    },
+    "objective": {
+      "type": "string",
+      "description": "The learning objective or discussion theme"
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$",
+      "description": "2-letter language code, e.g. en"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "A0",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "description": "CEFR level"
+    },
+    "stage": {
+      "type": "integer",
+      "description": "Learning stage index or number"
+    },
+    "audience": {
+      "type": "string",
+      "enum": [
+        "children",
+        "teens",
+        "adults",
+        "seniors"
+      ],
+      "description": "Target audience group"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Subject domain"
+    },
+    "category": {
+      "type": "string",
+      "description": "Free-text category name"
+    },
+    "discussion_prompts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of discussion prompts"
+    },
+    "related_vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$"
+      },
+      "description": "Array of vocabulary entry IDs"
+    },
+    "related_functional_phrases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^en:relocation:[a-z0-9-]+:[a-z0-9-]+$"
+      },
+      "description": "Array of functional phrase entry IDs"
+    }
+  }
+}
