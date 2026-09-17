@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/functional-phrase.schema.json",
+  "title": "Functional Phrase Entry",
+  "description": "JSON Schema (draft 2020-12) for COSYdata functional phrase entries",
+  "type": "object",
+  "required": [
+    "id",
+    "phrase",
+    "language",
+    "level",
+    "register",
+    "situation",
+    "domain"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^en:relocation:[a-z0-9-]+:[a-z0-9-]+$",
+      "description": "Identifier matching en:relocation:<situation>:<slug>"
+    },
+    "phrase": {
+      "type": "string",
+      "description": "The full sentence or utterance"
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$",
+      "description": "2-letter language code, e.g. en"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "A0",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "description": "CEFR level"
+    },
+    "register": {
+      "type": "string",
+      "enum": [
+        "formal",
+        "neutral",
+        "informal"
+      ],
+      "description": "Register or tone of the phrase"
+    },
+    "situation": {
+      "type": "string",
+      "description": "Free-text category name for the situation"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Subject domain"
+    },
+    "audience": {
+      "type": "string",
+      "enum": [
+        "general",
+        "children",
+        "teens",
+        "adults",
+        "seniors"
+      ],
+      "description": "Target audience group"
+    },
+    "translation_notes": {
+      "type": "string",
+      "description": "Notes on translation, context, or nuance"
+    },
+    "related_vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$"
+      },
+      "description": "Array of vocabulary entry IDs"
+    },
+    "variants": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Variants object (e.g. more_formal, less_formal)"
+    }
+  }
+}
