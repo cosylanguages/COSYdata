@@ -1036,7 +1036,7 @@
     "examples": [
       "She worked hard to achieve her career goals."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/əˈtʃiːv/",
@@ -1059,7 +1059,7 @@
     "examples": [
       "He helped arrange a meeting with the director."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/əˈreɪndʒ/",
@@ -1128,7 +1128,7 @@
     "examples": [
       "The project involves working in small teams."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ɪnˈvɒlv/",
@@ -1151,7 +1151,7 @@
     "examples": [
       "She manages a small team of developers."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ˈmæn.ɪdʒ/",
@@ -1174,7 +1174,7 @@
     "examples": [
       "They helped organize the annual conference."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ˈɔː.ɡən.aɪz/",
@@ -1199,7 +1199,7 @@
     "examples": [
       "The manager permitted them to leave early."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/pəˈmɪt/",
@@ -1224,7 +1224,7 @@
     "examples": [
       "The local factory produces high quality shoes."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/prəˈdjuːs/",
@@ -1264,7 +1264,7 @@
     "examples": [
       "The company provides training for new staff."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/prəˈvaɪd/",
@@ -1299,14 +1299,17 @@
     "form": "verb",
     "level": "A2",
     "definitions": [
-      "Achieve an aim or desired result."
+      "to achieve the goal that you planned"
     ],
     "examples": [
-      "If you work hard, you will succeed."
+      "With hard work, she will succeed in her exams."
     ],
-    "domain": "general, spoken",
-    "theme": "work",
+    "domain": "general, relocation",
+    "theme": "achievement",
     "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
     "transcription": "/səkˈsiːd/",
     "emoji": "🏆",
     "antonyms": [
@@ -1458,5 +1461,83 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "translators"
+  },
+  {
+    "id": "en:fired:adjective",
+    "word": "fired",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "dismissed from a job because of poor work or conduct"
+    ],
+    "examples": [
+      "He was fired after missing several days without notice."
+    ],
+    "domain": "general, relocation",
+    "theme": "work",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/faɪəd/",
+    "transcription_variants": {
+      "us": "/faɪərd/"
+    },
+    "emoji": "❌",
+    "antonyms": [
+      "hired"
+    ]
+  },
+  {
+    "id": "en:submit:verb",
+    "word": "submit",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "to present an application or document"
+    ],
+    "examples": [
+      "You must submit your tax forms before the deadline."
+    ],
+    "domain": "general, relocation",
+    "theme": "documents",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/səbˈmɪt/",
+    "emoji": "📥",
+    "antonyms": [
+      "withdraw"
+    ]
+  },
+  {
+    "id": "en:working-hours:noun",
+    "word": "working hours",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "the period of time per day or week that an employee spends at work"
+    ],
+    "examples": [
+      "Standard office working hours are usually eight thirty to five in the evening."
+    ],
+    "domain": "general, relocation",
+    "theme": "working time",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/ˈwɜː.kɪŋ ˌaʊəz/",
+    "transcription_variants": {
+      "us": "/ˈwɝː.kɪŋ ˌaʊɚz/"
+    },
+    "emoji": "⏰",
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a working hour",
+    "no_antonym": true
   }
 ]

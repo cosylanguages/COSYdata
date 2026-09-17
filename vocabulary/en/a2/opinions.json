@@ -1335,7 +1335,7 @@
     "examples": [
       "Our outdoor plans depend on the weather."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/dɪˈpend/",
@@ -1375,7 +1375,7 @@
     "examples": [
       "Dinosaurs no longer exist on Earth."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/ɪɡˈzɪst/",
@@ -1394,7 +1394,7 @@
     "examples": [
       "We expect rain later this evening."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/ɪkˈspekt/",
@@ -1413,7 +1413,7 @@
     "examples": [
       "The bill includes service and tax."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/ɪnˈkluːd/",
@@ -1455,11 +1455,168 @@
     "examples": [
       "You seem tired after your long flight."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/siːm/",
     "emoji": "💭",
     "no_antonym": true
+  },
+  {
+    "id": "en:force:verb",
+    "word": "force",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "to make someone do something they do not want to do"
+    ],
+    "examples": [
+      "You cannot force someone to change their opinions."
+    ],
+    "domain": "general, relocation",
+    "theme": "actions",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/fɔːs/",
+    "transcription_variants": {
+      "us": "/fɔːrs/"
+    },
+    "emoji": "💪",
+    "no_antonym": true
+  },
+  {
+    "id": "en:regard:verb",
+    "word": "regard",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "to think of someone in a specified way"
+    ],
+    "examples": [
+      "They regard him as a trustworthy neighbor."
+    ],
+    "domain": "general, relocation",
+    "theme": "evaluation",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/rɪˈɡɑːd/",
+    "transcription_variants": {
+      "us": "/rɪˈɡɑːrd/"
+    },
+    "emoji": "👁️",
+    "antonyms": [
+      "disregard"
+    ]
+  },
+  {
+    "id": "en:relevant:adjective",
+    "word": "relevant",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "closely connected or appropriate to what is done"
+    ],
+    "examples": [
+      "Please attach all relevant documents to your application."
+    ],
+    "domain": "general, relocation",
+    "theme": "importance",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/ˈrel.ə.vənt/",
+    "emoji": "🎯",
+    "antonyms": [
+      "irrelevant"
+    ]
+  },
+  {
+    "id": "en:unfamiliar:adjective",
+    "word": "unfamiliar",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "not known or recognized; strange"
+    ],
+    "examples": [
+      "Driving in an unfamiliar city can be challenging."
+    ],
+    "domain": "general, relocation",
+    "theme": "knowledge",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/ˌʌn.fəˈmɪl.i.ər/",
+    "transcription_variants": {
+      "us": "/ˌʌn.fəˈmɪl.i.ɚ/"
+    },
+    "emoji": "❓",
+    "antonyms": [
+      "familiar"
+    ]
+  },
+  {
+    "id": "en:familiar:adjective",
+    "word": "familiar",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "well known to you and easy to recognize"
+    ],
+    "examples": [
+      "The neighborhood felt familiar after just a few weeks of living there."
+    ],
+    "domain": "general, relocation",
+    "theme": "knowledge",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/fəˈmɪl.i.ər/",
+    "transcription_variants": {
+      "us": "/fəˈmɪl.i.ɚ/"
+    },
+    "emoji": "🏡",
+    "antonyms": [
+      "unfamiliar"
+    ]
+  },
+  {
+    "id": "en:unaware:adjective",
+    "word": "unaware",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "having no knowledge or realization of a situation or fact"
+    ],
+    "examples": [
+      "He was unaware of local parking restrictions on street cleaning days."
+    ],
+    "domain": "general, relocation",
+    "theme": "knowledge",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/ˌʌn.əˈweər/",
+    "transcription_variants": {
+      "us": "/ˌʌn.əˈwer/"
+    },
+    "emoji": "🙈",
+    "antonyms": [
+      "aware"
+    ]
   }
 ]
