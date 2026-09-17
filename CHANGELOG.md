@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Corrected `domain` field values across 15 spoken idioms/expressions in `vocabulary/en/` according to Section 2 of `/reports/theme-domain-regional-audit.md` (updated from `domain: "general"` to `domain: "general, spoken"`):
+  - `b1/`: 2 entries in `idioms.json`.
+  - `b2/`: 4 entries across `collocations.json` (2 entries), `idioms.json` (1 entry), and `linking_words.json` (1 entry).
+  - `c1/`: 3 entries across `collocations.json` (2 entries) and `idioms.json` (1 entry).
+  - `c2/`: 6 entries in `idioms.json`.
 - Corrected `theme` field values across 54 vocabulary entries in `vocabulary/en/` according to Section 1 of `/reports/theme-domain-regional-audit.md`:
   - `a0_a1/`: 39 entries in `animals.json` corrected from `theme: "animals"` to `weather` (18 entries) or `nature` (21 entries).
   - `a2/`: 15 entries corrected across `environment.json` (3 entries) and `media.json` (12 entries) to accurate `media` or `politics` themes.
@@ -25,7 +30,7 @@ All notable changes to this project will be documented in this file.
   - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `economy.json`, `education.json`): 738 synonyms, 377 antonyms, 94 `no_antonym: true` waivers across 295 entries.
   - **Batch 2** (9 files: `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `general_adjectives.json`, `global_issues.json`, `health.json`, `idioms.json`, `innovation.json`): 807 synonyms, 413 antonyms, 105 `no_antonym: true` waivers across 350 entries.
   - **Batch 3** (9 files: `lifestyle.json`, `linking_words.json`, `media.json`, `migration.json`, `nature.json`, `opinions.json`, `personality.json`, `phrasal_verbs.json`, `politics.json`): 812 synonyms, 453 antonyms, 76 `no_antonym: true` waivers across 335 entries.
-  - **Batch 4** (10 files: `psychology.json`, `register.json`, `relationships.json`, `science.json`, `society.json`, `statistics.json`, `time.json`, `urban_housing.json`, `word_building.json`, `work.json`): 699 synonyms, 338 antonyms, 85 `no_antonym: true` waivers across 297 entries.
+  - **Batch 4** (10 files: `psychology.json`, `register.json`, `relationships.json`, `science.json`, `society.json`, `statistics.json`, `time.json`, `urban_housing.json`, `work.json`): 699 synonyms, 338 antonyms, 85 `no_antonym: true` waivers across 297 entries.
   - **Total B2 Coverage**: 3,056 synonyms, 1,581 antonyms, and 360 `no_antonym: true` waivers added across 1,277 entries.
 - Comprehensive update of transcription, emoji/symbols, and countability/plurals across all 1,277 vocabulary entries in `vocabulary/en/b2/` across 37 theme files:
   - **Transcriptions**: Sourced and formatted standard dual-accent IPA objects (`{ "uk": "...", "us": "..." }`) for all 1,277 entries from reliable dictionary references (RP for UK, General American for US), providing full-phrase transcriptions for multi-word collocations, idioms, phrasal verbs, and expressions.
