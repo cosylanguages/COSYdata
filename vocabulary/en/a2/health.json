@@ -1370,7 +1370,7 @@
     "examples": [
       "The doctor will examine your throat now."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ɪɡˈzæm.ɪn/",
@@ -1435,7 +1435,7 @@
     "examples": [
       "Washing hands helps prevent the spread of germs."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/prɪˈvent/",
@@ -1640,5 +1640,74 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "hearing aids"
+  },
+  {
+    "id": "en:spread:verb",
+    "word": "spread",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "to cover a larger area or reach more people"
+    ],
+    "examples": [
+      "News about the event began to spread quickly."
+    ],
+    "domain": "general, relocation",
+    "theme": "actions",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/spred/",
+    "emoji": "🌊",
+    "no_antonym": true
+  },
+  {
+    "id": "en:suffer:verb",
+    "word": "suffer",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "to experience physical or mental pain"
+    ],
+    "examples": [
+      "Many people suffer from allergies during spring."
+    ],
+    "domain": "general, relocation",
+    "theme": "health",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/ˈsʌf.ər/",
+    "transcription_variants": {
+      "us": "/ˈsʌf.ɚ/"
+    },
+    "emoji": "😣",
+    "no_antonym": true
+  },
+  {
+    "id": "en:treat:verb",
+    "word": "treat",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "to provide medical care and attention to cure a patient's illness or injury"
+    ],
+    "examples": [
+      "Doctors use prescribed antibiotics to treat bacterial throat infections."
+    ],
+    "domain": "general, relocation",
+    "theme": "medical care",
+    "updated": "2025-01-15",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "/triːt/",
+    "emoji": "🩺",
+    "no_antonym": true
   }
 ]
