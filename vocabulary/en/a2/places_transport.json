@@ -787,7 +787,7 @@
     "examples": [
       "School children visited the local fire station."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˈfaɪə ˌsteɪ.ʃən/",
@@ -829,7 +829,7 @@
     "examples": [
       "Is free parking available near the hotel?"
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˈpɑː.kɪŋ/",
@@ -891,7 +891,7 @@
     "examples": [
       "The wedding ceremony took place at the town hall."
     ],
-    "domain": "general",
+    "domain": "general, relocation",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˌtaʊn ˈhɔːl/",
@@ -899,5 +899,149 @@
     "countability": "countable",
     "plural_form": "town halls",
     "no_antonym": true
+  },
+  {
+    "id": "en:cafeteria:noun",
+    "word": "cafeteria",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a restaurant where customers serve themselves or are served at a counter"
+    ],
+    "examples": [
+      "We met for lunch in the company cafeteria."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/ˌkæf.əˈtɪə.ri.ə/",
+    "transcription_variants": {
+      "us": "/ˌkæf.əˈtɪr.i.ə/"
+    },
+    "emoji": "🏢",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "cafeterias"
+  },
+  {
+    "id": "en:canteen:noun",
+    "word": "canteen",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a dining hall in a school, workplace, or military camp"
+    ],
+    "examples": [
+      "Students buy hot meals at the school canteen."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/kænˈtiːn/",
+    "transcription_variants": {
+      "us": "/kænˈtiːn/"
+    },
+    "emoji": "🍱",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "canteens"
+  },
+  {
+    "id": "en:city-hall:noun",
+    "word": "city hall",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "the administrative building of a municipal city government"
+    ],
+    "examples": [
+      "We visited city hall to complete local residence registration."
+    ],
+    "domain": "relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/ˌsɪt.i ˈhɔːl/",
+    "transcription_variants": {
+      "us": "/ˌsɪt.i ˈhɑːl/"
+    },
+    "emoji": "🏛️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "city halls"
+  },
+  {
+    "id": "en:community-center:noun",
+    "word": "community center",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a place where members of a local community meet for activities"
+    ],
+    "examples": [
+      "The local community center offers free language classes."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/kəˈmjuː.nə.ti ˌsen.tə/",
+    "transcription_variants": {
+      "us": "/kəˈmjuː.nə.ti ˌsen.t̬ɚ/"
+    },
+    "emoji": "🏢",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "community centers"
+  },
+  {
+    "id": "en:queue:noun",
+    "word": "queue",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a line of people or vehicles waiting for something"
+    ],
+    "examples": [
+      "There was a long queue at the immigration counter."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/kjuː/",
+    "transcription_variants": {
+      "us": "/kjuː/"
+    },
+    "emoji": "🚶‍♂️🚶‍♀️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "queues"
+  },
+  {
+    "id": "en:shopping-center:noun",
+    "word": "shopping center",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a large building or complex containing many retail shops"
+    ],
+    "examples": [
+      "We visited the shopping center to buy household appliances."
+    ],
+    "domain": "general, relocation",
+    "theme": "places_transport",
+    "updated": "2025-01-15",
+    "transcription": "/ˈʃɒp.ɪŋ ˌsen.tə/",
+    "transcription_variants": {
+      "us": "/ˈʃɑː.pɪŋ ˌsen.t̬ɚ/"
+    },
+    "emoji": "🛍️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "shopping centers"
   }
 ]

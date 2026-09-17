@@ -1281,7 +1281,7 @@
     "examples": [
       "No, I do not want milk."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, relocation",
     "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
@@ -1295,5 +1295,29 @@
     "transcription_variants": {
       "us": "/noʊ/"
     }
+  },
+  {
+    "id": "en:too-much:adverb",
+    "word": "too much",
+    "language": "en",
+    "form": "adverb",
+    "level": "A1",
+    "definitions": [
+      "an excessive degree or amount"
+    ],
+    "examples": [
+      "Don't worry too much about minor registration delays."
+    ],
+    "domain": "general, relocation",
+    "theme": "adverbs_connectors",
+    "updated": "2025-01-15",
+    "transcription": "/tuː mʌtʃ/",
+    "transcription_variants": {
+      "us": "/tuː mʌtʃ/"
+    },
+    "no_emoji": true,
+    "antonyms": [
+      "too little"
+    ]
   }
 ]
