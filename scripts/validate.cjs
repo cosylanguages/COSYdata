@@ -67,7 +67,12 @@ function main() {
     }
   }
 
-  const themeFiles = allJsonFiles.filter((f) => path.basename(f) !== 'index.json' && path.basename(f) !== 'flat-index.json');
+  const themeFiles = allJsonFiles.filter(
+    (f) =>
+      path.basename(f) !== 'index.json' &&
+      path.basename(f) !== 'flat-index.json' &&
+      path.basename(f) !== 'professional-tracks.json'
+  );
   const indexFiles = allJsonFiles.filter((f) => path.basename(f) === 'index.json');
 
   console.log(`Validating ${themeFiles.length} data file(s)...`);
