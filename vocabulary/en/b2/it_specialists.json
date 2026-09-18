@@ -1,0 +1,84 @@
+[
+  {
+    "word": "refactor",
+    "form": "verb",
+    "level": "B2",
+    "theme": "it_specialists",
+    "domain": "professional",
+    "sub_theme": "it-specialists",
+    "transcription": "/riːˈfæk.tə/",
+    "transcription_variants": {
+      "us": "/riːˈfæk.tɚ/"
+    },
+    "no_emoji": true,
+    "definitions": [
+      "to restructure existing computer code without altering its external behavior to improve maintainability and readability"
+    ],
+    "examples": [
+      "The engineering team scheduled two weeks to refactor legacy code before introducing new platform features."
+    ],
+    "synonyms": [
+      "restructure",
+      "clean up",
+      "reorganize"
+    ],
+    "no_antonym": true,
+    "id": "en:refactor:verb",
+    "language": "en"
+  },
+  {
+    "word": "microservices",
+    "form": "noun",
+    "level": "B2",
+    "theme": "it_specialists",
+    "domain": "professional",
+    "sub_theme": "it-specialists",
+    "countability": "pluralia_tantum",
+    "singular_workaround": "a microservice",
+    "transcription": "/ˈmaɪ.krəʊˌsɜː.vɪ.sɪz/",
+    "transcription_variants": {
+      "us": "/ˈmaɪ.kroʊˌsɝː.vɪ.sɪz/"
+    },
+    "no_emoji": true,
+    "definitions": [
+      "a software architectural style that structures an application as a collection of small, independent, deployable services"
+    ],
+    "examples": [
+      "Migrating from a monolithic architecture to microservices enabled the team to deploy updates independently."
+    ],
+    "synonyms": [
+      "distributed services",
+      "modular architecture"
+    ],
+    "no_antonym": true,
+    "id": "en:microservices:noun",
+    "language": "en"
+  },
+  {
+    "word": "technical debt",
+    "form": "noun",
+    "level": "B2",
+    "theme": "it_specialists",
+    "domain": "professional",
+    "sub_theme": "it-specialists",
+    "countability": "uncountable",
+    "transcription": "/ˈtek.nɪ.kəl det/",
+    "transcription_variants": {
+      "us": "/ˈtek.nɪ.kəl det/"
+    },
+    "no_emoji": true,
+    "definitions": [
+      "the implied cost of additional rework caused by choosing an easy or fast code solution now instead of a better approach"
+    ],
+    "examples": [
+      "Accumulated technical debt forced developers to spend more time patching bugs than writing new features."
+    ],
+    "synonyms": [
+      "code debt",
+      "architectural debt"
+    ],
+    "no_antonym": true,
+    "id": "en:technical-debt:noun",
+    "language": "en"
+  }
+]
