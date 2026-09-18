@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build:index": "node scripts/build-index.cjs",
+    "build:flat-index": "node scripts/build-flat-index.js",
     "validate": "node scripts/validate.cjs"
   },
   "devDependencies": {

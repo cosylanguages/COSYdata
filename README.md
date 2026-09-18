@@ -44,6 +44,7 @@ COSYdata/
 
 - **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`, `vocabulary/en/b2/business.json`, `vocabulary/en/c1/rhetoric.json`, `vocabulary/en/c2/rare_adjectives.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its relative theme file path (e.g. `"en:cat:noun": "a0_a1/animals.json"`).
+- **`vocabulary/<lang>/flat-index.json`**: Pre-computed mapping from lowercased surface forms (`word`, `plural_form`, `comparative`, `superlative`) to an array of matching `{ id, field }` references for fast client-side word detection.
 - **`functional-phrases/<lang>/`**: Whole situational sentences and utterances (e.g., relocation phrases).
 - **`curriculum/<lang>/`**: Age-specific learning objectives and discussion themes.
 
@@ -58,17 +59,42 @@ COSYdata/
 - **`spoken`**: Spoken course vocabulary focused on conversation.
 - **`general, spoken`**: Words present in both general and spoken course lists.
 
-To regenerate `index.json` for all language folders, run:
+To regenerate `index.json` and `flat-index.json` for all language folders, run:
 
 ```bash
 npm run build:index
+npm run build:flat-index
 ```
 
 ---
 
-## Shared Resolver Client (`shared/vocab-resolver.js`)
+## Shared Modules (`shared/`)
 
-Other repositories in the ecosystem import `shared/vocab-resolver.js` via a `<script type="module">` tag to resolve vocabulary entries and hydrate HTML elements at runtime.
+The repository provides lightweight, browser-ready ES modules served directly over GitHub Pages:
+
+1. **`shared/vocab-resolver.js`**: Resolves vocabulary references (e.g., `en:animals:cat` or `en:cat:noun`) into rendered content and hydrates HTML elements.
+2. **`shared/cosy-word-popup.js`**: Auto-detects recognized vocabulary words in text nodes, opens interactive definition popups with speech audio, and manages a `localStorage`-backed personal dictionary.
+
+### Click-to-Define & Personal Dictionary Example
+
+```html
+<script type="module">
+  import { resolveVocab } from 'https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js';
+  import { hydrate, createCosyDictionary } from 'https://cosylanguages.github.io/COSYdata/shared/cosy-word-popup.js';
+
+  // Fetch flat index for word auto-detection
+  const res = await fetch('https://cosylanguages.github.io/COSYdata/vocabulary/en/flat-index.json');
+  const flatIndex = await res.json();
+
+  // Hydrate DOM with word popups and personal dictionary
+  hydrate(document.body, {
+    lang: 'en',
+    matchWord: (word) => flatIndex[word.toLowerCase()],
+    resolveEntry: resolveVocab,
+    dictionary: createCosyDictionary('my-app'),
+  });
+</script>
+```
 
 See [`shared/README.md`](shared/README.md) for full usage instructions and API details.
 
