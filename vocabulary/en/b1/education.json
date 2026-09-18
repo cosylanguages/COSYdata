@@ -11,7 +11,7 @@
     "examples": [
       "Students were asked to interpret the chart during their economics lecture."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
@@ -45,7 +45,7 @@
     "examples": [
       "Teachers evaluate student progress through weekly quizzes and formal written assignments."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
@@ -58,7 +58,8 @@
       "judge",
       "appraise"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:research:verb",
@@ -72,7 +73,7 @@
     "examples": [
       "The university team conducted extensive research on renewable battery storage systems."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -91,7 +92,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈriː.sɝːtʃ/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:analyse:verb",
@@ -105,7 +107,7 @@
     "examples": [
       "Scientists must analyse the test results carefully before drawing final conclusions."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
@@ -119,7 +121,8 @@
       "study",
       "inspect"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:critical:adjective",
@@ -166,7 +169,7 @@
     "examples": [
       "She discussed her research paper with a peer before submitting it."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "peers",
@@ -185,7 +188,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/pɪr/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:graduate:noun",
@@ -199,7 +203,7 @@
     "examples": [
       "The young university graduate applied for several management training programs yesterday."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "graduates",
@@ -216,7 +220,8 @@
     "antonyms": [
       "undergraduate",
       "dropout"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:curriculum:noun",
@@ -230,7 +235,7 @@
     "examples": [
       "The school updated its science curriculum to include modern environmental studies."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "curricula",
@@ -244,7 +249,8 @@
       "syllabus",
       "course of study"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:syllabus:noun",
@@ -258,7 +264,7 @@
     "examples": [
       "The professor handed out the course syllabus on the first day."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "syllabi",
@@ -272,7 +278,8 @@
       "curriculum",
       "course outline"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:academic:adjective",
@@ -286,7 +293,7 @@
     "examples": [
       "The library offers quiet study spaces for students preparing academic work."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -301,7 +308,8 @@
     "antonyms": [
       "non-academic",
       "practical"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:seminar:noun",
@@ -315,7 +323,7 @@
     "examples": [
       "All history students attended a weekly seminar on ancient trading routes."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "seminars",
@@ -330,7 +338,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈsem.ə.nɑːr/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:tutorial:noun",
@@ -344,7 +353,7 @@
     "examples": [
       "She scheduled a individual tutorial to ask her tutor about essay structure."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "tutorials",
@@ -358,7 +367,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/tuːˈtɔːr.i.əl/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:thesis:noun",
@@ -372,7 +382,7 @@
     "examples": [
       "He spent six months writing his master thesis on urban transport."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "theses",
@@ -387,7 +397,8 @@
       "paper",
       "treatise"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:dissertation:noun",
@@ -401,7 +412,7 @@
     "examples": [
       "She bound and submitted her final doctoral dissertation to the faculty."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "dissertations",
@@ -419,7 +430,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌdɪs.ɚˈteɪ.ʃən/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:plagiarism:noun",
@@ -433,7 +445,7 @@
     "examples": [
       "University regulations strictly forbid plagiarism in all submitted academic work."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -451,7 +463,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈpleɪ.dʒɚ.ɪ.zəm/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:thinking:noun",
@@ -557,7 +570,7 @@
     "examples": [
       "Online platforms have revolutionized distance learning for adult students worldwide."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈlɜː.nɪŋ/",
@@ -570,7 +583,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈlɝː.nɪŋ/"
-    }
+    },
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:postgraduate:noun",
@@ -584,7 +598,7 @@
     "examples": [
       "She enrolled in a postgraduate diploma course in clinical psychology."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "postgraduates",
@@ -600,7 +614,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌpoʊstˈɡrædʒ.u.ət/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:assessment:noun",
@@ -614,7 +629,7 @@
     "examples": [
       "Continuous assessment accounts for half of the final grade this semester."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "assessments",
@@ -626,7 +641,8 @@
       "appraisal",
       "test"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:mentor:noun",
@@ -640,7 +656,7 @@
     "examples": [
       "A senior engineer acted as her mentor during her university internship."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "mentors",
@@ -661,7 +677,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈmen.tɔːr/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:elective:noun",
@@ -811,7 +828,7 @@
     "examples": [
       "Higher education helps students develop critical thinking rather than simple memorization."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -828,7 +845,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:peer-review:noun",
@@ -842,7 +860,7 @@
     "examples": [
       "Scientific articles must undergo strict peer review before getting published officially."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -859,7 +877,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈpɪr rɪˌvjuː/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:tutor:noun",
@@ -873,7 +892,7 @@
     "examples": [
       "Hiring a private math tutor helped him pass his final exams."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -895,7 +914,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈtuː.t̬ɚ/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:distance-learning:noun",
@@ -909,7 +929,7 @@
     "examples": [
       "Distance learning allows working professionals to earn degrees without moving away."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -942,7 +962,7 @@
     "examples": [
       "She enrolled in an online course to learn graphic design skills."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -962,7 +982,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌɑːn.laɪn ˈkɔːrs/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:self-study:noun",
@@ -1004,7 +1025,7 @@
     "examples": [
       "The university promotes lifelong learning through evening community adult courses."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1021,7 +1042,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈlaɪf.lɑːŋ ˈlɝː.nɪŋ/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:skill-set:noun",
@@ -1035,7 +1057,7 @@
     "examples": [
       "Learning software programming expanded her professional skill set significantly."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1157,7 +1179,7 @@
     "examples": [
       "Government grants help students from lower-income backgrounds access higher education."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1174,7 +1196,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌhaɪ.ɚ edʒ.əˈkeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:academic-year:noun",
@@ -1351,7 +1374,7 @@
     "examples": [
       "The university campus features modern libraries and spacious green parks."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
@@ -1366,7 +1389,8 @@
       "university grounds",
       "school premises"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:coursework:noun",
@@ -1408,7 +1432,7 @@
     "examples": [
       "The professor gave a constructive critique of her essay draft."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
@@ -1424,7 +1448,8 @@
       "evaluation",
       "analysis"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:dormitory:noun",
@@ -1438,7 +1463,7 @@
     "examples": [
       "First-year university students often live in a student dormitory."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
@@ -1454,7 +1479,8 @@
       "residence hall",
       "hostel"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:faculty:noun",
@@ -1468,7 +1494,7 @@
     "examples": [
       "The university faculty includes distinguished professors and researchers."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
@@ -1484,7 +1510,8 @@
       "academic staff",
       "professors"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:institution:noun",
@@ -1528,7 +1555,7 @@
     "examples": [
       "Read the introduction before starting the first chapter of the textbook."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
@@ -1546,7 +1573,8 @@
     ],
     "antonyms": [
       "conclusion"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:module:noun",
@@ -1560,7 +1588,7 @@
     "examples": [
       "The training program is divided into four distinct learning modules."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
@@ -1576,7 +1604,8 @@
       "section",
       "block"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:primary:adjective",
@@ -1764,7 +1793,7 @@
     "examples": [
       "Although the school term had already begun, the principal accepted their transfer application after reviewing grades."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈprɪn.sə.pəl/",
@@ -1778,7 +1807,8 @@
       "headteacher"
     ],
     "countability": "countable",
-    "plural_form": "principals"
+    "plural_form": "principals",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:after-school-program:noun",
@@ -1920,7 +1950,7 @@
     "examples": [
       "The university granted her admission after reviewing her academic transcripts."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "schooling",
     "updated": "2025-01-15",
     "levels": [
@@ -1937,7 +1967,8 @@
     ],
     "antonyms": [
       "rejection"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:bachelor-s-degree:noun",
@@ -1951,7 +1982,7 @@
     "examples": [
       "Holding a bachelor's degree in engineering satisfies the work visa qualification requirements."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "qualifications",
     "updated": "2025-01-15",
     "levels": [
@@ -1969,7 +2000,8 @@
       "undergraduate degree",
       "baccalaureate"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:counselor:noun",
@@ -2042,7 +2074,7 @@
     "examples": [
       "High school graduates must pass a competitive entrance exam to study medicine."
     ],
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "examinations",
     "updated": "2025-01-15",
     "levels": [
@@ -2443,7 +2475,7 @@
     "examples": [
       "Repaying a student loan begins after graduation once employment income reaches a threshold."
     ],
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "educational finance",
     "updated": "2025-01-15",
     "levels": [
@@ -2461,7 +2493,8 @@
       "educational loan",
       "tuition loan"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:transcript:noun",
@@ -2475,7 +2508,7 @@
     "examples": [
       "University admission offices require certified copies of your high school academic transcript."
     ],
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "academic record",
     "updated": "2025-01-15",
     "levels": [
@@ -2490,7 +2523,8 @@
       "academic record",
       "grade report"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:tuition-fee:noun",
@@ -2504,7 +2538,7 @@
     "examples": [
       "International student tuition fees are higher than domestic rates."
     ],
-    "domain": "relocation, travel",
+    "domain": "relocation, travel, professional",
     "theme": "university cost",
     "updated": "2025-01-15",
     "levels": [
@@ -2593,7 +2627,7 @@
     "level": "B1",
     "domain": "general, relocation",
     "theme": "education",
-    "emoji": "\ud83d\udcbc",
+    "emoji": "💼",
     "countability": "pluralia_tantum",
     "synonyms": [
       "traineeships",
@@ -2602,9 +2636,9 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8\u026an.t\u025c\u02d0n.\u0283\u026ap \u02cc\u0252p.\u0259\u02c8tju\u02d0.n\u0259.tiz/",
+    "transcription": "/ˈɪn.tɜːn.ʃɪp ˌɒp.əˈtjuː.nə.tiz/",
     "transcription_variants": {
-      "us": "/\u02c8\u026an.t\u025d\u02d0n.\u0283\u026ap \u02cc\u0251\u02d0.p\u025a\u02c8tu\u02d0.n\u0259.t\u032ciz/"
+      "us": "/ˈɪn.tɝːn.ʃɪp ˌɑː.pɚˈtuː.nə.t̬iz/"
     },
     "definitions": [
       "available positions offering temporary practical work experience for students or graduates"

@@ -142,7 +142,7 @@
     "examples": [
       "The government invested heavily in modernizing public transport infrastructure this year."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "society",
     "updated": "2025-01-15",
     "plural_form": "infrastructures",
@@ -456,7 +456,7 @@
     "examples": [
       "They signed a twelve-month lease agreement for their new downtown apartment."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "leases",
@@ -470,7 +470,8 @@
       "rental agreement",
       "tenancy"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:eviction:noun",
@@ -484,7 +485,7 @@
     "examples": [
       "Failing to pay rent for three months resulted in legal eviction."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "evictions",
@@ -496,7 +497,8 @@
       "removal",
       "dispossession"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:homeowner:noun",
@@ -541,7 +543,7 @@
     "examples": [
       "Firefighters responded quickly to extinguish the residential house fire."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, professional",
     "theme": "housing",
     "tags": [
       "intermediate"
@@ -571,7 +573,7 @@
     "examples": [
       "Because local authorities require address verification, completing residence registration within seven days is mandatory."
     ],
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "urban_housing",
     "updated": "2025-01-15",
     "transcription": "/ˌredʒ.ɪˈstreɪ.ʃən/",
@@ -584,7 +586,8 @@
       "enrollment",
       "listing"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:bedtime-routine:noun",
@@ -897,7 +900,7 @@
     "examples": [
       "Landlords are legally responsible for structural property maintenance and heating repairs."
     ],
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "housing upkeep",
     "updated": "2025-01-15",
     "levels": [
@@ -914,7 +917,8 @@
     "antonyms": [
       "neglect",
       "disrepair"
-    ]
+    ],
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:neighborhood-safety:noun",

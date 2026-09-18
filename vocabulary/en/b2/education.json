@@ -11,7 +11,7 @@
     "examples": [
       "Admission criteria were updated by the university board to ensure fair evaluation of applicants."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -72,7 +72,7 @@
     "examples": [
       "An interdisciplinary research team combining computer science and linguistics was formed to study artificial intelligence."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -95,7 +95,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌɪn.t̬ɚ.dɪs.əˈplɪn.er.i/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:academic:noun",
@@ -109,7 +110,7 @@
     "examples": [
       "Prominent academics gathered at the international symposium to debate recent discoveries in astrophysics."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "academics",
@@ -124,7 +125,8 @@
       "researcher",
       "intellectual"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:pedagogy:noun",
@@ -138,7 +140,7 @@
     "examples": [
       "Modern university pedagogy emphasizes interactive student participation over traditional passive lecture formats."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -154,7 +156,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈped.ə.ɡɑː.dʒi/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:pedagogical:adjective",
@@ -168,7 +171,7 @@
     "examples": [
       "The school introduced new pedagogical tools designed to enhance student engagement in science subjects."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˌped.əˈɡɒdʒ.ɪ.kəl/",
@@ -181,7 +184,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌped.əˈɡɑː.dʒɪ.kəl/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:lifelong:adjective",
@@ -254,7 +258,7 @@
     "examples": [
       "Investing in public education was declared a national priority by government ministers during the summit."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˌed.jʊˈkeɪ.ʃən/",
@@ -458,7 +462,7 @@
     "examples": [
       "The university achieved international accreditation after an extensive review of its academic programs."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/əˌkred.ɪˈteɪ.ʃən/",
@@ -475,7 +479,8 @@
     ],
     "transcription_variants": {
       "us": "/əˌkred.əˈteɪ.ʃən/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:fees:noun",
@@ -548,7 +553,7 @@
     "examples": [
       "The research proposal was evaluated with strict academic rigour before approval was formally granted."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈrɪɡ.ər/",
@@ -568,7 +573,8 @@
     },
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:outcomes:noun",
@@ -645,7 +651,7 @@
     "examples": [
       "Students gained practical insights through experiential learning during internships at local engineering firms."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -665,7 +671,8 @@
     ],
     "transcription_variants": {
       "us": "/ɪkˌspɪr.iˈen.ʃəl ˈlɝː.nɪŋ/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:critical-thinking-skills:noun",
@@ -772,7 +779,7 @@
     "examples": [
       "Developing soft skills is essential for employees who wish to advance into managerial leadership positions."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -840,7 +847,7 @@
     "examples": [
       "Many working professionals enroll in continuing education courses to update their technical qualifications."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -857,7 +864,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/kənˈtɪn.ju.ɪŋ ed.jəˈkeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:professional-certification:noun",
@@ -1265,7 +1273,7 @@
     "examples": [
       "Company management invested in employee upskilling to adapt to automated manufacturing processes."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1323,7 +1331,7 @@
     "examples": [
       "He possesses only a rudimentary understanding of computer programming concepts."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "upper-intermediate"
@@ -1344,7 +1352,7 @@
     "word": "academic integrity",
     "form": "noun",
     "level": "B2",
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "education",
     "emoji": "🎓",
     "countability": "uncountable",
@@ -1367,7 +1375,8 @@
     ],
     "examples": [
       "Universities enforce strict policies on academic integrity to prevent plagiarism among students."
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:academic-pressure:noun",
@@ -1590,7 +1599,7 @@
     "word": "inclusive education",
     "form": "noun",
     "level": "B2",
-    "domain": "relocation",
+    "domain": "relocation, professional",
     "theme": "education",
     "emoji": "🤝",
     "countability": "uncountable",
@@ -1612,7 +1621,8 @@
     ],
     "examples": [
       "The national curriculum emphasizes inclusive education to support neurodiverse and immigrant children."
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:individualized-learning-plan:noun",

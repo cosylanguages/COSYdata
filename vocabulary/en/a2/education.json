@@ -11,7 +11,7 @@
     "examples": [
       "She enrolled in an evening language course."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "courses",
@@ -27,7 +27,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/kɔːrs/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:review:verb",
@@ -41,7 +42,7 @@
     "examples": [
       "Let us review yesterday's grammar lesson."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -53,7 +54,8 @@
     ],
     "transcription": "/rɪˈvjuː/",
     "emoji": "📖",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:improve:verb",
@@ -67,7 +69,7 @@
     "examples": [
       "Daily practice will improve your speaking."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
@@ -79,7 +81,8 @@
     "antonyms": [
       "worsen",
       "deteriorate"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:knowledge:noun",
@@ -93,7 +96,7 @@
     "examples": [
       "Reading books expands your general knowledge."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
@@ -122,7 +125,7 @@
     "examples": [
       "She worked hard to pass the test."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "passes",
@@ -140,7 +143,8 @@
     ],
     "transcription_variants": {
       "us": "/pæs/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:understand:noun",
@@ -154,7 +158,7 @@
     "examples": [
       "Did you understand the teacher's instructions?"
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -168,7 +172,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌʌn.dɚˈstænd/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:skill:noun",
@@ -182,7 +187,7 @@
     "examples": [
       "Swimming is a very useful life skill."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "skills",
@@ -209,7 +214,7 @@
     "examples": [
       "He received his diploma at the ceremony."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "diplomas",
@@ -222,7 +227,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/dɪˈploʊ.mə/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:certificate:noun",
@@ -236,7 +242,7 @@
     "examples": [
       "You need a medical certificate for work."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "certificates",
@@ -249,7 +255,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/sɚˈtɪf.ə.kət/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:lecture:noun",
@@ -263,7 +270,7 @@
     "examples": [
       "The professor gave an interesting science lecture."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "lectures",
@@ -290,7 +297,7 @@
     "examples": [
       "He got a high grade on his test."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "grades",
@@ -300,7 +307,8 @@
     "transcription": "/ɡreɪd/",
     "emoji": "💯",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:mark:noun",
@@ -314,7 +322,7 @@
     "examples": [
       "She achieved a top mark in English."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "marks",
@@ -327,7 +335,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/mɑːrk/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:fail:noun",
@@ -341,7 +350,7 @@
     "examples": [
       "He feared he might fail the exam."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "fails",
@@ -353,7 +362,8 @@
     "countability": "countable",
     "antonyms": [
       "pass"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:quiz:noun",
@@ -367,7 +377,7 @@
     "examples": [
       "We took a short spelling quiz today."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "quizzes",
@@ -377,7 +387,8 @@
     "transcription": "/kwɪz/",
     "emoji": "❓",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:assignment:noun",
@@ -391,7 +402,7 @@
     "examples": [
       "Finish your writing assignment by Friday."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "assignments",
@@ -401,7 +412,8 @@
     "transcription": "/əˈsaɪn.mənt/",
     "emoji": "📋",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:project:noun",
@@ -415,7 +427,7 @@
     "examples": [
       "We worked on a science project together."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "projects",
@@ -432,7 +444,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈprɑː.dʒekt/"
-    }
+    },
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:essay:noun",
@@ -446,7 +459,7 @@
     "examples": [
       "She wrote a short essay about nature."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "essays",
@@ -456,7 +469,8 @@
     "transcription": "/ˈes.eɪ/",
     "emoji": "📄",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:timetable:noun",
@@ -470,7 +484,7 @@
     "examples": [
       "Check your timetable for the classroom number."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "timetables",
@@ -489,7 +503,8 @@
     ],
     "regional_equivalents": [
       "en:schedule:noun"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:schedule:noun",
@@ -503,7 +518,7 @@
     "examples": [
       "My work schedule is busy this week."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "schedules",
@@ -539,7 +554,7 @@
     "examples": [
       "The spring term ends late in May."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "terms",
@@ -552,7 +567,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/tɝːm/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:semester:noun",
@@ -566,7 +582,7 @@
     "examples": [
       "He passed all exams this semester."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "semesters",
@@ -579,7 +595,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/səˈmes.tɚ/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:professor:noun",
@@ -593,7 +610,7 @@
     "examples": [
       "The professor published a new research paper."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "professors",
@@ -608,7 +625,8 @@
     ],
     "transcription_variants": {
       "us": "/prəˈfes.ɚ/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:lecturer:noun",
@@ -622,7 +640,7 @@
     "examples": [
       "Our lecturer explained the homework topic clearly."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "lecturers",
@@ -634,7 +652,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈlek.tʃɚ.ɚ/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:classmate:noun",
@@ -648,7 +667,7 @@
     "examples": [
       "I met my classmate at the library."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "classmates",
@@ -661,7 +680,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈklæs.meɪt/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:scholarship:noun",
@@ -675,7 +695,7 @@
     "examples": [
       "She won a scholarship to study abroad."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "scholarships",
@@ -688,7 +708,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈskɑː.lɚ.ʃɪp/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:tuition:noun",
@@ -702,7 +723,7 @@
     "examples": [
       "The university increased its annual tuition."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -714,7 +735,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/tuːˈɪʃ.ən/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:fee:noun",
@@ -728,14 +750,15 @@
     "examples": [
       "Pay the course fee before starting classes."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "fees",
     "transcription": "/fiː/",
     "emoji": "💵",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:ability:noun",
@@ -749,7 +772,7 @@
     "examples": [
       "He showed great ability in math class."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "abilities",
@@ -797,7 +820,7 @@
     "examples": [
       "I need to revise history notes tonight."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -805,7 +828,8 @@
     ],
     "transcription": "/rɪˈvaɪz/",
     "emoji": "📖",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:memorize:verb",
@@ -840,7 +864,7 @@
     "examples": [
       "They will graduate from university in June."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -848,7 +872,8 @@
     ],
     "transcription": "/ˈɡrædʒ.u.eɪt/",
     "emoji": "🎓",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:graduation:noun",
@@ -862,7 +887,7 @@
     "examples": [
       "Parents attended the university graduation."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "graduations",
@@ -872,7 +897,8 @@
     "transcription": "/ˌɡrædʒ.uˈeɪ.ʃən/",
     "emoji": "🎓",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:major:noun",
@@ -916,7 +942,7 @@
     "examples": [
       "Open your history textbook to page ten."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -927,7 +953,8 @@
     "transcription": "/ˈtekst.bʊk/",
     "emoji": "📖",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:attendance:noun",
@@ -967,7 +994,7 @@
     "examples": [
       "Three students were absent from class today."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -979,7 +1006,8 @@
     "countability": "uncountable",
     "antonyms": [
       "present"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:skip-class:noun",
@@ -1165,7 +1193,7 @@
     "examples": [
       "Our children walked to the neighborhood primary school today."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈpraɪ.mər.i skuːl/",
@@ -1175,7 +1203,8 @@
     "emoji": "🏫",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "primary schools"
+    "plural_form": "primary schools",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:recess:noun",
@@ -1237,7 +1266,7 @@
     "examples": [
       "After finishing primary school, students enter secondary school."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈsek.ən.dri skuːl/",
@@ -1247,7 +1276,8 @@
     "emoji": "🏫",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "secondary schools"
+    "plural_form": "secondary schools",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:optional:adjective",
@@ -1339,7 +1369,7 @@
     "examples": [
       "The library is a good source of information."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "information",
     "updated": "2025-01-15",
     "levels": [
@@ -1353,7 +1383,8 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "sources",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:divide:verb",
@@ -1441,13 +1472,14 @@
     "examples": [
       "Look up unknown words in your dictionary."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈdɪk.ʃən.ər.i/",
     "emoji": "📖",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "dictionaries"
+    "plural_form": "dictionaries",
+    "sub_theme": "academic-english"
   }
 ]

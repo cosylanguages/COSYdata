@@ -41,7 +41,7 @@
     "examples": [
       "The jury reached a unanimous guilty verdict after three hours of deliberation."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "verdicts",
@@ -63,7 +63,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈvɝː.dɪkt/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:offence:noun",
@@ -129,7 +130,7 @@
     "examples": [
       "The murder trial lasted for several weeks before reaching a verdict."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "trials",
@@ -145,7 +146,8 @@
       "court case",
       "proceeding"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:court:noun",
@@ -159,7 +161,7 @@
     "examples": [
       "Witnesses were called to testify in court during the trial today."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "courts",
@@ -176,7 +178,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/kɔːrt/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:jury:noun",
@@ -190,7 +193,7 @@
     "examples": [
       "Members of the jury listened attentively to all witness testimony presented."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "juries",
@@ -204,7 +207,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈdʒʊr.i/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:guilty:adjective",
@@ -218,7 +222,7 @@
     "examples": [
       "The judge declared the defendant guilty of financial fraud today."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "tags": [
@@ -234,7 +238,8 @@
     "antonyms": [
       "innocent",
       "blameless"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:innocent:adjective",
@@ -248,7 +253,7 @@
     "examples": [
       "New evidence proved that the accused man was completely innocent."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "transcription": "/ˈɪn.ə.sənt/",
@@ -261,7 +266,8 @@
     "antonyms": [
       "guilty",
       "culpable"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:investigate:verb",
@@ -275,7 +281,7 @@
     "examples": [
       "Detectives were sent to investigate the mysterious break-in at night."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "transcription": "/ɪnˈves.tɪ.ɡeɪt/",
@@ -305,7 +311,7 @@
     "examples": [
       "The police investigation revealed key details about the robbery scheme."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "investigations",
@@ -453,7 +459,7 @@
     "examples": [
       "The company filed a lawsuit against their rival for copyright infringement."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "lawsuits",
@@ -471,7 +477,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈlɑː.suːt/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:enforce:verb",
@@ -671,7 +678,7 @@
     "examples": [
       "The company faced a serious cyber threat last month."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "tags": [
       "intermediate"
@@ -690,7 +697,8 @@
     "antonyms": [
       "safety",
       "protection"
-    ]
+    ],
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:threaten:verb",

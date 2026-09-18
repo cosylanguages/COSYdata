@@ -11,7 +11,7 @@
     "examples": [
       "A cup of hot coffee tastes good."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -41,7 +41,7 @@
     "examples": [
       "She bought a new book at the store."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "levels": [
@@ -66,7 +66,7 @@
     "examples": [
       "Only a small minority voted against the plan."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "minorities",
@@ -100,7 +100,7 @@
     "examples": [
       "The majority of students passed the test."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "majorities",
@@ -133,7 +133,7 @@
     "examples": [
       "There was an increase in gas prices."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "increases",
@@ -163,7 +163,7 @@
     "examples": [
       "We saw a decrease in sales last month."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "decreases",
@@ -189,7 +189,7 @@
     "examples": [
       "There was a steady rise in temperature."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "rises",
@@ -301,7 +301,7 @@
     "examples": [
       "Only a few students were late today."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -326,7 +326,7 @@
     "examples": [
       "The minimum age for driving is eighteen."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "minimums",
@@ -342,7 +342,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈmɪn.ə.məm/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:approximately:noun",
@@ -469,7 +470,7 @@
     "examples": [
       "The average temperature in July is high."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "averages",
@@ -500,7 +501,7 @@
     "examples": [
       "A large percentage of people voted."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, professional",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "percentages",
@@ -768,7 +769,7 @@
     "examples": [
       "She has a lot of friends here."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -1080,7 +1081,7 @@
     "examples": [
       "The latest statistic shows sales growth."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -1091,7 +1092,8 @@
     "transcription": "/stəˈtɪs.tɪk/",
     "emoji": "📊",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:kilo-kilogram:noun",

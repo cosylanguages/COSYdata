@@ -43,7 +43,7 @@
     "examples": [
       "Company sales continued to increase rapidly over the past six months."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -76,7 +76,7 @@
     "examples": [
       "There has been a sharp decline in newspaper readership recently."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -109,7 +109,7 @@
     "examples": [
       "Current market data shows a clear trend toward online shopping."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "trends",
@@ -141,7 +141,7 @@
     "examples": [
       "The overall results of the survey were positive for our company."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -171,7 +171,7 @@
     "examples": [
       "Recent economic statistics indicate that employment rates are improving steadily."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
@@ -182,7 +182,8 @@
       "figures",
       "numbers"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:survey:noun",
@@ -196,7 +197,7 @@
     "examples": [
       "A recent survey revealed that consumers prefer sustainable product packaging."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "surveys",
@@ -211,7 +212,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈsɝː.veɪ/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:poll:noun",
@@ -254,7 +256,7 @@
     "examples": [
       "A large proportion of students passed their final language exam successfully."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "proportions",
@@ -432,7 +434,7 @@
     "examples": [
       "The company experienced steady growth in profits over the last decade."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -516,7 +518,7 @@
     "examples": [
       "Researchers presented their research findings at the international science conference."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
@@ -527,7 +529,8 @@
       "conclusions",
       "data"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:remain-stable:verb",
@@ -637,7 +640,7 @@
     "examples": [
       "There was a sudden surge in demand for organic food products."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "statistics",
     "tags": [
       "spoken",

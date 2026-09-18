@@ -1,0 +1,2417 @@
+# Professional Domain Tagging Summary Audit
+
+## 1. Counts of Tagged Entries by Track and CEFR Level
+
+| Section / Track | A2 | B1 | B2 | C1 | C2 | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| `part1` | 497 | 460 | 340 | 238 | 120 | **1655** |
+| `teachers-scientists` | 61 | 94 | 37 | 32 | 0 | **224** |
+| `it-specialists` | 52 | 54 | 27 | 8 | 0 | **141** |
+| `legal-english` | 76 | 52 | 48 | 44 | 2 | **222** |
+| `academic-english` | 73 | 62 | 31 | 17 | 0 | **183** |
+
+## 2. Level Mismatches (Source Level vs COSYdata Entry Level)
+
+Total Mismatches Recorded: 1244
+
+| Word | Entry ID | Source Level | Existing Level | Track |
+| --- | --- | --- | --- | --- |
+| time | `en:time:adverb` | A2 | B1 | `part1` |
+| minute | `en:minute:adjective` | A2 | C1 | `part1` |
+| fall | `en:fall:verb` | A2 | B1 | `part1` |
+| back | `en:back:adverb` | A2 | B1 | `part1` |
+| health | `en:health:noun` | A2 | B1 | `part1` |
+| far | `en:far:phrase` | A2 | B1 | `part1` |
+| behind | `en:behind:verb` | A2 | B1 | `part1` |
+| train | `en:train:verb` | A2 | B1 | `part1` |
+| red | `en:red:noun` | A2 | C2 | `part1` |
+| green | `en:green:noun` | A2 | B2 | `part1` |
+| work | `en:work:noun` | A2 | B2 | `part1` |
+| pension | `en:pension:noun` | A2 | B1 | `part1` |
+| change | `en:change:adjective` | A2 | C1 | `part1` |
+| tax | `en:tax:noun` | A2 | B1 | `part1` |
+| bring | `en:bring:verb` | A2 | B1 | `part1` |
+| think | `en:think:adjective` | A2 | C1 | `part1` |
+| say | `en:say:adjective` | A2 | C1 | `part1` |
+| use | `en:use:noun` | A2 | B2 | `part1` |
+| show | `en:show:adjective` | A2 | C1 | `part1` |
+| lead | `en:lead:verb` | A2 | B1 | `part1` |
+| consider | `en:consider:verb` | A2 | B1 | `part1` |
+| cut | `en:cut:verb` | A2 | B1 | `part1` |
+| remain | `en:remain:verb` | A2 | B1 | `part1` |
+| wrong | `en:wrong:noun` | A2 | B1 | `part1` |
+| only | `en:only:conjunction` | A2 | B1 | `part1` |
+| that | `en:that:conjunction` | A2 | B1 | `part1` |
+| other | `en:other:phrase` | A2 | B1 | `part1` |
+| what | `en:what:conjunction` | A2 | B1 | `part1` |
+| if | `en:if:conjunction` | A2 | B1 | `part1` |
+| register | `en:register:noun` | A2 | B1 | `teachers-scientists` |
+| principal | `en:principal:noun` | A2 | B1 | `teachers-scientists` |
+| curriculum | `en:curriculum:noun` | A2 | B1 | `teachers-scientists` |
+| syllabus | `en:syllabus:noun` | A2 | B1 | `teachers-scientists` |
+| graduate | `en:graduate:noun` | A2 | B1 | `teachers-scientists` |
+| experiment | `en:experiment:verb` | A2 | B1 | `teachers-scientists` |
+| experiment | `en:experiment:noun` | A2 | C1 | `teachers-scientists` |
+| laboratory | `en:laboratory:noun` | A2 | B1 | `teachers-scientists` |
+| result | `en:result:verb` | A2 | B1 | `teachers-scientists` |
+| research | `en:research:verb` | A2 | B1 | `teachers-scientists` |
+| research | `en:research:noun` | A2 | C1 | `teachers-scientists` |
+| observe | `en:observe:verb` | A2 | B1 | `teachers-scientists` |
+| record | `en:record:noun` | A2 | B1 | `teachers-scientists` |
+| chemical | `en:chemical:noun` | A2 | B1 | `teachers-scientists` |
+| chemical | `en:chemical:adjective` | A2 | B1 | `teachers-scientists` |
+| chemistry | `en:chemistry:noun` | A2 | B2 | `teachers-scientists` |
+| biology | `en:biology:noun` | A2 | B1 | `teachers-scientists` |
+| physics | `en:physics:noun` | A2 | C1 | `teachers-scientists` |
+| sample | `en:sample:noun` | A2 | B2 | `teachers-scientists` |
+| discover | `en:discover:verb` | A2 | B1 | `teachers-scientists` |
+| invent | `en:invent:verb` | A2 | B1 | `teachers-scientists` |
+| method | `en:method:noun` | A2 | B1 | `teachers-scientists` |
+| process | `en:process:noun` | A2 | B1 | `teachers-scientists` |
+| review | `en:review:noun` | A2 | C1 | `teachers-scientists` |
+| do research | `en:do-research:phrase` | A2 | B1 | `teachers-scientists` |
+| monitor | `en:monitor:verb` | A2 | B1 | `it-specialists` |
+| network | `en:network:noun` | A2 | B1 | `it-specialists` |
+| virus | `en:virus:noun` | A2 | B1 | `it-specialists` |
+| security | `en:security:noun` | A2 | B1 | `it-specialists` |
+| backup | `en:backup:noun` | A2 | B1 | `it-specialists` |
+| spreadsheet | `en:spreadsheet:noun` | A2 | B1 | `it-specialists` |
+| share | `en:share:noun` | A2 | B1 | `it-specialists` |
+| attachment | `en:attachment:noun` | A2 | B2 | `it-specialists` |
+| error | `en:error:noun` | A2 | B2 | `it-specialists` |
+| work | `en:work:noun` | A2 | B2 | `it-specialists` |
+| support | `en:support:verb` | A2 | B1 | `it-specialists` |
+| wrong | `en:wrong:noun` | A2 | B1 | `legal-english` |
+| court | `en:court:noun` | A2 | B1 | `legal-english` |
+| judge | `en:judge:verb` | A2 | B1 | `legal-english` |
+| guilty | `en:guilty:adjective` | A2 | B1 | `legal-english` |
+| innocent | `en:innocent:adjective` | A2 | B1 | `legal-english` |
+| permission | `en:permission:noun` | A2 | B1 | `legal-english` |
+| permit | `en:permit:noun` | A2 | B1 | `legal-english` |
+| license | `en:license:noun` | A2 | C1 | `legal-english` |
+| claim | `en:claim:verb` | A2 | B1 | `legal-english` |
+| dispute | `en:dispute:noun` | A2 | C1 | `legal-english` |
+| advise | `en:advise:verb` | A2 | B1 | `legal-english` |
+| tax | `en:tax:noun` | A2 | B1 | `legal-english` |
+| jury | `en:jury:noun` | A2 | B1 | `legal-english` |
+| citizen | `en:citizen:noun` | A2 | B1 | `legal-english` |
+| resident | `en:resident:noun` | A2 | B1 | `legal-english` |
+| immigration | `en:immigration:noun` | A2 | B1 | `legal-english` |
+| campus | `en:campus:noun` | A2 | B1 | `academic-english` |
+| faculty | `en:faculty:noun` | A2 | B1 | `academic-english` |
+| bachelor's degree | `en:bachelor-s-degree:noun` | A2 | B1 | `academic-english` |
+| dormitory | `en:dormitory:noun` | A2 | B1 | `academic-english` |
+| research | `en:research:verb` | A2 | B1 | `academic-english` |
+| research | `en:research:noun` | A2 | C1 | `academic-english` |
+| result | `en:result:verb` | A2 | B1 | `academic-english` |
+| hand in | `en:hand-in:verb` | A2 | B1 | `academic-english` |
+| on time | `en:on-time:adverb` | A2 | B1 | `academic-english` |
+| graduate | `en:graduate:noun` | A2 | B1 | `academic-english` |
+| online course | `en:online-course:noun` | A2 | B1 | `academic-english` |
+| opinion | `en:opinion:verb` | B1 | A2 | `part1` |
+| argument | `en:argument:noun` | B1 | A2 | `part1` |
+| argument | `en:argument:verb` | B1 | A2 | `part1` |
+| discuss | `en:discuss:verb` | B1 | A2 | `part1` |
+| discussion | `en:discussion:noun` | B1 | A2 | `part1` |
+| convince | `en:convince:verb` | B1 | A2 | `part1` |
+| persuade | `en:persuade:verb` | B1 | A2 | `part1` |
+| persuade | `en:persuade:adjective` | B1 | C2 | `part1` |
+
+*... and 1144 additional level mismatches.*
+
+## 3. Part 1 & Tracks Words Not Found — Deferred to Phase 2
+
+### Section / Track: `part1`
+
+#### CEFR Level A2 (674 deferred words)
+- one
+- two
+- four
+- five
+- six
+- seven
+- eight
+- nine
+- ten
+- eleven
+- twelve
+- twenty
+- thirty
+- hundred
+- thousand
+- second
+- third
+- number
+- half
+- quarter
+- some
+- any
+- none
+- hour
+- day
+- week
+- month
+- year
+- today
+- tomorrow
+- yesterday
+- morning
+- afternoon
+- evening
+- night
+- o'clock
+- early
+- late
+- now
+- soon
+- before
+- after
+- always
+- never
+- sometimes
+- often
+- usually
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+- January–December (months
+- generic)
+- spring
+- summer
+- autumn
+- winter
+- date
+- birthday
+- weekend
+- holiday
+- family
+- mother
+- father
+- parent
+- son
+- daughter
+- brother
+- sister
+- child
+- children
+- baby
+- husband
+- wife
+- grandmother
+- grandfather
+- aunt
+- uncle
+- cousin
+- friend
+- neighbour
+- people
+- person
+- man
+- woman
+- boy
+- girl
+- adult
+- name
+- age
+- married
+- single
+- boss
+- team
+- body
+- head
+- face
+- eye
+- ear
+- nose
+- mouth
+- hair
+- arm
+- leg
+- foot
+- feet
+- stomach
+- heart
+- tooth
+- teeth
+- finger
+- ill
+- sick
+- pain
+- hurt
+- doctor
+- nurse
+- hospital
+- medicine
+- tablet
+- temperature
+- cold
+- tired
+- happy
+- sad
+- angry
+- afraid
+- worried
+- nervous
+- excited
+- bored
+- surprised
+- calm
+- relaxed
+- sorry
+- glad
+- love
+- like
+- hate
+- want
+- need
+- hope
+- feel
+- enjoy
+- food
+- drink
+- eat
+- breakfast
+- lunch
+- dinner
+- meal
+- bread
+- rice
+- meat
+- chicken
+- fish
+- vegetable
+- fruit
+- apple
+- banana
+- orange
+- potato
+- tomato
+- egg
+- milk
+- cheese
+- butter
+- sugar
+- salt
+- pepper
+- tea
+- coffee
+- water
+- juice
+- wine
+- beer
+- hungry
+- thirsty
+- cook
+- restaurant
+- menu
+- waiter
+- bill
+- order
+- delicious
+- cake
+- chocolate
+- soup
+- sandwich
+- biscuit
+- cookie
+- snack
+- recipe
+- kitchen
+- pan
+- plate
+- cup
+- glass
+- spoon
+- fork
+- knife
+- clothes
+- shirt
+- T-shirt
+- trousers
+- pants
+- dress
+- skirt
+- jacket
+- coat
+- shoes
+- socks
+- hat
+- bag
+- glasses
+- watch
+- ring
+- wear
+- put on
+- take off
+- size
+- colour
+- buy
+- sell
+- shop
+- house
+- home
+- flat
+- apartment
+- room
+- bedroom
+- bathroom
+- living room
+- door
+- window
+- wall
+- floor
+- roof
+- garden
+- garage
+- key
+- address
+- live
+- move
+- stay
+- clean
+- tidy
+- table
+- chair
+- bed
+- sofa
+- desk
+- lamp
+- shelf
+- mirror
+- television
+- TV
+- radio
+- phone
+- computer
+- clock
+- picture
+- book
+- pen
+- pencil
+- paper
+- box
+- bottle
+- umbrella
+- town
+- city
+- village
+- street
+- road
+- supermarket
+- market
+- bank
+- post office
+- station
+- airport
+- hotel
+- park
+- church
+- museum
+- cinema
+- theatre
+- library
+- school
+- university
+- office
+- farm
+- beach
+- mountain
+- river
+- lake
+- sea
+- bridge
+- here
+- there
+- left
+- right
+- straight on
+- near
+- opposite
+- next to
+- between
+- in front of
+- on
+- in
+- under
+- over
+- up
+- down
+- corner
+- map
+- car
+- bus
+- plane
+- airplane
+- taxi
+- bicycle
+- bike
+- boat
+- ship
+- ticket
+- journey
+- trip
+- travel
+- drive
+- fly
+- walk
+- arrive
+- leave
+- weather
+- sun
+- sunny
+- rain
+- rainy
+- cloud
+- cloudy
+- wind
+- windy
+- snow
+- snowy
+- hot
+- warm
+- cool
+- storm
+- ice
+- animal
+- dog
+- cat
+- bird
+- horse
+- cow
+- sheep
+- pig
+- tree
+- flower
+- grass
+- forest
+- sky
+- star
+- moon
+- earth
+- world
+- nature
+- plant
+- blue
+- yellow
+- black
+- white
+- grey
+- brown
+- pink
+- purple
+- circle
+- square
+- round
+- big
+- small
+- long
+- short
+- class
+- classroom
+- teacher
+- student
+- lesson
+- homework
+- exam
+- test
+- question
+- answer
+- learn
+- study
+- teach
+- subject
+- English
+- mathematics
+- science
+- read
+- write
+- listen
+- speak
+- remember
+- forget
+- practise
+- correct
+- mistake
+- difficult
+- easy
+- job
+- company
+- business
+- manager
+- employee
+- salary
+- plan
+- shop assistant
+- engineer
+- driver
+- farmer
+- money
+- price
+- cost
+- cheap
+- expensive
+- pay
+- shopping
+- cash
+- card
+- credit card
+- receipt
+- save
+- spend
+- coin
+- note
+- telephone
+- mobile phone
+- call
+- message
+- text
+- email
+- internet
+- laptop
+- screen
+- keyboard
+- mouse
+- letter
+- post
+- send
+- receive
+- talk
+- ask
+- tell
+- information
+- news
+- newspaper
+- sport
+- football
+- tennis
+- swim
+- run
+- play
+- game
+- music
+- song
+- sing
+- dance
+- film
+- movie
+- hobby
+- party
+- visit
+- wake up
+- get up
+- get dressed
+- have breakfast
+- go to work
+- start
+- finish
+- come home
+- have dinner
+- go to bed
+- sleep
+- wash
+- brush
+- shower
+- wait
+- meet
+- help
+- carry
+- take
+- give
+- put
+- open
+- close
+- turn on
+- turn off
+- be
+- have
+- do
+- go
+- come
+- see
+- know
+- find
+- try
+- become
+- keep
+- let
+- begin
+- turn
+- hear
+- happen
+- sit
+- stand
+- lose
+- continue
+- stop
+- grow
+- win
+- serve
+- die
+- build
+- reach
+- kill
+- good
+- bad
+- new
+- old
+- young
+- high
+- low
+- important
+- different
+- same
+- beautiful
+- ugly
+- dirty
+- strong
+- weak
+- fast
+- slow
+- full
+- empty
+- safe
+- free
+- busy
+- ready
+- interesting
+- boring
+- kind
+- friendly
+- funny
+- very
+- too
+- also
+- just
+- really
+- quite
+- again
+- still
+- already
+- yet
+- quickly
+- slowly
+- well
+- badly
+- easily
+- carefully
+- at
+- to
+- from
+- for
+- with
+- without
+- about
+- into
+- onto
+- by
+- front of
+- above
+- below
+- through
+- during
+- since
+- until
+- you
+- he
+- she
+- it
+- we
+- they
+- me
+- him
+- her
+- us
+- them
+- my
+- your
+- his
+- its
+- our
+- their
+- mine
+- yours
+- this
+- these
+- those
+- each
+- no
+- another
+- someone
+- something
+- anyone
+- anything
+- nobody
+- nothing
+- who
+- where
+- when
+- why
+- how
+- which
+- whose
+- how much
+- how many
+- how old
+- how long
+- and
+- but
+- or
+- so
+- because
+- while
+- although
+- then
+- as well
+- Hello
+- Hi
+- Goodbye
+- Good morning
+- Good afternoon
+- Good evening
+- Good night
+- Please
+- Thank you
+- You're welcome
+- Excuse me
+- Sorry
+- How are you?
+- Nice to meet you
+- See you later
+- What's your
+- name?
+- Where are you from?
+- I don't understand
+- Can you repeat that?
+- Can I help you?
+- No problem
+- I think so
+- I'm not sure
+- Let's go
+- I agree
+- I disagree
+- surname
+- nationality
+- country
+- language
+- fill in
+
+#### CEFR Level B1 (107 deferred words)
+- agree
+- argue
+- advice
+- decide
+- choose
+- uncertain
+- shy
+- hard-working
+- organised
+- disorganised
+- calm
+- relative
+- culture
+- custom
+- tradition
+- behave
+- confused
+- confusing
+- frustrating
+- proud
+- satisfying
+- blood
+- infect
+- prescribe
+- healthy
+- painkiller
+- chemist's
+- physical
+- climate
+- temperature
+- degree
+- dry
+- natural resource
+- plastic
+- protection
+- book
+- border
+- journey
+- news
+- magazine
+- advertise
+- reality show
+- blog
+- post
+- like
+- educate
+- trainee
+- e-learning
+- apply for
+- retake
+- employee
+- employment
+- recruit
+- salary
+- responsible for
+- in charge of
+- company
+- business
+- market
+- cost
+- manufacture
+- sell
+- plan
+- save
+- spend
+- spending
+- borrow
+- lend
+- bill
+- bank statement
+- function
+- information
+- cloud
+- wireless
+- automatically
+- law
+- rule
+- politician
+- right
+- private
+- solution
+- developing country
+- developed country
+- stay the same
+- in the
+- end
+- while
+- during
+- until
+- since
+- continue
+- depend on
+- describe
+- organise
+- beneficial
+- complicated
+- huge
+- ideal
+- precious
+- unique
+- although
+- to
+- especially
+- in my view
+- take care of
+- get used
+- get on well with
+
+#### CEFR Level B2 (93 deferred words)
+- logic
+- rational
+- irrational
+- generalise
+- evaluation
+- criticise
+- component
+- structure
+- outlook
+- disposition
+- conscientious
+- ethnicity
+- exclusion
+- tolerant
+- intolerant
+- acceptance
+- psychological
+- counsellor
+- remedy
+- addictive
+- public health
+- conserve
+- offset
+- deplete
+- resource management
+- ecology
+- environmental impact
+- misleading
+- censor
+- freedom of
+- speech
+- sensationalist
+- objective reporting
+- columnist
+- board of
+- CEO
+- subsidiary
+- entrepreneurial
+- start-up
+- capital
+- consumer spending
+- cost-efficient
+- digitalisation
+- implementation
+- deploy
+- ideological
+- human rights violation
+- bureaucratic
+- KPI
+- flexible working
+- hybrid working
+- negotiation skills
+- constructive feedback
+- redeployment
+- statistical
+- ratio
+- fluctuation
+- spike
+- slump
+- projected
+- estimated
+- approximate
+- on
+- a significant proportion
+- a marginal increase
+- address
+- appreciate
+- approach (a
+- problem)
+- attain
+- convey
+- counteract
+- foresee
+- inhibit
+- interact
+- minimise
+- dominant
+- drastic
+- intense
+- manageable
+- notable
+- initially
+- in that respect
+- bridge the gap
+- tackle an issue
+- address a problem
+- play a key role
+- have
+- a significant impact
+- in
+- the wake of
+- get to
+- grips with
+
+#### CEFR Level C1 (126 deferred words)
+- concession
+- convergence
+- divergence
+- dichotomous
+- conceptualise
+- conceptualisation
+- operationalise
+- disentangle
+- unpack
+- problematise
+- scrutiny
+- persuasive force
+- unfounded
+- polarising
+- polarised
+- contested
+- disputed
+- sweeping
+- reductive
+- holistic approach
+- sociopolitical
+- hegemonic
+- dominant discourse
+- counter-narrative
+- collective identity
+- institutionalised
+- marginalisation
+- underrepresentation
+- assimilation policy
+- self-efficacy
+- neuroplasticity
+- predisposition
+- fiscal stimulus
+- underwrite
+- IPO
+- capture
+- stakeholder capitalism
+- kleptocracy
+- multilateralism
+- unilateral action
+- sovereign state
+- containment policy
+- proxy conflict
+- sanction regime
+- self-determination
+- populist rhetoric
+- illiberal democracy
+- unintended consequence
+- precautionary principle
+- dual-use
+- technological
+- epistemic bubble
+- information asymmetry
+- planetary boundary
+- carbon neutrality
+- climate
+- overexploitation
+- ecosystem collapse
+- sustainable transition
+- green transition
+- just transition
+- climate justice
+- precautionary approach
+- overstated
+- hyperbolic
+- connotative
+- derogatory
+- idiomatic
+- rhetorical device
+- loaded language
+- figurative language
+- literal interpretation
+- accentuate
+- counteract
+- deploy
+- encapsulate
+- epitomise
+- eradicate
+- jeopardise
+- mobilise
+- obscure
+- predicate
+- safeguard
+- from
+- stifle
+- undercut
+- underpin
+- underscore
+- warrant
+- anomalous
+- contingent
+- exorbitant
+- pronounced
+- staggering
+- unfettered
+- decidedly
+- demonstrably
+- implicitly
+- invariably
+- markedly
+- overwhelmingly
+- plausibly
+- predominantly
+- purportedly
+- retrospectively
+- tacitly
+- unwittingly
+- that being
+- said
+- this notwithstanding
+- to a lesser
+- greater extent
+- tip the balance
+- set the tone
+- lose momentum
+- come to the fore
+- take root
+- hold
+- run counter to
+- be at odds with
+- be in keeping with
+- bear the brunt of
+- tread carefully
+- leave much to be desired
+- move the
+- goalposts
+
+#### CEFR Level C2 (135 deferred words)
+- acuity
+- cogency
+- exegesis
+- dialectical
+- straw man
+- circular reasoning
+- equivocation
+- sophistic
+- rhetorical flourish
+- elliptical
+- prolix
+- circumlocution
+- overstatement
+- pleonasm
+- deontological
+- utilitarian calculus
+- phenomenological
+- metaphysical
+- ontological status
+- a priori
+- a posteriori
+- tabula rasa
+- moral relativism
+- moral absolutism
+- ethical pluralism
+- praxis
+- first principles
+- reductio ad absurdum
+- thought experiment
+- counterfactual reasoning
+- hegemonic discourse
+- epistemic injustice
+- structural violence
+- symbolic violence
+- false consciousness
+- panopticon
+- biopolitics
+- governmentality
+- neoliberalism
+- neocolonialism
+- postcolonial critique
+- panic
+- othering
+- performativity
+- social construct
+- lived experience
+- standpoint theory
+- intellectual honesty
+- good faith
+- bad faith
+- supererogatory
+- mens rea
+- moral culpability
+- complicity
+- approval
+- whataboutism
+- gaslighting
+- scapegoating
+- sovereign debt crisis
+- contagion
+- regulatory arbitrage
+- race to the bottom
+- beggar-thy-
+- neighbour policy
+- zero-sum game
+- prisoner's dilemma
+- free-rider
+- problem
+- gray rhino event
+- punctuated equilibrium
+- wedge issue
+- mellifluous
+- understated elegance
+- caustic
+- bathetic
+- maudlin
+- saccharine
+- stilted
+- lapidary
+- incisive prose
+- economical
+- anneal
+- circumscribe
+- connote
+- dispel
+- foreground
+- gainsay
+- impugn
+- inveigh against
+- portend
+- reify
+- traduce
+- vitiate
+- anodyne
+- apposite
+- cavalier
+- halcyon
+- insular
+- opaque
+- parochial
+- peripatetic
+- specious
+- tenable
+- concomitantly
+- contra
+- ex ante
+- in extremis
+- in
+- inter alia
+- pro forma
+- pro rata
+- quintessentially
+- unassailably
+- by dint of
+- in the final
+- caveat emptor
+- et al
+- modus vivendi
+- per capita
+- vice versa
+- fait accompli
+- tour de force
+- move the needle
+- an elephant in the room
+- storm in a teacup
+- Gordian knot
+- thread the needle
+- swim against the
+- stand to reason
+- be predicated on
+- be contingent upon
+- run the
+- gamut
+- cast a wide net
+- take stock of
+
+### Section / Track: `teachers-scientists`
+
+#### CEFR Level A2 (58 deferred words)
+- teacher
+- student
+- pupil
+- class
+- classroom
+- lesson
+- subject
+- homework
+- exam
+- test
+- question
+- answer
+- practise
+- activity
+- group
+- pair
+- board
+- notebook
+- rule
+- present
+- college
+- university
+- headteacher
+- room
+- parent
+- degree
+- science
+- scientist
+- lab
+- measure
+- plant
+- animal
+- cell
+- light
+- heat
+- water
+- temperature
+- weight
+- size
+- machine
+- tool
+- material
+- mistake
+- study
+- learn
+- teach
+- describe
+- list
+- write
+- read
+- ask
+- check
+- correct
+- plan
+- organise
+- present a project
+- give a talk
+- take notes
+
+#### CEFR Level B1 (36 deferred words)
+- teaching method
+- lesson plan
+- engage
+- participation
+- behaviour management
+- differentiation
+- learning style
+- evaluation
+- grading
+- dean
+- tenure
+- academic staff
+- fieldwork
+- questionnaire
+- citation
+- bibliography
+- journal
+- funding
+- grant
+- apparatus
+- accuracy
+- substance
+- organism
+- gene
+- DNA
+- atom
+- formula
+- present findings
+- give a lecture
+- chair a meeting
+- office hours
+- proposal
+- draft
+- revision
+- edit
+- editor
+
+#### CEFR Level B2 (46 deferred words)
+- curriculum design
+- learning outcome
+- competency
+- competence-based
+- differentiated instruction
+- formative assessment
+- summative assessment
+- rubric
+- standardised test
+- special educational needs
+- individualised learning plan
+- blended learning
+- flipped classroom
+- accredit
+- empirical evidence
+- qualitative research
+- quantitative research
+- statistical significance
+- ethics committee
+- cross-
+- sectional study
+- meta-analysis
+- systematic review
+- equilibrium
+- molecular
+- cellular
+- genetic mutation
+- thermodynamics
+- particle
+- computation
+- peer-reviewed journal
+- impact factor
+- manuscript
+- revision
+- rejection
+- editor
+- reviewer
+- keynote speech
+- conference proceedings
+- poster session
+- symposium
+- grant proposal
+- funding body
+- research grant
+- ethics approval
+- co-author
+
+#### CEFR Level C1 (68 deferred words)
+- constructivism
+- constructivist approach
+- social constructivism
+- metacognitive strategy
+- cognitive load theory
+- zone of proximal development
+- formative feedback loop
+- criterion-referenced assessment
+- norm-referenced assessment
+- psychometrics
+- educational attainment gap
+- pedagogical content knowledge
+- experiential learning cycle
+- culturally responsive teaching
+- universal design for
+- positivism
+- post-positivism
+- interpretivism
+- constructivist paradigm
+- grounded theory
+- ethnography
+- action research
+- case study design
+- mixed-methods
+- design
+- triangulation
+- inter-rater reliability
+- external validity
+- internal validity
+- confounding variable
+- effect size
+- regression
+- confidence interval
+- p-value
+- statistical power
+- meta-synthesis
+- reproducibility crisis
+- meta-analysis
+- longitudinal cohort study
+- biomarker
+- biostatistics
+- computational modelling
+- in silico
+- in vitro
+- in vivo
+- gene expression
+- epigenetics
+- quantum entanglement
+- thermodynamic equilibrium
+- catalytic reaction
+- isotopic
+- tenure review
+- research impact
+- altmetrics
+- grant application
+- funding cycle
+- investigator
+- co-investigator
+- research ethics board
+- institutional review board
+- academic misconduct
+- retraction
+- replication study
+- open access publishing
+- preprint
+- interdisciplinary collaboration
+- knowledge transfer
+- public engagement
+
+#### CEFR Level C2 (56 deferred words)
+- critical pedagogy
+- banking model of education
+- emancipatory education
+- habitus
+- cultural reproduction
+- social reproduction theory
+- epistemic access
+- decolonising
+- the curriculum
+- andragogical praxis
+- transformative learning theory
+- communities of practice
+- situated cognition
+- distributed cognition
+- cognitive apprenticeship
+- Bayesian inference
+- frequentist statistics
+- structural equation modelling
+- multivariate
+- factor analysis
+- hierarchical linear modelling
+- propensity score matching
+- instrumental variable
+- endogeneity
+- heteroscedasticity
+- autocorrelation
+- methodological triangulation
+- reflexive positionality
+- researcher subjectivity
+- paradigmatic incommensurability
+- emergent property
+- self-organisation
+- complex adaptive system
+- non-linear
+- chaos theory
+- stochastic process
+- heuristic algorithm
+- falsification
+- incommensurability
+- scientific consensus formation
+- replication crisis
+- publication bias
+- p-hacking
+- preregistration
+- eminent scholar
+- seminal work
+- magnum opus
+- canonical text
+- paradigmatic study
+- festschrift
+- emeritus professor
+- distinguished chair
+- endowed professorship
+- scholarly lineage
+- intellectual genealogy
+- disciplinary boundary work
+
+### Section / Track: `it-specialists`
+
+#### CEFR Level A2 (68 deferred words)
+- computer
+- laptop
+- desktop
+- tablet
+- phone
+- smartphone
+- screen
+- keyboard
+- mouse
+- charger
+- battery
+- cable
+- USB
+- memory card
+- headphones
+- speaker
+- camera
+- microphone
+- button
+- switch on
+- switch off
+- save
+- open
+- close
+- delete
+- copy
+- paste
+- click
+- double-click
+- type
+- password
+- logout
+- sign in
+- sign up
+- icon
+- window (on
+- screen)
+- internet
+- Wi-Fi
+- webpage
+- email
+- send
+- receive
+- message
+- chat
+- safe
+- office
+- work computer
+- table
+- text
+- font
+- image
+- photo
+- video
+- slide
+- meeting online
+- attach
+- problem
+- mistake
+- slow
+- fast
+- fix
+- help
+- turn off
+- turn on
+- try again
+- technician
+- call for help
+
+#### CEFR Level B1 (47 deferred words)
+- code
+- coding
+- programming
+- programmer
+- developer
+- source code
+- script
+- debug
+- test
+- function
+- server
+- library
+- version
+- version control
+- repository
+- deploy
+- deployment
+- user interface
+- UX
+- front end
+- back end
+- operating system
+- cloud computing
+- protocol
+- IP address
+- domain
+- latency
+- virtual machine
+- configure
+- cyber security
+- password
+- authentication
+- secure
+- data protection
+- sprint
+- specification
+- team
+- agile
+- ticket
+- patch
+- documentation
+- big data
+- automate
+- analytics
+- input
+- output
+- synchronise
+
+#### CEFR Level B2 (78 deferred words)
+- data structure
+- object-oriented programming
+- class
+- polymorphism
+- API
+- endpoint
+- microservices
+- refactor
+- technical debt
+- unit test
+- integration test
+- continuous integration
+- continuous deployment
+- version control
+- merge
+- pull request
+- code review
+- legacy system
+- deprecated
+- open
+- proprietary software
+- cloud infrastructure
+- virtualisation
+- orchestration
+- load balancing
+- fault tolerance
+- latency
+- throughput
+- uptime
+- downtime
+- disaster recovery
+- on-premises
+- hybrid cloud
+- edge computing
+- DevOps
+- provisioning
+- penetration testing
+- vulnerability assessment
+- zero-day
+- ransomware
+- brute force attack
+- denial-of-service
+- intrusion detection
+- cryptography
+- GDPR
+- data governance
+- threat intelligence
+- patch management
+- deep learning
+- training data
+- dataset
+- supervised
+- unsupervised learning
+- natural language processing
+- computer vision
+- data pipeline
+- data warehouse
+- ETL (extract
+- load)
+- big data
+- predictive analytics
+- visualisation
+- robotics
+- algorithmic decision-making
+- agile methodology
+- scrum
+- sprint planning
+- backlog
+- stakeholder management
+- product roadmap
+- user story
+- technical specification
+- quality assurance
+- regression testing
+- release cycle
+- rollback
+- scope creep
+- cross-functional team
+
+#### CEFR Level C1 (81 deferred words)
+- distributed systems
+- event-driven architecture
+- service-oriented architecture
+- domain-
+- driven design
+- dependency injection
+- design pattern
+- technical debt remediation
+- idempotency
+- concurrency
+- parallelism
+- asynchronous processing
+- race condition
+- deadlock
+- garbage collection
+- memory leak
+- code smell
+- static analysis
+- code coverage
+- chaos engineering
+- observability
+- instrumentation
+- infrastructure as code
+- immutable infrastructure
+- container orchestration
+- service mesh
+- Kubernetes cluster
+- autoscaling
+- blue-green deployment
+- canary release
+- site reliability
+- incident postmortem
+- error budget
+- service level agreement
+- level objective
+- multi-tenancy
+- cost optimisation
+- vendor lock-in
+- threat modelling
+- attack surface
+- defence in depth
+- zero-trust architecture
+- lateral movement
+- advanced persistent threat
+- security posture
+- compliance audit
+- data residency
+- GDPR compliance
+- ISO 27001
+- penetration test report
+- red team
+- blue team
+- incident response
+- plan
+- forensic analysis
+- chain of custody
+- feature engineering
+- overfitting
+- underfitting
+- hyperparameter tuning
+- gradient descent
+- function
+- backpropagation
+- convolutional neural network
+- transformer architecture
+- generative model
+- explainable AI
+- model drift
+- data lineage
+- data governance
+- ethical AI
+- synthetic data
+- technical roadmap
+- engineering velocity
+- cross-functional alignment
+- technical mentorship
+- architecture review board
+- build-vs-buy decision
+- total cost of ownership
+- developer experience
+- API-first strategy
+
+#### CEFR Level C2 (50 deferred words)
+- Turing completeness
+- computational complexity
+- NP-hard problem
+- combinatorial explosion
+- formal verification
+- type theory
+- category theory
+- lambda calculus
+- denotational
+- Byzantine fault tolerance
+- consensus algorithm
+- eventual consistency
+- CAP theorem
+- distributed ledger
+- alignment problem
+- superintelligence
+- emergent capability
+- interpretability
+- black-box model
+- algorithmic transparency
+- AI governance framework
+- responsible AI
+- human-in-the-loop
+- adversarial example
+- model hallucination
+- foundation model
+- generative adversarial network
+- reinforcement learning from human feedback
+- technology stack rationalisation
+- enterprise architecture
+- technical
+- platform economics
+- network effects
+- technological lock-in
+- disruptive market
+- entrant
+- innovation ecosystem
+- deep tech
+- moonshot project
+- technology diffusion curve
+- nation-state actor
+- cyber warfare
+- critical infrastructure resilience
+- supply chain attack
+- security by design
+- privacy by design
+- threat actor attribution
+- cyber deterrence
+- information warfare
+- digital forensics chain of evidence
+
+### Section / Track: `legal-english`
+
+#### CEFR Level A2 (25 deferred words)
+- law
+- rule
+- right
+- police
+- police officer
+- police station
+- lawyer
+- thief
+- fine (n —
+- penalty)
+- pay a fine
+- sign
+- agree
+- licence
+- copy
+- private
+- report (v — "report
+- an accident")
+- problem
+- advice
+- pay
+- solicitor
+- courtroom
+- government office
+- border
+
+#### CEFR Level B1 (31 deferred words)
+- legal system
+- law
+- courtroom
+- lawyer
+- solicitor
+- barrister
+- attorney
+- prosecutor
+- sentence
+- plea
+- hearing
+- party
+- liable
+- sue
+- draft (a
+- contract)
+- sign
+- notarise
+- binding
+- legally binding
+- termination
+- right
+- accident report
+- negligence
+- file a
+- notarised copy
+- estate
+- unfair dismissal
+- leave
+- maternity
+- workplace rights
+
+#### CEFR Level B2 (47 deferred words)
+- litigate
+- cross-examination
+- case law
+- Supreme Court
+- reasonable doubt
+- mitigating circumstances
+- aggravating circumstances
+- overturn
+- indemnify
+- consideration
+- void
+- voidable
+- enforceable
+- unenforceable
+- alternative dispute resolution
+- intellectual property rights
+- patent infringement
+- licensing agreement
+- merger agreement
+- liability clause
+- indemnification
+- regulatory framework
+- statutory requirement
+- shareholder rights
+- liquidation
+- anti-trust law
+- competition law
+- regulatory body
+- non-compliance
+- constitutional law
+- discrimination case
+- judicial
+- precedent-setting case
+- landmark ruling
+- immigration tribunal
+- draft
+- addendum
+- recital
+- whereas clause
+- governing law
+- jurisdiction clause
+- boilerplate
+- plain language
+- legalese
+- counsel
+- retainer
+- billable hours
+
+#### CEFR Level C1 (71 deferred words)
+- interlocutory injunction
+- summary judgment
+- deposition
+- expert
+- witness testimony
+- cross-jurisdictional dispute
+- class action lawsuit
+- tortious
+- negligence per se
+- strict liability
+- vicarious liability
+- res judicata
+- decisis
+- obiter dictum
+- ratio decidendi
+- precedential value
+- en banc hearing
+- writ of habeas
+- corpus
+- injunctive relief
+- declaratory judgment
+- indemnification clause
+- limitation of liability clause
+- force majeure clause
+- material breach
+- anticipatory breach
+- specific performance
+- liquidated damages
+- consequential damages
+- representations and warranties
+- conditions precedent
+- severability clause
+- entire agreement
+- choice of law clause
+- escrow arrangement
+- letter of intent
+- memorandum of understanding
+- heads of terms
+- fiduciary responsibility
+- ultra vires
+- piercing the corporate veil
+- insider trading
+- market manipulation
+- anti-money laundering
+- know your customer
+- data protection impact assessment
+- regulatory sandbox
+- cease and desist order
+- consent decree
+- corporate criminal liability
+- international humanitarian law
+- jus cogens
+- customary international law
+- extraterritorial
+- universal jurisdiction
+- war crimes tribunal
+- crimes against humanity
+- treaty ratification
+- non-refoulement
+- transitional justice
+- plain-language drafting
+- contractual ambiguity
+- interpretive canon
+- contra proferentem
+- boilerplate provision
+- conflict of laws
+- governing jurisdiction
+- litigation privilege
+- attorney-client privilege
+- work product doctrine
+- billable hour structure
+
+#### CEFR Level C2 (54 deferred words)
+- legal positivism
+- natural law theory
+- legal realism
+- critical legal studies
+- originalism
+- purposive interpretation
+- textualism
+- doctrine of precedent
+- ratio decidendi
+- persuasive authority
+- binding authority
+- comity
+- jus cogens
+- lex specialis
+- pacta sunt servanda
+- ultra vires
+- fiduciary breach
+- derivative action
+- oppression remedy
+- shareholder derivative suit
+- schemes of
+- pre-pack administration
+- cross-border insolvency
+- choice-of-forum clause
+- favoured-nation clause
+- anti-assignment clause
+- change of control provision
+- drag-along
+- along rights
+- earn-out provision
+- separation of powers doctrine
+- judicial activism
+- judicial restraint
+- constitutional supremacy
+- entrenched rights
+- derogation
+- margin of appreciation
+- proportionality test
+- rational basis review
+- strict scrutiny
+- void for vagueness doctrine
+- silk
+- King's Counsel
+- pupillage
+- articled clerk
+- oral advocacy
+- closing
+- persuasive brief
+- amicus curiae brief
+- moot court
+- landmark precedent
+- dissenting
+- concurring opinion
+- plurality opinion
+
+### Section / Track: `academic-english`
+
+#### CEFR Level A2 (48 deferred words)
+- university
+- college
+- subject
+- degree
+- master's degree
+- PhD
+- doctorate
+- student
+- library
+- lecture hall
+- hall of residence
+- student card
+- study
+- learn
+- read
+- write
+- listen
+- take notes
+- group work
+- question
+- answer
+- ask
+- remember
+- forget
+- practise
+- exam
+- test
+- retake
+- late
+- book
+- notebook
+- pen
+- laptop
+- computer
+- library card
+- internet
+- video lecture
+- copy
+- second
+- then
+- because
+- so
+- but
+- also
+- too
+- in my
+- I agree
+- I disagree
+
+#### CEFR Level B1 (41 deferred words)
+- paragraph
+- body
+- draft
+- structure
+- cite
+- citation
+- reference list
+- bibliography
+- footnote
+- academic writing
+- formal language
+- research question
+- literature review
+- data collection
+- case study
+- participant
+- further research
+- academic journal
+- enrolment
+- enrol
+- entry
+- prerequisite
+- year
+- exchange programme
+- funding
+- advisor
+- slide
+- visual aid
+- support an argument
+- Q&A session
+- undergraduate
+- master's degree
+- doctorate
+- PhD
+- thesis defence
+- viva
+- graduation ceremony
+- academic transcript
+- honours
+- resit
+- plagiarism check
+
+#### CEFR Level B2 (70 deferred words)
+- thesis statement
+- argumentative essay
+- evidence-based
+- critical analysis
+- critical evaluation
+- academic register
+- hedging language
+- tentative claim
+- overgeneralisation
+- logical fallacy
+- cite
+- in-text citation
+- reference list
+- plagiarism detection
+- paraphrasing technique
+- research design
+- research paradigm
+- secondary source
+- triangulation
+- generalisability
+- sampling method
+- random
+- sampling
+- purposive sampling
+- ethical considerations
+- ethics approval
+- literature gap
+- research gap
+- conceptual framework
+- thesis defence
+- viva voce
+- supervisory panel
+- external examiner
+- misconduct
+- extenuating circumstances
+- mitigating circumstances
+- resit
+- deferral
+- academic probation
+- honours classification
+- postgraduate research
+- doctoral candidate
+- PhD candidate
+- academia
+- academic career
+- tenure track
+- fellowship
+- postdoctoral researcher
+- research assistant
+- teaching assistant
+- interdisciplinary studies
+- cross-disciplinary
+- senate
+- academic freedom
+- publish or perish
+- impact factor
+- citation index
+- h-index
+- oral defence
+- poster presentation
+- conference paper
+- keynote address
+- panel discussion
+- Q&A session
+- peer feedback
+- constructive critique
+- respond to questions
+- defend a position
+- substantiate a claim
+- anticipate counterarguments
+
+#### CEFR Level C1 (78 deferred words)
+- thesis-driven argument
+- dialectical reasoning
+- counter-hypothesis
+- discursive strategy
+- rhetorical positioning
+- meta-commentary
+- signposting language
+- cohesive device
+- register shift
+- authorial stance
+- booster language
+- evidentiality
+- intertextuality
+- situating one's argument
+- theoretical positioning
+- research paradigm justification
+- ontological stance
+- epistemological stance
+- triangulated evidence
+- reflexivity
+- positionality
+- saturation point
+- purposive sampling strategy
+- stratified sampling
+- longitudinal design
+- quasi-experimental
+- design
+- counterfactual reasoning
+- causal inference
+- confound
+- extraneous variable
+- operationalisation
+- doctoral thesis
+- candidacy examination
+- comprehensive exam
+- dissertation committee
+- external
+- examiner report
+- viva voce examination
+- minor
+- major corrections
+- postdoctoral fellowship
+- early career researcher
+- research trajectory
+- academic pipeline
+- publish-or-perish culture
+- citation metrics
+- h-index
+- journal impact factor
+- predatory journal
+- academic gatekeeping
+- manuscript revision
+- reviewer comments
+- desk rejection
+- revise and resubmit
+- blind peer review
+- double-blind review
+- editorial board
+- special issue
+- monograph
+- edited volume
+- book chapter
+- conference proceedings
+- grey literature
+- preprint server
+- open science
+- research reproducibility
+- higher education policy
+- academic freedom debate
+- institutional autonomy
+- research funding
+- impact case study
+- knowledge exchange
+- public engagement strategy
+- widening
+- participation
+- academic governance
+- quality assurance framework
+
+#### CEFR Level C2 (47 deferred words)
+- epistemic warrant
+- discursive formation
+- genealogical method
+- hermeneutic circle
+- close reading
+- textual criticism
+- historiography
+- metahistorical
+- intertextual analysis
+- semiotic analysis
+- structuralist reading
+- post-structuralist critique
+- auto-ethnography
+- reflexive methodology
+- original contribution to knowledge
+- novel theoretical contribution
+- scholarly apparatus
+- critical apparatus
+- paratext
+- palimpsest
+- canon formation
+- disciplinary gatekeeping
+- epistemic community
+- invisible college
+- scholarly network
+- citation cartel
+- predatory publishing practices
+- chaired professorship
+- distinguished visiting scholar
+- festschrift
+- lineage
+- doctoral genealogy
+- research excellence framework
+- league table methodology
+- academic capitalism
+- corporatisation of higher education
+- massification of
+- credential inflation
+- epistemic modesty
+- scholarly caveat
+- methodological transparency
+- reflexive acknowledgment of
+- situating oneself within the literature
+- theoretical eclecticism
+- interpretive
+- scholarly dialogue
+- contested terrain
