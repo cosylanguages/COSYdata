@@ -16,7 +16,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^en:relocation:[a-z0-9-]+:[a-z0-9-]+$",
+      "pattern": "^en:[a-z0-9-]+:[a-z0-9-]+:[a-z0-9-]+$",
       "description": "Identifier matching en:relocation:<situation>:<slug>"
     },
     "phrase": {
