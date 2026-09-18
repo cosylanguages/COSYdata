@@ -26,21 +26,19 @@ function getJsonFiles(dir) {
   return results;
 }
 
-function main() {
-  const vocabDir = path.join(__dirname, '..', 'vocabulary');
+function buildIndexForCategory(categoryDirName) {
+  const categoryDir = path.join(__dirname, '..', categoryDirName);
 
-  if (!fs.existsSync(vocabDir)) {
-    console.log('No vocabulary directory found.');
+  if (!fs.existsSync(categoryDir)) {
     return;
   }
 
   const langDirs = fs
-    .readdirSync(vocabDir)
-    .map((item) => path.join(vocabDir, item))
+    .readdirSync(categoryDir)
+    .map((item) => path.join(categoryDir, item))
     .filter((item) => fs.statSync(item).isDirectory());
 
   for (const langDir of langDirs) {
-    const lang = path.basename(langDir);
     const indexMap = {};
 
     const files = getJsonFiles(langDir);
@@ -77,6 +75,10 @@ function main() {
       }
     }
 
+    if (Object.keys(indexMap).length === 0) {
+      continue;
+    }
+
     // Sort keys alphabetically for deterministic output
     const sortedMap = {};
     Object.keys(indexMap)
@@ -88,6 +90,13 @@ function main() {
     const indexPath = path.join(langDir, 'index.json');
     fs.writeFileSync(indexPath, JSON.stringify(sortedMap, null, 2) + '\n', 'utf8');
     console.log(`Updated ${path.relative(path.join(__dirname, '..'), indexPath)} with ${Object.keys(sortedMap).length} entry/entries.`);
+  }
+}
+
+function main() {
+  const categories = ['vocabulary', 'functional-phrases', 'curriculum'];
+  for (const cat of categories) {
+    buildIndexForCategory(cat);
   }
 }
 
