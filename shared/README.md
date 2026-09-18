@@ -74,3 +74,45 @@ Finds all elements with a `data-vocab` attribute under `root`, resolves each ref
 
 - **Caching**: Theme files and `index.json` lookups are automatically cached in browser `localStorage` under keys prefixed with `cosydata:` (e.g. `cosydata:en:animals`) with a 24-hour default TTL. Falls back to in-memory caching if `localStorage` is disabled.
 - **Error Handling**: Network failures, 404s, or malformed JSON log a console warning (`[COSYdata]`) and leave element text untouched without throwing unhandled exceptions.
+
+---
+
+## Click-to-define & Personal Dictionary (`shared/cosy-word-popup.js`)
+
+`shared/cosy-word-popup.js` is a lightweight, dependency-free ES module for auto-detecting vocabulary words in web pages, showing floating definition cards with speech output, and maintaining a personal saved-word dictionary in `localStorage`.
+
+### What `flat-index.json` is for
+
+Each language folder contains `flat-index.json`, a pre-computed map from lowercased surface forms (`word`, `plural_form`, `comparative`, `superlative`) to an array of matching word `{ id, field }` entries. Client applications load `flat-index.json` to instantly match text node tokens without downloading full theme files upfront.
+
+### Module API
+
+- **`createCosyDictionary(namespace)`**: Returns a `localStorage`-backed personal dictionary instance (`list()`, `add(entry)`, `remove(id)`, `has(id)`, `exportJson()`, `importJson()`, `onChange(cb)`).
+- **`autoDetect(root, { lang, matchWord })`**: Scans text nodes under `root` and wraps matched vocabulary words in `<button class="cosy-word">` elements, skipping anything already inside `[data-vocab]`, `[data-cosy-skip]`, `<script>`, `<style>`, `<code>`, or `<pre>`.
+- **`attachPopupHandler(root, { resolveEntry, dictionary, onSuggestUrl })`**: Attaches a delegated click handler that opens a floating popup card with word details, Web Speech audio synthesis, and a "Save word" toggle.
+- **`hydrate(root, opts)`**: Convenience wrapper combining `autoDetect` and `attachPopupHandler`.
+
+### Minimal Wiring Example
+
+```html
+<script type="module">
+  import { resolveVocab } from 'https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js';
+  import { hydrate, createCosyDictionary } from 'https://cosylanguages.github.io/COSYdata/shared/cosy-word-popup.js';
+
+  // 1. Fetch flat index for language
+  const res = await fetch('https://cosylanguages.github.io/COSYdata/vocabulary/en/flat-index.json');
+  const flatIndex = await res.json();
+
+  // 2. Define matchWord backed by flatIndex
+  const matchWord = (word) => flatIndex[word.toLowerCase()];
+
+  // 3. Hydrate container element with auto-detection & popup
+  const dictionary = createCosyDictionary('my-app');
+  hydrate(document.body, {
+    lang: 'en',
+    matchWord,
+    resolveEntry: resolveVocab,
+    dictionary,
+  });
+</script>
+```

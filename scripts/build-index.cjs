@@ -19,7 +19,7 @@ function getJsonFiles(dir) {
     const stat = fs.statSync(fullPath);
     if (stat && stat.isDirectory()) {
       results = results.concat(getJsonFiles(fullPath));
-    } else if (item.endsWith('.json') && item !== 'index.json') {
+    } else if (item.endsWith('.json') && item !== 'index.json' && item !== 'flat-index.json') {
       results.push(fullPath);
     }
   }
