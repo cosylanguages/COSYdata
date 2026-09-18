@@ -13,7 +13,7 @@ def register(add_entry):
     # 8. DAILY VERBS (daily_verbs.json)
     # -------------------------------------------------------------
     daily_verbs = [
-        {"id": "ru:delat:verb", "word": "делать", "level": "A1", "form": "verb", "theme": "verbs", "sub_theme": "daily_verbs", "transcription": "[ˈdʲelətʲ]", "emoji": "🛠️", "no_antonym": True, "definitions": ["Выполнять работу, совершать какое-либо действие."], "examples": ["Что ты делаешь сейчас дома вечер?"]},
+        {"id": "ru:delat:verb", "word": "делать", "level": "A1", "form": "verb", "theme": "verbs", "sub_theme": "daily_verbs", "transcription": "[ˈdʲelətʲ]", "emoji": "🛠️", "no_antonym": True, "definitions": ["Выполнять работу, совершать какое-либо действие."], "examples": ["Что ты делаешь сейчас дома вечером?"]},
         {"id": "ru:sdelat:verb", "word": "сделать", "level": "A1", "form": "verb", "theme": "verbs", "sub_theme": "daily_verbs", "transcription": "[ˈzdʲelətʲ]", "emoji": "✅", "no_antonym": True, "definitions": ["Закончить выполнение работы, завершить действие."], "examples": ["Студент должен сделать домашнее задание сегодня."]},
         {"id": "ru:idti:verb", "word": "идти", "level": "A1", "form": "verb", "theme": "verbs", "sub_theme": "daily_verbs", "transcription": "[ɪtˈtʲi]", "emoji": "🚶", "no_antonym": True, "definitions": ["Двигаться пешком в определённом направлении."], "examples": ["Мы идём в школу каждый день."]},
         {"id": "ru:poiti:verb", "word": "пойти", "level": "A1", "form": "verb", "theme": "verbs", "sub_theme": "daily_verbs", "transcription": "[pɐjˈtʲi]", "emoji": "🚶‍♂️", "no_antonym": True, "definitions": ["Начать движение пешком в направлении."], "examples": ["Завтра мы хотим пойти в кинотеатр."]},
