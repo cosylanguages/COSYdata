@@ -11,7 +11,7 @@
     "examples": [
       "Statistical reports indicated a sharp decline in birth rates across several European nations last year."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "declines",
@@ -43,7 +43,7 @@
     "examples": [
       "Researchers attempted to extrapolate future population growth based on data collected over the past decade."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -75,7 +75,7 @@
     "examples": [
       "Clinical trials demonstrated a statistically significant reduction in symptoms among patients receiving treatment."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -108,7 +108,7 @@
     "examples": [
       "Qualitative research methods, such as in-depth interviews, were used to explore patient medical experiences."
     ],
-    "domain": "general, spoken",
+    "domain": "professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -126,7 +126,8 @@
     ],
     "antonyms": [
       "quantitative"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:projection:noun",
@@ -140,7 +141,7 @@
     "examples": [
       "Economic projections suggested that inflation would stabilize within the next two quarters."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "projections",
@@ -173,7 +174,7 @@
     "examples": [
       "Data analysts investigated a temperature anomaly that recorded unusual heat spikes across the arctic region."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "anomalys",
@@ -192,7 +193,8 @@
     "antonyms": [
       "norm",
       "regularity"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:quantitative:adjective",
@@ -206,7 +208,7 @@
     "examples": [
       "Quantitative analysis required surveying thousands of respondents to produce reliable statistical data charts."
     ],
-    "domain": "general, spoken",
+    "domain": "professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -220,7 +222,8 @@
     ],
     "antonyms": [
       "qualitative"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:volatility:noun",
@@ -266,7 +269,7 @@
     "examples": [
       "The company reported steady growth in subscription revenue over four consecutive financial quarters."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "steadys",
@@ -296,7 +299,7 @@
     "examples": [
       "Many digital communication platforms experienced exponential user growth during global lockdown restrictions."
     ],
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "transcription": "/exponential/",
@@ -323,7 +326,7 @@
     "examples": [
       "Administrative changes resulted in only a marginal reduction in overall corporate operational expenses."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -413,7 +416,7 @@
     "examples": [
       "A representative sample of voters was interviewed to predict election outcomes accurately."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "samples",
@@ -425,7 +428,12 @@
       "subset",
       "representative group"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists",
+    "tags": [
+      "track:teachers-scientists",
+      "track:academic-english"
+    ]
   },
   {
     "id": "en:margin:noun",
@@ -439,7 +447,7 @@
     "examples": [
       "The poll results included a three percent margin of error, making the race exceptionally close."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "margins",
@@ -464,7 +472,7 @@
     "examples": [
       "Accounting for potential measurement error is essential when calculating scientific research survey findings."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "errors",
@@ -475,7 +483,8 @@
       "deviation margin",
       "standard error"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:skewed:noun",
@@ -570,7 +579,7 @@
     "examples": [
       "The company set a new environmental benchmark by reducing corporate carbon emissions by fifty percent."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "benchmarks",
@@ -582,7 +591,8 @@
       "yardstick",
       "criterion"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:deviate:verb",
@@ -602,8 +612,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8di\u02d0.vi.e\u026at/",
-    "emoji": "\ud83d\udcca",
+    "transcription": "/ˈdiː.vi.eɪt/",
+    "emoji": "📊",
     "synonyms": [
       "diverge",
       "stray"
@@ -630,8 +640,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8nju\u02d0.m\u0259.r\u0259s/",
-    "emoji": "\ud83d\udd22",
+    "transcription": "/ˈnjuː.mə.rəs/",
+    "emoji": "🔢",
     "synonyms": [
       "many",
       "abundant"
@@ -658,8 +668,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02cc\u0259\u028a.v\u0259r\u02c8es.t\u026a.me\u026at/",
-    "emoji": "\ud83d\udcc8",
+    "transcription": "/ˌəʊ.vərˈes.tɪ.meɪt/",
+    "emoji": "📈",
     "synonyms": [
       "overrate",
       "overvalue"

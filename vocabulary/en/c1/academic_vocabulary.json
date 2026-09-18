@@ -11,7 +11,7 @@
     "examples": [
       "The editorial board conducted a rigorous peer review of the submitted manuscript before granting final publication approval."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "academic",
     "updated": "2025-01-15",
     "plural_form": "reviews",
@@ -41,7 +41,7 @@
     "examples": [
       "The introductory chapter seeks to delineate clearly the theoretical boundaries and methodology of the proposed research project."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "academic",
     "updated": "2025-01-15",
     "levels": [
@@ -73,7 +73,7 @@
     "examples": [
       "Scholars frequently draw a fundamental distinction between short-term tactical objectives and long-term strategic planning in policy analysis."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "professional",
     "theme": "academic",
     "updated": "2025-01-15",
     "plural_form": "distinctions",
@@ -93,7 +93,8 @@
       "resemblance",
       "equivalence"
     ],
-    "article": "a"
+    "article": "a",
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:methodological:adjective",
@@ -137,7 +138,7 @@
     "examples": [
       "The article explores the epistemological assumptions that underpin qualitative research methodologies in contemporary sociology and political science."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "academic",
     "updated": "2025-01-15",
     "transcription": "/ɪˌpɪs.tɪ.məˈlɒdʒ.ɪ.kəl/",
@@ -163,7 +164,7 @@
     "examples": [
       "Philosophers engaged in heated debates regarding the ontological status of abstract mathematical entities across different theoretical frameworks."
     ],
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "academic",
     "updated": "2025-01-15",
     "levels": [
@@ -440,7 +441,7 @@
     "examples": [
       "There was a tacit agreement among board members that executive compensation would be reviewed following the upcoming annual audit."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "academic",
     "updated": "2025-01-15",
     "transcription": "/ˈtæs.ɪt/",
@@ -468,7 +469,7 @@
     "examples": [
       "Although anecdotal reports suggested the treatment was effective, clinical trials revealed no statistically significant benefit over standard placebos."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -504,7 +505,7 @@
     "examples": [
       "The comprehensive longitudinal study tracked cognitive development in children over twenty years to assess long-term educational intervention outcomes."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -523,7 +524,8 @@
     "transcription_variants": {
       "us": "/ˌlɑːn.dʒəˈtuː.də.nəl ˈstʌd.i/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:cross-sectional-study:noun",
@@ -570,7 +572,7 @@
     "examples": [
       "Increasing the sample size allowed the research team to detect subtle statistical trends that were previously overlooked in trial."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -589,7 +591,8 @@
     "transcription_variants": {
       "us": "/ˈsæm.pəl saɪz/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:statistically-significant:noun",
@@ -603,7 +606,7 @@
     "examples": [
       "The experimental data demonstrated a statistically significant reduction in symptom severity compared to baseline measures in control groups."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -623,7 +626,8 @@
     ],
     "transcription_variants": {
       "us": "/stəˈtɪs.tɪ.kli sɪɡˈnɪf.ə.kənt/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:margin-of-error:noun",
@@ -703,11 +707,13 @@
     "examples": [
       "The author constructed a robust theoretical framework combining institutional economics and social contract theory to analyze market regulatory mechanisms."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "academic",
     "tags": [
       "spoken",
-      "advanced"
+      "advanced",
+      "track:teachers-scientists",
+      "track:academic-english"
     ],
     "updated": "2025-01-15",
     "plural_form": "theoretical frameworks",
@@ -722,7 +728,8 @@
     "transcription_variants": {
       "us": "/ˌθiː.əˈret̬.ɪ.kəl ˈfreɪm.wɝːk/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:abstract-reasoning:noun",
@@ -766,7 +773,7 @@
     "examples": [
       "Critics argued that attributing economic behavior solely to individual self-interest represents an excessively reductionist view of human decision-making."
     ],
-    "domain": "spoken, relocation",
+    "domain": "general, professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -834,7 +841,7 @@
     "examples": [
       "Addressing global climate change requires a multifaceted approach encompassing technological innovation, international policy reform, and sustainable economic initiatives."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -870,7 +877,7 @@
     "examples": [
       "Poverty is increasingly recognized as a multidimensional issue involving healthcare access and educational opportunity rather than household income."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -1033,7 +1040,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "professional",
     "theme": "academic",
     "transcription": "/kənˈtrəʊl ɡruːp/",
     "definitions": [
@@ -1051,7 +1058,8 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "control groups",
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:corollary:noun",
@@ -1117,7 +1125,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "academic",
     "transcription": "/ˌfɔːl.sɪ.faɪ.əˈbɪl.ə.ti/",
     "definitions": [
@@ -1135,7 +1143,8 @@
     "antonyms": [
       "unfalsifiability"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:heuristic:adjective",
@@ -1143,7 +1152,7 @@
     "language": "en",
     "form": "adjective",
     "level": "C1",
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "academic",
     "transcription": "/hjʊəˈrɪs.tɪk/",
     "definitions": [
@@ -1271,7 +1280,7 @@
     "language": "en",
     "form": "adverb",
     "level": "C1",
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "academic",
     "transcription": "/vɜːˈbeɪ.tɪm/",
     "definitions": [
@@ -1328,7 +1337,7 @@
     "word": "viability",
     "form": "noun",
     "level": "C1",
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "academic_vocabulary",
     "emoji": "🌱",
     "countability": "uncountable",

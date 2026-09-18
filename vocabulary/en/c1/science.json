@@ -11,7 +11,7 @@
     "examples": [
       "Conducting rigorous empirical research is essential for advancing scientific knowledge and developing effective medical treatments globally."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -69,7 +69,7 @@
     "examples": [
       "Rapid advances in gene editing techniques raised profound bioethics questions regarding designer human embryos and consent."
     ],
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
@@ -124,7 +124,7 @@
     "examples": [
       "Mapping the complete human genome revolutionized medical genetics, paving the way for personalized gene therapy treatments."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "genomes",
@@ -139,7 +139,8 @@
     "transcription_variants": {
       "us": "/ˈdʒiː.noʊm/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:neuroscience:noun",
@@ -207,7 +208,7 @@
     "examples": [
       "Ensuring strict experimental replicability is a cornerstone of the scientific method, validating original research findings."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/ˌrep.lɪ.kəˈbɪl.ə.ti/",
@@ -223,7 +224,12 @@
     ],
     "transcription_variants": {
       "us": "/ˌrep.lɪ.kəˈbɪl.ə.t̬i/"
-    }
+    },
+    "sub_theme": "teachers-scientists",
+    "tags": [
+      "track:teachers-scientists",
+      "track:academic-english"
+    ]
   },
   {
     "id": "en:singularity:noun",
@@ -269,7 +275,7 @@
     "examples": [
       "Theoretical physicists published a speculative paper exploring whether parallel universes could exist beyond observable cosmic horizons."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "levels": [
@@ -303,7 +309,7 @@
     "examples": [
       "The research article presented a brilliant synthesis of quantum mechanics and general relativity to explain black holes."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "syntheses",
@@ -323,7 +329,8 @@
       "analysis",
       "decomposition"
     ],
-    "article": "a"
+    "article": "a",
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:synthesize:verb",
@@ -365,7 +372,7 @@
     "examples": [
       "Theoretical physics attempts to uncover fundamental mathematical laws governing forces from subatomic particles to galaxies."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "science",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
@@ -376,7 +383,8 @@
       "natural science",
       "physical science"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:translational:noun",
@@ -414,7 +422,7 @@
     "examples": [
       "Einstein's theory of relativity caused a monumental paradigm shift in physics, replacing classical Newtonian concepts of time."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -430,7 +438,8 @@
       "fundamental change"
     ],
     "no_antonym": true,
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:disruptive-technology:noun",
@@ -444,7 +453,7 @@
     "examples": [
       "Lithium-ion battery technology served as a disruptive technology that accelerated the global automotive transition toward electric vehicles."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -581,7 +590,7 @@
     "examples": [
       "Uncontrolled artificial general intelligence and runaway climate change are increasingly categorized as major existential risks today."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -611,7 +620,7 @@
     "examples": [
       "Enforcing algorithmic accountability ensures that automated hiring and credit evaluation systems do not discriminate against minorities."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -630,7 +639,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌæl.ɡəˈrɪð.mɪk əˌkaʊn.t̬əˈbɪl.ə.t̬i/"
-    }
+    },
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:data-sovereignty:noun",
@@ -644,7 +654,7 @@
     "examples": [
       "Enacting data sovereignty legislation requires cloud providers to store citizens' personal financial information on domestic servers located within national borders."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -707,7 +717,7 @@
     "examples": [
       "Scholars criticizing technological determinism argue that human policy choices shape technology far more than technology shapes society."
     ],
-    "domain": "spoken, relocation",
+    "domain": "general, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -923,7 +933,7 @@
     "examples": [
       "Launching a minimum viable product allowed the tech startup to test user interest before investing capital."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -942,7 +952,8 @@
     "transcription_variants": {
       "us": "/ˈmɪn.ə.məm ˈvaɪ.ə.bəl ˈprɑː.dʌkt/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:iterative-process:noun",
@@ -1044,7 +1055,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "professional",
     "theme": "science",
     "transcription": "/ˌkɒr.əˈleɪ.ʃən ˌkəʊ.ɪˈfɪʃ.ənt/",
     "definitions": [
@@ -1062,7 +1073,8 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "correlation coefficients",
-    "article": "a"
+    "article": "a",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:crispr:noun",
@@ -1094,7 +1106,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "professional",
     "theme": "science",
     "transcription": "/haɪˈpɒθ.ə.sɪs ˌtest.ɪŋ/",
     "definitions": [
@@ -1110,7 +1122,8 @@
     "updated": "2025-01-15",
     "emoji": "🧪",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:neural-network:noun",
@@ -1118,7 +1131,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "professional",
     "theme": "science",
     "transcription": "/ˈnjʊə.rəl ˌnet.wɜːk/",
     "definitions": [
@@ -1136,7 +1149,8 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "neural networks",
-    "article": "a"
+    "article": "a",
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:placebo-effect:noun",

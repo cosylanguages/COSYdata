@@ -61,7 +61,7 @@
     "examples": [
       "We heard good news today."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "tags": [
@@ -91,7 +91,7 @@
     "examples": [
       "Painting eggs is an old tradition."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "traditions",
@@ -146,7 +146,7 @@
     "examples": [
       "Turn on the room light."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "lights",
@@ -161,7 +161,8 @@
     "antonyms": [
       "dark"
     ],
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:dark:noun",
@@ -203,7 +204,7 @@
     "examples": [
       "A group of students visited us."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "groups",
@@ -217,7 +218,8 @@
     "transcription": "/ɡruːp/",
     "no_antonym": true,
     "emoji": "👥",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:whole:noun",
@@ -343,7 +345,7 @@
     "examples": [
       "We made a plan for weekend."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "plans",
@@ -367,7 +369,7 @@
     "examples": [
       "We solved the math problem together."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "problems",
@@ -386,7 +388,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈprɑː.bləm/"
-    }
+    },
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:solution:noun",
@@ -400,7 +403,7 @@
     "examples": [
       "He found a solution to sum."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "solutions",
@@ -458,7 +461,7 @@
     "examples": [
       "Ask for information at desk."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "tags": [
@@ -488,7 +491,7 @@
     "examples": [
       "Teacher gave good advice."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "countability": "uncountable",
@@ -532,7 +535,7 @@
     "examples": [
       "Our team won soccer game."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "teams",
@@ -732,14 +735,15 @@
     "examples": [
       "Look at this colorful image."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "images",
     "transcription": "/ˈɪm.ɪdʒ/",
     "no_antonym": true,
     "emoji": "🖼️",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:drawing:noun",
@@ -930,7 +934,7 @@
     "examples": [
       "I made a spelling mistake."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "mistakes",
@@ -954,7 +958,7 @@
     "examples": [
       "Follow the school safety rule."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "rules",
@@ -982,7 +986,7 @@
     "examples": [
       "Everyone must obey the law."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "laws",
@@ -1063,7 +1067,7 @@
     "examples": [
       "Shaking hands is old custom."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "customs",
@@ -1091,7 +1095,7 @@
     "examples": [
       "We learned about Italian culture."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "general",
     "updated": "2025-01-15",
     "plural_form": "cultures",
@@ -1450,7 +1454,7 @@
     "examples": [
       "Write your home address here."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "general",
     "tags": [
       "spoken",
@@ -1556,7 +1560,7 @@
     "examples": [
       "What type of food is this?"
     ],
-    "domain": "spoken, relocation",
+    "domain": "professional",
     "theme": "general",
     "tags": [
       "spoken",
@@ -1567,7 +1571,8 @@
     "transcription": "/taɪp/",
     "no_antonym": true,
     "emoji": "🏷️",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:moment:noun",
@@ -1685,7 +1690,7 @@
     "examples": [
       "Please spell your surname clearly for the registrar."
     ],
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "common_nouns",
     "updated": "2025-01-15",
     "transcription": "/ˈsɜː.neɪm/",

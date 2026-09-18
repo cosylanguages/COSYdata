@@ -14,8 +14,8 @@
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/a\u028at/",
-    "emoji": "\ud83d\udeaa",
+    "transcription": "/aʊt/",
+    "emoji": "🚪",
     "countability": "uncountable",
     "antonyms": [
       "in"
@@ -36,13 +36,13 @@
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/\u0259\u028an/",
-    "emoji": "\ud83d\udd11",
+    "transcription": "/əʊn/",
+    "emoji": "🔑",
     "antonyms": [
       "rent"
     ],
     "transcription_variants": {
-      "us": "/o\u028an/"
+      "us": "/oʊn/"
     }
   },
   {
@@ -57,14 +57,14 @@
     "examples": [
       "It is quiet in the library afternoon."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8kwa\u026a.\u0259t/",
-    "emoji": "\ud83e\udd2b",
+    "transcription": "/ˈkwaɪ.ət/",
+    "emoji": "🤫",
     "countability": "uncountable",
     "antonyms": [
       "noisy",
@@ -83,17 +83,18 @@
     "examples": [
       "The house uses natural gas for heating."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
       "A2",
       "C1"
     ],
-    "transcription": "/\u0261\u00e6s/",
-    "emoji": "\u26fd",
+    "transcription": "/ɡæs/",
+    "emoji": "⛽",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:conditioning:noun",
@@ -107,15 +108,15 @@
     "examples": [
       "Turn on the air conditioning during hot summer."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
       "A2",
       "B2"
     ],
-    "transcription": "/k\u0259n\u02c8d\u026a\u0283.\u0259n.\u026a\u014b/",
-    "emoji": "\u2744\ufe0f",
+    "transcription": "/kənˈdɪʃ.ən.ɪŋ/",
+    "emoji": "❄️",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -142,14 +143,14 @@
       "A2",
       "B1"
     ],
-    "transcription": "/\u02c8s\u028cb.\u025c\u02d0b/",
-    "emoji": "\ud83c\udfe1",
+    "transcription": "/ˈsʌb.ɜːb/",
+    "emoji": "🏡",
     "countability": "countable",
     "antonyms": [
       "city center"
     ],
     "transcription_variants": {
-      "us": "/\u02c8s\u028cb.\u025d\u02d0b/"
+      "us": "/ˈsʌb.ɝːb/"
     }
   },
   {
@@ -164,7 +165,7 @@
     "examples": [
       "The property value increased this year."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "properties",
@@ -173,13 +174,14 @@
       "B1",
       "B2"
     ],
-    "transcription": "/\u02c8pr\u0252p.\u0259.ti/",
-    "emoji": "\ud83c\udfe0",
+    "transcription": "/ˈprɒp.ə.ti/",
+    "emoji": "🏠",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8pr\u0251\u02d0.p\u025a.t\u032ci/"
-    }
+      "us": "/ˈprɑː.pɚ.t̬i/"
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:landlord:noun",
@@ -193,7 +195,7 @@
     "examples": [
       "The landlord fixed the leaking roof yesterday."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "landlords",
@@ -204,15 +206,16 @@
       "A2",
       "B1"
     ],
-    "transcription": "/\u02c8l\u00e6nd.l\u0254\u02d0d/",
-    "emoji": "\ud83d\udc68\u200d\ud83d\udcbc",
+    "transcription": "/ˈlænd.lɔːd/",
+    "emoji": "👨‍💼",
     "countability": "countable",
     "antonyms": [
       "tenant"
     ],
     "transcription_variants": {
-      "us": "/\u02c8l\u00e6nd.l\u0254\u02d0rd/"
-    }
+      "us": "/ˈlænd.lɔːrd/"
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:tenant:noun",
@@ -226,7 +229,7 @@
     "examples": [
       "The new tenant moved in on Monday."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "tenants",
@@ -237,12 +240,13 @@
       "A2",
       "B1"
     ],
-    "transcription": "/\u02c8ten.\u0259nt/",
-    "emoji": "\ud83d\udc64",
+    "transcription": "/ˈten.ənt/",
+    "emoji": "👤",
     "countability": "countable",
     "antonyms": [
       "landlord"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:lease:verb",
@@ -256,15 +260,16 @@
     "examples": [
       "They decided to lease an apartment for a year."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/li\u02d0s/",
-    "emoji": "\ud83d\udcc4",
-    "no_antonym": true
+    "transcription": "/liːs/",
+    "emoji": "📄",
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:mortgage:noun",
@@ -278,7 +283,7 @@
     "examples": [
       "They took out a mortgage to buy home."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "mortgages",
@@ -289,12 +294,12 @@
       "A2",
       "B1"
     ],
-    "transcription": "/\u02c8m\u0254\u02d0.\u0261\u026ad\u0292/",
-    "emoji": "\ud83c\udfe6",
+    "transcription": "/ˈmɔː.ɡɪdʒ/",
+    "emoji": "🏦",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8m\u0254\u02d0r.\u0261\u026ad\u0292/"
+      "us": "/ˈmɔːr.ɡɪdʒ/"
     }
   },
   {
@@ -309,7 +314,7 @@
     "examples": [
       "Our neighbourhood is safe and very friendly."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "neighbourhoods",
@@ -317,12 +322,12 @@
       "A2",
       "B1"
     ],
-    "transcription": "/\u02c8ne\u026a.b\u0259.h\u028ad/",
-    "emoji": "\ud83c\udfd8\ufe0f",
+    "transcription": "/ˈneɪ.bə.hʊd/",
+    "emoji": "🏘️",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8ne\u026a.b\u025a.h\u028ad/"
+      "us": "/ˈneɪ.bɚ.hʊd/"
     }
   },
   {
@@ -337,7 +342,7 @@
     "examples": [
       "Read the rental agreement carefully before signing."
     ],
-    "domain": "general, relocation",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "agreements",
@@ -345,8 +350,8 @@
       "A2",
       "B1"
     ],
-    "transcription": "/\u0259\u02c8\u0261ri\u02d0.m\u0259nt/",
-    "emoji": "\ud83e\udd1d",
+    "transcription": "/əˈɡriː.mənt/",
+    "emoji": "🤝",
     "countability": "countable",
     "antonyms": [
       "disagreement"
@@ -364,14 +369,14 @@
     "examples": [
       "The noisy traffic woke me up early."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8n\u0254\u026a.zi/",
-    "emoji": "\ud83d\udd0a",
+    "transcription": "/ˈnɔɪ.zi/",
+    "emoji": "🔊",
     "countability": "uncountable",
     "antonyms": [
       "quiet",
@@ -397,12 +402,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8ne\u026a.b\u0259.h\u028ad/",
-    "emoji": "\ud83c\udfd8\ufe0f",
+    "transcription": "/ˈneɪ.bə.hʊd/",
+    "emoji": "🏘️",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8ne\u026a.b\u025a.h\u028ad/"
+      "us": "/ˈneɪ.bɚ.hʊd/"
     }
   },
   {
@@ -417,14 +422,14 @@
     "examples": [
       "We rent a flat near the university."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/rent/",
-    "emoji": "\ud83d\udcb5",
+    "emoji": "💵",
     "antonyms": [
       "own"
     ]
@@ -447,8 +452,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8ren.\u0259.ve\u026at/",
-    "emoji": "\ud83d\udee0\ufe0f",
+    "transcription": "/ˈren.ə.veɪt/",
+    "emoji": "🛠️",
     "no_antonym": true
   },
   {
@@ -466,11 +471,11 @@
     "domain": "general",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8f\u025c\u02d0.n\u026a\u0283/",
-    "emoji": "\ud83d\udecb\ufe0f",
+    "transcription": "/ˈfɜː.nɪʃ/",
+    "emoji": "🛋️",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8f\u025d\u02d0.n\u026a\u0283/"
+      "us": "/ˈfɝː.nɪʃ/"
     }
   },
   {
@@ -492,8 +497,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8b\u00e6l.k\u0259.ni/",
-    "emoji": "\ud83c\udfd9\ufe0f",
+    "transcription": "/ˈbæl.kə.ni/",
+    "emoji": "🏙️",
     "countability": "countable",
     "no_antonym": true
   },
@@ -516,8 +521,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8ter.\u0259s/",
-    "emoji": "\ud83c\udfe1",
+    "transcription": "/ˈter.əs/",
+    "emoji": "🏡",
     "countability": "countable",
     "no_antonym": true
   },
@@ -540,12 +545,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/j\u0251\u02d0d/",
-    "emoji": "\ud83c\udfe1",
+    "transcription": "/jɑːd/",
+    "emoji": "🏡",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/j\u0251\u02d0rd/"
+      "us": "/jɑːrd/"
     }
   },
   {
@@ -567,8 +572,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8be\u026as.m\u0259nt/",
-    "emoji": "\ud83c\udfda\ufe0f",
+    "transcription": "/ˈbeɪs.mənt/",
+    "emoji": "🏚️",
     "countability": "countable",
     "antonyms": [
       "attic"
@@ -593,14 +598,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8\u00e6t.\u026ak/",
-    "emoji": "\ud83c\udfe0",
+    "transcription": "/ˈæt.ɪk/",
+    "emoji": "🏠",
     "countability": "countable",
     "antonyms": [
       "basement"
     ],
     "transcription_variants": {
-      "us": "/\u02c8\u00e6t\u032c.\u026ak/"
+      "us": "/ˈæt̬.ɪk/"
     }
   },
   {
@@ -618,14 +623,14 @@
     "domain": "general, relocation, travel",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8hi\u02d0.t\u026a\u014b/",
-    "emoji": "\ud83d\udd25",
+    "transcription": "/ˈhiː.tɪŋ/",
+    "emoji": "🔥",
     "countability": "uncountable",
     "antonyms": [
       "cooling"
     ],
     "transcription_variants": {
-      "us": "/\u02c8hi\u02d0.t\u032c\u026a\u014b/"
+      "us": "/ˈhiː.t̬ɪŋ/"
     }
   },
   {
@@ -640,19 +645,20 @@
     "examples": [
       "Open the window to let fresh air in."
     ],
-    "domain": "general, spoken",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/e\u0259r/",
-    "emoji": "\ud83d\udca8",
+    "transcription": "/eər/",
+    "emoji": "💨",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
       "us": "/er/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:furniture:noun",
@@ -674,11 +680,11 @@
     ],
     "updated": "2025-01-15",
     "countability": "uncountable",
-    "transcription": "/\u02c8f\u025c\u02d0.n\u026a.t\u0283\u0259r/",
-    "emoji": "\ud83d\udecb\ufe0f",
+    "transcription": "/ˈfɜː.nɪ.tʃər/",
+    "emoji": "🛋️",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8f\u025d\u02d0.n\u026a.t\u0283\u025a/"
+      "us": "/ˈfɝː.nɪ.tʃɚ/"
     }
   },
   {
@@ -701,8 +707,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "appliances",
-    "transcription": "/\u0259\u02c8pla\u026a.\u0259ns/",
-    "emoji": "\ud83d\udd0c",
+    "transcription": "/əˈplaɪ.əns/",
+    "emoji": "🔌",
     "countability": "countable",
     "no_antonym": true
   },
@@ -726,12 +732,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "washing machines",
-    "transcription": "/\u02c8w\u0252\u0283.\u026a\u014b m\u0259\u02cc\u0283i\u02d0n/",
-    "emoji": "\ud83e\uddfa",
+    "transcription": "/ˈwɒʃ.ɪŋ məˌʃiːn/",
+    "emoji": "🧺",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8w\u0251\u02d0.\u0283\u026a\u014b m\u0259\u02cc\u0283i\u02d0n/"
+      "us": "/ˈwɑː.ʃɪŋ məˌʃiːn/"
     }
   },
   {
@@ -754,12 +760,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "dishwashers",
-    "transcription": "/\u02c8d\u026a\u0283\u02ccw\u0252\u0283.\u0259r/",
-    "emoji": "\ud83c\udf7d\ufe0f",
+    "transcription": "/ˈdɪʃˌwɒʃ.ər/",
+    "emoji": "🍽️",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8d\u026a\u0283\u02ccw\u0251\u02d0.\u0283\u025a/"
+      "us": "/ˈdɪʃˌwɑː.ʃɚ/"
     }
   },
   {
@@ -782,12 +788,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "dryers",
-    "transcription": "/\u02c8dra\u026a.\u0259r/",
-    "emoji": "\ud83e\uddfa",
+    "transcription": "/ˈdraɪ.ər/",
+    "emoji": "🧺",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8dra\u026a.\u025a/"
+      "us": "/ˈdraɪ.ɚ/"
     }
   },
   {
@@ -810,12 +816,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "vacuum cleaners",
-    "transcription": "/\u02c8v\u00e6k.ju\u02d0m \u02cckli\u02d0.n\u0259r/",
-    "emoji": "\ud83e\uddf9",
+    "transcription": "/ˈvæk.juːm ˌkliː.nər/",
+    "emoji": "🧹",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8v\u00e6k.ju\u02d0m \u02cckli\u02d0.n\u025a/"
+      "us": "/ˈvæk.juːm ˌkliː.nɚ/"
     }
   },
   {
@@ -838,12 +844,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "irons",
-    "transcription": "/a\u026a\u0259n/",
-    "emoji": "\ud83e\uddfa",
+    "transcription": "/aɪən/",
+    "emoji": "🧺",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8a\u026a.\u025an/"
+      "us": "/ˈaɪ.ɚn/"
     }
   },
   {
@@ -866,12 +872,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "blenders",
-    "transcription": "/\u02c8blen.d\u0259r/",
-    "emoji": "\ud83e\udd64",
+    "transcription": "/ˈblen.dər/",
+    "emoji": "🥤",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8blen.d\u025a/"
+      "us": "/ˈblen.dɚ/"
     }
   },
   {
@@ -894,8 +900,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "kettles",
-    "transcription": "/\u02c8ket.\u0259l/",
-    "emoji": "\ud83e\uded6",
+    "transcription": "/ˈket.əl/",
+    "emoji": "🫖",
     "countability": "countable",
     "no_antonym": true
   },
@@ -919,12 +925,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "toasters",
-    "transcription": "/\u02c8t\u0259\u028a.st\u0259r/",
-    "emoji": "\ud83c\udf5e",
+    "transcription": "/ˈtəʊ.stər/",
+    "emoji": "🍞",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8to\u028a.st\u025a/"
+      "us": "/ˈtoʊ.stɚ/"
     }
   },
   {
@@ -947,12 +953,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "air conditioners",
-    "transcription": "/\u02c8e\u0259 k\u0259n\u02ccd\u026a\u0283.\u0259n.\u0259r/",
-    "emoji": "\u2744\ufe0f",
+    "transcription": "/ˈeə kənˌdɪʃ.ən.ər/",
+    "emoji": "❄️",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8er k\u0259n\u02ccd\u026a\u0283.\u0259n.\u025a/"
+      "us": "/ˈer kənˌdɪʃ.ən.ɚ/"
     }
   },
   {
@@ -975,12 +981,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "heaters",
-    "transcription": "/\u02c8hi\u02d0.t\u0259r/",
-    "emoji": "\ud83d\udd25",
+    "transcription": "/ˈhiː.tər/",
+    "emoji": "🔥",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8hi\u02d0.t\u032c\u025a/"
+      "us": "/ˈhiː.t̬ɚ/"
     }
   },
   {
@@ -1004,8 +1010,8 @@
     "updated": "2025-01-15",
     "plural_form": "mattresses",
     "countability": "countable",
-    "transcription": "/\u02c8m\u00e6t.r\u0259s/",
-    "emoji": "\ud83d\udecf\ufe0f",
+    "transcription": "/ˈmæt.rəs/",
+    "emoji": "🛏️",
     "no_antonym": true
   },
   {
@@ -1028,8 +1034,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "drawers",
-    "transcription": "/dr\u0254\u02d0r/",
-    "emoji": "\ud83d\uddc4\ufe0f",
+    "transcription": "/drɔːr/",
+    "emoji": "🗄️",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1053,12 +1059,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "cabinets",
-    "transcription": "/\u02c8k\u00e6b.\u026a.n\u0259t/",
-    "emoji": "\ud83d\uddc4\ufe0f",
+    "transcription": "/ˈkæb.ɪ.nət/",
+    "emoji": "🗄️",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8k\u00e6b.\u0259n.\u0259t/"
+      "us": "/ˈkæb.ən.ət/"
     }
   },
   {
@@ -1080,8 +1086,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/mu\u02d0v \u026an/",
-    "emoji": "\ud83d\udce6",
+    "transcription": "/muːv ɪn/",
+    "emoji": "📦",
     "countability": "uncountable",
     "antonyms": [
       "move out"
@@ -1106,8 +1112,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/mu\u02d0v a\u028at/",
-    "emoji": "\ud83d\udce6",
+    "transcription": "/muːv aʊt/",
+    "emoji": "📦",
     "countability": "uncountable",
     "antonyms": [
       "move in"
@@ -1133,12 +1139,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "doorbells",
-    "transcription": "/\u02c8d\u0254\u02d0.bel/",
-    "emoji": "\ud83d\udd14",
+    "transcription": "/ˈdɔː.bel/",
+    "emoji": "🔔",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8d\u0254\u02d0r.bel/"
+      "us": "/ˈdɔːr.bel/"
     }
   },
   {
@@ -1161,12 +1167,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "mailboxes",
-    "transcription": "/\u02c8me\u026al.b\u0252ks/",
-    "emoji": "\ud83d\udceb",
+    "transcription": "/ˈmeɪl.bɒks/",
+    "emoji": "📫",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8me\u026al.b\u0251\u02d0ks/"
+      "us": "/ˈmeɪl.bɑːks/"
     }
   },
   {
@@ -1184,8 +1190,8 @@
     "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/b\u0251\u02d0\u03b8/",
-    "emoji": "\ud83d\udec1",
+    "transcription": "/bɑːθ/",
+    "emoji": "🛁",
     "countability": "countable",
     "plural_form": "baths",
     "no_antonym": true
@@ -1205,8 +1211,8 @@
     "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8l\u0254\u02d0n.dr\u0259.m\u00e6t/",
-    "emoji": "\ud83e\uddfa",
+    "transcription": "/ˈlɔːn.drə.mæt/",
+    "emoji": "🧺",
     "countability": "countable",
     "plural_form": "laundromats",
     "no_antonym": true
@@ -1226,8 +1232,8 @@
     "domain": "general, spoken",
     "theme": "housing",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8v\u00e6k.ju\u02d0m/",
-    "emoji": "\ud83e\uddf9",
+    "transcription": "/ˈvæk.juːm/",
+    "emoji": "🧹",
     "no_antonym": true
   },
   {
@@ -1245,11 +1251,11 @@
     "domain": "general, relocation, travel",
     "theme": "living",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8e\u0259 k\u0259n\u02ccd\u026a\u0283.\u0259n.\u026a\u014b/",
+    "transcription": "/ˈeə kənˌdɪʃ.ən.ɪŋ/",
     "transcription_variants": {
-      "us": "/\u02c8er k\u0259n\u02ccd\u026a\u0283.\u0259n.\u026a\u014b/"
+      "us": "/ˈer kənˌdɪʃ.ən.ɪŋ/"
     },
-    "emoji": "\u2744\ufe0f",
+    "emoji": "❄️",
     "no_antonym": true,
     "countability": "uncountable"
   },
@@ -1268,11 +1274,11 @@
     "domain": "general, relocation, travel",
     "theme": "living",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8el.\u0259.ve\u026a.t\u0259/",
+    "transcription": "/ˈel.ə.veɪ.tə/",
     "transcription_variants": {
-      "us": "/\u02c8el.\u0259.ve\u026a.t\u032c\u025a/"
+      "us": "/ˈel.ə.veɪ.t̬ɚ/"
     },
-    "emoji": "\ud83d\uded7",
+    "emoji": "🛗",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "elevators"
@@ -1292,11 +1298,11 @@
     "domain": "relocation, travel",
     "theme": "living",
     "updated": "2025-01-15",
-    "transcription": "/\u026a\u02c8m\u025c\u02d0.d\u0292\u0259n.si \u02ccek.s\u026at/",
+    "transcription": "/ɪˈmɜː.dʒən.si ˌek.sɪt/",
     "transcription_variants": {
-      "us": "/\u026a\u02c8m\u025d\u02d0.d\u0292\u0259n.si \u02cceg.z\u026at/"
+      "us": "/ɪˈmɝː.dʒən.si ˌeg.zɪt/"
     },
-    "emoji": "\ud83d\udeaa",
+    "emoji": "🚪",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "emergency exits"
@@ -1316,11 +1322,11 @@
     "domain": "relocation",
     "theme": "living",
     "updated": "2025-01-15",
-    "transcription": "/ple\u026as \u0259v b\u025c\u02d0\u03b8/",
+    "transcription": "/pleɪs əv bɜːθ/",
     "transcription_variants": {
-      "us": "/ple\u026as \u0259v b\u025d\u02d0\u03b8/"
+      "us": "/pleɪs əv bɝːθ/"
     },
-    "emoji": "\ud83d\udccd",
+    "emoji": "📍",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "places of birth"
@@ -1340,11 +1346,11 @@
     "domain": "relocation",
     "theme": "living",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8p\u0259\u028ast.k\u0259\u028ad/",
+    "transcription": "/ˈpəʊst.kəʊd/",
     "transcription_variants": {
-      "us": "/\u02c8po\u028ast.ko\u028ad/"
+      "us": "/ˈpoʊst.koʊd/"
     },
-    "emoji": "\ud83d\udcee",
+    "emoji": "📮",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "postcodes"
@@ -1367,11 +1373,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u02c8t\u0283a\u026ald.ke\u0259r/",
+    "transcription": "/ˈtʃaɪld.keər/",
     "transcription_variants": {
-      "us": "/\u02c8t\u0283a\u026ald.ker/"
+      "us": "/ˈtʃaɪld.ker/"
     },
-    "emoji": "\ud83d\udc76",
+    "emoji": "👶",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -1393,11 +1399,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u02c8de\u026a.ke\u0259r/",
+    "transcription": "/ˈdeɪ.keər/",
     "transcription_variants": {
-      "us": "/\u02c8de\u026a.ker/"
+      "us": "/ˈdeɪ.ker/"
     },
-    "emoji": "\ud83c\udfeb",
+    "emoji": "🏫",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -1419,8 +1425,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u026ak\u02c8stend/",
-    "emoji": "\u2194\ufe0f",
+    "transcription": "/ɪkˈstend/",
+    "emoji": "↔️",
     "antonyms": [
       "shorten"
     ]
@@ -1437,18 +1443,19 @@
     "examples": [
       "I requested a short extension on my tax deadline."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "time",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/\u026ak\u02c8sten.\u0283\u0259n/",
-    "emoji": "\ud83d\udcc5",
+    "transcription": "/ɪkˈsten.ʃən/",
+    "emoji": "📅",
     "countability": "countable",
     "article": "an",
     "plural_form": "extensions",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:furnished:adjective",
@@ -1468,11 +1475,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u02c8f\u025c\u02d0.n\u026a\u0283t/",
+    "transcription": "/ˈfɜː.nɪʃt/",
     "transcription_variants": {
-      "us": "/\u02c8f\u025d\u02d0.n\u026a\u0283t/"
+      "us": "/ˈfɝː.nɪʃt/"
     },
-    "emoji": "\ud83d\udecb\ufe0f",
+    "emoji": "🛋️",
     "antonyms": [
       "unfurnished"
     ]
@@ -1495,11 +1502,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/r\u026a\u02c8nju\u02d0/",
+    "transcription": "/rɪˈnjuː/",
     "transcription_variants": {
-      "us": "/r\u026a\u02c8nu\u02d0/"
+      "us": "/rɪˈnuː/"
     },
-    "emoji": "\ud83d\udd04",
+    "emoji": "🔄",
     "antonyms": [
       "cancel"
     ]
@@ -1522,11 +1529,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/r\u026a\u02c8nju\u02d0.\u0259l/",
+    "transcription": "/rɪˈnjuː.əl/",
     "transcription_variants": {
-      "us": "/r\u026a\u02c8nu\u02d0.\u0259l/"
+      "us": "/rɪˈnuː.əl/"
     },
-    "emoji": "\ud83d\udd04",
+    "emoji": "🔄",
     "countability": "countable",
     "article": "a",
     "plural_form": "renewals",
@@ -1550,8 +1557,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/r\u026a\u02c8st\u0254\u02d0r/",
-    "emoji": "\ud83d\udee0\ufe0f",
+    "transcription": "/rɪˈstɔːr/",
+    "emoji": "🛠️",
     "antonyms": [
       "destroy"
     ]
@@ -1568,17 +1575,17 @@
     "examples": [
       "Plants need water and light to survive."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, professional",
     "theme": "life",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/s\u0259\u02c8va\u026av/",
+    "transcription": "/səˈvaɪv/",
     "transcription_variants": {
-      "us": "/s\u025a\u02c8va\u026av/"
+      "us": "/sɚˈvaɪv/"
     },
-    "emoji": "\ud83c\udf31",
+    "emoji": "🌱",
     "antonyms": [
       "perish"
     ]
@@ -1601,11 +1608,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u028cn\u02c8f\u025c\u02d0.n\u026a\u0283t/",
+    "transcription": "/ʌnˈfɜː.nɪʃt/",
     "transcription_variants": {
-      "us": "/\u028cn\u02c8f\u025d\u02d0.n\u026a\u0283t/"
+      "us": "/ʌnˈfɝː.nɪʃt/"
     },
-    "emoji": "\ud83c\udfe0",
+    "emoji": "🏠",
     "antonyms": [
       "furnished"
     ]
@@ -1628,8 +1635,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u026ak\u02c8sp\u00e6nd/",
-    "emoji": "\ud83d\udcc8",
+    "transcription": "/ɪkˈspænd/",
+    "emoji": "📈",
     "antonyms": [
       "shrink",
       "contract"
@@ -1653,8 +1660,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/\u02c8ple\u026a.de\u026at/",
-    "emoji": "\ud83e\uddf8",
+    "transcription": "/ˈpleɪ.deɪt/",
+    "emoji": "🧸",
     "countability": "countable",
     "article": "a",
     "plural_form": "playdates",
@@ -1668,7 +1675,7 @@
     "level": "A2",
     "domain": "general, relocation",
     "theme": "daily_verbs",
-    "transcription": "/ste\u0259r/",
+    "transcription": "/steər/",
     "updated": "2025-01-15",
     "definitions": [
       "to look fixedly and vacantly at someone or something for a long time with wide open eyes"
@@ -1679,7 +1686,7 @@
     "transcription_variants": {
       "us": "/ster/"
     },
-    "emoji": "\ud83d\udc40",
+    "emoji": "👀",
     "antonyms": [
       "glance"
     ]

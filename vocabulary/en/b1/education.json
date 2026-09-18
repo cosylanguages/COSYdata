@@ -11,15 +11,15 @@
     "examples": [
       "Students were asked to interpret the chart during their economics lecture."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
       "B1",
       "B2"
     ],
-    "transcription": "/\u026an\u02c8t\u025c\u02d0.pr\u026at/",
-    "emoji": "\ud83d\udde3\ufe0f",
+    "transcription": "/ɪnˈtɜː.prɪt/",
+    "emoji": "🗣️",
     "synonyms": [
       "explain",
       "understand",
@@ -30,7 +30,7 @@
       "misunderstand"
     ],
     "transcription_variants": {
-      "us": "/\u026an\u02c8t\u025d\u02d0.pr\u026at/"
+      "us": "/ɪnˈtɝː.prɪt/"
     }
   },
   {
@@ -45,14 +45,14 @@
     "examples": [
       "Teachers evaluate student progress through weekly quizzes and formal written assignments."
     ],
-    "domain": "general, travel",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/\u026a\u02c8v\u00e6l.ju.e\u026at/",
-    "emoji": "\ud83d\udcca",
+    "transcription": "/ɪˈvæl.ju.eɪt/",
+    "emoji": "📊",
     "synonyms": [
       "assess",
       "judge",
@@ -72,7 +72,7 @@
     "examples": [
       "The university team conducted extensive research on renewable battery storage systems."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -81,8 +81,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/r\u026a\u02c8s\u025c\u02d0t\u0283/",
-    "emoji": "\ud83d\udd2c",
+    "transcription": "/rɪˈsɜːtʃ/",
+    "emoji": "🔬",
     "synonyms": [
       "investigate",
       "study",
@@ -90,7 +90,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8ri\u02d0.s\u025d\u02d0t\u0283/"
+      "us": "/ˈriː.sɝːtʃ/"
     }
   },
   {
@@ -105,15 +105,15 @@
     "examples": [
       "Scientists must analyse the test results carefully before drawing final conclusions."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
       "B1",
       "B2"
     ],
-    "transcription": "/\u02c8\u00e6n.\u0259l.a\u026az/",
-    "emoji": "\ud83d\udd0d",
+    "transcription": "/ˈæn.əl.aɪz/",
+    "emoji": "🔍",
     "synonyms": [
       "examine",
       "study",
@@ -140,8 +140,8 @@
       "B1",
       "C1"
     ],
-    "transcription": "/\u02c8kr\u026at.\u026a.k\u0259l/",
-    "emoji": "\ud83e\udde0",
+    "transcription": "/ˈkrɪt.ɪ.kəl/",
+    "emoji": "🧠",
     "synonyms": [
       "analytical",
       "evaluative",
@@ -151,7 +151,7 @@
       "uncritical"
     ],
     "transcription_variants": {
-      "us": "/\u02c8kr\u026at\u032c.\u026a.k\u0259l/"
+      "us": "/ˈkrɪt̬.ɪ.kəl/"
     }
   },
   {
@@ -166,7 +166,7 @@
     "examples": [
       "She discussed her research paper with a peer before submitting it."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "peers",
@@ -174,8 +174,8 @@
       "B1",
       "C1"
     ],
-    "transcription": "/p\u026a\u0259/",
-    "emoji": "\ud83d\udc65",
+    "transcription": "/pɪə/",
+    "emoji": "👥",
     "countability": "countable",
     "synonyms": [
       "equal",
@@ -184,8 +184,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/p\u026ar/"
-    }
+      "us": "/pɪr/"
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:graduate:noun",
@@ -199,15 +200,17 @@
     "examples": [
       "The young university graduate applied for several management training programs yesterday."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "graduates",
     "tags": [
-      "spoken"
+      "spoken",
+      "track:teachers-scientists",
+      "track:academic-english"
     ],
-    "transcription": "/\u02c8\u0261r\u00e6d\u0292.u.\u0259t/",
-    "emoji": "\ud83c\udf93",
+    "transcription": "/ˈɡrædʒ.u.ət/",
+    "emoji": "🎓",
     "countability": "countable",
     "synonyms": [
       "alumnus",
@@ -216,7 +219,8 @@
     "antonyms": [
       "undergraduate",
       "dropout"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:curriculum:noun",
@@ -230,21 +234,22 @@
     "examples": [
       "The school updated its science curriculum to include modern environmental studies."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "curricula",
     "tags": [
       "spoken"
     ],
-    "transcription": "/k\u0259\u02c8r\u026ak.j\u0259.l\u0259m/",
-    "emoji": "\ud83d\udcda",
+    "transcription": "/kəˈrɪk.jə.ləm/",
+    "emoji": "📚",
     "countability": "countable",
     "synonyms": [
       "syllabus",
       "course of study"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:syllabus:noun",
@@ -258,7 +263,7 @@
     "examples": [
       "The professor handed out the course syllabus on the first day."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "syllabi",
@@ -266,13 +271,14 @@
       "spoken"
     ],
     "countability": "countable",
-    "transcription": "/\u02c8s\u026al.\u0259.b\u0259s/",
-    "emoji": "\ud83d\udcdc",
+    "transcription": "/ˈsɪl.ə.bəs/",
+    "emoji": "📜",
     "synonyms": [
       "curriculum",
       "course outline"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:academic:adjective",
@@ -286,14 +292,14 @@
     "examples": [
       "The library offers quiet study spaces for students preparing academic work."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02cc\u00e6k.\u0259\u02c8dem.\u026ak/",
-    "emoji": "\ud83c\udf93",
+    "transcription": "/ˌæk.əˈdem.ɪk/",
+    "emoji": "🎓",
     "synonyms": [
       "scholarly",
       "educational"
@@ -315,12 +321,12 @@
     "examples": [
       "All history students attended a weekly seminar on ancient trading routes."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "seminars",
-    "transcription": "/\u02c8sem.\u026a.n\u0251\u02d0/",
-    "emoji": "\ud83d\udc65",
+    "transcription": "/ˈsem.ɪ.nɑː/",
+    "emoji": "👥",
     "countability": "countable",
     "synonyms": [
       "workshop",
@@ -329,7 +335,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8sem.\u0259.n\u0251\u02d0r/"
+      "us": "/ˈsem.ə.nɑːr/"
     }
   },
   {
@@ -344,12 +350,12 @@
     "examples": [
       "She scheduled a individual tutorial to ask her tutor about essay structure."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "tutorials",
-    "transcription": "/tju\u02d0\u02c8t\u0254\u02d0.ri.\u0259l/",
-    "emoji": "\ud83d\udcbb",
+    "transcription": "/tjuːˈtɔː.ri.əl/",
+    "emoji": "💻",
     "countability": "countable",
     "synonyms": [
       "lesson",
@@ -357,8 +363,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tu\u02d0\u02c8t\u0254\u02d0r.i.\u0259l/"
-    }
+      "us": "/tuːˈtɔːr.i.əl/"
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:thesis:noun",
@@ -372,7 +379,7 @@
     "examples": [
       "He spent six months writing his master thesis on urban transport."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "theses",
@@ -380,8 +387,8 @@
       "spoken"
     ],
     "countability": "countable",
-    "transcription": "/\u02c8\u03b8i\u02d0.s\u026as/",
-    "emoji": "\ud83d\udcd6",
+    "transcription": "/ˈθiː.sɪs/",
+    "emoji": "📖",
     "synonyms": [
       "dissertation",
       "paper",
@@ -401,15 +408,15 @@
     "examples": [
       "She bound and submitted her final doctoral dissertation to the faculty."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "dissertations",
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02ccd\u026as.\u0259\u02c8te\u026a.\u0283\u0259n/",
-    "emoji": "\ud83d\udcd6",
+    "transcription": "/ˌdɪs.əˈteɪ.ʃən/",
+    "emoji": "📖",
     "countability": "countable",
     "synonyms": [
       "thesis",
@@ -418,8 +425,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02ccd\u026as.\u025a\u02c8te\u026a.\u0283\u0259n/"
-    }
+      "us": "/ˌdɪs.ɚˈteɪ.ʃən/"
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:plagiarism:noun",
@@ -433,14 +441,16 @@
     "examples": [
       "University regulations strictly forbid plagiarism in all submitted academic work."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
-      "spoken"
+      "spoken",
+      "track:teachers-scientists",
+      "track:academic-english"
     ],
-    "transcription": "/\u02c8ple\u026a.d\u0292\u0259r.\u026a.z\u0259m/",
-    "emoji": "\ud83d\udeab",
+    "transcription": "/ˈpleɪ.dʒər.ɪ.zəm/",
+    "emoji": "🚫",
     "countability": "uncountable",
     "synonyms": [
       "copying",
@@ -450,8 +460,9 @@
       "originality"
     ],
     "transcription_variants": {
-      "us": "/\u02c8ple\u026a.d\u0292\u025a.\u026a.z\u0259m/"
-    }
+      "us": "/ˈpleɪ.dʒɚ.ɪ.zəm/"
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:thinking:noun",
@@ -468,8 +479,8 @@
     "domain": "general",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8\u03b8\u026a\u014b.k\u026a\u014b/",
-    "emoji": "\ud83e\udde0",
+    "transcription": "/ˈθɪŋ.kɪŋ/",
+    "emoji": "🧠",
     "countability": "uncountable",
     "synonyms": [
       "thought",
@@ -499,8 +510,8 @@
       "B1",
       "C1"
     ],
-    "transcription": "/\u02c8l\u026at.\u0259r.\u0259.si/",
-    "emoji": "\ud83d\udcd6",
+    "transcription": "/ˈlɪt.ər.ə.si/",
+    "emoji": "📖",
     "countability": "uncountable",
     "synonyms": [
       "ability to read and write",
@@ -510,7 +521,7 @@
       "illiteracy"
     ],
     "transcription_variants": {
-      "us": "/\u02c8l\u026at\u032c.\u025a.\u0259.si/"
+      "us": "/ˈlɪt̬.ɚ.ə.si/"
     }
   },
   {
@@ -531,8 +542,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8nju\u02d0.m\u0259.r\u0259.si/",
-    "emoji": "\ud83e\uddee",
+    "transcription": "/ˈnjuː.mə.rə.si/",
+    "emoji": "🧮",
     "countability": "uncountable",
     "synonyms": [
       "mathematical skill",
@@ -542,7 +553,7 @@
       "innumeracy"
     ],
     "transcription_variants": {
-      "us": "/\u02c8nu\u02d0.m\u0259.r\u0259.si/"
+      "us": "/ˈnuː.mə.rə.si/"
     }
   },
   {
@@ -560,8 +571,8 @@
     "domain": "general",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8l\u025c\u02d0.n\u026a\u014b/",
-    "emoji": "\ud83d\udcda",
+    "transcription": "/ˈlɜː.nɪŋ/",
+    "emoji": "📚",
     "countability": "uncountable",
     "synonyms": [
       "education",
@@ -569,7 +580,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8l\u025d\u02d0.n\u026a\u014b/"
+      "us": "/ˈlɝː.nɪŋ/"
     }
   },
   {
@@ -584,12 +595,12 @@
     "examples": [
       "She enrolled in a postgraduate diploma course in clinical psychology."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "postgraduates",
-    "transcription": "/\u02ccp\u0259\u028ast\u02c8\u0261r\u00e6d\u0292.u.\u0259t/",
-    "emoji": "\ud83c\udf93",
+    "transcription": "/ˌpəʊstˈɡrædʒ.u.ət/",
+    "emoji": "🎓",
     "countability": "countable",
     "synonyms": [
       "graduate student",
@@ -599,8 +610,9 @@
       "undergraduate"
     ],
     "transcription_variants": {
-      "us": "/\u02ccpo\u028ast\u02c8\u0261r\u00e6d\u0292.u.\u0259t/"
-    }
+      "us": "/ˌpoʊstˈɡrædʒ.u.ət/"
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:assessment:noun",
@@ -614,12 +626,12 @@
     "examples": [
       "Continuous assessment accounts for half of the final grade this semester."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "assessments",
-    "transcription": "/\u0259\u02c8ses.m\u0259nt/",
-    "emoji": "\ud83d\udcdd",
+    "transcription": "/əˈses.mənt/",
+    "emoji": "📝",
     "countability": "countable",
     "synonyms": [
       "evaluation",
@@ -640,15 +652,15 @@
     "examples": [
       "A senior engineer acted as her mentor during her university internship."
     ],
-    "domain": "general, spoken",
+    "domain": "general, professional",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "mentors",
     "tags": [
       "spoken"
     ],
-    "transcription": "/\u02c8men.t\u0254\u02d0/",
-    "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
+    "transcription": "/ˈmen.tɔː/",
+    "emoji": "👨‍🏫",
     "countability": "countable",
     "synonyms": [
       "advisor",
@@ -657,10 +669,10 @@
     ],
     "antonyms": [
       "mentee",
-      "prot\u00e9g\u00e9"
+      "protégé"
     ],
     "transcription_variants": {
-      "us": "/\u02c8men.t\u0254\u02d0r/"
+      "us": "/ˈmen.tɔːr/"
     }
   },
   {
@@ -683,8 +695,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "electives",
-    "transcription": "/\u026a\u02c8lek.t\u026av/",
-    "emoji": "\ud83d\udccb",
+    "transcription": "/ɪˈlek.tɪv/",
+    "emoji": "📋",
     "countability": "countable",
     "synonyms": [
       "optional subject",
@@ -714,8 +726,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8m\u00e6n.d\u0259.t\u0259r.i/",
-    "emoji": "\u2757",
+    "transcription": "/ˈmæn.də.tər.i/",
+    "emoji": "❗",
     "countability": "uncountable",
     "synonyms": [
       "compulsory",
@@ -727,7 +739,7 @@
       "elective"
     ],
     "transcription_variants": {
-      "us": "/\u02c8m\u00e6n.d\u0259.t\u0254\u02d0r.i/"
+      "us": "/ˈmæn.də.tɔːr.i/"
     }
   },
   {
@@ -749,8 +761,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/k\u0259m\u02c8p\u028cl.s\u0259r.i/",
-    "emoji": "\u2757",
+    "transcription": "/kəmˈpʌl.sər.i/",
+    "emoji": "❗",
     "countability": "uncountable",
     "synonyms": [
       "mandatory",
@@ -762,7 +774,7 @@
       "voluntary"
     ],
     "transcription_variants": {
-      "us": "/k\u0259m\u02c8p\u028cl.s\u025a.i/"
+      "us": "/kəmˈpʌl.sɚ.i/"
     }
   },
   {
@@ -784,8 +796,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02cck\u0252m.pr\u026a\u02c8hen.\u0283\u0259n/",
-    "emoji": "\ud83e\udde0",
+    "transcription": "/ˌkɒm.prɪˈhen.ʃən/",
+    "emoji": "🧠",
     "countability": "uncountable",
     "synonyms": [
       "understanding",
@@ -796,7 +808,7 @@
       "misunderstanding"
     ],
     "transcription_variants": {
-      "us": "/\u02cck\u0251\u02d0m.pr\u0259\u02c8hen.\u0283\u0259n/"
+      "us": "/ˌkɑːm.prəˈhen.ʃən/"
     }
   },
   {
@@ -811,15 +823,15 @@
     "examples": [
       "Higher education helps students develop critical thinking rather than simple memorization."
     ],
-    "domain": "spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02cckr\u026at.\u026a.k\u0259l \u02c8\u03b8\u026a\u014b.k\u026a\u014b/",
-    "emoji": "\ud83e\udde0",
+    "transcription": "/ˌkrɪt.ɪ.kəl ˈθɪŋ.kɪŋ/",
+    "emoji": "🧠",
     "countability": "uncountable",
     "synonyms": [
       "analytical thinking",
@@ -827,8 +839,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02cckr\u026at\u032c.\u026a.k\u0259l \u02c8\u03b8\u026a\u014b.k\u026a\u014b/"
-    }
+      "us": "/ˌkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ/"
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:peer-review:noun",
@@ -842,15 +855,17 @@
     "examples": [
       "Scientific articles must undergo strict peer review before getting published officially."
     ],
-    "domain": "spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "spoken",
-      "intermediate"
+      "intermediate",
+      "track:teachers-scientists",
+      "track:academic-english"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8p\u026a\u0259 r\u026a\u02ccvju\u02d0/",
-    "emoji": "\ud83d\udc65",
+    "transcription": "/ˈpɪə rɪˌvjuː/",
+    "emoji": "👥",
     "countability": "uncountable",
     "synonyms": [
       "refereed evaluation",
@@ -858,8 +873,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8p\u026ar r\u026a\u02ccvju\u02d0/"
-    }
+      "us": "/ˈpɪr rɪˌvjuː/"
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:tutor:noun",
@@ -873,7 +889,7 @@
     "examples": [
       "Hiring a private math tutor helped him pass his final exams."
     ],
-    "domain": "spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -881,8 +897,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "tutors",
-    "transcription": "/\u02c8tju\u02d0.t\u0259/",
-    "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
+    "transcription": "/ˈtjuː.tə/",
+    "emoji": "👨‍🏫",
     "countability": "countable",
     "synonyms": [
       "teacher",
@@ -894,8 +910,9 @@
       "tutee"
     ],
     "transcription_variants": {
-      "us": "/\u02c8tu\u02d0.t\u032c\u025a/"
-    }
+      "us": "/ˈtuː.t̬ɚ/"
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:distance-learning:noun",
@@ -909,15 +926,15 @@
     "examples": [
       "Distance learning allows working professionals to earn degrees without moving away."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8d\u026as.t\u0259ns \u02ccl\u025c\u02d0.n\u026a\u014b/",
-    "emoji": "\ud83d\udcbb",
+    "transcription": "/ˈdɪs.təns ˌlɜː.nɪŋ/",
+    "emoji": "💻",
     "countability": "uncountable",
     "synonyms": [
       "online learning",
@@ -927,7 +944,7 @@
       "in-person learning"
     ],
     "transcription_variants": {
-      "us": "/\u02c8d\u026as.t\u0259ns \u02ccl\u025d\u02d0.n\u026a\u014b/"
+      "us": "/ˈdɪs.təns ˌlɝː.nɪŋ/"
     }
   },
   {
@@ -942,7 +959,7 @@
     "examples": [
       "She enrolled in an online course to learn graphic design skills."
     ],
-    "domain": "spoken",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -950,8 +967,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "online courses",
-    "transcription": "/\u02cc\u0252n.la\u026an \u02c8k\u0254\u02d0s/",
-    "emoji": "\ud83d\udcbb",
+    "transcription": "/ˌɒn.laɪn ˈkɔːs/",
+    "emoji": "💻",
     "countability": "countable",
     "synonyms": [
       "e-learning course",
@@ -961,8 +978,9 @@
       "in-person course"
     ],
     "transcription_variants": {
-      "us": "/\u02cc\u0251\u02d0n.la\u026an \u02c8k\u0254\u02d0rs/"
-    }
+      "us": "/ˌɑːn.laɪn ˈkɔːrs/"
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:self-study:noun",
@@ -983,8 +1001,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02ccself\u02c8st\u028cd.i/",
-    "emoji": "\ud83d\udcd6",
+    "transcription": "/ˌselfˈstʌd.i/",
+    "emoji": "📖",
     "countability": "uncountable",
     "synonyms": [
       "independent study",
@@ -1004,15 +1022,15 @@
     "examples": [
       "The university promotes lifelong learning through evening community adult courses."
     ],
-    "domain": "spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8la\u026af.l\u0252\u014b \u02c8l\u025c\u02d0.n\u026a\u014b/",
-    "emoji": "\ud83c\udf31",
+    "transcription": "/ˈlaɪf.lɒŋ ˈlɜː.nɪŋ/",
+    "emoji": "🌱",
     "countability": "uncountable",
     "synonyms": [
       "continuous learning",
@@ -1020,8 +1038,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8la\u026af.l\u0251\u02d0\u014b \u02c8l\u025d\u02d0.n\u026a\u014b/"
-    }
+      "us": "/ˈlaɪf.lɑːŋ ˈlɝː.nɪŋ/"
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:skill-set:noun",
@@ -1035,7 +1054,7 @@
     "examples": [
       "Learning software programming expanded her professional skill set significantly."
     ],
-    "domain": "spoken",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1043,8 +1062,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "skill sets",
-    "transcription": "/\u02c8sk\u026al set/",
-    "emoji": "\ud83d\udee0\ufe0f",
+    "transcription": "/ˈskɪl set/",
+    "emoji": "🛠️",
     "countability": "countable",
     "synonyms": [
       "abilities",
@@ -1073,8 +1092,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "credentials",
-    "transcription": "/kr\u026a\u02c8den.\u0283\u0259l/",
-    "emoji": "\ud83d\udcdc",
+    "transcription": "/krɪˈden.ʃəl/",
+    "emoji": "📜",
     "countability": "countable",
     "synonyms": [
       "qualification",
@@ -1102,8 +1121,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "apprenticeships",
-    "transcription": "/\u0259\u02c8pren.t\u026as.\u0283\u026ap/",
-    "emoji": "\ud83d\udee0\ufe0f",
+    "transcription": "/əˈpren.tɪs.ʃɪp/",
+    "emoji": "🛠️",
     "countability": "countable",
     "synonyms": [
       "traineeship",
@@ -1111,7 +1130,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u0259\u02c8pren.t\u032c\u026as.\u0283\u026ap/"
+      "us": "/əˈpren.t̬ɪs.ʃɪp/"
     }
   },
   {
@@ -1133,8 +1152,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/v\u0259\u028a\u02c8ke\u026a.\u0283\u0259n.\u0259l \u02c8tre\u026a.n\u026a\u014b/",
-    "emoji": "\ud83d\udee0\ufe0f",
+    "transcription": "/vəʊˈkeɪ.ʃən.əl ˈtreɪ.nɪŋ/",
+    "emoji": "🛠️",
     "countability": "uncountable",
     "synonyms": [
       "career training",
@@ -1142,7 +1161,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/vo\u028a\u02c8ke\u026a.\u0283\u0259n.\u0259l \u02c8tre\u026a.n\u026a\u014b/"
+      "us": "/voʊˈkeɪ.ʃən.əl ˈtreɪ.nɪŋ/"
     }
   },
   {
@@ -1164,8 +1183,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02ccha\u026a.\u0259r ed\u0292.u\u02c8ke\u026a.\u0283\u0259n/",
-    "emoji": "\ud83c\udf93",
+    "transcription": "/ˌhaɪ.ər edʒ.uˈkeɪ.ʃən/",
+    "emoji": "🎓",
     "countability": "uncountable",
     "synonyms": [
       "tertiary education",
@@ -1173,7 +1192,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02ccha\u026a.\u025a ed\u0292.\u0259\u02c8ke\u026a.\u0283\u0259n/"
+      "us": "/ˌhaɪ.ɚ edʒ.əˈkeɪ.ʃən/"
     }
   },
   {
@@ -1188,7 +1207,7 @@
     "examples": [
       "The new academic year begins in September after summer holidays end."
     ],
-    "domain": "spoken, relocation",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1196,8 +1215,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "academic years",
-    "transcription": "/\u02cc\u00e6k.\u0259\u02c8dem.\u026ak j\u026a\u0259/",
-    "emoji": "\ud83d\udcc5",
+    "transcription": "/ˌæk.əˈdem.ɪk jɪə/",
+    "emoji": "📅",
     "countability": "countable",
     "synonyms": [
       "school year",
@@ -1205,8 +1224,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02cc\u00e6k.\u0259\u02c8dem.\u026ak j\u026ar/"
-    }
+      "us": "/ˌæk.əˈdem.ɪk jɪr/"
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:dropout:noun",
@@ -1228,8 +1248,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "dropouts",
-    "transcription": "/\u02c8dr\u0252p.a\u028at/",
-    "emoji": "\ud83d\udeaa",
+    "transcription": "/ˈdrɒp.aʊt/",
+    "emoji": "🚪",
     "countability": "countable",
     "synonyms": [
       "non-completer",
@@ -1239,7 +1259,7 @@
       "graduate"
     ],
     "transcription_variants": {
-      "us": "/\u02c8dr\u0251\u02d0p.a\u028at/"
+      "us": "/ˈdrɑːp.aʊt/"
     }
   },
   {
@@ -1262,8 +1282,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "gap years",
-    "transcription": "/\u02c8\u0261\u00e6p \u02ccj\u026a\u0259/",
-    "emoji": "\ud83c\udf92",
+    "transcription": "/ˈɡæp ˌjɪə/",
+    "emoji": "🎒",
     "countability": "countable",
     "synonyms": [
       "sabbatical year",
@@ -1271,7 +1291,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/\u02c8\u0261\u00e6p \u02ccj\u026ar/"
+      "us": "/ˈɡæp ˌjɪr/"
     }
   },
   {
@@ -1292,8 +1312,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u0259d\u02c8v\u0251\u02d0nst/",
-    "emoji": "\ud83d\udcc8",
+    "transcription": "/ədˈvɑːnst/",
+    "emoji": "📈",
     "comparative": "more advanced",
     "superlative": "most advanced",
     "synonyms": [
@@ -1325,8 +1345,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8be\u026a.s\u026ak/",
-    "emoji": "\ud83d\udd24",
+    "transcription": "/ˈbeɪ.sɪk/",
+    "emoji": "🔤",
     "comparative": "more basic",
     "superlative": "most basic",
     "synonyms": [
@@ -1351,14 +1371,14 @@
     "examples": [
       "The university campus features modern libraries and spacious green parks."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8k\u00e6m.p\u0259s/",
-    "emoji": "\ud83c\udfeb",
+    "transcription": "/ˈkæm.pəs/",
+    "emoji": "🏫",
     "countability": "countable",
     "plural_form": "campuses",
     "article": "a",
@@ -1366,7 +1386,8 @@
       "university grounds",
       "school premises"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:coursework:noun",
@@ -1386,8 +1407,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8k\u0254\u02d0s.w\u025c\u02d0k/",
-    "emoji": "\ud83d\udcda",
+    "transcription": "/ˈkɔːs.wɜːk/",
+    "emoji": "📚",
     "countability": "uncountable",
     "synonyms": [
       "assignments",
@@ -1408,14 +1429,14 @@
     "examples": [
       "The professor gave a constructive critique of her essay draft."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "education",
     "tags": [
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/kr\u026a\u02c8ti\u02d0k/",
-    "emoji": "\ud83d\udcdd",
+    "transcription": "/krɪˈtiːk/",
+    "emoji": "📝",
     "countability": "countable",
     "plural_form": "critiques",
     "article": "a",
@@ -1438,14 +1459,14 @@
     "examples": [
       "First-year university students often live in a student dormitory."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8d\u0254\u02d0.m\u026a.tr\u026a/",
-    "emoji": "\ud83d\udecf\ufe0f",
+    "transcription": "/ˈdɔː.mɪ.trɪ/",
+    "emoji": "🛏️",
     "countability": "countable",
     "plural_form": "dormitories",
     "article": "a",
@@ -1454,7 +1475,8 @@
       "residence hall",
       "hostel"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:faculty:noun",
@@ -1468,14 +1490,16 @@
     "examples": [
       "The university faculty includes distinguished professors and researchers."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "education",
     "tags": [
-      "intermediate"
+      "intermediate",
+      "track:teachers-scientists",
+      "track:academic-english"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8f\u00e6k.\u0259l.ti/",
-    "emoji": "\ud83d\udc69\u200d\ud83c\udfeb",
+    "transcription": "/ˈfæk.əl.ti/",
+    "emoji": "👩‍🏫",
     "countability": "countable",
     "plural_form": "faculties",
     "article": "a",
@@ -1484,7 +1508,8 @@
       "academic staff",
       "professors"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:institution:noun",
@@ -1504,8 +1529,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02cc\u026an.st\u026a\u02c8tju\u02d0.\u0283\u0259n/",
-    "emoji": "\ud83c\udfdb\ufe0f",
+    "transcription": "/ˌɪn.stɪˈtjuː.ʃən/",
+    "emoji": "🏛️",
     "countability": "countable",
     "plural_form": "institutions",
     "article": "an",
@@ -1528,14 +1553,14 @@
     "examples": [
       "Read the introduction before starting the first chapter of the textbook."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02cc\u026an.tr\u0259\u02c8d\u028ck.\u0283\u0259n/",
-    "emoji": "\ud83d\udcd6",
+    "transcription": "/ˌɪn.trəˈdʌk.ʃən/",
+    "emoji": "📖",
     "countability": "countable",
     "plural_form": "introductions",
     "article": "an",
@@ -1546,7 +1571,8 @@
     ],
     "antonyms": [
       "conclusion"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:module:noun",
@@ -1560,14 +1586,14 @@
     "examples": [
       "The training program is divided into four distinct learning modules."
     ],
-    "domain": "general",
+    "domain": "professional",
     "theme": "education",
     "tags": [
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8m\u0252d.ju\u02d0l/",
-    "emoji": "\ud83e\udde9",
+    "transcription": "/ˈmɒd.juːl/",
+    "emoji": "🧩",
     "countability": "countable",
     "plural_form": "modules",
     "article": "a",
@@ -1576,7 +1602,8 @@
       "section",
       "block"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:primary:adjective",
@@ -1596,8 +1623,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8pra\u026a.m\u0259r.i/",
-    "emoji": "1\ufe0f\u20e3",
+    "transcription": "/ˈpraɪ.mər.i/",
+    "emoji": "1️⃣",
     "comparative": "more primary",
     "superlative": "most primary",
     "synonyms": [
@@ -1628,8 +1655,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/\u02c8sek.\u0259n.dr\u026a/",
-    "emoji": "2\ufe0f\u20e3",
+    "transcription": "/ˈsek.ən.drɪ/",
+    "emoji": "2️⃣",
     "comparative": "more secondary",
     "superlative": "most secondary",
     "synonyms": [
@@ -1657,11 +1684,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/k\u0259m\u02c8pju\u02d0.t\u0259 \u02ccsa\u026a.\u0259ns/",
+    "transcription": "/kəmˈpjuː.tə ˌsaɪ.əns/",
     "transcription_variants": {
-      "us": "/k\u0259m\u02c8pju\u02d0.t\u032c\u025a \u02ccsa\u026a.\u0259ns/"
+      "us": "/kəmˈpjuː.t̬ɚ ˌsaɪ.əns/"
     },
-    "emoji": "\ud83d\udcbb",
+    "emoji": "💻",
     "no_antonym": true,
     "synonyms": [
       "computing",
@@ -1684,11 +1711,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/\u026an\u02c8r\u0259\u028al/",
+    "transcription": "/ɪnˈrəʊl/",
     "transcription_variants": {
-      "us": "/\u026an\u02c8ro\u028al/"
+      "us": "/ɪnˈroʊl/"
     },
-    "emoji": "\ud83d\udcdd",
+    "emoji": "📝",
     "antonyms": [
       "withdraw"
     ],
@@ -1712,11 +1739,11 @@
     "domain": "relocation, travel",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/\u026an\u02c8r\u0259\u028al.m\u0259nt/",
+    "transcription": "/ɪnˈrəʊl.mənt/",
     "transcription_variants": {
-      "us": "/\u026an\u02c8ro\u028al.m\u0259nt/"
+      "us": "/ɪnˈroʊl.mənt/"
     },
-    "emoji": "\ud83d\udccb",
+    "emoji": "📋",
     "no_antonym": true,
     "synonyms": [
       "registration",
@@ -1739,11 +1766,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/\u02cched\u02c8m\u0251\u02d0.st\u0259/",
+    "transcription": "/ˌhedˈmɑː.stə/",
     "transcription_variants": {
-      "us": "/\u02cched\u02c8m\u00e6s.t\u025a/"
+      "us": "/ˌhedˈmæs.tɚ/"
     },
-    "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
+    "emoji": "👨‍🏫",
     "no_antonym": true,
     "synonyms": [
       "principal",
@@ -1764,21 +1791,22 @@
     "examples": [
       "Although the school term had already begun, the principal accepted their transfer application after reviewing grades."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8pr\u026an.s\u0259.p\u0259l/",
+    "transcription": "/ˈprɪn.sə.pəl/",
     "transcription_variants": {
-      "us": "/\u02c8pr\u026an.s\u0259.p\u0259l/"
+      "us": "/ˈprɪn.sə.pəl/"
     },
-    "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
+    "emoji": "👨‍🏫",
     "no_antonym": true,
     "synonyms": [
       "headmaster",
       "headteacher"
     ],
     "countability": "countable",
-    "plural_form": "principals"
+    "plural_form": "principals",
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:after-school-program:noun",
@@ -1798,11 +1826,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8\u0251\u02d0f.t\u0259 \u02ccsku\u02d0l \u02c8pr\u0259\u028a.\u0261r\u00e6m/",
+    "transcription": "/ˈɑːf.tə ˌskuːl ˈprəʊ.ɡræm/",
     "transcription_variants": {
-      "us": "/\u02c8\u00e6f.t\u025a \u02ccsku\u02d0l \u02c8pro\u028a.\u0261r\u00e6m/"
+      "us": "/ˈæf.tɚ ˌskuːl ˈproʊ.ɡræm/"
     },
-    "emoji": "\ud83c\udfeb",
+    "emoji": "🏫",
     "countability": "countable",
     "article": "an",
     "plural_form": "after-school programs",
@@ -1830,11 +1858,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02cc\u00e6p.l\u026a\u02c8ke\u026a.\u0283\u0259n \u02c8ded.la\u026an/",
+    "transcription": "/ˌæp.lɪˈkeɪ.ʃən ˈded.laɪn/",
     "transcription_variants": {
-      "us": "/\u02cc\u00e6p.l\u0259\u02c8ke\u026a.\u0283\u0259n \u02c8ded.la\u026an/"
+      "us": "/ˌæp.ləˈkeɪ.ʃən ˈded.laɪn/"
     },
-    "emoji": "\u23f0",
+    "emoji": "⏰",
     "countability": "countable",
     "article": "an",
     "plural_form": "application deadlines",
@@ -1862,11 +1890,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02ccs\u025c\u02d0.t\u026a.f\u026a\u02c8ke\u026a.\u0283\u0259n/",
+    "transcription": "/ˌsɜː.tɪ.fɪˈkeɪ.ʃən/",
     "transcription_variants": {
-      "us": "/\u02ccs\u025d\u02d0.t\u032c\u0259.f\u0259\u02c8ke\u026a.\u0283\u0259n/"
+      "us": "/ˌsɝː.t̬ə.fəˈkeɪ.ʃən/"
     },
-    "emoji": "\ud83d\udcdc",
+    "emoji": "📜",
     "countability": "countable",
     "article": "a",
     "plural_form": "certifications",
@@ -1894,11 +1922,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8k\u0252l.\u026ad\u0292 \u02cc\u00e6p.l\u026a\u02c8ke\u026a.\u0283\u0259n/",
+    "transcription": "/ˈkɒl.ɪdʒ ˌæp.lɪˈkeɪ.ʃən/",
     "transcription_variants": {
-      "us": "/\u02c8k\u0251\u02d0.l\u026ad\u0292 \u02cc\u00e6p.l\u0259\u02c8ke\u026a.\u0283\u0259n/"
+      "us": "/ˈkɑː.lɪdʒ ˌæp.ləˈkeɪ.ʃən/"
     },
-    "emoji": "\ud83d\udcc4",
+    "emoji": "📄",
     "countability": "countable",
     "article": "a",
     "plural_form": "college applications",
@@ -1920,14 +1948,14 @@
     "examples": [
       "The university granted her admission after reviewing her academic transcripts."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "schooling",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/\u0259d\u02c8m\u026a\u0283.\u0259n/",
-    "emoji": "\ud83c\udf9f\ufe0f",
+    "transcription": "/ədˈmɪʃ.ən/",
+    "emoji": "🎟️",
     "countability": "countable",
     "article": "an",
     "plural_form": "admissions",
@@ -1937,7 +1965,8 @@
     ],
     "antonyms": [
       "rejection"
-    ]
+    ],
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:bachelor-s-degree:noun",
@@ -1957,11 +1986,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8b\u00e6t\u0283.\u0259l.\u0259z d\u026a\u02cc\u0261ri\u02d0/",
+    "transcription": "/ˈbætʃ.əl.əz dɪˌɡriː/",
     "transcription_variants": {
-      "us": "/\u02c8b\u00e6t\u0283.\u0259l.\u025az d\u026a\u02cc\u0261ri\u02d0/"
+      "us": "/ˈbætʃ.əl.ɚz dɪˌɡriː/"
     },
-    "emoji": "\ud83c\udf93",
+    "emoji": "🎓",
     "countability": "countable",
     "article": "a",
     "plural_form": "bachelor's degrees",
@@ -1989,11 +2018,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8ka\u028an.s\u0259l.\u0259r/",
+    "transcription": "/ˈkaʊn.səl.ər/",
     "transcription_variants": {
-      "us": "/\u02c8ka\u028an.s\u0259l.\u025a/"
+      "us": "/ˈkaʊn.səl.ɚ/"
     },
-    "emoji": "\ud83d\udde3\ufe0f",
+    "emoji": "🗣️",
     "countability": "countable",
     "article": "a",
     "plural_form": "counselors",
@@ -2021,8 +2050,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8\u026a\u014b.\u0261l\u026a\u0283 \u00e6z \u0259 \u02c8sek.\u0259nd \u02c8l\u00e6\u014b.\u0261w\u026ad\u0292/",
-    "emoji": "\ud83d\udde3\ufe0f",
+    "transcription": "/ˈɪŋ.ɡlɪʃ æz ə ˈsek.ənd ˈlæŋ.ɡwɪdʒ/",
+    "emoji": "🗣️",
     "countability": "uncountable",
     "synonyms": [
       "ESL",
@@ -2042,14 +2071,14 @@
     "examples": [
       "High school graduates must pass a competitive entrance exam to study medicine."
     ],
-    "domain": "relocation",
+    "domain": "general, professional",
     "theme": "examinations",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8en.tr\u0259ns \u026a\u0261\u02ccz\u00e6m/",
-    "emoji": "\ud83d\udcdd",
+    "transcription": "/ˈen.trəns ɪɡˌzæm/",
+    "emoji": "📝",
     "countability": "countable",
     "article": "an",
     "plural_form": "entrance exams",
@@ -2077,8 +2106,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02cci\u02d0.es\u02c8el/",
-    "emoji": "\ud83d\udcda",
+    "transcription": "/ˌiː.esˈel/",
+    "emoji": "📚",
     "countability": "uncountable",
     "synonyms": [
       "English as a second language"
@@ -2103,11 +2132,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02ccek.str\u0259.k\u0259\u02c8r\u026ak.j\u0259.l\u0259r \u00e6k\u02c8t\u026av.\u0259.tiz/",
+    "transcription": "/ˌek.strə.kəˈrɪk.jə.lər ækˈtɪv.ə.tiz/",
     "transcription_variants": {
-      "us": "/\u02ccek.str\u0259.k\u0259\u02c8r\u026ak.j\u0259.l\u025a \u00e6k\u02c8t\u026av.\u0259.t\u032ciz/"
+      "us": "/ˌek.strə.kəˈrɪk.jə.lɚ ækˈtɪv.ə.t̬iz/"
     },
-    "emoji": "\u26bd",
+    "emoji": "⚽",
     "countability": "pluralia_tantum",
     "singular_workaround": "an extracurricular activity",
     "synonyms": [
@@ -2134,11 +2163,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02ccek.str\u0259.k\u0259\u02c8r\u026ak.j\u0259.l\u0259r \u00e6k\u02c8t\u026av.\u0259.ti/",
+    "transcription": "/ˌek.strə.kəˈrɪk.jə.lər ækˈtɪv.ə.ti/",
     "transcription_variants": {
-      "us": "/\u02ccek.str\u0259.k\u0259\u02c8r\u026ak.j\u0259.l\u025a \u00e6k\u02c8t\u026av.\u0259.t\u032ci/"
+      "us": "/ˌek.strə.kəˈrɪk.jə.lɚ ækˈtɪv.ə.t̬i/"
     },
-    "emoji": "\u265f\ufe0f",
+    "emoji": "♟️",
     "countability": "countable",
     "article": "an",
     "plural_form": "extracurricular activities",
@@ -2166,11 +2195,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/fa\u026a\u02c8n\u00e6n.\u0283\u0259l e\u026ad/",
+    "transcription": "/faɪˈnæn.ʃəl eɪd/",
     "transcription_variants": {
-      "us": "/f\u0259\u02c8n\u00e6n.\u0283\u0259l e\u026ad/"
+      "us": "/fəˈnæn.ʃəl eɪd/"
     },
-    "emoji": "\ud83c\udf93",
+    "emoji": "🎓",
     "countability": "uncountable",
     "synonyms": [
       "student grant",
@@ -2196,11 +2225,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8f\u025c\u02d0.\u00f0\u0259r \u02cced.j\u028a\u02c8ke\u026a.\u0283\u0259n/",
+    "transcription": "/ˈfɜː.ðər ˌed.jʊˈkeɪ.ʃən/",
     "transcription_variants": {
-      "us": "/\u02c8f\u025d\u02d0.\u00f0\u025a \u02cced.j\u0259\u02c8ke\u026a.\u0283\u0259n/"
+      "us": "/ˈfɝː.ðɚ ˌed.jəˈkeɪ.ʃən/"
     },
-    "emoji": "\ud83d\udcda",
+    "emoji": "📚",
     "countability": "uncountable",
     "synonyms": [
       "continuing education",
@@ -2226,11 +2255,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8h\u0259\u028am.w\u025c\u02d0k ru\u02d0\u02c8ti\u02d0n/",
+    "transcription": "/ˈhəʊm.wɜːk ruːˈtiːn/",
     "transcription_variants": {
-      "us": "/\u02c8ho\u028am.w\u025d\u02d0k ru\u02d0\u02c8ti\u02d0n/"
+      "us": "/ˈhoʊm.wɝːk ruːˈtiːn/"
     },
-    "emoji": "\ud83d\udcdd",
+    "emoji": "📝",
     "countability": "countable",
     "article": "a",
     "plural_form": "homework routines",
@@ -2258,11 +2287,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8l\u00e6\u014b.\u0261w\u026ad\u0292 s\u0259\u02c8p\u0254\u02d0t/",
+    "transcription": "/ˈlæŋ.ɡwɪdʒ səˈpɔːt/",
     "transcription_variants": {
-      "us": "/\u02c8l\u00e6\u014b.\u0261w\u026ad\u0292 s\u0259\u02c8p\u0254\u02d0rt/"
+      "us": "/ˈlæŋ.ɡwɪdʒ səˈpɔːrt/"
     },
-    "emoji": "\ud83d\udde3\ufe0f",
+    "emoji": "🗣️",
     "countability": "uncountable",
     "synonyms": [
       "linguistic assistance",
@@ -2288,11 +2317,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8l\u025c\u02d0.n\u026a\u014b \u02ccd\u026af.\u026a.k\u0259l.ti/",
+    "transcription": "/ˈlɜː.nɪŋ ˌdɪf.ɪ.kəl.ti/",
     "transcription_variants": {
-      "us": "/\u02c8l\u025d\u02d0.n\u026a\u014b \u02ccd\u026af.\u0259.k\u0259l.ti/"
+      "us": "/ˈlɝː.nɪŋ ˌdɪf.ə.kəl.ti/"
     },
-    "emoji": "\ud83e\udde0",
+    "emoji": "🧠",
     "countability": "countable",
     "article": "a",
     "plural_form": "learning difficulties",
@@ -2320,11 +2349,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8m\u00e6n.d\u0259.t\u0259r.i \u02c8s\u028cb.d\u0292ekt/",
+    "transcription": "/ˈmæn.də.tər.i ˈsʌb.dʒekt/",
     "transcription_variants": {
-      "us": "/\u02c8m\u00e6n.d\u0259.t\u0254\u02d0r.i \u02c8s\u028cb.d\u0292ekt/"
+      "us": "/ˈmæn.də.tɔːr.i ˈsʌb.dʒekt/"
     },
-    "emoji": "\ud83d\udcda",
+    "emoji": "📚",
     "countability": "countable",
     "article": "a",
     "plural_form": "mandatory subjects",
@@ -2355,11 +2384,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8pe\u0259.r\u0259nt \u02c8ti\u02d0.t\u0283\u0259r \u02ccmi\u02d0.t\u026a\u014b/",
+    "transcription": "/ˈpeə.rənt ˈtiː.tʃər ˌmiː.tɪŋ/",
     "transcription_variants": {
-      "us": "/\u02c8per.\u0259nt \u02c8ti\u02d0.t\u0283\u025a \u02ccmi\u02d0.t\u032c\u026a\u014b/"
+      "us": "/ˈper.ənt ˈtiː.tʃɚ ˌmiː.t̬ɪŋ/"
     },
-    "emoji": "\ud83c\udfeb",
+    "emoji": "🏫",
     "countability": "countable",
     "article": "a",
     "plural_form": "parent-teacher meetings",
@@ -2387,11 +2416,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8pr\u0259\u028a.\u0261res r\u026a\u02ccp\u0254\u02d0t/",
+    "transcription": "/ˈprəʊ.ɡres rɪˌpɔːt/",
     "transcription_variants": {
-      "us": "/\u02c8pr\u0251\u02d0.\u0261res r\u026a\u02ccp\u0254\u02d0rt/"
+      "us": "/ˈprɑː.ɡres rɪˌpɔːrt/"
     },
-    "emoji": "\ud83d\udcca",
+    "emoji": "📊",
     "countability": "countable",
     "article": "a",
     "plural_form": "progress reports",
@@ -2419,11 +2448,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8spe\u0283.\u0259l \u02cced.j\u028a\u02c8ke\u026a.\u0283\u0259n/",
+    "transcription": "/ˈspeʃ.əl ˌed.jʊˈkeɪ.ʃən/",
     "transcription_variants": {
-      "us": "/\u02c8spe\u0283.\u0259l \u02cced.j\u0259\u02c8ke\u026a.\u0283\u0259n/"
+      "us": "/ˈspeʃ.əl ˌed.jəˈkeɪ.ʃən/"
     },
-    "emoji": "\ud83c\udfeb",
+    "emoji": "🏫",
     "countability": "uncountable",
     "synonyms": [
       "special needs education",
@@ -2443,17 +2472,17 @@
     "examples": [
       "Repaying a student loan begins after graduation once employment income reaches a threshold."
     ],
-    "domain": "relocation",
+    "domain": "professional",
     "theme": "educational finance",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8stju\u02d0.d\u0259nt l\u0259\u028an/",
+    "transcription": "/ˈstjuː.dənt ləʊn/",
     "transcription_variants": {
-      "us": "/\u02c8stu\u02d0.d\u0259nt lo\u028an/"
+      "us": "/ˈstuː.dənt loʊn/"
     },
-    "emoji": "\ud83c\udf93",
+    "emoji": "🎓",
     "countability": "countable",
     "article": "a",
     "plural_form": "student loans",
@@ -2461,7 +2490,8 @@
       "educational loan",
       "tuition loan"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:transcript:noun",
@@ -2475,14 +2505,14 @@
     "examples": [
       "University admission offices require certified copies of your high school academic transcript."
     ],
-    "domain": "relocation",
+    "domain": "professional",
     "theme": "academic record",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8tr\u00e6n.skr\u026apt/",
-    "emoji": "\ud83d\udcdc",
+    "transcription": "/ˈtræn.skrɪpt/",
+    "emoji": "📜",
     "countability": "countable",
     "article": "a",
     "plural_form": "transcripts",
@@ -2490,7 +2520,8 @@
       "academic record",
       "grade report"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:tuition-fee:noun",
@@ -2504,17 +2535,17 @@
     "examples": [
       "International student tuition fees are higher than domestic rates."
     ],
-    "domain": "relocation, travel",
+    "domain": "general, professional",
     "theme": "university cost",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/t\u0283u\u02d0\u02c8\u026a\u0283.\u0259n fi\u02d0/",
+    "transcription": "/tʃuːˈɪʃ.ən fiː/",
     "transcription_variants": {
-      "us": "/tu\u02d0\u02c8\u026a\u0283.\u0259n fi\u02d0/"
+      "us": "/tuːˈɪʃ.ən fiː/"
     },
-    "emoji": "\ud83c\udf93",
+    "emoji": "🎓",
     "countability": "countable",
     "article": "a",
     "plural_form": "tuition fees",
@@ -2542,11 +2573,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02c8t\u0283u\u02d0.t\u0259r.\u026a\u014b/",
+    "transcription": "/ˈtʃuː.tər.ɪŋ/",
     "transcription_variants": {
-      "us": "/\u02c8tu\u02d0.t\u032c\u025a.\u026a\u014b/"
+      "us": "/ˈtuː.t̬ɚ.ɪŋ/"
     },
-    "emoji": "\ud83d\udcda",
+    "emoji": "📚",
     "countability": "uncountable",
     "synonyms": [
       "private coaching",
@@ -2572,11 +2603,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/\u02ccju\u02d0.n\u026a\u02c8v\u025c\u02d0.s\u0259.ti \u02cc\u00e6p.l\u026a\u02c8ke\u026a.\u0283\u0259n/",
+    "transcription": "/ˌjuː.nɪˈvɜː.sə.ti ˌæp.lɪˈkeɪ.ʃən/",
     "transcription_variants": {
-      "us": "/\u02ccju\u02d0.n\u0259\u02c8v\u025d\u02d0.s\u0259.t\u032ci \u02cc\u00e6p.l\u0259\u02c8ke\u026a.\u0283\u0259n/"
+      "us": "/ˌjuː.nəˈvɝː.sə.t̬i ˌæp.ləˈkeɪ.ʃən/"
     },
-    "emoji": "\ud83c\udf93",
+    "emoji": "🎓",
     "countability": "countable",
     "article": "an",
     "plural_form": "university applications",
@@ -2593,7 +2624,7 @@
     "level": "B1",
     "domain": "general, relocation",
     "theme": "education",
-    "emoji": "\ud83d\udcbc",
+    "emoji": "💼",
     "countability": "pluralia_tantum",
     "synonyms": [
       "traineeships",
@@ -2602,9 +2633,9 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8\u026an.t\u025c\u02d0n.\u0283\u026ap \u02cc\u0252p.\u0259\u02c8tju\u02d0.n\u0259.tiz/",
+    "transcription": "/ˈɪn.tɜːn.ʃɪp ˌɒp.əˈtjuː.nə.tiz/",
     "transcription_variants": {
-      "us": "/\u02c8\u026an.t\u025d\u02d0n.\u0283\u026ap \u02cc\u0251\u02d0.p\u025a\u02c8tu\u02d0.n\u0259.t\u032ciz/"
+      "us": "/ˈɪn.tɝːn.ʃɪp ˌɑː.pɚˈtuː.nə.t̬iz/"
     },
     "definitions": [
       "available positions offering temporary practical work experience for students or graduates"

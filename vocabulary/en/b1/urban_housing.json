@@ -139,7 +139,7 @@
     "examples": [
       "The government invested heavily in modernizing public transport infrastructure this year."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, professional",
     "theme": "society",
     "updated": "2025-01-15",
     "plural_form": "infrastructures",
@@ -453,7 +453,7 @@
     "examples": [
       "They signed a twelve-month lease agreement for their new downtown apartment."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "leases",
@@ -467,7 +467,8 @@
       "rental agreement",
       "tenancy"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:eviction:noun",
@@ -481,7 +482,7 @@
     "examples": [
       "Failing to pay rent for three months resulted in legal eviction."
     ],
-    "domain": "general, relocation",
+    "domain": "professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "evictions",
@@ -493,7 +494,8 @@
       "removal",
       "dispossession"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:homeowner:noun",
@@ -568,7 +570,7 @@
     "examples": [
       "Because local authorities require address verification, completing residence registration within seven days is mandatory."
     ],
-    "domain": "relocation",
+    "domain": "professional",
     "theme": "urban_housing",
     "updated": "2025-01-15",
     "transcription": "/ˌredʒ.ɪˈstreɪ.ʃən/",
@@ -581,7 +583,8 @@
       "enrollment",
       "listing"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:bedtime-routine:noun",
@@ -894,7 +897,7 @@
     "examples": [
       "Landlords are legally responsible for structural property maintenance and heating repairs."
     ],
-    "domain": "relocation",
+    "domain": "professional",
     "theme": "housing upkeep",
     "updated": "2025-01-15",
     "levels": [
@@ -911,7 +914,8 @@
     "antonyms": [
       "neglect",
       "disrepair"
-    ]
+    ],
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:neighborhood-safety:noun",
@@ -1408,7 +1412,7 @@
     "level": "B1",
     "domain": "general, relocation",
     "theme": "places_transport",
-    "emoji": "\ud83d\ude86",
+    "emoji": "🚆",
     "countability": "countable",
     "article": "a",
     "plural_form": "public transit systems",
@@ -1419,7 +1423,7 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/\u02c8p\u028cb.l\u026ak \u02c8tr\u00e6n.z\u026at \u02c8s\u026as.t\u0259m/",
+    "transcription": "/ˈpʌb.lɪk ˈtræn.zɪt ˈsɪs.təm/",
     "definitions": [
       "a shared passenger-transport service available for use by the general public"
     ],
