@@ -36,7 +36,7 @@
     "examples": [
       "The research methodology was scrutinized by peer reviewers to ensure empirical data validity."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "methodologies",
@@ -53,7 +53,8 @@
       "research design",
       "systematic procedure"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:variable:noun",
@@ -67,7 +68,7 @@
     "examples": [
       "Temperature was controlled as an independent variable while observing chemical reaction rates."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "variables",
@@ -84,7 +85,8 @@
     ],
     "antonyms": [
       "constant"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:correlation:noun",
@@ -98,7 +100,7 @@
     "examples": [
       "Researchers found a strong positive correlation between daily physical exercise and improved cognitive health."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -118,7 +120,8 @@
     "antonyms": [
       "uncorrelatedness",
       "independence"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:causation:noun",
@@ -132,7 +135,7 @@
     "examples": [
       "Scientists cautioned that correlation between variables does not automatically establish direct causation."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -147,7 +150,8 @@
     ],
     "antonyms": [
       "coincidence"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:control:noun",
@@ -190,7 +194,7 @@
     "examples": [
       "The discovery was published in a prestigious peer-reviewed journal after thorough scientific evaluation."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "peer-revieweds",
@@ -206,7 +210,8 @@
     ],
     "antonyms": [
       "unvetted paper"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:empirical:adjective",
@@ -220,7 +225,7 @@
     "examples": [
       "Empirical evidence gathered across three trial studies confirmed the drug safety and effectiveness."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -240,7 +245,8 @@
     "antonyms": [
       "theoretical",
       "hypothetical"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:theoretical:adjective",
@@ -285,7 +291,7 @@
     "examples": [
       "Independent laboratories attempted to replicate the experimental findings to verify their scientific validity."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/replicate/",
@@ -295,7 +301,8 @@
       "duplicate",
       "repeat"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:replication:noun",
@@ -334,7 +341,7 @@
     "examples": [
       "Engineers tested the working prototype under extreme conditions before commencing full commercial production."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "prototypes",
@@ -387,7 +394,7 @@
     "examples": [
       "Genetic engineering techniques allowed scientists to modify DNA sequences to eliminate hereditary diseases."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/engineering/",
@@ -397,7 +404,8 @@
       "tech engineering",
       "applied science"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:nanotechnology:noun",
@@ -469,7 +477,7 @@
     "examples": [
       "Quantum computing operates on principles of quantum mechanics, enabling unprecedented processing speeds."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/quantum/",
@@ -478,7 +486,8 @@
       "subatomic",
       "quantum-mechanical"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:simulate:verb",
@@ -516,7 +525,7 @@
     "examples": [
       "Flight simulation training allows pilots to practice emergency procedures safely without physical danger."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "simulations",
@@ -529,7 +538,8 @@
     ],
     "antonyms": [
       "real-world phenomenon"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:optimize:verb",
@@ -600,7 +610,7 @@
     "examples": [
       "The university laboratory was equipped with cutting-edge technology for researching renewable energy storage."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -665,7 +675,7 @@
     "examples": [
       "The startup introduced an innovative solution for converting ocean saltwater into clean drinking water."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -727,7 +737,7 @@
     "examples": [
       "Machine-learning algorithms analyzed millions of medical records to identify early disease risk factors."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -742,7 +752,8 @@
       "ML",
       "automated learning"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:genetic-engineering:noun",
@@ -877,7 +888,7 @@
     "examples": [
       "Accelerating digital-transformation allowed traditional banks to offer seamless online financial services nationwide."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -938,7 +949,7 @@
     "examples": [
       "Auditors identified algorithmic-bias in facial recognition software that produced higher error rates for minorities."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "science",
     "tags": [
       "spoken",
@@ -1204,7 +1215,7 @@
     "examples": [
       "Multiple research teams converged on similar conclusions regarding climate trends."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "science",
     "tags": [
       "upper-intermediate"

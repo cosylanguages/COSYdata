@@ -57,7 +57,7 @@
     "examples": [
       "It is quiet in the library afternoon."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -83,7 +83,7 @@
     "examples": [
       "The house uses natural gas for heating."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
@@ -96,7 +96,8 @@
     "no_antonym": true,
     "region": [
       "US"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:conditioning:noun",
@@ -110,7 +111,7 @@
     "examples": [
       "Turn on the air conditioning during hot summer."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
@@ -167,7 +168,7 @@
     "examples": [
       "The property value increased this year."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "properties",
@@ -182,7 +183,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈprɑː.pɚ.t̬i/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:landlord:noun",
@@ -196,7 +198,7 @@
     "examples": [
       "The landlord fixed the leaking roof yesterday."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "landlords",
@@ -215,7 +217,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈlænd.lɔːrd/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:tenant:noun",
@@ -229,7 +232,7 @@
     "examples": [
       "The new tenant moved in on Monday."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "tenants",
@@ -245,7 +248,8 @@
     "countability": "countable",
     "antonyms": [
       "landlord"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:lease:verb",
@@ -259,7 +263,7 @@
     "examples": [
       "They decided to lease an apartment for a year."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -267,7 +271,8 @@
     ],
     "transcription": "/liːs/",
     "emoji": "📄",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:mortgage:noun",
@@ -281,7 +286,7 @@
     "examples": [
       "They took out a mortgage to buy home."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "mortgages",
@@ -312,7 +317,7 @@
     "examples": [
       "Our neighbourhood is safe and very friendly."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "neighbourhoods",
@@ -340,7 +345,7 @@
     "examples": [
       "Read the rental agreement carefully before signing."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "agreements",
@@ -353,7 +358,8 @@
     "countability": "countable",
     "antonyms": [
       "disagreement"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:noisy:noun",
@@ -367,7 +373,7 @@
     "examples": [
       "The noisy traffic woke me up early."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -420,7 +426,7 @@
     "examples": [
       "We rent a flat near the university."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -430,7 +436,8 @@
     "emoji": "💵",
     "antonyms": [
       "own"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:renovate:verb",
@@ -643,7 +650,7 @@
     "examples": [
       "Open the window to let fresh air in."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -655,7 +662,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/er/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:furniture:noun",
@@ -1440,7 +1448,7 @@
     "examples": [
       "I requested a short extension on my tax deadline."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "time",
     "updated": "2025-01-15",
     "levels": [
@@ -1451,7 +1459,8 @@
     "countability": "countable",
     "article": "an",
     "plural_form": "extensions",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:furnished:adjective",
@@ -1571,7 +1580,7 @@
     "examples": [
       "Plants need water and light to survive."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, professional",
     "theme": "life",
     "updated": "2025-01-15",
     "levels": [
@@ -1669,7 +1678,7 @@
     "language": "en",
     "form": "verb",
     "level": "A2",
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "daily_verbs",
     "transcription": "/steər/",
     "updated": "2025-01-15",
@@ -1685,7 +1694,8 @@
     "emoji": "👀",
     "antonyms": [
       "glance"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:settling-in:noun",

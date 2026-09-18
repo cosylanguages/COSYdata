@@ -11,7 +11,7 @@
     "examples": [
       "Do not throw food waste into the street."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -62,7 +62,7 @@
     "examples": [
       "A sudden change in weather surprised us."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "plural_form": "changes",
@@ -117,7 +117,7 @@
     "examples": [
       "The crop failed because of severe drought."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "plural_form": "droughts",
@@ -147,7 +147,7 @@
     "examples": [
       "The forest park protects local wildlife."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -173,7 +173,7 @@
     "examples": [
       "Scientists discovered a rare plant species."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -201,7 +201,7 @@
     "examples": [
       "We must keep our environment clean."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "plural_form": "environments",
@@ -215,7 +215,8 @@
     "transcription": "/ɪnˈvaɪ.rən.mənt/",
     "emoji": "🌱",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:pollution:noun",
@@ -229,7 +230,7 @@
     "examples": [
       "Car exhaust fumes create air pollution."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -252,7 +253,7 @@
     "examples": [
       "Remember to recycle paper and plastic bottles."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -274,7 +275,7 @@
     "examples": [
       "Put your empty cans in the recycling bin."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -297,7 +298,7 @@
     "examples": [
       "Climate change is a major global issue."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "transcription": "/ˈɡləʊ.bəl/",
@@ -347,7 +348,7 @@
     "examples": [
       "The weather forecast predicts rain tomorrow."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "plural_form": "forecasts",
@@ -444,7 +445,7 @@
     "examples": [
       "Heavy rain caused a flood in the streets."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "plural_form": "floods",
@@ -470,7 +471,7 @@
     "examples": [
       "Solar panels generate clean electrical energy."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -482,7 +483,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈen.ɚ.dʒi/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:electricity:noun",
@@ -525,7 +527,7 @@
     "examples": [
       "Solar power is becoming very popular."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -578,7 +580,7 @@
     "examples": [
       "Please put your rubbish in the bin."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -607,7 +609,7 @@
     "examples": [
       "Take out the garbage before going to bed."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -665,7 +667,7 @@
     "examples": [
       "Trees protect the soil from heavy rain."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -677,7 +679,8 @@
     "antonyms": [
       "attack",
       "damage"
-    ]
+    ],
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:endangered:noun",
@@ -691,7 +694,7 @@
     "examples": [
       "Tigers are among the endangered species."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "tags": [
@@ -719,7 +722,7 @@
     "examples": [
       "The hurricane was a terrible disaster."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "plural_form": "disasters",
@@ -769,7 +772,7 @@
     "examples": [
       "I read the main headline this morning."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, professional",
     "theme": "media",
     "tags": [
       "spoken",
@@ -822,7 +825,7 @@
     "examples": [
       "Climate change affects weather around the world."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "environment",
     "tags": [
       "spoken",
@@ -846,7 +849,7 @@
     "examples": [
       "Global warming melts ice at the poles."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "environment",
     "tags": [
       "spoken",
@@ -901,7 +904,7 @@
     "examples": [
       "The earthquake was a major natural disaster."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, professional",
     "theme": "environment",
     "tags": [
       "spoken",
@@ -978,7 +981,7 @@
     "examples": [
       "Factories should not pollute local rivers."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "environment",
     "updated": "2025-01-15",
     "transcription": "/pəˈluːt/",

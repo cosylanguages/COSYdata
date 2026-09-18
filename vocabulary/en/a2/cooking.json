@@ -66,7 +66,7 @@
     "examples": [
       "He is allergic to nuts and seafood."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "food",
     "updated": "2025-01-15",
     "tags": [
@@ -587,7 +587,7 @@
     "examples": [
       "There is no extra charge for delivery."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "charges",
@@ -600,7 +600,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/tʃɑːrdʒ/"
-    }
+    },
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:aisle:noun",
@@ -929,7 +930,7 @@
     "examples": [
       "Serve the meal with a mixed green salad."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "food",
     "tags": [
       "spoken",
@@ -941,7 +942,8 @@
     "countability": "uncountable",
     "antonyms": [
       "separate"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:seasoning:noun",
@@ -1350,7 +1352,7 @@
     "examples": [
       "Add a pinch of salt to the soup."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "food",
     "updated": "2025-01-15",
     "transcription": "/æd/",
@@ -1453,7 +1455,7 @@
     "examples": [
       "Pour the liquid carefully into the mixing bowl."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "food",
     "updated": "2025-01-15",
     "transcription": "/ˈlɪk.wɪd/",
@@ -1462,7 +1464,8 @@
     "plural_form": "liquids",
     "antonyms": [
       "solid"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:prepare:verb",
@@ -1476,12 +1479,13 @@
     "examples": [
       "She helped her father prepare dinner."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "food",
     "updated": "2025-01-15",
     "transcription": "/prɪˈpeər/",
     "emoji": "🍳",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:ready-made:adjective",

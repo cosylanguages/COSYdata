@@ -11,7 +11,7 @@
     "examples": [
       "Do not steal things from other people."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "tags": [
@@ -19,7 +19,8 @@
     ],
     "transcription": "/stiːl/",
     "emoji": "🥷",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:fine:noun",
@@ -33,14 +34,15 @@
     "examples": [
       "He had to pay a fine for parking illegally."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "fines",
     "transcription": "/faɪn/",
     "emoji": "💵",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:crime:noun",
@@ -54,14 +56,15 @@
     "examples": [
       "The police arrived quickly to investigate the crime."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "crimes",
     "transcription": "/kraɪm/",
     "emoji": "🚔",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:criminal:noun",
@@ -75,7 +78,7 @@
     "examples": [
       "The criminal was caught near the bank."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "criminals",
@@ -85,7 +88,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈkrɪm.ə.nəl/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:stolen:noun",
@@ -176,7 +180,7 @@
     "examples": [
       "The police made an arrest outside the store."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "arrests",
@@ -185,7 +189,8 @@
     "countability": "countable",
     "antonyms": [
       "release"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:escape:noun",
@@ -220,7 +225,7 @@
     "examples": [
       "The witness gave a description to police."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "witnesses",
@@ -230,7 +235,8 @@
     "countability": "countable",
     "transcription": "/ˈwɪt.nəs/",
     "emoji": "👁️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:victim:noun",
@@ -244,7 +250,7 @@
     "examples": [
       "The victim received help at the hospital."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "victims",
@@ -257,7 +263,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈvɪk.təm/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:report:noun",
@@ -271,7 +278,7 @@
     "examples": [
       "She made an official report to the police."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "reports",
@@ -284,7 +291,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/rɪˈpɔːrt/"
-    }
+    },
+    "sub_theme": "academic-english"
   },
   {
     "id": "en:punishment:noun",
@@ -298,7 +306,7 @@
     "examples": [
       "The punishment for speeding is a fine."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "punishments",
@@ -307,7 +315,8 @@
     "countability": "countable",
     "antonyms": [
       "reward"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:illegal:noun",
@@ -321,7 +330,7 @@
     "examples": [
       "Selling fake goods is strictly illegal here."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "transcription": "/ɪˈliː.ɡəl/",
@@ -329,7 +338,8 @@
     "countability": "uncountable",
     "antonyms": [
       "legal"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:legal:noun",
@@ -343,7 +353,7 @@
     "examples": [
       "Seek legal advice before signing the contract."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "transcription": "/ˈliː.ɡəl/",
@@ -351,7 +361,8 @@
     "countability": "uncountable",
     "antonyms": [
       "illegal"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:safety:noun",
@@ -365,7 +376,7 @@
     "examples": [
       "Always wear a helmet for your safety."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "transcription": "/ˈseɪf.ti/",
@@ -373,7 +384,8 @@
     "countability": "uncountable",
     "antonyms": [
       "danger"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:danger:noun",
@@ -416,7 +428,7 @@
     "examples": [
       "Driving very fast is extremely dangerous."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "tags": [
@@ -494,7 +506,7 @@
     "examples": [
       "The guard gave a clear warning to us."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "warnings",
@@ -507,7 +519,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈwɔːr.nɪŋ/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:prison:noun",
@@ -521,14 +534,15 @@
     "examples": [
       "He spent two years in prison for theft."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "law",
     "updated": "2025-01-15",
     "plural_form": "prisons",
     "transcription": "/ˈprɪz.ən/",
     "emoji": "🏛️",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:guard:noun",
@@ -566,7 +580,7 @@
     "examples": [
       "He was injured in a car accident."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, professional",
     "theme": "law",
     "tags": [
       "spoken",
@@ -580,7 +594,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈæk.sə.dənt/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:fire-department:noun",
@@ -649,7 +664,7 @@
     "examples": [
       "He fixed the broken wooden chair quickly."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, professional",
     "theme": "law",
     "tags": [
       "spoken",
@@ -665,7 +680,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈbroʊ.kən/"
-    }
+    },
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:damaged:noun",
@@ -706,7 +722,7 @@
     "examples": [
       "Customers often complain about slow service."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, professional",
     "theme": "law",
     "tags": [
       "spoken",
@@ -718,7 +734,8 @@
     "countability": "uncountable",
     "antonyms": [
       "praise"
-    ]
+    ],
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:solve:noun",
@@ -732,7 +749,7 @@
     "examples": [
       "Detectives worked hard to solve the mystery."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "law",
     "tags": [
       "spoken",
@@ -745,7 +762,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/sɑːlv/"
-    }
+    },
+    "sub_theme": "legal-english"
   },
   {
     "id": "en:fault:noun",

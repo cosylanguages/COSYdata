@@ -36,7 +36,7 @@
     "examples": [
       "An investigative journalist exposed the environmental scandal in local newspaper."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "journalists",
@@ -94,7 +94,7 @@
     "examples": [
       "The network will broadcast the national football match live tonight."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
@@ -217,7 +217,7 @@
     "examples": [
       "The main character in the story faces many difficult challenges."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "characters",
@@ -474,7 +474,7 @@
     "examples": [
       "The film director instructed actors during the shooting of emotional scene."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "directors",
@@ -619,7 +619,7 @@
     "examples": [
       "The company plans to publish her new poetry collection next month."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "transcription": "/ˈpʌb.lɪʃ/",
@@ -629,7 +629,8 @@
       "release",
       "print"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:publication:noun",
@@ -643,7 +644,7 @@
     "examples": [
       "The research paper was accepted for publication in a medical journal."
     ],
-    "domain": "general",
+    "domain": "general, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "publications",
@@ -657,7 +658,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌpʌb.ləˈkeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:censorship:noun",
@@ -671,7 +673,7 @@
     "examples": [
       "Strict government censorship restricted what news media could report publicly."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
@@ -704,7 +706,7 @@
     "examples": [
       "Social media influencers exert significant influence over teenage consumer buying habits."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, professional",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
@@ -890,7 +892,7 @@
     "examples": [
       "The studio scheduled the movie release for the upcoming holiday season."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, professional",
     "theme": "media",
     "tags": [
       "spoken",
@@ -907,7 +909,8 @@
     ],
     "antonyms": [
       "withdrawal"
-    ]
+    ],
+    "sub_theme": "it-specialists"
   },
   {
     "id": "en:premiere:noun",
@@ -1075,7 +1078,7 @@
     "examples": [
       "The drama series consists of ten thrilling episodes in total."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "media",
     "tags": [
       "spoken",
@@ -1106,7 +1109,7 @@
     "examples": [
       "Tonight's episode features a dramatic confrontation between the main characters."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "media",
     "tags": [
       "spoken",
@@ -1229,7 +1232,7 @@
     "examples": [
       "The famous celebrity was surrounded by photographers outside the hotel entrance."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "media",
     "tags": [
       "spoken",
@@ -1394,7 +1397,7 @@
     "examples": [
       "She prefers abstract paintings featuring bold colors and unusual shapes."
     ],
-    "domain": "spoken",
+    "domain": "spoken, professional",
     "theme": "media",
     "tags": [
       "spoken",
@@ -1411,7 +1414,8 @@
     ],
     "antonyms": [
       "concrete"
-    ]
+    ],
+    "sub_theme": "teachers-scientists"
   },
   {
     "id": "en:realistic:noun",
