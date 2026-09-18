@@ -49,15 +49,22 @@ COSYdata/
 - **`curriculum/<lang>/`**: Age-specific learning objectives and discussion themes.
 
 ### Course Domains & Level Folders
-- **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.
-- **`a2/`**: Elementary CEFR A2 level vocabulary files across general and spoken courses.
-- **`b1/`**: Intermediate CEFR B1 level vocabulary files across general and spoken courses.
-- **`b2/`**: Upper-Intermediate CEFR B2 level vocabulary files across general and spoken courses.
-- **`c1/`**: Advanced CEFR C1 level vocabulary files across general and spoken courses.
-- **`c2/`**: Mastery CEFR C2 level vocabulary files across general and spoken courses.
+- **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files.
+- **`a2/`**: Elementary CEFR A2 level vocabulary files.
+- **`b1/`**: Intermediate CEFR B1 level vocabulary files.
+- **`b2/`**: Upper-Intermediate CEFR B2 level vocabulary files.
+- **`c1/`**: Advanced CEFR C1 level vocabulary files.
+- **`c2/`**: Mastery CEFR C2 level vocabulary files.
+
+The repository uses the following course domains in the `domain` property:
 - **`general`**: Standard CEFR course vocabulary.
 - **`spoken`**: Spoken course vocabulary focused on conversation.
-- **`general, spoken`**: Words present in both general and spoken course lists.
+- **`relocation`**: Vocabulary and functional phrases for moving and living abroad.
+- **`travel`**: Vocabulary for travel, tourism, and navigation.
+- **`professional`**: Specialized workplace, academic, and career track vocabulary.
+- **`exam`**: Exam preparation, rubric, and task-based testing vocabulary.
+
+> **Note:** The `professional` and `exam` domains additionally use a `sub_theme`-based track system (registered in `vocabulary/professional-tracks.json` and `vocabulary/exam-tracks.json`). See [`docs/domain-and-tagging-conventions.md`](docs/domain-and-tagging-conventions.md) for full conventions.
 
 To regenerate `index.json` and `flat-index.json` for all language folders, run:
 
