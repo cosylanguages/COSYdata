@@ -2707,6 +2707,10 @@
     {
       "id": "en:along:noun",
       "field": "word"
+    },
+    {
+      "id": "en:along:preposition",
+      "field": "word"
     }
   ],
   "aloof": [
@@ -4630,6 +4634,10 @@
   "as": [
     {
       "id": "en:as:adverb",
+      "field": "word"
+    },
+    {
+      "id": "en:as:conjunction",
       "field": "word"
     },
     {
@@ -10541,6 +10549,10 @@
     {
       "id": "en:care:noun",
       "field": "word"
+    },
+    {
+      "id": "en:care:verb",
+      "field": "word"
     }
   ],
   "care about": [
@@ -11269,6 +11281,12 @@
       "field": "word"
     }
   ],
+  "cereal": [
+    {
+      "id": "en:cereal:noun",
+      "field": "word"
+    }
+  ],
   "ceremonies": [
     {
       "id": "en:ceremony:noun",
@@ -11442,6 +11460,10 @@
     },
     {
       "id": "en:change:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:change:verb",
       "field": "word"
     }
   ],
@@ -23207,10 +23229,6 @@
   ],
   "eat": [
     {
-      "id": "en:eat:noun",
-      "field": "word"
-    },
-    {
       "id": "en:eat:verb",
       "field": "word"
     }
@@ -27235,6 +27253,10 @@
   ],
   "fake": [
     {
+      "id": "en:fake:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:fake:noun",
       "field": "word"
     }
@@ -27800,6 +27822,10 @@
     }
   ],
   "favorite": [
+    {
+      "id": "en:favorite:adjective",
+      "field": "word"
+    },
     {
       "id": "en:favorite:verb",
       "field": "word"
@@ -28761,6 +28787,10 @@
     {
       "id": "en:fit:noun",
       "field": "word"
+    },
+    {
+      "id": "en:fit:verb",
+      "field": "word"
     }
   ],
   "fit for purpose": [
@@ -29119,6 +29149,12 @@
     {
       "id": "en:floor:noun",
       "field": "plural_form"
+    }
+  ],
+  "flour": [
+    {
+      "id": "en:flour:noun",
+      "field": "word"
     }
   ],
   "flout": [
@@ -44343,7 +44379,7 @@
   ],
   "love": [
     {
-      "id": "en:love:adjective",
+      "id": "en:love:noun",
       "field": "word"
     },
     {
@@ -44650,6 +44686,10 @@
     }
   ],
   "main": [
+    {
+      "id": "en:main:adjective",
+      "field": "word"
+    },
     {
       "id": "en:main:noun",
       "field": "word"
@@ -53313,6 +53353,10 @@
       "field": "word"
     },
     {
+      "id": "en:other:pronoun",
+      "field": "word"
+    },
+    {
       "id": "en:other:verb",
       "field": "word"
     }
@@ -53984,6 +54028,10 @@
     }
   ],
   "own": [
+    {
+      "id": "en:own:adjective",
+      "field": "word"
+    },
     {
       "id": "en:own:verb",
       "field": "word"
@@ -60603,6 +60651,12 @@
       "field": "plural_form"
     }
   ],
+  "raise": [
+    {
+      "id": "en:raise:verb",
+      "field": "word"
+    }
+  ],
   "raise awareness": [
     {
       "id": "en:raise-awareness:phrase",
@@ -62228,6 +62282,10 @@
   "relax": [
     {
       "id": "en:relax:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:relax:verb",
       "field": "word"
     }
   ],
@@ -66591,10 +66649,6 @@
   ],
   "send": [
     {
-      "id": "en:send:noun",
-      "field": "word"
-    },
-    {
       "id": "en:send:verb",
       "field": "word"
     }
@@ -67564,6 +67618,10 @@
   "show": [
     {
       "id": "en:show:adjective",
+      "field": "word"
+    },
+    {
+      "id": "en:show:verb",
       "field": "word"
     }
   ],
@@ -71623,17 +71681,7 @@
       "field": "plural_form"
     }
   ],
-  "studies": [
-    {
-      "id": "en:study:noun",
-      "field": "plural_form"
-    }
-  ],
   "study": [
-    {
-      "id": "en:study:noun",
-      "field": "word"
-    },
     {
       "id": "en:study:verb",
       "field": "word"
@@ -72636,6 +72684,10 @@
     }
   ],
   "sure": [
+    {
+      "id": "en:sure:adjective",
+      "field": "word"
+    },
     {
       "id": "en:sure:verb",
       "field": "word"
@@ -77635,10 +77687,22 @@
       "field": "word"
     }
   ],
+  "toilet": [
+    {
+      "id": "en:toilet:noun",
+      "field": "word"
+    }
+  ],
   "toilet paper": [
     {
       "id": "en:toilet-paper:noun",
       "field": "word"
+    }
+  ],
+  "toilets": [
+    {
+      "id": "en:toilet:noun",
+      "field": "plural_form"
     }
   ],
   "token gesture": [
@@ -78459,6 +78523,18 @@
     {
       "id": "en:train:verb",
       "field": "word"
+    }
+  ],
+  "train station": [
+    {
+      "id": "en:train-station:noun",
+      "field": "word"
+    }
+  ],
+  "train stations": [
+    {
+      "id": "en:train-station:noun",
+      "field": "plural_form"
     }
   ],
   "training": [
@@ -79380,6 +79456,10 @@
   "try on": [
     {
       "id": "en:try-on:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:try-on:verb",
       "field": "word"
     }
   ],
@@ -80425,6 +80505,18 @@
     {
       "id": "en:union:noun",
       "field": "plural_form"
+    }
+  ],
+  "united kingdom": [
+    {
+      "id": "en:united-kingdom:noun",
+      "field": "word"
+    }
+  ],
+  "united states": [
+    {
+      "id": "en:united-states:noun",
+      "field": "word"
     }
   ],
   "universal basic income": [
@@ -82283,6 +82375,12 @@
     {
       "id": "en:volcano:noun",
       "field": "plural_form"
+    }
+  ],
+  "volleyball": [
+    {
+      "id": "en:volleyball:noun",
+      "field": "word"
     }
   ],
   "voltage": [
@@ -84842,10 +84940,6 @@
     }
   ],
   "write": [
-    {
-      "id": "en:write:noun",
-      "field": "word"
-    },
     {
       "id": "en:write:verb",
       "field": "word"
