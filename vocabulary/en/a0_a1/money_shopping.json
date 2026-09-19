@@ -11,7 +11,7 @@
     "examples": [
       "Keep your shopping receipt safe."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "receipts",
@@ -22,10 +22,11 @@
       "A1",
       "A2"
     ],
-    "transcription": "/rɪˈsiːt/",
+    "transcription": "/r\u026a\u02c8si\u02d0t/",
     "no_antonym": true,
-    "emoji": "🧾",
-    "countability": "countable"
+    "emoji": "\ud83e\uddfe",
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:card:noun",
@@ -50,12 +51,12 @@
       "A1",
       "A2"
     ],
-    "transcription": "/kɑːd/",
+    "transcription": "/k\u0251\u02d0d/",
     "no_antonym": true,
-    "emoji": "💳",
+    "emoji": "\ud83d\udcb3",
     "countability": "countable",
     "transcription_variants": {
-      "us": "/kɑːrd/"
+      "us": "/k\u0251\u02d0rd/"
     }
   },
   {
@@ -70,7 +71,7 @@
     "examples": [
       "He paid with cash at shop."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -80,12 +81,13 @@
       "A1",
       "A2"
     ],
-    "transcription": "/kæʃ/",
-    "emoji": "💵",
+    "transcription": "/k\u00e6\u0283/",
+    "emoji": "\ud83d\udcb5",
     "antonyms": [
       "card"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:coin:noun",
@@ -99,17 +101,18 @@
     "examples": [
       "He dropped a metal coin."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "coins",
     "tags": [
       "spoken"
     ],
-    "transcription": "/kɔɪn/",
+    "transcription": "/k\u0254\u026an/",
     "no_antonym": true,
-    "emoji": "🪙",
-    "countability": "countable"
+    "emoji": "\ud83e\ude99",
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:note:noun",
@@ -123,20 +126,21 @@
     "examples": [
       "She paid with a ten pound note."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "notes",
-    "transcription": "/nəʊt/",
+    "transcription": "/n\u0259\u028at/",
     "no_antonym": true,
-    "emoji": "💵",
+    "emoji": "\ud83d\udcb5",
     "countability": "countable",
     "transcription_variants": {
-      "us": "/noʊt/"
+      "us": "/no\u028at/"
     },
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:bank:noun",
@@ -150,7 +154,7 @@
     "examples": [
       "Deposit money in the bank."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "banks",
@@ -160,10 +164,11 @@
     "levels": [
       "A1"
     ],
-    "transcription": "/bæŋk/",
+    "transcription": "/b\u00e6\u014bk/",
     "no_antonym": true,
-    "emoji": "🏦",
-    "countability": "countable"
+    "emoji": "\ud83c\udfe6",
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:price:noun",
@@ -177,17 +182,18 @@
     "examples": [
       "What is the price of coat?"
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "prices",
     "tags": [
       "spoken"
     ],
-    "transcription": "/praɪs/",
+    "transcription": "/pra\u026as/",
     "no_antonym": true,
-    "emoji": "🏷️",
-    "countability": "countable"
+    "emoji": "\ud83c\udff7\ufe0f",
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:cost:noun",
@@ -201,20 +207,21 @@
     "examples": [
       "The cost was ten pounds total."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "costs",
     "tags": [
       "spoken"
     ],
-    "transcription": "/kɒst/",
+    "transcription": "/k\u0252st/",
     "no_antonym": true,
-    "emoji": "💰",
+    "emoji": "\ud83d\udcb0",
     "countability": "countable",
     "transcription_variants": {
-      "us": "/kɑːst/"
-    }
+      "us": "/k\u0251\u02d0st/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cheap:noun",
@@ -228,18 +235,19 @@
     "examples": [
       "Buy cheap apples at the market."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/tʃiːp/",
-    "emoji": "🏷️",
+    "transcription": "/t\u0283i\u02d0p/",
+    "emoji": "\ud83c\udff7\ufe0f",
     "antonyms": [
       "expensive"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:expensive:noun",
@@ -253,18 +261,19 @@
     "examples": [
       "That car is very expensive."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ɪkˈspen.sɪv/",
-    "emoji": "💎",
+    "transcription": "/\u026ak\u02c8spen.s\u026av/",
+    "emoji": "\ud83d\udc8e",
     "antonyms": [
       "cheap"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:free:noun",
@@ -278,7 +287,7 @@
     "examples": [
       "Water is free in restaurant."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -288,12 +297,13 @@
       "A1",
       "B2"
     ],
-    "transcription": "/friː/",
-    "emoji": "🆓",
+    "transcription": "/fri\u02d0/",
+    "emoji": "\ud83c\udd93",
     "antonyms": [
       "paid"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:buy:noun",
@@ -307,19 +317,20 @@
     "examples": [
       "This coat was a good buy."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "buys",
     "tags": [
       "spoken"
     ],
-    "transcription": "/baɪ/",
-    "emoji": "🛒",
+    "transcription": "/ba\u026a/",
+    "emoji": "\ud83d\uded2",
     "antonyms": [
       "sell"
     ],
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:sell:noun",
@@ -333,18 +344,19 @@
     "examples": [
       "Items are for sell here."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/sel/",
-    "emoji": "🏷️",
+    "emoji": "\ud83c\udff7\ufe0f",
     "antonyms": [
       "buy"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:spend:noun",
@@ -358,7 +370,7 @@
     "examples": [
       "Check your weekly spend money."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -369,11 +381,12 @@
       "A2"
     ],
     "transcription": "/spend/",
-    "emoji": "💸",
+    "emoji": "\ud83d\udcb8",
     "antonyms": [
       "save"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:shopping:noun",
@@ -387,7 +400,7 @@
     "examples": [
       "We go shopping on Saturday."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -397,13 +410,14 @@
       "A1",
       "A2"
     ],
-    "transcription": "/ˈʃɒp.ɪŋ/",
+    "transcription": "/\u02c8\u0283\u0252p.\u026a\u014b/",
     "no_antonym": true,
-    "emoji": "🛒",
+    "emoji": "\ud83d\uded2",
     "countability": "uncountable",
     "transcription_variants": {
-      "us": "/ˈʃɑː.pɪŋ/"
-    }
+      "us": "/\u02c8\u0283\u0251\u02d0.p\u026a\u014b/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:store:noun",
@@ -417,7 +431,7 @@
     "examples": [
       "The grocery store opened early today."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "stores",
@@ -428,19 +442,20 @@
       "A1",
       "A2"
     ],
-    "transcription": "/stɔː/",
+    "transcription": "/st\u0254\u02d0/",
     "no_antonym": true,
-    "emoji": "🏪",
+    "emoji": "\ud83c\udfea",
     "countability": "countable",
     "transcription_variants": {
-      "us": "/stɔːr/"
+      "us": "/st\u0254\u02d0r/"
     },
     "region": [
       "US"
     ],
     "regional_equivalents": [
       "en:shop:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:market:noun",
@@ -454,7 +469,7 @@
     "examples": [
       "Fresh fruit is sold at the market."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "markets",
@@ -466,12 +481,13 @@
       "B1",
       "B2"
     ],
-    "transcription": "/ˈmɑː.kɪt/",
+    "transcription": "/\u02c8m\u0251\u02d0.k\u026at/",
     "no_antonym": true,
-    "emoji": "🛍️",
+    "emoji": "\ud83d\udecd\ufe0f",
     "countability": "countable",
     "transcription_variants": {
-      "us": "/ˈmɑːr.kɪt/"
-    }
+      "us": "/\u02c8m\u0251\u02d0r.k\u026at/"
+    },
+    "sub_theme": "general"
   }
 ]

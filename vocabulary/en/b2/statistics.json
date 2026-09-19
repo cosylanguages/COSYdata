@@ -11,7 +11,7 @@
     "examples": [
       "Statistical reports indicated a sharp decline in birth rates across several European nations last year."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "declines",
@@ -29,7 +29,8 @@
     "antonyms": [
       "rise",
       "increase"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:extrapolate:verb",
@@ -43,7 +44,7 @@
     "examples": [
       "Researchers attempted to extrapolate future population growth based on data collected over the past decade."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -61,7 +62,8 @@
       "deduce",
       "infer"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:significant:adjective",
@@ -75,7 +77,7 @@
     "examples": [
       "Clinical trials demonstrated a statistically significant reduction in symptoms among patients receiving treatment."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -94,7 +96,8 @@
     "antonyms": [
       "insignificant",
       "negligible"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:qualitative:adjective",
@@ -108,7 +111,7 @@
     "examples": [
       "Qualitative research methods, such as in-depth interviews, were used to explore patient medical experiences."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -208,7 +211,7 @@
     "examples": [
       "Quantitative analysis required surveying thousands of respondents to produce reliable statistical data charts."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -237,7 +240,7 @@
     "examples": [
       "High price volatility in the energy market created uncertainty for manufacturing business planning."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "levels": [
@@ -255,7 +258,8 @@
     "antonyms": [
       "stability",
       "steadiness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:steady:noun",
@@ -326,7 +330,7 @@
     "examples": [
       "Administrative changes resulted in only a marginal reduction in overall corporate operational expenses."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "tags": [
@@ -346,7 +350,8 @@
     "antonyms": [
       "substantial",
       "significant"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:statistically:noun",
@@ -416,7 +421,7 @@
     "examples": [
       "A representative sample of voters was interviewed to predict election outcomes accurately."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "samples",
@@ -575,7 +580,7 @@
     "examples": [
       "The company set a new environmental benchmark by reducing corporate carbon emissions by fifty percent."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "statistics",
     "updated": "2025-01-15",
     "plural_form": "benchmarks",
@@ -608,8 +613,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈdiː.vi.eɪt/",
-    "emoji": "📊",
+    "transcription": "/\u02c8di\u02d0.vi.e\u026at/",
+    "emoji": "\ud83d\udcca",
     "synonyms": [
       "diverge",
       "stray"
@@ -630,21 +635,22 @@
     "examples": [
       "Numerous studies confirmed the health benefits of regular sleep habits."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "statistics",
     "tags": [
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈnjuː.mə.rəs/",
-    "emoji": "🔢",
+    "transcription": "/\u02c8nju\u02d0.m\u0259.r\u0259s/",
+    "emoji": "\ud83d\udd22",
     "synonyms": [
       "many",
       "abundant"
     ],
     "antonyms": [
       "few"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:overestimate:verb",
@@ -658,20 +664,21 @@
     "examples": [
       "Analysts warned that initial revenue projections overestimate market demand."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "statistics",
     "tags": [
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌəʊ.vərˈes.tɪ.meɪt/",
-    "emoji": "📈",
+    "transcription": "/\u02cc\u0259\u028a.v\u0259r\u02c8es.t\u026a.me\u026at/",
+    "emoji": "\ud83d\udcc8",
     "synonyms": [
       "overrate",
       "overvalue"
     ],
     "antonyms": [
       "underestimate"
-    ]
+    ],
+    "sub_theme": "general"
   }
 ]

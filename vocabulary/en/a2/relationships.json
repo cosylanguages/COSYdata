@@ -11,7 +11,7 @@
     "examples": [
       "They get along very well with each other."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "tags": [
@@ -20,10 +20,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ɡet/",
-    "emoji": "🤝",
+    "transcription": "/\u0261et/",
+    "emoji": "\ud83e\udd1d",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:make:noun",
@@ -37,16 +38,17 @@
     "examples": [
       "It is easy to make new friends here."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/meɪk/",
-    "emoji": "🤝",
+    "transcription": "/me\u026ak/",
+    "emoji": "\ud83e\udd1d",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:fight:verb",
@@ -63,8 +65,8 @@
     "domain": "general",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/faɪt/",
-    "emoji": "🥊",
+    "transcription": "/fa\u026at/",
+    "emoji": "\ud83e\udd4a",
     "antonyms": [
       "make peace"
     ]
@@ -81,7 +83,7 @@
     "examples": [
       "She felt sad after their recent break up."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
@@ -89,12 +91,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "break-ups",
-    "transcription": "/breɪk ʌp/",
-    "emoji": "💔",
+    "transcription": "/bre\u026ak \u028cp/",
+    "emoji": "\ud83d\udc94",
     "countability": "countable",
     "antonyms": [
       "get together"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:relationship:noun",
@@ -108,17 +111,18 @@
     "examples": [
       "They have a close relationship with parents."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "relationships",
     "tags": [
       "spoken"
     ],
-    "transcription": "/rɪˈleɪ.ʃən.ʃɪp/",
-    "emoji": "💑",
+    "transcription": "/r\u026a\u02c8le\u026a.\u0283\u0259n.\u0283\u026ap/",
+    "emoji": "\ud83d\udc91",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:friendship:noun",
@@ -132,19 +136,20 @@
     "examples": [
       "Their long friendship started in school."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "friendships",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈfrend.ʃɪp/",
-    "emoji": "🧑‍🤝‍🧑",
+    "transcription": "/\u02c8frend.\u0283\u026ap/",
+    "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
     "countability": "countable",
     "antonyms": [
       "enmity"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:dating:noun",
@@ -164,12 +169,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈdeɪ.tɪŋ/",
-    "emoji": "💕",
+    "transcription": "/\u02c8de\u026a.t\u026a\u014b/",
+    "emoji": "\ud83d\udc95",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈdeɪ.t̬ɪŋ/"
+      "us": "/\u02c8de\u026a.t\u032c\u026a\u014b/"
     }
   },
   {
@@ -184,19 +189,20 @@
     "examples": [
       "Her boyfriend gave her flowers today."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "boyfriends",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈbɔɪ.frend/",
-    "emoji": "👦",
+    "transcription": "/\u02c8b\u0254\u026a.frend/",
+    "emoji": "\ud83d\udc66",
     "countability": "countable",
     "antonyms": [
       "girlfriend"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:girlfriend:noun",
@@ -210,22 +216,23 @@
     "examples": [
       "He invited his girlfriend to dinner."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "girlfriends",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈɡɜːl.frend/",
-    "emoji": "👧",
+    "transcription": "/\u02c8\u0261\u025c\u02d0l.frend/",
+    "emoji": "\ud83d\udc67",
     "countability": "countable",
     "antonyms": [
       "boyfriend"
     ],
     "transcription_variants": {
-      "us": "/ˈɡɝːl.frend/"
-    }
+      "us": "/\u02c8\u0261\u025d\u02d0l.frend/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:partner:noun",
@@ -239,20 +246,21 @@
     "examples": [
       "She walked in the park with her partner."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "partners",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈpɑːt.nər/",
-    "emoji": "🧑‍🤝‍🧑",
+    "transcription": "/\u02c8p\u0251\u02d0t.n\u0259r/",
+    "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈpɑːrt.nɚ/"
-    }
+      "us": "/\u02c8p\u0251\u02d0rt.n\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:engaged:noun",
@@ -266,13 +274,14 @@
     "examples": [
       "The happy couple got engaged last month."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ɪnˈɡeɪdʒd/",
-    "emoji": "💍",
+    "transcription": "/\u026an\u02c8\u0261e\u026ad\u0292d/",
+    "emoji": "\ud83d\udc8d",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:engagement:noun",
@@ -298,8 +307,8 @@
       "B2",
       "C1"
     ],
-    "transcription": "/ɪnˈɡeɪdʒ.mənt/",
-    "emoji": "💍",
+    "transcription": "/\u026an\u02c8\u0261e\u026ad\u0292.m\u0259nt/",
+    "emoji": "\ud83d\udc8d",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "teachers-scientists"
@@ -323,8 +332,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈmær.ɪdʒ/",
-    "emoji": "💒",
+    "transcription": "/\u02c8m\u00e6r.\u026ad\u0292/",
+    "emoji": "\ud83d\udc92",
     "countability": "countable",
     "antonyms": [
       "divorce"
@@ -349,14 +358,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/dɪˈvɔːs/",
-    "emoji": "📄",
+    "transcription": "/d\u026a\u02c8v\u0254\u02d0s/",
+    "emoji": "\ud83d\udcc4",
     "countability": "countable",
     "antonyms": [
       "marriage"
     ],
     "transcription_variants": {
-      "us": "/dɪˈvɔːrs/"
+      "us": "/d\u026a\u02c8v\u0254\u02d0rs/"
     }
   },
   {
@@ -374,14 +383,14 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈsep.ər.eɪ.tɪd/",
-    "emoji": "💔",
+    "transcription": "/\u02c8sep.\u0259r.e\u026a.t\u026ad/",
+    "emoji": "\ud83d\udc94",
     "countability": "uncountable",
     "antonyms": [
       "together"
     ],
     "transcription_variants": {
-      "us": "/ˈsep.ɚ.eɪ.t̬ɪd/"
+      "us": "/\u02c8sep.\u025a.e\u026a.t\u032c\u026ad/"
     }
   },
   {
@@ -396,16 +405,17 @@
     "examples": [
       "They get along very well together."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/əˈlɒŋ/",
-    "emoji": "➡️",
+    "transcription": "/\u0259\u02c8l\u0252\u014b/",
+    "emoji": "\u27a1\ufe0f",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/əˈlɑːŋ/"
-    }
+      "us": "/\u0259\u02c8l\u0251\u02d0\u014b/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:guest:noun",
@@ -419,16 +429,17 @@
     "examples": [
       "Each guest received a warm welcome."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "guests",
-    "transcription": "/ɡest/",
-    "emoji": "👤",
+    "transcription": "/\u0261est/",
+    "emoji": "\ud83d\udc64",
     "countability": "countable",
     "antonyms": [
       "host"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:host:noun",
@@ -442,18 +453,18 @@
     "examples": [
       "The party host offered drinks to everyone."
     ],
-    "domain": "general, relocation, travel, professional",
+    "domain": "general, relocation, travel, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "hosts",
-    "transcription": "/həʊst/",
-    "emoji": "🤵",
+    "transcription": "/h\u0259\u028ast/",
+    "emoji": "\ud83e\udd35",
     "countability": "countable",
     "antonyms": [
       "guest"
     ],
     "transcription_variants": {
-      "us": "/hoʊst/"
+      "us": "/ho\u028ast/"
     },
     "sub_theme": "it-specialists"
   },
@@ -472,8 +483,8 @@
     "domain": "general, relocation",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈsel.ə.breɪt/",
-    "emoji": "🎉",
+    "transcription": "/\u02c8sel.\u0259.bre\u026at/",
+    "emoji": "\ud83c\udf89",
     "no_antonym": true
   },
   {
@@ -488,17 +499,18 @@
     "examples": [
       "We attended a small family gathering."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "gatherings",
-    "transcription": "/ˈɡæð.ər.ɪŋ/",
-    "emoji": "👥",
+    "transcription": "/\u02c8\u0261\u00e6\u00f0.\u0259r.\u026a\u014b/",
+    "emoji": "\ud83d\udc65",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈɡæð.ɚ.ɪŋ/"
-    }
+      "us": "/\u02c8\u0261\u00e6\u00f0.\u025a.\u026a\u014b/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:reunion:noun",
@@ -512,14 +524,15 @@
     "examples": [
       "They organized a high school class reunion."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "reunions",
-    "transcription": "/ˌriːˈjuː.ni.ən/",
-    "emoji": "👥",
+    "transcription": "/\u02ccri\u02d0\u02c8ju\u02d0.ni.\u0259n/",
+    "emoji": "\ud83d\udc65",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:introduce:verb",
@@ -536,11 +549,11 @@
     "domain": "general, relocation",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˌɪn.trəˈdʒuːs/",
-    "emoji": "🤝",
+    "transcription": "/\u02cc\u026an.tr\u0259\u02c8d\u0292u\u02d0s/",
+    "emoji": "\ud83e\udd1d",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌɪn.trəˈduːs/"
+      "us": "/\u02cc\u026an.tr\u0259\u02c8du\u02d0s/"
     }
   },
   {
@@ -555,18 +568,19 @@
     "examples": [
       "Please introduce yourself to the group."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/jɔːˈself/",
-    "emoji": "🫵",
+    "transcription": "/j\u0254\u02d0\u02c8self/",
+    "emoji": "\ud83e\udef5",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/jɚˈself/"
-    }
+      "us": "/j\u025a\u02c8self/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:apologise:verb",
@@ -583,11 +597,11 @@
     "domain": "general",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/əˈpɒl.ə.dʒaɪz/",
-    "emoji": "🙏",
+    "transcription": "/\u0259\u02c8p\u0252l.\u0259.d\u0292a\u026az/",
+    "emoji": "\ud83d\ude4f",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/əˈpɑː.lə.dʒaɪz/"
+      "us": "/\u0259\u02c8p\u0251\u02d0.l\u0259.d\u0292a\u026az/"
     },
     "region": [
       "UK"
@@ -605,18 +619,19 @@
     "examples": [
       "People like to gossip during coffee break."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈɡɒs.ɪp/",
-    "emoji": "🗣️",
+    "transcription": "/\u02c8\u0261\u0252s.\u026ap/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈɡɑː.səp/"
-    }
+      "us": "/\u02c8\u0261\u0251\u02d0.s\u0259p/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:rumour:noun",
@@ -630,20 +645,21 @@
     "examples": [
       "Do not believe every rumour you hear."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "plural_form": "rumours",
-    "transcription": "/ˈruː.mər/",
-    "emoji": "🗣️",
+    "transcription": "/\u02c8ru\u02d0.m\u0259r/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈruː.mɚ/"
+      "us": "/\u02c8ru\u02d0.m\u025a/"
     },
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:rumor:noun",
@@ -664,12 +680,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈruː.mər/",
-    "emoji": "🗣️",
+    "transcription": "/\u02c8ru\u02d0.m\u0259r/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈruː.mɚ/"
+      "us": "/\u02c8ru\u02d0.m\u025a/"
     }
   },
   {
@@ -684,17 +700,18 @@
     "examples": [
       "I trust my best friend completely."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/trʌst/",
-    "emoji": "🤝",
+    "transcription": "/tr\u028cst/",
+    "emoji": "\ud83e\udd1d",
     "antonyms": [
       "distrust"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:ex-boyfriend:noun",
@@ -716,8 +733,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "ex-boyfriends",
-    "transcription": "/ˌeksˈbɔɪ.frend/",
-    "emoji": "👦",
+    "transcription": "/\u02cceks\u02c8b\u0254\u026a.frend/",
+    "emoji": "\ud83d\udc66",
     "countability": "countable",
     "no_antonym": true
   },
@@ -731,7 +748,7 @@
       "A former female romantic partner."
     ],
     "examples": [
-      "He met his ex-girlfriend at a café."
+      "He met his ex-girlfriend at a caf\u00e9."
     ],
     "domain": "spoken",
     "theme": "relationships",
@@ -741,17 +758,17 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "ex-girlfriends",
-    "transcription": "/ˌeksˈɡɜːl.frend/",
-    "emoji": "👧",
+    "transcription": "/\u02cceks\u02c8\u0261\u025c\u02d0l.frend/",
+    "emoji": "\ud83d\udc67",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌeksˈɡɝːl.frend/"
+      "us": "/\u02cceks\u02c8\u0261\u025d\u02d0l.frend/"
     }
   },
   {
     "id": "en:fiance:noun",
-    "word": "fiancé",
+    "word": "fianc\u00e9",
     "language": "en",
     "form": "noun",
     "level": "A2",
@@ -759,7 +776,7 @@
       "A man engaged to be married."
     ],
     "examples": [
-      "Her fiancé bought a new house for them."
+      "Her fianc\u00e9 bought a new house for them."
     ],
     "domain": "general, spoken, travel",
     "theme": "relationships",
@@ -768,13 +785,13 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "plural_form": "fiancés",
-    "transcription": "/fiˈɒn.seɪ/",
-    "emoji": "💍",
+    "plural_form": "fianc\u00e9s",
+    "transcription": "/fi\u02c8\u0252n.se\u026a/",
+    "emoji": "\ud83d\udc8d",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌfiː.ɑːnˈseɪ/"
+      "us": "/\u02ccfi\u02d0.\u0251\u02d0n\u02c8se\u026a/"
     },
     "levels": [
       "A2"
@@ -782,7 +799,7 @@
   },
   {
     "id": "en:fiancee:noun",
-    "word": "fiancée",
+    "word": "fianc\u00e9e",
     "language": "en",
     "form": "noun",
     "level": "A2",
@@ -790,7 +807,7 @@
       "A woman engaged to be married."
     ],
     "examples": [
-      "His fiancée looked stunning in white."
+      "His fianc\u00e9e looked stunning in white."
     ],
     "domain": "general, spoken, travel",
     "theme": "relationships",
@@ -799,13 +816,13 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "plural_form": "fiancées",
-    "transcription": "/fiˈɒn.seɪ/",
-    "emoji": "💍",
+    "plural_form": "fianc\u00e9es",
+    "transcription": "/fi\u02c8\u0252n.se\u026a/",
+    "emoji": "\ud83d\udc8d",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌfiː.ɑːnˈseɪ/"
+      "us": "/\u02ccfi\u02d0.\u0251\u02d0n\u02c8se\u026a/"
     },
     "levels": [
       "A2"
@@ -831,12 +848,12 @@
     ],
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": "/ˈɪn.lɔːz/",
-    "emoji": "👨‍👩‍👧‍👦",
+    "transcription": "/\u02c8\u026an.l\u0254\u02d0z/",
+    "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
     "singular_workaround": "an in-law",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈɪn.lɑːz/"
+      "us": "/\u02c8\u026an.l\u0251\u02d0z/"
     },
     "levels": [
       "A2",
@@ -855,7 +872,7 @@
     "examples": [
       "Her stepmother prepared a delicious dinner."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
@@ -863,13 +880,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "stepmothers",
-    "transcription": "/ˈstepˌmʌð.ər/",
-    "emoji": "👩",
+    "transcription": "/\u02c8step\u02ccm\u028c\u00f0.\u0259r/",
+    "emoji": "\ud83d\udc69",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈstepˌmʌð.ɚ/"
-    }
+      "us": "/\u02c8step\u02ccm\u028c\u00f0.\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:stepfather:noun",
@@ -883,7 +901,7 @@
     "examples": [
       "His stepfather helped him build a bike."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
@@ -891,13 +909,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "stepfathers",
-    "transcription": "/ˈstepˌfɑː.ðər/",
-    "emoji": "👨",
+    "transcription": "/\u02c8step\u02ccf\u0251\u02d0.\u00f0\u0259r/",
+    "emoji": "\ud83d\udc68",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈstepˌfɑː.ðɚ/"
-    }
+      "us": "/\u02c8step\u02ccf\u0251\u02d0.\u00f0\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:half-brother:noun",
@@ -919,12 +938,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "half-brothers",
-    "transcription": "/ˈhɑːfˌbrʌð.ər/",
-    "emoji": "👦",
+    "transcription": "/\u02c8h\u0251\u02d0f\u02ccbr\u028c\u00f0.\u0259r/",
+    "emoji": "\ud83d\udc66",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈhæfˌbrʌð.ɚ/"
+      "us": "/\u02c8h\u00e6f\u02ccbr\u028c\u00f0.\u025a/"
     }
   },
   {
@@ -947,12 +966,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "half-sisters",
-    "transcription": "/ˈhɑːfˌsɪs.tər/",
-    "emoji": "👧",
+    "transcription": "/\u02c8h\u0251\u02d0f\u02ccs\u026as.t\u0259r/",
+    "emoji": "\ud83d\udc67",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈhæfˌsɪs.tɚ/"
+      "us": "/\u02c8h\u00e6f\u02ccs\u026as.t\u025a/"
     }
   },
   {
@@ -975,14 +994,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "close friends",
-    "transcription": "/ˌkləʊs ˈfrend/",
-    "emoji": "🧑‍🤝‍🧑",
+    "transcription": "/\u02cckl\u0259\u028as \u02c8frend/",
+    "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
     "countability": "countable",
     "antonyms": [
       "stranger"
     ],
     "transcription_variants": {
-      "us": "/ˌkloʊs ˈfrend/"
+      "us": "/\u02ccklo\u028as \u02c8frend/"
     }
   },
   {
@@ -997,7 +1016,7 @@
     "examples": [
       "My best friend lives next door."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
@@ -1005,12 +1024,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "best friends",
-    "transcription": "/ˌbest ˈfrend/",
-    "emoji": "🧑‍🤝‍🧑",
+    "transcription": "/\u02ccbest \u02c8frend/",
+    "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
     "countability": "countable",
     "antonyms": [
       "enemy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:acquaintance:noun",
@@ -1024,7 +1044,7 @@
     "examples": [
       "He is an acquaintance from my gym."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
@@ -1032,12 +1052,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "acquaintances",
-    "transcription": "/əˈkweɪn.təns/",
-    "emoji": "🤝",
+    "transcription": "/\u0259\u02c8kwe\u026an.t\u0259ns/",
+    "emoji": "\ud83e\udd1d",
     "countability": "countable",
     "antonyms": [
       "stranger"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:roommate:noun",
@@ -1059,8 +1080,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "roommates",
-    "transcription": "/ˈruːm.meɪt/",
-    "emoji": "🚪",
+    "transcription": "/\u02c8ru\u02d0m.me\u026at/",
+    "emoji": "\ud83d\udeaa",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1076,22 +1097,23 @@
     "examples": [
       "I get along with all my coworkers."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet əˈlɒŋ wɪð/",
-    "emoji": "🤝",
+    "transcription": "/\u0261et \u0259\u02c8l\u0252\u014b w\u026a\u00f0/",
+    "emoji": "\ud83e\udd1d",
     "countability": "uncountable",
     "antonyms": [
       "argue with"
     ],
     "transcription_variants": {
-      "us": "/ɡet əˈlɑːŋ wɪð/"
-    }
+      "us": "/\u0261et \u0259\u02c8l\u0251\u02d0\u014b w\u026a\u00f0/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:fall-in-love:noun",
@@ -1112,12 +1134,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/fɔːl ɪn lʌv/",
-    "emoji": "❤️",
+    "transcription": "/f\u0254\u02d0l \u026an l\u028cv/",
+    "emoji": "\u2764\ufe0f",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/fɑːl ɪn lʌv/"
+      "us": "/f\u0251\u02d0l \u026an l\u028cv/"
     }
   },
   {
@@ -1132,19 +1154,20 @@
     "examples": [
       "They plan to get married next spring."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet ˈmær.id/",
-    "emoji": "💒",
+    "transcription": "/\u0261et \u02c8m\u00e6r.id/",
+    "emoji": "\ud83d\udc92",
     "countability": "uncountable",
     "antonyms": [
       "get divorced"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:get-divorced:noun",
@@ -1165,14 +1188,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet dɪˈvɔːst/",
-    "emoji": "📄",
+    "transcription": "/\u0261et d\u026a\u02c8v\u0254\u02d0st/",
+    "emoji": "\ud83d\udcc4",
     "countability": "uncountable",
     "antonyms": [
       "get married"
     ],
     "transcription_variants": {
-      "us": "/ɡet dɪˈvɔːrst/"
+      "us": "/\u0261et d\u026a\u02c8v\u0254\u02d0rst/"
     }
   },
   {
@@ -1187,20 +1210,21 @@
     "examples": [
       "He decided to propose on her birthday."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/prəˈpəʊz/",
-    "emoji": "💍",
+    "transcription": "/pr\u0259\u02c8p\u0259\u028az/",
+    "emoji": "\ud83d\udc8d",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/prəˈpoʊz/"
-    }
+      "us": "/pr\u0259\u02c8po\u028az/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:care-about:noun",
@@ -1221,14 +1245,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/keər əˈbaʊt/",
-    "emoji": "❤️",
+    "transcription": "/ke\u0259r \u0259\u02c8ba\u028at/",
+    "emoji": "\u2764\ufe0f",
     "countability": "uncountable",
     "antonyms": [
       "ignore"
     ],
     "transcription_variants": {
-      "us": "/ker əˈbaʊt/"
+      "us": "/ker \u0259\u02c8ba\u028at/"
     }
   },
   {
@@ -1243,19 +1267,20 @@
     "examples": [
       "Please get in touch when you arrive."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet ɪn tʌtʃ/",
-    "emoji": "📱",
+    "transcription": "/\u0261et \u026an t\u028ct\u0283/",
+    "emoji": "\ud83d\udcf1",
     "countability": "uncountable",
     "antonyms": [
       "lose touch"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:keep-in-touch:noun",
@@ -1269,19 +1294,20 @@
     "examples": [
       "We keep in touch through weekly emails."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/kiːp ɪn tʌtʃ/",
-    "emoji": "📱",
+    "transcription": "/ki\u02d0p \u026an t\u028ct\u0283/",
+    "emoji": "\ud83d\udcf1",
     "countability": "uncountable",
     "antonyms": [
       "lose touch"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:lose-touch:noun",
@@ -1295,19 +1321,20 @@
     "examples": [
       "It is easy to lose touch after moving."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "relationships",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/luːz tʌtʃ/",
-    "emoji": "📱",
+    "transcription": "/lu\u02d0z t\u028ct\u0283/",
+    "emoji": "\ud83d\udcf1",
     "countability": "uncountable",
     "antonyms": [
       "keep in touch"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:belong:verb",
@@ -1324,8 +1351,8 @@
     "domain": "general, spoken, relocation",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/bɪˈlɒŋ/",
-    "emoji": "🔑",
+    "transcription": "/b\u026a\u02c8l\u0252\u014b/",
+    "emoji": "\ud83d\udd11",
     "no_antonym": true
   },
   {
@@ -1340,17 +1367,18 @@
     "examples": [
       "She updated her official civil status to divorced on the form."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/dɪˈvɔːst/",
+    "transcription": "/d\u026a\u02c8v\u0254\u02d0st/",
     "transcription_variants": {
-      "us": "/dɪˈvɔːrst/"
+      "us": "/d\u026a\u02c8v\u0254\u02d0rst/"
     },
-    "emoji": "💔",
+    "emoji": "\ud83d\udc94",
     "antonyms": [
       "married"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:in-law:noun",
@@ -1367,11 +1395,11 @@
     "domain": "general, relocation",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈɪn.lɔː/",
+    "transcription": "/\u02c8\u026an.l\u0254\u02d0/",
     "transcription_variants": {
-      "us": "/ˈɪn.lɑː/"
+      "us": "/\u02c8\u026an.l\u0251\u02d0/"
     },
-    "emoji": "👨‍👩‍👧",
+    "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "in-laws"
@@ -1391,11 +1419,11 @@
     "domain": "general, relocation",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˌsiː.ni.ə ˈsɪt.ɪ.zən/",
+    "transcription": "/\u02ccsi\u02d0.ni.\u0259 \u02c8s\u026at.\u026a.z\u0259n/",
     "transcription_variants": {
-      "us": "/ˌsiː.njɚ ˈsɪt̬.ə.zən/"
+      "us": "/\u02ccsi\u02d0.nj\u025a \u02c8s\u026at\u032c.\u0259.z\u0259n/"
     },
-    "emoji": "👵",
+    "emoji": "\ud83d\udc75",
     "antonyms": [
       "minor"
     ],
@@ -1414,19 +1442,20 @@
     "examples": [
       "A polite stranger helped us locate the correct platform."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈstreɪn.dʒə/",
+    "transcription": "/\u02c8stre\u026an.d\u0292\u0259/",
     "transcription_variants": {
-      "us": "/ˈstreɪn.dʒɚ/"
+      "us": "/\u02c8stre\u026an.d\u0292\u025a/"
     },
-    "emoji": "👤",
+    "emoji": "\ud83d\udc64",
     "antonyms": [
       "friend"
     ],
     "countability": "countable",
-    "plural_form": "strangers"
+    "plural_form": "strangers",
+    "sub_theme": "general"
   },
   {
     "id": "en:widow:noun",
@@ -1440,19 +1469,20 @@
     "examples": [
       "The elderly widow lived quietly in a small apartment."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈwɪd.əʊ/",
+    "transcription": "/\u02c8w\u026ad.\u0259\u028a/",
     "transcription_variants": {
-      "us": "/ˈwɪd.oʊ/"
+      "us": "/\u02c8w\u026ad.o\u028a/"
     },
-    "emoji": "👵",
+    "emoji": "\ud83d\udc75",
     "antonyms": [
       "widower"
     ],
     "countability": "countable",
-    "plural_form": "widows"
+    "plural_form": "widows",
+    "sub_theme": "general"
   },
   {
     "id": "en:widower:noun",
@@ -1466,19 +1496,20 @@
     "examples": [
       "He became a widower after his wife passed away last year."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈwɪd.əʊ.ə/",
+    "transcription": "/\u02c8w\u026ad.\u0259\u028a.\u0259/",
     "transcription_variants": {
-      "us": "/ˈwɪd.oʊ.ɚ/"
+      "us": "/\u02c8w\u026ad.o\u028a.\u025a/"
     },
-    "emoji": "👴",
+    "emoji": "\ud83d\udc74",
     "antonyms": [
       "widow"
     ],
     "countability": "countable",
-    "plural_form": "widowers"
+    "plural_form": "widowers",
+    "sub_theme": "general"
   },
   {
     "id": "en:gather:verb",
@@ -1498,11 +1529,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈɡæð.ər/",
+    "transcription": "/\u02c8\u0261\u00e6\u00f0.\u0259r/",
     "transcription_variants": {
-      "us": "/ˈɡæð.ɚ/"
+      "us": "/\u02c8\u0261\u00e6\u00f0.\u025a/"
     },
-    "emoji": "👥",
+    "emoji": "\ud83d\udc65",
     "antonyms": [
       "scatter"
     ]
@@ -1525,8 +1556,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/dʒɔɪn/",
-    "emoji": "➕",
+    "transcription": "/d\u0292\u0254\u026an/",
+    "emoji": "\u2795",
     "antonyms": [
       "leave"
     ]
@@ -1543,17 +1574,18 @@
     "examples": [
       "We decided to end the agreement by mutual consent."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "relations",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈmjuː.tʃu.əl/",
-    "emoji": "🤝",
+    "transcription": "/\u02c8mju\u02d0.t\u0283u.\u0259l/",
+    "emoji": "\ud83e\udd1d",
     "antonyms": [
       "one-sided"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:participate:verb",
@@ -1573,11 +1605,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/pɑːˈtɪs.ɪ.peɪt/",
+    "transcription": "/p\u0251\u02d0\u02c8t\u026as.\u026a.pe\u026at/",
     "transcription_variants": {
-      "us": "/pɑːrˈtɪs.ə.peɪt/"
+      "us": "/p\u0251\u02d0r\u02c8t\u026as.\u0259.pe\u026at/"
     },
-    "emoji": "🙋",
+    "emoji": "\ud83d\ude4b",
     "antonyms": [
       "abstain"
     ],
@@ -1601,8 +1633,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/rɪˈleɪt/",
-    "emoji": "🤝",
+    "transcription": "/r\u026a\u02c8le\u026at/",
+    "emoji": "\ud83e\udd1d",
     "no_antonym": true
   },
   {
@@ -1620,8 +1652,8 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈel.dəl.i ˈrel.ə.tɪv/",
-    "emoji": "👴",
+    "transcription": "/\u02c8el.d\u0259l.i \u02c8rel.\u0259.t\u026av/",
+    "emoji": "\ud83d\udc74",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "elderly relatives"
@@ -1641,8 +1673,8 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈhʌn.i.muːn/",
-    "emoji": "💍",
+    "transcription": "/\u02c8h\u028cn.i.mu\u02d0n/",
+    "emoji": "\ud83d\udc8d",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "honeymoons"
@@ -1662,8 +1694,8 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈneɪ.bəz/",
-    "emoji": "🏠",
+    "transcription": "/\u02c8ne\u026a.b\u0259z/",
+    "emoji": "\ud83c\udfe0",
     "no_antonym": true,
     "countability": "pluralia_tantum"
   },
@@ -1682,8 +1714,8 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/ˈnjuː.bɔːn/",
-    "emoji": "👶",
+    "transcription": "/\u02c8nju\u02d0.b\u0254\u02d0n/",
+    "emoji": "\ud83d\udc76",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "newborns"
@@ -1703,8 +1735,8 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/pen pæl/",
-    "emoji": "✉️",
+    "transcription": "/pen p\u00e6l/",
+    "emoji": "\u2709\ufe0f",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "pen pals"
@@ -1724,8 +1756,8 @@
     "domain": "general, travel",
     "theme": "relationships",
     "updated": "2025-01-15",
-    "transcription": "/jʌŋ əˈdʌlt/",
-    "emoji": "🧑",
+    "transcription": "/j\u028c\u014b \u0259\u02c8d\u028clt/",
+    "emoji": "\ud83e\uddd1",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "young adults"

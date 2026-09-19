@@ -11,14 +11,14 @@
     "examples": [
       "High workloads at the office can cause severe mental stress over time."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
     "transcription": "/stres/",
-    "emoji": "😰",
+    "emoji": "\ud83d\ude30",
     "synonyms": [
       "emphasize",
       "worry",
@@ -26,7 +26,8 @@
     ],
     "antonyms": [
       "relax"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:therapy:noun",
@@ -40,7 +41,7 @@
     "examples": [
       "She attends speech therapy sessions once a week to improve her pronunciation."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "therapies",
@@ -51,15 +52,16 @@
       "B1",
       "B2"
     ],
-    "transcription": "/ˈθer.ə.pi/",
-    "emoji": "🛋️",
+    "transcription": "/\u02c8\u03b8er.\u0259.pi/",
+    "emoji": "\ud83d\udecb\ufe0f",
     "countability": "countable",
     "synonyms": [
       "treatment",
       "counselling",
       "rehabilitation"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:wellbeing:noun",
@@ -73,7 +75,7 @@
     "examples": [
       "Regular exercise and good sleep contribute to your overall personal wellbeing."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -83,8 +85,8 @@
       "B1",
       "B2"
     ],
-    "transcription": "/ˌwelˈbiː.ɪŋ/",
-    "emoji": "🌱",
+    "transcription": "/\u02ccwel\u02c8bi\u02d0.\u026a\u014b/",
+    "emoji": "\ud83c\udf31",
     "countability": "uncountable",
     "synonyms": [
       "health",
@@ -94,7 +96,8 @@
     "antonyms": [
       "misery",
       "illness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:work-life-balance:noun",
@@ -108,7 +111,7 @@
     "examples": [
       "Achieving a healthy work-life balance helps prevent occupational employee burnout."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -118,8 +121,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˌwɜːk.laɪf ˈbæl.əns/",
-    "emoji": "⚖️",
+    "transcription": "/\u02ccw\u025c\u02d0k.la\u026af \u02c8b\u00e6l.\u0259ns/",
+    "emoji": "\u2696\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "lifestyle balance",
@@ -127,8 +130,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌwɝːk.laɪf ˈbæl.əns/"
-    }
+      "us": "/\u02ccw\u025d\u02d0k.la\u026af \u02c8b\u00e6l.\u0259ns/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:depression:noun",
@@ -142,15 +146,15 @@
     "examples": [
       "Clinical depression requires professional medical treatment and supportive counseling care."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "levels": [
       "B1",
       "B2"
     ],
-    "transcription": "/dɪˈpreʃ.ən/",
-    "emoji": "🌧️",
+    "transcription": "/d\u026a\u02c8pre\u0283.\u0259n/",
+    "emoji": "\ud83c\udf27\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "melancholy",
@@ -160,7 +164,8 @@
     "antonyms": [
       "happiness",
       "joy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:health:noun",
@@ -174,14 +179,14 @@
     "examples": [
       "Eating fresh fruits regularly is important for maintaining good overall health."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/helθ/",
-    "emoji": "🩺",
+    "transcription": "/hel\u03b8/",
+    "emoji": "\ud83e\ude7a",
     "countability": "uncountable",
     "synonyms": [
       "fitness",
@@ -191,7 +196,8 @@
     "antonyms": [
       "illness",
       "sickness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:mental:adjective",
@@ -208,8 +214,8 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈmen.təl/",
-    "emoji": "🧠",
+    "transcription": "/\u02c8men.t\u0259l/",
+    "emoji": "\ud83e\udde0",
     "synonyms": [
       "psychological",
       "cognitive",
@@ -220,7 +226,7 @@
       "bodily"
     ],
     "transcription_variants": {
-      "us": "/ˈmen.t̬əl/"
+      "us": "/\u02c8men.t\u032c\u0259l/"
     }
   },
   {
@@ -238,8 +244,8 @@
     "domain": "general, relocation, professional",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/æŋˈzaɪ.ə.ti/",
-    "emoji": "😰",
+    "transcription": "/\u00e6\u014b\u02c8za\u026a.\u0259.ti/",
+    "emoji": "\ud83d\ude30",
     "countability": "uncountable",
     "synonyms": [
       "worry",
@@ -251,7 +257,7 @@
       "serenity"
     ],
     "transcription_variants": {
-      "us": "/æŋˈzaɪ.ə.t̬i/"
+      "us": "/\u00e6\u014b\u02c8za\u026a.\u0259.t\u032ci/"
     }
   },
   {
@@ -266,14 +272,14 @@
     "examples": [
       "He felt extremely stressed when preparing for his final university examinations."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/strest/",
-    "emoji": "😰",
+    "emoji": "\ud83d\ude30",
     "countability": "uncountable",
     "synonyms": [
       "anxious",
@@ -283,7 +289,8 @@
     "antonyms": [
       "relaxed",
       "calm"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:therapist:noun",
@@ -297,19 +304,20 @@
     "examples": [
       "The therapist helped her overcome her fear of public speaking effectively."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "therapists",
-    "transcription": "/ˈθer.ə.pɪst/",
-    "emoji": "🛋️",
+    "transcription": "/\u02c8\u03b8er.\u0259.p\u026ast/",
+    "emoji": "\ud83d\udecb\ufe0f",
     "countability": "countable",
     "synonyms": [
       "counsellor",
       "psychotherapist",
       "analyst"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:counselling:noun",
@@ -323,18 +331,19 @@
     "examples": [
       "The university provides free student counselling services for emotional support."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈkaʊn.səl.ɪŋ/",
-    "emoji": "💬",
+    "transcription": "/\u02c8ka\u028an.s\u0259l.\u026a\u014b/",
+    "emoji": "\ud83d\udcac",
     "countability": "uncountable",
     "synonyms": [
       "therapy",
       "guidance",
       "counseling"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:counseling:noun",
@@ -354,8 +363,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈkaʊn.səl.ɪŋ/",
-    "emoji": "💬",
+    "transcription": "/\u02c8ka\u028an.s\u0259l.\u026a\u014b/",
+    "emoji": "\ud83d\udcac",
     "countability": "uncountable",
     "synonyms": [
       "therapy",
@@ -376,15 +385,15 @@
     "examples": [
       "The doctor gave a clear diagnosis after reviewing the blood test."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "diagnoses",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˌdaɪ.əɡˈnəʊ.sɪs/",
-    "emoji": "🩺",
+    "transcription": "/\u02ccda\u026a.\u0259\u0261\u02c8n\u0259\u028a.s\u026as/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "synonyms": [
       "identification",
@@ -392,8 +401,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌdaɪ.əɡˈnoʊ.sɪs/"
-    }
+      "us": "/\u02ccda\u026a.\u0259\u0261\u02c8no\u028a.s\u026as/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:diagnose:verb",
@@ -407,11 +417,11 @@
     "examples": [
       "Specialists were able to diagnose her rare condition after careful testing."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌdaɪ.əɡˈnəʊz/",
-    "emoji": "🩺",
+    "transcription": "/\u02ccda\u026a.\u0259\u0261\u02c8n\u0259\u028az/",
+    "emoji": "\ud83e\ude7a",
     "synonyms": [
       "identify",
       "detect",
@@ -419,8 +429,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌdaɪ.əɡˈnoʊz/"
-    }
+      "us": "/\u02ccda\u026a.\u0259\u0261\u02c8no\u028az/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cure:verb",
@@ -440,8 +451,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/kjʊə/",
-    "emoji": "💊",
+    "transcription": "/kj\u028a\u0259/",
+    "emoji": "\ud83d\udc8a",
     "synonyms": [
       "heal",
       "remedy",
@@ -452,7 +463,7 @@
       "infect"
     ],
     "transcription_variants": {
-      "us": "/kjʊr/"
+      "us": "/kj\u028ar/"
     }
   },
   {
@@ -467,22 +478,23 @@
     "examples": [
       "Screen addiction is a growing problem among teenagers using mobile phones."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "addictions",
     "tags": [
       "spoken"
     ],
-    "transcription": "/əˈdɪk.ʃən/",
-    "emoji": "⛓️",
+    "transcription": "/\u0259\u02c8d\u026ak.\u0283\u0259n/",
+    "emoji": "\u26d3\ufe0f",
     "countability": "countable",
     "synonyms": [
       "dependency",
       "obsession",
       "habit"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:addicted:noun",
@@ -496,14 +508,14 @@
     "examples": [
       "He became addicted to playing video games late into the night."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/əˈdɪk.tɪd/",
-    "emoji": "⛓️",
+    "transcription": "/\u0259\u02c8d\u026ak.t\u026ad/",
+    "emoji": "\u26d3\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "dependent",
@@ -512,7 +524,8 @@
     "antonyms": [
       "independent",
       "unreliant"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:well-being:noun",
@@ -526,11 +539,11 @@
     "examples": [
       "Maintaining positive social connections is vital for emotional well-being."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌwelˈbiː.ɪŋ/",
-    "emoji": "🌱",
+    "transcription": "/\u02ccwel\u02c8bi\u02d0.\u026a\u014b/",
+    "emoji": "\ud83c\udf31",
     "countability": "uncountable",
     "synonyms": [
       "wellbeing",
@@ -540,7 +553,8 @@
     "antonyms": [
       "illness",
       "misery"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:immune:adjective",
@@ -557,8 +571,8 @@
     "domain": "general",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ɪˈmjuːn/",
-    "emoji": "🛡️",
+    "transcription": "/\u026a\u02c8mju\u02d0n/",
+    "emoji": "\ud83d\udee1\ufe0f",
     "synonyms": [
       "resistant",
       "protected",
@@ -585,8 +599,8 @@
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "systems",
-    "transcription": "/ˈsɪs.təm/",
-    "emoji": "⚙️",
+    "transcription": "/\u02c8s\u026as.t\u0259m/",
+    "emoji": "\u2699\ufe0f",
     "countability": "countable",
     "synonyms": [
       "structure",
@@ -612,8 +626,8 @@
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "nutrients",
-    "transcription": "/ˈnjuː.tri.ənt/",
-    "emoji": "🥗",
+    "transcription": "/\u02c8nju\u02d0.tri.\u0259nt/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
     "synonyms": [
       "nourishment",
@@ -621,7 +635,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈnuː.tri.ənt/"
+      "us": "/\u02c8nu\u02d0.tri.\u0259nt/"
     }
   },
   {
@@ -636,14 +650,14 @@
     "examples": [
       "Childhood obesity has increased rapidly due to sugary diets and inactivity."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/əʊˈbiː.sə.ti/",
-    "emoji": "⚠️",
+    "transcription": "/\u0259\u028a\u02c8bi\u02d0.s\u0259.ti/",
+    "emoji": "\u26a0\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "overweightness",
@@ -654,8 +668,9 @@
       "underweightness"
     ],
     "transcription_variants": {
-      "us": "/oʊˈbiː.sə.t̬i/"
-    }
+      "us": "/o\u028a\u02c8bi\u02d0.s\u0259.t\u032ci/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:disorder:noun",
@@ -669,12 +684,12 @@
     "examples": [
       "Eating disorder conditions require medical treatment from qualified mental health experts."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "disorders",
-    "transcription": "/dɪsˈɔː.də/",
-    "emoji": "⚠️",
+    "transcription": "/d\u026as\u02c8\u0254\u02d0.d\u0259/",
+    "emoji": "\u26a0\ufe0f",
     "countability": "countable",
     "synonyms": [
       "illness",
@@ -686,8 +701,9 @@
       "health"
     ],
     "transcription_variants": {
-      "us": "/dɪsˈɔːr.dɚ/"
-    }
+      "us": "/d\u026as\u02c8\u0254\u02d0r.d\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:self-esteem:noun",
@@ -701,14 +717,14 @@
     "examples": [
       "Achieving small personal goals boosts your overall self-esteem and confidence."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˌself.ɪˈstiːm/",
-    "emoji": "⭐",
+    "transcription": "/\u02ccself.\u026a\u02c8sti\u02d0m/",
+    "emoji": "\u2b50",
     "countability": "uncountable",
     "synonyms": [
       "self-confidence",
@@ -718,7 +734,8 @@
     "antonyms": [
       "self-doubt",
       "insecurity"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:confidence:noun",
@@ -732,11 +749,11 @@
     "examples": [
       "Public speaking practice helped her gain confidence when presenting in public."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈkɒn.fɪ.dəns/",
-    "emoji": "😎",
+    "transcription": "/\u02c8k\u0252n.f\u026a.d\u0259ns/",
+    "emoji": "\ud83d\ude0e",
     "countability": "uncountable",
     "synonyms": [
       "self-assurance",
@@ -748,8 +765,9 @@
       "doubt"
     ],
     "transcription_variants": {
-      "us": "/ˈkɑːn.fə.dəns/"
-    }
+      "us": "/\u02c8k\u0251\u02d0n.f\u0259.d\u0259ns/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:mindset:noun",
@@ -770,8 +788,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈmaɪnd.set/",
-    "emoji": "🧠",
+    "transcription": "/\u02c8ma\u026and.set/",
+    "emoji": "\ud83e\udde0",
     "countability": "countable",
     "synonyms": [
       "attitude",
@@ -792,15 +810,15 @@
     "examples": [
       "Workplaces should offer resources to support employee mental health and wellbeing."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌmen.təl ˈhelθ/",
-    "emoji": "🧠",
+    "transcription": "/\u02ccmen.t\u0259l \u02c8hel\u03b8/",
+    "emoji": "\ud83e\udde0",
     "countability": "uncountable",
     "synonyms": [
       "psychological wellbeing",
@@ -808,8 +826,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌmen.t̬əl ˈhelθ/"
-    }
+      "us": "/\u02ccmen.t\u032c\u0259l \u02c8hel\u03b8/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:physical-health:noun",
@@ -830,8 +849,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌfɪz.ɪ.kəl ˈhelθ/",
-    "emoji": "🏋️",
+    "transcription": "/\u02ccf\u026az.\u026a.k\u0259l \u02c8hel\u03b8/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "bodily health",
@@ -858,8 +877,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈstres ˌmæn.ɪdʒ.mənt/",
-    "emoji": "🧘",
+    "transcription": "/\u02c8stres \u02ccm\u00e6n.\u026ad\u0292.m\u0259nt/",
+    "emoji": "\ud83e\uddd8",
     "countability": "uncountable",
     "synonyms": [
       "coping strategies",
@@ -867,7 +886,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈstres ˌmæn.ədʒ.mənt/"
+      "us": "/\u02c8stres \u02ccm\u00e6n.\u0259d\u0292.m\u0259nt/"
     }
   },
   {
@@ -889,8 +908,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌselfˈkeə/",
-    "emoji": "🛁",
+    "transcription": "/\u02ccself\u02c8ke\u0259/",
+    "emoji": "\ud83d\udec1",
     "countability": "uncountable",
     "synonyms": [
       "self-nurture",
@@ -900,7 +919,7 @@
       "self-neglect"
     ],
     "transcription_variants": {
-      "us": "/ˌselfˈker/"
+      "us": "/\u02ccself\u02c8ker/"
     }
   },
   {
@@ -922,8 +941,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌmed.ɪˈteɪ.ʃən/",
-    "emoji": "🧘",
+    "transcription": "/\u02ccmed.\u026a\u02c8te\u026a.\u0283\u0259n/",
+    "emoji": "\ud83e\uddd8",
     "countability": "uncountable",
     "synonyms": [
       "mindfulness",
@@ -931,7 +950,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌmed.əˈteɪ.ʃən/"
+      "us": "/\u02ccmed.\u0259\u02c8te\u026a.\u0283\u0259n/"
     }
   },
   {
@@ -946,7 +965,7 @@
     "examples": [
       "Managing a chronic illness requires ongoing medical care and dietary changes."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -955,8 +974,8 @@
     "updated": "2025-01-15",
     "plural_form": "chronic illnesses",
     "countability": "countable",
-    "transcription": "/ˌkrɒn.ɪk ˈɪl.nəs/",
-    "emoji": "🩺",
+    "transcription": "/\u02cckr\u0252n.\u026ak \u02c8\u026al.n\u0259s/",
+    "emoji": "\ud83e\ude7a",
     "synonyms": [
       "long-term disease",
       "persistent illness"
@@ -965,8 +984,9 @@
       "acute illness"
     ],
     "transcription_variants": {
-      "us": "/ˌkrɑː.nɪk ˈɪl.nəs/"
-    }
+      "us": "/\u02cckr\u0251\u02d0.n\u026ak \u02c8\u026al.n\u0259s/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:disability:noun",
@@ -980,7 +1000,7 @@
     "examples": [
       "The building was modified to improve access for people with disability."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -988,8 +1008,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "disabilities",
-    "transcription": "/ˌdɪs.əˈbɪl.ə.ti/",
-    "emoji": "♿",
+    "transcription": "/\u02ccd\u026as.\u0259\u02c8b\u026al.\u0259.ti/",
+    "emoji": "\u267f",
     "countability": "countable",
     "synonyms": [
       "impairment",
@@ -1001,8 +1021,9 @@
       "capability"
     ],
     "transcription_variants": {
-      "us": "/ˌdɪs.əˈbɪl.ə.t̬i/"
-    }
+      "us": "/\u02ccd\u026as.\u0259\u02c8b\u026al.\u0259.t\u032ci/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:treatment-plan:noun",
@@ -1024,8 +1045,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "treatment plans",
-    "transcription": "/ˈtriːt.mənt plæn/",
-    "emoji": "📋",
+    "transcription": "/\u02c8tri\u02d0t.m\u0259nt pl\u00e6n/",
+    "emoji": "\ud83d\udccb",
     "countability": "countable",
     "synonyms": [
       "care plan",
@@ -1045,15 +1066,15 @@
     "examples": [
       "Some patients try alternative medicine like acupuncture to manage persistent pain."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɒlˈtɜː.nə.tɪv ˈmed.ɪ.sən/",
-    "emoji": "🌿",
+    "transcription": "/\u0252l\u02c8t\u025c\u02d0.n\u0259.t\u026av \u02c8med.\u026a.s\u0259n/",
+    "emoji": "\ud83c\udf3f",
     "countability": "uncountable",
     "synonyms": [
       "holistic medicine",
@@ -1063,8 +1084,9 @@
       "conventional medicine"
     ],
     "transcription_variants": {
-      "us": "/ɑːlˈtɝː.nə.t̬ɪv ˈmed.ə.sən/"
-    }
+      "us": "/\u0251\u02d0l\u02c8t\u025d\u02d0.n\u0259.t\u032c\u026av \u02c8med.\u0259.s\u0259n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:balanced-diet:noun",
@@ -1078,7 +1100,7 @@
     "examples": [
       "Eating a balanced diet provides the energy needed for active lifestyles."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1086,8 +1108,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "balanced diets",
-    "transcription": "/ˌbæl.ənst ˈdaɪ.ət/",
-    "emoji": "🥗",
+    "transcription": "/\u02ccb\u00e6l.\u0259nst \u02c8da\u026a.\u0259t/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
     "synonyms": [
       "healthy diet",
@@ -1096,7 +1118,8 @@
     "antonyms": [
       "poor diet",
       "unhealthy diet"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:junk-food:noun",
@@ -1110,15 +1133,15 @@
     "examples": [
       "Limiting junk food consumption helps protect heart health and prevents obesity."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "health",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈdʒʌŋk fuːd/",
-    "emoji": "🍔",
+    "transcription": "/\u02c8d\u0292\u028c\u014bk fu\u02d0d/",
+    "emoji": "\ud83c\udf54",
     "countability": "uncountable",
     "synonyms": [
       "fast food",
@@ -1126,7 +1149,8 @@
     ],
     "antonyms": [
       "health food"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:immunity:noun",
@@ -1140,15 +1164,15 @@
     "examples": [
       "Getting vaccinated builds strong immunity against dangerous contagious seasonal viral infections."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɪˈmjuː.nə.ti/",
-    "emoji": "🛡️",
+    "transcription": "/\u026a\u02c8mju\u02d0.n\u0259.ti/",
+    "emoji": "\ud83d\udee1\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "resistance",
@@ -1159,8 +1183,9 @@
       "vulnerability"
     ],
     "transcription_variants": {
-      "us": "/ɪˈmjuː.nə.t̬i/"
-    }
+      "us": "/\u026a\u02c8mju\u02d0.n\u0259.t\u032ci/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:quarantine:noun",
@@ -1181,8 +1206,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈkwɒr.ən.tiːn/",
-    "emoji": "🏠",
+    "transcription": "/\u02c8kw\u0252r.\u0259n.ti\u02d0n/",
+    "emoji": "\ud83c\udfe0",
     "countability": "uncountable",
     "synonyms": [
       "isolation",
@@ -1190,7 +1215,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈkwɔːr.ən.tiːn/"
+      "us": "/\u02c8kw\u0254\u02d0r.\u0259n.ti\u02d0n/"
     }
   },
   {
@@ -1212,8 +1237,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌaɪ.səlˈeɪ.ʃən/",
-    "emoji": "🧘",
+    "transcription": "/\u02cca\u026a.s\u0259l\u02c8e\u026a.\u0283\u0259n/",
+    "emoji": "\ud83e\uddd8",
     "countability": "uncountable",
     "synonyms": [
       "solitude",
@@ -1237,7 +1262,7 @@
     "examples": [
       "Drowsiness is a common side effect of taking those allergy pills."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1245,8 +1270,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "side effects",
-    "transcription": "/ˈsaɪd ɪˌfekt/",
-    "emoji": "💊",
+    "transcription": "/\u02c8sa\u026ad \u026a\u02ccfekt/",
+    "emoji": "\ud83d\udc8a",
     "countability": "countable",
     "synonyms": [
       "adverse reaction",
@@ -1254,8 +1279,9 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈsaɪd əˌfekt/"
-    }
+      "us": "/\u02c8sa\u026ad \u0259\u02ccfekt/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:over-the-counter:noun",
@@ -1276,8 +1302,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌəʊ.və.ðəˈkaʊn.tə/",
-    "emoji": "💊",
+    "transcription": "/\u02cc\u0259\u028a.v\u0259.\u00f0\u0259\u02c8ka\u028an.t\u0259/",
+    "emoji": "\ud83d\udc8a",
     "countability": "uncountable",
     "synonyms": [
       "non-prescription",
@@ -1287,7 +1313,7 @@
       "prescription-only"
     ],
     "transcription_variants": {
-      "us": "/ˌoʊ.vɚ.ðəˈkaʊn.t̬ɚ/"
+      "us": "/\u02cco\u028a.v\u025a.\u00f0\u0259\u02c8ka\u028an.t\u032c\u025a/"
     }
   },
   {
@@ -1308,8 +1334,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɪmˈpeə.mənt/",
-    "emoji": "♿",
+    "transcription": "/\u026am\u02c8pe\u0259.m\u0259nt/",
+    "emoji": "\u267f",
     "countability": "countable",
     "plural_form": "impairments",
     "article": "an",
@@ -1341,8 +1367,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɪnˈsɒm.ni.ə/",
-    "emoji": "👀",
+    "transcription": "/\u026an\u02c8s\u0252m.ni.\u0259/",
+    "emoji": "\ud83d\udc40",
     "countability": "uncountable",
     "synonyms": [
       "sleeplessness",
@@ -1371,8 +1397,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/saɪˈkaɪ.ə.trɪst/",
-    "emoji": "🩺",
+    "transcription": "/sa\u026a\u02c8ka\u026a.\u0259.tr\u026ast/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "plural_form": "psychiatrists",
     "article": "a",
@@ -1401,8 +1427,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/saɪˈkɒl.ə.dʒɪst/",
-    "emoji": "🧠",
+    "transcription": "/sa\u026a\u02c8k\u0252l.\u0259.d\u0292\u026ast/",
+    "emoji": "\ud83e\udde0",
     "countability": "countable",
     "plural_form": "psychologists",
     "article": "a",
@@ -1431,8 +1457,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌriː.lækˈseɪ.ʃən/",
-    "emoji": "🧘",
+    "transcription": "/\u02ccri\u02d0.l\u00e6k\u02c8se\u026a.\u0283\u0259n/",
+    "emoji": "\ud83e\uddd8",
     "countability": "uncountable",
     "synonyms": [
       "rest",
@@ -1462,8 +1488,8 @@
       "intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈtræns.plɑːnt/",
-    "emoji": "🫀",
+    "transcription": "/\u02c8tr\u00e6ns.pl\u0251\u02d0nt/",
+    "emoji": "\ud83e\udec0",
     "countability": "countable",
     "plural_form": "transplants",
     "article": "a",
@@ -1491,11 +1517,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/əˈlɜː.dʒɪk riˈæk.ʃən/",
+    "transcription": "/\u0259\u02c8l\u025c\u02d0.d\u0292\u026ak ri\u02c8\u00e6k.\u0283\u0259n/",
     "transcription_variants": {
-      "us": "/əˈlɝː.dʒɪk riˈæk.ʃən/"
+      "us": "/\u0259\u02c8l\u025d\u02d0.d\u0292\u026ak ri\u02c8\u00e6k.\u0283\u0259n/"
     },
-    "emoji": "🤧",
+    "emoji": "\ud83e\udd27",
     "countability": "countable",
     "article": "an",
     "plural_form": "allergic reactions",
@@ -1523,11 +1549,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈkʌv.ər.ɪdʒ/",
+    "transcription": "/\u02c8k\u028cv.\u0259r.\u026ad\u0292/",
     "transcription_variants": {
-      "us": "/ˈkʌv.ɚ.ɪdʒ/"
+      "us": "/\u02c8k\u028cv.\u025a.\u026ad\u0292/"
     },
-    "emoji": "🛡️",
+    "emoji": "\ud83d\udee1\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "insurance protection",
@@ -1554,11 +1580,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈfɒl.əʊ.ʌp əˌpɔɪnt.mənt/",
+    "transcription": "/\u02c8f\u0252l.\u0259\u028a.\u028cp \u0259\u02ccp\u0254\u026ant.m\u0259nt/",
     "transcription_variants": {
-      "us": "/ˈfɑː.loʊ.ʌp əˌpɔɪnt.mənt/"
+      "us": "/\u02c8f\u0251\u02d0.lo\u028a.\u028cp \u0259\u02ccp\u0254\u026ant.m\u0259nt/"
     },
-    "emoji": "📅",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "article": "a",
     "plural_form": "follow-up appointments",
@@ -1586,11 +1612,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈdʒen.ər.əl prækˈtɪʃ.ən.ər/",
+    "transcription": "/\u02c8d\u0292en.\u0259r.\u0259l pr\u00e6k\u02c8t\u026a\u0283.\u0259n.\u0259r/",
     "transcription_variants": {
-      "us": "/ˈdʒen.ɚ.əl prækˈtɪʃ.ən.ɚ/"
+      "us": "/\u02c8d\u0292en.\u025a.\u0259l pr\u00e6k\u02c8t\u026a\u0283.\u0259n.\u025a/"
     },
-    "emoji": "🩺",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "article": "a",
     "plural_form": "general practitioners",
@@ -1612,14 +1638,14 @@
     "examples": [
       "Book an appointment with your GP if you require a specialist referral."
     ],
-    "domain": "relocation",
+    "domain": "relocation, exam",
     "theme": "medical staff",
     "updated": "2025-01-15",
     "levels": [
       "B1"
     ],
-    "transcription": "/ˌdʒiːˈpiː/",
-    "emoji": "👨‍⚕️",
+    "transcription": "/\u02ccd\u0292i\u02d0\u02c8pi\u02d0/",
+    "emoji": "\ud83d\udc68\u200d\u2695\ufe0f",
     "countability": "countable",
     "article": "a",
     "plural_form": "GPs",
@@ -1627,7 +1653,8 @@
       "general practitioner",
       "family doctor"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:health-insurance-plan:noun",
@@ -1647,11 +1674,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/helθ ɪnˈʃʊə.rəns plæn/",
+    "transcription": "/hel\u03b8 \u026an\u02c8\u0283\u028a\u0259.r\u0259ns pl\u00e6n/",
     "transcription_variants": {
-      "us": "/helθ ɪnˈʃʊr.əns plæn/"
+      "us": "/hel\u03b8 \u026an\u02c8\u0283\u028ar.\u0259ns pl\u00e6n/"
     },
-    "emoji": "🏥",
+    "emoji": "\ud83c\udfe5",
     "countability": "countable",
     "article": "a",
     "plural_form": "health insurance plans",
@@ -1679,11 +1706,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈhəʊm keər/",
+    "transcription": "/\u02c8h\u0259\u028am ke\u0259r/",
     "transcription_variants": {
-      "us": "/ˈhoʊm ker/"
+      "us": "/\u02c8ho\u028am ker/"
     },
-    "emoji": "🏡",
+    "emoji": "\ud83c\udfe1",
     "countability": "uncountable",
     "synonyms": [
       "in-home care",
@@ -1709,11 +1736,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˌɪm.jə.naɪˈzeɪ.ʃən rɪˌkɔːd/",
+    "transcription": "/\u02cc\u026am.j\u0259.na\u026a\u02c8ze\u026a.\u0283\u0259n r\u026a\u02cck\u0254\u02d0d/",
     "transcription_variants": {
-      "us": "/ˌɪm.jə.nəˈzeɪ.ʃən rɪˌkɔːrd/"
+      "us": "/\u02cc\u026am.j\u0259.n\u0259\u02c8ze\u026a.\u0283\u0259n r\u026a\u02cck\u0254\u02d0rd/"
     },
-    "emoji": "💉",
+    "emoji": "\ud83d\udc89",
     "countability": "countable",
     "article": "an",
     "plural_form": "immunization records",
@@ -1741,8 +1768,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈmed.ɪ.kəl ˈhɪs.tər.i/",
-    "emoji": "🩺",
+    "transcription": "/\u02c8med.\u026a.k\u0259l \u02c8h\u026as.t\u0259r.i/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "article": "a",
     "plural_form": "medical histories",
@@ -1770,8 +1797,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈfɪz.ɪ.kəl ˈθer.ə.pi/",
-    "emoji": "🏋️‍♂️",
+    "transcription": "/\u02c8f\u026az.\u026a.k\u0259l \u02c8\u03b8er.\u0259.pi/",
+    "emoji": "\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "physiotherapy",
@@ -1797,8 +1824,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/prɪˈskrɪp.ʃən ˈriː.fɪl/",
-    "emoji": "💊",
+    "transcription": "/pr\u026a\u02c8skr\u026ap.\u0283\u0259n \u02c8ri\u02d0.f\u026al/",
+    "emoji": "\ud83d\udc8a",
     "countability": "countable",
     "article": "a",
     "plural_form": "prescription refills",
@@ -1826,11 +1853,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/rɪˈfɜː.rəl/",
+    "transcription": "/r\u026a\u02c8f\u025c\u02d0.r\u0259l/",
     "transcription_variants": {
-      "us": "/rɪˈfɝː.əl/"
+      "us": "/r\u026a\u02c8f\u025d\u02d0.\u0259l/"
     },
-    "emoji": "📑",
+    "emoji": "\ud83d\udcd1",
     "countability": "countable",
     "article": "a",
     "plural_form": "referrals",
@@ -1858,8 +1885,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈsek.ənd əˈpɪn.jən/",
-    "emoji": "🩺",
+    "transcription": "/\u02c8sek.\u0259nd \u0259\u02c8p\u026an.j\u0259n/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "article": "a",
     "plural_form": "second opinions",
@@ -1886,8 +1913,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈspeʃ.əl.ɪst/",
-    "emoji": "👨‍⚕️",
+    "transcription": "/\u02c8spe\u0283.\u0259l.\u026ast/",
+    "emoji": "\ud83d\udc68\u200d\u2695\ufe0f",
     "countability": "countable",
     "article": "a",
     "plural_form": "specialists",
@@ -1917,11 +1944,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈɜː.dʒənt keər/",
+    "transcription": "/\u02c8\u025c\u02d0.d\u0292\u0259nt ke\u0259r/",
     "transcription_variants": {
-      "us": "/ˈɝː.dʒənt ker/"
+      "us": "/\u02c8\u025d\u02d0.d\u0292\u0259nt ker/"
     },
-    "emoji": "🏥",
+    "emoji": "\ud83c\udfe5",
     "countability": "uncountable",
     "synonyms": [
       "walk-in medical care",
@@ -1947,11 +1974,11 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈwɔːk.ɪn ˈklɪn.ɪk/",
+    "transcription": "/\u02c8w\u0254\u02d0k.\u026an \u02c8kl\u026an.\u026ak/",
     "transcription_variants": {
-      "us": "/ˈwɑːk.ɪn ˈklɪn.ɪk/"
+      "us": "/\u02c8w\u0251\u02d0k.\u026an \u02c8kl\u026an.\u026ak/"
     },
-    "emoji": "🏥",
+    "emoji": "\ud83c\udfe5",
     "countability": "countable",
     "article": "a",
     "plural_form": "walk-in clinics",
@@ -1979,8 +2006,8 @@
     "levels": [
       "B1"
     ],
-    "transcription": "/ˈwel.nəs/",
-    "emoji": "🧘",
+    "transcription": "/\u02c8wel.n\u0259s/",
+    "emoji": "\ud83e\uddd8",
     "countability": "uncountable",
     "synonyms": [
       "well-being",
@@ -1999,7 +2026,7 @@
     "level": "B1",
     "domain": "relocation",
     "theme": "health",
-    "emoji": "💬",
+    "emoji": "\ud83d\udcac",
     "countability": "pluralia_tantum",
     "synonyms": [
       "adolescent psychological services",
@@ -2008,9 +2035,9 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/ˈmen.təl helθ rɪˈzɔː.sɪz fɔː tiːnz/",
+    "transcription": "/\u02c8men.t\u0259l hel\u03b8 r\u026a\u02c8z\u0254\u02d0.s\u026az f\u0254\u02d0 ti\u02d0nz/",
     "transcription_variants": {
-      "us": "/ˈmen.t̬əl helθ ˈriː.sɔːr.sɪz fɔːr tiːnz/"
+      "us": "/\u02c8men.t\u032c\u0259l hel\u03b8 \u02c8ri\u02d0.s\u0254\u02d0r.s\u026az f\u0254\u02d0r ti\u02d0nz/"
     },
     "definitions": [
       "support services, hotlines, and counseling tailored for adolescents facing emotional difficulties"
@@ -2034,8 +2061,8 @@
     "examples": [
       "Carrying translated allergy documentation helped the traveler explain dietary needs at restaurants."
     ],
-    "transcription": "/ˈæl.ə.dʒi ˌdɒk.jʊ.menˈteɪ.ʃən/",
-    "emoji": "📋",
+    "transcription": "/\u02c8\u00e6l.\u0259.d\u0292i \u02ccd\u0252k.j\u028a.men\u02c8te\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\udccb",
     "countability": "uncountable",
     "synonyms": [
       "medical allergy card",
@@ -2062,8 +2089,8 @@
     "examples": [
       "Visit a travel clinic six weeks before departing for tropical regions."
     ],
-    "transcription": "/ˈtræv.əl ˈklɪn.ɪk/",
-    "emoji": "🏥",
+    "transcription": "/\u02c8tr\u00e6v.\u0259l \u02c8kl\u026an.\u026ak/",
+    "emoji": "\ud83c\udfe5",
     "countability": "countable",
     "plural_form": "travel clinics",
     "synonyms": [
@@ -2091,8 +2118,8 @@
     "examples": [
       "Present your international vaccination certificate at border security."
     ],
-    "transcription": "/ˌvæk.sɪˈneɪ.ʃən səˈtɪf.ɪ.kət/",
-    "emoji": "📑",
+    "transcription": "/\u02ccv\u00e6k.s\u026a\u02c8ne\u026a.\u0283\u0259n s\u0259\u02c8t\u026af.\u026a.k\u0259t/",
+    "emoji": "\ud83d\udcd1",
     "countability": "countable",
     "plural_form": "vaccination certificates",
     "synonyms": [
@@ -2120,8 +2147,8 @@
     "examples": [
       "Travelers were advised to receive a booster dose before visiting the area."
     ],
-    "transcription": "/ˈbuː.stər dəʊs/",
-    "emoji": "💉",
+    "transcription": "/\u02c8bu\u02d0.st\u0259r d\u0259\u028as/",
+    "emoji": "\ud83d\udc89",
     "countability": "countable",
     "plural_form": "booster doses",
     "synonyms": [
@@ -2149,8 +2176,8 @@
     "examples": [
       "The airline requested a fit-to-fly certificate following her surgery."
     ],
-    "transcription": "/fɪt tə flaɪ səˈtɪf.ɪ.kət/",
-    "emoji": "📑",
+    "transcription": "/f\u026at t\u0259 fla\u026a s\u0259\u02c8t\u026af.\u026a.k\u0259t/",
+    "emoji": "\ud83d\udcd1",
     "countability": "countable",
     "plural_form": "fit-to-fly certificates",
     "synonyms": [
@@ -2178,8 +2205,8 @@
     "examples": [
       "Buying generic medication at the local pharmacy saved us money."
     ],
-    "transcription": "/dʒəˈner.ɪk ˌmed.ɪˈkeɪ.ʃən/",
-    "emoji": "💊",
+    "transcription": "/d\u0292\u0259\u02c8ner.\u026ak \u02ccmed.\u026a\u02c8ke\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\udc8a",
     "countability": "countable",
     "plural_form": "generic medications",
     "synonyms": [
@@ -2207,8 +2234,8 @@
     "examples": [
       "Passengers completed an online health declaration prior to boarding."
     ],
-    "transcription": "/helθ ˌdek.ləˈreɪ.ʃən/",
-    "emoji": "📋",
+    "transcription": "/hel\u03b8 \u02ccdek.l\u0259\u02c8re\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\udccb",
     "countability": "countable",
     "plural_form": "health declarations",
     "synonyms": [
@@ -2236,8 +2263,8 @@
     "examples": [
       "Severe dehydration required a brief overnight hospital admission."
     ],
-    "transcription": "/ˈhɒs.pɪ.təl ədˈmɪʃ.ən/",
-    "emoji": "🏥",
+    "transcription": "/\u02c8h\u0252s.p\u026a.t\u0259l \u0259d\u02c8m\u026a\u0283.\u0259n/",
+    "emoji": "\ud83c\udfe5",
     "countability": "countable",
     "plural_form": "hospital admissions",
     "synonyms": [
@@ -2265,8 +2292,8 @@
     "examples": [
       "Proper stretching and warm-up exercises are essential for injury prevention."
     ],
-    "transcription": "/ˈɪn.dʒər.i prɪˈven.ʃən/",
-    "emoji": "🩹",
+    "transcription": "/\u02c8\u026an.d\u0292\u0259r.i pr\u026a\u02c8ven.\u0283\u0259n/",
+    "emoji": "\ud83e\ude79",
     "countability": "uncountable",
     "synonyms": [
       "safety precautions",
@@ -2293,8 +2320,8 @@
     "examples": [
       "Forgive my confusion; I have jet lag brain after flying from Sydney."
     ],
-    "transcription": "/ˈdʒet læɡ breɪn/",
-    "emoji": "🧠",
+    "transcription": "/\u02c8d\u0292et l\u00e6\u0261 bre\u026an/",
+    "emoji": "\ud83e\udde0",
     "countability": "uncountable",
     "synonyms": [
       "travel disorientation",
@@ -2322,8 +2349,8 @@
     "examples": [
       "Taking prescribed tablets is an essential step for malaria prevention."
     ],
-    "transcription": "/məˈleə.ri.ə prɪˈven.ʃən/",
-    "emoji": "🦟",
+    "transcription": "/m\u0259\u02c8le\u0259.ri.\u0259 pr\u026a\u02c8ven.\u0283\u0259n/",
+    "emoji": "\ud83e\udd9f",
     "countability": "uncountable",
     "synonyms": [
       "malaria prophylaxis",
@@ -2350,8 +2377,8 @@
     "examples": [
       "You must present a medical certificate to claim flight insurance refunds."
     ],
-    "transcription": "/ˈmed.ɪ.kəl səˈtɪf.ɪ.kət/",
-    "emoji": "📑",
+    "transcription": "/\u02c8med.\u026a.k\u0259l s\u0259\u02c8t\u026af.\u026a.k\u0259t/",
+    "emoji": "\ud83d\udcd1",
     "countability": "countable",
     "plural_form": "medical certificates",
     "synonyms": [
@@ -2379,8 +2406,8 @@
     "examples": [
       "The pharmacist recommended an over-the-counter equivalent for pain."
     ],
-    "transcription": "/ˌəʊ.və ðə ˈkaʊn.tər ɪˈkwɪv.ə.lənt/",
-    "emoji": "💊",
+    "transcription": "/\u02cc\u0259\u028a.v\u0259 \u00f0\u0259 \u02c8ka\u028an.t\u0259r \u026a\u02c8kw\u026av.\u0259.l\u0259nt/",
+    "emoji": "\ud83d\udc8a",
     "countability": "countable",
     "plural_form": "over-the-counter equivalents",
     "synonyms": [
@@ -2408,8 +2435,8 @@
     "examples": [
       "High mountain trekking requires a good physical fitness level."
     ],
-    "transcription": "/ˈfɪz.ɪ.kəl ˈfɪt.nəs ˈlev.əl/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8f\u026az.\u026a.k\u0259l \u02c8f\u026at.n\u0259s \u02c8lev.\u0259l/",
+    "emoji": "\ud83c\udfc3",
     "countability": "countable",
     "plural_form": "physical fitness levels",
     "synonyms": [
@@ -2437,8 +2464,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈæl.tɪ.tʃuːd ˌsɪk.nəs/",
-    "emoji": "🏔️",
+    "transcription": "/\u02c8\u00e6l.t\u026a.t\u0283u\u02d0d \u02ccs\u026ak.n\u0259s/",
+    "emoji": "\ud83c\udfd4\ufe0f",
     "no_antonym": true,
     "synonyms": [
       "mountain sickness",
@@ -2461,8 +2488,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌdiː.haɪˈdreɪ.ʃən/",
-    "emoji": "💧",
+    "transcription": "/\u02ccdi\u02d0.ha\u026a\u02c8dre\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\udca7",
     "antonyms": [
       "hydration"
     ],
@@ -2487,8 +2514,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈfræk.tʃər/",
-    "emoji": "🦴",
+    "transcription": "/\u02c8fr\u00e6k.t\u0283\u0259r/",
+    "emoji": "\ud83e\uddb4",
     "no_antonym": true,
     "synonyms": [
       "broken bone",
@@ -2512,8 +2539,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌɪm.jə.naɪˈzeɪ.ʃən/",
-    "emoji": "💉",
+    "transcription": "/\u02cc\u026am.j\u0259.na\u026a\u02c8ze\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\udc89",
     "no_antonym": true,
     "synonyms": [
       "vaccination",
@@ -2536,8 +2563,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ɪnˈʃɔː.rəns kleɪm/",
-    "emoji": "📋",
+    "transcription": "/\u026an\u02c8\u0283\u0254\u02d0.r\u0259ns kle\u026am/",
+    "emoji": "\ud83d\udccb",
     "no_antonym": true,
     "synonyms": [
       "policy claim",
@@ -2561,8 +2588,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ɪnˈʃɔːr/",
-    "emoji": "🛡️",
+    "transcription": "/\u026an\u02c8\u0283\u0254\u02d0r/",
+    "emoji": "\ud83d\udee1\ufe0f",
     "no_antonym": true,
     "synonyms": [
       "underwrite",
@@ -2584,8 +2611,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈməʊ.ʃən ˌsɪk.nəs/",
-    "emoji": "🤢",
+    "transcription": "/\u02c8m\u0259\u028a.\u0283\u0259n \u02ccs\u026ak.n\u0259s/",
+    "emoji": "\ud83e\udd22",
     "no_antonym": true,
     "synonyms": [
       "travel sickness",
@@ -2608,8 +2635,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌəʊ.və.ðəˈkaʊn.tər ˈmed.sən/",
-    "emoji": "💊",
+    "transcription": "/\u02cc\u0259\u028a.v\u0259.\u00f0\u0259\u02c8ka\u028an.t\u0259r \u02c8med.s\u0259n/",
+    "emoji": "\ud83d\udc8a",
     "antonyms": [
       "prescription medicine"
     ],
@@ -2634,8 +2661,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌpær.əˈmed.ɪk/",
-    "emoji": "🚑",
+    "transcription": "/\u02ccp\u00e6r.\u0259\u02c8med.\u026ak/",
+    "emoji": "\ud83d\ude91",
     "no_antonym": true,
     "synonyms": [
       "emergency medic",
@@ -2659,8 +2686,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/prɪˈskrɪp.ʃən ˈmed.sən/",
-    "emoji": "💊",
+    "transcription": "/pr\u026a\u02c8skr\u026ap.\u0283\u0259n \u02c8med.s\u0259n/",
+    "emoji": "\ud83d\udc8a",
     "antonyms": [
       "over-the-counter medicine"
     ],
@@ -2685,8 +2712,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/spreɪn/",
-    "emoji": "🩹",
+    "transcription": "/spre\u026an/",
+    "emoji": "\ud83e\ude79",
     "no_antonym": true,
     "synonyms": [
       "joint strain",
@@ -2710,8 +2737,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈsʌn.strəʊk/",
-    "emoji": "☀️",
+    "transcription": "/\u02c8s\u028cn.str\u0259\u028ak/",
+    "emoji": "\u2600\ufe0f",
     "no_antonym": true,
     "synonyms": [
       "heatstroke",
@@ -2734,8 +2761,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈsɪmp.təmz/",
-    "emoji": "🌡️",
+    "transcription": "/\u02c8s\u026amp.t\u0259mz/",
+    "emoji": "\ud83c\udf21\ufe0f",
     "no_antonym": true,
     "synonyms": [
       "signs of illness",
@@ -2758,8 +2785,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈtræv.əl ˌvæk.sɪˈneɪ.ʃən/",
-    "emoji": "💉",
+    "transcription": "/\u02c8tr\u00e6v.\u0259l \u02ccv\u00e6k.s\u026a\u02c8ne\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\udc89",
     "no_antonym": true,
     "synonyms": [
       "travel vaccine",
@@ -2783,8 +2810,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ɪˌvæk.juˈeɪ.ʃən ruːt/",
-    "emoji": "🚨",
+    "transcription": "/\u026a\u02ccv\u00e6k.ju\u02c8e\u026a.\u0283\u0259n ru\u02d0t/",
+    "emoji": "\ud83d\udea8",
     "no_antonym": true,
     "synonyms": [
       "escape route",
@@ -2808,8 +2835,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈfɪz.ɪ.kəl.i dɪsˈeɪ.bəld/",
-    "emoji": "♿",
+    "transcription": "/\u02c8f\u026az.\u026a.k\u0259l.i d\u026as\u02c8e\u026a.b\u0259ld/",
+    "emoji": "\u267f",
     "antonyms": [
       "able-bodied"
     ],
@@ -2833,8 +2860,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈwiːl.tʃeər ˌjuː.zər/",
-    "emoji": "👩‍🦽",
+    "transcription": "/\u02c8wi\u02d0l.t\u0283e\u0259r \u02ccju\u02d0.z\u0259r/",
+    "emoji": "\ud83d\udc69\u200d\ud83e\uddbd",
     "no_antonym": true,
     "synonyms": [
       "wheelchair rider",

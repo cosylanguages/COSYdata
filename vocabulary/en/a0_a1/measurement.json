@@ -11,7 +11,7 @@
     "examples": [
       "Walk one metre towards the door."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "metres",
@@ -27,7 +27,8 @@
     ],
     "regional_equivalents": [
       "en:meter:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:meter:noun",
@@ -71,7 +72,7 @@
     "examples": [
       "Drive ten kilometres to the city."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "kilometres",
@@ -87,7 +88,8 @@
     ],
     "regional_equivalents": [
       "en:kilometer:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:kilometer:noun",
@@ -131,7 +133,7 @@
     "examples": [
       "Measure five centimetres on paper."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "centimetres",
@@ -147,7 +149,8 @@
     ],
     "regional_equivalents": [
       "en:centimeter:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:centimeter:noun",
@@ -191,14 +194,15 @@
     "examples": [
       "Buy one kilogram of red apples."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "kilograms",
     "transcription": "/\u02c8k\u026al.\u0259.\u0261r\u00e6m/",
     "no_antonym": true,
     "emoji": "\ud83c\udfcb\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:kilo:noun",
@@ -212,7 +216,7 @@
     "examples": [
       "I bought a kilo of flour today."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "kilos",
@@ -222,7 +226,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8ki\u02d0.lo\u028a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:gram:noun",
@@ -236,14 +241,15 @@
     "examples": [
       "Add one gram of salt to soup."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "grams",
     "transcription": "/\u0261r\u00e6m/",
     "no_antonym": true,
     "emoji": "\u2696\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:litre:noun",
@@ -257,7 +263,7 @@
     "examples": [
       "Buy a litre of fresh milk."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "litres",
@@ -273,7 +279,8 @@
     ],
     "regional_equivalents": [
       "en:liter:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:liter:noun",
@@ -317,7 +324,7 @@
     "examples": [
       "Buy a dozen eggs at the market."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "dozens",
@@ -327,7 +334,8 @@
     "transcription": "/\u02c8d\u028cz.\u0259n/",
     "no_antonym": true,
     "emoji": "\ud83e\uddfa",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:percent:noun",
@@ -341,7 +349,7 @@
     "examples": [
       "Ten percent of students were absent."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "percent",
@@ -351,7 +359,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/p\u025a\u02c8sent/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:number:noun",

@@ -11,7 +11,7 @@
     "examples": [
       "Children play outside in the garden."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -21,7 +21,8 @@
     "emoji": "\ud83c\udfde\ufe0f",
     "antonyms": [
       "inside"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:between:preposition",
@@ -35,7 +36,7 @@
     "examples": [
       "The shop is between two houses."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -47,7 +48,8 @@
     ],
     "transcription": "/b\u026a\u02c8twi\u02d0n/",
     "no_antonym": true,
-    "emoji": "\u2194\ufe0f"
+    "emoji": "\u2194\ufe0f",
+    "sub_theme": "general"
   },
   {
     "id": "en:forward:adverb",
@@ -85,7 +87,7 @@
     "examples": [
       "Walk along the side of road."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -93,7 +95,8 @@
     ],
     "transcription": "/sa\u026ad/",
     "no_antonym": true,
-    "emoji": "\u27a1\ufe0f"
+    "emoji": "\u27a1\ufe0f",
+    "sub_theme": "general"
   },
   {
     "id": "en:middle:adverb",
@@ -107,7 +110,7 @@
     "examples": [
       "Stand in the middle of room."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -115,7 +118,8 @@
     ],
     "transcription": "/\u02c8m\u026ad.\u0259l/",
     "no_antonym": true,
-    "emoji": "\ud83c\udfaf"
+    "emoji": "\ud83c\udfaf",
+    "sub_theme": "general"
   },
   {
     "id": "en:address:phrase",
@@ -129,7 +133,7 @@
     "examples": [
       "What is your home address please?"
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "navigation",
     "tags": [
       "spoken",
@@ -141,7 +145,8 @@
     "emoji": "\ud83c\udfe0",
     "transcription_variants": {
       "us": "/\u02c8\u00e6d.res/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:north:adverb",
@@ -155,7 +160,7 @@
     "examples": [
       "Drive north along the highway."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/n\u0254\u02d0\u03b8/",
@@ -165,7 +170,8 @@
     ],
     "transcription_variants": {
       "us": "/n\u0254\u02d0r\u03b8/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:south:adverb",
@@ -179,14 +185,15 @@
     "examples": [
       "Birds fly south in autumn."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/sa\u028a\u03b8/",
     "emoji": "\u2b07\ufe0f",
     "antonyms": [
       "north"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:east:adverb",
@@ -200,14 +207,15 @@
     "examples": [
       "Look east to see sunrise."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/i\u02d0st/",
     "emoji": "\u27a1\ufe0f",
     "antonyms": [
       "west"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:west:adverb",
@@ -221,14 +229,15 @@
     "examples": [
       "The sun moves west in the evening."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/west/",
     "emoji": "\u2b05\ufe0f",
     "antonyms": [
       "east"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:left:adverb",
@@ -242,7 +251,7 @@
     "examples": [
       "Turn left at the street corner."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -252,7 +261,8 @@
     "emoji": "\u2b05\ufe0f",
     "antonyms": [
       "right"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:right:adverb",
@@ -266,7 +276,7 @@
     "examples": [
       "Turn right past the park."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -276,7 +286,8 @@
     "antonyms": [
       "left"
     ],
-    "emoji": "\u27a1\ufe0f"
+    "emoji": "\u27a1\ufe0f",
+    "sub_theme": "general"
   },
   {
     "id": "en:straight:adjective",
@@ -290,7 +301,7 @@
     "examples": [
       "Draw a straight line with ruler."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -305,7 +316,8 @@
     "antonyms": [
       "curved",
       "crooked"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:ahead:adverb",
@@ -364,7 +376,7 @@
     "examples": [
       "Come inside out of the rain."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -377,7 +389,8 @@
     ],
     "transcription_variants": {
       "us": "/\u02c8\u026an.sa\u026ad/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:indoors:adverb",
@@ -439,7 +452,7 @@
     "examples": [
       "The lamp hangs above the table."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -453,7 +466,8 @@
     "antonyms": [
       "below",
       "under"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:below:preposition",
@@ -467,7 +481,7 @@
     "examples": [
       "The cat slept below the desk."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -483,7 +497,8 @@
     ],
     "transcription_variants": {
       "us": "/b\u026a\u02c8lo\u028a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:beside:adverb",
@@ -516,12 +531,13 @@
     "examples": [
       "A flower grew among grass."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/\u0259\u02c8m\u028c\u014b/",
     "no_antonym": true,
-    "emoji": "\ud83d\udc65"
+    "emoji": "\ud83d\udc65",
+    "sub_theme": "general"
   },
   {
     "id": "en:everywhere:adverb",
@@ -535,7 +551,7 @@
     "examples": [
       "We looked everywhere for the key."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -548,7 +564,8 @@
     ],
     "transcription_variants": {
       "us": "/\u02c8ev.ri.wer/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:somewhere:adverb",
@@ -562,7 +579,7 @@
     "examples": [
       "My pen is somewhere in bag."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -575,7 +592,8 @@
     ],
     "transcription_variants": {
       "us": "/\u02c8s\u028cm.wer/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:nowhere:adverb",
@@ -589,7 +607,7 @@
     "examples": [
       "The lost key was nowhere found."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -602,7 +620,8 @@
     ],
     "transcription_variants": {
       "us": "/\u02c8no\u028a.wer/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:anywhere:adverb",
@@ -616,7 +635,7 @@
     "examples": [
       "You can sit anywhere today."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/\u02c8en.i.we\u0259/",
@@ -624,7 +643,8 @@
     "emoji": "\ud83d\udccd",
     "transcription_variants": {
       "us": "/\u02c8en.i.wer/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:top:adverb",
@@ -638,7 +658,7 @@
     "examples": [
       "Put the book on top."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -651,7 +671,8 @@
     ],
     "transcription_variants": {
       "us": "/t\u0251\u02d0p/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:bottom:adverb",
@@ -665,7 +686,7 @@
     "examples": [
       "Write your name at bottom."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -678,7 +699,8 @@
     ],
     "transcription_variants": {
       "us": "/\u02c8b\u0251\u02d0.t\u032c\u0259m/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:centre:adverb",
@@ -692,7 +714,7 @@
     "examples": [
       "We met in town centre."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/\u02c8sen.t\u0259/",
@@ -706,7 +728,8 @@
     ],
     "regional_equivalents": [
       "en:center:adverb"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:center:adverb",
@@ -751,7 +774,7 @@
     "examples": [
       "Turn left at corner street."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "tags": [
@@ -762,7 +785,8 @@
     "emoji": "\ud83d\udcd0",
     "transcription_variants": {
       "us": "/\u02c8k\u0254\u02d0r.n\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:edge:adverb",
@@ -776,12 +800,13 @@
     "examples": [
       "Do not stand near edge."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "navigation",
     "updated": "2025-01-15",
     "transcription": "/ed\u0292/",
     "no_antonym": true,
-    "emoji": "\ud83d\udd32"
+    "emoji": "\ud83d\udd32",
+    "sub_theme": "general"
   },
   {
     "id": "en:where-is:phrase",
@@ -982,7 +1007,7 @@
     "examples": [
       "Excuse me, where is bank?"
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "navigation",
     "tags": [
       "spoken",
@@ -994,7 +1019,8 @@
     ],
     "transcription": "/\u026ak\u02c8skju\u02d0z mi\u02d0/",
     "no_antonym": true,
-    "emoji": "\ud83d\ude4b"
+    "emoji": "\ud83d\ude4b",
+    "sub_theme": "general"
   },
   {
     "id": "en:can-you-help-me:phrase",
@@ -1008,7 +1034,7 @@
     "examples": [
       "Can you help me find this street?"
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "navigation",
     "tags": [
       "spoken",
@@ -1020,7 +1046,8 @@
     ],
     "transcription": "/k\u00e6n ju\u02d0 help mi\u02d0/",
     "no_antonym": true,
-    "emoji": "\ud83e\udd1d"
+    "emoji": "\ud83e\udd1d",
+    "sub_theme": "general"
   },
   {
     "id": "en:i-m-lost:phrase",
@@ -1083,7 +1110,7 @@
     "examples": [
       "Sit down next to me."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "navigation",
     "tags": [
       "spoken",
@@ -1092,7 +1119,8 @@
     "updated": "2025-01-15",
     "transcription": "/nekst tu\u02d0/",
     "no_antonym": true,
-    "emoji": "\u2194\ufe0f"
+    "emoji": "\u2194\ufe0f",
+    "sub_theme": "general"
   },
   {
     "id": "en:opposite:phrase",
@@ -1106,7 +1134,7 @@
     "examples": [
       "The school is opposite park."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "navigation",
     "tags": [
       "spoken",
@@ -1118,6 +1146,7 @@
     "emoji": "\ud83d\udd03",
     "transcription_variants": {
       "us": "/\u02c8\u0251\u02d0.p\u0259.z\u026at/"
-    }
+    },
+    "sub_theme": "general"
   }
 ]

@@ -16,7 +16,7 @@
     "updated": "2025-01-15",
     "plural_form": "acclaimeds",
     "transcription": "/acclaimed/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "praised",
@@ -40,12 +40,12 @@
     "examples": [
       "Journalists were accused of political bias when reporting on the contested parliamentary election."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "biaseds",
     "transcription": "/biased/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "prejudiced",
@@ -55,7 +55,8 @@
     "antonyms": [
       "unbiased",
       "impartial"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:tabloid:noun",
@@ -69,15 +70,15 @@
     "examples": [
       "Sensational headlines were featured on the front pages of every popular tabloid newspaper."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "tabloids",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈtæb.lɔɪd/",
-    "emoji": "📰",
+    "transcription": "/\u02c8t\u00e6b.l\u0254\u026ad/",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "sensationalist paper",
@@ -85,7 +86,8 @@
     ],
     "antonyms": [
       "broadsheet"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:broadsheet:noun",
@@ -99,12 +101,12 @@
     "examples": [
       "Educated readers often prefer broadsheet newspapers for comprehensive international news and economic coverage."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "broadsheets",
-    "transcription": "/ˈbrɔːd.ʃiːt/",
-    "emoji": "📰",
+    "transcription": "/\u02c8br\u0254\u02d0d.\u0283i\u02d0t/",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "quality newspaper",
@@ -114,8 +116,9 @@
       "tabloid"
     ],
     "transcription_variants": {
-      "us": "/ˈbrɑːd.ʃiːt/"
-    }
+      "us": "/\u02c8br\u0251\u02d0d.\u0283i\u02d0t/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:editorial:noun",
@@ -129,18 +132,19 @@
     "examples": [
       "The chief editor published a scathing editorial criticizing proposed municipal budget cuts yesterday."
     ],
-    "domain": "general, travel, professional",
+    "domain": "general, travel, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "editorials",
     "transcription": "/editorial/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "opinion piece",
       "leader"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:mainstream:noun",
@@ -159,7 +163,7 @@
     "updated": "2025-01-15",
     "plural_form": "mainstreams",
     "transcription": "/mainstream/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "dominant culture",
@@ -182,14 +186,14 @@
     "examples": [
       "The punk subculture emerged during the late nineteen-seventies, challenging traditional societal norms."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/subculture/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "uncountable",
     "synonyms": [
       "underground scene",
@@ -197,7 +201,8 @@
     ],
     "antonyms": [
       "mainstream culture"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:avant-garde:noun",
@@ -211,7 +216,7 @@
     "examples": [
       "Art critics praised the avant-garde exhibition for challenging traditional visual art forms creatively."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "avant-gardes",
@@ -220,7 +225,7 @@
       "C1"
     ],
     "transcription": "/avant-garde/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "experimental art",
@@ -229,7 +234,8 @@
     "antonyms": [
       "traditionalism",
       "orthodoxy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:contemporary:adjective",
@@ -243,11 +249,11 @@
     "examples": [
       "Contemporary art galleries in London display innovative works created by young international artists."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "transcription": "/contemporary/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "synonyms": [
       "modern",
       "current",
@@ -256,7 +262,8 @@
     "antonyms": [
       "historical",
       "ancient"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:aesthetic:adjective",
@@ -270,19 +277,20 @@
     "examples": [
       "Architects emphasized aesthetic harmony when designing the new glass cultural museum downtown."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/aesthetic/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "synonyms": [
       "artistic",
       "visual appeal"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:symbolism:noun",
@@ -296,19 +304,20 @@
     "examples": [
       "Prominent literary scholars analyzed religious symbolism embedded throughout the classic nineteenth-century novel."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "symbolism",
     "transcription": "/symbolism/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "representation",
       "allegory",
       "imagery"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:metaphor:noun",
@@ -322,7 +331,7 @@
     "examples": [
       "The poet used a stormy sea as a metaphor for his internal emotional turmoil."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "metaphors",
@@ -330,14 +339,15 @@
       "spoken"
     ],
     "transcription": "/metaphor/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "analogy",
       "figure of speech",
       "trope"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:allegory:noun",
@@ -351,19 +361,20 @@
     "examples": [
       "George Orwell novel Animal Farm serves as a famous allegory reflecting political revolution."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "allegories",
     "transcription": "/allegory/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "parable",
       "fable",
       "symbolic story"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:protagonist:noun",
@@ -385,7 +396,7 @@
       "spoken"
     ],
     "transcription": "/protagonist/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "central character",
@@ -416,7 +427,7 @@
       "spoken"
     ],
     "transcription": "/antagonist/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "adversary",
@@ -444,7 +455,7 @@
     "updated": "2025-01-15",
     "plural_form": "commercialization",
     "transcription": "/commercialization/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "monetization",
@@ -471,7 +482,7 @@
     "updated": "2025-01-15",
     "plural_form": "commercialisations",
     "transcription": "/commercialisation/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "monetization",
@@ -496,15 +507,15 @@
     "examples": [
       "Mainstream media outlets faced growing competition from independent digital content creators and podcasters."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈmeɪn.striːm ˈmiː.di.ə/",
-    "emoji": "📰",
+    "transcription": "/\u02c8me\u026an.stri\u02d0m \u02c8mi\u02d0.di.\u0259/",
+    "emoji": "\ud83d\udcf0",
     "countability": "uncountable",
     "synonyms": [
       "legacy media",
@@ -513,7 +524,8 @@
     "antonyms": [
       "alternative media",
       "independent media"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:alternative-media:noun",
@@ -527,15 +539,15 @@
     "examples": [
       "Alternative media platforms gained popularity among audiences seeking non-traditional political commentary and investigative journalism."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "media",
     "tags": [
       "spoken",
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɒlˈtɜː.nə.tɪv ˈmiː.di.ə/",
-    "emoji": "📰",
+    "transcription": "/\u0252l\u02c8t\u025c\u02d0.n\u0259.t\u026av \u02c8mi\u02d0.di.\u0259/",
+    "emoji": "\ud83d\udcf0",
     "countability": "uncountable",
     "synonyms": [
       "indie media",
@@ -545,8 +557,9 @@
       "mainstream media"
     ],
     "transcription_variants": {
-      "us": "/ɑːlˈtɝː.nə.t̬ɪv ˈmiː.di.ə/"
-    }
+      "us": "/\u0251\u02d0l\u02c8t\u025d\u02d0.n\u0259.t\u032c\u026av \u02c8mi\u02d0.di.\u0259/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:tabloid-press:noun",
@@ -570,7 +583,7 @@
     "plural_form": "tabloid presses",
     "countability": "countable",
     "transcription": "/tabloid press/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "synonyms": [
       "yellow journalism",
       "sensationalist press"
@@ -601,7 +614,7 @@
     "updated": "2025-01-15",
     "plural_form": "credible sources",
     "transcription": "/credible source/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "reliable source",
@@ -633,7 +646,7 @@
     "updated": "2025-01-15",
     "plural_form": "primary sources",
     "transcription": "/primary source/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "first-hand account",
@@ -656,7 +669,7 @@
     "examples": [
       "Rigorous fact-checking was conducted by editors before publishing the controversial investigative news article."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -665,7 +678,7 @@
     "updated": "2025-01-15",
     "plural_form": "fact-checkings",
     "transcription": "/fact-checking/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "verification",
@@ -673,7 +686,8 @@
     ],
     "antonyms": [
       "misinformation spreading"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:clickbait:noun",
@@ -687,7 +701,7 @@
     "examples": [
       "Online news sites rely on exaggerated clickbait to generate page views and advertising revenue."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -695,8 +709,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "clickbaits",
-    "transcription": "/ˈklɪk.beɪt/",
-    "emoji": "📰",
+    "transcription": "/\u02c8kl\u026ak.be\u026at/",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "sensational headline",
@@ -704,7 +718,8 @@
     ],
     "antonyms": [
       "informative headline"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:echo-chamber:noun",
@@ -718,7 +733,7 @@
     "examples": [
       "Social media algorithms create an echo chamber where users rarely encounter contrasting political perspectives."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -726,8 +741,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "echo chambers",
-    "transcription": "/ˈek.əʊ ˌtʃeɪm.bər/",
-    "emoji": "📰",
+    "transcription": "/\u02c8ek.\u0259\u028a \u02cct\u0283e\u026am.b\u0259r/",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "filter bubble",
@@ -738,8 +753,9 @@
       "diverse debate"
     ],
     "transcription_variants": {
-      "us": "/ˈek.oʊ ˌtʃeɪm.bɚ/"
-    }
+      "us": "/\u02c8ek.o\u028a \u02cct\u0283e\u026am.b\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:filter-bubble:noun",
@@ -753,7 +769,7 @@
     "examples": [
       "Escaping your online filter bubble requires actively seeking out diverse and contrasting news sources."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -761,8 +777,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "filter bubbles",
-    "transcription": "/ˈfɪl.tər ˈbʌb.əl/",
-    "emoji": "📰",
+    "transcription": "/\u02c8f\u026al.t\u0259r \u02c8b\u028cb.\u0259l/",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "echo chamber",
@@ -772,8 +788,9 @@
       "unfiltered feed"
     ],
     "transcription_variants": {
-      "us": "/ˈfɪl.tɝ ˈbʌb.əl/"
-    }
+      "us": "/\u02c8f\u026al.t\u025d \u02c8b\u028cb.\u0259l/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:public-opinion:noun",
@@ -787,7 +804,7 @@
     "examples": [
       "Government policy shifted sharply after public opinion turned decisively against nuclear power plant construction."
     ],
-    "domain": "spoken, travel, professional",
+    "domain": "spoken, travel, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -796,13 +813,14 @@
     "updated": "2025-01-15",
     "plural_form": "public opinions",
     "transcription": "/public opinion/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "popular sentiment",
       "public view"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:opinion-poll:noun",
@@ -825,7 +843,7 @@
     "updated": "2025-01-15",
     "plural_form": "opinion polls",
     "transcription": "/opinion poll/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "survey",
@@ -854,7 +872,7 @@
     "updated": "2025-01-15",
     "plural_form": "approval ratings",
     "transcription": "/approval rating/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "popularity rating",
@@ -876,7 +894,7 @@
     "examples": [
       "A vibrant grassroots movement organized local environmental cleanups and petitioned city council for funding."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -885,7 +903,7 @@
     "updated": "2025-01-15",
     "plural_form": "grassroots movements",
     "transcription": "/grassroots movement/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "bottom-up initiative",
@@ -893,7 +911,8 @@
     ],
     "antonyms": [
       "top-down movement"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:social-movement:noun",
@@ -916,7 +935,7 @@
     "updated": "2025-01-15",
     "plural_form": "social movements",
     "transcription": "/social movement/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "campaign",
@@ -945,7 +964,7 @@
     "updated": "2025-01-15",
     "plural_form": "backlashs",
     "transcription": "/backlash/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "adverse reaction",
@@ -977,7 +996,7 @@
     "updated": "2025-01-15",
     "plural_form": "boycotts",
     "transcription": "/boycott/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "ban",
@@ -1010,7 +1029,7 @@
     "updated": "2025-01-15",
     "plural_form": "viral trends",
     "transcription": "/viral trend/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "internet phenomenon",
@@ -1037,8 +1056,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈkæn.səl ˈkʌl.tʃər/",
-    "emoji": "📰",
+    "transcription": "/\u02c8k\u00e6n.s\u0259l \u02c8k\u028cl.t\u0283\u0259r/",
+    "emoji": "\ud83d\udcf0",
     "countability": "uncountable",
     "synonyms": [
       "call-out culture",
@@ -1048,7 +1067,7 @@
       "forgiveness culture"
     ],
     "transcription_variants": {
-      "us": "/ˈkæn.səl ˈkʌl.tʃɚ/"
+      "us": "/\u02c8k\u00e6n.s\u0259l \u02c8k\u028cl.t\u0283\u025a/"
     }
   },
   {
@@ -1070,8 +1089,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈkɔːl.aʊt ˈkʌl.tʃər/",
-    "emoji": "📰",
+    "transcription": "/\u02c8k\u0254\u02d0l.a\u028at \u02c8k\u028cl.t\u0283\u0259r/",
+    "emoji": "\ud83d\udcf0",
     "countability": "uncountable",
     "synonyms": [
       "public shaming",
@@ -1081,7 +1100,7 @@
       "private resolution"
     ],
     "transcription_variants": {
-      "us": "/ˈkɔːl.aʊt ˈkʌl.tʃɚ/"
+      "us": "/\u02c8k\u0254\u02d0l.a\u028at \u02c8k\u028cl.t\u0283\u025a/"
     }
   },
   {
@@ -1096,7 +1115,7 @@
     "examples": [
       "Constitutional protections guarantee freedom of speech, although hate speech remains strictly regulated by law."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -1105,7 +1124,7 @@
     "updated": "2025-01-15",
     "plural_form": "freedom of speechs",
     "transcription": "/freedom of speech/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "free expression",
@@ -1114,7 +1133,8 @@
     "antonyms": [
       "censorship",
       "suppression"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:hate-speech:noun",
@@ -1137,7 +1157,7 @@
     "updated": "2025-01-15",
     "plural_form": "hate speechs",
     "transcription": "/hate speech/",
-    "emoji": "📰",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "synonyms": [
       "incitement",
@@ -1165,8 +1185,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/prəˈvɒk.ə.tɪv/",
-    "emoji": "📰",
+    "transcription": "/pr\u0259\u02c8v\u0252k.\u0259.t\u026av/",
+    "emoji": "\ud83d\udcf0",
     "synonyms": [
       "stimulating",
       "controversial"
@@ -1193,11 +1213,11 @@
     "levels": [
       "B2"
     ],
-    "transcription": "/ˈsəʊ.ʃəl ˈmiː.di.ə ˈprez.əns/",
+    "transcription": "/\u02c8s\u0259\u028a.\u0283\u0259l \u02c8mi\u02d0.di.\u0259 \u02c8prez.\u0259ns/",
     "transcription_variants": {
-      "us": "/ˈsoʊ.ʃəl ˈmiː.di.ə ˈprez.əns/"
+      "us": "/\u02c8so\u028a.\u0283\u0259l \u02c8mi\u02d0.di.\u0259 \u02c8prez.\u0259ns/"
     },
-    "emoji": "🌐",
+    "emoji": "\ud83c\udf10",
     "countability": "countable",
     "article": "a",
     "plural_form": "social media presences",
@@ -1214,7 +1234,7 @@
     "level": "B2",
     "domain": "general, relocation",
     "theme": "media",
-    "emoji": "👣",
+    "emoji": "\ud83d\udc63",
     "countability": "countable",
     "article": "a",
     "plural_form": "digital footprints",
@@ -1225,9 +1245,9 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/ˌdɪdʒ.ɪ.təl ˈfʊt.prɪnt/",
+    "transcription": "/\u02ccd\u026ad\u0292.\u026a.t\u0259l \u02c8f\u028at.pr\u026ant/",
     "transcription_variants": {
-      "us": "/ˌdɪdʒ.ət̬.əl ˈfʊt.prɪnt/"
+      "us": "/\u02ccd\u026ad\u0292.\u0259t\u032c.\u0259l \u02c8f\u028at.pr\u026ant/"
     },
     "definitions": [
       "the information about a particular person that exists on the internet as a result of their online activity"
@@ -1243,7 +1263,7 @@
     "level": "B2",
     "domain": "general, relocation",
     "theme": "media",
-    "emoji": "🌐",
+    "emoji": "\ud83c\udf10",
     "countability": "countable",
     "article": "an",
     "plural_form": "online reputations",
@@ -1254,9 +1274,9 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/ˈɒn.laɪn ˌrep.jəˈteɪ.ʃən/",
+    "transcription": "/\u02c8\u0252n.la\u026an \u02ccrep.j\u0259\u02c8te\u026a.\u0283\u0259n/",
     "transcription_variants": {
-      "us": "/ˈɑːn.laɪn ˌrep.jəˈteɪ.ʃən/"
+      "us": "/\u02c8\u0251\u02d0n.la\u026an \u02ccrep.j\u0259\u02c8te\u026a.\u0283\u0259n/"
     },
     "definitions": [
       "the public perception of an individual or company as reflected by digital content"
@@ -1272,7 +1292,7 @@
     "level": "B2",
     "domain": "general, relocation, travel",
     "theme": "media",
-    "emoji": "📲",
+    "emoji": "\ud83d\udcf2",
     "countability": "uncountable",
     "synonyms": [
       "trending media",
@@ -1281,9 +1301,9 @@
     "no_antonym": true,
     "language": "en",
     "updated": "2025-01-15",
-    "transcription": "/ˈvaɪ.rəl ˈkɒn.tent/",
+    "transcription": "/\u02c8va\u026a.r\u0259l \u02c8k\u0252n.tent/",
     "transcription_variants": {
-      "us": "/ˈvaɪ.rəl ˈkɑːn.tent/"
+      "us": "/\u02c8va\u026a.r\u0259l \u02c8k\u0251\u02d0n.tent/"
     },
     "definitions": [
       "online media materials that spread rapidly and widely across social networks"
@@ -1307,8 +1327,8 @@
     "examples": [
       "The news outlet dispatched a foreign correspondent to cover the election."
     ],
-    "transcription": "/ˌkɒr.ɪˈspɒn.dənt/",
-    "emoji": "🎙️",
+    "transcription": "/\u02cck\u0252r.\u026a\u02c8sp\u0252n.d\u0259nt/",
+    "emoji": "\ud83c\udf99\ufe0f",
     "countability": "countable",
     "plural_form": "correspondents",
     "synonyms": [
@@ -1336,8 +1356,8 @@
     "examples": [
       "Travelers rely on crowd-sourced information to locate authentic local street food."
     ],
-    "transcription": "/kraʊd sɔːst ˌɪn.fəˈmeɪ.ʃən/",
-    "emoji": "🌐",
+    "transcription": "/kra\u028ad s\u0254\u02d0st \u02cc\u026an.f\u0259\u02c8me\u026a.\u0283\u0259n/",
+    "emoji": "\ud83c\udf10",
     "countability": "uncountable",
     "synonyms": [
       "community data",
@@ -1364,8 +1384,8 @@
     "examples": [
       "The local bistro received glowing praise from a renowned food critic."
     ],
-    "transcription": "/fuːd ˈkrɪt.ɪk/",
-    "emoji": "🖊️",
+    "transcription": "/fu\u02d0d \u02c8kr\u026at.\u026ak/",
+    "emoji": "\ud83d\udd8a\ufe0f",
     "countability": "countable",
     "plural_form": "food critics",
     "synonyms": [
@@ -1393,8 +1413,8 @@
     "examples": [
       "The foreign correspondent reported live from the international summit."
     ],
-    "transcription": "/ˈfɒr.ən ˌkɒr.ɪˈspɒn.dənt/",
-    "emoji": "🎙️",
+    "transcription": "/\u02c8f\u0252r.\u0259n \u02cck\u0252r.\u026a\u02c8sp\u0252n.d\u0259nt/",
+    "emoji": "\ud83c\udf99\ufe0f",
     "countability": "countable",
     "plural_form": "foreign correspondents",
     "synonyms": [
@@ -1422,8 +1442,8 @@
     "examples": [
       "She published an insightful opinion piece on sustainable tourism."
     ],
-    "transcription": "/əˈpɪn.jən piːs/",
-    "emoji": "📰",
+    "transcription": "/\u0259\u02c8p\u026an.j\u0259n pi\u02d0s/",
+    "emoji": "\ud83d\udcf0",
     "countability": "countable",
     "plural_form": "opinion pieces",
     "synonyms": [

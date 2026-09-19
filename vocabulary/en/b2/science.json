@@ -11,18 +11,19 @@
     "examples": [
       "Advances in artificial intelligence transformed medical diagnostics by enabling automated image analysis."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "artificials",
     "transcription": "/artificial/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "AI",
       "machine intelligence"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:methodology:noun",
@@ -36,7 +37,7 @@
     "examples": [
       "The research methodology was scrutinized by peer reviewers to ensure empirical data validity."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "methodologies",
@@ -68,7 +69,7 @@
     "examples": [
       "Temperature was controlled as an independent variable while observing chemical reaction rates."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "variables",
@@ -100,7 +101,7 @@
     "examples": [
       "Researchers found a strong positive correlation between daily physical exercise and improved cognitive health."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -135,7 +136,7 @@
     "examples": [
       "Scientists cautioned that correlation between variables does not automatically establish direct causation."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -174,7 +175,7 @@
       "C1"
     ],
     "transcription": "/control/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "benchmark group",
@@ -194,7 +195,7 @@
     "examples": [
       "The discovery was published in a prestigious peer-reviewed journal after thorough scientific evaluation."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "peer-revieweds",
@@ -202,7 +203,7 @@
       "spoken"
     ],
     "transcription": "/peer-reviewed/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "refereed publication",
@@ -225,7 +226,7 @@
     "examples": [
       "Empirical evidence gathered across three trial studies confirmed the drug safety and effectiveness."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -260,7 +261,7 @@
     "examples": [
       "Theoretical physics models predicted the existence of subatomic particles long before experimental confirmation."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "levels": [
@@ -268,7 +269,7 @@
       "C1"
     ],
     "transcription": "/theoretical/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "hypothetical",
       "abstract",
@@ -277,7 +278,8 @@
     "antonyms": [
       "empirical",
       "practical"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:replicate:verb",
@@ -295,7 +297,7 @@
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/replicate/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "reproduce",
       "duplicate",
@@ -321,7 +323,7 @@
     "updated": "2025-01-15",
     "plural_form": "replications",
     "transcription": "/replication/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "reproduction",
@@ -346,7 +348,7 @@
     "updated": "2025-01-15",
     "plural_form": "prototypes",
     "transcription": "/prototype/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "mock-up",
@@ -367,20 +369,21 @@
     "examples": [
       "Advances in biotechnology enabled researchers to engineer drought-resistant crop varieties for farmers."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/biotechnology/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "uncountable",
     "synonyms": [
       "bio-engineering",
       "life science tech"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:engineering:noun",
@@ -394,11 +397,11 @@
     "examples": [
       "Genetic engineering techniques allowed scientists to modify DNA sequences to eliminate hereditary diseases."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/engineering/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "uncountable",
     "synonyms": [
       "tech engineering",
@@ -419,20 +422,21 @@
     "examples": [
       "Nanotechnology promises to revolutionize medicine by delivering targeted cancer treatments directly to cells."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/nanotechnology/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "uncountable",
     "synonyms": [
       "molecular tech",
       "nanotech"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:disruptive:adjective",
@@ -454,7 +458,7 @@
       "C1"
     ],
     "transcription": "/disruptive/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "groundbreaking",
       "transformative",
@@ -481,7 +485,7 @@
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/quantum/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "subatomic",
       "quantum-mechanical"
@@ -505,7 +509,7 @@
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/simulate/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "model",
       "replicate",
@@ -530,7 +534,7 @@
     "updated": "2025-01-15",
     "plural_form": "simulations",
     "transcription": "/simulation/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "virtual model",
@@ -553,11 +557,11 @@
     "examples": [
       "Engineers adjusted software algorithms to optimize data processing speeds across regional networks."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/optimize/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "streamline",
       "maximize efficiency",
@@ -566,7 +570,8 @@
     "antonyms": [
       "impair",
       "worsen"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:optimise:verb",
@@ -584,7 +589,7 @@
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/optimise/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "streamline",
       "maximize efficiency",
@@ -610,7 +615,7 @@
     "examples": [
       "The university laboratory was equipped with cutting-edge technology for researching renewable energy storage."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -619,7 +624,7 @@
     "updated": "2025-01-15",
     "plural_form": "cutting-edges",
     "transcription": "/cutting-edge/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "state-of-the-art",
@@ -631,7 +636,8 @@
     "levels": [
       "B2",
       "C1"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:groundbreaking:noun",
@@ -645,15 +651,15 @@
     "examples": [
       "Her groundbreaking research on gene editing earned widespread international acclaim from scientific communities."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈɡraʊndˌbreɪ.kɪŋ/",
-    "emoji": "🔬",
+    "transcription": "/\u02c8\u0261ra\u028and\u02ccbre\u026a.k\u026a\u014b/",
+    "emoji": "\ud83d\udd2c",
     "countability": "uncountable",
     "synonyms": [
       "pioneering innovation",
@@ -661,7 +667,8 @@
     ],
     "antonyms": [
       "conventional work"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:innovative:noun",
@@ -675,7 +682,7 @@
     "examples": [
       "The startup introduced an innovative solution for converting ocean saltwater into clean drinking water."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -684,7 +691,7 @@
     "updated": "2025-01-15",
     "plural_form": "innovatives",
     "transcription": "/innovative/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "inventiveness",
@@ -692,7 +699,8 @@
     ],
     "antonyms": [
       "orthodoxy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:revolutionary:noun",
@@ -706,7 +714,7 @@
     "examples": [
       "The invention of penicillin represented a revolutionary advancement in the treatment of bacterial infections."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -715,7 +723,7 @@
     "updated": "2025-01-15",
     "plural_form": "revolutionarys",
     "transcription": "/revolutionary/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "radical shift",
@@ -723,7 +731,8 @@
     ],
     "antonyms": [
       "traditional approach"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:machine-learning:noun",
@@ -737,7 +746,7 @@
     "examples": [
       "Machine-learning algorithms analyzed millions of medical records to identify early disease risk factors."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -746,7 +755,7 @@
     "updated": "2025-01-15",
     "plural_form": "machine learnings",
     "transcription": "/machine learning/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "ML",
@@ -775,7 +784,7 @@
     ],
     "updated": "2025-01-15",
     "transcription": "/genetic engineering/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "uncountable",
     "synonyms": [
       "gene editing",
@@ -795,7 +804,7 @@
     "examples": [
       "Quantum-computing promises to solve complex mathematical problems that would take traditional supercomputers centuries."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -804,7 +813,7 @@
     "updated": "2025-01-15",
     "plural_form": "quantum computings",
     "transcription": "/quantum computing/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "quantum processing",
@@ -812,7 +821,8 @@
     ],
     "antonyms": [
       "classical computing"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:renewable-technology:noun",
@@ -826,7 +836,7 @@
     "examples": [
       "Investment in renewable-technology surged as governments sought alternatives to fossil fuel power plants."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -835,7 +845,7 @@
     "updated": "2025-01-15",
     "plural_form": "renewable technologys",
     "transcription": "/renewable technology/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "green tech",
@@ -843,7 +853,8 @@
     ],
     "antonyms": [
       "fossil technology"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:sustainable-innovation:noun",
@@ -866,7 +877,7 @@
     "updated": "2025-01-15",
     "plural_form": "sustainable innovations",
     "transcription": "/sustainable innovation/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "eco-innovation",
@@ -897,7 +908,7 @@
     "updated": "2025-01-15",
     "plural_form": "digital transformations",
     "transcription": "/digital transformation/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "digitization",
@@ -919,7 +930,7 @@
     "examples": [
       "Stricter data-privacy regulations were enforced to protect consumer information from unauthorized corporate harvesting."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -927,7 +938,7 @@
     ],
     "updated": "2025-01-15",
     "transcription": "/data privacy/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "uncountable",
     "synonyms": [
       "information privacy",
@@ -935,7 +946,8 @@
     ],
     "antonyms": [
       "data exposure"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:algorithmic-bias:noun",
@@ -949,7 +961,7 @@
     "examples": [
       "Auditors identified algorithmic-bias in facial recognition software that produced higher error rates for minorities."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -965,7 +977,8 @@
     ],
     "antonyms": [
       "algorithmic neutrality"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:deepfake:noun",
@@ -979,7 +992,7 @@
     "examples": [
       "The proliferation of deepfake videos raised concerns regarding political disinformation during national elections."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -988,7 +1001,7 @@
     "updated": "2025-01-15",
     "plural_form": "deepfakes",
     "transcription": "/deepfake/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "synthetic media",
@@ -996,7 +1009,8 @@
     ],
     "antonyms": [
       "authentic video"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:blockchain:noun",
@@ -1010,7 +1024,7 @@
     "examples": [
       "Blockchain technology provides transparent, tamper-proof verification for supply chain management and financial transactions."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -1019,13 +1033,14 @@
     "updated": "2025-01-15",
     "plural_form": "blockchains",
     "transcription": "/blockchain/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "distributed ledger",
       "decentralized database"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:virtual-assistant:noun",
@@ -1048,7 +1063,7 @@
     "updated": "2025-01-15",
     "plural_form": "virtual assistants",
     "transcription": "/virtual assistant/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "AI assistant",
@@ -1068,7 +1083,7 @@
     "examples": [
       "Scientists debated the ethical-implications of cloning before releasing research findings to the public."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -1077,12 +1092,13 @@
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
     "transcription": "/ethical implications/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "moral ramifications",
       "ethical consequences"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:technological-disruption:noun",
@@ -1105,7 +1121,7 @@
     "updated": "2025-01-15",
     "plural_form": "technological disruptions",
     "transcription": "/technological disruption/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "market upheaval",
@@ -1136,7 +1152,7 @@
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
     "transcription": "/cutting corners/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "synonyms": [
       "taking shortcuts",
       "skimping"
@@ -1166,7 +1182,7 @@
     "updated": "2025-01-15",
     "plural_form": "trial and errors",
     "transcription": "/trial and error/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "empirical testing",
@@ -1195,7 +1211,7 @@
     "updated": "2025-01-15",
     "plural_form": "proof of concepts",
     "transcription": "/proof of concept/",
-    "emoji": "🔬",
+    "emoji": "\ud83d\udd2c",
     "countability": "countable",
     "synonyms": [
       "POC",
@@ -1221,8 +1237,8 @@
       "upper-intermediate"
     ],
     "updated": "2025-01-15",
-    "transcription": "/kənˈvɜːdʒ/",
-    "emoji": "🔀",
+    "transcription": "/k\u0259n\u02c8v\u025c\u02d0d\u0292/",
+    "emoji": "\ud83d\udd00",
     "synonyms": [
       "meet",
       "merge"
@@ -1239,7 +1255,7 @@
     "level": "B2",
     "domain": "general, relocation",
     "theme": "science",
-    "transcription": "/ˌɑː.tɪˈfɪʃ.əl ˈdʒen.ər.əl ɪnˈtel.ɪ.dʒəns/",
+    "transcription": "/\u02cc\u0251\u02d0.t\u026a\u02c8f\u026a\u0283.\u0259l \u02c8d\u0292en.\u0259r.\u0259l \u026an\u02c8tel.\u026a.d\u0292\u0259ns/",
     "updated": "2025-01-15",
     "definitions": [
       "hypothetical artificial intelligence possessing the ability to understand, learn, and apply knowledge across any cognitive task"
@@ -1248,9 +1264,9 @@
       "Computer scientists debate the ethical and economic implications of achieving artificial general intelligence in this century."
     ],
     "transcription_variants": {
-      "us": "/ˌɑːr.t̬əˈfɪʃ.əl ˈdʒen.ɚ.əl ɪnˈtel.ə.dʒəns/"
+      "us": "/\u02cc\u0251\u02d0r.t\u032c\u0259\u02c8f\u026a\u0283.\u0259l \u02c8d\u0292en.\u025a.\u0259l \u026an\u02c8tel.\u0259.d\u0292\u0259ns/"
     },
-    "emoji": "🤖",
+    "emoji": "\ud83e\udd16",
     "countability": "uncountable",
     "synonyms": [
       "AGI",
@@ -1267,7 +1283,7 @@
     "level": "B2",
     "domain": "general, relocation",
     "theme": "science",
-    "transcription": "/ˈfiːd.bæk luːp/",
+    "transcription": "/\u02c8fi\u02d0d.b\u00e6k lu\u02d0p/",
     "updated": "2025-01-15",
     "definitions": [
       "a system structure where outputs are routed back as inputs forming a circuit of cause and effect"
@@ -1275,7 +1291,7 @@
     "examples": [
       "Climate scientists study positive feedback loops where melting arctic ice accelerates global surface warming."
     ],
-    "emoji": "🔄",
+    "emoji": "\ud83d\udd04",
     "countability": "countable",
     "article": "a",
     "plural_form": "feedback loops",

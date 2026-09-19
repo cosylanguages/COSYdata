@@ -11,7 +11,7 @@
     "examples": [
       "He passed the ball to his teammate."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "sports",
     "tags": [
       "spoken",
@@ -19,12 +19,13 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "teammates",
-    "transcription": "/ˈtiːm.meɪt/",
-    "emoji": "🧑‍🤝‍🧑",
+    "transcription": "/\u02c8ti\u02d0m.me\u026at/",
+    "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
     "countability": "countable",
     "antonyms": [
       "opponent"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:league:noun",
@@ -38,7 +39,7 @@
     "examples": [
       "Our team won the local football league."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "sports",
     "tags": [
       "spoken",
@@ -46,10 +47,11 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "leagues",
-    "transcription": "/liːɡ/",
-    "emoji": "🏆",
+    "transcription": "/li\u02d0\u0261/",
+    "emoji": "\ud83c\udfc6",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:pitch:noun",
@@ -63,7 +65,7 @@
     "examples": [
       "Players ran onto the green football pitch."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "sports",
     "tags": [
       "spoken",
@@ -71,10 +73,11 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "pitches",
-    "transcription": "/pɪtʃ/",
-    "emoji": "⚽",
+    "transcription": "/p\u026at\u0283/",
+    "emoji": "\u26bd",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:track:noun",
@@ -96,8 +99,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "tracks",
-    "transcription": "/træk/",
-    "emoji": "🛤️",
+    "transcription": "/tr\u00e6k/",
+    "emoji": "\ud83d\udee4\ufe0f",
     "countability": "countable",
     "no_antonym": true
   },
@@ -121,12 +124,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "fitness centers",
-    "transcription": "/ˈfɪt.nəs ˌsen.tər/",
-    "emoji": "🏋️",
+    "transcription": "/\u02c8f\u026at.n\u0259s \u02ccsen.t\u0259r/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfɪt.nəs ˌsen.t̬ɚ/"
+      "us": "/\u02c8f\u026at.n\u0259s \u02ccsen.t\u032c\u025a/"
     }
   },
   {
@@ -149,12 +152,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "marathons",
-    "transcription": "/ˈmær.ə.θən/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8m\u00e6r.\u0259.\u03b8\u0259n/",
+    "emoji": "\ud83c\udfc3",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈmær.ə.θɑːn/"
+      "us": "/\u02c8m\u00e6r.\u0259.\u03b8\u0251\u02d0n/"
     }
   },
   {
@@ -177,12 +180,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "jogs",
-    "transcription": "/dʒɒɡ/",
-    "emoji": "🏃",
+    "transcription": "/d\u0292\u0252\u0261/",
+    "emoji": "\ud83c\udfc3",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/dʒɑːɡ/"
+      "us": "/d\u0292\u0251\u02d0\u0261/"
     }
   },
   {
@@ -197,7 +200,7 @@
     "examples": [
       "Do a short warm-up before running."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "sports",
     "tags": [
       "spoken",
@@ -205,15 +208,16 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "warm-ups",
-    "transcription": "/ˈwɔːm.ʌp/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8w\u0254\u02d0m.\u028cp/",
+    "emoji": "\ud83c\udfc3",
     "countability": "countable",
     "antonyms": [
       "cool down"
     ],
     "transcription_variants": {
-      "us": "/ˈwɔːrm.ʌp/"
-    }
+      "us": "/\u02c8w\u0254\u02d0rm.\u028cp/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cool-down:noun",
@@ -235,8 +239,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "cool-downs",
-    "transcription": "/ˈkuːl.daʊn/",
-    "emoji": "🧘",
+    "transcription": "/\u02c8ku\u02d0l.da\u028an/",
+    "emoji": "\ud83e\uddd8",
     "countability": "countable",
     "antonyms": [
       "warm up"
@@ -254,7 +258,7 @@
     "examples": [
       "The winning team lifted the gold trophy."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "sports",
     "tags": [
       "spoken",
@@ -262,13 +266,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "trophies",
-    "transcription": "/ˈtrəʊ.fi/",
-    "emoji": "🏆",
+    "transcription": "/\u02c8tr\u0259\u028a.fi/",
+    "emoji": "\ud83c\udfc6",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈtroʊ.fi/"
-    }
+      "us": "/\u02c8tro\u028a.fi/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:supporter:noun",
@@ -282,7 +287,7 @@
     "examples": [
       "Cheering supporters filled the sports stadium."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "sports",
     "tags": [
       "spoken",
@@ -290,15 +295,16 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "supporters",
-    "transcription": "/səˈpɔː.tər/",
-    "emoji": "👏",
+    "transcription": "/s\u0259\u02c8p\u0254\u02d0.t\u0259r/",
+    "emoji": "\ud83d\udc4f",
     "countability": "countable",
     "antonyms": [
       "opponent"
     ],
     "transcription_variants": {
-      "us": "/səˈpɔːr.t̬ɚ/"
-    }
+      "us": "/s\u0259\u02c8p\u0254\u02d0r.t\u032c\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:away-team:noun",
@@ -315,8 +321,8 @@
     "examples": [
       "The away team scored two quick goals before half time."
     ],
-    "transcription": "/əˈweɪ tiːm/",
-    "emoji": "⚽",
+    "transcription": "/\u0259\u02c8we\u026a ti\u02d0m/",
+    "emoji": "\u26bd",
     "countability": "countable",
     "plural_form": "away teams",
     "synonyms": [
@@ -346,8 +352,8 @@
     "examples": [
       "Season ticket holders receive dedicated stadium seating and store discounts."
     ],
-    "transcription": "/ˈsiː.zən ˈtɪk.ɪt ˈhəʊl.dər/",
-    "emoji": "🎟️",
+    "transcription": "/\u02c8si\u02d0.z\u0259n \u02c8t\u026ak.\u026at \u02c8h\u0259\u028al.d\u0259r/",
+    "emoji": "\ud83c\udf9f\ufe0f",
     "countability": "countable",
     "plural_form": "season ticket holders",
     "synonyms": [
@@ -375,8 +381,8 @@
     "examples": [
       "The beach shop provides sports equipment rental for surfing and kayaking."
     ],
-    "transcription": "/spɔːts ɪˈkwɪp.mənt ˈren.təl/",
-    "emoji": "🏄‍♂️",
+    "transcription": "/sp\u0254\u02d0ts \u026a\u02c8kw\u026ap.m\u0259nt \u02c8ren.t\u0259l/",
+    "emoji": "\ud83c\udfc4\u200d\u2642\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "gear rental",
@@ -403,8 +409,8 @@
     "examples": [
       "The sports bar wall was covered with autographed sports memorabilia."
     ],
-    "transcription": "/spɔːts ˌmem.ər.əˈbɪl.i.ə/",
-    "emoji": "🏆",
+    "transcription": "/sp\u0254\u02d0ts \u02ccmem.\u0259r.\u0259\u02c8b\u026al.i.\u0259/",
+    "emoji": "\ud83c\udfc6",
     "countability": "uncountable",
     "synonyms": [
       "collectibles",
@@ -431,8 +437,8 @@
     "examples": [
       "The football squad spent two weeks at an alpine training camp."
     ],
-    "transcription": "/ˈtreɪ.nɪŋ kæmp/",
-    "emoji": "🏋️",
+    "transcription": "/\u02c8tre\u026a.n\u026a\u014b k\u00e6mp/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "countability": "countable",
     "plural_form": "training camps",
     "synonyms": [
@@ -460,8 +466,8 @@
     "examples": [
       "A ten-minute warm-up routine prevents sports injuries before tennis."
     ],
-    "transcription": "/ˈwɔːm.ʌp ruːˈtiːn/",
-    "emoji": "🤸‍♂️",
+    "transcription": "/\u02c8w\u0254\u02d0m.\u028cp ru\u02d0\u02c8ti\u02d0n/",
+    "emoji": "\ud83e\udd38\u200d\u2642\ufe0f",
     "countability": "countable",
     "plural_form": "warm-up routines",
     "synonyms": [
@@ -491,8 +497,8 @@
     "examples": [
       "A proper cool-down routine helps prevent muscle soreness after running."
     ],
-    "transcription": "/ˈkuːl.daʊn ruːˈtiːn/",
-    "emoji": "🧘",
+    "transcription": "/\u02c8ku\u02d0l.da\u028an ru\u02d0\u02c8ti\u02d0n/",
+    "emoji": "\ud83e\uddd8",
     "countability": "countable",
     "plural_form": "cool-down routines",
     "synonyms": [
@@ -522,8 +528,8 @@
     "examples": [
       "The beach resort offers a guided fitness class every morning at sunrise."
     ],
-    "transcription": "/ˈɡaɪ.dɪd ˈfɪt.nəs klɑːs/",
-    "emoji": "🧘‍♀️",
+    "transcription": "/\u02c8\u0261a\u026a.d\u026ad \u02c8f\u026at.n\u0259s kl\u0251\u02d0s/",
+    "emoji": "\ud83e\uddd8\u200d\u2640\ufe0f",
     "countability": "countable",
     "plural_form": "guided fitness classes",
     "synonyms": [
@@ -551,8 +557,8 @@
     "examples": [
       "Thousands of local fans cheered loudly for the home team."
     ],
-    "transcription": "/həʊm tiːm/",
-    "emoji": "🏟️",
+    "transcription": "/h\u0259\u028am ti\u02d0m/",
+    "emoji": "\ud83c\udfdf\ufe0f",
     "countability": "countable",
     "plural_form": "home teams",
     "synonyms": [
@@ -582,8 +588,8 @@
     "examples": [
       "Put on your life vest before boarding the small motorboat."
     ],
-    "transcription": "/laɪf vest/",
-    "emoji": "🤿",
+    "transcription": "/la\u026af vest/",
+    "emoji": "\ud83e\udd3f",
     "countability": "countable",
     "plural_form": "life vests",
     "synonyms": [
@@ -611,8 +617,8 @@
     "examples": [
       "The resort gym hired a personal trainer to guide guest workouts."
     ],
-    "transcription": "/ˈpɜː.sən.əl ˈtreɪ.nər/",
-    "emoji": "🏋️‍♂️",
+    "transcription": "/\u02c8p\u025c\u02d0.s\u0259n.\u0259l \u02c8tre\u026a.n\u0259r/",
+    "emoji": "\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
     "countability": "countable",
     "plural_form": "personal trainers",
     "synonyms": [

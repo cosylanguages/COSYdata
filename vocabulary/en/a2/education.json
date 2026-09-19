@@ -11,7 +11,7 @@
     "examples": [
       "She enrolled in an evening language course."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "courses",
@@ -21,12 +21,12 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/kɔːs/",
-    "emoji": "📚",
+    "transcription": "/k\u0254\u02d0s/",
+    "emoji": "\ud83d\udcda",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/kɔːrs/"
+      "us": "/k\u0254\u02d0rs/"
     },
     "sub_theme": "academic-english"
   },
@@ -42,7 +42,7 @@
     "examples": [
       "Let us review yesterday's grammar lesson."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -52,8 +52,8 @@
       "A2",
       "B1"
     ],
-    "transcription": "/rɪˈvjuː/",
-    "emoji": "📖",
+    "transcription": "/r\u026a\u02c8vju\u02d0/",
+    "emoji": "\ud83d\udcd6",
     "no_antonym": true,
     "sub_theme": "teachers-scientists"
   },
@@ -69,15 +69,15 @@
     "examples": [
       "Daily practice will improve your speaking."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
       "A2",
       "B1"
     ],
-    "transcription": "/ɪmˈpruːv/",
-    "emoji": "📈",
+    "transcription": "/\u026am\u02c8pru\u02d0v/",
+    "emoji": "\ud83d\udcc8",
     "antonyms": [
       "worsen",
       "deteriorate"
@@ -96,7 +96,7 @@
     "examples": [
       "Reading books expands your general knowledge."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "levels": [
@@ -104,14 +104,15 @@
       "C1"
     ],
     "countability": "uncountable",
-    "transcription": "/ˈnɒl.ɪdʒ/",
-    "emoji": "🧠",
+    "transcription": "/\u02c8n\u0252l.\u026ad\u0292/",
+    "emoji": "\ud83e\udde0",
     "antonyms": [
       "ignorance"
     ],
     "transcription_variants": {
-      "us": "/ˈnɑː.lɪdʒ/"
-    }
+      "us": "/\u02c8n\u0251\u02d0.l\u026ad\u0292/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:pass:noun",
@@ -125,7 +126,7 @@
     "examples": [
       "She worked hard to pass the test."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "passes",
@@ -136,13 +137,13 @@
       "A2"
     ],
     "countability": "countable",
-    "transcription": "/pɑːs/",
-    "emoji": "✅",
+    "transcription": "/p\u0251\u02d0s/",
+    "emoji": "\u2705",
     "antonyms": [
       "fail"
     ],
     "transcription_variants": {
-      "us": "/pæs/"
+      "us": "/p\u00e6s/"
     },
     "sub_theme": "academic-english"
   },
@@ -158,20 +159,20 @@
     "examples": [
       "Did you understand the teacher's instructions?"
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˌʌn.dəˈstænd/",
-    "emoji": "💡",
+    "transcription": "/\u02cc\u028cn.d\u0259\u02c8st\u00e6nd/",
+    "emoji": "\ud83d\udca1",
     "countability": "uncountable",
     "antonyms": [
       "misunderstand"
     ],
     "transcription_variants": {
-      "us": "/ˌʌn.dɚˈstænd/"
+      "us": "/\u02cc\u028cn.d\u025a\u02c8st\u00e6nd/"
     },
     "sub_theme": "academic-english"
   },
@@ -187,7 +188,7 @@
     "examples": [
       "Swimming is a very useful life skill."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "skills",
@@ -197,10 +198,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/skɪl/",
-    "emoji": "🎯",
+    "transcription": "/sk\u026al/",
+    "emoji": "\ud83c\udfaf",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:diploma:noun",
@@ -214,19 +216,19 @@
     "examples": [
       "He received his diploma at the ceremony."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "diplomas",
     "tags": [
       "spoken"
     ],
-    "transcription": "/dɪˈpləʊ.mə/",
-    "emoji": "📜",
+    "transcription": "/d\u026a\u02c8pl\u0259\u028a.m\u0259/",
+    "emoji": "\ud83d\udcdc",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/dɪˈploʊ.mə/"
+      "us": "/d\u026a\u02c8plo\u028a.m\u0259/"
     },
     "sub_theme": "academic-english"
   },
@@ -242,19 +244,19 @@
     "examples": [
       "You need a medical certificate for work."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "certificates",
     "tags": [
       "spoken"
     ],
-    "transcription": "/səˈtɪf.ɪ.kət/",
-    "emoji": "📜",
+    "transcription": "/s\u0259\u02c8t\u026af.\u026a.k\u0259t/",
+    "emoji": "\ud83d\udcdc",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/sɚˈtɪf.ə.kət/"
+      "us": "/s\u025a\u02c8t\u026af.\u0259.k\u0259t/"
     },
     "sub_theme": "legal-english"
   },
@@ -270,20 +272,21 @@
     "examples": [
       "The professor gave an interesting science lecture."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "lectures",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈlek.tʃər/",
-    "emoji": "🗣️",
+    "transcription": "/\u02c8lek.t\u0283\u0259r/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈlek.tʃɚ/"
-    }
+      "us": "/\u02c8lek.t\u0283\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:grade:noun",
@@ -297,15 +300,15 @@
     "examples": [
       "He got a high grade on his test."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "grades",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ɡreɪd/",
-    "emoji": "💯",
+    "transcription": "/\u0261re\u026ad/",
+    "emoji": "\ud83d\udcaf",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -322,19 +325,19 @@
     "examples": [
       "She achieved a top mark in English."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "marks",
     "tags": [
       "spoken"
     ],
-    "transcription": "/mɑːk/",
-    "emoji": "📝",
+    "transcription": "/m\u0251\u02d0k/",
+    "emoji": "\ud83d\udcdd",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/mɑːrk/"
+      "us": "/m\u0251\u02d0rk/"
     },
     "sub_theme": "teachers-scientists"
   },
@@ -350,15 +353,15 @@
     "examples": [
       "He feared he might fail the exam."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "fails",
     "tags": [
       "spoken"
     ],
-    "transcription": "/feɪl/",
-    "emoji": "❌",
+    "transcription": "/fe\u026al/",
+    "emoji": "\u274c",
     "countability": "countable",
     "antonyms": [
       "pass"
@@ -384,8 +387,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/kwɪz/",
-    "emoji": "❓",
+    "transcription": "/kw\u026az/",
+    "emoji": "\u2753",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -402,15 +405,15 @@
     "examples": [
       "Finish your writing assignment by Friday."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "assignments",
     "tags": [
       "spoken"
     ],
-    "transcription": "/əˈsaɪn.mənt/",
-    "emoji": "📋",
+    "transcription": "/\u0259\u02c8sa\u026an.m\u0259nt/",
+    "emoji": "\ud83d\udccb",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -438,12 +441,12 @@
       "A2",
       "B2"
     ],
-    "transcription": "/ˈprɒdʒ.ekt/",
-    "emoji": "📊",
+    "transcription": "/\u02c8pr\u0252d\u0292.ekt/",
+    "emoji": "\ud83d\udcca",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈprɑː.dʒekt/"
+      "us": "/\u02c8pr\u0251\u02d0.d\u0292ekt/"
     },
     "sub_theme": "it-specialists"
   },
@@ -459,15 +462,15 @@
     "examples": [
       "She wrote a short essay about nature."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "essays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈes.eɪ/",
-    "emoji": "📄",
+    "transcription": "/\u02c8es.e\u026a/",
+    "emoji": "\ud83d\udcc4",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -484,7 +487,7 @@
     "examples": [
       "Check your timetable for the classroom number."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "timetables",
@@ -494,8 +497,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈtaɪmˌteɪ.bəl/",
-    "emoji": "📅",
+    "transcription": "/\u02c8ta\u026am\u02ccte\u026a.b\u0259l/",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "no_antonym": true,
     "region": [
@@ -528,12 +531,12 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈʃed.juːl/",
-    "emoji": "📅",
+    "transcription": "/\u02c8\u0283ed.ju\u02d0l/",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈskedʒ.uːl/"
+      "us": "/\u02c8sked\u0292.u\u02d0l/"
     },
     "region": [
       "US"
@@ -554,19 +557,19 @@
     "examples": [
       "The spring term ends late in May."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "terms",
     "tags": [
       "spoken"
     ],
-    "transcription": "/tɜːm/",
-    "emoji": "📅",
+    "transcription": "/t\u025c\u02d0m/",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tɝːm/"
+      "us": "/t\u025d\u02d0m/"
     },
     "sub_theme": "academic-english"
   },
@@ -589,12 +592,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/sɪˈmes.tər/",
-    "emoji": "📅",
+    "transcription": "/s\u026a\u02c8mes.t\u0259r/",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/səˈmes.tɚ/"
+      "us": "/s\u0259\u02c8mes.t\u025a/"
     },
     "sub_theme": "academic-english"
   },
@@ -610,21 +613,21 @@
     "examples": [
       "The professor published a new research paper."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "professors",
     "tags": [
       "spoken"
     ],
-    "transcription": "/prəˈfes.ər/",
-    "emoji": "👨‍🏫",
+    "transcription": "/pr\u0259\u02c8fes.\u0259r/",
+    "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
     "countability": "countable",
     "antonyms": [
       "student"
     ],
     "transcription_variants": {
-      "us": "/prəˈfes.ɚ/"
+      "us": "/pr\u0259\u02c8fes.\u025a/"
     },
     "sub_theme": "academic-english"
   },
@@ -640,18 +643,18 @@
     "examples": [
       "Our lecturer explained the homework topic clearly."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "lecturers",
-    "transcription": "/ˈlek.tʃər.ər/",
-    "emoji": "👩‍🏫",
+    "transcription": "/\u02c8lek.t\u0283\u0259r.\u0259r/",
+    "emoji": "\ud83d\udc69\u200d\ud83c\udfeb",
     "countability": "countable",
     "antonyms": [
       "student"
     ],
     "transcription_variants": {
-      "us": "/ˈlek.tʃɚ.ɚ/"
+      "us": "/\u02c8lek.t\u0283\u025a.\u025a/"
     },
     "sub_theme": "academic-english"
   },
@@ -667,19 +670,19 @@
     "examples": [
       "I met my classmate at the library."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "classmates",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈklɑːs.meɪt/",
-    "emoji": "🧑‍🎓",
+    "transcription": "/\u02c8kl\u0251\u02d0s.me\u026at/",
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf93",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈklæs.meɪt/"
+      "us": "/\u02c8kl\u00e6s.me\u026at/"
     },
     "sub_theme": "academic-english"
   },
@@ -695,19 +698,19 @@
     "examples": [
       "She won a scholarship to study abroad."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "scholarships",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈskɒl.ə.ʃɪp/",
-    "emoji": "🎓",
+    "transcription": "/\u02c8sk\u0252l.\u0259.\u0283\u026ap/",
+    "emoji": "\ud83c\udf93",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈskɑː.lɚ.ʃɪp/"
+      "us": "/\u02c8sk\u0251\u02d0.l\u025a.\u0283\u026ap/"
     },
     "sub_theme": "academic-english"
   },
@@ -729,12 +732,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/tʃuːˈɪʃ.ən/",
-    "emoji": "💵",
+    "transcription": "/t\u0283u\u02d0\u02c8\u026a\u0283.\u0259n/",
+    "emoji": "\ud83d\udcb5",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tuːˈɪʃ.ən/"
+      "us": "/tu\u02d0\u02c8\u026a\u0283.\u0259n/"
     },
     "sub_theme": "academic-english"
   },
@@ -754,8 +757,8 @@
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "fees",
-    "transcription": "/fiː/",
-    "emoji": "💵",
+    "transcription": "/fi\u02d0/",
+    "emoji": "\ud83d\udcb5",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -772,19 +775,20 @@
     "examples": [
       "He showed great ability in math class."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "abilities",
-    "transcription": "/əˈbɪl.ə.ti/",
-    "emoji": "💪",
+    "transcription": "/\u0259\u02c8b\u026al.\u0259.ti/",
+    "emoji": "\ud83d\udcaa",
     "countability": "countable",
     "antonyms": [
       "inability"
     ],
     "transcription_variants": {
-      "us": "/əˈbɪl.ə.t̬i/"
-    }
+      "us": "/\u0259\u02c8b\u026al.\u0259.t\u032ci/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:practice:verb",
@@ -798,15 +802,16 @@
     "examples": [
       "Practice speaking English every day."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈpræk.tɪs/",
-    "emoji": "🏋️",
-    "no_antonym": true
+    "transcription": "/\u02c8pr\u00e6k.t\u026as/",
+    "emoji": "\ud83c\udfcb\ufe0f",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:revise:verb",
@@ -820,14 +825,14 @@
     "examples": [
       "I need to revise history notes tonight."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/rɪˈvaɪz/",
-    "emoji": "📖",
+    "transcription": "/r\u026a\u02c8va\u026az/",
+    "emoji": "\ud83d\udcd6",
     "no_antonym": true,
     "sub_theme": "teachers-scientists"
   },
@@ -843,14 +848,15 @@
     "examples": [
       "Memorize these vocabulary words for tomorrow."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈmem.ə.raɪz/",
-    "emoji": "🧠",
+    "transcription": "/\u02c8mem.\u0259.ra\u026az/",
+    "emoji": "\ud83e\udde0",
     "antonyms": [
       "forget"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:graduate:verb",
@@ -864,14 +870,14 @@
     "examples": [
       "They will graduate from university in June."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈɡrædʒ.u.eɪt/",
-    "emoji": "🎓",
+    "transcription": "/\u02c8\u0261r\u00e6d\u0292.u.e\u026at/",
+    "emoji": "\ud83c\udf93",
     "no_antonym": true,
     "sub_theme": "academic-english"
   },
@@ -887,15 +893,15 @@
     "examples": [
       "Parents attended the university graduation."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "graduations",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˌɡrædʒ.uˈeɪ.ʃən/",
-    "emoji": "🎓",
+    "transcription": "/\u02cc\u0261r\u00e6d\u0292.u\u02c8e\u026a.\u0283\u0259n/",
+    "emoji": "\ud83c\udf93",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -912,7 +918,7 @@
     "examples": [
       "Her university major was economics."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -920,15 +926,16 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "majors",
-    "transcription": "/ˈmeɪ.dʒər/",
-    "emoji": "📘",
+    "transcription": "/\u02c8me\u026a.d\u0292\u0259r/",
+    "emoji": "\ud83d\udcd8",
     "countability": "countable",
     "antonyms": [
       "minor"
     ],
     "transcription_variants": {
-      "us": "/ˈmeɪ.dʒɚ/"
-    }
+      "us": "/\u02c8me\u026a.d\u0292\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:textbook:noun",
@@ -942,7 +949,7 @@
     "examples": [
       "Open your history textbook to page ten."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -950,8 +957,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "textbooks",
-    "transcription": "/ˈtekst.bʊk/",
-    "emoji": "📖",
+    "transcription": "/\u02c8tekst.b\u028ak/",
+    "emoji": "\ud83d\udcd6",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "academic-english"
@@ -975,8 +982,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/əˈten.dəns/",
-    "emoji": "📋",
+    "transcription": "/\u0259\u02c8ten.d\u0259ns/",
+    "emoji": "\ud83d\udccb",
     "countability": "uncountable",
     "antonyms": [
       "absence"
@@ -1001,8 +1008,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈæb.sənt/",
-    "emoji": "❌",
+    "transcription": "/\u02c8\u00e6b.s\u0259nt/",
+    "emoji": "\u274c",
     "countability": "uncountable",
     "antonyms": [
       "present"
@@ -1029,13 +1036,13 @@
     ],
     "updated": "2025-01-15",
     "countability": "uncountable",
-    "transcription": "/skɪp klɑːs/",
-    "emoji": "🏃",
+    "transcription": "/sk\u026ap kl\u0251\u02d0s/",
+    "emoji": "\ud83c\udfc3",
     "antonyms": [
       "attend class"
     ],
     "transcription_variants": {
-      "us": "/skɪp klæs/"
+      "us": "/sk\u026ap kl\u00e6s/"
     }
   },
   {
@@ -1050,7 +1057,7 @@
     "examples": [
       "Do not cheat on your written exam."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1058,10 +1065,11 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "cheats",
-    "transcription": "/tʃiːt/",
-    "emoji": "👀",
+    "transcription": "/t\u0283i\u02d0t/",
+    "emoji": "\ud83d\udc40",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:foreign-language:noun",
@@ -1078,11 +1086,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈfɒr.ən ˌlæŋ.ɡwɪdʒ/",
+    "transcription": "/\u02c8f\u0252r.\u0259n \u02ccl\u00e6\u014b.\u0261w\u026ad\u0292/",
     "transcription_variants": {
-      "us": "/ˈfɔːr.ən ˌlæŋ.ɡwɪdʒ/"
+      "us": "/\u02c8f\u0254\u02d0r.\u0259n \u02ccl\u00e6\u014b.\u0261w\u026ad\u0292/"
     },
-    "emoji": "🗣️",
+    "emoji": "\ud83d\udde3\ufe0f",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "foreign languages"
@@ -1102,11 +1110,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈhaɪ skuːl/",
+    "transcription": "/\u02c8ha\u026a sku\u02d0l/",
     "transcription_variants": {
-      "us": "/ˈhaɪ skuːl/"
+      "us": "/\u02c8ha\u026a sku\u02d0l/"
     },
-    "emoji": "🏫",
+    "emoji": "\ud83c\udfeb",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "high schools"
@@ -1126,11 +1134,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈkɪn.dəˌɡɑː.tən/",
+    "transcription": "/\u02c8k\u026an.d\u0259\u02cc\u0261\u0251\u02d0.t\u0259n/",
     "transcription_variants": {
-      "us": "/ˈkɪn.dɚˌɡɑːr.tən/"
+      "us": "/\u02c8k\u026an.d\u025a\u02cc\u0261\u0251\u02d0r.t\u0259n/"
     },
-    "emoji": "🧸",
+    "emoji": "\ud83e\uddf8",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "kindergartens"
@@ -1147,16 +1155,17 @@
     "examples": [
       "Students need sports shoes for PE class tomorrow."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˌpiːˈiː/",
+    "transcription": "/\u02ccpi\u02d0\u02c8i\u02d0/",
     "transcription_variants": {
-      "us": "/ˌpiːˈiː/"
+      "us": "/\u02ccpi\u02d0\u02c8i\u02d0/"
     },
-    "emoji": "🏃",
+    "emoji": "\ud83c\udfc3",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:physical-education:noun",
@@ -1170,16 +1179,17 @@
     "examples": [
       "Physical education classes encourage students to remain active."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˌfɪz.ɪ.kəl ed.jʊˈkeɪ.ʃən/",
+    "transcription": "/\u02ccf\u026az.\u026a.k\u0259l ed.j\u028a\u02c8ke\u026a.\u0283\u0259n/",
     "transcription_variants": {
-      "us": "/ˌfɪz.ɪ.kəl ed.jəˈkeɪ.ʃən/"
+      "us": "/\u02ccf\u026az.\u026a.k\u0259l ed.j\u0259\u02c8ke\u026a.\u0283\u0259n/"
     },
-    "emoji": "🏀",
+    "emoji": "\ud83c\udfc0",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:primary-school:noun",
@@ -1193,14 +1203,14 @@
     "examples": [
       "Our children walked to the neighborhood primary school today."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈpraɪ.mər.i skuːl/",
+    "transcription": "/\u02c8pra\u026a.m\u0259r.i sku\u02d0l/",
     "transcription_variants": {
-      "us": "/ˈpraɪ.mer.i skuːl/"
+      "us": "/\u02c8pra\u026a.mer.i sku\u02d0l/"
     },
-    "emoji": "🏫",
+    "emoji": "\ud83c\udfeb",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "primary schools",
@@ -1221,11 +1231,11 @@
     "domain": "general, relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/rɪˈses/",
+    "transcription": "/r\u026a\u02c8ses/",
     "transcription_variants": {
-      "us": "/ˈriː.ses/"
+      "us": "/\u02c8ri\u02d0.ses/"
     },
-    "emoji": "🔔",
+    "emoji": "\ud83d\udd14",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "recesses"
@@ -1245,11 +1255,11 @@
     "domain": "relocation",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/rɪˈpɔːt kɑːd/",
+    "transcription": "/r\u026a\u02c8p\u0254\u02d0t k\u0251\u02d0d/",
     "transcription_variants": {
-      "us": "/rɪˈpɔːrt kɑːrd/"
+      "us": "/r\u026a\u02c8p\u0254\u02d0rt k\u0251\u02d0rd/"
     },
-    "emoji": "📑",
+    "emoji": "\ud83d\udcd1",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "report cards"
@@ -1266,14 +1276,14 @@
     "examples": [
       "After finishing primary school, students enter secondary school."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈsek.ən.dri skuːl/",
+    "transcription": "/\u02c8sek.\u0259n.dri sku\u02d0l/",
     "transcription_variants": {
-      "us": "/ˈsek.ən.der.i skuːl/"
+      "us": "/\u02c8sek.\u0259n.der.i sku\u02d0l/"
     },
-    "emoji": "🏫",
+    "emoji": "\ud83c\udfeb",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "secondary schools",
@@ -1291,20 +1301,21 @@
     "examples": [
       "Attending the evening social event is optional for everyone."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "choice",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈɒp.ʃən.əl/",
+    "transcription": "/\u02c8\u0252p.\u0283\u0259n.\u0259l/",
     "transcription_variants": {
-      "us": "/ˈɑːp.ʃən.əl/"
+      "us": "/\u02c8\u0251\u02d0p.\u0283\u0259n.\u0259l/"
     },
-    "emoji": "🔘",
+    "emoji": "\ud83d\udd18",
     "antonyms": [
       "mandatory"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:prove:verb",
@@ -1318,17 +1329,18 @@
     "examples": [
       "You must prove your identity when opening a bank account."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "truth",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/pruːv/",
-    "emoji": "✔️",
+    "transcription": "/pru\u02d0v/",
+    "emoji": "\u2714\ufe0f",
     "antonyms": [
       "disprove"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:recall:verb",
@@ -1348,11 +1360,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/rɪˈkɔːl/",
+    "transcription": "/r\u026a\u02c8k\u0254\u02d0l/",
     "transcription_variants": {
-      "us": "/rɪˈkɑːl/"
+      "us": "/r\u026a\u02c8k\u0251\u02d0l/"
     },
-    "emoji": "🧠",
+    "emoji": "\ud83e\udde0",
     "antonyms": [
       "forget"
     ]
@@ -1369,17 +1381,17 @@
     "examples": [
       "The library is a good source of information."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "information",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/sɔːs/",
+    "transcription": "/s\u0254\u02d0s/",
     "transcription_variants": {
-      "us": "/sɔːrs/"
+      "us": "/s\u0254\u02d0rs/"
     },
-    "emoji": "📌",
+    "emoji": "\ud83d\udccc",
     "countability": "countable",
     "article": "a",
     "plural_form": "sources",
@@ -1404,8 +1416,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/dɪˈvaɪd/",
-    "emoji": "➗",
+    "transcription": "/d\u026a\u02c8va\u026ad/",
+    "emoji": "\u2797",
     "antonyms": [
       "unite",
       "combine"
@@ -1429,8 +1441,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈsek.ənd ˈlæŋ.ɡwɪdʒ/",
-    "emoji": "🗣️",
+    "transcription": "/\u02c8sek.\u0259nd \u02c8l\u00e6\u014b.\u0261w\u026ad\u0292/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "countability": "countable",
     "article": "a",
     "plural_form": "second languages",
@@ -1454,8 +1466,8 @@
     "domain": "general, travel",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈæl.fə.bet/",
-    "emoji": "🔤",
+    "transcription": "/\u02c8\u00e6l.f\u0259.bet/",
+    "emoji": "\ud83d\udd24",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "alphabets"
@@ -1472,11 +1484,11 @@
     "examples": [
       "Look up unknown words in your dictionary."
     ],
-    "domain": "general, travel, professional",
+    "domain": "general, travel, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
-    "transcription": "/ˈdɪk.ʃən.ər.i/",
-    "emoji": "📖",
+    "transcription": "/\u02c8d\u026ak.\u0283\u0259n.\u0259r.i/",
+    "emoji": "\ud83d\udcd6",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "dictionaries",

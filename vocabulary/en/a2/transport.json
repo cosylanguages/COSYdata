@@ -11,7 +11,7 @@
     "examples": [
       "First class tickets are more expensive."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "transport",
     "updated": "2025-01-15",
     "tags": [
@@ -21,14 +21,14 @@
       "A2",
       "C1"
     ],
-    "transcription": "/fɜːst/",
-    "emoji": "1️⃣",
+    "transcription": "/f\u025c\u02d0st/",
+    "emoji": "1\ufe0f\u20e3",
     "countability": "uncountable",
     "antonyms": [
       "last"
     ],
     "transcription_variants": {
-      "us": "/fɝːst/"
+      "us": "/f\u025d\u02d0st/"
     },
     "sub_theme": "academic-english"
   },
@@ -44,7 +44,7 @@
     "examples": [
       "The train arrives at platform three soon."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "platforms",
@@ -55,12 +55,12 @@
       "A2",
       "B1"
     ],
-    "transcription": "/ˈplæt.fɔːm/",
-    "emoji": "🚉",
+    "transcription": "/\u02c8pl\u00e6t.f\u0254\u02d0m/",
+    "emoji": "\ud83d\ude89",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈplæt.fɔːrm/"
+      "us": "/\u02c8pl\u00e6t.f\u0254\u02d0rm/"
     },
     "sub_theme": "it-specialists"
   },
@@ -83,8 +83,8 @@
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": "/ˈtræf.ɪk/",
-    "emoji": "🚗",
+    "transcription": "/\u02c8tr\u00e6f.\u026ak/",
+    "emoji": "\ud83d\ude97",
     "no_antonym": true
   },
   {
@@ -99,14 +99,15 @@
     "examples": [
       "We got stuck in a traffic jam."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "jams",
-    "transcription": "/dʒæm/",
-    "emoji": "🚗",
+    "transcription": "/d\u0292\u00e6m/",
+    "emoji": "\ud83d\ude97",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:rush:noun",
@@ -123,8 +124,8 @@
     "domain": "general",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/rʌʃ/",
-    "emoji": "🏃",
+    "transcription": "/r\u028c\u0283/",
+    "emoji": "\ud83c\udfc3",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -140,26 +141,27 @@
     "examples": [
       "Turn right at the next crossroads ahead."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "transport",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "countability": "countable",
-    "transcription": "/ˈkrɒs.rəʊdz/",
-    "emoji": "🚥",
+    "transcription": "/\u02c8kr\u0252s.r\u0259\u028adz/",
+    "emoji": "\ud83d\udea5",
     "plural_form": "crossroads",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈkrɑːs.roʊdz/"
+      "us": "/\u02c8kr\u0251\u02d0s.ro\u028adz/"
     },
     "region": [
       "UK"
     ],
     "regional_equivalents": [
       "en:intersection:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:roundabout:noun",
@@ -173,20 +175,21 @@
     "examples": [
       "Take the second exit at the roundabout."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "roundabouts",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈraʊnd.ə.baʊt/",
-    "emoji": "🔄",
+    "transcription": "/\u02c8ra\u028and.\u0259.ba\u028at/",
+    "emoji": "\ud83d\udd04",
     "countability": "countable",
     "no_antonym": true,
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:junction:noun",
@@ -204,8 +207,8 @@
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "junctions",
-    "transcription": "/ˈdʒʌŋk.ʃən/",
-    "emoji": "🔀",
+    "transcription": "/\u02c8d\u0292\u028c\u014bk.\u0283\u0259n/",
+    "emoji": "\ud83d\udd00",
     "countability": "countable",
     "no_antonym": true
   },
@@ -228,12 +231,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈməʊ.tə.weɪ/",
-    "emoji": "🛣️",
+    "transcription": "/\u02c8m\u0259\u028a.t\u0259.we\u026a/",
+    "emoji": "\ud83d\udee3\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈmoʊ.t̬ɚ.weɪ/"
+      "us": "/\u02c8mo\u028a.t\u032c\u025a.we\u026a/"
     },
     "region": [
       "UK"
@@ -261,8 +264,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈhaɪ.weɪ/",
-    "emoji": "🛣️",
+    "transcription": "/\u02c8ha\u026a.we\u026a/",
+    "emoji": "\ud83d\udee3\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "region": [
@@ -291,8 +294,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/pəˈdes.tri.ən/",
-    "emoji": "🚶",
+    "transcription": "/p\u0259\u02c8des.tri.\u0259n/",
+    "emoji": "\ud83d\udeb6",
     "countability": "countable",
     "antonyms": [
       "driver"
@@ -314,12 +317,12 @@
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "crossings",
-    "transcription": "/ˈkrɒs.ɪŋ/",
-    "emoji": "🚶",
+    "transcription": "/\u02c8kr\u0252s.\u026a\u014b/",
+    "emoji": "\ud83d\udeb6",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈkrɑː.sɪŋ/"
+      "us": "/\u02c8kr\u0251\u02d0.s\u026a\u014b/"
     }
   },
   {
@@ -338,8 +341,8 @@
     "theme": "transport",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": "/laɪts/",
-    "emoji": "🚦",
+    "transcription": "/la\u026ats/",
+    "emoji": "\ud83d\udea6",
     "singular_workaround": "a light",
     "no_antonym": true
   },
@@ -355,14 +358,15 @@
     "examples": [
       "Observe the speed limit when driving here."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "limits",
-    "transcription": "/ˈlɪm.ɪt/",
-    "emoji": "🛑",
+    "transcription": "/\u02c8l\u026am.\u026at/",
+    "emoji": "\ud83d\uded1",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:fare:noun",
@@ -380,8 +384,8 @@
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "fares",
-    "transcription": "/feər/",
-    "emoji": "💵",
+    "transcription": "/fe\u0259r/",
+    "emoji": "\ud83d\udcb5",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
@@ -404,12 +408,12 @@
     "theme": "transport",
     "updated": "2025-01-15",
     "plural_form": "turnings",
-    "transcription": "/ˈtɜː.nɪŋ/",
-    "emoji": "↪️",
+    "transcription": "/\u02c8t\u025c\u02d0.n\u026a\u014b/",
+    "emoji": "\u21aa\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈtɝː.nɪŋ/"
+      "us": "/\u02c8t\u025d\u02d0.n\u026a\u014b/"
     }
   },
   {
@@ -430,8 +434,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/mɪs/",
-    "emoji": "❌",
+    "transcription": "/m\u026as/",
+    "emoji": "\u274c",
     "antonyms": [
       "catch"
     ]
@@ -448,14 +452,15 @@
     "examples": [
       "We took a passenger ferry across the harbor."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈfer.i/",
-    "emoji": "⛴️",
+    "transcription": "/\u02c8fer.i/",
+    "emoji": "\u26f4\ufe0f",
     "countability": "countable",
     "plural_form": "ferries",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:hurry:verb",
@@ -472,8 +477,8 @@
     "domain": "general, spoken",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈhʌr.i/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8h\u028cr.i/",
+    "emoji": "\ud83c\udfc3",
     "antonyms": [
       "delay",
       "dawdle"
@@ -494,8 +499,8 @@
     "domain": "general, relocation, spoken, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˌwʌnˈweɪ/",
-    "emoji": "➡️",
+    "transcription": "/\u02ccw\u028cn\u02c8we\u026a/",
+    "emoji": "\u27a1\ufe0f",
     "antonyms": [
       "return",
       "round-trip"
@@ -513,14 +518,15 @@
     "examples": [
       "All passengers must fasten their seatbelts."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈpæs.ən.dʒər/",
-    "emoji": "🧳",
+    "transcription": "/\u02c8p\u00e6s.\u0259n.d\u0292\u0259r/",
+    "emoji": "\ud83e\uddf3",
     "countability": "countable",
     "plural_form": "passengers",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:return-ticket:noun",
@@ -534,14 +540,15 @@
     "examples": [
       "I purchased a return ticket for the weekend train."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/rɪˈtɜːn ˌtɪk.ɪt/",
-    "emoji": "🎟️",
+    "transcription": "/r\u026a\u02c8t\u025c\u02d0n \u02cct\u026ak.\u026at/",
+    "emoji": "\ud83c\udf9f\ufe0f",
     "countability": "countable",
     "plural_form": "return tickets",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:seatbelt:noun",
@@ -558,8 +565,8 @@
     "domain": "general, spoken, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈsiːt.belt/",
-    "emoji": "💺",
+    "transcription": "/\u02c8si\u02d0t.belt/",
+    "emoji": "\ud83d\udcba",
     "countability": "countable",
     "plural_form": "seatbelts",
     "no_antonym": true
@@ -576,14 +583,15 @@
     "examples": [
       "We were stuck in a heavy traffic jam for an hour."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈtræf.ɪk dʒæm/",
-    "emoji": "🚗",
+    "transcription": "/\u02c8tr\u00e6f.\u026ak d\u0292\u00e6m/",
+    "emoji": "\ud83d\ude97",
     "countability": "countable",
     "plural_form": "traffic jams",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:driving-license:noun",
@@ -600,11 +608,11 @@
     "domain": "relocation, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈdraɪ.vɪŋ ˌlaɪ.səns/",
+    "transcription": "/\u02c8dra\u026a.v\u026a\u014b \u02ccla\u026a.s\u0259ns/",
     "transcription_variants": {
-      "us": "/ˈdraɪ.vɪŋ ˌlaɪ.səns/"
+      "us": "/\u02c8dra\u026a.v\u026a\u014b \u02ccla\u026a.s\u0259ns/"
     },
-    "emoji": "🪪",
+    "emoji": "\ud83e\udeaa",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "driving licenses"
@@ -624,8 +632,8 @@
     "examples": [
       "Express trains feature reserved seating to guarantee passengers a spot."
     ],
-    "transcription": "/rɪˈzɜːvd ˈsiː.tɪŋ/",
-    "emoji": "💺",
+    "transcription": "/r\u026a\u02c8z\u025c\u02d0vd \u02c8si\u02d0.t\u026a\u014b/",
+    "emoji": "\ud83d\udcba",
     "countability": "uncountable",
     "synonyms": [
       "assigned seating",
@@ -654,8 +662,8 @@
     "examples": [
       "Heavy roadworks caused long traffic delays on the main highway."
     ],
-    "transcription": "/ˈrəʊd.wɜːks/",
-    "emoji": "🚧",
+    "transcription": "/\u02c8r\u0259\u028ad.w\u025c\u02d0ks/",
+    "emoji": "\ud83d\udea7",
     "region": [
       "UK"
     ],
@@ -686,8 +694,8 @@
     "examples": [
       "Satellite navigation made driving through rural villages stress-free."
     ],
-    "transcription": "/ˈsæt.əl.aɪt næv.ɪˈɡeɪ.ʃən/",
-    "emoji": "🗺️",
+    "transcription": "/\u02c8s\u00e6t.\u0259l.a\u026at n\u00e6v.\u026a\u02c8\u0261e\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\uddfa\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "satnav",
@@ -714,8 +722,8 @@
     "examples": [
       "Make sure your rental car includes an inflated spare tire."
     ],
-    "transcription": "/speər taɪər/",
-    "emoji": "🛞",
+    "transcription": "/spe\u0259r ta\u026a\u0259r/",
+    "emoji": "\ud83d\udede",
     "countability": "countable",
     "plural_form": "spare tires",
     "synonyms": [
@@ -743,8 +751,8 @@
     "examples": [
       "Drivers were slowed down by a speed camera near the school zone."
     ],
-    "transcription": "/spiːd ˈkæm.ər.ə/",
-    "emoji": "📷",
+    "transcription": "/spi\u02d0d \u02c8k\u00e6m.\u0259r.\u0259/",
+    "emoji": "\ud83d\udcf7",
     "countability": "countable",
     "plural_form": "speed cameras",
     "synonyms": [
@@ -772,8 +780,8 @@
     "examples": [
       "Always obey the posted speed limit when driving through mountain tunnels."
     ],
-    "transcription": "/spiːd ˈlɪm.ɪt/",
-    "emoji": "🚘",
+    "transcription": "/spi\u02d0d \u02c8l\u026am.\u026at/",
+    "emoji": "\ud83d\ude98",
     "countability": "countable",
     "plural_form": "speed limits",
     "synonyms": [
@@ -801,8 +809,8 @@
     "examples": [
       "A tow truck arrived promptly to move our stalled rental vehicle."
     ],
-    "transcription": "/təʊ trʌk/",
-    "emoji": "🛻",
+    "transcription": "/t\u0259\u028a tr\u028ck/",
+    "emoji": "\ud83d\udefb",
     "countability": "countable",
     "plural_form": "tow trucks",
     "synonyms": [
@@ -830,8 +838,8 @@
     "examples": [
       "We took a scenic detour through the hills to bypass highway roadworks."
     ],
-    "transcription": "/ˈdiː.tɔːr/",
-    "emoji": "↪️",
+    "transcription": "/\u02c8di\u02d0.t\u0254\u02d0r/",
+    "emoji": "\u21aa\ufe0f",
     "countability": "countable",
     "plural_form": "detours",
     "synonyms": [
@@ -859,8 +867,8 @@
     "examples": [
       "Passengers in the first-class carriage enjoy quiet seating and free wifi."
     ],
-    "transcription": "/ˌfɜːstˈklɑːs ˈkær.ɪdʒ/",
-    "emoji": "🚆",
+    "transcription": "/\u02ccf\u025c\u02d0st\u02c8kl\u0251\u02d0s \u02c8k\u00e6r.\u026ad\u0292/",
+    "emoji": "\ud83d\ude86",
     "countability": "countable",
     "plural_form": "first-class carriages",
     "synonyms": [
@@ -890,8 +898,8 @@
     "examples": [
       "Our road trip was briefly delayed when the car got a flat tire."
     ],
-    "transcription": "/flæt taɪər/",
-    "emoji": "🛞",
+    "transcription": "/fl\u00e6t ta\u026a\u0259r/",
+    "emoji": "\ud83d\udede",
     "countability": "countable",
     "plural_form": "flat tires",
     "synonyms": [
@@ -919,8 +927,8 @@
     "examples": [
       "Public buses make it very easy to get around the historic city center."
     ],
-    "transcription": "/ɡet əˈraʊnd/",
-    "emoji": "🚌",
+    "transcription": "/\u0261et \u0259\u02c8ra\u028and/",
+    "emoji": "\ud83d\ude8c",
     "synonyms": [
       "travel about",
       "navigate"
@@ -946,8 +954,8 @@
     "examples": [
       "We relied on GPS navigation to guide us through mountain roads."
     ],
-    "transcription": "/ˌdʒiː.piːˈes næv.ɪˈɡeɪ.ʃən/",
-    "emoji": "🗺️",
+    "transcription": "/\u02ccd\u0292i\u02d0.pi\u02d0\u02c8es n\u00e6v.\u026a\u02c8\u0261e\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\uddfa\ufe0f",
     "countability": "uncountable",
     "synonyms": [
       "satellite navigation",
@@ -974,8 +982,8 @@
     "examples": [
       "High-speed rail connects the two capital cities in under two hours."
     ],
-    "transcription": "/haɪ spiːd reɪl/",
-    "emoji": "🚅",
+    "transcription": "/ha\u026a spi\u02d0d re\u026al/",
+    "emoji": "\ud83d\ude85",
     "countability": "uncountable",
     "synonyms": [
       "express rail",
@@ -1002,8 +1010,8 @@
     "examples": [
       "Place your heavy bags on the overhead luggage rack during the journey."
     ],
-    "transcription": "/ˈlʌɡ.ɪdʒ ræk/",
-    "emoji": "🧳",
+    "transcription": "/\u02c8l\u028c\u0261.\u026ad\u0292 r\u00e6k/",
+    "emoji": "\ud83e\uddf3",
     "countability": "countable",
     "plural_form": "luggage racks",
     "synonyms": [
@@ -1031,8 +1039,8 @@
     "examples": [
       "Leaving your rental car in a no-parking zone results in a heavy fine."
     ],
-    "transcription": "/nəʊ ˈpɑː.kɪŋ zəʊn/",
-    "emoji": "🚫",
+    "transcription": "/n\u0259\u028a \u02c8p\u0251\u02d0.k\u026a\u014b z\u0259\u028an/",
+    "emoji": "\ud83d\udeab",
     "countability": "countable",
     "plural_form": "no-parking zones",
     "synonyms": [
@@ -1060,8 +1068,8 @@
     "examples": [
       "Purchasing a regional rail pass saved us money on daily train tickets."
     ],
-    "transcription": "/reɪl pɑːs/",
-    "emoji": "🎫",
+    "transcription": "/re\u026al p\u0251\u02d0s/",
+    "emoji": "\ud83c\udfab",
     "countability": "countable",
     "plural_form": "rail passes",
     "synonyms": [
@@ -1089,8 +1097,8 @@
     "domain": "general, relocation, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/æp beɪst ˈtæk.si/",
-    "emoji": "🚕",
+    "transcription": "/\u00e6p be\u026ast \u02c8t\u00e6k.si/",
+    "emoji": "\ud83d\ude95",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "app-based taxis"
@@ -1110,8 +1118,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈkeɪ.bəl kɑːr/",
-    "emoji": "🚡",
+    "transcription": "/\u02c8ke\u026a.b\u0259l k\u0251\u02d0r/",
+    "emoji": "\ud83d\udea1",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "cable cars"
@@ -1131,8 +1139,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈkɑː ˌren.təl/",
-    "emoji": "🚗",
+    "transcription": "/\u02c8k\u0251\u02d0 \u02ccren.t\u0259l/",
+    "emoji": "\ud83d\ude97",
     "no_antonym": true,
     "countability": "uncountable"
   },
@@ -1151,8 +1159,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈkær.ə.væn/",
-    "emoji": "🚐",
+    "transcription": "/\u02c8k\u00e6r.\u0259.v\u00e6n/",
+    "emoji": "\ud83d\ude90",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "caravans",
@@ -1178,8 +1186,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ɪkˈspres treɪn/",
-    "emoji": "🚆",
+    "transcription": "/\u026ak\u02c8spres tre\u026an/",
+    "emoji": "\ud83d\ude86",
     "antonyms": [
       "local train"
     ],
@@ -1201,8 +1209,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈfer.i ˌtɜː.mɪ.nəl/",
-    "emoji": "⛴️",
+    "transcription": "/\u02c8fer.i \u02cct\u025c\u02d0.m\u026a.n\u0259l/",
+    "emoji": "\u26f4\ufe0f",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "ferry terminals"
@@ -1222,8 +1230,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈləʊ.kəl treɪn/",
-    "emoji": "🚆",
+    "transcription": "/\u02c8l\u0259\u028a.k\u0259l tre\u026an/",
+    "emoji": "\ud83d\ude86",
     "antonyms": [
       "express train"
     ],
@@ -1245,8 +1253,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈməʊ.ped/",
-    "emoji": "🛵",
+    "transcription": "/\u02c8m\u0259\u028a.ped/",
+    "emoji": "\ud83d\udef5",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "mopeds"
@@ -1266,8 +1274,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/naɪt bʌs/",
-    "emoji": "🚌",
+    "transcription": "/na\u026at b\u028cs/",
+    "emoji": "\ud83d\ude8c",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "night buses"
@@ -1287,8 +1295,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˌwʌn.weɪ ˈtrɪp/",
-    "emoji": "➡️",
+    "transcription": "/\u02ccw\u028cn.we\u026a \u02c8tr\u026ap/",
+    "emoji": "\u27a1\ufe0f",
     "antonyms": [
       "round trip"
     ],
@@ -1310,15 +1318,16 @@
     "examples": [
       "Using public transport is convenient and cheap."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈpʌb.lɪk ˈtræn.spɔːt/",
-    "emoji": "🚌",
+    "transcription": "/\u02c8p\u028cb.l\u026ak \u02c8tr\u00e6n.sp\u0254\u02d0t/",
+    "emoji": "\ud83d\ude8c",
     "antonyms": [
       "private transport"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:ride-share:noun",
@@ -1335,8 +1344,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈraɪd.ʃeər/",
-    "emoji": "🚗",
+    "transcription": "/\u02c8ra\u026ad.\u0283e\u0259r/",
+    "emoji": "\ud83d\ude97",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "ride-shares"
@@ -1356,8 +1365,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈraʊnd trɪp/",
-    "emoji": "🔄",
+    "transcription": "/\u02c8ra\u028and tr\u026ap/",
+    "emoji": "\ud83d\udd04",
     "antonyms": [
       "one-way trip"
     ],
@@ -1382,8 +1391,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˌɑːrˈviː/",
-    "emoji": "🚐",
+    "transcription": "/\u02cc\u0251\u02d0r\u02c8vi\u02d0/",
+    "emoji": "\ud83d\ude90",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "rvs",
@@ -1409,8 +1418,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈskuː.tər/",
-    "emoji": "🛴",
+    "transcription": "/\u02c8sku\u02d0.t\u0259r/",
+    "emoji": "\ud83d\udef4",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "scooters"
@@ -1430,8 +1439,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈʃʌt.əl bʌs/",
-    "emoji": "🚌",
+    "transcription": "/\u02c8\u0283\u028ct.\u0259l b\u028cs/",
+    "emoji": "\ud83d\ude8c",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "shuttle buses"
@@ -1451,8 +1460,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈtəʊl rəʊd/",
-    "emoji": "🛣️",
+    "transcription": "/\u02c8t\u0259\u028al r\u0259\u028ad/",
+    "emoji": "\ud83d\udee3\ufe0f",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "toll roads"
@@ -1472,8 +1481,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈtræns.fɜː ˌsteɪ.ʃən/",
-    "emoji": "🚉",
+    "transcription": "/\u02c8tr\u00e6ns.f\u025c\u02d0 \u02ccste\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\ude89",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "transfer stations"
@@ -1494,7 +1503,7 @@
     "theme": "transport",
     "updated": "2025-01-15",
     "transcription": "/dek/",
-    "emoji": "🚢",
+    "emoji": "\ud83d\udea2",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "decks"
@@ -1514,8 +1523,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈdiː.zəl/",
-    "emoji": "⛽",
+    "transcription": "/\u02c8di\u02d0.z\u0259l/",
+    "emoji": "\u26fd",
     "no_antonym": true,
     "countability": "uncountable"
   },
@@ -1534,8 +1543,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/feər ˈes.tɪ.mət/",
-    "emoji": "🚖",
+    "transcription": "/fe\u0259r \u02c8es.t\u026a.m\u0259t/",
+    "emoji": "\ud83d\ude96",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "fare estimates"
@@ -1555,8 +1564,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ɒn ˈʃed.juːl/",
-    "emoji": "⏰",
+    "transcription": "/\u0252n \u02c8\u0283ed.ju\u02d0l/",
+    "emoji": "\u23f0",
     "antonyms": [
       "delayed"
     ]
@@ -1576,8 +1585,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈpet.rəl/",
-    "emoji": "⛽",
+    "transcription": "/\u02c8pet.r\u0259l/",
+    "emoji": "\u26fd",
     "no_antonym": true,
     "countability": "uncountable",
     "region": [
@@ -1602,8 +1611,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/ˈpraɪ.vət ˈtræn.spɔːt/",
-    "emoji": "🚗",
+    "transcription": "/\u02c8pra\u026a.v\u0259t \u02c8tr\u00e6n.sp\u0254\u02d0t/",
+    "emoji": "\ud83d\ude97",
     "antonyms": [
       "public transport"
     ],
@@ -1624,8 +1633,8 @@
     "domain": "general, travel",
     "theme": "transport",
     "updated": "2025-01-15",
-    "transcription": "/pɔːt/",
-    "emoji": "⚓",
+    "transcription": "/p\u0254\u02d0t/",
+    "emoji": "\u2693",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "ports"
