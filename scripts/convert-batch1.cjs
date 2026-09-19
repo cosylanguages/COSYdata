@@ -104,7 +104,7 @@ const genders = {
     "comida": "feminine", "pequeno-almoço": "masculine", "almoço": "masculine", "jantar": "masculine", "manhã": "feminine", "tarde": "feminine",
     "noite": "feminine", "marido": "masculine", "esposa": "feminine", "criança": "feminine", "sol": "masculine", "chuva": "feminine",
     "língua": "feminine", "palavra": "feminine", "frase": "feminine", "letra": "feminine", "nome": "masculine", "pergunta": "feminine",
-    "resposta": "feminine", "exemplo": "masculine", "estudante": "masculine", "mulher": "feminine", "porta": "feminine", "janela": "feminine",
+    "respuesta": "feminine", "exemplo": "masculine", "estudante": "masculine", "mulher": "feminine", "porta": "feminine", "janela": "feminine",
     "prato": "masculine", "chávena": "feminine", "copo": "masculine", "garfo": "masculine", "colher": "feminine", "faca": "feminine",
     "secretária": "feminine", "lâmpada": "feminine", "relógio": "masculine", "espelho": "masculine", "garrafa": "feminine",
     "caixa": "feminine", "lápis": "masculine", "papel": "masculine", "frigorífico": "masculine", "forno": "masculine", "sabão": "masculine",
@@ -203,12 +203,12 @@ const transcriptions = {
     "pantalones": "/pantaˈlones/",
     "zapato": "/saˈpato/",
     "sombrero": "/somˈbɾeɾo/",
-    "silla": "/ˈsiʎa/",
-    "mesa": "/ˈmesa/",
-    "cama": "/ˈkama/",
+    "silla": "/ˈsi.ʝa/",
+    "mesa": "/ˈme.sa/",
+    "cama": "/ˈka.ma/",
     "llave": "/ˈʎaβe/",
     "teléfono": "/teˈlefono/",
-    "libro": "/ˈliβɾo/",
+    "libro": "/ˈli.βɾo/",
     "bolso": "/ˈbolso/",
     "bolígrafo": "/boˈliɣɾafo/",
     "gato": "/ˈɡato/",
@@ -625,13 +625,18 @@ const pronounWords = new Set([
   "qué", "cómo", "cuántos", "porquê", "quantos", "quién", "dónde", "cuándo", "por qué", "quem", "onde", "quando", "como", "o quê"
 ]);
 
-// A0 words
+// A0 words (top 15-20% foundational concepts)
 const a0Words = new Set([
   "danke", "gracias", "obrigado",
   "de nada",
   "disculpe", "com licença", "desculpe",
   "¿cómo estás?", "como está?",
-  "mucho gusto", "muito prazer"
+  "mucho gusto", "muito prazer",
+  "agua", "água", "wasser",
+  "pan", "pão", "brot",
+  "madre", "mãe", "mutter",
+  "padre", "pai", "vater",
+  "hola", "olá", "adiós", "adeus"
 ]);
 
 async function convertBatch1() {
@@ -691,18 +696,18 @@ async function convertBatch1() {
       // Level assignment
       const level = a0Words.has(wLower) ? "A0" : "A1";
 
-      // IPA transcription
-      let transcription = item.transcription;
-      if (!transcription || transcription.trim() === "" || transcription.includes("-") || /[a-zA-Z]{3,}/.test(transcription)) {
-        transcription = (transcriptions[lang] && transcriptions[lang][word]) || (transcriptions[lang] && transcriptions[lang][item.word]);
-      }
-      if (!transcription) {
-        console.warn(`  [WARN] Missing transcription for ${word} (${lang})`);
+      // IPA transcription: always prefer true IPA from dictionary if present
+      let transcription = (transcriptions[lang] && transcriptions[lang][word]) || (transcriptions[lang] && transcriptions[lang][item.word]) || item.transcription;
+      if (!transcription || transcription.trim() === "" || /[a-zA-Z-]{3,}/.test(transcription.replace(/^\/|\/$/g, ""))) {
         transcription = `/${slug}/`;
       }
       if (!transcription.startsWith("/")) {
         transcription = `/${transcription.replace(/^\/|\/$/g, '')}/`;
       }
+
+      // Clean emoji
+      let emoji = item.emoji || "📌";
+      if (wLower === "mesa") emoji = "🪑";
 
       // Definition & examples
       const defs = item.definitions ? item.definitions.map(d => d.text).filter(Boolean) : ["Core vocabulary term."];
@@ -715,7 +720,7 @@ async function convertBatch1() {
         form: form,
         level: level,
         transcription: transcription,
-        emoji: item.emoji || "📌",
+        emoji: emoji,
         definitions: defs,
         examples: ex,
         domain: "general",
