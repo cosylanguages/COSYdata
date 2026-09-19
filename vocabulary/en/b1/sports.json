@@ -11,7 +11,7 @@
     "examples": [
       "The intense football match ended in an exciting two-two draw yesterday."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "draws",
@@ -22,8 +22,8 @@
       "B1",
       "C1"
     ],
-    "transcription": "/drɔː/",
-    "emoji": "🟰",
+    "transcription": "/dr\u0254\u02d0/",
+    "emoji": "\ud83d\udff0",
     "countability": "countable",
     "synonyms": [
       "tie",
@@ -35,8 +35,9 @@
       "loss"
     ],
     "transcription_variants": {
-      "us": "/drɑː/"
-    }
+      "us": "/dr\u0251\u02d0/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:fan:noun",
@@ -50,15 +51,15 @@
     "examples": [
       "A devoted sports fan cheered loudly when her team scored the goal."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "fans",
     "tags": [
       "spoken"
     ],
-    "transcription": "/fæn/",
-    "emoji": "📣",
+    "transcription": "/f\u00e6n/",
+    "emoji": "\ud83d\udce3",
     "countability": "countable",
     "synonyms": [
       "supporter",
@@ -68,7 +69,8 @@
     "antonyms": [
       "critic",
       "detractor"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:athlete:noun",
@@ -82,22 +84,23 @@
     "examples": [
       "The professional athlete trained four hours every morning for the Olympics."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "athletes",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈæθ.liːt/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8\u00e6\u03b8.li\u02d0t/",
+    "emoji": "\ud83c\udfc3",
     "countability": "countable",
     "synonyms": [
       "sportsman",
       "sportswoman",
       "competitor"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:opponent:noun",
@@ -118,8 +121,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/əˈpəʊ.nənt/",
-    "emoji": "🥊",
+    "transcription": "/\u0259\u02c8p\u0259\u028a.n\u0259nt/",
+    "emoji": "\ud83e\udd4a",
     "countability": "countable",
     "synonyms": [
       "adversary",
@@ -131,7 +134,7 @@
       "ally"
     ],
     "transcription_variants": {
-      "us": "/əˈpoʊ.nənt/"
+      "us": "/\u0259\u02c8po\u028a.n\u0259nt/"
     }
   },
   {
@@ -149,8 +152,8 @@
     "domain": "general, relocation, professional",
     "theme": "sports",
     "updated": "2025-01-15",
-    "transcription": "/ˈkwɒl.ɪ.faɪ/",
-    "emoji": "✅",
+    "transcription": "/\u02c8kw\u0252l.\u026a.fa\u026a/",
+    "emoji": "\u2705",
     "synonyms": [
       "make the cut",
       "advance",
@@ -161,7 +164,7 @@
       "be disqualified"
     ],
     "transcription_variants": {
-      "us": "/ˈkwɑː.lə.faɪ/"
+      "us": "/\u02c8kw\u0251\u02d0.l\u0259.fa\u026a/"
     }
   },
   {
@@ -176,17 +179,18 @@
     "examples": [
       "Swimmers from thirty countries gathered to compete for the gold medal."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "sports",
     "updated": "2025-01-15",
-    "transcription": "/kəmˈpiːt/",
-    "emoji": "🏃",
+    "transcription": "/k\u0259m\u02c8pi\u02d0t/",
+    "emoji": "\ud83c\udfc3",
     "synonyms": [
       "contend",
       "vye",
       "take part"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:train:verb",
@@ -200,20 +204,21 @@
     "examples": [
       "Runners train intensely for months before attempting a full marathon race."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/treɪn/",
-    "emoji": "🏋️",
+    "transcription": "/tre\u026an/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "synonyms": [
       "exercise",
       "practice",
       "workout"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:record:noun",
@@ -227,12 +232,12 @@
     "examples": [
       "The sprinter broke the world record during the hundred meter final."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "records",
-    "transcription": "/ˈrek.ɔːd/",
-    "emoji": "🏆",
+    "transcription": "/\u02c8rek.\u0254\u02d0d/",
+    "emoji": "\ud83c\udfc6",
     "countability": "countable",
     "synonyms": [
       "best performance",
@@ -240,7 +245,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈrek.ɚd/"
+      "us": "/\u02c8rek.\u025ad/"
     },
     "sub_theme": "teachers-scientists"
   },
@@ -263,8 +268,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈmed.əl/",
-    "emoji": "🏅",
+    "transcription": "/\u02c8med.\u0259l/",
+    "emoji": "\ud83c\udfc5",
     "countability": "countable",
     "synonyms": [
       "award",
@@ -292,8 +297,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈvɪk.tər.i/",
-    "emoji": "🏆",
+    "transcription": "/\u02c8v\u026ak.t\u0259r.i/",
+    "emoji": "\ud83c\udfc6",
     "countability": "countable",
     "synonyms": [
       "win",
@@ -305,7 +310,7 @@
       "loss"
     ],
     "transcription_variants": {
-      "us": "/ˈvɪk.tɚ.i/"
+      "us": "/\u02c8v\u026ak.t\u025a.i/"
     }
   },
   {
@@ -320,14 +325,14 @@
     "examples": [
       "Despite a hard fight, the team suffered a narrow defeat yesterday."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/dɪˈfiːt/",
-    "emoji": "🥊",
+    "transcription": "/d\u026a\u02c8fi\u02d0t/",
+    "emoji": "\ud83e\udd4a",
     "synonyms": [
       "beat",
       "vanquish",
@@ -336,7 +341,8 @@
     "antonyms": [
       "lose to",
       "surrender to"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:tie:noun",
@@ -350,15 +356,15 @@
     "examples": [
       "The basketball game ended in a tie, forcing an extra period."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "ties",
     "tags": [
       "spoken"
     ],
-    "transcription": "/taɪ/",
-    "emoji": "🟰",
+    "transcription": "/ta\u026a/",
+    "emoji": "\ud83d\udff0",
     "countability": "countable",
     "synonyms": [
       "draw",
@@ -367,7 +373,8 @@
     ],
     "antonyms": [
       "decisive result"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:spectator:noun",
@@ -385,8 +392,8 @@
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "spectators",
-    "transcription": "/spekˈteɪ.tə/",
-    "emoji": "👀",
+    "transcription": "/spek\u02c8te\u026a.t\u0259/",
+    "emoji": "\ud83d\udc40",
     "countability": "countable",
     "synonyms": [
       "onlooker",
@@ -398,7 +405,7 @@
       "player"
     ],
     "transcription_variants": {
-      "us": "/ˈspek.teɪ.t̬ɚ/"
+      "us": "/\u02c8spek.te\u026a.t\u032c\u025a/"
     }
   },
   {
@@ -417,8 +424,8 @@
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "bases",
-    "transcription": "/beɪs/",
-    "emoji": "⚾",
+    "transcription": "/be\u026as/",
+    "emoji": "\u26be",
     "countability": "countable",
     "synonyms": [
       "foundation",
@@ -441,8 +448,8 @@
     "domain": "general, relocation",
     "theme": "sports",
     "updated": "2025-01-15",
-    "transcription": "/ˈspɒn.sə/",
-    "emoji": "💵",
+    "transcription": "/\u02c8sp\u0252n.s\u0259/",
+    "emoji": "\ud83d\udcb5",
     "synonyms": [
       "fund",
       "finance",
@@ -450,7 +457,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈspɑːn.sɚ/"
+      "us": "/\u02c8sp\u0251\u02d0n.s\u025a/"
     }
   },
   {
@@ -472,8 +479,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈspɒn.sə.ʃɪp/",
-    "emoji": "💵",
+    "transcription": "/\u02c8sp\u0252n.s\u0259.\u0283\u026ap/",
+    "emoji": "\ud83d\udcb5",
     "countability": "countable",
     "synonyms": [
       "backing",
@@ -482,7 +489,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈspɑːn.sɚ.ʃɪp/"
+      "us": "/\u02c8sp\u0251\u02d0n.s\u025a.\u0283\u026ap/"
     }
   },
   {
@@ -497,11 +504,11 @@
     "examples": [
       "Becoming a professional tennis player requires years of intense daily practice."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "sports",
     "updated": "2025-01-15",
-    "transcription": "/prəˈfeʃ.ən.əl/",
-    "emoji": "💼",
+    "transcription": "/pr\u0259\u02c8fe\u0283.\u0259n.\u0259l/",
+    "emoji": "\ud83d\udcbc",
     "synonyms": [
       "pro",
       "expert",
@@ -509,7 +516,8 @@
     ],
     "antonyms": [
       "amateur"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:amateur:adjective",
@@ -529,8 +537,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈæm.ə.tə/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8\u00e6m.\u0259.t\u0259/",
+    "emoji": "\ud83c\udfc3",
     "synonyms": [
       "non-professional",
       "unpaid",
@@ -541,7 +549,7 @@
       "pro"
     ],
     "transcription_variants": {
-      "us": "/ˈæm.ə.tʃɚ/"
+      "us": "/\u02c8\u00e6m.\u0259.t\u0283\u025a/"
     }
   },
   {
@@ -559,8 +567,8 @@
     "domain": "general, travel",
     "theme": "sports",
     "updated": "2025-01-15",
-    "transcription": "/ɪnˈdjʊə.rəns/",
-    "emoji": "🏃",
+    "transcription": "/\u026an\u02c8dj\u028a\u0259.r\u0259ns/",
+    "emoji": "\ud83c\udfc3",
     "countability": "uncountable",
     "synonyms": [
       "stamina",
@@ -572,7 +580,7 @@
       "weakness"
     ],
     "transcription_variants": {
-      "us": "/ɪnˈdʊr.əns/"
+      "us": "/\u026an\u02c8d\u028ar.\u0259ns/"
     }
   },
   {
@@ -590,8 +598,8 @@
     "domain": "general, travel",
     "theme": "sports",
     "updated": "2025-01-15",
-    "transcription": "/ˈstæm.ɪ.nə/",
-    "emoji": "⚡",
+    "transcription": "/\u02c8st\u00e6m.\u026a.n\u0259/",
+    "emoji": "\u26a1",
     "countability": "uncountable",
     "synonyms": [
       "endurance",
@@ -603,7 +611,7 @@
       "weakness"
     ],
     "transcription_variants": {
-      "us": "/ˈstæm.ə.nə/"
+      "us": "/\u02c8st\u00e6m.\u0259.n\u0259/"
     }
   },
   {
@@ -626,8 +634,8 @@
       "B1",
       "C1"
     ],
-    "transcription": "/ˈstræt.ə.dʒi/",
-    "emoji": "🎯",
+    "transcription": "/\u02c8str\u00e6t.\u0259.d\u0292i/",
+    "emoji": "\ud83c\udfaf",
     "countability": "countable",
     "synonyms": [
       "game plan",
@@ -636,7 +644,7 @@
     ],
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈstræt̬.ə.dʒi/"
+      "us": "/\u02c8str\u00e6t\u032c.\u0259.d\u0292i/"
     },
     "sub_theme": "it-specialists"
   },
@@ -656,8 +664,8 @@
     "theme": "sports",
     "updated": "2025-01-15",
     "plural_form": "tactics",
-    "transcription": "/ˈtæk.tɪk/",
-    "emoji": "♟️",
+    "transcription": "/\u02c8t\u00e6k.t\u026ak/",
+    "emoji": "\u265f\ufe0f",
     "countability": "countable",
     "synonyms": [
       "maneuver",
@@ -681,8 +689,8 @@
     "examples": [
       "He joined a local amateur league to play football on weekend afternoons."
     ],
-    "transcription": "/ˈæm.ə.tər liːɡ/",
-    "emoji": "⚽",
+    "transcription": "/\u02c8\u00e6m.\u0259.t\u0259r li\u02d0\u0261/",
+    "emoji": "\u26bd",
     "countability": "countable",
     "plural_form": "amateur leagues",
     "synonyms": [
@@ -712,8 +720,8 @@
     "examples": [
       "Tickets for the local rivalry match sold out within minutes."
     ],
-    "transcription": "/ˈraɪ.vəl.ri mætʃ/",
-    "emoji": "⚽",
+    "transcription": "/\u02c8ra\u026a.v\u0259l.ri m\u00e6t\u0283/",
+    "emoji": "\u26bd",
     "countability": "countable",
     "plural_form": "rivalry matches",
     "synonyms": [
@@ -741,8 +749,8 @@
     "examples": [
       "Baseball is a tremendously popular spectator sport in Japan."
     ],
-    "transcription": "/spekˈteɪ.tər spɔːt/",
-    "emoji": "🏟️",
+    "transcription": "/spek\u02c8te\u026a.t\u0259r sp\u0254\u02d0t/",
+    "emoji": "\ud83c\udfdf\ufe0f",
     "countability": "countable",
     "plural_form": "spectator sports",
     "synonyms": [
@@ -770,8 +778,8 @@
     "examples": [
       "The main football arena boasts a total stadium capacity of sixty thousand."
     ],
-    "transcription": "/ˈsteɪ.di.əm kəˈpæs.ə.ti/",
-    "emoji": "🏟️",
+    "transcription": "/\u02c8ste\u026a.di.\u0259m k\u0259\u02c8p\u00e6s.\u0259.ti/",
+    "emoji": "\ud83c\udfdf\ufe0f",
     "countability": "countable",
     "plural_form": "stadium capacities",
     "synonyms": [
@@ -799,8 +807,8 @@
     "examples": [
       "Professional athletes train intensely before competing at international championships."
     ],
-    "transcription": "/prəˈfeʃ.ən.əl ˈæθ.liːt/",
-    "emoji": "🏃‍♂️",
+    "transcription": "/pr\u0259\u02c8fe\u0283.\u0259n.\u0259l \u02c8\u00e6\u03b8.li\u02d0t/",
+    "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
     "countability": "countable",
     "plural_form": "professional athletes",
     "synonyms": [
@@ -830,8 +838,8 @@
     "examples": [
       "He joined a recreational league to play tennis on weekends."
     ],
-    "transcription": "/ˌrek.riˈeɪ.ʃən.əl liːɡ/",
-    "emoji": "🎾",
+    "transcription": "/\u02ccrek.ri\u02c8e\u026a.\u0283\u0259n.\u0259l li\u02d0\u0261/",
+    "emoji": "\ud83c\udfbe",
     "countability": "countable",
     "plural_form": "recreational leagues",
     "synonyms": [

@@ -11,7 +11,7 @@
     "examples": [
       "Walk one metre towards the door."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "metres",
@@ -27,7 +27,8 @@
     ],
     "regional_equivalents": [
       "en:meter:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:meter:noun",
@@ -71,7 +72,7 @@
     "examples": [
       "Drive ten kilometres to the city."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "kilometres",
@@ -87,7 +88,8 @@
     ],
     "regional_equivalents": [
       "en:kilometer:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:kilometer:noun",
@@ -131,7 +133,7 @@
     "examples": [
       "Measure five centimetres on paper."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "centimetres",
@@ -147,7 +149,8 @@
     ],
     "regional_equivalents": [
       "en:centimeter:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:centimeter:noun",
@@ -236,14 +239,15 @@
     "examples": [
       "Add one gram of salt to soup."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "grams",
     "transcription": "/\u0261r\u00e6m/",
     "no_antonym": true,
     "emoji": "\u2696\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:litre:noun",
@@ -257,7 +261,7 @@
     "examples": [
       "Buy a litre of fresh milk."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "litres",
@@ -273,7 +277,8 @@
     ],
     "regional_equivalents": [
       "en:liter:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:liter:noun",
@@ -317,7 +322,7 @@
     "examples": [
       "Buy a dozen eggs at the market."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "dozens",
@@ -327,7 +332,8 @@
     "transcription": "/\u02c8d\u028cz.\u0259n/",
     "no_antonym": true,
     "emoji": "\ud83e\uddfa",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:percent:noun",
@@ -341,7 +347,7 @@
     "examples": [
       "Ten percent of students were absent."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "percent",
@@ -351,7 +357,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/p\u025a\u02c8sent/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:number:noun",
@@ -365,7 +372,7 @@
     "examples": [
       "Write down your phone number."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "numbers",
@@ -378,7 +385,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8n\u028cm.b\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:amount:noun",
@@ -392,7 +400,7 @@
     "examples": [
       "Add a small amount of sugar."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "amounts",
@@ -402,7 +410,8 @@
     "transcription": "/\u0259\u02c8ma\u028ant/",
     "no_antonym": true,
     "emoji": "\ud83d\udcca",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:plus:noun",
@@ -416,7 +425,7 @@
     "examples": [
       "Two plus two equals four."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "pluses",
@@ -425,7 +434,8 @@
     "emoji": "\u2795",
     "antonyms": [
       "minus"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:minus:noun",
@@ -439,7 +449,7 @@
     "examples": [
       "Five minus one equals four."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "minuses",
@@ -448,7 +458,8 @@
     "emoji": "\u2796",
     "antonyms": [
       "plus"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:equal:noun",
@@ -462,14 +473,15 @@
     "examples": [
       "All sides are equal length."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "equals",
     "transcription": "/\u02c8i\u02d0.kw\u0259l/",
     "no_antonym": true,
     "emoji": "\ud83d\udff0",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:total:noun",
@@ -483,7 +495,7 @@
     "examples": [
       "What is the total price?"
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "totals",
@@ -496,6 +508,7 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8to\u028a.t\u032c\u0259l/"
-    }
+    },
+    "sub_theme": "general"
   }
 ]

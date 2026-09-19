@@ -11,16 +11,17 @@
     "examples": [
       "I like to lie on the grass in summer."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "lies",
-    "transcription": "/laɪ/",
-    "emoji": "🤥",
+    "transcription": "/la\u026a/",
+    "emoji": "\ud83e\udd25",
     "countability": "countable",
     "antonyms": [
       "truth"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:part-time:noun",
@@ -32,9 +33,9 @@
       "Working only for a part of the day or week."
     ],
     "examples": [
-      "She found a part-time job at a café."
+      "She found a part-time job at a caf\u00e9."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "tags": [
@@ -43,15 +44,16 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˌpɑːtˈtaɪm/",
-    "emoji": "⏱️",
+    "transcription": "/\u02ccp\u0251\u02d0t\u02c8ta\u026am/",
+    "emoji": "\u23f1\ufe0f",
     "countability": "uncountable",
     "antonyms": [
       "full-time"
     ],
     "transcription_variants": {
-      "us": "/ˌpɑːrtˈtaɪm/"
-    }
+      "us": "/\u02ccp\u0251\u02d0rt\u02c8ta\u026am/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:balance:noun",
@@ -73,8 +75,8 @@
       "A2",
       "B2"
     ],
-    "transcription": "/ˈbæl.əns/",
-    "emoji": "⚖️",
+    "transcription": "/\u02c8b\u00e6l.\u0259ns/",
+    "emoji": "\u2696\ufe0f",
     "countability": "countable",
     "antonyms": [
       "imbalance"
@@ -92,7 +94,7 @@
     "examples": [
       "My morning routine includes coffee and reading."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "routines",
@@ -102,10 +104,11 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ruːˈtiːn/",
-    "emoji": "🔄",
+    "transcription": "/ru\u02d0\u02c8ti\u02d0n/",
+    "emoji": "\ud83d\udd04",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:alarm:noun",
@@ -119,20 +122,21 @@
     "examples": [
       "My alarm clock rang at six this morning."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "alarms",
     "tags": [
       "spoken"
     ],
-    "transcription": "/əˈlɑːm/",
-    "emoji": "⏰",
+    "transcription": "/\u0259\u02c8l\u0251\u02d0m/",
+    "emoji": "\u23f0",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/əˈlɑːrm/"
-    }
+      "us": "/\u0259\u02c8l\u0251\u02d0rm/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:oversleep:noun",
@@ -149,14 +153,14 @@
     "domain": "general",
     "theme": "lifestyle",
     "updated": "2025-01-15",
-    "transcription": "/ˌəʊ.vəˈsliːp/",
-    "emoji": "😴",
+    "transcription": "/\u02cc\u0259\u028a.v\u0259\u02c8sli\u02d0p/",
+    "emoji": "\ud83d\ude34",
     "countability": "uncountable",
     "antonyms": [
       "wake up early"
     ],
     "transcription_variants": {
-      "us": "/ˌoʊ.vɚˈsliːp/"
+      "us": "/\u02cco\u028a.v\u025a\u02c8sli\u02d0p/"
     }
   },
   {
@@ -175,8 +179,8 @@
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "commutes",
-    "transcription": "/kəˈmjuːt/",
-    "emoji": "🚌",
+    "transcription": "/k\u0259\u02c8mju\u02d0t/",
+    "emoji": "\ud83d\ude8c",
     "countability": "countable",
     "no_antonym": true
   },
@@ -196,8 +200,8 @@
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "chores",
-    "transcription": "/tʃɔːr/",
-    "emoji": "🧹",
+    "transcription": "/t\u0283\u0254\u02d0r/",
+    "emoji": "\ud83e\uddf9",
     "countability": "countable",
     "no_antonym": true
   },
@@ -217,8 +221,8 @@
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "errands",
-    "transcription": "/ˈer.ənd/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8er.\u0259nd/",
+    "emoji": "\ud83c\udfc3",
     "countability": "countable",
     "no_antonym": true
   },
@@ -234,16 +238,17 @@
     "examples": [
       "I did three loads of laundry yesterday."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
-    "transcription": "/ˈlɔːn.dri/",
-    "emoji": "🧺",
+    "transcription": "/\u02c8l\u0254\u02d0n.dri/",
+    "emoji": "\ud83e\uddfa",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈlɑːn.dri/"
-    }
+      "us": "/\u02c8l\u0251\u02d0n.dri/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:ironing:noun",
@@ -257,16 +262,17 @@
     "examples": [
       "He listens to music while doing ironing."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
-    "transcription": "/ˈaɪə.nɪŋ/",
-    "emoji": "🧺",
+    "transcription": "/\u02c8a\u026a\u0259.n\u026a\u014b/",
+    "emoji": "\ud83e\uddfa",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈaɪ.ɚ.nɪŋ/"
-    }
+      "us": "/\u02c8a\u026a.\u025a.n\u026a\u014b/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:grocery:noun",
@@ -287,12 +293,12 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈɡrəʊ.sər.i/",
-    "emoji": "🛒",
+    "transcription": "/\u02c8\u0261r\u0259\u028a.s\u0259r.i/",
+    "emoji": "\ud83d\uded2",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈɡroʊ.sɚ.i/"
+      "us": "/\u02c8\u0261ro\u028a.s\u025a.i/"
     }
   },
   {
@@ -307,13 +313,14 @@
     "examples": [
       "She babysits for her neighbours on weekends."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
-    "transcription": "/ˈbeɪ.bi.sɪt/",
-    "emoji": "👶",
+    "transcription": "/\u02c8be\u026a.bi.s\u026at/",
+    "emoji": "\ud83d\udc76",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:babysitter:noun",
@@ -327,17 +334,18 @@
     "examples": [
       "The babysitter read a bedtime story."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "babysitters",
-    "transcription": "/ˈbeɪ.bi.sɪt.ər/",
-    "emoji": "🧑‍🍼",
+    "transcription": "/\u02c8be\u026a.bi.s\u026at.\u0259r/",
+    "emoji": "\ud83e\uddd1\u200d\ud83c\udf7c",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈbeɪ.bi.sɪt̬.ɚ/"
-    }
+      "us": "/\u02c8be\u026a.bi.s\u026at\u032c.\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:housework:noun",
@@ -351,16 +359,17 @@
     "examples": [
       "They share the housework equal every week."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "countability": "uncountable",
-    "transcription": "/ˈhaʊs.wɜːk/",
-    "emoji": "🧹",
+    "transcription": "/\u02c8ha\u028as.w\u025c\u02d0k/",
+    "emoji": "\ud83e\uddf9",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈhaʊs.wɝːk/"
-    }
+      "us": "/\u02c8ha\u028as.w\u025d\u02d0k/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:chores:noun",
@@ -378,12 +387,12 @@
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": "/tʃɔːz/",
-    "emoji": "🧹",
+    "transcription": "/t\u0283\u0254\u02d0z/",
+    "emoji": "\ud83e\uddf9",
     "singular_workaround": "a chore",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tʃɔːrz/"
+      "us": "/t\u0283\u0254\u02d0rz/"
     }
   },
   {
@@ -398,19 +407,20 @@
     "examples": [
       "Shops are open on every weekday."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "weekdays",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈwiːk.deɪ/",
-    "emoji": "📅",
+    "transcription": "/\u02c8wi\u02d0k.de\u026a/",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "antonyms": [
       "weekend"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:nap:noun",
@@ -428,8 +438,8 @@
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "plural_form": "naps",
-    "transcription": "/næp/",
-    "emoji": "😴",
+    "transcription": "/n\u00e6p/",
+    "emoji": "\ud83d\ude34",
     "countability": "countable",
     "no_antonym": true
   },
@@ -451,12 +461,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˌmʌl.tiˈtɑːsk/",
-    "emoji": "🤹",
+    "transcription": "/\u02ccm\u028cl.ti\u02c8t\u0251\u02d0sk/",
+    "emoji": "\ud83e\udd39",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌmʌl.tiˈtæsk/"
+      "us": "/\u02ccm\u028cl.ti\u02c8t\u00e6sk/"
     }
   },
   {
@@ -474,12 +484,12 @@
     "domain": "general",
     "theme": "lifestyle",
     "updated": "2025-01-15",
-    "transcription": "/prəʊˈkræs.tɪ.neɪt/",
-    "emoji": "⏳",
+    "transcription": "/pr\u0259\u028a\u02c8kr\u00e6s.t\u026a.ne\u026at/",
+    "emoji": "\u23f3",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/proʊˈkræs.tə.neɪt/"
+      "us": "/pro\u028a\u02c8kr\u00e6s.t\u0259.ne\u026at/"
     }
   },
   {
@@ -497,11 +507,11 @@
     "domain": "general, relocation",
     "theme": "lifestyle",
     "updated": "2025-01-15",
-    "transcription": "/ˈhel.θi ˈlaɪf.staɪl/",
+    "transcription": "/\u02c8hel.\u03b8i \u02c8la\u026af.sta\u026al/",
     "transcription_variants": {
-      "us": "/ˈhel.θi ˈlaɪf.staɪl/"
+      "us": "/\u02c8hel.\u03b8i \u02c8la\u026af.sta\u026al/"
     },
-    "emoji": "🥗",
+    "emoji": "\ud83e\udd57",
     "antonyms": [
       "unhealthy lifestyle"
     ],
@@ -523,8 +533,8 @@
     "examples": [
       "We booked a soothing massage spa treatment after hiking all day."
     ],
-    "transcription": "/spɑː ˈtriːt.mənt/",
-    "emoji": "💆‍♀️",
+    "transcription": "/sp\u0251\u02d0 \u02c8tri\u02d0t.m\u0259nt/",
+    "emoji": "\ud83d\udc86\u200d\u2640\ufe0f",
     "countability": "countable",
     "plural_form": "spa treatments",
     "synonyms": [
@@ -552,8 +562,8 @@
     "examples": [
       "They documented their freedom while living van life across Europe."
     ],
-    "transcription": "/væn laɪf/",
-    "emoji": "🚐",
+    "transcription": "/v\u00e6n la\u026af/",
+    "emoji": "\ud83d\ude90",
     "countability": "uncountable",
     "synonyms": [
       "camper living",
@@ -580,8 +590,8 @@
     "examples": [
       "She spent a peaceful week at a seaside wellness retreat in Bali."
     ],
-    "transcription": "/ˈwel.nəs rɪˈtriːt/",
-    "emoji": "🧘‍♀️",
+    "transcription": "/\u02c8wel.n\u0259s r\u026a\u02c8tri\u02d0t/",
+    "emoji": "\ud83e\uddd8\u200d\u2640\ufe0f",
     "countability": "countable",
     "plural_form": "wellness retreats",
     "synonyms": [
@@ -609,8 +619,8 @@
     "examples": [
       "She spent a peaceful week at a seaside yoga retreat in Bali."
     ],
-    "transcription": "/ˈjəʊ.ɡə rɪˈtriːt/",
-    "emoji": "🧘‍♀️",
+    "transcription": "/\u02c8j\u0259\u028a.\u0261\u0259 r\u026a\u02c8tri\u02d0t/",
+    "emoji": "\ud83e\uddd8\u200d\u2640\ufe0f",
     "countability": "countable",
     "plural_form": "yoga retreats",
     "synonyms": [
@@ -638,8 +648,8 @@
     "examples": [
       "That rooftop garden is my favorite chill spot after work."
     ],
-    "transcription": "/tʃɪl spɒt/",
-    "emoji": "🛋️",
+    "transcription": "/t\u0283\u026al sp\u0252t/",
+    "emoji": "\ud83d\udecb\ufe0f",
     "countability": "countable",
     "plural_form": "chill spots",
     "synonyms": [
@@ -668,8 +678,8 @@
     "examples": [
       "We enjoyed cheap drinks at a cozy dive bar near the fishing docks."
     ],
-    "transcription": "/daɪv bɑːr/",
-    "emoji": "🍺",
+    "transcription": "/da\u026av b\u0251\u02d0r/",
+    "emoji": "\ud83c\udf7a",
     "countability": "countable",
     "plural_form": "dive bars",
     "synonyms": [
@@ -698,8 +708,8 @@
     "examples": [
       "She spent a week at a mountain fitness retreat to regain energy."
     ],
-    "transcription": "/ˈfɪt.nəs rɪˈtriːt/",
-    "emoji": "🏋️",
+    "transcription": "/\u02c8f\u026at.n\u0259s r\u026a\u02c8tri\u02d0t/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "countability": "countable",
     "plural_form": "fitness retreats",
     "synonyms": [
@@ -727,8 +737,8 @@
     "examples": [
       "As a dedicated foodie, she planned her vacation around top-rated local eateries."
     ],
-    "transcription": "/ˈfuː.di/",
-    "emoji": "😋",
+    "transcription": "/\u02c8fu\u02d0.di/",
+    "emoji": "\ud83d\ude0b",
     "countability": "countable",
     "plural_form": "foodies",
     "synonyms": [
@@ -757,8 +767,8 @@
     "examples": [
       "The luxury resort is a favorite destination for international jet-setters."
     ],
-    "transcription": "/ˈdʒetˌset.ər/",
-    "emoji": "✈️",
+    "transcription": "/\u02c8d\u0292et\u02ccset.\u0259r/",
+    "emoji": "\u2708\ufe0f",
     "countability": "countable",
     "plural_form": "jet-setters",
     "synonyms": [
@@ -787,8 +797,8 @@
     "examples": [
       "She spent a peaceful week at a seaside meditation retreat in Bali."
     ],
-    "transcription": "/ˌmed.ɪˈteɪ.ʃən rɪˈtriːt/",
-    "emoji": "🧘",
+    "transcription": "/\u02ccmed.\u026a\u02c8te\u026a.\u0283\u0259n r\u026a\u02c8tri\u02d0t/",
+    "emoji": "\ud83e\uddd8",
     "countability": "countable",
     "plural_form": "meditation retreats",
     "synonyms": [
@@ -811,13 +821,13 @@
     "theme": "lifestyle",
     "updated": "2025-01-15",
     "definitions": [
-      "A venue or café frequently visited by local residents for relaxation."
+      "A venue or caf\u00e9 frequently visited by local residents for relaxation."
     ],
     "examples": [
       "The coffee shop around the corner is a popular local hangout."
     ],
-    "transcription": "/ˈləʊ.kəl ˈhæŋ.aʊt/",
-    "emoji": "☕",
+    "transcription": "/\u02c8l\u0259\u028a.k\u0259l \u02c8h\u00e6\u014b.a\u028at/",
+    "emoji": "\u2615",
     "countability": "countable",
     "plural_form": "local hangouts",
     "synonyms": [
@@ -845,8 +855,8 @@
     "examples": [
       "My travel partner is a real penny-pincher who tracks every single cent."
     ],
-    "transcription": "/ˈpen.iˌpɪn.tʃər/",
-    "emoji": "🪙",
+    "transcription": "/\u02c8pen.i\u02ccp\u026an.t\u0283\u0259r/",
+    "emoji": "\ud83e\ude99",
     "countability": "countable",
     "plural_form": "penny-pinchers",
     "synonyms": [
@@ -875,8 +885,8 @@
     "examples": [
       "The hotel buffet offers a wide variety of plant-based dishes."
     ],
-    "transcription": "/plɑːnt beɪst/",
-    "emoji": "🌱",
+    "transcription": "/pl\u0251\u02d0nt be\u026ast/",
+    "emoji": "\ud83c\udf31",
     "synonyms": [
       "vegan",
       "vegetarian-friendly"

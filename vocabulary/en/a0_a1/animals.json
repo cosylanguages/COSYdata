@@ -11,7 +11,7 @@
     "examples": [
       "Cold weather started this week."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -23,7 +23,8 @@
     "emoji": "\ud83c\udf24\ufe0f",
     "transcription_variants": {
       "us": "/\u02c8we\u00f0.\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:moon:noun",
@@ -37,7 +38,7 @@
     "examples": [
       "The moon shines in the dark sky."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "plural_form": "moons",
@@ -47,7 +48,8 @@
     "transcription": "/mu\u02d0n/",
     "emoji": "\ud83c\udf19",
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:tree:noun",
@@ -61,7 +63,7 @@
     "examples": [
       "Birds sit in the tall tree."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "trees",
@@ -71,7 +73,8 @@
     "transcription": "/tri\u02d0/",
     "emoji": "\ud83c\udf33",
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:stone:noun",
@@ -85,7 +88,7 @@
     "examples": [
       "He threw a stone into the river."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "stones",
@@ -101,7 +104,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/sto\u028an/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cloud:noun",
@@ -115,7 +119,7 @@
     "examples": [
       "A white cloud covers the sun."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "plural_form": "clouds",
@@ -129,7 +133,8 @@
     "transcription": "/kla\u028ad/",
     "no_antonym": true,
     "emoji": "\u2601\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:elephant:noun",
@@ -143,7 +148,7 @@
     "examples": [
       "An elephant drinks water with its trunk."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "elephants",
@@ -156,7 +161,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8el.\u0259.f\u0259nt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:world:noun",
@@ -170,7 +176,7 @@
     "examples": [
       "Many people live in the world."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "worlds",
@@ -186,7 +192,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/w\u025d\u02d0ld/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cat:noun",
@@ -203,14 +210,15 @@
       "The cat sleeps on warm sofa."
     ],
     "plural_form": "cats",
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:dog:noun",
@@ -227,7 +235,7 @@
       "The dog runs in a green park."
     ],
     "plural_form": "dogs",
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
@@ -237,7 +245,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/d\u0251\u02d0\u0261/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cow:noun",
@@ -254,14 +263,15 @@
       "The cow eats fresh green grass."
     ],
     "plural_form": "cows",
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:horse:noun",
@@ -278,7 +288,7 @@
       "He rides a fast brown horse."
     ],
     "plural_form": "horses",
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
@@ -288,7 +298,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/h\u0254\u02d0rs/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:bird:noun",
@@ -305,7 +316,7 @@
       "A red bird sings in the tree."
     ],
     "plural_form": "birds",
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
@@ -315,7 +326,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/b\u025d\u02d0d/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:fish:noun",
@@ -331,7 +343,7 @@
     "examples": [
       "Small fish swim in the lake."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
@@ -342,7 +354,8 @@
     ],
     "countability": "countable",
     "no_antonym": true,
-    "plural_form": "fish"
+    "plural_form": "fish",
+    "sub_theme": "general"
   },
   {
     "id": "en:mouse:noun",
@@ -359,14 +372,15 @@
       "The mouse ate cheese on the floor."
     ],
     "plural_form": "mice",
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:pig:noun",
@@ -383,14 +397,15 @@
       "The pig plays in wet mud."
     ],
     "plural_form": "pigs",
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:sheep:noun",
@@ -406,7 +421,7 @@
     "examples": [
       "The white sheep stands on the hill."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "tags": [
@@ -414,7 +429,8 @@
     ],
     "countability": "countable",
     "no_antonym": true,
-    "plural_form": "sheep"
+    "plural_form": "sheep",
+    "sub_theme": "general"
   },
   {
     "id": "en:hen:noun",
@@ -449,7 +465,7 @@
     "examples": [
       "A dog is a friendly animal."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "animals",
@@ -459,7 +475,8 @@
     "transcription": "/\u02c8\u00e6n.\u026a.m\u0259l/",
     "no_antonym": true,
     "emoji": "\ud83d\udc3e",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:animals:noun",
@@ -494,7 +511,7 @@
     "examples": [
       "The chicken walks around the farm."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "chickens",
@@ -507,7 +524,8 @@
     "transcription": "/\u02c8t\u0283\u026ak.\u026an/",
     "no_antonym": true,
     "emoji": "\ud83d\udc14",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:duck:noun",
@@ -521,7 +539,7 @@
     "examples": [
       "A yellow duck swims on the lake."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "ducks",
@@ -531,7 +549,8 @@
     "transcription": "/d\u028ck/",
     "no_antonym": true,
     "emoji": "\ud83e\udd86",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:rabbit:noun",
@@ -545,7 +564,7 @@
     "examples": [
       "The rabbit hops across the garden."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "rabbits",
@@ -555,7 +574,8 @@
     "transcription": "/\u02c8r\u00e6b.\u026at/",
     "no_antonym": true,
     "emoji": "\ud83d\udc30",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:lion:noun",
@@ -569,7 +589,7 @@
     "examples": [
       "The lion sleeps in warm sun."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "lions",
@@ -579,7 +599,8 @@
     "transcription": "/\u02c8la\u026a.\u0259n/",
     "no_antonym": true,
     "emoji": "\ud83e\udd81",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:tiger:noun",
@@ -593,7 +614,7 @@
     "examples": [
       "A tiger walks through thick trees."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "tigers",
@@ -606,7 +627,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8ta\u026a.\u0261\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:bear:noun",
@@ -620,7 +642,7 @@
     "examples": [
       "The brown bear catches fresh fish."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "bears",
@@ -633,7 +655,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ber/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:monkey:noun",
@@ -647,7 +670,7 @@
     "examples": [
       "The monkey eats a sweet banana."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "monkeys",
@@ -657,7 +680,8 @@
     "transcription": "/\u02c8m\u028c\u014b.ki/",
     "no_antonym": true,
     "emoji": "\ud83d\udc12",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:snake:noun",
@@ -671,7 +695,7 @@
     "examples": [
       "A green snake moves in the grass."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "animals",
     "updated": "2025-01-15",
     "plural_form": "snakes",
@@ -681,7 +705,8 @@
     "transcription": "/sne\u026ak/",
     "no_antonym": true,
     "emoji": "\ud83d\udc0d",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:flower:noun",
@@ -695,7 +720,7 @@
     "examples": [
       "She picked a beautiful red flower."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "flowers",
@@ -708,7 +733,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8fla\u028a.\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:grass:noun",
@@ -722,7 +748,7 @@
     "examples": [
       "The sheep eat fresh green grass."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "tags": [
@@ -734,7 +760,8 @@
     "emoji": "\ud83c\udf31",
     "transcription_variants": {
       "us": "/\u0261r\u00e6s/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:leaf:noun",
@@ -748,7 +775,7 @@
     "examples": [
       "A green leaf fell from the tree."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "leaves",
@@ -758,7 +785,8 @@
     "transcription": "/li\u02d0f/",
     "no_antonym": true,
     "emoji": "\ud83c\udf43",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:leaves:noun",
@@ -793,7 +821,7 @@
     "examples": [
       "We walked through a dark forest."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "forests",
@@ -806,7 +834,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8f\u0254\u02d0r.\u026ast/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:wood:noun",
@@ -820,7 +849,7 @@
     "examples": [
       "This chair is made of wood."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "levels": [
@@ -829,7 +858,8 @@
     "transcription": "/w\u028ad/",
     "no_antonym": true,
     "emoji": "\ud83e\udeb5",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:mountain:noun",
@@ -843,7 +873,7 @@
     "examples": [
       "Snow covers top of mountain."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "mountains",
@@ -856,7 +886,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8ma\u028an.t\u0259n/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:hill:noun",
@@ -870,14 +901,15 @@
     "examples": [
       "We ran up the green hill."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "hills",
     "transcription": "/h\u026al/",
     "no_antonym": true,
     "emoji": "\u26f0\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:river:noun",
@@ -891,7 +923,7 @@
     "examples": [
       "Clean water flows down river."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "rivers",
@@ -904,7 +936,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8r\u026av.\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:lake:noun",
@@ -918,7 +951,7 @@
     "examples": [
       "They sailed a boat on the lake."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "lakes",
@@ -928,7 +961,8 @@
     "transcription": "/le\u026ak/",
     "no_antonym": true,
     "emoji": "\ud83c\udf0a",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:sea:noun",
@@ -942,7 +976,7 @@
     "examples": [
       "We swam in the blue sea."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "seas",
@@ -952,7 +986,8 @@
     "transcription": "/si\u02d0/",
     "no_antonym": true,
     "emoji": "\ud83c\udf0a",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:ocean:noun",
@@ -966,7 +1001,7 @@
     "examples": [
       "Ships cross the deep blue ocean."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "oceans",
@@ -979,7 +1014,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8o\u028a.\u0283\u0259n/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:beach:noun",
@@ -993,7 +1029,7 @@
     "examples": [
       "Children play on a sunny beach."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "beaches",
@@ -1003,7 +1039,8 @@
     "transcription": "/bi\u02d0t\u0283/",
     "no_antonym": true,
     "emoji": "\ud83c\udfd6\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:island:noun",
@@ -1017,7 +1054,7 @@
     "examples": [
       "They lived on a small island."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "islands",
@@ -1027,7 +1064,8 @@
     "transcription": "/\u02c8a\u026a.l\u0259nd/",
     "no_antonym": true,
     "emoji": "\ud83c\udfdd\ufe0f",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:sky:noun",
@@ -1041,7 +1079,7 @@
     "examples": [
       "The sky is bright blue today."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "plural_form": "skies",
@@ -1051,7 +1089,8 @@
     "transcription": "/ska\u026a/",
     "no_antonym": true,
     "emoji": "\ud83c\udf0c",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:sun:noun",
@@ -1065,7 +1104,7 @@
     "examples": [
       "The sun gives light and heat."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "plural_form": "suns",
@@ -1075,7 +1114,8 @@
     "transcription": "/s\u028cn/",
     "emoji": "\u2600\ufe0f",
     "no_antonym": true,
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:star:noun",
@@ -1089,7 +1129,7 @@
     "examples": [
       "A bright star shines at night."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "plural_form": "stars",
@@ -1102,7 +1142,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/st\u0251\u02d0r/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:rain:noun",
@@ -1116,7 +1157,7 @@
     "examples": [
       "Cold rain fell on the street."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1125,7 +1166,8 @@
     "transcription": "/re\u026an/",
     "no_antonym": true,
     "emoji": "\ud83c\udf27\ufe0f",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:snow:noun",
@@ -1139,7 +1181,7 @@
     "examples": [
       "White snow covers the cold road."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1151,7 +1193,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/sno\u028a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:wind:noun",
@@ -1165,7 +1208,7 @@
     "examples": [
       "Strong wind blew through trees."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1178,7 +1221,8 @@
     "transcription": "/w\u026and/",
     "no_antonym": true,
     "emoji": "\ud83d\udca8",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:storm:noun",
@@ -1192,7 +1236,7 @@
     "examples": [
       "A heavy storm hit the town."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "plural_form": "storms",
@@ -1209,7 +1253,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/st\u0254\u02d0rm/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:hot:adjective",
@@ -1223,7 +1268,7 @@
     "examples": [
       "Drink this hot tea now."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1239,7 +1284,8 @@
     "emoji": "\ud83d\udd25",
     "transcription_variants": {
       "us": "/h\u0251\u02d0t/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cold:adjective",
@@ -1253,7 +1299,7 @@
     "examples": [
       "I feel cold in winter time."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1270,7 +1316,8 @@
     "emoji": "\ud83e\udd76",
     "transcription_variants": {
       "us": "/ko\u028ald/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:warm:adjective",
@@ -1284,7 +1331,7 @@
     "examples": [
       "The sun feels warm today."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1301,7 +1348,8 @@
     ],
     "transcription_variants": {
       "us": "/w\u0254\u02d0rm/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cool:adjective",
@@ -1315,7 +1363,7 @@
     "examples": [
       "A cool wind blew this morning."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1328,7 +1376,8 @@
     "emoji": "\ud83d\ude0e",
     "antonyms": [
       "warm"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:sunny:adjective",
@@ -1342,7 +1391,7 @@
     "examples": [
       "It is a sunny day outside."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1353,7 +1402,8 @@
     "antonyms": [
       "cloudy",
       "rainy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:rainy:adjective",
@@ -1391,7 +1441,7 @@
     "examples": [
       "The sky was cloudy all morning."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1402,7 +1452,8 @@
     "antonyms": [
       "sunny",
       "clear"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:windy:adjective",
@@ -1416,7 +1467,7 @@
     "examples": [
       "It was windy near the sea."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
     "updated": "2025-01-15",
     "tags": [
@@ -1426,7 +1477,8 @@
     "emoji": "\ud83d\udca8",
     "antonyms": [
       "calm"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:snowy:adjective",
@@ -1467,7 +1519,7 @@
     "examples": [
       "The earth moves around sun."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "tags": [
@@ -1479,7 +1531,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/\u025d\u02d0\u03b8/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:nature:noun",
@@ -1493,7 +1546,7 @@
     "examples": [
       "She loves to walk in nature."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "tags": [
@@ -1509,7 +1562,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/\u02c8ne\u026a.t\u0283\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:rock:noun",
@@ -1523,7 +1577,7 @@
     "examples": [
       "He sat on a large rock."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "rocks",
@@ -1536,7 +1590,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/r\u0251\u02d0k/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:sand:noun",
@@ -1550,7 +1605,7 @@
     "examples": [
       "Children built castles in sand."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "nature",
     "updated": "2025-01-15",
     "tags": [
@@ -1559,7 +1614,8 @@
     "transcription": "/s\u00e6nd/",
     "no_antonym": true,
     "emoji": "\ud83c\udfd6\ufe0f",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:goat:noun",
@@ -1573,7 +1629,7 @@
     "examples": [
       "The goat jumped on rock."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1587,7 +1643,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u0261o\u028at/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:frog:noun",
@@ -1601,7 +1658,7 @@
     "examples": [
       "A green frog jumped in water."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1615,7 +1672,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/fr\u0251\u02d0\u0261/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:spider:noun",
@@ -1629,7 +1687,7 @@
     "examples": [
       "A spider made a web wall."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1643,7 +1701,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8spa\u026a.d\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:bee:noun",
@@ -1657,7 +1716,7 @@
     "examples": [
       "A bee flew over flower."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1668,7 +1727,8 @@
     "transcription": "/bi\u02d0/",
     "no_antonym": true,
     "emoji": "\ud83d\udc1d",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:butterfly:noun",
@@ -1682,7 +1742,7 @@
     "examples": [
       "A butterfly landed on hand."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1696,7 +1756,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8b\u028ct\u032c.\u025a.fla\u026a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:ant:noun",
@@ -1710,7 +1771,7 @@
     "examples": [
       "An ant carried a piece food."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1721,7 +1782,8 @@
     "transcription": "/\u00e6nt/",
     "no_antonym": true,
     "emoji": "\ud83d\udc1c",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:farm:noun",
@@ -1735,7 +1797,7 @@
     "examples": [
       "My uncle lives on farm."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "animals",
     "tags": [
       "spoken",
@@ -1752,6 +1814,7 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/f\u0251\u02d0rm/"
-    }
+    },
+    "sub_theme": "general"
   }
 ]

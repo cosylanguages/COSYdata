@@ -11,17 +11,18 @@
     "examples": [
       "He cleaned the small cut on his finger."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "cuts",
     "tags": [
       "spoken"
     ],
-    "transcription": "/kʌt/",
-    "emoji": "✂️",
+    "transcription": "/k\u028ct/",
+    "emoji": "\u2702\ufe0f",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:rest:noun",
@@ -35,19 +36,20 @@
     "examples": [
       "The doctor prescribed three days of bed rest."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/rest/",
-    "emoji": "🛋️",
+    "emoji": "\ud83d\udecb\ufe0f",
     "countability": "uncountable",
     "antonyms": [
       "work",
       "exercise"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:wound:noun",
@@ -68,8 +70,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/wuːnd/",
-    "emoji": "🩹",
+    "transcription": "/wu\u02d0nd/",
+    "emoji": "\ud83e\ude79",
     "countability": "countable",
     "no_antonym": true
   },
@@ -85,16 +87,17 @@
     "examples": [
       "Yoga helps to reduce daily work stress."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "countability": "uncountable",
     "transcription": "/stres/",
-    "emoji": "😫",
+    "emoji": "\ud83d\ude2b",
     "antonyms": [
       "relaxation",
       "calm"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:balanced:adjective",
@@ -115,8 +118,8 @@
       "A2",
       "B1"
     ],
-    "transcription": "/ˈbæl.ənst/",
-    "emoji": "⚖️",
+    "transcription": "/\u02c8b\u00e6l.\u0259nst/",
+    "emoji": "\u2696\ufe0f",
     "antonyms": [
       "unbalanced"
     ]
@@ -133,7 +136,7 @@
     "examples": [
       "A balanced diet improves your energy."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "diets",
@@ -144,10 +147,11 @@
       "A2",
       "B1"
     ],
-    "transcription": "/ˈdaɪ.ət/",
-    "emoji": "🥗",
+    "transcription": "/\u02c8da\u026a.\u0259t/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:injury:noun",
@@ -172,12 +176,12 @@
       "A2",
       "B1"
     ],
-    "transcription": "/ˈɪn.dʒər.i/",
-    "emoji": "🩹",
+    "transcription": "/\u02c8\u026an.d\u0292\u0259r.i/",
+    "emoji": "\ud83e\ude79",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈɪn.dʒɚ.i/"
+      "us": "/\u02c8\u026an.d\u0292\u025a.i/"
     }
   },
   {
@@ -203,8 +207,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/stretʃ/",
-    "emoji": "🧘",
+    "transcription": "/stret\u0283/",
+    "emoji": "\ud83e\uddd8",
     "countability": "countable",
     "no_antonym": true
   },
@@ -220,7 +224,7 @@
     "examples": [
       "I have a dentist appointment tomorrow morning."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "appointments",
@@ -230,8 +234,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/əˈpɔɪnt.mənt/",
-    "emoji": "📅",
+    "transcription": "/\u0259\u02c8p\u0254\u026ant.m\u0259nt/",
+    "emoji": "\ud83d\udcc5",
     "countability": "countable",
     "no_antonym": true,
     "sub_theme": "legal-english"
@@ -258,12 +262,12 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈæl.ə.dʒi/",
-    "emoji": "🤧",
+    "transcription": "/\u02c8\u00e6l.\u0259.d\u0292i/",
+    "emoji": "\ud83e\udd27",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈæl.ɚ.dʒi/"
+      "us": "/\u02c8\u00e6l.\u025a.d\u0292i/"
     }
   },
   {
@@ -278,16 +282,17 @@
     "examples": [
       "She recovered from a mild illness last week."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "illnesses",
     "countability": "countable",
-    "transcription": "/ˈɪl.nəs/",
-    "emoji": "🤒",
+    "transcription": "/\u02c8\u026al.n\u0259s/",
+    "emoji": "\ud83e\udd12",
     "antonyms": [
       "health"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:disease:noun",
@@ -301,19 +306,20 @@
     "examples": [
       "Vaccines protect people against serious disease."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "diseases",
     "tags": [
       "spoken"
     ],
-    "transcription": "/dɪˈziːz/",
-    "emoji": "🦠",
+    "transcription": "/d\u026a\u02c8zi\u02d0z/",
+    "emoji": "\ud83e\udda0",
     "countability": "countable",
     "antonyms": [
       "health"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:symptom:noun",
@@ -334,8 +340,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈsɪmp.təm/",
-    "emoji": "📋",
+    "transcription": "/\u02c8s\u026amp.t\u0259m/",
+    "emoji": "\ud83d\udccb",
     "countability": "countable",
     "no_antonym": true
   },
@@ -358,8 +364,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ɪnˈfek.ʃən/",
-    "emoji": "🦠",
+    "transcription": "/\u026an\u02c8fek.\u0283\u0259n/",
+    "emoji": "\ud83e\udda0",
     "countability": "countable",
     "no_antonym": true
   },
@@ -375,17 +381,18 @@
     "examples": [
       "I took an aspirin to cure my headache."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "headaches",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈhed.eɪk/",
-    "emoji": "🤕",
+    "transcription": "/\u02c8hed.e\u026ak/",
+    "emoji": "\ud83e\udd15",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:stomachache:noun",
@@ -406,8 +413,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈstʌm.ək.eɪk/",
-    "emoji": "🤢",
+    "transcription": "/\u02c8st\u028cm.\u0259k.e\u026ak/",
+    "emoji": "\ud83e\udd22",
     "countability": "countable",
     "no_antonym": true
   },
@@ -423,14 +430,15 @@
     "examples": [
       "He went to dentist because of toothache."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "toothaches",
-    "transcription": "/ˈtuːθ.eɪk/",
-    "emoji": "🦷",
+    "transcription": "/\u02c8tu\u02d0\u03b8.e\u026ak/",
+    "emoji": "\ud83e\uddb7",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:backache:noun",
@@ -448,8 +456,8 @@
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "backaches",
-    "transcription": "/ˈbæk.eɪk/",
-    "emoji": "🩺",
+    "transcription": "/\u02c8b\u00e6k.e\u026ak/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "no_antonym": true
   },
@@ -465,20 +473,21 @@
     "examples": [
       "The doctor checked her fever with a thermometer."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "fevers",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈfiː.vər/",
-    "emoji": "🌡️",
+    "transcription": "/\u02c8fi\u02d0.v\u0259r/",
+    "emoji": "\ud83c\udf21\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfiː.vɚ/"
-    }
+      "us": "/\u02c8fi\u02d0.v\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:sore:noun",
@@ -492,14 +501,15 @@
     "examples": [
       "His muscles were sore after the workout."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "sores",
-    "transcription": "/sɔːr/",
-    "emoji": "🩹",
+    "transcription": "/s\u0254\u02d0r/",
+    "emoji": "\ud83e\ude79",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:throat:noun",
@@ -513,17 +523,18 @@
     "examples": [
       "Drink warm tea when your throat hurts."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "throats",
-    "transcription": "/θrəʊt/",
-    "emoji": "🗣️",
+    "transcription": "/\u03b8r\u0259\u028at/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/θroʊt/"
-    }
+      "us": "/\u03b8ro\u028at/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:bruise:noun",
@@ -544,8 +555,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/bruːz/",
-    "emoji": "🟣",
+    "transcription": "/bru\u02d0z/",
+    "emoji": "\ud83d\udfe3",
     "countability": "countable",
     "no_antonym": true
   },
@@ -561,17 +572,18 @@
     "examples": [
       "The chemist filled her medical prescription quickly."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "prescriptions",
     "tags": [
       "spoken"
     ],
-    "transcription": "/prɪˈskrɪp.ʃən/",
-    "emoji": "📄",
+    "transcription": "/pr\u026a\u02c8skr\u026ap.\u0283\u0259n/",
+    "emoji": "\ud83d\udcc4",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:pharmacy:noun",
@@ -585,26 +597,27 @@
     "examples": [
       "I bought bandages at the local pharmacy."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "pharmacies",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈfɑː.mə.si/",
-    "emoji": "🏥",
+    "transcription": "/\u02c8f\u0251\u02d0.m\u0259.si/",
+    "emoji": "\ud83c\udfe5",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfɑːr.mə.si/"
+      "us": "/\u02c8f\u0251\u02d0r.m\u0259.si/"
     },
     "region": [
       "UK"
     ],
     "regional_equivalents": [
       "en:chemist:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:chemist:noun",
@@ -618,12 +631,12 @@
     "examples": [
       "Ask the chemist for helpful medical advice."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "chemists",
-    "transcription": "/ˈkem.ɪst/",
-    "emoji": "🧪",
+    "transcription": "/\u02c8kem.\u026ast/",
+    "emoji": "\ud83e\uddea",
     "countability": "countable",
     "no_antonym": true,
     "region": [
@@ -631,7 +644,8 @@
     ],
     "regional_equivalents": [
       "en:pharmacy:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:checkup:noun",
@@ -652,8 +666,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈtʃek.ʌp/",
-    "emoji": "🩺",
+    "transcription": "/\u02c8t\u0283ek.\u028cp/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "no_antonym": true
   },
@@ -676,8 +690,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈtriːt.mənt/",
-    "emoji": "🩺",
+    "transcription": "/\u02c8tri\u02d0t.m\u0259nt/",
+    "emoji": "\ud83e\ude7a",
     "countability": "countable",
     "no_antonym": true
   },
@@ -693,20 +707,20 @@
     "examples": [
       "Daily exercise keeps your body fit."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈek.sə.saɪz/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8ek.s\u0259.sa\u026az/",
+    "emoji": "\ud83c\udfc3",
     "countability": "uncountable",
     "antonyms": [
       "rest"
     ],
     "transcription_variants": {
-      "us": "/ˈek.sɚ.saɪz/"
+      "us": "/\u02c8ek.s\u025a.sa\u026az/"
     },
     "sub_theme": "teachers-scientists"
   },
@@ -722,18 +736,19 @@
     "examples": [
       "Swimming improves your overall physical fitness."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "countability": "uncountable",
-    "transcription": "/ˈfɪt.nəs/",
-    "emoji": "🏋️",
+    "transcription": "/\u02c8f\u026at.n\u0259s/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "antonyms": [
       "unfitness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:nutrition:noun",
@@ -753,14 +768,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/njuːˈtrɪʃ.ən/",
-    "emoji": "🥗",
+    "transcription": "/nju\u02d0\u02c8tr\u026a\u0283.\u0259n/",
+    "emoji": "\ud83e\udd57",
     "countability": "uncountable",
     "antonyms": [
       "malnutrition"
     ],
     "transcription_variants": {
-      "us": "/nuːˈtrɪʃ.ən/"
+      "us": "/nu\u02d0\u02c8tr\u026a\u0283.\u0259n/"
     }
   },
   {
@@ -775,18 +790,19 @@
     "examples": [
       "Listen to quiet music to relax after work."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/rɪˈlæks/",
-    "emoji": "🛋️",
+    "transcription": "/r\u026a\u02c8l\u00e6ks/",
+    "emoji": "\ud83d\udecb\ufe0f",
     "countability": "uncountable",
     "antonyms": [
       "stress"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:recover:verb",
@@ -800,20 +816,21 @@
     "examples": [
       "He took time to recover from the operation."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/rɪˈkʌv.ər/",
-    "emoji": "🏃",
+    "transcription": "/r\u026a\u02c8k\u028cv.\u0259r/",
+    "emoji": "\ud83c\udfc3",
     "antonyms": [
       "worsen"
     ],
     "transcription_variants": {
-      "us": "/rɪˈkʌv.ɚ/"
-    }
+      "us": "/r\u026a\u02c8k\u028cv.\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:ambulance:noun",
@@ -827,17 +844,18 @@
     "examples": [
       "An ambulance rushed the patient to hospital."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "ambulances",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈæm.bjə.ləns/",
-    "emoji": "🚑",
+    "transcription": "/\u02c8\u00e6m.bj\u0259.l\u0259ns/",
+    "emoji": "\ud83d\ude91",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:emergency:noun",
@@ -851,20 +869,21 @@
     "examples": [
       "Call nine one one in case of emergency."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "emergencies",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ɪˈmɜː.dʒən.si/",
-    "emoji": "🚨",
+    "transcription": "/\u026a\u02c8m\u025c\u02d0.d\u0292\u0259n.si/",
+    "emoji": "\ud83d\udea8",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ɪˈmɝː.dʒən.si/"
-    }
+      "us": "/\u026a\u02c8m\u025d\u02d0.d\u0292\u0259n.si/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:vaccine:noun",
@@ -885,12 +904,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈvæk.siːn/",
-    "emoji": "💉",
+    "transcription": "/\u02c8v\u00e6k.si\u02d0n/",
+    "emoji": "\ud83d\udc89",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/vækˈsiːn/"
+      "us": "/v\u00e6k\u02c8si\u02d0n/"
     }
   },
   {
@@ -912,8 +931,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ɪnˈdʒek.ʃən/",
-    "emoji": "💉",
+    "transcription": "/\u026an\u02c8d\u0292ek.\u0283\u0259n/",
+    "emoji": "\ud83d\udc89",
     "countability": "countable",
     "no_antonym": true
   },
@@ -929,14 +948,15 @@
     "examples": [
       "Eating fast food daily is very unhealthy."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ʌnˈhel.θi/",
-    "emoji": "🍔",
+    "transcription": "/\u028cn\u02c8hel.\u03b8i/",
+    "emoji": "\ud83c\udf54",
     "antonyms": [
       "healthy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:injured:noun",
@@ -957,15 +977,15 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈɪn.dʒəd/",
-    "emoji": "🩹",
+    "transcription": "/\u02c8\u026an.d\u0292\u0259d/",
+    "emoji": "\ud83e\ude79",
     "countability": "uncountable",
     "antonyms": [
       "uninjured",
       "healthy"
     ],
     "transcription_variants": {
-      "us": "/ˈɪn.dʒɚd/"
+      "us": "/\u02c8\u026an.d\u0292\u025ad/"
     }
   },
   {
@@ -988,8 +1008,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "swellings",
-    "transcription": "/ˈswel.ɪŋ/",
-    "emoji": "🟣",
+    "transcription": "/\u02c8swel.\u026a\u014b/",
+    "emoji": "\ud83d\udfe3",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1012,12 +1032,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈsɜː.dʒər.i/",
-    "emoji": "😷",
+    "transcription": "/\u02c8s\u025c\u02d0.d\u0292\u0259r.i/",
+    "emoji": "\ud83d\ude37",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈsɝː.dʒɚ.i/"
+      "us": "/\u02c8s\u025d\u02d0.d\u0292\u025a.i/"
     }
   },
   {
@@ -1032,7 +1052,7 @@
     "examples": [
       "He recovered well after his knee operation."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1040,13 +1060,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "operations",
-    "transcription": "/ˌɒp.ərˈeɪ.ʃən/",
-    "emoji": "😷",
+    "transcription": "/\u02cc\u0252p.\u0259r\u02c8e\u026a.\u0283\u0259n/",
+    "emoji": "\ud83d\ude37",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌɑː.pəˈreɪ.ʃən/"
-    }
+      "us": "/\u02cc\u0251\u02d0.p\u0259\u02c8re\u026a.\u0283\u0259n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:x-ray:noun",
@@ -1068,8 +1089,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "X-rays",
-    "transcription": "/ˈeks.reɪ/",
-    "emoji": "🩻",
+    "transcription": "/\u02c8eks.re\u026a/",
+    "emoji": "\ud83e\ude7b",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1092,12 +1113,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈblʌd ˌpreʃ.ər/",
-    "emoji": "🩺",
+    "transcription": "/\u02c8bl\u028cd \u02ccpre\u0283.\u0259r/",
+    "emoji": "\ud83e\ude7a",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈblʌd ˌpreʃ.ɚ/"
+      "us": "/\u02c8bl\u028cd \u02ccpre\u0283.\u025a/"
     }
   },
   {
@@ -1120,8 +1141,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "pulses",
-    "transcription": "/pʌls/",
-    "emoji": "💓",
+    "transcription": "/p\u028cls/",
+    "emoji": "\ud83d\udc93",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1145,12 +1166,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "vitamins",
-    "transcription": "/ˈvɪt.ə.mɪn/",
-    "emoji": "🍊",
+    "transcription": "/\u02c8v\u026at.\u0259.m\u026an/",
+    "emoji": "\ud83c\udf4a",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈvaɪ.t̬ə.mɪn/"
+      "us": "/\u02c8va\u026a.t\u032c\u0259.m\u026an/"
     }
   },
   {
@@ -1165,7 +1186,7 @@
     "examples": [
       "He finished a hard gym workout today."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1173,13 +1194,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "workouts",
-    "transcription": "/ˈwɜːk.aʊt/",
-    "emoji": "🏋️",
+    "transcription": "/\u02c8w\u025c\u02d0k.a\u028at/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈwɝːk.aʊt/"
-    }
+      "us": "/\u02c8w\u025d\u02d0k.a\u028at/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:muscle:noun",
@@ -1201,8 +1223,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "muscles",
-    "transcription": "/ˈmʌs.əl/",
-    "emoji": "💪",
+    "transcription": "/\u02c8m\u028cs.\u0259l/",
+    "emoji": "\ud83d\udcaa",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1226,8 +1248,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "joints",
-    "transcription": "/dʒɔɪnt/",
-    "emoji": "🦴",
+    "transcription": "/d\u0292\u0254\u026ant/",
+    "emoji": "\ud83e\uddb4",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1251,8 +1273,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "immune systems",
-    "transcription": "/ɪˈmjuːn ˌsɪs.təm/",
-    "emoji": "🛡️",
+    "transcription": "/\u026a\u02c8mju\u02d0n \u02ccs\u026as.t\u0259m/",
+    "emoji": "\ud83d\udee1\ufe0f",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1268,17 +1290,18 @@
     "examples": [
       "My sister is six months pregnant now."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "health",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈpreɡ.nənt/",
-    "emoji": "🤰",
+    "transcription": "/\u02c8pre\u0261.n\u0259nt/",
+    "emoji": "\ud83e\udd30",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:bandage:noun",
@@ -1292,14 +1315,15 @@
     "examples": [
       "The nurse wrapped a clean bandage around his arm."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈbæn.dɪdʒ/",
-    "emoji": "🩹",
+    "transcription": "/\u02c8b\u00e6n.d\u026ad\u0292/",
+    "emoji": "\ud83e\ude79",
     "countability": "countable",
     "plural_form": "bandages",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:bleed:verb",
@@ -1313,12 +1337,13 @@
     "examples": [
       "Clean the cut carefully if it begins to bleed."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/bliːd/",
-    "emoji": "🩸",
-    "no_antonym": true
+    "transcription": "/bli\u02d0d/",
+    "emoji": "\ud83e\ude78",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:breathe:verb",
@@ -1332,12 +1357,13 @@
     "examples": [
       "Breathe deeply to remain calm during the exercise."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/briːð/",
-    "emoji": "🫁",
-    "no_antonym": true
+    "transcription": "/bri\u02d0\u00f0/",
+    "emoji": "\ud83e\udec1",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:dizzy:adjective",
@@ -1354,8 +1380,8 @@
     "domain": "general, spoken, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈdɪz.i/",
-    "emoji": "💫",
+    "transcription": "/\u02c8d\u026az.i/",
+    "emoji": "\ud83d\udcab",
     "antonyms": [
       "steady"
     ]
@@ -1375,8 +1401,8 @@
     "domain": "general, spoken, relocation, professional",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ɪɡˈzæm.ɪn/",
-    "emoji": "🩺",
+    "transcription": "/\u026a\u0261\u02c8z\u00e6m.\u026an/",
+    "emoji": "\ud83e\ude7a",
     "no_antonym": true,
     "levels": [
       "A2",
@@ -1395,14 +1421,15 @@
     "examples": [
       "Be careful not to injure yourself while lifting."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈɪn.dʒər/",
-    "emoji": "🩹",
+    "transcription": "/\u02c8\u026an.d\u0292\u0259r/",
+    "emoji": "\ud83e\ude79",
     "antonyms": [
       "heal"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:plaster:noun",
@@ -1419,8 +1446,8 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈplɑː.stər/",
-    "emoji": "🩹",
+    "transcription": "/\u02c8pl\u0251\u02d0.st\u0259r/",
+    "emoji": "\ud83e\ude79",
     "countability": "countable",
     "plural_form": "plasters",
     "no_antonym": true
@@ -1437,15 +1464,16 @@
     "examples": [
       "Washing hands helps prevent the spread of germs."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/prɪˈvent/",
-    "emoji": "🛡️",
+    "transcription": "/pr\u026a\u02c8vent/",
+    "emoji": "\ud83d\udee1\ufe0f",
     "antonyms": [
       "cause",
       "allow"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:sneeze:verb",
@@ -1462,8 +1490,8 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/sniːz/",
-    "emoji": "🤧",
+    "transcription": "/sni\u02d0z/",
+    "emoji": "\ud83e\udd27",
     "no_antonym": true
   },
   {
@@ -1481,8 +1509,8 @@
     "domain": "general, spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/sɔːr θrəʊt/",
-    "emoji": "🗣️",
+    "transcription": "/s\u0254\u02d0r \u03b8r\u0259\u028at/",
+    "emoji": "\ud83d\udde3\ufe0f",
     "countability": "countable",
     "plural_form": "sore throats",
     "no_antonym": true
@@ -1503,7 +1531,7 @@
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/swel/",
-    "emoji": "🟣",
+    "emoji": "\ud83d\udfe3",
     "antonyms": [
       "shrink"
     ]
@@ -1523,8 +1551,8 @@
     "domain": "spoken",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/twɪst ən ˈæŋ.kəl/",
-    "emoji": "🦶",
+    "transcription": "/tw\u026ast \u0259n \u02c8\u00e6\u014b.k\u0259l/",
+    "emoji": "\ud83e\uddb6",
     "no_antonym": true
   },
   {
@@ -1539,14 +1567,15 @@
     "examples": [
       "He felt unfit after missing gym sessions."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ʌnˈfɪt/",
-    "emoji": "🛋️",
+    "transcription": "/\u028cn\u02c8f\u026at/",
+    "emoji": "\ud83d\udecb\ufe0f",
     "antonyms": [
       "fit"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:clinic:noun",
@@ -1560,17 +1589,18 @@
     "examples": [
       "She booked a health checkup at the local clinic."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈklɪn.ɪk/",
+    "transcription": "/\u02c8kl\u026an.\u026ak/",
     "transcription_variants": {
-      "us": "/ˈklɪn.ɪk/"
+      "us": "/\u02c8kl\u026an.\u026ak/"
     },
-    "emoji": "🏥",
+    "emoji": "\ud83c\udfe5",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "clinics"
+    "plural_form": "clinics",
+    "sub_theme": "general"
   },
   {
     "id": "en:emergency-room:noun",
@@ -1587,11 +1617,11 @@
     "domain": "relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ɪˈmɜː.dʒən.si ruːm/",
+    "transcription": "/\u026a\u02c8m\u025c\u02d0.d\u0292\u0259n.si ru\u02d0m/",
     "transcription_variants": {
-      "us": "/ɪˈmɝː.dʒən.si ruːm/"
+      "us": "/\u026a\u02c8m\u025d\u02d0.d\u0292\u0259n.si ru\u02d0m/"
     },
-    "emoji": "🏥",
+    "emoji": "\ud83c\udfe5",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "emergency rooms"
@@ -1611,11 +1641,11 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌfɜːst ˈeɪd/",
+    "transcription": "/\u02ccf\u025c\u02d0st \u02c8e\u026ad/",
     "transcription_variants": {
-      "us": "/ˌfɝːst ˈeɪd/"
+      "us": "/\u02ccf\u025d\u02d0st \u02c8e\u026ad/"
     },
-    "emoji": "🩹",
+    "emoji": "\ud83e\ude79",
     "no_antonym": true,
     "countability": "uncountable"
   },
@@ -1634,11 +1664,11 @@
     "domain": "general, relocation",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈhɪə.rɪŋ eɪd/",
+    "transcription": "/\u02c8h\u026a\u0259.r\u026a\u014b e\u026ad/",
     "transcription_variants": {
-      "us": "/ˈhɪr.ɪŋ eɪd/"
+      "us": "/\u02c8h\u026ar.\u026a\u014b e\u026ad/"
     },
-    "emoji": "🦻",
+    "emoji": "\ud83e\uddbb",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "hearing aids"
@@ -1662,7 +1692,7 @@
       "A2"
     ],
     "transcription": "/spred/",
-    "emoji": "🌊",
+    "emoji": "\ud83c\udf0a",
     "no_antonym": true
   },
   {
@@ -1677,18 +1707,19 @@
     "examples": [
       "Many people suffer from allergies during spring."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
-    "transcription": "/ˈsʌf.ər/",
+    "transcription": "/\u02c8s\u028cf.\u0259r/",
     "transcription_variants": {
-      "us": "/ˈsʌf.ɚ/"
+      "us": "/\u02c8s\u028cf.\u025a/"
     },
-    "emoji": "😣",
-    "no_antonym": true
+    "emoji": "\ud83d\ude23",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:treat:verb",
@@ -1708,8 +1739,8 @@
     "levels": [
       "A2"
     ],
-    "transcription": "/triːt/",
-    "emoji": "🩺",
+    "transcription": "/tri\u02d0t/",
+    "emoji": "\ud83e\ude7a",
     "no_antonym": true
   },
   {
@@ -1728,11 +1759,11 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈsʌn.bɜːn/",
+    "transcription": "/\u02c8s\u028cn.b\u025c\u02d0n/",
     "transcription_variants": {
-      "us": "/ˈsʌn.bɝːn/"
+      "us": "/\u02c8s\u028cn.b\u025d\u02d0n/"
     },
-    "emoji": "☀️",
+    "emoji": "\u2600\ufe0f",
     "no_antonym": true
   },
   {
@@ -1750,8 +1781,8 @@
     "examples": [
       "Apply sunscreen with a sun protection factor of at least thirty."
     ],
-    "transcription": "/sʌn prəˈtek.ʃən ˈfæk.tər/",
-    "emoji": "🧴",
+    "transcription": "/s\u028cn pr\u0259\u02c8tek.\u0283\u0259n \u02c8f\u00e6k.t\u0259r/",
+    "emoji": "\ud83e\uddf4",
     "countability": "countable",
     "plural_form": "sun protection factors",
     "synonyms": [
@@ -1779,8 +1810,8 @@
     "examples": [
       "Please list an emergency contact on your excursion registration form."
     ],
-    "transcription": "/ɪˈmɜː.dʒən.si ˈkɒn.tækt/",
-    "emoji": "📞",
+    "transcription": "/\u026a\u02c8m\u025c\u02d0.d\u0292\u0259n.si \u02c8k\u0252n.t\u00e6kt/",
+    "emoji": "\ud83d\udcde",
     "countability": "countable",
     "plural_form": "emergency contacts",
     "synonyms": [
@@ -1808,8 +1839,8 @@
     "examples": [
       "Carrying a food allergy card helped her dine safely in foreign restaurants."
     ],
-    "transcription": "/fuːd ˈæl.ə.dʒi kɑːd/",
-    "emoji": "📋",
+    "transcription": "/fu\u02d0d \u02c8\u00e6l.\u0259.d\u0292i k\u0251\u02d0d/",
+    "emoji": "\ud83d\udccb",
     "countability": "countable",
     "plural_form": "food allergy cards",
     "synonyms": [
@@ -1837,8 +1868,8 @@
     "examples": [
       "Wearing a medical alert bracelet informs paramedics of severe penicillin allergies."
     ],
-    "transcription": "/ˈmed.ɪ.kəl əˈlɜːt ˈbreɪs.lət/",
-    "emoji": "🏷️",
+    "transcription": "/\u02c8med.\u026a.k\u0259l \u0259\u02c8l\u025c\u02d0t \u02c8bre\u026as.l\u0259t/",
+    "emoji": "\ud83c\udff7\ufe0f",
     "countability": "countable",
     "plural_form": "medical alert bracelets",
     "synonyms": [
@@ -1866,8 +1897,8 @@
     "examples": [
       "Keep a translated medication list in your travel wallet during international trips."
     ],
-    "transcription": "/ˌmed.ɪˈkeɪ.ʃən lɪst/",
-    "emoji": "📋",
+    "transcription": "/\u02ccmed.\u026a\u02c8ke\u026a.\u0283\u0259n l\u026ast/",
+    "emoji": "\ud83d\udccb",
     "countability": "countable",
     "plural_form": "medication lists",
     "synonyms": [
@@ -1895,8 +1926,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈfuːd ˌpɔɪ.zən.ɪŋ/",
-    "emoji": "🤢",
+    "transcription": "/\u02c8fu\u02d0d \u02ccp\u0254\u026a.z\u0259n.\u026a\u014b/",
+    "emoji": "\ud83e\udd22",
     "no_antonym": true,
     "countability": "uncountable"
   },
@@ -1915,8 +1946,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/nʌt ˈæl.ə.dʒi/",
-    "emoji": "🥜",
+    "transcription": "/n\u028ct \u02c8\u00e6l.\u0259.d\u0292i/",
+    "emoji": "\ud83e\udd5c",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "nut allergies"
@@ -1936,8 +1967,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˌfɜːst ˈeɪd kɪt/",
-    "emoji": "🩹",
+    "transcription": "/\u02ccf\u025c\u02d0st \u02c8e\u026ad k\u026at/",
+    "emoji": "\ud83e\ude79",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "first-aid kits"
@@ -1957,8 +1988,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈɪn.sekt baɪt/",
-    "emoji": "🦟",
+    "transcription": "/\u02c8\u026an.sekt ba\u026at/",
+    "emoji": "\ud83e\udd9f",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "insect bites"
@@ -1978,8 +2009,8 @@
     "domain": "general, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈsiːˌsɪk/",
-    "emoji": "🤢",
+    "transcription": "/\u02c8si\u02d0\u02ccs\u026ak/",
+    "emoji": "\ud83e\udd22",
     "no_antonym": true
   },
   {
@@ -1997,8 +2028,8 @@
     "domain": "general, relocation, travel",
     "theme": "health",
     "updated": "2025-01-15",
-    "transcription": "/ˈmɪs.ɪŋ ˈpɜː.sən/",
-    "emoji": "🔍",
+    "transcription": "/\u02c8m\u026as.\u026a\u014b \u02c8p\u025c\u02d0.s\u0259n/",
+    "emoji": "\ud83d\udd0d",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "missing persons"

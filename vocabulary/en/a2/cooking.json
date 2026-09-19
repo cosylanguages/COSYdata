@@ -11,17 +11,18 @@
     "examples": [
       "Here is a useful tip for cooking rice."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "tips",
     "tags": [
       "spoken"
     ],
-    "transcription": "/tɪp/",
-    "emoji": "💵",
+    "transcription": "/t\u026ap/",
+    "emoji": "\ud83d\udcb5",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:portion:noun",
@@ -46,12 +47,12 @@
       "A2",
       "B1"
     ],
-    "transcription": "/ˈpɔː.ʃən/",
-    "emoji": "🍱",
+    "transcription": "/\u02c8p\u0254\u02d0.\u0283\u0259n/",
+    "emoji": "\ud83c\udf71",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈpɔːr.ʃən/"
+      "us": "/\u02c8p\u0254\u02d0r.\u0283\u0259n/"
     }
   },
   {
@@ -72,12 +73,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/əˈlɜː.dʒɪk/",
-    "emoji": "🤧",
+    "transcription": "/\u0259\u02c8l\u025c\u02d0.d\u0292\u026ak/",
+    "emoji": "\ud83e\udd27",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/əˈlɝː.dʒɪk/"
+      "us": "/\u0259\u02c8l\u025d\u02d0.d\u0292\u026ak/"
     }
   },
   {
@@ -92,17 +93,18 @@
     "examples": [
       "Flour is a main ingredient in bread."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "ingredients",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ɪnˈɡriː.di.ənt/",
-    "emoji": "🥕",
+    "transcription": "/\u026an\u02c8\u0261ri\u02d0.di.\u0259nt/",
+    "emoji": "\ud83e\udd55",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:fresh:adjective",
@@ -116,18 +118,19 @@
     "examples": [
       "We bought fresh strawberries at the market."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/freʃ/",
-    "emoji": "🌿",
+    "transcription": "/fre\u0283/",
+    "emoji": "\ud83c\udf3f",
     "antonyms": [
       "stale",
       "frozen"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:frozen:adjective",
@@ -141,20 +144,21 @@
     "examples": [
       "Store the frozen vegetables in the freezer."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈfrəʊ.zən/",
-    "emoji": "🧊",
+    "transcription": "/\u02c8fr\u0259\u028a.z\u0259n/",
+    "emoji": "\ud83e\uddca",
     "antonyms": [
       "fresh"
     ],
     "transcription_variants": {
-      "us": "/ˈfroʊ.zən/"
-    }
+      "us": "/\u02c8fro\u028a.z\u0259n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:tinned:adjective",
@@ -171,8 +175,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/tɪnd/",
-    "emoji": "🥫",
+    "transcription": "/t\u026and/",
+    "emoji": "\ud83e\udd6b",
     "antonyms": [
       "fresh"
     ]
@@ -192,8 +196,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/kænd/",
-    "emoji": "🥫",
+    "transcription": "/k\u00e6nd/",
+    "emoji": "\ud83e\udd6b",
     "antonyms": [
       "fresh"
     ]
@@ -210,12 +214,13 @@
     "examples": [
       "Let us grill some chicken in the garden."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ɡrɪl/",
-    "emoji": "🥩",
-    "no_antonym": true
+    "transcription": "/\u0261r\u026al/",
+    "emoji": "\ud83e\udd69",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:steam:verb",
@@ -232,8 +237,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/stiːm/",
-    "emoji": "💨",
+    "transcription": "/sti\u02d0m/",
+    "emoji": "\ud83d\udca8",
     "no_antonym": true
   },
   {
@@ -248,12 +253,13 @@
     "examples": [
       "Please slice the bread into thin pieces."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/slaɪs/",
-    "emoji": "🍕",
-    "no_antonym": true
+    "transcription": "/sla\u026as/",
+    "emoji": "\ud83c\udf55",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:chop:verb",
@@ -270,11 +276,11 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/tʃɒp/",
-    "emoji": "🔪",
+    "transcription": "/t\u0283\u0252p/",
+    "emoji": "\ud83d\udd2a",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tʃɑːp/"
+      "us": "/t\u0283\u0251\u02d0p/"
     }
   },
   {
@@ -289,12 +295,13 @@
     "examples": [
       "Peel the potatoes before boiling them."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/piːl/",
-    "emoji": "🍌",
-    "no_antonym": true
+    "transcription": "/pi\u02d0l/",
+    "emoji": "\ud83c\udf4c",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:flavour:noun",
@@ -308,20 +315,21 @@
     "examples": [
       "Vanilla adds a delicious flavour to cake."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "flavours",
-    "transcription": "/ˈfleɪ.vər/",
-    "emoji": "👅",
+    "transcription": "/\u02c8fle\u026a.v\u0259r/",
+    "emoji": "\ud83d\udc45",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfleɪ.vɚ/"
+      "us": "/\u02c8fle\u026a.v\u025a/"
     },
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:flavor:noun",
@@ -342,12 +350,12 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈfleɪ.vər/",
-    "emoji": "👅",
+    "transcription": "/\u02c8fle\u026a.v\u0259r/",
+    "emoji": "\ud83d\udc45",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfleɪ.vɚ/"
+      "us": "/\u02c8fle\u026a.v\u025a/"
     }
   },
   {
@@ -362,20 +370,21 @@
     "examples": [
       "She has been a vegetarian for five years."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "vegetarians",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˌvedʒ.ɪˈteə.ri.ən/",
-    "emoji": "🥗",
+    "transcription": "/\u02ccved\u0292.\u026a\u02c8te\u0259.ri.\u0259n/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌvedʒ.əˈter.i.ən/"
-    }
+      "us": "/\u02ccved\u0292.\u0259\u02c8ter.i.\u0259n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:vegan:noun",
@@ -396,8 +405,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈviː.ɡən/",
-    "emoji": "🌱",
+    "transcription": "/\u02c8vi\u02d0.\u0261\u0259n/",
+    "emoji": "\ud83c\udf31",
     "countability": "countable",
     "no_antonym": true
   },
@@ -420,12 +429,12 @@
       "spoken"
     ],
     "countability": "pluralia_tantum",
-    "transcription": "/ˈleftˌəʊ.vəz/",
-    "emoji": "🍱",
+    "transcription": "/\u02c8left\u02cc\u0259\u028a.v\u0259z/",
+    "emoji": "\ud83c\udf71",
     "singular_workaround": "a leftover",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈleftˌoʊ.vɚz/"
+      "us": "/\u02c8left\u02cco\u028a.v\u025az/"
     }
   },
   {
@@ -440,15 +449,15 @@
     "examples": [
       "Let us order a Chinese takeaway tonight."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "takeaways",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈteɪk.ə.weɪ/",
-    "emoji": "🥡",
+    "transcription": "/\u02c8te\u026ak.\u0259.we\u026a/",
+    "emoji": "\ud83e\udd61",
     "countability": "countable",
     "no_antonym": true,
     "region": [
@@ -456,7 +465,8 @@
     ],
     "regional_equivalents": [
       "en:takeout:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:takeout:noun",
@@ -476,8 +486,8 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈteɪk.aʊt/",
-    "emoji": "🥡",
+    "transcription": "/\u02c8te\u026ak.a\u028at/",
+    "emoji": "\ud83e\udd61",
     "countability": "uncountable",
     "no_antonym": true,
     "region": [
@@ -506,14 +516,14 @@
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈstɑː.tər/",
-    "emoji": "🥗",
+    "transcription": "/\u02c8st\u0251\u02d0.t\u0259r/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
     "antonyms": [
       "dessert"
     ],
     "transcription_variants": {
-      "us": "/ˈstɑːr.t̬ɚ/"
+      "us": "/\u02c8st\u0251\u02d0r.t\u032c\u025a/"
     },
     "region": [
       "UK"
@@ -534,14 +544,15 @@
     "examples": [
       "Steak was the main course at dinner."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "mains",
-    "transcription": "/meɪn/",
-    "emoji": "🥩",
+    "transcription": "/me\u026an/",
+    "emoji": "\ud83e\udd69",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:dessert:noun",
@@ -555,25 +566,26 @@
     "examples": [
       "We had chocolate cake for dessert."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "desserts",
     "tags": [
       "spoken"
     ],
-    "transcription": "/dɪˈzɜːt/",
-    "emoji": "🍰",
+    "transcription": "/d\u026a\u02c8z\u025c\u02d0t/",
+    "emoji": "\ud83c\udf70",
     "countability": "countable",
     "antonyms": [
       "starter"
     ],
     "transcription_variants": {
-      "us": "/dɪˈzɝːt/"
+      "us": "/d\u026a\u02c8z\u025d\u02d0t/"
     },
     "region": [
       "US"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:charge:noun",
@@ -587,19 +599,19 @@
     "examples": [
       "There is no extra charge for delivery."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "charges",
     "tags": [
       "spoken"
     ],
-    "transcription": "/tʃɑːdʒ/",
-    "emoji": "💵",
+    "transcription": "/t\u0283\u0251\u02d0d\u0292/",
+    "emoji": "\ud83d\udcb5",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tʃɑːrdʒ/"
+      "us": "/t\u0283\u0251\u02d0rd\u0292/"
     },
     "sub_theme": "it-specialists"
   },
@@ -619,8 +631,8 @@
     "theme": "food",
     "updated": "2025-01-15",
     "plural_form": "aisles",
-    "transcription": "/aɪl/",
-    "emoji": "🛒",
+    "transcription": "/a\u026al/",
+    "emoji": "\ud83d\uded2",
     "countability": "countable",
     "no_antonym": true
   },
@@ -644,12 +656,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "servings",
-    "transcription": "/ˈsɜː.vɪŋ/",
-    "emoji": "🍽️",
+    "transcription": "/\u02c8s\u025c\u02d0.v\u026a\u014b/",
+    "emoji": "\ud83c\udf7d\ufe0f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈsɝː.vɪŋ/"
+      "us": "/\u02c8s\u025d\u02d0.v\u026a\u014b/"
     }
   },
   {
@@ -671,8 +683,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/blænd/",
-    "emoji": "😐",
+    "transcription": "/bl\u00e6nd/",
+    "emoji": "\ud83d\ude10",
     "countability": "uncountable",
     "antonyms": [
       "tasty",
@@ -691,22 +703,23 @@
     "examples": [
       "Wash the raw vegetables before preparing salad."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "food",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/rɔː/",
-    "emoji": "🥩",
+    "transcription": "/r\u0254\u02d0/",
+    "emoji": "\ud83e\udd69",
     "countability": "uncountable",
     "antonyms": [
       "cooked"
     ],
     "transcription_variants": {
-      "us": "/rɑː/"
-    }
+      "us": "/r\u0251\u02d0/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:boiled:noun",
@@ -720,19 +733,20 @@
     "examples": [
       "I ate boiled eggs for breakfast today."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "food",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/bɔɪld/",
-    "emoji": "🥚",
+    "transcription": "/b\u0254\u026ald/",
+    "emoji": "\ud83e\udd5a",
     "countability": "uncountable",
     "antonyms": [
       "raw"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:fried:noun",
@@ -746,19 +760,20 @@
     "examples": [
       "We ordered fried fish and chips."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "food",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/fraɪd/",
-    "emoji": "🍳",
+    "transcription": "/fra\u026ad/",
+    "emoji": "\ud83c\udf73",
     "countability": "uncountable",
     "antonyms": [
       "raw"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:grilled:noun",
@@ -772,19 +787,20 @@
     "examples": [
       "He likes grilled chicken with salad."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "food",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡrɪld/",
-    "emoji": "🥩",
+    "transcription": "/\u0261r\u026ald/",
+    "emoji": "\ud83e\udd69",
     "countability": "uncountable",
     "antonyms": [
       "raw"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:roasted:noun",
@@ -805,14 +821,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈrəʊ.stɪd/",
-    "emoji": "🍗",
+    "transcription": "/\u02c8r\u0259\u028a.st\u026ad/",
+    "emoji": "\ud83c\udf57",
     "countability": "uncountable",
     "antonyms": [
       "raw"
     ],
     "transcription_variants": {
-      "us": "/ˈroʊ.stɪd/"
+      "us": "/\u02c8ro\u028a.st\u026ad/"
     }
   },
   {
@@ -834,8 +850,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/beɪkt/",
-    "emoji": "🥖",
+    "transcription": "/be\u026akt/",
+    "emoji": "\ud83e\udd56",
     "countability": "uncountable",
     "antonyms": [
       "raw"
@@ -860,8 +876,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/stiːmd/",
-    "emoji": "💨",
+    "transcription": "/sti\u02d0md/",
+    "emoji": "\ud83d\udca8",
     "countability": "uncountable",
     "antonyms": [
       "raw"
@@ -886,12 +902,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/tʃɒpt/",
-    "emoji": "🔪",
+    "transcription": "/t\u0283\u0252pt/",
+    "emoji": "\ud83d\udd2a",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/tʃɑːpt/"
+      "us": "/t\u0283\u0251\u02d0pt/"
     }
   },
   {
@@ -913,8 +929,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/slaɪst/",
-    "emoji": "🍕",
+    "transcription": "/sla\u026ast/",
+    "emoji": "\ud83c\udf55",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -937,8 +953,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/mɪkst/",
-    "emoji": "🥣",
+    "transcription": "/m\u026akst/",
+    "emoji": "\ud83e\udd63",
     "countability": "uncountable",
     "antonyms": [
       "separate"
@@ -965,8 +981,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "seasonings",
-    "transcription": "/ˈsiː.zən.ɪŋ/",
-    "emoji": "🧂",
+    "transcription": "/\u02c8si\u02d0.z\u0259n.\u026a\u014b/",
+    "emoji": "\ud83e\uddc2",
     "countability": "countable",
     "no_antonym": true
   },
@@ -982,7 +998,7 @@
     "examples": [
       "Basil is a popular fresh cooking herb."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "food",
     "tags": [
       "spoken",
@@ -990,13 +1006,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "herbs",
-    "transcription": "/hɜːb/",
-    "emoji": "🌿",
+    "transcription": "/h\u025c\u02d0b/",
+    "emoji": "\ud83c\udf3f",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ɝːb/"
-    }
+      "us": "/\u025d\u02d0b/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:spice:noun",
@@ -1010,7 +1027,7 @@
     "examples": [
       "Cinnamon is a sweet fragrant spice."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "food",
     "tags": [
       "spoken",
@@ -1018,10 +1035,11 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "spices",
-    "transcription": "/spaɪs/",
-    "emoji": "🌶️",
+    "transcription": "/spa\u026as/",
+    "emoji": "\ud83c\udf36\ufe0f",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:vinegar:noun",
@@ -1042,12 +1060,12 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈvɪn.ɪ.ɡər/",
-    "emoji": "🍾",
+    "transcription": "/\u02c8v\u026an.\u026a.\u0261\u0259r/",
+    "emoji": "\ud83c\udf7e",
     "countability": "uncountable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈvɪn.ə.ɡɚ/"
+      "us": "/\u02c8v\u026an.\u0259.\u0261\u025a/"
     }
   },
   {
@@ -1062,7 +1080,7 @@
     "examples": [
       "She poured tomato sauce over the pasta."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "food",
     "tags": [
       "spoken",
@@ -1070,13 +1088,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "sauces",
-    "transcription": "/sɔːs/",
-    "emoji": "🥫",
+    "transcription": "/s\u0254\u02d0s/",
+    "emoji": "\ud83e\udd6b",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/sɑːs/"
-    }
+      "us": "/s\u0251\u02d0s/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:dressing:noun",
@@ -1098,8 +1117,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "dressings",
-    "transcription": "/ˈdres.ɪŋ/",
-    "emoji": "🥗",
+    "transcription": "/\u02c8dres.\u026a\u014b/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1123,14 +1142,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "appetizers",
-    "transcription": "/ˈæp.ə.taɪ.zər/",
-    "emoji": "🥗",
+    "transcription": "/\u02c8\u00e6p.\u0259.ta\u026a.z\u0259r/",
+    "emoji": "\ud83e\udd57",
     "countability": "countable",
     "antonyms": [
       "dessert"
     ],
     "transcription_variants": {
-      "us": "/ˈæp.ə.taɪ.zɚ/"
+      "us": "/\u02c8\u00e6p.\u0259.ta\u026a.z\u025a/"
     },
     "region": [
       "US"
@@ -1151,7 +1170,7 @@
     "examples": [
       "Roast beef was the main course."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "food",
     "tags": [
       "spoken",
@@ -1159,16 +1178,17 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "main courses",
-    "transcription": "/ˌmeɪn ˈkɔːs/",
-    "emoji": "🥩",
+    "transcription": "/\u02ccme\u026an \u02c8k\u0254\u02d0s/",
+    "emoji": "\ud83e\udd69",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˌmeɪn ˈkɔːrs/"
+      "us": "/\u02ccme\u026an \u02c8k\u0254\u02d0rs/"
     },
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:side-dish:noun",
@@ -1190,8 +1210,8 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "side dishes",
-    "transcription": "/ˈsaɪd dɪʃ/",
-    "emoji": "🍟",
+    "transcription": "/\u02c8sa\u026ad d\u026a\u0283/",
+    "emoji": "\ud83c\udf5f",
     "countability": "countable",
     "no_antonym": true
   },
@@ -1215,12 +1235,12 @@
     ],
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
-    "transcription": "/ˈkæl.ər.iz/",
-    "emoji": "⚡",
+    "transcription": "/\u02c8k\u00e6l.\u0259r.iz/",
+    "emoji": "\u26a1",
     "singular_workaround": "a calorie",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈkæl.ɚ.iz/"
+      "us": "/\u02c8k\u00e6l.\u025a.iz/"
     }
   },
   {
@@ -1242,14 +1262,14 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌhel.θi ˈiː.tɪŋ/",
-    "emoji": "🥗",
+    "transcription": "/\u02cchel.\u03b8i \u02c8i\u02d0.t\u026a\u014b/",
+    "emoji": "\ud83e\udd57",
     "countability": "uncountable",
     "antonyms": [
       "unhealthy eating"
     ],
     "transcription_variants": {
-      "us": "/ˌhel.θi ˈiː.t̬ɪŋ/"
+      "us": "/\u02cchel.\u03b8i \u02c8i\u02d0.t\u032c\u026a\u014b/"
     }
   },
   {
@@ -1272,12 +1292,12 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "buffets",
-    "transcription": "/ˈbʊf.eɪ/",
-    "emoji": "🍱",
+    "transcription": "/\u02c8b\u028af.e\u026a/",
+    "emoji": "\ud83c\udf71",
     "countability": "countable",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/bəˈfeɪ/"
+      "us": "/b\u0259\u02c8fe\u026a/"
     }
   },
   {
@@ -1290,7 +1310,7 @@
       "A large amount of food served."
     ],
     "examples": [
-      "The café served a generous portion of pie."
+      "The caf\u00e9 served a generous portion of pie."
     ],
     "domain": "spoken",
     "theme": "food",
@@ -1300,14 +1320,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "generous portions",
-    "transcription": "/ˌdʒen.ər.əs ˈpɔː.ʃən/",
-    "emoji": "🍱",
+    "transcription": "/\u02ccd\u0292en.\u0259r.\u0259s \u02c8p\u0254\u02d0.\u0283\u0259n/",
+    "emoji": "\ud83c\udf71",
     "countability": "countable",
     "antonyms": [
       "small portion"
     ],
     "transcription_variants": {
-      "us": "/ˌdʒen.ər.əs ˈpɔːr.ʃən/"
+      "us": "/\u02ccd\u0292en.\u0259r.\u0259s \u02c8p\u0254\u02d0r.\u0283\u0259n/"
     }
   },
   {
@@ -1329,15 +1349,15 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˌhəʊmˈmeɪd/",
-    "emoji": "🏠",
+    "transcription": "/\u02cch\u0259\u028am\u02c8me\u026ad/",
+    "emoji": "\ud83c\udfe0",
     "countability": "uncountable",
     "antonyms": [
       "store-bought",
       "bought"
     ],
     "transcription_variants": {
-      "us": "/ˌhoʊmˈmeɪd/"
+      "us": "/\u02ccho\u028am\u02c8me\u026ad/"
     }
   },
   {
@@ -1352,15 +1372,16 @@
     "examples": [
       "Add a pinch of salt to the soup."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/æd/",
-    "emoji": "➕",
+    "transcription": "/\u00e6d/",
+    "emoji": "\u2795",
     "antonyms": [
       "subtract",
       "remove"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:baking:noun",
@@ -1377,8 +1398,8 @@
     "domain": "general, relocation",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˈbeɪ.kɪŋ/",
-    "emoji": "🥖",
+    "transcription": "/\u02c8be\u026a.k\u026a\u014b/",
+    "emoji": "\ud83e\udd56",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -1397,8 +1418,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˈdeə.ri/",
-    "emoji": "🥛",
+    "transcription": "/\u02c8de\u0259.ri/",
+    "emoji": "\ud83e\udd5b",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -1417,8 +1438,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˈɡluː.tən/",
-    "emoji": "🌾",
+    "transcription": "/\u02c8\u0261lu\u02d0.t\u0259n/",
+    "emoji": "\ud83c\udf3e",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -1437,8 +1458,8 @@
     "domain": "general, spoken",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˈleftˌəʊ.vər/",
-    "emoji": "🍱",
+    "transcription": "/\u02c8left\u02cc\u0259\u028a.v\u0259r/",
+    "emoji": "\ud83c\udf71",
     "countability": "countable",
     "plural_form": "leftovers",
     "no_antonym": true
@@ -1455,11 +1476,11 @@
     "examples": [
       "Pour the liquid carefully into the mixing bowl."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˈlɪk.wɪd/",
-    "emoji": "💧",
+    "transcription": "/\u02c8l\u026ak.w\u026ad/",
+    "emoji": "\ud83d\udca7",
     "countability": "countable",
     "plural_form": "liquids",
     "antonyms": [
@@ -1479,11 +1500,11 @@
     "examples": [
       "She helped her father prepare dinner."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/prɪˈpeər/",
-    "emoji": "🍳",
+    "transcription": "/pr\u026a\u02c8pe\u0259r/",
+    "emoji": "\ud83c\udf73",
     "no_antonym": true,
     "sub_theme": "academic-english"
   },
@@ -1502,8 +1523,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˌred.iˈmeɪd/",
-    "emoji": "🍲",
+    "transcription": "/\u02ccred.i\u02c8me\u026ad/",
+    "emoji": "\ud83c\udf72",
     "antonyms": [
       "homemade"
     ]
@@ -1523,8 +1544,8 @@
     "domain": "general",
     "theme": "food",
     "updated": "2025-01-15",
-    "transcription": "/ˈsiː.fuːd/",
-    "emoji": "🦐",
+    "transcription": "/\u02c8si\u02d0.fu\u02d0d/",
+    "emoji": "\ud83e\udd90",
     "countability": "uncountable",
     "no_antonym": true
   },
@@ -1545,11 +1566,11 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ˈkɒk.teɪl/",
+    "transcription": "/\u02c8k\u0252k.te\u026al/",
     "transcription_variants": {
-      "us": "/ˈkɑːk.teɪl/"
+      "us": "/\u02c8k\u0251\u02d0k.te\u026al/"
     },
-    "emoji": "🍸",
+    "emoji": "\ud83c\udf78",
     "no_antonym": true
   },
   {
@@ -1571,12 +1592,13 @@
     "examples": [
       "She ordered a veggie burger with a side of french fries."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ˌfrentʃ ˈfraɪz/",
-    "emoji": "🍟",
-    "no_antonym": true
+    "transcription": "/\u02ccfrent\u0283 \u02c8fra\u026az/",
+    "emoji": "\ud83c\udf5f",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:take-away:noun",
@@ -1598,12 +1620,13 @@
     "examples": [
       "We picked up an Indian take away to eat at our hotel."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ˈteɪk.ə.weɪ/",
-    "emoji": "🥡",
-    "no_antonym": true
+    "transcription": "/\u02c8te\u026ak.\u0259.we\u026a/",
+    "emoji": "\ud83e\udd61",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:seasonal-menu:noun",
@@ -1620,8 +1643,8 @@
     "examples": [
       "The bistro introduced a fresh seasonal menu showcasing spring vegetables."
     ],
-    "transcription": "/ˈsiː.zən.əl ˈmen.juː/",
-    "emoji": "📜",
+    "transcription": "/\u02c8si\u02d0.z\u0259n.\u0259l \u02c8men.ju\u02d0/",
+    "emoji": "\ud83d\udcdc",
     "countability": "countable",
     "plural_form": "seasonal menus",
     "synonyms": [
@@ -1649,8 +1672,8 @@
     "examples": [
       "Fresh basil was the chef's secret ingredient in the pasta sauce."
     ],
-    "transcription": "/ˈsiː.krət ɪnˈɡriː.di.ənt/",
-    "emoji": "🤫",
+    "transcription": "/\u02c8si\u02d0.kr\u0259t \u026an\u02c8\u0261ri\u02d0.di.\u0259nt/",
+    "emoji": "\ud83e\udd2b",
     "countability": "countable",
     "plural_form": "secret ingredients",
     "synonyms": [
@@ -1678,8 +1701,8 @@
     "examples": [
       "The countryside bistro is famous for its delicious farm-to-table menu."
     ],
-    "transcription": "/fɑːm tə ˈteɪ.bəl/",
-    "emoji": "🌾",
+    "transcription": "/f\u0251\u02d0m t\u0259 \u02c8te\u026a.b\u0259l/",
+    "emoji": "\ud83c\udf3e",
     "synonyms": [
       "locally sourced",
       "farm-fresh"
@@ -1705,8 +1728,8 @@
     "examples": [
       "The soup was prepared following a secret family homemade recipe."
     ],
-    "transcription": "/ˌhəʊmˈmeɪd ˈres.ə.pi/",
-    "emoji": "🍲",
+    "transcription": "/\u02cch\u0259\u028am\u02c8me\u026ad \u02c8res.\u0259.pi/",
+    "emoji": "\ud83c\udf72",
     "countability": "countable",
     "plural_form": "homemade recipes",
     "synonyms": [
@@ -1734,8 +1757,8 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/hɜːbz/",
-    "emoji": "🌿",
+    "transcription": "/h\u025c\u02d0bz/",
+    "emoji": "\ud83c\udf3f",
     "no_antonym": true,
     "countability": "pluralia_tantum"
   },
@@ -1754,8 +1777,8 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ɪnˈɡriː.di.ənts/",
-    "emoji": "🥕",
+    "transcription": "/\u026an\u02c8\u0261ri\u02d0.di.\u0259nts/",
+    "emoji": "\ud83e\udd55",
     "no_antonym": true,
     "countability": "pluralia_tantum"
   },
@@ -1774,8 +1797,8 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ˈləʊ.kəl ˈspeʃ.əl.ti/",
-    "emoji": "🍲",
+    "transcription": "/\u02c8l\u0259\u028a.k\u0259l \u02c8spe\u0283.\u0259l.ti/",
+    "emoji": "\ud83c\udf72",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "local specialties"
@@ -1795,8 +1818,8 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ˈpɔː.ʃən saɪz/",
-    "emoji": "🍽️",
+    "transcription": "/\u02c8p\u0254\u02d0.\u0283\u0259n sa\u026az/",
+    "emoji": "\ud83c\udf7d\ufe0f",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "portion sizes"
@@ -1816,8 +1839,8 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/ˈspaɪ.sɪz/",
-    "emoji": "🌶️",
+    "transcription": "/\u02c8spa\u026a.s\u026az/",
+    "emoji": "\ud83c\udf36\ufe0f",
     "no_antonym": true,
     "countability": "pluralia_tantum"
   },
@@ -1836,8 +1859,8 @@
     "domain": "general, travel",
     "theme": "cooking",
     "updated": "2025-01-15",
-    "transcription": "/trəˈdɪʃ.ən.əl dɪʃ/",
-    "emoji": "🍲",
+    "transcription": "/tr\u0259\u02c8d\u026a\u0283.\u0259n.\u0259l d\u026a\u0283/",
+    "emoji": "\ud83c\udf72",
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "traditional dishes"

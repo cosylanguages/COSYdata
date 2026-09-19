@@ -11,14 +11,15 @@
     "examples": [
       "He stepped out of the office briefly."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/aʊt/",
-    "emoji": "🚪",
+    "transcription": "/a\u028at/",
+    "emoji": "\ud83d\udeaa",
     "antonyms": [
       "in"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:set:verb",
@@ -32,12 +33,13 @@
     "examples": [
       "We set off early in the morning."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "actions",
     "updated": "2025-01-15",
     "transcription": "/set/",
-    "emoji": "⚙️",
-    "no_antonym": true
+    "emoji": "\u2699\ufe0f",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:forward:verb",
@@ -51,17 +53,18 @@
     "examples": [
       "Look forward to meeting you soon."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/ˈfɔː.wəd/",
-    "emoji": "⏩",
+    "transcription": "/\u02c8f\u0254\u02d0.w\u0259d/",
+    "emoji": "\u23e9",
     "antonyms": [
       "backward"
     ],
     "transcription_variants": {
-      "us": "/ˈfɔːr.wɚd/"
-    }
+      "us": "/\u02c8f\u0254\u02d0r.w\u025ad/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:figure:verb",
@@ -75,18 +78,19 @@
     "examples": [
       "I cannot figure out this difficult problem."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/ˈfɪɡ.ər/",
-    "emoji": "💡",
+    "transcription": "/\u02c8f\u026a\u0261.\u0259r/",
+    "emoji": "\ud83d\udca1",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfɪɡ.jɚ/"
-    }
+      "us": "/\u02c8f\u026a\u0261.j\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:going:verb",
@@ -103,11 +107,11 @@
     "domain": "general",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/ˈɡəʊ.ɪŋ/",
-    "emoji": "🏃",
+    "transcription": "/\u02c8\u0261\u0259\u028a.\u026a\u014b/",
+    "emoji": "\ud83c\udfc3",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈɡoʊ.ɪŋ/"
+      "us": "/\u02c8\u0261o\u028a.\u026a\u014b/"
     }
   },
   {
@@ -122,12 +126,13 @@
     "examples": [
       "I will pick you up at five."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/pɪk/",
-    "emoji": "📦",
-    "no_antonym": true
+    "transcription": "/p\u026ak/",
+    "emoji": "\ud83d\udce6",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:fill:verb",
@@ -141,14 +146,15 @@
     "examples": [
       "Please fill in your name right here."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/fɪl/",
-    "emoji": "🫗",
+    "transcription": "/f\u026al/",
+    "emoji": "\ud83e\uded7",
     "antonyms": [
       "empty"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:away:verb",
@@ -162,12 +168,13 @@
     "examples": [
       "Put away your books after class."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/əˈweɪ/",
-    "emoji": "🏃",
-    "no_antonym": true
+    "transcription": "/\u0259\u02c8we\u026a/",
+    "emoji": "\ud83c\udfc3",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:back:verb",
@@ -181,15 +188,16 @@
     "examples": [
       "He will get back home by six."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
-    "transcription": "/bæk/",
-    "emoji": "🔙",
-    "no_antonym": true
+    "transcription": "/b\u00e6k/",
+    "emoji": "\ud83d\udd19",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:get-on:verb",
@@ -203,21 +211,22 @@
     "examples": [
       "Get on the bus before doors close."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet ɒn/",
-    "emoji": "🚌",
+    "transcription": "/\u0261et \u0252n/",
+    "emoji": "\ud83d\ude8c",
     "antonyms": [
       "get off"
     ],
     "transcription_variants": {
-      "us": "/ɡet ɑːn/"
-    }
+      "us": "/\u0261et \u0251\u02d0n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:get-off:verb",
@@ -231,21 +240,22 @@
     "examples": [
       "We get off at the next station."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet ɒf/",
-    "emoji": "🚌",
+    "transcription": "/\u0261et \u0252f/",
+    "emoji": "\ud83d\ude8c",
     "antonyms": [
       "get on"
     ],
     "transcription_variants": {
-      "us": "/ɡet ɑːf/"
-    }
+      "us": "/\u0261et \u0251\u02d0f/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:get-in:verb",
@@ -259,18 +269,19 @@
     "examples": [
       "Get in the car and fasten seatbelt."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet ɪn/",
-    "emoji": "🚗",
+    "transcription": "/\u0261et \u026an/",
+    "emoji": "\ud83d\ude97",
     "antonyms": [
       "get out"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:get-out:verb",
@@ -291,8 +302,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet aʊt/",
-    "emoji": "🚪",
+    "transcription": "/\u0261et a\u028at/",
+    "emoji": "\ud83d\udeaa",
     "antonyms": [
       "get in"
     ]
@@ -309,16 +320,17 @@
     "examples": [
       "What time did you get back home?"
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet bæk/",
-    "emoji": "🔙",
-    "no_antonym": true
+    "transcription": "/\u0261et b\u00e6k/",
+    "emoji": "\ud83d\udd19",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:get-together:verb",
@@ -339,13 +351,13 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡet təˈɡeð.ər/",
-    "emoji": "👥",
+    "transcription": "/\u0261et t\u0259\u02c8\u0261e\u00f0.\u0259r/",
+    "emoji": "\ud83d\udc65",
     "antonyms": [
       "separate"
     ],
     "transcription_variants": {
-      "us": "/ɡet təˈɡeð.ɚ/"
+      "us": "/\u0261et t\u0259\u02c8\u0261e\u00f0.\u025a/"
     }
   },
   {
@@ -360,16 +372,17 @@
     "examples": [
       "I am looking for my lost keys."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/lʊk fɔːr/",
-    "emoji": "🔍",
-    "no_antonym": true
+    "transcription": "/l\u028ak f\u0254\u02d0r/",
+    "emoji": "\ud83d\udd0d",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:look-after:verb",
@@ -383,21 +396,22 @@
     "examples": [
       "She agreed to look after my cat."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/lʊk ˈɑːf.tər/",
-    "emoji": "👶",
+    "transcription": "/l\u028ak \u02c8\u0251\u02d0f.t\u0259r/",
+    "emoji": "\ud83d\udc76",
     "antonyms": [
       "neglect"
     ],
     "transcription_variants": {
-      "us": "/lʊk ˈæf.tɚ/"
-    }
+      "us": "/l\u028ak \u02c8\u00e6f.t\u025a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:look-forward-to:verb",
@@ -411,21 +425,22 @@
     "examples": [
       "We look forward to our summer holiday."
     ],
-    "domain": "spoken, travel, professional",
+    "domain": "spoken, travel, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/lʊk ˈfɔː.wəd tuː/",
-    "emoji": "🤩",
+    "transcription": "/l\u028ak \u02c8f\u0254\u02d0.w\u0259d tu\u02d0/",
+    "emoji": "\ud83e\udd29",
     "antonyms": [
       "dread"
     ],
     "transcription_variants": {
-      "us": "/lʊk ˈfɔːr.wɚd tuː/"
-    }
+      "us": "/l\u028ak \u02c8f\u0254\u02d0r.w\u025ad tu\u02d0/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:look-up:verb",
@@ -439,16 +454,17 @@
     "examples": [
       "Look up the new word in dictionary."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/lʊk ʌp/",
-    "emoji": "🔍",
-    "no_antonym": true
+    "transcription": "/l\u028ak \u028cp/",
+    "emoji": "\ud83d\udd0d",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:find-out:verb",
@@ -462,16 +478,17 @@
     "examples": [
       "I need to find out departure time."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/faɪnd aʊt/",
-    "emoji": "💡",
-    "no_antonym": true
+    "transcription": "/fa\u026and a\u028at/",
+    "emoji": "\ud83d\udca1",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:work-out:verb",
@@ -485,19 +502,20 @@
     "examples": [
       "He works out three times a week."
     ],
-    "domain": "spoken, travel, professional",
+    "domain": "spoken, travel, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/wɜːk aʊt/",
-    "emoji": "🏋️",
+    "transcription": "/w\u025c\u02d0k a\u028at/",
+    "emoji": "\ud83c\udfcb\ufe0f",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/wɝːk aʊt/"
-    }
+      "us": "/w\u025d\u02d0k a\u028at/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:figure-out:verb",
@@ -518,11 +536,11 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈfɪɡ.ər aʊt/",
-    "emoji": "💡",
+    "transcription": "/\u02c8f\u026a\u0261.\u0259r a\u028at/",
+    "emoji": "\ud83d\udca1",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ˈfɪɡ.jɚ aʊt/"
+      "us": "/\u02c8f\u026a\u0261.j\u025a a\u028at/"
     }
   },
   {
@@ -537,21 +555,22 @@
     "examples": [
       "Turn up the radio music, please."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/tɜːn ʌp/",
-    "emoji": "🔊",
+    "transcription": "/t\u025c\u02d0n \u028cp/",
+    "emoji": "\ud83d\udd0a",
     "antonyms": [
       "turn down"
     ],
     "transcription_variants": {
-      "us": "/tɝːn ʌp/"
-    }
+      "us": "/t\u025d\u02d0n \u028cp/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:turn-down:verb",
@@ -565,21 +584,22 @@
     "examples": [
       "Please turn down the loud TV sound."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/tɜːn daʊn/",
-    "emoji": "🔉",
+    "transcription": "/t\u025c\u02d0n da\u028an/",
+    "emoji": "\ud83d\udd09",
     "antonyms": [
       "turn up"
     ],
     "transcription_variants": {
-      "us": "/tɝːn daʊn/"
-    }
+      "us": "/t\u025d\u02d0n da\u028an/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:put-away:verb",
@@ -593,16 +613,17 @@
     "examples": [
       "Put away your toys after playing."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/pʊt əˈweɪ/",
-    "emoji": "📦",
-    "no_antonym": true
+    "transcription": "/p\u028at \u0259\u02c8we\u026a/",
+    "emoji": "\ud83d\udce6",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:pick-up:verb",
@@ -616,19 +637,20 @@
     "examples": [
       "Can you pick up milk on way home?"
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/pɪk ʌp/",
-    "emoji": "📦",
+    "transcription": "/p\u026ak \u028cp/",
+    "emoji": "\ud83d\udce6",
     "antonyms": [
       "drop off",
       "put down"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:drop-off:verb",
@@ -649,13 +671,13 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/drɒp ɒf/",
-    "emoji": "🚗",
+    "transcription": "/dr\u0252p \u0252f/",
+    "emoji": "\ud83d\ude97",
     "antonyms": [
       "pick up"
     ],
     "transcription_variants": {
-      "us": "/drɑːp ɑːf/"
+      "us": "/dr\u0251\u02d0p \u0251\u02d0f/"
     }
   },
   {
@@ -670,18 +692,19 @@
     "examples": [
       "Never give up on your dreams!"
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡɪv ʌp/",
-    "emoji": "🏳️",
+    "transcription": "/\u0261\u026av \u028cp/",
+    "emoji": "\ud83c\udff3\ufe0f",
     "antonyms": [
       "continue"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:go-on:verb",
@@ -695,21 +718,22 @@
     "examples": [
       "The party will go on until midnight."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡəʊ ɒn/",
-    "emoji": "➡️",
+    "transcription": "/\u0261\u0259\u028a \u0252n/",
+    "emoji": "\u27a1\ufe0f",
     "antonyms": [
       "stop"
     ],
     "transcription_variants": {
-      "us": "/ɡoʊ ɑːn/"
-    }
+      "us": "/\u0261o\u028a \u0251\u02d0n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:go-out:verb",
@@ -723,21 +747,22 @@
     "examples": [
       "We like to go out on weekends."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡəʊ aʊt/",
-    "emoji": "🚶",
+    "transcription": "/\u0261\u0259\u028a a\u028at/",
+    "emoji": "\ud83d\udeb6",
     "antonyms": [
       "stay in"
     ],
     "transcription_variants": {
-      "us": "/ɡoʊ aʊt/"
-    }
+      "us": "/\u0261o\u028a a\u028at/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:go-back:verb",
@@ -758,11 +783,11 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡəʊ bæk/",
-    "emoji": "🔙",
+    "transcription": "/\u0261\u0259\u028a b\u00e6k/",
+    "emoji": "\ud83d\udd19",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ɡoʊ bæk/"
+      "us": "/\u0261o\u028a b\u00e6k/"
     }
   },
   {
@@ -777,19 +802,20 @@
     "examples": [
       "Come on, or we will be late!"
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/kʌm ɒn/",
-    "emoji": "👏",
+    "transcription": "/k\u028cm \u0252n/",
+    "emoji": "\ud83d\udc4f",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/kʌm ɑːn/"
-    }
+      "us": "/k\u028cm \u0251\u02d0n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:run-out-of:verb",
@@ -810,11 +836,11 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/rʌn aʊt ɒv/",
-    "emoji": "🪫",
+    "transcription": "/r\u028cn a\u028at \u0252v/",
+    "emoji": "\ud83e\udeab",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/rʌn aʊt ɑːv/"
+      "us": "/r\u028cn a\u028at \u0251\u02d0v/"
     }
   },
   {
@@ -829,16 +855,17 @@
     "examples": [
       "Our car broke down on the highway."
     ],
-    "domain": "spoken, travel, professional",
+    "domain": "spoken, travel, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/breɪk daʊn/",
-    "emoji": "🛠️",
-    "no_antonym": true
+    "transcription": "/bre\u026ak da\u028an/",
+    "emoji": "\ud83d\udee0\ufe0f",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:break-up:verb",
@@ -852,18 +879,19 @@
     "examples": [
       "They decided to break up last week."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/breɪk ʌp/",
-    "emoji": "💔",
+    "transcription": "/bre\u026ak \u028cp/",
+    "emoji": "\ud83d\udc94",
     "antonyms": [
       "get together"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:carry-on:verb",
@@ -877,21 +905,22 @@
     "examples": [
       "Carry on working while I am away."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ˈkær.i ɒn/",
-    "emoji": "➡️",
+    "transcription": "/\u02c8k\u00e6r.i \u0252n/",
+    "emoji": "\u27a1\ufe0f",
     "antonyms": [
       "stop"
     ],
     "transcription_variants": {
-      "us": "/ˈkær.i ɑːn/"
-    }
+      "us": "/\u02c8k\u00e6r.i \u0251\u02d0n/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:hang-out:verb",
@@ -905,16 +934,17 @@
     "examples": [
       "Teens like to hang out at mall."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/hæŋ aʊt/",
-    "emoji": "☕",
-    "no_antonym": true
+    "transcription": "/h\u00e6\u014b a\u028at/",
+    "emoji": "\u2615",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:hang-up:verb",
@@ -928,19 +958,20 @@
     "examples": [
       "She said goodbye and hung up phone."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/hæŋ ʌp/",
-    "emoji": "📞",
+    "transcription": "/h\u00e6\u014b \u028cp/",
+    "emoji": "\ud83d\udcde",
     "antonyms": [
       "pick up",
       "answer"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:fill-out:verb",
@@ -961,8 +992,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/fɪl aʊt/",
-    "emoji": "📋",
+    "transcription": "/f\u026al a\u028at/",
+    "emoji": "\ud83d\udccb",
     "no_antonym": true
   },
   {
@@ -977,22 +1008,23 @@
     "examples": [
       "Do not throw away old glass bottles."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/θrəʊ əˈweɪ/",
-    "emoji": "🗑️",
+    "transcription": "/\u03b8r\u0259\u028a \u0259\u02c8we\u026a/",
+    "emoji": "\ud83d\uddd1\ufe0f",
     "antonyms": [
       "keep",
       "save"
     ],
     "transcription_variants": {
-      "us": "/θroʊ əˈweɪ/"
-    }
+      "us": "/\u03b8ro\u028a \u0259\u02c8we\u026a/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:clean-up:verb",
@@ -1013,8 +1045,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/kliːn ʌp/",
-    "emoji": "🧹",
+    "transcription": "/kli\u02d0n \u028cp/",
+    "emoji": "\ud83e\uddf9",
     "antonyms": [
       "mess up"
     ]
@@ -1031,19 +1063,20 @@
     "examples": [
       "He wants to grow up to be pilot."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ɡrəʊ ʌp/",
-    "emoji": "🌱",
+    "transcription": "/\u0261r\u0259\u028a \u028cp/",
+    "emoji": "\ud83c\udf31",
     "no_antonym": true,
     "transcription_variants": {
-      "us": "/ɡroʊ ʌp/"
-    }
+      "us": "/\u0261ro\u028a \u028cp/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:calm-down:verb",
@@ -1064,8 +1097,8 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/kɑːm daʊn/",
-    "emoji": "🧘",
+    "transcription": "/k\u0251\u02d0m da\u028an/",
+    "emoji": "\ud83e\uddd8",
     "antonyms": [
       "get angry"
     ]
@@ -1089,13 +1122,13 @@
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/sləʊ daʊn/",
-    "emoji": "🐢",
+    "transcription": "/sl\u0259\u028a da\u028an/",
+    "emoji": "\ud83d\udc22",
     "antonyms": [
       "speed up"
     ],
     "transcription_variants": {
-      "us": "/sloʊ daʊn/"
+      "us": "/slo\u028a da\u028an/"
     }
   },
   {
@@ -1110,22 +1143,23 @@
     "examples": [
       "He did not show up for meeting."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/ʃəʊ ʌp/",
-    "emoji": "🙋",
+    "transcription": "/\u0283\u0259\u028a \u028cp/",
+    "emoji": "\ud83d\ude4b",
     "antonyms": [
       "leave",
       "disappear"
     ],
     "transcription_variants": {
-      "us": "/ʃoʊ ʌp/"
-    }
+      "us": "/\u0283o\u028a \u028cp/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:end-up:verb",
@@ -1139,16 +1173,17 @@
     "examples": [
       "We lost our way and ended up here."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/end ʌp/",
-    "emoji": "🏁",
-    "no_antonym": true
+    "transcription": "/end \u028cp/",
+    "emoji": "\ud83c\udfc1",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:set-up:verb",
@@ -1162,16 +1197,17 @@
     "examples": [
       "She wants to set up new company."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "actions",
     "tags": [
       "spoken",
       "elementary"
     ],
     "updated": "2025-01-15",
-    "transcription": "/set ʌp/",
-    "emoji": "🛠️",
-    "no_antonym": true
+    "transcription": "/set \u028cp/",
+    "emoji": "\ud83d\udee0\ufe0f",
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:get-along:verb",
@@ -1185,14 +1221,15 @@
     "examples": [
       "The new roommates get along very well."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/ɡet əˈlɒŋ/",
-    "emoji": "🤝",
+    "transcription": "/\u0261et \u0259\u02c8l\u0252\u014b/",
+    "emoji": "\ud83e\udd1d",
     "antonyms": [
       "quarrel"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:get-on-with:verb",
@@ -1206,18 +1243,19 @@
     "examples": [
       "I get on with my colleagues at work."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/ɡet ɒn wɪð/",
-    "emoji": "🤝",
+    "transcription": "/\u0261et \u0252n w\u026a\u00f0/",
+    "emoji": "\ud83e\udd1d",
     "antonyms": [
       "clash with"
     ],
     "levels": [
       "A2",
       "B1"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:log-out:verb",
@@ -1234,8 +1272,8 @@
     "domain": "general, spoken",
     "theme": "actions",
     "updated": "2025-01-15",
-    "transcription": "/lɒɡ aʊt/",
-    "emoji": "🚪",
+    "transcription": "/l\u0252\u0261 a\u028at/",
+    "emoji": "\ud83d\udeaa",
     "antonyms": [
       "log in"
     ]
@@ -1255,11 +1293,11 @@
     "domain": "general, relocation",
     "theme": "phrasal_verbs",
     "updated": "2025-01-15",
-    "transcription": "/krʌʃ/",
+    "transcription": "/kr\u028c\u0283/",
     "transcription_variants": {
-      "us": "/krʌʃ/"
+      "us": "/kr\u028c\u0283/"
     },
-    "emoji": "💥",
+    "emoji": "\ud83d\udca5",
     "no_antonym": true
   },
   {
@@ -1277,8 +1315,8 @@
     "examples": [
       "After years of traveling, they decided to settle down in a quiet coastal town."
     ],
-    "transcription": "/ˈset.əl daʊn/",
-    "emoji": "🏠",
+    "transcription": "/\u02c8set.\u0259l da\u028an/",
+    "emoji": "\ud83c\udfe0",
     "synonyms": [
       "establish roots",
       "reside permanently"
@@ -1306,8 +1344,8 @@
     "examples": [
       "Heavy mountain snow forced the hikers to turn back to safety."
     ],
-    "transcription": "/tɜːn bæk/",
-    "emoji": "↩️",
+    "transcription": "/t\u025c\u02d0n b\u00e6k/",
+    "emoji": "\u21a9\ufe0f",
     "synonyms": [
       "retreat",
       "reverse course"
@@ -1335,8 +1373,8 @@
     "examples": [
       "Feel free to drop by our hotel lobby before dinner."
     ],
-    "transcription": "/drɒp baɪ/",
-    "emoji": "🚪",
+    "transcription": "/dr\u0252p ba\u026a/",
+    "emoji": "\ud83d\udeaa",
     "synonyms": [
       "pop in",
       "visit briefly"
@@ -1362,8 +1400,8 @@
     "examples": [
       "Give us twenty minutes in the hotel room to freshen up before dinner."
     ],
-    "transcription": "/ˈfreʃ.ən ʌp/",
-    "emoji": "🚿",
+    "transcription": "/\u02c8fre\u0283.\u0259n \u028cp/",
+    "emoji": "\ud83d\udebf",
     "synonyms": [
       "wash up",
       "tidy oneself"
@@ -1389,8 +1427,8 @@
     "examples": [
       "We decided to get away for the weekend to a quiet seaside cottage."
     ],
-    "transcription": "/ɡet əˈweɪ/",
-    "emoji": "🏖️",
+    "transcription": "/\u0261et \u0259\u02c8we\u026a/",
+    "emoji": "\ud83c\udfd6\ufe0f",
     "synonyms": [
       "take a vacation",
       "break away"
@@ -1416,8 +1454,8 @@
     "examples": [
       "We decided to hang around the main square until our train arrived."
     ],
-    "transcription": "/hæŋ əˈraʊnd/",
-    "emoji": "⏳",
+    "transcription": "/h\u00e6\u014b \u0259\u02c8ra\u028and/",
+    "emoji": "\u23f3",
     "synonyms": [
       "linger",
       "loaf"
@@ -1443,8 +1481,8 @@
     "examples": [
       "We should head off early to catch the morning mountain bus."
     ],
-    "transcription": "/hed ɒf/",
-    "emoji": "🚶",
+    "transcription": "/hed \u0252f/",
+    "emoji": "\ud83d\udeb6",
     "synonyms": [
       "depart",
       "leave"
@@ -1472,8 +1510,8 @@
     "examples": [
       "Let's head out and explore the old town before sunset."
     ],
-    "transcription": "/hed aʊt/",
-    "emoji": "🚪",
+    "transcription": "/hed a\u028at/",
+    "emoji": "\ud83d\udeaa",
     "synonyms": [
       "go outside",
       "depart"
@@ -1501,8 +1539,8 @@
     "examples": [
       "We had two hours to look around the historical city market."
     ],
-    "transcription": "/lʊk əˈraʊnd/",
-    "emoji": "👀",
+    "transcription": "/l\u028ak \u0259\u02c8ra\u028and/",
+    "emoji": "\ud83d\udc40",
     "synonyms": [
       "explore",
       "sightsee"
@@ -1528,8 +1566,8 @@
     "examples": [
       "Be sure to look out for street signs pointing toward the station."
     ],
-    "transcription": "/lʊk aʊt fɔːr/",
-    "emoji": "🔍",
+    "transcription": "/l\u028ak a\u028at f\u0254\u02d0r/",
+    "emoji": "\ud83d\udd0d",
     "synonyms": [
       "watch for",
       "keep an eye out for"
@@ -1555,8 +1593,8 @@
     "examples": [
       "After two days in Rome, we decided to move on to Florence."
     ],
-    "transcription": "/muːv ɒn/",
-    "emoji": "🚶",
+    "transcription": "/mu\u02d0v \u0252n/",
+    "emoji": "\ud83d\udeb6",
     "synonyms": [
       "proceed",
       "continue journey"
@@ -1582,8 +1620,8 @@
     "examples": [
       "We need to pack up our camping gear before sunrise tomorrow."
     ],
-    "transcription": "/pæk ʌp/",
-    "emoji": "📦",
+    "transcription": "/p\u00e6k \u028cp/",
+    "emoji": "\ud83d\udce6",
     "synonyms": [
       "gather belongings",
       "stow away"
@@ -1611,8 +1649,8 @@
     "examples": [
       "The driver pulled over to allow an ambulance to pass."
     ],
-    "transcription": "/pʊl ˈəʊ.vər/",
-    "emoji": "🚗",
+    "transcription": "/p\u028al \u02c8\u0259\u028a.v\u0259r/",
+    "emoji": "\ud83d\ude97",
     "synonyms": [
       "stop roadside",
       "draw in"
@@ -1638,8 +1676,8 @@
     "examples": [
       "A black taxi pulled up outside the hotel entrance."
     ],
-    "transcription": "/pʊl ʌp/",
-    "emoji": "🚕",
+    "transcription": "/p\u028al \u028cp/",
+    "emoji": "\ud83d\ude95",
     "synonyms": [
       "arrive",
       "stop at"

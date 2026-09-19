@@ -11,7 +11,7 @@
     "examples": [
       "Spain is a warm country."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "countries",
@@ -24,7 +24,8 @@
     "transcription": "/\u02c8k\u028cn.tri/",
     "no_antonym": true,
     "emoji": "\ud83c\udff4",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:america:noun",
@@ -84,7 +85,7 @@
     "examples": [
       "London is the capital city."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "capitals",
@@ -99,7 +100,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8k\u00e6p.\u0259.t\u032c\u0259l/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:continent:noun",
@@ -113,7 +115,7 @@
     "examples": [
       "Asia is a huge continent."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "continents",
@@ -123,7 +125,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8k\u0251\u02d0n.t\u0259n.\u0259nt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:europe:noun",
@@ -564,7 +567,7 @@
     "examples": [
       "Paris is a famous city."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "cities",
@@ -581,7 +584,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8s\u026at\u032c.i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:border:noun",
@@ -595,7 +599,7 @@
     "examples": [
       "Cross the border into new country."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "borders",
@@ -612,7 +616,8 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/\u02c8b\u0254\u02d0r.d\u025a/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:flag:noun",
@@ -626,7 +631,7 @@
     "examples": [
       "The national flag flew high."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "flags",
@@ -636,7 +641,8 @@
     "transcription": "/fl\u00e6\u0261/",
     "no_antonym": true,
     "emoji": "\ud83d\udea9",
-    "countability": "countable"
+    "countability": "countable",
+    "sub_theme": "general"
   },
   {
     "id": "en:field:noun",
@@ -650,7 +656,7 @@
     "examples": [
       "Green fields surround the quiet suburban village."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/fi\u02d0ld/",
@@ -660,7 +666,8 @@
     "emoji": "\ud83c\udf3e",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "fields"
+    "plural_form": "fields",
+    "sub_theme": "general"
   },
   {
     "id": "en:ground:noun",
@@ -674,7 +681,7 @@
     "examples": [
       "Rain made the grassy ground soft and wet."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/\u0261ra\u028and/",
@@ -685,6 +692,7 @@
     "antonyms": [
       "sky"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   }
 ]

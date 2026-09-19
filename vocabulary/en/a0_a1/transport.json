@@ -11,20 +11,21 @@
     "examples": [
       "Check train arrive time."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "transport",
     "tags": [
       "spoken",
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": "/əˈraɪv/",
-    "emoji": "🛬",
+    "transcription": "/\u0259\u02c8ra\u026av/",
+    "emoji": "\ud83d\udeec",
     "antonyms": [
       "leave",
       "depart"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:leave:noun",
@@ -38,19 +39,20 @@
     "examples": [
       "Bus leave time is nine."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "transport",
     "tags": [
       "spoken",
       "beginner"
     ],
     "updated": "2025-01-15",
-    "transcription": "/liːv/",
-    "emoji": "🛫",
+    "transcription": "/li\u02d0v/",
+    "emoji": "\ud83d\udeeb",
     "antonyms": [
       "arrive"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:motorbike:noun",
@@ -64,7 +66,7 @@
     "examples": [
       "He rides a fast motorbike."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "transport",
     "tags": [
       "spoken",
@@ -72,13 +74,14 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "motorbikes",
-    "transcription": "/ˈməʊ.tə.baɪk/",
+    "transcription": "/\u02c8m\u0259\u028a.t\u0259.ba\u026ak/",
     "no_antonym": true,
-    "emoji": "🏍️",
+    "emoji": "\ud83c\udfcd\ufe0f",
     "countability": "countable",
     "transcription_variants": {
-      "us": "/ˈmoʊ.t̬ɚ.baɪk/"
-    }
+      "us": "/\u02c8mo\u028a.t\u032c\u025a.ba\u026ak/"
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:truck:noun",
@@ -100,9 +103,9 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "trucks",
-    "transcription": "/trʌk/",
+    "transcription": "/tr\u028ck/",
     "no_antonym": true,
-    "emoji": "🚚",
+    "emoji": "\ud83d\ude9a",
     "countability": "countable",
     "region": [
       "US"
@@ -120,7 +123,7 @@
     "examples": [
       "Stop at the red traffic-light."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "transport",
     "tags": [
       "spoken",
@@ -128,9 +131,10 @@
     ],
     "updated": "2025-01-15",
     "plural_form": "traffic lights",
-    "transcription": "/ˈtræf.ɪk ˌlaɪt/",
+    "transcription": "/\u02c8tr\u00e6f.\u026ak \u02ccla\u026at/",
     "no_antonym": true,
-    "emoji": "🚦",
-    "countability": "countable"
+    "emoji": "\ud83d\udea6",
+    "countability": "countable",
+    "sub_theme": "general"
   }
 ]
