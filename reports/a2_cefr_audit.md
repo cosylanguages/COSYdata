@@ -158,3 +158,10 @@ Where word levels vary by sense or part-of-speech (per Oxford 3000/5000 and EVP 
 2. **Resolve Explicit Level Overrides**: Review the 9 entries in `lifestyle.json` and `shopping.json` that specify `level: "B1"` to either move them to `vocabulary/en/b1/` or update their `level` attribute to `"A2"` if intended for A2 course stages.
 3. **Utilize `levels` Array for Multi-Level Words**: Leverage the `levels` array property (e.g. `levels: ["A2", "B1"]`) for English entries where Oxford 3000/5000 assigns headword badges at B1/B2 but specific senses/phrases are taught at A2.
 4. **Sustain Non-English Framework Alignment**: French, Italian, and Russian datasets are 100% aligned with their respective national CEFR certification standards (DELF A2, CILS A2, TORFL A2).
+
+---
+
+## Flagged Datasets: Chuvash (`cv`) A2
+
+- **Status**: ⚠️ **Skipped & Flagged for Content Sourcing**
+- **Details**: The source repository `cosylanguages/COSYlanguages` at `vocabulary/cv/A2/` contains only 3 entries across its JS files (`fluency.js`, `locations.js`, `opinions.js`). As instructed, the Chuvash `a2` folder migration was intentionally skipped to prevent creating a near-empty dataset. This entry flags Chuvash A2 so that maintainers can source real, comprehensive A2 lexical content before generating `vocabulary/cv/a2/`.
