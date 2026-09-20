@@ -1,4 +1,16 @@
 {
+  "abandonner": [
+    {
+      "id": "fr:abandonner:verb",
+      "field": "word"
+    }
+  ],
+  "abordable": [
+    {
+      "id": "fr:abordable:adjective",
+      "field": "word"
+    }
+  ],
   "accepter": [
     {
       "id": "fr:accepter:verb",
@@ -21,6 +33,12 @@
     {
       "id": "fr:acteur:noun",
       "field": "plural_form"
+    }
+  ],
+  "actuel": [
+    {
+      "id": "fr:actuel:adjective",
+      "field": "word"
     }
   ],
   "adorer": [
@@ -89,6 +107,12 @@
       "field": "word"
     }
   ],
+  "ambitieux": [
+    {
+      "id": "fr:ambitieux:adjective",
+      "field": "word"
+    }
+  ],
   "ambulance": [
     {
       "id": "fr:ambulance:noun",
@@ -135,6 +159,18 @@
     {
       "id": "fr:amour:noun",
       "field": "plural_form"
+    }
+  ],
+  "améliorer": [
+    {
+      "id": "fr:ameliorer:verb",
+      "field": "word"
+    }
+  ],
+  "améliorer ses compétences": [
+    {
+      "id": "fr:ameliorer-ses-competences:verb",
+      "field": "word"
     }
   ],
   "amérique": [
@@ -305,6 +341,24 @@
       "field": "word"
     }
   ],
+  "arriver à": [
+    {
+      "id": "fr:arriver-a:phrase",
+      "field": "word"
+    }
+  ],
+  "artiste": [
+    {
+      "id": "fr:artiste:noun",
+      "field": "word"
+    }
+  ],
+  "artistes": [
+    {
+      "id": "fr:artiste:noun",
+      "field": "plural_form"
+    }
+  ],
   "assez": [
     {
       "id": "fr:assez:adverb",
@@ -329,15 +383,49 @@
       "field": "word"
     }
   ],
+  "assumer": [
+    {
+      "id": "fr:assumer:verb",
+      "field": "word"
+    }
+  ],
+  "athlétique": [
+    {
+      "id": "fr:athletique:adjective",
+      "field": "word"
+    }
+  ],
+  "atteindre": [
+    {
+      "id": "fr:atteindre:verb",
+      "field": "word"
+    }
+  ],
   "attendre": [
     {
+      "id": "fr:attendre-a2:verb",
+      "field": "word"
+    },
+    {
       "id": "fr:attendre:verb",
+      "field": "word"
+    }
+  ],
+  "attraper": [
+    {
+      "id": "fr:attraper:verb",
       "field": "word"
     }
   ],
   "au fait": [
     {
       "id": "fr:au-fait:phrase",
+      "field": "word"
+    }
+  ],
+  "au fur et à mesure": [
+    {
+      "id": "fr:au-fur-et-a-mesure:phrase",
       "field": "word"
     }
   ],
@@ -350,6 +438,12 @@
   "au revoir": [
     {
       "id": "fr:au-revoir:phrase",
+      "field": "word"
+    }
+  ],
+  "augmenter": [
+    {
+      "id": "fr:augmenter:verb",
       "field": "word"
     }
   ],
@@ -416,6 +510,144 @@
   "avoir": [
     {
       "id": "fr:avoir:verb",
+      "field": "word"
+    }
+  ],
+  "avoir carte blanche": [
+    {
+      "id": "fr:avoir-carte-blanche:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir de la mémoire": [
+    {
+      "id": "fr:avoir-de-la-memoire:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir de la peine": [
+    {
+      "id": "fr:avoir-de-la-peine:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir du cœur": [
+    {
+      "id": "fr:avoir-du-coeur:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir du mal à": [
+    {
+      "id": "fr:avoir-du-mal-a:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir l'habitude de": [
+    {
+      "id": "fr:avoir-l-habitude-de:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir l'impression": [
+    {
+      "id": "fr:avoir-l-impression:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir la cote": [
+    {
+      "id": "fr:avoir-la-cote:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir le cafard": [
+    {
+      "id": "fr:avoir-le-cafard:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir le cœur gros": [
+    {
+      "id": "fr:avoir-le-coeur-gros:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir le sang chaud": [
+    {
+      "id": "fr:avoir-le-sang-chaud:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir le trac": [
+    {
+      "id": "fr:avoir-le-trac:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir le vertige": [
+    {
+      "id": "fr:avoir-le-vertige:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir les moyens": [
+    {
+      "id": "fr:avoir-les-moyens:verb",
+      "field": "word"
+    }
+  ],
+  "avoir les yeux plus gros que le ventre": [
+    {
+      "id": "fr:avoir-les-yeux-plus-gros-que-le-ventre:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir peur de son ombre": [
+    {
+      "id": "fr:avoir-peur-de-son-ombre:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir un coup de cœur": [
+    {
+      "id": "fr:avoir-un-coup-de-coeur:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir un coup de pompe": [
+    {
+      "id": "fr:avoir-un-coup-de-pompe:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir un faible pour": [
+    {
+      "id": "fr:avoir-un-faible-pour:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir une dent contre": [
+    {
+      "id": "fr:avoir-une-dent-contre:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir une faim de loup": [
+    {
+      "id": "fr:avoir-une-faim-de-loup:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir une peur bleue": [
+    {
+      "id": "fr:avoir-une-peur-bleue:phrase",
+      "field": "word"
+    }
+  ],
+  "avoir voix au chapitre": [
+    {
+      "id": "fr:avoir-voix-au-chapitre:phrase",
       "field": "word"
     }
   ],
@@ -541,6 +773,10 @@
   ],
   "beau": [
     {
+      "id": "fr:beau-a2:adjective",
+      "field": "word"
+    },
+    {
       "id": "fr:beau:adjective",
       "field": "word"
     }
@@ -615,6 +851,14 @@
   ],
   "bière": [
     {
+      "id": "fr:biere-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:biere-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:biere:noun",
       "field": "word"
     }
@@ -646,6 +890,12 @@
   "bleu": [
     {
       "id": "fr:bleu:adjective",
+      "field": "word"
+    }
+  ],
+  "blond": [
+    {
+      "id": "fr:blond:adjective",
       "field": "word"
     }
   ],
@@ -771,6 +1021,14 @@
   ],
   "bras": [
     {
+      "id": "fr:bras-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:bras-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:bras:noun",
       "field": "plural_form"
     },
@@ -788,6 +1046,24 @@
   "bruyant": [
     {
       "id": "fr:bruyant:adjective",
+      "field": "word"
+    }
+  ],
+  "budget": [
+    {
+      "id": "fr:budget:noun",
+      "field": "word"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "fr:budget:noun",
+      "field": "plural_form"
+    }
+  ],
+  "budgétiser": [
+    {
+      "id": "fr:budgetiser:verb",
       "field": "word"
     }
   ],
@@ -907,11 +1183,19 @@
   ],
   "canapé": [
     {
+      "id": "fr:canape-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:canape:noun",
       "field": "word"
     }
   ],
   "canapés": [
+    {
+      "id": "fr:canape-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:canape:noun",
       "field": "plural_form"
@@ -1019,6 +1303,12 @@
       "field": "word"
     }
   ],
+  "casser les pieds": [
+    {
+      "id": "fr:casser-les-pieds:phrase",
+      "field": "word"
+    }
+  ],
   "ceci": [
     {
       "id": "fr:ceci:pronoun",
@@ -1061,6 +1351,12 @@
       "field": "plural_form"
     }
   ],
+  "certain": [
+    {
+      "id": "fr:certain:adjective",
+      "field": "word"
+    }
+  ],
   "chaise": [
     {
       "id": "fr:chaise:noun",
@@ -1100,6 +1396,12 @@
   "changer": [
     {
       "id": "fr:changer:verb",
+      "field": "word"
+    }
+  ],
+  "changer d'avis": [
+    {
+      "id": "fr:changer-d-avis:phrase",
       "field": "word"
     }
   ],
@@ -1205,6 +1507,18 @@
       "field": "word"
     }
   ],
+  "chef": [
+    {
+      "id": "fr:chef:noun",
+      "field": "word"
+    }
+  ],
+  "chefs": [
+    {
+      "id": "fr:chef:noun",
+      "field": "plural_form"
+    }
+  ],
   "chemin": [
     {
       "id": "fr:chemin:noun",
@@ -1237,17 +1551,29 @@
   ],
   "chercher": [
     {
+      "id": "fr:chercher-a2:verb",
+      "field": "word"
+    },
+    {
       "id": "fr:chercher:verb",
       "field": "word"
     }
   ],
   "cheval": [
     {
+      "id": "fr:cheval-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:cheval:noun",
       "field": "word"
     }
   ],
   "chevaux": [
+    {
+      "id": "fr:cheval-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:cheval:noun",
       "field": "plural_form"
@@ -1331,6 +1657,18 @@
       "field": "word"
     }
   ],
+  "cinéma": [
+    {
+      "id": "fr:cinema:noun",
+      "field": "word"
+    }
+  ],
+  "cinémas": [
+    {
+      "id": "fr:cinema:noun",
+      "field": "plural_form"
+    }
+  ],
   "citoyen": [
     {
       "id": "fr:citoyen:noun",
@@ -1353,6 +1691,12 @@
     {
       "id": "fr:citron:noun",
       "field": "plural_form"
+    }
+  ],
+  "clair": [
+    {
+      "id": "fr:clair:adjective",
+      "field": "word"
     }
   ],
   "client": [
@@ -1415,6 +1759,12 @@
       "field": "plural_form"
     }
   ],
+  "collaborer": [
+    {
+      "id": "fr:collaborer:verb",
+      "field": "word"
+    }
+  ],
   "collectionner": [
     {
       "id": "fr:collectionner:verb",
@@ -1469,6 +1819,30 @@
       "field": "word"
     }
   ],
+  "commode": [
+    {
+      "id": "fr:commode:adjective",
+      "field": "word"
+    }
+  ],
+  "commun": [
+    {
+      "id": "fr:commun:adjective",
+      "field": "word"
+    }
+  ],
+  "communauté": [
+    {
+      "id": "fr:communaute:noun",
+      "field": "word"
+    }
+  ],
+  "communautés": [
+    {
+      "id": "fr:communaute:noun",
+      "field": "plural_form"
+    }
+  ],
   "comparer": [
     {
       "id": "fr:comparer:verb",
@@ -1496,6 +1870,28 @@
   "comprimés": [
     {
       "id": "fr:comprime:noun",
+      "field": "plural_form"
+    }
+  ],
+  "compromis": [
+    {
+      "id": "fr:compromis:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:compromis:noun",
+      "field": "word"
+    }
+  ],
+  "compte": [
+    {
+      "id": "fr:compte:noun",
+      "field": "word"
+    }
+  ],
+  "comptes": [
+    {
+      "id": "fr:compte:noun",
       "field": "plural_form"
     }
   ],
@@ -1535,9 +1931,51 @@
       "field": "word"
     }
   ],
+  "confiance": [
+    {
+      "id": "fr:confiance:noun",
+      "field": "word"
+    }
+  ],
+  "confiant": [
+    {
+      "id": "fr:confiant:adjective",
+      "field": "word"
+    }
+  ],
+  "confirmer": [
+    {
+      "id": "fr:confirmer:verb",
+      "field": "word"
+    }
+  ],
   "confortable": [
     {
       "id": "fr:confortable:adjective",
+      "field": "word"
+    }
+  ],
+  "considérer": [
+    {
+      "id": "fr:considerer:verb",
+      "field": "word"
+    }
+  ],
+  "construire": [
+    {
+      "id": "fr:construire:verb",
+      "field": "word"
+    }
+  ],
+  "contacter": [
+    {
+      "id": "fr:contacter:verb",
+      "field": "word"
+    }
+  ],
+  "contenir": [
+    {
+      "id": "fr:contenir:verb",
       "field": "word"
     }
   ],
@@ -1581,6 +2019,18 @@
     {
       "id": "fr:couleur:noun",
       "field": "plural_form"
+    }
+  ],
+  "coup de fil": [
+    {
+      "id": "fr:coup-de-fil:phrase",
+      "field": "word"
+    }
+  ],
+  "coup de main": [
+    {
+      "id": "fr:coup-de-main:phrase",
+      "field": "word"
     }
   ],
   "courageux": [
@@ -1655,9 +2105,21 @@
       "field": "plural_form"
     }
   ],
+  "couvrir": [
+    {
+      "id": "fr:couvrir:verb",
+      "field": "word"
+    }
+  ],
   "coûter": [
     {
       "id": "fr:couter:verb",
+      "field": "word"
+    }
+  ],
+  "coûter les yeux de la tête": [
+    {
+      "id": "fr:couter-les-yeux-de-la-tete:phrase",
       "field": "word"
     }
   ],
@@ -1697,6 +2159,30 @@
       "field": "word"
     }
   ],
+  "créatif": [
+    {
+      "id": "fr:creatif:adjective",
+      "field": "word"
+    }
+  ],
+  "créer": [
+    {
+      "id": "fr:creer:verb",
+      "field": "word"
+    }
+  ],
+  "crêpe": [
+    {
+      "id": "fr:crepe:noun",
+      "field": "word"
+    }
+  ],
+  "crêpes": [
+    {
+      "id": "fr:crepe:noun",
+      "field": "plural_form"
+    }
+  ],
   "cuillère": [
     {
       "id": "fr:cuillere:noun",
@@ -1718,6 +2204,12 @@
   "cuisine": [
     {
       "id": "fr:cuisine:noun",
+      "field": "word"
+    }
+  ],
+  "cuisine locale": [
+    {
+      "id": "fr:cuisine-locale:noun",
       "field": "word"
     }
   ],
@@ -1897,13 +2389,59 @@
       "field": "word"
     }
   ],
+  "destination": [
+    {
+      "id": "fr:destination:noun",
+      "field": "word"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "fr:destination:noun",
+      "field": "plural_form"
+    }
+  ],
+  "dette": [
+    {
+      "id": "fr:dette:noun",
+      "field": "word"
+    }
+  ],
+  "dettes": [
+    {
+      "id": "fr:dette:noun",
+      "field": "plural_form"
+    }
+  ],
   "deux": [
     {
       "id": "fr:deux:number",
       "field": "word"
     }
   ],
+  "devenir": [
+    {
+      "id": "fr:devenir:verb",
+      "field": "word"
+    }
+  ],
+  "devoir": [
+    {
+      "id": "fr:devoir:verb",
+      "field": "word"
+    }
+  ],
+  "diagnostiquer": [
+    {
+      "id": "fr:diagnostiquer:verb",
+      "field": "word"
+    }
+  ],
   "difficile": [
+    {
+      "id": "fr:difficile-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "fr:difficile:adjective",
       "field": "word"
@@ -1933,6 +2471,24 @@
       "field": "word"
     }
   ],
+  "dire du bien de": [
+    {
+      "id": "fr:dire-du-bien-de:phrase",
+      "field": "word"
+    }
+  ],
+  "dire du mal de": [
+    {
+      "id": "fr:dire-du-mal-de:phrase",
+      "field": "word"
+    }
+  ],
+  "direct": [
+    {
+      "id": "fr:direct:adjective",
+      "field": "word"
+    }
+  ],
   "direction": [
     {
       "id": "fr:direction:noun",
@@ -1945,9 +2501,21 @@
       "field": "plural_form"
     }
   ],
+  "discuter": [
+    {
+      "id": "fr:discuter:verb",
+      "field": "word"
+    }
+  ],
   "disparaître": [
     {
       "id": "fr:disparaitre:verb",
+      "field": "word"
+    }
+  ],
+  "disponible": [
+    {
+      "id": "fr:disponible:adjective",
       "field": "word"
     }
   ],
@@ -2005,9 +2573,39 @@
       "field": "word"
     }
   ],
+  "donner la parole": [
+    {
+      "id": "fr:donner-la-parole:phrase",
+      "field": "word"
+    }
+  ],
+  "donner son avis": [
+    {
+      "id": "fr:donner-son-avis:phrase",
+      "field": "word"
+    }
+  ],
+  "donner un coup de peigne": [
+    {
+      "id": "fr:donner-un-coup-de-peigne:phrase",
+      "field": "word"
+    }
+  ],
   "dormir": [
     {
       "id": "fr:dormir:verb",
+      "field": "word"
+    }
+  ],
+  "dormir comme un loir": [
+    {
+      "id": "fr:dormir-comme-un-loir:phrase",
+      "field": "word"
+    }
+  ],
+  "dormir à poings fermés": [
+    {
+      "id": "fr:dormir-a-poings-fermes:phrase",
       "field": "word"
     }
   ],
@@ -2085,9 +2683,21 @@
       "field": "word"
     }
   ],
+  "du jour au lendemain": [
+    {
+      "id": "fr:du-jour-au-lendemain:phrase",
+      "field": "word"
+    }
+  ],
   "dur": [
     {
       "id": "fr:dur:adjective",
+      "field": "word"
+    }
+  ],
+  "débarrasser la table": [
+    {
+      "id": "fr:debarrasser-la-table:phrase",
       "field": "word"
     }
   ],
@@ -2106,6 +2716,18 @@
   "décider": [
     {
       "id": "fr:decider:verb",
+      "field": "word"
+    }
+  ],
+  "décorer": [
+    {
+      "id": "fr:decorer:verb",
+      "field": "word"
+    }
+  ],
+  "découvrir": [
+    {
+      "id": "fr:decouvrir:verb",
       "field": "word"
     }
   ],
@@ -2136,6 +2758,18 @@
   "délicieux": [
     {
       "id": "fr:delicieux:adjective",
+      "field": "word"
+    }
+  ],
+  "déléguer": [
+    {
+      "id": "fr:deleguer:verb",
+      "field": "word"
+    }
+  ],
+  "démissionner": [
+    {
+      "id": "fr:demissionner:verb",
       "field": "word"
     }
   ],
@@ -2172,6 +2806,12 @@
   "désolé": [
     {
       "id": "fr:desole:phrase",
+      "field": "word"
+    }
+  ],
+  "développer": [
+    {
+      "id": "fr:developper:verb",
       "field": "word"
     }
   ],
@@ -2235,6 +2875,18 @@
       "field": "word"
     }
   ],
+  "en avoir assez": [
+    {
+      "id": "fr:en-avoir-assez:phrase",
+      "field": "word"
+    }
+  ],
+  "en avoir marre de": [
+    {
+      "id": "fr:en-avoir-marre-de:phrase",
+      "field": "word"
+    }
+  ],
   "en colère": [
     {
       "id": "fr:en-colere:adjective",
@@ -2247,9 +2899,21 @@
       "field": "word"
     }
   ],
+  "en forme": [
+    {
+      "id": "fr:en-forme:adjective",
+      "field": "word"
+    }
+  ],
   "en général": [
     {
       "id": "fr:en-general:phrase",
+      "field": "word"
+    }
+  ],
+  "en surpoids": [
+    {
+      "id": "fr:en-surpoids:adjective",
       "field": "word"
     }
   ],
@@ -2367,9 +3031,21 @@
       "field": "word"
     }
   ],
+  "entretien d'embauche": [
+    {
+      "id": "fr:entretien-d-embauche:noun",
+      "field": "word"
+    }
+  ],
   "entretiens": [
     {
       "id": "fr:entretien:noun",
+      "field": "plural_form"
+    }
+  ],
+  "entretiens d'embauche": [
+    {
+      "id": "fr:entretien-d-embauche:noun",
       "field": "plural_form"
     }
   ],
@@ -2467,6 +3143,12 @@
       "field": "word"
     }
   ],
+  "exiger": [
+    {
+      "id": "fr:exiger:verb",
+      "field": "word"
+    }
+  ],
   "exister": [
     {
       "id": "fr:exister:verb",
@@ -2491,10 +3173,46 @@
       "field": "plural_form"
     }
   ],
+  "expérience": [
+    {
+      "id": "fr:experience:noun",
+      "field": "word"
+    }
+  ],
+  "expériences": [
+    {
+      "id": "fr:experience:noun",
+      "field": "plural_form"
+    }
+  ],
+  "expérimenté": [
+    {
+      "id": "fr:experimente:adjective",
+      "field": "word"
+    }
+  ],
   "facile": [
     {
       "id": "fr:facile:adjective",
       "field": "word"
+    }
+  ],
+  "facture": [
+    {
+      "id": "fr:facture:noun",
+      "field": "word"
+    }
+  ],
+  "facturer": [
+    {
+      "id": "fr:facturer:verb",
+      "field": "word"
+    }
+  ],
+  "factures": [
+    {
+      "id": "fr:facture:noun",
+      "field": "plural_form"
     }
   ],
   "faible": [
@@ -2509,15 +3227,159 @@
       "field": "word"
     }
   ],
+  "faire allusion à": [
+    {
+      "id": "fr:faire-allusion-a:phrase",
+      "field": "word"
+    }
+  ],
+  "faire confiance": [
+    {
+      "id": "fr:faire-confiance:verb",
+      "field": "word"
+    }
+  ],
+  "faire d'une pierre deux coups": [
+    {
+      "id": "fr:faire-d-une-pierre-deux-coups:phrase",
+      "field": "word"
+    }
+  ],
+  "faire de la peine": [
+    {
+      "id": "fr:faire-de-la-peine:phrase",
+      "field": "word"
+    }
+  ],
+  "faire de la pub": [
+    {
+      "id": "fr:faire-de-la-pub:phrase",
+      "field": "word"
+    }
+  ],
+  "faire de son mieux": [
+    {
+      "id": "fr:faire-de-son-mieux:phrase",
+      "field": "word"
+    }
+  ],
   "faire du vélo": [
     {
       "id": "fr:faire-du-velo:verb",
       "field": "word"
     }
   ],
+  "faire face": [
+    {
+      "id": "fr:faire-face:verb",
+      "field": "word"
+    }
+  ],
+  "faire gaffe": [
+    {
+      "id": "fr:faire-gaffe:phrase",
+      "field": "word"
+    }
+  ],
+  "faire la grasse matinée": [
+    {
+      "id": "fr:faire-la-grasse-matinee:phrase",
+      "field": "word"
+    }
+  ],
+  "faire la sourde oreille": [
+    {
+      "id": "fr:faire-la-sourde-oreille:phrase",
+      "field": "word"
+    }
+  ],
+  "faire le grand saut": [
+    {
+      "id": "fr:faire-le-grand-saut:phrase",
+      "field": "word"
+    }
+  ],
+  "faire les cent pas": [
+    {
+      "id": "fr:faire-les-cent-pas:phrase",
+      "field": "word"
+    }
+  ],
   "faire mal": [
     {
       "id": "fr:faire-mal:verb",
+      "field": "word"
+    }
+  ],
+  "faire peur": [
+    {
+      "id": "fr:faire-peur:phrase",
+      "field": "word"
+    }
+  ],
+  "faire plaisir": [
+    {
+      "id": "fr:faire-plaisir:phrase",
+      "field": "word"
+    }
+  ],
+  "faire rire": [
+    {
+      "id": "fr:faire-rire:phrase",
+      "field": "word"
+    }
+  ],
+  "faire semblant": [
+    {
+      "id": "fr:faire-semblant:phrase",
+      "field": "word"
+    }
+  ],
+  "faire un choix": [
+    {
+      "id": "fr:faire-un-choix:phrase",
+      "field": "word"
+    }
+  ],
+  "faire un compliment": [
+    {
+      "id": "fr:faire-un-compliment:phrase",
+      "field": "word"
+    }
+  ],
+  "faire un compromis": [
+    {
+      "id": "fr:faire-un-compromis:verb",
+      "field": "word"
+    }
+  ],
+  "faire un effort": [
+    {
+      "id": "fr:faire-un-effort:phrase",
+      "field": "word"
+    }
+  ],
+  "faire un voyage": [
+    {
+      "id": "fr:faire-un-voyage:phrase",
+      "field": "word"
+    }
+  ],
+  "faire une erreur": [
+    {
+      "id": "fr:faire-une-erreur:phrase",
+      "field": "word"
+    }
+  ],
+  "faire une pause": [
+    {
+      "id": "fr:faire-une-pause:phrase",
+      "field": "word"
+    }
+  ],
+  "faire une promenade": [
+    {
+      "id": "fr:faire-une-promenade:phrase",
       "field": "word"
     }
   ],
@@ -2541,7 +3403,17 @@
   ],
   "fatigué": [
     {
+      "id": "fr:fatigue-a2:adjective",
+      "field": "word"
+    },
+    {
       "id": "fr:fatigue:adjective",
+      "field": "word"
+    }
+  ],
+  "fauché": [
+    {
+      "id": "fr:fauche:adjective",
       "field": "word"
     }
   ],
@@ -2659,6 +3531,12 @@
       "field": "plural_form"
     }
   ],
+  "fiable": [
+    {
+      "id": "fr:fiable:adjective",
+      "field": "word"
+    }
+  ],
   "fichier": [
     {
       "id": "fr:fichier:noun",
@@ -2717,6 +3595,12 @@
       "field": "word"
     }
   ],
+  "finir par": [
+    {
+      "id": "fr:finir-par:phrase",
+      "field": "word"
+    }
+  ],
   "fièvre": [
     {
       "id": "fr:fievre:noun",
@@ -2735,7 +3619,29 @@
       "field": "plural_form"
     }
   ],
+  "flexible": [
+    {
+      "id": "fr:flexible:adjective",
+      "field": "word"
+    }
+  ],
+  "fondue": [
+    {
+      "id": "fr:fondue:noun",
+      "field": "word"
+    }
+  ],
+  "fondues": [
+    {
+      "id": "fr:fondue:noun",
+      "field": "plural_form"
+    }
+  ],
   "fort": [
+    {
+      "id": "fr:fort-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "fr:fort:adjective",
       "field": "word"
@@ -2771,6 +3677,12 @@
       "field": "plural_form"
     }
   ],
+  "fournir": [
+    {
+      "id": "fr:fournir:verb",
+      "field": "word"
+    }
+  ],
   "fours": [
     {
       "id": "fr:four:noun",
@@ -2795,6 +3707,12 @@
       "field": "word"
     }
   ],
+  "frapper": [
+    {
+      "id": "fr:frapper:verb",
+      "field": "word"
+    }
+  ],
   "frire": [
     {
       "id": "fr:frire:verb",
@@ -2815,11 +3733,19 @@
   ],
   "fromage": [
     {
+      "id": "fr:fromage-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:fromage:noun",
       "field": "word"
     }
   ],
   "fromages": [
+    {
+      "id": "fr:fromage-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:fromage:noun",
       "field": "plural_form"
@@ -2859,6 +3785,12 @@
     {
       "id": "fr:frere:noun",
       "field": "plural_form"
+    }
+  ],
+  "futur": [
+    {
+      "id": "fr:futur:adjective",
+      "field": "word"
     }
   ],
   "félicitations": [
@@ -2913,6 +3845,36 @@
       "field": "word"
     }
   ],
+  "garder la tête haute": [
+    {
+      "id": "fr:garder-la-tete-haute:phrase",
+      "field": "word"
+    }
+  ],
+  "garder le contact": [
+    {
+      "id": "fr:garder-le-contact:phrase",
+      "field": "word"
+    }
+  ],
+  "garder son calme": [
+    {
+      "id": "fr:garder-son-calme:phrase",
+      "field": "word"
+    }
+  ],
+  "garder un secret": [
+    {
+      "id": "fr:garder-un-secret:phrase",
+      "field": "word"
+    }
+  ],
+  "garder un œil sur": [
+    {
+      "id": "fr:garder-un-oeil-sur:phrase",
+      "field": "word"
+    }
+  ],
   "gare": [
     {
       "id": "fr:gare:noun",
@@ -2941,6 +3903,12 @@
     {
       "id": "fr:genou:noun",
       "field": "plural_form"
+    }
+  ],
+  "gentil": [
+    {
+      "id": "fr:gentil:adjective",
+      "field": "word"
     }
   ],
   "glace": [
@@ -3029,6 +3997,12 @@
     {
       "id": "fr:grand-pere:noun",
       "field": "plural_form"
+    }
+  ],
+  "gratuit": [
+    {
+      "id": "fr:gratuit:adjective",
+      "field": "word"
     }
   ],
   "grillé": [
@@ -3243,11 +4217,19 @@
   ],
   "hôpital": [
     {
+      "id": "fr:hopital-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:hopital:noun",
       "field": "word"
     }
   ],
   "hôpitaux": [
+    {
+      "id": "fr:hopital-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:hopital:noun",
       "field": "plural_form"
@@ -3331,6 +4313,30 @@
       "field": "plural_form"
     }
   ],
+  "inclure": [
+    {
+      "id": "fr:inclure:verb",
+      "field": "word"
+    }
+  ],
+  "indépendant": [
+    {
+      "id": "fr:independant:adjective",
+      "field": "word"
+    }
+  ],
+  "infirmier": [
+    {
+      "id": "fr:infirmier:noun",
+      "field": "word"
+    }
+  ],
+  "infirmiers": [
+    {
+      "id": "fr:infirmier:noun",
+      "field": "plural_form"
+    }
+  ],
   "infirmière": [
     {
       "id": "fr:infirmiere:noun",
@@ -3385,6 +4391,12 @@
       "field": "word"
     }
   ],
+  "international": [
+    {
+      "id": "fr:international:adjective",
+      "field": "word"
+    }
+  ],
   "internet": [
     {
       "id": "fr:internet:noun",
@@ -3400,6 +4412,12 @@
   "inutile": [
     {
       "id": "fr:inutile:adjective",
+      "field": "word"
+    }
+  ],
+  "investir": [
+    {
+      "id": "fr:investir:verb",
       "field": "word"
     }
   ],
@@ -3453,6 +4471,10 @@
   ],
   "jardin": [
     {
+      "id": "fr:jardin-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:jardin:noun",
       "field": "word"
     }
@@ -3485,6 +4507,18 @@
     {
       "id": "fr:jean:noun",
       "field": "plural_form"
+    }
+  ],
+  "jeter l'éponge": [
+    {
+      "id": "fr:jeter-l-eponge:phrase",
+      "field": "word"
+    }
+  ],
+  "jeter un coup d'œil": [
+    {
+      "id": "fr:jeter-un-coup-d-oeil:phrase",
+      "field": "word"
     }
   ],
   "jeu": [
@@ -3579,11 +4613,19 @@
   ],
   "jupe": [
     {
+      "id": "fr:jupe-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:jupe:noun",
       "field": "word"
     }
   ],
   "jupes": [
+    {
+      "id": "fr:jupe-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:jupe:noun",
       "field": "plural_form"
@@ -3631,11 +4673,19 @@
   ],
   "lampe": [
     {
+      "id": "fr:lampe-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:lampe:noun",
       "field": "word"
     }
   ],
   "lampes": [
+    {
+      "id": "fr:lampe-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:lampe:noun",
       "field": "plural_form"
@@ -3683,6 +4733,342 @@
       "field": "word"
     }
   ],
+  "le plus abordable": [
+    {
+      "id": "fr:abordable:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus actuel": [
+    {
+      "id": "fr:actuel:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus ambitieux": [
+    {
+      "id": "fr:ambitieux:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus athlétique": [
+    {
+      "id": "fr:athletique:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus beau": [
+    {
+      "id": "fr:beau-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus blond": [
+    {
+      "id": "fr:blond:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus certain": [
+    {
+      "id": "fr:certain:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus clair": [
+    {
+      "id": "fr:clair:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus commode": [
+    {
+      "id": "fr:commode:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus commun": [
+    {
+      "id": "fr:commun:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus confiant": [
+    {
+      "id": "fr:confiant:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus créatif": [
+    {
+      "id": "fr:creatif:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus difficile": [
+    {
+      "id": "fr:difficile-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus direct": [
+    {
+      "id": "fr:direct:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus disponible": [
+    {
+      "id": "fr:disponible:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus en forme": [
+    {
+      "id": "fr:en-forme:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus en surpoids": [
+    {
+      "id": "fr:en-surpoids:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus expérimenté": [
+    {
+      "id": "fr:experimente:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus fatigué": [
+    {
+      "id": "fr:fatigue-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus fauché": [
+    {
+      "id": "fr:fauche:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus fiable": [
+    {
+      "id": "fr:fiable:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus flexible": [
+    {
+      "id": "fr:flexible:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus fort": [
+    {
+      "id": "fr:fort-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus futur": [
+    {
+      "id": "fr:futur:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus gentil": [
+    {
+      "id": "fr:gentil:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus gratuit": [
+    {
+      "id": "fr:gratuit:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus indépendant": [
+    {
+      "id": "fr:independant:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus international": [
+    {
+      "id": "fr:international:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus local": [
+    {
+      "id": "fr:local:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus malade": [
+    {
+      "id": "fr:malade-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus malsain": [
+    {
+      "id": "fr:malsain:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus neigeux": [
+    {
+      "id": "fr:neigeux:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus organisé": [
+    {
+      "id": "fr:organise:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus pauvre": [
+    {
+      "id": "fr:pauvre-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus populaire": [
+    {
+      "id": "fr:populaire:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus pratique": [
+    {
+      "id": "fr:pratique:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus productif": [
+    {
+      "id": "fr:productif:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus professionnel": [
+    {
+      "id": "fr:professionnel:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus précédent": [
+    {
+      "id": "fr:precedent:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus qualifié": [
+    {
+      "id": "fr:qualifie:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus quotidien": [
+    {
+      "id": "fr:quotidien:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus rare": [
+    {
+      "id": "fr:rare:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus responsable": [
+    {
+      "id": "fr:responsable:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus riche": [
+    {
+      "id": "fr:riche-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus récent": [
+    {
+      "id": "fr:recent:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus régulier": [
+    {
+      "id": "fr:regulier:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus réussi": [
+    {
+      "id": "fr:reussi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus sain": [
+    {
+      "id": "fr:sain:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus sociable": [
+    {
+      "id": "fr:sociable:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus solidaire": [
+    {
+      "id": "fr:solidaire:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus stressant": [
+    {
+      "id": "fr:stressant:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus stressé": [
+    {
+      "id": "fr:stresse:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus traditionnel": [
+    {
+      "id": "fr:traditionnel:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus typique": [
+    {
+      "id": "fr:typique:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus valoir la peine": [
+    {
+      "id": "fr:valoir-la-peine:adjective",
+      "field": "superlative"
+    }
+  ],
+  "le plus venteux": [
+    {
+      "id": "fr:venteux:adjective",
+      "field": "superlative"
+    }
+  ],
   "lent": [
     {
       "id": "fr:lent:adjective",
@@ -3705,6 +5091,12 @@
     {
       "id": "fr:lettre:noun",
       "field": "plural_form"
+    }
+  ],
+  "lever": [
+    {
+      "id": "fr:lever:verb",
+      "field": "word"
     }
   ],
   "liberté": [
@@ -3731,13 +5123,27 @@
       "field": "word"
     }
   ],
+  "limiter": [
+    {
+      "id": "fr:limiter:verb",
+      "field": "word"
+    }
+  ],
   "lion": [
+    {
+      "id": "fr:lion-a2:noun",
+      "field": "word"
+    },
     {
       "id": "fr:lion:noun",
       "field": "word"
     }
   ],
   "lions": [
+    {
+      "id": "fr:lion-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:lion:noun",
       "field": "plural_form"
@@ -3773,6 +5179,12 @@
       "field": "plural_form"
     }
   ],
+  "local": [
+    {
+      "id": "fr:local:adjective",
+      "field": "word"
+    }
+  ],
   "loi": [
     {
       "id": "fr:loi:noun",
@@ -3794,6 +5206,12 @@
   "long": [
     {
       "id": "fr:long:adjective",
+      "field": "word"
+    }
+  ],
+  "louer": [
+    {
+      "id": "fr:louer:verb",
       "field": "word"
     }
   ],
@@ -3971,13 +5389,29 @@
   ],
   "malade": [
     {
+      "id": "fr:malade-a2:adjective",
+      "field": "word"
+    },
+    {
       "id": "fr:malade:adjective",
+      "field": "word"
+    }
+  ],
+  "malsain": [
+    {
+      "id": "fr:malsain:adjective",
       "field": "word"
     }
   ],
   "manger": [
     {
       "id": "fr:manger:verb",
+      "field": "word"
+    }
+  ],
+  "manger sur le pouce": [
+    {
+      "id": "fr:manger-sur-le-pouce:phrase",
       "field": "word"
     }
   ],
@@ -4099,6 +5533,18 @@
       "field": "word"
     }
   ],
+  "mener": [
+    {
+      "id": "fr:mener:verb",
+      "field": "word"
+    }
+  ],
+  "mener une vie de chien": [
+    {
+      "id": "fr:mener-une-vie-de-chien:phrase",
+      "field": "word"
+    }
+  ],
   "menu": [
     {
       "id": "fr:menu:noun",
@@ -4151,6 +5597,42 @@
     {
       "id": "fr:message:noun",
       "field": "plural_form"
+    }
+  ],
+  "mettre au courant": [
+    {
+      "id": "fr:mettre-au-courant:phrase",
+      "field": "word"
+    }
+  ],
+  "mettre de côté": [
+    {
+      "id": "fr:mettre-de-cote:phrase",
+      "field": "word"
+    }
+  ],
+  "mettre en valeur": [
+    {
+      "id": "fr:mettre-en-valeur:phrase",
+      "field": "word"
+    }
+  ],
+  "mettre la main à la pâte": [
+    {
+      "id": "fr:mettre-la-main-a-la-pate:phrase",
+      "field": "word"
+    }
+  ],
+  "mettre la pression": [
+    {
+      "id": "fr:mettre-la-pression:phrase",
+      "field": "word"
+    }
+  ],
+  "mettre la table": [
+    {
+      "id": "fr:mettre-la-table:phrase",
+      "field": "word"
     }
   ],
   "miel": [
@@ -4253,6 +5735,18 @@
       "field": "plural_form"
     }
   ],
+  "monter": [
+    {
+      "id": "fr:monter:verb",
+      "field": "word"
+    }
+  ],
+  "monter la garde": [
+    {
+      "id": "fr:monter-la-garde:phrase",
+      "field": "word"
+    }
+  ],
   "montre": [
     {
       "id": "fr:montre:noun",
@@ -4274,6 +5768,12 @@
   "mot de passe": [
     {
       "id": "fr:mot-de-passe:noun",
+      "field": "word"
+    }
+  ],
+  "mot à mot": [
+    {
+      "id": "fr:mot-a-mot:phrase",
       "field": "word"
     }
   ],
@@ -4415,6 +5915,30 @@
       "field": "word"
     }
   ],
+  "n'importe où": [
+    {
+      "id": "fr:n-importe-ou:phrase",
+      "field": "word"
+    }
+  ],
+  "n'importe quand": [
+    {
+      "id": "fr:n-importe-quand:phrase",
+      "field": "word"
+    }
+  ],
+  "n'importe qui": [
+    {
+      "id": "fr:n-importe-qui:phrase",
+      "field": "word"
+    }
+  ],
+  "n'importe quoi": [
+    {
+      "id": "fr:n-importe-quoi:phrase",
+      "field": "word"
+    }
+  ],
   "nager": [
     {
       "id": "fr:nager:verb",
@@ -4448,6 +5972,12 @@
   "neige": [
     {
       "id": "fr:neige:noun",
+      "field": "word"
+    }
+  ],
+  "neigeux": [
+    {
+      "id": "fr:neigeux:adjective",
       "field": "word"
     }
   ],
@@ -4609,6 +6139,12 @@
       "field": "word"
     }
   ],
+  "négocier": [
+    {
+      "id": "fr:negocier:verb",
+      "field": "word"
+    }
+  ],
   "occupé": [
     {
       "id": "fr:occupe:adjective",
@@ -4627,6 +6163,12 @@
       "field": "plural_form"
     }
   ],
+  "offrir": [
+    {
+      "id": "fr:offrir:verb",
+      "field": "word"
+    }
+  ],
   "oignon": [
     {
       "id": "fr:oignon:noun",
@@ -4641,11 +6183,19 @@
   ],
   "oiseau": [
     {
+      "id": "fr:oiseau-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:oiseau:noun",
       "field": "word"
     }
   ],
   "oiseaux": [
+    {
+      "id": "fr:oiseau-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:oiseau:noun",
       "field": "plural_form"
@@ -4736,6 +6286,12 @@
   "organiser": [
     {
       "id": "fr:organiser:verb",
+      "field": "word"
+    }
+  ],
+  "organisé": [
+    {
+      "id": "fr:organise:adjective",
       "field": "word"
     }
   ],
@@ -4875,6 +6431,12 @@
       "field": "plural_form"
     }
   ],
+  "pardonner": [
+    {
+      "id": "fr:pardonner:verb",
+      "field": "word"
+    }
+  ],
   "parents": [
     {
       "id": "fr:parents:noun",
@@ -4911,6 +6473,12 @@
       "field": "word"
     }
   ],
+  "partager": [
+    {
+      "id": "fr:partager:verb",
+      "field": "word"
+    }
+  ],
   "partir": [
     {
       "id": "fr:partir:verb",
@@ -4926,6 +6494,12 @@
   "pas de souci": [
     {
       "id": "fr:pas-de-souci:phrase",
+      "field": "word"
+    }
+  ],
+  "pas mal de": [
+    {
+      "id": "fr:pas-mal-de:phrase",
       "field": "word"
     }
   ],
@@ -4949,6 +6523,18 @@
     {
       "id": "fr:passeport:noun",
       "field": "plural_form"
+    }
+  ],
+  "passer un coup de balai": [
+    {
+      "id": "fr:passer-un-coup-de-balai:phrase",
+      "field": "word"
+    }
+  ],
+  "passer une nuit blanche": [
+    {
+      "id": "fr:passer-une-nuit-blanche:phrase",
+      "field": "word"
     }
   ],
   "pastèque": [
@@ -4994,6 +6580,10 @@
     }
   ],
   "pauvre": [
+    {
+      "id": "fr:pauvre-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "fr:pauvre:adjective",
       "field": "word"
@@ -5060,6 +6650,42 @@
   "perdre": [
     {
       "id": "fr:perdre:verb",
+      "field": "word"
+    }
+  ],
+  "perdre du poids": [
+    {
+      "id": "fr:perdre-du-poids:verb",
+      "field": "word"
+    }
+  ],
+  "perdre la mémoire": [
+    {
+      "id": "fr:perdre-la-memoire:phrase",
+      "field": "word"
+    }
+  ],
+  "perdre la tête": [
+    {
+      "id": "fr:perdre-la-tete:phrase",
+      "field": "word"
+    }
+  ],
+  "perdre le fil": [
+    {
+      "id": "fr:perdre-le-fil:phrase",
+      "field": "word"
+    }
+  ],
+  "perdre patience": [
+    {
+      "id": "fr:perdre-patience:phrase",
+      "field": "word"
+    }
+  ],
+  "perdre son temps": [
+    {
+      "id": "fr:perdre-son-temps:phrase",
       "field": "word"
     }
   ],
@@ -5197,6 +6823,12 @@
       "field": "plural_form"
     }
   ],
+  "planifier": [
+    {
+      "id": "fr:planifier:verb",
+      "field": "word"
+    }
+  ],
   "plante": [
     {
       "id": "fr:plante:noun",
@@ -5233,6 +6865,12 @@
       "field": "word"
     }
   ],
+  "pleuvoir des cordes": [
+    {
+      "id": "fr:pleuvoir-des-cordes:phrase",
+      "field": "word"
+    }
+  ],
   "pluie": [
     {
       "id": "fr:pluie:noun",
@@ -5245,10 +6883,346 @@
       "field": "word"
     }
   ],
+  "plus abordable": [
+    {
+      "id": "fr:abordable:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus actuel": [
+    {
+      "id": "fr:actuel:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus ambitieux": [
+    {
+      "id": "fr:ambitieux:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus athlétique": [
+    {
+      "id": "fr:athletique:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus beau": [
+    {
+      "id": "fr:beau-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus blond": [
+    {
+      "id": "fr:blond:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus certain": [
+    {
+      "id": "fr:certain:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus clair": [
+    {
+      "id": "fr:clair:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus commode": [
+    {
+      "id": "fr:commode:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus commun": [
+    {
+      "id": "fr:commun:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus confiant": [
+    {
+      "id": "fr:confiant:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus créatif": [
+    {
+      "id": "fr:creatif:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus difficile": [
+    {
+      "id": "fr:difficile-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus direct": [
+    {
+      "id": "fr:direct:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus disponible": [
+    {
+      "id": "fr:disponible:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus en forme": [
+    {
+      "id": "fr:en-forme:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus en surpoids": [
+    {
+      "id": "fr:en-surpoids:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus expérimenté": [
+    {
+      "id": "fr:experimente:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus fatigué": [
+    {
+      "id": "fr:fatigue-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus fauché": [
+    {
+      "id": "fr:fauche:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus fiable": [
+    {
+      "id": "fr:fiable:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus flexible": [
+    {
+      "id": "fr:flexible:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus fort": [
+    {
+      "id": "fr:fort-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus futur": [
+    {
+      "id": "fr:futur:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus gentil": [
+    {
+      "id": "fr:gentil:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus gratuit": [
+    {
+      "id": "fr:gratuit:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus indépendant": [
+    {
+      "id": "fr:independant:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus international": [
+    {
+      "id": "fr:international:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus local": [
+    {
+      "id": "fr:local:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus malade": [
+    {
+      "id": "fr:malade-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus malsain": [
+    {
+      "id": "fr:malsain:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus neigeux": [
+    {
+      "id": "fr:neigeux:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus organisé": [
+    {
+      "id": "fr:organise:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus pauvre": [
+    {
+      "id": "fr:pauvre-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus populaire": [
+    {
+      "id": "fr:populaire:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus pratique": [
+    {
+      "id": "fr:pratique:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus productif": [
+    {
+      "id": "fr:productif:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus professionnel": [
+    {
+      "id": "fr:professionnel:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus précédent": [
+    {
+      "id": "fr:precedent:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus qualifié": [
+    {
+      "id": "fr:qualifie:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus quotidien": [
+    {
+      "id": "fr:quotidien:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus rare": [
+    {
+      "id": "fr:rare:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus responsable": [
+    {
+      "id": "fr:responsable:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus riche": [
+    {
+      "id": "fr:riche-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus récent": [
+    {
+      "id": "fr:recent:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus régulier": [
+    {
+      "id": "fr:regulier:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus réussi": [
+    {
+      "id": "fr:reussi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus sain": [
+    {
+      "id": "fr:sain:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus sociable": [
+    {
+      "id": "fr:sociable:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus solidaire": [
+    {
+      "id": "fr:solidaire:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus stressant": [
+    {
+      "id": "fr:stressant:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus stressé": [
+    {
+      "id": "fr:stresse:adjective",
+      "field": "comparative"
+    }
+  ],
   "plus tard": [
     {
       "id": "fr:plus-tard:adverb",
       "field": "word"
+    }
+  ],
+  "plus traditionnel": [
+    {
+      "id": "fr:traditionnel:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus typique": [
+    {
+      "id": "fr:typique:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus valoir la peine": [
+    {
+      "id": "fr:valoir-la-peine:adjective",
+      "field": "comparative"
+    }
+  ],
+  "plus venteux": [
+    {
+      "id": "fr:venteux:adjective",
+      "field": "comparative"
     }
   ],
   "plusieurs": [
@@ -5349,6 +7323,10 @@
   ],
   "pomme de terre": [
     {
+      "id": "fr:pomme-de-terre-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:pomme-de-terre:noun",
       "field": "word"
     }
@@ -5360,6 +7338,10 @@
     }
   ],
   "pommes de terre": [
+    {
+      "id": "fr:pomme-de-terre-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:pomme-de-terre:noun",
       "field": "plural_form"
@@ -5375,6 +7357,12 @@
     {
       "id": "fr:pont:noun",
       "field": "plural_form"
+    }
+  ],
+  "populaire": [
+    {
+      "id": "fr:populaire:adjective",
+      "field": "word"
     }
   ],
   "population": [
@@ -5423,9 +7411,39 @@
       "field": "plural_form"
     }
   ],
+  "poser des limites": [
+    {
+      "id": "fr:poser-des-limites:phrase",
+      "field": "word"
+    }
+  ],
+  "poser problème": [
+    {
+      "id": "fr:poser-probleme:phrase",
+      "field": "word"
+    }
+  ],
+  "poser son sac": [
+    {
+      "id": "fr:poser-son-sac:phrase",
+      "field": "word"
+    }
+  ],
+  "poser un lapin": [
+    {
+      "id": "fr:poser-un-lapin:phrase",
+      "field": "word"
+    }
+  ],
   "possible": [
     {
       "id": "fr:possible:adjective",
+      "field": "word"
+    }
+  ],
+  "posséder": [
+    {
+      "id": "fr:posseder:verb",
       "field": "word"
     }
   ],
@@ -5439,6 +7457,12 @@
     {
       "id": "fr:poste:noun",
       "field": "plural_form"
+    }
+  ],
+  "postuler": [
+    {
+      "id": "fr:postuler:verb",
+      "field": "word"
     }
   ],
   "poule": [
@@ -5477,9 +7501,21 @@
       "field": "word"
     }
   ],
+  "poursuivre": [
+    {
+      "id": "fr:poursuivre:verb",
+      "field": "word"
+    }
+  ],
   "pouvoir": [
     {
       "id": "fr:pouvoir:verb",
+      "field": "word"
+    }
+  ],
+  "pratique": [
+    {
+      "id": "fr:pratique:adjective",
       "field": "word"
     }
   ],
@@ -5495,6 +7531,54 @@
       "field": "word"
     }
   ],
+  "prendre des notes": [
+    {
+      "id": "fr:prendre-des-notes:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre des risques": [
+    {
+      "id": "fr:prendre-des-risques:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre du poids": [
+    {
+      "id": "fr:prendre-du-poids:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre l'air": [
+    {
+      "id": "fr:prendre-l-air:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre la fuite": [
+    {
+      "id": "fr:prendre-la-fuite:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre la parole": [
+    {
+      "id": "fr:prendre-la-parole:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre la température": [
+    {
+      "id": "fr:prendre-la-temperature:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre le dessus": [
+    {
+      "id": "fr:prendre-le-dessus:phrase",
+      "field": "word"
+    }
+  ],
   "prendre le petit-déjeuner": [
     {
       "id": "fr:prendre-le-petit-dejeuner:verb",
@@ -5504,6 +7588,24 @@
   "prendre sa retraite": [
     {
       "id": "fr:prendre-sa-retraite:verb",
+      "field": "word"
+    }
+  ],
+  "prendre soin de": [
+    {
+      "id": "fr:prendre-soin-de:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre un rendez-vous": [
+    {
+      "id": "fr:prendre-un-rendez-vous:phrase",
+      "field": "word"
+    }
+  ],
+  "prendre un verre": [
+    {
+      "id": "fr:prendre-un-verre:phrase",
       "field": "word"
     }
   ],
@@ -5563,6 +7665,18 @@
       "field": "word"
     }
   ],
+  "productif": [
+    {
+      "id": "fr:productif:adjective",
+      "field": "word"
+    }
+  ],
+  "produire": [
+    {
+      "id": "fr:produire:verb",
+      "field": "word"
+    }
+  ],
   "professeur": [
     {
       "id": "fr:professeur:noun",
@@ -5573,6 +7687,18 @@
     {
       "id": "fr:professeur:noun",
       "field": "plural_form"
+    }
+  ],
+  "professionnel": [
+    {
+      "id": "fr:professionnel:adjective",
+      "field": "word"
+    }
+  ],
+  "profiter de": [
+    {
+      "id": "fr:profiter-de:phrase",
+      "field": "word"
     }
   ],
   "projet": [
@@ -5593,9 +7719,33 @@
       "field": "word"
     }
   ],
+  "promotion": [
+    {
+      "id": "fr:promotion:noun",
+      "field": "word"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "fr:promotion:noun",
+      "field": "plural_form"
+    }
+  ],
+  "promouvoir": [
+    {
+      "id": "fr:promouvoir:verb",
+      "field": "word"
+    }
+  ],
   "propre": [
     {
       "id": "fr:propre:adjective",
+      "field": "word"
+    }
+  ],
+  "précédent": [
+    {
+      "id": "fr:precedent:adjective",
       "field": "word"
     }
   ],
@@ -5623,9 +7773,27 @@
       "field": "plural_form"
     }
   ],
+  "prévenir": [
+    {
+      "id": "fr:prevenir:verb",
+      "field": "word"
+    }
+  ],
+  "prévoir": [
+    {
+      "id": "fr:prevoir:verb",
+      "field": "word"
+    }
+  ],
   "prêt": [
     {
       "id": "fr:pret:adjective",
+      "field": "word"
+    }
+  ],
+  "prêt hypothécaire": [
+    {
+      "id": "fr:pret-hypothecaire:noun",
       "field": "word"
     }
   ],
@@ -5633,6 +7801,12 @@
     {
       "id": "fr:preter:verb",
       "field": "word"
+    }
+  ],
+  "prêts hypothécaires": [
+    {
+      "id": "fr:pret-hypothecaire:noun",
+      "field": "plural_form"
     }
   ],
   "public": [
@@ -5701,6 +7875,12 @@
       "field": "plural_form"
     }
   ],
+  "qualifié": [
+    {
+      "id": "fr:qualifie:adjective",
+      "field": "word"
+    }
+  ],
   "quand": [
     {
       "id": "fr:quand:adverb",
@@ -5711,6 +7891,18 @@
     {
       "id": "fr:quarante:number",
       "field": "word"
+    }
+  ],
+  "quartier": [
+    {
+      "id": "fr:quartier:noun",
+      "field": "word"
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "fr:quartier:noun",
+      "field": "plural_form"
     }
   ],
   "quatorze": [
@@ -5779,6 +7971,12 @@
       "field": "word"
     }
   ],
+  "quotidien": [
+    {
+      "id": "fr:quotidien:adjective",
+      "field": "word"
+    }
+  ],
   "racine": [
     {
       "id": "fr:racine:noun",
@@ -5789,6 +7987,12 @@
     {
       "id": "fr:racine:noun",
       "field": "plural_form"
+    }
+  ],
+  "raconter des salades": [
+    {
+      "id": "fr:raconter-des-salades:phrase",
+      "field": "word"
     }
   ],
   "raisin": [
@@ -5815,6 +8019,18 @@
       "field": "word"
     }
   ],
+  "rapporter": [
+    {
+      "id": "fr:rapporter:verb",
+      "field": "word"
+    }
+  ],
+  "rare": [
+    {
+      "id": "fr:rare:adjective",
+      "field": "word"
+    }
+  ],
   "recette": [
     {
       "id": "fr:recette:noun",
@@ -5827,9 +8043,27 @@
       "field": "plural_form"
     }
   ],
+  "recevoir": [
+    {
+      "id": "fr:recevoir:verb",
+      "field": "word"
+    }
+  ],
+  "recommander": [
+    {
+      "id": "fr:recommander:verb",
+      "field": "word"
+    }
+  ],
   "recyclage": [
     {
       "id": "fr:recyclage:noun",
+      "field": "word"
+    }
+  ],
+  "recycler": [
+    {
+      "id": "fr:recycler:verb",
       "field": "word"
     }
   ],
@@ -5845,9 +8079,39 @@
       "field": "word"
     }
   ],
+  "rejeter": [
+    {
+      "id": "fr:rejeter:verb",
+      "field": "word"
+    }
+  ],
+  "rejoindre": [
+    {
+      "id": "fr:rejoindre:verb",
+      "field": "word"
+    }
+  ],
   "remercier": [
     {
       "id": "fr:remercier:verb",
+      "field": "word"
+    }
+  ],
+  "remettre à demain": [
+    {
+      "id": "fr:remettre-a-demain:phrase",
+      "field": "word"
+    }
+  ],
+  "remettre à plus tard": [
+    {
+      "id": "fr:remettre-a-plus-tard:verb",
+      "field": "word"
+    }
+  ],
+  "remplacer": [
+    {
+      "id": "fr:remplacer:verb",
       "field": "word"
     }
   ],
@@ -5879,9 +8143,27 @@
       "field": "word"
     }
   ],
+  "rendre service": [
+    {
+      "id": "fr:rendre-service:phrase",
+      "field": "word"
+    }
+  ],
   "repasser": [
     {
       "id": "fr:repasser:verb",
+      "field": "word"
+    }
+  ],
+  "reprendre son souffle": [
+    {
+      "id": "fr:reprendre-son-souffle:phrase",
+      "field": "word"
+    }
+  ],
+  "responsable": [
+    {
+      "id": "fr:responsable:adjective",
       "field": "word"
     }
   ],
@@ -5893,14 +8175,28 @@
   ],
   "restaurant": [
     {
+      "id": "fr:restaurant-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:restaurant:noun",
       "field": "word"
     }
   ],
   "restaurants": [
     {
+      "id": "fr:restaurant-a2:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "fr:restaurant:noun",
       "field": "plural_form"
+    }
+  ],
+  "rester": [
+    {
+      "id": "fr:rester:verb",
+      "field": "word"
     }
   ],
   "retard": [
@@ -5913,6 +8209,12 @@
     {
       "id": "fr:retard:noun",
       "field": "plural_form"
+    }
+  ],
+  "retirer": [
+    {
+      "id": "fr:retirer:verb",
+      "field": "word"
     }
   ],
   "reçu": [
@@ -5940,6 +8242,10 @@
     }
   ],
   "riche": [
+    {
+      "id": "fr:riche-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "fr:riche:adjective",
       "field": "word"
@@ -5971,17 +8277,33 @@
   ],
   "riz": [
     {
+      "id": "fr:riz-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:riz-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:riz:noun",
       "field": "word"
     }
   ],
   "robe": [
     {
+      "id": "fr:robe-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:robe:noun",
       "field": "word"
     }
   ],
   "robes": [
+    {
+      "id": "fr:robe-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:robe:noun",
       "field": "plural_form"
@@ -6041,6 +8363,18 @@
       "field": "word"
     }
   ],
+  "récent": [
+    {
+      "id": "fr:recent:adjective",
+      "field": "word"
+    }
+  ],
+  "réclamer": [
+    {
+      "id": "fr:reclamer:verb",
+      "field": "word"
+    }
+  ],
   "réduction": [
     {
       "id": "fr:reduction:noun",
@@ -6051,6 +8385,12 @@
     {
       "id": "fr:reduction:noun",
       "field": "plural_form"
+    }
+  ],
+  "réduire": [
+    {
+      "id": "fr:reduire:verb",
+      "field": "word"
     }
   ],
   "réfrigérateur": [
@@ -6075,6 +8415,18 @@
     {
       "id": "fr:regime:noun",
       "field": "plural_form"
+    }
+  ],
+  "régler": [
+    {
+      "id": "fr:regler:verb",
+      "field": "word"
+    }
+  ],
+  "régulier": [
+    {
+      "id": "fr:regulier:adjective",
+      "field": "word"
     }
   ],
   "réparer": [
@@ -6131,6 +8483,12 @@
       "field": "plural_form"
     }
   ],
+  "résoudre": [
+    {
+      "id": "fr:resoudre:verb",
+      "field": "word"
+    }
+  ],
   "réunion": [
     {
       "id": "fr:reunion:noun",
@@ -6141,6 +8499,12 @@
     {
       "id": "fr:reunion:noun",
       "field": "plural_form"
+    }
+  ],
+  "réussi": [
+    {
+      "id": "fr:reussi:adjective",
+      "field": "word"
     }
   ],
   "réussir": [
@@ -6179,6 +8543,12 @@
       "field": "plural_form"
     }
   ],
+  "s'adapter à": [
+    {
+      "id": "fr:s-adapter-a:phrase",
+      "field": "word"
+    }
+  ],
   "s'arrêter": [
     {
       "id": "fr:s-arreter:verb",
@@ -6191,15 +8561,51 @@
       "field": "word"
     }
   ],
+  "s'attendre à": [
+    {
+      "id": "fr:s-attendre-a:phrase",
+      "field": "word"
+    }
+  ],
+  "s'en aller": [
+    {
+      "id": "fr:s-en-aller:phrase",
+      "field": "word"
+    }
+  ],
+  "s'en mordre les doigts": [
+    {
+      "id": "fr:s-en-mordre-les-doigts:phrase",
+      "field": "word"
+    }
+  ],
+  "s'en sortir": [
+    {
+      "id": "fr:s-en-sortir:phrase",
+      "field": "word"
+    }
+  ],
   "s'excuser": [
     {
       "id": "fr:s-excuser:verb",
       "field": "word"
     }
   ],
+  "s'excuser de": [
+    {
+      "id": "fr:s-excuser-de:phrase",
+      "field": "word"
+    }
+  ],
   "s'habiller": [
     {
       "id": "fr:s-habiller:verb",
+      "field": "word"
+    }
+  ],
+  "s'habituer à": [
+    {
+      "id": "fr:s-habituer-a:phrase",
       "field": "word"
     }
   ],
@@ -6215,6 +8621,30 @@
       "field": "word"
     }
   ],
+  "s'inquiéter de": [
+    {
+      "id": "fr:s-inquieter-de:phrase",
+      "field": "word"
+    }
+  ],
+  "s'intéresser à": [
+    {
+      "id": "fr:s-interesser-a:phrase",
+      "field": "word"
+    }
+  ],
+  "s'occuper de": [
+    {
+      "id": "fr:s-occuper-de:verb",
+      "field": "word"
+    }
+  ],
+  "s'étonner de": [
+    {
+      "id": "fr:s-etonner-de:phrase",
+      "field": "word"
+    }
+  ],
   "sac": [
     {
       "id": "fr:sac:noun",
@@ -6225,6 +8655,12 @@
     {
       "id": "fr:sac:noun",
       "field": "plural_form"
+    }
+  ],
+  "sain": [
+    {
+      "id": "fr:sain:adjective",
+      "field": "word"
     }
   ],
   "salade": [
@@ -6347,15 +8783,45 @@
       "field": "word"
     }
   ],
+  "se concentrer sur": [
+    {
+      "id": "fr:se-concentrer-sur:phrase",
+      "field": "word"
+    }
+  ],
   "se coucher": [
     {
       "id": "fr:se-coucher:verb",
       "field": "word"
     }
   ],
+  "se disputer": [
+    {
+      "id": "fr:se-disputer:verb",
+      "field": "word"
+    }
+  ],
   "se doucher": [
     {
       "id": "fr:se-doucher:verb",
+      "field": "word"
+    }
+  ],
+  "se débrouiller": [
+    {
+      "id": "fr:se-debrouiller:phrase",
+      "field": "word"
+    }
+  ],
+  "se décider à": [
+    {
+      "id": "fr:se-decider-a:phrase",
+      "field": "word"
+    }
+  ],
+  "se déconnecter": [
+    {
+      "id": "fr:se-deconnecter:verb",
       "field": "word"
     }
   ],
@@ -6377,6 +8843,24 @@
       "field": "word"
     }
   ],
+  "se faire des amis": [
+    {
+      "id": "fr:se-faire-des-amis:phrase",
+      "field": "word"
+    }
+  ],
+  "se faire des idées": [
+    {
+      "id": "fr:se-faire-des-idees:phrase",
+      "field": "word"
+    }
+  ],
+  "se faire du souci": [
+    {
+      "id": "fr:se-faire-du-souci:phrase",
+      "field": "word"
+    }
+  ],
   "se lever": [
     {
       "id": "fr:se-lever-routine:verb",
@@ -6387,15 +8871,69 @@
       "field": "word"
     }
   ],
+  "se mettre en colère": [
+    {
+      "id": "fr:se-mettre-en-colere:phrase",
+      "field": "word"
+    }
+  ],
+  "se mettre à": [
+    {
+      "id": "fr:se-mettre-a:phrase",
+      "field": "word"
+    }
+  ],
+  "se moquer de": [
+    {
+      "id": "fr:se-moquer-de:phrase",
+      "field": "word"
+    }
+  ],
+  "se passer": [
+    {
+      "id": "fr:se-passer:verb",
+      "field": "word"
+    }
+  ],
+  "se passer de": [
+    {
+      "id": "fr:se-passer-de:phrase",
+      "field": "word"
+    }
+  ],
   "se plaindre": [
     {
       "id": "fr:se-plaindre:verb",
       "field": "word"
     }
   ],
+  "se plaindre de": [
+    {
+      "id": "fr:se-plaindre-de:phrase",
+      "field": "word"
+    }
+  ],
+  "se poser des questions": [
+    {
+      "id": "fr:se-poser-des-questions:phrase",
+      "field": "word"
+    }
+  ],
+  "se rendre compte": [
+    {
+      "id": "fr:se-rendre-compte:phrase",
+      "field": "word"
+    }
+  ],
   "se reposer": [
     {
       "id": "fr:se-reposer:verb",
+      "field": "word"
+    }
+  ],
+  "se réjouir de": [
+    {
+      "id": "fr:se-rejouir-de:phrase",
       "field": "word"
     }
   ],
@@ -6411,9 +8949,39 @@
       "field": "word"
     }
   ],
+  "se sentir mal à l'aise": [
+    {
+      "id": "fr:se-sentir-mal-a-l-aise:phrase",
+      "field": "word"
+    }
+  ],
+  "se sentir à l'aise": [
+    {
+      "id": "fr:se-sentir-a-l-aise:phrase",
+      "field": "word"
+    }
+  ],
+  "se serrer la main": [
+    {
+      "id": "fr:se-serrer-la-main:phrase",
+      "field": "word"
+    }
+  ],
   "se souvenir": [
     {
       "id": "fr:se-souvenir:verb",
+      "field": "word"
+    }
+  ],
+  "se souvenir de": [
+    {
+      "id": "fr:se-souvenir-de:phrase",
+      "field": "word"
+    }
+  ],
+  "se tromper": [
+    {
+      "id": "fr:se-tromper:phrase",
       "field": "word"
     }
   ],
@@ -6439,6 +9007,12 @@
     {
       "id": "fr:semaine:noun",
       "field": "plural_form"
+    }
+  ],
+  "sembler": [
+    {
+      "id": "fr:sembler:verb",
+      "field": "word"
     }
   ],
   "sept": [
@@ -6489,6 +9063,12 @@
     {
       "id": "fr:serviette:noun",
       "field": "plural_form"
+    }
+  ],
+  "servir": [
+    {
+      "id": "fr:servir:verb",
+      "field": "word"
     }
   ],
   "si": [
@@ -6542,6 +9122,12 @@
   "six": [
     {
       "id": "fr:six:number",
+      "field": "word"
+    }
+  ],
+  "sociable": [
+    {
+      "id": "fr:sociable:adjective",
       "field": "word"
     }
   ],
@@ -6609,6 +9195,12 @@
       "field": "plural_form"
     }
   ],
+  "solidaire": [
+    {
+      "id": "fr:solidaire:adjective",
+      "field": "word"
+    }
+  ],
   "sols": [
     {
       "id": "fr:sol-terre:noun",
@@ -6622,6 +9214,12 @@
   "sortir": [
     {
       "id": "fr:sortir:verb",
+      "field": "word"
+    }
+  ],
+  "souffrir": [
+    {
+      "id": "fr:souffrir:verb",
       "field": "word"
     }
   ],
@@ -6651,6 +9249,24 @@
     {
       "id": "fr:sous:preposition",
       "field": "word"
+    }
+  ],
+  "soutenir": [
+    {
+      "id": "fr:soutenir:verb",
+      "field": "word"
+    }
+  ],
+  "soutien": [
+    {
+      "id": "fr:soutien:noun",
+      "field": "word"
+    }
+  ],
+  "soutiens": [
+    {
+      "id": "fr:soutien:noun",
+      "field": "plural_form"
     }
   ],
   "souvent": [
@@ -6689,6 +9305,18 @@
       "field": "plural_form"
     }
   ],
+  "stressant": [
+    {
+      "id": "fr:stressant:adjective",
+      "field": "word"
+    }
+  ],
+  "stressé": [
+    {
+      "id": "fr:stresse:adjective",
+      "field": "word"
+    }
+  ],
   "stylo": [
     {
       "id": "fr:stylo:noun",
@@ -6716,6 +9344,18 @@
   "sud": [
     {
       "id": "fr:sud:noun",
+      "field": "word"
+    }
+  ],
+  "suggérer": [
+    {
+      "id": "fr:suggerer:verb",
+      "field": "word"
+    }
+  ],
+  "suivre": [
+    {
+      "id": "fr:suivre:verb",
       "field": "word"
     }
   ],
@@ -6877,6 +9517,12 @@
       "field": "plural_form"
     }
   ],
+  "tenir sa promesse": [
+    {
+      "id": "fr:tenir-sa-promesse:phrase",
+      "field": "word"
+    }
+  ],
   "terre": [
     {
       "id": "fr:terre:noun",
@@ -6913,6 +9559,18 @@
       "field": "plural_form"
     }
   ],
+  "tigre": [
+    {
+      "id": "fr:tigre:noun",
+      "field": "word"
+    }
+  ],
+  "tigres": [
+    {
+      "id": "fr:tigre:noun",
+      "field": "plural_form"
+    }
+  ],
   "timide": [
     {
       "id": "fr:timide:adjective",
@@ -6933,11 +9591,19 @@
   ],
   "tomate": [
     {
+      "id": "fr:tomate-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:tomate:noun",
       "field": "word"
     }
   ],
   "tomates": [
+    {
+      "id": "fr:tomate-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:tomate:noun",
       "field": "plural_form"
@@ -6946,6 +9612,18 @@
   "tomber": [
     {
       "id": "fr:tomber:verb",
+      "field": "word"
+    }
+  ],
+  "tomber bien": [
+    {
+      "id": "fr:tomber-bien:phrase",
+      "field": "word"
+    }
+  ],
+  "tomber mal": [
+    {
+      "id": "fr:tomber-mal:phrase",
       "field": "word"
     }
   ],
@@ -6997,6 +9675,18 @@
       "field": "word"
     }
   ],
+  "tourner en rond": [
+    {
+      "id": "fr:tourner-en-rond:phrase",
+      "field": "word"
+    }
+  ],
+  "tourner la page": [
+    {
+      "id": "fr:tourner-la-page:phrase",
+      "field": "word"
+    }
+  ],
   "tours": [
     {
       "id": "fr:tour:noun",
@@ -7031,6 +9721,12 @@
       "field": "word"
     }
   ],
+  "traditionnel": [
+    {
+      "id": "fr:traditionnel:adjective",
+      "field": "word"
+    }
+  ],
   "train": [
     {
       "id": "fr:train:noun",
@@ -7043,6 +9739,18 @@
       "field": "plural_form"
     }
   ],
+  "traiter": [
+    {
+      "id": "fr:traiter:verb",
+      "field": "word"
+    }
+  ],
+  "transférer": [
+    {
+      "id": "fr:transferer:verb",
+      "field": "word"
+    }
+  ],
   "travail": [
     {
       "id": "fr:travail:noun",
@@ -7052,6 +9760,12 @@
   "travailler": [
     {
       "id": "fr:travailler:verb",
+      "field": "word"
+    }
+  ],
+  "travailler dur": [
+    {
+      "id": "fr:travailler-dur:phrase",
       "field": "word"
     }
   ],
@@ -7145,6 +9859,18 @@
       "field": "word"
     }
   ],
+  "tuer": [
+    {
+      "id": "fr:tuer:verb",
+      "field": "word"
+    }
+  ],
+  "typique": [
+    {
+      "id": "fr:typique:adjective",
+      "field": "word"
+    }
+  ],
   "télécharger": [
     {
       "id": "fr:telecharger:verb",
@@ -7206,6 +9932,10 @@
     }
   ],
   "université": [
+    {
+      "id": "fr:universite-a2:noun",
+      "field": "word"
+    },
     {
       "id": "fr:universite:noun",
       "field": "word"
@@ -7277,6 +10007,12 @@
       "field": "plural_form"
     }
   ],
+  "valoir la peine": [
+    {
+      "id": "fr:valoir-la-peine:adjective",
+      "field": "word"
+    }
+  ],
   "vendeur": [
     {
       "id": "fr:vendeur:noun",
@@ -7319,6 +10055,12 @@
       "field": "word"
     }
   ],
+  "venteux": [
+    {
+      "id": "fr:venteux:adjective",
+      "field": "word"
+    }
+  ],
   "verre": [
     {
       "id": "fr:verre:noun",
@@ -7345,11 +10087,19 @@
   ],
   "veste": [
     {
+      "id": "fr:veste-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:veste:noun",
       "field": "word"
     }
   ],
   "vestes": [
+    {
+      "id": "fr:veste-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:veste:noun",
       "field": "plural_form"
@@ -7423,6 +10173,14 @@
   ],
   "vin": [
     {
+      "id": "fr:vin-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:vin-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:vin:noun",
       "field": "word"
     }
@@ -7473,6 +10231,18 @@
     {
       "id": "fr:visiter:verb",
       "field": "word"
+    }
+  ],
+  "vitamine": [
+    {
+      "id": "fr:vitamine:noun",
+      "field": "word"
+    }
+  ],
+  "vitamines": [
+    {
+      "id": "fr:vitamine:noun",
+      "field": "plural_form"
     }
   ],
   "vivre": [
@@ -7634,6 +10404,12 @@
   "à l'étranger": [
     {
       "id": "fr:a-l-etranger:adverb",
+      "field": "word"
+    }
+  ],
+  "à peu près": [
+    {
+      "id": "fr:a-peu-pres:phrase",
       "field": "word"
     }
   ],
@@ -7907,6 +10683,12 @@
       "field": "plural_form"
     }
   ],
+  "évaluer": [
+    {
+      "id": "fr:evaluer:verb",
+      "field": "word"
+    }
+  ],
   "évier": [
     {
       "id": "fr:evier:noun",
@@ -7925,15 +10707,39 @@
       "field": "word"
     }
   ],
+  "être aux anges": [
+    {
+      "id": "fr:etre-aux-anges:phrase",
+      "field": "word"
+    }
+  ],
   "être d'accord": [
     {
       "id": "fr:etre-d-accord:verb",
       "field": "word"
     }
   ],
+  "être dans le même bateau": [
+    {
+      "id": "fr:etre-dans-le-meme-bateau:phrase",
+      "field": "word"
+    }
+  ],
   "être en retard": [
     {
       "id": "fr:etre-en-retard:verb",
+      "field": "word"
+    }
+  ],
+  "être haut comme trois pommes": [
+    {
+      "id": "fr:etre-haut-comme-trois-pommes:phrase",
+      "field": "word"
+    }
+  ],
+  "être tiré à quatre épingles": [
+    {
+      "id": "fr:etre-tire-a-quatre-epingles:phrase",
       "field": "word"
     }
   ],

@@ -41,6 +41,12 @@
       "field": "word"
     }
   ],
+  "амбициозный": [
+    {
+      "id": "ru:ambitsioznyi:adjective",
+      "field": "word"
+    }
+  ],
   "америка": [
     {
       "id": "ru:amerika:noun",
@@ -107,6 +113,12 @@
       "field": "word"
     }
   ],
+  "арендовать": [
+    {
+      "id": "ru:arendovat:verb",
+      "field": "word"
+    }
+  ],
   "армии": [
     {
       "id": "ru:armiya:noun",
@@ -116,6 +128,12 @@
   "армия": [
     {
       "id": "ru:armiya:noun",
+      "field": "word"
+    }
+  ],
+  "атлетичный": [
+    {
+      "id": "ru:atletichnyi:adjective",
       "field": "word"
     }
   ],
@@ -197,6 +215,18 @@
       "field": "plural_form"
     }
   ],
+  "банковские счета": [
+    {
+      "id": "ru:bankovskii-schet:noun",
+      "field": "plural_form"
+    }
+  ],
+  "банковский счёт": [
+    {
+      "id": "ru:bankovskii-schet:noun",
+      "field": "word"
+    }
+  ],
   "батареи": [
     {
       "id": "ru:batareya:noun",
@@ -228,6 +258,10 @@
     }
   ],
   "бедный": [
+    {
+      "id": "ru:bednyi-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "ru:bednyi:adjective",
       "field": "word"
@@ -266,6 +300,12 @@
   "беременная": [
     {
       "id": "ru:beremennaya:adjective",
+      "field": "word"
+    }
+  ],
+  "бесплатный": [
+    {
+      "id": "ru:besplatnyi:adjective",
       "field": "word"
     }
   ],
@@ -317,10 +357,372 @@
       "field": "word"
     }
   ],
+  "блины": [
+    {
+      "id": "ru:bliny:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:bliny:noun",
+      "field": "word"
+    }
+  ],
+  "блондин": [
+    {
+      "id": "ru:blondin:adjective",
+      "field": "word"
+    }
+  ],
   "богатый": [
+    {
+      "id": "ru:bogatyi-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "ru:bogatyi:adjective",
       "field": "word"
+    }
+  ],
+  "более амбициозный": [
+    {
+      "id": "ru:ambitsioznyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более атлетичный": [
+    {
+      "id": "ru:atletichnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более бедный": [
+    {
+      "id": "ru:bednyi-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более бесплатный": [
+    {
+      "id": "ru:besplatnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более блондин": [
+    {
+      "id": "ru:blondin:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более богатый": [
+    {
+      "id": "ru:bogatyi-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более больной": [
+    {
+      "id": "ru:bol-noi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более будущий": [
+    {
+      "id": "ru:budushchii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более в форме": [
+    {
+      "id": "ru:v-forme:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более ветреный": [
+    {
+      "id": "ru:vetrenyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более гибкий": [
+    {
+      "id": "ru:gibkii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более дешевый": [
+    {
+      "id": "ru:deshevyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более добрый": [
+    {
+      "id": "ru:dobryi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более доступный": [
+    {
+      "id": "ru:dostupnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более доступный по цене": [
+    {
+      "id": "ru:dostupnyi-po-tsene:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более ежедневный": [
+    {
+      "id": "ru:ezhednevnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более здоровый": [
+    {
+      "id": "ru:zdorovyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более квалифицированный": [
+    {
+      "id": "ru:kvalifitsirovannyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более комфортный": [
+    {
+      "id": "ru:komfortnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более красивый": [
+    {
+      "id": "ru:krasivyi-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более международный": [
+    {
+      "id": "ru:mezhdunarodnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более местный": [
+    {
+      "id": "ru:mestnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более на мели": [
+    {
+      "id": "ru:na-meli:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более надежный": [
+    {
+      "id": "ru:nadezhnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более напряженный": [
+    {
+      "id": "ru:napryazhennyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более недавний": [
+    {
+      "id": "ru:nedavnii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более независимый": [
+    {
+      "id": "ru:nezavisimyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более нездоровый": [
+    {
+      "id": "ru:nezdorovyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более общий": [
+    {
+      "id": "ru:obshchii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более общительный": [
+    {
+      "id": "ru:obshchitel-nyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более определенный": [
+    {
+      "id": "ru:opredelennyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более опытный": [
+    {
+      "id": "ru:opytnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более организованный": [
+    {
+      "id": "ru:organizovannyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более ответственный": [
+    {
+      "id": "ru:otvetstvennyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более поддерживающий": [
+    {
+      "id": "ru:podderzhivayushchii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более популярный": [
+    {
+      "id": "ru:populyarnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более практичный": [
+    {
+      "id": "ru:praktichnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более предыдущий": [
+    {
+      "id": "ru:predydushchii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более продуктивный": [
+    {
+      "id": "ru:produktivnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более профессиональный": [
+    {
+      "id": "ru:professional-nyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более прямой": [
+    {
+      "id": "ru:pryamoi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более регулярный": [
+    {
+      "id": "ru:regulyarnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более редкий": [
+    {
+      "id": "ru:redkii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более с лишним весом": [
+    {
+      "id": "ru:s-lishnim-vesom:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более серьезный": [
+    {
+      "id": "ru:ser-eznyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более сильный": [
+    {
+      "id": "ru:sil-nyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более снежный": [
+    {
+      "id": "ru:snezhnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более стоит": [
+    {
+      "id": "ru:stoit:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более стрессовый": [
+    {
+      "id": "ru:stressovyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более творческий": [
+    {
+      "id": "ru:tvorcheskii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более текущий": [
+    {
+      "id": "ru:tekushchii:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более типичный": [
+    {
+      "id": "ru:tipichnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более традиционный": [
+    {
+      "id": "ru:traditsionnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более трудный": [
+    {
+      "id": "ru:trudnyi-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более успешный": [
+    {
+      "id": "ru:uspeshnyi:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более уставший": [
+    {
+      "id": "ru:ustavshii-a2:adjective",
+      "field": "comparative"
+    }
+  ],
+  "более ясный": [
+    {
+      "id": "ru:yasnyi:adjective",
+      "field": "comparative"
     }
   ],
   "болеть": [
@@ -343,17 +745,29 @@
   ],
   "больница": [
     {
+      "id": "ru:bol-nitsa:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:bolnitsa:noun",
       "field": "word"
     }
   ],
   "больницы": [
     {
+      "id": "ru:bol-nitsa:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "ru:bolnitsa:noun",
       "field": "plural_form"
     }
   ],
   "больной": [
+    {
+      "id": "ru:bol-noi:adjective",
+      "field": "word"
+    },
     {
       "id": "ru:bolnoi:adjective",
       "field": "word"
@@ -392,6 +806,12 @@
   "брать": [
     {
       "id": "ru:brat:verb",
+      "field": "word"
+    }
+  ],
+  "брать на себя": [
+    {
+      "id": "ru:brat-na-sebya:verb",
       "field": "word"
     }
   ],
@@ -440,6 +860,12 @@
   "будний день": [
     {
       "id": "ru:budnii-den:noun",
+      "field": "word"
+    }
+  ],
+  "будущий": [
+    {
+      "id": "ru:budushchii:adjective",
       "field": "word"
     }
   ],
@@ -503,6 +929,30 @@
       "field": "word"
     }
   ],
+  "быть должным": [
+    {
+      "id": "ru:byt-dolzhnym:verb",
+      "field": "word"
+    }
+  ],
+  "быть на седьмом небе": [
+    {
+      "id": "ru:byt-na-sed-mom-nebe:phrase",
+      "field": "word"
+    }
+  ],
+  "бюджет": [
+    {
+      "id": "ru:byudzhet:noun",
+      "field": "word"
+    }
+  ],
+  "бюджеты": [
+    {
+      "id": "ru:byudzhet:noun",
+      "field": "plural_form"
+    }
+  ],
   "в": [
     {
       "id": "ru:v:preposition",
@@ -512,6 +962,12 @@
   "в общем": [
     {
       "id": "ru:v-obshchem:phrase",
+      "field": "word"
+    }
+  ],
+  "в форме": [
+    {
+      "id": "ru:v-forme:adjective",
       "field": "word"
     }
   ],
@@ -575,9 +1031,27 @@
       "field": "word"
     }
   ],
+  "вести": [
+    {
+      "id": "ru:vesti:verb",
+      "field": "word"
+    }
+  ],
+  "вести переговоры": [
+    {
+      "id": "ru:vesti-peregovory:verb",
+      "field": "word"
+    }
+  ],
   "ветер": [
     {
       "id": "ru:veter:noun",
+      "field": "word"
+    }
+  ],
+  "ветреный": [
+    {
+      "id": "ru:vetrenyi:adjective",
       "field": "word"
     }
   ],
@@ -661,6 +1135,14 @@
   ],
   "вино": [
     {
+      "id": "ru:vino-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:vino-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:vino:noun",
       "field": "word"
     }
@@ -669,6 +1151,24 @@
     {
       "id": "ru:vinograd:noun",
       "field": "word"
+    }
+  ],
+  "висеть на телефоне": [
+    {
+      "id": "ru:viset-na-telefone:phrase",
+      "field": "word"
+    }
+  ],
+  "витамин": [
+    {
+      "id": "ru:vitamin:noun",
+      "field": "word"
+    }
+  ],
+  "витамины": [
+    {
+      "id": "ru:vitamin:noun",
+      "field": "plural_form"
     }
   ],
   "включать": [
@@ -680,6 +1180,12 @@
   "вкусный": [
     {
       "id": "ru:vkusnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "владеть": [
+    {
+      "id": "ru:vladet:verb",
       "field": "word"
     }
   ],
@@ -698,6 +1204,12 @@
   "во время": [
     {
       "id": "ru:vo-vremya:preposition",
+      "field": "word"
+    }
+  ],
+  "вогнать в краску": [
+    {
+      "id": "ru:vognat-v-krasku:phrase",
       "field": "word"
     }
   ],
@@ -867,6 +1379,24 @@
       "field": "word"
     }
   ],
+  "вставать с колен": [
+    {
+      "id": "ru:vstavat-s-kolen:phrase",
+      "field": "word"
+    }
+  ],
+  "вставлять палки в колеса": [
+    {
+      "id": "ru:vstavlyat-palki-v-kolesa:phrase",
+      "field": "word"
+    }
+  ],
+  "встать не с той ноги": [
+    {
+      "id": "ru:vstat-ne-s-toi-nogi:phrase",
+      "field": "word"
+    }
+  ],
   "встретить": [
     {
       "id": "ru:vstretit:verb",
@@ -882,6 +1412,12 @@
   "встречать": [
     {
       "id": "ru:vstrechat:verb",
+      "field": "word"
+    }
+  ],
+  "встречать с распростёртыми объятиями": [
+    {
+      "id": "ru:vstrechat-s-rasprostertymi-ob-yatiyami:phrase",
       "field": "word"
     }
   ],
@@ -942,6 +1478,12 @@
   "выбрать": [
     {
       "id": "ru:vybrat:verb",
+      "field": "word"
+    }
+  ],
+  "вывести на чистую воду": [
+    {
+      "id": "ru:vyvesti-na-chistuyu-vodu:phrase",
       "field": "word"
     }
   ],
@@ -1011,6 +1553,12 @@
       "field": "word"
     }
   ],
+  "выходить из системы": [
+    {
+      "id": "ru:vykhodit-iz-sistemy:verb",
+      "field": "word"
+    }
+  ],
   "выходить на пенсию": [
     {
       "id": "ru:vykhodit-na-pensiyu:phrase",
@@ -1020,6 +1568,12 @@
   "выходные": [
     {
       "id": "ru:vykhodnye:noun",
+      "field": "word"
+    }
+  ],
+  "выяснять": [
+    {
+      "id": "ru:vyyasnyat:verb",
       "field": "word"
     }
   ],
@@ -1044,6 +1598,12 @@
   "германия": [
     {
       "id": "ru:germaniya:noun",
+      "field": "word"
+    }
+  ],
+  "гибкий": [
+    {
+      "id": "ru:gibkii:adjective",
       "field": "word"
     }
   ],
@@ -1093,6 +1653,30 @@
     {
       "id": "ru:glaz:noun",
       "field": "plural_form"
+    }
+  ],
+  "глаза на лоб лезут": [
+    {
+      "id": "ru:glaza-na-lob-lezut:phrase",
+      "field": "word"
+    }
+  ],
+  "глаза разбегаются": [
+    {
+      "id": "ru:glaza-razbegayutsya:phrase",
+      "field": "word"
+    }
+  ],
+  "гнаться за двумя зайцами": [
+    {
+      "id": "ru:gnat-sya-za-dvumya-zaitsami:phrase",
+      "field": "word"
+    }
+  ],
+  "гнуть свою линию": [
+    {
+      "id": "ru:gnut-svoyu-liniyu:phrase",
+      "field": "word"
     }
   ],
   "говорить": [
@@ -1311,6 +1895,12 @@
       "field": "word"
     }
   ],
+  "давать в долг": [
+    {
+      "id": "ru:davat-v-dolg:verb",
+      "field": "word"
+    }
+  ],
   "далёкий": [
     {
       "id": "ru:dalyokyi:adjective",
@@ -1320,6 +1910,12 @@
   "дать": [
     {
       "id": "ru:dat:verb",
+      "field": "word"
+    }
+  ],
+  "дать зелёный свет": [
+    {
+      "id": "ru:dat-zelenyi-svet:phrase",
       "field": "word"
     }
   ],
@@ -1371,6 +1967,18 @@
       "field": "word"
     }
   ],
+  "дедлайн": [
+    {
+      "id": "ru:dedlain:noun",
+      "field": "word"
+    }
+  ],
+  "дедлайны": [
+    {
+      "id": "ru:dedlain:noun",
+      "field": "plural_form"
+    }
+  ],
   "дедушка": [
     {
       "id": "ru:dedushka:noun",
@@ -1398,6 +2006,18 @@
   "делать": [
     {
       "id": "ru:delat:verb",
+      "field": "word"
+    }
+  ],
+  "делегировать": [
+    {
+      "id": "ru:delegirovat:verb",
+      "field": "word"
+    }
+  ],
+  "делиться": [
+    {
+      "id": "ru:delit-sya:verb",
       "field": "word"
     }
   ],
@@ -1437,6 +2057,24 @@
       "field": "plural_form"
     }
   ],
+  "держать в секрете": [
+    {
+      "id": "ru:derzhat-v-sekrete:phrase",
+      "field": "word"
+    }
+  ],
+  "держать в уезде": [
+    {
+      "id": "ru:derzhat-v-uezde:phrase",
+      "field": "word"
+    }
+  ],
+  "держать себя в руках": [
+    {
+      "id": "ru:derzhat-sebya-v-rukakh:phrase",
+      "field": "word"
+    }
+  ],
   "десять": [
     {
       "id": "ru:desyat:number",
@@ -1447,6 +2085,12 @@
     {
       "id": "ru:rebyonok:noun",
       "field": "plural_form"
+    }
+  ],
+  "дешевый": [
+    {
+      "id": "ru:deshevyi:adjective",
+      "field": "word"
     }
   ],
   "дешёвый": [
@@ -1461,13 +2105,27 @@
       "field": "word"
     }
   ],
+  "диагностировать": [
+    {
+      "id": "ru:diagnostirovat:verb",
+      "field": "word"
+    }
+  ],
   "диван": [
+    {
+      "id": "ru:divan-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:divan:noun",
       "field": "word"
     }
   ],
   "диваны": [
+    {
+      "id": "ru:divan-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:divan:noun",
       "field": "plural_form"
@@ -1551,9 +2209,27 @@
       "field": "word"
     }
   ],
+  "добрый": [
+    {
+      "id": "ru:dobryi:adjective",
+      "field": "word"
+    }
+  ],
   "добрый вечер": [
     {
       "id": "ru:dobryi-vecher:phrase",
+      "field": "word"
+    }
+  ],
+  "доверие": [
+    {
+      "id": "ru:doverie:noun",
+      "field": "word"
+    }
+  ],
+  "доверять": [
+    {
+      "id": "ru:doveryat:verb",
       "field": "word"
     }
   ],
@@ -1573,6 +2249,18 @@
     {
       "id": "ru:dozhd:noun",
       "field": "word"
+    }
+  ],
+  "долг": [
+    {
+      "id": "ru:dolg:noun",
+      "field": "word"
+    }
+  ],
+  "долги": [
+    {
+      "id": "ru:dolg:noun",
+      "field": "plural_form"
     }
   ],
   "должности": [
@@ -1632,6 +2320,24 @@
   "достаточно": [
     {
       "id": "ru:dostatochno:adverb",
+      "field": "word"
+    }
+  ],
+  "достигать": [
+    {
+      "id": "ru:dostigat:verb",
+      "field": "word"
+    }
+  ],
+  "доступный": [
+    {
+      "id": "ru:dostupnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "доступный по цене": [
+    {
+      "id": "ru:dostupnyi-po-tsene:adjective",
       "field": "word"
     }
   ],
@@ -1698,6 +2404,12 @@
   "дядя": [
     {
       "id": "ru:dyadya:noun",
+      "field": "word"
+    }
+  ],
+  "ежедневный": [
+    {
+      "id": "ru:ezhednevnyi:adjective",
       "field": "word"
     }
   ],
@@ -1815,6 +2527,18 @@
       "field": "word"
     }
   ],
+  "за границу": [
+    {
+      "id": "ru:za-granitsu:adverb",
+      "field": "word"
+    }
+  ],
+  "забивать голову": [
+    {
+      "id": "ru:zabivat-golovu:phrase",
+      "field": "word"
+    }
+  ],
   "заболеть": [
     {
       "id": "ru:zabolet:verb",
@@ -1875,6 +2599,12 @@
       "field": "plural_form"
     }
   ],
+  "заговаривать зубы": [
+    {
+      "id": "ru:zagovarivat-zuby:phrase",
+      "field": "word"
+    }
+  ],
   "загрязнение": [
     {
       "id": "ru:zagryazneniye:noun",
@@ -1932,6 +2662,18 @@
   "закрыть": [
     {
       "id": "ru:zakryt:verb",
+      "field": "word"
+    }
+  ],
+  "заменять": [
+    {
+      "id": "ru:zamenyat:verb",
+      "field": "word"
+    }
+  ],
+  "занимать": [
+    {
+      "id": "ru:zanimat:verb",
       "field": "word"
     }
   ],
@@ -2019,6 +2761,18 @@
       "field": "word"
     }
   ],
+  "заткнуть за пояс": [
+    {
+      "id": "ru:zatknut-za-poyas:phrase",
+      "field": "word"
+    }
+  ],
+  "заходить в тупик": [
+    {
+      "id": "ru:zakhodit-v-tupik:phrase",
+      "field": "word"
+    }
+  ],
   "звезда": [
     {
       "id": "ru:zvezda:noun",
@@ -2052,6 +2806,12 @@
   "здесь": [
     {
       "id": "ru:zdes:adverb",
+      "field": "word"
+    }
+  ],
+  "здоровый": [
+    {
+      "id": "ru:zdorovyi:adjective",
       "field": "word"
     }
   ],
@@ -2127,6 +2887,12 @@
       "field": "word"
     }
   ],
+  "золотая середина": [
+    {
+      "id": "ru:zolotaya-seredina:phrase",
+      "field": "word"
+    }
+  ],
   "золотой": [
     {
       "id": "ru:zolotoi:adjective",
@@ -2175,6 +2941,18 @@
       "field": "word"
     }
   ],
+  "играть на нервах": [
+    {
+      "id": "ru:igrat-na-nervakh:phrase",
+      "field": "word"
+    }
+  ],
+  "играть с огнём": [
+    {
+      "id": "ru:igrat-s-ognem:phrase",
+      "field": "word"
+    }
+  ],
   "игры": [
     {
       "id": "ru:igra:noun",
@@ -2199,9 +2977,27 @@
       "field": "word"
     }
   ],
+  "идти на компромисс": [
+    {
+      "id": "ru:idti-na-kompromiss:verb",
+      "field": "word"
+    }
+  ],
+  "идти на уступки": [
+    {
+      "id": "ru:idti-na-ustupki:phrase",
+      "field": "word"
+    }
+  ],
   "из": [
     {
       "id": "ru:iz:preposition",
+      "field": "word"
+    }
+  ],
+  "из первых рук": [
+    {
+      "id": "ru:iz-pervykh-ruk:phrase",
       "field": "word"
     }
   ],
@@ -2253,6 +3049,12 @@
       "field": "word"
     }
   ],
+  "инвестировать": [
+    {
+      "id": "ru:investirovat:verb",
+      "field": "word"
+    }
+  ],
   "ингредиент": [
     {
       "id": "ru:ingrediyent:noun",
@@ -2295,7 +3097,23 @@
       "field": "word"
     }
   ],
+  "ипотека": [
+    {
+      "id": "ru:ipoteka:noun",
+      "field": "word"
+    }
+  ],
+  "ипотеки": [
+    {
+      "id": "ru:ipoteka:noun",
+      "field": "plural_form"
+    }
+  ],
   "искать": [
+    {
+      "id": "ru:iskat-a2:verb",
+      "field": "word"
+    },
     {
       "id": "ru:iskat:verb",
       "field": "word"
@@ -2379,15 +3197,51 @@
       "field": "word"
     }
   ],
+  "казаться": [
+    {
+      "id": "ru:kazat-sya:verb",
+      "field": "word"
+    }
+  ],
   "как": [
     {
       "id": "ru:kak:pronoun",
       "field": "word"
     }
   ],
+  "как банный лист": [
+    {
+      "id": "ru:kak-bannyi-list:phrase",
+      "field": "word"
+    }
+  ],
   "как дела": [
     {
       "id": "ru:kak-dela:phrase",
+      "field": "word"
+    }
+  ],
+  "как на иголках": [
+    {
+      "id": "ru:kak-na-igolkakh:phrase",
+      "field": "word"
+    }
+  ],
+  "как об стенку горох": [
+    {
+      "id": "ru:kak-ob-stenku-gorokh:phrase",
+      "field": "word"
+    }
+  ],
+  "как с луны свалился": [
+    {
+      "id": "ru:kak-s-luny-svalilsya:phrase",
+      "field": "word"
+    }
+  ],
+  "как с луны упал": [
+    {
+      "id": "ru:kak-s-luny-upal:phrase",
       "field": "word"
     }
   ],
@@ -2407,6 +3261,12 @@
     {
       "id": "ru:kamen:noun",
       "field": "plural_form"
+    }
+  ],
+  "капля в море": [
+    {
+      "id": "ru:kaplya-v-more:phrase",
+      "field": "word"
     }
   ],
   "капуста": [
@@ -2459,6 +3319,14 @@
   ],
   "картофель": [
     {
+      "id": "ru:kartofel-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:kartofel-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:kartofel:noun",
       "field": "word"
     }
@@ -2505,6 +3373,12 @@
       "field": "word"
     }
   ],
+  "квалифицированный": [
+    {
+      "id": "ru:kvalifitsirovannyi:adjective",
+      "field": "word"
+    }
+  ],
   "квартира": [
     {
       "id": "ru:kvartira:noun",
@@ -2526,6 +3400,18 @@
   "кемпинги": [
     {
       "id": "ru:kemping:noun",
+      "field": "plural_form"
+    }
+  ],
+  "кинотеатр": [
+    {
+      "id": "ru:kinoteatr:noun",
+      "field": "word"
+    }
+  ],
+  "кинотеатры": [
+    {
+      "id": "ru:kinoteatr:noun",
       "field": "plural_form"
     }
   ],
@@ -2703,6 +3589,18 @@
       "field": "word"
     }
   ],
+  "компромисс": [
+    {
+      "id": "ru:kompromiss:noun",
+      "field": "word"
+    }
+  ],
+  "компромиссы": [
+    {
+      "id": "ru:kompromiss:noun",
+      "field": "plural_form"
+    }
+  ],
   "компьютер": [
     {
       "id": "ru:kompyuter:noun",
@@ -2718,6 +3616,12 @@
   "кому": [
     {
       "id": "ru:komu:pronoun",
+      "field": "word"
+    }
+  ],
+  "комфортный": [
+    {
+      "id": "ru:komfortnyi:adjective",
       "field": "word"
     }
   ],
@@ -2775,6 +3679,12 @@
       "field": "word"
     }
   ],
+  "кормить завтраками": [
+    {
+      "id": "ru:kormit-zavtrakami:phrase",
+      "field": "word"
+    }
+  ],
   "корни": [
     {
       "id": "ru:koren:noun",
@@ -2799,13 +3709,29 @@
       "field": "word"
     }
   ],
+  "кот наплакал": [
+    {
+      "id": "ru:kot-naplakal:phrase",
+      "field": "word"
+    }
+  ],
   "кофе": [
     {
       "id": "ru:kofe:noun",
       "field": "word"
     }
   ],
+  "кошелек": [
+    {
+      "id": "ru:koshelek:noun",
+      "field": "word"
+    }
+  ],
   "кошельки": [
+    {
+      "id": "ru:koshelek:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:koshelyok:noun",
       "field": "plural_form"
@@ -2843,6 +3769,10 @@
   ],
   "красивый": [
     {
+      "id": "ru:krasivyi-a2:adjective",
+      "field": "word"
+    },
+    {
       "id": "ru:krasivyi:adjective",
       "field": "word"
     }
@@ -2850,6 +3780,12 @@
   "красный": [
     {
       "id": "ru:krasnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "кредит": [
+    {
+      "id": "ru:kredit:noun",
       "field": "word"
     }
   ],
@@ -2865,6 +3801,12 @@
       "field": "plural_form"
     }
   ],
+  "кредиты": [
+    {
+      "id": "ru:kredit:noun",
+      "field": "plural_form"
+    }
+  ],
   "кровати": [
     {
       "id": "ru:krovat:noun",
@@ -2874,6 +3816,12 @@
   "кровать": [
     {
       "id": "ru:krovat:noun",
+      "field": "word"
+    }
+  ],
+  "крови попортить": [
+    {
+      "id": "ru:krovi-poportit:phrase",
       "field": "word"
     }
   ],
@@ -2893,6 +3841,12 @@
     {
       "id": "ru:krolik:noun",
       "field": "plural_form"
+    }
+  ],
+  "крутиться как белка в колесе": [
+    {
+      "id": "ru:krutit-sya-kak-belka-v-kolese:phrase",
+      "field": "word"
     }
   ],
   "крыша": [
@@ -2971,14 +3925,34 @@
   ],
   "куртка": [
     {
+      "id": "ru:kurtka-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:kurtka:noun",
       "field": "word"
     }
   ],
   "куртки": [
     {
+      "id": "ru:kurtka-a2:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "ru:kurtka:noun",
       "field": "plural_form"
+    }
+  ],
+  "куры не клюют": [
+    {
+      "id": "ru:kury-ne-klyuyut:phrase",
+      "field": "word"
+    }
+  ],
+  "кусать локти": [
+    {
+      "id": "ru:kusat-lokti:phrase",
+      "field": "word"
     }
   ],
   "кухни": [
@@ -2995,17 +3969,29 @@
   ],
   "лампа": [
     {
+      "id": "ru:lampa-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:lampa:noun",
       "field": "word"
     }
   ],
   "лампы": [
     {
+      "id": "ru:lampa-a2:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "ru:lampa:noun",
       "field": "plural_form"
     }
   ],
   "лев": [
+    {
+      "id": "ru:lev-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:lev:noun",
       "field": "word"
@@ -3014,6 +4000,12 @@
   "левый": [
     {
       "id": "ru:levyi:adjective",
+      "field": "word"
+    }
+  ],
+  "лезть из кожи вон": [
+    {
+      "id": "ru:lezt-iz-kozhi-von:phrase",
       "field": "word"
     }
   ],
@@ -3077,6 +4069,12 @@
       "field": "word"
     }
   ],
+  "лечить": [
+    {
+      "id": "ru:lechit:verb",
+      "field": "word"
+    }
+  ],
   "лимон": [
     {
       "id": "ru:limon:noun",
@@ -3113,6 +4111,18 @@
       "field": "plural_form"
     }
   ],
+  "лить воду на чужую мельницу": [
+    {
+      "id": "ru:lit-vodu-na-chuzhuyu-mel-nitsu:phrase",
+      "field": "word"
+    }
+  ],
+  "лить крокодиловы слезы": [
+    {
+      "id": "ru:lit-krokodilovy-slezy:phrase",
+      "field": "word"
+    }
+  ],
   "лица": [
     {
       "id": "ru:litso:noun",
@@ -3122,6 +4132,18 @@
   "лицо": [
     {
       "id": "ru:litso:noun",
+      "field": "word"
+    }
+  ],
+  "лишний вес": [
+    {
+      "id": "ru:lishnii-ves:noun",
+      "field": "word"
+    }
+  ],
+  "ловить": [
+    {
+      "id": "ru:lovit:verb",
       "field": "word"
     }
   ],
@@ -3158,6 +4180,12 @@
   "ломать": [
     {
       "id": "ru:lomat:verb",
+      "field": "word"
+    }
+  ],
+  "ломать голову": [
+    {
+      "id": "ru:lomat-golovu:phrase",
       "field": "word"
     }
   ],
@@ -3198,6 +4226,10 @@
     }
   ],
   "львы": [
+    {
+      "id": "ru:lev-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:lev:noun",
       "field": "plural_form"
@@ -3377,6 +4409,18 @@
       "field": "word"
     }
   ],
+  "между двух огней": [
+    {
+      "id": "ru:mezhdu-dvukh-ognei:phrase",
+      "field": "word"
+    }
+  ],
+  "международный": [
+    {
+      "id": "ru:mezhdunarodnyi:adjective",
+      "field": "word"
+    }
+  ],
   "меньше": [
     {
       "id": "ru:menshe:adverb",
@@ -3392,6 +4436,18 @@
   "менять": [
     {
       "id": "ru:menyat:verb",
+      "field": "word"
+    }
+  ],
+  "местная кухня": [
+    {
+      "id": "ru:mestnaya-kukhnya:noun",
+      "field": "word"
+    }
+  ],
+  "местный": [
+    {
+      "id": "ru:mestnyi:adjective",
       "field": "word"
     }
   ],
@@ -3539,8 +4595,18 @@
   ],
   "море": [
     {
+      "id": "ru:more-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:more:noun",
       "field": "word"
+    }
+  ],
+  "морей": [
+    {
+      "id": "ru:more-a2:noun",
+      "field": "plural_form"
     }
   ],
   "морковь": [
@@ -3553,6 +4619,24 @@
     {
       "id": "ru:morozhenoe:noun",
       "field": "word"
+    }
+  ],
+  "мороз по коже": [
+    {
+      "id": "ru:moroz-po-kozhe:phrase",
+      "field": "word"
+    }
+  ],
+  "морс": [
+    {
+      "id": "ru:mors:noun",
+      "field": "word"
+    }
+  ],
+  "морсы": [
+    {
+      "id": "ru:mors:noun",
+      "field": "plural_form"
     }
   ],
   "моря": [
@@ -3571,6 +4655,12 @@
     {
       "id": "ru:most:noun",
       "field": "plural_form"
+    }
+  ],
+  "мотать на уса": [
+    {
+      "id": "ru:motat-na-usa:phrase",
+      "field": "word"
     }
   ],
   "мотоцикл": [
@@ -3639,6 +4729,12 @@
       "field": "word"
     }
   ],
+  "мухи не обидит": [
+    {
+      "id": "ru:mukhi-ne-obidit:phrase",
+      "field": "word"
+    }
+  ],
   "мы": [
     {
       "id": "ru:my:pronoun",
@@ -3687,15 +4783,63 @@
       "field": "word"
     }
   ],
+  "на бегу": [
+    {
+      "id": "ru:na-begu:phrase",
+      "field": "word"
+    }
+  ],
+  "на вес золота": [
+    {
+      "id": "ru:na-ves-zolota:phrase",
+      "field": "word"
+    }
+  ],
+  "на волосок от гибели": [
+    {
+      "id": "ru:na-volosok-ot-gibeli:phrase",
+      "field": "word"
+    }
+  ],
+  "на лопатках": [
+    {
+      "id": "ru:na-lopatkakh:phrase",
+      "field": "word"
+    }
+  ],
+  "на мели": [
+    {
+      "id": "ru:na-meli:adjective",
+      "field": "word"
+    }
+  ],
   "на самом деле": [
     {
       "id": "ru:na-samom-dele:phrase",
       "field": "word"
     }
   ],
+  "надежный": [
+    {
+      "id": "ru:nadezhnyi:adjective",
+      "field": "word"
+    }
+  ],
   "надеяться": [
     {
       "id": "ru:nadeyatsya:verb",
+      "field": "word"
+    }
+  ],
+  "назначать цену": [
+    {
+      "id": "ru:naznachat-tsenu:verb",
+      "field": "word"
+    }
+  ],
+  "называть вещи своими именами": [
+    {
+      "id": "ru:nazyvat-veshchi-svoimi-imenami:phrase",
       "field": "word"
     }
   ],
@@ -3735,6 +4879,18 @@
       "field": "plural_form"
     }
   ],
+  "наломать дров": [
+    {
+      "id": "ru:nalomat-drov:phrase",
+      "field": "word"
+    }
+  ],
+  "намотать на усы": [
+    {
+      "id": "ru:namotat-na-usy:phrase",
+      "field": "word"
+    }
+  ],
   "нанимать": [
     {
       "id": "ru:nanimat:verb",
@@ -3765,6 +4921,12 @@
       "field": "word"
     }
   ],
+  "напряженный": [
+    {
+      "id": "ru:napryazhennyi:adjective",
+      "field": "word"
+    }
+  ],
   "население": [
     {
       "id": "ru:naseleniye:noun",
@@ -3781,6 +4943,24 @@
     {
       "id": "ru:nastroeniye:noun",
       "field": "plural_form"
+    }
+  ],
+  "наступать на те же грабли": [
+    {
+      "id": "ru:nastupat-na-te-zhe-grabli:phrase",
+      "field": "word"
+    }
+  ],
+  "наступить на горло собственной песне": [
+    {
+      "id": "ru:nastupit-na-gorlo-sobstvennoi-pesne:phrase",
+      "field": "word"
+    }
+  ],
+  "наступить на любимый мозоль": [
+    {
+      "id": "ru:nastupit-na-lyubimyi-mozol:phrase",
+      "field": "word"
     }
   ],
   "находить": [
@@ -3825,15 +5005,57 @@
       "field": "word"
     }
   ],
+  "не вешать нос": [
+    {
+      "id": "ru:ne-veshat-nos:phrase",
+      "field": "word"
+    }
+  ],
   "не за что": [
     {
       "id": "ru:ne-za-chto:phrase",
       "field": "word"
     }
   ],
+  "не лыком сшит": [
+    {
+      "id": "ru:ne-lykom-sshit:phrase",
+      "field": "word"
+    }
+  ],
+  "не лыком сшит человек": [
+    {
+      "id": "ru:ne-lykom-sshit-chelovek:phrase",
+      "field": "word"
+    }
+  ],
+  "не находить себе места": [
+    {
+      "id": "ru:ne-nakhodit-sebe-mesta:phrase",
+      "field": "word"
+    }
+  ],
   "не переживай": [
     {
       "id": "ru:ne-perezhivai:phrase",
+      "field": "word"
+    }
+  ],
+  "не подпускать на пушечный выстрел": [
+    {
+      "id": "ru:ne-podpuskat-na-pushechnyi-vystrel:phrase",
+      "field": "word"
+    }
+  ],
+  "не разлей вода": [
+    {
+      "id": "ru:ne-razlei-voda:phrase",
+      "field": "word"
+    }
+  ],
+  "не сидеть сложив руки": [
+    {
+      "id": "ru:ne-sidet-slozhiv-ruki:phrase",
       "field": "word"
     }
   ],
@@ -3855,6 +5077,12 @@
       "field": "word"
     }
   ],
+  "недавний": [
+    {
+      "id": "ru:nedavnii:adjective",
+      "field": "word"
+    }
+  ],
   "недели": [
     {
       "id": "ru:nedelya:noun",
@@ -3864,6 +5092,18 @@
   "неделя": [
     {
       "id": "ru:nedelya:noun",
+      "field": "word"
+    }
+  ],
+  "независимый": [
+    {
+      "id": "ru:nezavisimyi:adjective",
+      "field": "word"
+    }
+  ],
+  "нездоровый": [
+    {
+      "id": "ru:nezdorovyi:adjective",
       "field": "word"
     }
   ],
@@ -3912,6 +5152,12 @@
   "нести": [
     {
       "id": "ru:nesti:verb",
+      "field": "word"
+    }
+  ],
+  "ни толика сомнения": [
+    {
+      "id": "ru:ni-tolika-somneniya:phrase",
       "field": "word"
     }
   ],
@@ -4063,6 +5309,12 @@
       "field": "word"
     }
   ],
+  "обвести вокруг пальца": [
+    {
+      "id": "ru:obvesti-vokrug-pal-tsa:phrase",
+      "field": "word"
+    }
+  ],
   "обед": [
     {
       "id": "ru:obed:noun",
@@ -4117,6 +5369,12 @@
       "field": "word"
     }
   ],
+  "обсуждать": [
+    {
+      "id": "ru:obsuzhdat:verb",
+      "field": "word"
+    }
+  ],
   "обувь": [
     {
       "id": "ru:obuv:noun",
@@ -4138,6 +5396,18 @@
   "общество": [
     {
       "id": "ru:obshchestvo:noun",
+      "field": "word"
+    }
+  ],
+  "общий": [
+    {
+      "id": "ru:obshchii:adjective",
+      "field": "word"
+    }
+  ],
+  "общительный": [
+    {
+      "id": "ru:obshchitel-nyi:adjective",
       "field": "word"
     }
   ],
@@ -4253,6 +5523,12 @@
       "field": "plural_form"
     }
   ],
+  "ожидать": [
+    {
+      "id": "ru:ozhidat:verb",
+      "field": "word"
+    }
+  ],
   "озеро": [
     {
       "id": "ru:ozero:noun",
@@ -4331,9 +5607,33 @@
       "field": "word"
     }
   ],
+  "определенный": [
+    {
+      "id": "ru:opredelennyi:adjective",
+      "field": "word"
+    }
+  ],
+  "опыт": [
+    {
+      "id": "ru:opyt:noun",
+      "field": "word"
+    }
+  ],
+  "опытный": [
+    {
+      "id": "ru:opytnyi:adjective",
+      "field": "word"
+    }
+  ],
   "оранжевый": [
     {
       "id": "ru:oranzhevyi:adjective",
+      "field": "word"
+    }
+  ],
+  "организованный": [
+    {
+      "id": "ru:organizovannyi:adjective",
       "field": "word"
     }
   ],
@@ -4361,9 +5661,21 @@
       "field": "word"
     }
   ],
+  "основывать": [
+    {
+      "id": "ru:osnovyvat:verb",
+      "field": "word"
+    }
+  ],
   "особенный": [
     {
       "id": "ru:osobennyi:adjective",
+      "field": "word"
+    }
+  ],
+  "оставаться": [
+    {
+      "id": "ru:ostavat-sya:verb",
       "field": "word"
     }
   ],
@@ -4376,6 +5688,12 @@
   "остановиться": [
     {
       "id": "ru:ostanovitsya:verb",
+      "field": "word"
+    }
+  ],
+  "остаться с носом": [
+    {
+      "id": "ru:ostat-sya-s-nosom:phrase",
       "field": "word"
     }
   ],
@@ -4403,9 +5721,21 @@
       "field": "word"
     }
   ],
+  "ответственный": [
+    {
+      "id": "ru:otvetstvennyi:adjective",
+      "field": "word"
+    }
+  ],
   "отвечать": [
     {
       "id": "ru:otvechat:verb",
+      "field": "word"
+    }
+  ],
+  "отдать концы": [
+    {
+      "id": "ru:otdat-kontsy:phrase",
       "field": "word"
     }
   ],
@@ -4445,6 +5775,18 @@
       "field": "word"
     }
   ],
+  "откладывать": [
+    {
+      "id": "ru:otkladyvat:verb",
+      "field": "word"
+    }
+  ],
+  "отклонять": [
+    {
+      "id": "ru:otklonyat:verb",
+      "field": "word"
+    }
+  ],
   "открывать": [
     {
       "id": "ru:otkryvat:verb",
@@ -4460,6 +5802,12 @@
   "открыть": [
     {
       "id": "ru:otkryt:verb",
+      "field": "word"
+    }
+  ],
+  "отлегло от сердца": [
+    {
+      "id": "ru:otleglo-ot-serdtsa:phrase",
       "field": "word"
     }
   ],
@@ -4491,6 +5839,12 @@
     {
       "id": "ru:ofis:noun",
       "field": "plural_form"
+    }
+  ],
+  "оценивать": [
+    {
+      "id": "ru:otsenivat:verb",
+      "field": "word"
     }
   ],
   "очень": [
@@ -4601,6 +5955,24 @@
       "field": "word"
     }
   ],
+  "перевернуть страницу": [
+    {
+      "id": "ru:perevernut-stranitsu:phrase",
+      "field": "word"
+    }
+  ],
+  "переводить": [
+    {
+      "id": "ru:perevodit:verb",
+      "field": "word"
+    }
+  ],
+  "перегнуть палку": [
+    {
+      "id": "ru:peregnut-palku:phrase",
+      "field": "word"
+    }
+  ],
   "переезжать": [
     {
       "id": "ru:pereyezzhat:verb",
@@ -4628,6 +6000,12 @@
   "переполненный": [
     {
       "id": "ru:perepolnennyi:adjective",
+      "field": "word"
+    }
+  ],
+  "перерабатывать": [
+    {
+      "id": "ru:pererabatyvat:verb",
       "field": "word"
     }
   ],
@@ -4707,6 +6085,14 @@
   ],
   "пиво": [
     {
+      "id": "ru:pivo-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:pivo-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:pivo:noun",
       "field": "word"
     }
@@ -4723,6 +6109,16 @@
       "field": "plural_form"
     }
   ],
+  "пирожки": [
+    {
+      "id": "ru:pirozhki:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:pirozhki:noun",
+      "field": "word"
+    }
+  ],
   "писать": [
     {
       "id": "ru:pisat:verb",
@@ -4737,11 +6133,19 @@
   ],
   "письменные столы": [
     {
+      "id": "ru:pis-mennyi-stol:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "ru:pismennyi-stol:noun",
       "field": "plural_form"
     }
   ],
   "письменный стол": [
+    {
+      "id": "ru:pis-mennyi-stol:noun",
+      "field": "word"
+    },
     {
       "id": "ru:pismennyi-stol:noun",
       "field": "word"
@@ -4783,6 +6187,18 @@
       "field": "plural_form"
     }
   ],
+  "планировать": [
+    {
+      "id": "ru:planirovat:verb",
+      "field": "word"
+    }
+  ],
+  "планировать бюджет": [
+    {
+      "id": "ru:planirovat-byudzhet:verb",
+      "field": "word"
+    }
+  ],
   "платить": [
     {
       "id": "ru:platit:verb",
@@ -4809,23 +6225,45 @@
   ],
   "платье": [
     {
+      "id": "ru:plat-e:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:platye:noun",
       "field": "word"
     }
   ],
   "платья": [
     {
+      "id": "ru:plat-e:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "ru:platye:noun",
       "field": "plural_form"
     }
   ],
+  "плестись в хвосте": [
+    {
+      "id": "ru:plestis-v-khvoste:phrase",
+      "field": "word"
+    }
+  ],
   "плечи": [
+    {
+      "id": "ru:plecho-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:plecho:noun",
       "field": "plural_form"
     }
   ],
   "плечо": [
+    {
+      "id": "ru:plecho-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:plecho:noun",
       "field": "word"
@@ -4846,6 +6284,12 @@
   "площадь": [
     {
       "id": "ru:ploshchad:noun",
+      "field": "word"
+    }
+  ],
+  "плясать под чужую дудку": [
+    {
+      "id": "ru:plyasat-pod-chuzhuyu-dudku:phrase",
       "field": "word"
     }
   ],
@@ -4875,11 +6319,19 @@
   ],
   "повар": [
     {
+      "id": "ru:povar-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:povar:noun",
       "field": "word"
     }
   ],
   "повара": [
+    {
+      "id": "ru:povar-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:povar:noun",
       "field": "plural_form"
@@ -4903,15 +6355,57 @@
       "field": "word"
     }
   ],
+  "повышать в должности": [
+    {
+      "id": "ru:povyshat-v-dolzhnosti:verb",
+      "field": "word"
+    }
+  ],
+  "повышение": [
+    {
+      "id": "ru:povyshenie:noun",
+      "field": "word"
+    }
+  ],
+  "повышения": [
+    {
+      "id": "ru:povyshenie:noun",
+      "field": "plural_form"
+    }
+  ],
   "погода": [
     {
       "id": "ru:pogoda:noun",
       "field": "word"
     }
   ],
+  "погрязнуть в долгах": [
+    {
+      "id": "ru:pogryaznut-v-dolgakh:phrase",
+      "field": "word"
+    }
+  ],
   "под": [
     {
       "id": "ru:pod:preposition",
+      "field": "word"
+    }
+  ],
+  "под горячую руку": [
+    {
+      "id": "ru:pod-goryachuyu-ruku:phrase",
+      "field": "word"
+    }
+  ],
+  "под крылом": [
+    {
+      "id": "ru:pod-krylom:phrase",
+      "field": "word"
+    }
+  ],
+  "подавать заявление на": [
+    {
+      "id": "ru:podavat-zayavlenie-na:verb",
       "field": "word"
     }
   ],
@@ -4927,15 +6421,57 @@
       "field": "word"
     }
   ],
+  "поддерживать": [
+    {
+      "id": "ru:podderzhivat:verb",
+      "field": "word"
+    }
+  ],
+  "поддерживающий": [
+    {
+      "id": "ru:podderzhivayushchii:adjective",
+      "field": "word"
+    }
+  ],
+  "поддержка": [
+    {
+      "id": "ru:podderzhka:noun",
+      "field": "word"
+    }
+  ],
+  "подливать масла в огонь": [
+    {
+      "id": "ru:podlivat-masla-v-ogon:phrase",
+      "field": "word"
+    }
+  ],
+  "подложить свинью": [
+    {
+      "id": "ru:podlozhit-svin-yu:phrase",
+      "field": "word"
+    }
+  ],
   "подметать": [
     {
       "id": "ru:podmetat:verb",
       "field": "word"
     }
   ],
+  "поднимать": [
+    {
+      "id": "ru:podnimat:verb",
+      "field": "word"
+    }
+  ],
   "подождать": [
     {
       "id": "ru:podozhdat:verb",
+      "field": "word"
+    }
+  ],
+  "подтверждать": [
+    {
+      "id": "ru:podtverzhdat:verb",
       "field": "word"
     }
   ],
@@ -4963,6 +6499,12 @@
       "field": "word"
     }
   ],
+  "поезд ушел": [
+    {
+      "id": "ru:poezd-ushel:phrase",
+      "field": "word"
+    }
+  ],
   "поезда": [
     {
       "id": "ru:poezd:noun",
@@ -4978,6 +6520,12 @@
   "пожарить": [
     {
       "id": "ru:pozharit:verb",
+      "field": "word"
+    }
+  ],
+  "позволить себе": [
+    {
+      "id": "ru:pozvolit-sebe:verb",
       "field": "word"
     }
   ],
@@ -5024,6 +6572,24 @@
     },
     {
       "id": "ru:poka:phrase",
+      "field": "word"
+    }
+  ],
+  "показать, где раки зимуют": [
+    {
+      "id": "ru:pokazat-gde-raki-zimuyut:phrase",
+      "field": "word"
+    }
+  ],
+  "показывать зубы": [
+    {
+      "id": "ru:pokazyvat-zuby:phrase",
+      "field": "word"
+    }
+  ],
+  "покрывать": [
+    {
+      "id": "ru:pokryvat:verb",
       "field": "word"
     }
   ],
@@ -5105,6 +6671,12 @@
       "field": "plural_form"
     }
   ],
+  "положить зубы на полку": [
+    {
+      "id": "ru:polozhit-zuby-na-polku:phrase",
+      "field": "word"
+    }
+  ],
   "полотенца": [
     {
       "id": "ru:polotentse:noun",
@@ -5117,6 +6689,12 @@
       "field": "word"
     }
   ],
+  "получать": [
+    {
+      "id": "ru:poluchat:verb",
+      "field": "word"
+    }
+  ],
   "полы": [
     {
       "id": "ru:pol:noun",
@@ -5125,11 +6703,19 @@
   ],
   "помидор": [
     {
+      "id": "ru:pomidor-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:pomidor:noun",
       "field": "word"
     }
   ],
   "помидоры": [
+    {
+      "id": "ru:pomidor-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:pomidor:noun",
       "field": "plural_form"
@@ -5177,6 +6763,30 @@
       "field": "word"
     }
   ],
+  "попасть в жилу": [
+    {
+      "id": "ru:popast-v-zhilu:phrase",
+      "field": "word"
+    }
+  ],
+  "попасть в просак": [
+    {
+      "id": "ru:popast-v-prosak:phrase",
+      "field": "word"
+    }
+  ],
+  "попасть в точку": [
+    {
+      "id": "ru:popast-v-tochku:phrase",
+      "field": "word"
+    }
+  ],
+  "популярный": [
+    {
+      "id": "ru:populyarnyi:adjective",
+      "field": "word"
+    }
+  ],
   "посещать": [
     {
       "id": "ru:poseshchat:verb",
@@ -5198,6 +6808,30 @@
   "посмотреть": [
     {
       "id": "ru:posmotret:verb",
+      "field": "word"
+    }
+  ],
+  "поставить на карту": [
+    {
+      "id": "ru:postavit-na-kartu:phrase",
+      "field": "word"
+    }
+  ],
+  "потерпеть неудачу": [
+    {
+      "id": "ru:poterpet-neudachu:verb",
+      "field": "word"
+    }
+  ],
+  "потерпеть фиаско": [
+    {
+      "id": "ru:poterpet-fiasko:phrase",
+      "field": "word"
+    }
+  ],
+  "потирать руки": [
+    {
+      "id": "ru:potirat-ruki:phrase",
       "field": "word"
     }
   ],
@@ -5297,9 +6931,39 @@
       "field": "word"
     }
   ],
+  "практичный": [
+    {
+      "id": "ru:praktichnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "предлагать": [
+    {
+      "id": "ru:predlagat:verb",
+      "field": "word"
+    }
+  ],
+  "предоставлять": [
+    {
+      "id": "ru:predostavlyat:verb",
+      "field": "word"
+    }
+  ],
+  "предотвращать": [
+    {
+      "id": "ru:predotvrashchat:verb",
+      "field": "word"
+    }
+  ],
   "представлять": [
     {
       "id": "ru:predstavlyat:verb",
+      "field": "word"
+    }
+  ],
+  "предыдущий": [
+    {
+      "id": "ru:predydushchii:adjective",
       "field": "word"
     }
   ],
@@ -5325,6 +6989,12 @@
     {
       "id": "ru:prestupleniye:noun",
       "field": "plural_form"
+    }
+  ],
+  "преуспевать": [
+    {
+      "id": "ru:preuspevat:verb",
+      "field": "word"
     }
   ],
   "привет": [
@@ -5378,6 +7048,24 @@
   "прийти": [
     {
       "id": "ru:priiti:verb",
+      "field": "word"
+    }
+  ],
+  "прийти в себя": [
+    {
+      "id": "ru:priiti-v-sebya:phrase",
+      "field": "word"
+    }
+  ],
+  "прийти к шапочному разбору": [
+    {
+      "id": "ru:priiti-k-shapochnomu-razboru:phrase",
+      "field": "word"
+    }
+  ],
+  "прикусить язык": [
+    {
+      "id": "ru:prikusit-yazyk:phrase",
       "field": "word"
     }
   ],
@@ -5435,6 +7123,18 @@
       "field": "word"
     }
   ],
+  "присматривать за": [
+    {
+      "id": "ru:prismatrivat-za:verb",
+      "field": "word"
+    }
+  ],
+  "присоединяться": [
+    {
+      "id": "ru:prisoedinyat-sya:verb",
+      "field": "word"
+    }
+  ],
   "приходить": [
     {
       "id": "ru:prikhodit:verb",
@@ -5477,9 +7177,21 @@
       "field": "word"
     }
   ],
+  "проверить на вшивость": [
+    {
+      "id": "ru:proverit-na-vshivost:phrase",
+      "field": "word"
+    }
+  ],
   "проверять": [
     {
       "id": "ru:proveryat:verb",
+      "field": "word"
+    }
+  ],
+  "проглотить язык": [
+    {
+      "id": "ru:proglotit-yazyk:phrase",
       "field": "word"
     }
   ],
@@ -5519,6 +7231,12 @@
       "field": "word"
     }
   ],
+  "продуктивный": [
+    {
+      "id": "ru:produktivnyi:adjective",
+      "field": "word"
+    }
+  ],
   "проект": [
     {
       "id": "ru:proyekt:noun",
@@ -5529,6 +7247,24 @@
     {
       "id": "ru:proyekt:noun",
       "field": "plural_form"
+    }
+  ],
+  "производить": [
+    {
+      "id": "ru:proizvodit:verb",
+      "field": "word"
+    }
+  ],
+  "пройти сквозь огонь и воду": [
+    {
+      "id": "ru:proiti-skvoz-ogon-i-vodu:phrase",
+      "field": "word"
+    }
+  ],
+  "проложить дорогу": [
+    {
+      "id": "ru:prolozhit-dorogu:phrase",
+      "field": "word"
     }
   ],
   "простите": [
@@ -5561,15 +7297,33 @@
       "field": "word"
     }
   ],
+  "профессиональный": [
+    {
+      "id": "ru:professional-nyi:adjective",
+      "field": "word"
+    }
+  ],
   "прочитать": [
     {
       "id": "ru:prochitat:verb",
       "field": "word"
     }
   ],
+  "прощать": [
+    {
+      "id": "ru:proshchat:verb",
+      "field": "word"
+    }
+  ],
   "прямо": [
     {
       "id": "ru:pryamo:adverb",
+      "field": "word"
+    }
+  ],
+  "прямой": [
+    {
+      "id": "ru:pryamoi:adjective",
       "field": "word"
     }
   ],
@@ -5583,6 +7337,30 @@
     {
       "id": "ru:ptitsa:noun",
       "field": "plural_form"
+    }
+  ],
+  "пуд соли съесть": [
+    {
+      "id": "ru:pud-soli-s-est:phrase",
+      "field": "word"
+    }
+  ],
+  "пункт назначения": [
+    {
+      "id": "ru:punkt-naznacheniya:noun",
+      "field": "word"
+    }
+  ],
+  "пункты назначения": [
+    {
+      "id": "ru:punkt-naznacheniya:noun",
+      "field": "plural_form"
+    }
+  ],
+  "пустить пыль в глаза": [
+    {
+      "id": "ru:pustit-pyl-v-glaza:phrase",
+      "field": "word"
     }
   ],
   "пустой": [
@@ -5699,9 +7477,39 @@
       "field": "word"
     }
   ],
+  "развесить уши": [
+    {
+      "id": "ru:razvesit-ushi:phrase",
+      "field": "word"
+    }
+  ],
+  "развеять по ветру": [
+    {
+      "id": "ru:razveyat-po-vetru:phrase",
+      "field": "word"
+    }
+  ],
+  "развивать": [
+    {
+      "id": "ru:razvivat:verb",
+      "field": "word"
+    }
+  ],
+  "разводить руками": [
+    {
+      "id": "ru:razvodit-rukami:phrase",
+      "field": "word"
+    }
+  ],
   "разводиться": [
     {
       "id": "ru:razvoditsya:verb",
+      "field": "word"
+    }
+  ],
+  "разложить по полочкам": [
+    {
+      "id": "ru:razlozhit-po-polochkam:phrase",
       "field": "word"
     }
   ],
@@ -5723,6 +7531,24 @@
       "field": "word"
     }
   ],
+  "разрешать": [
+    {
+      "id": "ru:razreshat:verb",
+      "field": "word"
+    }
+  ],
+  "район": [
+    {
+      "id": "ru:raion:noun",
+      "field": "word"
+    }
+  ],
+  "районы": [
+    {
+      "id": "ru:raion:noun",
+      "field": "plural_form"
+    }
+  ],
   "раковина": [
     {
       "id": "ru:rakovina:noun",
@@ -5738,6 +7564,12 @@
   "ранний": [
     {
       "id": "ru:rannyi:adjective",
+      "field": "word"
+    }
+  ],
+  "раскрыть карты": [
+    {
+      "id": "ru:raskryt-karty:phrase",
       "field": "word"
     }
   ],
@@ -5783,6 +7615,12 @@
       "field": "word"
     }
   ],
+  "рассматривать": [
+    {
+      "id": "ru:rassmatrivat:verb",
+      "field": "word"
+    }
+  ],
   "растение": [
     {
       "id": "ru:rasteniye:noun",
@@ -5801,6 +7639,12 @@
       "field": "word"
     }
   ],
+  "расти как грибы после дождя": [
+    {
+      "id": "ru:rasti-kak-griby-posle-dozhdya:phrase",
+      "field": "word"
+    }
+  ],
   "растительное масло": [
     {
       "id": "ru:rastitelnoe-maslo:noun",
@@ -5816,6 +7660,18 @@
   "ревнивый": [
     {
       "id": "ru:revnivyi:adjective",
+      "field": "word"
+    }
+  ],
+  "регулярный": [
+    {
+      "id": "ru:regulyarnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "редкий": [
+    {
+      "id": "ru:redkii:adjective",
       "field": "word"
     }
   ],
@@ -5849,6 +7705,12 @@
       "field": "plural_form"
     }
   ],
+  "рекомендовать": [
+    {
+      "id": "ru:rekomendovat:verb",
+      "field": "word"
+    }
+  ],
   "ремень": [
     {
       "id": "ru:remen:noun",
@@ -5861,13 +7723,27 @@
       "field": "plural_form"
     }
   ],
+  "ремонтировать": [
+    {
+      "id": "ru:remontirovat:verb",
+      "field": "word"
+    }
+  ],
   "ресторан": [
+    {
+      "id": "ru:restoran-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:restoran:noun",
       "field": "word"
     }
   ],
   "рестораны": [
+    {
+      "id": "ru:restoran-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:restoran:noun",
       "field": "plural_form"
@@ -5898,6 +7774,14 @@
     }
   ],
   "рис": [
+    {
+      "id": "ru:ris-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:ris-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:ris:noun",
       "field": "word"
@@ -5955,6 +7839,12 @@
       "field": "plural_form"
     }
   ],
+  "рубить с плеча": [
+    {
+      "id": "ru:rubit-s-plecha:phrase",
+      "field": "word"
+    }
+  ],
   "рука": [
     {
       "id": "ru:ruka:noun",
@@ -5999,6 +7889,12 @@
       "field": "plural_form"
     }
   ],
+  "рыльце в пушку": [
+    {
+      "id": "ru:ryl-tse-v-pushku:phrase",
+      "field": "word"
+    }
+  ],
   "рынки": [
     {
       "id": "ru:rynok:noun",
@@ -6017,6 +7913,12 @@
       "field": "word"
     }
   ],
+  "с лишним весом": [
+    {
+      "id": "ru:s-lishnim-vesom:adjective",
+      "field": "word"
+    }
+  ],
   "с тех пор как": [
     {
       "id": "ru:s-tekh-por-kak:phrase",
@@ -6024,6 +7926,10 @@
     }
   ],
   "сад": [
+    {
+      "id": "ru:sad-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:sad:noun",
       "field": "word"
@@ -6089,9 +7995,357 @@
       "field": "word"
     }
   ],
+  "самый амбициозный": [
+    {
+      "id": "ru:ambitsioznyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый атлетичный": [
+    {
+      "id": "ru:atletichnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый бедный": [
+    {
+      "id": "ru:bednyi-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый бесплатный": [
+    {
+      "id": "ru:besplatnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый блондин": [
+    {
+      "id": "ru:blondin:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый богатый": [
+    {
+      "id": "ru:bogatyi-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый больной": [
+    {
+      "id": "ru:bol-noi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый будущий": [
+    {
+      "id": "ru:budushchii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый в форме": [
+    {
+      "id": "ru:v-forme:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый ветреный": [
+    {
+      "id": "ru:vetrenyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый гибкий": [
+    {
+      "id": "ru:gibkii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый дешевый": [
+    {
+      "id": "ru:deshevyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый добрый": [
+    {
+      "id": "ru:dobryi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый доступный": [
+    {
+      "id": "ru:dostupnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый доступный по цене": [
+    {
+      "id": "ru:dostupnyi-po-tsene:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый ежедневный": [
+    {
+      "id": "ru:ezhednevnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый здоровый": [
+    {
+      "id": "ru:zdorovyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый квалифицированный": [
+    {
+      "id": "ru:kvalifitsirovannyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый комфортный": [
+    {
+      "id": "ru:komfortnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый красивый": [
+    {
+      "id": "ru:krasivyi-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый международный": [
+    {
+      "id": "ru:mezhdunarodnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый местный": [
+    {
+      "id": "ru:mestnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый на мели": [
+    {
+      "id": "ru:na-meli:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый надежный": [
+    {
+      "id": "ru:nadezhnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый напряженный": [
+    {
+      "id": "ru:napryazhennyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый недавний": [
+    {
+      "id": "ru:nedavnii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый независимый": [
+    {
+      "id": "ru:nezavisimyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый нездоровый": [
+    {
+      "id": "ru:nezdorovyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый общий": [
+    {
+      "id": "ru:obshchii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый общительный": [
+    {
+      "id": "ru:obshchitel-nyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый определенный": [
+    {
+      "id": "ru:opredelennyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый опытный": [
+    {
+      "id": "ru:opytnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый организованный": [
+    {
+      "id": "ru:organizovannyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый ответственный": [
+    {
+      "id": "ru:otvetstvennyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый поддерживающий": [
+    {
+      "id": "ru:podderzhivayushchii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый популярный": [
+    {
+      "id": "ru:populyarnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый практичный": [
+    {
+      "id": "ru:praktichnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый предыдущий": [
+    {
+      "id": "ru:predydushchii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый продуктивный": [
+    {
+      "id": "ru:produktivnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый профессиональный": [
+    {
+      "id": "ru:professional-nyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый прямой": [
+    {
+      "id": "ru:pryamoi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый регулярный": [
+    {
+      "id": "ru:regulyarnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый редкий": [
+    {
+      "id": "ru:redkii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый с лишним весом": [
+    {
+      "id": "ru:s-lishnim-vesom:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый серьезный": [
+    {
+      "id": "ru:ser-eznyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый сильный": [
+    {
+      "id": "ru:sil-nyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый снежный": [
+    {
+      "id": "ru:snezhnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый стоит": [
+    {
+      "id": "ru:stoit:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый стрессовый": [
+    {
+      "id": "ru:stressovyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый творческий": [
+    {
+      "id": "ru:tvorcheskii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый текущий": [
+    {
+      "id": "ru:tekushchii:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый типичный": [
+    {
+      "id": "ru:tipichnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый традиционный": [
+    {
+      "id": "ru:traditsionnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый трудный": [
+    {
+      "id": "ru:trudnyi-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый успешный": [
+    {
+      "id": "ru:uspeshnyi:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый уставший": [
+    {
+      "id": "ru:ustavshii-a2:adjective",
+      "field": "superlative"
+    }
+  ],
+  "самый ясный": [
+    {
+      "id": "ru:yasnyi:adjective",
+      "field": "superlative"
+    }
+  ],
   "сахар": [
     {
       "id": "ru:sakhar:noun",
+      "field": "word"
+    }
+  ],
+  "свалиться как снег на голову": [
+    {
+      "id": "ru:svalit-sya-kak-sneg-na-golovu:phrase",
       "field": "word"
     }
   ],
@@ -6161,6 +8415,18 @@
       "field": "word"
     }
   ],
+  "связываться": [
+    {
+      "id": "ru:svyazyvat-sya:verb",
+      "field": "word"
+    }
+  ],
+  "сдаваться": [
+    {
+      "id": "ru:sdavat-sya:verb",
+      "field": "word"
+    }
+  ],
   "сдача": [
     {
       "id": "ru:sdacha:noun",
@@ -6206,6 +8472,18 @@
   "семь": [
     {
       "id": "ru:sem:number",
+      "field": "word"
+    }
+  ],
+  "семь потов сошло": [
+    {
+      "id": "ru:sem-potov-soshlo:phrase",
+      "field": "word"
+    }
+  ],
+  "семь пятниц на неделе": [
+    {
+      "id": "ru:sem-pyatnits-na-nedele:phrase",
       "field": "word"
     }
   ],
@@ -6275,6 +8553,12 @@
       "field": "plural_form"
     }
   ],
+  "серьезный": [
+    {
+      "id": "ru:ser-eznyi:adjective",
+      "field": "word"
+    }
+  ],
   "серьёзный": [
     {
       "id": "ru:seryoznyi:adjective",
@@ -6287,13 +8571,41 @@
       "field": "word"
     }
   ],
+  "сесть в галошу": [
+    {
+      "id": "ru:sest-v-galoshu:phrase",
+      "field": "word"
+    }
+  ],
+  "сесть на мель": [
+    {
+      "id": "ru:sest-na-mel:phrase",
+      "field": "word"
+    }
+  ],
+  "сжечь мосты": [
+    {
+      "id": "ru:szhech-mosty:phrase",
+      "field": "word"
+    }
+  ],
   "сидеть": [
     {
       "id": "ru:sidet:verb",
       "field": "word"
     }
   ],
+  "сидеть на шее": [
+    {
+      "id": "ru:sidet-na-shee:phrase",
+      "field": "word"
+    }
+  ],
   "сильный": [
+    {
+      "id": "ru:sil-nyi:adjective",
+      "field": "word"
+    },
     {
       "id": "ru:silnyi:adjective",
       "field": "word"
@@ -6308,6 +8620,12 @@
   "сказать": [
     {
       "id": "ru:skazat:verb",
+      "field": "word"
+    }
+  ],
+  "скалить зубы": [
+    {
+      "id": "ru:skalit-zuby:phrase",
       "field": "word"
     }
   ],
@@ -6371,6 +8689,12 @@
       "field": "word"
     }
   ],
+  "следовать": [
+    {
+      "id": "ru:sledovat:verb",
+      "field": "word"
+    }
+  ],
   "слова": [
     {
       "id": "ru:slovo:noun",
@@ -6399,6 +8723,18 @@
     {
       "id": "ru:slon:noun",
       "field": "plural_form"
+    }
+  ],
+  "служить": [
+    {
+      "id": "ru:sluzhit:verb",
+      "field": "word"
+    }
+  ],
+  "случаться": [
+    {
+      "id": "ru:sluchat-sya:verb",
+      "field": "word"
     }
   ],
   "слушать": [
@@ -6431,6 +8767,12 @@
       "field": "word"
     }
   ],
+  "смотреть сквозь пальцы": [
+    {
+      "id": "ru:smotret-skvoz-pal-tsy:phrase",
+      "field": "word"
+    }
+  ],
   "сначала": [
     {
       "id": "ru:snachala:adverb",
@@ -6443,10 +8785,34 @@
       "field": "word"
     }
   ],
+  "снежный": [
+    {
+      "id": "ru:snezhnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "снимать деньги": [
+    {
+      "id": "ru:snimat-den-gi:verb",
+      "field": "word"
+    }
+  ],
+  "снимать шляпу": [
+    {
+      "id": "ru:snimat-shlyapu:phrase",
+      "field": "word"
+    }
+  ],
   "сны": [
     {
       "id": "ru:son:noun",
       "field": "plural_form"
+    }
+  ],
+  "снять с пробега": [
+    {
+      "id": "ru:snyat-s-probega:phrase",
+      "field": "word"
     }
   ],
   "собака": [
@@ -6461,6 +8827,12 @@
       "field": "plural_form"
     }
   ],
+  "собаку съел": [
+    {
+      "id": "ru:sobaku-s-el:phrase",
+      "field": "word"
+    }
+  ],
   "собеседование": [
     {
       "id": "ru:sobesedovaniye:noun",
@@ -6471,6 +8843,12 @@
     {
       "id": "ru:sobesedovaniye:noun",
       "field": "plural_form"
+    }
+  ],
+  "совать нос не в свои дела": [
+    {
+      "id": "ru:sovat-nos-ne-v-svoi-dela:phrase",
+      "field": "word"
     }
   ],
   "современный": [
@@ -6491,6 +8869,18 @@
       "field": "word"
     }
   ],
+  "содержать": [
+    {
+      "id": "ru:soderzhat:verb",
+      "field": "word"
+    }
+  ],
+  "создавать": [
+    {
+      "id": "ru:sozdavat:verb",
+      "field": "word"
+    }
+  ],
   "сок": [
     {
       "id": "ru:sok:noun",
@@ -6501,6 +8891,12 @@
     {
       "id": "ru:sok:noun",
       "field": "plural_form"
+    }
+  ],
+  "сокращать": [
+    {
+      "id": "ru:sokrashchat:verb",
+      "field": "word"
     }
   ],
   "солнечный": [
@@ -6533,6 +8929,12 @@
       "field": "word"
     }
   ],
+  "сообщать": [
+    {
+      "id": "ru:soobshchat:verb",
+      "field": "word"
+    }
+  ],
   "сообщение": [
     {
       "id": "ru:soobshcheniye:noun",
@@ -6543,6 +8945,18 @@
     {
       "id": "ru:soobshcheniye:noun",
       "field": "plural_form"
+    }
+  ],
+  "сообщества": [
+    {
+      "id": "ru:soobshchestvo:noun",
+      "field": "plural_form"
+    }
+  ],
+  "сообщество": [
+    {
+      "id": "ru:soobshchestvo:noun",
+      "field": "word"
     }
   ],
   "сорок": [
@@ -6561,6 +8975,12 @@
     {
       "id": "ru:sosed:noun",
       "field": "plural_form"
+    }
+  ],
+  "сотрудничать": [
+    {
+      "id": "ru:sotrudnichat:verb",
+      "field": "word"
     }
   ],
   "сохранять": [
@@ -6629,6 +9049,12 @@
       "field": "word"
     }
   ],
+  "спорить": [
+    {
+      "id": "ru:sporit:verb",
+      "field": "word"
+    }
+  ],
   "спорт": [
     {
       "id": "ru:sport:noun",
@@ -6665,6 +9091,12 @@
       "field": "plural_form"
     }
   ],
+  "ставить точки над i": [
+    {
+      "id": "ru:stavit-tochki-nad-i:phrase",
+      "field": "word"
+    }
+  ],
   "стакан": [
     {
       "id": "ru:stakan:noun",
@@ -6675,6 +9107,18 @@
     {
       "id": "ru:stakan:noun",
       "field": "plural_form"
+    }
+  ],
+  "сталкиваться": [
+    {
+      "id": "ru:stalkivat-sya:verb",
+      "field": "word"
+    }
+  ],
+  "становиться": [
+    {
+      "id": "ru:stanovit-sya:verb",
+      "field": "word"
     }
   ],
   "станции": [
@@ -6722,6 +9166,12 @@
   "сто": [
     {
       "id": "ru:sto:number",
+      "field": "word"
+    }
+  ],
+  "стоит": [
+    {
+      "id": "ru:stoit:adjective",
       "field": "word"
     }
   ],
@@ -6791,6 +9241,24 @@
       "field": "word"
     }
   ],
+  "стоять на своём": [
+    {
+      "id": "ru:stoyat-na-svoem:phrase",
+      "field": "word"
+    }
+  ],
+  "стоять у руля": [
+    {
+      "id": "ru:stoyat-u-rulya:phrase",
+      "field": "word"
+    }
+  ],
+  "страдать": [
+    {
+      "id": "ru:stradat:verb",
+      "field": "word"
+    }
+  ],
   "страна": [
     {
       "id": "ru:strana:noun",
@@ -6807,6 +9275,30 @@
     {
       "id": "ru:strana:noun",
       "field": "plural_form"
+    }
+  ],
+  "стреляный воробей": [
+    {
+      "id": "ru:strelyanyi-vorobei:phrase",
+      "field": "word"
+    }
+  ],
+  "стрессовый": [
+    {
+      "id": "ru:stressovyi:adjective",
+      "field": "word"
+    }
+  ],
+  "строить": [
+    {
+      "id": "ru:stroit:verb",
+      "field": "word"
+    }
+  ],
+  "строить замки на песке": [
+    {
+      "id": "ru:stroit-zamki-na-peske:phrase",
+      "field": "word"
     }
   ],
   "студент": [
@@ -6899,6 +9391,12 @@
       "field": "plural_form"
     }
   ],
+  "сухой из воды": [
+    {
+      "id": "ru:sukhoi-iz-vody:phrase",
+      "field": "word"
+    }
+  ],
   "существовать": [
     {
       "id": "ru:sushchestvovat:verb",
@@ -6908,6 +9406,42 @@
   "счастливый": [
     {
       "id": "ru:schastlivyi:adjective",
+      "field": "word"
+    }
+  ],
+  "счета": [
+    {
+      "id": "ru:schet:noun",
+      "field": "plural_form"
+    }
+  ],
+  "считать ворон": [
+    {
+      "id": "ru:schitat-voron:phrase",
+      "field": "word"
+    }
+  ],
+  "считать гроши": [
+    {
+      "id": "ru:schitat-groshi:phrase",
+      "field": "word"
+    }
+  ],
+  "считать дни": [
+    {
+      "id": "ru:schitat-dni:phrase",
+      "field": "word"
+    }
+  ],
+  "считать минуты": [
+    {
+      "id": "ru:schitat-minuty:phrase",
+      "field": "word"
+    }
+  ],
+  "счёт": [
+    {
+      "id": "ru:schet:noun",
       "field": "word"
     }
   ],
@@ -6931,6 +9465,10 @@
   ],
   "сыр": [
     {
+      "id": "ru:syr-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:syr:noun",
       "field": "word"
     }
@@ -6942,6 +9480,10 @@
     }
   ],
   "сыры": [
+    {
+      "id": "ru:syr-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:syr:noun",
       "field": "plural_form"
@@ -7007,9 +9549,21 @@
       "field": "plural_form"
     }
   ],
+  "таскать каштаны из огня": [
+    {
+      "id": "ru:taskat-kashtany-iz-ognya:phrase",
+      "field": "word"
+    }
+  ],
   "твой": [
     {
       "id": "ru:tvoi:pronoun",
+      "field": "word"
+    }
+  ],
+  "творческий": [
+    {
+      "id": "ru:tvorcheskii:adjective",
       "field": "word"
     }
   ],
@@ -7029,6 +9583,12 @@
     {
       "id": "ru:teatr:noun",
       "field": "plural_form"
+    }
+  ],
+  "текущий": [
+    {
+      "id": "ru:tekushchii:adjective",
+      "field": "word"
     }
   ],
   "телевизор": [
@@ -7067,6 +9627,18 @@
       "field": "plural_form"
     }
   ],
+  "темная лошадка": [
+    {
+      "id": "ru:temnaya-loshadka:phrase",
+      "field": "word"
+    }
+  ],
+  "темный лес": [
+    {
+      "id": "ru:temnyi-les:phrase",
+      "field": "word"
+    }
+  ],
   "температура": [
     {
       "id": "ru:temperatura:noun",
@@ -7091,6 +9663,12 @@
       "field": "word"
     }
   ],
+  "терять голову": [
+    {
+      "id": "ru:teryat-golovu:phrase",
+      "field": "word"
+    }
+  ],
   "тетради": [
     {
       "id": "ru:tetrad:noun",
@@ -7100,6 +9678,24 @@
   "тетрадь": [
     {
       "id": "ru:tetrad:noun",
+      "field": "word"
+    }
+  ],
+  "тигр": [
+    {
+      "id": "ru:tigr:noun",
+      "field": "word"
+    }
+  ],
+  "тигры": [
+    {
+      "id": "ru:tigr:noun",
+      "field": "plural_form"
+    }
+  ],
+  "типичный": [
+    {
+      "id": "ru:tipichnyi:adjective",
       "field": "word"
     }
   ],
@@ -7151,6 +9747,18 @@
       "field": "word"
     }
   ],
+  "точить зубы": [
+    {
+      "id": "ru:tochit-zuby:phrase",
+      "field": "word"
+    }
+  ],
+  "точить лясы": [
+    {
+      "id": "ru:tochit-lyasy:phrase",
+      "field": "word"
+    }
+  ],
   "трава": [
     {
       "id": "ru:trava:noun",
@@ -7167,6 +9775,24 @@
     {
       "id": "ru:travma:noun",
       "field": "plural_form"
+    }
+  ],
+  "традиционный": [
+    {
+      "id": "ru:traditsionnyi:adjective",
+      "field": "word"
+    }
+  ],
+  "требовать": [
+    {
+      "id": "ru:trebovat:verb",
+      "field": "word"
+    }
+  ],
+  "трещать по швам": [
+    {
+      "id": "ru:treshchat-po-shvam:phrase",
+      "field": "word"
     }
   ],
   "три": [
@@ -7200,6 +9826,10 @@
     }
   ],
   "трудный": [
+    {
+      "id": "ru:trudnyi-a2:adjective",
+      "field": "word"
+    },
     {
       "id": "ru:trudnyi:adjective",
       "field": "word"
@@ -7235,6 +9865,24 @@
       "field": "word"
     }
   ],
+  "тянуть время": [
+    {
+      "id": "ru:tyanut-vremya:phrase",
+      "field": "word"
+    }
+  ],
+  "тянуть жребий": [
+    {
+      "id": "ru:tyanut-zhrebii:phrase",
+      "field": "word"
+    }
+  ],
+  "тянуть резину": [
+    {
+      "id": "ru:tyanut-rezinu:phrase",
+      "field": "word"
+    }
+  ],
   "тёти": [
     {
       "id": "ru:tyotya:noun",
@@ -7247,9 +9895,27 @@
       "field": "word"
     }
   ],
+  "убивать": [
+    {
+      "id": "ru:ubivat:verb",
+      "field": "word"
+    }
+  ],
   "убираться": [
     {
       "id": "ru:ubiratsya:verb",
+      "field": "word"
+    }
+  ],
+  "убить двух зайцев": [
+    {
+      "id": "ru:ubit-dvukh-zaitsev:phrase",
+      "field": "word"
+    }
+  ],
+  "увеличивать": [
+    {
+      "id": "ru:uvelichivat:verb",
       "field": "word"
     }
   ],
@@ -7271,6 +9937,12 @@
       "field": "word"
     }
   ],
+  "увольняться": [
+    {
+      "id": "ru:uvol-nyat-sya:verb",
+      "field": "word"
+    }
+  ],
   "углы": [
     {
       "id": "ru:ugol:noun",
@@ -7280,6 +9952,12 @@
   "угол": [
     {
       "id": "ru:ugol:noun",
+      "field": "word"
+    }
+  ],
+  "ударить": [
+    {
+      "id": "ru:udarit:verb",
       "field": "word"
     }
   ],
@@ -7331,6 +10009,18 @@
       "field": "plural_form"
     }
   ],
+  "украшать": [
+    {
+      "id": "ru:ukrashat:verb",
+      "field": "word"
+    }
+  ],
+  "улаживать": [
+    {
+      "id": "ru:ulazhivat:verb",
+      "field": "word"
+    }
+  ],
   "улица": [
     {
       "id": "ru:ulitsa:noun",
@@ -7343,19 +10033,51 @@
       "field": "plural_form"
     }
   ],
+  "улучшать": [
+    {
+      "id": "ru:uluchshat:verb",
+      "field": "word"
+    }
+  ],
+  "улучшать навыки": [
+    {
+      "id": "ru:uluchshat-navyki:verb",
+      "field": "word"
+    }
+  ],
+  "уменьшать": [
+    {
+      "id": "ru:umen-shat:verb",
+      "field": "word"
+    }
+  ],
   "умный": [
     {
       "id": "ru:umnyi:adjective",
       "field": "word"
     }
   ],
+  "умыть руки": [
+    {
+      "id": "ru:umyt-ruki:phrase",
+      "field": "word"
+    }
+  ],
   "университет": [
+    {
+      "id": "ru:universitet-a2:noun",
+      "field": "word"
+    },
     {
       "id": "ru:universitet:noun",
       "field": "word"
     }
   ],
   "университеты": [
+    {
+      "id": "ru:universitet-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:universitet:noun",
       "field": "plural_form"
@@ -7367,15 +10089,43 @@
       "field": "word"
     }
   ],
+  "упасть духом": [
+    {
+      "id": "ru:upast-dukhom:phrase",
+      "field": "word"
+    }
+  ],
+  "успешный": [
+    {
+      "id": "ru:uspeshnyi:adjective",
+      "field": "word"
+    }
+  ],
   "уставший": [
     {
+      "id": "ru:ustavshii-a2:adjective",
+      "field": "word"
+    },
+    {
       "id": "ru:ustavshii:adjective",
+      "field": "word"
+    }
+  ],
+  "устанавливать": [
+    {
+      "id": "ru:ustanavlivat:verb",
       "field": "word"
     }
   ],
   "усы": [
     {
       "id": "ru:usy:noun",
+      "field": "word"
+    }
+  ],
+  "утирать нос": [
+    {
+      "id": "ru:utirat-nos:phrase",
       "field": "word"
     }
   ],
@@ -7403,9 +10153,21 @@
       "field": "word"
     }
   ],
+  "ухватиться за соломинку": [
+    {
+      "id": "ru:ukhvatit-sya-za-solominku:phrase",
+      "field": "word"
+    }
+  ],
   "ухо": [
     {
       "id": "ru:ukho:noun",
+      "field": "word"
+    }
+  ],
+  "уходить на пенсию": [
+    {
+      "id": "ru:ukhodit-na-pensiyu:verb",
       "field": "word"
     }
   ],
@@ -7437,6 +10199,12 @@
     {
       "id": "ru:ukho:noun",
       "field": "plural_form"
+    }
+  ],
+  "уши вянут": [
+    {
+      "id": "ru:ushi-vyanut:phrase",
+      "field": "word"
     }
   ],
   "файл": [
@@ -7484,6 +10252,12 @@
   "фестиваль": [
     {
       "id": "ru:festival:noun",
+      "field": "word"
+    }
+  ],
+  "филькина грамота": [
+    {
+      "id": "ru:fil-kina-gramota:phrase",
       "field": "word"
     }
   ],
@@ -7575,6 +10349,24 @@
       "field": "word"
     }
   ],
+  "ходить вокруг да около": [
+    {
+      "id": "ru:khodit-vokrug-da-okolo:phrase",
+      "field": "word"
+    }
+  ],
+  "ходить по лезвию ножа": [
+    {
+      "id": "ru:khodit-po-lezviyu-nozha:phrase",
+      "field": "word"
+    }
+  ],
+  "ходить по струнке": [
+    {
+      "id": "ru:khodit-po-strunke:phrase",
+      "field": "word"
+    }
+  ],
   "холодильник": [
     {
       "id": "ru:kholodilnik:noun",
@@ -7611,10 +10403,34 @@
       "field": "word"
     }
   ],
+  "хоть трава не расти": [
+    {
+      "id": "ru:khot-trava-ne-rasti:phrase",
+      "field": "word"
+    }
+  ],
   "хотя": [
     {
       "id": "ru:khotya:preposition",
       "field": "word"
+    }
+  ],
+  "худеть": [
+    {
+      "id": "ru:khudet:verb",
+      "field": "word"
+    }
+  ],
+  "художник": [
+    {
+      "id": "ru:khudozhnik:noun",
+      "field": "word"
+    }
+  ],
+  "художники": [
+    {
+      "id": "ru:khudozhnik:noun",
+      "field": "plural_form"
     }
   ],
   "хуже": [
@@ -7689,6 +10505,12 @@
       "field": "word"
     }
   ],
+  "час пик": [
+    {
+      "id": "ru:chas-pik:phrase",
+      "field": "word"
+    }
+  ],
   "частный": [
     {
       "id": "ru:chastnyi:adjective",
@@ -7705,6 +10527,14 @@
     {
       "id": "ru:chas:noun",
       "field": "plural_form"
+    },
+    {
+      "id": "ru:chasy-a2:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "ru:chasy-a2:noun",
+      "field": "word"
     },
     {
       "id": "ru:chasy:noun",
@@ -7745,6 +10575,18 @@
     {
       "id": "ru:chemodan:noun",
       "field": "plural_form"
+    }
+  ],
+  "черная полоса": [
+    {
+      "id": "ru:chernaya-polosa:phrase",
+      "field": "word"
+    }
+  ],
+  "черным по белому": [
+    {
+      "id": "ru:chernym-po-belomu:phrase",
+      "field": "word"
     }
   ],
   "чеснок": [
@@ -7885,6 +10727,18 @@
       "field": "word"
     }
   ],
+  "шито-крыто": [
+    {
+      "id": "ru:shito-kryto:phrase",
+      "field": "word"
+    }
+  ],
+  "шить белыми нитками": [
+    {
+      "id": "ru:shit-belymi-nitkami:phrase",
+      "field": "word"
+    }
+  ],
   "школа": [
     {
       "id": "ru:shkola:noun",
@@ -7927,6 +10781,12 @@
       "field": "word"
     }
   ],
+  "щелкать как орехи": [
+    {
+      "id": "ru:shchelkat-kak-orekhi:phrase",
+      "field": "word"
+    }
+  ],
   "экономика": [
     {
       "id": "ru:ekonomika:noun",
@@ -7963,6 +10823,12 @@
       "field": "word"
     }
   ],
+  "эликсир молодости": [
+    {
+      "id": "ru:eliksir-molodosti:phrase",
+      "field": "word"
+    }
+  ],
   "энергия": [
     {
       "id": "ru:energiya:noun",
@@ -7977,11 +10843,19 @@
   ],
   "юбка": [
     {
+      "id": "ru:yubka-a2:noun",
+      "field": "word"
+    },
+    {
       "id": "ru:yubka:noun",
       "field": "word"
     }
   ],
   "юбки": [
+    {
+      "id": "ru:yubka-a2:noun",
+      "field": "plural_form"
+    },
     {
       "id": "ru:yubka:noun",
       "field": "plural_form"
@@ -8023,9 +10897,27 @@
       "field": "word"
     }
   ],
+  "яблоко раздора": [
+    {
+      "id": "ru:yabloko-razdora:phrase",
+      "field": "word"
+    }
+  ],
+  "яблоку негде упасть": [
+    {
+      "id": "ru:yabloku-negde-upast:phrase",
+      "field": "word"
+    }
+  ],
   "язык": [
     {
       "id": "ru:yazyk:noun",
+      "field": "word"
+    }
+  ],
+  "язык без костей": [
+    {
+      "id": "ru:yazyk-bez-kostei:phrase",
       "field": "word"
     }
   ],
@@ -8056,6 +10948,18 @@
   "январь": [
     {
       "id": "ru:yanvar:noun",
+      "field": "word"
+    }
+  ],
+  "ясно как день": [
+    {
+      "id": "ru:yasno-kak-den:phrase",
+      "field": "word"
+    }
+  ],
+  "ясный": [
+    {
+      "id": "ru:yasnyi:adjective",
       "field": "word"
     }
   ]
