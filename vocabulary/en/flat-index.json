@@ -7391,19 +7391,11 @@
     {
       "id": "en:big:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:big:noun",
-      "field": "word"
     }
   ],
   "bigger": [
     {
       "id": "en:big:adjective",
-      "field": "comparative"
-    },
-    {
-      "id": "en:big:noun",
       "field": "comparative"
     },
     {
@@ -7414,10 +7406,6 @@
   "biggest": [
     {
       "id": "en:big:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:big:noun",
       "field": "superlative"
     },
     {
@@ -10681,6 +10669,18 @@
       "field": "word"
     }
   ],
+  "carbon sink": [
+    {
+      "id": "en:carbon-sink:noun",
+      "field": "word"
+    }
+  ],
+  "carbon sinks": [
+    {
+      "id": "en:carbon-sink:noun",
+      "field": "plural_form"
+    }
+  ],
   "carbon-neutral": [
     {
       "id": "en:carbon-neutral:adjective",
@@ -11843,19 +11843,11 @@
     {
       "id": "en:cheap:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:cheap:noun",
-      "field": "word"
     }
   ],
   "cheaper": [
     {
       "id": "en:cheap:adjective",
-      "field": "comparative"
-    },
-    {
-      "id": "en:cheap:noun",
       "field": "comparative"
     },
     {
@@ -11866,10 +11858,6 @@
   "cheapest": [
     {
       "id": "en:cheap:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:cheap:noun",
       "field": "superlative"
     }
   ],
@@ -12707,10 +12695,6 @@
       "field": "word"
     },
     {
-      "id": "en:clean:noun",
-      "field": "word"
-    },
-    {
       "id": "en:clean:verb",
       "field": "word"
     }
@@ -12733,10 +12717,6 @@
       "field": "comparative"
     },
     {
-      "id": "en:clean:noun",
-      "field": "comparative"
-    },
-    {
       "id": "en:cleaner:noun",
       "field": "word"
     }
@@ -12750,10 +12730,6 @@
   "cleanest": [
     {
       "id": "en:clean:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:clean:noun",
       "field": "superlative"
     }
   ],
@@ -19761,7 +19737,7 @@
   ],
   "delicious": [
     {
-      "id": "en:delicious:noun",
+      "id": "en:delicious:adjective",
       "field": "word"
     }
   ],
@@ -21203,29 +21179,17 @@
     {
       "id": "en:dirty:adjective",
       "field": "comparative"
-    },
-    {
-      "id": "en:dirty:noun",
-      "field": "comparative"
     }
   ],
   "dirtiest": [
     {
       "id": "en:dirty:adjective",
       "field": "superlative"
-    },
-    {
-      "id": "en:dirty:noun",
-      "field": "superlative"
     }
   ],
   "dirty": [
     {
       "id": "en:dirty:adjective",
-      "field": "word"
-    },
-    {
-      "id": "en:dirty:noun",
       "field": "word"
     }
   ],
@@ -23569,29 +23533,17 @@
     {
       "id": "en:early:adjective",
       "field": "comparative"
-    },
-    {
-      "id": "en:early:noun",
-      "field": "comparative"
     }
   ],
   "earliest": [
     {
       "id": "en:early:adjective",
       "field": "superlative"
-    },
-    {
-      "id": "en:early:noun",
-      "field": "superlative"
     }
   ],
   "early": [
     {
       "id": "en:early:adjective",
-      "field": "word"
-    },
-    {
-      "id": "en:early:noun",
       "field": "word"
     }
   ],
@@ -25607,19 +25559,19 @@
   ],
   "equal": [
     {
-      "id": "en:equal:noun",
+      "id": "en:equal:adjective",
       "field": "word"
     }
   ],
   "equaler": [
     {
-      "id": "en:equal:noun",
+      "id": "en:equal:adjective",
       "field": "comparative"
     }
   ],
   "equalest": [
     {
-      "id": "en:equal:noun",
+      "id": "en:equal:adjective",
       "field": "superlative"
     }
   ],
@@ -27057,29 +27009,17 @@
     {
       "id": "en:expensive:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:expensive:noun",
-      "field": "word"
     }
   ],
   "expensiver": [
     {
       "id": "en:expensive:adjective",
       "field": "comparative"
-    },
-    {
-      "id": "en:expensive:noun",
-      "field": "comparative"
     }
   ],
   "expensivest": [
     {
       "id": "en:expensive:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:expensive:noun",
       "field": "superlative"
     }
   ],
@@ -43279,10 +43219,6 @@
     {
       "id": "en:late:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:late:noun",
-      "field": "word"
     }
   ],
   "late check-out": [
@@ -43309,10 +43245,6 @@
       "field": "comparative"
     },
     {
-      "id": "en:late:noun",
-      "field": "comparative"
-    },
-    {
       "id": "en:later:adverb",
       "field": "word"
     },
@@ -43330,10 +43262,6 @@
   "latest": [
     {
       "id": "en:late:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:late:noun",
       "field": "superlative"
     }
   ],
@@ -49093,7 +49021,7 @@
   ],
   "more delicious": [
     {
-      "id": "en:delicious:noun",
+      "id": "en:delicious:adjective",
       "field": "comparative"
     }
   ],
@@ -50169,7 +50097,7 @@
   ],
   "most delicious": [
     {
-      "id": "en:delicious:noun",
+      "id": "en:delicious:adjective",
       "field": "superlative"
     }
   ],
@@ -70775,10 +70703,6 @@
     {
       "id": "en:small:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:small:noun",
-      "field": "word"
     }
   ],
   "small print": [
@@ -70805,10 +70729,6 @@
       "field": "comparative"
     },
     {
-      "id": "en:small:noun",
-      "field": "comparative"
-    },
-    {
       "id": "en:smaller:adverb",
       "field": "word"
     }
@@ -70816,10 +70736,6 @@
   "smallest": [
     {
       "id": "en:small:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:small:noun",
       "field": "superlative"
     },
     {
@@ -72217,19 +72133,19 @@
   ],
   "spicier": [
     {
-      "id": "en:spicy:noun",
+      "id": "en:spicy:adjective",
       "field": "comparative"
     }
   ],
   "spiciest": [
     {
-      "id": "en:spicy:noun",
+      "id": "en:spicy:adjective",
       "field": "superlative"
     }
   ],
   "spicy": [
     {
-      "id": "en:spicy:noun",
+      "id": "en:spicy:adjective",
       "field": "word"
     }
   ],
@@ -76387,13 +76303,13 @@
   ],
   "tastier": [
     {
-      "id": "en:tasty:noun",
+      "id": "en:tasty:adjective",
       "field": "comparative"
     }
   ],
   "tastiest": [
     {
-      "id": "en:tasty:noun",
+      "id": "en:tasty:adjective",
       "field": "superlative"
     }
   ],
@@ -76411,7 +76327,7 @@
   ],
   "tasty": [
     {
-      "id": "en:tasty:noun",
+      "id": "en:tasty:adjective",
       "field": "word"
     }
   ],
@@ -78605,23 +78521,19 @@
   ],
   "tidier": [
     {
-      "id": "en:tidy:noun",
+      "id": "en:tidy:adjective",
       "field": "comparative"
     }
   ],
   "tidiest": [
     {
-      "id": "en:tidy:noun",
+      "id": "en:tidy:adjective",
       "field": "superlative"
     }
   ],
   "tidy": [
     {
       "id": "en:tidy:adjective",
-      "field": "word"
-    },
-    {
-      "id": "en:tidy:noun",
       "field": "word"
     }
   ],
@@ -78871,29 +78783,17 @@
     {
       "id": "en:tired:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:tired:noun",
-      "field": "word"
     }
   ],
   "tireder": [
     {
       "id": "en:tired:adjective",
       "field": "comparative"
-    },
-    {
-      "id": "en:tired:noun",
-      "field": "comparative"
     }
   ],
   "tiredest": [
     {
       "id": "en:tired:adjective",
-      "field": "superlative"
-    },
-    {
-      "id": "en:tired:noun",
       "field": "superlative"
     }
   ],
