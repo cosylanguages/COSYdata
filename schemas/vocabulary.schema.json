@@ -244,6 +244,45 @@
     "superlative": {
       "type": "string",
       "description": "Superlative form (meaningful for adjectives/adverbs)"
+    },
+    "past_tense": {
+      "type": "string",
+      "description": "Simple past tense form (meaningful for verbs)"
+    },
+    "past_participle": {
+      "type": "string",
+      "description": "Past participle form (meaningful for verbs)"
+    },
+    "present_participle": {
+      "type": "string",
+      "description": "Present participle (-ing) form (meaningful for verbs)"
+    },
+    "is_irregular": {
+      "type": "boolean",
+      "description": "Indicates if past tense or past participle forms are irregular (meaningful for verbs)"
+    },
+    "prepositions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "preposition",
+          "example"
+        ],
+        "properties": {
+          "preposition": {
+            "type": "string",
+            "description": "Preposition associated with the verb"
+          },
+          "example": {
+            "type": "string",
+            "description": "Example usage demonstrating the verb-preposition pattern"
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "description": "Array of verb-preposition patterns with examples"
     }
   },
   "allOf": [
@@ -345,7 +384,12 @@
             "type": "string"
           },
           "comparative": false,
-          "superlative": false
+          "superlative": false,
+          "past_tense": false,
+          "past_participle": false,
+          "present_participle": false,
+          "is_irregular": false,
+          "prepositions": false
         }
       },
       "else": {
@@ -357,6 +401,63 @@
           "singular_workaround": false,
           "collective_note": false
         }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "form": {
+            "const": "verb"
+          }
+        },
+        "required": [
+          "form"
+        ]
+      },
+      "then": {
+        "properties": {
+          "past_tense": {
+            "type": "string"
+          },
+          "past_participle": {
+            "type": "string"
+          },
+          "present_participle": {
+            "type": "string"
+          },
+          "is_irregular": {
+            "type": "boolean"
+          },
+          "prepositions": {
+            "type": "array"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "past_tense": false,
+          "past_participle": false,
+          "present_participle": false,
+          "is_irregular": false,
+          "prepositions": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "is_irregular": {
+            "const": true
+          }
+        },
+        "required": [
+          "is_irregular"
+        ]
+      },
+      "then": {
+        "required": [
+          "past_tense"
+        ]
       }
     },
     {
