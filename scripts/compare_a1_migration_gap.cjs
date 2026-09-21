@@ -87,12 +87,17 @@ function extractCosyLanguagesA1Words(lang) {
         walkDir(fullPath);
       } else if (entry.isFile() && entry.name.endsWith('.js')) {
         const code = fs.readFileSync(fullPath, 'utf8');
-        const sandbox = { window: {} };
+        const sandbox = { window: {}, module: { exports: {} } };
         try {
           vm.runInNewContext(code, sandbox);
-          const langData = sandbox.window.vocabularyData?.[lang] || [];
-          for (const item of langData) {
-            if (item.word && typeof item.word === 'string') {
+          let items = [];
+          if (Array.isArray(sandbox.window.vocabularyData?.[lang])) items.push(...sandbox.window.vocabularyData[lang]);
+          if (Array.isArray(sandbox.window.A1_MANUAL_CANON_ADDITIONS)) items.push(...sandbox.window.A1_MANUAL_CANON_ADDITIONS);
+          if (Array.isArray(sandbox.window.speakingData)) items.push(...sandbox.window.speakingData);
+          if (Array.isArray(sandbox.module.exports)) items.push(...sandbox.module.exports);
+
+          for (const item of items) {
+            if (item && item.word && typeof item.word === 'string') {
               const word = item.word.trim();
               if (word) {
                 if (!wordMap.has(word)) wordMap.set(word, []);

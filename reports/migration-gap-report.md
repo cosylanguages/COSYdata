@@ -17,7 +17,7 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 | CV | `cv` | 449 | 132 | 132 | 317 | 0 | 0 | (b) Incomplete Migration |
 | DE | `de` | 479 | 62 | 46 | 433 | 16 | 0 | (b) Incomplete Migration |
 | EL | `el` | 301 | 509 | 122 | 179 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
-| EN | `en` | 1262 | 1601 | 1240 | 22 | 361 | 3 | SuperSet / Complete Migration (Already Exceeds) |
+| EN | `en` | 1298 | 1601 | 1274 | 24 | 327 | 4 | SuperSet / Complete Migration (Already Exceeds) |
 | ES | `es` | 391 | 123 | 32 | 359 | 91 | 0 | (b) Incomplete Migration |
 | FR | `fr` | 1033 | 964 | 822 | 211 | 142 | 6 | (b) Incomplete Migration |
 | HY | `hy` | 391 | 61 | 61 | 330 | 0 | 0 | (b) Incomplete Migration |
@@ -193,36 +193,37 @@ Abend, Abendessen, Arbeit, Ehefrau, Ehemann, Ei, Essen, Familie, Frühstück, Ga
 
 ### EN (`en`)
 
-- **COSYlanguages A1 Word Count:** 1262
+- **COSYlanguages A1 Word Count:** 1298
 - **COSYdata A0/A1 Word Count:** 1601
-- **Exact Overlap Count:** 1240
-- **Candidates to Migrate (Only in COSYlanguages):** 22 words
-- **COSYdata Unique Words (To Keep):** 361 words
-- **Likely Near-Duplicates:** 3 pairs
+- **Exact Overlap Count:** 1274
+- **Candidates to Migrate (Only in COSYlanguages):** 24 words
+- **COSYdata Unique Words (To Keep):** 327 words
+- **Likely Near-Duplicates:** 4 pairs
 - **Migration Classification:** **SuperSet / Complete Migration (Already Exceeds)**
-- **Rationale:** COSYdata already contains 1601 unique words compared to COSYlanguages's 1262 words. COSYdata is a superset for English.
+- **Rationale:** COSYdata already contains 1601 unique words compared to COSYlanguages's 1298 words. COSYdata is a superset for English.
 
-#### Likely Near-Duplicates (3 pairs)
+#### Likely Near-Duplicates (4 pairs)
 | Candidate (COSYlanguages) | Existing (COSYdata) | Match Type |
 | :--- | :--- | :--- |
 | `fries` | `chips / fries` | Slash / Option variant |
 | `mall` | `shopping center / mall` | Slash / Option variant |
 | `shopping center` | `shopping center / mall` | Slash / Option variant |
+| `cafe` | `café` | Accent / Diacritic variant |
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (22 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (24 words)</strong></summary>
 
 ```
-africa, america, arabic, asia, britain, europe, excuse me, fries, happy birthday, mall, mexico, ok, portugal, russian, scotland, see you, shopping center, thank you, the usa, tv, wales, you're welcome
+africa, america, arabic, asia, britain, cafe, europe, excuse me, fries, happy birthday, mall, mexico, ok, portugal, russian, scotland, see you, shopping center, thank you, the usa, tv, wales, yoghurt, you're welcome
 ```
 
 </details>
 
 <details>
-<summary><strong>COSYdata Unique Words List (361 words)</strong></summary>
+<summary><strong>COSYdata Unique Words List (327 words)</strong></summary>
 
 ```
-Africa, ago, agree with, America, And you, animals, ant, anybody, anyone, anything, apartment building, app, Arabic, are there, arms, around, as well, Asia, Australian, autumn/fall, backpack, bar, Be careful, be quiet, bell, blocks, Britain, brush teeth, builder, building, burger, cab, café, call 911, call the police, Can I have, Can I help you, Can you help me, Can you repeat that please, Can you speak slowly please, Canadian, carpet, cartoon, cell phone, cereal, chips / fries, classmate, clean the house, cleaner, cleaning, click, closet, clothing, cola, colleague, colorful, come back, Come here, come home, Come in, computer game, congratulations on, continue, cook dinner, cooker, copy, crayon, credit card, cross, cucumber, dark blue, delete, describe, dining room, disagree with, do homework, do the laundry, do the shopping, Do you speak English, Don't worry, each, ears, easily, elbow, eleventh, email address, especially, Europe, every day, everything, Excuse me, eyes, family member, far from, faucet, field, fill in, fingers, fire alarm, first name, flour, for example, free time, freezer, full name, gaming, garlic, get dressed, get up, glad, Go straight, go to bed, go to school, go to work, goat, Good job, Good luck, grandchild, grandchildren, grandparents, grey/gray, ground, gym, handbag, Happy birthday, Have a good day, Have a nice day, have breakfast, have dinner, have lunch, headphones, hen, herself, hide, himself, honey, hoodie, How are you, How do I get to, How do you say in English, How much is it, how often, How old are you, Hurry up, I agree, I am years old, I disagree, I don't know, I don't understand, I live in, I need help, I think so, I want, I'd like, I'm a teacher, I'm fine, I'm from, I'm good, I'm lost, I'm not sure, I'm okay, I'm sorry, in front of, in love, Is it okay, is there, It's far, It's near, It's okay, jewelry, Just a minute, keyboard, keys, last name, lawyer, legs, let, Let me see, Let's go, light blue, Listen carefully, listen to, look at, Look at me, Look out, loose, lunchbox, madam, matches, mathematics, may, mechanic, Mexico, mister, moment, mood, movie theater, moving, mr, mrs, My name is, myself, napkin, necklace, Nice to meet you, Nice to meet you too, no meat, no one, No problem, no sugar, noodles, Not bad, Of course, OK, Okay, on foot, One moment please, one ticket, onto, opposite, over there, page, pajamas, parents, partner, passport, phone number, place, plant, playground, please repeat, police station, pool, Portugal, Portuguese, print, printer, promise, put on, pyjamas, quarter past, quarter to, race, raincoat, raise your hand, relative, remote control, repeat after me, right here, rooms, rug, Russian, salesperson, sandals, Scotland, seat, secretary, See you, See you later, See you soon, See you tomorrow, shampoo, shopping center / mall, shorts, singing, sir, sit down, Sit down, slide, soda, soft drink, soldier, somebody, sparkling water, spell, stand up, Stand up, sticker, still water, story, storybook, straight ahead, stuff, suit, sunscreen, surname, swimming pool, swimsuit, swing, take a nap, take a shower, Take care, take care of, take off, take out the trash, Take your time, tap, teddy bear, Thank you, Thank you very much, That's okay, That's right, That's wrong, the USA, thing, tie, tight, to go, toes, toilet, toilet paper, too much, toothpaste, toys, traffic light, train station, tram, traveling, trolley, truck, try on, Turn left, turn off, turn on, Turn right, TV, twelfth, twenty-one, twin, twins, type, underwear, uniform, united kingdom, united states, vegetables, volleyball, Wait a minute, wake up, Wales, walk the dog, walking, wash the dishes, Watch out, watch TV, way, Well done, What do you do, What does mean, What time is it, What's your name, wheelchair, Where are you from, Where do you live, Where is, whiteboard, Wi-Fi, yoga, yogurt, you are welcome, You're welcome
+Africa, ago, agree with, America, And you, animals, ant, anybody, anyone, anything, apartment building, Arabic, are there, arms, around, as well, Asia, Australian, autumn/fall, bar, Be careful, be quiet, bell, blocks, Britain, brush teeth, builder, building, burger, cab, café, call 911, call the police, Can I have, Can I help you, Can you help me, Can you repeat that please, Can you speak slowly please, Canadian, carpet, cartoon, cell phone, chips / fries, clean the house, cleaner, cleaning, click, closet, clothing, cola, colorful, come back, Come here, come home, Come in, computer game, congratulations on, continue, cook dinner, cooker, copy, crayon, credit card, cross, cucumber, dark blue, delete, describe, dining room, disagree with, do homework, do the laundry, do the shopping, Do you speak English, Don't worry, each, ears, easily, elbow, eleventh, especially, Europe, every day, everything, Excuse me, eyes, family member, far from, faucet, field, fill in, fingers, fire alarm, for example, free time, freezer, full name, gaming, get dressed, glad, Go straight, go to bed, go to school, go to work, goat, Good job, Good luck, grandchild, grandchildren, grandparents, grey/gray, ground, handbag, Happy birthday, Have a good day, Have a nice day, have breakfast, have dinner, have lunch, headphones, hen, herself, hide, himself, hoodie, How are you, How do I get to, How do you say in English, How much is it, how often, How old are you, Hurry up, I agree, I am years old, I disagree, I don't know, I don't understand, I live in, I need help, I think so, I want, I'd like, I'm a teacher, I'm fine, I'm from, I'm good, I'm lost, I'm not sure, I'm okay, I'm sorry, in front of, in love, Is it okay, is there, It's far, It's near, It's okay, jewelry, Just a minute, keys, lawyer, legs, let, Let me see, Let's go, light blue, Listen carefully, listen to, look at, Look at me, Look out, loose, lunchbox, madam, matches, mathematics, may, mechanic, Mexico, mister, moment, mood, movie theater, moving, mr, mrs, My name is, myself, napkin, necklace, Nice to meet you, Nice to meet you too, no meat, no one, No problem, no sugar, noodles, Not bad, Of course, OK, Okay, on foot, One moment please, one ticket, onto, opposite, over there, page, pajamas, place, plant, playground, please repeat, police station, pool, Portugal, Portuguese, print, promise, pyjamas, quarter past, quarter to, race, raincoat, raise your hand, relative, remote control, repeat after me, right here, rooms, rug, Russian, salesperson, Scotland, seat, secretary, See you, See you later, See you soon, See you tomorrow, shampoo, shopping center / mall, singing, sir, sit down, Sit down, slide, soda, soft drink, soldier, somebody, sparkling water, spell, stand up, Stand up, sticker, still water, story, storybook, straight ahead, stuff, sunscreen, surname, swimming pool, swimsuit, swing, take a nap, take a shower, Take care, take care of, take out the trash, Take your time, tap, teddy bear, Thank you, Thank you very much, That's okay, That's right, That's wrong, the USA, thing, tight, to go, toes, toilet paper, too much, toys, traffic light, tram, traveling, trolley, truck, Turn left, turn off, turn on, Turn right, TV, twelfth, twenty-one, twin, twins, type, underwear, uniform, vegetables, Wait a minute, Wales, walk the dog, walking, wash the dishes, Watch out, watch TV, way, Well done, What do you do, What does mean, What time is it, What's your name, wheelchair, Where are you from, Where do you live, Where is, whiteboard, Wi-Fi, yogurt, you are welcome, You're welcome
 ```
 
 </details>
