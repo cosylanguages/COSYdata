@@ -2,7 +2,22 @@ const fs = require('fs');
 const path = require('path');
 
 const dir = 'vocabulary/en';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== 'index.json').sort();
+
+function getJsonFiles(dirPath) {
+  let results = [];
+  const list = fs.readdirSync(dirPath, { withFileTypes: true });
+  for (const item of list) {
+    const fullPath = path.join(dirPath, item.name);
+    if (item.isDirectory()) {
+      results = results.concat(getJsonFiles(fullPath));
+    } else if (item.isFile() && item.name.endsWith('.json') && item.name !== 'index.json' && item.name !== 'flat-index.json') {
+      results.push(fullPath);
+    }
+  }
+  return results.sort();
+}
+
+const files = getJsonFiles(dir);
 
 let totalEntries = 0;
 const idMap = {};
@@ -22,10 +37,10 @@ function isTemplated(def0, ex0) {
 
 const fileDetails = [];
 
-files.forEach(file => {
-  const filePath = path.join(dir, file);
+files.forEach(filePath => {
+  const file = path.relative(dir, filePath);
   const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  const baseName = file.replace('.json', '');
+  const baseName = path.basename(file, '.json');
 
   templatedEntriesByFileLevel[file] = { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0, total: 0, fileTotal: content.length };
 
@@ -145,7 +160,7 @@ The vast majority of entries in the dataset contain automatically generated plac
 
 ### Exceptions (Non-Templated Entries)
 
-Only **${nonTemplated.length} entries** across the entire dataset contain genuine, human-authored definitions and examples (located in \`animals.json\`):
+Only **${nonTemplated.length} entries** across the entire dataset contain genuine, human-authored definitions and examples:
 
 `;
 
@@ -176,7 +191,8 @@ md += `\n### 3.2 Breakdown by Theme File and CEFR Level
 |------------|----|----|----|----|----|----|----|-----------------|--------------------|
 `;
 
-files.forEach(file => {
+files.forEach(filePath => {
+  const file = path.relative(dir, filePath);
   const stats = templatedEntriesByFileLevel[file];
   md += `| \`${file}\` | ${stats.A0} | ${stats.A1} | ${stats.A2} | ${stats.B1} | ${stats.B2} | ${stats.C1} | ${stats.C2} | **${stats.total}** | ${stats.fileTotal} |\n`;
 });
@@ -185,36 +201,9 @@ md += `\n---\n\n## 4. Theme Field and Topic Mismatches
 
 This section details entries where the \`theme\` JSON field value or word concept does not match the file's primary topic or filename.
 
-### 4.1 Off-Topic & Misplaced Entries in \`animals.json\`
+### Macro-Taxonomy Theme Mappings Across All Theme Files
 
-\`animals.json\` contains 116 total entries. Of these, only 68 are animals with \`theme: "animals"\`. The remaining 48 entries are landscape/nature concepts tagged with \`theme: "nature"\`. Furthermore, multiple non-animal nature and weather terms are erroneously tagged with \`theme: "animals"\`.
-
-1. **Entries with \`theme: "animals"\` that are Weather / Astronomy / Landscape concepts**:
-   - **Weather / Astronomy**: \`en:weather:noun\` (weather), \`en:moon:noun\` (moon), \`en:cloud:noun\` (cloud), \`en:sky:noun\` (sky), \`en:sun:noun\` (sun), \`en:star:noun\` (star), \`en:rain:noun\` (rain), \`en:snow:noun\` (snow), \`en:wind:noun\` (wind), \`en:storm:noun\` (storm), \`en:sunny:adjective\`, \`en:rainy:adjective\`, \`en:cloudy:adjective\`, \`en:windy:adjective\`, \`en:snowy:adjective\`, \`en:hot:adjective\`, \`en:cold:adjective\`, \`en:warm:adjective\`, \`en:cool:adjective\`.
-   - **Flora & Landscape**: \`en:tree:noun\`, \`en:stone:noun\`, \`en:flower:noun\`, \`en:grass:noun\`, \`en:leaf:noun\`, \`en:leaves:noun\`, \`en:forest:noun\`, \`en:wood:noun\`, \`en:mountain:noun\`, \`en:hill:noun\`, \`en:river:noun\`, \`en:lake:noun\`, \`en:sea:noun\`, \`en:ocean:noun\`, \`en:beach:noun\`, \`en:island:noun\`, \`en:earth:noun\`, \`en:nature:noun\`, \`en:rock:noun\`, \`en:sand:noun\`.
-
-2. **48 Entries tagged with \`theme: "nature"\` placed inside \`animals.json\`**:
-   - \`view\`, \`landscape\`, \`wildlife\`, \`habitat\`, \`species\`, \`mammal\`, \`reptile\`, \`insect\`, \`amphibian\`, \`predator\`, \`prey\`, \`nest\`, \`cave\`, \`burrow\`, \`jungle\`, \`desert\`, \`valley\`, \`cliff\`, \`waterfall\`, \`volcano\`, \`tide\`, \`wave\`, \`current\`, \`branch\`, \`root\`, \`seed\`, \`bloom\`, \`blossom\`, \`breed\`, \`migrate\`, \`hibernate\`, \`pet\`, \`pond\`, \`stream\`, \`countryside\`, \`scenery\`, \`coast\`, \`wing\`, \`tail\`, \`paw\`, \`fur\`, \`feather\`, \`cage\`, \`wild\`, \`tame\`, \`pet-shop\`, \`veterinarian\`, \`vet\`.
-
-### 4.2 Theme Field Mismatches in \`environment.json\`
-
-While 163 entries in \`environment.json\` have \`theme: "environment"\`, **7 entries** have \`theme: "society"\`:
-- \`en:headline:noun\` (headline)
-- \`en:reporter:noun\` (reporter)
-- \`en:climate-change:noun\` (climate change)
-- \`en:global-warming:noun\` (global warming)
-- \`en:nature-reserve:noun\` (nature reserve)
-- \`en:natural-disaster:noun\` (natural disaster)
-- \`en:mayor:noun\` (mayor)
-
-### 4.3 Theme Field Mismatches in \`media.json\`
-
-While 146 entries in \`media.json\` have \`theme: "media"\`, **54 entries** have \`theme: "technology"\`:
-- Tech / Software terms: \`website\`, \`app\`, \`application\`, \`download\`, \`upload\`, \`social\`, \`media\`, \`internet\`, \`connection\`, \`wifi\`, \`password\`, \`username\`, \`account\`, \`update\`, \`install\`, \`device\`, \`gadget\`, \`newspaper\`, \`magazine\`, \`article\`, \`news\`, \`channel\`, \`program\`, \`programme\`, \`advertisement\`, \`advert\`, \`commercial\`, \`subscribe\`, \`follow\`, \`like\`, \`share\`, \`comment\`, \`online\`, \`offline\`, \`data\`, \`file\`, \`folder\`, \`search\`, \`engine\`, \`browser\`, \`social-media\`, \`profile\`, \`subscriber\`, \`uninstall\`, \`settings\`, \`memory\`, \`plug-in\`, \`connect\`, \`signal\`, \`hack\`, \`spam\`, \`search-engine\`, \`link\`, \`document\`.
-
-### 4.4 Macro-Taxonomy Theme Mappings Across All Theme Files
-
-Across the 92 theme files, many JSON files use broader taxonomy categories for their \`theme\` attribute rather than the specific filename topic. Below is a summary table of all theme files and the entry \`theme\` field values present in each file:
+Across the ${files.length} theme files, many JSON files use broader taxonomy categories for their \`theme\` attribute rather than the specific filename topic. Below is a summary table of all theme files and the entry \`theme\` field values present in each file:
 
 | Theme File | Total Entries | Entry \`theme\` Values Present & Counts |
 |------------|---------------|----------------------------------------|
@@ -235,5 +224,6 @@ mergedPlaceholderEntries.sort((a, b) => a.id.localeCompare(b.id)).forEach(e => {
   md += `- **\`${e.id}\`** (word: "${e.word}") in \`${e.file}\` | Intro Level: \`${e.level}\` | All Levels: \`[${e.levels.join(', ')}]\` \n`;
 });
 
+fs.mkdirSync('reports', { recursive: true });
 fs.writeFileSync(path.join('reports', 'content-audit.md'), md, 'utf8');
 console.log('Report updated successfully at reports/content-audit.md');

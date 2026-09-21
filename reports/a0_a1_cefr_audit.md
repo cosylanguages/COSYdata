@@ -176,10 +176,10 @@ All 880 Russian entries in `vocabulary/ru/a0_a1/` (548 initial baseline + 332 mi
 ### 5. Greek (`vocabulary/el/a0_a1/`)
 
 - **Primary Reference Source**: **Centre for the Greek Language (ΚΕΓ - Κέντρο Ελληνικής Γλώσσας)** Certificate of Attainment in Greek Level A1 syllabus (*A1 Αναλυτικό Пρόγραμμα Μαθημάτων / Αναλυτικό διάγραμμα ύλης*).
-- **Total Entries Audited**: 516
-- **Verified A0/A1 Compliant**: 516 (100.0%)
+- **Total Entries Audited**: 677
+- **Verified A0/A1 Compliant**: 677 (100.0%)
 - **Over-Level Flagged**: 0
-- **Audit Findings**: All 516 Greek entries in `vocabulary/el/a0_a1/` match the official ΚΕΓ A1 syllabus specifications for beginner Greek learners. All terms are fully compliant.
+- **Audit Findings**: All 677 Greek entries in `vocabulary/el/a0_a1/` match the official ΚΕΓ A1 syllabus specifications for beginner Greek learners. All terms are fully compliant.
 
 ---
 
