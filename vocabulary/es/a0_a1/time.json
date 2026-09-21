@@ -23,27 +23,23 @@
     "plural_form": "días"
   },
   {
-    "id": "es:semana:noun",
-    "word": "semana",
+    "id": "es:hoy:adverb",
+    "word": "hoy",
     "language": "es",
-    "form": "noun",
+    "form": "adverb",
     "level": "A1",
-    "transcription": "/semana/",
+    "transcription": "/oj/",
     "emoji": "📅",
     "definitions": [
-      "Periodo de siete días."
+      "En este día."
     ],
     "examples": [
-      "Paso una semana en la playa."
+      "Hoy es un día muy bonito."
     ],
     "domain": "general",
     "theme": "time",
     "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "la",
-    "gender": "feminine",
-    "plural_form": "semanas"
+    "no_antonym": true
   },
   {
     "id": "es:manana:noun",
@@ -69,29 +65,6 @@
     "plural_form": "mañanas"
   },
   {
-    "id": "es:tarde:noun",
-    "word": "tarde",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/ˈtaɾðe/",
-    "emoji": "🌆",
-    "definitions": [
-      "Parte del día después de comer."
-    ],
-    "examples": [
-      "Estudio español por la tarde."
-    ],
-    "domain": "general",
-    "theme": "time",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "la",
-    "gender": "feminine",
-    "plural_form": "tardes"
-  },
-  {
     "id": "es:noche:noun",
     "word": "noche",
     "language": "es",
@@ -115,22 +88,87 @@
     "plural_form": "noches"
   },
   {
-    "id": "es:hoy:adverb",
-    "word": "hoy",
+    "id": "es:nunca:adverb",
+    "word": "nunca",
     "language": "es",
     "form": "adverb",
     "level": "A1",
-    "transcription": "/oj/",
-    "emoji": "📅",
     "definitions": [
-      "En este día."
+      "En ningún momento."
     ],
     "examples": [
-      "Hoy tengo tiempo libre."
+      "Nunca llego tarde a las clases."
     ],
     "domain": "general",
     "theme": "time",
     "updated": "2025-01-15",
+    "transcription": "/nunka/",
+    "emoji": "❌",
     "no_antonym": true
+  },
+  {
+    "id": "es:semana:noun",
+    "word": "semana",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/semana/",
+    "emoji": "📅",
+    "definitions": [
+      "Periodo de siete días."
+    ],
+    "examples": [
+      "Paso una semana en la playa."
+    ],
+    "domain": "general",
+    "theme": "time",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "semanas"
+  },
+  {
+    "id": "es:siempre:adverb",
+    "word": "siempre",
+    "language": "es",
+    "form": "adverb",
+    "level": "A1",
+    "definitions": [
+      "En todo momento."
+    ],
+    "examples": [
+      "Siempre hago mis deberes a tiempo."
+    ],
+    "domain": "general",
+    "theme": "time",
+    "updated": "2025-01-15",
+    "transcription": "/siempre/",
+    "emoji": "🔄",
+    "no_antonym": true
+  },
+  {
+    "id": "es:tarde:noun",
+    "word": "tarde",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ˈtaɾðe/",
+    "emoji": "🌆",
+    "definitions": [
+      "Parte del día después de comer."
+    ],
+    "examples": [
+      "Estudio español por la tarde."
+    ],
+    "domain": "general",
+    "theme": "time",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "tardes"
   }
 ]

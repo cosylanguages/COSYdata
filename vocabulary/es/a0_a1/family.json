@@ -1,40 +1,17 @@
 [
   {
-    "id": "es:madre:noun",
-    "word": "madre",
+    "id": "es:amigo:noun",
+    "word": "amigo",
     "language": "es",
     "form": "noun",
-    "level": "A0",
-    "transcription": "/ˈmaðɾe/",
-    "emoji": "👩",
+    "level": "A1",
+    "transcription": "/aˈmiɣo/",
+    "emoji": "👫",
     "definitions": [
-      "Mujer que es madre."
+      "Persona que te gusta."
     ],
     "examples": [
-      "Mi madre cocina una cena deliciosa."
-    ],
-    "domain": "general",
-    "theme": "family",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "la",
-    "gender": "feminine",
-    "plural_form": "madres"
-  },
-  {
-    "id": "es:padre:noun",
-    "word": "padre",
-    "language": "es",
-    "form": "noun",
-    "level": "A0",
-    "transcription": "/ˈpaðɾe/",
-    "emoji": "👨",
-    "definitions": [
-      "Hombre que es padre."
-    ],
-    "examples": [
-      "Mi padre lee el periódico por la mañana."
+      "Él es mi mejor amigo."
     ],
     "domain": "general",
     "theme": "family",
@@ -43,7 +20,7 @@
     "countability": "countable",
     "article": "el",
     "gender": "masculine",
-    "plural_form": "padres"
+    "plural_form": "amigos"
   },
   {
     "id": "es:familia:noun",
@@ -69,27 +46,73 @@
     "plural_form": "familias"
   },
   {
-    "id": "es:amigo:noun",
-    "word": "amigo",
+    "id": "es:hermana:noun",
+    "word": "hermana",
     "language": "es",
     "form": "noun",
     "level": "A1",
-    "transcription": "/aˈmiɣo/",
-    "emoji": "👫",
     "definitions": [
-      "Persona que te gusta."
+      "Hija de los mismos padres."
     ],
     "examples": [
-      "Él es mi mejor amigo."
+      "Mi hermana vive en Barcelona."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "transcription": "/er.ˈma.na/",
+    "emoji": "👧",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "hermanas"
+  },
+  {
+    "id": "es:hermano:noun",
+    "word": "hermano",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Hijo de los mismos padres."
+    ],
+    "examples": [
+      "Tengo un hermano en casa."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "transcription": "/er.ˈma.no/",
+    "emoji": "👦",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "hermanos"
+  },
+  {
+    "id": "es:madre:noun",
+    "word": "madre",
+    "language": "es",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/ˈmaðɾe/",
+    "emoji": "👩",
+    "definitions": [
+      "Mujer que es madre."
+    ],
+    "examples": [
+      "Mi madre cocina una cena deliciosa."
     ],
     "domain": "general",
     "theme": "family",
     "updated": "2025-01-15",
     "no_antonym": true,
     "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "amigos"
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "madres"
   },
   {
     "id": "es:marido:noun",
@@ -159,5 +182,28 @@
     "article": "el",
     "gender": "masculine",
     "plural_form": "niños"
+  },
+  {
+    "id": "es:padre:noun",
+    "word": "padre",
+    "language": "es",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/ˈpaðɾe/",
+    "emoji": "👨",
+    "definitions": [
+      "Hombre que es padre."
+    ],
+    "examples": [
+      "Mi padre lee el periódico por la mañana."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "padres"
   }
 ]
