@@ -1,5 +1,165 @@
 [
   {
+    "id": "es:adios:phrase",
+    "word": "adiós",
+    "language": "es",
+    "form": "phrase",
+    "level": "A0",
+    "transcription": "/adios/",
+    "emoji": "👋",
+    "definitions": [
+      "Objeto o concepto: adiós."
+    ],
+    "examples": [
+      "Adiós, nos vemos mañana."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:bienvenido:phrase",
+    "word": "bienvenido",
+    "language": "es",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/bienvenido/",
+    "emoji": "🤝",
+    "definitions": [
+      "Objeto o concepto: bienvenido."
+    ],
+    "examples": [
+      "Bienvenido a nuestra casa."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:fiesta:noun",
+    "word": "fiesta",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Reunión alegre para celebrar algo."
+    ],
+    "examples": [
+      "Celebramos una fiesta alegre en casa."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "transcription": "/ˈfjes.ta/",
+    "emoji": "🎉",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "fiestas"
+  },
+  {
+    "id": "es:gracias:phrase",
+    "word": "gracias",
+    "language": "es",
+    "form": "phrase",
+    "level": "A0",
+    "transcription": "/gracias/",
+    "emoji": "🙏",
+    "definitions": [
+      "Objeto o concepto: gracias."
+    ],
+    "examples": [
+      "Muchas gracias por tu ayuda."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:hola:phrase",
+    "word": "hola",
+    "language": "es",
+    "form": "phrase",
+    "level": "A0",
+    "transcription": "/hola/",
+    "emoji": "👋",
+    "definitions": [
+      "Objeto o concepto: hola."
+    ],
+    "examples": [
+      "¡Hola! ¿Cómo estás?"
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:ordenador:noun",
+    "word": "ordenador",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Máquina electrónica para procesar datos."
+    ],
+    "examples": [
+      "Trabajo con un ordenador rápido."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "transcription": "/or.ðe.na.ˈðor/",
+    "emoji": "💻",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "ordenadores"
+  },
+  {
+    "id": "es:perdon:phrase",
+    "word": "perdón",
+    "language": "es",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/perdon/",
+    "emoji": "🙇",
+    "definitions": [
+      "Objeto o concepto: perdón."
+    ],
+    "examples": [
+      "Perdón, no escuché lo que dijiste."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:por-favor:phrase",
+    "word": "por favor",
+    "language": "es",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/poɾ faˈβoɾ/",
+    "emoji": "🙏",
+    "definitions": [
+      "Objeto o concepto: por favor."
+    ],
+    "examples": [
+      "Un café, por favor."
+    ],
+    "domain": "general",
+    "theme": "expressions",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
     "id": "es:regalo:noun",
     "word": "regalo",
     "language": "es",
@@ -21,119 +181,5 @@
     "article": "el",
     "gender": "masculine",
     "plural_form": "regalos"
-  },
-  {
-    "id": "es:por-favor:phrase",
-    "word": "por favor",
-    "language": "es",
-    "form": "phrase",
-    "level": "A1",
-    "transcription": "/poɾ faˈβoɾ/",
-    "emoji": "🙏",
-    "definitions": [
-      "Término para please."
-    ],
-    "examples": [
-      "Un café, por favor."
-    ],
-    "domain": "general",
-    "theme": "expressions",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:gracias:phrase",
-    "word": "gracias",
-    "language": "es",
-    "form": "phrase",
-    "level": "A0",
-    "transcription": "/gracias/",
-    "emoji": "🙏",
-    "definitions": [
-      "Término para thanks."
-    ],
-    "examples": [
-      "Muchas gracias por tu ayuda."
-    ],
-    "domain": "general",
-    "theme": "expressions",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:hola:phrase",
-    "word": "hola",
-    "language": "es",
-    "form": "phrase",
-    "level": "A0",
-    "transcription": "/hola/",
-    "emoji": "👋",
-    "definitions": [
-      "Término para hello."
-    ],
-    "examples": [
-      "¡Hola! ¿Cómo estás?"
-    ],
-    "domain": "general",
-    "theme": "expressions",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:adios:phrase",
-    "word": "adiós",
-    "language": "es",
-    "form": "phrase",
-    "level": "A0",
-    "transcription": "/adios/",
-    "emoji": "👋",
-    "definitions": [
-      "Término para goodbye."
-    ],
-    "examples": [
-      "Adiós, nos vemos mañana."
-    ],
-    "domain": "general",
-    "theme": "expressions",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:perdon:phrase",
-    "word": "perdón",
-    "language": "es",
-    "form": "phrase",
-    "level": "A1",
-    "transcription": "/perdon/",
-    "emoji": "🙇",
-    "definitions": [
-      "Término para excuse me."
-    ],
-    "examples": [
-      "Perdón, no escuché lo que dijiste."
-    ],
-    "domain": "general",
-    "theme": "expressions",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:bienvenido:phrase",
-    "word": "bienvenido",
-    "language": "es",
-    "form": "phrase",
-    "level": "A1",
-    "transcription": "/bienvenido/",
-    "emoji": "🤝",
-    "definitions": [
-      "Término para welcome."
-    ],
-    "examples": [
-      "Bienvenido a nuestra casa."
-    ],
-    "domain": "general",
-    "theme": "expressions",
-    "updated": "2025-01-15",
-    "no_antonym": true
   }
 ]

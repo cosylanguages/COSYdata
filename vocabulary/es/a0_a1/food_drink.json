@@ -1,89 +1,39 @@
 [
   {
-    "id": "es:pizza:noun",
-    "word": "pizza",
+    "id": "es:agua:noun",
+    "word": "agua",
     "language": "es",
     "form": "noun",
-    "level": "A1",
-    "transcription": "/pizza/",
-    "emoji": "🍕",
+    "level": "A0",
+    "transcription": "/ˈaɣwa/",
+    "emoji": "🚰",
     "definitions": [
-      "Pan plano con queso y tomate."
+      "Líquido transparente para beber."
     ],
     "examples": [
-      "Me gusta la pizza con queso."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "la",
-    "gender": "feminine",
-    "plural_form": "pizzas"
-  },
-  {
-    "id": "es:pasta:noun",
-    "word": "pasta",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/pasta/",
-    "emoji": "🍝",
-    "definitions": [
-      "Comida hecha de harina y huevos."
-    ],
-    "examples": [
-      "Comemos pasta hoy."
+      "Bebo un vaso de agua fría."
     ],
     "domain": "general",
     "theme": "food_drink",
     "updated": "2025-01-15",
     "no_antonym": true,
     "countability": "uncountable",
-    "article": "la",
-    "gender": "feminine"
+    "article": "el",
+    "gender": "masculine"
   },
   {
-    "id": "es:manzana:noun",
-    "word": "manzana",
+    "id": "es:almuerzo:noun",
+    "word": "almuerzo",
     "language": "es",
     "form": "noun",
     "level": "A1",
-    "transcription": "/manzana/",
-    "emoji": "🍎",
+    "transcription": "/almuerzo/",
+    "emoji": "🍱",
     "definitions": [
-      "Fruta redonda, roja o verde."
+      "Comida del mediodía."
     ],
     "examples": [
-      "La manzana es roja."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "la",
-    "gender": "feminine",
-    "plural_form": "manzanas",
-    "levels": [
-      "A1",
-      "A2"
-    ]
-  },
-  {
-    "id": "es:pan:noun",
-    "word": "pan",
-    "language": "es",
-    "form": "noun",
-    "level": "A0",
-    "transcription": "/pan/",
-    "emoji": "🍞",
-    "definitions": [
-      "Comida común de harina y agua."
-    ],
-    "examples": [
-      "Compro pan cada mañana."
+      "Comemos el almuerzo a la una."
     ],
     "domain": "general",
     "theme": "food_drink",
@@ -92,11 +42,122 @@
     "countability": "countable",
     "article": "el",
     "gender": "masculine",
-    "plural_form": "panes",
-    "levels": [
-      "A0",
-      "A1"
-    ]
+    "plural_form": "almuerzos"
+  },
+  {
+    "id": "es:cafe:noun",
+    "word": "café",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kaˈfe/",
+    "emoji": "☕",
+    "definitions": [
+      "Bebida marrón caliente."
+    ],
+    "examples": [
+      "Tomo café sin azúcar."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "cafés"
+  },
+  {
+    "id": "es:cena:noun",
+    "word": "cena",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/cena/",
+    "emoji": "🍽️",
+    "definitions": [
+      "Comida de la noche."
+    ],
+    "examples": [
+      "Cenamos a las ocho."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "cenas"
+  },
+  {
+    "id": "es:comida:noun",
+    "word": "comida",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/koˈmiða/",
+    "emoji": "🍲",
+    "definitions": [
+      "Cosas que la gente come."
+    ],
+    "examples": [
+      "La comida está muy rica hoy."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "comidas"
+  },
+  {
+    "id": "es:desayuno:noun",
+    "word": "desayuno",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/desayuno/",
+    "emoji": "🍳",
+    "definitions": [
+      "Primera comida del día."
+    ],
+    "examples": [
+      "Tomo un buen desayuno por la mañana."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "desayunos"
+  },
+  {
+    "id": "es:gazpacho:noun",
+    "word": "gazpacho",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Sopa fría de tomate."
+    ],
+    "examples": [
+      "Tengo un gazpacho en casa."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "transcription": "/gaθpatʃo/",
+    "emoji": "🥣",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "gazpachos"
   },
   {
     "id": "es:huevo:noun",
@@ -148,6 +209,128 @@
     "gender": "feminine"
   },
   {
+    "id": "es:manzana:noun",
+    "word": "manzana",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/manzana/",
+    "emoji": "🍎",
+    "definitions": [
+      "Fruta redonda, roja o verde."
+    ],
+    "examples": [
+      "La manzana es roja."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "manzanas",
+    "levels": [
+      "A1",
+      "A2"
+    ]
+  },
+  {
+    "id": "es:paella:noun",
+    "word": "paella",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Plato de arroz típico español."
+    ],
+    "examples": [
+      "Comemos una paella deliciosa el domingo."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "transcription": "/paeʎa/",
+    "emoji": "🥘",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "paellas"
+  },
+  {
+    "id": "es:pan:noun",
+    "word": "pan",
+    "language": "es",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/pan/",
+    "emoji": "🍞",
+    "definitions": [
+      "Comida común de harina y agua."
+    ],
+    "examples": [
+      "Compro pan cada mañana."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "panes",
+    "levels": [
+      "A0",
+      "A1"
+    ]
+  },
+  {
+    "id": "es:pasta:noun",
+    "word": "pasta",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pasta/",
+    "emoji": "🍝",
+    "definitions": [
+      "Comida hecha de harina y huevos."
+    ],
+    "examples": [
+      "Comemos pasta hoy."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "uncountable",
+    "article": "la",
+    "gender": "feminine"
+  },
+  {
+    "id": "es:pizza:noun",
+    "word": "pizza",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pizza/",
+    "emoji": "🍕",
+    "definitions": [
+      "Pan plano con queso y tomate."
+    ],
+    "examples": [
+      "Me gusta la pizza con queso."
+    ],
+    "domain": "general",
+    "theme": "food_drink",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "pizzas"
+  },
+  {
     "id": "es:platano:noun",
     "word": "plátano",
     "language": "es",
@@ -169,29 +352,6 @@
     "article": "el",
     "gender": "masculine",
     "plural_form": "plátanos"
-  },
-  {
-    "id": "es:cafe:noun",
-    "word": "café",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/kaˈfe/",
-    "emoji": "☕",
-    "definitions": [
-      "Bebida marrón caliente."
-    ],
-    "examples": [
-      "Tomo café sin azúcar."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "cafés"
   },
   {
     "id": "es:te:noun",
@@ -217,117 +377,26 @@
     "plural_form": "tés"
   },
   {
-    "id": "es:agua:noun",
-    "word": "agua",
+    "id": "es:tortilla:noun",
+    "word": "tortilla",
     "language": "es",
     "form": "noun",
-    "level": "A0",
-    "transcription": "/ˈaɣwa/",
-    "emoji": "🚰",
+    "level": "A1",
     "definitions": [
-      "Líquido transparente para beber."
+      "Plato de huevos y patatas."
     ],
     "examples": [
-      "Bebo un vaso de agua fría."
+      "Tengo un tortilla en casa."
     ],
     "domain": "general",
     "theme": "food_drink",
     "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "uncountable",
-    "article": "el",
-    "gender": "masculine"
-  },
-  {
-    "id": "es:comida:noun",
-    "word": "comida",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/koˈmiða/",
-    "emoji": "🍲",
-    "definitions": [
-      "Cosas que la gente come."
-    ],
-    "examples": [
-      "La comida está muy rica hoy."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "la",
-    "gender": "feminine",
-    "plural_form": "comidas"
-  },
-  {
-    "id": "es:desayuno:noun",
-    "word": "desayuno",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/desayuno/",
+    "transcription": "/tortiʎa/",
     "emoji": "🍳",
-    "definitions": [
-      "Primera comida del día."
-    ],
-    "examples": [
-      "Tomo un buen desayuno por la mañana."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "desayunos"
-  },
-  {
-    "id": "es:almuerzo:noun",
-    "word": "almuerzo",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/almuerzo/",
-    "emoji": "🍱",
-    "definitions": [
-      "Comida del mediodía."
-    ],
-    "examples": [
-      "Comemos el almuerzo a la una."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "almuerzos"
-  },
-  {
-    "id": "es:cena:noun",
-    "word": "cena",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/cena/",
-    "emoji": "🍽️",
-    "definitions": [
-      "Comida de la noche."
-    ],
-    "examples": [
-      "Cenamos a las ocho."
-    ],
-    "domain": "general",
-    "theme": "food_drink",
-    "updated": "2025-01-15",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "cenas"
+    "plural_form": "tortillas"
   }
 ]

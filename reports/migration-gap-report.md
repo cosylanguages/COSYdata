@@ -18,7 +18,7 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 | DE | `de` | 479 | 62 | 46 | 433 | 16 | 0 | (b) Incomplete Migration |
 | EL | `el` | 301 | 509 | 122 | 179 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EN | `en` | 1298 | 1601 | 1274 | 24 | 327 | 4 | SuperSet / Complete Migration (Already Exceeds) |
-| ES | `es` | 391 | 123 | 32 | 359 | 91 | 0 | (b) Incomplete Migration |
+| ES | `es` | 391 | 482 | 391 | 0 | 91 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | FR | `fr` | 1033 | 964 | 822 | 211 | 142 | 6 | (b) Incomplete Migration |
 | HY | `hy` | 391 | 61 | 61 | 330 | 0 | 0 | (b) Incomplete Migration |
 | IT | `it` | 1154 | 513 | 401 | 753 | 112 | 5 | (b) Incomplete Migration |
@@ -233,22 +233,15 @@ Africa, ago, agree with, America, And you, animals, ant, anybody, anyone, anythi
 ### ES (`es`)
 
 - **COSYlanguages A1 Word Count:** 391
-- **COSYdata A0/A1 Word Count:** 123
-- **Exact Overlap Count:** 32
-- **Candidates to Migrate (Only in COSYlanguages):** 359 words
+- **COSYdata A0/A1 Word Count:** 482
+- **Exact Overlap Count:** 391
+- **Candidates to Migrate (Only in COSYlanguages):** 0 words
 - **COSYdata Unique Words (To Keep):** 91 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains 123 words vs 391 in COSYlanguages. While substantial core vocabulary was migrated (32 exact overlap), significant vocabulary (359 words) remains in COSYlanguages awaiting intake.
+- **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
+- **Rationale:** COSYdata has 482 words vs 391 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
-<details>
-<summary><strong>Full "Only in COSYlanguages" Word List (359 words)</strong></summary>
-
-```
-a tiempo completo, a tiempo parcial, abierto, abrir, aburrido, acostarse, agradecer, ahorrar, Albert Einstein, Alemania, alquilar, alto, amable, amar, amarillo, amigable, Ámsterdam, añadir, aprender, arrepentido, asistir, asustado, Atenas, Australia, Austria, ayudar, azul, bailar, bajo, barato, Barcelona, beber, Bélgica, Berlín, Beyoncé, blanco, bonito, Brasil, buenísimo, bueno, caballo, cabeza, caer, cálido, caliente, cambiar, caminar, camisa, Canadá, cancelar, cansado, cantar, caro, casa, celebrar, cerrado, cerrar, Chicago, China, Ciudad de México, cobrar, cocinar, comer, compartir, comprar, conducir, confiado, conocer, construir, continuar, Corea del Sur, correcto, correr, cortar, costar, crecer, Cristiano Ronaldo, cuaderno, dar, deber, débil, decepcionado, decidir, decir, desayunar, descansar, despertarse, dibujar, diferente, difícil, Dinamarca, disfrutar, divertido, doler, dormir, dos, Dublín, duro, Edimburgo, educado, EE. UU., Egipto, él, elegir, ella, ellos, Elon Musk, emocionado, empezar, empujar, en forma, en línea, encontrar, enfadado, enfermo, enseñar, entender, enviar, escribir, escuchar, espantoso, España, español, especial, esperar, estar de acuerdo, estar de pie, estresado, estudiar, excelente, explicar, fácil, fantástico, feliz, fiesta, Finlandia, Florencia, francés, Francia, fresco, frío, fuerte, ganar, gastar, gazpacho, gestionar, girar, grande, gratis, Grecia, gris, grosero, gustar, hablar, hacer, hacer ejercicio, hacer la maleta, hacerse, hambriento, hermana, hermano, hermoso, honesto, importante, imposible, incluir, incorrecto, increíble, India, infeliz, Inglaterra, intentar, interesante, inútil, invitar, ir, Irlanda, Italia, italiano, Japón, joven, jugar, largo, lavar, leer, lento, Leonardo da Vinci, levantarse, ligero, limpiar, limpio, Lionel Messi, listo, llamar, llegar, lleno, llevar, llorar, lluvioso, Londres, Los Ángeles, luna, malo, mantener, maravilloso, Marie Curie, marrón, Melbourne, mi, Miami, mirar, mismo, mojado, Montreal, morir, Moscú, mostrar, mover, nadar, naranja, necesario, necesitar, negro, Nelson Mandela, nervioso, Noruega, nosotros, Nueva York, nuevo, nunca, obtener, ocupado, odiar, oír, olvidar, ordenador, ordinario, organizar, orgulloso, paella, pagar, Países Bajos, pájaro, pantalón, parar, parecer, París, pasar, pedir, Pekín, peligroso, pensar, pequeño, perder, perezoso, perfecto, permitirse, pero, pertenecer, pesado, pez, Polonia, poner, popular, posible, Praga, preguntar, preocupado, presentar, producir, proyectar, quedarse, querer, rápido, recibir, recomendar, recordar, recuperarse, Reina Isabel II, relajado, relajarse, reparar, repetir, reservar, responder, revisar, Río de Janeiro, rojo, Roma, romper, rosa, ruidoso, Rusia, saber, salir, saltar, saludable, San Francisco, seco, sediento, seguir, seguro, sentarse, sentir, ser, Sídney, siempre, significar, similar, simpático, soleado, solo, sonreír, sorprendido, suave, sucio, Suecia, Suiza, Tailandia, Taylor Swift, tener, terminar, terrible, tímido, tirar, Tokio, tomar, tortilla, trabajar, traer, tranquilo, triste, tu, tú, Ucrania, uno, usar, útil, vaca, vacío, Vancouver, vender, Venecia, venir, ver, verde, vestido, viajar, viajar diariamente, viejo, Viena, visitar, vivir, volar, volver, Washington D.C., William Shakespeare, y, yo
-```
-
-</details>
+*No words only in COSYlanguages. All words are present in COSYdata.*
 
 <details>
 <summary><strong>COSYdata Unique Words List (91 words)</strong></summary>

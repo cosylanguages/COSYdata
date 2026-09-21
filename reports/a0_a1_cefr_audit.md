@@ -28,7 +28,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **Russian (`ru`)** | 548 | 548 | 32 | 0 | 5.8% | ✅ **Compliant / Annotated** |
 | **Greek (`el`)** | 516 | 516 | 26 | 0 | 5.0% | ✅ **Compliant / Annotated** |
 | **German (`de`)** | 62 | 62 | 19 | 0 | 30.6% | ⚠️ **Methodology Warning (>15%)** |
-| **Spanish (`es`)** | 123 | 123 | 38 | 0 | 30.9% | ⚠️ **Methodology Warning (>15%)** |
+| **Spanish (`es`)** | 482 | 482 | 146 | 0 | 30.3% | ⚠️ **Methodology Warning (>15%)** |
 | **Portuguese (`pt`)** | 124 | 124 | 39 | 0 | 31.5% | ⚠️ **Methodology Warning (>15%)** |
 | **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
 | **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
@@ -214,12 +214,12 @@ Where word levels vary by sense or part-of-speech (per Oxford 3000 and EVP guide
 ### 7. Spanish (`vocabulary/es/a0_a1/`)
 
 - **Primary Reference Source**: **Instituto Cervantes (Plan Curricular del Instituto Cervantes - Nivel A1 / DELE A1)**.
-- **Total Entries Audited**: 123
-- **Verified A0/A1 Compliant**: 123 (100.0%)
-- **Multi-Level Flagged**: 38 (30.9%)
+- **Total Entries Audited**: 482
+- **Verified A0/A1 Compliant**: 482 (100.0%)
+- **Multi-Level Flagged**: 146 (30.3%)
 
 #### Methodology Warning (>15% Threshold)
-> ⚠️ **METHODOLOGY WARNING**: **38 out of 123 Spanish entries (30.9%)** are flagged as multi-level headwords in the Plan Curricular del Instituto Cervantes. Per project directives, these terms retain primary A0/A1 levels while incorporating multi-level annotations via `levels`.
+> ⚠️ **METHODOLOGY WARNING**: **146 out of 482 Spanish entries (30.3%)** are flagged as multi-level headwords in the Plan Curricular del Instituto Cervantes (Nivel A1). Per project directives, these terms retain primary A0/A1 levels while incorporating multi-level annotations via `levels`.
 
 #### Multi-Level Entries Flagged against Plan Curricular del Instituto Cervantes
 
