@@ -19,7 +19,7 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 | EL | `el` | 301 | 509 | 122 | 179 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EN | `en` | 1262 | 1601 | 1240 | 22 | 361 | 3 | SuperSet / Complete Migration (Already Exceeds) |
 | ES | `es` | 391 | 123 | 32 | 359 | 91 | 0 | (b) Incomplete Migration |
-| FR | `fr` | 1033 | 964 | 822 | 211 | 142 | 6 | (b) Incomplete Migration |
+| FR | `fr` | 1033 | 961 | 819 | 214 | 142 | 6 | (b) Incomplete Migration |
 | HY | `hy` | 391 | 61 | 61 | 330 | 0 | 0 | (b) Incomplete Migration |
 | IT | `it` | 1154 | 513 | 401 | 753 | 112 | 5 | (b) Incomplete Migration |
 | KA | `ka` | 387 | 61 | 61 | 326 | 0 | 0 | (b) Incomplete Migration |
@@ -263,13 +263,13 @@ almuerzo, armario, autobús, bienvenido, boca, bolígrafo, bolsa, bosque, botell
 ### FR (`fr`)
 
 - **COSYlanguages A1 Word Count:** 1033
-- **COSYdata A0/A1 Word Count:** 964
-- **Exact Overlap Count:** 822
-- **Candidates to Migrate (Only in COSYlanguages):** 211 words
+- **COSYdata A0/A1 Word Count:** 961
+- **Exact Overlap Count:** 819
+- **Candidates to Migrate (Only in COSYlanguages):** 214 words
 - **COSYdata Unique Words (To Keep):** 142 words
 - **Likely Near-Duplicates:** 6 pairs
 - **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains 964 words vs 1033 in COSYlanguages. While substantial core vocabulary was migrated (822 exact overlap), significant vocabulary (211 words) remains in COSYlanguages awaiting intake.
+- **Rationale:** COSYdata contains 961 words vs 1033 in COSYlanguages. While substantial core vocabulary was migrated (819 exact overlap), significant vocabulary (214 words) remains in COSYlanguages awaiting intake.
 
 #### Likely Near-Duplicates (6 pairs)
 | Candidate (COSYlanguages) | Existing (COSYdata) | Match Type |
@@ -282,10 +282,10 @@ almuerzo, armario, autobús, bienvenido, boca, bolígrafo, bolsa, bosque, botell
 | `s asseoir` | `s'asseoir` | Hyphenation / Spacing variant |
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (211 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (214 words)</strong></summary>
 
 ```
-à bientôt, à côté de, à droite, à gauche, à pied, à plus tard, acteur, allumer, améliorer, amical, ancien, appareil photo, appartenir, appeler, artiste, attraper, au fait, au moins, avoir les moyens, bagages, billet, blond, bon marché, bonne chance, bonne journée, bouteille, bruyant, calme, carotte, casser, célèbre, centre commercial, chanson, chef, cher, choisir, cinéma, clair, client, collègue, commun, compte, concert, confiant, confortable, construire, continuer, correct, courageux, coûter, couverture, créatif, créer, croire, curieux, dangereux, décider, dentiste, dépenser, dessiner, devenir, devoir, donc, drôle, économiser, écran, effrayé, email, emprunter, en colère, en fait, en forme, en général, ennuyé, ennuyeux, ensoleillé, entreprise, envoyer, espèces, espérer, essayer, étagère, éteindre, étrange, être à l'heure, être d accord, être d'accord, être en retard, excité, expliquer, facture, facturer, faire du vélo, faire mal, faux, fier, food_drink, fraise, gagner, gentil, honnête, impoli, inclure, infirmier, inquiet, intelligent, intéressant, inutile, inviter, jean, joli, la, libre, louer, loyer, lunettes, maillot de bain, mener, message, moderne, monnaie, monter, montre, mot de passe, neigeux, nerveux, normal, nuageux, occupé, oreiller, organiser, ou, par exemple, parapluie, paresseux, partager, pas de problème, passeport, patient, patron, perdre, pharmacie, place, planifier, pluvieux, poli, populaire, portefeuille, prendre le petit-déjeuner, préparer, présenter, prêter, produire, projet, pyjama, quai, quartier, raisin, recevoir, recommander, reçu, remercier, rencontrer, réparer, répéter, réservation, rester, réunion, réveil, rêver, s asseoir, s'inquiéter, sain, salaire, salé, saluer, se coucher, se détendre, se passer, se reposer, se réveiller, sembler, sérieux, si, similaire, simple, site web, spécial, stressé, suivre, supermarché, sûr, surpris, temps libre, tigre, timide, tomber malade, tourner, tout droit, un jour, utile, valise, venteux, vérifier, village, visiter, voisin, vol, voyage, voyager, week-end
+à bientôt, à côté de, à droite, à gauche, à pied, à plus tard, acteur, allumer, améliorer, amical, ancien, appareil photo, appartenir, appeler, artiste, attraper, au fait, au moins, avoir les moyens, bagages, billet, blond, bon marché, bonne chance, bonne journée, bouteille, bruyant, calme, carotte, casser, célèbre, centre commercial, chanson, chef, cher, choisir, cinéma, clair, client, collègue, commun, compte, concert, confiant, confortable, construire, continuer, correct, courageux, coûter, couverture, créatif, créer, croire, curieux, dangereux, décider, dentiste, dépenser, dessiner, devenir, devoir, donc, drôle, économiser, écran, effrayé, email, emprunter, en colère, en fait, en forme, en général, ennuyé, ennuyeux, ensoleillé, entreprise, envoyer, espèces, espérer, essayer, étagère, éteindre, étrange, être à l'heure, être d accord, être d'accord, être en retard, excité, expliquer, facture, facturer, faire du vélo, faire mal, faux, fier, food_drink, fraise, gagner, gentil, honnête, impoli, inclure, infirmier, inquiet, intelligent, intéressant, inutile, inviter, jean, joli, la, libre, louer, loyer, lunettes, maillot de bain, mener, message, moderne, monnaie, monter, montre, mot de passe, neigeux, nerveux, normal, nuageux, occupé, oeil, oeuf, oreiller, organiser, ou, par exemple, parapluie, paresseux, partager, pas de problème, passeport, patient, patron, perdre, pharmacie, place, planifier, pluvieux, poli, populaire, portefeuille, prendre le petit-déjeuner, préparer, présenter, prêter, produire, projet, pyjama, quai, quartier, raisin, recevoir, recommander, reçu, remercier, rencontrer, réparer, répéter, réservation, rester, réunion, réveil, rêver, s asseoir, s'inquiéter, sain, salaire, salé, saluer, se coucher, se détendre, se passer, se reposer, se réveiller, sembler, sérieux, si, similaire, simple, site web, soeur, spécial, stressé, suivre, supermarché, sûr, surpris, temps libre, tigre, timide, tomber malade, tourner, tout droit, un jour, utile, valise, venteux, vérifier, village, visiter, voisin, vol, voyage, voyager, week-end
 ```
 
 </details>
