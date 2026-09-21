@@ -1,5 +1,26 @@
 [
   {
+    "id": "tt:ati:noun",
+    "word": "әти",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/æˈti/",
+    "emoji": "👨",
+    "definitions": [
+      "Гаиләдә абый/ир кеше."
+    ],
+    "examples": [
+      "Әти эштән кайтты."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "әтиләр"
+  },
+  {
     "id": "tt:ani:noun",
     "word": "әни",
     "language": "tt",
@@ -8,10 +29,10 @@
     "transcription": "/æˈni/",
     "emoji": "👩",
     "definitions": [
-      "Ана булган хатын-кыз."
+      "Гаиләдә ана кеше."
     ],
     "examples": [
-      "Минем әнием тәмле аш пешерә."
+      "Әни аш пешерә."
     ],
     "domain": "general",
     "theme": "family",
@@ -21,25 +42,151 @@
     "plural_form": "әниләр"
   },
   {
-    "id": "tt:ati:noun",
-    "word": "әти",
+    "id": "tt:abyi:noun",
+    "word": "абый",
     "language": "tt",
     "form": "noun",
     "level": "A1",
-    "transcription": "/æˈti/",
-    "emoji": "👨",
+    "transcription": "/aˈbɯj/",
+    "emoji": "👦",
     "definitions": [
-      "Ата булган ир-ат."
+      "Уз егет туган."
     ],
     "examples": [
-      "Әти иртән газета укый."
+      "Абыем мәктәптә укый."
     ],
     "domain": "general",
     "theme": "family",
     "updated": "2025-01-15",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "әтиләр"
+    "plural_form": "абыйлар"
+  },
+  {
+    "id": "tt:apa:noun",
+    "word": "апа",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/aˈpa/",
+    "emoji": "👧",
+    "definitions": [
+      "Уз кыз туган."
+    ],
+    "examples": [
+      "Апам китап укый."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "апалар"
+  },
+  {
+    "id": "tt:babai:noun",
+    "word": "бабай",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/бабай/",
+    "emoji": "👴",
+    "definitions": [
+      "Әтинең яки әнинең әтисе."
+    ],
+    "examples": [
+      "Бабай бакчада эшли."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "бабайлар"
+  },
+  {
+    "id": "tt:abi:noun",
+    "word": "әби",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/әби/",
+    "emoji": "👵",
+    "definitions": [
+      "Әтинең яки әнинең әнисе."
+    ],
+    "examples": [
+      "Әби бәлеш пешерә."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "әбиләр"
+  },
+  {
+    "id": "tt:keshe:noun",
+    "word": "кеше",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/кеше/",
+    "emoji": "👤",
+    "definitions": [
+      "Бер шәхес."
+    ],
+    "examples": [
+      "Яхшы кеше."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "кешеләр"
+  },
+  {
+    "id": "tt:khatyn-kyz:noun",
+    "word": "хатын-кыз",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/хатын-кыз/",
+    "emoji": "👩",
+    "definitions": [
+      "Өлкән кеше (хатын)."
+    ],
+    "examples": [
+      "Ул хатын — укытучы."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "хатын-кызлар"
+  },
+  {
+    "id": "tt:ir-at:noun",
+    "word": "ир-ат",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ир-ат/",
+    "emoji": "👨",
+    "definitions": [
+      "Өлкән кеше (ир)."
+    ],
+    "examples": [
+      "Бу ир монда эшли."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "ир-атлар"
   },
   {
     "id": "tt:gaila:noun",
@@ -53,7 +200,7 @@
       "Туганнар төркеме."
     ],
     "examples": [
-      "Безнең гаилә зур һәм дус."
+      "гаилә — Татар телендә кулланыла торган сүз."
     ],
     "domain": "general",
     "theme": "family",
@@ -61,27 +208,6 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "гаиләләр"
-  },
-  {
-    "id": "tt:dus:noun",
-    "word": "дус",
-    "language": "tt",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/dus/",
-    "emoji": "👫",
-    "definitions": [
-      "Сез яраткан кеше."
-    ],
-    "examples": [
-      "Ул минем иң яхшы дустым."
-    ],
-    "domain": "general",
-    "theme": "family",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "дуслар"
   },
   {
     "id": "tt:ir:noun",
@@ -95,7 +221,7 @@
       "Өйләнгән ир."
     ],
     "examples": [
-      "Бу ир хастаханәдә эшли."
+      "ир — Татар телендә кулланыла торган сүз."
     ],
     "domain": "general",
     "theme": "family",
@@ -116,7 +242,7 @@
       "Кияүдәге хатын."
     ],
     "examples": [
-      "Бу хатын китап укый."
+      "хатын — Татар телендә кулланыла торган сүз."
     ],
     "domain": "general",
     "theme": "family",
@@ -137,7 +263,7 @@
       "Яшь кеше."
     ],
     "examples": [
-      "Бала ишегалдында уйный."
+      "бала — Татар телендә кулланыла торган сүз."
     ],
     "domain": "general",
     "theme": "family",
