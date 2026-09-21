@@ -23,7 +23,12 @@
     ],
     "transcription": "/traɪ/",
     "no_antonym": true,
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "past_tense": "tried",
+    "past_participle": "tried",
+    "present_participle": "trying",
+    "is_irregular": false,
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:on:preposition",
@@ -56,7 +61,8 @@
     "emoji": "🔛",
     "transcription_variants": {
       "us": "/ɑːn/"
-    }
+    },
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:off:preposition",
@@ -84,7 +90,8 @@
     "emoji": "📴",
     "transcription_variants": {
       "us": "/ɑːf/"
-    }
+    },
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:put:verb",
@@ -113,7 +120,12 @@
     "emoji": "📥",
     "antonyms": [
       "take"
-    ]
+    ],
+    "past_tense": "put",
+    "past_participle": "put",
+    "present_participle": "putting",
+    "is_irregular": true,
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:size:noun",
@@ -143,7 +155,9 @@
     "transcription": "/saɪz/",
     "no_antonym": true,
     "emoji": "📐",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:dress:noun",
@@ -171,16 +185,18 @@
     "countability": "countable",
     "transcription": "/dres/",
     "no_antonym": true,
-    "emoji": "👗"
+    "emoji": "👗",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:small:noun",
     "word": "small",
     "language": "en",
-    "form": "noun",
+    "form": "adjective",
     "level": "A1",
     "definitions": [
-      "a little size in clothing items"
+      "little in size"
     ],
     "examples": [
       "This shirt is a small size."
@@ -188,7 +204,6 @@
     "domain": "general, relocation, spoken, travel",
     "theme": "clothing",
     "updated": "2025-01-15",
-    "plural_form": "smalls",
     "tags": [
       "spoken"
     ],
@@ -200,10 +215,12 @@
     "antonyms": [
       "large"
     ],
-    "countability": "countable",
     "transcription_variants": {
       "us": "/smɑːl/"
-    }
+    },
+    "comparative": "smaller",
+    "superlative": "smallest",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:large:noun",
@@ -232,7 +249,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/lɑːrdʒ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:watch:noun",
@@ -263,7 +282,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/wɑːtʃ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:wear:noun",
@@ -289,7 +310,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/wer/"
-    }
+    },
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:put-on:noun",
@@ -323,7 +345,9 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:take-off:noun",
@@ -357,7 +381,9 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:belt:noun",
@@ -386,7 +412,9 @@
     "transcription": "/belt/",
     "no_antonym": true,
     "emoji": "🥋",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:clothes:noun",
@@ -412,7 +440,8 @@
     "emoji": "👔",
     "transcription_variants": {
       "us": "/kloʊðz/"
-    }
+    },
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:shirt:noun",
@@ -439,7 +468,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ʃɝːt/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:t-shirt:noun",
@@ -466,7 +497,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈtiː.ʃɝːt/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:trousers:noun",
@@ -499,7 +532,8 @@
     ],
     "regional_equivalents": [
       "en:pants:noun"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:pants:noun",
@@ -533,7 +567,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:jeans:noun",
@@ -557,7 +592,8 @@
     "singular_workaround": "a pair of jeans",
     "transcription": "/dʒiːnz/",
     "no_antonym": true,
-    "emoji": "👖"
+    "emoji": "👖",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:skirt:noun",
@@ -584,7 +620,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/skɝːt/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:jacket:noun",
@@ -608,7 +646,9 @@
     "transcription": "/ˈdʒæk.ɪt/",
     "no_antonym": true,
     "emoji": "🧥",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:coat:noun",
@@ -635,7 +675,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/koʊt/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:sweater:noun",
@@ -668,7 +710,9 @@
     ],
     "regional_equivalents": [
       "en:jumper:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:jumper:noun",
@@ -698,7 +742,9 @@
     ],
     "regional_equivalents": [
       "en:sweater:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:shoes:noun",
@@ -722,7 +768,8 @@
     "countability": "countable",
     "transcription": "/ʃuː/",
     "no_antonym": true,
-    "emoji": "👟"
+    "emoji": "👟",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:boots:noun",
@@ -743,7 +790,8 @@
     "countability": "countable",
     "transcription": "/buːt/",
     "no_antonym": true,
-    "emoji": "🥾"
+    "emoji": "🥾",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:socks:noun",
@@ -770,7 +818,8 @@
     "emoji": "🧦",
     "transcription_variants": {
       "us": "/sɑːk/"
-    }
+    },
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:hat:noun",
@@ -794,7 +843,9 @@
     "transcription": "/hæt/",
     "no_antonym": true,
     "emoji": "🎩",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:cap:noun",
@@ -822,7 +873,9 @@
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:gloves:noun",
@@ -846,7 +899,8 @@
     "countability": "countable",
     "transcription": "/ɡlʌv/",
     "no_antonym": true,
-    "emoji": "🧤"
+    "emoji": "🧤",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:scarf:noun",
@@ -873,7 +927,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/skɑːrf/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:ring:noun",
@@ -901,7 +957,9 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:medium:noun",
@@ -926,7 +984,9 @@
     "transcription": "/ˈmiː.di.əm/",
     "no_antonym": true,
     "emoji": "📐",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:jewelry:noun",
@@ -953,7 +1013,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/ˈdʒuːl.ri/"
-    }
+    },
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:necklace:noun",
@@ -978,7 +1039,9 @@
     "transcription": "/ˈnek.ləs/",
     "no_antonym": true,
     "emoji": "📿",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:pajamas:noun",
@@ -1009,7 +1072,8 @@
     ],
     "regional_equivalents": [
       "en:pyjamas:noun"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:pyjamas:noun",
@@ -1040,7 +1104,8 @@
     ],
     "regional_equivalents": [
       "en:pajamas:noun"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:underwear:noun",
@@ -1071,7 +1136,8 @@
     "levels": [
       "A0",
       "B1"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:tight:noun",
@@ -1101,7 +1167,8 @@
     "levels": [
       "A0",
       "B1"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:loose:noun",
@@ -1131,7 +1198,8 @@
     "levels": [
       "A0",
       "B2"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:clothing:noun",
@@ -1146,7 +1214,7 @@
       "Pack warm clothing for winter weather in your new city."
     ],
     "domain": "general, relocation",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈkləʊ.ðɪŋ/",
     "transcription_variants": {
@@ -1158,7 +1226,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:hoodie:noun",
@@ -1173,7 +1242,7 @@
       "He put on a warm hoodie for the evening walk."
     ],
     "domain": "general, relocation, travel",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈhʊd.i/",
     "transcription_variants": {
@@ -1182,7 +1251,9 @@
     "emoji": "🧥",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "hoodies"
+    "plural_form": "hoodies",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:raincoat:noun",
@@ -1197,7 +1268,7 @@
       "Wear a raincoat when walking to school during autumn."
     ],
     "domain": "general, relocation",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈreɪn.kəʊt/",
     "transcription_variants": {
@@ -1206,7 +1277,9 @@
     "emoji": "🧥",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "raincoats"
+    "plural_form": "raincoats",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:suit:noun",
@@ -1221,7 +1294,7 @@
       "He wore a formal dark suit to the visa interview."
     ],
     "domain": "general, relocation",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/suːt/",
     "transcription_variants": {
@@ -1234,7 +1307,9 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:swimsuit:noun",
@@ -1243,13 +1318,13 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a garment worn for swimming"
+      "clothes for swimming"
     ],
     "examples": [
       "Pack your swimsuit for trips to the public pool."
     ],
     "domain": "general, relocation, travel",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈswɪm.suːt/",
     "transcription_variants": {
@@ -1258,7 +1333,9 @@
     "emoji": "🩱",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "swimsuits"
+    "plural_form": "swimsuits",
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:uniform:noun",
@@ -1273,7 +1350,7 @@
       "Students must wear the navy school uniform daily."
     ],
     "domain": "general, relocation",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈjuː.nɪ.fɔːm/",
     "transcription_variants": {
@@ -1286,7 +1363,9 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:handbag:noun",
@@ -1303,11 +1382,13 @@
       "She placed her passport and wallet inside her handbag."
     ],
     "domain": "general, travel",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈhænd.bæɡ/",
     "emoji": "👜",
-    "no_antonym": true
+    "no_antonym": true,
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:sandals:noun",
@@ -1323,14 +1404,15 @@
       "He wore comfortable sandals while walking along the beach."
     ],
     "domain": "general, travel",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ˈsæn.dəlz/",
     "transcription_variants": {
       "us": "/ˈsæn.dəlz/"
     },
     "emoji": "👡",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:shorts:noun",
@@ -1346,14 +1428,15 @@
       "He packed three pairs of shorts for the warm weather trip."
     ],
     "domain": "general, travel",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "transcription": "/ʃɔːts/",
     "transcription_variants": {
       "us": "/ʃɔːrts/"
     },
     "emoji": "🩳",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:tie:noun",
@@ -1368,7 +1451,7 @@
       "He wore a red tie to work."
     ],
     "domain": "general, spoken",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1381,7 +1464,9 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "everyday_wear"
   },
   {
     "id": "en:try-on:verb",
@@ -1390,13 +1475,13 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to put on a garment to see if it fits"
+      "to put on clothes to see if they fit"
     ],
     "examples": [
       "Try on this coat before buying it."
     ],
     "domain": "general, spoken",
-    "theme": "clothes",
+    "theme": "clothing",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1406,6 +1491,11 @@
     "transcription_variants": {
       "us": "/traɪ ɑːn/"
     },
-    "no_antonym": true
+    "no_antonym": true,
+    "past_tense": "tried on",
+    "past_participle": "tried on",
+    "present_participle": "trying on",
+    "is_irregular": false,
+    "sub_theme": "everyday_wear"
   }
 ]

@@ -12,7 +12,7 @@
       "Take a page of paper."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -27,7 +27,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/əv/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:up:preposition",
@@ -42,7 +43,7 @@
       "Stand up when called upon."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -56,7 +57,8 @@
     "antonyms": [
       "down"
     ],
-    "emoji": "⬆️"
+    "emoji": "⬆️",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:your:pronoun",
@@ -71,7 +73,7 @@
       "Open your book now please."
     ],
     "domain": "general, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -85,7 +87,8 @@
     "emoji": "👉",
     "transcription_variants": {
       "us": "/jʊr/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:raise-your-hand:phrase",
@@ -94,15 +97,14 @@
     "form": "phrase",
     "level": "A1",
     "definitions": [
-      "the end part of your arm",
-      "to lift to a higher position"
+      "the end part of your arm"
     ],
     "examples": [
       "Raise your hand to speak.",
       "Raise your hand for help."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -113,7 +115,8 @@
     ],
     "transcription": "/hænd/",
     "emoji": "✋",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:take:verb",
@@ -128,7 +131,7 @@
       "Take out your blue pen."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -142,7 +145,12 @@
     "emoji": "🤲",
     "antonyms": [
       "give"
-    ]
+    ],
+    "past_tense": "took",
+    "past_participle": "taken",
+    "present_participle": "taking",
+    "is_irregular": true,
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:think:phrase",
@@ -157,7 +165,7 @@
       "I think this answer is right."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -168,7 +176,8 @@
     ],
     "transcription": "/θɪŋk/",
     "no_antonym": true,
-    "emoji": "💭"
+    "emoji": "💭",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:that:phrase",
@@ -183,7 +192,7 @@
       "Can you repeat that please?"
     ],
     "domain": "general, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -195,7 +204,8 @@
     ],
     "transcription": "/ðæt/",
     "no_antonym": true,
-    "emoji": "👉"
+    "emoji": "👉",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:you:pronoun",
@@ -210,7 +220,7 @@
       "How are you doing today?"
     ],
     "domain": "general, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -222,7 +232,8 @@
     ],
     "transcription": "/juː/",
     "no_antonym": true,
-    "emoji": "🫵"
+    "emoji": "🫵",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:come:verb",
@@ -237,7 +248,7 @@
       "Come to the board please."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -250,7 +261,12 @@
     "emoji": "🚶➡️",
     "antonyms": [
       "go"
-    ]
+    ],
+    "past_tense": "came",
+    "past_participle": "come",
+    "present_participle": "coming",
+    "is_irregular": true,
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:go:verb",
@@ -265,7 +281,7 @@
       "Go to your seat now."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -282,7 +298,18 @@
     ],
     "transcription_variants": {
       "us": "/ɡoʊ/"
-    }
+    },
+    "past_tense": "went",
+    "past_participle": "gone",
+    "present_participle": "going",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "I go to school every day."
+      }
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:for:preposition",
@@ -297,7 +324,7 @@
       "This book is for you."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -314,7 +341,8 @@
     "emoji": "🎁",
     "transcription_variants": {
       "us": "/fɔːr/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:down:preposition",
@@ -329,7 +357,7 @@
       "Sit down on your chair."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -343,7 +371,8 @@
     "antonyms": [
       "up"
     ],
-    "emoji": "⬇️"
+    "emoji": "⬇️",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:name:phrase",
@@ -358,14 +387,15 @@
       "What is your full name?"
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/neɪm/",
     "no_antonym": true,
-    "emoji": "🏷️"
+    "emoji": "🏷️",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:look-at:phrase",
@@ -380,14 +410,15 @@
       "Look at page ten please."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/lʊk/",
     "no_antonym": true,
-    "emoji": "👀"
+    "emoji": "👀",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:as-well:phrase",
@@ -402,7 +433,7 @@
       "Read this page as well."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "levels": [
       "A1",
@@ -410,7 +441,8 @@
     ],
     "transcription": "/æz/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:right-here:phrase",
@@ -425,7 +457,7 @@
       "Write your name right here."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -437,7 +469,8 @@
     ],
     "transcription_variants": {
       "us": "/hɪr/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:over-there:phrase",
@@ -452,7 +485,7 @@
       "Put the bag over there."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -464,7 +497,8 @@
     ],
     "transcription_variants": {
       "us": "/ðer/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:again:phrase",
@@ -479,14 +513,15 @@
       "Please read the sentence again."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/əˈɡen/",
     "no_antonym": true,
-    "emoji": "🔄"
+    "emoji": "🔄",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:agree-with:phrase",
@@ -501,7 +536,7 @@
       "I agree with your answer today."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -510,7 +545,8 @@
     "emoji": "🤝",
     "antonyms": [
       "disagree"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:disagree-with:phrase",
@@ -525,7 +561,7 @@
       "I disagree with that wrong idea."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -534,7 +570,8 @@
     "emoji": "🙅",
     "antonyms": [
       "agree"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:i:phrase",
@@ -549,7 +586,7 @@
       "I like to study English every day."
     ],
     "domain": "general, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -560,7 +597,8 @@
     ],
     "transcription": "/aɪ/",
     "no_antonym": true,
-    "emoji": "👤"
+    "emoji": "👤",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:for-example:phrase",
@@ -575,7 +613,7 @@
       "Look at this example on board."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -585,7 +623,8 @@
     "emoji": "💡",
     "transcription_variants": {
       "us": "/ɪɡˈzæm.pəl/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:such:phrase",
@@ -600,11 +639,12 @@
       "It is such a nice day."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/sʌtʃ/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:problem:phrase",
@@ -619,7 +659,7 @@
       "This math problem is very easy."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -631,7 +671,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈprɑː.bləm/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:mean:phrase",
@@ -646,14 +687,15 @@
       "Red lights mean you must stop."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/miːn/",
     "no_antonym": true,
-    "emoji": "💡"
+    "emoji": "💡",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:be-quiet:phrase",
@@ -662,15 +704,14 @@
     "form": "phrase",
     "level": "A1",
     "definitions": [
-      "making very little or no sound",
-      "to exist in a specific condition"
+      "making very little or no sound"
     ],
     "examples": [
       "Keep quiet during reading test.",
       "Be quiet while others read."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -679,7 +720,8 @@
     "emoji": "🤫",
     "antonyms": [
       "loud"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:listen-to:phrase",
@@ -694,14 +736,15 @@
       "Listen to the teacher carefully now."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/ˈlɪs.ən/",
     "no_antonym": true,
-    "emoji": "👂"
+    "emoji": "👂",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:carefully:phrase",
@@ -716,7 +759,7 @@
       "Read the questions carefully first."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/ˈkeə.fəl.i/",
     "emoji": "🔍",
@@ -729,7 +772,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:repeat-after-me:phrase",
@@ -744,14 +788,15 @@
       "Please repeat after me out loud."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/rɪˈpiːt/",
     "no_antonym": true,
-    "emoji": "🔁"
+    "emoji": "🔁",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:what:phrase",
@@ -766,7 +811,7 @@
       "What is your favorite school subject?"
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -779,7 +824,8 @@
     "emoji": "❓",
     "transcription_variants": {
       "us": "/wɑːt/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:does:phrase",
@@ -794,11 +840,12 @@
       "Does she speak English very well?"
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/dʌz/",
     "no_antonym": true,
-    "emoji": "⚙️"
+    "emoji": "⚙️",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:this:phrase",
@@ -813,7 +860,7 @@
       "This pen belongs to my friend."
     ],
     "domain": "general, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -826,7 +873,8 @@
     "emoji": "👇",
     "antonyms": [
       "that"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:how:phrase",
@@ -841,7 +889,7 @@
       "How do you spell your name?"
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -851,7 +899,8 @@
     ],
     "transcription": "/haʊ/",
     "no_antonym": true,
-    "emoji": "❓"
+    "emoji": "❓",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:do:phrase",
@@ -866,14 +915,15 @@
       "Do you have a blue pen?"
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/də/",
     "no_antonym": true,
-    "emoji": "⚙️"
+    "emoji": "⚙️",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:say:phrase",
@@ -888,7 +938,7 @@
       "Say your name out loud please."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -899,7 +949,8 @@
     ],
     "transcription": "/seɪ/",
     "no_antonym": true,
-    "emoji": "💬"
+    "emoji": "💬",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:is:phrase",
@@ -914,7 +965,7 @@
       "This lesson is clear and easy."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "levels": [
       "A1",
@@ -922,7 +973,8 @@
     ],
     "transcription": "/s/",
     "no_antonym": true,
-    "emoji": "👉"
+    "emoji": "👉",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:nice:phrase",
@@ -937,7 +989,7 @@
       "It is nice to meet you."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -946,7 +998,8 @@
     "emoji": "😊",
     "antonyms": [
       "mean"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:soon:phrase",
@@ -961,7 +1014,7 @@
       "The class will finish very soon."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -970,7 +1023,8 @@
     "emoji": "⏱️",
     "antonyms": [
       "later"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:take-care-of:phrase",
@@ -985,7 +1039,7 @@
       "Take care of your school books."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/keə/",
     "emoji": "❤️",
@@ -994,7 +1048,8 @@
     ],
     "transcription_variants": {
       "us": "/ker/"
-    }
+    },
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:happy:phrase",
@@ -1009,7 +1064,7 @@
       "We are happy to study here."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1018,7 +1073,8 @@
     "emoji": "😀",
     "antonyms": [
       "sad"
-    ]
+    ],
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:congratulations-on:phrase",
@@ -1033,14 +1089,15 @@
       "Congratulations on passing your big exam!"
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/kənˌɡrætʃ.əˈleɪ.ʃənz/",
     "no_antonym": true,
-    "emoji": "🎉"
+    "emoji": "🎉",
+    "sub_theme": "classroom_language"
   },
   {
     "id": "en:you-are-welcome:phrase",
@@ -1055,7 +1112,7 @@
       "You are welcome to ask questions."
     ],
     "domain": "general, spoken",
-    "theme": "education",
+    "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1065,6 +1122,7 @@
     ],
     "transcription": "/ˈwel.kəm/",
     "no_antonym": true,
-    "emoji": "🤗"
+    "emoji": "🤗",
+    "sub_theme": "classroom_language"
   }
 ]

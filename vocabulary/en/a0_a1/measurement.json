@@ -27,7 +27,9 @@
     ],
     "regional_equivalents": [
       "en:meter:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:meter:noun",
@@ -57,7 +59,9 @@
     ],
     "regional_equivalents": [
       "en:metre:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:kilometre:noun",
@@ -87,7 +91,9 @@
     ],
     "regional_equivalents": [
       "en:kilometer:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:kilometer:noun",
@@ -117,7 +123,9 @@
     ],
     "regional_equivalents": [
       "en:kilometre:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:centimetre:noun",
@@ -147,7 +155,9 @@
     ],
     "regional_equivalents": [
       "en:centimeter:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:centimeter:noun",
@@ -177,7 +187,9 @@
     ],
     "regional_equivalents": [
       "en:centimetre:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:kilogram:noun",
@@ -198,7 +210,9 @@
     "transcription": "/ˈkɪl.ə.ɡræm/",
     "no_antonym": true,
     "emoji": "🏋️",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:kilo:noun",
@@ -222,7 +236,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈkiː.loʊ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:gram:noun",
@@ -243,7 +259,9 @@
     "transcription": "/ɡræm/",
     "no_antonym": true,
     "emoji": "⚖️",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:litre:noun",
@@ -252,7 +270,7 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a unit of liquid volume measure"
+      "a unit for measuring water or milk"
     ],
     "examples": [
       "Buy a litre of fresh milk."
@@ -277,7 +295,9 @@
     "levels": [
       "A1",
       "B2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:liter:noun",
@@ -286,7 +306,7 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a unit of liquid volume measure"
+      "a unit for measuring water or milk"
     ],
     "examples": [
       "Drink one liter of water daily."
@@ -307,7 +327,9 @@
     ],
     "regional_equivalents": [
       "en:litre:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:dozen:noun",
@@ -335,7 +357,9 @@
     "levels": [
       "A1",
       "B2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:percent:noun",
@@ -359,7 +383,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/pɚˈsent/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:number:noun",
@@ -386,7 +412,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈnʌm.bɚ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:amount:noun",
@@ -414,7 +442,9 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "article": "an",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:plus:noun",
@@ -441,7 +471,8 @@
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:minus:noun",
@@ -464,16 +495,17 @@
     "emoji": "➖",
     "antonyms": [
       "plus"
-    ]
+    ],
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:equal:noun",
     "word": "equal",
     "language": "en",
-    "form": "noun",
+    "form": "adjective",
     "level": "A1",
     "definitions": [
-      "having the same quantity or value"
+      "the same in size or amount"
     ],
     "examples": [
       "All sides are equal length."
@@ -481,15 +513,16 @@
     "domain": "general, relocation",
     "theme": "measurement",
     "updated": "2025-01-15",
-    "plural_form": "equals",
     "transcription": "/ˈiː.kwəl/",
     "no_antonym": true,
     "emoji": "🟰",
-    "countability": "countable",
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "comparative": "equaler",
+    "superlative": "equalest",
+    "sub_theme": "units_scales"
   },
   {
     "id": "en:total:noun",
@@ -520,6 +553,8 @@
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "units_scales"
   }
 ]

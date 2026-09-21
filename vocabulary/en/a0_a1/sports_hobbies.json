@@ -24,7 +24,12 @@
     "emoji": "💔",
     "antonyms": [
       "win"
-    ]
+    ],
+    "past_tense": "lost",
+    "past_participle": "lost",
+    "present_participle": "losing",
+    "is_irregular": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:play:noun",
@@ -50,7 +55,9 @@
     "antonyms": [
       "work"
     ],
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:vacation:noun",
@@ -84,7 +91,9 @@
     ],
     "regional_equivalents": [
       "en:holiday:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:score:verb",
@@ -113,7 +122,12 @@
     "emoji": "⚽",
     "transcription_variants": {
       "us": "/skɔːr/"
-    }
+    },
+    "past_tense": "scored",
+    "past_participle": "scored",
+    "present_participle": "scoring",
+    "is_irregular": false,
+    "sub_theme": "sports"
   },
   {
     "id": "en:game:noun",
@@ -141,7 +155,9 @@
     "transcription": "/ɡeɪm/",
     "no_antonym": true,
     "emoji": "🎮",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:party:noun",
@@ -169,7 +185,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈpɑːr.t̬i/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:paint:noun",
@@ -178,7 +196,7 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "colored liquid used for drawing pictures"
+      "colored water for painting pictures"
     ],
     "examples": [
       "Use red paint on paper."
@@ -189,7 +207,8 @@
     "transcription": "/peɪnt/",
     "no_antonym": true,
     "emoji": "🎨",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:sport:noun",
@@ -216,7 +235,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/spɔːrt/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:sports:noun",
@@ -240,7 +261,8 @@
     "plural_form": "sports",
     "transcription_variants": {
       "us": "/spɔːrts/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:football:noun",
@@ -272,7 +294,8 @@
     ],
     "regional_equivalents": [
       "en:soccer:noun"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:soccer:noun",
@@ -308,7 +331,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:basketball:noun",
@@ -338,7 +362,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:tennis:noun",
@@ -361,7 +386,8 @@
     "countability": "uncountable",
     "transcription": "/ˈten.ɪs/",
     "no_antonym": true,
-    "emoji": "🎾"
+    "emoji": "🎾",
+    "sub_theme": "sports"
   },
   {
     "id": "en:swimming:noun",
@@ -384,7 +410,8 @@
     "transcription": "/ˈswɪm.ɪŋ/",
     "no_antonym": true,
     "emoji": "🏊",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:running:noun",
@@ -411,7 +438,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:games:noun",
@@ -432,7 +460,8 @@
     "transcription": "/ɡeɪmz/",
     "no_antonym": true,
     "emoji": "🎮",
-    "plural_form": "games"
+    "plural_form": "games",
+    "sub_theme": "sports"
   },
   {
     "id": "en:player:noun",
@@ -459,7 +488,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈpleɪ.ɚ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:win:verb",
@@ -483,7 +514,12 @@
     "emoji": "🏆",
     "antonyms": [
       "lose"
-    ]
+    ],
+    "past_tense": "won",
+    "past_participle": "won",
+    "present_participle": "winning",
+    "is_irregular": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:song:noun",
@@ -507,7 +543,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/sɑːŋ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:sing:noun",
@@ -530,7 +568,8 @@
     "transcription": "/sɪŋ/",
     "no_antonym": true,
     "emoji": "🎤",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:dance:noun",
@@ -557,7 +596,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/dæns/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:dancing:noun",
@@ -583,7 +624,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/ˈdæn.sɪŋ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:reading:noun",
@@ -606,7 +648,8 @@
     "transcription": "/ˈriː.dɪŋ/",
     "no_antonym": true,
     "emoji": "📖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:movie:noun",
@@ -633,7 +676,9 @@
     ],
     "regional_equivalents": [
       "en:film:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:film:noun",
@@ -660,7 +705,9 @@
     ],
     "regional_equivalents": [
       "en:movie:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:photography:noun",
@@ -690,7 +737,8 @@
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:gardening:noun",
@@ -716,7 +764,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/ˈɡɑːr.dən.ɪŋ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:cooking:noun",
@@ -739,7 +788,8 @@
     "transcription": "/ˈkʊk.ɪŋ/",
     "no_antonym": true,
     "emoji": "🍳",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:hobby:noun",
@@ -766,7 +816,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈhɑː.bi/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:fun:noun",
@@ -788,7 +840,8 @@
     "emoji": "🎉",
     "antonyms": [
       "boredom"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:singing:noun",
@@ -816,7 +869,8 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:traveling:noun",
@@ -843,7 +897,8 @@
     "countability": "uncountable",
     "region": [
       "US"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:gaming:noun",
@@ -871,7 +926,8 @@
     "levels": [
       "A0",
       "B2"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:race:noun",
@@ -900,7 +956,9 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:free-time:noun",
@@ -915,7 +973,7 @@
       "How do you like to spend your free time on weekends?"
     ],
     "domain": "general, relocation",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/friː taɪm/",
     "transcription_variants": {
@@ -923,7 +981,8 @@
     },
     "emoji": "⏳",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:slide:noun",
@@ -932,13 +991,13 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a playground structure with a smooth slope for sliding down"
+      "a playground toy for sliding down"
     ],
     "examples": [
       "Children love playing on the playground slide."
     ],
     "domain": "general, relocation",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/slaɪd/",
     "transcription_variants": {
@@ -951,7 +1010,9 @@
     "levels": [
       "A1",
       "B2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:swing:noun",
@@ -966,7 +1027,7 @@
       "The kids played on the park swings after class."
     ],
     "domain": "general, relocation",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/swɪŋ/",
     "transcription_variants": {
@@ -979,7 +1040,9 @@
     "levels": [
       "A1",
       "C1"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:walking:noun",
@@ -995,14 +1058,15 @@
       "Walking through the historical city center is enjoyable."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈwɔː.kɪŋ/",
     "transcription_variants": {
       "us": "/ˈwɑː.kɪŋ/"
     },
     "emoji": "🚶",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:gym:noun",
@@ -1017,7 +1081,7 @@
       "He exercises at the gym every evening."
     ],
     "domain": "general, spoken",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1026,7 +1090,9 @@
     "emoji": "🏋️",
     "countability": "countable",
     "plural_form": "gyms",
-    "no_antonym": true
+    "no_antonym": true,
+    "article": "a",
+    "sub_theme": "sports"
   },
   {
     "id": "en:volleyball:noun",
@@ -1041,7 +1107,7 @@
       "We played volleyball on the beach."
     ],
     "domain": "general, spoken",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1052,7 +1118,8 @@
       "us": "/ˈvɑː.li.bɑːl/"
     },
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:yoga:noun",
@@ -1067,7 +1134,7 @@
       "She practices yoga every morning."
     ],
     "domain": "general, spoken",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1078,6 +1145,56 @@
       "us": "/ˈjoʊ.ɡə/"
     },
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:cycling:noun",
+    "word": "cycling",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "levels": [
+      "A1",
+      "A2"
+    ],
+    "emoji": "🚴",
+    "transcription": "/ˈsaɪklɪŋ/",
+    "article": "a",
+    "countability": "uncountable",
+    "definitions": [
+      "the activity of riding a bicycle"
+    ],
+    "examples": [
+      "We go cycling in the park every Sunday."
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "leisure",
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:baseball:noun",
+    "word": "baseball",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "emoji": "⚾",
+    "transcription": "/ˈbeɪsbɔːl/",
+    "article": "a",
+    "countability": "uncountable",
+    "definitions": [
+      "a game played with a bat and a ball by two teams"
+    ],
+    "examples": [
+      "They play baseball at school."
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "leisure",
+    "sub_theme": "sports"
   }
 ]
