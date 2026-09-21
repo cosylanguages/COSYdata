@@ -1,28 +1,5 @@
 [
   {
-    "id": "es:libro:noun",
-    "word": "libro",
-    "language": "es",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/ˈli.βɾo/",
-    "emoji": "📖",
-    "definitions": [
-      "Conjunto de hojas de papel impresas y encuadernadas."
-    ],
-    "examples": [
-      "Leo un libro interesante."
-    ],
-    "domain": "general",
-    "theme": "school",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "libros"
-  },
-  {
     "id": "es:boligrafo:noun",
     "word": "bolígrafo",
     "language": "es",
@@ -46,56 +23,79 @@
     "plural_form": "bolígrafos"
   },
   {
-    "id": "es:si:adverb",
-    "word": "sí",
-    "language": "es",
-    "form": "adverb",
-    "level": "A1",
-    "transcription": "/si/",
-    "emoji": "✅",
-    "definitions": [
-      "Expresa afirmación."
-    ],
-    "examples": [
-      "Sí, por favor."
-    ],
-    "domain": "general",
-    "theme": "school",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:no:adverb",
-    "word": "no",
-    "language": "es",
-    "form": "adverb",
-    "level": "A1",
-    "transcription": "/no/",
-    "emoji": "❌",
-    "definitions": [
-      "Expresa negación."
-    ],
-    "examples": [
-      "No, gracias."
-    ],
-    "domain": "general",
-    "theme": "school",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
-    "id": "es:quien:pronoun",
-    "word": "quién",
+    "id": "es:como:pronoun",
+    "word": "cómo",
     "language": "es",
     "form": "pronoun",
     "level": "A1",
-    "transcription": "/quien/",
-    "emoji": "👤",
+    "transcription": "/como/",
+    "emoji": "🤔",
     "definitions": [
-      "Usado para preguntar por la identidad de una persona."
+      "Objeto o concepto: cómo."
     ],
     "examples": [
-      "¿Quién es él?"
+      "¿Cómo te llamas tú?"
+    ],
+    "domain": "general",
+    "theme": "school",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:cuaderno:noun",
+    "word": "cuaderno",
+    "language": "es",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Libro de hojas en blanco para escribir."
+    ],
+    "examples": [
+      "Tengo un cuaderno en casa."
+    ],
+    "domain": "general",
+    "theme": "school",
+    "updated": "2025-01-15",
+    "transcription": "/kwa.ˈðer.no/",
+    "emoji": "📓",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "cuadernos"
+  },
+  {
+    "id": "es:cuando:pronoun",
+    "word": "cuándo",
+    "language": "es",
+    "form": "pronoun",
+    "level": "A1",
+    "transcription": "/cuando/",
+    "emoji": "⌚",
+    "definitions": [
+      "Usado para preguntar por el tiempo."
+    ],
+    "examples": [
+      "¿Cuándo llegas?"
+    ],
+    "domain": "general",
+    "theme": "school",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:cuantos:pronoun",
+    "word": "cuántos",
+    "language": "es",
+    "form": "pronoun",
+    "level": "A1",
+    "transcription": "/cuantos/",
+    "emoji": "🔢",
+    "definitions": [
+      "Objeto o concepto: cuántos."
+    ],
+    "examples": [
+      "¿Cuántos años tienes tú?"
     ],
     "domain": "general",
     "theme": "school",
@@ -122,23 +122,27 @@
     "no_antonym": true
   },
   {
-    "id": "es:cuando:pronoun",
-    "word": "cuándo",
+    "id": "es:libro:noun",
+    "word": "libro",
     "language": "es",
-    "form": "pronoun",
+    "form": "noun",
     "level": "A1",
-    "transcription": "/cuando/",
-    "emoji": "⌚",
+    "transcription": "/ˈli.βɾo/",
+    "emoji": "📖",
     "definitions": [
-      "Usado para preguntar por el tiempo."
+      "Conjunto de hojas de papel impresas y encuadernadas."
     ],
     "examples": [
-      "¿Cuándo llegas?"
+      "Leo un libro interesante."
     ],
     "domain": "general",
     "theme": "school",
     "updated": "2025-01-15",
-    "no_antonym": true
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "el",
+    "gender": "masculine",
+    "plural_form": "libros"
   },
   {
     "id": "es:mapa:noun",
@@ -164,6 +168,25 @@
     "plural_form": "mapas"
   },
   {
+    "id": "es:no:adverb",
+    "word": "no",
+    "language": "es",
+    "form": "adverb",
+    "level": "A1",
+    "transcription": "/no/",
+    "emoji": "❌",
+    "definitions": [
+      "Expresa negación."
+    ],
+    "examples": [
+      "No, gracias."
+    ],
+    "domain": "general",
+    "theme": "school",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
     "id": "es:palabra:noun",
     "word": "palabra",
     "language": "es",
@@ -187,25 +210,6 @@
     "plural_form": "palabras"
   },
   {
-    "id": "es:que:pronoun",
-    "word": "qué",
-    "language": "es",
-    "form": "pronoun",
-    "level": "A1",
-    "transcription": "/ke/",
-    "emoji": "❓",
-    "definitions": [
-      "Término para what."
-    ],
-    "examples": [
-      "¿Qué quieres comer hoy?"
-    ],
-    "domain": "general",
-    "theme": "school",
-    "updated": "2025-01-15",
-    "no_antonym": true
-  },
-  {
     "id": "es:por-que:phrase",
     "word": "por qué",
     "language": "es",
@@ -214,7 +218,7 @@
     "transcription": "/poɾ ˈke/",
     "emoji": "🤷",
     "definitions": [
-      "Término para why."
+      "Objeto o concepto: por qué."
     ],
     "examples": [
       "¿Por qué estudias español?"
@@ -225,18 +229,18 @@
     "no_antonym": true
   },
   {
-    "id": "es:como:pronoun",
-    "word": "cómo",
+    "id": "es:que:pronoun",
+    "word": "qué",
     "language": "es",
     "form": "pronoun",
     "level": "A1",
-    "transcription": "/como/",
-    "emoji": "🤔",
+    "transcription": "/ke/",
+    "emoji": "❓",
     "definitions": [
-      "Término para how."
+      "Objeto o concepto: qué."
     ],
     "examples": [
-      "¿Cómo te llamas tú?"
+      "¿Qué quieres comer hoy?"
     ],
     "domain": "general",
     "theme": "school",
@@ -244,18 +248,37 @@
     "no_antonym": true
   },
   {
-    "id": "es:cuantos:pronoun",
-    "word": "cuántos",
+    "id": "es:quien:pronoun",
+    "word": "quién",
     "language": "es",
     "form": "pronoun",
     "level": "A1",
-    "transcription": "/cuantos/",
-    "emoji": "🔢",
+    "transcription": "/quien/",
+    "emoji": "👤",
     "definitions": [
-      "Término para how many."
+      "Usado para preguntar por la identidad de una persona."
     ],
     "examples": [
-      "¿Cuántos años tienes tú?"
+      "¿Quién es él?"
+    ],
+    "domain": "general",
+    "theme": "school",
+    "updated": "2025-01-15",
+    "no_antonym": true
+  },
+  {
+    "id": "es:si:adverb",
+    "word": "sí",
+    "language": "es",
+    "form": "adverb",
+    "level": "A1",
+    "transcription": "/si/",
+    "emoji": "✅",
+    "definitions": [
+      "Expresa afirmación."
+    ],
+    "examples": [
+      "Sí, por favor."
     ],
     "domain": "general",
     "theme": "school",

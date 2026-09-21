@@ -15,16 +15,16 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 | BA | `ba` | 379 | 61 | 61 | 318 | 0 | 0 | (b) Incomplete Migration |
 | BR | `br` | 397 | 62 | 62 | 335 | 0 | 0 | (b) Incomplete Migration |
 | CV | `cv` | 449 | 132 | 132 | 317 | 0 | 0 | (b) Incomplete Migration |
-| DE | `de` | 479 | 62 | 46 | 433 | 16 | 0 | (b) Incomplete Migration |
+| DE | `de` | 479 | 494 | 468 | 11 | 26 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EL | `el` | 301 | 509 | 122 | 179 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
-| EN | `en` | 1262 | 1601 | 1240 | 22 | 361 | 3 | SuperSet / Complete Migration (Already Exceeds) |
-| ES | `es` | 391 | 123 | 32 | 359 | 91 | 0 | (b) Incomplete Migration |
+| EN | `en` | 1298 | 1601 | 1274 | 24 | 327 | 4 | SuperSet / Complete Migration (Already Exceeds) |
+| ES | `es` | 391 | 482 | 391 | 0 | 91 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | FR | `fr` | 1033 | 964 | 822 | 211 | 142 | 6 | (b) Incomplete Migration |
 | HY | `hy` | 391 | 61 | 61 | 330 | 0 | 0 | (b) Incomplete Migration |
 | IT | `it` | 1154 | 513 | 401 | 753 | 112 | 5 | (b) Incomplete Migration |
 | KA | `ka` | 387 | 61 | 61 | 326 | 0 | 0 | (b) Incomplete Migration |
 | PT | `pt` | 393 | 124 | 33 | 360 | 91 | 0 | (b) Incomplete Migration |
-| RU | `ru` | 465 | 545 | 133 | 332 | 412 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
+| RU | `ru` | 465 | 792 | 380 | 85 | 412 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | TT | `tt` | 377 | 61 | 61 | 316 | 0 | 0 | (b) Incomplete Migration |
 
 ---
@@ -127,28 +127,28 @@ adzlavarout, aes, amann, amposupl, anit / atav, ankounac'haat, aoniek, aozañ ar
 ### DE (`de`)
 
 - **COSYlanguages A1 Word Count:** 479
-- **COSYdata A0/A1 Word Count:** 62
-- **Exact Overlap Count:** 46
-- **Candidates to Migrate (Only in COSYlanguages):** 433 words
-- **COSYdata Unique Words (To Keep):** 16 words
+- **COSYdata A0/A1 Word Count:** 494
+- **Exact Overlap Count:** 468
+- **Candidates to Migrate (Only in COSYlanguages):** 11 words
+- **COSYdata Unique Words (To Keep):** 26 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains only a placeholder / baseline set of 62 words (e.g. basic numbers/colors/family), whereas COSYlanguages contains 479 words. This indicates an unmigrated or barely started migration gap.
+- **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
+- **Rationale:** COSYdata has 494 words vs 479 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (433 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (11 words)</strong></summary>
 
 ```
-aber, acht, ähnlich, allein, alt, ändern, anders, Angebot, ängstlich, ankommen, anrufen, antworten, Apfelsine, Apotheke, arbeiten, Arm, Athen, auf Wiedersehen, aufgeregt, aufstehen, aufwachen, ausgeben, ausgezeichnet, Bäckerei, Bahnhof, Bank, Bär, Bauch, bauen, Baum, bedeuten, beenden, beginnen, behalten, beinhalten, bekommen, beliebt, benutzen, berechnen, Berg, beschäftigt, besonders, besorgt, bestehen, bestellen, besuchen, bezahlen, Biene, Bild, billig, bitte, blau, bleiben, Bleistift, Blume, brauchen, braun, brechen, Brezel, bringen, Bruder, buchen, Büro, Butter, Computer, Cousine, Currywurst, danke, danken, dein, denken, deutsch, drehen, drei, drücken, du, E-Mail, ehrlich, einfach, einladen, eins, Eis, elf, empfangen, empfehlen, England, Ente, entscheiden, Entschuldigung, entspannen, entspannt, enttäuscht, er, erholen, erinnern, erklären, erstaunlich, erzählen, essen, fahren, Fahrer, Fahrkarte, fallen, falsch, fantastisch, faul, feiern, Fest, finden, Fisch, fit, Fleisch, fliegen, Flughafen, Flugzeug, Fluss, folgen, fortsetzen, fragen, Frankreich, Frau, freundlich, Freundschaft, frühstücken, fühlen, fünf, furchtbar, geben, gefährlich, gehen, gehören, gelangweilt, gelb, Gemüse, genießen, geschlossen, Gespräch, gestern, gestresst, gesund, gewinnen, gewöhnlich, gleich, glücklich, grau, Griechenland, groß, großartig, Großmutter, Großvater, grün, Gürtel, gut, gute Nacht, guten Abend, guten Morgen, guten Tag, gütig, Haar, haben, hallo, Haltestelle, Handy, hart, hassen, Haus, Hausaufgabe, Heft, heiß, helfen, Hemd, Himmel, hinzufügen, hoch, hoffen, höflich, hören, Hotel, hübsch, hungrig, ich, immer, Ingenieur, ins Bett gehen, interessant, Internet, Italien, Jacke, Jahr, jung, kalt, Kartoffel, Käse, Kasse, kaufen, Kellner, Klasse, Kleid, klein, Koch, kochen, Koffer, kommen, Kopf, korrekt, kosten, kostenlos, krank, Krankenhaus, Kuh, kühl, Kunde, lächeln, Lampe, lang, langsam, langweilig, laufen, laut, leben, leer, lehren, leicht, leise, leiten, lernen, lesen, lieben, London, lustig, machen, Mann, Mantel, Markt, Maus, Meer, mein, Mensch, mieten, mögen, möglich, Monat, Mond, Moskau, müde, nass, nehmen, nervös, nett, neu, neun, New York, nie, niedrig, notwendig, nützlich, nutzlos, Obst, offen, öffnen, Onkel, online, orange, organisieren, österreichisch, packen, Paris, Park, Pass, passieren, pendeln, perfekt, Pferd, Polizist, Post, präsentieren, Preis, prüfen, Pullover, Rechnung, reden, Regal, regnerisch, reinigen, Reis, Reise, reisen, rennen, reparieren, Restaurant, richtig, Rock, Rom, rosa, rot, ruhen, Russland, sagen, Salz, sauber, Schaf, schauen, scheinen, schlafen, schlau, schlecht, schließen, schmutzig, Schnee, schneiden, schnell, Schnitzel, schön, Schrank, schrecklich, schreiben, schulden, schwach, schwarz, Schwein, schweizerisch, schwer, Schwester, schwierig, schwimmen, sechs, See, sehen, sein, selbstbewusst, senden, sich leisten, sicher, sie, sieben, singen, sitzen, Socke, Sofa, Sohn, sonnig, Spanien, sparen, spielen, sprechen, springen, Stadt, stark, stehen, stellen, sterben, Stern, stolz, stoppen, stornieren, Student, studieren, Supermarkt, Tante, tanzen, teilen, Teilzeit, Teppich, teuer, Ticket, Tochter, tragen, trainieren, traurig, treffen, trinken, trocken, tschüss, tun, tut mir leid, überrascht, umziehen, und, unglücklich, unhöflich, unmöglich, Unterricht, Urlaub, USA, verängstigt, verdienen, vergessen, verkaufen, Verkäufer, verlassen, verlieren, verpassen, verstehen, versuchen, vier, violett, Vogel, voll, Vollzeit, vorstellen, wachsen, wählen, Wald, warm, warten, waschen, weh tun, weich, weinen, weiß, werden, Wetter, wichtig, wiederholen, Wind, wir, wissen, Wolke, wollen, wunderbar, wütend, Zahn, zehn, zeichnen, zeigen, ziehen, Zucker, zurückkehren, zurückkommen, zusammen, zustimmen, zwei, zwölf
+auf Wiedersehen, deutsch, Entschuldigung, essen, gute Nacht, guten Abend, guten Morgen, guten Tag, orange, österreichisch, schweizerisch
 ```
 
 </details>
 
 <details>
-<summary><strong>COSYdata Unique Words List (16 words)</strong></summary>
+<summary><strong>COSYdata Unique Words List (26 words)</strong></summary>
 
 ```
-Abend, Abendessen, Arbeit, Ehefrau, Ehemann, Ei, Essen, Familie, Frühstück, Garten, Mittagessen, Morgen, Pasta, Pizza, Schlüssel, Zuhause
+Abend, Abendessen, Arbeit, Auf Wiedersehen, Deutsch, Ehefrau, Ehemann, Ei, entschuldigung, Essen, Familie, Frühstück, Garten, Gute Nacht, Guten Abend, Guten Morgen, Guten Tag, Mittagessen, Morgen, Orange, Österreichisch, Pasta, Pizza, Schlüssel, Schweizerisch, Zuhause
 ```
 
 </details>
@@ -193,36 +193,37 @@ Abend, Abendessen, Arbeit, Ehefrau, Ehemann, Ei, Essen, Familie, Frühstück, Ga
 
 ### EN (`en`)
 
-- **COSYlanguages A1 Word Count:** 1262
+- **COSYlanguages A1 Word Count:** 1298
 - **COSYdata A0/A1 Word Count:** 1601
-- **Exact Overlap Count:** 1240
-- **Candidates to Migrate (Only in COSYlanguages):** 22 words
-- **COSYdata Unique Words (To Keep):** 361 words
-- **Likely Near-Duplicates:** 3 pairs
+- **Exact Overlap Count:** 1274
+- **Candidates to Migrate (Only in COSYlanguages):** 24 words
+- **COSYdata Unique Words (To Keep):** 327 words
+- **Likely Near-Duplicates:** 4 pairs
 - **Migration Classification:** **SuperSet / Complete Migration (Already Exceeds)**
-- **Rationale:** COSYdata already contains 1601 unique words compared to COSYlanguages's 1262 words. COSYdata is a superset for English.
+- **Rationale:** COSYdata already contains 1601 unique words compared to COSYlanguages's 1298 words. COSYdata is a superset for English.
 
-#### Likely Near-Duplicates (3 pairs)
+#### Likely Near-Duplicates (4 pairs)
 | Candidate (COSYlanguages) | Existing (COSYdata) | Match Type |
 | :--- | :--- | :--- |
 | `fries` | `chips / fries` | Slash / Option variant |
 | `mall` | `shopping center / mall` | Slash / Option variant |
 | `shopping center` | `shopping center / mall` | Slash / Option variant |
+| `cafe` | `café` | Accent / Diacritic variant |
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (22 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (24 words)</strong></summary>
 
 ```
-africa, america, arabic, asia, britain, europe, excuse me, fries, happy birthday, mall, mexico, ok, portugal, russian, scotland, see you, shopping center, thank you, the usa, tv, wales, you're welcome
+africa, america, arabic, asia, britain, cafe, europe, excuse me, fries, happy birthday, mall, mexico, ok, portugal, russian, scotland, see you, shopping center, thank you, the usa, tv, wales, yoghurt, you're welcome
 ```
 
 </details>
 
 <details>
-<summary><strong>COSYdata Unique Words List (361 words)</strong></summary>
+<summary><strong>COSYdata Unique Words List (327 words)</strong></summary>
 
 ```
-Africa, ago, agree with, America, And you, animals, ant, anybody, anyone, anything, apartment building, app, Arabic, are there, arms, around, as well, Asia, Australian, autumn/fall, backpack, bar, Be careful, be quiet, bell, blocks, Britain, brush teeth, builder, building, burger, cab, café, call 911, call the police, Can I have, Can I help you, Can you help me, Can you repeat that please, Can you speak slowly please, Canadian, carpet, cartoon, cell phone, cereal, chips / fries, classmate, clean the house, cleaner, cleaning, click, closet, clothing, cola, colleague, colorful, come back, Come here, come home, Come in, computer game, congratulations on, continue, cook dinner, cooker, copy, crayon, credit card, cross, cucumber, dark blue, delete, describe, dining room, disagree with, do homework, do the laundry, do the shopping, Do you speak English, Don't worry, each, ears, easily, elbow, eleventh, email address, especially, Europe, every day, everything, Excuse me, eyes, family member, far from, faucet, field, fill in, fingers, fire alarm, first name, flour, for example, free time, freezer, full name, gaming, garlic, get dressed, get up, glad, Go straight, go to bed, go to school, go to work, goat, Good job, Good luck, grandchild, grandchildren, grandparents, grey/gray, ground, gym, handbag, Happy birthday, Have a good day, Have a nice day, have breakfast, have dinner, have lunch, headphones, hen, herself, hide, himself, honey, hoodie, How are you, How do I get to, How do you say in English, How much is it, how often, How old are you, Hurry up, I agree, I am years old, I disagree, I don't know, I don't understand, I live in, I need help, I think so, I want, I'd like, I'm a teacher, I'm fine, I'm from, I'm good, I'm lost, I'm not sure, I'm okay, I'm sorry, in front of, in love, Is it okay, is there, It's far, It's near, It's okay, jewelry, Just a minute, keyboard, keys, last name, lawyer, legs, let, Let me see, Let's go, light blue, Listen carefully, listen to, look at, Look at me, Look out, loose, lunchbox, madam, matches, mathematics, may, mechanic, Mexico, mister, moment, mood, movie theater, moving, mr, mrs, My name is, myself, napkin, necklace, Nice to meet you, Nice to meet you too, no meat, no one, No problem, no sugar, noodles, Not bad, Of course, OK, Okay, on foot, One moment please, one ticket, onto, opposite, over there, page, pajamas, parents, partner, passport, phone number, place, plant, playground, please repeat, police station, pool, Portugal, Portuguese, print, printer, promise, put on, pyjamas, quarter past, quarter to, race, raincoat, raise your hand, relative, remote control, repeat after me, right here, rooms, rug, Russian, salesperson, sandals, Scotland, seat, secretary, See you, See you later, See you soon, See you tomorrow, shampoo, shopping center / mall, shorts, singing, sir, sit down, Sit down, slide, soda, soft drink, soldier, somebody, sparkling water, spell, stand up, Stand up, sticker, still water, story, storybook, straight ahead, stuff, suit, sunscreen, surname, swimming pool, swimsuit, swing, take a nap, take a shower, Take care, take care of, take off, take out the trash, Take your time, tap, teddy bear, Thank you, Thank you very much, That's okay, That's right, That's wrong, the USA, thing, tie, tight, to go, toes, toilet, toilet paper, too much, toothpaste, toys, traffic light, train station, tram, traveling, trolley, truck, try on, Turn left, turn off, turn on, Turn right, TV, twelfth, twenty-one, twin, twins, type, underwear, uniform, united kingdom, united states, vegetables, volleyball, Wait a minute, wake up, Wales, walk the dog, walking, wash the dishes, Watch out, watch TV, way, Well done, What do you do, What does mean, What time is it, What's your name, wheelchair, Where are you from, Where do you live, Where is, whiteboard, Wi-Fi, yoga, yogurt, you are welcome, You're welcome
+Africa, ago, agree with, America, And you, animals, ant, anybody, anyone, anything, apartment building, Arabic, are there, arms, around, as well, Asia, Australian, autumn/fall, bar, Be careful, be quiet, bell, blocks, Britain, brush teeth, builder, building, burger, cab, café, call 911, call the police, Can I have, Can I help you, Can you help me, Can you repeat that please, Can you speak slowly please, Canadian, carpet, cartoon, cell phone, chips / fries, clean the house, cleaner, cleaning, click, closet, clothing, cola, colorful, come back, Come here, come home, Come in, computer game, congratulations on, continue, cook dinner, cooker, copy, crayon, credit card, cross, cucumber, dark blue, delete, describe, dining room, disagree with, do homework, do the laundry, do the shopping, Do you speak English, Don't worry, each, ears, easily, elbow, eleventh, especially, Europe, every day, everything, Excuse me, eyes, family member, far from, faucet, field, fill in, fingers, fire alarm, for example, free time, freezer, full name, gaming, get dressed, glad, Go straight, go to bed, go to school, go to work, goat, Good job, Good luck, grandchild, grandchildren, grandparents, grey/gray, ground, handbag, Happy birthday, Have a good day, Have a nice day, have breakfast, have dinner, have lunch, headphones, hen, herself, hide, himself, hoodie, How are you, How do I get to, How do you say in English, How much is it, how often, How old are you, Hurry up, I agree, I am years old, I disagree, I don't know, I don't understand, I live in, I need help, I think so, I want, I'd like, I'm a teacher, I'm fine, I'm from, I'm good, I'm lost, I'm not sure, I'm okay, I'm sorry, in front of, in love, Is it okay, is there, It's far, It's near, It's okay, jewelry, Just a minute, keys, lawyer, legs, let, Let me see, Let's go, light blue, Listen carefully, listen to, look at, Look at me, Look out, loose, lunchbox, madam, matches, mathematics, may, mechanic, Mexico, mister, moment, mood, movie theater, moving, mr, mrs, My name is, myself, napkin, necklace, Nice to meet you, Nice to meet you too, no meat, no one, No problem, no sugar, noodles, Not bad, Of course, OK, Okay, on foot, One moment please, one ticket, onto, opposite, over there, page, pajamas, place, plant, playground, please repeat, police station, pool, Portugal, Portuguese, print, promise, pyjamas, quarter past, quarter to, race, raincoat, raise your hand, relative, remote control, repeat after me, right here, rooms, rug, Russian, salesperson, Scotland, seat, secretary, See you, See you later, See you soon, See you tomorrow, shampoo, shopping center / mall, singing, sir, sit down, Sit down, slide, soda, soft drink, soldier, somebody, sparkling water, spell, stand up, Stand up, sticker, still water, story, storybook, straight ahead, stuff, sunscreen, surname, swimming pool, swimsuit, swing, take a nap, take a shower, Take care, take care of, take out the trash, Take your time, tap, teddy bear, Thank you, Thank you very much, That's okay, That's right, That's wrong, the USA, thing, tight, to go, toes, toilet paper, too much, toys, traffic light, tram, traveling, trolley, truck, Turn left, turn off, turn on, Turn right, TV, twelfth, twenty-one, twin, twins, type, underwear, uniform, vegetables, Wait a minute, Wales, walk the dog, walking, wash the dishes, Watch out, watch TV, way, Well done, What do you do, What does mean, What time is it, What's your name, wheelchair, Where are you from, Where do you live, Where is, whiteboard, Wi-Fi, yogurt, you are welcome, You're welcome
 ```
 
 </details>
@@ -232,22 +233,15 @@ Africa, ago, agree with, America, And you, animals, ant, anybody, anyone, anythi
 ### ES (`es`)
 
 - **COSYlanguages A1 Word Count:** 391
-- **COSYdata A0/A1 Word Count:** 123
-- **Exact Overlap Count:** 32
-- **Candidates to Migrate (Only in COSYlanguages):** 359 words
+- **COSYdata A0/A1 Word Count:** 482
+- **Exact Overlap Count:** 391
+- **Candidates to Migrate (Only in COSYlanguages):** 0 words
 - **COSYdata Unique Words (To Keep):** 91 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains 123 words vs 391 in COSYlanguages. While substantial core vocabulary was migrated (32 exact overlap), significant vocabulary (359 words) remains in COSYlanguages awaiting intake.
+- **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
+- **Rationale:** COSYdata has 482 words vs 391 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
-<details>
-<summary><strong>Full "Only in COSYlanguages" Word List (359 words)</strong></summary>
-
-```
-a tiempo completo, a tiempo parcial, abierto, abrir, aburrido, acostarse, agradecer, ahorrar, Albert Einstein, Alemania, alquilar, alto, amable, amar, amarillo, amigable, Ámsterdam, añadir, aprender, arrepentido, asistir, asustado, Atenas, Australia, Austria, ayudar, azul, bailar, bajo, barato, Barcelona, beber, Bélgica, Berlín, Beyoncé, blanco, bonito, Brasil, buenísimo, bueno, caballo, cabeza, caer, cálido, caliente, cambiar, caminar, camisa, Canadá, cancelar, cansado, cantar, caro, casa, celebrar, cerrado, cerrar, Chicago, China, Ciudad de México, cobrar, cocinar, comer, compartir, comprar, conducir, confiado, conocer, construir, continuar, Corea del Sur, correcto, correr, cortar, costar, crecer, Cristiano Ronaldo, cuaderno, dar, deber, débil, decepcionado, decidir, decir, desayunar, descansar, despertarse, dibujar, diferente, difícil, Dinamarca, disfrutar, divertido, doler, dormir, dos, Dublín, duro, Edimburgo, educado, EE. UU., Egipto, él, elegir, ella, ellos, Elon Musk, emocionado, empezar, empujar, en forma, en línea, encontrar, enfadado, enfermo, enseñar, entender, enviar, escribir, escuchar, espantoso, España, español, especial, esperar, estar de acuerdo, estar de pie, estresado, estudiar, excelente, explicar, fácil, fantástico, feliz, fiesta, Finlandia, Florencia, francés, Francia, fresco, frío, fuerte, ganar, gastar, gazpacho, gestionar, girar, grande, gratis, Grecia, gris, grosero, gustar, hablar, hacer, hacer ejercicio, hacer la maleta, hacerse, hambriento, hermana, hermano, hermoso, honesto, importante, imposible, incluir, incorrecto, increíble, India, infeliz, Inglaterra, intentar, interesante, inútil, invitar, ir, Irlanda, Italia, italiano, Japón, joven, jugar, largo, lavar, leer, lento, Leonardo da Vinci, levantarse, ligero, limpiar, limpio, Lionel Messi, listo, llamar, llegar, lleno, llevar, llorar, lluvioso, Londres, Los Ángeles, luna, malo, mantener, maravilloso, Marie Curie, marrón, Melbourne, mi, Miami, mirar, mismo, mojado, Montreal, morir, Moscú, mostrar, mover, nadar, naranja, necesario, necesitar, negro, Nelson Mandela, nervioso, Noruega, nosotros, Nueva York, nuevo, nunca, obtener, ocupado, odiar, oír, olvidar, ordenador, ordinario, organizar, orgulloso, paella, pagar, Países Bajos, pájaro, pantalón, parar, parecer, París, pasar, pedir, Pekín, peligroso, pensar, pequeño, perder, perezoso, perfecto, permitirse, pero, pertenecer, pesado, pez, Polonia, poner, popular, posible, Praga, preguntar, preocupado, presentar, producir, proyectar, quedarse, querer, rápido, recibir, recomendar, recordar, recuperarse, Reina Isabel II, relajado, relajarse, reparar, repetir, reservar, responder, revisar, Río de Janeiro, rojo, Roma, romper, rosa, ruidoso, Rusia, saber, salir, saltar, saludable, San Francisco, seco, sediento, seguir, seguro, sentarse, sentir, ser, Sídney, siempre, significar, similar, simpático, soleado, solo, sonreír, sorprendido, suave, sucio, Suecia, Suiza, Tailandia, Taylor Swift, tener, terminar, terrible, tímido, tirar, Tokio, tomar, tortilla, trabajar, traer, tranquilo, triste, tu, tú, Ucrania, uno, usar, útil, vaca, vacío, Vancouver, vender, Venecia, venir, ver, verde, vestido, viajar, viajar diariamente, viejo, Viena, visitar, vivir, volar, volver, Washington D.C., William Shakespeare, y, yo
-```
-
-</details>
+*No words only in COSYlanguages. All words are present in COSYdata.*
 
 <details>
 <summary><strong>COSYdata Unique Words List (91 words)</strong></summary>
@@ -419,19 +413,19 @@ almoço, amanhã, armário, autocarro, banana, bem-vindo, boca, bolsa, caixa, ca
 ### RU (`ru`)
 
 - **COSYlanguages A1 Word Count:** 465
-- **COSYdata A0/A1 Word Count:** 545
-- **Exact Overlap Count:** 133
-- **Candidates to Migrate (Only in COSYlanguages):** 332 words
+- **COSYdata A0/A1 Word Count:** 792
+- **Exact Overlap Count:** 380
+- **Candidates to Migrate (Only in COSYlanguages):** 85 words
 - **COSYdata Unique Words (To Keep):** 412 words
 - **Likely Near-Duplicates:** 0 pairs
 - **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
-- **Rationale:** COSYdata has 545 words vs 465 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
+- **Rationale:** COSYdata has 792 words vs 465 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (332 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (85 words)</strong></summary>
 
 ```
-Александр Пушкин, американец, Афины, без труда не выловишь и рыбку из пруда, безопасный, бесполезный, битый час, бить баклуши, бить в точку, благодарить, бок о бок, болеть, борщ, бронировать, быть должным, в двух шагах, в здоровом теле здоровый дух, в конце концов, в лучшем случае, в мгновение ока, в общем и целом, в основном, в первую очередь, в самом деле, в самый раз, в свою очередь, в худшем случае, в центре внимания, вежливый, век живи — век учись, великолепный, верный, вешать нос, взволнованный, взимать плату, взять себя в руки, взять слово, витать в облаках, включать, водить за нос, возвращаться, волков бояться — в лес не ходить, время летит, время от времени, всему своё время, вставать, вставлять палки в колёса, встречать, встречать по одёжке, выбирать, выздоравливать, вылететь из головы, глазом не моргнуть, глядеть в оба, гордый, громкий, грубый, гулять, дарёному коню в зубы не смотрят, дать слово, двигаться, делать из мухи слона, делиться, делу время, потехе час, день за днём, день и ночь, держать в ежовых рукавицах, держать в уме, держать слово, держать ухо востро, держать язык за зубами, дешёвый, днём, до сих пор, добавлять, добрый, дождливый, дорогой, другой, дружелюбный, друзья познаются в беде, душа в душу, ездить на работу, ждать у моря погоды, завтракать, задирать нос, заказывать, замечательный, занятой, зарабатывать, засучив рукава, звонить, здоровый, знать назубок, значить, золотые руки, зуб на зуб не попадает, идеальный, из рук вон плохо, изо дня в день, интересный, использовать, испуганный, к сожалению, к счастью, к удивлению, каждый день, казаться, как кошка с собакой, как ни в чём не бывало, как по маслу, как правило, как с гуся вода, как свои пять пальцев, как снег на голову, кануть в лету, кверху ногами, китаец, класть, короче говоря, крупный, куй железо, пока горячо, лёгок на помине, ленивый, лить слёзы, лицом к лицу, ложиться спать, ломать, Лондон, лучше поздно, чем никогда, мастер на все руки, мокрый, Москва, на все сто, на всякий случай, на первый взгляд, на самом деле, на свежую голову, на широкую ногу, навещать, надеяться, намотать на ус, напряжённый, напуганный, нарушить слово, наслаждаться, не в своей тарелке, не за горами, не имей сто рублей, а имей сто друзей, небольшой, невозможный, ненавидеть, необходимый, неполный, неправильный, нервный, несчастный, нет дыма без огня, нет худа без добра, ни в коем случае, ни при чём, ни пуха ни пера, ни рыба ни мясо, ни свет ни заря, ни то ни сё, низкий, нога в ногу, носить, нуждаться, Нью-Йорк, обеспокоенный, объяснять, обычный, огорчённый, один в поле не воин, один на один, одинокий, одним словом, онлайн, опасный, организовать, особенный, оставаться, останавливать, от А до Я, от всего сердца, от корки до корки, отвратительный, отдыхать, отличный, отменять, пальчики оближешь, Париж, первый блин комом, плевать в потолок, плечом к плечу, по вкусу, по душам, по душе, по очереди, по ошибке, по плечу, по привычке, побеждать, поворачивать, повторение — мать учения, повторять, под боком, подать руку помощи, поживём — увидим, позволить себе, показывать, полезный, получать, популярный, посещать, посылать, похожий, правильный, праздновать, представлять, презентовать, преподавать, приглашать, принадлежать, принимать близко к сердцу, приятный, пробовать, проверять, продолжать, просыпаться, прохладный, проходить, прыгать, путешествовать, раз и навсегда, разговаривать, разочарованный, рано или поздно, рассказывать, расслабленный, расслабляться, расти, резать, рекомендовать, решать, Рим, рисовать, рука об руку, рукой подать, русский, с глазу на глаз, с другой стороны, с минуты на минуту, с ног на голову, с нуля, с одной стороны, с тех пор, с утра до вечера, с чистой совестью, салат оливье, само собой разумеется, свободный, семь раз отмерь, один раз отрежь, сердитый, сидеть сложа руки, симпатичный, скучать, скучающий, скучный, следовать, слово в слово, случаться, слышать, смешной, снимать, со всех ног, со дня на день, собака лает — караван идёт, собирать вещи, соглашаться, солнечный, сохранять, спортивный, спустя рукава, становиться, старый друг лучше новых двух, стоить, строить, судя по всему, сухой, считать воронов, США, сытый голодного не разумеет, так или иначе, тем временем, тем не менее, тёплый, терять, тихий, тише едешь — дальше будешь, толкать, тратить, тренироваться, тянуть, тянуть кота за хвост, уверенный, удивительный, удивлённый, ужасный, улыбаться, умирать, умный, умывать руки, управлять, усталый, уходить, фантастический, ходить пешком, хоть пруд пруди, хранить, целый день, цыплят по осени считают, через день, честно говоря, честный, чинить, что посеешь, то и пожнёшь, шаг за шагом, шила в мешке не утаишь, шумный, яблоко от яблони недалеко падает
+безопасный, бесполезный, благодарить, болеть, быть должным, вежливый, взволнованный, включать, вставать, вставлять палки в колёса, встречать, выбирать, выздоравливать, гордый, грубый, делиться, дешёвый, добрый, дождливый, дорогой, дружелюбный, завтракать, зарабатывать, звонить, здоровый, интересный, испуганный, казаться, ленивый, ложиться спать, ломать, на самом деле, надеяться, напряжённый, неправильный, нервный, носить, обеспокоенный, объяснять, обычный, опасный, особенный, оставаться, отдыхать, поворачивать, повторять, позволить себе, полезный, получать, популярный, посещать, похожий, правильный, праздновать, представлять, приглашать, принадлежать, проверять, продолжать, просыпаться, путешествовать, расслабляться, расти, рекомендовать, решать, рисовать, свободный, скучающий, скучный, следовать, случаться, смешной, соглашаться, солнечный, сохранять, становиться, стоить, строить, тихий, уверенный, удивлённый, умный, честный, чинить, шумный
 ```
 
 </details>
