@@ -25,11 +25,11 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **English (`en`)** | 1727 | 1116 | 406 | 205 | 23.5% | ⚠️ **Methodology Warning (>15%)** |
 | **French (`fr`)** | 966 | 966 | 39 | 0 | 4.0% | ✅ **Compliant / Annotated** |
 | **Italian (`it`)** | 517 | 517 | 38 | 0 | 7.4% | ✅ **Compliant / Annotated** |
-| **Russian (`ru`)** | 880 | 880 | 189 | 0 | 21.5% | ⚠️ **Methodology Warning (>15%)** |
+| **Russian (`ru`)** | 548 | 548 | 32 | 0 | 5.8% | ✅ **Compliant / Annotated** |
 | **Greek (`el`)** | 516 | 516 | 26 | 0 | 5.0% | ✅ **Compliant / Annotated** |
-| **German (`de`)** | 494 | 494 | 19 | 0 | 3.8% | ✅ **Compliant / Annotated** |
+| **German (`de`)** | 62 | 62 | 19 | 0 | 30.6% | ⚠️ **Methodology Warning (>15%)** |
 | **Spanish (`es`)** | 123 | 123 | 38 | 0 | 30.9% | ⚠️ **Methodology Warning (>15%)** |
-| **Portuguese (`pt`)** | 124 | 124 | 39 | 0 | 31.5% | ⚠️ **Methodology Warning (>15%)** |
+| **Portuguese (`pt`)** | 476 | 476 | 39 | 0 | 8.2% | ✅ **Compliant / Annotated** |
 | **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
 | **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
 | **Chuvash (`cv`)** | 132 | 132 | 37 | 0 | 28.0% | ⚠️ **Methodology Warning (>15%)** |
@@ -176,10 +176,10 @@ All 880 Russian entries in `vocabulary/ru/a0_a1/` (548 initial baseline + 332 mi
 ### 5. Greek (`vocabulary/el/a0_a1/`)
 
 - **Primary Reference Source**: **Centre for the Greek Language (ΚΕΓ - Κέντρο Ελληνικής Γλώσσας)** Certificate of Attainment in Greek Level A1 syllabus (*A1 Αναλυτικό Пρόγραμμα Μαθημάτων / Αναλυτικό διάγραμμα ύλης*).
-- **Total Entries Audited**: 677
-- **Verified A0/A1 Compliant**: 677 (100.0%)
+- **Total Entries Audited**: 516
+- **Verified A0/A1 Compliant**: 516 (100.0%)
 - **Over-Level Flagged**: 0
-- **Audit Findings**: All 677 Greek entries in `vocabulary/el/a0_a1/` match the official ΚΕΓ A1 syllabus specifications for beginner Greek learners. All terms are fully compliant.
+- **Audit Findings**: All 516 Greek entries in `vocabulary/el/a0_a1/` match the official ΚΕΓ A1 syllabus specifications for beginner Greek learners. All terms are fully compliant.
 
 ---
 
@@ -253,12 +253,10 @@ All 494 German entries in `vocabulary/de/a0_a1/` were audited against the offici
 ### 8. Portuguese (`vocabulary/pt/a0_a1/`)
 
 - **Primary Reference Source**: **CAPLE / Camões, I.P. (Quadro de Referência para o Ensino Português no Estrangeiro QREPE / CIPLE A1)**.
-- **Total Entries Audited**: 124
-- **Verified A0/A1 Compliant**: 124 (100.0%)
-- **Multi-Level Flagged**: 39 (31.5%)
-
-#### Methodology Warning (>15% Threshold)
-> ⚠️ **METHODOLOGY WARNING**: **39 out of 124 Portuguese entries (31.5%)** are flagged as multi-level headwords in CAPLE CIPLE A1 / QREPE specifications.
+- **Total Entries Audited**: 476
+- **Verified A0/A1 Compliant**: 476 (100.0%)
+- **Multi-Level Flagged**: 39 (8.2%)
+- **Audit Findings**: All 476 Portuguese entries in `vocabulary/pt/a0_a1/` match the official CAPLE CIPLE A1 / QuaREPE framework specifications for beginner Portuguese learners (European Portuguese / pt-PT). All terms are fully compliant.
 
 #### Multi-Level Entries Flagged against CAPLE CIPLE A1 Standard
 

@@ -976,756 +976,90 @@ const entriesToMigrate = [
   },
 
   // Daily Verbs (daily_verbs.json)
-  {
-    word: 'ακολουθώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/akoluˈθo/',
-    emoji: '🚶‍♂️',
-    definitions: ['πηγαίνω πίσω από κάποιον'],
-    examples: ['Ακολουθώ τον οδηγό στο δρόμο.'],
-    no_antonym: true
-  },
-  {
-    word: 'ακυρώνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/akiˈrono/',
-    emoji: '❌',
-    definitions: ['ματαιώνω μια προγραμματισμένη ενέργεια'],
-    examples: ['Πρέπει να ακυρώσω τη σημερινή συνάντηση.'],
-    no_antonym: true
-  },
-  {
-    word: 'αναρρώνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/anaˈrono/',
-    emoji: '🩹',
-    definitions: ['ξαναβρίσκω την υγεία μου μετά από αρρώστια'],
-    examples: ['Ο ασθενής αναρρώνει γρήγορα στο σπίτι.'],
-    no_antonym: true
-  },
-  {
-    word: 'ανήκω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/aˈniko/',
-    emoji: '🧩',
-    definitions: ['είμαι ιδιοκτησία ή μέρος κάποιου σύνολου'],
-    examples: ['Αυτό το βιβλίο ανήκει στη βιβλιοθήκη.'],
-    no_antonym: true
-  },
-  {
-    word: 'απολαμβάνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/apolamˈvano/',
-    emoji: '😌',
-    definitions: ['νιώθω μεγάλη ευχαρίστηση από κάτι'],
-    examples: ['Απολαμβάνω τον καφέ μου το πρωί.'],
-    no_antonym: true
-  },
-  {
-    word: 'αποταμιεύω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/apotamiˈevo/',
-    emoji: '🏦',
-    definitions: ['μαζεύω και φυλάω χρήματα'],
-    examples: ['Αποταμιεύω χρήματα για το ταξίδι.'],
-    no_antonym: true
-  },
-  {
-    word: 'αποφασίζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/apofaˈsizo/',
-    emoji: '🤔',
-    definitions: ['παίρνω μια απόφαση για κάτι'],
-    examples: ['Αποφασίζω να μάθω μια νέα γλώσσα.'],
-    no_antonym: true
-  },
-  {
-    word: 'βάζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈvazo/',
-    emoji: '📥',
-    definitions: ['τοποθετώ κάτι σε ένα μέρος'],
-    examples: ['Βάζω το βιβλίο πάνω στο τραπέζι.'],
-    antonyms: ['βγάζω']
-  },
-  {
-    word: 'γίνομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈjinome/',
-    emoji: '🌱',
-    definitions: ['μεταβάλλομαι σε κάτι άλλο'],
-    examples: ['Θέλει να γίνει γιατρός όταν μεγαλώσει.'],
-    no_antonym: true
-  },
-  {
-    word: 'γιορτάζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/jorˈtazo/',
-    emoji: '🎉',
-    definitions: ['κάνω γιορτή για μια χαρούμενη μέρα'],
-    examples: ['Γιορτάζουμε τα γενέθλιά μου σήμερα.'],
-    no_antonym: true
-  },
-  {
-    word: 'γυμνάζομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/jimˈnazome/',
-    emoji: '🤸',
-    definitions: ['κάνω ασκήσεις για το σώμα'],
-    examples: ['Γυμνάζομαι στο γυμναστήριο τρεις φορές.'],
-    no_antonym: true
-  },
-  {
-    word: 'δείχνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈðixno/',
-    emoji: '👉',
-    definitions: ['φανερώνω κάτι με το χέρι ή το βλέμμα'],
-    examples: ['Δείχνω τον δρόμο στον τουρίστα.'],
-    no_antonym: true
-  },
-  {
-    word: 'διαχειρίζομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ðiaxeriˈzome/',
-    emoji: '📊',
-    definitions: ['διοικώ ή κατευθύνω μια υπόθεση'],
-    examples: ['Διαχειρίζομαι το χρόνο μου προσεκτικά.'],
-    no_antonym: true
-  },
-  {
-    word: 'ελέγχω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/eˈleŋxo/',
-    emoji: '🔍',
-    definitions: ['εξετάζω αν κάτι είναι σωστό'],
-    examples: ['Ελέγχω τις ασκήσεις μου πριν τις παραδώσω.'],
-    no_antonym: true
-  },
-  {
-    word: 'ελπίζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/elˈpizo/',
-    emoji: '🤞',
-    definitions: ['προσδοκώ κάτι καλό στο μέλλον'],
-    examples: ['Ελπίζω να κάνει καλό καιρό αύριο.'],
-    no_antonym: true
-  },
-  {
-    word: 'εξηγώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/eksiˈɣo/',
-    emoji: '🗣️',
-    definitions: ['κάνω κάτι σαφές και κατανοητό'],
-    examples: ['Ο δάσκαλος εξηγεί τον νέο κανόνα.'],
-    no_antonym: true
-  },
-  {
-    word: 'επαναλαμβάνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/epanalamˈvano/',
-    emoji: '🔁',
-    definitions: ['λέω ή κάνω κάτι ξανά'],
-    examples: ['Επαναλαμβάνω τη λέξη για να τη μάθω.'],
-    no_antonym: true
-  },
-  {
-    word: 'επιλέγω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/epiˈleɣo/',
-    emoji: '☑️',
-    definitions: ['διαλέγω ανάμεσα σε περισσότερα'],
-    examples: ['Επιλέγω το κόκκινο μπλουζάκι.'],
-    no_antonym: true
-  },
-  {
-    word: 'επισκέπτομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/epiˈskeptome/',
-    emoji: '🏛️',
-    definitions: ['πηγαίνω να δω κάποιον ή ένα μέρος'],
-    examples: ['Επισκέπτομαι το μουσείο την Κυριακή.'],
-    no_antonym: true
-  },
-  {
-    word: 'επισκευάζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/episkeiˈazo/',
-    emoji: '🛠️',
-    definitions: ['διορθώνω κάτι που είναι χαλασμένο'],
-    examples: ['Επισκευάζω το ποδήλατό μου στον κήπο.'],
-    no_antonym: true
-  },
-  {
-    word: 'επιστρέφω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/epiˈstrefo/',
-    emoji: '↩️',
-    definitions: ['γυρίζω πίσω εκεί που ήμουν'],
-    examples: ['Επιστρέφω στο σπίτι το απόγευμα.'],
-    no_antonym: true
-  },
-  {
-    word: 'καλώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/kaˈlo/',
-    emoji: '📞',
-    definitions: ['φωνάζω ή τηλεφωνώ σε κάποιον'],
-    examples: ['Καλώ τον φίλο μου στο τηλέφωνο.'],
-    no_antonym: true
-  },
-  {
-    word: 'κερδίζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/kerˈðizo/',
-    emoji: '🏆',
-    definitions: ['βγαίνω πρώτος ή αποκτώ όφελος'],
-    examples: ['Η ομάδα μας κερδίζει τον αγώνα.'],
-    antonyms: ['χάνω']
-  },
-  {
-    word: 'κόβω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈkovo/',
-    emoji: '✂️',
-    definitions: ['διαιρώ κάτι με μαχαίρι ή ψαλίδι'],
-    examples: ['Κόβω το ψωμί στο τραπέζι.'],
-    no_antonym: true
-  },
-  {
-    word: 'κοστίζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/kosˈtizo/',
-    emoji: '🏷️',
-    definitions: ['έχω μια ορισμένη χρηματική τιμή'],
-    examples: ['Αυτό το βιβλίο κοστίζει δέκα ευρώ.'],
-    no_antonym: true
-  },
-  {
-    word: 'κρατώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/kraˈto/',
-    emoji: '🤲',
-    definitions: ['έχω στα χέρια μου και δεν αφήνω'],
-    examples: ['Κρατώ την τσάντα μου στο λεωφορείο.'],
-    no_antonym: true
-  },
-  {
-    word: 'λαμβάνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/lamˈvano/',
-    emoji: '📬',
-    definitions: ['παίρνω κάτι που μου στέλνουν'],
-    examples: ['Λαμβάνω ένα γράμμα από τον φίλο μου.'],
-    no_antonym: true
-  },
-  {
-    word: 'μεγαλώνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/meɣaˈlono/',
-    emoji: '🌱',
-    definitions: ['αυξάνω σε ηλικία ή μέγεθος'],
-    examples: ['Το παιδί μεγαλώνει πολύ γρήγορα.'],
-    no_antonym: true
-  },
-  {
-    word: 'μένω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈmeno/',
-    emoji: '🏠',
-    definitions: ['κατοικώ κάπου ή παραμένω σε ένα μέρος'],
-    examples: ['Μένω σε ένα όμορφο σπίτι στην Αθήνα.'],
-    no_antonym: true
-  },
-  {
-    word: 'μετακινούμαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/metakiˈnume/',
-    emoji: '🚌',
-    definitions: ['αλλάζω θέση ή μεταβαίνω κάπου'],
-    examples: ['Μετακινούμαι με το λεωφορείο στην πόλη.'],
-    no_antonym: true
-  },
-  {
-    word: 'μισώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/miˈso/',
-    emoji: '😡',
-    definitions: ['νιώθω έντονη απέχθεια για κάτι'],
-    examples: ['Μισώ την καθυστέρηση στο ραντεβού.'],
-    antonyms: ['αγαπάω']
-  },
-  {
-    word: 'μοιράζομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/miˈrazome/',
-    emoji: '🤝',
-    definitions: ['δίνω μέρος από κάτι σε άλλους'],
-    examples: ['Μοιράζομαι το φαγητό μου με τον φίλο μου.'],
-    no_antonym: true
-  },
-  {
-    word: 'νοικιάζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/niˈkiazo/',
-    emoji: '🔑',
-    definitions: ['παίρνω ή δίνω κάτι με ενοίκιο'],
-    examples: ['Νοικιάζουμε ένα διαμέρισμα στο κέντρο.'],
-    no_antonym: true
-  },
-  {
-    word: 'ξεκινώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ksekiˈno/',
-    emoji: '🚀',
-    definitions: ['αρχίζω μια δραστηριότητα ή διαδρομή'],
-    examples: ['Ξεκινώ τη δουλειά μου νωρίς το πρωί.'],
-    antonyms: ['τελειώνω']
-  },
-  {
-    word: 'ξεκουράζομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ksekuˈrazome/',
-    emoji: '🛋️',
-    definitions: ['αναπαύομαι μετά από κούραση'],
-    examples: ['Ξεκουράζομαι στον καναπέ το απόγευμα.'],
-    no_antonym: true
-  },
-  {
-    word: 'ξοδεύω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ksoˈðevo/',
-    emoji: '💸',
-    definitions: ['δίνω χρήματα για να αγοράσω πράγματα'],
-    examples: ['Ξοδεύω χρήματα για τα ψώνια της εβδομάδας.'],
-    antonyms: ['αποταμιεύω']
-  },
-  {
-    word: 'ξυπνάω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ksiˈpnao/',
-    emoji: '⏰',
-    definitions: ['σταματώ να κοιμάμαι'],
-    examples: ['Ξυπνάω στις επτά κάθε πρωί.'],
-    no_antonym: true
-  },
-  {
-    word: 'οργανώνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/orɣaˈnono/',
-    emoji: '📅',
-    definitions: ['βάζω πράγματα σε τάξη'],
-    examples: ['Οργανώνω το γραφείο μου πριν τη δουλειά.'],
-    no_antonym: true
-  },
-  {
-    word: 'παραγγέλνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/paraˈjelno/',
-    emoji: '🍕',
-    definitions: ['ζητώ φαγητό ή προϊόντα'],
-    examples: ['Παραγγέλνω πίτσα για το βράδυ.'],
-    no_antonym: true
-  },
-  {
-    word: 'παρευρίσκομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/pareˈvriskome/',
-    emoji: '👥',
-    definitions: ['είμαι παρών σε μια εκδήλωση'],
-    examples: ['Παρευρίσκομαι στη γιορτή του σχολείου.'],
-    no_antonym: true
-  },
-  {
-    word: 'παρουσιάζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/parusiˈazo/',
-    emoji: '🎤',
-    definitions: ['δείχνω ή εξηγώ κάτι στο κοινό'],
-    examples: ['Παρουσιάζω την εργασία μου στην τάξη.'],
-    no_antonym: true
-  },
-  {
-    word: 'πεθαίνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/peˈθeno/',
-    emoji: '🥀',
-    definitions: ['χάνω τη ζωή μου'],
-    examples: ['Τα λουλούδια πεθαίνουν χωρίς νερό.'],
-    antonyms: ['ζω']
-  },
-  {
-    word: 'περιλαμβάνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/perilamˈvano/',
-    emoji: '📦',
-    definitions: ['έχω μέσα στο περιεχόμενό μου'],
-    examples: ['Το γεύμα περιλαμβάνει σαλάτα και χυμό.'],
-    no_antonym: true
-  },
-  {
-    word: 'περνώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/perˈno/',
-    emoji: '🚶',
-    definitions: ['διασχίζω έναν τόπο ή διαθέτω χρόνο'],
-    examples: ['Περνώ όμορφα τις διακοπές μου.'],
-    no_antonym: true
-  },
-  {
-    word: 'πηδώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/piˈðo/',
-    emoji: '🦘',
-    definitions: ['αναπηδώ στον αέρα'],
-    examples: ['Το παιδί πηδάει στο γρασίδι.'],
-    no_antonym: true
-  },
-  {
-    word: 'πονώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/poˈno/',
-    emoji: '🤕',
-    definitions: ['αισθάνομαι σωματικό πόνο'],
-    examples: ['Πονάει το κεφάλι μου σήμερα.'],
-    no_antonym: true
-  },
-  {
-    word: 'προσθέτω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/prosˈθeto/',
-    emoji: '➕',
-    definitions: ['βάζω κάτι επιπλέον σε ένα σύνολο'],
-    examples: ['Προσθέτω λίγο αλάτι στο φαγητό.'],
-    no_antonym: true
-  },
-  {
-    word: 'προσκαλώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/proskaˈlo/',
-    emoji: '✉️',
-    definitions: ['ζητώ από κάποιον να έρθει σε εκδήλωση'],
-    examples: ['Προσκαλώ τους φίλους μου στο πάρτι.'],
-    no_antonym: true
-  },
-  {
-    word: 'προσπαθώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/prospaˈθo/',
-    emoji: '🎯',
-    definitions: ['κάνω προσπάθεια για να πετύχω κάτι'],
-    examples: ['Προσπαθώ να καταλάβω το μάθημα.'],
-    no_antonym: true
-  },
-  {
-    word: 'σηκώνομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/siˈkonome/',
-    emoji: '🧍',
-    definitions: ['στέκομαι όρθιος από τη θέση μου'],
-    examples: ['Σηκώνομαι νωρίς το πρωί από το κρεβάτι.'],
-    antonyms: ['κάθομαι']
-  },
-  {
-    word: 'σημαίνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/siˈmeno/',
-    emoji: '💡',
-    definitions: ['έχω μια συγκεκριμένη σημασία'],
-    examples: ['Τι σημαίνει αυτή η νέα λέξη;'],
-    no_antonym: true
-  },
-  {
-    word: 'σπάω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈspao/',
-    emoji: '💔',
-    definitions: ['κομματιάζω κάτι σκληρό'],
-    examples: ['Έσπασε το ποτήρι στο πάτωμα.'],
-    no_antonym: true
-  },
-  {
-    word: 'σπρώχνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈsproxno/',
-    emoji: '👐',
-    definitions: ['ασκώ πίεση για να μετακινήσω κάτι'],
-    examples: ['Σπρώχνω την πόρτα για να ανοίξει.'],
-    antonyms: ['τραβώ']
-  },
-  {
-    word: 'στέλνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈstelno/',
-    emoji: '✉️',
-    definitions: ['διαβιβάζω κάτι σε άλλον'],
-    examples: ['Στέλνω ένα μήνυμα στον φίλο μου.'],
-    antonyms: ['λαμβάνω']
-  },
-  {
-    word: 'στρίβω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈstrivo/',
-    emoji: '↪️',
-    definitions: ['αλλάζω κατεύθυνση καθώς κινούμαι'],
-    examples: ['Στρίβω δεξιά στον επόμενο δρόμο.'],
-    no_antonym: true
-  },
-  {
-    word: 'συμβαίνει',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/simˈveni/',
-    emoji: '⚡',
-    definitions: ['λαμβάνει χώρα ένα γεγονός'],
-    examples: ['Τι συμβαίνει εκεί έξω;'],
-    no_antonym: true
-  },
-  {
-    word: 'συμφωνώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/simfoˈno/',
-    emoji: '🤝',
-    definitions: ['έχω την ίδια γνώμη με κάποιον'],
-    examples: ['Συμφωνώ απόλυτα με την πρότασή σου.'],
-    no_antonym: true
-  },
-  {
-    word: 'συναντώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/sinanˈto/',
-    emoji: '👥',
-    definitions: ['βλέπω κάποιον σε ορισμένο μέρος'],
-    examples: ['Συναντώ τους φίλους μου στο πάρκο.'],
-    no_antonym: true
-  },
-  {
-    word: 'συνεχίζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/sineˈxizo/',
-    emoji: '▶️',
-    definitions: ['δεν σταματώ μια δραστηριότητα'],
-    examples: ['Συνεχίζω το διάβασμα μέχρι το βράδυ.'],
-    antonyms: ['σταματάω']
-  },
-  {
-    word: 'συνιστώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/siniˈsto/',
-    emoji: '👍',
-    definitions: ['προτείνω κάτι ως καλό'],
-    examples: ['Συνιστώ αυτό το εστιατόριο σε όλους.'],
-    no_antonym: true
-  },
-  {
-    word: 'συστήνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/siˈstino/',
-    emoji: '🤝',
-    definitions: ['γνωρίζω κάποιον σε άλλον'],
-    examples: ['Συστήνω τον νέο συνάδελφο στην ομάδα.'],
-    no_antonym: true
-  },
-  {
-    word: 'σχεδιάζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/sxeðiˈazo/',
-    emoji: '✏️',
-    definitions: ['κάνω σχέδιο ή προγραμματίζω κάτι'],
-    examples: ['Σχεδιάζω το ταξίδι μου για το καλοκαίρι.'],
-    no_antonym: true
-  },
-  {
-    word: 'ταξιδεύω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/taksiˈðevo/',
-    emoji: '✈️',
-    definitions: ['μεταβαίνω σε μακρινούς τόπους'],
-    examples: ['Ταξιδεύω στην Ελλάδα κάθε καλοκαίρι.'],
-    no_antonym: true
-  },
-  {
-    word: 'τραβώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/traˈvo/',
-    emoji: '🧲',
-    definitions: ['ασκώ δύναμη για να φέρω κάτι κοντά'],
-    examples: ['Τραβώ την καρέκλα κοντά στο τραπέζι.'],
-    antonyms: ['σπρώχνω']
-  },
-  {
-    word: 'φαίνομαι',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈfenome/',
-    emoji: '👀',
-    definitions: ['δίνω την εντύπωση ότι είμαι κάτι'],
-    examples: ['Φαίνεται πολύ χαρούμενος σήμερα.'],
-    no_antonym: true
-  },
-  {
-    word: 'φοράω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/foˈrao/',
-    emoji: '👕',
-    definitions: ['έχω πάνω μου ρούχα'],
-    examples: ['Φοράω ζεστό παλτό το χειμώνα.'],
-    no_antonym: true
-  },
-  {
-    word: 'φτιάχνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈftiaxno/',
-    emoji: '🛠️',
-    definitions: ['κατασκευάζω ή ετοιμάζω κάτι'],
-    examples: ['Φτιάχνω έναν ζεστό καφέ το πρωί.'],
-    no_antonym: true
-  },
-  {
-    word: 'χαλαρώνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/xalaˈrono/',
-    emoji: '🧘',
-    definitions: ['διώχνω την ένταση και ηρεμώ'],
-    examples: ['Χαλαρώνω στο σπίτι ακούγοντας μουσική.'],
-    no_antonym: true
-  },
-  {
-    word: 'χαμογελώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/xamojoˈlo/',
-    emoji: '😊',
-    definitions: ['σχηματίζω χαμόγελο στο πρόσωπο'],
-    examples: ['Χαμογελάει όταν βλέπει τους φίλους του.'],
-    no_antonym: true
-  },
-  {
-    word: 'χάνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈxano/',
-    emoji: '🔍',
-    definitions: ['δεν έχω πια κάτι στην κατοχή μου'],
-    examples: ['Έχασα τα κλειδιά μου στο πάρκο.'],
-    antonyms: ['βρίσκω']
-  },
-  {
-    word: 'χρεώνω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/xreˈono/',
-    emoji: '💳',
-    definitions: ['ζητώ πληρωμή για μια υπηρεσία'],
-    examples: ['Το ξενοδοχείο χρεώνει τη διαμονή.'],
-    no_antonym: true
-  },
-  {
-    word: 'χρησιμοποιώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/xrisimopiˈo/',
-    emoji: '🛠️',
-    definitions: ['κάνω χρήση ενός αντικειμένου'],
-    examples: ['Χρησιμοποιώ τον υπολογιστή στη δουλειά.'],
-    no_antonym: true
-  },
-  {
-    word: 'χρωστώ',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/xrosˈto/',
-    emoji: '💸',
-    definitions: ['οφείλω χρήματα σε κάποιον'],
-    examples: ['Χρωστάω δέκα ευρώ στον φίλο μου.'],
-    no_antonym: true
-  },
-  {
-    word: 'χτίζω',
-    theme: 'daily_verbs.json',
-    form: 'verb',
-    transcription: '/ˈxtizo/',
-    emoji: '🏗️',
-    definitions: ['κατασκευάζω ένα κτίριο'],
-    examples: ['Χτίζουν ένα νέο σπίτι στη γειτονιά.'],
-    no_antonym: true
-  }
+  { word: 'ακολουθώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/akoluˈθo/', emoji: '🚶‍♂️', definitions: ['πηγαίνω πίσω από κάποιον'], examples: ['Ακολουθώ τον οδηγό στο δρόμο.'], no_antonym: true },
+  { word: 'ακυρώνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/akiˈrono/', emoji: '❌', definitions: ['ματαιώνω μια προγραμματισμένη ενέργεια'], examples: ['Πρέπει να ακυρώσω τη σημερινή συνάντηση.'], no_antonym: true },
+  { word: 'αναρρώνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/anaˈrono/', emoji: '🩹', definitions: ['ξαναβρίσκω την υγεία μου μετά από αρρώστια'], examples: ['Ο ασθενής αναρρώνει γρήγορα στο σπίτι.'], no_antonym: true },
+  { word: 'ανήκω', theme: 'daily_verbs.json', form: 'verb', transcription: '/aˈniko/', emoji: '🧩', definitions: ['είμαι ιδιοκτησία ή μέρος κάποιου σύνολου'], examples: ['Αυτό το βιβλίο ανήκει στη βιβλιοθήκη.'], no_antonym: true },
+  { word: 'απολαμβάνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/apolamˈvano/', emoji: '😌', definitions: ['νιώθω μεγάλη ευχαρίστηση από κάτι'], examples: ['Απολαμβάνω τον καφέ μου το πρωί.'], no_antonym: true },
+  { word: 'αποταμιεύω', theme: 'daily_verbs.json', form: 'verb', transcription: '/apotamiˈevo/', emoji: '🏦', definitions: ['μαζεύω και φυλάω χρήματα'], examples: ['Αποταμιεύω χρήματα για το ταξίδι.'], no_antonym: true },
+  { word: 'αποφασίζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/apofaˈsizo/', emoji: '🤔', definitions: ['παίρνω μια απόφαση για κάτι'], examples: ['Αποφασίζω να μάθω μια νέα γλώσσα.'], no_antonym: true },
+  { word: 'βάζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈvazo/', emoji: '📥', definitions: ['τοποθετώ κάτι σε ένα μέρος'], examples: ['Βάζω το βιβλίο πάνω στο τραπέζι.'], antonyms: ['βγάζω'] },
+  { word: 'γίνομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈjinome/', emoji: '🌱', definitions: ['μεταβάλλομαι σε κάτι άλλο'], examples: ['Θέλει να γίνει γιατρός όταν μεγαλώσει.'], no_antonym: true },
+  { word: 'γιορτάζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/jorˈtazo/', emoji: '🎉', definitions: ['κάνω γιορτή για μια χαρούμενη μέρα'], examples: ['Γιορτάζουμε τα γενέθλιά μου σήμερα.'], no_antonym: true },
+  { word: 'γυμνάζομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/jimˈnazome/', emoji: '🤸', definitions: ['κάνω ασκήσεις για το σώμα'], examples: ['Γυμνάζομαι στο γυμναστήριο τρεις φορές.'], no_antonym: true },
+  { word: 'δείχνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈðixno/', emoji: '👉', definitions: ['φανερώνω κάτι με το χέρι ή το βλέμμα'], examples: ['Δείχνω τον δρόμο στον τουρίστα.'], no_antonym: true },
+  { word: 'διαχειρίζομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/ðiaxeriˈzome/', emoji: '📊', definitions: ['διοικώ ή κατευθύνω μια υπόθεση'], examples: ['Διαχειρίζομαι το χρόνο μου προσεκτικά.'], no_antonym: true },
+  { word: 'ελέγχω', theme: 'daily_verbs.json', form: 'verb', transcription: '/eˈleŋxo/', emoji: '🔍', definitions: ['εξετάζω αν κάτι είναι σωστό'], examples: ['Ελέγχω τις ασκήσεις μου πριν τις παραδώσω.'], no_antonym: true },
+  { word: 'ελπίζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/elˈpizo/', emoji: '🤞', definitions: ['προσδοκώ κάτι καλό στο μέλλον'], examples: ['Ελπίζω να κάνει καλό καιρό αύριο.'], no_antonym: true },
+  { word: 'εξηγώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/eksiˈɣo/', emoji: '🗣️', definitions: ['κάνω κάτι σαφές και κατανοητό'], examples: ['Ο δάσκαλος εξηγεί τον νέο κανόνα.'], no_antonym: true },
+  { word: 'επαναλαμβάνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/epanalamˈvano/', emoji: '🔁', definitions: ['λέω ή κάνω κάτι ξανά'], examples: ['Επαναλαμβάνω τη λέξη για να τη μάθω.'], no_antonym: true },
+  { word: 'επιλέγω', theme: 'daily_verbs.json', form: 'verb', transcription: '/epiˈleɣo/', emoji: '☑️', definitions: ['διαλέγω ανάμεσα σε περισσότερα'], examples: ['Επιλέγω το κόκκινο μπλουζάκι.'], no_antonym: true },
+  { word: 'επισκέπτομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/epiˈskeptome/', emoji: '🏛️', definitions: ['πηγαίνω να δω κάποιον ή ένα μέρος'], examples: ['Επισκέπτομαι το μουσείο την Κυριακή.'], no_antonym: true },
+  { word: 'επισκευάζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/episkeiˈazo/', emoji: '🛠️', definitions: ['διορθώνω κάτι που είναι χαλασμένο'], examples: ['Επισκευάζω το ποδήλατό μου στον κήπο.'], no_antonym: true },
+  { word: 'επιστρέφω', theme: 'daily_verbs.json', form: 'verb', transcription: '/epiˈstrefo/', emoji: '↩️', definitions: ['γυρίζω πίσω εκεί που ήμουν'], examples: ['Επιστρέφω στο σπίτι το απόγευμα.'], no_antonym: true },
+  { word: 'καλώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/kaˈlo/', emoji: '📞', definitions: ['φωνάζω ή τηλεφωνώ σε κάποιον'], examples: ['Καλώ τον φίλο μου στο τηλέφωνο.'], no_antonym: true },
+  { word: 'κερδίζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/kerˈðizo/', emoji: '🏆', definitions: ['βγαίνω πρώτος ή αποκτώ όφελος'], examples: ['Η ομάδα μας κερδίζει τον αγώνα.'], antonyms: ['χάνω'] },
+  { word: 'κόβω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈkovo/', emoji: '✂️', definitions: ['διαιρώ κάτι με μαχαίρι ή ψαλίδι'], examples: ['Κόβω το ψωμί στο τραπέζι.'], no_antonym: true },
+  { word: 'κοστίζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/kosˈtizo/', emoji: '🏷️', definitions: ['έχω μια ορισμένη χρηματική τιμή'], examples: ['Αυτό το βιβλίο κοστίζει δέκα ευρώ.'], no_antonym: true },
+  { word: 'κρατώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/kraˈto/', emoji: '🤲', definitions: ['έχω στα χέρια μου και δεν αφήνω'], examples: ['Κρατώ την τσάντα μου στο λεωφορείο.'], no_antonym: true },
+  { word: 'λαμβάνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/lamˈvano/', emoji: '📬', definitions: ['παίρνω κάτι που μου στέλνουν'], examples: ['Λαμβάνω ένα γράμμα από τον φίλο μου.'], no_antonym: true },
+  { word: 'μεγαλώνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/meɣaˈlono/', emoji: '🌱', definitions: ['αυξάνω σε ηλικία ή μέγεθος'], examples: ['Το παιδί μεγαλώνει πολύ γρήγορα.'], no_antonym: true },
+  { word: 'μένω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈmeno/', emoji: '🏠', definitions: ['κατοικώ κάπου ή παραμένω σε ένα μέρος'], examples: ['Μένω σε ένα όμορφο σπίτι στην Αθήνα.'], no_antonym: true },
+  { word: 'μετακινούμαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/metakiˈnume/', emoji: '🚌', definitions: ['αλλάζω θέση ή μεταβαίνω κάπου'], examples: ['Μετακινούμαι με το λεωφορείο στην πόλη.'], no_antonym: true },
+  { word: 'μισώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/miˈso/', emoji: '😡', definitions: ['νιώθω έντονη απέχθεια για κάτι'], examples: ['Μισώ την καθυστέρηση στο ραντεβού.'], antonyms: ['αγαπάω'] },
+  { word: 'μοιράζομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/miˈrazome/', emoji: '🤝', definitions: ['δίνω μέρος από κάτι σε άλλους'], examples: ['Μοιράζομαι το φαγητό μου με τον φίλο μου.'], no_antonym: true },
+  { word: 'νοικιάζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/niˈkiazo/', emoji: '🔑', definitions: ['παίρνω ή δίνω κάτι με ενοίκιο'], examples: ['Νοικιάζουμε ένα διαμέρισμα στο κέντρο.'], no_antonym: true },
+  { word: 'ξεκινώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/ksekiˈno/', emoji: '🚀', definitions: ['αρχίζω μια δραστηριότητα ή διαδρομή'], examples: ['Ξεκινώ τη δουλειά μου νωρίς το πρωί.'], antonyms: ['τελειώνω'] },
+  { word: 'ξεκουράζομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/ksekuˈrazome/', emoji: '🛋️', definitions: ['αναπαύομαι μετά από κούραση'], examples: ['Ξεκουράζομαι στον καναπέ το απόγευμα.'], no_antonym: true },
+  { word: 'ξοδεύω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ksoˈðevo/', emoji: '💸', definitions: ['δίνω χρήματα για να αγοράσω πράγματα'], examples: ['Ξοδεύω χρήματα για τα ψώνια της εβδομάδας.'], antonyms: ['αποταμιεύω'] },
+  { word: 'ξυπνάω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ksiˈpnao/', emoji: '⏰', definitions: ['σταματώ να κοιμάμαι'], examples: ['Ξυπνάω στις επτά κάθε πρωί.'], no_antonym: true },
+  { word: 'οργανώνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/orɣaˈnono/', emoji: '📅', definitions: ['βάζω πράγματα σε τάξη'], examples: ['Οργανώνω το γραφείο μου πριν τη δουλειά.'], no_antonym: true },
+  { word: 'παραγγέλνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/paraˈjelno/', emoji: '🍕', definitions: ['ζητώ φαγητό ή προϊόντα'], examples: ['Παραγγέλνω πίτσα για το βράδυ.'], no_antonym: true },
+  { word: 'παρευρίσκομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/pareˈvriskome/', emoji: '👥', definitions: ['είμαι παρών σε μια εκδήλωση'], examples: ['Παρευρίσκομαι στη γιορτή του σχολείου.'], no_antonym: true },
+  { word: 'παρουσιάζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/parusiˈazo/', emoji: '🎤', definitions: ['δείχνω ή εξηγώ κάτι στο κοινό'], examples: ['Παρουσιάζω την εργασία μου στην τάξη.'], no_antonym: true },
+  { word: 'πεθαίνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/peˈθeno/', emoji: '🥀', definitions: ['χάνω τη ζωή μου'], examples: ['Τα λουλούδια πεθαίνουν χωρίς νερό.'], antonyms: ['ζω'] },
+  { word: 'περιλαμβάνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/perilamˈvano/', emoji: '📦', definitions: ['έχω μέσα στο περιεχόμενό μου'], examples: ['Το γεύμα περιλαμβάνει σαλάτα και χυμό.'], no_antonym: true },
+  { word: 'περνώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/perˈno/', emoji: '🚶', definitions: ['διασχίζω έναν τόπο ή διαθέτω χρόνο'], examples: ['Περνώ όμορφα τις διακοπές μου.'], no_antonym: true },
+  { word: 'πηδώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/piˈðo/', emoji: '🦘', definitions: ['αναπηδώ στον αέρα'], examples: ['Το παιδί πηδάει στο γρασίδι.'], no_antonym: true },
+  { word: 'πονώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/poˈno/', emoji: '🤕', definitions: ['αισθάνομαι σωματικό πόνο'], examples: ['Πονάει το κεφάλι μου σήμερα.'], no_antonym: true },
+  { word: 'προσθέτω', theme: 'daily_verbs.json', form: 'verb', transcription: '/prosˈθeto/', emoji: '➕', definitions: ['βάζω κάτι επιπλέον σε ένα σύνολο'], examples: ['Προσθέτω λίγο αλάτι στο φαγητό.'], no_antonym: true },
+  { word: 'προσκαλώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/proskaˈlo/', emoji: '✉️', definitions: ['ζητώ από κάποιον να έρθει σε εκδήλωση'], examples: ['Προσκαλώ τους φίλους μου στο πάρτι.'], no_antonym: true },
+  { word: 'προσπαθώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/prospaˈθo/', emoji: '🎯', definitions: ['κάνω προσπάθεια για να πετύχω κάτι'], examples: ['Προσπαθώ να καταλάβω το μάθημα.'], no_antonym: true },
+  { word: 'σηκώνομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/siˈkonome/', emoji: '🧍', definitions: ['στέκομαι όρθιος από τη θέση μου'], examples: ['Σηκώνομαι νωρίς το πρωί από το κρεβάτι.'], antonyms: ['κάθομαι'] },
+  { word: 'σημαίνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/siˈmeno/', emoji: '💡', definitions: ['έχω μια συγκεκριμένη σημασία'], examples: ['Τι σημαίνει αυτή η νέα λέξη;'], no_antonym: true },
+  { word: 'σπάω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈspao/', emoji: '💔', definitions: ['κομματιάζω κάτι σκληρό'], examples: ['Έσπασε το ποτήρι στο πάτωμα.'], no_antonym: true },
+  { word: 'σπρώχνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈsproxno/', emoji: '👐', definitions: ['ασκώ πίεση για να μετακινήσω κάτι'], examples: ['Σπρώχνω την πόρτα για να ανοίξει.'], antonyms: ['τραβώ'] },
+  { word: 'στέλνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈstelno/', emoji: '✉️', definitions: ['διαβιβάζω κάτι σε άλλον'], examples: ['Στέλνω ένα μήνυμα στον φίλο μου.'], antonyms: ['λαμβάνω'] },
+  { word: 'στρίβω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈstrivo/', emoji: '↪️', definitions: ['αλλάζω κατεύθυνση καθώς κινούμαι'], examples: ['Στρίβω δεξιά στον επόμενο δρόμο.'], no_antonym: true },
+  { word: 'συμβαίνει', theme: 'daily_verbs.json', form: 'verb', transcription: '/simˈveni/', emoji: '⚡', definitions: ['λαμβάνει χώρα ένα γεγονός'], examples: ['Τι συμβαίνει εκεί έξω;'], no_antonym: true },
+  { word: 'συμφωνώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/simfoˈno/', emoji: '🤝', definitions: ['έχω την ίδια γνώμη με κάποιον'], examples: ['Συμφωνώ απόλυτα με την πρότασή σου.'], no_antonym: true },
+  { word: 'συναντώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/sinanˈto/', emoji: '👥', definitions: ['βλέπω κάποιον σε ορισμένο μέρος'], examples: ['Συναντώ τους φίλους μου στο πάρκο.'], no_antonym: true },
+  { word: 'συνεχίζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/sineˈxizo/', emoji: '▶️', definitions: ['δεν σταματώ μια δραστηριότητα'], examples: ['Συνεχίζω το διάβασμα μέχρι το βράδυ.'], antonyms: ['σταματάω'] },
+  { word: 'συνιστώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/siniˈsto/', emoji: '👍', definitions: ['προτείνω κάτι ως καλό'], examples: ['Συνιστώ αυτό το εστιατόριο σε όλους.'], no_antonym: true },
+  { word: 'συστήνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/siˈstino/', emoji: '🤝', definitions: ['γνωρίζω κάποιον σε άλλον'], examples: ['Συστήνω τον νέο συνάδελφο στην ομάδα.'], no_antonym: true },
+  { word: 'σχεδιάζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/sxeðiˈazo/', emoji: '✏️', definitions: ['κάνω σχέδιο ή προγραμματίζω κάτι'], examples: ['Σχεδιάζω το ταξίδι μου για το καλοκαίρι.'], no_antonym: true },
+  { word: 'ταξιδεύω', theme: 'daily_verbs.json', form: 'verb', transcription: '/taksiˈðevo/', emoji: '✈️', definitions: ['μεταβαίνω σε μακρινούς τόπους'], examples: ['Ταξιδεύω στην Ελλάδα κάθε καλοκαίρι.'], no_antonym: true },
+  { word: 'τραβώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/traˈvo/', emoji: '🧲', definitions: ['ασκώ δύναμη για να φέρω κάτι κοντά'], examples: ['Τραβώ την καρέκλα κοντά στο τραπέζι.'], antonyms: ['σπρώχνω'] },
+  { word: 'φαίνομαι', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈfenome/', emoji: '👀', definitions: ['δίνω την εντύπωση ότι είμαι κάτι'], examples: ['Φαίνεται πολύ χαρούμενος σήμερα.'], no_antonym: true },
+  { word: 'φοράω', theme: 'daily_verbs.json', form: 'verb', transcription: '/foˈrao/', emoji: '👕', definitions: ['έχω πάνω μου ρούχα'], examples: ['Φοράω ζεστό παλτό το χειμώνα.'], no_antonym: true },
+  { word: 'φτιάχνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈftiaxno/', emoji: '🛠️', definitions: ['κατασκευάζω ή ετοιμάζω κάτι'], examples: ['Φτιάχνω έναν ζεστό καφέ το πρωί.'], no_antonym: true },
+  { word: 'χαλαρώνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/xalaˈrono/', emoji: '🧘', definitions: ['διώχνω την ένταση και ηρεμώ'], examples: ['Χαλαρώνω στο σπίτι ακούγοντας μουσική.'], no_antonym: true },
+  { word: 'χαμογελώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/xamojoˈlo/', emoji: '😊', definitions: ['σχηματίζω χαμόγελο στο πρόσωπο'], examples: ['Χαμογελάει όταν βλέπει τους φίλους του.'], no_antonym: true },
+  { word: 'χάνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈxano/', emoji: '🔍', definitions: ['δεν έχω πια κάτι στην κατοχή μου'], examples: ['Έχασα τα κλειδιά μου στο πάρκο.'], antonyms: ['βρίσκω'] },
+  { word: 'χρεώνω', theme: 'daily_verbs.json', form: 'verb', transcription: '/xreˈono/', emoji: '💳', definitions: ['ζητώ πληρωμή για μια υπηρεσία'], examples: ['Το ξενοδοχείο χρεώνει τη διαμονή.'], no_antonym: true },
+  { word: 'χρησιμοποιώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/xrisimopiˈo/', emoji: '🛠️', definitions: ['κάνω χρήση ενός αντικειμένου'], examples: ['Χρησιμοποιώ τον υπολογιστή στη δουλειά.'], no_antonym: true },
+  { word: 'χρωστώ', theme: 'daily_verbs.json', form: 'verb', transcription: '/xrosˈto/', emoji: '💸', definitions: ['οφείλω χρήματα σε κάποιον'], examples: ['Χρωστάω δέκα ευρώ στον φίλο μου.'], no_antonym: true },
+  { word: 'χτίζω', theme: 'daily_verbs.json', form: 'verb', transcription: '/ˈxtizo/', emoji: '🏗️', definitions: ['κατασκευάζω ένα κτίριο'], examples: ['Χτίζουν ένα νέο σπίτι στη γειτονιά.'], no_antonym: true }
 ];
 
 function runMigration() {
-  console.log(`Starting migration of ${entriesToMigrate.length} qualifying Greek gap entries...`);
+  console.log(`Starting migration of Greek gap entries...`);
 
-  // Collect ALL existing IDs across ALL Greek levels (a0_a1 and a2)
+  const targetDir = path.join(cosyDataDir, 'vocabulary', 'el', 'a0_a1');
   const allExistingIds = new Set();
-  const subdirs = fs.readdirSync(elDir).filter(d => fs.statSync(path.join(elDir, d)).isDirectory());
+  const subdirs = fs.readdirSync(path.join(cosyDataDir, 'vocabulary', 'el')).filter(d => fs.statSync(path.join(cosyDataDir, 'vocabulary', 'el', d)).isDirectory());
   subdirs.forEach(subdir => {
-    const levelDir = path.join(elDir, subdir);
+    const levelDir = path.join(cosyDataDir, 'vocabulary', 'el', subdir);
     const files = fs.readdirSync(levelDir).filter(f => f.endsWith('.json') && f !== 'index.json' && f !== 'flat-index.json');
     files.forEach(f => {
       const content = JSON.parse(fs.readFileSync(path.join(levelDir, f), 'utf8'));
@@ -1735,12 +1069,10 @@ function runMigration() {
     });
   });
 
-  console.log(`Total existing IDs across all Greek levels before migration: ${allExistingIds.size}`);
-
   const themeFilesMap = {};
-  const a0a1Files = fs.readdirSync(targetA0A1Dir).filter(f => f.endsWith('.json') && f !== 'index.json' && f !== 'flat-index.json');
+  const a0a1Files = fs.readdirSync(targetDir).filter(f => f.endsWith('.json') && f !== 'index.json' && f !== 'flat-index.json');
   a0a1Files.forEach(f => {
-    themeFilesMap[f] = JSON.parse(fs.readFileSync(path.join(targetA0A1Dir, f), 'utf8'));
+    themeFilesMap[f] = JSON.parse(fs.readFileSync(path.join(targetDir, f), 'utf8'));
   });
 
   let addedCount = 0;
@@ -1775,19 +1107,12 @@ function runMigration() {
       updated: '2025-01-15'
     };
 
-    if (item.emoji) {
-      entry.emoji = item.emoji;
-    } else {
-      entry.no_emoji = true;
-    }
+    if (item.emoji) entry.emoji = item.emoji;
+    else entry.no_emoji = true;
 
-    if (item.antonyms && item.antonyms.length > 0) {
-      entry.antonyms = item.antonyms;
-    } else {
-      entry.no_antonym = true;
-    }
+    if (item.antonyms && item.antonyms.length > 0) entry.antonyms = item.antonyms;
+    else entry.no_antonym = true;
 
-    // Noun fields
     if (form === 'noun') {
       entry.gender = item.gender;
       entry.article = item.article;
@@ -1797,21 +1122,17 @@ function runMigration() {
       }
     }
 
-    if (!themeFilesMap[themeFile]) {
-      themeFilesMap[themeFile] = [];
-    }
-
+    if (!themeFilesMap[themeFile]) themeFilesMap[themeFile] = [];
     themeFilesMap[themeFile].push(entry);
     addedCount++;
   });
 
-  // Write updated JSON files
   for (const [f, content] of Object.entries(themeFilesMap)) {
-    const filePath = path.join(targetA0A1Dir, f);
+    const filePath = path.join(targetDir, f);
     fs.writeFileSync(filePath, JSON.stringify(content, null, 2) + '\n', 'utf8');
   }
 
-  console.log(`Successfully migrated ${addedCount} entries! Total Greek A0/A1 entries now: ${addedCount + 516}`);
+  console.log(`Successfully migrated ${addedCount} Greek entries!`);
 }
 
 runMigration();

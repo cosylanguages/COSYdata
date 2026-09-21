@@ -57,7 +57,7 @@ The remaining 161 words were converted and added to `COSYdata/vocabulary/el/a0_a
 - Canonical ID convention: `el:<slug>:<pos>`
 - Monolingual Greek definitions written in CEFR A1-calibrated vocabulary.
 - Individualized 6–10 word example sentences containing the headword naturally.
-- Valid IPA IPA transcriptions (`transcription`).
+- Valid IPA transcriptions (`transcription`).
 - Complete noun grammatical metadata (`gender`, `article`, `countability`, `plural_form` for countable nouns, and `countability: "invariable"` without plural forms for proper nouns).
 
 <details>
