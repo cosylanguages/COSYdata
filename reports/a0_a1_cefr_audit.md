@@ -33,9 +33,9 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **Bashkir (`ba`)** | 379 | 379 | 10 | 0 | 2.6% | ✅ **Compliant / Annotated** |
 | **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
 | **Chuvash (`cv`)** | 132 | 132 | 37 | 0 | 28.0% | ⚠️ **Methodology Warning (>15%)** |
-| **Armenian (`hy`)** | 391 | 391 | 19 | 0 | 4.9% | ✅ **Compliant / Annotated** |
-| **Georgian (`ka`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
-| **Tatar (`tt`)** | 377 | 377 | 19 | 0 | 5.0% | ✅ **Compliant / Annotated** |
+| **Armenian (`hy`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
+| **Georgian (`ka`)** | 387 | 387 | 19 | 0 | 4.9% | ✅ **Compliant / Annotated** |
+| **Tatar (`tt`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 
 ---
 
@@ -350,9 +350,10 @@ Given the absence of an official EU CEFR certifying body for Armenian, vocabular
 ### 13. Georgian (`vocabulary/ka/a0_a1/`)
 
 - **Primary Reference Source**: **National Center for Educational Quality Enhancement & Center for Assessment and Examinations (Georgian as a Foreign Language A1 Standard)**.
-- **Total Entries Audited**: 61
-- **Verified A0/A1 Compliant**: 61 (100.0%)
-- **Multi-Level Flagged**: 19 (31.1%)
+- **Total Entries Audited**: 387
+- **Verified A0/A1 Compliant**: 387 (100.0%)
+- **Multi-Level Flagged**: 19 (4.9%)
+- **Audit Findings**: All 387 Georgian entries in `vocabulary/ka/a0_a1/` (61 baseline + 326 migrated gap items) align with the National Center for Educational Quality Enhancement & Center for Assessment and Examinations A1 Standard for Georgian as a Foreign Language (*ქართული ენა როგორც უცხოური ენა A1*). All entries are fully compliant.
 
 #### Multi-Level Entries Flagged against Georgian GFL A1 Standard
 
