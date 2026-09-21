@@ -2,7 +2,22 @@ const fs = require('fs');
 const path = require('path');
 
 const dir = 'vocabulary/en';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== 'index.json').sort();
+
+function findJsonFiles(d) {
+  let results = [];
+  fs.readdirSync(d).forEach(file => {
+    const full = path.join(d, file);
+    if (fs.statSync(full).isDirectory()) {
+      results = results.concat(findJsonFiles(full));
+    } else if (file.endsWith('.json') && file !== 'index.json' && file !== 'flat-index.json') {
+      results.push(full);
+    }
+  });
+  return results;
+}
+
+const filePaths = findJsonFiles(dir).sort();
+const files = filePaths.map(fp => path.relative(dir, fp).replace(/\\/g, '/'));
 
 let totalEntries = 0;
 const idMap = {};
@@ -22,10 +37,10 @@ function isTemplated(def0, ex0) {
 
 const fileDetails = [];
 
-files.forEach(file => {
-  const filePath = path.join(dir, file);
+filePaths.forEach(filePath => {
+  const file = path.relative(dir, filePath).replace(/\\/g, '/');
   const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  const baseName = file.replace('.json', '');
+  const baseName = path.basename(file, '.json');
 
   templatedEntriesByFileLevel[file] = { A0: 0, A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0, total: 0, fileTotal: content.length };
 
