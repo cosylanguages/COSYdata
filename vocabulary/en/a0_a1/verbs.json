@@ -19,7 +19,12 @@
     ],
     "transcription": "/kʊk/",
     "no_antonym": true,
-    "emoji": "🍳"
+    "emoji": "🍳",
+    "past_tense": "cooked",
+    "past_participle": "cooked",
+    "present_participle": "cooking",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:pay:verb",
@@ -41,7 +46,18 @@
     ],
     "transcription": "/peɪ/",
     "no_antonym": true,
-    "emoji": "💳"
+    "emoji": "💳",
+    "past_tense": "paid",
+    "past_participle": "paid",
+    "present_participle": "paying",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "for",
+        "example": "I pay for the meal."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:break:verb",
@@ -71,7 +87,12 @@
     "antonyms": [
       "fix",
       "repair"
-    ]
+    ],
+    "past_tense": "broke",
+    "past_participle": "broken",
+    "present_participle": "breaking",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:get:verb",
@@ -100,7 +121,12 @@
     "emoji": "🤲",
     "antonyms": [
       "give"
-    ]
+    ],
+    "past_tense": "got",
+    "past_participle": "gotten",
+    "present_participle": "getting",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:give:verb",
@@ -130,7 +156,12 @@
     "antonyms": [
       "take",
       "get"
-    ]
+    ],
+    "past_tense": "gave",
+    "past_participle": "given",
+    "present_participle": "giving",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:keep:verb",
@@ -160,7 +191,12 @@
     "antonyms": [
       "give away",
       "discard"
-    ]
+    ],
+    "past_tense": "kept",
+    "past_participle": "kept",
+    "present_participle": "keeping",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:make:verb",
@@ -185,7 +221,12 @@
     "antonyms": [
       "destroy",
       "unmake"
-    ]
+    ],
+    "past_tense": "made",
+    "past_participle": "made",
+    "present_participle": "making",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:learn:verb",
@@ -212,7 +253,12 @@
     ],
     "transcription_variants": {
       "us": "/lɝːn/"
-    }
+    },
+    "past_tense": "learned",
+    "past_participle": "learned",
+    "present_participle": "learning",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:see:verb",
@@ -234,7 +280,12 @@
     ],
     "transcription": "/siː/",
     "no_antonym": true,
-    "emoji": "👀"
+    "emoji": "👀",
+    "past_tense": "saw",
+    "past_participle": "seen",
+    "present_participle": "seeing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:speak:verb",
@@ -258,7 +309,18 @@
     "emoji": "🗣️",
     "antonyms": [
       "listen"
-    ]
+    ],
+    "past_tense": "spoke",
+    "past_participle": "spoken",
+    "present_participle": "speaking",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "I speak to my teacher."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:think:verb",
@@ -284,7 +346,18 @@
     ],
     "transcription": "/θɪŋk/",
     "no_antonym": true,
-    "emoji": "💭"
+    "emoji": "💭",
+    "past_tense": "thought",
+    "past_participle": "thought",
+    "present_participle": "thinking",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "about",
+        "example": "I think about my family."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:turn:verb",
@@ -310,7 +383,12 @@
     "emoji": "🔄",
     "transcription_variants": {
       "us": "/tɝːn/"
-    }
+    },
+    "past_tense": "turned",
+    "past_participle": "turned",
+    "present_participle": "turning",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:call:verb",
@@ -319,7 +397,7 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to speak by telephone device"
+      "to call someone on the phone"
     ],
     "examples": [
       "Call me when you arrive."
@@ -335,7 +413,12 @@
     "emoji": "📞",
     "transcription_variants": {
       "us": "/kɑːl/"
-    }
+    },
+    "past_tense": "called",
+    "past_participle": "called",
+    "present_participle": "calling",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:meet:verb",
@@ -357,7 +440,12 @@
     ],
     "transcription": "/miːt/",
     "no_antonym": true,
-    "emoji": "🤝"
+    "emoji": "🤝",
+    "past_tense": "met",
+    "past_participle": "met",
+    "present_participle": "meeting",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:move:verb",
@@ -386,7 +474,12 @@
     "antonyms": [
       "stay",
       "stop"
-    ]
+    ],
+    "past_tense": "moved",
+    "past_participle": "moved",
+    "present_participle": "moving",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:open:verb",
@@ -414,7 +507,12 @@
     "emoji": "🔓",
     "transcription_variants": {
       "us": "/ˈoʊ.pən/"
-    }
+    },
+    "past_tense": "opened",
+    "past_participle": "opened",
+    "present_participle": "opening",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:read:verb",
@@ -436,7 +534,12 @@
     ],
     "transcription": "/riːd/",
     "no_antonym": true,
-    "emoji": "📖"
+    "emoji": "📖",
+    "past_tense": "read",
+    "past_participle": "read",
+    "present_participle": "reading",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:sit:verb",
@@ -460,7 +563,18 @@
     "emoji": "🪑",
     "antonyms": [
       "stand"
-    ]
+    ],
+    "past_tense": "sat",
+    "past_participle": "sat",
+    "present_participle": "sitting",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "on",
+        "example": "Sit on the comfortable chair."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:play:verb",
@@ -484,7 +598,18 @@
     "emoji": "🎮",
     "antonyms": [
       "work"
-    ]
+    ],
+    "past_tense": "played",
+    "past_participle": "played",
+    "present_participle": "playing",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "with",
+        "example": "The kids play with toys."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:wake-up:verb",
@@ -509,7 +634,12 @@
     "emoji": "⏰",
     "antonyms": [
       "go to sleep"
-    ]
+    ],
+    "past_tense": "woke up",
+    "past_participle": "woken up",
+    "present_participle": "waking up",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:get-up:verb",
@@ -534,7 +664,12 @@
     "emoji": "🌅",
     "antonyms": [
       "go to bed"
-    ]
+    ],
+    "past_tense": "got up",
+    "past_participle": "gotten up",
+    "present_participle": "getting up",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:wake:verb",
@@ -562,7 +697,12 @@
     "emoji": "👁️",
     "antonyms": [
       "sleep"
-    ]
+    ],
+    "past_tense": "woke",
+    "past_participle": "woken",
+    "present_participle": "waking",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:look:verb",
@@ -588,7 +728,22 @@
     ],
     "transcription": "/lʊk/",
     "no_antonym": true,
-    "emoji": "👀"
+    "emoji": "👀",
+    "past_tense": "looked",
+    "past_participle": "looked",
+    "present_participle": "looking",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "at",
+        "example": "Look at the big dog."
+      },
+      {
+        "preposition": "for",
+        "example": "I look for my missing keys."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:find:verb",
@@ -616,7 +771,12 @@
     "emoji": "🔍",
     "antonyms": [
       "lose"
-    ]
+    ],
+    "past_tense": "found",
+    "past_participle": "found",
+    "present_participle": "finding",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:grow:verb",
@@ -648,7 +808,12 @@
     ],
     "transcription_variants": {
       "us": "/ɡroʊ/"
-    }
+    },
+    "past_tense": "grew",
+    "past_participle": "grown",
+    "present_participle": "growing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:stand:verb",
@@ -676,7 +841,12 @@
     "emoji": "🧍",
     "antonyms": [
       "sit"
-    ]
+    ],
+    "past_tense": "stood",
+    "past_participle": "stood",
+    "present_participle": "standing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:decide:verb",
@@ -702,7 +872,12 @@
     ],
     "transcription": "/dɪˈsaɪd/",
     "no_antonym": true,
-    "emoji": "🤔"
+    "emoji": "🤔",
+    "past_tense": "decided",
+    "past_participle": "decided",
+    "present_participle": "deciding",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:choose:verb",
@@ -728,7 +903,12 @@
     ],
     "transcription": "/tʃuːz/",
     "no_antonym": true,
-    "emoji": "👉"
+    "emoji": "👉",
+    "past_tense": "chose",
+    "past_participle": "chosen",
+    "present_participle": "choosing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:plan:verb",
@@ -750,7 +930,12 @@
     ],
     "transcription": "/plæn/",
     "no_antonym": true,
-    "emoji": "📋"
+    "emoji": "📋",
+    "past_tense": "planned",
+    "past_participle": "planned",
+    "present_participle": "planning",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:type:verb",
@@ -773,7 +958,12 @@
     "updated": "2025-01-15",
     "transcription": "/taɪp/",
     "no_antonym": true,
-    "emoji": "⌨️"
+    "emoji": "⌨️",
+    "past_tense": "typed",
+    "past_participle": "typed",
+    "present_participle": "typing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:listen:verb",
@@ -797,7 +987,18 @@
     "emoji": "👂",
     "antonyms": [
       "speak"
-    ]
+    ],
+    "past_tense": "listened",
+    "past_participle": "listened",
+    "present_participle": "listening",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "I listen to music every day."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:say:verb",
@@ -819,7 +1020,12 @@
     ],
     "transcription": "/seɪ/",
     "no_antonym": true,
-    "emoji": "💬"
+    "emoji": "💬",
+    "past_tense": "said",
+    "past_participle": "said",
+    "present_participle": "saying",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:send:verb",
@@ -843,7 +1049,18 @@
     "emoji": "📤",
     "antonyms": [
       "receive"
-    ]
+    ],
+    "past_tense": "sent",
+    "past_participle": "sent",
+    "present_participle": "sending",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "Send a letter to your friend."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:receive:verb",
@@ -871,7 +1088,12 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "past_tense": "received",
+    "past_participle": "received",
+    "present_participle": "receiving",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:cost:verb",
@@ -896,7 +1118,12 @@
     "emoji": "🏷️",
     "transcription_variants": {
       "us": "/kɑːst/"
-    }
+    },
+    "past_tense": "cost",
+    "past_participle": "cost",
+    "present_participle": "costing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:buy:verb",
@@ -920,7 +1147,12 @@
     "emoji": "🛒",
     "antonyms": [
       "sell"
-    ]
+    ],
+    "past_tense": "bought",
+    "past_participle": "bought",
+    "present_participle": "buying",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:sell:verb",
@@ -944,7 +1176,12 @@
     "emoji": "🏷️",
     "antonyms": [
       "buy"
-    ]
+    ],
+    "past_tense": "sold",
+    "past_participle": "sold",
+    "present_participle": "selling",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:stop:verb",
@@ -972,7 +1209,12 @@
     ],
     "transcription_variants": {
       "us": "/stɑːp/"
-    }
+    },
+    "past_tense": "stopped",
+    "past_participle": "stopped",
+    "present_participle": "stopping",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:travel:verb",
@@ -994,7 +1236,18 @@
     ],
     "transcription": "/ˈtræv.əl/",
     "no_antonym": true,
-    "emoji": "🧳"
+    "emoji": "🧳",
+    "past_tense": "traveled",
+    "past_participle": "traveled",
+    "present_participle": "traveling",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "They travel to Spain."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:clean:verb",
@@ -1018,7 +1271,12 @@
     "antonyms": [
       "dirty"
     ],
-    "emoji": "✨"
+    "emoji": "✨",
+    "past_tense": "cleaned",
+    "past_participle": "cleaned",
+    "present_participle": "cleaning",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:sit-down:verb",
@@ -1043,7 +1301,12 @@
     "emoji": "🪑",
     "antonyms": [
       "stand up"
-    ]
+    ],
+    "past_tense": "sat down",
+    "past_participle": "sat down",
+    "present_participle": "sitting down",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:stand-up:verb",
@@ -1068,7 +1331,12 @@
     "emoji": "🧍",
     "antonyms": [
       "sit down"
-    ]
+    ],
+    "past_tense": "stood up",
+    "past_participle": "stood up",
+    "present_participle": "standing up",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:close:verb",
@@ -1095,7 +1363,12 @@
     ],
     "transcription_variants": {
       "us": "/kloʊz/"
-    }
+    },
+    "past_tense": "closed",
+    "past_participle": "closed",
+    "present_participle": "closing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:invite:verb",
@@ -1121,7 +1394,18 @@
     ],
     "transcription": "/ɪnˈvaɪt/",
     "no_antonym": true,
-    "emoji": "💌"
+    "emoji": "💌",
+    "past_tense": "invited",
+    "past_participle": "invited",
+    "present_participle": "inviting",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "She invited me to her party."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:watch:verb",
@@ -1146,7 +1430,12 @@
     "emoji": "📺",
     "transcription_variants": {
       "us": "/wɑːtʃ/"
-    }
+    },
+    "past_tense": "watched",
+    "past_participle": "watched",
+    "present_participle": "watching",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:know:verb",
@@ -1173,7 +1462,12 @@
     ],
     "transcription_variants": {
       "us": "/noʊ/"
-    }
+    },
+    "past_tense": "knew",
+    "past_participle": "known",
+    "present_participle": "knowing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:want:verb",
@@ -1198,7 +1492,12 @@
     "emoji": "🙋",
     "transcription_variants": {
       "us": "/wɑːnt/"
-    }
+    },
+    "past_tense": "wanted",
+    "past_participle": "wanted",
+    "present_participle": "wanting",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:need:verb",
@@ -1207,7 +1506,7 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to require something essential life"
+      "to must have something for life"
     ],
     "examples": [
       "We need food every day."
@@ -1220,7 +1519,12 @@
     ],
     "transcription": "/niːd/",
     "no_antonym": true,
-    "emoji": "🆘"
+    "emoji": "🆘",
+    "past_tense": "needed",
+    "past_participle": "needed",
+    "present_participle": "needing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:love:verb",
@@ -1244,7 +1548,12 @@
     "emoji": "❤️",
     "antonyms": [
       "hate"
-    ]
+    ],
+    "past_tense": "loved",
+    "past_participle": "loved",
+    "present_participle": "loving",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:hate:verb",
@@ -1269,7 +1578,12 @@
     "antonyms": [
       "love",
       "like"
-    ]
+    ],
+    "past_tense": "hated",
+    "past_participle": "hated",
+    "present_participle": "hating",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:tell:verb",
@@ -1291,7 +1605,12 @@
     ],
     "transcription": "/tel/",
     "no_antonym": true,
-    "emoji": "💬"
+    "emoji": "💬",
+    "past_tense": "told",
+    "past_participle": "told",
+    "present_participle": "telling",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:ask:verb",
@@ -1318,7 +1637,18 @@
     ],
     "transcription_variants": {
       "us": "/æsk/"
-    }
+    },
+    "past_tense": "asked",
+    "past_participle": "asked",
+    "present_participle": "asking",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "for",
+        "example": "He asked for help."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:answer:verb",
@@ -1345,7 +1675,12 @@
     ],
     "transcription_variants": {
       "us": "/ˈæn.sɚ/"
-    }
+    },
+    "past_tense": "answered",
+    "past_participle": "answered",
+    "present_participle": "answering",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:talk:verb",
@@ -1372,7 +1707,18 @@
     ],
     "transcription_variants": {
       "us": "/tɑːk/"
-    }
+    },
+    "past_tense": "talked",
+    "past_participle": "talked",
+    "present_participle": "talking",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "She talks to her mother every evening."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:hear:verb",
@@ -1397,7 +1743,12 @@
     "emoji": "👂",
     "transcription_variants": {
       "us": "/hɪr/"
-    }
+    },
+    "past_tense": "heard",
+    "past_participle": "heard",
+    "present_participle": "hearing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:eat:verb",
@@ -1419,7 +1770,12 @@
     ],
     "transcription": "/iːt/",
     "no_antonym": true,
-    "emoji": "🍽️"
+    "emoji": "🍽️",
+    "past_tense": "ate",
+    "past_participle": "eaten",
+    "present_participle": "eating",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:drink:verb",
@@ -1428,7 +1784,7 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to swallow liquid into body"
+      "to drink water into your body"
     ],
     "examples": [
       "Drink fresh water every morning."
@@ -1441,7 +1797,12 @@
     ],
     "transcription": "/drɪŋk/",
     "no_antonym": true,
-    "emoji": "🥤"
+    "emoji": "🥤",
+    "past_tense": "drank",
+    "past_participle": "drunk",
+    "present_participle": "drinking",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:sleep:verb",
@@ -1465,7 +1826,12 @@
     "emoji": "😴",
     "antonyms": [
       "wake up"
-    ]
+    ],
+    "past_tense": "slept",
+    "past_participle": "slept",
+    "present_participle": "sleeping",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:stay:verb",
@@ -1490,7 +1856,18 @@
     "antonyms": [
       "leave",
       "go"
-    ]
+    ],
+    "past_tense": "stayed",
+    "past_participle": "stayed",
+    "present_participle": "staying",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "at",
+        "example": "We stay at a hotel."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:start:verb",
@@ -1518,7 +1895,12 @@
     ],
     "transcription_variants": {
       "us": "/stɑːrt/"
-    }
+    },
+    "past_tense": "started",
+    "past_participle": "started",
+    "present_participle": "starting",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:begin:verb",
@@ -1543,7 +1925,12 @@
     "antonyms": [
       "end",
       "finish"
-    ]
+    ],
+    "past_tense": "began",
+    "past_participle": "begun",
+    "present_participle": "beginning",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:finish:verb",
@@ -1568,7 +1955,12 @@
     "antonyms": [
       "start",
       "begin"
-    ]
+    ],
+    "past_tense": "finished",
+    "past_participle": "finished",
+    "present_participle": "finishing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:write:verb",
@@ -1590,7 +1982,18 @@
     ],
     "transcription": "/raɪt/",
     "no_antonym": true,
-    "emoji": "✍️"
+    "emoji": "✍️",
+    "past_tense": "wrote",
+    "past_participle": "written",
+    "present_participle": "writing",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "to",
+        "example": "I write to my friend."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:study:verb",
@@ -1612,7 +2015,12 @@
     ],
     "transcription": "/ˈstʌd.i/",
     "no_antonym": true,
-    "emoji": "📖"
+    "emoji": "📖",
+    "past_tense": "studied",
+    "past_participle": "studied",
+    "present_participle": "studying",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:teach:verb",
@@ -1636,7 +2044,12 @@
     "emoji": "👩‍🏫",
     "antonyms": [
       "learn"
-    ]
+    ],
+    "past_tense": "taught",
+    "past_participle": "taught",
+    "present_participle": "teaching",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:help:verb",
@@ -1660,7 +2073,12 @@
     "emoji": "🤝",
     "antonyms": [
       "hinder"
-    ]
+    ],
+    "past_tense": "helped",
+    "past_participle": "helped",
+    "present_participle": "helping",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:visit:verb",
@@ -1682,7 +2100,12 @@
     ],
     "transcription": "/ˈvɪz.ɪt/",
     "no_antonym": true,
-    "emoji": "🏖️"
+    "emoji": "🏖️",
+    "past_tense": "visited",
+    "past_participle": "visited",
+    "present_participle": "visiting",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:live:verb",
@@ -1706,7 +2129,18 @@
     "emoji": "🏠",
     "antonyms": [
       "die"
-    ]
+    ],
+    "past_tense": "lived",
+    "past_participle": "lived",
+    "present_participle": "living",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "in",
+        "example": "They live in a big city."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:wash:verb",
@@ -1731,7 +2165,12 @@
     "emoji": "🧼",
     "transcription_variants": {
       "us": "/wɑːʃ/"
-    }
+    },
+    "past_tense": "washed",
+    "past_participle": "washed",
+    "present_participle": "washing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:wait:verb",
@@ -1753,7 +2192,18 @@
     ],
     "transcription": "/weɪt/",
     "no_antonym": true,
-    "emoji": "⏱️"
+    "emoji": "⏱️",
+    "past_tense": "waited",
+    "past_participle": "waited",
+    "present_participle": "waiting",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "for",
+        "example": "I wait for the bus every morning."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:use:verb",
@@ -1775,7 +2225,12 @@
     ],
     "transcription": "/juːz/",
     "no_antonym": true,
-    "emoji": "⚙️"
+    "emoji": "⚙️",
+    "past_tense": "used",
+    "past_participle": "used",
+    "present_participle": "using",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:remember:verb",
@@ -1802,7 +2257,12 @@
     ],
     "transcription_variants": {
       "us": "/rɪˈmem.bɚ/"
-    }
+    },
+    "past_tense": "remembered",
+    "past_participle": "remembered",
+    "present_participle": "remembering",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:forget:verb",
@@ -1829,7 +2289,12 @@
     ],
     "transcription_variants": {
       "us": "/fɚˈɡet/"
-    }
+    },
+    "past_tense": "forgot",
+    "past_participle": "forgotten",
+    "present_participle": "forgetting",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:wear:verb",
@@ -1854,7 +2319,12 @@
     "emoji": "👕",
     "transcription_variants": {
       "us": "/wer/"
-    }
+    },
+    "past_tense": "wore",
+    "past_participle": "worn",
+    "present_participle": "wearing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:arrive:verb",
@@ -1880,7 +2350,22 @@
     "antonyms": [
       "leave",
       "depart"
-    ]
+    ],
+    "past_tense": "arrived",
+    "past_participle": "arrived",
+    "present_participle": "arriving",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "at",
+        "example": "We arrive at the station."
+      },
+      {
+        "preposition": "in",
+        "example": "They arrive in London today."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:leave:verb",
@@ -1906,7 +2391,18 @@
     "antonyms": [
       "arrive",
       "stay"
-    ]
+    ],
+    "past_tense": "left",
+    "past_participle": "left",
+    "present_participle": "leaving",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "for",
+        "example": "They leave for work early."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:come-back:verb",
@@ -1931,7 +2427,12 @@
     "emoji": "🔄",
     "antonyms": [
       "go away"
-    ]
+    ],
+    "past_tense": "came back",
+    "past_participle": "come back",
+    "present_participle": "coming back",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:return:verb",
@@ -1959,7 +2460,12 @@
     ],
     "transcription_variants": {
       "us": "/rɪˈtɝːn/"
-    }
+    },
+    "past_tense": "returned",
+    "past_participle": "returned",
+    "present_participle": "returning",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:enjoy:verb",
@@ -1984,7 +2490,12 @@
     "emoji": "😊",
     "antonyms": [
       "dislike"
-    ]
+    ],
+    "past_tense": "enjoyed",
+    "past_participle": "enjoyed",
+    "present_participle": "enjoying",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:continue:verb",
@@ -2014,7 +2525,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "continued",
+    "past_participle": "continued",
+    "present_participle": "continuing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:turn-on:verb",
@@ -2023,7 +2539,7 @@
     "form": "verb",
     "level": "A0",
     "definitions": [
-      "to start light or device"
+      "to turn on a light or radio"
     ],
     "examples": [
       "Turn on the reading lamp."
@@ -2042,7 +2558,12 @@
     ],
     "transcription_variants": {
       "us": "/tɝːn ɑːn/"
-    }
+    },
+    "past_tense": "turned on",
+    "past_participle": "turned on",
+    "present_participle": "turning on",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:turn-off:verb",
@@ -2051,7 +2572,7 @@
     "form": "verb",
     "level": "A0",
     "definitions": [
-      "to stop light or device"
+      "to turn off a light or radio"
     ],
     "examples": [
       "Turn off the TV now."
@@ -2070,7 +2591,12 @@
     ],
     "transcription_variants": {
       "us": "/tɝːn ɑːf/"
-    }
+    },
+    "past_tense": "turned off",
+    "past_participle": "turned off",
+    "present_participle": "turning off",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:put-on:verb",
@@ -2102,7 +2628,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "put on",
+    "past_participle": "put on",
+    "present_participle": "putting on",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:take-off:verb",
@@ -2134,7 +2665,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "took off",
+    "past_participle": "taken off",
+    "present_participle": "taking off",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:hide:verb",
@@ -2164,7 +2700,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "hid",
+    "past_participle": "hidden",
+    "present_participle": "hiding",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:die:verb",
@@ -2189,7 +2730,12 @@
     "emoji": "💀",
     "antonyms": [
       "live"
-    ]
+    ],
+    "past_tense": "died",
+    "past_participle": "died",
+    "present_participle": "dying",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:born:verb",
@@ -2215,7 +2761,12 @@
     "emoji": "👶",
     "transcription_variants": {
       "us": "/bɔːrn/"
-    }
+    },
+    "past_tense": "was born",
+    "past_participle": "born",
+    "present_participle": "being born",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:marry:verb",
@@ -2247,7 +2798,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "married",
+    "past_participle": "married",
+    "present_participle": "marrying",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:worry:verb",
@@ -2279,7 +2835,18 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "worried",
+    "past_participle": "worried",
+    "present_participle": "worrying",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "about",
+        "example": "Do not worry about the exam."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:promise:verb",
@@ -2309,7 +2876,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "promised",
+    "past_participle": "promised",
+    "present_participle": "promising",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:spell:verb",
@@ -2332,7 +2904,12 @@
     "updated": "2025-01-15",
     "transcription": "/spel/",
     "no_antonym": true,
-    "emoji": "🔤"
+    "emoji": "🔤",
+    "past_tense": "spelled",
+    "past_participle": "spelled",
+    "present_participle": "spelling",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:describe:verb",
@@ -2355,7 +2932,12 @@
     "updated": "2025-01-15",
     "transcription": "/dɪˈskraɪb/",
     "no_antonym": true,
-    "emoji": "💬"
+    "emoji": "💬",
+    "past_tense": "described",
+    "past_participle": "described",
+    "present_participle": "describing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:fill-in:verb",
@@ -2382,7 +2964,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "filled in",
+    "past_participle": "filled in",
+    "present_participle": "filling in",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:print:verb",
@@ -2409,7 +2996,12 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "past_tense": "printed",
+    "past_participle": "printed",
+    "present_participle": "printing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:delete:verb",
@@ -2439,7 +3031,12 @@
     "levels": [
       "A0",
       "B2"
-    ]
+    ],
+    "past_tense": "deleted",
+    "past_participle": "deleted",
+    "present_participle": "deleting",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:click:verb",
@@ -2466,7 +3063,18 @@
     "levels": [
       "A0",
       "B1"
-    ]
+    ],
+    "past_tense": "clicked",
+    "past_participle": "clicked",
+    "present_participle": "clicking",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "on",
+        "example": "Click on the icon."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:believe:verb",
@@ -2481,7 +3089,7 @@
       "I believe your story completely."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2490,7 +3098,18 @@
     "emoji": "💭",
     "antonyms": [
       "doubt"
-    ]
+    ],
+    "past_tense": "believed",
+    "past_participle": "believed",
+    "present_participle": "believing",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "in",
+        "example": "I believe in you."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:bring:verb",
@@ -2505,7 +3124,7 @@
       "Bring your book to class tomorrow."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2514,7 +3133,12 @@
     "emoji": "🧳",
     "antonyms": [
       "take"
-    ]
+    ],
+    "past_tense": "brought",
+    "past_participle": "brought",
+    "present_participle": "bringing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:care:verb",
@@ -2529,7 +3153,7 @@
       "Parents care deeply for their children."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2543,7 +3167,22 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "past_tense": "cared",
+    "past_participle": "cared",
+    "present_participle": "caring",
+    "is_irregular": false,
+    "prepositions": [
+      {
+        "preposition": "about",
+        "example": "She cares about her friends."
+      },
+      {
+        "preposition": "for",
+        "example": "He cares for his family."
+      }
+    ],
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:change:verb",
@@ -2558,14 +3197,19 @@
       "Change your clothes before dinner."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/tʃeɪndʒ/",
     "emoji": "🔄",
-    "no_antonym": true
+    "no_antonym": true,
+    "past_tense": "changed",
+    "past_participle": "changed",
+    "present_participle": "changing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:cut:verb",
@@ -2580,14 +3224,19 @@
       "Cut the bread into thin slices."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/kʌt/",
     "emoji": "✂️",
-    "no_antonym": true
+    "no_antonym": true,
+    "past_tense": "cut",
+    "past_participle": "cut",
+    "present_participle": "cutting",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:fit:verb",
@@ -2602,7 +3251,7 @@
       "These shoes fit my feet perfectly."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2613,7 +3262,12 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "past_tense": "fit",
+    "past_participle": "fit",
+    "present_participle": "fitting",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:follow:verb",
@@ -2628,7 +3282,7 @@
       "Follow the guide through the museum."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2640,7 +3294,12 @@
     },
     "antonyms": [
       "lead"
-    ]
+    ],
+    "past_tense": "followed",
+    "past_participle": "followed",
+    "present_participle": "following",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:raise:verb",
@@ -2655,7 +3314,7 @@
       "Raise your hand to ask a question."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2668,7 +3327,12 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "past_tense": "raised",
+    "past_participle": "raised",
+    "present_participle": "raising",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:relax:verb",
@@ -2683,7 +3347,7 @@
       "Relax on the sofa after work."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2692,7 +3356,12 @@
     "emoji": "🧘",
     "antonyms": [
       "stress"
-    ]
+    ],
+    "past_tense": "relaxed",
+    "past_participle": "relaxed",
+    "present_participle": "relaxing",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:repeat:verb",
@@ -2707,14 +3376,19 @@
       "Please repeat the last sentence."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/rɪˈpiːt/",
     "emoji": "🔁",
-    "no_antonym": true
+    "no_antonym": true,
+    "past_tense": "repeated",
+    "past_participle": "repeated",
+    "present_participle": "repeating",
+    "is_irregular": false,
+    "sub_theme": "physical_movement"
   },
   {
     "id": "en:show:verb",
@@ -2729,7 +3403,7 @@
       "Show me your drawing now."
     ],
     "domain": "general, spoken",
-    "theme": "verbs",
+    "theme": "actions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2741,6 +3415,11 @@
     },
     "antonyms": [
       "hide"
-    ]
+    ],
+    "past_tense": "showed",
+    "past_participle": "shown",
+    "present_participle": "showing",
+    "is_irregular": true,
+    "sub_theme": "physical_movement"
   }
 ]

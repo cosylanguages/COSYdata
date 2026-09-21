@@ -26,7 +26,9 @@
     "transcription": "/rɪˈsiːt/",
     "no_antonym": true,
     "emoji": "🧾",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:card:noun",
@@ -57,7 +59,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/kɑːrd/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:cash:noun",
@@ -86,7 +90,8 @@
     "antonyms": [
       "card"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:coin:noun",
@@ -114,7 +119,9 @@
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:note:noun",
@@ -123,7 +130,7 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a piece of paper money currency"
+      "paper money"
     ],
     "examples": [
       "She paid with a ten pound note."
@@ -141,7 +148,9 @@
     },
     "region": [
       "UK"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:bank:noun",
@@ -168,7 +177,9 @@
     "transcription": "/bæŋk/",
     "no_antonym": true,
     "emoji": "🏦",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:price:noun",
@@ -192,7 +203,9 @@
     "transcription": "/praɪs/",
     "no_antonym": true,
     "emoji": "🏷️",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:cost:noun",
@@ -219,16 +232,18 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/kɑːst/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:cheap:noun",
     "word": "cheap",
     "language": "en",
-    "form": "noun",
+    "form": "adjective",
     "level": "A1",
     "definitions": [
-      "costing very little money price"
+      "costing little money"
     ],
     "examples": [
       "Buy cheap apples at the market."
@@ -244,16 +259,18 @@
     "antonyms": [
       "expensive"
     ],
-    "countability": "uncountable"
+    "comparative": "cheaper",
+    "superlative": "cheapest",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:expensive:noun",
     "word": "expensive",
     "language": "en",
-    "form": "noun",
+    "form": "adjective",
     "level": "A1",
     "definitions": [
-      "costing a lot of money price"
+      "costing a lot of money"
     ],
     "examples": [
       "That car is very expensive."
@@ -269,7 +286,9 @@
     "antonyms": [
       "cheap"
     ],
-    "countability": "uncountable"
+    "comparative": "expensiver",
+    "superlative": "expensivest",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:free:noun",
@@ -298,7 +317,8 @@
     "antonyms": [
       "paid"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:buy:noun",
@@ -324,7 +344,9 @@
     "antonyms": [
       "sell"
     ],
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:sell:noun",
@@ -349,7 +371,8 @@
     "antonyms": [
       "buy"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:spend:noun",
@@ -378,7 +401,8 @@
     "antonyms": [
       "save"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:shopping:noun",
@@ -408,7 +432,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/ˈʃɑː.pɪŋ/"
-    }
+    },
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:store:noun",
@@ -445,7 +470,9 @@
     ],
     "regional_equivalents": [
       "en:shop:noun"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:market:noun",
@@ -477,7 +504,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈmɑːr.kɪt/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:credit-card:noun",
@@ -505,7 +534,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈkred.ɪt ˌkɑːrd/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:shopping-center-mall:noun",
@@ -536,7 +567,9 @@
     "synonyms": [
       "shopping center",
       "mall"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:discount:noun",
@@ -551,7 +584,7 @@
       "She got a ten percent discount at the store."
     ],
     "domain": "general, spoken",
-    "theme": "money_shopping",
+    "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -564,7 +597,9 @@
     "levels": [
       "A1",
       "B1"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:sale:noun",
@@ -579,7 +614,7 @@
       "She bought shoes at the summer sale."
     ],
     "domain": "general, spoken",
-    "theme": "money_shopping",
+    "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -592,6 +627,58 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:dollar:noun",
+    "word": "dollar",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "emoji": "💵",
+    "transcription": "/ˈdɑːlər/",
+    "article": "a",
+    "countability": "countable",
+    "plural_form": "dollars",
+    "definitions": [
+      "a unit of money in the US and other countries"
+    ],
+    "examples": [
+      "This book costs ten dollars."
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "shopping",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:euro:noun",
+    "word": "euro",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "emoji": "💶",
+    "transcription": "/ˈjʊəroʊ/",
+    "article": "a",
+    "countability": "countable",
+    "plural_form": "euros",
+    "definitions": [
+      "a unit of money used in European countries"
+    ],
+    "examples": [
+      "A cup of coffee costs two euros."
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "shopping",
+    "sub_theme": "money_currency"
   }
 ]

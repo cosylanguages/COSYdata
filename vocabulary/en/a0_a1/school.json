@@ -23,7 +23,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/lɝːn/"
-    }
+    },
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:draw:verb",
@@ -51,7 +52,12 @@
     "emoji": "🎨",
     "transcription_variants": {
       "us": "/drɑː/"
-    }
+    },
+    "past_tense": "drew",
+    "past_participle": "drawn",
+    "present_participle": "drawing",
+    "is_irregular": true,
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:music:noun",
@@ -77,7 +83,8 @@
     "countability": "uncountable",
     "transcription": "/ˈmjuː.zɪk/",
     "no_antonym": true,
-    "emoji": "🎵"
+    "emoji": "🎵",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:read:noun",
@@ -103,7 +110,8 @@
     "transcription": "/riːd/",
     "no_antonym": true,
     "emoji": "📖",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:science:noun",
@@ -130,7 +138,8 @@
     "transcription": "/ˈsaɪ.əns/",
     "no_antonym": true,
     "emoji": "🔬",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:class:noun",
@@ -161,7 +170,9 @@
     "emoji": "🏫",
     "transcription_variants": {
       "us": "/klæs/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:art:noun",
@@ -191,7 +202,8 @@
     "emoji": "🎨",
     "transcription_variants": {
       "us": "/ɑːrt/"
-    }
+    },
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:book:noun",
@@ -219,7 +231,9 @@
     "transcription": "/bʊk/",
     "no_antonym": true,
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:sentence:noun",
@@ -244,7 +258,9 @@
     "transcription": "/ˈsen.təns/",
     "no_antonym": true,
     "emoji": "✍️",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:subject:noun",
@@ -272,7 +288,9 @@
     "transcription": "/ˈsʌb.dʒekt/",
     "no_antonym": true,
     "emoji": "📚",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:exam:noun",
@@ -300,7 +318,9 @@
     "transcription": "/ɪɡˈzæm/",
     "no_antonym": true,
     "emoji": "📝",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "an",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:test:noun",
@@ -328,7 +348,9 @@
     "transcription": "/test/",
     "no_antonym": true,
     "emoji": "📝",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:homework:noun",
@@ -358,7 +380,8 @@
     "emoji": "📝",
     "transcription_variants": {
       "us": "/ˈhoʊm.wɝːk/"
-    }
+    },
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:paper:noun",
@@ -388,7 +411,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/ˈpeɪ.pɚ/"
-    }
+    },
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:answer:noun",
@@ -417,7 +441,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈæn.sɚ/"
-    }
+    },
+    "article": "an",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:teach:noun",
@@ -442,7 +468,8 @@
     "antonyms": [
       "learn"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:classroom:noun",
@@ -469,7 +496,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈklæs.ruːm/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:lesson:noun",
@@ -493,7 +522,9 @@
     "transcription": "/ˈles.ən/",
     "no_antonym": true,
     "emoji": "📖",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:pen:noun",
@@ -502,7 +533,7 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "an instrument used for writing with ink"
+      "a tool for writing with ink"
     ],
     "examples": [
       "Write your answer with pen."
@@ -517,7 +548,9 @@
     "transcription": "/pen/",
     "no_antonym": true,
     "emoji": "🖊️",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:pencil:noun",
@@ -541,7 +574,9 @@
     "transcription": "/ˈpen.səl/",
     "no_antonym": true,
     "emoji": "✏️",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:notebook:noun",
@@ -572,7 +607,9 @@
     "levels": [
       "A1",
       "B2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:board:noun",
@@ -603,7 +640,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/bɔːrd/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:eraser:noun",
@@ -633,7 +672,9 @@
     },
     "region": [
       "US"
-    ]
+    ],
+    "article": "an",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:ruler:noun",
@@ -660,7 +701,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈruː.lɚ/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:pupil:noun",
@@ -690,7 +733,9 @@
     "levels": [
       "A1",
       "B2"
-    ]
+    ],
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:math:noun",
@@ -719,7 +764,8 @@
     ],
     "regional_equivalents": [
       "en:maths:noun"
-    ]
+    ],
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:maths:noun",
@@ -749,7 +795,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:geography:noun",
@@ -772,7 +819,8 @@
     "countability": "uncountable",
     "transcription_variants": {
       "us": "/dʒiˈɑː.ɡrə.fi/"
-    }
+    },
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:question:noun",
@@ -798,7 +846,9 @@
     "antonyms": [
       "answer"
     ],
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:word:noun",
@@ -825,7 +875,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/wɝːd/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:backpack:noun",
@@ -850,7 +902,9 @@
     "transcription": "/ˈbæk.pæk/",
     "no_antonym": true,
     "emoji": "🎒",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:whiteboard:noun",
@@ -878,7 +932,9 @@
     "countability": "countable",
     "transcription_variants": {
       "us": "/ˈwaɪt.bɔːrd/"
-    }
+    },
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:page:noun",
@@ -903,7 +959,9 @@
     "transcription": "/peɪdʒ/",
     "no_antonym": true,
     "emoji": "📄",
-    "countability": "countable"
+    "countability": "countable",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:mathematics:noun",
@@ -934,7 +992,8 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:crayon:noun",
@@ -949,7 +1008,7 @@
       "The children drew pictures using bright crayons."
     ],
     "domain": "general, relocation",
-    "theme": "school",
+    "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈkreɪ.ɒn/",
     "transcription_variants": {
@@ -958,7 +1017,9 @@
     "emoji": "🖍️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "crayons"
+    "plural_form": "crayons",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:sticker:noun",
@@ -973,7 +1034,7 @@
       "The teacher put a reward sticker on her report card."
     ],
     "domain": "general, relocation",
-    "theme": "school",
+    "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈstɪk.ə/",
     "transcription_variants": {
@@ -982,7 +1043,9 @@
     "emoji": "🏷️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "stickers"
+    "plural_form": "stickers",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:storybook:noun",
@@ -997,7 +1060,7 @@
       "He reads a bedtime storybook to his daughter every night."
     ],
     "domain": "general, relocation",
-    "theme": "school",
+    "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˈstɔː.ri.bʊk/",
     "transcription_variants": {
@@ -1006,7 +1069,9 @@
     "emoji": "📖",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "storybooks"
+    "plural_form": "storybooks",
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:course:noun",
@@ -1021,7 +1086,7 @@
       "She took an English course this summer."
     ],
     "domain": "general, spoken",
-    "theme": "school",
+    "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1033,7 +1098,9 @@
     },
     "countability": "countable",
     "plural_form": "courses",
-    "no_antonym": true
+    "no_antonym": true,
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:meeting:noun",
@@ -1048,7 +1115,7 @@
       "We held a brief meeting at school."
     ],
     "domain": "general, spoken",
-    "theme": "school",
+    "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1060,7 +1127,9 @@
     },
     "countability": "countable",
     "plural_form": "meetings",
-    "no_antonym": true
+    "no_antonym": true,
+    "article": "a",
+    "sub_theme": "classroom_objects"
   },
   {
     "id": "en:classmate:noun",
@@ -1075,7 +1144,7 @@
       "He studied with his classmate for the exam."
     ],
     "domain": "general, spoken",
-    "theme": "school",
+    "theme": "education",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1087,6 +1156,8 @@
     },
     "countability": "countable",
     "plural_form": "classmates",
-    "no_antonym": true
+    "no_antonym": true,
+    "article": "a",
+    "sub_theme": "classroom_objects"
   }
 ]

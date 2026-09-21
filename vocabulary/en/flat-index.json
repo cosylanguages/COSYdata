@@ -2455,6 +2455,18 @@
       "field": "word"
     }
   ],
+  "aliver": [
+    {
+      "id": "en:alive:adjective",
+      "field": "comparative"
+    }
+  ],
+  "alivest": [
+    {
+      "id": "en:alive:adjective",
+      "field": "superlative"
+    }
+  ],
   "all": [
     {
       "id": "en:all:adverb",
@@ -3377,6 +3389,18 @@
       "field": "plural_form"
     }
   ],
+  "angrier": [
+    {
+      "id": "en:angry:adjective",
+      "field": "comparative"
+    }
+  ],
+  "angriest": [
+    {
+      "id": "en:angry:adjective",
+      "field": "superlative"
+    }
+  ],
   "angry": [
     {
       "id": "en:angry:adjective",
@@ -3503,6 +3527,18 @@
     {
       "id": "en:another:adjective",
       "field": "word"
+    }
+  ],
+  "anotherer": [
+    {
+      "id": "en:another:adjective",
+      "field": "comparative"
+    }
+  ],
+  "anotherest": [
+    {
+      "id": "en:another:adjective",
+      "field": "superlative"
     }
   ],
   "answer": [
@@ -6523,6 +6559,12 @@
       "field": "plural_form"
     }
   ],
+  "baseball": [
+    {
+      "id": "en:baseball:noun",
+      "field": "word"
+    }
+  ],
   "baseline": [
     {
       "id": "en:baseline:noun",
@@ -6616,6 +6658,18 @@
   "baths": [
     {
       "id": "en:bath:noun",
+      "field": "plural_form"
+    }
+  ],
+  "bathtub": [
+    {
+      "id": "en:bathtub:noun",
+      "field": "word"
+    }
+  ],
+  "bathtubs": [
+    {
+      "id": "en:bathtub:noun",
       "field": "plural_form"
     }
   ],
@@ -7191,6 +7245,10 @@
     {
       "id": "en:best:adverb",
       "field": "word"
+    },
+    {
+      "id": "en:good:adjective",
+      "field": "superlative"
     }
   ],
   "best friend": [
@@ -7249,6 +7307,10 @@
     {
       "id": "en:better:adverb",
       "field": "word"
+    },
+    {
+      "id": "en:good:adjective",
+      "field": "comparative"
     }
   ],
   "better late than never": [
@@ -7337,11 +7399,27 @@
   ],
   "bigger": [
     {
+      "id": "en:big:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:big:noun",
+      "field": "comparative"
+    },
+    {
       "id": "en:bigger:adverb",
       "field": "word"
     }
   ],
   "biggest": [
+    {
+      "id": "en:big:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:big:noun",
+      "field": "superlative"
+    },
     {
       "id": "en:biggest:adverb",
       "field": "word"
@@ -7665,6 +7743,18 @@
       "field": "plural_form"
     }
   ],
+  "blacker": [
+    {
+      "id": "en:black:adjective",
+      "field": "comparative"
+    }
+  ],
+  "blackest": [
+    {
+      "id": "en:black:adjective",
+      "field": "superlative"
+    }
+  ],
   "blackout dates": [
     {
       "id": "en:blackout-dates:noun",
@@ -7851,6 +7941,18 @@
     {
       "id": "en:blue-ocean-strategy:noun",
       "field": "word"
+    }
+  ],
+  "bluer": [
+    {
+      "id": "en:blue:adjective",
+      "field": "comparative"
+    }
+  ],
+  "bluest": [
+    {
+      "id": "en:blue:adjective",
+      "field": "superlative"
     }
   ],
   "blunt": [
@@ -8213,6 +8315,18 @@
     {
       "id": "en:bored:adjective",
       "field": "word"
+    }
+  ],
+  "boreder": [
+    {
+      "id": "en:bored:adjective",
+      "field": "comparative"
+    }
+  ],
+  "boredest": [
+    {
+      "id": "en:bored:adjective",
+      "field": "superlative"
     }
   ],
   "boredom": [
@@ -8959,6 +9073,18 @@
       "field": "word"
     }
   ],
+  "browner": [
+    {
+      "id": "en:brown:adjective",
+      "field": "comparative"
+    }
+  ],
+  "brownest": [
+    {
+      "id": "en:brown:adjective",
+      "field": "superlative"
+    }
+  ],
   "browser": [
     {
       "id": "en:browser:noun",
@@ -9405,6 +9531,18 @@
     {
       "id": "en:bus:noun",
       "field": "plural_form"
+    }
+  ],
+  "busier": [
+    {
+      "id": "en:busy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "busiest": [
+    {
+      "id": "en:busy:adjective",
+      "field": "superlative"
     }
   ],
   "business": [
@@ -9953,6 +10091,18 @@
     {
       "id": "en:calm-down:verb",
       "field": "word"
+    }
+  ],
+  "calmer": [
+    {
+      "id": "en:calm:adjective",
+      "field": "comparative"
+    }
+  ],
+  "calmest": [
+    {
+      "id": "en:calm:adjective",
+      "field": "superlative"
     }
   ],
   "calorie": [
@@ -11701,8 +11851,26 @@
   ],
   "cheaper": [
     {
+      "id": "en:cheap:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:cheap:noun",
+      "field": "comparative"
+    },
+    {
       "id": "en:cheaper:adverb",
       "field": "word"
+    }
+  ],
+  "cheapest": [
+    {
+      "id": "en:cheap:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:cheap:noun",
+      "field": "superlative"
     }
   ],
   "cheat": [
@@ -12561,6 +12729,14 @@
   ],
   "cleaner": [
     {
+      "id": "en:clean:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:clean:noun",
+      "field": "comparative"
+    },
+    {
       "id": "en:cleaner:noun",
       "field": "word"
     }
@@ -12569,6 +12745,16 @@
     {
       "id": "en:cleaner:noun",
       "field": "plural_form"
+    }
+  ],
+  "cleanest": [
+    {
+      "id": "en:clean:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:clean:noun",
+      "field": "superlative"
     }
   ],
   "cleaning": [
@@ -12915,6 +13101,18 @@
       "field": "word"
     }
   ],
+  "closer": [
+    {
+      "id": "en:close:adjective",
+      "field": "comparative"
+    }
+  ],
+  "closest": [
+    {
+      "id": "en:close:adjective",
+      "field": "superlative"
+    }
+  ],
   "closet": [
     {
       "id": "en:closet:noun",
@@ -12967,6 +13165,18 @@
     {
       "id": "en:cloud-storage:noun",
       "field": "word"
+    }
+  ],
+  "cloudier": [
+    {
+      "id": "en:cloudy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "cloudiest": [
+    {
+      "id": "en:cloudy:adjective",
+      "field": "superlative"
     }
   ],
   "clouds": [
@@ -13347,6 +13557,18 @@
       "field": "plural_form"
     }
   ],
+  "colder": [
+    {
+      "id": "en:cold:adjective",
+      "field": "comparative"
+    }
+  ],
+  "coldest": [
+    {
+      "id": "en:cold:adjective",
+      "field": "superlative"
+    }
+  ],
   "colds": [
     {
       "id": "en:cold:noun",
@@ -13543,6 +13765,18 @@
     {
       "id": "en:color:adjective",
       "field": "word"
+    }
+  ],
+  "colorer": [
+    {
+      "id": "en:color:adjective",
+      "field": "comparative"
+    }
+  ],
+  "colorest": [
+    {
+      "id": "en:color:adjective",
+      "field": "superlative"
     }
   ],
   "colorful": [
@@ -15959,6 +16193,18 @@
     {
       "id": "en:cool-down:noun",
       "field": "plural_form"
+    }
+  ],
+  "cooler": [
+    {
+      "id": "en:cool:adjective",
+      "field": "comparative"
+    }
+  ],
+  "coolest": [
+    {
+      "id": "en:cool:adjective",
+      "field": "superlative"
     }
   ],
   "cooperate": [
@@ -18547,10 +18793,34 @@
       "field": "word"
     }
   ],
+  "dark bluer": [
+    {
+      "id": "en:dark-blue:adjective",
+      "field": "comparative"
+    }
+  ],
+  "dark bluest": [
+    {
+      "id": "en:dark-blue:adjective",
+      "field": "superlative"
+    }
+  ],
   "dark-haired": [
     {
       "id": "en:dark-haired:adjective",
       "field": "word"
+    }
+  ],
+  "darker": [
+    {
+      "id": "en:dark:adjective",
+      "field": "comparative"
+    }
+  ],
+  "darkest": [
+    {
+      "id": "en:dark:adjective",
+      "field": "superlative"
     }
   ],
   "dashcam": [
@@ -18801,6 +19071,18 @@
     {
       "id": "en:dead-end:noun",
       "field": "plural_form"
+    }
+  ],
+  "deader": [
+    {
+      "id": "en:dead:adjective",
+      "field": "comparative"
+    }
+  ],
+  "deadest": [
+    {
+      "id": "en:dead:adjective",
+      "field": "superlative"
     }
   ],
   "deadline": [
@@ -20917,6 +21199,26 @@
       "field": "word"
     }
   ],
+  "dirtier": [
+    {
+      "id": "en:dirty:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:dirty:noun",
+      "field": "comparative"
+    }
+  ],
+  "dirtiest": [
+    {
+      "id": "en:dirty:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:dirty:noun",
+      "field": "superlative"
+    }
+  ],
   "dirty": [
     {
       "id": "en:dirty:adjective",
@@ -22141,6 +22443,18 @@
       "field": "word"
     }
   ],
+  "dollar": [
+    {
+      "id": "en:dollar:noun",
+      "field": "word"
+    }
+  ],
+  "dollars": [
+    {
+      "id": "en:dollar:noun",
+      "field": "plural_form"
+    }
+  ],
   "dolls": [
     {
       "id": "en:doll:noun",
@@ -22701,6 +23015,18 @@
       "field": "plural_form"
     }
   ],
+  "drier": [
+    {
+      "id": "en:dry:adjective",
+      "field": "comparative"
+    }
+  ],
+  "driest": [
+    {
+      "id": "en:dry:adjective",
+      "field": "superlative"
+    }
+  ],
   "drift apart": [
     {
       "id": "en:drift-apart:noun",
@@ -23221,10 +23547,42 @@
       "field": "word"
     }
   ],
+  "eacher": [
+    {
+      "id": "en:each:adjective",
+      "field": "comparative"
+    }
+  ],
+  "eachest": [
+    {
+      "id": "en:each:adjective",
+      "field": "superlative"
+    }
+  ],
   "ear": [
     {
       "id": "en:ear:noun",
       "field": "word"
+    }
+  ],
+  "earlier": [
+    {
+      "id": "en:early:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:early:noun",
+      "field": "comparative"
+    }
+  ],
+  "earliest": [
+    {
+      "id": "en:early:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:early:noun",
+      "field": "superlative"
     }
   ],
   "early": [
@@ -23299,10 +23657,22 @@
       "field": "word"
     }
   ],
+  "easier": [
+    {
+      "id": "en:easy:adjective",
+      "field": "comparative"
+    }
+  ],
   "easier said than done": [
     {
       "id": "en:easier-said-than-done:phrase",
       "field": "word"
+    }
+  ],
+  "easiest": [
+    {
+      "id": "en:easy:adjective",
+      "field": "superlative"
     }
   ],
   "easily": [
@@ -24465,6 +24835,18 @@
       "field": "plural_form"
     }
   ],
+  "emptier": [
+    {
+      "id": "en:empty:adjective",
+      "field": "comparative"
+    }
+  ],
+  "emptiest": [
+    {
+      "id": "en:empty:adjective",
+      "field": "superlative"
+    }
+  ],
   "emptor": [
     {
       "id": "en:emptor:noun",
@@ -25229,16 +25611,22 @@
       "field": "word"
     }
   ],
+  "equaler": [
+    {
+      "id": "en:equal:noun",
+      "field": "comparative"
+    }
+  ],
+  "equalest": [
+    {
+      "id": "en:equal:noun",
+      "field": "superlative"
+    }
+  ],
   "equality": [
     {
       "id": "en:equality:noun",
       "field": "word"
-    }
-  ],
-  "equals": [
-    {
-      "id": "en:equal:noun",
-      "field": "plural_form"
     }
   ],
   "equanimity": [
@@ -25675,10 +26063,22 @@
       "field": "word"
     }
   ],
+  "euro": [
+    {
+      "id": "en:euro:noun",
+      "field": "word"
+    }
+  ],
   "europe": [
     {
       "id": "en:europe:noun",
       "field": "word"
+    }
+  ],
+  "euros": [
+    {
+      "id": "en:euro:noun",
+      "field": "plural_form"
     }
   ],
   "evacuate": [
@@ -26663,6 +27063,26 @@
       "field": "word"
     }
   ],
+  "expensiver": [
+    {
+      "id": "en:expensive:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:expensive:noun",
+      "field": "comparative"
+    }
+  ],
+  "expensivest": [
+    {
+      "id": "en:expensive:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:expensive:noun",
+      "field": "superlative"
+    }
+  ],
   "experience": [
     {
       "id": "en:experience:noun",
@@ -27015,6 +27435,18 @@
     {
       "id": "en:extradition:noun",
       "field": "word"
+    }
+  ],
+  "extraer": [
+    {
+      "id": "en:extra:adjective",
+      "field": "comparative"
+    }
+  ],
+  "extraest": [
+    {
+      "id": "en:extra:adjective",
+      "field": "superlative"
     }
   ],
   "extraneous": [
@@ -27405,10 +27837,22 @@
       "field": "word"
     }
   ],
+  "faker": [
+    {
+      "id": "en:fake:adjective",
+      "field": "comparative"
+    }
+  ],
   "fakes": [
     {
       "id": "en:fake:noun",
       "field": "plural_form"
+    }
+  ],
+  "fakest": [
+    {
+      "id": "en:fake:adjective",
+      "field": "superlative"
     }
   ],
   "fall": [
@@ -27547,6 +27991,18 @@
     {
       "id": "en:a-false-equivalence:noun",
       "field": "plural_form"
+    }
+  ],
+  "falser": [
+    {
+      "id": "en:false:adjective",
+      "field": "comparative"
+    }
+  ],
+  "falsest": [
+    {
+      "id": "en:false:adjective",
+      "field": "superlative"
     }
   ],
   "falsifiability": [
@@ -27861,11 +28317,19 @@
   ],
   "faster": [
     {
+      "id": "en:fast:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:faster:adverb",
       "field": "word"
     }
   ],
   "fastest": [
+    {
+      "id": "en:fast:adjective",
+      "field": "superlative"
+    },
     {
       "id": "en:fastest:adverb",
       "field": "word"
@@ -27899,6 +28363,18 @@
     {
       "id": "en:father:noun",
       "field": "plural_form"
+    }
+  ],
+  "fatter": [
+    {
+      "id": "en:fat:adjective",
+      "field": "comparative"
+    }
+  ],
+  "fattest": [
+    {
+      "id": "en:fat:adjective",
+      "field": "superlative"
     }
   ],
   "fatuous": [
@@ -28095,6 +28571,18 @@
     {
       "id": "en:feel-like:adjective",
       "field": "word"
+    }
+  ],
+  "feeler": [
+    {
+      "id": "en:feel:adjective",
+      "field": "comparative"
+    }
+  ],
+  "feelest": [
+    {
+      "id": "en:feel:adjective",
+      "field": "superlative"
     }
   ],
   "feeling": [
@@ -29149,6 +29637,18 @@
     {
       "id": "en:flat:noun",
       "field": "plural_form"
+    }
+  ],
+  "flatter": [
+    {
+      "id": "en:flat:adjective",
+      "field": "comparative"
+    }
+  ],
+  "flattest": [
+    {
+      "id": "en:flat:adjective",
+      "field": "superlative"
     }
   ],
   "flavor": [
@@ -30409,6 +30909,18 @@
       "field": "plural_form"
     }
   ],
+  "freer": [
+    {
+      "id": "en:free:adjective",
+      "field": "comparative"
+    }
+  ],
+  "freest": [
+    {
+      "id": "en:free:adjective",
+      "field": "superlative"
+    }
+  ],
   "freezer": [
     {
       "id": "en:freezer:noun",
@@ -30481,6 +30993,18 @@
       "field": "word"
     }
   ],
+  "fresher": [
+    {
+      "id": "en:fresh:adjective",
+      "field": "comparative"
+    }
+  ],
+  "freshest": [
+    {
+      "id": "en:fresh:adjective",
+      "field": "superlative"
+    }
+  ],
   "friday": [
     {
       "id": "en:friday:noun",
@@ -30521,6 +31045,18 @@
     {
       "id": "en:friend-group:noun",
       "field": "plural_form"
+    }
+  ],
+  "friendlier": [
+    {
+      "id": "en:friendly:adjective",
+      "field": "comparative"
+    }
+  ],
+  "friendliest": [
+    {
+      "id": "en:friendly:adjective",
+      "field": "superlative"
     }
   ],
   "friendly": [
@@ -30745,6 +31281,18 @@
       "field": "plural_form"
     }
   ],
+  "fuller": [
+    {
+      "id": "en:full:adjective",
+      "field": "comparative"
+    }
+  ],
+  "fullest": [
+    {
+      "id": "en:full:adjective",
+      "field": "superlative"
+    }
+  ],
   "fully booked": [
     {
       "id": "en:fully-booked:adjective",
@@ -30817,6 +31365,18 @@
       "field": "plural_form"
     }
   ],
+  "funnier": [
+    {
+      "id": "en:funny:adjective",
+      "field": "comparative"
+    }
+  ],
+  "funniest": [
+    {
+      "id": "en:funny:adjective",
+      "field": "superlative"
+    }
+  ],
   "funny": [
     {
       "id": "en:funny:adjective",
@@ -30853,6 +31413,12 @@
       "field": "word"
     }
   ],
+  "further": [
+    {
+      "id": "en:far:adjective",
+      "field": "comparative"
+    }
+  ],
   "further education": [
     {
       "id": "en:further-education:noun",
@@ -30869,6 +31435,12 @@
     {
       "id": "en:furthermore:adverb",
       "field": "word"
+    }
+  ],
+  "furthest": [
+    {
+      "id": "en:far:adjective",
+      "field": "superlative"
     }
   ],
   "furtive": [
@@ -32039,6 +32611,18 @@
       "field": "word"
     }
   ],
+  "gladder": [
+    {
+      "id": "en:glad:adjective",
+      "field": "comparative"
+    }
+  ],
+  "gladdest": [
+    {
+      "id": "en:glad:adjective",
+      "field": "superlative"
+    }
+  ],
   "glamping": [
     {
       "id": "en:glamping:noun",
@@ -32319,6 +32903,18 @@
     {
       "id": "en:gold:adjective",
       "field": "word"
+    }
+  ],
+  "golder": [
+    {
+      "id": "en:gold:adjective",
+      "field": "comparative"
+    }
+  ],
+  "goldest": [
+    {
+      "id": "en:gold:adjective",
+      "field": "superlative"
     }
   ],
   "golf course": [
@@ -32885,6 +33481,18 @@
       "field": "plural_form"
     }
   ],
+  "grayer": [
+    {
+      "id": "en:gray:adjective",
+      "field": "comparative"
+    }
+  ],
+  "grayest": [
+    {
+      "id": "en:gray:adjective",
+      "field": "superlative"
+    }
+  ],
   "greasy spoon": [
     {
       "id": "en:greasy-spoon:noun",
@@ -32973,6 +33581,18 @@
       "field": "plural_form"
     }
   ],
+  "greener": [
+    {
+      "id": "en:green:adjective",
+      "field": "comparative"
+    }
+  ],
+  "greenest": [
+    {
+      "id": "en:green:adjective",
+      "field": "superlative"
+    }
+  ],
   "greenhouse": [
     {
       "id": "en:greenhouse:noun",
@@ -33055,6 +33675,18 @@
     {
       "id": "en:grey-gray:adjective",
       "field": "word"
+    }
+  ],
+  "greyer": [
+    {
+      "id": "en:grey:adjective",
+      "field": "comparative"
+    }
+  ],
+  "greyest": [
+    {
+      "id": "en:grey:adjective",
+      "field": "superlative"
     }
   ],
   "grief": [
@@ -33743,6 +34375,18 @@
       "field": "word"
     }
   ],
+  "handsomer": [
+    {
+      "id": "en:handsome:adjective",
+      "field": "comparative"
+    }
+  ],
+  "handsomest": [
+    {
+      "id": "en:handsome:adjective",
+      "field": "superlative"
+    }
+  ],
   "hang": [
     {
       "id": "en:hang:verb",
@@ -33783,6 +34427,18 @@
     {
       "id": "en:hangry:adjective",
       "field": "word"
+    }
+  ],
+  "happier": [
+    {
+      "id": "en:happy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "happiest": [
+    {
+      "id": "en:happy:adjective",
+      "field": "superlative"
     }
   ],
   "happiness": [
@@ -33871,6 +34527,18 @@
       "field": "word"
     }
   ],
+  "harder": [
+    {
+      "id": "en:hard:adjective",
+      "field": "comparative"
+    }
+  ],
+  "hardest": [
+    {
+      "id": "en:hard:adjective",
+      "field": "superlative"
+    }
+  ],
   "hardly": [
     {
       "id": "en:hardly:adverb",
@@ -33945,6 +34613,18 @@
     {
       "id": "en:hate-speech:noun",
       "field": "plural_form"
+    }
+  ],
+  "hater": [
+    {
+      "id": "en:hate:adjective",
+      "field": "comparative"
+    }
+  ],
+  "hatest": [
+    {
+      "id": "en:hate:adjective",
+      "field": "superlative"
     }
   ],
   "hats": [
@@ -34247,6 +34927,18 @@
       "field": "plural_form"
     }
   ],
+  "healthier": [
+    {
+      "id": "en:healthy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "healthiest": [
+    {
+      "id": "en:healthy:adjective",
+      "field": "superlative"
+    }
+  ],
   "healthy": [
     {
       "id": "en:healthy:adjective",
@@ -34371,6 +35063,18 @@
     {
       "id": "en:heatwave:noun",
       "field": "plural_form"
+    }
+  ],
+  "heavier": [
+    {
+      "id": "en:heavy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "heaviest": [
+    {
+      "id": "en:heavy:adjective",
+      "field": "superlative"
     }
   ],
   "heavy": [
@@ -34787,6 +35491,10 @@
   ],
   "higher": [
     {
+      "id": "en:high:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:higher:noun",
       "field": "word"
     }
@@ -34795,6 +35503,12 @@
     {
       "id": "en:higher-education:noun",
       "field": "word"
+    }
+  ],
+  "highest": [
+    {
+      "id": "en:high:adjective",
+      "field": "superlative"
     }
   ],
   "highlight": [
@@ -35675,6 +36389,18 @@
       "field": "plural_form"
     }
   ],
+  "hotter": [
+    {
+      "id": "en:hot:adjective",
+      "field": "comparative"
+    }
+  ],
+  "hottest": [
+    {
+      "id": "en:hot:adjective",
+      "field": "superlative"
+    }
+  ],
   "hour": [
     {
       "id": "en:hour:noun",
@@ -35899,6 +36625,18 @@
       "field": "word"
     }
   ],
+  "huger": [
+    {
+      "id": "en:huge:adjective",
+      "field": "comparative"
+    }
+  ],
+  "hugest": [
+    {
+      "id": "en:huge:adjective",
+      "field": "superlative"
+    }
+  ],
   "human": [
     {
       "id": "en:human:noun",
@@ -36017,6 +36755,18 @@
     {
       "id": "en:hundred:number",
       "field": "word"
+    }
+  ],
+  "hungrier": [
+    {
+      "id": "en:hungry:adjective",
+      "field": "comparative"
+    }
+  ],
+  "hungriest": [
+    {
+      "id": "en:hungry:adjective",
+      "field": "superlative"
     }
   ],
   "hungry": [
@@ -37913,6 +38663,18 @@
     {
       "id": "en:in-love:adjective",
       "field": "word"
+    }
+  ],
+  "in lover": [
+    {
+      "id": "en:in-love:adjective",
+      "field": "comparative"
+    }
+  ],
+  "in lovest": [
+    {
+      "id": "en:in-love:adjective",
+      "field": "superlative"
     }
   ],
   "in my experience": [
@@ -42005,6 +42767,12 @@
       "field": "word"
     }
   ],
+  "kinder": [
+    {
+      "id": "en:kind:adjective",
+      "field": "comparative"
+    }
+  ],
   "kindergarten": [
     {
       "id": "en:kindergarten:noun",
@@ -42015,6 +42783,12 @@
     {
       "id": "en:kindergarten:noun",
       "field": "plural_form"
+    }
+  ],
+  "kindest": [
+    {
+      "id": "en:kind:adjective",
+      "field": "superlative"
     }
   ],
   "kindness": [
@@ -42423,6 +43197,12 @@
       "field": "word"
     }
   ],
+  "larger": [
+    {
+      "id": "en:large:adjective",
+      "field": "comparative"
+    }
+  ],
   "larger than life": [
     {
       "id": "en:larger-than-life:adjective",
@@ -42433,6 +43213,12 @@
     {
       "id": "en:large:noun",
       "field": "plural_form"
+    }
+  ],
+  "largest": [
+    {
+      "id": "en:large:adjective",
+      "field": "superlative"
     }
   ],
   "lascivious": [
@@ -42519,6 +43305,14 @@
   ],
   "later": [
     {
+      "id": "en:late:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:late:noun",
+      "field": "comparative"
+    },
+    {
       "id": "en:later:adverb",
       "field": "word"
     },
@@ -42531,6 +43325,16 @@
     {
       "id": "en:later-on:phrase",
       "field": "word"
+    }
+  ],
+  "latest": [
+    {
+      "id": "en:late:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:late:noun",
+      "field": "superlative"
     }
   ],
   "laud": [
@@ -42651,6 +43455,18 @@
     {
       "id": "en:layover:noun",
       "field": "plural_form"
+    }
+  ],
+  "lazier": [
+    {
+      "id": "en:lazy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "laziest": [
+    {
+      "id": "en:lazy:adjective",
+      "field": "superlative"
     }
   ],
   "lazy": [
@@ -42821,6 +43637,10 @@
     {
       "id": "en:least:adverb",
       "field": "word"
+    },
+    {
+      "id": "en:little:adjective",
+      "field": "superlative"
     }
   ],
   "leather": [
@@ -43131,6 +43951,10 @@
     {
       "id": "en:less:adverb",
       "field": "word"
+    },
+    {
+      "id": "en:little:adjective",
+      "field": "comparative"
     }
   ],
   "less interesting": [
@@ -43531,7 +44355,23 @@
       "field": "word"
     }
   ],
+  "light bluer": [
+    {
+      "id": "en:light-blue:adjective",
+      "field": "comparative"
+    }
+  ],
+  "light bluest": [
+    {
+      "id": "en:light-blue:adjective",
+      "field": "superlative"
+    }
+  ],
   "lighter": [
+    {
+      "id": "en:light:adjective",
+      "field": "comparative"
+    },
     {
       "id": "en:lighter:noun",
       "field": "word"
@@ -43541,6 +44381,12 @@
     {
       "id": "en:lighter:noun",
       "field": "plural_form"
+    }
+  ],
+  "lightest": [
+    {
+      "id": "en:light:adjective",
+      "field": "superlative"
     }
   ],
   "lightning": [
@@ -44323,6 +45169,18 @@
       "field": "word"
     }
   ],
+  "longer": [
+    {
+      "id": "en:long:adjective",
+      "field": "comparative"
+    }
+  ],
+  "longest": [
+    {
+      "id": "en:long:adjective",
+      "field": "superlative"
+    }
+  ],
   "longitudinal": [
     {
       "id": "en:longitudinal:adjective",
@@ -44579,6 +45437,18 @@
       "field": "word"
     }
   ],
+  "louder": [
+    {
+      "id": "en:loud:adjective",
+      "field": "comparative"
+    }
+  ],
+  "loudest": [
+    {
+      "id": "en:loud:adjective",
+      "field": "superlative"
+    }
+  ],
   "love": [
     {
       "id": "en:love:noun",
@@ -44635,6 +45505,18 @@
     {
       "id": "en:low-key:phrase",
       "field": "word"
+    }
+  ],
+  "lower": [
+    {
+      "id": "en:low:adjective",
+      "field": "comparative"
+    }
+  ],
+  "lowest": [
+    {
+      "id": "en:low:adjective",
+      "field": "superlative"
     }
   ],
   "loyal": [
@@ -47827,6 +48709,18 @@
       "field": "word"
     }
   ],
+  "mooder": [
+    {
+      "id": "en:mood:adjective",
+      "field": "comparative"
+    }
+  ],
+  "moodest": [
+    {
+      "id": "en:mood:adjective",
+      "field": "superlative"
+    }
+  ],
   "moody": [
     {
       "id": "en:moody:adjective",
@@ -48011,6 +48905,12 @@
       "field": "comparative"
     }
   ],
+  "more afraid": [
+    {
+      "id": "en:afraid:adjective",
+      "field": "comparative"
+    }
+  ],
   "more algorithmic": [
     {
       "id": "en:algorithmic:adjective",
@@ -48020,6 +48920,12 @@
   "more aloof": [
     {
       "id": "en:aloof:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more ancient": [
+    {
+      "id": "en:ancient:adjective",
       "field": "comparative"
     }
   ],
@@ -48041,15 +48947,33 @@
       "field": "comparative"
     }
   ],
+  "more beautiful": [
+    {
+      "id": "en:beautiful:adjective",
+      "field": "comparative"
+    }
+  ],
   "more biodegradable": [
     {
       "id": "en:biodegradable:adjective",
       "field": "comparative"
     }
   ],
+  "more boring": [
+    {
+      "id": "en:boring:adjective",
+      "field": "comparative"
+    }
+  ],
   "more brazen": [
     {
       "id": "en:brazen:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more bright": [
+    {
+      "id": "en:bright:adjective",
       "field": "comparative"
     }
   ],
@@ -48095,15 +49019,63 @@
       "field": "comparative"
     }
   ],
+  "more closed": [
+    {
+      "id": "en:closed:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more colorful": [
+    {
+      "id": "en:colorful:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more colour": [
+    {
+      "id": "en:colour:adjective",
+      "field": "comparative"
+    }
+  ],
   "more committed": [
     {
       "id": "en:committed:adjective",
       "field": "comparative"
     }
   ],
+  "more complicated": [
+    {
+      "id": "en:complicated:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more confused": [
+    {
+      "id": "en:confused:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more correct": [
+    {
+      "id": "en:correct:adjective",
+      "field": "comparative"
+    }
+  ],
   "more crucial": [
     {
       "id": "en:crucial:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more curved": [
+    {
+      "id": "en:curved:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more dangerous": [
+    {
+      "id": "en:dangerous:adjective",
       "field": "comparative"
     }
   ],
@@ -48119,6 +49091,12 @@
       "field": "comparative"
     }
   ],
+  "more delicious": [
+    {
+      "id": "en:delicious:noun",
+      "field": "comparative"
+    }
+  ],
   "more demanding": [
     {
       "id": "en:demanding:adjective",
@@ -48128,6 +49106,18 @@
   "more detached": [
     {
       "id": "en:detached:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more different": [
+    {
+      "id": "en:different:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more difficult": [
+    {
+      "id": "en:difficult:adjective",
       "field": "comparative"
     }
   ],
@@ -48161,6 +49151,12 @@
       "field": "comparative"
     }
   ],
+  "more excited": [
+    {
+      "id": "en:excited:adjective",
+      "field": "comparative"
+    }
+  ],
   "more exemplary": [
     {
       "id": "en:exemplary:adjective",
@@ -48179,9 +49175,27 @@
       "field": "comparative"
     }
   ],
+  "more famous": [
+    {
+      "id": "en:famous:adjective",
+      "field": "comparative"
+    }
+  ],
   "more fascinated": [
     {
       "id": "en:fascinated:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more favorite": [
+    {
+      "id": "en:favorite:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more feeling": [
+    {
+      "id": "en:feeling:adjective",
       "field": "comparative"
     }
   ],
@@ -48221,6 +49235,12 @@
       "field": "comparative"
     }
   ],
+  "more grey/gray": [
+    {
+      "id": "en:grey-gray:adjective",
+      "field": "comparative"
+    }
+  ],
   "more heuristic": [
     {
       "id": "en:heuristic:adjective",
@@ -48245,6 +49265,12 @@
       "field": "comparative"
     }
   ],
+  "more important": [
+    {
+      "id": "en:important:adjective",
+      "field": "comparative"
+    }
+  ],
   "more importantly": [
     {
       "id": "en:more-importantly:phrase",
@@ -48266,6 +49292,12 @@
   "more inconsistent": [
     {
       "id": "en:inconsistent:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more incorrect": [
+    {
+      "id": "en:incorrect:adjective",
       "field": "comparative"
     }
   ],
@@ -48307,6 +49339,10 @@
   ],
   "more interesting": [
     {
+      "id": "en:interesting:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:more-interesting:adverb",
       "field": "word"
     }
@@ -48335,15 +49371,33 @@
       "field": "comparative"
     }
   ],
+  "more locked": [
+    {
+      "id": "en:locked:adjective",
+      "field": "comparative"
+    }
+  ],
   "more loyal": [
     {
       "id": "en:loyal:adjective",
       "field": "comparative"
     }
   ],
+  "more main": [
+    {
+      "id": "en:main:adjective",
+      "field": "comparative"
+    }
+  ],
   "more malicious": [
     {
       "id": "en:malicious:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more married": [
+    {
+      "id": "en:married:adjective",
       "field": "comparative"
     }
   ],
@@ -48359,6 +49413,12 @@
       "field": "comparative"
     }
   ],
+  "more modern": [
+    {
+      "id": "en:modern:adjective",
+      "field": "comparative"
+    }
+  ],
   "more momentary": [
     {
       "id": "en:momentary:adjective",
@@ -48368,6 +49428,18 @@
   "more munificent": [
     {
       "id": "en:munificent:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more nervous": [
+    {
+      "id": "en:nervous:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more normal": [
+    {
+      "id": "en:normal:adjective",
       "field": "comparative"
     }
   ],
@@ -48381,6 +49453,12 @@
     {
       "id": "en:more-often-than-not:phrase",
       "field": "word"
+    }
+  ],
+  "more open": [
+    {
+      "id": "en:open:adjective",
+      "field": "comparative"
     }
   ],
   "more opulent": [
@@ -48410,6 +49488,12 @@
   "more overwhelming": [
     {
       "id": "en:overwhelming:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more own": [
+    {
+      "id": "en:own:adjective",
       "field": "comparative"
     }
   ],
@@ -48449,6 +49533,12 @@
       "field": "comparative"
     }
   ],
+  "more previous": [
+    {
+      "id": "en:previous:adjective",
+      "field": "comparative"
+    }
+  ],
   "more primary": [
     {
       "id": "en:primary:adjective",
@@ -48461,6 +49551,12 @@
       "field": "comparative"
     }
   ],
+  "more public": [
+    {
+      "id": "en:public:adjective",
+      "field": "comparative"
+    }
+  ],
   "more redoubtable": [
     {
       "id": "en:redoubtable:adjective",
@@ -48470,6 +49566,12 @@
   "more refractory": [
     {
       "id": "en:refractory:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more relaxed": [
+    {
+      "id": "en:relaxed:adjective",
       "field": "comparative"
     }
   ],
@@ -48503,9 +49605,27 @@
       "field": "comparative"
     }
   ],
+  "more right": [
+    {
+      "id": "en:right:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more same": [
+    {
+      "id": "en:same:adjective",
+      "field": "comparative"
+    }
+  ],
   "more satisfactory": [
     {
       "id": "en:satisfactory:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more scared": [
+    {
+      "id": "en:scared:adjective",
       "field": "comparative"
     }
   ],
@@ -48521,9 +49641,39 @@
       "field": "comparative"
     }
   ],
+  "more silent": [
+    {
+      "id": "en:silent:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more similar": [
+    {
+      "id": "en:similar:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more single": [
+    {
+      "id": "en:single:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more smooth": [
+    {
+      "id": "en:smooth:adjective",
+      "field": "comparative"
+    }
+  ],
   "more spartan": [
     {
       "id": "en:spartan:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more special": [
+    {
+      "id": "en:special:adjective",
       "field": "comparative"
     }
   ],
@@ -48539,6 +49689,18 @@
       "field": "comparative"
     }
   ],
+  "more straight": [
+    {
+      "id": "en:straight:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more surprised": [
+    {
+      "id": "en:surprised:adjective",
+      "field": "comparative"
+    }
+  ],
   "more synthetic": [
     {
       "id": "en:synthetic:adjective",
@@ -48548,6 +49710,12 @@
   "more tangible": [
     {
       "id": "en:tangible:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more terrible": [
+    {
+      "id": "en:terrible:adjective",
       "field": "comparative"
     }
   ],
@@ -48561,6 +49729,12 @@
     {
       "id": "en:more-than-half:phrase",
       "field": "word"
+    }
+  ],
+  "more traditional": [
+    {
+      "id": "en:traditional:adjective",
+      "field": "comparative"
     }
   ],
   "more unabated": [
@@ -48647,6 +49821,12 @@
       "field": "comparative"
     }
   ],
+  "more wonderful": [
+    {
+      "id": "en:wonderful:adjective",
+      "field": "comparative"
+    }
+  ],
   "more worldwide": [
     {
       "id": "en:worldwide:adjective",
@@ -48654,6 +49834,18 @@
     },
     {
       "id": "en:worldwide:adverb",
+      "field": "comparative"
+    }
+  ],
+  "more worried": [
+    {
+      "id": "en:worried:adjective",
+      "field": "comparative"
+    }
+  ],
+  "more wrong": [
+    {
+      "id": "en:wrong:adjective",
       "field": "comparative"
     }
   ],
@@ -48789,6 +49981,12 @@
       "field": "superlative"
     }
   ],
+  "most afraid": [
+    {
+      "id": "en:afraid:adjective",
+      "field": "superlative"
+    }
+  ],
   "most algorithmic": [
     {
       "id": "en:algorithmic:adjective",
@@ -48798,6 +49996,12 @@
   "most aloof": [
     {
       "id": "en:aloof:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most ancient": [
+    {
+      "id": "en:ancient:adjective",
       "field": "superlative"
     }
   ],
@@ -48819,15 +50023,33 @@
       "field": "superlative"
     }
   ],
+  "most beautiful": [
+    {
+      "id": "en:beautiful:adjective",
+      "field": "superlative"
+    }
+  ],
   "most biodegradable": [
     {
       "id": "en:biodegradable:adjective",
       "field": "superlative"
     }
   ],
+  "most boring": [
+    {
+      "id": "en:boring:adjective",
+      "field": "superlative"
+    }
+  ],
   "most brazen": [
     {
       "id": "en:brazen:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most bright": [
+    {
+      "id": "en:bright:adjective",
       "field": "superlative"
     }
   ],
@@ -48873,15 +50095,63 @@
       "field": "superlative"
     }
   ],
+  "most closed": [
+    {
+      "id": "en:closed:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most colorful": [
+    {
+      "id": "en:colorful:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most colour": [
+    {
+      "id": "en:colour:adjective",
+      "field": "superlative"
+    }
+  ],
   "most committed": [
     {
       "id": "en:committed:adjective",
       "field": "superlative"
     }
   ],
+  "most complicated": [
+    {
+      "id": "en:complicated:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most confused": [
+    {
+      "id": "en:confused:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most correct": [
+    {
+      "id": "en:correct:adjective",
+      "field": "superlative"
+    }
+  ],
   "most crucial": [
     {
       "id": "en:crucial:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most curved": [
+    {
+      "id": "en:curved:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most dangerous": [
+    {
+      "id": "en:dangerous:adjective",
       "field": "superlative"
     }
   ],
@@ -48897,6 +50167,12 @@
       "field": "superlative"
     }
   ],
+  "most delicious": [
+    {
+      "id": "en:delicious:noun",
+      "field": "superlative"
+    }
+  ],
   "most demanding": [
     {
       "id": "en:demanding:adjective",
@@ -48906,6 +50182,18 @@
   "most detached": [
     {
       "id": "en:detached:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most different": [
+    {
+      "id": "en:different:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most difficult": [
+    {
+      "id": "en:difficult:adjective",
       "field": "superlative"
     }
   ],
@@ -48939,6 +50227,12 @@
       "field": "superlative"
     }
   ],
+  "most excited": [
+    {
+      "id": "en:excited:adjective",
+      "field": "superlative"
+    }
+  ],
   "most exemplary": [
     {
       "id": "en:exemplary:adjective",
@@ -48951,9 +50245,27 @@
       "field": "superlative"
     }
   ],
+  "most famous": [
+    {
+      "id": "en:famous:adjective",
+      "field": "superlative"
+    }
+  ],
   "most fascinated": [
     {
       "id": "en:fascinated:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most favorite": [
+    {
+      "id": "en:favorite:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most feeling": [
+    {
+      "id": "en:feeling:adjective",
       "field": "superlative"
     }
   ],
@@ -48993,6 +50305,12 @@
       "field": "superlative"
     }
   ],
+  "most grey/gray": [
+    {
+      "id": "en:grey-gray:adjective",
+      "field": "superlative"
+    }
+  ],
   "most heuristic": [
     {
       "id": "en:heuristic:adjective",
@@ -49017,6 +50335,12 @@
       "field": "superlative"
     }
   ],
+  "most important": [
+    {
+      "id": "en:important:adjective",
+      "field": "superlative"
+    }
+  ],
   "most inappropriate": [
     {
       "id": "en:inappropriate:adjective",
@@ -49032,6 +50356,12 @@
   "most inconsistent": [
     {
       "id": "en:inconsistent:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most incorrect": [
+    {
+      "id": "en:incorrect:adjective",
       "field": "superlative"
     }
   ],
@@ -49071,6 +50401,12 @@
       "field": "superlative"
     }
   ],
+  "most interesting": [
+    {
+      "id": "en:interesting:adjective",
+      "field": "superlative"
+    }
+  ],
   "most intractable": [
     {
       "id": "en:intractable:adjective",
@@ -49095,15 +50431,33 @@
       "field": "superlative"
     }
   ],
+  "most locked": [
+    {
+      "id": "en:locked:adjective",
+      "field": "superlative"
+    }
+  ],
   "most loyal": [
     {
       "id": "en:loyal:adjective",
       "field": "superlative"
     }
   ],
+  "most main": [
+    {
+      "id": "en:main:adjective",
+      "field": "superlative"
+    }
+  ],
   "most malicious": [
     {
       "id": "en:malicious:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most married": [
+    {
+      "id": "en:married:adjective",
       "field": "superlative"
     }
   ],
@@ -49119,6 +50473,12 @@
       "field": "superlative"
     }
   ],
+  "most modern": [
+    {
+      "id": "en:modern:adjective",
+      "field": "superlative"
+    }
+  ],
   "most momentary": [
     {
       "id": "en:momentary:adjective",
@@ -49128,6 +50488,18 @@
   "most munificent": [
     {
       "id": "en:munificent:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most nervous": [
+    {
+      "id": "en:nervous:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most normal": [
+    {
+      "id": "en:normal:adjective",
       "field": "superlative"
     }
   ],
@@ -49141,6 +50513,12 @@
     {
       "id": "en:most-of:noun",
       "field": "word"
+    }
+  ],
+  "most open": [
+    {
+      "id": "en:open:adjective",
+      "field": "superlative"
     }
   ],
   "most opulent": [
@@ -49164,6 +50542,12 @@
   "most overwhelming": [
     {
       "id": "en:overwhelming:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most own": [
+    {
+      "id": "en:own:adjective",
       "field": "superlative"
     }
   ],
@@ -49203,6 +50587,12 @@
       "field": "superlative"
     }
   ],
+  "most previous": [
+    {
+      "id": "en:previous:adjective",
+      "field": "superlative"
+    }
+  ],
   "most primary": [
     {
       "id": "en:primary:adjective",
@@ -49215,6 +50605,12 @@
       "field": "superlative"
     }
   ],
+  "most public": [
+    {
+      "id": "en:public:adjective",
+      "field": "superlative"
+    }
+  ],
   "most redoubtable": [
     {
       "id": "en:redoubtable:adjective",
@@ -49224,6 +50620,12 @@
   "most refractory": [
     {
       "id": "en:refractory:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most relaxed": [
+    {
+      "id": "en:relaxed:adjective",
       "field": "superlative"
     }
   ],
@@ -49257,9 +50659,27 @@
       "field": "superlative"
     }
   ],
+  "most right": [
+    {
+      "id": "en:right:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most same": [
+    {
+      "id": "en:same:adjective",
+      "field": "superlative"
+    }
+  ],
   "most satisfactory": [
     {
       "id": "en:satisfactory:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most scared": [
+    {
+      "id": "en:scared:adjective",
       "field": "superlative"
     }
   ],
@@ -49275,9 +50695,39 @@
       "field": "superlative"
     }
   ],
+  "most silent": [
+    {
+      "id": "en:silent:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most similar": [
+    {
+      "id": "en:similar:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most single": [
+    {
+      "id": "en:single:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most smooth": [
+    {
+      "id": "en:smooth:adjective",
+      "field": "superlative"
+    }
+  ],
   "most spartan": [
     {
       "id": "en:spartan:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most special": [
+    {
+      "id": "en:special:adjective",
       "field": "superlative"
     }
   ],
@@ -49293,6 +50743,18 @@
       "field": "superlative"
     }
   ],
+  "most straight": [
+    {
+      "id": "en:straight:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most surprised": [
+    {
+      "id": "en:surprised:adjective",
+      "field": "superlative"
+    }
+  ],
   "most synthetic": [
     {
       "id": "en:synthetic:adjective",
@@ -49302,6 +50764,18 @@
   "most tangible": [
     {
       "id": "en:tangible:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most terrible": [
+    {
+      "id": "en:terrible:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most traditional": [
+    {
+      "id": "en:traditional:adjective",
       "field": "superlative"
     }
   ],
@@ -49389,6 +50863,12 @@
       "field": "superlative"
     }
   ],
+  "most wonderful": [
+    {
+      "id": "en:wonderful:adjective",
+      "field": "superlative"
+    }
+  ],
   "most worldwide": [
     {
       "id": "en:worldwide:adjective",
@@ -49396,6 +50876,18 @@
     },
     {
       "id": "en:worldwide:adverb",
+      "field": "superlative"
+    }
+  ],
+  "most worried": [
+    {
+      "id": "en:worried:adjective",
+      "field": "superlative"
+    }
+  ],
+  "most wrong": [
+    {
+      "id": "en:wrong:adjective",
       "field": "superlative"
     }
   ],
@@ -49480,6 +50972,18 @@
   "motorbikes": [
     {
       "id": "en:motorbike:noun",
+      "field": "plural_form"
+    }
+  ],
+  "motorcycle": [
+    {
+      "id": "en:motorcycle:noun",
+      "field": "word"
+    }
+  ],
+  "motorcycles": [
+    {
+      "id": "en:motorcycle:noun",
       "field": "plural_form"
     }
   ],
@@ -50141,6 +51645,18 @@
       "field": "word"
     }
   ],
+  "narrower": [
+    {
+      "id": "en:narrow:adjective",
+      "field": "comparative"
+    }
+  ],
+  "narrowest": [
+    {
+      "id": "en:narrow:adjective",
+      "field": "superlative"
+    }
+  ],
   "nascent": [
     {
       "id": "en:nascent:adjective",
@@ -50445,6 +51961,18 @@
     {
       "id": "en:nearby:noun",
       "field": "word"
+    }
+  ],
+  "nearer": [
+    {
+      "id": "en:near:adjective",
+      "field": "comparative"
+    }
+  ],
+  "nearest": [
+    {
+      "id": "en:near:adjective",
+      "field": "superlative"
     }
   ],
   "nearly": [
@@ -50929,6 +52457,18 @@
       "field": "plural_form"
     }
   ],
+  "newer": [
+    {
+      "id": "en:new:adjective",
+      "field": "comparative"
+    }
+  ],
+  "newest": [
+    {
+      "id": "en:new:adjective",
+      "field": "superlative"
+    }
+  ],
   "news": [
     {
       "id": "en:news:noun",
@@ -51039,6 +52579,18 @@
     {
       "id": "en:nice-to-meet-you-too:phrase",
       "field": "word"
+    }
+  ],
+  "nicer": [
+    {
+      "id": "en:nice:adjective",
+      "field": "comparative"
+    }
+  ],
+  "nicest": [
+    {
+      "id": "en:nice:adjective",
+      "field": "superlative"
     }
   ],
   "niche": [
@@ -51273,6 +52825,18 @@
     {
       "id": "en:noise:noun",
       "field": "plural_form"
+    }
+  ],
+  "noisier": [
+    {
+      "id": "en:noisy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "noisiest": [
+    {
+      "id": "en:noisy:adjective",
+      "field": "superlative"
     }
   ],
   "noisy": [
@@ -52519,6 +54083,18 @@
       "field": "word"
     }
   ],
+  "older": [
+    {
+      "id": "en:old:adjective",
+      "field": "comparative"
+    }
+  ],
+  "oldest": [
+    {
+      "id": "en:old:adjective",
+      "field": "superlative"
+    }
+  ],
   "oligarchies": [
     {
       "id": "en:oligarchy:noun",
@@ -53327,10 +54903,22 @@
       "field": "word"
     }
   ],
+  "oranger": [
+    {
+      "id": "en:orange:adjective",
+      "field": "comparative"
+    }
+  ],
   "oranges": [
     {
       "id": "en:orange:noun",
       "field": "plural_form"
+    }
+  ],
+  "orangest": [
+    {
+      "id": "en:orange:adjective",
+      "field": "superlative"
     }
   ],
   "orchestra": [
@@ -56603,6 +58191,18 @@
       "field": "word"
     }
   ],
+  "pinker": [
+    {
+      "id": "en:pink:adjective",
+      "field": "comparative"
+    }
+  ],
+  "pinkest": [
+    {
+      "id": "en:pink:adjective",
+      "field": "superlative"
+    }
+  ],
   "pinpoint": [
     {
       "id": "en:pinpoint:verb",
@@ -57431,6 +59031,18 @@
       "field": "word"
     }
   ],
+  "politer": [
+    {
+      "id": "en:polite:adjective",
+      "field": "comparative"
+    }
+  ],
+  "politest": [
+    {
+      "id": "en:polite:adjective",
+      "field": "superlative"
+    }
+  ],
   "political": [
     {
       "id": "en:political:adjective",
@@ -57537,6 +59149,18 @@
     {
       "id": "en:poor:adjective",
       "field": "word"
+    }
+  ],
+  "poorer": [
+    {
+      "id": "en:poor:adjective",
+      "field": "comparative"
+    }
+  ],
+  "poorest": [
+    {
+      "id": "en:poor:adjective",
+      "field": "superlative"
     }
   ],
   "popular": [
@@ -58477,6 +60101,18 @@
       "field": "word"
     }
   ],
+  "prettier": [
+    {
+      "id": "en:pretty:adjective",
+      "field": "comparative"
+    }
+  ],
+  "prettiest": [
+    {
+      "id": "en:pretty:adjective",
+      "field": "superlative"
+    }
+  ],
   "pretty": [
     {
       "id": "en:pretty:adjective",
@@ -58875,6 +60511,18 @@
     {
       "id": "en:private-transport:noun",
       "field": "word"
+    }
+  ],
+  "privater": [
+    {
+      "id": "en:private:adjective",
+      "field": "comparative"
+    }
+  ],
+  "privatest": [
+    {
+      "id": "en:private:adjective",
+      "field": "superlative"
     }
   ],
   "privatization": [
@@ -59737,6 +61385,18 @@
       "field": "word"
     }
   ],
+  "prouder": [
+    {
+      "id": "en:proud:adjective",
+      "field": "comparative"
+    }
+  ],
+  "proudest": [
+    {
+      "id": "en:proud:adjective",
+      "field": "superlative"
+    }
+  ],
   "prove": [
     {
       "id": "en:prove:verb",
@@ -60207,6 +61867,18 @@
       "field": "word"
     }
   ],
+  "purpler": [
+    {
+      "id": "en:purple:adjective",
+      "field": "comparative"
+    }
+  ],
+  "purplest": [
+    {
+      "id": "en:purple:adjective",
+      "field": "superlative"
+    }
+  ],
   "purpose": [
     {
       "id": "en:purpose:noun",
@@ -60627,6 +62299,18 @@
       "field": "word"
     }
   ],
+  "quicker": [
+    {
+      "id": "en:quick:adjective",
+      "field": "comparative"
+    }
+  ],
+  "quickest": [
+    {
+      "id": "en:quick:adjective",
+      "field": "superlative"
+    }
+  ],
   "quickly": [
     {
       "id": "en:quickly:adverb",
@@ -60659,6 +62343,18 @@
     {
       "id": "en:quiet-quitting:phrase",
       "field": "word"
+    }
+  ],
+  "quieter": [
+    {
+      "id": "en:quiet:adjective",
+      "field": "comparative"
+    }
+  ],
+  "quietest": [
+    {
+      "id": "en:quiet:adjective",
+      "field": "superlative"
     }
   ],
   "quintessence": [
@@ -60879,6 +62575,18 @@
     {
       "id": "en:rainforest:noun",
       "field": "plural_form"
+    }
+  ],
+  "rainier": [
+    {
+      "id": "en:rainy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "rainiest": [
+    {
+      "id": "en:rainy:adjective",
+      "field": "superlative"
     }
   ],
   "rainy": [
@@ -61261,6 +62969,18 @@
       "field": "word"
     }
   ],
+  "readier": [
+    {
+      "id": "en:ready:adjective",
+      "field": "comparative"
+    }
+  ],
+  "readiest": [
+    {
+      "id": "en:ready:adjective",
+      "field": "superlative"
+    }
+  ],
   "reading": [
     {
       "id": "en:reading:noun",
@@ -61325,6 +63045,18 @@
     {
       "id": "en:real-estate-agent:noun",
       "field": "plural_form"
+    }
+  ],
+  "realer": [
+    {
+      "id": "en:real:adjective",
+      "field": "comparative"
+    }
+  ],
+  "realest": [
+    {
+      "id": "en:real:adjective",
+      "field": "superlative"
     }
   ],
   "realise": [
@@ -61911,6 +63643,18 @@
     {
       "id": "en:red-tape:noun",
       "field": "word"
+    }
+  ],
+  "redder": [
+    {
+      "id": "en:red:adjective",
+      "field": "comparative"
+    }
+  ],
+  "reddest": [
+    {
+      "id": "en:red:adjective",
+      "field": "superlative"
     }
   ],
   "redistribution": [
@@ -64305,6 +66049,18 @@
       "field": "word"
     }
   ],
+  "richer": [
+    {
+      "id": "en:rich:adjective",
+      "field": "comparative"
+    }
+  ],
+  "richest": [
+    {
+      "id": "en:rich:adjective",
+      "field": "superlative"
+    }
+  ],
   "ride": [
     {
       "id": "en:ride:noun",
@@ -64869,6 +66625,18 @@
       "field": "word"
     }
   ],
+  "rougher": [
+    {
+      "id": "en:rough:adjective",
+      "field": "comparative"
+    }
+  ],
+  "roughest": [
+    {
+      "id": "en:rough:adjective",
+      "field": "superlative"
+    }
+  ],
   "roughly": [
     {
       "id": "en:roughly:noun",
@@ -64913,6 +66681,18 @@
     {
       "id": "en:roundabout:noun",
       "field": "plural_form"
+    }
+  ],
+  "rounder": [
+    {
+      "id": "en:round:adjective",
+      "field": "comparative"
+    }
+  ],
+  "roundest": [
+    {
+      "id": "en:round:adjective",
+      "field": "superlative"
     }
   ],
   "rounds": [
@@ -64985,6 +66765,18 @@
     {
       "id": "en:rude:adjective",
       "field": "word"
+    }
+  ],
+  "ruder": [
+    {
+      "id": "en:rude:adjective",
+      "field": "comparative"
+    }
+  ],
+  "rudest": [
+    {
+      "id": "en:rude:adjective",
+      "field": "superlative"
     }
   ],
   "rudimentary": [
@@ -65275,6 +67067,18 @@
       "field": "word"
     }
   ],
+  "sadder": [
+    {
+      "id": "en:sad:adjective",
+      "field": "comparative"
+    }
+  ],
+  "saddest": [
+    {
+      "id": "en:sad:adjective",
+      "field": "superlative"
+    }
+  ],
   "sadness": [
     {
       "id": "en:sadness:adjective",
@@ -65285,6 +67089,18 @@
     {
       "id": "en:safe:adjective",
       "field": "word"
+    }
+  ],
+  "safer": [
+    {
+      "id": "en:safe:adjective",
+      "field": "comparative"
+    }
+  ],
+  "safest": [
+    {
+      "id": "en:safe:adjective",
+      "field": "superlative"
     }
   ],
   "safety": [
@@ -67641,6 +69457,18 @@
       "field": "plural_form"
     }
   ],
+  "shier": [
+    {
+      "id": "en:shy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "shiest": [
+    {
+      "id": "en:shy:adjective",
+      "field": "superlative"
+    }
+  ],
   "shift": [
     {
       "id": "en:shift:noun",
@@ -67857,6 +69685,18 @@
       "field": "plural_form"
     }
   ],
+  "shorter": [
+    {
+      "id": "en:short:adjective",
+      "field": "comparative"
+    }
+  ],
+  "shortest": [
+    {
+      "id": "en:short:adjective",
+      "field": "superlative"
+    }
+  ],
   "shorts": [
     {
       "id": "en:shorts:noun",
@@ -67959,6 +69799,18 @@
     {
       "id": "en:shut:adjective",
       "field": "word"
+    }
+  ],
+  "shutter": [
+    {
+      "id": "en:shut:adjective",
+      "field": "comparative"
+    }
+  ],
+  "shuttest": [
+    {
+      "id": "en:shut:adjective",
+      "field": "superlative"
     }
   ],
   "shuttle bus": [
@@ -68183,6 +70035,18 @@
       "field": "word"
     }
   ],
+  "silverer": [
+    {
+      "id": "en:silver:adjective",
+      "field": "comparative"
+    }
+  ],
+  "silverest": [
+    {
+      "id": "en:silver:adjective",
+      "field": "superlative"
+    }
+  ],
   "sim card": [
     {
       "id": "en:sim-card:noun",
@@ -68227,6 +70091,18 @@
     {
       "id": "en:simple:adjective",
       "field": "word"
+    }
+  ],
+  "simpler": [
+    {
+      "id": "en:simple:adjective",
+      "field": "comparative"
+    }
+  ],
+  "simplest": [
+    {
+      "id": "en:simple:adjective",
+      "field": "superlative"
     }
   ],
   "simulate": [
@@ -68745,6 +70621,18 @@
       "field": "plural_form"
     }
   ],
+  "sleepier": [
+    {
+      "id": "en:sleepy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "sleepiest": [
+    {
+      "id": "en:sleepy:adjective",
+      "field": "superlative"
+    }
+  ],
   "sleeping bag": [
     {
       "id": "en:sleeping-bag:noun",
@@ -68859,11 +70747,19 @@
   ],
   "slower": [
     {
+      "id": "en:slow:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:slower:adverb",
       "field": "word"
     }
   ],
   "slowest": [
+    {
+      "id": "en:slow:adjective",
+      "field": "superlative"
+    },
     {
       "id": "en:slowest:adverb",
       "field": "word"
@@ -68905,20 +70801,30 @@
   ],
   "smaller": [
     {
+      "id": "en:small:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:small:noun",
+      "field": "comparative"
+    },
+    {
       "id": "en:smaller:adverb",
       "field": "word"
     }
   ],
   "smallest": [
     {
-      "id": "en:smallest:adverb",
-      "field": "word"
-    }
-  ],
-  "smalls": [
+      "id": "en:small:adjective",
+      "field": "superlative"
+    },
     {
       "id": "en:small:noun",
-      "field": "plural_form"
+      "field": "superlative"
+    },
+    {
+      "id": "en:smallest:adverb",
+      "field": "word"
     }
   ],
   "smart": [
@@ -69031,6 +70937,18 @@
     {
       "id": "en:snowboarding:noun",
       "field": "word"
+    }
+  ],
+  "snowier": [
+    {
+      "id": "en:snowy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "snowiest": [
+    {
+      "id": "en:snowy:adjective",
+      "field": "superlative"
     }
   ],
   "snowy": [
@@ -69473,6 +71391,18 @@
     {
       "id": "en:softening-disagreement:phrase",
       "field": "word"
+    }
+  ],
+  "softer": [
+    {
+      "id": "en:soft:adjective",
+      "field": "comparative"
+    }
+  ],
+  "softest": [
+    {
+      "id": "en:soft:adjective",
+      "field": "superlative"
     }
   ],
   "software": [
@@ -70285,6 +72215,18 @@
       "field": "word"
     }
   ],
+  "spicier": [
+    {
+      "id": "en:spicy:noun",
+      "field": "comparative"
+    }
+  ],
+  "spiciest": [
+    {
+      "id": "en:spicy:noun",
+      "field": "superlative"
+    }
+  ],
   "spicy": [
     {
       "id": "en:spicy:noun",
@@ -70597,10 +72539,22 @@
       "field": "word"
     }
   ],
+  "squarer": [
+    {
+      "id": "en:square:adjective",
+      "field": "comparative"
+    }
+  ],
   "squares": [
     {
       "id": "en:square:noun",
       "field": "plural_form"
+    }
+  ],
+  "squarest": [
+    {
+      "id": "en:square:adjective",
+      "field": "superlative"
     }
   ],
   "stabilize": [
@@ -71883,6 +73837,18 @@
       "field": "word"
     }
   ],
+  "stronger": [
+    {
+      "id": "en:strong:adjective",
+      "field": "comparative"
+    }
+  ],
+  "strongest": [
+    {
+      "id": "en:strong:adjective",
+      "field": "superlative"
+    }
+  ],
   "structural": [
     {
       "id": "en:structural:adjective",
@@ -72681,6 +74647,18 @@
       "field": "plural_form"
     }
   ],
+  "sunnier": [
+    {
+      "id": "en:sunny:adjective",
+      "field": "comparative"
+    }
+  ],
+  "sunniest": [
+    {
+      "id": "en:sunny:adjective",
+      "field": "superlative"
+    }
+  ],
   "sunny": [
     {
       "id": "en:sunny:adjective",
@@ -72987,6 +74965,18 @@
     {
       "id": "en:sure:verb",
       "field": "word"
+    }
+  ],
+  "surer": [
+    {
+      "id": "en:sure:adjective",
+      "field": "comparative"
+    }
+  ],
+  "surest": [
+    {
+      "id": "en:sure:adjective",
+      "field": "superlative"
     }
   ],
   "surfing": [
@@ -74251,6 +76241,18 @@
       "field": "word"
     }
   ],
+  "taller": [
+    {
+      "id": "en:tall:adjective",
+      "field": "comparative"
+    }
+  ],
+  "tallest": [
+    {
+      "id": "en:tall:adjective",
+      "field": "superlative"
+    }
+  ],
   "tame": [
     {
       "id": "en:tame:noun",
@@ -74381,6 +76383,18 @@
     {
       "id": "en:taste-like:verb",
       "field": "word"
+    }
+  ],
+  "tastier": [
+    {
+      "id": "en:tasty:noun",
+      "field": "comparative"
+    }
+  ],
+  "tastiest": [
+    {
+      "id": "en:tasty:noun",
+      "field": "superlative"
     }
   ],
   "tasting menu": [
@@ -76109,6 +78123,18 @@
       "field": "word"
     }
   ],
+  "thicker": [
+    {
+      "id": "en:thick:adjective",
+      "field": "comparative"
+    }
+  ],
+  "thickest": [
+    {
+      "id": "en:thick:adjective",
+      "field": "superlative"
+    }
+  ],
   "thin": [
     {
       "id": "en:thin:adjective",
@@ -76177,6 +78203,18 @@
       "field": "word"
     }
   ],
+  "thinner": [
+    {
+      "id": "en:thin:adjective",
+      "field": "comparative"
+    }
+  ],
+  "thinnest": [
+    {
+      "id": "en:thin:adjective",
+      "field": "superlative"
+    }
+  ],
   "third": [
     {
       "id": "en:third:adjective",
@@ -76209,6 +78247,18 @@
     {
       "id": "en:a-third:noun",
       "field": "plural_form"
+    }
+  ],
+  "thirstier": [
+    {
+      "id": "en:thirsty:adjective",
+      "field": "comparative"
+    }
+  ],
+  "thirstiest": [
+    {
+      "id": "en:thirsty:adjective",
+      "field": "superlative"
     }
   ],
   "thirsty": [
@@ -76553,6 +78603,18 @@
       "field": "plural_form"
     }
   ],
+  "tidier": [
+    {
+      "id": "en:tidy:noun",
+      "field": "comparative"
+    }
+  ],
+  "tidiest": [
+    {
+      "id": "en:tidy:noun",
+      "field": "superlative"
+    }
+  ],
   "tidy": [
     {
       "id": "en:tidy:adjective",
@@ -76711,6 +78773,18 @@
       "field": "superlative"
     }
   ],
+  "tinier": [
+    {
+      "id": "en:tiny:adjective",
+      "field": "comparative"
+    }
+  ],
+  "tiniest": [
+    {
+      "id": "en:tiny:adjective",
+      "field": "superlative"
+    }
+  ],
   "tinned": [
     {
       "id": "en:tinned:adjective",
@@ -76801,6 +78875,26 @@
     {
       "id": "en:tired:noun",
       "field": "word"
+    }
+  ],
+  "tireder": [
+    {
+      "id": "en:tired:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:tired:noun",
+      "field": "comparative"
+    }
+  ],
+  "tiredest": [
+    {
+      "id": "en:tired:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:tired:noun",
+      "field": "superlative"
     }
   ],
   "to": [
@@ -79733,6 +81827,18 @@
       "field": "word"
     }
   ],
+  "truer": [
+    {
+      "id": "en:true:adjective",
+      "field": "comparative"
+    }
+  ],
+  "truest": [
+    {
+      "id": "en:true:adjective",
+      "field": "superlative"
+    }
+  ],
   "truism": [
     {
       "id": "en:truism:noun",
@@ -80167,6 +82273,18 @@
     {
       "id": "en:ubiquitous:adjective",
       "field": "word"
+    }
+  ],
+  "uglier": [
+    {
+      "id": "en:ugly:adjective",
+      "field": "comparative"
+    }
+  ],
+  "ugliest": [
+    {
+      "id": "en:ugly:adjective",
+      "field": "superlative"
     }
   ],
   "ugly": [
@@ -81489,6 +83607,18 @@
     {
       "id": "en:usual:adjective",
       "field": "word"
+    }
+  ],
+  "usualer": [
+    {
+      "id": "en:usual:adjective",
+      "field": "comparative"
+    }
+  ],
+  "usualest": [
+    {
+      "id": "en:usual:adjective",
+      "field": "superlative"
     }
   ],
   "usually": [
@@ -83153,6 +85283,18 @@
       "field": "plural_form"
     }
   ],
+  "warmer": [
+    {
+      "id": "en:warm:adjective",
+      "field": "comparative"
+    }
+  ],
+  "warmest": [
+    {
+      "id": "en:warm:adjective",
+      "field": "superlative"
+    }
+  ],
   "warming": [
     {
       "id": "en:warming:noun",
@@ -83439,6 +85581,18 @@
     {
       "id": "en:weaken:verb",
       "field": "word"
+    }
+  ],
+  "weaker": [
+    {
+      "id": "en:weak:adjective",
+      "field": "comparative"
+    }
+  ],
+  "weakest": [
+    {
+      "id": "en:weak:adjective",
+      "field": "superlative"
     }
   ],
   "wealth": [
@@ -83845,6 +85999,18 @@
       "field": "plural_form"
     }
   ],
+  "wetter": [
+    {
+      "id": "en:wet:adjective",
+      "field": "comparative"
+    }
+  ],
+  "wettest": [
+    {
+      "id": "en:wet:adjective",
+      "field": "superlative"
+    }
+  ],
   "what": [
     {
       "id": "en:what:conjunction",
@@ -84239,6 +86405,18 @@
       "field": "plural_form"
     }
   ],
+  "whiter": [
+    {
+      "id": "en:white:adjective",
+      "field": "comparative"
+    }
+  ],
+  "whitest": [
+    {
+      "id": "en:white:adjective",
+      "field": "superlative"
+    }
+  ],
   "who": [
     {
       "id": "en:who:phrase",
@@ -84345,10 +86523,22 @@
       "field": "word"
     }
   ],
+  "wider": [
+    {
+      "id": "en:wide:adjective",
+      "field": "comparative"
+    }
+  ],
   "widespread": [
     {
       "id": "en:widespread:adjective",
       "field": "word"
+    }
+  ],
+  "widest": [
+    {
+      "id": "en:wide:adjective",
+      "field": "superlative"
     }
   ],
   "widow": [
@@ -84515,6 +86705,18 @@
     {
       "id": "en:wind-power:noun",
       "field": "word"
+    }
+  ],
+  "windier": [
+    {
+      "id": "en:windy:adjective",
+      "field": "comparative"
+    }
+  ],
+  "windiest": [
+    {
+      "id": "en:windy:adjective",
+      "field": "superlative"
     }
   ],
   "window": [
@@ -85187,6 +87389,10 @@
   ],
   "worse": [
     {
+      "id": "en:bad:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:worse:adverb",
       "field": "word"
     }
@@ -85198,6 +87404,10 @@
     }
   ],
   "worst": [
+    {
+      "id": "en:bad:adjective",
+      "field": "superlative"
+    },
     {
       "id": "en:worst:adverb",
       "field": "word"
@@ -85409,6 +87619,18 @@
       "field": "word"
     }
   ],
+  "yellower": [
+    {
+      "id": "en:yellow:adjective",
+      "field": "comparative"
+    }
+  ],
+  "yellowest": [
+    {
+      "id": "en:yellow:adjective",
+      "field": "superlative"
+    }
+  ],
   "yes": [
     {
       "id": "en:yes:phrase",
@@ -85567,6 +87789,18 @@
     {
       "id": "en:young-adult:noun",
       "field": "plural_form"
+    }
+  ],
+  "younger": [
+    {
+      "id": "en:young:adjective",
+      "field": "comparative"
+    }
+  ],
+  "youngest": [
+    {
+      "id": "en:young:adjective",
+      "field": "superlative"
     }
   ],
   "your": [
