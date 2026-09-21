@@ -313,8 +313,8 @@ All 494 German entries in `vocabulary/de/a0_a1/` were audited against the offici
 ### 11. Chuvash (`vocabulary/cv/a0_a1/`)
 
 - **Primary Reference Source**: **Ministry of Education of the Chuvash Republic (Чăваш чĕлхин калаçу минимумĕ / A1 Standard)**.
-- **Total Entries Audited**: 132
-- **Verified A0/A1 Compliant**: 132 (100.0%)
+- **Total Entries Audited**: 445
+- **Verified A0/A1 Compliant**: 445 (100.0%)
 - **Multi-Level Flagged**: 37 (28.0%)
 
 #### Multi-Level Entries Flagged against Chuvash Conversation Minimum A1
