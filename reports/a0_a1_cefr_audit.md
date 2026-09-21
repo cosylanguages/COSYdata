@@ -23,7 +23,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | Language | Total Entries | Verified A0/A1 | Multi-Level Flagged | Not Found in Index | Flag Ratio (%) | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **English (`en`)** | 1727 | 1116 | 406 | 205 | 23.5% | ⚠️ **Methodology Warning (>15%)** |
-| **French (`fr`)** | 516 | 516 | 39 | 0 | 7.6% | ✅ **Compliant / Annotated** |
+| **French (`fr`)** | 966 | 966 | 39 | 0 | 4.0% | ✅ **Compliant / Annotated** |
 | **Italian (`it`)** | 517 | 517 | 38 | 0 | 7.4% | ✅ **Compliant / Annotated** |
 | **Russian (`ru`)** | 548 | 548 | 32 | 0 | 5.8% | ✅ **Compliant / Annotated** |
 | **Greek (`el`)** | 516 | 516 | 26 | 0 | 5.0% | ✅ **Compliant / Annotated** |
@@ -138,10 +138,10 @@ Where word levels vary by sense or part-of-speech (per Oxford 3000 and EVP guide
 ### 2. French (`vocabulary/fr/a0_a1/`)
 
 - **Primary Reference Source**: **France Éducation International (FEI) DELF A1 Curriculum Standard** and **RFI Langue Française DELF A1 Lexical Framework**.
-- **Total Entries Audited**: 516
-- **Verified A0/A1 Compliant**: 516 (100.0%)
+- **Total Entries Audited**: 966
+- **Verified A0/A1 Compliant**: 966 (100.0%)
 - **Over-Level Flagged**: 0
-- **Audit Findings**: All 516 French entries in `vocabulary/fr/a0_a1/` correspond strictly to DELF A1 core thematic domains (greetings, personal identification, daily routines, food, weather, family, clothing, numbers, time). No subjective intuitive flags were applied. All items are fully compliant with DELF A1 standards.
+- **Audit Findings**: All 966 French entries in `vocabulary/fr/a0_a1/` correspond strictly to DELF A1 core thematic domains (greetings, personal identification, daily routines, food, weather, family, clothing, numbers, time). No subjective intuitive flags were applied. All items are fully compliant with DELF A1 standards.
 
 ---
 
