@@ -1,59 +1,17 @@
 [
   {
-    "id": "tt:bakcha:noun",
-    "word": "бакча",
-    "language": "tt",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/bakcha/",
-    "emoji": "🌳",
-    "definitions": [
-      "Шәһәрдә һәркем өчен кулланыла торган җәмәгать бакчасы яки зур яшел мәйдан."
-    ],
-    "examples": [
-      "Бакчада матур чәчәкләр үсә."
-    ],
-    "domain": "general",
-    "theme": "house_furniture",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "бакчалар"
-  },
-  {
-    "id": "tt:uryndyk:noun",
-    "word": "урындык",
-    "language": "tt",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/urɯnˈdɯq/",
-    "emoji": "🪑",
-    "definitions": [
-      "Утыру өчен җиһаз."
-    ],
-    "examples": [
-      "Бу урындыкка утыр."
-    ],
-    "domain": "general",
-    "theme": "house_furniture",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "урындыклар"
-  },
-  {
     "id": "tt:ostal:noun",
     "word": "өстәл",
     "language": "tt",
     "form": "noun",
     "level": "A1",
-    "transcription": "/østæl/",
+    "transcription": "/өстәл/",
     "emoji": "🪑",
     "definitions": [
-      "Дүрт аяклы җиһаз."
+      "Ашау яки язу өчен җиһаз."
     ],
     "examples": [
-      "Китап өстәлдә."
+      "Китап өстәлдә ята."
     ],
     "domain": "general",
     "theme": "house_furniture",
@@ -63,18 +21,39 @@
     "plural_form": "өстәлләр"
   },
   {
+    "id": "tt:uryndyk:noun",
+    "word": "урындык",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/урындык/",
+    "emoji": "🪑",
+    "definitions": [
+      "Утыру өчен җиһаз."
+    ],
+    "examples": [
+      "Урындыкка утыру."
+    ],
+    "domain": "general",
+    "theme": "house_furniture",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "урындыклар"
+  },
+  {
     "id": "tt:karavat:noun",
     "word": "карават",
     "language": "tt",
     "form": "noun",
     "level": "A1",
-    "transcription": "/karavat/",
+    "transcription": "/карават/",
     "emoji": "🛏️",
     "definitions": [
       "Йоклау өчен җиһаз."
     ],
     "examples": [
-      "Бу карават бик уңайлы."
+      "Караватта йоклау."
     ],
     "domain": "general",
     "theme": "house_furniture",
@@ -84,12 +63,33 @@
     "plural_form": "караватлар"
   },
   {
+    "id": "tt:shkaf:noun",
+    "word": "шкаф",
+    "language": "tt",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/шкаф/",
+    "emoji": "🚪",
+    "definitions": [
+      "Кием яки китап кую җиһазы."
+    ],
+    "examples": [
+      "Киемнәр шкафта."
+    ],
+    "domain": "general",
+    "theme": "house_furniture",
+    "updated": "2025-01-15",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "шкафлар"
+  },
+  {
     "id": "tt:achkych:noun",
     "word": "ачкыч",
     "language": "tt",
     "form": "noun",
     "level": "A1",
-    "transcription": "/atʃˈqɯtʃ/",
+    "transcription": "/ачкыч/",
     "emoji": "🔑",
     "definitions": [
       "Ишекне ачу өчен металл объект."
@@ -102,52 +102,27 @@
     "updated": "2025-01-15",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "ачкычлар",
-    "levels": [
-      "A1",
-      "A2"
-    ]
+    "plural_form": "ачкычлар"
   },
   {
-    "id": "tt:telefon:noun",
-    "word": "телефон",
+    "id": "tt:sumka:noun",
+    "word": "сумка",
     "language": "tt",
     "form": "noun",
     "level": "A1",
-    "transcription": "/telefon/",
-    "emoji": "📱",
+    "transcription": "/сумка/",
+    "emoji": "👜",
     "definitions": [
-      "Ерактагы кешеләр белән сөйләшү җайланмасы."
+      "Әйберләр ташу өчен савыт."
     ],
     "examples": [
-      "Минем телефоным эшләми."
+      "Мин әйберләремне сумкада йөртәм."
     ],
     "domain": "general",
     "theme": "house_furniture",
     "updated": "2025-01-15",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "телефоннар"
-  },
-  {
-    "id": "tt:oi:noun",
-    "word": "өй",
-    "language": "tt",
-    "form": "noun",
-    "level": "A1",
-    "transcription": "/øy/",
-    "emoji": "🏠",
-    "definitions": [
-      "Сез яши торган урын."
-    ],
-    "examples": [
-      "Мин өйгә соң кайтам."
-    ],
-    "domain": "general",
-    "theme": "house_furniture",
-    "updated": "2025-01-15",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "өйләр"
+    "plural_form": "сумкалар"
   }
 ]
