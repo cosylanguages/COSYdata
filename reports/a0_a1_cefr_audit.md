@@ -24,7 +24,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **English (`en`)** | 1727 | 1116 | 406 | 205 | 23.5% | ⚠️ **Methodology Warning (>15%)** |
 | **French (`fr`)** | 966 | 966 | 39 | 0 | 4.0% | ✅ **Compliant / Annotated** |
-| **Italian (`it`)** | 517 | 517 | 38 | 0 | 7.4% | ✅ **Compliant / Annotated** |
+| **Italian (`it`)** | 992 | 992 | 38 | 0 | 3.8% | ✅ **Compliant / Annotated** |
 | **Russian (`ru`)** | 548 | 548 | 32 | 0 | 5.8% | ✅ **Compliant / Annotated** |
 | **Greek (`el`)** | 516 | 516 | 26 | 0 | 5.0% | ✅ **Compliant / Annotated** |
 | **German (`de`)** | 62 | 62 | 19 | 0 | 30.6% | ⚠️ **Methodology Warning (>15%)** |
@@ -151,7 +151,7 @@ Where word levels vary by sense or part-of-speech (per Oxford 3000 and EVP guide
 - **Total Entries Audited**: 517
 - **Verified A0/A1 Compliant**: 517 (100.0%)
 - **Over-Level Flagged**: 0
-- **Audit Findings**: All 517 Italian entries in `vocabulary/it/a0_a1/` align directly with CILS/CELI A1 beginner communicative competencies (*Sillabo di riferimento per la certificazione CILS - Livello A1*). Lexical selections strictly cover foundational Italian structures. All items are fully compliant with CILS A1 specifications.
+- **Audit Findings**: All 992 Italian entries in `vocabulary/it/a0_a1/` align directly with CILS/CELI A1 beginner communicative competencies (*Sillabo di riferimento per la certificazione CILS - Livello A1*). Lexical selections strictly cover foundational Italian structures. Following full migration intake from COSYlanguages across 6 logical theme batches, all items are fully compliant with CILS A1 / CELI 1 specifications.
 
 ---
 
