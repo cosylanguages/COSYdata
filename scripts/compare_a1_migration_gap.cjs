@@ -79,6 +79,16 @@ function extractCosyLanguagesA1Words(lang) {
   const wordMap = new Map(); // word -> array of file origins
   if (!fs.existsSync(langDir)) return wordMap;
 
+  function processItem(item, fullPath) {
+    if (item && typeof item === 'object' && item.word && typeof item.word === 'string') {
+      const word = item.word.trim();
+      if (word) {
+        if (!wordMap.has(word)) wordMap.set(word, []);
+        wordMap.get(word).push(path.relative(cosyLanguagesDir, fullPath));
+      }
+    }
+  }
+
   function walkDir(dir) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     for (const entry of entries) {
@@ -87,18 +97,31 @@ function extractCosyLanguagesA1Words(lang) {
         walkDir(fullPath);
       } else if (entry.isFile() && entry.name.endsWith('.js')) {
         const code = fs.readFileSync(fullPath, 'utf8');
-        const sandbox = { window: {} };
+        const sandbox = { window: {}, module: {}, exports: {} };
         try {
           vm.runInNewContext(code, sandbox);
+
+          // 1. Standard window.vocabularyData[lang]
           const langData = sandbox.window.vocabularyData?.[lang] || [];
-          for (const item of langData) {
-            if (item.word && typeof item.word === 'string') {
-              const word = item.word.trim();
-              if (word) {
-                if (!wordMap.has(word)) wordMap.set(word, []);
-                wordMap.get(word).push(path.relative(cosyLanguagesDir, fullPath));
+          for (const item of langData) processItem(item, fullPath);
+
+          // 2. window.A1_MANUAL_CANON_ADDITIONS
+          if (Array.isArray(sandbox.window.A1_MANUAL_CANON_ADDITIONS)) {
+            for (const item of sandbox.window.A1_MANUAL_CANON_ADDITIONS) processItem(item, fullPath);
+          }
+
+          // 3. window.speakingData[lang]
+          if (sandbox.window.speakingData?.[lang]) {
+            Object.values(sandbox.window.speakingData[lang]).forEach(category => {
+              if (Array.isArray(category)) {
+                for (const item of category) processItem(item, fullPath);
               }
-            }
+            });
+          }
+
+          // 4. CommonJS module.exports
+          if (Array.isArray(sandbox.module.exports)) {
+            for (const item of sandbox.module.exports) processItem(item, fullPath);
           }
         } catch (err) {
           console.error(`Error evaluating JS file ${fullPath}:`, err.message);
@@ -222,17 +245,13 @@ function analyzeFunctionalPhrases() {
   }
 
   // Check COSYlanguages content
-  const cosyLanguagesCommDir = path.join(cosyLanguagesDir, 'communication');
-  const cosyLanguagesPracticeDir = path.join(cosyLanguagesDir, 'practice');
-  const cosyLanguagesA1Idioms = path.join(cosyLanguagesDir, 'vocabulary', 'en', 'A1');
-
   const langFilesChecked = [
     'communication/COMMUNICATION_STANDARD.md',
     'communication/_schema/communication.schema.json',
     'practice/types/writing/daily_data.js',
     'practice/types/writing/writing.js',
     'practice/types/concept-check/concept-check.js',
-    'vocabulary/en/A1/idioms.js (and Social/Opinion JS files)'
+    'vocabulary/en/A1/Other_POS/COMMUNICATION/Expressions/Social_Phrases.js'
   ];
 
   return {
