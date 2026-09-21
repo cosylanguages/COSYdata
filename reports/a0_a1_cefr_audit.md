@@ -32,7 +32,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **Portuguese (`pt`)** | 476 | 476 | 39 | 0 | 8.2% | ✅ **Compliant / Annotated** |
 | **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
 | **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
-| **Chuvash (`cv`)** | 132 | 132 | 37 | 0 | 28.0% | ⚠️ **Methodology Warning (>15%)** |
+| **Chuvash (`cv`)** | 445 | 445 | 37 | 0 | 8.3% | ✅ **Compliant / Annotated** |
 | **Armenian (`hy`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 | **Georgian (`ka`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 | **Tatar (`tt`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
@@ -313,8 +313,8 @@ All 494 German entries in `vocabulary/de/a0_a1/` were audited against the offici
 ### 11. Chuvash (`vocabulary/cv/a0_a1/`)
 
 - **Primary Reference Source**: **Ministry of Education of the Chuvash Republic (Чăваш чĕлхин калаçу минимумĕ / A1 Standard)**.
-- **Total Entries Audited**: 132
-- **Verified A0/A1 Compliant**: 132 (100.0%)
+- **Total Entries Audited**: 445
+- **Verified A0/A1 Compliant**: 445 (100.0%)
 - **Multi-Level Flagged**: 37 (28.0%)
 
 #### Multi-Level Entries Flagged against Chuvash Conversation Minimum A1
