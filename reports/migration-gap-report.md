@@ -12,18 +12,18 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 
 | Language | Code | COSYlanguages A1 Words | COSYdata A0/A1 Words | Exact Overlap | Candidates to Migrate (Only in COSYlanguages) | Kept / Extra in COSYdata | Likely Near-Duplicates | Classification |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| BA | `ba` | 379 | 61 | 61 | 318 | 0 | 0 | (b) Incomplete Migration |
+| BA | `ba` | 379 | 377 | 377 | 2 | 0 | 0 | (b) Incomplete Migration |
 | BR | `br` | 397 | 62 | 62 | 335 | 0 | 0 | (b) Incomplete Migration |
 | CV | `cv` | 449 | 132 | 132 | 317 | 0 | 0 | (b) Incomplete Migration |
 | DE | `de` | 479 | 494 | 468 | 11 | 26 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
-| EL | `el` | 301 | 509 | 122 | 179 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
+| EL | `el` | 301 | 670 | 283 | 18 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EN | `en` | 1298 | 1601 | 1274 | 24 | 327 | 4 | SuperSet / Complete Migration (Already Exceeds) |
 | ES | `es` | 391 | 482 | 391 | 0 | 91 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | FR | `fr` | 1033 | 964 | 822 | 211 | 142 | 6 | (b) Incomplete Migration |
 | HY | `hy` | 391 | 61 | 61 | 330 | 0 | 0 | (b) Incomplete Migration |
 | IT | `it` | 1154 | 513 | 401 | 753 | 112 | 5 | (b) Incomplete Migration |
 | KA | `ka` | 387 | 61 | 61 | 326 | 0 | 0 | (b) Incomplete Migration |
-| PT | `pt` | 393 | 124 | 33 | 360 | 91 | 0 | (b) Incomplete Migration |
+| PT | `pt` | 393 | 476 | 383 | 10 | 93 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | RU | `ru` | 465 | 792 | 380 | 85 | 412 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | TT | `tt` | 377 | 61 | 61 | 316 | 0 | 0 | (b) Incomplete Migration |
 
@@ -61,19 +61,19 @@ Conclusion: COSYdata's `functional-phrases/en` is the advanced single source of 
 ### BA (`ba`)
 
 - **COSYlanguages A1 Word Count:** 379
-- **COSYdata A0/A1 Word Count:** 61
-- **Exact Overlap Count:** 61
-- **Candidates to Migrate (Only in COSYlanguages):** 318 words
+- **COSYdata A0/A1 Word Count:** 377
+- **Exact Overlap Count:** 377
+- **Candidates to Migrate (Only in COSYlanguages):** 2 words
 - **COSYdata Unique Words (To Keep):** 0 words
 - **Likely Near-Duplicates:** 0 pairs
 - **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains only a placeholder / baseline set of 61 words (e.g. basic numbers/colors/family), whereas COSYlanguages contains 379 words. This indicates an unmigrated or barely started migration gap.
+- **Rationale:** COSYdata contains 377 words vs 379 in COSYlanguages. While substantial core vocabulary was migrated (377 exact overlap), significant vocabulary (2 words) remains in COSYlanguages awaiting intake.
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (318 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (2 words)</strong></summary>
 
 ```
-ағай, ағас, ай, АКШ, аҡ, аҡрын, аҡыллы, ал, алыу, Англия, аңлата, аңлатыу, аңлау, апай, арыған, ас, асыҡ, асыу, асыулы, ат, ауыр, ауырыу, Афина, аш бешереү, ашау, ашсы, әҙәпле, әйтеү, байрам, байрам итеү, балыҡ, барыу, баш, башҡа, башҡорт, башлау, башлыҡ, бәләкәй, бәхетле, бәхетһеҙ, бәһа, бейек, бейеү, белән, белеү, бер, бер үк, бесәй, бик насар, бик яҡшы, биреү, биш, бишбармаҡ, бороу, борсоулы, бөйөк, бөтөрөү, булдыра алыу, булыу, бурыслы булыу, буш, бүген, бүлешеү, бүре, бы, бысраҡ, Греция, ғәжәп, ғәжәпләнгән, ғорур, дауам итеү, дәрес, дәфтәр, диңгеҙ, дөрөҫ, дуҫтарса, дүрт, ҙур, ебәреү, елмәйеү, еңел, еңеү, заказ биреү, зәңгәр, идара итеү, ике, илау, иртәнге ашты ашау, Испания, иҫәпһеҙ яҡшы, Италия, ишетеү, йәйәү йөрөү, йәш, йәшәү, йәшел, йоҡларға ятыу, йоҡлау, йомшаҡ, йөҙөү, йүгереү, йығылыу, йыйыу, йылға, йылы, йырлау, йыуыу, камил, кәрәк булыу, кәрәкле, кәрәкһеҙ, кейеү, кеше, килеп етеү, килеү, килтереү, кисә, киҫеү, китеү, компьютер, коңғырт, көлкөлө, көслө, көсһөҙ, көтөү, күк, күлмәк, күнегеүҙәр эшләү, күңеле ҡайтҡан, күреү, күркәм, күрһәтеү, күсеү, ҡабатлау, ҡайтыу, ҡала, ҡалыу, ҡара, ҡарар итеү, ҡарау, ҡарт, ҡатнашыу, ҡаты, ҡиммәт, ҡоро, ҡот осҡос, ҡош, ҡояшлы, ҡулланыу, ҡурҡҡан, ҡурҡыныс, ҡуртымға алыу, ҡыҙғылт һары, ҡыҙыҡлы, ҡыҙыҡһыҙ, ҡыҙыл, ҡыҙыл э싩, ҡыйын, ләззәт алыу, ләкин, Лондон, май, матур, машина йөрөтөү, Мәскәү, мәшғүл, миһырбанлы, моңло, мөмкин, мөмкин түгел, мөһим, намыҫлы, насар, нәфрәт итеү, Нью-Йорк, оҙон, оҡшаш, олатай, олтороу, онлайн, онотоу, осоу, осрашыу, осһоҙ, ошатыу, өйрәнеү, өләсәй, өмит итеү, өс, өсөн, өҫтәү, Париж, популяр, Рәсәй, рәхмәт, рәхмәт әйтеү, риза булыу, Рим, саҡырыу, саф, сәйәхәт, сәйәхәт итеү, сәләмәт, сөнки, стресслы, табип, табыу, таҙа, таҙартыу, тамамлау, таныштырыу, тартыу, татар, ташыу, тәҡдим итеү, тәпәш, теләү, тиҙ, тикшереү, тойола, тойоу, тора, тороу, тотоноу, төҙөтеү, төҙөү, төшөү, туҡтау, тулҡынланған, тулы, тулы булмаған көн, тулы көн, тун, тупаҫ, тураһында, түбән, түгел, түләү, түләү алыу, тыныс, тыңлау, тырышыу, уйлау, уйнау, уҡытыу, уҡыу, урындыҡ, урыҫ, уяныу, үҙ эсенә алыу, үҙгәртеү, үҙенә ышанған, үҙенсәлекле, үкенесле, үлеү, үҫеү, үтеү, файҙалы, фантастик, Франция, хата, хәҙер, хәйерле иртә, хәтерләү, хәүефһеҙ, һағыныу, һайлау, һаҡлау, һалыу, һары, һатып алыу, һатыу, һау булығыҙ, һаумыһығыҙ, һауығыу, һәм, һәрваҡыт, һикереү, һорау, һоро, һөйләү, һөйләшеү, һуң, һүрәт төшөрөү, һыйыр, һыныу, һыуыҡ, чак-чак, шау-шыулы, шкаф, шофёр, шул, шыңғыртыу, ыштан, эйә булыу, эсеү, эҫе, этәреү, этеү, эшкә йөрөү, эшләп алыу, эшләү, юғалтыу, ябай, ябыҡ, ябыу, яҙыу, яки, яҡшы, ял итеү, ялҡау, ялыҡҡан, ямғырлы, яңғыҙ, яңы, яратыу, ярҙам итеү, яуап биреү
+бүген, ҡыҙыл э싩
 ```
 
 </details>
@@ -158,13 +158,13 @@ Abend, Abendessen, Arbeit, Auf Wiedersehen, Deutsch, Ehefrau, Ehemann, Ei, entsc
 ### EL (`el`)
 
 - **COSYlanguages A1 Word Count:** 301
-- **COSYdata A0/A1 Word Count:** 509
-- **Exact Overlap Count:** 122
-- **Candidates to Migrate (Only in COSYlanguages):** 179 words
+- **COSYdata A0/A1 Word Count:** 670
+- **Exact Overlap Count:** 283
+- **Candidates to Migrate (Only in COSYlanguages):** 18 words
 - **COSYdata Unique Words (To Keep):** 387 words
 - **Likely Near-Duplicates:** 1 pairs
 - **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
-- **Rationale:** COSYdata has 509 words vs 301 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
+- **Rationale:** COSYdata has 670 words vs 301 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
 #### Likely Near-Duplicates (1 pairs)
 | Candidate (COSYlanguages) | Existing (COSYdata) | Match Type |
@@ -172,10 +172,10 @@ Abend, Abendessen, Arbeit, Auf Wiedersehen, Deutsch, Ehefrau, Ehemann, Ei, entsc
 | `πορτοκαλί` | `πορτοκάλι` | Accent / Diacritic variant |
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (179 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (18 words)</strong></summary>
 
 ```
-αγαπώ, Άγγλος, αγενής, αγχωμένος, αδύνατος, Αθήνα, ακολουθώ, ακριβός, ακυρώνω, αναρρώνω, ανήκω, ανήσυχος, απαίσιος, απαντώ, απαραίτητος, απασχολημένος, απογοητευμένος, απολαμβάνω, αποταμιεύω, αποφασίζω, αστείος, ασφαλής, άχρηστος, βάζω, βαρετός, βαριεστημένος, βοηθώ, βρεγμένος, βροχερός, Γάλλος, γεια, γίνομαι, γιορτάζω, γυμνάζομαι, γυμνασμένος, δείχνω, δημοφιλής, διαδικτυακός, διαχειρίζομαι, δροσερός, δυστυχισμένος, ειδικός, ειλικρινής, έκπληκτος, ελέγχω, ελεύθερος, Έλληνας, ελπίζω, ενδιαφέρων, ενθουσιασμένος, εξαιρετικός, εξηγώ, έξυπνος, επαναλαμβάνω, επικίνδυνος, επιλέγω, επισκέπτομαι, επισκευάζω, επιστρέφω, ευγενής, ευγενικός, έχω την οικονομική δυνατότητα, ηλιόλουστος, ΗΠΑ, ήσυχος, θαυμάσιος, θορυβώδης, θυμωμένος, κάθε μέρα, καινούριος, καλώ, κάνω κράτηση, καταπληκτικός, κερδίζω, κίτρινο, κόβω, κόκκινο, κολυμπώ, κοστίζω, κουβαλώ, κρατώ, λαμβάνω, λανθασμένος, λευκό, Λονδίνο, μαμά, μεγαλώνω, μένω, μερικής απασχόλησης, μετακινούμαι, μετανιωμένος, μιλώ, μισώ, μοιράζομαι, μόνος, Μόσχα, μουσακάς, μπαμπάς, Νέα Υόρκη, νευρικός, νοικιάζω, ξεκινώ, ξεκουράζομαι, ξεχνώ, ξοδεύω, ξυπνάω, οργανώνω, παραγγέλνω, παρευρίσκομαι, Παρίσι, παρόμοιος, παρουσιάζω, πεθαίνω, περήφανος, περιλαμβάνω, περνώ, περπατώ, πετώ, πέφτω για ύπνο, πηδώ, πιθανός, πλήρους απασχόλησης, πονώ, πορτοκαλί, πουλώ, πράσινο, προσθέτω, προσκαλώ, προσπαθώ, Ρώμη, ρωτώ, σηκώνομαι, σημαίνω, σίγουρος, σπάω, σπρώχνω, σταματώ, στεγνός, στέλνω, στρίβω, συμβαίνει, συμφωνώ, συναντώ, συνεχίζω, συνηθισμένος, συνιστώ, συστήνω, σχεδιάζω, Σωκράτης, σωστός, ταξιδεύω, τέλειος, τεμπέλης, τραβώ, τραγουδώ, τρομερός, τρώω πρωινό, υγιής, υπέροχος, υψηλός, φαίνομαι, φανταστικός, φιλικός, φοβισμένος, φοράω, φτηνός, φτιάχνω, φτιάχνω βαλίτσα, χαλαρός, χαλαρώνω, χαμηλός, χαμογελώ, χάνω, χρεώνω, χρησιμοποιώ, χρήσιμος, χρωστώ, χτίζω, ωραίος
+αγαπώ, απαντώ, βοηθώ, γεια, κίτρινο, κόκκινο, κολυμπώ, κουβαλώ, μιλώ, ξεχνώ, περπατώ, πετώ, πορτοκαλί, πουλώ, πράσινο, ρωτώ, σταματώ, τραγουδώ
 ```
 
 </details>
@@ -382,28 +382,28 @@ a chi, abbastanza, albergo, albero, America, amore, anatra, anche, aria, arrived
 ### PT (`pt`)
 
 - **COSYlanguages A1 Word Count:** 393
-- **COSYdata A0/A1 Word Count:** 124
-- **Exact Overlap Count:** 33
-- **Candidates to Migrate (Only in COSYlanguages):** 360 words
-- **COSYdata Unique Words (To Keep):** 91 words
+- **COSYdata A0/A1 Word Count:** 476
+- **Exact Overlap Count:** 383
+- **Candidates to Migrate (Only in COSYlanguages):** 10 words
+- **COSYdata Unique Words (To Keep):** 93 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains 124 words vs 393 in COSYlanguages. While substantial core vocabulary was migrated (33 exact overlap), significant vocabulary (360 words) remains in COSYlanguages awaiting intake.
+- **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
+- **Rationale:** COSYdata has 476 words vs 393 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (360 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (10 words)</strong></summary>
 
 ```
-a tempo inteiro, a tempo parcial, aberto, aborrecido, abrir, acontecer, acordar, adicionar, agradecer, ajudar, Albert Einstein, Alemanha, alto, alugar, amar, amarelo, Amesterdão, amigável, aprender, apresentar, arrependido, assistir, assustado, Atenas, Austrália, Áustria, azul, bacalhau, baixo, barato, Barcelona, barulhento, beber, Bélgica, Berlim, Beyoncé, bom, bondoso, bonito, branco, Brasil, brasileiro, brigadeiro, cabeça, caderno, cair, caminhar, camisa, Canadá, cancelar, cansado, cantar, caro, castanho, cavalo, celebrar, chegar, cheio, Chicago, China, chorar, chuvoso, Cidade do México, cinzento, cobrar, começar, comer, comprar, computador, comum, concordar, conduzir, confiante, conhecer, construir, contar, continuar, convidar, cor-de-rosa, Coreia do Sul, correr, correto, cortar, cozinhar, crescer, Cristiano Ronaldo, custar, dançar, dar, dececionado, decidir, deitar-se, descansar, desenhar, desfrutar, dever, diferente, difícil, Dinamarca, dizer, doente, dois, dormir, Dublim, duro, e, Edimburgo, educado, Egito, ela, ele, eles, Elon Musk, em forma, empurrar, encomendar, encontrar, engraçado, ensinar, ensolarado, entediado, entender, entusiasmado, enviar, errado, escolher, escrever, Espanha, especial, esperar, esperto, esquecer, estar de pé, estressado, estudar, eu, EUA, excelente, exercitar, explicar, fácil, falar, faminto, fantástico, fazer, fazer as malas, fechado, fechar, feijoada, feliz, festa, ficar, Finlândia, Florença, forte, fraco, França, fresco, frio, ganhar, gastar, gerir, gostar, grande, grátis, Grécia, grosseiro, honesto, horrível, importante, impossível, incluir, incrível, Índia, infeliz, Inglaterra, inglês, interessante, inútil, ir, Irlanda, irmã, irmão, Itália, Japão, jogar, jovem, laranja, lavar, lembrar, lento, Leonardo da Vinci, ler, levantar-se, levar, leve, ligar, limpar, limpo, lindo, Lionel Messi, Londres, longo, Los Angeles, lua, macio, magoar, manter, maravilhoso, Marie Curie, mas, mau, Melbourne, mesmo, meu, Miami, molhado, Montreal, morno, morrer, Moscou, mostrar, mover, mudar, nadar, necessário, Nelson Mandela, nervoso, Noruega, nós, Nova Iorque, novo, nunca, obter, ocupado, odiar, olhar, on-line, orgulhoso, ótimo, ouvir, pagar, Países Baixos, parar, parecer, Paris, partilhar, partir, passar, pássaro, peixe, pensar, pequeno, Pequim, perder, perfeito, perguntar, perigoso, pertencer, pesado, Polónia, popular, pôr, português, possível, poupar, Praga, precisar, preguiçoso, preocupado, preto, produzir, projetar, puxar, quebrar, quente, querer, Rainha Isabel II, rápido, receber, recomendar, recuperar, relaxado, relaxar, reparar, repetir, reservar, responder, Rio de Janeiro, Roma, Rússia, saber, saltar, São Francisco, saudável, seco, sedento, seguir, seguro, semelhante, sempre, sentar, sentir, ser, significar, silencioso, simpático, sorrir, sozinho, Suécia, Suíça, sujo, surpreendido, Sydney, Tailândia, Taylor Swift, telemóvel, tentar, ter, ter meios para, terminar, terrível, teu, tímido, tomar, tomar o pequeno-almoço, Tóquio, tornar-se, trabalhar, trazer, triste, tu, Ucrânia, um, usar, útil, vaca, Vancouver, vazio, velho, vender, Veneza, ver, verde, verificar, vermelho, vestido, vestir, viajar, viajar diariamente, Viena, vir, virar, visitar, viver, voar, voltar, Washington D.C., William Shakespeare, zangado
+abrir, bom, caro, chorar, Dublim, interessante, Moscou, pequeno, popular, um
 ```
 
 </details>
 
 <details>
-<summary><strong>COSYdata Unique Words List (91 words)</strong></summary>
+<summary><strong>COSYdata Unique Words List (93 words)</strong></summary>
 
 ```
-almoço, amanhã, armário, autocarro, banana, bem-vindo, boca, bolsa, caixa, caneta, cartão, chá, champô, chão, chapéu, chave, chávena, chuva, colher, com licença, comida, como, copo, criança, escola, escova de dentes, espelho, estante, faca, família, floresta, forno, frigorífico, garfo, garrafa, hoje, janela, jantar, jardim, lâmpada, lápis, loja, maçã, mala, manhã, mapa, mar, marido, massa, mercado, montanha, mulher, não, nariz, o quê, onde, ovo, país, papel, parede, parque, pasta de dentes, pente, pequeno-almoço, perna, pizza, ponte, por favor, porquê, porta, praia, prato, presente, quando, quantos, quem, recibo, relógio, rio, rua, sabão, secretária, semana, sim, sofá, t-shirt, tarde, telefone, telhado, toalha, trabalho
+almoço, amanhã, armário, autocarro, banana, bem-vindo, boca, bolsa, caixa, caneta, cartão, chá, champô, chão, chapéu, chave, chávena, chuva, colher, com licença, comida, como, copo, criança, escola, escova de dentes, espelho, estante, faca, família, floresta, forno, frigorífico, garfo, garrafa, hoje, inúteis, janela, jantar, jardim, lâmpada, lápis, loja, maçã, mala, manhã, mapa, mar, marido, massa, mercado, montanha, Moscovo, mulher, não, nariz, o quê, onde, ovo, país, papel, parede, parque, pasta de dentes, pente, pequeno-almoço, perna, pizza, ponte, por favor, porquê, porta, praia, prato, presente, quando, quantos, quem, recibo, relógio, rio, rua, sabão, secretária, semana, sim, sofá, t-shirt, tarde, telefone, telhado, toalha, trabalho
 ```
 
 </details>
