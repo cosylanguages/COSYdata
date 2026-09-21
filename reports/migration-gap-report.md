@@ -13,19 +13,19 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 | Language | Code | COSYlanguages A1 Words | COSYdata A0/A1 Words | Exact Overlap | Candidates to Migrate (Only in COSYlanguages) | Kept / Extra in COSYdata | Likely Near-Duplicates | Classification |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | BA | `ba` | 379 | 377 | 377 | 2 | 0 | 0 | (b) Incomplete Migration |
-| BR | `br` | 397 | 62 | 62 | 335 | 0 | 0 | (b) Incomplete Migration |
-| CV | `cv` | 449 | 132 | 132 | 317 | 0 | 0 | (b) Incomplete Migration |
+| BR | `br` | 397 | 398 | 394 | 3 | 4 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
+| CV | `cv` | 449 | 445 | 445 | 4 | 0 | 0 | (b) Incomplete Migration |
 | DE | `de` | 479 | 494 | 468 | 11 | 26 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EL | `el` | 301 | 670 | 283 | 18 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EN | `en` | 1298 | 1601 | 1274 | 24 | 327 | 4 | SuperSet / Complete Migration (Already Exceeds) |
 | ES | `es` | 391 | 482 | 391 | 0 | 91 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | FR | `fr` | 1033 | 964 | 822 | 211 | 142 | 6 | (b) Incomplete Migration |
-| HY | `hy` | 391 | 61 | 61 | 330 | 0 | 0 | (b) Incomplete Migration |
-| IT | `it` | 1154 | 513 | 401 | 753 | 112 | 5 | (b) Incomplete Migration |
+| HY | `hy` | 391 | 391 | 391 | 0 | 0 | 0 | (a) Curated Subset by Design |
+| IT | `it` | 1154 | 988 | 876 | 278 | 112 | 3 | (b) Incomplete Migration |
 | KA | `ka` | 387 | 387 | 387 | 0 | 0 | 0 | (a) Curated Subset by Design |
 | PT | `pt` | 393 | 476 | 383 | 10 | 93 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | RU | `ru` | 465 | 792 | 380 | 85 | 412 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
-| TT | `tt` | 377 | 61 | 61 | 316 | 0 | 0 | (b) Incomplete Migration |
+| TT | `tt` | 377 | 377 | 377 | 0 | 0 | 0 | (a) Curated Subset by Design |
 
 ---
 
@@ -83,19 +83,33 @@ Conclusion: COSYdata's `functional-phrases/en` is the advanced single source of 
 ### BR (`br`)
 
 - **COSYlanguages A1 Word Count:** 397
-- **COSYdata A0/A1 Word Count:** 62
-- **Exact Overlap Count:** 62
-- **Candidates to Migrate (Only in COSYlanguages):** 335 words
-- **COSYdata Unique Words (To Keep):** 0 words
-- **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains only a placeholder / baseline set of 62 words (e.g. basic numbers/colors/family), whereas COSYlanguages contains 397 words. This indicates an unmigrated or barely started migration gap.
+- **COSYdata A0/A1 Word Count:** 398
+- **Exact Overlap Count:** 394
+- **Candidates to Migrate (Only in COSYlanguages):** 3 words
+- **COSYdata Unique Words (To Keep):** 4 words
+- **Likely Near-Duplicates:** 1 pairs
+- **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
+- **Rationale:** COSYdata has 398 words vs 397 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
+
+#### Likely Near-Duplicates (1 pairs)
+| Candidate (COSYlanguages) | Existing (COSYdata) | Match Type |
+| :--- | :--- | :--- |
+| `anit / atav` | `atav` | Slash / Option variant |
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (335 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (3 words)</strong></summary>
 
 ```
-adzlavarout, aes, amann, amposupl, anit / atav, ankounac'haat, aoniek, aozañ ar malizenn, ar, armel, Aten, azezañ, bale, beaj, beajiñ, beajiñ bemdez, berr, bevañ, bezañ, bezañ da, bihan, bihanik, bleiz, bleniañ, blot, borodet, borodus, boutin, bras, brav, bravik, bremañ, breur, brezhon, Bro-Saoz, brudet, buan, buoc'h, cheñch, chom, c'hoar, c'hoari, da, dañjerus, dañsal, daou, debriñ, dec'h, dedennus, degas, degouezhout, demat, den, derc'hel, deskiñ, diaes, dibab, didrous, dieub, digeriñ, digor, dihuniñ, dilaouen, dilec'hiañ, diogel, disantet, disheñvel, diskouez, diskuizhañ, dispendiñ, displegañ, distend, distreiñ, ditalvoud, divizout, dizereat, dleout, dont, dont da vezañ, dougen, dreist, du, e, e-barzh, e-unan, echuiñ, emglev, en em ginnig, en em zistendañ, enlinenn, entouziastet, erbediñ, espern, esperout, estonus, eus, euzhus, evañ, evit, evn, ezhomm, fakturiñ, fall, farsus, fazi, fellout, fest, feurmiñ, fiziañs, Frañs, fresk, galetez, gall, gant, gell, gellet paeañ, gervel, glas, glavek, gleb, gorrek, gortoz, gouelañ, goulenn, goullo, gounit, gounit arc'hant, gouzout, Gres, gris, gweladenniñ, gwelet, gwenn, gwer, gwerzhañ, gwezenn, gwiriañ, ha, hanter-amzer, hañvalout, heñvel, heoliek, heuliañ, hir, hizio, implijout, ispisial, Italia, izel, jentil, kabell, kalet, kanañ, kaout, kaout soñj, kaoz, kaozeal, karet, karout, kas, kavout, kaye, kazout, keginer, kejañ, kelenn, kellenner, kemer, kemer perzh, kenavo, kenderc'hel, kentel, ker, kêr, ket, keuziek, klañv, klask, klevet, koant, koll, kompren, komz, konnar, kontañ, kouezhañ, kouign-amann, kousket, koustañ, kozh, krampouezh, kregiñ, kreñv, kreskiñ, kuitaat, labourat, lakaat, lammat, laouen, lavarout, ledan, lenn, leue, leun, leun-amzer, lidat, liorzhour, loar, lodennañ, Londrez, lorc'hus, lous, mab, mankout, mantell, maouez, marc'h, marc'had-mat, marzhus, mat, melen, memes, merañ, merc'h, mervel, met, meur, mignonel, mirout, mont, mont da gousket, mor, Moskov, mousc'hoarzhin, naet, naetaat, naoniek, neuñvial, nevez, New York, nijout, noz vat, nullañ, ober, ober droug, ober sport, onest, orañjez, ouzhpennañ, paeañ, paouez, pareañ, Pariz, pe, pediñ, pemoc'h, pemp, penn, perfezh, pesk, pevar, plijout, poazhañ, posupl, pouezus, pounner, pousañ, prenañ, priz, rak, ratreañ, redek, reiñ, reizh, resev, respont, ret, roched, Roma, roz, Rusia, ruz, Sachañ, sae, santout, saoz, sec'h, selaou, sellet, sellout, serr, serriñ, sevel, seven, sikour, skañv, skramm, skrivañ, skuizh, soñjal, souezhet, Spagn, speredek, Stadoù-Unanet, stêr, strafuilhet, strollat, studiañ, talvoudus, talvout, terriñ, ti, tomm, tommik, treiñ, tremen, treset, tri, trist, troc'hañ, trouzus, trugarekaat, trugarez, uhel, unan, ur, urdiazour, urzhiañ, walc'hiñ, wan, war, yac'h, yaouank, yar, yen
+anit / atav, kaye, Sachañ
+```
+
+</details>
+
+<details>
+<summary><strong>COSYdata Unique Words List (4 words)</strong></summary>
+
+```
+atav, kaier, monet, sachañ
 ```
 
 </details>
@@ -105,19 +119,19 @@ adzlavarout, aes, amann, amposupl, anit / atav, ankounac'haat, aoniek, aozañ ar
 ### CV (`cv`)
 
 - **COSYlanguages A1 Word Count:** 449
-- **COSYdata A0/A1 Word Count:** 132
-- **Exact Overlap Count:** 132
-- **Candidates to Migrate (Only in COSYlanguages):** 317 words
+- **COSYdata A0/A1 Word Count:** 445
+- **Exact Overlap Count:** 445
+- **Candidates to Migrate (Only in COSYlanguages):** 4 words
 - **COSYdata Unique Words (To Keep):** 0 words
 - **Likely Near-Duplicates:** 0 pairs
 - **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains 132 words vs 449 in COSYlanguages. While substantial core vocabulary was migrated (132 exact overlap), significant vocabulary (317 words) remains in COSYlanguages awaiting intake.
+- **Rationale:** COSYdata contains 445 words vs 449 in COSYlanguages. While substantial core vocabulary was migrated (445 exact overlap), significant vocabulary (4 words) remains in COSYlanguages awaiting intake.
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (317 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (4 words)</strong></summary>
 
 ```
-ăнланма, ăслă, ăссăр, ăшă, çăмăл, Çĕмĕрле, çĕнĕ, Çĕнĕ Шупашкар, çĕнтерме, çамрăк, çемçе, çемьепе чупма, çил ĕфме, çиллĕ, çиме, çинçе, çинçепĕр, çинчен, çисе яма, çитерме, çитехме, çӳç ярма, çуйма, çук, çул тытма, çулама, çуллă, çулталăк улшăнма, çулталăкри, çумăр çума, çумăрлă, çумри, çунма, çунтарнă, çуратма, çуркуннехи, çурт тума, çутă, çутăртама, çухатма, çухи, çывăрма, çын, çынлă, çырма, çырнă, çырни, çырса хурма, ĕççĕ, ĕçе кайма, ĕçех, ĕçлеме, ĕçлени, ĕçме, ĕçсе яма, ĕненме, авалхи, анма, анчах, апат çиме, арçын, ача, ачаш, Базар, башкир, вăйлă, вăйсăр, вăрăм, вăранма, вĕренме, вĕреннĕ, вĕренни, вĕрентĕкçĕ, вĕрентме, валли, вара, варклама, васкама, ватă, виçкĕмĕш, Волга, вулама, вуласа тухма, выляма, вырăс, Германия, е, иккĕмĕш, илме, илсе кайма, илсе килме, илтме, илтсе илме, инçетри, ирхи, йăнăш, йăтма, йĕрме, йивĕр, йӳçĕ, йунçă, йывăр, кăвак, кăнтăрлахи, кăсăклă, кăшкăрма, кĕнеке вулама, кĕркуннехи, кĕрме, кĕске, кĕтме, каç килме, каçхи, кайма, какай шӳрпи, калама, канама, Канаш, кашнă, килĕшме, килме, килти, куçарма, кукăль, кулма, кулянчăк, кун пуçланма, кунселенхи, кӳршĕ, кӳршĕри, лайăх, лайăх кăмăллă, ларма, лартма, мăнтăр, мăншăн, мĕншĕн тесен, манма, мари, мордва, музыка илтме, Мускав, пăрахма, пăрлă, пăхма, пăхса хурма, пĕçерме, пĕçернĕ, пĕçерсе хурма, пĕлĕтлĕ, пĕлме, пĕлтерме, пĕрлехи, пĕрлешме, пĕрремĕш, пĕчĕк, пайне, палăртма, палăртнă, паллă, палламан, паллашма, парма, паттăр, паян, пулăшма, пулма, пур, пурнама, пушă, пуян, пысăк, пятекĕмĕш, Россия, сăмах пама, сĕтлĕ, савăнма, савăнса юрлама, саламлама, сарă, сахарлă, сивĕ, симĕс, сутма, сывă, сывлăх сунма, сывпуллашма, сыхлама, тăван, тăварлă, тăваткăмĕш, тăма, тăпăрчă, тăрашма, тăхăнма, тĕкĕнме, тĕп, тĕрĕс, тĕрĕслев тума, тĕрĕслеме, тĕттĕм, таса, тата, ташлама, телевизор пăхма, телейлĕ, тирпейлĕ, титĕрме, туйма, тулă, тулашри, тума, тупăшма, тупма, тус, тутар, тутлă, тухма, тухтăр, туянма, тытма, уçă, уçăлма, уçăмлă, уçăмлăхлă, уçма, уçса пама, уйрăлма, уйрăм, Улатăр, унăннă, урама тухма, урамри, усă курма, усăлма, усал, утма, утни, ученик, учитель, уяв пулма, уявлама, Франция, хăвăрт, хăвăртлă, хăвăртлăхлă, хăварма, хăпарма, хăракан, хăрама, хăтланма, хĕвел батма, хĕвел тухма, хĕвеллĕ, хĕллехи, хĕрарăм, хĕрлĕ, хĕрхенчĕк, хаклă, халь, хальхи, хастар, хисеплеме, хитре, Хула, хулахи, хупă, хуплу, хупма, хупса хурма, хура, хуравлама, хурлăхлă, хурланма, хурланса калама, хыççăн, хыпарлама, хыпарма, хытă, чăваш, Чăваш Ен, чей ĕçме, чирлĕ, чирлемен, чупма, чухăн, шăл çума, шăп, шăп тăма, шăрттан, шăшма, шавлă, шалахи, Шкул, шулăтрах, Шупашкар, шурă, шурăмпуçлă, шутлă, шутлав тума, шутлама, ыйтма, ырă, ыран, юлма, юлташ, юлташпа выляма, юр çума, юратма, юрлă, юрлама, яваш, Ял, яланах, яллă, япăх, ятлă
+Базар, Хула, Шкул, Ял
 ```
 
 </details>
@@ -298,50 +312,41 @@ almuerzo, armario, autobús, bienvenido, boca, bolígrafo, bolsa, bosque, botell
 ### HY (`hy`)
 
 - **COSYlanguages A1 Word Count:** 391
-- **COSYdata A0/A1 Word Count:** 61
-- **Exact Overlap Count:** 61
-- **Candidates to Migrate (Only in COSYlanguages):** 330 words
+- **COSYdata A0/A1 Word Count:** 391
+- **Exact Overlap Count:** 391
+- **Candidates to Migrate (Only in COSYlanguages):** 0 words
 - **COSYdata Unique Words (To Keep):** 0 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains only a placeholder / baseline set of 61 words (e.g. basic numbers/colors/family), whereas COSYlanguages contains 391 words. This indicates an unmigrated or barely started migration gap.
+- **Migration Classification:** **(a) Curated Subset by Design**
+- **Rationale:** Word counts are aligned or curated.
 
-<details>
-<summary><strong>Full "Only in COSYlanguages" Word List (330 words)</strong></summary>
-
-```
-ազատ, ազնիվ, Աթենք, աղմկոտ, աճել, ԱՄՆ, ամրագրել, այն, այս, այցելել, Անգլիա, անել, անկողին գնալ, անհանգիստ, անհնար, անհրաժեշտ, անձրևոտ, անցնել, անօգուտ, աշխատել, ապահով, ապաքինվել, ապրել, առողջ, առցանց, ասել, ավարտել, ավելացնել, ատել, արագ, արևոտ, արթնանալ, արժենալ, բաճկոն, բայց, բարև, բարի, բարի լույս, բարկացած, բարձր, բարձրահասակ, բաց, բաց թողնել, բացատրել, բացել, բերել, գալ, գայլ, գանձել, գեղեցիկ, գետ, գերազանց, գին, գլուխ, գնալ, գնել, գտնել, գրել, դանդաղ, դառնալ, դաս, դասավանդել, դատարկ, դեղին, դժբախտ, դժվար, դիտել, դնել, դրամ, եղբայր, և, երգել, երեկ, երեք, երթևեկել, երիտասարդ, երկար, երկու, երջանիկ, եփել, զանգել, զարմանալի, զարմացած, զբաղված, զգալ, զգեստ, զղջացող, զով, զրույց, զրուցել, էժան, ընկերական, ընկնել, ընտրել, թանկ, թաց, թեթև, թուլանալ, թույլ, թույլ տալ, թռչել, թռչուն, թվալ, ժամանել, ժպտալ, իմանալ, ինքնավստահ, Իսպանիա, Իտալիա, լավ, լավաշ, լաց լինել, լինել, լիքը, լողալ, Լոնդոն, լուսին, լսել, լվանալ, լրիվ դրույք, խաղալ, խելացի, խմել, խնայել, խոհարար, խոսել, խորհուրդ տալ, խորոված, ծախսել, ծանր, ծառ, ծիծաղելի, ծով, ծույլ, կամ, կանաչ, կանգնել, կանգնեցնել, կապույտ, կառուցել, կատարյալ, կարագ, կարդալ, կարևոր, կարիք ունենալ, կարճ, կարմիր, կեղտոտ, կես դրույք, կիսվել, կոկիկ, կոշտ, կոպիտ, կով, կոտրել, կորցնել, կտրել, կրկնել, հագնել, հաղթել, հաճելի, համակարգիչ, համաձայնել, համար, հայ, հանգիստ, հանգստանալ, հանդիպել, հանրաճանաչ, հասկանալ, հավանել, հավաքել, հատուկ, հարցնել, հեշտ, հեռանալ, հետաքրքիր, հետևել, հետո, հիանալի, հիասթափված, հիմա, հին, հինգ, հիշել, հիվանդ, հնարավոր, հոգնած, Հունաստան, հուսալ, հպարտ, Հռոմ, հրավիրել, հրել, ձանձրալի, ձանձրացած, ձի, ձուկ, ղեկավարել, ճամփորդել, ճանապարհորդություն, ճիշտ, մահանալ, մասին, մասնակցել, մարդ, մարզվել, մաքուր, մաքրել, մեծ, մեկ, մենակ, մնալ, մոխրագույն, մոռանալ, Մոսկվա, մոտ, մտածել, նախաճաշել, նայել, նարնջագույν, ներառել, ներկայացնել, նկարել, նման, նյարդային, Նյու Յորք, նշանակել, նոր, նորոգել, նույն, նստել, շագանակագույն, շարունակել, շնորհակալություն, շնորհակալություն հայտնել, ոգևորված, ոչ, որոշել, որովհետև, ուզել, ուժեղ, ուղարկել, ունենալ, ուսումնասիրել, ուտել, չեղարկել, չոր, չորս, պահարան, պահել, պապ, պատահել, պատասխանել, պատկանել, պատմել, պատվիրել, պատրաստել, պարել, պարտք լինել, պտտել, ռուս, Ռուսաստան, սառը, սարսափելի, սև, սթրեսի մեջ, սիրել, սխալ, սկսել, սոված, սովորական, սովորել, սպասել, սպիտակ, ստանալ, ստուգել, սքանչելի, վազել, վախեցած, վաճառել, վայելել, վաստակել, վատ, վարդագույն, վարել, վարձել, վարորդ, վեր կենալ, վերադառնալ, վերցնել, վճարել, վտանգավոր, տալ, տանել, տատ, տարբեր, տաք, տեղափոխվել, տեսնել, տետր, տխուր, տղամարդ, տոլմա, տոն, տոնել, ցածր, ցավեցնել, ցատկել, ցույց տալ, ցտեսություն, փակ, փակել, Փարիզ, փափուկ, փոխել, փորձել, փոքր, քաղաք, քաղաքավարի, քայլել, քաշել, քնել, քույր, օգնել, օգտագործել, օգտակար, ֆանտաստիկ, Ֆրանսիա, ֆրանսիացի
-```
-
-</details>
+*No words only in COSYlanguages. All words are present in COSYdata.*
 
 ---
 
 ### IT (`it`)
 
 - **COSYlanguages A1 Word Count:** 1154
-- **COSYdata A0/A1 Word Count:** 513
-- **Exact Overlap Count:** 401
-- **Candidates to Migrate (Only in COSYlanguages):** 753 words
+- **COSYdata A0/A1 Word Count:** 988
+- **Exact Overlap Count:** 876
+- **Candidates to Migrate (Only in COSYlanguages):** 278 words
 - **COSYdata Unique Words (To Keep):** 112 words
-- **Likely Near-Duplicates:** 5 pairs
+- **Likely Near-Duplicates:** 3 pairs
 - **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains 513 words vs 1154 in COSYlanguages. While substantial core vocabulary was migrated (401 exact overlap), significant vocabulary (753 words) remains in COSYlanguages awaiting intake.
+- **Rationale:** COSYdata contains 988 words vs 1154 in COSYlanguages. While substantial core vocabulary was migrated (876 exact overlap), significant vocabulary (278 words) remains in COSYlanguages awaiting intake.
 
-#### Likely Near-Duplicates (5 pairs)
+#### Likely Near-Duplicates (3 pairs)
 | Candidate (COSYlanguages) | Existing (COSYdata) | Match Type |
 | :--- | :--- | :--- |
+| `essere d'accordo` | `essere d accordo` | Hyphenation / Spacing variant |
 | `a presto` | `presto` | Article prefix variant |
-| `a dopo` | `dopo` | Article prefix variant |
-| `a domani` | `domani` | Article prefix variant |
-| `a casa` | `casa` | Article prefix variant |
-| `un giorno` | `giorno` | Article prefix variant |
+| `là` | `la` | Accent / Diacritic variant |
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (753 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (278 words)</strong></summary>
 
 ```
-a, a casa, a causa di, a domani, a dopo, a mano a mano, a mio parere, a piedi nudi, a presto, a stento, a tempo parziale, a tempo pieno, a testa alta, a vista d'occhio, abbastanza di, accanto a, accendere, aceto, acido, acquisto, ad alta voce, addebitare, affari, affittare, affitto, aggiungere, al caldo, al cinema, al fresco, al mercato, al piano terra, al primo piano, al ristorante, al sicuro, al tempo stesso, alfabeto, all'aperto, all'estero, all'improvviso, all'inizio, alla fine, almeno, alzarsi, americano, amichevole, Amsterdam, andare a letto, anello, animale, annoiato, annotare, annullare, antico, antipatico, ape, app, appartenere, argentato, Argentina, armadio, arrabbiato, arrampicarsi, arrivo, arte, artista, ascensore, asciugamano, asciutto, assaggiare, astuccio, attento, attivo, attore, aula, Australia, Austria, avere caldo, avere fame, avere fortuna, avere freddo, avere fretta, avere fretta di, avere intenzione di, avere paura, avere ragione, avere sete, avere sonno, avere tempo, avere torto, avere voglia di, azienda, bagagli, bagnato, balena, bambola, banchina, banconota, band, bar, Barcellona, barrare, batteria, Belgio, Berlino, berretto, bevanda, biglietto, binario, biondo, bottiglia, boutique, Brasile, buon appetito, buon viaggio, buona fortuna, buona giornata, calciare, calcio, camera d'albergo, cameriere, Canada, cantando, canzone, capo, carino, carota, carta di credito, cassetto, cavalcare, celibe, centro, centro commerciale, cerchio, cereali, chef, chiamare, chiaro, Chicago, ci vediamo, cibo, ciliegia, cinema, cinese, Città del Messico, classe, cliente, clientela, codardo, collana, collega, colorare, combattere, cominciare, comodo, compagno di classe, compitare, compiti, completare, completo, computer portatile, comune, comunque, concerto, condividere, conducente, conoscere, consegna, consigliare, contadino, contanti, contare, contemporaneamente, continuare, conto, controllare, coperta, coraggioso, corpo, corretto, corridoio, costare, costo, costoso, costruire, costume da bagno, cravatta, creare, creativo, credere, crescere, Cristoforo Colombo, cuscino, d'accordo, da lontano, da un lato, da vicino, dall'altro lato, Dante Alighieri, davanti a, decidere, delfino, deluso, denaro, dentifricio, dentista, dentro, descrivere, desiderare, destra, di, di buon'ora, di fretta, di fronte, di fronte a, di nascosto, di nuovo, di profilo, di sicuro, di solito, di tanto in tanto, dietro a, differente, dipingere, direttore, disegnare, disordinato, dispiaciuto, dito del piede, diventare, divertente, dizionario, doccia, domani mattina, dovere, Dublino, e, eccellente, economico, edificio, educato, Egitto, elegante, email, emozionante, emozionato, enorme, entrata, Enzo Ferrari, errore, esame, esempio, esercitarsi, esercizio, essere d accordo, essere d'accordo, essere in anticipo, essere in forma, essere in orario, essere in ritardo, essere occupato, essere pronto, essere sorpreso, essere spiacente, fa, faccia, falso, famoso, fantastico, far male, fare acquisti, fare attenzione, fare colazione, fare festa, fare il bagno, fare il pendolare, fare la conoscenza di, fare la doccia, fare la fila, fare la spesa, fare le valigie, fare sport, fare una passeggiata, farmacia, fattura, Federico Fellini, fermata dell'autobus, festeggiare, fianco a fianco, figurati, fine settimana, Firenze, flauto, forno, fortunato, fra, fragola, francese, frase, fresco, frigorifero, funzionare, fuori, Galileo Galilei, garage, genitore, gentile, geografia, gestire, Giappone, giapponese, Ginevra, gioielli, giornale, girare, giusto, gli, godere, gomma, grasso, grazie a, grazie mille, gridare, guadagnare, guarire, Guglielmo Marconi, hotel, ieri sera, il, impaziente, impiego, impossibile, in autunno, in campagna, in città, in collera, in corso, in corso di, in diretta, in estate, in fondo a, in forma, in futuro, in generale, in guasto, in inverno, in libertà, in mezzo a, in montagna, in pace, in pericolo, in primavera, in questo momento, in ritardo di, in saldo, in silenzio, in spiaggia, in vacanza, includere, incontrare, incredibile, India, indicare, indirizzo, indossare, infatti, infelice, inglese, inoltre, intelligente, interessante, intorno, inutile, invece, inviare, invitare, Irlanda, Istanbul, italiano, jeans, la, là, lanciare, largo, lasagna, lavastoviglie, lavatrice, le, lenzuolo, Leonardo da Vinci, lezione, libero, libreria, Lisbona, liscio, lo, Londra, Los Angeles, Luciano Pavarotti, luminoso, ma, macchina fotografica, Madrid, magro, mai dire mai, maleducato, mandare un SMS, manzo, Marco Polo, matematica, medico, mensa, meraviglioso, merenda, messaggio, Messico, mestiere, metropolitana, mettere, mezzanotte, mezzogiorno, Miami, Michelangelo Buonarroti, microonde, migliorare, Milano, minuscolo, mobili, moderno, molto di, monete, morire, Mosca, mostrare, mouse, muovere, muri, Napoli, nascondere, naturale, nazionalità, nebbia, nebbioso, necessario, nervoso, nevoso, New York, niente, nipote, noioso, non importa, normale, Norvegia, notare, nuoto, nuvoloso, o, occhiali, occhiali da sole, occupato, occupazione, odiare, odorare, offerta, ogni giorno, ombrello, onesto, online, orario, ordinare, ordinario, ordinato, ordine, organizzare, orgoglioso, orribile, ospite, ottenere, ovale, padella, Paesi Bassi, pagamento, palla, pantaloncini, Parigi, partecipare, partenza, passaporto, passare, password, pasto, paziente, Pechino, pentola, per caso, per esempio, per ora, per terra, pera, perdere, perfetto, pericoloso, permettersi, Perù, pesca, piacevole, pianificare, piano, piantina, piazza, pigiama, pigro, pilota, piovoso, più o meno, pizza, poco amichevole, poco profondo, poltrona, popolare, portafoglio, Portogallo, Praga, preferire, preferito, prendere appunti, prendere in prestito, prendere l'autobus, prendere un caffè, prendere una decisione, prendersi del tempo, prenotare, prenotazione, preoccuparsi, preoccupato, preparare, presentare, prestare, prodotto, produrre, professore, profondo, progettare, progetto, provare, purtroppo, quadrato, quadro, qualche volta, qualcosa, quartiere, quasi, questa sera, quindi, radio, ragno, rapporto, raramente, reception, relazione, respirare, restare, rettangolare, riccio, ricevere, ricevuta, riempire, righello, rilassarsi, rilassato, rimbalzare, ringraziare, riparare, ripetere, riposare, risparmiare, risparmio, riunione, riuscire, rivista, Roma, rompere, rotondo, rubinetto, rumoroso, russo, ruvido, sala da pranzo, salato, salire, saltare, saltellare, salutare, San Francisco, sano, sapone, sbadigliare, sbagliato, sbaglio, scaffale, scatola, scegliere, scendere, schermo, scienza, scopa, scrittore, scuro, sdraiarsi, se, secondo, secondo me, segnare, segretario, seguire, sembrare, semplice, sentiero, senza dubbio, serio, servizio, sfortunato, sicuro, sicuro di sé, significare, silenzioso, simile, simpatico, sinistra, sito web, smettere, soffitto, sognare, soldato, soleggiato, solitamente, solo, sonno, Sophia Loren, sopra, sopra di, sorpreso, sorridere, sotto di, spagnolo, spaventato, spazzolare, spazzolino, speciale, spegnere, spendere, sperare, spesa, spiacevole, spiegare, spingere, spogliarsi, sposato, spuntino, squalo, stagione, stare, starnutire, Stati Uniti, stipendio, stivale, stivali, stomaco, storia, strano, stress, stressato, stretto, subito, succedere, successo, sul posto, sul punto di, suonare, superficiale, supermercato, sussurrare, sveglia, svegliarsi, Svezia, Svizzera, Sydney, t-shirt, tagliare, talvolta, tappeto, tastiera, tazza, tedesco, telecomando, temperatura, tempestoso, tempo libero, tempo meteorologico, tenda, tenere, tennis, terribile, tiepido, tigre, timido, tirare, toccare, Tokyo, tornare, Toronto, tossire, tostapane, tragitto, triangolare, triangolo, troppo di, tutti i giorni, tutto, tutto il tempo, udire, ufficio, uguale, un, un giorno, un po' di, una, usare, uscita, utile, uva, vale a dire, valigia, velocità, vendita, Venezia, ventoso, vero, vestirsi, viaggiare, viaggiatore, viaggio, Vienna, vigile del fuoco, villaggio, vincere, violino, visitare, volo, Washington, wifi, zaino, zuccotto, Zurigo
+a, a presto, accendere, addebitare, affittare, affitto, all'estero, alla fine, almeno, alzarsi, amichevole, Amsterdam, andare a letto, anello, annoiato, antico, app, appartenere, arrabbiato, artista, asciugamano, attore, Australia, Austria, azienda, bagagli, banconota, band, bar, batteria, biglietto, binario, biondo, bottiglia, boutique, buona fortuna, buona giornata, Canada, canzone, capo, carino, carota, carta di credito, centro commerciale, chef, chiamare, chiaro, Chicago, cinema, cliente, collana, collega, comodo, compagno di classe, compiti, comune, concerto, condividere, contanti, continuare, conto, controllare, coperta, coraggioso, corretto, costare, costoso, costruire, costume da bagno, creare, creativo, credere, crescere, cuscino, decidere, dentista, descrivere, disegnare, diventare, divertente, dovere, e, economico, edificio, educato, elegante, email, esame, esercizio, essere d'accordo, essere in orario, essere in ritardo, famoso, fare colazione, farmacia, fattura, festeggiare, fine settimana, forno, fragola, fresco, frigorifero, garage, gentile, gestire, giornale, girare, giusto, guadagnare, guarire, hotel, il, in forma, in generale, includere, incontrare, India, indossare, infatti, intelligente, interessante, inutile, inviare, invitare, Irlanda, Istanbul, italiano, jeans, là, largo, lavatrice, le, Leonardo da Vinci, lezione, libero, Los Angeles, ma, Madrid, maleducato, messaggio, Miami, migliorare, moderno, mouse, nascondere, nebbia, nervoso, nevoso, New York, niente, noioso, non importa, normale, notare, nuvoloso, o, occhiali, occupato, offerta, ombrello, onesto, online, orario, ordinario, organizzare, orgoglioso, ovale, partecipare, passaporto, password, paziente, per esempio, perdere, pericoloso, permettersi, pianificare, piano, piazza, pigiama, pigro, piovoso, pizza, popolare, portafoglio, Praga, prendere in prestito, prendere una decisione, prenotazione, preoccuparsi, preoccupato, preparare, presentare, prestare, prodotto, produrre, progetto, provare, quartiere, quindi, radio, reception, relazione, ricevere, rilassarsi, ringraziare, riparare, ripetere, risparmiare, riunione, riuscire, rivista, Roma, rompere, rumoroso, salutare, San Francisco, sano, sbagliato, scaffale, scegliere, schermo, se, secondo me, seguire, sembrare, semplice, serio, servizio, sicuro, sicuro di sé, silenzioso, simile, sito web, sognare, soleggiato, solo, sorpreso, spaventato, speciale, spegnere, spendere, sperare, spesa, spiegare, stare, stipendio, strano, stress, stressato, succedere, supermercato, sveglia, svegliarsi, Sydney, t-shirt, tappeto, temperatura, tempo libero, tennis, tigre, timido, Tokyo, Toronto, tutto, ufficio, un, utile, uva, valigia, ventoso, vestirsi, viaggiare, viaggio, villaggio, vincere, visitare, volo, wifi
 ```
 
 </details>
@@ -437,21 +442,14 @@ almoço, amanhã, armário, autocarro, banana, bem-vindo, boca, bolsa, caixa, ca
 ### TT (`tt`)
 
 - **COSYlanguages A1 Word Count:** 377
-- **COSYdata A0/A1 Word Count:** 61
-- **Exact Overlap Count:** 61
-- **Candidates to Migrate (Only in COSYlanguages):** 316 words
+- **COSYdata A0/A1 Word Count:** 377
+- **Exact Overlap Count:** 377
+- **Candidates to Migrate (Only in COSYlanguages):** 0 words
 - **COSYdata Unique Words (To Keep):** 0 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains only a placeholder / baseline set of 61 words (e.g. basic numbers/colors/family), whereas COSYlanguages contains 377 words. This indicates an unmigrated or barely started migration gap.
+- **Migration Classification:** **(a) Curated Subset by Design**
+- **Rationale:** Word counts are aligned or curated.
 
-<details>
-<summary><strong>Full "Only in COSYlanguages" Word List (316 words)</strong></summary>
-
-```
-абый, авыр, авырту, авыру, агач, ай, ак, акрын, АКШ, акыллы, ал, алу, амма, Англия, аңлата, аңлату, аңлау, апа, арзан, арыган, ат, Афина, ач, ачу, ачулы, ачык, аш пешерү, ашау, ашчы, әби, әдәпле, әйтү, бабай, балык, бару, баш, башка, башлау, башлык, бәйрәм, бәйрәм итү, бәхетле, бәхетсез, бәя, белән, белү, бер, бер үк, бетерү, биек, бик начар, бик яхшы, бирү, биш, бию, бору, борчулы, бөек, бу, булдыра алу, булу, бурычлы булу, буш, бүлешү, бүре, бысрак, гади, гаҗәп, гаҗәпләнгән, горур, Греция, дәвам итү, дәрес, дәфтәр, диңгез, дөрес, дулкынланган, дусларча, дүрт, егылу, елау, елга, елмаю, җавап бирү, җәяү йөрү, җибәрү, җиңел, җиңү, җылы, җырлау, җыю, заказ бирү, зәңгәр, зур, идарә итү, ике, ир-ат, иртәнге ашны ашау, исәнмесез, искиткеч яхшы, Испания, Италия, ишетү, ия булу, иярү, йокларга яту, йоклау, йомшак, йөгерү, йөзү, кабатлау, кайту, калу, камил, кара, карар итү, карау, карт, катнашу, каты, кечкенә, кеше, килеп җитү, килү, кирәк булу, кирәкле, кирәксез, кисү, китерү, китү, кичә, кию, компьютер, коңгырт, коры, кош, кояшлы, көлкеле, көтү, көчле, көчсез, куллану, куркыныч, куркынычсыз, куртка, курыккан, куян, күлмәк, күнегүләр ясау, күңеле кайткан, күркәм, күрсәтү, күрү, күчү, кызгылт сары, кызыклы, кызыксыз, кызыл, кыйммәт, кыйын, кыстыбый, ләззәт алу, Лондон, май, матур, машина йөртү, мәрхәмәтле, Мәскәү, мәшгуль, моңлы, мөмкин, мөмкин түгел, мөһим, намуслы, начар, нәфрәт итү, Нью-Йорк, озын, онлайн, оныту, очрашу, очу, ошату, ошаш, өйрәнү, өмет итү, өстәү, өч, өчен, өчпочмак, Париж, популяр, рәсем ясау, рәхмәт, рәхмәт әйтү, риза булу, Рим, Россия, савыгу, сагыну, сайлау, саклау, салу, сары, сату, сатып алу, сау булыгыз, саф, сәламәт, сәяхәт, сәяхәт итү, сикерү, соң, сорау, соры, сөйләү, сөйләшү, стресслы, суык, сыер, сыну, табиб, табу, таза, тазарту, таныштыру, тарту, татар, ташу, тәкъдим итү, тәмамлау, тәпәш, теләү, тиз, тикшерү, тора, тору, тотону, тою, тояла, төзәтү, төзү, төрек, туктау, тулы, тулы булмаган көн, тулы көн, тупас, турында, түбән, түгел, түләү, түләү алу, тыныч, тыңлау, тырышу, уйлау, уйнау, уку, укыту, урнашу, урыс, утыру, уяну, үз эченә алу, үзгәртү, үзенә ышанган, үзенчәлекле, үкенечле, үлү, үсү, үтү, файдалы, фантастик, Франция, хата, хатын-кыз, хәерле иртә, хәзер, хәтерләү, һәм, һәрвакыт, чакыру, чәк-чәк, чөнки, шалтырату, шау-шулы, шәһәр, шкаф, шофёр, шул, ыштан, эссе, этәрү, эчү, эшкә йөрү, эшләп алу, эшләү, югалту, юу, ябу, ябык, языу, яки, ял итү, ялгыз, ялкау, ялыккан, яңа, яңгырлы, ярату, ярдәм итү, яхшы, яшәү, яшел, яшь
-```
-
-</details>
+*No words only in COSYlanguages. All words are present in COSYdata.*
 
 ---
