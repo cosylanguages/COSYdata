@@ -30,7 +30,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **German (`de`)** | 62 | 62 | 19 | 0 | 30.6% | ⚠️ **Methodology Warning (>15%)** |
 | **Spanish (`es`)** | 123 | 123 | 38 | 0 | 30.9% | ⚠️ **Methodology Warning (>15%)** |
 | **Portuguese (`pt`)** | 476 | 476 | 39 | 0 | 8.2% | ✅ **Compliant / Annotated** |
-| **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
+| **Bashkir (`ba`)** | 379 | 379 | 10 | 0 | 2.6% | ✅ **Compliant / Annotated** |
 | **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
 | **Chuvash (`cv`)** | 132 | 132 | 37 | 0 | 28.0% | ⚠️ **Methodology Warning (>15%)** |
 | **Armenian (`hy`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
@@ -276,9 +276,9 @@ All 494 German entries in `vocabulary/de/a0_a1/` were audited against the offici
 ### 9. Bashkir (`vocabulary/ba/a0_a1/`)
 
 - **Primary Reference Source**: **Ministry of Education and Science of the Republic of Bashkortostan (Башҡорт теле буйынса уҡыу программаһы / A1 Lexical Minimum)**.
-- **Total Entries Audited**: 61
-- **Verified A0/A1 Compliant**: 61 (100.0%)
-- **Multi-Level Flagged**: 10 (16.4%)
+- **Total Entries Audited**: 379
+- **Verified A0/A1 Compliant**: 379 (100.0%)
+- **Multi-Level Flagged**: 10 (2.6%)
 
 #### Multi-Level Entries Flagged against Bashkir Curriculum Standard
 
