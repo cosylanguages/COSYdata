@@ -26,7 +26,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **French (`fr`)** | 966 | 966 | 39 | 0 | 4.0% | ✅ **Compliant / Annotated** |
 | **Italian (`it`)** | 517 | 517 | 38 | 0 | 7.4% | ✅ **Compliant / Annotated** |
 | **Russian (`ru`)** | 548 | 548 | 32 | 0 | 5.8% | ✅ **Compliant / Annotated** |
-| **Greek (`el`)** | 516 | 516 | 26 | 0 | 5.0% | ✅ **Compliant / Annotated** |
+| **Greek (`el`)** | 677 | 677 | 26 | 0 | 3.8% | ✅ **Compliant / Annotated** |
 | **German (`de`)** | 62 | 62 | 19 | 0 | 30.6% | ⚠️ **Methodology Warning (>15%)** |
 | **Spanish (`es`)** | 123 | 123 | 38 | 0 | 30.9% | ⚠️ **Methodology Warning (>15%)** |
 | **Portuguese (`pt`)** | 124 | 124 | 39 | 0 | 31.5% | ⚠️ **Methodology Warning (>15%)** |
@@ -168,10 +168,10 @@ Where word levels vary by sense or part-of-speech (per Oxford 3000 and EVP guide
 ### 5. Greek (`vocabulary/el/a0_a1/`)
 
 - **Primary Reference Source**: **Centre for the Greek Language (ΚΕΓ - Κέντρο Ελληνικής Γλώσσας)** Certificate of Attainment in Greek Level A1 syllabus (*A1 Αναλυτικό Пρόγραμμα Μαθημάτων / Αναλυτικό διάγραμμα ύλης*).
-- **Total Entries Audited**: 516
-- **Verified A0/A1 Compliant**: 516 (100.0%)
+- **Total Entries Audited**: 677
+- **Verified A0/A1 Compliant**: 677 (100.0%)
 - **Over-Level Flagged**: 0
-- **Audit Findings**: All 516 Greek entries in `vocabulary/el/a0_a1/` match the official ΚΕΓ A1 syllabus specifications for beginner Greek learners. All terms are fully compliant.
+- **Audit Findings**: All 677 Greek entries in `vocabulary/el/a0_a1/` match the official ΚΕΓ A1 syllabus specifications for beginner Greek learners. All terms are fully compliant.
 
 ---
 
