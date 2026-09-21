@@ -79,6 +79,7 @@ All notable changes to this project will be documented in this file.
   - **Synonyms & Antonyms**: Populated `synonyms` and `antonyms` / `no_antonym` across all 951 entries in `vocabulary/en/c2/`. Added 1–3 precise near-synonyms preserving register and nuance to all 951 entries, added genuine antonym lists to 677 entries, and applied `no_antonym: true` waivers to 274 entries genuinely lacking direct opposites.
 
 ### Added
+- Migrated and converted 450 French A1 candidate vocabulary entries from COSYlanguages into `vocabulary/fr/a0_a1/` across 21 theme files, expanding French A0/A1 vocabulary total from 516 to 966 entries.
 - Initial scaffold for `COSYdata` repository.
 - Vocabulary schema (`schemas/vocabulary.schema.json`) using JSON Schema draft 2020-12 with form-dependent conditionals (`if`/`then`).
 - Complete English CEFR A0–C2 general vocabulary and A0–C2 spoken English vocabulary datasets in `vocabulary/en/` (reaching 10,700+ total word entries across 86 theme files). Entries shared between general and spoken courses are tagged with `domain: "general, spoken"`.
