@@ -15,7 +15,7 @@ This report presents a comprehensive per-language audit comparing A1 level vocab
 | BA | `ba` | 379 | 61 | 61 | 318 | 0 | 0 | (b) Incomplete Migration |
 | BR | `br` | 397 | 62 | 62 | 335 | 0 | 0 | (b) Incomplete Migration |
 | CV | `cv` | 449 | 132 | 132 | 317 | 0 | 0 | (b) Incomplete Migration |
-| DE | `de` | 479 | 62 | 46 | 433 | 16 | 0 | (b) Incomplete Migration |
+| DE | `de` | 479 | 494 | 468 | 11 | 26 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EL | `el` | 301 | 509 | 122 | 179 | 387 | 1 | (a) Curated Subset by Design (COSYdata Expanded) |
 | EN | `en` | 1298 | 1601 | 1274 | 24 | 327 | 4 | SuperSet / Complete Migration (Already Exceeds) |
 | ES | `es` | 391 | 482 | 391 | 0 | 91 | 0 | (a) Curated Subset by Design (COSYdata Expanded) |
@@ -127,28 +127,28 @@ adzlavarout, aes, amann, amposupl, anit / atav, ankounac'haat, aoniek, aozañ ar
 ### DE (`de`)
 
 - **COSYlanguages A1 Word Count:** 479
-- **COSYdata A0/A1 Word Count:** 62
-- **Exact Overlap Count:** 46
-- **Candidates to Migrate (Only in COSYlanguages):** 433 words
-- **COSYdata Unique Words (To Keep):** 16 words
+- **COSYdata A0/A1 Word Count:** 494
+- **Exact Overlap Count:** 468
+- **Candidates to Migrate (Only in COSYlanguages):** 11 words
+- **COSYdata Unique Words (To Keep):** 26 words
 - **Likely Near-Duplicates:** 0 pairs
-- **Migration Classification:** **(b) Incomplete Migration**
-- **Rationale:** COSYdata contains only a placeholder / baseline set of 62 words (e.g. basic numbers/colors/family), whereas COSYlanguages contains 479 words. This indicates an unmigrated or barely started migration gap.
+- **Migration Classification:** **(a) Curated Subset by Design (COSYdata Expanded)**
+- **Rationale:** COSYdata has 494 words vs 479 in COSYlanguages. COSYdata was expanded with additional language-specific core vocabulary.
 
 <details>
-<summary><strong>Full "Only in COSYlanguages" Word List (433 words)</strong></summary>
+<summary><strong>Full "Only in COSYlanguages" Word List (11 words)</strong></summary>
 
 ```
-aber, acht, ähnlich, allein, alt, ändern, anders, Angebot, ängstlich, ankommen, anrufen, antworten, Apfelsine, Apotheke, arbeiten, Arm, Athen, auf Wiedersehen, aufgeregt, aufstehen, aufwachen, ausgeben, ausgezeichnet, Bäckerei, Bahnhof, Bank, Bär, Bauch, bauen, Baum, bedeuten, beenden, beginnen, behalten, beinhalten, bekommen, beliebt, benutzen, berechnen, Berg, beschäftigt, besonders, besorgt, bestehen, bestellen, besuchen, bezahlen, Biene, Bild, billig, bitte, blau, bleiben, Bleistift, Blume, brauchen, braun, brechen, Brezel, bringen, Bruder, buchen, Büro, Butter, Computer, Cousine, Currywurst, danke, danken, dein, denken, deutsch, drehen, drei, drücken, du, E-Mail, ehrlich, einfach, einladen, eins, Eis, elf, empfangen, empfehlen, England, Ente, entscheiden, Entschuldigung, entspannen, entspannt, enttäuscht, er, erholen, erinnern, erklären, erstaunlich, erzählen, essen, fahren, Fahrer, Fahrkarte, fallen, falsch, fantastisch, faul, feiern, Fest, finden, Fisch, fit, Fleisch, fliegen, Flughafen, Flugzeug, Fluss, folgen, fortsetzen, fragen, Frankreich, Frau, freundlich, Freundschaft, frühstücken, fühlen, fünf, furchtbar, geben, gefährlich, gehen, gehören, gelangweilt, gelb, Gemüse, genießen, geschlossen, Gespräch, gestern, gestresst, gesund, gewinnen, gewöhnlich, gleich, glücklich, grau, Griechenland, groß, großartig, Großmutter, Großvater, grün, Gürtel, gut, gute Nacht, guten Abend, guten Morgen, guten Tag, gütig, Haar, haben, hallo, Haltestelle, Handy, hart, hassen, Haus, Hausaufgabe, Heft, heiß, helfen, Hemd, Himmel, hinzufügen, hoch, hoffen, höflich, hören, Hotel, hübsch, hungrig, ich, immer, Ingenieur, ins Bett gehen, interessant, Internet, Italien, Jacke, Jahr, jung, kalt, Kartoffel, Käse, Kasse, kaufen, Kellner, Klasse, Kleid, klein, Koch, kochen, Koffer, kommen, Kopf, korrekt, kosten, kostenlos, krank, Krankenhaus, Kuh, kühl, Kunde, lächeln, Lampe, lang, langsam, langweilig, laufen, laut, leben, leer, lehren, leicht, leise, leiten, lernen, lesen, lieben, London, lustig, machen, Mann, Mantel, Markt, Maus, Meer, mein, Mensch, mieten, mögen, möglich, Monat, Mond, Moskau, müde, nass, nehmen, nervös, nett, neu, neun, New York, nie, niedrig, notwendig, nützlich, nutzlos, Obst, offen, öffnen, Onkel, online, orange, organisieren, österreichisch, packen, Paris, Park, Pass, passieren, pendeln, perfekt, Pferd, Polizist, Post, präsentieren, Preis, prüfen, Pullover, Rechnung, reden, Regal, regnerisch, reinigen, Reis, Reise, reisen, rennen, reparieren, Restaurant, richtig, Rock, Rom, rosa, rot, ruhen, Russland, sagen, Salz, sauber, Schaf, schauen, scheinen, schlafen, schlau, schlecht, schließen, schmutzig, Schnee, schneiden, schnell, Schnitzel, schön, Schrank, schrecklich, schreiben, schulden, schwach, schwarz, Schwein, schweizerisch, schwer, Schwester, schwierig, schwimmen, sechs, See, sehen, sein, selbstbewusst, senden, sich leisten, sicher, sie, sieben, singen, sitzen, Socke, Sofa, Sohn, sonnig, Spanien, sparen, spielen, sprechen, springen, Stadt, stark, stehen, stellen, sterben, Stern, stolz, stoppen, stornieren, Student, studieren, Supermarkt, Tante, tanzen, teilen, Teilzeit, Teppich, teuer, Ticket, Tochter, tragen, trainieren, traurig, treffen, trinken, trocken, tschüss, tun, tut mir leid, überrascht, umziehen, und, unglücklich, unhöflich, unmöglich, Unterricht, Urlaub, USA, verängstigt, verdienen, vergessen, verkaufen, Verkäufer, verlassen, verlieren, verpassen, verstehen, versuchen, vier, violett, Vogel, voll, Vollzeit, vorstellen, wachsen, wählen, Wald, warm, warten, waschen, weh tun, weich, weinen, weiß, werden, Wetter, wichtig, wiederholen, Wind, wir, wissen, Wolke, wollen, wunderbar, wütend, Zahn, zehn, zeichnen, zeigen, ziehen, Zucker, zurückkehren, zurückkommen, zusammen, zustimmen, zwei, zwölf
+auf Wiedersehen, deutsch, Entschuldigung, essen, gute Nacht, guten Abend, guten Morgen, guten Tag, orange, österreichisch, schweizerisch
 ```
 
 </details>
 
 <details>
-<summary><strong>COSYdata Unique Words List (16 words)</strong></summary>
+<summary><strong>COSYdata Unique Words List (26 words)</strong></summary>
 
 ```
-Abend, Abendessen, Arbeit, Ehefrau, Ehemann, Ei, Essen, Familie, Frühstück, Garten, Mittagessen, Morgen, Pasta, Pizza, Schlüssel, Zuhause
+Abend, Abendessen, Arbeit, Auf Wiedersehen, Deutsch, Ehefrau, Ehemann, Ei, entschuldigung, Essen, Familie, Frühstück, Garten, Gute Nacht, Guten Abend, Guten Morgen, Guten Tag, Mittagessen, Morgen, Orange, Österreichisch, Pasta, Pizza, Schlüssel, Schweizerisch, Zuhause
 ```
 
 </details>

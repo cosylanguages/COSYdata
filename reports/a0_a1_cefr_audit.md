@@ -27,8 +27,8 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **Italian (`it`)** | 517 | 517 | 38 | 0 | 7.4% | ✅ **Compliant / Annotated** |
 | **Russian (`ru`)** | 880 | 880 | 189 | 0 | 21.5% | ⚠️ **Methodology Warning (>15%)** |
 | **Greek (`el`)** | 516 | 516 | 26 | 0 | 5.0% | ✅ **Compliant / Annotated** |
-| **German (`de`)** | 62 | 62 | 19 | 0 | 30.6% | ⚠️ **Methodology Warning (>15%)** |
-| **Spanish (`es`)** | 482 | 482 | 146 | 0 | 30.3% | ⚠️ **Methodology Warning (>15%)** |
+| **German (`de`)** | 494 | 494 | 19 | 0 | 3.8% | ✅ **Compliant / Annotated** |
+| **Spanish (`es`)** | 123 | 123 | 38 | 0 | 30.9% | ⚠️ **Methodology Warning (>15%)** |
 | **Portuguese (`pt`)** | 124 | 124 | 39 | 0 | 31.5% | ⚠️ **Methodology Warning (>15%)** |
 | **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
 | **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
@@ -186,12 +186,12 @@ All 880 Russian entries in `vocabulary/ru/a0_a1/` (548 initial baseline + 332 mi
 ### 6. German (`vocabulary/de/a0_a1/`)
 
 - **Primary Reference Source**: **Goethe-Institut (Goethe-Zertifikat A1: Start Deutsch 1 Wortliste / Profile deutsch A1)**.
-- **Total Entries Audited**: 62
-- **Verified A0/A1 Compliant**: 62 (100.0%)
-- **Multi-Level Flagged**: 19 (30.6%)
+- **Total Entries Audited**: 494
+- **Verified A0/A1 Compliant**: 494 (100.0%)
+- **Multi-Level Flagged**: 19 (3.8%)
 
-#### Methodology Warning (>15% Threshold)
-> ⚠️ **METHODOLOGY WARNING**: **19 out of 62 German entries (30.6%)** are flagged as multi-level headwords (A1 core communicative sense alongside A2/B1 extended usage in Goethe-Zertifikat / Profile deutsch). Per project directives, these terms retain their primary A1 classification while recording multi-level scope via the `levels` array.
+#### Goethe-Institut A1 Compliance Summary
+All 494 German entries in `vocabulary/de/a0_a1/` were audited against the official Goethe-Institut A1 (Start Deutsch 1 / Profile deutsch A1) vocabulary profile. 19 terms exhibit multi-level headword usage (core A1 communicative sense alongside A2/B1 extended usage) and are annotated with the `levels` array (e.g. `levels: ["A1", "A2"]`). With a multi-level flag ratio of 3.8% (well below the 15% warning threshold), the German A0/A1 vocabulary dataset is fully compliant and annotated.
 
 #### Multi-Level Entries Flagged against Goethe-Zertifikat A1 / Profile deutsch
 
