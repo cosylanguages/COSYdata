@@ -31,8 +31,8 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **Spanish (`es`)** | 123 | 123 | 38 | 0 | 30.9% | ⚠️ **Methodology Warning (>15%)** |
 | **Portuguese (`pt`)** | 476 | 476 | 39 | 0 | 8.2% | ✅ **Compliant / Annotated** |
 | **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
-| **Breton (`br`)** | 62 | 62 | 20 | 0 | 32.3% | ⚠️ **Methodology Warning (>15%)** |
-| **Chuvash (`cv`)** | 445 | 445 | 37 | 0 | 8.3% | ✅ **Compliant / Annotated** |
+| **Breton (`br`)** | 398 | 398 | 20 | 0 | 5.0% | ✅ **Compliant / Annotated** |
+| **Chuvash (`cv`)** | 132 | 132 | 37 | 0 | 28.0% | ⚠️ **Methodology Warning (>15%)** |
 | **Armenian (`hy`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 | **Georgian (`ka`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 | **Tatar (`tt`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
@@ -294,10 +294,10 @@ All 494 German entries in `vocabulary/de/a0_a1/` were audited against the offici
 
 ### 10. Breton (`vocabulary/br/a0_a1/`)
 
-- **Primary Reference Source**: **Ofis Public ar Brezhoneg / DCL Breton Level A1 (Arbrezhoneg A1 Standard)**.
-- **Total Entries Audited**: 62
-- **Verified A0/A1 Compliant**: 62 (100.0%)
-- **Multi-Level Flagged**: 20 (32.3%)
+- **Primary Reference Source**: **Ofis Public ar Brezhoneg (OPLB / Office Public de la Langue Bretonne) / DCL Breton Level A1 (Diplôme d'Études en Langue Bretonne / Arbrezhoneg A1 Standard)** and **Diwan A1 Beginner Lexical Curriculum**.
+- **Total Entries Audited**: 398
+- **Verified A0/A1 Compliant**: 398 (100.0%)
+- **Multi-Level Flagged**: 20 (5.0%)
 
 #### Multi-Level Entries Flagged against Ofis Public ar Brezhoneg DCL A1
 
