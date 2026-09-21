@@ -33,7 +33,7 @@ This audit evaluates the assigned CEFR levels across **EN (1727), FR (516), IT (
 | **Bashkir (`ba`)** | 61 | 61 | 10 | 0 | 16.4% | ⚠️ **Methodology Warning (>15%)** |
 | **Breton (`br`)** | 398 | 398 | 20 | 0 | 5.0% | ✅ **Compliant / Annotated** |
 | **Chuvash (`cv`)** | 132 | 132 | 37 | 0 | 28.0% | ⚠️ **Methodology Warning (>15%)** |
-| **Armenian (`hy`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
+| **Armenian (`hy`)** | 391 | 391 | 19 | 0 | 4.9% | ✅ **Compliant / Annotated** |
 | **Georgian (`ka`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 | **Tatar (`tt`)** | 61 | 61 | 19 | 0 | 31.1% | ⚠️ **Methodology Warning (>15%)** |
 
@@ -329,10 +329,13 @@ All 494 German entries in `vocabulary/de/a0_a1/` were audited against the offici
 
 ### 12. Armenian (`vocabulary/hy/a0_a1/`)
 
-- **Primary Reference Source**: **Ministry of Education, Science, Culture and Sports of RA (Armenian as a Foreign Language A1 Standard)**.
-- **Total Entries Audited**: 61
-- **Verified A0/A1 Compliant**: 61 (100.0%)
-- **Multi-Level Flagged**: 19 (31.1%)
+- **Primary Reference Source**: **Ministry of Education, Science, Culture and Sports of RA (Armenian as a Foreign Language A1 Standard)** / **Yerevan State University AFL A1 Syllabus**.
+- **Total Entries Audited**: 391
+- **Verified A0/A1 Compliant**: 391 (100.0%)
+- **Multi-Level Flagged**: 19 (4.9%)
+
+#### Source Standard Alignment & Methodology
+Given the absence of an official EU CEFR certifying body for Armenian, vocabulary difficulty and curriculum bounds are evaluated against the **Ministry of Education, Science, Culture and Sports of RA (Armenian as a Foreign Language A1 Standard)** and **Yerevan State University AFL A1 Syllabus**. All 391 post-migration entries match the core communicative goals for absolute beginner Armenian learners.
 
 #### Multi-Level Entries Flagged against Armenian AFL A1 Standard
 
