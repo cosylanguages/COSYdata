@@ -111,20 +111,26 @@ async function fetchJson(url) {
  * @param {number} [options.ttlMs] - Cache TTL in milliseconds
  * @returns {Promise<Object|null>} Vocabulary entry object or null if not found
  */
-export async function resolveVocab(ref, options = {}) {
+export async function resolveVocab(ref, options = {}, _visited = new Set()) {
   if (!ref || typeof ref !== 'string') {
     console.warn(`[COSYdata] Invalid ref passed to resolveVocab: ${ref}`);
     return null;
   }
+
+  if (_visited.has(ref)) {
+    console.warn(`[COSYdata] Circular alias cycle detected for ref '${ref}'.`);
+    return null;
+  }
+  _visited.add(ref);
+
+  const baseUrl = (options.baseUrl || DEFAULT_BASE_URL).replace(/\/?$/, '/');
+  const ttlMs = typeof options.ttlMs === 'number' ? options.ttlMs : DEFAULT_TTL_MS;
 
   const parts = ref.split(':');
   if (parts.length < 2) {
     console.warn(`[COSYdata] Malformed ref '${ref}'. Expected 'lang:word' or 'lang:theme:word' or 'lang:word:form'.`);
     return null;
   }
-
-  const baseUrl = (options.baseUrl || DEFAULT_BASE_URL).replace(/\/?$/, '/');
-  const ttlMs = typeof options.ttlMs === 'number' ? options.ttlMs : DEFAULT_TTL_MS;
 
   const lang = parts[0];
   let theme = null;
@@ -188,6 +194,22 @@ export async function resolveVocab(ref, options = {}) {
     }
 
     if (!targetFile) {
+      // Fallback: check shared/id-aliases.json for retired IDs
+      const aliasCacheKey = 'shared:id-aliases';
+      let aliasData = getCache(aliasCacheKey);
+      if (!aliasData) {
+        const aliasUrl = `${baseUrl}shared/id-aliases.json`;
+        aliasData = await fetchJson(aliasUrl);
+        if (aliasData) {
+          setCache(aliasCacheKey, aliasData, ttlMs);
+        }
+      }
+
+      if (aliasData && aliasData[ref]) {
+        const targetAliasId = aliasData[ref];
+        return await resolveVocab(targetAliasId, options, _visited);
+      }
+
       console.warn(`[COSYdata] Word reference '${ref}' not found in index for language '${lang}'.`);
       return null;
     }
@@ -234,6 +256,22 @@ export async function resolveVocab(ref, options = {}) {
     ) {
       return entry;
     }
+  }
+
+  // Fallback: check shared/id-aliases.json
+  const aliasCacheKey = 'shared:id-aliases';
+  let aliasData = getCache(aliasCacheKey);
+  if (!aliasData) {
+    const aliasUrl = `${baseUrl}shared/id-aliases.json`;
+    aliasData = await fetchJson(aliasUrl);
+    if (aliasData) {
+      setCache(aliasCacheKey, aliasData, ttlMs);
+    }
+  }
+
+  if (aliasData && aliasData[ref]) {
+    const targetAliasId = aliasData[ref];
+    return await resolveVocab(targetAliasId, options, _visited);
   }
 
   console.warn(`[COSYdata] Word reference '${ref}' not found in theme '${theme}' for language '${lang}'.`);

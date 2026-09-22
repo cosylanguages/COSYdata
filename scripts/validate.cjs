@@ -6,6 +6,31 @@ const addFormats = require('ajv-formats');
 function main() {
   let hasError = false;
 
+  const rootDir = path.join(__dirname, '..');
+
+  // Load canonical themes taxonomy
+  let knownThemes = {};
+  const themesPath = path.join(rootDir, 'shared', 'themes.json');
+  if (fs.existsSync(themesPath)) {
+    try {
+      const themesData = JSON.parse(fs.readFileSync(themesPath, 'utf8'));
+      knownThemes = themesData.themes || {};
+    } catch (err) {
+      console.warn(`[WARNING] Could not parse shared/themes.json: ${err.message}`);
+    }
+  }
+
+  // Load ID aliases
+  let idAliases = {};
+  const aliasesPath = path.join(rootDir, 'shared', 'id-aliases.json');
+  if (fs.existsSync(aliasesPath)) {
+    try {
+      idAliases = JSON.parse(fs.readFileSync(aliasesPath, 'utf8'));
+    } catch (err) {
+      console.warn(`[WARNING] Could not parse shared/id-aliases.json: ${err.message}`);
+    }
+  }
+
   const ajv = new Ajv2020({ allErrors: true });
   addFormats(ajv);
 
@@ -42,7 +67,6 @@ function main() {
     return fileList;
   }
 
-  const rootDir = path.join(__dirname, '..');
   let targetPaths = [];
 
   if (process.argv[2]) {
@@ -78,6 +102,8 @@ function main() {
   console.log(`Validating ${themeFiles.length} data file(s)...`);
 
   const idToFilesMap = {};
+  const allEnglishIds = new Set();
+  const vocabEntriesList = [];
 
   for (const file of themeFiles) {
     const relPath = path.relative(rootDir, file).replace(/\\/g, '/');
@@ -139,6 +165,14 @@ function main() {
             idToFilesMap[entry.id] = [];
           }
           idToFilesMap[entry.id].push(relPath);
+
+          if (relPath.startsWith('vocabulary/en/')) {
+            allEnglishIds.add(entry.id);
+          }
+
+          if (schemaType === 'vocabulary') {
+            vocabEntriesList.push({ entry, relPath });
+          }
         }
       }
     } catch (err) {
@@ -153,6 +187,45 @@ function main() {
       hasError = true;
       console.error(`\n[DUPLICATE ID ERROR] ID '${id}' appears ${filesList.length} times in data files:`);
       filesList.forEach((f) => console.error(`  - ${f}`));
+    }
+  }
+
+  // Check alias list freshness
+  console.log(`Checking id-aliases freshness...`);
+  for (const retiredId of Object.keys(idAliases)) {
+    if (idToFilesMap[retiredId]) {
+      hasError = true;
+      console.error(`\n[RETIRED ID ERROR] ID '${retiredId}' is listed in shared/id-aliases.json as retired, but still exists in data files:`);
+      idToFilesMap[retiredId].forEach((f) => console.error(`  - ${f}`));
+    }
+  }
+
+  // Taxonomy & concept resolution checks (warnings)
+  console.log(`Checking theme taxonomy and concept resolution...`);
+  for (const { entry, relPath } of vocabEntriesList) {
+    if (entry.theme && Object.keys(knownThemes).length > 0) {
+      if (!knownThemes[entry.theme]) {
+        console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): primary theme '${entry.theme}' is not in shared/themes.json`);
+      } else if (entry.sub_theme) {
+        const allowedSubThemes = knownThemes[entry.theme] || [];
+        if (!allowedSubThemes.includes(entry.sub_theme)) {
+          console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): sub_theme '${entry.sub_theme}' is not in shared/themes.json for theme '${entry.theme}'`);
+        }
+      }
+    }
+
+    if (entry.secondary_themes && Object.keys(knownThemes).length > 0) {
+      for (const st of entry.secondary_themes) {
+        if (!knownThemes[st]) {
+          console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): secondary_theme '${st}' is not in shared/themes.json`);
+        }
+      }
+    }
+
+    if (entry.concept) {
+      if (!allEnglishIds.has(entry.concept)) {
+        console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): concept '${entry.concept}' does not resolve to an existing English entry ID`);
+      }
     }
   }
 

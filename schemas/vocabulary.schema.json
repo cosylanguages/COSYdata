@@ -104,7 +104,13 @@
           "US",
           "CA",
           "AU",
-          "NZ"
+          "NZ",
+          "PT",
+          "BR",
+          "EA",
+          "WA",
+          "ES",
+          "LATAM"
         ]
       },
       "minItems": 1,
@@ -120,6 +126,41 @@
       "minItems": 1,
       "uniqueItems": true,
       "description": "Array of vocabulary IDs pointing to regional equivalent words"
+    },
+    "concept": {
+      "type": "string",
+      "pattern": "^en:[a-z0-9-]+:[a-z0-9-]+$",
+      "description": "ID of the corresponding English concept entry"
+    },
+    "secondary_themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Secondary theme tags"
+    },
+    "sense": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Short slug distinguishing homographs"
+    },
+    "usage_note": {
+      "type": "string",
+      "description": "Short sentence of usage guidance in English"
+    },
+    "stress": {
+      "type": "string",
+      "description": "Headword with combining acute accent U+0301 on stressed vowel"
+    },
+    "harmony": {
+      "type": "string",
+      "enum": [
+        "front",
+        "back"
+      ],
+      "description": "Turkic vowel harmony class"
     },
     "no_emoji": {
       "type": "boolean",
@@ -227,7 +268,7 @@
     },
     "plural_form": {
       "type": "string",
-      "description": "Plural form (meaningful for nouns)"
+      "description": "Plural form (meaningful for nouns and adjectives)"
     },
     "singular_workaround": {
       "type": "string",
@@ -236,6 +277,241 @@
     "collective_note": {
       "type": "string",
       "description": "Note for countable nouns whose verb agreement varies by dialect or reading"
+    },
+    "partitive": {
+      "type": "string",
+      "description": "Partitive article/form (e.g. du, de la, del)"
+    },
+    "h_aspire": {
+      "type": "boolean",
+      "description": "Indicates aspirate h in French"
+    },
+    "animacy": {
+      "type": "string",
+      "enum": [
+        "animate",
+        "inanimate"
+      ],
+      "description": "Grammatical animacy classification"
+    },
+    "definite_form": {
+      "type": "string",
+      "description": "Definite form of noun"
+    },
+    "genitive_singular": {
+      "type": "string",
+      "description": "Genitive singular form of noun"
+    },
+    "initial_mutations": {
+      "type": "object",
+      "properties": {
+        "soft": {
+          "type": "string"
+        },
+        "aspirate": {
+          "type": "string"
+        },
+        "spirant": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Initial mutation forms (e.g. for Celtic languages)"
+    },
+    "case_forms": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Map of grammatical case names to forms"
+    },
+    "auxiliary": {
+      "type": "string",
+      "description": "Auxiliary verb used in compound tenses"
+    },
+    "conjugation_class": {
+      "type": "string",
+      "description": "Verb conjugation class or paradigm"
+    },
+    "stem_change": {
+      "type": "string",
+      "description": "Stem change specification"
+    },
+    "separable_prefix": {
+      "type": "string",
+      "description": "Separable verb prefix"
+    },
+    "reflexive": {
+      "type": "boolean",
+      "description": "Indicates reflexive verb"
+    },
+    "aspect": {
+      "type": "string",
+      "enum": [
+        "imperfective",
+        "perfective",
+        "biaspectual",
+        "stative",
+        "action",
+        "both"
+      ],
+      "description": "Verbal aspect"
+    },
+    "aspect_pair": {
+      "type": "string",
+      "description": "Opposite aspect verb ID or form"
+    },
+    "motion_type": {
+      "type": "string",
+      "enum": [
+        "unidirectional",
+        "multidirectional"
+      ],
+      "description": "Type of verb of motion"
+    },
+    "voice": {
+      "type": "string",
+      "enum": [
+        "active",
+        "passive",
+        "deponent"
+      ],
+      "description": "Grammatical voice"
+    },
+    "present_forms": {
+      "type": "object",
+      "properties": {
+        "sg1": {
+          "type": "string"
+        },
+        "sg2": {
+          "type": "string"
+        },
+        "sg3": {
+          "type": "string"
+        },
+        "sg3m": {
+          "type": "string"
+        },
+        "sg3f": {
+          "type": "string"
+        },
+        "pl1": {
+          "type": "string"
+        },
+        "pl2": {
+          "type": "string"
+        },
+        "pl3": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Present tense conjugation forms"
+    },
+    "person_forms": {
+      "type": "object",
+      "properties": {
+        "sg1": {
+          "type": "string"
+        },
+        "sg2": {
+          "type": "string"
+        },
+        "sg3": {
+          "type": "string"
+        },
+        "sg3m": {
+          "type": "string"
+        },
+        "sg3f": {
+          "type": "string"
+        },
+        "pl1": {
+          "type": "string"
+        },
+        "pl2": {
+          "type": "string"
+        },
+        "pl3": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Inflected person forms for conjugated prepositions"
+    },
+    "stems": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Verb stem variants"
+    },
+    "negative_form": {
+      "type": "string",
+      "description": "Negative form of verb"
+    },
+    "feminine": {
+      "type": "string",
+      "description": "Feminine form of adjective"
+    },
+    "neuter": {
+      "type": "string",
+      "description": "Neuter form of adjective"
+    },
+    "masculine_plural": {
+      "type": "string",
+      "description": "Masculine plural form of adjective"
+    },
+    "feminine_plural": {
+      "type": "string",
+      "description": "Feminine plural form of adjective"
+    },
+    "position": {
+      "type": "string",
+      "enum": [
+        "before_noun",
+        "after_noun",
+        "either"
+      ],
+      "description": "Position relative to noun for adjectives"
+    },
+    "person": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "description": "Grammatical person (1, 2, or 3)"
+    },
+    "number": {
+      "type": "string",
+      "enum": [
+        "singular",
+        "plural"
+      ],
+      "description": "Grammatical number"
+    },
+    "governs_case": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ],
+      "description": "Grammatical case(s) governed by preposition or postposition"
+    },
+    "value": {
+      "type": "integer",
+      "description": "Numeric integer value for number forms"
     },
     "comparative": {
       "type": "string",
@@ -259,7 +535,7 @@
     },
     "is_irregular": {
       "type": "boolean",
-      "description": "Indicates if past tense or past participle forms are irregular (meaningful for verbs)"
+      "description": "Indicates if verb is irregular"
     },
     "prepositions": {
       "type": "array",
@@ -277,6 +553,14 @@
           "example": {
             "type": "string",
             "description": "Example usage demonstrating the verb-preposition pattern"
+          },
+          "case": {
+            "type": "string",
+            "description": "Grammatical case governed by the preposition in this pattern"
+          },
+          "usage": {
+            "type": "string",
+            "description": "Usage context or meaning nuance for this preposition pattern"
           }
         },
         "additionalProperties": false
@@ -345,6 +629,554 @@
     {
       "if": {
         "properties": {
+          "secondary_themes": {
+            "type": "array"
+          }
+        },
+        "required": [
+          "secondary_themes"
+        ]
+      },
+      "then": {
+        "not": {
+          "properties": {
+            "theme": {
+              "type": "string"
+            },
+            "secondary_themes": {
+              "type": "array"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "actions"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "actions"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "activities"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "activities"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "animals"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "animals"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "clothing"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "clothing"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "colors"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "colors"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "communication"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "communication"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "descriptors"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "descriptors"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "education"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "education"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "emotions"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "emotions"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "family"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "family"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "food"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "food"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "general"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "general"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "geography"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "geography"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "grammar"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "grammar"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "health"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "health"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "housing"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "housing"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "leisure"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "leisure"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "measurement"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "measurement"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "nature"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "nature"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "navigation"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "navigation"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "numbers"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "numbers"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "objects"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "objects"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "shapes"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "shapes"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "shopping"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "shopping"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "technology"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "technology"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "time"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "time"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "travel"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "travel"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "weather"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "weather"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "theme": {
+                    "const": "work"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "secondary_themes": {
+                    "contains": {
+                      "const": "work"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
           "form": {
             "const": "noun"
           }
@@ -383,13 +1215,60 @@
           "collective_note": {
             "type": "string"
           },
+          "partitive": {
+            "type": "string"
+          },
+          "h_aspire": {
+            "type": "boolean"
+          },
+          "animacy": {
+            "type": "string",
+            "enum": [
+              "animate",
+              "inanimate"
+            ]
+          },
+          "definite_form": {
+            "type": "string"
+          },
+          "genitive_singular": {
+            "type": "string"
+          },
+          "initial_mutations": {
+            "type": "object"
+          },
+          "case_forms": {
+            "type": "object"
+          },
           "comparative": false,
           "superlative": false,
           "past_tense": false,
           "past_participle": false,
           "present_participle": false,
           "is_irregular": false,
-          "prepositions": false
+          "prepositions": false,
+          "auxiliary": false,
+          "conjugation_class": false,
+          "stem_change": false,
+          "separable_prefix": false,
+          "reflexive": false,
+          "aspect": false,
+          "aspect_pair": false,
+          "motion_type": false,
+          "voice": false,
+          "present_forms": false,
+          "stems": false,
+          "negative_form": false,
+          "feminine": false,
+          "neuter": false,
+          "masculine_plural": false,
+          "feminine_plural": false,
+          "position": false,
+          "person": false,
+          "number": false,
+          "governs_case": false,
+          "value": false,
+          "person_forms": false
         }
       },
       "else": {
@@ -397,9 +1276,14 @@
           "article": false,
           "gender": false,
           "countability": false,
-          "plural_form": false,
           "singular_workaround": false,
-          "collective_note": false
+          "collective_note": false,
+          "partitive": false,
+          "h_aspire": false,
+          "animacy": false,
+          "definite_form": false,
+          "genitive_singular": false,
+          "initial_mutations": false
         }
       }
     },
@@ -430,7 +1314,64 @@
           },
           "prepositions": {
             "type": "array"
-          }
+          },
+          "auxiliary": {
+            "type": "string"
+          },
+          "conjugation_class": {
+            "type": "string"
+          },
+          "stem_change": {
+            "type": "string"
+          },
+          "separable_prefix": {
+            "type": "string"
+          },
+          "reflexive": {
+            "type": "boolean"
+          },
+          "aspect": {
+            "type": "string"
+          },
+          "aspect_pair": {
+            "type": "string"
+          },
+          "motion_type": {
+            "type": "string",
+            "enum": [
+              "unidirectional",
+              "multidirectional"
+            ]
+          },
+          "voice": {
+            "type": "string",
+            "enum": [
+              "active",
+              "passive",
+              "deponent"
+            ]
+          },
+          "present_forms": {
+            "type": "object"
+          },
+          "stems": {
+            "type": "object"
+          },
+          "negative_form": {
+            "type": "string"
+          },
+          "comparative": false,
+          "superlative": false,
+          "feminine": false,
+          "neuter": false,
+          "masculine_plural": false,
+          "feminine_plural": false,
+          "position": false,
+          "person": false,
+          "number": false,
+          "governs_case": false,
+          "value": false,
+          "person_forms": false
         }
       },
       "else": {
@@ -439,7 +1380,19 @@
           "past_participle": false,
           "present_participle": false,
           "is_irregular": false,
-          "prepositions": false
+          "prepositions": false,
+          "auxiliary": false,
+          "conjugation_class": false,
+          "stem_change": false,
+          "separable_prefix": false,
+          "reflexive": false,
+          "aspect": false,
+          "aspect_pair": false,
+          "motion_type": false,
+          "voice": false,
+          "present_forms": false,
+          "stems": false,
+          "negative_form": false
         }
       }
     },
@@ -448,10 +1401,14 @@
         "properties": {
           "is_irregular": {
             "const": true
+          },
+          "language": {
+            "const": "en"
           }
         },
         "required": [
-          "is_irregular"
+          "is_irregular",
+          "language"
         ]
       },
       "then": {
@@ -485,9 +1442,179 @@
         }
       },
       "else": {
+        "if": {
+          "not": {
+            "properties": {
+              "form": {
+                "const": "noun"
+              }
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "comparative": false,
+            "superlative": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
         "properties": {
-          "comparative": false,
-          "superlative": false
+          "form": {
+            "const": "adjective"
+          }
+        },
+        "required": [
+          "form"
+        ]
+      },
+      "then": {
+        "properties": {
+          "feminine": {
+            "type": "string"
+          },
+          "neuter": {
+            "type": "string"
+          },
+          "masculine_plural": {
+            "type": "string"
+          },
+          "feminine_plural": {
+            "type": "string"
+          },
+          "plural_form": {
+            "type": "string"
+          },
+          "position": {
+            "type": "string",
+            "enum": [
+              "before_noun",
+              "after_noun",
+              "either"
+            ]
+          }
+        }
+      },
+      "else": {
+        "if": {
+          "not": {
+            "properties": {
+              "form": {
+                "const": "noun"
+              }
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "feminine": false,
+            "neuter": false,
+            "masculine_plural": false,
+            "feminine_plural": false,
+            "position": false,
+            "plural_form": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "form": {
+            "enum": [
+              "pronoun",
+              "determiner"
+            ]
+          }
+        },
+        "required": [
+          "form"
+        ]
+      },
+      "then": {
+        "properties": {
+          "case_forms": {
+            "type": "object"
+          },
+          "person": {
+            "type": "integer",
+            "enum": [
+              1,
+              2,
+              3
+            ]
+          },
+          "number": {
+            "type": "string",
+            "enum": [
+              "singular",
+              "plural"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "form": {
+            "enum": [
+              "preposition",
+              "postposition"
+            ]
+          }
+        },
+        "required": [
+          "form"
+        ]
+      },
+      "then": {
+        "properties": {
+          "governs_case": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array"
+              }
+            ]
+          },
+          "person_forms": {
+            "type": "object"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "governs_case": false,
+          "person_forms": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "form": {
+            "const": "number"
+          }
+        },
+        "required": [
+          "form"
+        ]
+      },
+      "then": {
+        "properties": {
+          "value": {
+            "type": "integer"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "value": false
         }
       }
     },
