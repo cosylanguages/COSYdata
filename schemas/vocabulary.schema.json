@@ -223,6 +223,29 @@
       },
       "description": "Array of ID references into another COSY repo's data, e.g. COSYtools:fr-conjugeur:aimer"
     },
+    "grammar_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic_id",
+          "manual_url"
+        ],
+        "properties": {
+          "topic_id": {
+            "type": "string",
+            "description": "Identifier for the governing grammar topic"
+          },
+          "manual_url": {
+            "type": "string",
+            "description": "URL to grammar manual documentation"
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "description": "Array of grammar topic references governing this entry"
+    },
     "domain": {
       "type": "string",
       "description": "Subject domain"
