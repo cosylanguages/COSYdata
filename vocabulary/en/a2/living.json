@@ -11,7 +11,7 @@
     "examples": [
       "We ate out at a restaurant last night."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/aʊt/",
@@ -19,7 +19,8 @@
     "countability": "uncountable",
     "antonyms": [
       "in"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:own:verb",
@@ -57,7 +58,7 @@
     "examples": [
       "It is quiet in the library afternoon."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -69,7 +70,8 @@
     "antonyms": [
       "noisy",
       "loud"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:gas:noun",
@@ -111,7 +113,7 @@
     "examples": [
       "Turn on the air conditioning during hot summer."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
@@ -121,7 +123,8 @@
     "transcription": "/kənˈdɪʃ.ən.ɪŋ/",
     "emoji": "❄️",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:suburb:noun",
@@ -135,7 +138,7 @@
     "examples": [
       "They live in a quiet leafy suburb."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "suburbs",
@@ -154,7 +157,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈsʌb.ɝːb/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:property:noun",
@@ -168,7 +172,7 @@
     "examples": [
       "The property value increased this year."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "properties",
@@ -198,7 +202,7 @@
     "examples": [
       "The landlord fixed the leaking roof yesterday."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "landlords",
@@ -232,7 +236,7 @@
     "examples": [
       "The new tenant moved in on Monday."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "tenants",
@@ -263,7 +267,7 @@
     "examples": [
       "They decided to lease an apartment for a year."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -286,7 +290,7 @@
     "examples": [
       "They took out a mortgage to buy home."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "mortgages",
@@ -303,7 +307,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈmɔːr.ɡɪdʒ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:neighbourhood:noun",
@@ -317,7 +322,7 @@
     "examples": [
       "Our neighbourhood is safe and very friendly."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "neighbourhoods",
@@ -331,7 +336,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈneɪ.bɚ.hʊd/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:agreement:noun",
@@ -373,7 +379,7 @@
     "examples": [
       "The noisy traffic woke me up early."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -385,7 +391,8 @@
     "antonyms": [
       "quiet",
       "silent"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:neighborhood:noun",
@@ -426,7 +433,7 @@
     "examples": [
       "We rent a flat near the university."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "tags": [
@@ -543,7 +550,7 @@
     "examples": [
       "Children played safely in the back yard."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "plural_form": "yards",
@@ -556,7 +563,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/jɑːrd/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:basement:noun",
@@ -1031,7 +1039,7 @@
     "examples": [
       "Keep your socks in the top drawer."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "housing",
     "tags": [
       "spoken",
@@ -1042,7 +1050,8 @@
     "transcription": "/drɔːr/",
     "emoji": "🗄️",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:cabinet:noun",
@@ -1084,7 +1093,7 @@
     "examples": [
       "We will move in next Saturday morning."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "housing",
     "tags": [
       "spoken",
@@ -1096,7 +1105,8 @@
     "countability": "uncountable",
     "antonyms": [
       "move out"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:move-out:noun",
@@ -1110,7 +1120,7 @@
     "examples": [
       "They must move out by the end of month."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "housing",
     "tags": [
       "spoken",
@@ -1122,7 +1132,8 @@
     "countability": "uncountable",
     "antonyms": [
       "move in"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:doorbell:noun",
@@ -1192,14 +1203,15 @@
     "examples": [
       "She took a hot bath after a long workday."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/bɑːθ/",
     "emoji": "🛁",
     "countability": "countable",
     "plural_form": "baths",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:laundromat:noun",
@@ -1372,7 +1384,7 @@
     "examples": [
       "Good childcare is essential for working parents."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "levels": [
@@ -1384,7 +1396,8 @@
     },
     "emoji": "👶",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:daycare:noun",
@@ -1424,7 +1437,7 @@
     "examples": [
       "They decided to extend their stay by two days."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "time",
     "updated": "2025-01-15",
     "levels": [
@@ -1434,7 +1447,8 @@
     "emoji": "↔️",
     "antonyms": [
       "shorten"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:extension:noun",
@@ -1634,7 +1648,7 @@
     "examples": [
       "The university decided to expand its international student enrollment next semester."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "growth",
     "updated": "2025-01-15",
     "levels": [
@@ -1645,7 +1659,8 @@
     "antonyms": [
       "shrink",
       "contract"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:playdate:noun",

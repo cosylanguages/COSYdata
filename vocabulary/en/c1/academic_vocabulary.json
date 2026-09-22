@@ -11,7 +11,7 @@
     "examples": [
       "The editorial board conducted a rigorous peer review of the submitted manuscript before granting final publication approval."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "plural_form": "reviews",
@@ -42,7 +42,7 @@
     "examples": [
       "The introductory chapter seeks to delineate clearly the theoretical boundaries and methodology of the proposed research project."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "levels": [
@@ -60,7 +60,8 @@
       "confuse",
       "distort",
       "obfuscate"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:distinction:noun",
@@ -74,7 +75,7 @@
     "examples": [
       "Scholars frequently draw a fundamental distinction between short-term tactical objectives and long-term strategic planning in policy analysis."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "plural_form": "distinctions",
@@ -258,7 +259,7 @@
     "examples": [
       "Academic discourse regarding artificial intelligence ethics tends to focus heavily on algorithmic bias and individual data privacy rights."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "tags": [
@@ -275,7 +276,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈdɪs.kɔːrs/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:seminal:adjective",
@@ -289,7 +291,7 @@
     "examples": [
       "His seminal paper on genetic inheritance revolutionized biology and laid the theoretical foundation for modern molecular genetics research."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "transcription": "/ˈsem.ɪ.nəl/",
@@ -306,7 +308,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈsem.ə.nəl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:canonical:adjective",
@@ -320,7 +323,7 @@
     "examples": [
       "The professor instructed students to critically evaluate canonical texts rather than accepting traditional interpretations without rigorous analytical scrutiny."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "transcription": "/kəˈnɒn.ɪ.kəl/",
@@ -337,7 +340,8 @@
     ],
     "transcription_variants": {
       "us": "/kəˈnɑː.nɪ.kəl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:corroborating:noun",
@@ -351,7 +355,7 @@
     "examples": [
       "Investigators gathered corroborating testimony from several independent witnesses to verify the complex timeline of events presented by counsel."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "academic",
     "updated": "2025-01-15",
     "transcription": "/kəˈrɒb.ə.reɪ.tɪŋ/",
@@ -369,7 +373,8 @@
     ],
     "transcription_variants": {
       "us": "/kəˈrɑː.bə.reɪ.t̬ɪŋ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:counterintuitive:adjective",
@@ -472,7 +477,7 @@
     "examples": [
       "Although anecdotal reports suggested the treatment was effective, clinical trials revealed no statistically significant benefit over standard placebos."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -494,7 +499,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌæn.ɪkˈdoʊ.t̬əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:longitudinal-study:noun",
@@ -508,7 +514,7 @@
     "examples": [
       "The comprehensive longitudinal study tracked cognitive development in children over twenty years to assess long-term educational intervention outcomes."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -542,7 +548,7 @@
     "examples": [
       "Researchers conducted a cross-sectional study to examine current dietary habits across different demographic groups within the metropolitan region."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -561,7 +567,8 @@
     "transcription_variants": {
       "us": "/ˌkrɑːs.sek.ʃən.əl ˈstʌd.i/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "general"
   },
   {
     "id": "en:sample-size:noun",
@@ -575,7 +582,7 @@
     "examples": [
       "Increasing the sample size allowed the research team to detect subtle statistical trends that were previously overlooked in trial."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -609,7 +616,7 @@
     "examples": [
       "The experimental data demonstrated a statistically significant reduction in symptom severity compared to baseline measures in control groups."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -644,7 +651,7 @@
     "examples": [
       "The political poll indicated a lead for the candidate, though the result remained well within the calculated margin of error."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -663,7 +670,8 @@
     "transcription_variants": {
       "us": "/ˈmɑːr.dʒɪn əv ˈer.ɚ/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "general"
   },
   {
     "id": "en:discredit:noun",
@@ -677,7 +685,7 @@
     "examples": [
       "Subsequent laboratory experiments conclusively discredited the initial hypothesis regarding room-temperature nuclear fusion presented by original research authors."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -696,7 +704,8 @@
       "repute",
       "prestige",
       "honor"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:theoretical-framework:noun",
@@ -842,7 +851,7 @@
     "examples": [
       "Addressing global climate change requires a multifaceted approach encompassing technological innovation, international policy reform, and sustainable economic initiatives."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "academic",
     "tags": [
       "spoken",
@@ -864,7 +873,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌmʌl.tiˈfæs.ə.t̬ɪd/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:multidimensional:noun",
@@ -1017,7 +1027,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "academic",
     "transcription": "/kɔːˈzæl.ə.ti/",
     "definitions": [
@@ -1033,7 +1043,8 @@
     "updated": "2025-01-15",
     "emoji": "🔗",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:control-group:noun",
@@ -1041,7 +1052,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "academic",
     "transcription": "/kənˈtrəʊl ɡruːp/",
     "definitions": [
@@ -1126,7 +1137,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "academic",
     "transcription": "/ˌfɔːl.sɪ.faɪ.əˈbɪl.ə.ti/",
     "definitions": [
@@ -1205,7 +1216,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "academic",
     "transcription": "/sɪˈmæn.tɪks/",
     "definitions": [
@@ -1230,7 +1241,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "academic",
     "transcription": "/ˈsɪn.tæks/",
     "definitions": [
@@ -1247,7 +1258,8 @@
     "updated": "2025-01-15",
     "emoji": "💻",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:trajectory:noun",
@@ -1282,7 +1294,7 @@
     "language": "en",
     "form": "adverb",
     "level": "C1",
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "academic",
     "transcription": "/vɜːˈbeɪ.tɪm/",
     "definitions": [
@@ -1301,14 +1313,15 @@
     "antonyms": [
       "paraphrased",
       "loosely"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:feasibility:noun",
     "word": "feasibility",
     "form": "noun",
     "level": "C1",
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "academic_vocabulary",
     "emoji": "📊",
     "countability": "uncountable",
@@ -1332,14 +1345,15 @@
     ],
     "examples": [
       "Consultants conducted a study to assess the financial feasibility of opening an overseas office."
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:viability:noun",
     "word": "viability",
     "form": "noun",
     "level": "C1",
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "academic_vocabulary",
     "emoji": "🌱",
     "countability": "uncountable",
@@ -1363,7 +1377,8 @@
     ],
     "examples": [
       "Investors evaluated the long-term commercial viability of opening local branches."
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:construct:noun",
@@ -1461,7 +1476,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "academic_vocabulary",
     "transcription": "/tækˈsɒn.ə.mi/",
     "updated": "2025-01-15",
@@ -1482,7 +1497,8 @@
       "classification system",
       "categorization"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:unfolding:noun",

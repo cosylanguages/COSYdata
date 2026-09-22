@@ -183,7 +183,7 @@
     "examples": [
       "Interrupting someone while they are speaking is considered impolite behavior."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/ˌɪm.pəˈlaɪt/",
@@ -195,7 +195,8 @@
     "antonyms": [
       "polite",
       "courteous"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:request:verb",
@@ -238,7 +239,7 @@
     "examples": [
       "Basically, we need to double our sales before the quarter ends."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "communication",
     "updated": "2025-01-15",
     "transcription": "/ˈbeɪ.sɪ.kəl.i/",
@@ -247,7 +248,8 @@
       "essentially",
       "fundamentally"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:essentially:phrase",
@@ -261,7 +263,7 @@
     "examples": [
       "The two proposals are essentially the same despite minor wording differences."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "communication",
     "updated": "2025-01-15",
     "tags": [
@@ -273,7 +275,8 @@
       "basically",
       "fundamentally"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:going-to:phrase",
@@ -576,7 +579,7 @@
     "examples": [
       "Many green vegetables, for instance spinach, are high in iron."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "communication",
     "tags": [
       "spoken",
@@ -592,7 +595,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/fɔːr ˈɪn.stəns/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:to-clarify:phrase",
@@ -665,7 +669,7 @@
     "examples": [
       "In conclusion, sustainable practices benefit both the environment and economy."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "communication",
     "tags": [
       "spoken",
@@ -680,7 +684,8 @@
     ],
     "antonyms": [
       "to begin with"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:taking-everything-into-account:phrase",
@@ -694,7 +699,7 @@
     "examples": [
       "Taking everything into account, the event was a complete success."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "communication",
     "tags": [
       "spoken",
@@ -706,6 +711,7 @@
     "synonyms": [
       "all things considered"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   }
 ]

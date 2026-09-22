@@ -11,7 +11,7 @@
     "examples": [
       "Epidemiological data gathered during the outbreak enabled public health officials to trace transmission chains and implement targeted quarantines."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "levels": [
@@ -42,7 +42,7 @@
     "examples": [
       "Palliative care specialists focus on improving quality of life for terminally ill patients through comprehensive pain management."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˈpæl.i.ə.tɪv/",
@@ -58,7 +58,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈpæl.i.ə.t̬ɪv/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:comorbidity:adjective",
@@ -72,7 +73,7 @@
     "examples": [
       "Cardiovascular disease is a common comorbidity that significantly increases complications for elderly patients suffering from chronic respiratory illnesses."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˌkəʊ.mɔːˈbɪd.ə.ti/",
@@ -84,7 +85,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌkoʊ.mɔːrˈbɪd.ə.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:efficacious:adjective",
@@ -160,7 +162,7 @@
     "examples": [
       "Medical researchers conducted extensive genetic sequencing to elucidate the precise etiology of the rare autoimmune neurological disorder."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˌiː.tiˈɒl.ə.dʒi/",
@@ -174,7 +176,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌiː.t̬iˈɑː.lə.dʒi/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:aetiology:noun",
@@ -268,7 +271,7 @@
     "examples": [
       "Rigorous hygiene protocols were implemented across surgical wards to minimize iatrogenic infection risks among post-operative patients."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/aɪˌæt.rəˈdʒen.ɪk/",
@@ -277,7 +280,8 @@
       "physician-induced",
       "treatment-induced"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:informed:noun",
@@ -467,7 +471,7 @@
     "examples": [
       "Administering prophylactic antibiotics prior to invasive surgery significantly reduces the risk of post-operative bacterial wound infections."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˌprɒf.ɪˈlæk.tɪk/",
@@ -483,7 +487,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌproʊ.fəˈlæk.tɪk/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:psychosomatic:adjective",

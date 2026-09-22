@@ -11,7 +11,7 @@
     "examples": [
       "He found a new job in the city."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "jobs",
@@ -31,7 +31,7 @@
       "us": "/dʒɑːb/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:work:verb",
@@ -45,7 +45,7 @@
     "examples": [
       "My father works in a bank."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -79,7 +79,7 @@
         "example": "He works at a school."
       }
     ],
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:worker:noun",
@@ -122,9 +122,9 @@
     "examples": [
       "Our teacher helps us learn English."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "plural_form": "teachers",
     "tags": [
       "spoken"
@@ -143,7 +143,7 @@
       "us": "/ˈtiː.tʃɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs",
+    "sub_theme": "general",
     "secondary_themes": [
       "education"
     ]
@@ -160,7 +160,7 @@
     "examples": [
       "Every student reads a book."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "students",
@@ -181,7 +181,7 @@
       "us": "/ˈstuː.dənt/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:dentist:noun",
@@ -195,7 +195,7 @@
     "examples": [
       "The dentist cleaned my teeth today."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "dentists",
@@ -214,7 +214,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:farmer:noun",
@@ -228,7 +228,7 @@
     "examples": [
       "The farmer feeds his cows daily."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "farmers",
@@ -243,7 +243,7 @@
       "us": "/ˈfɑːr.mɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:driver:noun",
@@ -252,12 +252,12 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a person who drives cars or buses"
+      "a person whose job is driving vehicles"
     ],
     "examples": [
       "The bus driver stopped at station."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "drivers",
@@ -275,7 +275,7 @@
       "us": "/ˈdraɪ.vɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:police:noun",
@@ -289,7 +289,7 @@
     "examples": [
       "Call the police in emergency."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -303,7 +303,7 @@
     "no_antonym": true,
     "emoji": "👮",
     "countability": "pluralia_tantum",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:officer:noun",
@@ -396,7 +396,7 @@
     "examples": [
       "The chef cooked delicious pizza."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "chefs",
@@ -412,7 +412,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:shopkeeper:noun",
@@ -452,9 +452,9 @@
     "examples": [
       "We bought milk at the shop."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "shopping",
-    "updated": "2026-09-22",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "work",
+    "updated": "2025-01-15",
     "plural_form": "shops",
     "tags": [
       "spoken"
@@ -476,7 +476,7 @@
       "en:store:noun"
     ],
     "article": "a",
-    "sub_theme": "stores_shops",
+    "sub_theme": "general",
     "secondary_themes": [
       "work"
     ]
@@ -520,7 +520,7 @@
     "examples": [
       "An engineer designed this bridge."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "engineers",
@@ -539,7 +539,7 @@
       "A2"
     ],
     "article": "an",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:scientist:noun",
@@ -553,7 +553,7 @@
     "examples": [
       "The scientist tested new medicine."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "scientists",
@@ -566,7 +566,7 @@
     "emoji": "🔬",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:artist:noun",
@@ -580,7 +580,7 @@
     "examples": [
       "An artist painted this picture."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "artists",
@@ -595,7 +595,7 @@
       "us": "/ˈɑːr.t̬ɪst/"
     },
     "article": "an",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:writer:noun",
@@ -609,7 +609,7 @@
     "examples": [
       "The writer published a new book."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "writers",
@@ -624,7 +624,7 @@
       "us": "/ˈraɪ.t̬ɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:singer:noun",
@@ -638,7 +638,7 @@
     "examples": [
       "The singer performed on stage."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "singers",
@@ -653,7 +653,7 @@
       "us": "/ˈsɪŋ.ɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:actor:noun",
@@ -667,7 +667,7 @@
     "examples": [
       "A famous actor visited our town."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "actors",
@@ -686,7 +686,7 @@
       "us": "/ˈæk.tɚ/"
     },
     "article": "an",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:manager:noun",
@@ -700,7 +700,7 @@
     "examples": [
       "The shop manager greeted us warmly."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "managers",
@@ -719,7 +719,7 @@
       "us": "/ˈmæn.ə.dʒɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:boss:noun",
@@ -733,7 +733,7 @@
     "examples": [
       "My boss gave me important work."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "bosses",
@@ -755,7 +755,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:employee:noun",
@@ -769,7 +769,7 @@
     "examples": [
       "Every employee attended the meeting."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "employees",
@@ -788,7 +788,7 @@
     ],
     "countability": "countable",
     "article": "an",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:office:noun",
@@ -802,7 +802,7 @@
     "examples": [
       "He works in a quiet office."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "offices",
@@ -821,7 +821,7 @@
       "us": "/ˈɑː.fɪs/"
     },
     "article": "an",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:company:noun",
@@ -835,7 +835,7 @@
     "examples": [
       "She works for a tech company."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "companies",
@@ -851,7 +851,7 @@
     "emoji": "🏢",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:business:noun",
@@ -890,7 +890,7 @@
     "examples": [
       "He receives his salary every month."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "salaries",
@@ -909,7 +909,7 @@
       "us": "/ˈsæl.ɚ.i/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:money:noun",
@@ -950,7 +950,7 @@
     "examples": [
       "Workers receive good pay here."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -963,7 +963,7 @@
     "no_antonym": true,
     "emoji": "💵",
     "countability": "uncountable",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:waitress:noun",
@@ -977,7 +977,7 @@
     "examples": [
       "The waitress brought cold drinks."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -989,7 +989,7 @@
     "transcription": "/ˈweɪ.trəs/",
     "no_antonym": true,
     "emoji": "👩‍🍳",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:police-officer:noun",
@@ -1003,7 +1003,7 @@
     "examples": [
       "A police officer stopped the car."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1019,7 +1019,7 @@
       "us": "/pəˈliːs ˌɑː.fɪ.sɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:firefighter:noun",
@@ -1033,7 +1033,7 @@
     "examples": [
       "Firefighters put out the big fire."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1053,7 +1053,7 @@
       "B2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:shop-assistant:noun",
@@ -1067,7 +1067,7 @@
     "examples": [
       "The shop assistant sold shoes."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1083,7 +1083,7 @@
       "us": "/ˈʃɑːp əˌsɪs.tənt/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:salesperson:noun",
@@ -1127,7 +1127,7 @@
     "examples": [
       "The pilot flew the airplane safely."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1144,7 +1144,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:soldier:noun",
@@ -1158,7 +1158,7 @@
     "examples": [
       "The soldier protected the town."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1178,7 +1178,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:lawyer:noun",
@@ -1192,7 +1192,7 @@
     "examples": [
       "The lawyer advised his client."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1212,7 +1212,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:secretary:noun",
@@ -1226,7 +1226,7 @@
     "examples": [
       "The secretary answered the phone call."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1246,7 +1246,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:hairdresser:noun",
@@ -1260,7 +1260,7 @@
     "examples": [
       "The hairdresser cut my hair short."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1276,7 +1276,7 @@
       "us": "/ˈherˌdres.ɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:mechanic:noun",
@@ -1290,7 +1290,7 @@
     "examples": [
       "The mechanic fixed our broken car."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1307,7 +1307,7 @@
       "B2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:builder:noun",
@@ -1321,7 +1321,7 @@
     "examples": [
       "The builder built a new house."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1337,7 +1337,7 @@
       "us": "/ˈbɪl.dɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:cleaner:noun",
@@ -1351,7 +1351,7 @@
     "examples": [
       "The cleaner washed the floor clean."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1367,7 +1367,7 @@
       "us": "/ˈkliː.nɚ/"
     },
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:actress:noun",
@@ -1381,7 +1381,7 @@
     "examples": [
       "The famous actress starred in a new movie."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "actresses",
@@ -1392,7 +1392,7 @@
     "no_antonym": true,
     "emoji": "🎭",
     "countability": "countable",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:businessman:noun",
@@ -1406,7 +1406,7 @@
     "examples": [
       "The businessman attends an important meeting today."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "businessmen",
@@ -1422,7 +1422,7 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:businesswoman:noun",
@@ -1436,7 +1436,7 @@
     "examples": [
       "The businesswoman manages a successful company."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "businesswomen",
@@ -1448,7 +1448,7 @@
     "emoji": "👩‍💼",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "professions_jobs"
+    "sub_theme": "general"
   },
   {
     "id": "en:colleague:noun",

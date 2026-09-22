@@ -422,7 +422,7 @@
     "examples": [
       "Every individual has unique skills and talents."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "general",
     "updated": "2025-01-15",
     "transcription": "/ˌɪn.dɪˈvɪdʒ.u.əl/",
@@ -431,7 +431,8 @@
     "plural_form": "individuals",
     "antonyms": [
       "group"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:combine:verb",
@@ -469,7 +470,7 @@
     "examples": [
       "Accidents can occur when drivers do not pay attention."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "events",
     "updated": "2025-01-15",
     "levels": [
@@ -480,7 +481,8 @@
       "us": "/əˈkɝː/"
     },
     "emoji": "⚡",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:create:verb",
@@ -494,7 +496,7 @@
     "examples": [
       "Moving to a new city allows you to create new friendships and routines."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "actions",
     "updated": "2025-01-15",
     "levels": [
@@ -504,7 +506,8 @@
     "emoji": "✨",
     "antonyms": [
       "destroy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:select:verb",
@@ -518,7 +521,7 @@
     "examples": [
       "Please select your preferred language option from the drop-down menu."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "choice",
     "updated": "2025-01-15",
     "levels": [
@@ -528,7 +531,8 @@
     "emoji": "👉",
     "antonyms": [
       "reject"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:tend:verb",
@@ -572,5 +576,62 @@
     "transcription": "/əˈtæk/",
     "emoji": "⚠️",
     "no_antonym": true
+  },
+  {
+    "id": "en:phone-number:noun",
+    "word": "phone number",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "The series of digits used to call someone."
+    ],
+    "examples": [
+      "What is your mobile phone number?"
+    ],
+    "domain": "spoken, travel, professional",
+    "theme": "general",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "phone numbers",
+    "transcription": "/ˈfəʊn ˌnʌm.bər/",
+    "emoji": "📞",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈfoʊn ˌnʌm.bɚ/"
+    }
+  },
+  {
+    "id": "en:email-address:noun",
+    "word": "email address",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "The series of letters and symbols used to send emails."
+    ],
+    "examples": [
+      "I sent the file to your email address."
+    ],
+    "domain": "spoken, professional",
+    "theme": "general",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "email addresses",
+    "countability": "countable",
+    "transcription": "/ˈiː.meɪl əˌdres/",
+    "emoji": "📧",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈiː.meɪl ˌæd.res/"
+    },
+    "sub_theme": "it-specialists"
   }
 ]

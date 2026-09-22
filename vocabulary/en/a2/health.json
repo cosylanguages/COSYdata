@@ -11,7 +11,7 @@
     "examples": [
       "He cleaned the small cut on his finger."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "cuts",
@@ -21,7 +21,8 @@
     "transcription": "/kʌt/",
     "emoji": "✂️",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:rest:noun",
@@ -35,7 +36,7 @@
     "examples": [
       "The doctor prescribed three days of bed rest."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -47,7 +48,8 @@
     "antonyms": [
       "work",
       "exercise"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:wound:noun",
@@ -85,7 +87,7 @@
     "examples": [
       "Yoga helps to reduce daily work stress."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "countability": "uncountable",
@@ -94,7 +96,8 @@
     "antonyms": [
       "relaxation",
       "calm"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:balanced:adjective",
@@ -133,7 +136,7 @@
     "examples": [
       "A balanced diet improves your energy."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "diets",
@@ -147,7 +150,8 @@
     "transcription": "/ˈdaɪ.ət/",
     "emoji": "🥗",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:injury:noun",
@@ -161,7 +165,7 @@
     "examples": [
       "He suffered a minor knee injury playing soccer."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "injuries",
@@ -178,7 +182,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈɪn.dʒɚ.i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:stretch:noun",
@@ -192,7 +197,7 @@
     "examples": [
       "Stretch your legs before starting a long run."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -206,7 +211,8 @@
     "transcription": "/stretʃ/",
     "emoji": "🧘",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:appointment:noun",
@@ -220,7 +226,7 @@
     "examples": [
       "I have a dentist appointment tomorrow morning."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "appointments",
@@ -248,7 +254,7 @@
     "examples": [
       "She has a mild allergy to cat fur."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "allergies",
@@ -264,7 +270,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈæl.ɚ.dʒi/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:illness:noun",
@@ -278,7 +285,7 @@
     "examples": [
       "She recovered from a mild illness last week."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "illnesses",
@@ -287,7 +294,8 @@
     "emoji": "🤒",
     "antonyms": [
       "health"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:disease:noun",
@@ -301,7 +309,7 @@
     "examples": [
       "Vaccines protect people against serious disease."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "diseases",
@@ -313,7 +321,8 @@
     "countability": "countable",
     "antonyms": [
       "health"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:symptom:noun",
@@ -327,7 +336,7 @@
     "examples": [
       "Fever is a common symptom of flu."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "symptoms",
@@ -337,7 +346,8 @@
     "transcription": "/ˈsɪmp.təm/",
     "emoji": "📋",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:infection:noun",
@@ -351,7 +361,7 @@
     "examples": [
       "Clean the cut to avoid a skin infection."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "infections",
@@ -361,7 +371,8 @@
     "transcription": "/ɪnˈfek.ʃən/",
     "emoji": "🦠",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:stomachache:noun",
@@ -375,7 +386,7 @@
     "examples": [
       "Drink warm water to ease your stomachache."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "stomachaches",
@@ -385,7 +396,8 @@
     "transcription": "/ˈstʌm.ək.eɪk/",
     "emoji": "🤢",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:toothache:noun",
@@ -399,14 +411,15 @@
     "examples": [
       "He went to dentist because of toothache."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "toothaches",
     "transcription": "/ˈtuːθ.eɪk/",
     "emoji": "🦷",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:backache:noun",
@@ -420,14 +433,15 @@
     "examples": [
       "Lifting heavy boxes caused his backache."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "backaches",
     "transcription": "/ˈbæk.eɪk/",
     "emoji": "🩺",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:fever:noun",
@@ -441,7 +455,7 @@
     "examples": [
       "The doctor checked her fever with a thermometer."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "fevers",
@@ -454,7 +468,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈfiː.vɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:sore:noun",
@@ -513,7 +528,7 @@
     "examples": [
       "He got a purple bruise on his knee."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "bruises",
@@ -523,7 +538,8 @@
     "transcription": "/bruːz/",
     "emoji": "🟣",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:prescription:noun",
@@ -537,7 +553,7 @@
     "examples": [
       "The chemist filled her medical prescription quickly."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "prescriptions",
@@ -547,7 +563,8 @@
     "transcription": "/prɪˈskrɪp.ʃən/",
     "emoji": "📄",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:chemist:noun",
@@ -561,7 +578,7 @@
     "examples": [
       "Ask the chemist for helpful medical advice."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "chemists",
@@ -574,7 +591,8 @@
     ],
     "regional_equivalents": [
       "en:pharmacy:noun"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:checkup:noun",
@@ -612,7 +630,7 @@
     "examples": [
       "She responded well to the medical treatment."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "treatments",
@@ -622,7 +640,8 @@
     "transcription": "/ˈtriːt.mənt/",
     "emoji": "🩺",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:exercise:noun",
@@ -636,7 +655,7 @@
     "examples": [
       "Daily exercise keeps your body fit."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -665,7 +684,7 @@
     "examples": [
       "Swimming improves your overall physical fitness."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -676,7 +695,8 @@
     "emoji": "🏋️",
     "antonyms": [
       "unfitness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:nutrition:noun",
@@ -690,7 +710,7 @@
     "examples": [
       "Good nutrition is vital for growing children."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -704,7 +724,8 @@
     ],
     "transcription_variants": {
       "us": "/nuːˈtrɪʃ.ən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:relax:noun",
@@ -718,7 +739,7 @@
     "examples": [
       "Listen to quiet music to relax after work."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -729,7 +750,8 @@
     "countability": "uncountable",
     "antonyms": [
       "stress"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:recover:verb",
@@ -743,7 +765,7 @@
     "examples": [
       "He took time to recover from the operation."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "tags": [
@@ -756,7 +778,8 @@
     ],
     "transcription_variants": {
       "us": "/rɪˈkʌv.ɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:ambulance:noun",
@@ -770,7 +793,7 @@
     "examples": [
       "An ambulance rushed the patient to hospital."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "ambulances",
@@ -780,7 +803,8 @@
     "transcription": "/ˈæm.bjə.ləns/",
     "emoji": "🚑",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:emergency:noun",
@@ -794,7 +818,7 @@
     "examples": [
       "Call nine one one in case of emergency."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "emergencies",
@@ -807,7 +831,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ɪˈmɝː.dʒən.si/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:vaccine:noun",
@@ -821,7 +846,7 @@
     "examples": [
       "The flu vaccine protects against seasonal flu."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "vaccines",
@@ -834,7 +859,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/vækˈsiːn/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:injection:noun",
@@ -848,7 +874,7 @@
     "examples": [
       "The nurse gave him a quick painkiller injection."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "plural_form": "injections",
@@ -858,7 +884,8 @@
     "transcription": "/ɪnˈdʒek.ʃən/",
     "emoji": "💉",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:unhealthy:adjective",
@@ -872,14 +899,15 @@
     "examples": [
       "Eating fast food daily is very unhealthy."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ʌnˈhel.θi/",
     "emoji": "🍔",
     "antonyms": [
       "healthy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:injured:noun",
@@ -893,7 +921,7 @@
     "examples": [
       "Two players were injured during the soccer match."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -909,7 +937,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈɪn.dʒɚd/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:swelling:noun",
@@ -948,7 +977,7 @@
     "examples": [
       "She underwent minor surgery on her wrist."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -961,7 +990,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈsɝː.dʒɚ.i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:operation:noun",
@@ -975,7 +1005,7 @@
     "examples": [
       "He recovered well after his knee operation."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -989,7 +1019,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌɑː.pəˈreɪ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:blood-pressure:noun",
@@ -1055,7 +1086,7 @@
     "examples": [
       "Oranges contain a lot of vitamin C."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1069,7 +1100,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈvaɪ.t̬ə.mɪn/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:workout:noun",
@@ -1083,7 +1115,7 @@
     "examples": [
       "He finished a hard gym workout today."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1097,7 +1129,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈwɝːk.aʊt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:muscle:noun",
@@ -1161,7 +1194,7 @@
     "examples": [
       "Eating fruit strengthens your immune system."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "health",
     "tags": [
       "spoken",
@@ -1172,7 +1205,8 @@
     "transcription": "/ɪˈmjuːn ˌsɪs.təm/",
     "emoji": "🛡️",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:pregnant:noun",
@@ -1210,14 +1244,15 @@
     "examples": [
       "The nurse wrapped a clean bandage around his arm."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˈbæn.dɪdʒ/",
     "emoji": "🩹",
     "countability": "countable",
     "plural_form": "bandages",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:bleed:verb",
@@ -1337,14 +1372,15 @@
     "examples": [
       "Put a plaster on your cut to protect it."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˈplɑː.stər/",
     "emoji": "🩹",
     "countability": "countable",
     "plural_form": "plasters",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:prevent:verb",
@@ -1358,7 +1394,7 @@
     "examples": [
       "Washing hands helps prevent the spread of germs."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/prɪˈvent/",
@@ -1366,7 +1402,8 @@
     "antonyms": [
       "cause",
       "allow"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:sneeze:verb",
@@ -1380,12 +1417,13 @@
     "examples": [
       "Dust causes her to sneeze repeatedly."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/sniːz/",
     "emoji": "🤧",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:sore-throat:noun",
@@ -1399,14 +1437,15 @@
     "examples": [
       "Warm tea relieves the pain of a sore throat."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/sɔːr θrəʊt/",
     "emoji": "🗣️",
     "countability": "countable",
     "plural_form": "sore throats",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:swell:verb",
@@ -1484,7 +1523,7 @@
     "examples": [
       "She booked a health checkup at the local clinic."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "health",
     "updated": "2025-01-15",
     "transcription": "/ˈklɪn.ɪk/",
@@ -1494,7 +1533,8 @@
     "emoji": "🏥",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "clinics"
+    "plural_form": "clinics",
+    "sub_theme": "general"
   },
   {
     "id": "en:emergency-room:noun",
@@ -1997,5 +2037,90 @@
     "transcription": "/rest/",
     "emoji": "🛌",
     "no_antonym": true
+  },
+  {
+    "id": "en:headache:noun",
+    "word": "headache",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A continuous pain in your head."
+    ],
+    "examples": [
+      "I took an aspirin to cure my headache."
+    ],
+    "domain": "general, relocation, spoken, travel, professional, exam",
+    "theme": "health",
+    "updated": "2025-01-15",
+    "plural_form": "headaches",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈhed.eɪk/",
+    "emoji": "🤕",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:pharmacy:noun",
+    "word": "pharmacy",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A shop where medicines are prepared and sold."
+    ],
+    "examples": [
+      "I bought bandages at the local pharmacy."
+    ],
+    "domain": "general, relocation, spoken, travel, professional, exam",
+    "theme": "health",
+    "updated": "2025-01-15",
+    "plural_form": "pharmacies",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈfɑː.mə.si/",
+    "emoji": "🏥",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈfɑːr.mə.si/"
+    },
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:chemist:noun"
+    ],
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:x-ray:noun",
+    "word": "X-ray",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A photograph of bones and organs inside the body."
+    ],
+    "examples": [
+      "The doctor ordered an x-ray of his leg."
+    ],
+    "domain": "spoken, travel, exam",
+    "theme": "health",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "X-rays",
+    "transcription": "/ˈeks.reɪ/",
+    "emoji": "🩻",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "general"
   }
 ]

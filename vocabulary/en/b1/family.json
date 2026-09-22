@@ -11,7 +11,7 @@
     "examples": [
       "Her strict upbringing taught her the value of discipline and hard work."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "tags": [
@@ -25,7 +25,8 @@
       "raising",
       "nurture"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:sibling:noun",
@@ -39,7 +40,7 @@
     "examples": [
       "She has one older sibling who currently works in another city."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "plural_form": "siblings",
@@ -49,7 +50,8 @@
     "synonyms": [
       "brother or sister"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:inherit:verb",
@@ -123,7 +125,7 @@
     "examples": [
       "Both parents play an equal role in raising children at home."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "plural_form": "roles",
@@ -138,7 +140,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/roʊl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:model:noun",
@@ -152,7 +155,7 @@
     "examples": [
       "His older brother served as a model for good academic habits."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "plural_form": "models",
@@ -186,7 +189,7 @@
     "examples": [
       "Young children remain dependent on their parents for housing and food."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "plural_form": "dependents",
@@ -203,7 +206,8 @@
     "antonyms": [
       "provider",
       "breadwinner"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:independent:adjective",
@@ -217,7 +221,7 @@
     "examples": [
       "Moving into her own flat helped her become completely financially independent."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "tags": [
@@ -236,7 +240,8 @@
     "antonyms": [
       "dependent",
       "reliant"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:adolescence:noun",
@@ -250,7 +255,7 @@
     "examples": [
       "Adolescence is a time of rapid physical growth and emotional development."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "tags": [
@@ -269,7 +274,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌæd.əlˈes.əns/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:adulthood:noun",
@@ -313,7 +319,7 @@
     "examples": [
       "Learning to walk is a major development milestone for a young infant."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "plural_form": "milestones",
@@ -331,7 +337,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈmaɪl.stoʊn/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:guardian:noun",
@@ -377,7 +384,7 @@
     "examples": [
       "The parents shared joint legal custody of their children after divorce."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "tags": [
@@ -391,7 +398,8 @@
       "care",
       "protection"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:extended:adjective",
@@ -432,7 +440,7 @@
     "examples": [
       "The traditional nuclear family model has evolved into diverse family structures."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "transcription": "/ˈnjuː.klɪə/",
@@ -444,7 +452,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈnuː.kli.ɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:blended:adjective",
@@ -485,7 +494,7 @@
     "examples": [
       "They decided to foster young children who needed a safe loving home."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "levels": [
@@ -504,7 +513,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈfɑː.stɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:adopt:verb",
@@ -582,7 +592,7 @@
     "examples": [
       "Parents nurture their children by providing emotional love and safe guidance."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "family",
     "tags": [
       "spoken",
@@ -602,7 +612,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈnɝː.tʃɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:discipline:noun",
@@ -616,7 +627,7 @@
     "examples": [
       "Consistent discipline helps children learn acceptable behavior and self control skills."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "family",
     "tags": [
       "spoken",
@@ -769,7 +780,7 @@
     "examples": [
       "Over thirty members of her extended family attended the annual holiday reunion."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "family",
     "tags": [
       "spoken",
@@ -786,7 +797,8 @@
     ],
     "antonyms": [
       "nuclear family"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:nuclear-family:noun",
@@ -800,7 +812,7 @@
     "examples": [
       "Living in a nuclear family is common across modern urban societies."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "family",
     "tags": [
       "spoken",
@@ -820,7 +832,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈnuː.kli.ɚ ˈfæm.əl.i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:single-parent:noun",
@@ -865,7 +878,7 @@
     "examples": [
       "Building harmony in a new blended family takes patience and active communication."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "family",
     "tags": [
       "spoken",
@@ -880,7 +893,8 @@
       "stepfamily",
       "reconstituted family"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:foster-care:noun",
@@ -1076,7 +1090,7 @@
     "examples": [
       "Because her spouse obtained a skilled work visa, she was granted a dependent residence permit."
     ],
-    "domain": "relocation",
+    "domain": "relocation, exam",
     "theme": "family",
     "updated": "2025-01-15",
     "transcription": "/spaʊs/",
@@ -1091,7 +1105,8 @@
       "wife"
     ],
     "countability": "countable",
-    "plural_form": "spouses"
+    "plural_form": "spouses",
+    "sub_theme": "general"
   },
   {
     "id": "en:birthday-party:noun",
@@ -1136,7 +1151,7 @@
     "examples": [
       "Effective co-parenting requires clear, consistent communication and mutual respect between both partners."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "parenting",
     "updated": "2025-01-15",
     "levels": [
@@ -1152,7 +1167,8 @@
       "shared parenting",
       "joint parenting"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:distant-relative:noun",

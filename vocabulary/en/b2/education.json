@@ -11,7 +11,7 @@
     "examples": [
       "Admission criteria were updated by the university board to ensure fair evaluation of applicants."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -31,7 +31,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/kraɪˈtɪr.i.ə/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:critical:noun",
@@ -72,7 +73,7 @@
     "examples": [
       "An interdisciplinary research team combining computer science and linguistics was formed to study artificial intelligence."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -140,7 +141,7 @@
     "examples": [
       "Modern university pedagogy emphasizes interactive student participation over traditional passive lecture formats."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -258,7 +259,7 @@
     "examples": [
       "Investing in public education was declared a national priority by government ministers during the summit."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/ˌed.jʊˈkeɪ.ʃən/",
@@ -272,7 +273,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌed.jəˈkeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:standardized:noun",
@@ -462,7 +464,7 @@
     "examples": [
       "The university achieved international accreditation after an extensive review of its academic programs."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/əˌkred.ɪˈteɪ.ʃən/",
@@ -617,7 +619,7 @@
     "examples": [
       "Modern educators discourage rote learning, favoring methods that promote critical thinking and active understanding."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -637,7 +639,8 @@
     ],
     "transcription_variants": {
       "us": "/roʊt ˈlɝː.nɪŋ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:experiential-learning:noun",
@@ -717,7 +720,7 @@
     "examples": [
       "Employers seek graduates with strong problem-solving skills to navigate unexpected business challenges successfully."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -734,7 +737,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈprɑː.bləm ˌsɑːl.vɪŋ skɪlz/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:transferable-skills:noun",
@@ -748,7 +752,7 @@
     "examples": [
       "Communication and teamwork are valuable transferable skills that benefit professionals across any career."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -765,7 +769,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/trænˈsfɝː.ə.bəl skɪlz/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:soft-skills:noun",
@@ -1011,7 +1016,7 @@
     "examples": [
       "Improving access to education in rural areas remains a paramount goal for developing nations."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1030,7 +1035,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈæk.ses tuː ed.jəˈkeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:literacy-rate:noun",
@@ -1144,7 +1150,7 @@
     "examples": [
       "Protests erupted across campus after university trustees voted to raise undergraduate tuition fees again."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -1161,7 +1167,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/tuːˈɪʃ.ən fiːz/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:work-study-program:noun",
@@ -1352,7 +1359,7 @@
     "word": "academic integrity",
     "form": "noun",
     "level": "B2",
-    "domain": "relocation, professional",
+    "domain": "relocation, professional, exam",
     "theme": "education",
     "emoji": "🎓",
     "countability": "uncountable",
@@ -1410,7 +1417,7 @@
     "word": "analytical skills",
     "form": "noun",
     "level": "B2",
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "education",
     "emoji": "🧠",
     "countability": "pluralia_tantum",
@@ -1430,7 +1437,8 @@
     ],
     "examples": [
       "Employers value candidates with strong analytical skills who can evaluate complex workplace data."
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:apprenticeship-scheme:noun",
@@ -1860,7 +1868,7 @@
     "word": "digital literacy",
     "form": "noun",
     "level": "B2",
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "education",
     "emoji": "💻",
     "countability": "uncountable",
@@ -1882,7 +1890,8 @@
     ],
     "examples": [
       "Immigration portals require a basic level of digital literacy to complete online visa forms."
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:assessment-criteria:noun",

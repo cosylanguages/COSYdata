@@ -11,7 +11,7 @@
     "examples": [
       "Adopting hybrid work allowed employees to maintain a better balance between professional duties and personal life."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -48,7 +48,7 @@
     "examples": [
       "The company allocated annual funding for professional development courses to help employees update technical skills."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "professionals",
@@ -61,7 +61,8 @@
     ],
     "antonyms": [
       "career stagnation"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:remote:noun",
@@ -106,7 +107,7 @@
     "examples": [
       "The firm claimed to operate as a true meritocracy, promoting employees based strictly on documented achievements."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -122,7 +123,8 @@
     "antonyms": [
       "nepotism",
       "cronyism"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:ethic:noun",
@@ -194,7 +196,7 @@
     "examples": [
       "Participating in corporate mentorship programs helped junior engineers navigate complex workplace dynamics successfully."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -208,7 +210,8 @@
       "coaching",
       "tutelage"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:appraisal:noun",
@@ -383,7 +386,7 @@
     "examples": [
       "Fostering a positive corporate culture improves employee morale, collaboration, and overall workplace retention rates."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -398,7 +401,8 @@
       "hierarchical management",
       "corporate structure"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:hierarchy:noun",
@@ -412,7 +416,7 @@
     "examples": [
       "Navigating corporate hierarchy required approval from three levels of management before projects received funding."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "hierarchys",
@@ -433,7 +437,8 @@
     "antonyms": [
       "flat structure",
       "equality"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:delegation:noun",
@@ -474,7 +479,7 @@
     "examples": [
       "She became highly proficient in data analysis software after completing an intensive professional certification course."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -491,7 +496,8 @@
     "antonyms": [
       "inept",
       "unskilled"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:competent:adjective",
@@ -536,7 +542,7 @@
     "examples": [
       "He was exceptionally adept at negotiating commercial contracts, securing favorable terms for his clients consistently."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -553,7 +559,8 @@
     "antonyms": [
       "clumsy",
       "inept"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:skilled:adjective",
@@ -567,7 +574,7 @@
     "examples": [
       "Demands for skilled technicians increased rapidly as manufacturing automated assembly processes across the country."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -584,7 +591,8 @@
     "antonyms": [
       "unskilled",
       "inexperienced"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:seasoned:adjective",
@@ -629,7 +637,7 @@
     "examples": [
       "The company hired an accomplished executive consultant to oversee its international market expansion strategy."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -646,7 +654,8 @@
     "antonyms": [
       "unaccomplished",
       "novice"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:well-rounded:adjective",
@@ -991,7 +1000,7 @@
     "examples": [
       "The gifted young pianist performed complex classical compositions from memory to an amazed audience."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1008,7 +1017,8 @@
     "antonyms": [
       "untalented",
       "unexceptional"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:talented:adjective",
@@ -1022,7 +1032,7 @@
     "examples": [
       "A talented graphic designer was hired to revamp the company logo and visual marketing materials."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1039,7 +1049,8 @@
     "antonyms": [
       "untalented",
       "unskilled"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:prodigy:adjective",
@@ -1259,7 +1270,7 @@
     "examples": [
       "Quarterly earnings fell-short-of investor expectations, causing company stock prices to drop slightly on the market."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1275,7 +1286,8 @@
     "antonyms": [
       "exceed",
       "surpass"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:live-up-to-expectations:adjective",
@@ -1289,7 +1301,7 @@
     "examples": [
       "The new flagship product managed to live-up-to-expectations by delivering incredible processing speed and battery life."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1304,7 +1316,8 @@
     ],
     "antonyms": [
       "fall short of expectations"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:exceed-expectations:adjective",
@@ -1378,7 +1391,7 @@
     "examples": [
       "Unwilling to settle for average results, she continued to overachieve across all sales targets continuously."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "work",
     "tags": [
       "spoken",
@@ -1394,7 +1407,8 @@
     "antonyms": [
       "underachieve",
       "underperform"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:reliability:noun",
@@ -1408,7 +1422,7 @@
     "examples": [
       "The vehicle engine is praised for its high mechanical reliability."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "work",
     "tags": [
       "upper-intermediate"
@@ -1759,7 +1773,7 @@
     "word": "key performance indicator",
     "form": "noun",
     "level": "B2",
-    "domain": "general, professional, relocation",
+    "domain": "general, relocation",
     "theme": "work",
     "emoji": "📊",
     "countability": "countable",
@@ -2185,7 +2199,7 @@
     "language": "en",
     "form": "noun",
     "level": "B2",
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "definitions": [
@@ -2206,7 +2220,8 @@
     "tags": [
       "travel",
       "work"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:per-diem:noun",

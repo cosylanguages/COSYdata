@@ -11,7 +11,7 @@
     "examples": [
       "A cup of hot coffee tastes good."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -27,7 +27,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ɑːv/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:a:article",
@@ -41,7 +42,7 @@
     "examples": [
       "She bought a new book at the store."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "levels": [
@@ -52,7 +53,8 @@
     ],
     "transcription": "/eɪ/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:minority:noun",
@@ -66,7 +68,7 @@
     "examples": [
       "Only a small minority voted against the plan."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "minorities",
@@ -86,7 +88,8 @@
     ],
     "transcription_variants": {
       "us": "/məˈnɔːr.ə.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:majority:noun",
@@ -100,7 +103,7 @@
     "examples": [
       "The majority of students passed the test."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "majorities",
@@ -119,7 +122,8 @@
     ],
     "transcription_variants": {
       "us": "/məˈdʒɑː.rə.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:increase:noun",
@@ -133,7 +137,7 @@
     "examples": [
       "There was an increase in gas prices."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "increases",
@@ -149,7 +153,8 @@
     "countability": "countable",
     "antonyms": [
       "decrease"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:decrease:noun",
@@ -163,7 +168,7 @@
     "examples": [
       "We saw a decrease in sales last month."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "decreases",
@@ -175,7 +180,8 @@
     "countability": "countable",
     "antonyms": [
       "increase"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:rise:noun",
@@ -189,7 +195,7 @@
     "examples": [
       "There was a steady rise in temperature."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "rises",
@@ -202,7 +208,8 @@
     "antonyms": [
       "fall",
       "drop"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:double:noun",
@@ -216,7 +223,7 @@
     "examples": [
       "Prices will double within a few years."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "doubles",
@@ -232,7 +239,8 @@
     "countability": "countable",
     "antonyms": [
       "half"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:exactly:noun",
@@ -246,7 +254,7 @@
     "examples": [
       "The train arrives at exactly four o'clock."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -259,7 +267,8 @@
     "antonyms": [
       "approximately",
       "roughly"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:distance:noun",
@@ -301,7 +310,7 @@
     "examples": [
       "Only a few students were late today."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -312,7 +321,8 @@
     "countability": "uncountable",
     "antonyms": [
       "many"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:minimum:noun",
@@ -357,7 +367,7 @@
     "examples": [
       "The journey takes approximately two hours."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -375,7 +385,8 @@
     ],
     "transcription_variants": {
       "us": "/əˈprɑːk.sə.mət.li/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:roughly:noun",
@@ -389,7 +400,7 @@
     "examples": [
       "There were roughly fifty people at the party."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -404,7 +415,8 @@
     "countability": "uncountable",
     "antonyms": [
       "exactly"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:several:noun",
@@ -418,7 +430,7 @@
     "examples": [
       "I have visited that park several times."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "tags": [
@@ -432,7 +444,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈsev.ɚ.əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:couple:noun",
@@ -446,7 +459,7 @@
     "examples": [
       "We spent a couple of days in London."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "couples",
@@ -456,7 +469,8 @@
     "transcription": "/ˈkʌp.əl/",
     "emoji": "👫",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:average:noun",
@@ -470,7 +484,7 @@
     "examples": [
       "The average temperature in July is high."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "averages",
@@ -487,7 +501,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈæv.ɚ.ɪdʒ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:percentage:noun",
@@ -501,7 +516,7 @@
     "examples": [
       "A large percentage of people voted."
     ],
-    "domain": "general, travel, professional",
+    "domain": "general, travel, professional, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "percentages",
@@ -515,7 +530,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/pɚˈsen.t̬ɪdʒ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:fraction:noun",
@@ -550,7 +566,7 @@
     "examples": [
       "Sales tripled in the third quarter."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "triples",
@@ -560,7 +576,8 @@
     "transcription": "/ˈtrɪp.əl/",
     "emoji": "3️⃣",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:maximum:noun",
@@ -600,7 +617,7 @@
     "examples": [
       "His height is one hundred eighty centimeters."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "heights",
@@ -610,7 +627,8 @@
     "transcription": "/haɪt/",
     "emoji": "📏",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:length:noun",
@@ -624,7 +642,7 @@
     "examples": [
       "Measure the length of the wooden table."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "lengths",
@@ -633,7 +651,8 @@
     "countability": "countable",
     "antonyms": [
       "width"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:width:noun",
@@ -647,7 +666,7 @@
     "examples": [
       "Check the width of the door frame."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "plural_form": "widths",
@@ -656,7 +675,8 @@
     "countability": "countable",
     "antonyms": [
       "length"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:depth:noun",
@@ -742,7 +762,7 @@
     "examples": [
       "There are a few apples in basket."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -755,7 +775,8 @@
     "antonyms": [
       "a lot of",
       "many"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:a-lot-of:noun",
@@ -769,7 +790,7 @@
     "examples": [
       "She has a lot of friends here."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -785,7 +806,8 @@
     ],
     "transcription_variants": {
       "us": "/ə lɑːt ɑːv/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:plenty-of:noun",
@@ -1025,7 +1047,7 @@
     "examples": [
       "Ten per cent of students were late."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -1039,7 +1061,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/pɚ ˈsent/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:quantity:noun",
@@ -1081,7 +1104,7 @@
     "examples": [
       "The latest statistic shows sales growth."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "measurement",
     "tags": [
       "spoken",
@@ -1128,14 +1151,15 @@
     "examples": [
       "The station is about one mile from here."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "transcription": "/maɪl/",
     "emoji": "🛣️",
     "countability": "countable",
     "plural_form": "miles",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:plenty:pronoun",
@@ -1264,14 +1288,15 @@
     "examples": [
       "We bought a gallon of fresh milk."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "measurement",
     "updated": "2025-01-15",
     "transcription": "/ˈɡæl.ən/",
     "emoji": "🛢️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "gallons"
+    "plural_form": "gallons",
+    "sub_theme": "general"
   },
   {
     "id": "en:milliliter:noun",
