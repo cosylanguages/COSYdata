@@ -1,1 +1,410 @@
-[]
+[
+  {
+    "id": "it:mangiare:verb",
+    "word": "mangiare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "masticare e inghiottire cibo"
+    ],
+    "examples": [
+      "Voglio mangiare una pizza calda stasera."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/manˈdʒa.re/",
+    "no_antonym": true,
+    "emoji": "🍽️",
+    "sub_theme": "basic_actions"
+  },
+  {
+    "id": "it:bere:verb",
+    "word": "bere",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "inghiottire un liquido come acqua o succo"
+    ],
+    "examples": [
+      "Bevo un bicchiere d'acqua fresca."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/ˈbe.re/",
+    "no_antonym": true,
+    "emoji": "🥛",
+    "sub_theme": "basic_actions"
+  },
+  {
+    "id": "it:dormire:verb",
+    "word": "dormire",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "riposare il corpo e la mente la notte"
+    ],
+    "examples": [
+      "Dormo otto ore ogni notte."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/dorˈmi.re/",
+    "antonyms": [
+      "svegliarsi"
+    ],
+    "emoji": "😴",
+    "sub_theme": "daily_routines"
+  },
+  {
+    "id": "it:andare:verb",
+    "word": "andare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "spostarsi da un luogo verso un altro"
+    ],
+    "examples": [
+      "Vado a scuola tutte le mattine."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/anˈda.re/",
+    "antonyms": [
+      "venire"
+    ],
+    "emoji": "🚶",
+    "sub_theme": "movement"
+  },
+  {
+    "id": "it:venire:verb",
+    "word": "venire",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "muoversi verso il luogo in cui si trova chi parla"
+    ],
+    "examples": [
+      "Vieni a casa mia stasera?"
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/veˈni.re/",
+    "antonyms": [
+      "andare"
+    ],
+    "emoji": "🚶",
+    "sub_theme": "movement"
+  },
+  {
+    "id": "it:vedere:verb",
+    "word": "vedere",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "percepire con gli occhi le cose circostanti"
+    ],
+    "examples": [
+      "Vedo un bel mare azzurro."
+    ],
+    "domain": "general",
+    "theme": "cognition",
+    "updated": "2026-09-22",
+    "transcription": "/veˈde.re/",
+    "no_antonym": true,
+    "emoji": "👀",
+    "sub_theme": "perception"
+  },
+  {
+    "id": "it:sentire:verb",
+    "word": "sentire",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "percepire un suono attraverso le orecchie"
+    ],
+    "examples": [
+      "Sento la musica dalla finestra aperta."
+    ],
+    "domain": "general",
+    "theme": "cognition",
+    "updated": "2026-09-22",
+    "transcription": "/senˈti.re/",
+    "no_antonym": true,
+    "emoji": "👂",
+    "sub_theme": "perception"
+  },
+  {
+    "id": "it:parlare:verb",
+    "word": "parlare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "comunicare usando le parole e la voce"
+    ],
+    "examples": [
+      "Parlo italiano molto bene adesso."
+    ],
+    "domain": "general",
+    "theme": "communication",
+    "updated": "2026-09-22",
+    "transcription": "/parˈla.re/",
+    "no_antonym": true,
+    "emoji": "🗣️",
+    "sub_theme": "speaking"
+  },
+  {
+    "id": "it:leggere:verb",
+    "word": "leggere",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "interpretare i segni scritti di un testo o libro"
+    ],
+    "examples": [
+      "Leggo il giornale ogni mattina."
+    ],
+    "domain": "general",
+    "theme": "communication",
+    "updated": "2026-09-22",
+    "transcription": "/ˈlɛd.dʒe.re/",
+    "no_antonym": true,
+    "emoji": "📖",
+    "sub_theme": "reading"
+  },
+  {
+    "id": "it:scrivere:verb",
+    "word": "scrivere",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "tracciare parole con la penna su carta"
+    ],
+    "examples": [
+      "Scrivo una lettera alla mia famiglia."
+    ],
+    "domain": "general",
+    "theme": "communication",
+    "updated": "2026-09-22",
+    "transcription": "/ˈskri.ve.re/",
+    "no_antonym": true,
+    "emoji": "✍️",
+    "sub_theme": "writing"
+  },
+  {
+    "id": "it:capire:verb",
+    "word": "capire",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "comprendere il significato di qualcosa"
+    ],
+    "examples": [
+      "Capisco la spiegazione del maestro."
+    ],
+    "domain": "general",
+    "theme": "cognition",
+    "updated": "2026-09-22",
+    "transcription": "/kaˈpi.re/",
+    "no_antonym": true,
+    "emoji": "💡",
+    "sub_theme": "thinking"
+  },
+  {
+    "id": "it:lavorare:verb",
+    "word": "lavorare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "svolgere un'attività professionale per guadagnare"
+    ],
+    "examples": [
+      "Lavoro in un grande ufficio in centro."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/la.voˈra.re/",
+    "no_antonym": true,
+    "emoji": "💼",
+    "sub_theme": "work_actions"
+  },
+  {
+    "id": "it:studiare:verb",
+    "word": "studiare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "imparare materie e concetti con l'impegno"
+    ],
+    "examples": [
+      "Studio l'italiano per viaggiare."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/stuˈdja.re/",
+    "no_antonym": true,
+    "emoji": "📚",
+    "sub_theme": "learning"
+  },
+  {
+    "id": "it:abitare:verb",
+    "word": "abitare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "vivere stabilmente in una casa o città"
+    ],
+    "examples": [
+      "Abito in una bella casa a Roma."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/a.biˈta.re/",
+    "no_antonym": true,
+    "emoji": "🏠",
+    "sub_theme": "living"
+  },
+  {
+    "id": "it:cucinare:verb",
+    "word": "cucinare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "preparare il cibo scaldandolo sul fuoco"
+    ],
+    "examples": [
+      "Cucino la pasta fresca per gli ospiti."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/ku.tʃiˈna.re/",
+    "no_antonym": true,
+    "emoji": "🍳",
+    "sub_theme": "daily_routines"
+  },
+  {
+    "id": "it:camminare:verb",
+    "word": "camminare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "muoversi a piedi procedendo passo dopo passo"
+    ],
+    "examples": [
+      "Cammino nel parco ogni pomeriggio."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/kam.miˈna.re/",
+    "no_antonym": true,
+    "emoji": "🚶",
+    "sub_theme": "movement"
+  },
+  {
+    "id": "it:correre:verb",
+    "word": "correre",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "muoversi velocemente a piedi"
+    ],
+    "examples": [
+      "Corro per prendere l'autobus."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/ˈkor.re.re/",
+    "no_antonym": true,
+    "emoji": "🏃",
+    "sub_theme": "movement"
+  },
+  {
+    "id": "it:amare:verb",
+    "word": "amare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "provare affetto profondo verso una persona"
+    ],
+    "examples": [
+      "Amo molto la mia famiglia."
+    ],
+    "domain": "general",
+    "theme": "emotions",
+    "updated": "2026-09-22",
+    "transcription": "/aˈma.re/",
+    "antonyms": [
+      "odiare"
+    ],
+    "emoji": "❤️",
+    "sub_theme": "feelings"
+  },
+  {
+    "id": "it:pensare:verb",
+    "word": "pensare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "riflettere con la mente o formulare un'idea"
+    ],
+    "examples": [
+      "Penso che questa soluzione sia buona."
+    ],
+    "domain": "general",
+    "theme": "cognition",
+    "updated": "2026-09-22",
+    "transcription": "/penˈsa.re/",
+    "no_antonym": true,
+    "emoji": "🤔",
+    "sub_theme": "thinking"
+  },
+  {
+    "id": "it:aiutare:verb",
+    "word": "aiutare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "definitions": [
+      "dare assistenza a qualcuno che ne ha bisogno"
+    ],
+    "examples": [
+      "Aiuto il mio amico a fare la spesa."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "updated": "2026-09-22",
+    "transcription": "/a.juˈta.re/",
+    "no_antonym": true,
+    "emoji": "🤝",
+    "sub_theme": "social_actions"
+  }
+]
