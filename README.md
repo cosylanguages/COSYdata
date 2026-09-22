@@ -30,6 +30,7 @@ COSYdata/
 ├── vocabulary/
 │   └── <lang>/
 │       ├── index.json
+│       ├── flat-index.json
 │       ├── a0_a1/
 │       ├── a2/
 │       ├── b1/
@@ -38,8 +39,13 @@ COSYdata/
 │       └── c2/
 ├── functional-phrases/
 │   └── <lang>/
-└── curriculum/
-    └── <lang>/
+├── curriculum/
+│   └── <lang>/
+└── shared/
+    ├── themes.json
+    ├── id-aliases.json
+    ├── vocab-resolver.js
+    └── cosy-word-popup.js
 ```
 
 - **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`, `vocabulary/en/b2/business.json`, `vocabulary/en/c1/rhetoric.json`, `vocabulary/en/c2/rare_adjectives.json`).
@@ -75,12 +81,14 @@ npm run build:flat-index
 
 ---
 
-## Shared Modules (`shared/`)
+## Shared Modules & Taxonomies (`shared/`)
 
-The repository provides lightweight, browser-ready ES modules served directly over GitHub Pages:
+The repository provides lightweight, browser-ready ES modules and machine-readable JSON assets served directly over GitHub Pages:
 
-1. **`shared/vocab-resolver.js`**: Resolves vocabulary references (e.g., `en:animals:cat` or `en:cat:noun`) into rendered content and hydrates HTML elements.
-2. **`shared/cosy-word-popup.js`**: Auto-detects recognized vocabulary words in text nodes, opens interactive definition popups with speech audio, and manages a `localStorage`-backed personal dictionary.
+1. **`shared/themes.json`**: Machine-readable canonical taxonomy mapping 29 primary themes to allowed `sub_theme` lists (derived from `docs/theme-taxonomy.md`).
+2. **`shared/id-aliases.json`**: Redirect map for retired or renamed vocabulary entry IDs to maintain backwards compatibility across ecosystem apps.
+3. **`shared/vocab-resolver.js`**: Resolves vocabulary references (e.g., `en:animals:cat` or `en:cat:noun`) into rendered content, supports alias redirection via `shared/id-aliases.json`, and hydrates HTML elements.
+4. **`shared/cosy-word-popup.js`**: Auto-detects recognized vocabulary words in text nodes, opens interactive definition popups with speech audio, and manages a `localStorage`-backed personal dictionary.
 
 ### Click-to-Define & Personal Dictionary Example
 
@@ -107,57 +115,95 @@ See [`shared/README.md`](shared/README.md) for full usage instructions and API d
 
 ---
 
-## Schemas & Content Types
+## Vocabulary Entry Schema & Fields (`schemas/vocabulary.schema.json`)
 
 The repository uses JSON Schema (Draft 2020-12) files in `schemas/` to validate all content:
 
-### 1. Vocabulary Entry (`schemas/vocabulary.schema.json`)
-For single words and terms.
+### 1. Core & General Fields
+- **`id`** *(string)*: Unique identifier matching pattern `^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$`. Required.
+- **`word`** *(string)*: The canonical target word or term. Required.
+- **`language`** *(string)*: 2-letter ISO language code (e.g. `en`, `fr`, `ru`). Required.
+- **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `preposition`, `number`). Required.
+- **`transcription`** *(string)*: Primary or neutral IPA phonetic transcription. Required.
+- **`transcription_variants`** *(object)*: Dialect-specific IPA transcriptions (`uk`, `us`, `ca`, `au`, `nz`).
+- **`concept`** *(string)*: ID of the corresponding English concept entry (e.g. `"en:dog:noun"`). English entries point to themselves.
+- **`theme`** *(string)*: Primary canonical theme name from `shared/themes.json`.
+- **`sub_theme`** *(string)*: Sub-theme name allowed for the primary theme in `shared/themes.json`.
+- **`secondary_themes`** *(string[])*: Array of canonical theme names for cross-themed words. Must not duplicate `theme`.
+- **`sense`** *(string)*: Short slug distinguishing homographs (e.g. `"animal"`, `"food"`).
+- **`usage_note`** *(string)*: One short sentence of usage guidance in English.
+- **`stress`** *(string)*: Headword with combining acute accent U+0301 on the stressed vowel (used for Russian).
+- **`harmony`** *(string)*: Turkic vowel harmony class (`"front"` or `"back"`).
+- **`region`** *(string[])*: Preferred region codes (`"UK"`, `"US"`, `"CA"`, `"AU"`, `"NZ"`, `"PT"`, `"BR"`, `"EA"`, `"WA"`, `"ES"`, `"LATAM"`).
+- **`emoji`** *(string)*: Representative emoji or symbol (unless waived by `no_emoji: true`).
+- **`antonyms`** *(string[])*: Array of antonym terms or IDs (unless waived by `no_antonym: true`).
+- **`synonyms`** *(string[])*: Array of synonym terms or IDs (required for CEFR B1–C2 levels).
+- **`definitions`** *(string[])*: Monolingual dictionary definitions in the entry's target language.
+- **`examples`** *(string[])*: Natural usage sentences containing the headword.
 
-#### Required Fields
-- **`id`** *(string)*: Unique identifier matching pattern `^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$`.
-- **`word`** *(string)*: The canonical word or term.
-- **`language`** *(string)*: 2-letter language code.
-- **`form`** *(string)*: Grammatical form / part of speech.
-- **`transcription`** *(string)*: Primary or neutral IPA phonetic transcription.
-- **`emoji`** *(string)*: Representative emoji or short sequence (unless waived by `no_emoji: true`).
-- **`antonyms`** *(string[])*: Array of antonym word IDs or terms (unless waived by `no_antonym: true`).
+### 2. Noun Fields
+- **`countability`** *(string)*: Enum `["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]`. Required for nouns.
+- **`article`** *(string)*: Definite or indefinite article (e.g., `"der"`, `"la"`, `"l'"`).
+- **`gender`** *(string)*: Grammatical gender (e.g., `"masculine"`, `"feminine"`, `"neuter"`).
+- **`plural_form`** *(string)*: Plural form (required for countable nouns).
+- **`partitive`** *(string)*: Partitive article/form (e.g., `"du"`, `"de la"`, `"del"`).
+- **`h_aspire`** *(boolean)*: French aspirate h indicator.
+- **`animacy`** *(string)*: Grammatical animacy (`"animate"` or `"inanimate"`).
+- **`definite_form`** *(string)*: Definite form of the noun.
+- **`genitive_singular`** *(string)*: Genitive singular form.
+- **`initial_mutations`** *(object)*: Map of Celtic mutation forms (`soft`, `aspirate`, `spirant`).
+- **`case_forms`** *(object)*: Map of case names to noun inflections (`nominative`, `genitive`, `dative`, `accusative`, etc.).
 
-### 2. Functional Phrase (`schemas/functional-phrase.schema.json`)
-For whole situational sentences or utterances (not single words).
+### 3. Verb Fields
+- **`past_tense`** *(string)*: Simple past tense form (required for irregular English verbs).
+- **`past_participle`** *(string)*: Past participle form.
+- **`present_participle`** *(string)*: Present participle (-ing) form.
+- **`is_irregular`** *(boolean)*: Indicates irregular verb inflections.
+- **`auxiliary`** *(string)*: Auxiliary verb used in compound tenses (e.g. `"être"`, `"sein"`).
+- **`conjugation_class`** *(string)*: Conjugation class or paradigm identifier.
+- **`stem_change`** *(string)*: Stem vowel change specification (e.g. `"e->ie"`).
+- **`separable_prefix`** *(string)*: Separable verb prefix (e.g. `"an"`).
+- **`reflexive`** *(boolean)*: Indicates reflexive verb usage.
+- **`aspect`** *(string)*: Verbal aspect (`"imperfective"`, `"perfective"`, `"biaspectual"`, `"stative"`, `"action"`, `"both"`).
+- **`aspect_pair`** *(string)*: Opposite aspect verb ID or headword form.
+- **`motion_type`** *(string)*: Motion verb classification (`"unidirectional"` or `"multidirectional"`).
+- **`voice`** *(string)*: Grammatical voice (`"active"`, `"passive"`, `"deponent"`).
+- **`present_forms`** *(object)*: Present tense conjugation forms (`sg1`, `sg2`, `sg3`, `sg3m`, `sg3f`, `pl1`, `pl2`, `pl3`).
+- **`stems`** *(object)*: Map of stem variants.
+- **`negative_form`** *(string)*: Negative verb form.
+- **`prepositions`** *(array)*: Objects with `preposition`, `example`, optional `case` (string), and optional `usage` (string).
 
-#### Required Fields
-- **`id`** *(string)*: Matching `en:relocation:<situation>:<slug>`.
-- **`phrase`** *(string)*: Full sentence or utterance.
-- **`language`** *(string)*: 2-letter language code.
-- **`level`** *(string)*: CEFR level (`A0`–`C2`).
-- **`register`** *(string)*: Enum `["formal", "neutral", "informal"]`.
-- **`situation`** *(string)*: Free-text category name.
-- **`domain`** *(string)*: Subject domain.
+### 4. Adjective, Pronoun & Determiner Fields
+- **`feminine`** *(string)*: Feminine singular form of adjective.
+- **`neuter`** *(string)*: Neuter form of adjective.
+- **`masculine_plural`** *(string)*: Masculine plural form.
+- **`feminine_plural`** *(string)*: Feminine plural form.
+- **`plural_form`** *(string)*: General plural form for adjectives.
+- **`position`** *(string)*: Position relative to noun (`"before_noun"`, `"after_noun"`, `"either"`).
+- **`comparative`** *(string)*: Comparative form.
+- **`superlative`** *(string)*: Superlative form.
+- **`case_forms`** *(object)*: Case form inflections for pronouns/determiners.
+- **`person`** *(integer)*: Grammatical person (`1`, `2`, or `3`).
+- **`number`** *(string)*: Grammatical number (`"singular"` or `"plural"`).
 
-#### Optional Fields
-- **`audience`** *(string)*: Enum `["general", "children", "teens", "adults", "seniors"]`.
-- **`translation_notes`** *(string)*: Translation context or nuance notes.
-- **`related_vocabulary`** *(string[])*: Array of vocabulary entry IDs.
-- **`variants`** *(object)*: Map of phrase variants (e.g. `{"more_formal": "...", "less_formal": "..."}`).
+### 5. Other Grammatical Forms
+- **`governs_case`** *(string | string[])*: Case(s) governed by a preposition or postposition.
+- **`person_forms`** *(object)*: Inflected person forms for conjugated prepositions (`sg1`–`pl3`).
+- **`value`** *(integer)*: Numeric integer value for `number` entries.
 
-### 3. Curriculum Competency (`schemas/curriculum-competency.schema.json`)
-For age-specific learning objectives and discussion themes (not language items).
+---
 
-#### Required Fields
-- **`id`** *(string)*: Matching `en:relocation:competency:<slug>`.
-- **`objective`** *(string)*: Learning objective or discussion theme.
-- **`language`** *(string)*: 2-letter language code.
-- **`level`** *(string)*: CEFR level (`A0`–`C2`).
-- **`stage`** *(integer)*: Learning stage index.
-- **`audience`** *(string)*: Enum `["children", "teens", "adults", "seniors"]`.
-- **`domain`** *(string)*: Subject domain.
-- **`category`** *(string)*: Free-text category name.
+## Functional Phrase & Curriculum Competency Schemas
 
-#### Optional Fields
-- **`discussion_prompts`** *(string[])*: Array of discussion prompt strings.
-- **`related_vocabulary`** *(string[])*: Array of vocabulary entry IDs.
-- **`related_functional_phrases`** *(string[])*: Array of functional phrase entry IDs.
+### Functional Phrase (`schemas/functional-phrase.schema.json`)
+Whole situational sentences or utterances (e.g. relocation phrases).
+- **Required**: `id`, `phrase`, `language`, `level`, `register` (`["formal", "neutral", "informal"]`), `situation`, `domain`.
+- **Optional**: `audience`, `translation_notes`, `related_vocabulary`, `variants`.
+
+### Curriculum Competency (`schemas/curriculum-competency.schema.json`)
+Age-specific learning objectives and discussion themes.
+- **Required**: `id`, `objective`, `language`, `level`, `stage`, `audience` (`["children", "teens", "adults", "seniors"]`), `domain`, `category`.
+- **Optional**: `discussion_prompts`, `related_vocabulary`, `related_functional_phrases`.
 
 ---
 
@@ -169,5 +215,7 @@ Every pull request touching content or schemas triggers an automated GitHub Acti
 1. **Schema Validation**: Every data file under `vocabulary/`, `functional-phrases/`, and `curriculum/` (excluding `index.json`) is validated against its respective JSON schema.
 2. **Index Mapping Integrity**: Every word ID mapped in an `index.json` file is verified to exist within the target theme file it references.
 3. **Index Freshness**: Verifies that `index.json` is completely up-to-date by running `npm run build:index` and ensuring no uncommitted differences exist.
+4. **ID Alias Freshness**: Ensures retired entry IDs listed in `shared/id-aliases.json` do not still exist in active data files.
+5. **Taxonomy & Concept Warnings**: Reports non-blocking warnings for unknown themes/sub-themes or unresolvable English concepts.
 
 PRs touching data must pass these automated checks before merging.
