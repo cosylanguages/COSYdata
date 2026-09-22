@@ -1486,60 +1486,6 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "en:wake-up:noun",
-    "word": "wake up",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "the act of waking up morning"
-    ],
-    "examples": [
-      "My wake-up time is six o clock."
-    ],
-    "domain": "relocation, spoken, travel",
-    "theme": "family",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "transcription": "/weɪk ʌp/",
-    "emoji": "⏰",
-    "antonyms": [
-      "go to sleep"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "immediate_family"
-  },
-  {
-    "id": "en:get-up:noun",
-    "word": "get up",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "getting out of bed morning"
-    ],
-    "examples": [
-      "My get-up routine is quick."
-    ],
-    "domain": "spoken, travel",
-    "theme": "family",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "transcription": "/ɡet ʌp/",
-    "emoji": "🌅",
-    "antonyms": [
-      "go to bed"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "immediate_family"
-  },
-  {
     "id": "en:take-a-shower:noun",
     "word": "take a shower",
     "language": "en",
@@ -2089,10 +2035,10 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "en:take-care-of:noun",
+    "id": "en:take-care-of:verb",
     "word": "take care of",
     "language": "en",
-    "form": "noun",
+    "form": "verb",
     "level": "A0",
     "definitions": [
       "looking after family member"
@@ -2106,15 +2052,24 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/teɪk keə r əv/",
     "no_antonym": true,
     "emoji": "🤗",
-    "countability": "uncountable",
     "transcription_variants": {
       "us": "/teɪk ker əv/"
     },
-    "sub_theme": "immediate_family"
+    "sub_theme": "immediate_family",
+    "past_tense": "took care of",
+    "past_participle": "taken care of",
+    "present_participle": "taking care of",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "of",
+        "example": "I take care of my little brother."
+      }
+    ]
   },
   {
     "id": "en:family-member:noun",

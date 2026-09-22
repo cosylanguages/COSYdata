@@ -1497,10 +1497,6 @@
     {
       "id": "en:address:noun",
       "field": "word"
-    },
-    {
-      "id": "en:address:phrase",
-      "field": "word"
     }
   ],
   "address an issue": [
@@ -2866,10 +2862,6 @@
   "always": [
     {
       "id": "en:always:adverb",
-      "field": "word"
-    },
-    {
-      "id": "en:always:noun",
       "field": "word"
     }
   ],
@@ -4550,10 +4542,6 @@
     }
   ],
   "arrive": [
-    {
-      "id": "en:arrive:noun",
-      "field": "word"
-    },
     {
       "id": "en:arrive:verb",
       "field": "word"
@@ -11401,8 +11389,14 @@
   ],
   "center": [
     {
-      "id": "en:center:adverb",
+      "id": "en:center:noun",
       "field": "word"
+    }
+  ],
+  "centers": [
+    {
+      "id": "en:center:noun",
+      "field": "plural_form"
     }
   ],
   "centimeter": [
@@ -11436,10 +11430,6 @@
     }
   ],
   "centre": [
-    {
-      "id": "en:centre:adverb",
-      "field": "word"
-    },
     {
       "id": "en:centre:noun",
       "field": "word"
@@ -13739,26 +13729,20 @@
   ],
   "color": [
     {
-      "id": "en:color:adjective",
+      "id": "en:color:noun",
       "field": "word"
-    }
-  ],
-  "colorer": [
-    {
-      "id": "en:color:adjective",
-      "field": "comparative"
-    }
-  ],
-  "colorest": [
-    {
-      "id": "en:color:adjective",
-      "field": "superlative"
     }
   ],
   "colorful": [
     {
       "id": "en:colorful:adjective",
       "field": "word"
+    }
+  ],
+  "colors": [
+    {
+      "id": "en:color:noun",
+      "field": "plural_form"
     }
   ],
   "colossal": [
@@ -13768,10 +13752,6 @@
     }
   ],
   "colour": [
-    {
-      "id": "en:colour:adjective",
-      "field": "word"
-    },
     {
       "id": "en:colour:noun",
       "field": "word"
@@ -16315,10 +16295,6 @@
   ],
   "corner": [
     {
-      "id": "en:corner:adverb",
-      "field": "word"
-    },
-    {
       "id": "en:corner:noun",
       "field": "word"
     }
@@ -18350,10 +18326,6 @@
   "curved": [
     {
       "id": "en:curved:adjective",
-      "field": "word"
-    },
-    {
-      "id": "en:curved:noun",
       "field": "word"
     }
   ],
@@ -28101,10 +28073,6 @@
       "field": "word"
     },
     {
-      "id": "en:far:noun",
-      "field": "word"
-    },
-    {
       "id": "en:far:phrase",
       "field": "word"
     },
@@ -30773,10 +30741,6 @@
     {
       "id": "en:free:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:free:noun",
-      "field": "word"
     }
   ],
   "free entry": [
@@ -32280,10 +32244,6 @@
     }
   ],
   "get up": [
-    {
-      "id": "en:get-up:noun",
-      "field": "word"
-    },
     {
       "id": "en:get-up:verb",
       "field": "word"
@@ -34535,10 +34495,6 @@
   ],
   "hate": [
     {
-      "id": "en:hate:adjective",
-      "field": "word"
-    },
-    {
       "id": "en:hate:verb",
       "field": "word"
     }
@@ -34553,18 +34509,6 @@
     {
       "id": "en:hate-speech:noun",
       "field": "plural_form"
-    }
-  ],
-  "hater": [
-    {
-      "id": "en:hate:adjective",
-      "field": "comparative"
-    }
-  ],
-  "hatest": [
-    {
-      "id": "en:hate:adjective",
-      "field": "superlative"
     }
   ],
   "hats": [
@@ -36559,10 +36503,6 @@
     {
       "id": "en:huge:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:huge:noun",
-      "field": "word"
     }
   ],
   "huger": [
@@ -36712,10 +36652,6 @@
   "hungry": [
     {
       "id": "en:hungry:adjective",
-      "field": "word"
-    },
-    {
-      "id": "en:hungry:noun",
       "field": "word"
     }
   ],
@@ -43131,10 +43067,6 @@
     {
       "id": "en:large:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:large:noun",
-      "field": "word"
     }
   ],
   "larger": [
@@ -43147,12 +43079,6 @@
     {
       "id": "en:larger-than-life:adjective",
       "field": "word"
-    }
-  ],
-  "larges": [
-    {
-      "id": "en:large:noun",
-      "field": "plural_form"
     }
   ],
   "largest": [
@@ -43452,10 +43378,6 @@
     }
   ],
   "learn": [
-    {
-      "id": "en:learn:noun",
-      "field": "word"
-    },
     {
       "id": "en:learn:verb",
       "field": "word"
@@ -46249,7 +46171,7 @@
       "field": "word"
     },
     {
-      "id": "en:many:number",
+      "id": "en:many:determiner",
       "field": "word"
     },
     {
@@ -47603,10 +47525,6 @@
   ],
   "middle": [
     {
-      "id": "en:middle:adverb",
-      "field": "word"
-    },
-    {
       "id": "en:middle:noun",
       "field": "word"
     }
@@ -48959,12 +48877,6 @@
       "field": "comparative"
     }
   ],
-  "more colour": [
-    {
-      "id": "en:colour:adjective",
-      "field": "comparative"
-    }
-  ],
   "more committed": [
     {
       "id": "en:committed:adjective",
@@ -50035,12 +49947,6 @@
       "field": "superlative"
     }
   ],
-  "most colour": [
-    {
-      "id": "en:colour:adjective",
-      "field": "superlative"
-    }
-  ],
   "most committed": [
     {
       "id": "en:committed:adjective",
@@ -51071,7 +50977,7 @@
       "field": "word"
     },
     {
-      "id": "en:much:number",
+      "id": "en:much:determiner",
       "field": "word"
     },
     {
@@ -51877,10 +51783,6 @@
       "field": "word"
     },
     {
-      "id": "en:near:noun",
-      "field": "word"
-    },
-    {
       "id": "en:near:preposition",
       "field": "word"
     }
@@ -52348,10 +52250,6 @@
   "never": [
     {
       "id": "en:never:adverb",
-      "field": "word"
-    },
-    {
-      "id": "en:never:noun",
       "field": "word"
     }
   ],
@@ -53765,10 +53663,6 @@
   ],
   "of": [
     {
-      "id": "en:of:adverb",
-      "field": "word"
-    },
-    {
       "id": "en:of:noun",
       "field": "word"
     },
@@ -53974,10 +53868,6 @@
   "often": [
     {
       "id": "en:often:adverb",
-      "field": "word"
-    },
-    {
-      "id": "en:often:noun",
       "field": "word"
     }
   ],
@@ -61941,10 +61831,6 @@
   ],
   "put on": [
     {
-      "id": "en:put-on:noun",
-      "field": "word"
-    },
-    {
       "id": "en:put-on:verb",
       "field": "word"
     }
@@ -61971,12 +61857,6 @@
     {
       "id": "en:put-up-with:verb",
       "field": "word"
-    }
-  ],
-  "put-ons": [
-    {
-      "id": "en:put-on:noun",
-      "field": "plural_form"
     }
   ],
   "puzzle": [
@@ -63198,10 +63078,6 @@
     }
   ],
   "receive": [
-    {
-      "id": "en:receive:noun",
-      "field": "word"
-    },
     {
       "id": "en:receive:verb",
       "field": "word"
@@ -68613,10 +68489,6 @@
   ],
   "sell": [
     {
-      "id": "en:sell:noun",
-      "field": "word"
-    },
-    {
       "id": "en:sell:verb",
       "field": "word"
     }
@@ -69790,10 +69662,6 @@
     }
   ],
   "side": [
-    {
-      "id": "en:side:adverb",
-      "field": "word"
-    },
     {
       "id": "en:side:noun",
       "field": "word"
@@ -71467,10 +71335,6 @@
     {
       "id": "en:sometimes:adverb",
       "field": "word"
-    },
-    {
-      "id": "en:sometimes:noun",
-      "field": "word"
     }
   ],
   "somewhere": [
@@ -71523,7 +71387,7 @@
   ],
   "soon": [
     {
-      "id": "en:soon:noun",
+      "id": "en:soon:adverb",
       "field": "word"
     },
     {
@@ -71531,10 +71395,22 @@
       "field": "word"
     }
   ],
+  "sooner": [
+    {
+      "id": "en:soon:adverb",
+      "field": "comparative"
+    }
+  ],
   "sooner or later": [
     {
       "id": "en:sooner-or-later:phrase",
       "field": "word"
+    }
+  ],
+  "soonest": [
+    {
+      "id": "en:soon:adverb",
+      "field": "superlative"
     }
   ],
   "sophisticated": [
@@ -75883,11 +75759,7 @@
   ],
   "take care of": [
     {
-      "id": "en:take-care-of:noun",
-      "field": "word"
-    },
-    {
-      "id": "en:take-care-of:phrase",
+      "id": "en:take-care-of:verb",
       "field": "word"
     }
   ],
@@ -75946,10 +75818,6 @@
     }
   ],
   "take off": [
-    {
-      "id": "en:take-off:noun",
-      "field": "word"
-    },
     {
       "id": "en:take-off:verb",
       "field": "word"
@@ -76023,12 +75891,6 @@
     {
       "id": "en:take-your-time:phrase",
       "field": "word"
-    }
-  ],
-  "take-offs": [
-    {
-      "id": "en:take-off:noun",
-      "field": "plural_form"
     }
   ],
   "takeaway": [
@@ -76476,10 +76338,6 @@
     }
   ],
   "teach": [
-    {
-      "id": "en:teach:noun",
-      "field": "word"
-    },
     {
       "id": "en:teach:verb",
       "field": "word"
@@ -78181,10 +78039,6 @@
     {
       "id": "en:thirsty:adjective",
       "field": "word"
-    },
-    {
-      "id": "en:thirsty:noun",
-      "field": "word"
     }
   ],
   "thirteen": [
@@ -78706,10 +78560,6 @@
   "tiny": [
     {
       "id": "en:tiny:adjective",
-      "field": "word"
-    },
-    {
-      "id": "en:tiny:noun",
       "field": "word"
     }
   ],
@@ -83525,10 +83375,6 @@
     {
       "id": "en:usually:adverb",
       "field": "word"
-    },
-    {
-      "id": "en:usually:noun",
-      "field": "word"
     }
   ],
   "usurp": [
@@ -84960,10 +84806,6 @@
     }
   ],
   "wake up": [
-    {
-      "id": "en:wake-up:noun",
-      "field": "word"
-    },
     {
       "id": "en:wake-up:verb",
       "field": "word"
