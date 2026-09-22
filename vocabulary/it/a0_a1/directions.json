@@ -1,220 +1,230 @@
 [
   {
-    "id": "it:a-destra:phrase",
-    "word": "a destra",
+    "id": "it:girare-a-destra:phrase",
+    "word": "girare a destra",
     "language": "it",
     "form": "phrase",
     "level": "A1",
     "definitions": [
-      "verso il lato destro della strada"
+      "Svoltare verso il lato destro della strada"
     ],
     "examples": [
-      "Gira a destra al semaforo."
+      "Girare a destra al semaforo."
     ],
     "domain": "general",
     "theme": "places_transport",
     "updated": "2026-09-22",
-    "transcription": "/a ˈdɛs.tra/",
+    "transcription": "/dʒiˈra.re a ˈdɛs.tra/",
     "antonyms": [
-      "a sinistra"
+      "girare a sinistra"
     ],
     "emoji": "➡️",
     "sub_theme": "navigation"
   },
   {
-    "id": "it:a-sinistra:phrase",
-    "word": "a sinistra",
+    "id": "it:girare-a-sinistra:phrase",
+    "word": "girare a sinistra",
     "language": "it",
     "form": "phrase",
     "level": "A1",
     "definitions": [
-      "verso il lato sinistro della strada"
+      "Svoltare verso il lato sinistro della strada"
     ],
     "examples": [
-      "La banca si trova a sinistra."
+      "Girare a sinistra dopo la banca."
     ],
     "domain": "general",
     "theme": "places_transport",
     "updated": "2026-09-22",
-    "transcription": "/a siˈnis.tra/",
+    "transcription": "/dʒiˈra.re a siˈnis.tra/",
     "antonyms": [
-      "a destra"
+      "girare a destra"
     ],
     "emoji": "⬅️",
     "sub_theme": "navigation"
   },
   {
-    "id": "it:dritto:adverb",
-    "word": "dritto",
+    "id": "it:andare-dritto:phrase",
+    "word": "andare dritto",
     "language": "it",
-    "form": "adverb",
+    "form": "phrase",
     "level": "A1",
     "definitions": [
-      "senza deviare a destra o a sinistra"
+      "Procedere senza deviare a destra o sinistra"
     ],
     "examples": [
-      "Vai sempre dritto fino alla piazza."
+      "Andare dritto fino alla grande piazza."
     ],
     "domain": "general",
     "theme": "places_transport",
     "updated": "2026-09-22",
-    "transcription": "/ˈdrit.to/",
+    "transcription": "/anˈda.re ˈdrit.to/",
     "no_antonym": true,
     "emoji": "⬆️",
     "sub_theme": "navigation"
   },
   {
-    "id": "it:vicino:adjective",
-    "word": "vicino",
+    "id": "it:all-angolo:phrase",
+    "word": "all'angolo",
     "language": "it",
-    "form": "adjective",
+    "form": "phrase",
     "level": "A1",
     "definitions": [
-      "a poca distanza nello spazio"
+      "Nel punto di incontro tra due strade"
     ],
     "examples": [
-      "Il parco è molto vicino da qui."
+      "Il bar si trova all'angolo della via."
     ],
     "domain": "general",
     "theme": "places_transport",
     "updated": "2026-09-22",
-    "transcription": "/viˈtʃi.no/",
-    "antonyms": [
-      "lontano"
-    ],
+    "transcription": "/alˈlaŋ.ɡo.lo/",
+    "no_antonym": true,
     "emoji": "📍",
     "sub_theme": "navigation"
   },
   {
-    "id": "it:lontano:adjective",
-    "word": "lontano",
+    "id": "it:strada-principale:noun",
+    "word": "strada principale",
     "language": "it",
-    "form": "adjective",
+    "form": "noun",
     "level": "A1",
     "definitions": [
-      "a grande distanza nello spazio"
+      "La via piu importante della citta"
     ],
     "examples": [
-      "La stazione è lontana dal centro."
+      "Tutti i negozi sono sulla strada principale."
     ],
     "domain": "general",
     "theme": "places_transport",
     "updated": "2026-09-22",
-    "transcription": "/lonˈta.no/",
-    "antonyms": [
-      "vicino"
+    "transcription": "/ˈstra.da prin.tʃiˈpa.le/",
+    "no_antonym": true,
+    "emoji": "🛣️",
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "strade principali",
+    "sub_theme": "navigation"
+  },
+  {
+    "id": "it:viale:noun",
+    "word": "viale",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Larga strada cittadina alberata ai lati"
     ],
+    "examples": [
+      "Camminiamo lungo il viale alberato."
+    ],
+    "domain": "general",
+    "theme": "places_transport",
+    "updated": "2026-09-22",
+    "transcription": "/ˈvja.le/",
+    "no_antonym": true,
+    "emoji": "🌳",
+    "gender": "masculine",
+    "article": "il",
+    "countability": "countable",
+    "plural_form": "viali",
+    "sub_theme": "navigation"
+  },
+  {
+    "id": "it:piazza-centrale:noun",
+    "word": "piazza centrale",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Spazio aperto nel centro della citta"
+    ],
+    "examples": [
+      "Ci vediamo nella piazza centrale stasera."
+    ],
+    "domain": "general",
+    "theme": "places_transport",
+    "updated": "2026-09-22",
+    "transcription": "/ˈpjat.tsa tʃenˈtra.le/",
+    "no_antonym": true,
+    "emoji": "🏛️",
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "piazze centrali",
+    "sub_theme": "navigation"
+  },
+  {
+    "id": "it:fermata:noun",
+    "word": "fermata",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Luogo dove si ferma l'autobus o il tram"
+    ],
+    "examples": [
+      "Aspetto l'autobus alla fermata vicina."
+    ],
+    "domain": "general",
+    "theme": "places_transport",
+    "updated": "2026-09-22",
+    "transcription": "/ferˈma.ta/",
+    "no_antonym": true,
+    "emoji": "🚏",
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "fermate",
+    "sub_theme": "navigation"
+  },
+  {
+    "id": "it:passaggio:noun",
+    "word": "passaggio",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Luogo o percorso per attraversare la strada"
+    ],
+    "examples": [
+      "Attraverso la strada sul passaggio pedonale."
+    ],
+    "domain": "general",
+    "theme": "places_transport",
+    "updated": "2026-09-22",
+    "transcription": "/pasˈsad.dʒo/",
+    "no_antonym": true,
+    "emoji": "🚶",
+    "gender": "masculine",
+    "article": "il",
+    "countability": "countable",
+    "plural_form": "passaggi",
+    "sub_theme": "navigation"
+  },
+  {
+    "id": "it:percorso:noun",
+    "word": "percorso",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Itinerario seguito per raggiungere una destinazione"
+    ],
+    "examples": [
+      "Questo percorso a piedi e molto bello."
+    ],
+    "domain": "general",
+    "theme": "places_transport",
+    "updated": "2026-09-22",
+    "transcription": "/perˈkor.so/",
+    "no_antonym": true,
     "emoji": "🗺️",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "it:di-fronte-a:phrase",
-    "word": "di fronte a",
-    "language": "it",
-    "form": "phrase",
-    "level": "A1",
-    "definitions": [
-      "dalla parte opposta della strada"
-    ],
-    "examples": [
-      "Il museo è di fronte al bar."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/di ˈfron.te a/",
-    "no_antonym": true,
-    "emoji": "🏢↔️🏢",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "it:accanto-a:phrase",
-    "word": "accanto a",
-    "language": "it",
-    "form": "phrase",
-    "level": "A1",
-    "definitions": [
-      "a fianco di una persona o un edificio"
-    ],
-    "examples": [
-      "La farmacia si trova accanto al bar."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/akˈkan.to a/",
-    "no_antonym": true,
-    "emoji": "👥",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "it:nord:noun",
-    "word": "nord",
-    "language": "it",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "uno dei quattro punti cardinali"
-    ],
-    "examples": [
-      "Milano si trova al nord d'Italia."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/nɔrd/",
-    "antonyms": [
-      "sud"
-    ],
-    "emoji": "🧭",
     "gender": "masculine",
     "article": "il",
-    "countability": "uncountable",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "it:sud:noun",
-    "word": "sud",
-    "language": "it",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "punto cardinale opposto al nord"
-    ],
-    "examples": [
-      "Napoli si trova al sud d'Italia."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/sud/",
-    "antonyms": [
-      "nord"
-    ],
-    "emoji": "🧭",
-    "gender": "masculine",
-    "article": "il",
-    "countability": "uncountable",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "it:dove-si-trova:phrase",
-    "word": "dove si trova",
-    "language": "it",
-    "form": "phrase",
-    "level": "A1",
-    "definitions": [
-      "chiedere la posizione di un luogo o edificio"
-    ],
-    "examples": [
-      "Scusa, dove si trova la stazione?"
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/ˈdo.ve si ˈtrɔ.va/",
-    "no_antonym": true,
-    "emoji": "❓",
+    "countability": "countable",
+    "plural_form": "percorsi",
     "sub_theme": "navigation"
   }
 ]
