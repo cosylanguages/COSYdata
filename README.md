@@ -62,13 +62,13 @@ COSYdata/
 - **`c1/`**: Advanced CEFR C1 level vocabulary files.
 - **`c2/`**: Mastery CEFR C2 level vocabulary files.
 
-The repository uses the following course domains in the `domain` property:
+The repository uses the following course domains in the `domain` property (or comma-separated combinations thereof):
 - **`general`**: Standard CEFR course vocabulary.
 - **`spoken`**: Spoken course vocabulary focused on conversation.
+- **`travelling`** (or **`travel`**): Vocabulary for travel, tourism, and navigation.
 - **`relocation`**: Vocabulary and functional phrases for moving and living abroad.
-- **`travel`**: Vocabulary for travel, tourism, and navigation.
+- **`exam_preparation`** (or **`exam`**): Exam preparation, rubric, and task-based testing vocabulary.
 - **`professional`**: Specialized workplace, academic, and career track vocabulary.
-- **`exam`**: Exam preparation, rubric, and task-based testing vocabulary.
 
 > **Note:** The `professional` and `exam` domains additionally use a `sub_theme`-based track system (registered in `vocabulary/professional-tracks.json` and `vocabulary/exam-tracks.json`). See [`docs/domain-and-tagging-conventions.md`](docs/domain-and-tagging-conventions.md) for full conventions.
 
@@ -140,6 +140,11 @@ The repository uses JSON Schema (Draft 2020-12) files in `schemas/` to validate 
 - **`synonyms`** *(string[])*: Array of synonym terms or IDs (required for CEFR B1–C2 levels).
 - **`definitions`** *(string[])*: Monolingual dictionary definitions in the entry's target language.
 - **`examples`** *(string[])*: Natural usage sentences containing the headword.
+- **`scenario`** *(string)*: Short situational tag (e.g., `"airport check-in"`).
+- **`register`** *(string)*: Enum `["formal", "neutral", "informal"]` indicating tone or register.
+- **`exam_board`** *(string)*: Free-text exam board or specification name (e.g., `"IELTS"`, `"Cambridge C1 Advanced"`, `"TOEFL"`, `"DELF B2"`, `"Goethe-Zertifikat B1"`, `"TORFL"`, `"Ελληνομάθεια"`).
+- **`exam_level`** *(string)*: Specific level or grade within that exam board if distinct from the CEFR `level` field.
+- **`transliteration`** *(string)*: Latin-script rendering of the word for non-Latin script languages (e.g., Russian, Greek).
 
 ### 2. Noun Fields
 - **`countability`** *(string)*: Enum `["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]`. Required for nouns.
