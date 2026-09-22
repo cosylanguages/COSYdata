@@ -11,7 +11,7 @@
     "examples": [
       "She submitted her job application yesterday."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "applications",
@@ -42,7 +42,7 @@
     "examples": [
       "He looks forward to his retirement years."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "retirements",
@@ -59,7 +59,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/rɪˈtaɪr.mənt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:unemployment:noun",
@@ -73,7 +74,7 @@
     "examples": [
       "Unemployment decreased in our region recently."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -88,7 +89,8 @@
     "countability": "uncountable",
     "antonyms": [
       "employment"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:contract:noun",
@@ -102,7 +104,7 @@
     "examples": [
       "Sign the employment contract before starting work."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "contracts",
@@ -134,7 +136,7 @@
     "examples": [
       "Higher qualifications lead to better career options."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "qualifications",
@@ -151,7 +153,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌkwɑː.lə.fəˈkeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:training:noun",
@@ -165,7 +168,7 @@
     "examples": [
       "New employees undergo two weeks of training."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -179,7 +182,8 @@
     "transcription": "/ˈtreɪ.nɪŋ/",
     "emoji": "🏋️",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:career:noun",
@@ -193,7 +197,7 @@
     "examples": [
       "She built a successful career in law."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "careers",
@@ -206,7 +210,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/kəˈrɪr/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:profession:noun",
@@ -220,14 +225,15 @@
     "examples": [
       "Teaching is a respected and noble profession."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "professions",
     "transcription": "/prəˈfeʃ.ən/",
     "emoji": "👔",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:occupation:noun",
@@ -241,7 +247,7 @@
     "examples": [
       "Please state your occupation on the form."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "occupations",
@@ -254,7 +260,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌɑː.kjəˈpeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:apply:verb",
@@ -268,7 +275,7 @@
     "examples": [
       "I plan to apply for that position."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -291,7 +298,7 @@
     "examples": [
       "They will interview candidates on Thursday morning."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -317,7 +324,7 @@
     "examples": [
       "Send your resume and cover letter online."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "resumes",
@@ -330,7 +337,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈrez.ə.meɪ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cv:noun",
@@ -344,7 +352,7 @@
     "examples": [
       "Attach your CV to the job application."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "CVs",
@@ -354,7 +362,8 @@
     "transcription": "/ˌsiːˈviː/",
     "emoji": "📄",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:employer:noun",
@@ -368,7 +377,7 @@
     "examples": [
       "Her employer offered good health insurance benefits."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "employers",
@@ -384,7 +393,8 @@
     ],
     "transcription_variants": {
       "us": "/ɪmˈplɔɪ.ɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:coworker:noun",
@@ -422,7 +432,7 @@
     "examples": [
       "She received a well-deserved job promotion."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "promotions",
@@ -437,7 +447,8 @@
     ],
     "transcription_variants": {
       "us": "/prəˈmoʊ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:wage:noun",
@@ -451,7 +462,7 @@
     "examples": [
       "Workers received their weekly wage on Friday."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "wages",
@@ -476,7 +487,7 @@
     "examples": [
       "Her monthly income covers all living costs."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "incomes",
@@ -488,7 +499,8 @@
     "countability": "countable",
     "antonyms": [
       "expense"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:full-time:noun",
@@ -502,7 +514,7 @@
     "examples": [
       "He secured a full-time job in software."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -513,7 +525,8 @@
     "countability": "uncountable",
     "antonyms": [
       "part-time"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:overtime:noun",
@@ -527,7 +540,7 @@
     "examples": [
       "She worked overtime to finish the report."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -554,7 +567,7 @@
     "examples": [
       "We finished the project before the deadline."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "deadlines",
@@ -604,7 +617,7 @@
     "examples": [
       "He plans to retire at age sixty-five."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -615,7 +628,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/rɪˈtaɪr/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:unemployed:adjective",
@@ -629,14 +643,15 @@
     "examples": [
       "He was unemployed for three months last year."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ˌʌn.ɪmˈplɔɪd/",
     "emoji": "🏚️",
     "antonyms": [
       "employed"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:experience:noun",
@@ -650,7 +665,7 @@
     "examples": [
       "She has five years of teaching experience."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -664,7 +679,8 @@
     ],
     "transcription_variants": {
       "us": "/ɪkˈspɪr.i.əns/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:internship:noun",
@@ -678,7 +694,7 @@
     "examples": [
       "He completed a summer internship at the bank."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "internships",
@@ -691,7 +707,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈɪn.tɝːn.ʃɪp/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:staff:noun",
@@ -705,7 +722,7 @@
     "examples": [
       "The hotel staff were friendly and helpful."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/stɑːf/",
@@ -729,7 +746,7 @@
     "examples": [
       "He decided to resign from his position."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -752,7 +769,7 @@
     "examples": [
       "She quit her job to travel world."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "tags": [
@@ -763,7 +780,8 @@
     "no_antonym": true,
     "related_forms": [
       "COSYtools:en-irregular-verbs:quit"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:task:noun",
@@ -777,7 +795,7 @@
     "examples": [
       "Complete your assigned daily task by noon."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "tasks",
@@ -805,7 +823,7 @@
     "examples": [
       "It is his duty to inspect equipment."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "duties",
@@ -819,7 +837,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈduː.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:responsibility:noun",
@@ -833,7 +852,7 @@
     "examples": [
       "Managing staff is her primary work responsibility."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "plural_form": "responsibilities",
@@ -972,7 +991,7 @@
     "examples": [
       "She worked hard to achieve her career goals."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/əˈtʃiːv/",
@@ -981,7 +1000,8 @@
     "levels": [
       "A2",
       "B1"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:arrange:verb",
@@ -1065,7 +1085,7 @@
     "examples": [
       "The project involves working in small teams."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ɪnˈvɒlv/",
@@ -1074,7 +1094,8 @@
     "levels": [
       "A2",
       "B2"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:manage:verb",
@@ -1136,7 +1157,7 @@
     "examples": [
       "The manager permitted them to leave early."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/pəˈmɪt/",
@@ -1162,12 +1183,13 @@
     "examples": [
       "The local factory produces high quality shoes."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/prəˈdjuːs/",
     "emoji": "🏭",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:promote:verb",
@@ -1202,12 +1224,13 @@
     "examples": [
       "The company provides training for new staff."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/prəˈvaɪd/",
     "emoji": "🤲",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:strike:noun",
@@ -1221,14 +1244,15 @@
     "examples": [
       "Bus drivers went on strike for better pay."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/straɪk/",
     "emoji": "🪧",
     "countability": "countable",
     "plural_form": "strikes",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:succeed:verb",
@@ -1242,7 +1266,7 @@
     "examples": [
       "With hard work, she will succeed in her exams."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "achievement",
     "updated": "2025-01-15",
     "levels": [
@@ -1252,7 +1276,8 @@
     "emoji": "🏆",
     "antonyms": [
       "fail"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:accountant:noun",
@@ -1266,7 +1291,7 @@
     "examples": [
       "The accountant helped us prepare our annual tax declarations."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/əˈkaʊn.tənt/",
@@ -1276,7 +1301,8 @@
     "emoji": "🧑‍💼",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "accountants"
+    "plural_form": "accountants",
+    "sub_theme": "general"
   },
   {
     "id": "en:electrician:noun",
@@ -1290,7 +1316,7 @@
     "examples": [
       "An electrician came to fix the wiring in our kitchen."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ɪˌlekˈtrɪʃ.ən/",
@@ -1300,7 +1326,8 @@
     "emoji": "⚡",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "electricians"
+    "plural_form": "electricians",
+    "sub_theme": "general"
   },
   {
     "id": "en:part-time-job:noun",
@@ -1364,7 +1391,7 @@
     "examples": [
       "We called a plumber to fix the leaking tap in the bathroom."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/ˈplʌm.ə/",
@@ -1374,7 +1401,8 @@
     "emoji": "🔧",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "plumbers"
+    "plural_form": "plumbers",
+    "sub_theme": "general"
   },
   {
     "id": "en:translator:noun",
@@ -1439,7 +1467,7 @@
     "examples": [
       "You must submit your tax forms before the deadline."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "documents",
     "updated": "2025-01-15",
     "levels": [
@@ -1690,14 +1718,15 @@
     "examples": [
       "A skilled photographer captured sunset views."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/fəˈtɒɡ.rə.fər/",
     "emoji": "📷",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "photographers"
+    "plural_form": "photographers",
+    "sub_theme": "general"
   },
   {
     "id": "en:retired:adjective",
@@ -1711,14 +1740,15 @@
     "examples": [
       "My retired parents travel every autumn."
     ],
-    "domain": "general, travel, professional",
+    "domain": "general, travel, professional, exam",
     "theme": "work",
     "updated": "2025-01-15",
     "transcription": "/rɪˈtaɪəd/",
     "emoji": "👴",
     "antonyms": [
       "employed"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:security-guard:noun",
@@ -1740,5 +1770,89 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "security guards"
+  },
+  {
+    "id": "en:colleague:noun",
+    "word": "colleague",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A person with whom one works in profession."
+    ],
+    "examples": [
+      "I had lunch with my office colleague."
+    ],
+    "domain": "general, relocation, spoken, travel, professional, exam",
+    "theme": "work",
+    "updated": "2025-01-15",
+    "plural_form": "colleagues",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈkɒl.iːɡ/",
+    "emoji": "👔",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈkɑː.liːɡ/"
+    },
+    "sub_theme": "teachers-scientists"
+  },
+  {
+    "id": "en:meeting:noun",
+    "word": "meeting",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "An assembly of people for discussion."
+    ],
+    "examples": [
+      "We scheduled a team meeting at ten."
+    ],
+    "domain": "general, relocation, spoken, travel, professional",
+    "theme": "work",
+    "updated": "2025-01-15",
+    "plural_form": "meetings",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈmiː.tɪŋ/",
+    "emoji": "👥",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈmiː.t̬ɪŋ/"
+    },
+    "sub_theme": "legal-english"
+  },
+  {
+    "id": "en:factory:noun",
+    "word": "factory",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A building where goods are manufactured."
+    ],
+    "examples": [
+      "The car factory employs five hundred workers."
+    ],
+    "domain": "general, spoken, relocation, professional, exam",
+    "theme": "work",
+    "updated": "2025-01-15",
+    "plural_form": "factories",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈfæk.tər.i/",
+    "emoji": "🏭",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈfæk.tɚ.i/"
+    },
+    "sub_theme": "general"
   }
 ]

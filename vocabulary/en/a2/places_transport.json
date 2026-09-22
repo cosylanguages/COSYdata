@@ -11,7 +11,7 @@
     "examples": [
       "The town center has many tourist shops."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -22,7 +22,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈtʊr.ɪst/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:lively:adjective",
@@ -153,7 +154,7 @@
     "examples": [
       "Many young people prefer living in urban areas."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -166,7 +167,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈɝː.bən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:rural:adjective",
@@ -180,7 +182,7 @@
     "examples": [
       "They enjoy a quiet life in a rural village."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -193,7 +195,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈrʊr.əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:downtown:adjective",
@@ -207,7 +210,7 @@
     "examples": [
       "We met at a busy downtown café for lunch."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -218,7 +221,8 @@
     "antonyms": [
       "uptown",
       "suburban"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:suburb:adjective",
@@ -232,7 +236,7 @@
     "examples": [
       "They moved to a quiet suburb last year."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -245,7 +249,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈsʌb.ɝːb/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:outskirts:adjective",
@@ -286,12 +291,13 @@
     "examples": [
       "The city skyline looked amazing at night."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˈskaɪ.laɪn/",
     "emoji": "🏙️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:landmark:adjective",
@@ -305,7 +311,7 @@
     "examples": [
       "The old clock tower is a famous local landmark."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -316,7 +322,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈlænd.mɑːrk/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:monument:adjective",
@@ -330,7 +337,7 @@
     "examples": [
       "Visitors took photos of the ancient stone monument."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -341,7 +348,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈmɑːn.jə.mənt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:population:adjective",
@@ -355,7 +363,7 @@
     "examples": [
       "The city has a large and diverse population."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˌpɒp.jəˈleɪ.ʃən/",
@@ -363,7 +371,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌpɑː.pjəˈleɪ.ʃən/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:density:adjective",
@@ -418,7 +427,7 @@
     "examples": [
       "This park is very popular on summer weekends."
     ],
-    "domain": "general, spoken, travel, professional",
+    "domain": "general, spoken, travel, professional, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "tags": [
@@ -431,7 +440,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈpɑː.pjə.lɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:remote:adjective",
@@ -763,14 +773,15 @@
     "examples": [
       "School children visited the local fire station."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˈfaɪə ˌsteɪ.ʃən/",
     "emoji": "🚒",
     "countability": "countable",
     "plural_form": "fire stations",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:gas-station:noun",
@@ -852,14 +863,15 @@
     "examples": [
       "This mountain region receives heavy snowfall in winter."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "places",
     "updated": "2025-01-15",
     "transcription": "/ˈriː.dʒən/",
     "emoji": "🏞️",
     "countability": "countable",
     "plural_form": "regions",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:town-hall:noun",
@@ -895,7 +907,7 @@
     "examples": [
       "We met for lunch in the company cafeteria."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "places_transport",
     "updated": "2025-01-15",
     "transcription": "/ˌkæf.əˈtɪə.ri.ə/",
@@ -905,7 +917,8 @@
     "emoji": "🏢",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "cafeterias"
+    "plural_form": "cafeterias",
+    "sub_theme": "general"
   },
   {
     "id": "en:canteen:noun",
@@ -992,7 +1005,7 @@
     "examples": [
       "There was a long queue at the immigration counter."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "places_transport",
     "updated": "2025-01-15",
     "transcription": "/kjuː/",
@@ -1002,7 +1015,8 @@
     "emoji": "🚶‍♂️🚶‍♀️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "queues"
+    "plural_form": "queues",
+    "sub_theme": "general"
   },
   {
     "id": "en:shopping-center:noun",
@@ -1065,7 +1079,7 @@
     "examples": [
       "The courier delivered the document to my home address."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "services",
     "updated": "2025-01-15",
     "levels": [
@@ -1079,7 +1093,8 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "couriers",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:cyclist:noun",
@@ -1349,12 +1364,13 @@
     "examples": [
       "I purchased a single ticket to central station."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "places_transport",
     "updated": "2025-01-15",
     "transcription": "/ˌsɪŋ.ɡəl ˈtɪk.ɪt/",
     "emoji": "🎫",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:takeoff:noun",
@@ -3853,5 +3869,30 @@
     "related_forms": [
       "COSYtools:en-irregular-verbs:drive"
     ]
+  },
+  {
+    "id": "en:traditional:adjective",
+    "word": "traditional",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "Following long-established customs or styles."
+    ],
+    "examples": [
+      "They live in a traditional wooden cottage."
+    ],
+    "domain": "general, spoken, travel, exam",
+    "theme": "places",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/trəˈdɪʃ.ən.əl/",
+    "emoji": "🎋",
+    "antonyms": [
+      "modern"
+    ],
+    "sub_theme": "general"
   }
 ]

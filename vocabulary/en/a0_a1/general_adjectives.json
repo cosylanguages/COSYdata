@@ -11,9 +11,9 @@
     "examples": [
       "His house is far away."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "navigation",
-    "updated": "2026-09-22",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "descriptors",
+    "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
@@ -28,7 +28,7 @@
     },
     "comparative": "further",
     "superlative": "furthest",
-    "sub_theme": "distance",
+    "sub_theme": "general",
     "secondary_themes": [
       "travel"
     ]
@@ -45,7 +45,7 @@
     "examples": [
       "A thin paper lay on desk."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -63,7 +63,7 @@
     ],
     "comparative": "thinner",
     "superlative": "thinnest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:near:adjective",
@@ -77,9 +77,9 @@
     "examples": [
       "The park is near school."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "descriptors",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
@@ -93,7 +93,7 @@
     },
     "comparative": "nearer",
     "superlative": "nearest",
-    "sub_theme": "quality_condition",
+    "sub_theme": "general",
     "secondary_themes": [
       "travel"
     ]
@@ -110,7 +110,7 @@
     "examples": [
       "They live in a modern flat."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -131,7 +131,7 @@
     },
     "comparative": "more modern",
     "superlative": "most modern",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:ancient:adjective",
@@ -145,7 +145,7 @@
     "examples": [
       "We saw an ancient city."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -162,7 +162,7 @@
     ],
     "comparative": "more ancient",
     "superlative": "most ancient",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:public:adjective",
@@ -176,12 +176,11 @@
     "examples": [
       "This is a public park."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "levels": [
       "A1",
-      "A2",
       "B1"
     ],
     "transcription": "/ˈpʌb.lɪk/",
@@ -191,7 +190,7 @@
     ],
     "comparative": "more public",
     "superlative": "most public",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:private:adjective",
@@ -205,7 +204,7 @@
     "examples": [
       "Keep your private key safe."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "levels": [
@@ -219,7 +218,7 @@
     ],
     "comparative": "privater",
     "superlative": "privatest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:flat:adjective",
@@ -233,7 +232,7 @@
     "examples": [
       "The land was completely flat."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -246,7 +245,7 @@
     ],
     "comparative": "flatter",
     "superlative": "flattest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:soft:adjective",
@@ -260,7 +259,7 @@
     "examples": [
       "The pillow is soft."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -268,7 +267,6 @@
     ],
     "levels": [
       "A1",
-      "A2",
       "B2"
     ],
     "transcription": "/sɒft/",
@@ -281,7 +279,7 @@
     },
     "comparative": "softer",
     "superlative": "softest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:tiny:adjective",
@@ -295,9 +293,9 @@
     "examples": [
       "A tiny bug crawled on the wall."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "descriptors",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "transcription": "/ˈtaɪ.ni/",
     "emoji": "🔬",
     "antonyms": [
@@ -310,7 +308,7 @@
     ],
     "comparative": "tinier",
     "superlative": "tiniest",
-    "sub_theme": "size_dimension",
+    "sub_theme": "general",
     "secondary_themes": [
       "shapes"
     ]
@@ -327,9 +325,9 @@
     "examples": [
       "We saw a huge elephant."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "descriptors",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "transcription": "/hjuːdʒ/",
     "emoji": "🐘",
     "antonyms": [
@@ -342,7 +340,7 @@
     ],
     "comparative": "huger",
     "superlative": "hugest",
-    "sub_theme": "quality_condition",
+    "sub_theme": "general",
     "secondary_themes": [
       "shapes"
     ]
@@ -359,7 +357,7 @@
     "examples": [
       "A wide river flows here."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -376,7 +374,7 @@
     ],
     "comparative": "wider",
     "superlative": "widest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:narrow:adjective",
@@ -390,7 +388,7 @@
     "examples": [
       "Walk down a narrow street."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -410,7 +408,7 @@
     ],
     "comparative": "narrower",
     "superlative": "narrowest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:thick:adjective",
@@ -424,7 +422,7 @@
     "examples": [
       "He wore a thick coat."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "transcription": "/θɪk/",
@@ -438,7 +436,7 @@
     ],
     "comparative": "thicker",
     "superlative": "thickest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:quick:adjective",
@@ -447,14 +445,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "done or taking place in a short time"
+      "the opposite of slow"
     ],
     "examples": [
       "Take a quick shower now."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "descriptors",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "transcription": "/kwɪk/",
     "emoji": "⚡",
     "antonyms": [
@@ -462,7 +460,7 @@
     ],
     "comparative": "quicker",
     "superlative": "quickest",
-    "sub_theme": "quality_condition",
+    "sub_theme": "general",
     "synonyms": [
       "en:fast:adjective"
     ]
@@ -474,14 +472,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "firmly closed or fastened"
+      "the opposite of open"
     ],
     "examples": [
       "The shop is shut now."
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "transcription": "/ʃʌt/",
     "emoji": "🔒",
     "antonyms": [
@@ -537,7 +535,7 @@
     "examples": [
       "This math rule is complicated."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -557,7 +555,7 @@
     ],
     "comparative": "more complicated",
     "superlative": "most complicated",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:silent:adjective",
@@ -566,14 +564,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "completely without noise or sound"
+      "the opposite of noisy"
     ],
     "examples": [
       "The forest was dark and silent."
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "transcription": "/ˈsaɪ.lənt/",
     "emoji": "🤫",
     "antonyms": [
@@ -603,7 +601,7 @@
     "examples": [
       "A bright sun shines today."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -621,7 +619,7 @@
     ],
     "comparative": "more bright",
     "superlative": "most bright",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:rough:adjective",
@@ -635,7 +633,7 @@
     "examples": [
       "The rock felt rough."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "transcription": "/rʌf/",
@@ -649,7 +647,7 @@
     ],
     "comparative": "rougher",
     "superlative": "roughest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:smooth:adjective",
@@ -663,7 +661,7 @@
     "examples": [
       "The table top feels smooth."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "transcription": "/smuːð/",
@@ -677,7 +675,7 @@
     ],
     "comparative": "more smooth",
     "superlative": "most smooth",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:wet:adjective",
@@ -691,7 +689,7 @@
     "examples": [
       "His coat got wet in rain."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -708,7 +706,7 @@
     ],
     "comparative": "wetter",
     "superlative": "wettest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:dry:adjective",
@@ -722,7 +720,7 @@
     "examples": [
       "Put on dry clothes."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -739,7 +737,7 @@
     ],
     "comparative": "drier",
     "superlative": "driest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:close:adjective",
@@ -753,7 +751,7 @@
     "examples": [
       "My friend lives close by."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -769,7 +767,7 @@
     },
     "comparative": "closer",
     "superlative": "closest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:correct:adjective",
@@ -783,7 +781,7 @@
     "examples": [
       "Her answer was correct."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -797,7 +795,7 @@
     ],
     "comparative": "more correct",
     "superlative": "most correct",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:incorrect:adjective",
@@ -905,9 +903,9 @@
     "examples": [
       "A curved road goes up."
     ],
-    "domain": "general",
-    "theme": "shapes",
-    "updated": "2026-09-22",
+    "domain": "general, exam",
+    "theme": "descriptors",
+    "updated": "2025-01-15",
     "transcription": "/kɜːvd/",
     "emoji": "🔄",
     "antonyms": [
@@ -923,7 +921,7 @@
     ],
     "comparative": "more curved",
     "superlative": "most curved",
-    "sub_theme": "lines_and_curves"
+    "sub_theme": "general"
   },
   {
     "id": "en:round:adjective",
@@ -937,7 +935,7 @@
     "examples": [
       "The ball is completely round."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "transcription": "/raʊnd/",
@@ -951,7 +949,7 @@
     ],
     "comparative": "rounder",
     "superlative": "roundest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:square:adjective",
@@ -965,7 +963,7 @@
     "examples": [
       "He bought a square table."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "descriptors",
     "updated": "2025-01-15",
     "tags": [
@@ -985,7 +983,7 @@
     ],
     "comparative": "squarer",
     "superlative": "squarest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:another:adjective",
@@ -999,7 +997,7 @@
     "examples": [
       "Give me another red pen."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "descriptors",
     "tags": [
       "spoken",
@@ -1014,7 +1012,7 @@
     },
     "comparative": "anotherer",
     "superlative": "anotherest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:each:adjective",
@@ -1028,7 +1026,7 @@
     "examples": [
       "Each student received a book."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "descriptors",
     "tags": [
       "spoken",
@@ -1040,7 +1038,7 @@
     "emoji": "1️⃣",
     "comparative": "eacher",
     "superlative": "eachest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:real:adjective",
@@ -1054,7 +1052,7 @@
     "examples": [
       "Is that a real dog?"
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "descriptors",
     "tags": [
       "spoken",
@@ -1072,7 +1070,7 @@
     },
     "comparative": "realer",
     "superlative": "realest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:ready:adjective",
@@ -1086,7 +1084,7 @@
     "examples": [
       "We are ready for the test."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "descriptors",
     "tags": [
       "spoken",
@@ -1100,7 +1098,7 @@
     ],
     "comparative": "readier",
     "superlative": "readiest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:extra:adjective",
@@ -1114,8 +1112,8 @@
     "examples": [
       "He asked for an extra key."
     ],
-    "domain": "general, spoken",
-    "theme": "descriptors",
+    "domain": "general, spoken, exam",
+    "theme": "descriptions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1129,7 +1127,7 @@
     ],
     "comparative": "extraer",
     "superlative": "extraest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:great:adjective",
@@ -1143,8 +1141,8 @@
     "examples": [
       "We had a great time today."
     ],
-    "domain": "general, spoken",
-    "theme": "descriptors",
+    "domain": "general, spoken, exam",
+    "theme": "descriptions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1157,7 +1155,7 @@
     ],
     "comparative": "greater",
     "superlative": "greatest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:previous:adjective",
@@ -1171,8 +1169,8 @@
     "examples": [
       "I saw him on previous day."
     ],
-    "domain": "general, relocation",
-    "theme": "descriptors",
+    "domain": "general, relocation, exam",
+    "theme": "descriptions",
     "updated": "2025-01-15",
     "transcription": "/ˈpriː.vi.əs/",
     "emoji": "◀️",
@@ -1186,7 +1184,7 @@
     ],
     "comparative": "more previous",
     "superlative": "most previous",
-    "sub_theme": "quality_condition"
+    "sub_theme": "general"
   },
   {
     "id": "en:usual:adjective",
@@ -1201,7 +1199,7 @@
       "He sat in his usual chair."
     ],
     "domain": "general, spoken",
-    "theme": "descriptors",
+    "theme": "descriptions",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1219,5 +1217,55 @@
     "comparative": "usualer",
     "superlative": "usualest",
     "sub_theme": "quality_condition"
+  },
+  {
+    "id": "en:cheap:adjective",
+    "word": "cheap",
+    "language": "en",
+    "form": "adjective",
+    "level": "A1",
+    "definitions": [
+      "the opposite of expensive"
+    ],
+    "examples": [
+      "We bought cheap apples."
+    ],
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "descriptors",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/tʃiːp/",
+    "emoji": "🏷️",
+    "antonyms": [
+      "expensive"
+    ],
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:expensive:adjective",
+    "word": "expensive",
+    "language": "en",
+    "form": "adjective",
+    "level": "A1",
+    "definitions": [
+      "the opposite of cheap"
+    ],
+    "examples": [
+      "That coat is expensive."
+    ],
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "descriptors",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ɪkˈspen.sɪv/",
+    "emoji": "💎",
+    "antonyms": [
+      "cheap"
+    ],
+    "sub_theme": "general"
   }
 ]

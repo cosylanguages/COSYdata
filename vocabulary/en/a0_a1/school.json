@@ -11,7 +11,7 @@
     "examples": [
       "Draw a cat on paper."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -30,7 +30,7 @@
     "past_participle": "drawn",
     "present_participle": "drawing",
     "is_irregular": true,
-    "sub_theme": "classroom_objects",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:draw"
     ]
@@ -47,9 +47,9 @@
     "examples": [
       "They sang songs in music."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "leisure",
-    "updated": "2026-09-22",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "education",
+    "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
@@ -60,7 +60,7 @@
     "transcription": "/ˈmjuː.zɪk/",
     "no_antonym": true,
     "emoji": "🎵",
-    "sub_theme": "entertainment_arts",
+    "sub_theme": "general",
     "secondary_themes": [
       "education"
     ]
@@ -77,7 +77,7 @@
     "examples": [
       "I enjoy a good read."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -90,7 +90,7 @@
     "no_antonym": true,
     "emoji": "📖",
     "countability": "uncountable",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:science:noun",
@@ -104,7 +104,7 @@
     "examples": [
       "Science class was fun today."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -118,7 +118,7 @@
     "no_antonym": true,
     "emoji": "🔬",
     "countability": "uncountable",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:class:noun",
@@ -132,7 +132,7 @@
     "examples": [
       "Our class started at nine o clock."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "classes",
@@ -151,7 +151,7 @@
       "us": "/klæs/"
     },
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:art:noun",
@@ -165,7 +165,7 @@
     "examples": [
       "She painted a flower in art."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -182,7 +182,7 @@
     "transcription_variants": {
       "us": "/ɑːrt/"
     },
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:book:noun",
@@ -196,7 +196,7 @@
     "examples": [
       "Open your book to page ten."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "books",
@@ -212,7 +212,7 @@
     "emoji": "📖",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:sentence:noun",
@@ -226,7 +226,7 @@
     "examples": [
       "Write a simple English sentence."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "sentences",
@@ -239,7 +239,7 @@
     "emoji": "✍️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:subject:noun",
@@ -253,7 +253,7 @@
     "examples": [
       "English is my favorite subject."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "subjects",
@@ -269,7 +269,7 @@
     "emoji": "📚",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:exam:noun",
@@ -283,7 +283,7 @@
     "examples": [
       "She studied hard for exam."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "exams",
@@ -299,7 +299,7 @@
     "emoji": "📝",
     "countability": "countable",
     "article": "an",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:test:noun",
@@ -313,7 +313,7 @@
     "examples": [
       "We took an English test."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "tests",
@@ -329,7 +329,7 @@
     "emoji": "📝",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:homework:noun",
@@ -343,7 +343,7 @@
     "examples": [
       "Finish your homework before dinner."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -360,7 +360,7 @@
     "transcription_variants": {
       "us": "/ˈhoʊm.wɝːk/"
     },
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:paper:noun",
@@ -374,7 +374,7 @@
     "examples": [
       "Take out a sheet paper."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "tags": [
@@ -391,7 +391,7 @@
     "transcription_variants": {
       "us": "/ˈpeɪ.pɚ/"
     },
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:answer:noun",
@@ -405,7 +405,7 @@
     "examples": [
       "She gave the right answer."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "answers",
@@ -422,7 +422,7 @@
       "us": "/ˈæn.sɚ/"
     },
     "article": "an",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:classroom:noun",
@@ -436,7 +436,7 @@
     "examples": [
       "Clean the classroom after lesson."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "classrooms",
@@ -451,7 +451,7 @@
       "us": "/ˈklæs.ruːm/"
     },
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:lesson:noun",
@@ -465,7 +465,7 @@
     "examples": [
       "The English lesson was interesting."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "lessons",
@@ -477,7 +477,7 @@
     "emoji": "📖",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:pen:noun",
@@ -486,12 +486,12 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a tool for writing with ink"
+      "an instrument used for writing with ink"
     ],
     "examples": [
       "Write your answer with pen."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "pens",
@@ -503,7 +503,7 @@
     "emoji": "🖊️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:pencil:noun",
@@ -517,7 +517,7 @@
     "examples": [
       "Draw a cat with pencil."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, relocation, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "pencils",
@@ -529,7 +529,7 @@
     "emoji": "✏️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:notebook:noun",
@@ -543,7 +543,7 @@
     "examples": [
       "Write notes in your notebook."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "notebooks",
@@ -562,7 +562,7 @@
       "B2"
     ],
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:board:noun",
@@ -576,7 +576,7 @@
     "examples": [
       "Look at board near teacher."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "boards",
@@ -595,7 +595,7 @@
       "us": "/bɔːrd/"
     },
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:eraser:noun",
@@ -609,9 +609,9 @@
     "examples": [
       "Erase mistake with eraser."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
-    "updated": "2026-09-22",
+    "updated": "2025-01-15",
     "plural_form": "erasers",
     "tags": [
       "spoken"
@@ -627,7 +627,7 @@
       "US"
     ],
     "article": "an",
-    "sub_theme": "classroom_objects",
+    "sub_theme": "general",
     "regional_equivalents": [
       "en:rubber:noun"
     ]
@@ -644,7 +644,7 @@
     "examples": [
       "Draw a line with ruler."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "rulers",
@@ -659,7 +659,7 @@
       "us": "/ˈruː.lɚ/"
     },
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:pupil:noun",
@@ -673,7 +673,7 @@
     "examples": [
       "The pupil answered the question."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "pupils",
@@ -691,7 +691,7 @@
       "B2"
     ],
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:math:noun",
@@ -766,7 +766,7 @@
     "examples": [
       "We studied geography in class."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "transcription": "/dʒiˈɒɡ.rə.fi/",
@@ -776,7 +776,7 @@
     "transcription_variants": {
       "us": "/dʒiˈɑː.ɡrə.fi/"
     },
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:question:noun",
@@ -790,7 +790,7 @@
     "examples": [
       "Ask teacher a question now."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "education",
     "updated": "2025-01-15",
     "plural_form": "questions",
@@ -804,7 +804,7 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:word:noun",
@@ -847,7 +847,7 @@
     "examples": [
       "He wore a blue backpack."
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "relocation, spoken, travel, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -860,7 +860,7 @@
     "emoji": "🎒",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:whiteboard:noun",
@@ -874,7 +874,7 @@
     "examples": [
       "The whiteboard is clean now."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -890,7 +890,7 @@
       "us": "/ˈwaɪt.bɔːrd/"
     },
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:page:noun",
@@ -931,7 +931,7 @@
     "examples": [
       "Mathematics is an important subject."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "education",
     "tags": [
       "spoken",
@@ -949,7 +949,7 @@
       "A0",
       "A2"
     ],
-    "sub_theme": "classroom_objects"
+    "sub_theme": "general"
   },
   {
     "id": "en:crayon:noun",
@@ -964,7 +964,7 @@
       "The children drew pictures using bright crayons."
     ],
     "domain": "general, relocation",
-    "theme": "education",
+    "theme": "school",
     "updated": "2025-01-15",
     "transcription": "/ˈkreɪ.ɒn/",
     "transcription_variants": {
@@ -990,7 +990,7 @@
       "The teacher put a reward sticker on her report card."
     ],
     "domain": "general, relocation",
-    "theme": "education",
+    "theme": "school",
     "updated": "2025-01-15",
     "transcription": "/ˈstɪk.ə/",
     "transcription_variants": {
@@ -1016,7 +1016,7 @@
       "He reads a bedtime storybook to his daughter every night."
     ],
     "domain": "general, relocation",
-    "theme": "education",
+    "theme": "school",
     "updated": "2025-01-15",
     "transcription": "/ˈstɔː.ri.bʊk/",
     "transcription_variants": {
@@ -1144,5 +1144,111 @@
     ],
     "updated": "2026-09-22",
     "no_antonym": true
+  },
+  {
+    "id": "en:learn:noun",
+    "word": "learn",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "the process of gaining knowledge"
+    ],
+    "examples": [
+      "School is a place to learn."
+    ],
+    "domain": "general, spoken, relocation, exam",
+    "theme": "education",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/lɜːn/",
+    "no_antonym": true,
+    "emoji": "🧠",
+    "countability": "uncountable",
+    "transcription_variants": {
+      "us": "/lɝːn/"
+    },
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:write:noun",
+    "word": "write",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "the activity of writing text"
+    ],
+    "examples": [
+      "Practice your write skills today."
+    ],
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "education",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/raɪt/",
+    "no_antonym": true,
+    "emoji": "✍️",
+    "countability": "uncountable",
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:study:noun",
+    "word": "study",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "the activity of learning a subject"
+    ],
+    "examples": [
+      "Math study takes time."
+    ],
+    "domain": "general, spoken, relocation, exam",
+    "theme": "education",
+    "updated": "2025-01-15",
+    "plural_form": "studies",
+    "tags": [
+      "spoken"
+    ],
+    "levels": [
+      "A1",
+      "B2"
+    ],
+    "transcription": "/ˈstʌd.i/",
+    "no_antonym": true,
+    "emoji": "📖",
+    "countability": "countable",
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:teach:noun",
+    "word": "teach",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "the action of instructing students"
+    ],
+    "examples": [
+      "Her job is to teach."
+    ],
+    "domain": "general, spoken, relocation, exam",
+    "theme": "education",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/tiːtʃ/",
+    "emoji": "👩‍🏫",
+    "antonyms": [
+      "learn"
+    ],
+    "countability": "uncountable",
+    "sub_theme": "general"
   }
 ]

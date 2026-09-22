@@ -11,7 +11,7 @@
     "examples": [
       "Conducting rigorous empirical research is essential for advancing scientific knowledge and developing effective medical treatments globally."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -70,7 +70,7 @@
     "examples": [
       "Rapid advances in gene editing techniques raised profound bioethics questions regarding designer human embryos and consent."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
@@ -84,7 +84,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌbaɪ.oʊˈeθ.ɪks/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:computational:adjective",
@@ -369,7 +370,7 @@
     "examples": [
       "Theoretical physics attempts to uncover fundamental mathematical laws governing forces from subatomic particles to galaxies."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
@@ -419,7 +420,7 @@
     "examples": [
       "Einstein's theory of relativity caused a monumental paradigm shift in physics, replacing classical Newtonian concepts of time."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -450,7 +451,7 @@
     "examples": [
       "Lithium-ion battery technology served as a disruptive technology that accelerated the global automotive transition toward electric vehicles."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -471,7 +472,8 @@
     "transcription_variants": {
       "us": "/dɪsˈrʌp.tɪv tekˈnɑː.lə.dʒi/"
     },
-    "article": "a"
+    "article": "a",
+    "sub_theme": "general"
   },
   {
     "id": "en:emergent-technology:noun",
@@ -804,7 +806,7 @@
     "examples": [
       "Pioneers in synthetic biology engineered custom micro-organisms capable of consuming industrial plastic waste in marine environments."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "science",
     "tags": [
       "spoken",
@@ -821,7 +823,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/sɪnˈθet̬.ɪk baɪˈɑː.lə.dʒi/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:precision-medicine:noun",
@@ -1053,7 +1056,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "transcription": "/ˌkɒr.əˈleɪ.ʃən ˌkəʊ.ɪˈfɪʃ.ənt/",
     "definitions": [
@@ -1129,7 +1132,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "transcription": "/ˈnjʊə.rəl ˌnet.wɜːk/",
     "definitions": [
@@ -1182,7 +1185,7 @@
     "language": "en",
     "form": "noun",
     "level": "C1",
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "transcription": "/ˌsaɪənˈtɪf.ɪk kənˈsen.səs/",
     "definitions": [
@@ -1201,6 +1204,7 @@
       "scientific dispute",
       "dissent"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   }
 ]

@@ -40,7 +40,7 @@
     "examples": [
       "Journalists were accused of political bias when reporting on the contested parliamentary election."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "biaseds",
@@ -55,7 +55,8 @@
     "antonyms": [
       "unbiased",
       "impartial"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:tabloid:noun",
@@ -69,7 +70,7 @@
     "examples": [
       "Sensational headlines were featured on the front pages of every popular tabloid newspaper."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "tabloids",
@@ -85,7 +86,8 @@
     ],
     "antonyms": [
       "broadsheet"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:broadsheet:noun",
@@ -99,7 +101,7 @@
     "examples": [
       "Educated readers often prefer broadsheet newspapers for comprehensive international news and economic coverage."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "broadsheets",
@@ -115,7 +117,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈbrɑːd.ʃiːt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:editorial:noun",
@@ -129,7 +132,7 @@
     "examples": [
       "The chief editor published a scathing editorial criticizing proposed municipal budget cuts yesterday."
     ],
-    "domain": "general, travel, professional",
+    "domain": "general, travel, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "editorials",
@@ -140,7 +143,8 @@
       "opinion piece",
       "leader"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:mainstream:noun",
@@ -182,7 +186,7 @@
     "examples": [
       "The punk subculture emerged during the late nineteen-seventies, challenging traditional societal norms."
     ],
-    "domain": "general, spoken, travel",
+    "domain": "general, spoken, travel, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
@@ -197,7 +201,8 @@
     ],
     "antonyms": [
       "mainstream culture"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:avant-garde:noun",
@@ -211,7 +216,7 @@
     "examples": [
       "Art critics praised the avant-garde exhibition for challenging traditional visual art forms creatively."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "avant-gardes",
@@ -229,7 +234,8 @@
     "antonyms": [
       "traditionalism",
       "orthodoxy"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:contemporary:adjective",
@@ -243,7 +249,7 @@
     "examples": [
       "Contemporary art galleries in London display innovative works created by young international artists."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "transcription": "/contemporary/",
@@ -256,7 +262,8 @@
     "antonyms": [
       "historical",
       "ancient"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:aesthetic:adjective",
@@ -270,7 +277,7 @@
     "examples": [
       "Architects emphasized aesthetic harmony when designing the new glass cultural museum downtown."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "tags": [
@@ -282,7 +289,8 @@
       "artistic",
       "visual appeal"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:symbolism:noun",
@@ -296,7 +304,7 @@
     "examples": [
       "Prominent literary scholars analyzed religious symbolism embedded throughout the classic nineteenth-century novel."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "symbolism",
@@ -308,7 +316,8 @@
       "allegory",
       "imagery"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:metaphor:noun",
@@ -322,7 +331,7 @@
     "examples": [
       "The poet used a stormy sea as a metaphor for his internal emotional turmoil."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "metaphors",
@@ -337,7 +346,8 @@
       "figure of speech",
       "trope"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:allegory:noun",
@@ -351,7 +361,7 @@
     "examples": [
       "George Orwell novel Animal Farm serves as a famous allegory reflecting political revolution."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "media",
     "updated": "2025-01-15",
     "plural_form": "allegories",
@@ -363,7 +373,8 @@
       "fable",
       "symbolic story"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:protagonist:noun",
@@ -496,7 +507,7 @@
     "examples": [
       "Mainstream media outlets faced growing competition from independent digital content creators and podcasters."
     ],
-    "domain": "spoken, professional",
+    "domain": "spoken, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -513,7 +524,8 @@
     "antonyms": [
       "alternative media",
       "independent media"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:alternative-media:noun",
@@ -527,7 +539,7 @@
     "examples": [
       "Alternative media platforms gained popularity among audiences seeking non-traditional political commentary and investigative journalism."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -546,7 +558,8 @@
     ],
     "transcription_variants": {
       "us": "/ɑːlˈtɝː.nə.t̬ɪv ˈmiː.di.ə/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:tabloid-press:noun",
@@ -656,7 +669,7 @@
     "examples": [
       "Rigorous fact-checking was conducted by editors before publishing the controversial investigative news article."
     ],
-    "domain": "spoken, travel",
+    "domain": "spoken, travel, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -673,7 +686,8 @@
     ],
     "antonyms": [
       "misinformation spreading"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:clickbait:noun",
@@ -687,7 +701,7 @@
     "examples": [
       "Online news sites rely on exaggerated clickbait to generate page views and advertising revenue."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -704,7 +718,8 @@
     ],
     "antonyms": [
       "informative headline"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:echo-chamber:noun",
@@ -718,7 +733,7 @@
     "examples": [
       "Social media algorithms create an echo chamber where users rarely encounter contrasting political perspectives."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -739,7 +754,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈek.oʊ ˌtʃeɪm.bɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:filter-bubble:noun",
@@ -753,7 +769,7 @@
     "examples": [
       "Escaping your online filter bubble requires actively seeking out diverse and contrasting news sources."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -773,7 +789,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈfɪl.tɝ ˈbʌb.əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:public-opinion:noun",
@@ -787,7 +804,7 @@
     "examples": [
       "Government policy shifted sharply after public opinion turned decisively against nuclear power plant construction."
     ],
-    "domain": "spoken, travel, professional",
+    "domain": "spoken, travel, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -802,7 +819,8 @@
       "popular sentiment",
       "public view"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:opinion-poll:noun",
@@ -876,7 +894,7 @@
     "examples": [
       "A vibrant grassroots movement organized local environmental cleanups and petitioned city council for funding."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -893,7 +911,8 @@
     ],
     "antonyms": [
       "top-down movement"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:social-movement:noun",
@@ -1096,7 +1115,7 @@
     "examples": [
       "Constitutional protections guarantee freedom of speech, although hate speech remains strictly regulated by law."
     ],
-    "domain": "professional, spoken",
+    "domain": "spoken, exam",
     "theme": "media",
     "tags": [
       "spoken",
@@ -1114,7 +1133,8 @@
     "antonyms": [
       "censorship",
       "suppression"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:hate-speech:noun",

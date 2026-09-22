@@ -11,8 +11,8 @@
     "examples": [
       "We shop for fresh fruit on Saturday."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -27,7 +27,7 @@
     "past_participle": "shopped",
     "present_participle": "shopping",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:hang:verb",
@@ -42,12 +42,11 @@
       "Hang your coat on the hook."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
-      "A2",
-      "B1"
+      "A2"
     ],
     "transcription": "/hæŋ/",
     "no_antonym": true,
@@ -73,8 +72,8 @@
     "examples": [
       "The key is in my pocket."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -91,7 +90,7 @@
       "out"
     ],
     "emoji": "📥",
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:run:verb",
@@ -105,8 +104,8 @@
     "examples": [
       "They run in the park every morning."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -125,7 +124,7 @@
     "past_participle": "run",
     "present_participle": "running",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:run"
     ]
@@ -142,15 +141,14 @@
     "examples": [
       "Children jump high on the grass."
     ],
-    "domain": "general, spoken",
-    "theme": "actions",
+    "domain": "general, spoken, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2"
+      "A1"
     ],
     "transcription": "/dʒʌmp/",
     "no_antonym": true,
@@ -159,7 +157,7 @@
     "past_participle": "jumped",
     "present_participle": "jumping",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:throw:verb",
@@ -173,8 +171,8 @@
     "examples": [
       "Throw the red ball to me."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
@@ -192,7 +190,7 @@
     "past_participle": "thrown",
     "present_participle": "throwing",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:throw"
     ]
@@ -210,7 +208,7 @@
       "Weigh the apples at the market."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/weɪ/",
     "no_antonym": true,
@@ -237,12 +235,11 @@
     "examples": [
       "Push the heavy door open."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
-      "A1",
-      "A2"
+      "A1"
     ],
     "transcription": "/pʊʃ/",
     "emoji": "🖐️",
@@ -253,7 +250,7 @@
     "past_participle": "pushed",
     "present_participle": "pushing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:walk:verb",
@@ -267,8 +264,8 @@
     "examples": [
       "We walk to school every morning."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -288,7 +285,7 @@
     "past_participle": "walked",
     "present_participle": "walking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:hold:verb",
@@ -302,15 +299,14 @@
     "examples": [
       "Hold my hand crossing the street."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
-      "A2",
       "B1"
     ],
     "transcription": "/həʊld/",
@@ -325,7 +321,7 @@
     "past_participle": "held",
     "present_participle": "holding",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:hold"
     ]
@@ -337,13 +333,13 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to pour liquid on plants to help them grow"
+      "to pour liquid on plants to grow"
     ],
     "examples": [
       "Water the green flowers every morning."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -358,7 +354,7 @@
     "past_participle": "watered",
     "present_participle": "watering",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:share:verb",
@@ -367,13 +363,13 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to give part of something to someone"
+      "to give a portion of something to another"
     ],
     "examples": [
       "Share your food with your friend."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -398,7 +394,7 @@
         "example": "Share the food with your brother."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:carry:verb",
@@ -412,8 +408,8 @@
     "examples": [
       "Carry the heavy bag to class."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -432,7 +428,7 @@
     "past_participle": "carried",
     "present_participle": "carrying",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:drop:verb",
@@ -446,8 +442,8 @@
     "examples": [
       "Do not drop the glass cup."
     ],
-    "domain": "general, spoken",
-    "theme": "actions",
+    "domain": "general, spoken, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -469,7 +465,7 @@
     "past_participle": "dropped",
     "present_participle": "dropping",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:catch:verb",
@@ -483,8 +479,8 @@
     "examples": [
       "Catch the ball with both hands."
     ],
-    "domain": "general, travel",
-    "theme": "actions",
+    "domain": "general, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
@@ -501,7 +497,7 @@
     "past_participle": "caught",
     "present_participle": "catching",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:catch"
     ]
@@ -519,7 +515,7 @@
       "Point to the picture on board."
     ],
     "domain": "general, spoken",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -555,9 +551,9 @@
     "examples": [
       "I agree with your good idea."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
-    "updated": "2026-09-22",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
+    "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
@@ -580,7 +576,7 @@
         "example": "I completely agree with your opinion."
       }
     ],
-    "sub_theme": "social_interaction"
+    "sub_theme": "general"
   },
   {
     "id": "en:disagree:verb",
@@ -594,8 +590,8 @@
     "examples": [
       "They disagree on the right answer."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -619,7 +615,7 @@
         "example": "She disagrees with the decision."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:guess:verb",
@@ -633,8 +629,8 @@
     "examples": [
       "Guess the answer to my question."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -650,7 +646,7 @@
     "past_participle": "guessed",
     "present_participle": "guessing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:argue:verb",
@@ -664,8 +660,8 @@
     "examples": [
       "Do not argue with your brother."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -693,7 +689,7 @@
         "example": "Do not argue with him."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:touch:verb",
@@ -707,8 +703,8 @@
     "examples": [
       "Touch the soft fur of dog."
     ],
-    "domain": "general, spoken",
-    "theme": "actions",
+    "domain": "general, spoken, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -724,7 +720,7 @@
     "past_participle": "touched",
     "present_participle": "touching",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:spend:verb",
@@ -738,8 +734,8 @@
     "examples": [
       "We spend money at the shop."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -759,7 +755,7 @@
         "example": "He spends money on clothes."
       }
     ],
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:spend"
     ]
@@ -776,8 +772,8 @@
     "examples": [
       "Save your coins in a jar."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -796,7 +792,7 @@
     "past_participle": "saved",
     "present_participle": "saving",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:fly:verb",
@@ -810,8 +806,8 @@
     "examples": [
       "Birds fly high in blue sky."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -823,7 +819,7 @@
     "past_participle": "flown",
     "present_participle": "flying",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:fly"
     ]
@@ -840,8 +836,8 @@
     "examples": [
       "Dress warmly before going outside."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -855,7 +851,7 @@
     "past_participle": "dressed",
     "present_participle": "dressing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:brush:verb",
@@ -870,7 +866,7 @@
       "Brush your hair before school."
     ],
     "domain": "general, spoken",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -900,8 +896,8 @@
     "examples": [
       "Lock the door when you leave."
     ],
-    "domain": "general, relocation",
-    "theme": "actions",
+    "domain": "general, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/lɒk/",
     "emoji": "🔒",
@@ -919,7 +915,7 @@
     "past_participle": "locked",
     "present_participle": "locking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:apologize:verb",
@@ -933,16 +929,15 @@
     "examples": [
       "Apologize to your teacher for delay."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
-      "A2",
-      "B1"
+      "A2"
     ],
     "transcription": "/əˈpɒl.ə.dʒaɪz/",
     "no_antonym": true,
@@ -960,7 +955,7 @@
         "example": "I apologize for being late."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:forgive:verb",
@@ -974,16 +969,15 @@
     "examples": [
       "Forgive your friend for the mistake."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
-      "A2",
-      "B2"
+      "A2"
     ],
     "transcription": "/fəˈɡɪv/",
     "emoji": "🤝",
@@ -997,7 +991,7 @@
     "past_participle": "forgiven",
     "present_participle": "forgiving",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:forgive"
     ]
@@ -1014,8 +1008,8 @@
     "examples": [
       "I shower every morning before breakfast."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ʃaʊə/",
     "no_antonym": true,
@@ -1027,7 +1021,7 @@
     "past_participle": "showered",
     "present_participle": "showering",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:bathe:verb",
@@ -1042,7 +1036,7 @@
       "Bathe the dirty dog in water."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/beɪð/",
     "no_antonym": true,
@@ -1066,7 +1060,7 @@
       "Undress before taking a warm bath."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ʌnˈdres/",
     "emoji": "🥼",
@@ -1086,13 +1080,13 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to tidy or untangle hair using a thin plastic or wooden tool"
+      "to untangle hair using a comb"
     ],
     "examples": [
       "Comb your hair in front mirror."
     ],
     "domain": "general, spoken, travel",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1122,7 +1116,7 @@
       "He shaves his face every morning."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ʃeɪv/",
     "no_antonym": true,
@@ -1149,7 +1143,7 @@
       "Switch on the room light now."
     ],
     "domain": "general, relocation",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/swɪtʃ/",
     "no_antonym": true,
@@ -1177,7 +1171,7 @@
       "Plug the charger into wall."
     ],
     "domain": "general, relocation, travel",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/plʌɡ/",
     "emoji": "🔌",
@@ -1207,7 +1201,7 @@
       "Unplug the television before leaving."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ʌnˈplʌɡ/",
     "emoji": "🔌",
@@ -1233,7 +1227,7 @@
       "Unlock the door with key."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ʌnˈlɒk/",
     "emoji": "🔓",
@@ -1262,7 +1256,7 @@
       "Fold your clean shirts carefully."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/fəʊld/",
     "emoji": "👕",
@@ -1295,7 +1289,7 @@
       "Sweep the kitchen floor today."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/swiːp/",
     "no_antonym": true,
@@ -1326,7 +1320,7 @@
       "Mop the dirty kitchen floor."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/mɒp/",
     "no_antonym": true,
@@ -1347,13 +1341,13 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to make a liquid flow out of a container into a cup"
+      "to flow liquid into a cup"
     ],
     "examples": [
       "Pour fresh milk into glass."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/pɔː/",
     "no_antonym": true,
@@ -1383,13 +1377,12 @@
     "examples": [
       "Mix flour and sugar in bowl."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
-      "A2",
-      "B1"
+      "A2"
     ],
     "transcription": "/mɪks/",
     "emoji": "🥣",
@@ -1400,7 +1393,7 @@
     "past_participle": "mixed",
     "present_participle": "mixing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:stir:verb",
@@ -1409,18 +1402,17 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to mix water or tea with a spoon"
+      "to move liquid around with spoon"
     ],
     "examples": [
       "Stir your hot tea carefully."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
-      "A2",
-      "C1"
+      "A2"
     ],
     "transcription": "/stɜː/",
     "no_antonym": true,
@@ -1432,7 +1424,7 @@
     "past_participle": "stirred",
     "present_participle": "stirring",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:bake:verb",
@@ -1446,16 +1438,15 @@
     "examples": [
       "Bake a sweet cake for party."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
-      "A2",
-      "B1"
+      "A2"
     ],
     "transcription": "/beɪk/",
     "no_antonym": true,
@@ -1464,7 +1455,7 @@
     "past_participle": "baked",
     "present_participle": "baking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:fry:verb",
@@ -1478,13 +1469,12 @@
     "examples": [
       "Fry two eggs for breakfast."
     ],
-    "domain": "general, relocation",
-    "theme": "actions",
+    "domain": "general, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
-      "A2",
-      "B1"
+      "A2"
     ],
     "transcription": "/fraɪ/",
     "no_antonym": true,
@@ -1493,7 +1483,7 @@
     "past_participle": "fried",
     "present_participle": "frying",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:boil:verb",
@@ -1507,8 +1497,8 @@
     "examples": [
       "Boil fresh potatoes for dinner."
     ],
-    "domain": "general, relocation",
-    "theme": "actions",
+    "domain": "general, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
@@ -1523,7 +1513,7 @@
     "past_participle": "boiled",
     "present_participle": "boiling",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:roast:verb",
@@ -1537,8 +1527,8 @@
     "examples": [
       "She roasts chicken for Sunday dinner."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1",
@@ -1554,7 +1544,7 @@
     "past_participle": "roasted",
     "present_participle": "roasting",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:pack:verb",
@@ -1569,7 +1559,7 @@
       "Pack your suitcase for the trip."
     ],
     "domain": "general, travel",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/pæk/",
     "emoji": "🧳",
@@ -1598,8 +1588,8 @@
     "examples": [
       "Unpack your clothes in the room."
     ],
-    "domain": "general, travel",
-    "theme": "actions",
+    "domain": "general, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ʌnˈpæk/",
     "emoji": "🧳",
@@ -1610,7 +1600,7 @@
     "past_participle": "unpacked",
     "present_participle": "unpacking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:repair:verb",
@@ -1624,8 +1614,8 @@
     "examples": [
       "He repaired the broken bicycle today."
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1647,7 +1637,7 @@
     "past_participle": "repaired",
     "present_participle": "repairing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:fix:verb",
@@ -1661,15 +1651,14 @@
     "examples": [
       "Can you fix my broken desk lamp?"
     ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2"
+      "A1"
     ],
     "transcription": "/fɪks/",
     "emoji": "🔧",
@@ -1680,7 +1669,7 @@
     "past_participle": "fixed",
     "present_participle": "fixing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:build:verb",
@@ -1694,8 +1683,8 @@
     "examples": [
       "They build a house with strong stone."
     ],
-    "domain": "general, spoken",
-    "theme": "actions",
+    "domain": "general, spoken, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1712,7 +1701,7 @@
     "past_participle": "built",
     "present_participle": "building",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:build"
     ]
@@ -1724,13 +1713,13 @@
     "form": "verb",
     "level": "A1",
     "definitions": [
-      "to put color on a wall or paper"
+      "to cover a surface with color liquid"
     ],
     "examples": [
       "She paints the wooden door red."
     ],
-    "domain": "general, relocation",
-    "theme": "actions",
+    "domain": "general, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A1"
@@ -1742,7 +1731,7 @@
     "past_participle": "painted",
     "present_participle": "painting",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:decorate:verb",
@@ -1757,15 +1746,14 @@
       "We decorate the room for birthday party."
     ],
     "domain": "general, spoken",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
       "A1",
-      "A2",
-      "B1"
+      "A2"
     ],
     "transcription": "/ˈdek.ə.reɪt/",
     "no_antonym": true,
@@ -1791,8 +1779,8 @@
     "examples": [
       "Can I borrow your blue pen please?"
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1819,7 +1807,7 @@
         "example": "I borrow books from the library."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:lend:verb",
@@ -1833,8 +1821,8 @@
     "examples": [
       "I lend my pencil to my classmate."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1852,7 +1840,7 @@
     "past_participle": "lent",
     "present_participle": "lending",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:lend"
     ]
@@ -1870,7 +1858,7 @@
       "Count the books on the table."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1901,7 +1889,7 @@
       "Measure the height of the door."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/ˈmeʒ.ə/",
     "no_antonym": true,
@@ -1931,8 +1919,8 @@
     "examples": [
       "The children laugh at the funny story."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -1958,7 +1946,7 @@
         "example": "Everyone laughed at the funny joke."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:smile:verb",
@@ -1972,15 +1960,14 @@
     "examples": [
       "She smiled when she saw her mother."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2"
+      "A1"
     ],
     "transcription": "/smaɪl/",
     "emoji": "😊",
@@ -1997,7 +1984,7 @@
         "example": "The teacher smiled at the new student."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:cry:verb",
@@ -2011,15 +1998,14 @@
     "examples": [
       "Small babies cry when they are hungry."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2"
+      "A1"
     ],
     "transcription": "/kraɪ/",
     "emoji": "😭",
@@ -2030,7 +2016,7 @@
     "past_participle": "cried",
     "present_participle": "crying",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:shout:verb",
@@ -2044,8 +2030,8 @@
     "examples": [
       "Do not shout inside the classroom."
     ],
-    "domain": "general, spoken",
-    "theme": "actions",
+    "domain": "general, spoken, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2069,7 +2055,7 @@
         "example": "Do not shout at people."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:whisper:verb",
@@ -2083,8 +2069,8 @@
     "examples": [
       "She whispered a secret in my ear."
     ],
-    "domain": "general, spoken",
-    "theme": "actions",
+    "domain": "general, spoken, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2105,7 +2091,7 @@
     "past_participle": "whispered",
     "present_participle": "whispering",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:pull:verb",
@@ -2119,12 +2105,11 @@
     "examples": [
       "Pull the door open to enter."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
-      "A1",
-      "A2"
+      "A1"
     ],
     "transcription": "/pʊl/",
     "emoji": "🦯",
@@ -2135,7 +2120,7 @@
     "past_participle": "pulled",
     "present_participle": "pulling",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:lift:verb",
@@ -2150,7 +2135,7 @@
       "He lifted the heavy box easily."
     ],
     "domain": "general, relocation, travel",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/lɪft/",
     "emoji": "🏋️",
@@ -2179,8 +2164,8 @@
     "examples": [
       "Kick the soccer ball hard."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/kɪk/",
     "no_antonym": true,
@@ -2193,7 +2178,7 @@
     "past_participle": "kicked",
     "present_participle": "kicking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:climb:verb",
@@ -2207,8 +2192,8 @@
     "examples": [
       "Monkeys climb tall trees quickly."
     ],
-    "domain": "general",
-    "theme": "actions",
+    "domain": "general, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/klaɪm/",
     "no_antonym": true,
@@ -2217,7 +2202,7 @@
     "past_participle": "climbed",
     "present_participle": "climbing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "general"
   },
   {
     "id": "en:swim:verb",
@@ -2231,8 +2216,8 @@
     "examples": [
       "We swim in the lake during summer."
     ],
-    "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "domain": "general, spoken, relocation, exam",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2244,7 +2229,7 @@
     "past_participle": "swum",
     "present_participle": "swimming",
     "is_irregular": true,
-    "sub_theme": "daily_routines",
+    "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:swim"
     ]
@@ -2262,7 +2247,7 @@
       "He dived into the swimming pool."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/daɪv/",
     "no_antonym": true,
@@ -2293,7 +2278,7 @@
       "The baby crawled across the floor."
     ],
     "domain": "general",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "transcription": "/krɔːl/",
     "no_antonym": true,
@@ -2324,8 +2309,8 @@
       "She hugged her mother with love."
     ],
     "domain": "general, spoken",
-    "theme": "actions",
-    "updated": "2026-09-22",
+    "theme": "activities",
+    "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
@@ -2351,7 +2336,7 @@
       "Mother kissed the baby on cheek."
     ],
     "domain": "general, spoken",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2382,7 +2367,7 @@
       "Check your answers before submitting."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "actions",
+    "theme": "activities",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2409,7 +2394,7 @@
       "Always look both ways before you cross the street."
     ],
     "domain": "general, relocation, travel",
-    "theme": "actions",
+    "theme": "daily_verbs",
     "updated": "2025-01-15",
     "transcription": "/krɒs/",
     "transcription_variants": {
@@ -2440,7 +2425,7 @@
       "Please let me check your identity card at the gate."
     ],
     "domain": "general, relocation",
-    "theme": "actions",
+    "theme": "daily_verbs",
     "updated": "2025-01-15",
     "transcription": "/let/",
     "transcription_variants": {

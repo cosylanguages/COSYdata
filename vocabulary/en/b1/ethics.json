@@ -11,7 +11,7 @@
     "examples": [
       "Lying to your friends is wrong and can destroy personal trust."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -46,7 +46,7 @@
     "examples": [
       "The court system exists to deliver justice for victims of crime."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -66,7 +66,8 @@
     "antonyms": [
       "injustice",
       "unfairness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:bias:noun",
@@ -80,7 +81,7 @@
     "examples": [
       "Judges must act without bias when considering evidence in legal cases."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "plural_form": "biases",
@@ -117,7 +118,7 @@
     "examples": [
       "The news report seemed biased because it only interviewed one political party."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "transcription": "/ˈbaɪ.əst/",
@@ -130,7 +131,8 @@
     "antonyms": [
       "unbiased",
       "impartial"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:equality:noun",
@@ -144,7 +146,7 @@
     "examples": [
       "Laws should promote gender equality and equal pay across all workplaces."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -167,7 +169,8 @@
     ],
     "transcription_variants": {
       "us": "/iˈkwɑː.lə.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:discrimination:noun",
@@ -181,7 +184,7 @@
     "examples": [
       "Workplace discrimination based on age or gender is prohibited by law."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -219,7 +222,7 @@
     "examples": [
       "Education plays a critical role in overcoming racial prejudice in society."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -240,7 +243,8 @@
     "antonyms": [
       "impartiality",
       "fairness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:principle:noun",
@@ -254,7 +258,7 @@
     "examples": [
       "Honesty is a fundamental principle that guides all his business decisions."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "plural_form": "principles",
@@ -273,7 +277,8 @@
       "standard",
       "tenet"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:stereotype:noun",
@@ -287,7 +292,7 @@
     "examples": [
       "It is unfair to judge individuals based on a cultural stereotype."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "plural_form": "stereotypes",
@@ -306,7 +311,8 @@
       "cliché",
       "generalization"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:judge:verb",
@@ -320,7 +326,7 @@
     "examples": [
       "You should not judge a person before knowing their complete story."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "levels": [
@@ -348,7 +354,7 @@
     "examples": [
       "Consumers prefer buying products from ethical companies that treat workers fairly."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "transcription": "/ˈeθ.ɪ.kəl/",
@@ -361,7 +367,8 @@
     "antonyms": [
       "unethical",
       "immoral"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:accountability:noun",
@@ -375,7 +382,7 @@
     "examples": [
       "Public officials must demonstrate financial accountability regarding how tax money spends."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -398,7 +405,8 @@
     ],
     "transcription_variants": {
       "us": "/əˌkaʊn.t̬əˈbɪl.ə.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:integrity:noun",
@@ -412,7 +420,7 @@
     "examples": [
       "She is respected by everyone because she acts with high integrity."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "tags": [
@@ -437,7 +445,8 @@
     ],
     "transcription_variants": {
       "us": "/ɪnˈteɡ.rə.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:moral:adjective",
@@ -548,7 +557,7 @@
     "examples": [
       "It is unethical for doctors to share private patient data publicly."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "transcription": "/ʌnˈeθ.ɪ.kəl/",
@@ -561,7 +570,8 @@
     "antonyms": [
       "ethical",
       "moral"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:honesty:noun",
@@ -575,7 +585,7 @@
     "examples": [
       "Honesty is essential if you want to maintain long lasting friendships."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "transcription": "/ˈɒn.ə.sti/",
@@ -592,7 +602,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈɑː.nə.sti/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:fairness:noun",
@@ -698,7 +709,7 @@
     "examples": [
       "She faced an ethical dilemma when discovering a mistake in the report."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "ethics",
     "updated": "2025-01-15",
     "plural_form": "dilemmas",
@@ -716,7 +727,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/dəˈlem.ə/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:judgment:noun",

@@ -11,7 +11,7 @@
     "examples": [
       "The laptop comes with a two-year warranty."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "warranties",
@@ -39,7 +39,7 @@
     "examples": [
       "We give a money-back guarantee on all goods."
     ],
-    "domain": "general, relocation, spoken, travel, professional",
+    "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "guarantees",
@@ -134,7 +134,7 @@
     "examples": [
       "I bought a secondhand bicycle in good condition."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "transcription": "/ˌsek.əndˈhænd/",
@@ -142,7 +142,8 @@
     "countability": "uncountable",
     "antonyms": [
       "new"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:used:noun",
@@ -230,7 +231,7 @@
     "examples": [
       "The painting turned out to be a fake."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "fakes",
@@ -240,7 +241,8 @@
     "antonyms": [
       "real",
       "genuine"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:package:noun",
@@ -254,14 +256,15 @@
     "examples": [
       "A large package arrived in the mail today."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "packages",
     "transcription": "/ˈpæk.ɪdʒ/",
     "emoji": "📦",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:packaging:noun",
@@ -347,7 +350,7 @@
     "examples": [
       "Major online retailers offer fast delivery."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "retailers",
@@ -362,7 +365,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈriː.teɪ.lɚ/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:wholesale:noun",
@@ -401,7 +405,7 @@
     "examples": [
       "The shop offers rewards for customer loyalty."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken, relocation, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -415,7 +419,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈlɔɪ.əl.t̬i/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:membership:noun",
@@ -459,14 +464,15 @@
     "examples": [
       "He bought a carton of milk from the store."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "transcription": "/ˈkɑː.tən/",
     "emoji": "🥛",
     "countability": "countable",
     "plural_form": "cartons",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:jar:noun",
@@ -480,14 +486,15 @@
     "examples": [
       "She opened a glass jar of strawberry jam."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "transcription": "/dʒɑːr/",
     "emoji": "🫙",
     "countability": "countable",
     "plural_form": "jars",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:packet:noun",
@@ -501,14 +508,15 @@
     "examples": [
       "I bought a packet of crisps for lunch."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "transcription": "/ˈpæk.ɪt/",
     "emoji": "📦",
     "countability": "countable",
     "plural_form": "packets",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:cane:noun",
@@ -619,7 +627,7 @@
     "examples": [
       "The train cancellation caused a long delay for commuters."
     ],
-    "domain": "general, relocation, travel, professional",
+    "domain": "general, relocation, travel, professional, exam",
     "theme": "services",
     "updated": "2025-01-15",
     "levels": [
@@ -632,7 +640,8 @@
     "plural_form": "cancellations",
     "antonyms": [
       "confirmation"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:crash:noun",
@@ -671,7 +680,7 @@
     "examples": [
       "I returned the defective lamp to the store yesterday."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "levels": [
@@ -681,7 +690,8 @@
     "emoji": "⚠️",
     "antonyms": [
       "perfect"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:expire:verb",
@@ -722,7 +732,7 @@
     "examples": [
       "The landlord promised to repair the faulty heater."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "levels": [
@@ -735,7 +745,8 @@
     "emoji": "⚠️",
     "antonyms": [
       "working"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:invalid:adjective",
@@ -749,7 +760,7 @@
     "examples": [
       "Your ticket is invalid because the date has passed."
     ],
-    "domain": "general, relocation, travel, professional",
+    "domain": "general, relocation, travel, professional, exam",
     "theme": "rules",
     "updated": "2025-01-15",
     "levels": [
@@ -759,7 +770,8 @@
     "emoji": "🚫",
     "antonyms": [
       "valid"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:operate:verb",
@@ -932,7 +944,7 @@
     "examples": [
       "Buying second-hand home appliances saved us hundreds of dollars during our move."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, relocation, travel, exam",
     "theme": "shopping",
     "updated": "2025-01-15",
     "levels": [
@@ -942,7 +954,8 @@
     "emoji": "🛍️",
     "antonyms": [
       "brand new"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:tracking-number:noun",
@@ -1108,7 +1121,7 @@
     "examples": [
       "Pack comfortable sneakers for walking around the city."
     ],
-    "domain": "general, travel",
+    "domain": "general, travel, exam",
     "theme": "consumer_items",
     "updated": "2025-01-15",
     "transcription": "/ˈsniː.kəz/",
@@ -1116,7 +1129,8 @@
       "us": "/ˈsniː.kɚz/"
     },
     "emoji": "👟",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:socket:noun",
@@ -1163,5 +1177,60 @@
     "transcription_variants": {
       "us": "/ˈɔːr.dɚ/"
     }
+  },
+  {
+    "id": "en:printer:noun",
+    "word": "printer",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a machine for printing text or pictures onto paper"
+    ],
+    "examples": [
+      "I printed all required visa forms on my home printer."
+    ],
+    "domain": "general, relocation, professional, exam",
+    "theme": "consumer_items",
+    "updated": "2025-01-15",
+    "transcription": "/ˈprɪn.tə/",
+    "transcription_variants": {
+      "us": "/ˈprɪn.t̬ɚ/"
+    },
+    "emoji": "🖨️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "printers",
+    "sub_theme": "academic-english"
+  },
+  {
+    "id": "en:banknote:noun",
+    "word": "banknote",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "countability": "countable",
+    "plural_form": "banknotes",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:bill:noun"
+    ],
+    "definitions": [
+      "a piece of paper money issued by a central banking authority"
+    ],
+    "examples": [
+      "She exchanged foreign currency into local banknotes at the bank."
+    ],
+    "domain": "general, travel",
+    "theme": "consumer_items",
+    "updated": "2025-01-15",
+    "transcription": "/ˈbæŋk.nəʊt/",
+    "transcription_variants": {
+      "us": "/ˈbæŋk.noʊt/"
+    },
+    "emoji": "💵",
+    "no_antonym": true
   }
 ]

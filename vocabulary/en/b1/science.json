@@ -40,7 +40,7 @@
     "examples": [
       "Students conducted a chemistry experiment in laboratory under teacher supervision."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/ɪkˈsper.ɪ.mənt/",
@@ -67,7 +67,7 @@
     "examples": [
       "Astronomers hope to discover new planets outside our solar system."
     ],
-    "domain": "general, relocation, travel, professional",
+    "domain": "general, relocation, travel, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/dɪˈskʌv.ə/",
@@ -97,7 +97,7 @@
     "examples": [
       "The discovery of penicillin revolutionized modern medical treatment of infections."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "discoveries",
@@ -126,7 +126,7 @@
     "examples": [
       "Engineers worked hard to invent a battery that charges in minutes."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/ɪnˈvent/",
@@ -150,7 +150,7 @@
     "examples": [
       "The invention of the internet changed human communication and global commerce."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "inventions",
@@ -164,7 +164,8 @@
       "creation",
       "innovation"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:laboratory:noun",
@@ -178,7 +179,7 @@
     "examples": [
       "Scientists wore protective coats while working inside the biology laboratory."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "laboratories",
@@ -207,7 +208,7 @@
     "examples": [
       "Einstein developed his famous theory of relativity over a century ago."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "theories",
@@ -245,7 +246,7 @@
     "examples": [
       "The team formulated a testable hypothesis before starting their research project."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "hypotheses",
@@ -280,7 +281,7 @@
     "examples": [
       "Gathering experimental evidence is crucial for validating any new scientific theory."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -317,7 +318,7 @@
     "examples": [
       "Modern digital technology has made working remotely much easier for employees."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "technologies",
@@ -331,7 +332,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/tekˈnɑː.lə.dʒi/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:innovation:noun",
@@ -345,7 +347,7 @@
     "examples": [
       "Continuous innovation in solar tech lowers the cost of clean electricity."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "innovations",
@@ -366,7 +368,8 @@
     ],
     "antonyms": [
       "stagnation"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:develop:verb",
@@ -380,7 +383,7 @@
     "examples": [
       "Pharmaceutical companies work to develop effective new treatments for rare diseases."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/dɪˈvel.əp/",
@@ -392,7 +395,8 @@
     "antonyms": [
       "regress",
       "decline"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:development:noun",
@@ -441,7 +445,7 @@
     "examples": [
       "The artificial intelligence software can analyze complex medical images in seconds."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "levels": [
@@ -459,7 +463,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌɑːr.t̬əˈfɪʃ.əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:intelligence:noun",
@@ -507,7 +512,7 @@
     "examples": [
       "An industrial robot assembled car components on the factory production line."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "robots",
@@ -521,7 +526,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈroʊ.bɑːt/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:software:noun",
@@ -535,7 +541,7 @@
     "examples": [
       "The company updated its antivirus software to protect against cyber threats."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -568,7 +574,7 @@
     "examples": [
       "Upgrading your computer hardware can improve gaming performance and speed."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -601,7 +607,7 @@
     "examples": [
       "Digital communication has revolutionized how people share news across borders."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "levels": [
@@ -618,7 +624,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈdɪdʒ.ə.t̬əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:virtual:adjective",
@@ -632,7 +639,7 @@
     "examples": [
       "Students attended a virtual museum tour using virtual reality headsets."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/ˈvɜː.tʃu.əl/",
@@ -647,7 +654,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈvɝː.tʃu.əl/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:automatic:adjective",
@@ -689,7 +697,7 @@
     "examples": [
       "Factory automation increased manufacturing speed while reducing human operational errors."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "tags": [
@@ -722,7 +730,7 @@
     "examples": [
       "Medical researchers achieved a major breakthrough in cancer treatment last month."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "breakthroughs",
@@ -738,7 +746,8 @@
     ],
     "antonyms": [
       "setback"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:scientific:adjective",
@@ -752,7 +761,7 @@
     "examples": [
       "The journal published a scientific paper detailing the newly discovered galaxy."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "transcription": "/ˌsaɪənˈtɪf.ɪk/",
@@ -763,7 +772,8 @@
     ],
     "antonyms": [
       "unscientific"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:analyze:verb",
@@ -777,7 +787,7 @@
     "examples": [
       "Data analysts use specialized tools to analyze market trends effectively."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "levels": [
@@ -790,7 +800,8 @@
       "examine",
       "inspect"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:analysis:noun",
@@ -804,7 +815,7 @@
     "examples": [
       "A thorough chemical analysis revealed no harmful substances in drinking water."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "updated": "2025-01-15",
     "plural_form": "analyses",
@@ -834,7 +845,7 @@
     "examples": [
       "Astronomy fascinated him ever since he received a telescope for his birthday."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -848,7 +859,8 @@
       "astrophysics",
       "space science"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:biology:noun",
@@ -862,7 +874,7 @@
     "examples": [
       "High school students learn about cell structure in biology class."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -890,7 +902,7 @@
     "examples": [
       "Store household chemicals safely out of reach of young children."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -921,7 +933,7 @@
     "examples": [
       "The factory was fined for leaking toxic chemical waste into the river."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -953,7 +965,7 @@
     "examples": [
       "Charles Darwin formulated the scientific theory of evolution by natural selection."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -984,7 +996,7 @@
     "examples": [
       "Gravity holds planets in orbit around the sun."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -1073,7 +1085,7 @@
     "examples": [
       "Astronomers continuously explore distant galaxies in the known universe."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "science",
     "tags": [
       "intermediate"
@@ -1089,6 +1101,7 @@
       "creation",
       "firmament"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   }
 ]

@@ -11,7 +11,7 @@
     "examples": [
       "Psychologists advise against an excessive dwell on past failures because it heightens personal anxiety."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -31,7 +31,8 @@
     ],
     "transcription_variants": {
       "us": "/dwel ɑːn/"
-    }
+    },
+    "sub_theme": "general"
   },
   {
     "id": "en:cognition:noun",
@@ -98,7 +99,7 @@
     "examples": [
       "Subconscious fears regarding failure often prevent capable individuals from pursuing ambitious career opportunities."
     ],
-    "domain": "general, spoken, professional",
+    "domain": "general, spoken, professional, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "tags": [
@@ -114,7 +115,8 @@
     "antonyms": [
       "conscious",
       "aware"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:unconscious:adjective",
@@ -128,7 +130,7 @@
     "examples": [
       "Unconscious biases can influence hiring decisions unless objective recruitment protocols are enforced strictly."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "transcription": "/unconscious/",
@@ -141,7 +143,8 @@
     "antonyms": [
       "conscious",
       "deliberate"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:perception:noun",
@@ -155,7 +158,7 @@
     "examples": [
       "Public perception of the brand improved significantly after the company donated to environmental causes."
     ],
-    "domain": "general, spoken",
+    "domain": "general, spoken, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "plural_form": "perceptions",
@@ -170,7 +173,8 @@
       "apprehension",
       "insight"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:coping:noun",
@@ -213,7 +217,7 @@
     "examples": [
       "Humor serves as a powerful coping mechanism when people navigate emotionally challenging life events."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "plural_form": "mechanisms",
@@ -324,7 +328,7 @@
     "examples": [
       "Showing genuine empathy toward patients is considered an essential quality for modern healthcare professionals."
     ],
-    "domain": "general, spoken, relocation, professional",
+    "domain": "general, spoken, relocation, professional, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "plural_form": "empathy",
@@ -342,7 +346,8 @@
     "antonyms": [
       "apathy",
       "callousness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:trauma:noun",
@@ -356,7 +361,7 @@
     "examples": [
       "Therapy sessions helped survivors process emotional trauma suffered during the catastrophic natural disaster."
     ],
-    "domain": "general, relocation, professional",
+    "domain": "general, relocation, professional, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "plural_form": "trauma",
@@ -371,7 +376,8 @@
     "antonyms": [
       "healing",
       "recovery"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:emotional:noun",
@@ -385,7 +391,7 @@
     "examples": [
       "High emotional intelligence enables managers to resolve interpersonal workplace conflicts calmly and constructively."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "psychology",
     "updated": "2025-01-15",
     "plural_form": "emotionals",
@@ -398,7 +404,8 @@
     ],
     "antonyms": [
       "emotional fragility"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:mindfulness:noun",
@@ -562,7 +569,7 @@
     "examples": [
       "Journaling serves as a constructive coping-mechanism for individuals processing difficult life transitions."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -577,7 +584,8 @@
       "adaptation strategy",
       "defense mechanism"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:defense-mechanism:noun",
@@ -620,7 +628,7 @@
     "examples": [
       "Building a healthy sense of self-worth protects individuals from falling into negative social comparison."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -638,7 +646,8 @@
     "antonyms": [
       "self-doubt",
       "low self-esteem"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:denial:noun",
@@ -652,7 +661,7 @@
     "examples": [
       "He remained in total denial about his declining health until doctors ordered immediate hospitalization."
     ],
-    "domain": "spoken, relocation",
+    "domain": "spoken, relocation, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -670,7 +679,8 @@
     "antonyms": [
       "acceptance",
       "acknowledgment"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:rationalize:noun",
@@ -684,7 +694,7 @@
     "examples": [
       "Attempts to rationalize his unethical behavior failed to convince board members during official hearings."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -702,7 +712,8 @@
     ],
     "antonyms": [
       "admit fault"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:overthink:noun",
@@ -1038,7 +1049,7 @@
     "examples": [
       "Strong peer-influence persuaded the teenager to participate in risky outdoor stunts against better judgment."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -1053,7 +1064,8 @@
       "peer pressure",
       "social influence"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:confirmation-bias:noun",
@@ -1067,7 +1079,7 @@
     "examples": [
       "Confirmation-bias leads people to ignore compelling evidence that contradicts their pre-existing political views."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -1083,7 +1095,8 @@
     ],
     "antonyms": [
       "objectivity"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:cognitive-dissonance:noun",
@@ -1097,7 +1110,7 @@
     "examples": [
       "Smokers experience cognitive-dissonance when acknowledging health risks while continuing their daily smoking habit."
     ],
-    "domain": "spoken, relocation, professional",
+    "domain": "spoken, relocation, professional, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -1114,7 +1127,8 @@
     ],
     "antonyms": [
       "cognitive harmony"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:self-fulfilling-prophecy:noun",
@@ -1128,7 +1142,7 @@
     "examples": [
       "Believing she would fail the exam became a self-fulfilling-prophecy because she stopped studying."
     ],
-    "domain": "spoken",
+    "domain": "spoken, exam",
     "theme": "psychology",
     "tags": [
       "spoken",
@@ -1147,7 +1161,8 @@
     "levels": [
       "B2",
       "C1"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:aggression:noun",
@@ -1220,7 +1235,7 @@
     "examples": [
       "Social pressure often encourages conformity among adolescent peer groups."
     ],
-    "domain": "general",
+    "domain": "general, exam",
     "theme": "psychology",
     "tags": [
       "upper-intermediate"
@@ -1235,7 +1250,8 @@
     "antonyms": [
       "defiance"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:defiance:noun",
@@ -1391,7 +1407,7 @@
     "examples": [
       "Positive reinforcement through praise improves classroom student participation."
     ],
-    "domain": "general, professional",
+    "domain": "general, professional, exam",
     "theme": "psychology",
     "tags": [
       "upper-intermediate"
@@ -1452,7 +1468,7 @@
     "examples": [
       "Relocating abroad without family support can trigger an anxiety disorder."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "mental health",
     "updated": "2025-01-15",
     "levels": [
@@ -1470,7 +1486,8 @@
       "panic condition",
       "generalized anxiety"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "general"
   },
   {
     "id": "en:forgiveness:noun",
@@ -1484,7 +1501,7 @@
     "examples": [
       "Seeking forgiveness and showing empathy helps resolve neighborly disputes."
     ],
-    "domain": "general, relocation",
+    "domain": "general, relocation, exam",
     "theme": "emotions",
     "updated": "2025-01-15",
     "levels": [
@@ -1503,7 +1520,8 @@
     "antonyms": [
       "resentment",
       "vengefulness"
-    ]
+    ],
+    "sub_theme": "general"
   },
   {
     "id": "en:adaptive-coping:noun",
