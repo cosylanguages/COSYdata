@@ -4,9 +4,9 @@ Welcome to **COSYdata**, the canonical static data repository for the COSYlangua
 
 ## Overview
 
-This repository serves as the **single source of truth** for vocabulary data consumed by other repositories across the COSYlanguages ecosystem (`COSYlanguages`, `COSYmanuals`, `COSYgames`, `COSYtools`).
+This repository serves as the **single source of truth** for vocabulary, functional phrase, and curriculum competency data consumed by other repositories across the COSYlanguages ecosystem (`COSYlanguages`, `COSYmanuals`, `COSYgames`, `COSYtools`).
 
-There is no backend service or build step required for the data itself. All canonical vocabulary files are versioned JSON files served statically over HTTP via **GitHub Pages**.
+There is no backend service or build step required for the data itself. All canonical data files are versioned JSON files served statically over HTTP via **GitHub Pages**.
 
 > **GitHub Pages Configuration Note:**
 > To enable GitHub Pages for this repository, navigate to **Settings > Pages** in GitHub, set the source to deploy from the `main` branch root folder (`/`).
@@ -15,196 +15,212 @@ There is no backend service or build step required for the data itself. All cano
 
 ---
 
-## ID Scheme
+## ID Schemes
 
-Vocabulary entries are identified using a standard colon-separated scheme matching `<language>:<word-slug>:<form>`:
-
-$$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
-
-### Examples:
-- `"en:healthy:adjective"`
-- `"en:cat:noun"`
-- `"es:casa:noun"`
+- **Vocabulary entries**: `<language>:<word-slug>:<form>` (e.g., `"en:healthy:adjective"`, `"en:cat:noun"`, `"es:casa:noun"`)
+- **Functional phrases**: `en:relocation:<situation>:<slug>` (e.g., `"en:relocation:housing:asking-about-rent"`)
+- **Curriculum competencies**: `en:relocation:competency:<slug>` (e.g., `"en:relocation:competency:opening-bank-account"`)
 
 ---
 
-## Vocabulary File Organization & Datasets
-
-Vocabulary entries are **batched into theme files** organized by CEFR levels and courses:
+## Directory Organization & Datasets
 
 ```
-vocabulary/
-└── <lang>/
-    ├── index.json
-    ├── a0_a1/
-    │   ├── animals.json
-    │   ├── colors.json
-    │   ├── family.json
-    │   ├── food_drink.json
-    │   └── ...
-    ├── a2/
-    │   ├── animals.json
-    │   ├── appearance.json
-    │   ├── personality.json
-    │   └── ...
-    ├── b1/
-    │   ├── abstract_concepts.json
-    │   ├── cause_effect.json
-    │   ├── society.json
-    │   └── ...
-    ├── b2/ (B2+)
-    └── ...
+COSYdata/
+├── vocabulary/
+│   └── <lang>/
+│       ├── index.json
+│       ├── flat-index.json
+│       ├── a0_a1/
+│       ├── a2/
+│       ├── b1/
+│       ├── b2/
+│       ├── c1/
+│       └── c2/
+├── functional-phrases/
+│   └── <lang>/
+├── curriculum/
+│   └── <lang>/
+└── shared/
+    ├── themes.json
+    ├── id-aliases.json
+    ├── vocab-resolver.js
+    └── cosy-word-popup.js
 ```
 
-- **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`).
+- **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`, `vocabulary/en/b2/business.json`, `vocabulary/en/c1/rhetoric.json`, `vocabulary/en/c2/rare_adjectives.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its relative theme file path (e.g. `"en:cat:noun": "a0_a1/animals.json"`).
+- **`vocabulary/<lang>/flat-index.json`**: Pre-computed mapping from lowercased surface forms (`word`, `plural_form`, `comparative`, `superlative`) to an array of matching `{ id, field }` references for fast client-side word detection.
+- **`functional-phrases/<lang>/`**: Whole situational sentences and utterances (e.g., relocation phrases).
+- **`curriculum/<lang>/`**: Age-specific learning objectives and discussion themes.
 
 ### Course Domains & Level Folders
-- **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.
-- **`a2/`**: Elementary CEFR A2 level vocabulary files across general and spoken courses.
-- **`b1/`**: Intermediate CEFR B1 level vocabulary files across general and spoken courses.
+- **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files.
+- **`a2/`**: Elementary CEFR A2 level vocabulary files.
+- **`b1/`**: Intermediate CEFR B1 level vocabulary files.
+- **`b2/`**: Upper-Intermediate CEFR B2 level vocabulary files.
+- **`c1/`**: Advanced CEFR C1 level vocabulary files.
+- **`c2/`**: Mastery CEFR C2 level vocabulary files.
+
+The repository uses the following course domains in the `domain` property (or comma-separated combinations thereof):
 - **`general`**: Standard CEFR course vocabulary.
 - **`spoken`**: Spoken course vocabulary focused on conversation.
-- **`general, spoken`**: Words present in both general and spoken course lists.
+- **`travelling`** (or **`travel`**): Vocabulary for travel, tourism, and navigation.
+- **`relocation`**: Vocabulary and functional phrases for moving and living abroad.
+- **`exam_preparation`** (or **`exam`**): Exam preparation, rubric, and task-based testing vocabulary.
+- **`professional`**: Specialized workplace, academic, and career track vocabulary.
 
-To regenerate `index.json` for all language folders, run:
+> **Note:** The `professional` and `exam` domains additionally use a `sub_theme`-based track system (registered in `vocabulary/professional-tracks.json` and `vocabulary/exam-tracks.json`). See [`docs/domain-and-tagging-conventions.md`](docs/domain-and-tagging-conventions.md) for full conventions.
+
+To regenerate `index.json` and `flat-index.json` for all language folders, run:
 
 ```bash
 npm run build:index
+npm run build:flat-index
 ```
 
 ---
 
-## Shared Resolver Client (`shared/vocab-resolver.js`)
+## Shared Modules & Taxonomies (`shared/`)
 
-Other repositories in the ecosystem import `shared/vocab-resolver.js` via a `<script type="module">` tag to resolve vocabulary entries and hydrate HTML elements at runtime.
+The repository provides lightweight, browser-ready ES modules and machine-readable JSON assets served directly over GitHub Pages:
+
+1. **`shared/themes.json`**: Machine-readable canonical taxonomy mapping 29 primary themes to allowed `sub_theme` lists (derived from `docs/theme-taxonomy.md`).
+2. **`shared/id-aliases.json`**: Redirect map for retired or renamed vocabulary entry IDs to maintain backwards compatibility across ecosystem apps.
+3. **`shared/vocab-resolver.js`**: Resolves vocabulary references (e.g., `en:animals:cat` or `en:cat:noun`) into rendered content, supports alias redirection via `shared/id-aliases.json`, and hydrates HTML elements.
+4. **`shared/cosy-word-popup.js`**: Auto-detects recognized vocabulary words in text nodes, opens interactive definition popups with speech audio, and manages a `localStorage`-backed personal dictionary.
+
+### Click-to-Define & Personal Dictionary Example
+
+```html
+<script type="module">
+  import { resolveVocab } from 'https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js';
+  import { hydrate, createCosyDictionary } from 'https://cosylanguages.github.io/COSYdata/shared/cosy-word-popup.js';
+
+  // Fetch flat index for word auto-detection
+  const res = await fetch('https://cosylanguages.github.io/COSYdata/vocabulary/en/flat-index.json');
+  const flatIndex = await res.json();
+
+  // Hydrate DOM with word popups and personal dictionary
+  hydrate(document.body, {
+    lang: 'en',
+    matchWord: (word) => flatIndex[word.toLowerCase()],
+    resolveEntry: resolveVocab,
+    dictionary: createCosyDictionary('my-app'),
+  });
+</script>
+```
 
 See [`shared/README.md`](shared/README.md) for full usage instructions and API details.
 
 ---
 
-## Vocabulary Entry Schema & Fields
+## Vocabulary Entry Schema & Fields (`schemas/vocabulary.schema.json`)
 
-Vocabulary entries in theme files follow the JSON Schema (Draft 2020-12) defined in `schemas/vocabulary.schema.json`.
+The repository uses JSON Schema (Draft 2020-12) files in `schemas/` to validate all content:
 
-### Required Fields (Level-Universal)
-- **`id`** *(string)*: Unique identifier matching pattern `^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$` (e.g. `en:healthy:adjective`).
-- **`word`** *(string)*: The canonical word or term.
-- **`language`** *(string)*: 2-letter language code matching `^[a-z]{2}$` (e.g. `en`, `es`, `fr`).
-- **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`).
-- **`transcription`** *(string)*: Phonetic pronunciation (e.g., IPA string). Required for every entry at every level.
-- **`emoji`** *(string)*: Representative emoji or short emoji sequence. Required for every entry at every level (unless waived by `no_emoji: true`).
-- **`antonyms`** *(string[])*: Array of antonym word IDs or terms (minimum 1 item). Required for every entry at every level (unless waived by `no_antonym: true`).
+### 1. Core & General Fields
+- **`id`** *(string)*: Unique identifier matching pattern `^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$`. Required.
+- **`word`** *(string)*: The canonical target word or term. Required.
+- **`language`** *(string)*: 2-letter ISO language code (e.g. `en`, `fr`, `ru`). Required.
+- **`form`** *(string)*: Grammatical form / part of speech (e.g. `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `preposition`, `number`). Required.
+- **`transcription`** *(string)*: Primary or neutral IPA phonetic transcription. Required.
+- **`transcription_variants`** *(object)*: Dialect-specific IPA transcriptions (`uk`, `us`, `ca`, `au`, `nz`).
+- **`concept`** *(string)*: ID of the corresponding English concept entry (e.g. `"en:dog:noun"`). English entries point to themselves.
+- **`theme`** *(string)*: Primary canonical theme name from `shared/themes.json`.
+- **`sub_theme`** *(string)*: Sub-theme name allowed for the primary theme in `shared/themes.json`.
+- **`secondary_themes`** *(string[])*: Array of canonical theme names for cross-themed words. Must not duplicate `theme`.
+- **`sense`** *(string)*: Short slug distinguishing homographs (e.g. `"animal"`, `"food"`).
+- **`usage_note`** *(string)*: One short sentence of usage guidance in English.
+- **`stress`** *(string)*: Headword with combining acute accent U+0301 on the stressed vowel (used for Russian).
+- **`harmony`** *(string)*: Turkic vowel harmony class (`"front"` or `"back"`).
+- **`region`** *(string[])*: Preferred region codes (`"UK"`, `"US"`, `"CA"`, `"AU"`, `"NZ"`, `"PT"`, `"BR"`, `"EA"`, `"WA"`, `"ES"`, `"LATAM"`).
+- **`emoji`** *(string)*: Representative emoji or symbol (unless waived by `no_emoji: true`).
+- **`antonyms`** *(string[])*: Array of antonym terms or IDs (unless waived by `no_antonym: true`).
+- **`synonyms`** *(string[])*: Array of synonym terms or IDs (required for CEFR B1–C2 levels).
+- **`definitions`** *(string[])*: Monolingual dictionary definitions in the entry's target language.
+- **`examples`** *(string[])*: Natural usage sentences containing the headword.
+- **`scenario`** *(string)*: Short situational tag (e.g., `"airport check-in"`).
+- **`register`** *(string)*: Enum `["formal", "neutral", "informal"]` indicating tone or register.
+- **`exam_board`** *(string)*: Free-text exam board or specification name (e.g., `"IELTS"`, `"Cambridge C1 Advanced"`, `"TOEFL"`, `"DELF B2"`, `"Goethe-Zertifikat B1"`, `"TORFL"`, `"Ελληνομάθεια"`).
+- **`exam_level`** *(string)*: Specific level or grade within that exam board if distinct from the CEFR `level` field.
+- **`transliteration`** *(string)*: Latin-script rendering of the word for non-Latin script languages (e.g., Russian, Greek).
 
-### Level-Dependent Fields (Validated via JSON Schema `if`/`then`)
-- **`synonyms`** *(string[])*: Array of synonym word IDs or terms (minimum 1 item). Required for every entry where `level` is `B1`, `B2`, `C1`, or `C2` (B1+). Optional for `A0`/`A1`/`A2`.
+### 2. Noun Fields
+- **`countability`** *(string)*: Enum `["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]`. Required for nouns.
+- **`article`** *(string)*: Definite or indefinite article (e.g., `"der"`, `"la"`, `"l'"`).
+- **`gender`** *(string)*: Grammatical gender (e.g., `"masculine"`, `"feminine"`, `"neuter"`).
+- **`plural_form`** *(string)*: Plural form (required for countable nouns).
+- **`partitive`** *(string)*: Partitive article/form (e.g., `"du"`, `"de la"`, `"del"`).
+- **`h_aspire`** *(boolean)*: French aspirate h indicator.
+- **`animacy`** *(string)*: Grammatical animacy (`"animate"` or `"inanimate"`).
+- **`definite_form`** *(string)*: Definite form of the noun.
+- **`genitive_singular`** *(string)*: Genitive singular form.
+- **`initial_mutations`** *(object)*: Map of Celtic mutation forms (`soft`, `aspirate`, `spirant`).
+- **`case_forms`** *(object)*: Map of case names to noun inflections (`nominative`, `genitive`, `dative`, `accusative`, etc.).
 
-### Form-Dependent Fields (Validated via JSON Schema `if`/`then`)
-- **Noun fields** (relevant when `form` is `"noun"`):
-  - **`countability`** *(string, required)*: Classification enum: `["countable", "uncountable", "pluralia_tantum", "invariable", "false_plural"]`.
-  - **`article`** *(string)*: Grammatical article (e.g. `a`, `an`, `el`, `la`, `der`).
-  - **`gender`** *(string)*: Grammatical gender (e.g. `masculine`, `feminine`, `neuter`).
-  - **`plural_form`** *(string)*: Plural form (required when `countability` is `"countable"`, must NOT be present for other `countability` types).
-  - **`singular_workaround`** *(string)*: Countable phrase used to refer to one item for pluralia tantum nouns (e.g. `"a pair of scissors"`).
-  - **`collective_note`** *(string)*: Optional note for countable nouns whose verb agreement varies by dialect or reading (e.g. `"Can take a singular or plural verb depending on whether the group is meant as a whole or as its members."`).
-- **Adjective / Adverb fields** (relevant when `form` is `"adjective"` or `"adverb"`):
-  - **`comparative`** *(string)*: Comparative form (e.g. `healthier`).
-  - **`superlative`** *(string)*: Superlative form (e.g. `healthiest`).
+### 3. Verb Fields
+- **`past_tense`** *(string)*: Simple past tense form (required for irregular English verbs).
+- **`past_participle`** *(string)*: Past participle form.
+- **`present_participle`** *(string)*: Present participle (-ing) form.
+- **`is_irregular`** *(boolean)*: Indicates irregular verb inflections.
+- **`auxiliary`** *(string)*: Auxiliary verb used in compound tenses (e.g. `"être"`, `"sein"`).
+- **`conjugation_class`** *(string)*: Conjugation class or paradigm identifier.
+- **`stem_change`** *(string)*: Stem vowel change specification (e.g. `"e->ie"`).
+- **`separable_prefix`** *(string)*: Separable verb prefix (e.g. `"an"`).
+- **`reflexive`** *(boolean)*: Indicates reflexive verb usage.
+- **`aspect`** *(string)*: Verbal aspect (`"imperfective"`, `"perfective"`, `"biaspectual"`, `"stative"`, `"action"`, `"both"`).
+- **`aspect_pair`** *(string)*: Opposite aspect verb ID or headword form.
+- **`motion_type`** *(string)*: Motion verb classification (`"unidirectional"` or `"multidirectional"`).
+- **`voice`** *(string)*: Grammatical voice (`"active"`, `"passive"`, `"deponent"`).
+- **`present_forms`** *(object)*: Present tense conjugation forms (`sg1`, `sg2`, `sg3`, `sg3m`, `sg3f`, `pl1`, `pl2`, `pl3`).
+- **`stems`** *(object)*: Map of stem variants.
+- **`negative_form`** *(string)*: Negative verb form.
+- **`prepositions`** *(array)*: Objects with `preposition`, `example`, optional `case` (string), and optional `usage` (string).
 
-### Optional & Escape Hatch Fields
-- **`level`** *(string)*: Primary CEFR level, one of `["A0", "A1", "A2", "B1", "B2", "C1", "C2"]`.
-- **`levels`** *(string[])*: Array of all CEFR levels this word entry appears at across merged source entries (e.g. `["B1", "B2"]`).
-- **`no_emoji`** *(boolean)*: When `true`, waives the required `emoji` constraint for entries with no sensible single-emoji representation (e.g. highly abstract or formal words).
-- **`no_antonym`** *(boolean)*: When `true`, waives the required `antonyms` constraint for entries with no meaningful antonym (e.g. concrete nouns, function words, proper nouns).
-- **`audio`** *(string)*: Audio file path or URL.
-- **`image`** *(string)*: Image file path or URL.
-- **`definitions`** *(string[])*: Array of clear definition strings (minimum 1 item if present).
-- **`examples`** *(string[])*: Array of example sentences demonstrating usage.
-- **`collocations`** *(string[])*: Array of common word pairings or phrases.
-- **`related_forms`** *(string[])*: Array of ID references into another COSY repo's data (e.g. `"COSYtools:fr-conjugeur:aimer"`).
-- **`domain`** *(string)*: Subject domain (e.g., `general`, `spoken`, `general, spoken`).
-- **`theme`** *(string)*: Primary thematic category.
-- **`sub_theme`** *(string)*: Sub-thematic classification.
-- **`tags`** *(string[])*: Array of searchable tags.
-- **`updated`** *(string)*: Date string in ISO `YYYY-MM-DD` format.
+### 4. Adjective, Pronoun & Determiner Fields
+- **`feminine`** *(string)*: Feminine singular form of adjective.
+- **`neuter`** *(string)*: Neuter form of adjective.
+- **`masculine_plural`** *(string)*: Masculine plural form.
+- **`feminine_plural`** *(string)*: Feminine plural form.
+- **`plural_form`** *(string)*: General plural form for adjectives.
+- **`position`** *(string)*: Position relative to noun (`"before_noun"`, `"after_noun"`, `"either"`).
+- **`comparative`** *(string)*: Comparative form.
+- **`superlative`** *(string)*: Superlative form.
+- **`case_forms`** *(object)*: Case form inflections for pronouns/determiners.
+- **`person`** *(integer)*: Grammatical person (`1`, `2`, or `3`).
+- **`number`** *(string)*: Grammatical number (`"singular"` or `"plural"`).
+
+### 5. Other Grammatical Forms
+- **`governs_case`** *(string | string[])*: Case(s) governed by a preposition or postposition.
+- **`person_forms`** *(object)*: Inflected person forms for conjugated prepositions (`sg1`–`pl3`).
+- **`value`** *(integer)*: Numeric integer value for `number` entries.
+
+---
+
+## Functional Phrase & Curriculum Competency Schemas
+
+### Functional Phrase (`schemas/functional-phrase.schema.json`)
+Whole situational sentences or utterances (e.g. relocation phrases).
+- **Required**: `id`, `phrase`, `language`, `level`, `register` (`["formal", "neutral", "informal"]`), `situation`, `domain`.
+- **Optional**: `audience`, `translation_notes`, `related_vocabulary`, `variants`.
+
+### Curriculum Competency (`schemas/curriculum-competency.schema.json`)
+Age-specific learning objectives and discussion themes.
+- **Required**: `id`, `objective`, `language`, `level`, `stage`, `audience` (`["children", "teens", "adults", "seniors"]`), `domain`, `category`.
+- **Optional**: `discussion_prompts`, `related_vocabulary`, `related_functional_phrases`.
 
 ---
 
 ## Validation & CI Workflow
 
-Every pull request touching `vocabulary/**` triggers an automated GitHub Actions validation check (`.github/workflows/validate-vocabulary.yml`).
+Every pull request touching content or schemas triggers an automated GitHub Actions validation check (`.github/workflows/validate-vocabulary.yml`).
 
 ### What is Checked:
-1. **Schema Validation**: Every theme file under `vocabulary/**/*.json` (excluding `index.json`) is validated against `schemas/vocabulary.schema.json`.
+1. **Schema Validation**: Every data file under `vocabulary/`, `functional-phrases/`, and `curriculum/` (excluding `index.json`) is validated against its respective JSON schema.
 2. **Index Mapping Integrity**: Every word ID mapped in an `index.json` file is verified to exist within the target theme file it references.
 3. **Index Freshness**: Verifies that `index.json` is completely up-to-date by running `npm run build:index` and ensuring no uncommitted differences exist.
+4. **ID Alias Freshness**: Ensures retired entry IDs listed in `shared/id-aliases.json` do not still exist in active data files.
+5. **Taxonomy & Concept Warnings**: Reports non-blocking warnings for unknown themes/sub-themes or unresolvable English concepts.
 
-### Schema Sanity Checking
-When editing `schemas/vocabulary.schema.json` itself, you can use the test fixtures in `schemas/examples/` as a sanity check to verify that your schema updates correctly accept valid entries and reject invalid ones:
-
-- `schemas/examples/valid-*.json`: Must pass schema validation.
-- `schemas/examples/invalid-*.json`: Must fail schema validation.
-
-PRs touching vocabulary data must pass these automated checks before merging.
-
----
-
-## Definition Guidelines (A0–A1 and A2 Levels)
-
-When creating or revising definitions for vocabulary entries at **A0–A1** and **A2** levels, strictly follow the principles, pattern taxonomy, and grammar guardrails outlined below.
-
-### Core A0–A1 Principles
-1. **Clause & Tense Limits**: One relative clause maximum, present simple tense only. No passive voice, no perfect tenses, and no subordinate clauses nested inside relative clauses.
-2. **Relative Pronoun Agreement**:
-   - `who` for people (e.g., *a person who...*)
-   - `that` or `which` for things and animals (e.g., *an animal that...*)
-   - `where` for physical locations only (e.g., *a place where...*)
-   - `when` for time (e.g., *a time when...*)
-3. **Vocabulary Level Constraint**: Never define a word using a harder word than itself. If an A1 definition requires a B1 word, simplify the wording or choose a different pattern.
-4. **Avoid Self-Reference**: Never use self-referential phrases like *"a word that means..."*. Always define the real-world concept or object directly.
-
-### Pattern Library by Category (A0–A1)
-
-| Category | Reusable Frame / Pattern | Example |
-| :--- | :--- | :--- |
-| **People / Professions / Roles** | `"a person who [verb]s"`<br>`"a person whose job is to [verb]"`<br>`"a person in your family who..."` | **teacher**: *a person who teaches children.*<br>**doctor**: *a person whose job is to help sick people.*<br>**mother**: *a woman who has a child.* |
-| **Animals** | `"an animal that [verb]s"`<br>`"a small/big animal with [feature]"`<br>`"an animal people keep at home"` | **fish**: *an animal that lives in water.*<br>**bird**: *an animal with wings that can fly.*<br>**pet**: *an animal that lives with people in their house.* |
-| **Places** | `"a place where people [verb]"`<br>`"a place where you can [verb]"`<br>`"a room where you [verb]"` | **school**: *a place where children learn.*<br>**shop**: *a place where you can buy things.*<br>**kitchen**: *a room where you cook food.* |
-| **Things / Objects** | `"a thing you use to [verb]"`<br>`"a thing you [verb] on/in/with"`<br>`"a thing that [verb]s"` | **pen**: *a thing you use to write.*<br>**chair**: *a thing you sit on.*<br>**clock**: *a thing that shows the time.* |
-| **Food & Drink** | `"a food made from [ingredient]"`<br>`"a drink made from [ingredient]"`<br>`"a sweet food people eat"` | **bread**: *a food made from flour.*<br>**tea**: *a drink made from hot water and leaves.*<br>**cake**: *a sweet food people eat on birthdays.* |
-| **Clothes** | `"a thing you wear on your [body part]"` | **hat**: *a thing you wear on your head.*<br>**shoes**: *things you wear on your feet.* |
-| **Time Words** | `"a time when [clause]"`<br>`"the day before/after [day]"`<br>`"a part of the day when..."` | **morning**: *a time when the day starts.*<br>**Tuesday**: *the day after Monday.*<br>**evening**: *a part of the day when the sun goes down.* |
-| **Feelings / Emotions** | `"how you feel when [clause]"`<br>`"how you feel when you [verb]"` | **happy**: *how you feel when something good happens.*<br>**tired**: *how you feel when you need to sleep.* |
-| **Verbs (Actions)** | `"to [do something] using [body part/tool]"`<br>`"when you [verb1], you [verb2]"`<br>`"to make [something] [happen]"` | **walk**: *to move using your legs.*<br>**eat**: *when you eat, food goes into your mouth.*<br>**open**: *to make something no longer closed.* |
-| **Adjectives (Qualities)** | `"opposite of [known antonym]"` *(reuse `antonyms` field)*<br>`"how [something] is when [clause]"` | **small**: *the opposite of big.*<br>**hot**: *how food or weather is when it has a lot of heat.* |
-| **Colors** | `"the color of [common concrete thing]"` | **red**: *the color of blood, or a tomato.*<br>**green**: *the color of grass.* |
-| **Numbers** | `"the number after/before [number]"`<br>`"the number you get when you count [set]"` | **six**: *the number after five.*<br>**ten**: *the number of your fingers.* |
-| **Family** | `"a person in your family who is [relation]"` | **sister**: *a girl or woman who has the same parents as you.* |
-| **Function Words** | Short functional gloss instead of full relative clause. | **where**: *asks about a place.*<br>**who**: *asks about a person.*<br>**in**: *shows that something is inside another thing.*<br>**and**: *joins two words or ideas together.* |
-
-### Grammar Guardrails
-- **Relative Pronoun Agreement**: Enforce strict agreement (`who` for people only, `where` for concrete physical locations only—do not use `where` for abstract situations).
-- **Single Relative Clause Limit**: Reject sentences with nested relative clauses (e.g., *"a person who teaches children who go to primary school"* is B1-structured).
-- **Circularity Prevention**: Do not use a word inside a definition (e.g., using *teaches* to define *teacher*) unless that word itself is introduced at $\le$A1 level.
-
-### A2 Shift
-At the **A2 level**, rigid pattern scaffolding (`"a thing that..."`) is dropped in favor of natural, dictionary-style definitions using simple A1–A2 vocabulary:
-- **Structure**: Can use up to two clauses joined by `and` or `or`.
-- **Purpose Constructions**: `"used for/to"` constructions are permitted.
-- **Abstraction**: Mild abstraction is allowed while keeping inner vocabulary strictly $\le$A2.
-
-**Comparison Examples**:
-- **A1**: *restaurant* — a place where you eat food.
-- **A2**: *restaurant* — a place where you pay to eat a meal that someone else cooks for you.
-- **A1**: *angry* — how you feel when something bad happens.
-- **A2**: *angry* — feeling strong displeasure about something someone did wrong.
-
----
-
-## Contribution Guide: How to Add a Word
-
-1. **Locate or Create Theme File**: Find the target language and level directory (e.g., `vocabulary/en/a0_a1/`, `vocabulary/en/a2/`, `vocabulary/en/b1/`) and locate the appropriate `<theme>.json` file (or create a new theme file if one does not exist).
-2. **Add Entry**: Add the word entry matching the schema defined in `schemas/vocabulary.schema.json`. Ensure definitions follow the [Definition Guidelines (A0–A1 and A2 Levels)](#definition-guidelines-a0a1-and-a2-levels).
-3. **Regenerate Index**: Run `npm run build:index` to update `vocabulary/<lang>/index.json` with the new word ID mapping.
-4. **Validate**: Run local validation (`npm run validate` after installing dependencies) to ensure all JSON files pass validation.
-5. **Submit PR**: Open a pull request targeting `main`.
+PRs touching data must pass these automated checks before merging.

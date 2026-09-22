@@ -11,7 +11,7 @@
     "examples": [
       "Keep your shopping receipt safe."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "receipts",
@@ -20,14 +20,15 @@
     ],
     "levels": [
       "A1",
-      "A2"
+      "A2",
+      "B1"
     ],
     "transcription": "/rɪˈsiːt/",
     "no_antonym": true,
     "emoji": "🧾",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:card:noun",
@@ -36,7 +37,7 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a plastic bank card used paying"
+      "a small piece of plastic used for bank payments"
     ],
     "examples": [
       "Pay with credit card at shop."
@@ -74,7 +75,7 @@
     "examples": [
       "He paid with cash at shop."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -90,7 +91,7 @@
       "card"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:coin:noun",
@@ -104,7 +105,7 @@
     "examples": [
       "He dropped a metal coin."
     ],
-    "domain": "general, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "coins",
@@ -120,7 +121,7 @@
       "B1"
     ],
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:note:noun",
@@ -129,14 +130,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a piece of paper money currency"
+      "paper money"
     ],
     "examples": [
       "She paid with a ten pound note."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "notes",
     "transcription": "/nəʊt/",
     "no_antonym": true,
@@ -149,7 +150,7 @@
       "UK"
     ],
     "article": "a",
-    "sub_theme": "general",
+    "sub_theme": "money_currency",
     "regional_equivalents": [
       "en:banknote:noun"
     ]
@@ -166,9 +167,9 @@
     "examples": [
       "Deposit money in the bank."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "banks",
     "tags": [
       "spoken"
@@ -181,7 +182,7 @@
     "emoji": "🏦",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general",
+    "sub_theme": "money_currency",
     "secondary_themes": [
       "travel",
       "work"
@@ -199,7 +200,7 @@
     "examples": [
       "What is the price of coat?"
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "prices",
@@ -211,7 +212,7 @@
     "emoji": "🏷️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:cost:noun",
@@ -225,7 +226,7 @@
     "examples": [
       "The cost was ten pounds total."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "costs",
@@ -240,7 +241,7 @@
       "us": "/kɑːst/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:cheap:adjective",
@@ -314,7 +315,7 @@
     "examples": [
       "This coat was a good buy."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "buys",
@@ -328,7 +329,7 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:spend:noun",
@@ -342,7 +343,7 @@
     "examples": [
       "Check your weekly spend money."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken, relocation",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -358,7 +359,7 @@
       "save"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:shopping:noun",
@@ -372,7 +373,7 @@
     "examples": [
       "We go shopping on Saturday."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "shopping",
     "updated": "2025-01-15",
     "tags": [
@@ -389,7 +390,7 @@
     "transcription_variants": {
       "us": "/ˈʃɑː.pɪŋ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:store:noun",
@@ -403,7 +404,7 @@
     "examples": [
       "The grocery store opened early today."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "stores",
@@ -428,7 +429,7 @@
       "en:shop:noun"
     ],
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:market:noun",
@@ -442,7 +443,7 @@
     "examples": [
       "Fresh fruit is sold at the market."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
     "updated": "2025-01-15",
     "plural_form": "markets",
@@ -462,7 +463,7 @@
       "us": "/ˈmɑːr.kɪt/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "money_currency"
   },
   {
     "id": "en:credit-card:noun",
@@ -669,113 +670,5 @@
       "A1",
       "A2"
     ]
-  },
-  {
-    "id": "en:cheap:noun",
-    "word": "cheap",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "costing very little money price"
-    ],
-    "examples": [
-      "Buy cheap apples at the market."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "shopping",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/tʃiːp/",
-    "emoji": "🏷️",
-    "antonyms": [
-      "expensive"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:expensive:noun",
-    "word": "expensive",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "costing a lot of money price"
-    ],
-    "examples": [
-      "That car is very expensive."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "shopping",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ɪkˈspen.sɪv/",
-    "emoji": "💎",
-    "antonyms": [
-      "cheap"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:free:noun",
-    "word": "free",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "costing no money at all"
-    ],
-    "examples": [
-      "Water is free in restaurant."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "shopping",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "levels": [
-      "A1",
-      "B2"
-    ],
-    "transcription": "/friː/",
-    "emoji": "🆓",
-    "antonyms": [
-      "paid"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:sell:noun",
-    "word": "sell",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the act of offering goods for money"
-    ],
-    "examples": [
-      "Items are for sell here."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "shopping",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/sel/",
-    "emoji": "🏷️",
-    "antonyms": [
-      "buy"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "general"
   }
 ]

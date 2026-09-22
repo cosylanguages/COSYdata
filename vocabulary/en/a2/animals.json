@@ -61,7 +61,7 @@
     "examples": [
       "The forest is a habitat for deer."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "habitats",
@@ -78,8 +78,7 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈhæb.ə.tæt/"
-    },
-    "sub_theme": "general"
+    }
   },
   {
     "id": "en:mammal:noun",
@@ -310,7 +309,7 @@
     "examples": [
       "Camels can walk for days across the desert."
     ],
-    "domain": "general, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "deserts",
@@ -323,8 +322,7 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈdez.ɚt/"
-    },
-    "sub_theme": "general"
+    }
   },
   {
     "id": "en:valley:noun",
@@ -338,7 +336,7 @@
     "examples": [
       "A river flows through the peaceful green valley."
     ],
-    "domain": "general, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "valleys",
@@ -351,8 +349,7 @@
     "antonyms": [
       "mountain",
       "hill"
-    ],
-    "sub_theme": "general"
+    ]
   },
   {
     "id": "en:cliff:noun",
@@ -516,7 +513,7 @@
     "examples": [
       "A small bird sat on the wooden branch."
     ],
-    "domain": "general, professional, exam",
+    "domain": "general, professional",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "branches",
@@ -526,8 +523,7 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/bræntʃ/"
-    },
-    "sub_theme": "general"
+    }
   },
   {
     "id": "en:root:noun",
@@ -700,7 +696,7 @@
     "examples": [
       "She plays with her pet cat every day."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "pets",
@@ -710,8 +706,7 @@
     "transcription": "/pet/",
     "emoji": "🐾",
     "countability": "countable",
-    "no_antonym": true,
-    "sub_theme": "cambridge"
+    "no_antonym": true
   },
   {
     "id": "en:pond:noun",
@@ -749,15 +744,14 @@
     "examples": [
       "We crossed the cold mountain stream on foot."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "nature",
     "updated": "2025-01-15",
     "plural_form": "streams",
     "transcription": "/striːm/",
     "emoji": "🏞️",
     "countability": "countable",
-    "no_antonym": true,
-    "sub_theme": "general"
+    "no_antonym": true
   },
   {
     "id": "en:countryside:noun",
@@ -771,7 +765,7 @@
     "examples": [
       "They enjoy walking in the green countryside."
     ],
-    "domain": "general, travel, exam",
+    "domain": "general, travel",
     "theme": "nature",
     "updated": "2025-01-15",
     "transcription": "/ˈkʌn.tri.saɪd/",
@@ -780,8 +774,7 @@
     "antonyms": [
       "city",
       "town"
-    ],
-    "sub_theme": "general"
+    ]
   },
   {
     "id": "en:scenery:noun",
@@ -1007,7 +1000,7 @@
     "examples": [
       "We saw wild deer in the thick forest."
     ],
-    "domain": "spoken, exam",
+    "domain": "spoken",
     "theme": "nature",
     "tags": [
       "spoken",
@@ -1019,8 +1012,7 @@
     "countability": "uncountable",
     "antonyms": [
       "tame"
-    ],
-    "sub_theme": "general"
+    ]
   },
   {
     "id": "en:tame:noun",
@@ -1089,7 +1081,7 @@
     "examples": [
       "The veterinarian examined our sick puppy carefully."
     ],
-    "domain": "spoken, exam",
+    "domain": "spoken",
     "theme": "nature",
     "tags": [
       "spoken",
@@ -1103,8 +1095,7 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌvet.ər.əˈner.i.ən/"
-    },
-    "sub_theme": "general"
+    }
   },
   {
     "id": "en:vet:noun",
@@ -1118,7 +1109,7 @@
     "examples": [
       "We took our kitten to the vet today."
     ],
-    "domain": "spoken, exam",
+    "domain": "spoken",
     "theme": "nature",
     "tags": [
       "spoken",
@@ -1129,8 +1120,7 @@
     "transcription": "/vet/",
     "emoji": "🩺",
     "countability": "countable",
-    "no_antonym": true,
-    "sub_theme": "general"
+    "no_antonym": true
   },
   {
     "id": "en:mosquito:noun",
@@ -1146,7 +1136,7 @@
     "examples": [
       "Apply insect repellent to avoid mosquito bites in tropical regions."
     ],
-    "domain": "general, travel, exam",
+    "domain": "general, travel",
     "theme": "animals",
     "updated": "2025-01-15",
     "transcription": "/məˈskiː.təʊ/",
@@ -1154,32 +1144,6 @@
       "us": "/məˈskiː.t̬oʊ/"
     },
     "emoji": "🦟",
-    "no_antonym": true,
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:insect:noun",
-    "word": "insect",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A small creature with six legs and usually wings."
-    ],
-    "examples": [
-      "A bee is a busy and useful insect."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "nature",
-    "updated": "2025-01-15",
-    "plural_form": "insects",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈɪn.sekt/",
-    "emoji": "🐛",
-    "countability": "countable",
-    "no_antonym": true,
-    "sub_theme": "general"
+    "no_antonym": true
   }
 ]
