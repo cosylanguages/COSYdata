@@ -605,7 +605,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "education",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "erasers",
     "tags": [
       "spoken"
@@ -621,7 +621,10 @@
       "US"
     ],
     "article": "an",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "classroom_objects",
+    "regional_equivalents": [
+      "en:rubber:noun"
+    ]
   },
   {
     "id": "en:ruler:noun",
@@ -1106,5 +1109,34 @@
     "no_antonym": true,
     "article": "a",
     "sub_theme": "classroom_objects"
+  },
+  {
+    "id": "en:rubber:noun",
+    "word": "rubber",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "rubbers",
+    "article": "a",
+    "definitions": [
+      "a small piece of rubber used to erase pencil marks"
+    ],
+    "examples": [
+      "Use a rubber to clean the pencil line."
+    ],
+    "domain": "general, relocation",
+    "theme": "education",
+    "sub_theme": "classroom_objects",
+    "transcription": "/ˈrʌb.ər/",
+    "emoji": "🧹",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:eraser:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
   }
 ]

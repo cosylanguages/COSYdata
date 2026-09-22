@@ -240,7 +240,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "bills",
     "tags": [
       "spoken"
@@ -258,7 +258,10 @@
       "UK"
     ],
     "article": "a",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "regional_equivalents": [
+      "en:check:noun"
+    ]
   },
   {
     "id": "en:order:noun",
@@ -1728,7 +1731,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "sodas",
     "transcription": "/ˈsəʊ.də/",
     "no_antonym": true,
@@ -1741,7 +1744,10 @@
       "US"
     ],
     "article": "a",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "regional_equivalents": [
+      "en:fizzy-drink:noun"
+    ]
   },
   {
     "id": "en:pizza:noun",
@@ -2364,5 +2370,63 @@
       "B1"
     ],
     "sub_theme": "meals"
+  },
+  {
+    "id": "en:check:noun",
+    "word": "check",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "checks",
+    "article": "a",
+    "definitions": [
+      "a written statement of the cost of food and drinks in a restaurant"
+    ],
+    "examples": [
+      "Ask the waiter for the check after dinner."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "food",
+    "sub_theme": "meals",
+    "transcription": "/tʃek/",
+    "emoji": "🧾",
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:bill:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
+  },
+  {
+    "id": "en:fizzy-drink:noun",
+    "word": "fizzy drink",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "fizzy drinks",
+    "article": "a",
+    "definitions": [
+      "a sweet carbonated soft drink"
+    ],
+    "examples": [
+      "Cold fizzy drink is popular in summer."
+    ],
+    "domain": "general, relocation",
+    "theme": "food",
+    "sub_theme": "drinks",
+    "transcription": "/ˈfɪz.i drɪŋk/",
+    "emoji": "🥤",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:soda:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
   }
 ]

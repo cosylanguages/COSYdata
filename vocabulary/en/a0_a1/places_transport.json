@@ -102,7 +102,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -116,7 +116,10 @@
     "region": [
       "UK"
     ],
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "regional_equivalents": [
+      "en:mail:noun"
+    ]
   },
   {
     "id": "en:train:noun",
@@ -991,14 +994,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a machine that flies in the air"
+      "an aircraft with fixed wings powered by engines"
     ],
     "examples": [
       "The plane flew in sky."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "planes",
     "tags": [
       "spoken"
@@ -1008,7 +1011,10 @@
     "emoji": "✈️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "synonyms": [
+      "en:airplane:noun"
+    ]
   },
   {
     "id": "en:airplane:noun",
@@ -1017,14 +1023,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a machine that flies in the air"
+      "a powered flying vehicle with fixed wings"
     ],
     "examples": [
       "An airplane landed safely."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "airplanes",
     "tags": [
       "spoken"
@@ -1037,7 +1043,10 @@
       "us": "/ˈer.pleɪn/"
     },
     "article": "an",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "synonyms": [
+      "en:plane:noun"
+    ]
   },
   {
     "id": "en:bicycle:noun",
@@ -1130,11 +1139,11 @@
       "a small vehicle used for traveling on water"
     ],
     "examples": [
-      "They sailed a boat on the lake."
+      "They sailed a wooden boat on the lake."
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "boats",
     "tags": [
       "spoken"
@@ -1593,7 +1602,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "apartment buildings",
     "transcription": "/əˈpɑːt.mənt ˌbɪl.dɪŋ/",
     "no_antonym": true,
@@ -1606,7 +1615,10 @@
       "US"
     ],
     "article": "an",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "regional_equivalents": [
+      "en:block-of-flats:noun"
+    ]
   },
   {
     "id": "en:bridge:noun",
@@ -1860,7 +1872,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "trucks",
     "transcription": "/trʌk/",
     "no_antonym": true,
@@ -1874,7 +1886,10 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "regional_equivalents": [
+      "en:lorry:noun"
+    ]
   },
   {
     "id": "en:traffic-light:noun",
@@ -2079,5 +2094,90 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:mail:noun",
+    "word": "mail",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "uncountable",
+    "definitions": [
+      "letters and packages sent through the postal system"
+    ],
+    "examples": [
+      "Check the mail box every morning."
+    ],
+    "domain": "general, relocation",
+    "theme": "travel",
+    "sub_theme": "places_destinations",
+    "transcription": "/meɪl/",
+    "emoji": "📮",
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:post:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
+  },
+  {
+    "id": "en:block-of-flats:noun",
+    "word": "block of flats",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "blocks of flats",
+    "article": "a",
+    "definitions": [
+      "a large building containing multiple individual flats"
+    ],
+    "examples": [
+      "They live in a tall block of flats."
+    ],
+    "domain": "general, relocation",
+    "theme": "travel",
+    "sub_theme": "places_destinations",
+    "transcription": "/blɒk əv flæts/",
+    "emoji": "🏢",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:apartment-building:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
+  },
+  {
+    "id": "en:lorry:noun",
+    "word": "lorry",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "lorries",
+    "article": "a",
+    "definitions": [
+      "a large heavy motor vehicle for transporting goods"
+    ],
+    "examples": [
+      "The big lorry carried heavy goods on the road."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "travel",
+    "sub_theme": "vehicles_transportation",
+    "transcription": "/ˈlɒr.i/",
+    "emoji": "🚚",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:truck:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
   }
 ]

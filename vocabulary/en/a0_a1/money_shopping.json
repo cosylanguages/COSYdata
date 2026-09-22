@@ -137,7 +137,7 @@
     ],
     "domain": "general",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "notes",
     "transcription": "/nəʊt/",
     "no_antonym": true,
@@ -150,7 +150,10 @@
       "UK"
     ],
     "article": "a",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "regional_equivalents": [
+      "en:banknote:noun"
+    ]
   },
   {
     "id": "en:bank:noun",
@@ -624,5 +627,38 @@
     "domain": "general",
     "theme": "shopping",
     "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:banknote:noun",
+    "word": "banknote",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "banknotes",
+    "article": "a",
+    "definitions": [
+      "a piece of paper money issued by a bank"
+    ],
+    "examples": [
+      "He paid for the ticket with a ten-pound banknote."
+    ],
+    "domain": "general, relocation",
+    "theme": "shopping",
+    "sub_theme": "money_currency",
+    "transcription": "/ˈbæŋk.noʊt/",
+    "emoji": "💵",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:note:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true,
+    "levels": [
+      "A1",
+      "A2"
+    ]
   }
 ]
