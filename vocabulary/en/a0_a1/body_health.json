@@ -12,8 +12,8 @@
       "The doctor checked my sore throat."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "health",
-    "updated": "2025-01-15",
+    "theme": "work",
+    "updated": "2026-09-22",
     "plural_form": "doctors",
     "tags": [
       "spoken"
@@ -30,7 +30,10 @@
       "us": "/ˈdɑːk.tɚ/"
     },
     "article": "a",
-    "sub_theme": "body_parts"
+    "sub_theme": "professions_jobs",
+    "secondary_themes": [
+      "health"
+    ]
   },
   {
     "id": "en:nurse:noun",
@@ -919,7 +922,7 @@
     ],
     "domain": "general, relocation",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/blʌd/",
     "no_antonym": true,
     "emoji": "🩸",
@@ -928,7 +931,7 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "body_parts"
+    "sub_theme": "body_substances"
   },
   {
     "id": "en:sick:noun",
@@ -1002,7 +1005,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -1018,7 +1021,7 @@
     ],
     "comparative": "healthier",
     "superlative": "healthiest",
-    "sub_theme": "body_parts"
+    "sub_theme": "conditions"
   },
   {
     "id": "en:tired:adjective",
@@ -1048,7 +1051,11 @@
     },
     "comparative": "tireder",
     "superlative": "tiredest",
-    "sub_theme": "body_parts"
+    "sub_theme": "conditions",
+    "secondary_themes": [
+      "emotions",
+      "descriptors"
+    ]
   },
   {
     "id": "en:pain:noun",
@@ -1345,11 +1352,11 @@
     ],
     "domain": "general, travel",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈtuːθ.peɪst/",
     "emoji": "🪥",
     "no_antonym": true,
-    "sub_theme": "body_parts"
+    "sub_theme": "fitness_hygiene"
   },
   {
     "id": "en:headache:noun",

@@ -67,7 +67,7 @@
       "Keep your house clean always."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "housing",
+    "theme": "descriptors",
     "updated": "2026-09-22",
     "tags": [
       "spoken"
@@ -79,7 +79,10 @@
     "emoji": "✨",
     "comparative": "cleaner",
     "superlative": "cleanest",
-    "sub_theme": "furniture"
+    "sub_theme": "quality_condition",
+    "secondary_themes": [
+      "housing"
+    ]
   },
   {
     "id": "en:house:noun",
@@ -276,7 +279,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "bathrooms",
     "tags": [
       "spoken"
@@ -289,7 +292,7 @@
       "us": "/ˈbæθ.ruːm/"
     },
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "rooms_spaces"
   },
   {
     "id": "en:living:noun",
@@ -706,7 +709,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "beds",
     "tags": [
       "spoken"
@@ -716,7 +719,10 @@
     "emoji": "🛏️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "secondary_themes": [
+      "health"
+    ]
   },
   {
     "id": "en:desk:noun",
@@ -979,7 +985,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "cups",
     "tags": [
       "spoken"
@@ -989,7 +995,7 @@
     "emoji": "☕",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "kitchen"
   },
   {
     "id": "en:glass:noun",
@@ -1506,7 +1512,7 @@
       "Wash the dirty plates now."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "housing",
+    "theme": "descriptors",
     "updated": "2026-09-22",
     "tags": [
       "spoken"
@@ -1521,7 +1527,10 @@
     },
     "comparative": "dirtier",
     "superlative": "dirtiest",
-    "sub_theme": "furniture"
+    "sub_theme": "quality_condition",
+    "secondary_themes": [
+      "housing"
+    ]
   },
   {
     "id": "en:tidy:adjective",
@@ -1619,14 +1628,14 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "living rooms",
     "transcription": "/ˈlɪv.ɪŋ ˌruːm/",
     "no_antonym": true,
     "emoji": "🛋️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "rooms_spaces"
   },
   {
     "id": "en:dining-room:noun",

@@ -169,7 +169,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "banks",
     "tags": [
       "spoken"
@@ -182,7 +182,11 @@
     "emoji": "🏦",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "secondary_themes": [
+      "travel",
+      "work"
+    ]
   },
   {
     "id": "en:price:noun",
@@ -264,7 +268,10 @@
     ],
     "comparative": "cheaper",
     "superlative": "cheapest",
-    "sub_theme": "money_currency"
+    "sub_theme": "transactions_pricing",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:expensive:adjective",
@@ -291,7 +298,10 @@
     ],
     "comparative": "expensiver",
     "superlative": "expensivest",
-    "sub_theme": "money_currency"
+    "sub_theme": "transactions_pricing",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:buy:noun",

@@ -374,7 +374,7 @@
     "antonyms": [
       "later"
     ],
-    "sub_theme": "days_months_seasons",
+    "sub_theme": "frequency_duration",
     "comparative": "sooner",
     "superlative": "soonest"
   },
@@ -655,7 +655,10 @@
     },
     "comparative": "earlier",
     "superlative": "earliest",
-    "sub_theme": "days_months_seasons"
+    "sub_theme": "days_months_seasons",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:late:adjective",
@@ -682,7 +685,10 @@
     ],
     "comparative": "later",
     "superlative": "latest",
-    "sub_theme": "days_months_seasons"
+    "sub_theme": "days_months_seasons",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:date:verb",

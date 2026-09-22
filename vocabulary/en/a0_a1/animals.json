@@ -246,7 +246,7 @@
     "plural_form": "birds",
     "domain": "general, relocation, spoken, travel",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -256,7 +256,7 @@
       "us": "/bɝːd/"
     },
     "article": "a",
-    "sub_theme": "pets"
+    "sub_theme": "wild_animals"
   },
   {
     "id": "en:fish:noun",
@@ -274,7 +274,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -285,7 +285,10 @@
     "no_antonym": true,
     "plural_form": "fish",
     "article": "a",
-    "sub_theme": "sea_creatures"
+    "sub_theme": "sea_creatures",
+    "secondary_themes": [
+      "food"
+    ]
   },
   {
     "id": "en:mouse:noun",
@@ -304,14 +307,17 @@
     "plural_form": "mice",
     "domain": "general, spoken, relocation",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
     "no_antonym": true,
     "countability": "countable",
     "article": "a",
-    "sub_theme": "pets"
+    "sub_theme": "wild_animals",
+    "secondary_themes": [
+      "technology"
+    ]
   },
   {
     "id": "en:pig:noun",
@@ -428,7 +434,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "chickens",
     "tags": [
       "spoken"
@@ -441,7 +447,10 @@
     "emoji": "🐔",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "farm_animals"
+    "sub_theme": "farm_animals",
+    "secondary_themes": [
+      "food"
+    ]
   },
   {
     "id": "en:duck:noun",

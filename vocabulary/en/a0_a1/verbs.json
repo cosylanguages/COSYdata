@@ -13,7 +13,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "actions",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -24,7 +24,11 @@
     "past_participle": "cooked",
     "present_participle": "cooking",
     "is_irregular": false,
-    "sub_theme": "physical_movement"
+    "sub_theme": "daily_routines",
+    "secondary_themes": [
+      "food",
+      "work"
+    ]
   },
   {
     "id": "en:pay:verb",
@@ -40,7 +44,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "actions",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -57,7 +61,10 @@
         "example": "I will pay for the dinner tonight."
       }
     ],
-    "sub_theme": "physical_movement"
+    "sub_theme": "social_interaction",
+    "secondary_themes": [
+      "shopping"
+    ]
   },
   {
     "id": "en:break:verb",
@@ -1585,7 +1592,7 @@
       "He hates cold winter rain."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "actions",
+    "theme": "emotions",
     "updated": "2026-09-22",
     "tags": [
       "spoken"
@@ -1600,10 +1607,7 @@
     "past_participle": "hated",
     "present_participle": "hating",
     "is_irregular": false,
-    "sub_theme": "physical_movement",
-    "secondary_themes": [
-      "emotions"
-    ]
+    "sub_theme": "negative_feelings"
   },
   {
     "id": "en:tell:verb",
@@ -2073,7 +2077,7 @@
     "past_participle": "taught",
     "present_participle": "teaching",
     "is_irregular": true,
-    "sub_theme": "physical_movement",
+    "sub_theme": "social_interaction",
     "secondary_themes": [
       "education"
     ]
@@ -2213,7 +2217,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "actions",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -2230,7 +2234,7 @@
         "example": "We are waiting for the bus."
       }
     ],
-    "sub_theme": "physical_movement"
+    "sub_theme": "daily_routines"
   },
   {
     "id": "en:use:verb",
@@ -2965,7 +2969,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/dɪˈskraɪb/",
     "no_antonym": true,
     "emoji": "💬",
@@ -2973,7 +2977,7 @@
     "past_participle": "described",
     "present_participle": "describing",
     "is_irregular": false,
-    "sub_theme": "physical_movement"
+    "sub_theme": "mental_cognition"
   },
   {
     "id": "en:fill-in:verb",

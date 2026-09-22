@@ -497,8 +497,8 @@
       "Walk to school every morning."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "travel",
-    "updated": "2025-01-15",
+    "theme": "education",
+    "updated": "2026-09-22",
     "plural_form": "schools",
     "tags": [
       "spoken"
@@ -511,7 +511,10 @@
     "emoji": "🏫",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "classroom_objects",
+    "secondary_themes": [
+      "places_transport"
+    ]
   },
   {
     "id": "en:college:noun",
@@ -1202,7 +1205,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "tickets",
     "tags": [
       "spoken"
@@ -1216,7 +1219,10 @@
     "emoji": "🎟️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "transit_booking",
+    "secondary_themes": [
+      "shopping"
+    ]
   },
   {
     "id": "en:travel:noun",
@@ -2068,7 +2074,8 @@
     ],
     "regional_equivalents": [
       "en:underground:noun"
-    ]
+    ],
+    "updated": "2026-09-22"
   },
   {
     "id": "en:motorcycle:noun",
