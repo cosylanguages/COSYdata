@@ -12,8 +12,8 @@
       "I made a phone call."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "technology",
-    "updated": "2025-01-15",
+    "theme": "communication",
+    "updated": "2026-09-22",
     "plural_form": "calls",
     "tags": [
       "spoken"
@@ -26,7 +26,7 @@
       "us": "/kɑːl/"
     },
     "article": "a",
-    "sub_theme": "devices_hardware"
+    "sub_theme": "social_expressions"
   },
   {
     "id": "en:internet:noun",
@@ -200,7 +200,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "phones",
     "tags": [
       "spoken"
@@ -213,7 +213,10 @@
       "us": "/foʊn/"
     },
     "article": "a",
-    "sub_theme": "devices_hardware"
+    "sub_theme": "communication_tech",
+    "secondary_themes": [
+      "communication"
+    ]
   },
   {
     "id": "en:telephone:noun",
@@ -258,7 +261,7 @@
     ],
     "domain": "general",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "mobiles",
     "transcription": "/ˈməʊ.baɪl/",
     "no_antonym": true,
@@ -275,7 +278,10 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "devices_hardware"
+    "sub_theme": "devices_hardware",
+    "regional_equivalents": [
+      "en:cell-phone:noun"
+    ]
   },
   {
     "id": "en:smartphone:noun",
@@ -651,36 +657,6 @@
     "sub_theme": "devices_hardware"
   },
   {
-    "id": "en:receive:noun",
-    "word": "receive",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the action of getting a message"
-    ],
-    "examples": [
-      "Check your inbox for receive."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "technology",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/rɪˈsiːv/",
-    "emoji": "📥",
-    "antonyms": [
-      "send"
-    ],
-    "countability": "uncountable",
-    "levels": [
-      "A1",
-      "A2"
-    ],
-    "sub_theme": "devices_hardware"
-  },
-  {
     "id": "en:chat:noun",
     "word": "chat",
     "language": "en",
@@ -924,7 +900,7 @@
       "US"
     ],
     "regional_equivalents": [
-      "en:mobile-phone:noun"
+      "en:mobile:noun"
     ],
     "definitions": [
       "a portable wireless phone carried for communication"
@@ -934,7 +910,7 @@
     ],
     "domain": "general, travel",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈsel fəʊn/",
     "transcription_variants": {
       "us": "/ˈsel foʊn/"

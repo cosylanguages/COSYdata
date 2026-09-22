@@ -67,8 +67,8 @@
       "Keep your house clean always."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "housing",
-    "updated": "2025-01-15",
+    "theme": "descriptors",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -79,7 +79,10 @@
     "emoji": "✨",
     "comparative": "cleaner",
     "superlative": "cleanest",
-    "sub_theme": "furniture"
+    "sub_theme": "quality_condition",
+    "secondary_themes": [
+      "housing"
+    ]
   },
   {
     "id": "en:house:noun",
@@ -150,11 +153,11 @@
       "a set of rooms on one floor"
     ],
     "examples": [
-      "They live in a modern flat."
+      "Rent a small flat in the city."
     ],
     "domain": "general, spoken, relocation",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "flats",
     "tags": [
       "spoken"
@@ -208,28 +211,6 @@
       "en:flat:noun"
     ],
     "article": "an",
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "en:rooms:noun",
-    "word": "rooms",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "divided spaces inside a building"
-    ],
-    "examples": [
-      "The house has five rooms."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "rooms",
-    "countability": "countable",
-    "transcription": "/ruːmz/",
-    "no_antonym": true,
-    "emoji": "🚪",
     "sub_theme": "furniture"
   },
   {
@@ -298,7 +279,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "bathrooms",
     "tags": [
       "spoken"
@@ -311,7 +292,7 @@
       "us": "/ˈbæθ.ruːm/"
     },
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "rooms_spaces"
   },
   {
     "id": "en:living:noun",
@@ -728,7 +709,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "beds",
     "tags": [
       "spoken"
@@ -738,7 +719,10 @@
     "emoji": "🛏️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "secondary_themes": [
+      "health"
+    ]
   },
   {
     "id": "en:desk:noun",
@@ -1001,7 +985,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "cups",
     "tags": [
       "spoken"
@@ -1011,7 +995,7 @@
     "emoji": "☕",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "kitchen"
   },
   {
     "id": "en:glass:noun",
@@ -1467,11 +1451,11 @@
       "a metal object opening door locks"
     ],
     "examples": [
-      "Unlock the door with key."
+      "Use the brass key to open the lock."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "keys",
     "tags": [
       "spoken"
@@ -1528,8 +1512,8 @@
       "Wash the dirty plates now."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "housing",
-    "updated": "2025-01-15",
+    "theme": "descriptors",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -1543,7 +1527,10 @@
     },
     "comparative": "dirtier",
     "superlative": "dirtiest",
-    "sub_theme": "furniture"
+    "sub_theme": "quality_condition",
+    "secondary_themes": [
+      "housing"
+    ]
   },
   {
     "id": "en:tidy:adjective",
@@ -1559,7 +1546,7 @@
     ],
     "domain": "general, relocation",
     "theme": "housing",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈtaɪ.di/",
     "emoji": "✨",
     "antonyms": [
@@ -1641,14 +1628,14 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "living rooms",
     "transcription": "/ˈlɪv.ɪŋ ˌruːm/",
     "no_antonym": true,
     "emoji": "🛋️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "rooms_spaces"
   },
   {
     "id": "en:dining-room:noun",

@@ -137,7 +137,7 @@
     ],
     "domain": "general",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "notes",
     "transcription": "/nəʊt/",
     "no_antonym": true,
@@ -150,7 +150,10 @@
       "UK"
     ],
     "article": "a",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "regional_equivalents": [
+      "en:banknote:noun"
+    ]
   },
   {
     "id": "en:bank:noun",
@@ -166,7 +169,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "banks",
     "tags": [
       "spoken"
@@ -179,7 +182,11 @@
     "emoji": "🏦",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "secondary_themes": [
+      "travel",
+      "work"
+    ]
   },
   {
     "id": "en:price:noun",
@@ -250,7 +257,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -261,7 +268,10 @@
     ],
     "comparative": "cheaper",
     "superlative": "cheapest",
-    "sub_theme": "money_currency"
+    "sub_theme": "transactions_pricing",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:expensive:adjective",
@@ -277,7 +287,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -288,37 +298,10 @@
     ],
     "comparative": "expensiver",
     "superlative": "expensivest",
-    "sub_theme": "money_currency"
-  },
-  {
-    "id": "en:free:noun",
-    "word": "free",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "costing no money at all"
-    ],
-    "examples": [
-      "Water is free in restaurant."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "shopping",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "levels": [
-      "A1",
-      "B2"
-    ],
-    "transcription": "/friː/",
-    "emoji": "🆓",
-    "antonyms": [
-      "paid"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "money_currency"
+    "sub_theme": "transactions_pricing",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:buy:noun",
@@ -346,32 +329,6 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "money_currency"
-  },
-  {
-    "id": "en:sell:noun",
-    "word": "sell",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the act of offering goods for money"
-    ],
-    "examples": [
-      "Items are for sell here."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "shopping",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/sel/",
-    "emoji": "🏷️",
-    "antonyms": [
-      "buy"
-    ],
-    "countability": "uncountable",
     "sub_theme": "money_currency"
   },
   {
@@ -680,5 +637,38 @@
     "domain": "general",
     "theme": "shopping",
     "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:banknote:noun",
+    "word": "banknote",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "banknotes",
+    "article": "a",
+    "definitions": [
+      "a piece of paper money issued by a bank"
+    ],
+    "examples": [
+      "He paid for the ticket with a ten-pound banknote."
+    ],
+    "domain": "general, relocation",
+    "theme": "shopping",
+    "sub_theme": "money_currency",
+    "transcription": "/ˈbæŋk.noʊt/",
+    "emoji": "💵",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:note:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true,
+    "levels": [
+      "A1",
+      "A2"
+    ]
   }
 ]

@@ -9,11 +9,11 @@
       "a long thin mark on surface"
     ],
     "examples": [
-      "Draw a straight line with ruler."
+      "Draw a thin line with a pencil."
     ],
     "domain": "general, spoken, relocation",
     "theme": "shapes",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "lines",
     "tags": [
       "spoken"
@@ -22,9 +22,6 @@
     "no_antonym": true,
     "emoji": "📏",
     "countability": "countable",
-    "region": [
-      "US"
-    ],
     "article": "a",
     "sub_theme": "geometric_shapes"
   },
@@ -57,35 +54,6 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "article": "a",
-    "sub_theme": "geometric_shapes"
-  },
-  {
-    "id": "en:colour:noun",
-    "word": "colour",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "red green or blue shade"
-    ],
-    "examples": [
-      "What colour is your coat?"
-    ],
-    "domain": "general, relocation",
-    "theme": "shapes",
-    "updated": "2025-01-15",
-    "plural_form": "colours",
-    "transcription": "/ˈkʌl.ə/",
-    "no_antonym": true,
-    "emoji": "🎨",
-    "countability": "countable",
-    "transcription_variants": {
-      "us": "/ˈkʌl.ɚ/"
-    },
-    "region": [
-      "UK"
     ],
     "article": "a",
     "sub_theme": "geometric_shapes"
@@ -125,14 +93,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "large in size"
+      "large in physical size, extent, or degree"
     ],
     "examples": [
       "Think of something big."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "shapes",
-    "updated": "2025-01-15",
+    "theme": "descriptors",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -143,91 +111,13 @@
     ],
     "comparative": "bigger",
     "superlative": "biggest",
-    "sub_theme": "geometric_shapes"
-  },
-  {
-    "id": "en:tiny:noun",
-    "word": "tiny",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a very small size"
+    "sub_theme": "size_dimension",
+    "synonyms": [
+      "en:large:adjective"
     ],
-    "examples": [
-      "The ant is tiny."
-    ],
-    "domain": "general",
-    "theme": "shapes",
-    "updated": "2025-01-15",
-    "transcription": "/ˈtaɪ.ni/",
-    "emoji": "🔬",
-    "antonyms": [
-      "huge"
-    ],
-    "countability": "uncountable",
-    "levels": [
-      "A1",
-      "B1"
-    ],
-    "sub_theme": "geometric_shapes"
-  },
-  {
-    "id": "en:huge:noun",
-    "word": "huge",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a very large size"
-    ],
-    "examples": [
-      "The elephant is huge."
-    ],
-    "domain": "general",
-    "theme": "shapes",
-    "updated": "2025-01-15",
-    "transcription": "/hjuːdʒ/",
-    "emoji": "🐘",
-    "antonyms": [
-      "tiny"
-    ],
-    "countability": "uncountable",
-    "levels": [
-      "A1",
-      "A2"
-    ],
-    "sub_theme": "geometric_shapes"
-  },
-  {
-    "id": "en:curved:noun",
-    "word": "curved",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a rounded non straight line shape"
-    ],
-    "examples": [
-      "The road has a curved line."
-    ],
-    "domain": "general",
-    "theme": "shapes",
-    "updated": "2025-01-15",
-    "transcription": "/kɜːvd/",
-    "emoji": "🔄",
-    "antonyms": [
-      "straight"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/kɝːvd/"
-    },
-    "levels": [
-      "A1",
-      "B2"
-    ],
-    "sub_theme": "geometric_shapes"
+    "secondary_themes": [
+      "shapes"
+    ]
   },
   {
     "id": "en:round:noun",
@@ -465,7 +355,7 @@
     ],
     "domain": "general",
     "theme": "shapes",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/wʊl/",
     "no_antonym": true,
     "emoji": "🧶",
@@ -474,7 +364,7 @@
       "A1",
       "B1"
     ],
-    "sub_theme": "geometric_shapes"
+    "sub_theme": "materials_textures"
   },
   {
     "id": "en:leather:noun",
@@ -547,8 +437,8 @@
       "A giant tree stood tall."
     ],
     "domain": "general",
-    "theme": "shapes",
-    "updated": "2025-01-15",
+    "theme": "descriptors",
+    "updated": "2026-09-22",
     "plural_form": "giants",
     "transcription": "/ˈdʒaɪ.ənt/",
     "emoji": "🧌",
@@ -561,6 +451,6 @@
       "B1"
     ],
     "article": "a",
-    "sub_theme": "geometric_shapes"
+    "sub_theme": "size_dimension"
   }
 ]

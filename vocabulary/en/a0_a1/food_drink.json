@@ -124,7 +124,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -139,7 +139,11 @@
     "transcription_variants": {
       "us": "/ˈwɑː.t̬ɚ/"
     },
-    "sub_theme": "meals"
+    "sub_theme": "drinks",
+    "secondary_themes": [
+      "nature",
+      "weather"
+    ]
   },
   {
     "id": "en:salt:noun",
@@ -240,7 +244,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "bills",
     "tags": [
       "spoken"
@@ -258,7 +262,10 @@
       "UK"
     ],
     "article": "a",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "regional_equivalents": [
+      "en:check:noun"
+    ]
   },
   {
     "id": "en:order:noun",
@@ -596,31 +603,6 @@
     "emoji": "🥚",
     "countability": "countable",
     "article": "an",
-    "sub_theme": "meals"
-  },
-  {
-    "id": "en:eggs:noun",
-    "word": "eggs",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "oval food laid by farm hens"
-    ],
-    "examples": [
-      "We fried two eggs for breakfast."
-    ],
-    "domain": "general, spoken, travel",
-    "theme": "food",
-    "updated": "2025-01-15",
-    "plural_form": "eggs",
-    "tags": [
-      "spoken"
-    ],
-    "countability": "countable",
-    "transcription": "/eɡ/",
-    "no_antonym": true,
-    "emoji": "🥚",
     "sub_theme": "meals"
   },
   {
@@ -1041,28 +1023,6 @@
     "emoji": "🥕",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "meals"
-  },
-  {
-    "id": "en:vegetables:noun",
-    "word": "vegetables",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "plants used as food in meals"
-    ],
-    "examples": [
-      "Eat fresh vegetables every day."
-    ],
-    "domain": "general, travel",
-    "theme": "food",
-    "updated": "2025-01-15",
-    "plural_form": "vegetables",
-    "countability": "countable",
-    "transcription": "/ˈvedʒ.tə.bəl/",
-    "no_antonym": true,
-    "emoji": "🥕",
     "sub_theme": "meals"
   },
   {
@@ -1513,7 +1473,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -1540,7 +1500,7 @@
     ],
     "domain": "general, relocation",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈteɪ.sti/",
     "emoji": "😋",
     "antonyms": [
@@ -1652,7 +1612,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -1775,7 +1735,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "sodas",
     "transcription": "/ˈsəʊ.də/",
     "no_antonym": true,
@@ -1788,7 +1748,10 @@
       "US"
     ],
     "article": "a",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "regional_equivalents": [
+      "en:fizzy-drink:noun"
+    ]
   },
   {
     "id": "en:pizza:noun",
@@ -2411,5 +2374,63 @@
       "B1"
     ],
     "sub_theme": "meals"
+  },
+  {
+    "id": "en:check:noun",
+    "word": "check",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "checks",
+    "article": "a",
+    "definitions": [
+      "a written statement of the cost of food and drinks in a restaurant"
+    ],
+    "examples": [
+      "Ask the waiter for the check after dinner."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "food",
+    "sub_theme": "meals",
+    "transcription": "/tʃek/",
+    "emoji": "🧾",
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:bill:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
+  },
+  {
+    "id": "en:fizzy-drink:noun",
+    "word": "fizzy drink",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "fizzy drinks",
+    "article": "a",
+    "definitions": [
+      "a sweet carbonated soft drink"
+    ],
+    "examples": [
+      "Cold fizzy drink is popular in summer."
+    ],
+    "domain": "general, relocation",
+    "theme": "food",
+    "sub_theme": "drinks",
+    "transcription": "/ˈfɪz.i drɪŋk/",
+    "emoji": "🥤",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:soda:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
   }
 ]

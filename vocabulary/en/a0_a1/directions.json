@@ -81,87 +81,6 @@
     "sub_theme": "asking_giving_directions"
   },
   {
-    "id": "en:side:adverb",
-    "word": "side",
-    "language": "en",
-    "form": "adverb",
-    "level": "A1",
-    "definitions": [
-      "at or near the outer edge or part"
-    ],
-    "examples": [
-      "Walk along the side of road."
-    ],
-    "domain": "general, spoken, relocation",
-    "theme": "navigation",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/saɪd/",
-    "no_antonym": true,
-    "emoji": "➡️",
-    "levels": [
-      "A1",
-      "A2"
-    ],
-    "sub_theme": "asking_giving_directions"
-  },
-  {
-    "id": "en:middle:adverb",
-    "word": "middle",
-    "language": "en",
-    "form": "adverb",
-    "level": "A1",
-    "definitions": [
-      "in the center position"
-    ],
-    "examples": [
-      "Stand in the middle of room."
-    ],
-    "domain": "general, spoken",
-    "theme": "navigation",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈmɪd.əl/",
-    "no_antonym": true,
-    "emoji": "🎯",
-    "levels": [
-      "A1",
-      "A2"
-    ],
-    "sub_theme": "asking_giving_directions"
-  },
-  {
-    "id": "en:address:phrase",
-    "word": "address",
-    "language": "en",
-    "form": "phrase",
-    "level": "A0",
-    "definitions": [
-      "asking where a place is located"
-    ],
-    "examples": [
-      "What is your home address please?"
-    ],
-    "domain": "relocation, spoken, travel",
-    "theme": "navigation",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "transcription": "/əˈdres/",
-    "no_antonym": true,
-    "emoji": "🏠",
-    "transcription_variants": {
-      "us": "/ˈæd.res/"
-    },
-    "sub_theme": "asking_giving_directions"
-  },
-  {
     "id": "en:north:adverb",
     "word": "north",
     "language": "en",
@@ -771,10 +690,10 @@
     "sub_theme": "asking_giving_directions"
   },
   {
-    "id": "en:centre:adverb",
+    "id": "en:centre:noun",
     "word": "centre",
     "language": "en",
-    "form": "adverb",
+    "form": "noun",
     "level": "A1",
     "definitions": [
       "in or towards middle place"
@@ -784,7 +703,7 @@
     ],
     "domain": "general, relocation",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈsen.tə/",
     "no_antonym": true,
     "emoji": "🎯",
@@ -795,15 +714,22 @@
       "UK"
     ],
     "regional_equivalents": [
-      "en:center:adverb"
+      "en:center:noun"
     ],
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "countability": "countable",
+    "plural_form": "centres",
+    "article": "a",
+    "levels": [
+      "A1",
+      "B1"
+    ]
   },
   {
-    "id": "en:center:adverb",
+    "id": "en:center:noun",
     "word": "center",
     "language": "en",
-    "form": "adverb",
+    "form": "noun",
     "level": "A1",
     "definitions": [
       "in or towards middle place"
@@ -813,7 +739,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -827,39 +753,12 @@
       "US"
     ],
     "regional_equivalents": [
-      "en:centre:adverb"
+      "en:centre:noun"
     ],
-    "sub_theme": "asking_giving_directions"
-  },
-  {
-    "id": "en:corner:adverb",
-    "word": "corner",
-    "language": "en",
-    "form": "adverb",
-    "level": "A1",
-    "definitions": [
-      "at the meeting of streets"
-    ],
-    "examples": [
-      "Turn left at corner street."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "navigation",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈkɔː.nə/",
-    "no_antonym": true,
-    "emoji": "📐",
-    "transcription_variants": {
-      "us": "/ˈkɔːr.nɚ/"
-    },
-    "levels": [
-      "A1",
-      "A2"
-    ],
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "countability": "countable",
+    "plural_form": "centers",
+    "article": "a"
   },
   {
     "id": "en:edge:adverb",
@@ -946,7 +845,7 @@
       "instruction to turn left"
     ],
     "examples": [
-      "Turn left at corner street."
+      "Turn left after the blue building."
     ],
     "domain": "spoken",
     "theme": "navigation",
@@ -954,7 +853,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/tɜːn left/",
     "emoji": "↩️",
     "antonyms": [

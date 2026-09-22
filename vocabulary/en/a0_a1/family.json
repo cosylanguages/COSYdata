@@ -118,34 +118,6 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "en:parents:noun",
-    "word": "parents",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a mother and father together"
-    ],
-    "examples": [
-      "My parents visit us on weekend."
-    ],
-    "domain": "general, spoken, travel",
-    "theme": "family",
-    "updated": "2025-01-15",
-    "plural_form": "parents",
-    "tags": [
-      "spoken"
-    ],
-    "countability": "countable",
-    "transcription": "/ˈpeə.rənt/",
-    "no_antonym": true,
-    "emoji": "👨‍👩‍👧",
-    "transcription_variants": {
-      "us": "/ˈper.ənt/"
-    },
-    "sub_theme": "immediate_family"
-  },
-  {
     "id": "en:son:noun",
     "word": "son",
     "language": "en",
@@ -961,11 +933,12 @@
       "My name is Anna."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "family",
-    "updated": "2025-01-15",
+    "theme": "communication",
+    "updated": "2026-09-22",
     "plural_form": "names",
     "tags": [
-      "spoken"
+      "spoken",
+      "classroom"
     ],
     "levels": [
       "A1",
@@ -976,7 +949,7 @@
     "emoji": "🏷️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "immediate_family"
+    "sub_theme": "personal_info"
   },
   {
     "id": "en:age:noun",
@@ -1073,7 +1046,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "family",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "adults",
     "tags": [
       "spoken"
@@ -1088,7 +1061,7 @@
       "us": "/əˈdʌlt/"
     },
     "article": "an",
-    "sub_theme": "immediate_family"
+    "sub_theme": "relationships"
   },
   {
     "id": "en:senior:noun",
@@ -1311,35 +1284,6 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "en:grandparents:noun",
-    "word": "grandparents",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "the parents of your parents"
-    ],
-    "examples": [
-      "We visit our grandparents every summer."
-    ],
-    "domain": "spoken",
-    "theme": "family",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "plural_form": "grandparents",
-    "countability": "countable",
-    "transcription": "/ˈɡræn.peə.rənt/",
-    "no_antonym": true,
-    "emoji": "👴👵",
-    "transcription_variants": {
-      "us": "/ˈɡræn.per.ənt/"
-    },
-    "sub_theme": "immediate_family"
-  },
-  {
     "id": "en:grandchild:noun",
     "word": "grandchild",
     "language": "en",
@@ -1457,86 +1401,6 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "immediate_family"
-  },
-  {
-    "id": "en:twins:noun",
-    "word": "twins",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "two children born at same time"
-    ],
-    "examples": [
-      "The twins wear same shirt."
-    ],
-    "domain": "spoken",
-    "theme": "family",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "plural_form": "twins",
-    "countability": "countable",
-    "transcription": "/twɪn/",
-    "no_antonym": true,
-    "emoji": "👯",
-    "sub_theme": "immediate_family"
-  },
-  {
-    "id": "en:wake-up:noun",
-    "word": "wake up",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "the act of waking up morning"
-    ],
-    "examples": [
-      "My wake-up time is six o clock."
-    ],
-    "domain": "relocation, spoken, travel",
-    "theme": "family",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "transcription": "/weɪk ʌp/",
-    "emoji": "⏰",
-    "antonyms": [
-      "go to sleep"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "immediate_family"
-  },
-  {
-    "id": "en:get-up:noun",
-    "word": "get up",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "getting out of bed morning"
-    ],
-    "examples": [
-      "My get-up routine is quick."
-    ],
-    "domain": "spoken, travel",
-    "theme": "family",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "transcription": "/ɡet ʌp/",
-    "emoji": "🌅",
-    "antonyms": [
-      "go to bed"
-    ],
-    "countability": "uncountable",
     "sub_theme": "immediate_family"
   },
   {
@@ -2089,10 +1953,10 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "en:take-care-of:noun",
+    "id": "en:take-care-of:verb",
     "word": "take care of",
     "language": "en",
-    "form": "noun",
+    "form": "verb",
     "level": "A0",
     "definitions": [
       "looking after family member"
@@ -2106,15 +1970,24 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/teɪk keə r əv/",
     "no_antonym": true,
     "emoji": "🤗",
-    "countability": "uncountable",
     "transcription_variants": {
       "us": "/teɪk ker əv/"
     },
-    "sub_theme": "immediate_family"
+    "sub_theme": "immediate_family",
+    "past_tense": "took care of",
+    "past_participle": "taken care of",
+    "present_participle": "taking care of",
+    "is_irregular": true,
+    "prepositions": [
+      {
+        "preposition": "of",
+        "example": "I take care of my little brother."
+      }
+    ]
   },
   {
     "id": "en:family-member:noun",

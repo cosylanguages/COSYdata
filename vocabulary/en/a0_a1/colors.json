@@ -202,7 +202,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "colors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -214,7 +214,10 @@
     },
     "comparative": "oranger",
     "superlative": "orangest",
-    "sub_theme": "primary_colors"
+    "sub_theme": "secondary_colors",
+    "secondary_themes": [
+      "food"
+    ]
   },
   {
     "id": "en:purple:adjective",
@@ -283,7 +286,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "colors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -292,7 +295,7 @@
     "emoji": "🟫",
     "comparative": "browner",
     "superlative": "brownest",
-    "sub_theme": "primary_colors"
+    "sub_theme": "secondary_colors"
   },
   {
     "id": "en:grey:adjective",
@@ -364,7 +367,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "colors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -380,7 +383,7 @@
     ],
     "comparative": "golder",
     "superlative": "goldest",
-    "sub_theme": "primary_colors"
+    "sub_theme": "shades_tones"
   },
   {
     "id": "en:light:adjective",
@@ -419,14 +422,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "the opposite of light"
+      "with little or no light"
     ],
     "examples": [
       "He wore a dark blue coat."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "colors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -446,10 +449,10 @@
     "sub_theme": "primary_colors"
   },
   {
-    "id": "en:colour:adjective",
+    "id": "en:colour:noun",
     "word": "colour",
     "language": "en",
-    "form": "adjective",
+    "form": "noun",
     "level": "A1",
     "definitions": [
       "having a specific visual shade"
@@ -459,7 +462,7 @@
     ],
     "domain": "general, relocation",
     "theme": "colors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈkʌl.ə/",
     "no_antonym": true,
     "emoji": "🎨",
@@ -470,17 +473,21 @@
       "UK"
     ],
     "regional_equivalents": [
-      "en:color:adjective"
+      "en:color:noun"
     ],
-    "comparative": "more colour",
-    "superlative": "most colour",
-    "sub_theme": "primary_colors"
+    "sub_theme": "primary_colors",
+    "countability": "countable",
+    "plural_form": "colours",
+    "article": "a",
+    "secondary_themes": [
+      "shapes"
+    ]
   },
   {
-    "id": "en:color:adjective",
+    "id": "en:color:noun",
     "word": "color",
     "language": "en",
-    "form": "adjective",
+    "form": "noun",
     "level": "A1",
     "definitions": [
       "having a specific visual shade"
@@ -490,7 +497,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "colors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -504,11 +511,12 @@
       "US"
     ],
     "regional_equivalents": [
-      "en:colour:adjective"
+      "en:colour:noun"
     ],
-    "comparative": "colorer",
-    "superlative": "colorest",
-    "sub_theme": "primary_colors"
+    "sub_theme": "primary_colors",
+    "countability": "countable",
+    "plural_form": "colors",
+    "article": "a"
   },
   {
     "id": "en:grey-gray:adjective",
@@ -609,7 +617,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈkʌl.ə.fəl/",
     "emoji": "🌈",
     "antonyms": [
@@ -624,6 +632,6 @@
     ],
     "comparative": "more colorful",
     "superlative": "most colorful",
-    "sub_theme": "primary_colors"
+    "sub_theme": "descriptors"
   }
 ]

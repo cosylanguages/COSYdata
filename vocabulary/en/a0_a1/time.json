@@ -292,143 +292,6 @@
     "sub_theme": "days_months_seasons"
   },
   {
-    "id": "en:always:noun",
-    "word": "always",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "at all times"
-    ],
-    "examples": [
-      "She always smiles at school."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "countability": "uncountable",
-    "transcription": "/ˈɔːl.weɪz/",
-    "emoji": "♾️",
-    "antonyms": [
-      "never"
-    ],
-    "transcription_variants": {
-      "us": "/ˈɑːl.weɪz/"
-    },
-    "sub_theme": "days_months_seasons"
-  },
-  {
-    "id": "en:usually:noun",
-    "word": "usually",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "most of the time"
-    ],
-    "examples": [
-      "I usually drink tea morning."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈjuː.ʒu.ə.li/",
-    "emoji": "🔄",
-    "antonyms": [
-      "rarely"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "days_months_seasons"
-  },
-  {
-    "id": "en:often:noun",
-    "word": "often",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "many times frequently"
-    ],
-    "examples": [
-      "He often reads in the park."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈɒf.ən/",
-    "emoji": "🔁",
-    "antonyms": [
-      "rarely"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/ˈɑːf.ən/"
-    },
-    "sub_theme": "days_months_seasons"
-  },
-  {
-    "id": "en:sometimes:noun",
-    "word": "sometimes",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "on some occasions"
-    ],
-    "examples": [
-      "We sometimes play chess."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "countability": "uncountable",
-    "transcription": "/ˈsʌm.taɪmz/",
-    "no_antonym": true,
-    "emoji": "🔂",
-    "sub_theme": "days_months_seasons"
-  },
-  {
-    "id": "en:never:noun",
-    "word": "never",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "at no time ever"
-    ],
-    "examples": [
-      "I never eat raw meat."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈnev.ə/",
-    "emoji": "🚫",
-    "antonyms": [
-      "always"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/ˈnev.ɚ/"
-    },
-    "sub_theme": "days_months_seasons"
-  },
-  {
     "id": "en:past:noun",
     "word": "past",
     "language": "en",
@@ -488,10 +351,10 @@
     "sub_theme": "days_months_seasons"
   },
   {
-    "id": "en:soon:noun",
+    "id": "en:soon:adverb",
     "word": "soon",
     "language": "en",
-    "form": "noun",
+    "form": "adverb",
     "level": "A1",
     "definitions": [
       "in a short time from now"
@@ -501,17 +364,19 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "time",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
-      "spoken"
+      "spoken",
+      "classroom"
     ],
     "transcription": "/suːn/",
     "emoji": "⏱️",
     "antonyms": [
       "later"
     ],
-    "countability": "uncountable",
-    "sub_theme": "days_months_seasons"
+    "sub_theme": "frequency_duration",
+    "comparative": "sooner",
+    "superlative": "soonest"
   },
   {
     "id": "en:birthday:noun",
@@ -772,7 +637,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "time",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -790,7 +655,10 @@
     },
     "comparative": "earlier",
     "superlative": "earliest",
-    "sub_theme": "days_months_seasons"
+    "sub_theme": "days_months_seasons",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:late:adjective",
@@ -806,7 +674,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "time",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -817,7 +685,10 @@
     ],
     "comparative": "later",
     "superlative": "latest",
-    "sub_theme": "days_months_seasons"
+    "sub_theme": "days_months_seasons",
+    "secondary_themes": [
+      "descriptors"
+    ]
   },
   {
     "id": "en:date:verb",
@@ -857,11 +728,11 @@
       "a unit of time sixty minutes"
     ],
     "examples": [
-      "I sleep eight hours night."
+      "Wait one hour for the bus."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "time",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "hours",
     "tags": [
       "spoken"

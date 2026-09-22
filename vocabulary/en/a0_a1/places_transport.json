@@ -1,34 +1,5 @@
 [
   {
-    "id": "en:far:noun",
-    "word": "far",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a great distance away in space"
-    ],
-    "examples": [
-      "They traveled to a far town."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "travel",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/fɑː/",
-    "emoji": "🗺️",
-    "antonyms": [
-      "near"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/fɑːr/"
-    },
-    "sub_theme": "places_destinations"
-  },
-  {
     "id": "en:walk:noun",
     "word": "walk",
     "language": "en",
@@ -131,7 +102,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -145,7 +116,10 @@
     "region": [
       "UK"
     ],
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "regional_equivalents": [
+      "en:mail:noun"
+    ]
   },
   {
     "id": "en:train:noun",
@@ -381,7 +355,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "corners",
     "tags": [
       "spoken"
@@ -398,36 +372,10 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "places_destinations"
-  },
-  {
-    "id": "en:near:noun",
-    "word": "near",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a position short distance away"
-    ],
-    "examples": [
-      "The park is in the near area."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "travel",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/nɪə/",
-    "emoji": "📍",
-    "antonyms": [
-      "far"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/nɪr/"
-    },
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "secondary_themes": [
+      "navigation"
+    ]
   },
   {
     "id": "en:town:noun",
@@ -549,8 +497,8 @@
       "Walk to school every morning."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "travel",
-    "updated": "2025-01-15",
+    "theme": "education",
+    "updated": "2026-09-22",
     "plural_form": "schools",
     "tags": [
       "spoken"
@@ -563,7 +511,10 @@
     "emoji": "🏫",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "classroom_objects",
+    "secondary_themes": [
+      "places_transport"
+    ]
   },
   {
     "id": "en:college:noun",
@@ -1046,14 +997,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a machine that flies in the air"
+      "an aircraft with fixed wings powered by engines"
     ],
     "examples": [
       "The plane flew in sky."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "planes",
     "tags": [
       "spoken"
@@ -1063,7 +1014,10 @@
     "emoji": "✈️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "synonyms": [
+      "en:airplane:noun"
+    ]
   },
   {
     "id": "en:airplane:noun",
@@ -1072,14 +1026,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a machine that flies in the air"
+      "a powered flying vehicle with fixed wings"
     ],
     "examples": [
       "An airplane landed safely."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "airplanes",
     "tags": [
       "spoken"
@@ -1092,7 +1046,10 @@
       "us": "/ˈer.pleɪn/"
     },
     "article": "an",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "synonyms": [
+      "en:plane:noun"
+    ]
   },
   {
     "id": "en:bicycle:noun",
@@ -1185,11 +1142,11 @@
       "a small vehicle used for traveling on water"
     ],
     "examples": [
-      "They sailed a boat on the lake."
+      "They sailed a wooden boat on the lake."
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "boats",
     "tags": [
       "spoken"
@@ -1248,7 +1205,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "tickets",
     "tags": [
       "spoken"
@@ -1262,7 +1219,10 @@
     "emoji": "🎟️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "transit_booking",
+    "secondary_themes": [
+      "shopping"
+    ]
   },
   {
     "id": "en:travel:noun",
@@ -1648,7 +1608,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "apartment buildings",
     "transcription": "/əˈpɑːt.mənt ˌbɪl.dɪŋ/",
     "no_antonym": true,
@@ -1661,7 +1621,10 @@
       "US"
     ],
     "article": "an",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "regional_equivalents": [
+      "en:block-of-flats:noun"
+    ]
   },
   {
     "id": "en:bridge:noun",
@@ -1841,34 +1804,6 @@
     "sub_theme": "places_destinations"
   },
   {
-    "id": "en:arrive:noun",
-    "word": "arrive",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "the act of reaching a place"
-    ],
-    "examples": [
-      "Check train arrive time."
-    ],
-    "domain": "relocation, spoken, travel",
-    "theme": "travel",
-    "tags": [
-      "spoken",
-      "beginner"
-    ],
-    "updated": "2025-01-15",
-    "transcription": "/əˈraɪv/",
-    "emoji": "🛬",
-    "antonyms": [
-      "leave",
-      "depart"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "places_destinations"
-  },
-  {
     "id": "en:leave:noun",
     "word": "leave",
     "language": "en",
@@ -1943,7 +1878,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "trucks",
     "transcription": "/trʌk/",
     "no_antonym": true,
@@ -1957,7 +1892,10 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "regional_equivalents": [
+      "en:lorry:noun"
+    ]
   },
   {
     "id": "en:traffic-light:noun",
@@ -2136,7 +2074,8 @@
     ],
     "regional_equivalents": [
       "en:underground:noun"
-    ]
+    ],
+    "updated": "2026-09-22"
   },
   {
     "id": "en:motorcycle:noun",
@@ -2162,5 +2101,90 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:mail:noun",
+    "word": "mail",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "uncountable",
+    "definitions": [
+      "letters and packages sent through the postal system"
+    ],
+    "examples": [
+      "Check the mail box every morning."
+    ],
+    "domain": "general, relocation",
+    "theme": "travel",
+    "sub_theme": "places_destinations",
+    "transcription": "/meɪl/",
+    "emoji": "📮",
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:post:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
+  },
+  {
+    "id": "en:block-of-flats:noun",
+    "word": "block of flats",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "blocks of flats",
+    "article": "a",
+    "definitions": [
+      "a large building containing multiple individual flats"
+    ],
+    "examples": [
+      "They live in a tall block of flats."
+    ],
+    "domain": "general, relocation",
+    "theme": "travel",
+    "sub_theme": "places_destinations",
+    "transcription": "/blɒk əv flæts/",
+    "emoji": "🏢",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:apartment-building:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
+  },
+  {
+    "id": "en:lorry:noun",
+    "word": "lorry",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "lorries",
+    "article": "a",
+    "definitions": [
+      "a large heavy motor vehicle for transporting goods"
+    ],
+    "examples": [
+      "The big lorry carried heavy goods on the road."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "travel",
+    "sub_theme": "vehicles_transportation",
+    "transcription": "/ˈlɒr.i/",
+    "emoji": "🚚",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:truck:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
   }
 ]

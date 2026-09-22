@@ -62,11 +62,11 @@
       "coming before all others in order"
     ],
     "examples": [
-      "She won first prize game."
+      "He came in first place in the race."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "numbers",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -79,13 +79,13 @@
     "transcription_variants": {
       "us": "/ˈfɝːst/"
     },
-    "sub_theme": "cardinal_numbers"
+    "sub_theme": "ordinal_numbers"
   },
   {
-    "id": "en:much:number",
+    "id": "en:much:determiner",
     "word": "much",
     "language": "en",
-    "form": "number",
+    "form": "determiner",
     "level": "A1",
     "definitions": [
       "a large amount of something"
@@ -95,7 +95,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "numbers",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -104,23 +104,24 @@
     "antonyms": [
       "little"
     ],
-    "sub_theme": "cardinal_numbers"
+    "sub_theme": "cardinal_numbers",
+    "usage_note": "much: uncountable; many: countable"
   },
   {
-    "id": "en:many:number",
+    "id": "en:many:determiner",
     "word": "many",
     "language": "en",
-    "form": "number",
+    "form": "determiner",
     "level": "A1",
     "definitions": [
       "a large number of people or things"
     ],
     "examples": [
-      "Many people visited the park."
+      "Many students attended the lecture."
     ],
     "domain": "general, spoken, travel",
     "theme": "numbers",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -129,7 +130,8 @@
     "antonyms": [
       "few"
     ],
-    "sub_theme": "cardinal_numbers"
+    "sub_theme": "cardinal_numbers",
+    "usage_note": "much: uncountable; many: countable"
   },
   {
     "id": "en:all:number",
@@ -1217,15 +1219,15 @@
       "I bought some fresh apples."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "numbers",
-    "updated": "2025-01-15",
+    "theme": "grammar",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
     "transcription": "/sʌm/",
     "no_antonym": true,
     "emoji": "📊",
-    "sub_theme": "cardinal_numbers"
+    "sub_theme": "quantifiers"
   },
   {
     "id": "en:any:number",
@@ -1345,10 +1347,10 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/twelfθ/",
     "no_antonym": true,
     "emoji": "1️⃣2️⃣",
-    "sub_theme": "cardinal_numbers"
+    "sub_theme": "ordinal_numbers"
   }
 ]

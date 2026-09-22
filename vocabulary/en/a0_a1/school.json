@@ -1,32 +1,5 @@
 [
   {
-    "id": "en:learn:noun",
-    "word": "learn",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the process of gaining knowledge"
-    ],
-    "examples": [
-      "School is a place to learn."
-    ],
-    "domain": "general, spoken, relocation",
-    "theme": "education",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/lɜːn/",
-    "no_antonym": true,
-    "emoji": "🧠",
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/lɝːn/"
-    },
-    "sub_theme": "classroom_objects"
-  },
-  {
     "id": "en:draw:verb",
     "word": "draw",
     "language": "en",
@@ -72,8 +45,8 @@
       "They sang songs in music."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "education",
-    "updated": "2025-01-15",
+    "theme": "leisure",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -84,7 +57,10 @@
     "transcription": "/ˈmjuː.zɪk/",
     "no_antonym": true,
     "emoji": "🎵",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "entertainment_arts",
+    "secondary_themes": [
+      "education"
+    ]
   },
   {
     "id": "en:read:noun",
@@ -446,32 +422,6 @@
     "sub_theme": "classroom_objects"
   },
   {
-    "id": "en:teach:noun",
-    "word": "teach",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the action of instructing students"
-    ],
-    "examples": [
-      "Her job is to teach."
-    ],
-    "domain": "general, spoken, relocation",
-    "theme": "education",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/tiːtʃ/",
-    "emoji": "👩‍🏫",
-    "antonyms": [
-      "learn"
-    ],
-    "countability": "uncountable",
-    "sub_theme": "classroom_objects"
-  },
-  {
     "id": "en:classroom:noun",
     "word": "classroom",
     "language": "en",
@@ -658,7 +608,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "education",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "erasers",
     "tags": [
       "spoken"
@@ -674,7 +624,10 @@
       "US"
     ],
     "article": "an",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "classroom_objects",
+    "regional_equivalents": [
+      "en:rubber:noun"
+    ]
   },
   {
     "id": "en:ruler:noun",
@@ -1115,8 +1068,8 @@
       "We held a brief meeting at school."
     ],
     "domain": "general, spoken",
-    "theme": "education",
-    "updated": "2025-01-15",
+    "theme": "work",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -1129,7 +1082,7 @@
     "plural_form": "meetings",
     "no_antonym": true,
     "article": "a",
-    "sub_theme": "classroom_objects"
+    "sub_theme": "workplace_locations"
   },
   {
     "id": "en:classmate:noun",
@@ -1159,5 +1112,34 @@
     "no_antonym": true,
     "article": "a",
     "sub_theme": "classroom_objects"
+  },
+  {
+    "id": "en:rubber:noun",
+    "word": "rubber",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "countable",
+    "plural_form": "rubbers",
+    "article": "a",
+    "definitions": [
+      "a small piece of rubber used to erase pencil marks"
+    ],
+    "examples": [
+      "Use a rubber to clean the pencil line."
+    ],
+    "domain": "general, relocation",
+    "theme": "education",
+    "sub_theme": "classroom_objects",
+    "transcription": "/ˈrʌb.ər/",
+    "emoji": "🧹",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:eraser:noun"
+    ],
+    "updated": "2026-09-22",
+    "no_antonym": true
   }
 ]

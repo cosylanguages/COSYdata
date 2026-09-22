@@ -12,8 +12,8 @@
       "His house is far away."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "descriptors",
-    "updated": "2025-01-15",
+    "theme": "navigation",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -28,7 +28,10 @@
     },
     "comparative": "further",
     "superlative": "furthest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "distance",
+    "secondary_themes": [
+      "travel"
+    ]
   },
   {
     "id": "en:thin:adjective",
@@ -76,7 +79,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "descriptors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -90,7 +93,10 @@
     },
     "comparative": "nearer",
     "superlative": "nearest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "secondary_themes": [
+      "travel"
+    ]
   },
   {
     "id": "en:modern:adjective",
@@ -291,7 +297,7 @@
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈtaɪ.ni/",
     "emoji": "🔬",
     "antonyms": [
@@ -304,7 +310,10 @@
     ],
     "comparative": "tinier",
     "superlative": "tiniest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "size_dimension",
+    "secondary_themes": [
+      "shapes"
+    ]
   },
   {
     "id": "en:huge:adjective",
@@ -320,7 +329,7 @@
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/hjuːdʒ/",
     "emoji": "🐘",
     "antonyms": [
@@ -333,7 +342,10 @@
     ],
     "comparative": "huger",
     "superlative": "hugest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "secondary_themes": [
+      "shapes"
+    ]
   },
   {
     "id": "en:wide:adjective",
@@ -435,14 +447,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "the opposite of slow"
+      "done or taking place in a short time"
     ],
     "examples": [
       "Take a quick shower now."
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/kwɪk/",
     "emoji": "⚡",
     "antonyms": [
@@ -450,7 +462,10 @@
     ],
     "comparative": "quicker",
     "superlative": "quickest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "synonyms": [
+      "en:fast:adjective"
+    ]
   },
   {
     "id": "en:shut:adjective",
@@ -459,14 +474,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "the opposite of open"
+      "firmly closed or fastened"
     ],
     "examples": [
       "The shop is shut now."
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ʃʌt/",
     "emoji": "🔒",
     "antonyms": [
@@ -478,7 +493,10 @@
     ],
     "comparative": "shutter",
     "superlative": "shuttest",
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "synonyms": [
+      "en:closed:adjective"
+    ]
   },
   {
     "id": "en:locked:adjective",
@@ -548,14 +566,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "the opposite of noisy"
+      "completely without noise or sound"
     ],
     "examples": [
       "The forest was dark and silent."
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "transcription": "/ˈsaɪ.lənt/",
     "emoji": "🤫",
     "antonyms": [
@@ -568,7 +586,10 @@
     ],
     "comparative": "more silent",
     "superlative": "most silent",
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "synonyms": [
+      "en:quiet:adjective"
+    ]
   },
   {
     "id": "en:bright:adjective",
@@ -885,8 +906,8 @@
       "A curved road goes up."
     ],
     "domain": "general",
-    "theme": "descriptors",
-    "updated": "2025-01-15",
+    "theme": "shapes",
+    "updated": "2026-09-22",
     "transcription": "/kɜːvd/",
     "emoji": "🔄",
     "antonyms": [
@@ -902,7 +923,7 @@
     ],
     "comparative": "more curved",
     "superlative": "most curved",
-    "sub_theme": "quality_condition"
+    "sub_theme": "lines_and_curves"
   },
   {
     "id": "en:round:adjective",

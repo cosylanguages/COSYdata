@@ -246,7 +246,7 @@
     "plural_form": "birds",
     "domain": "general, relocation, spoken, travel",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -256,7 +256,7 @@
       "us": "/bɝːd/"
     },
     "article": "a",
-    "sub_theme": "pets"
+    "sub_theme": "wild_animals"
   },
   {
     "id": "en:fish:noun",
@@ -274,7 +274,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
@@ -285,7 +285,10 @@
     "no_antonym": true,
     "plural_form": "fish",
     "article": "a",
-    "sub_theme": "sea_creatures"
+    "sub_theme": "sea_creatures",
+    "secondary_themes": [
+      "food"
+    ]
   },
   {
     "id": "en:mouse:noun",
@@ -304,14 +307,17 @@
     "plural_form": "mice",
     "domain": "general, spoken, relocation",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "tags": [
       "spoken"
     ],
     "no_antonym": true,
     "countability": "countable",
     "article": "a",
-    "sub_theme": "pets"
+    "sub_theme": "wild_animals",
+    "secondary_themes": [
+      "technology"
+    ]
   },
   {
     "id": "en:pig:noun",
@@ -415,28 +421,6 @@
     "sub_theme": "pets"
   },
   {
-    "id": "en:animals:noun",
-    "word": "animals",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "living creatures moving and eating"
-    ],
-    "examples": [
-      "Wild animals live in the forest."
-    ],
-    "domain": "general",
-    "theme": "animals",
-    "updated": "2025-01-15",
-    "plural_form": "animals",
-    "countability": "countable",
-    "transcription": "/ˈæn.ɪ.məl/",
-    "no_antonym": true,
-    "emoji": "🐾",
-    "sub_theme": "pets"
-  },
-  {
     "id": "en:chicken:noun",
     "word": "chicken",
     "language": "en",
@@ -450,7 +434,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "animals",
-    "updated": "2025-01-15",
+    "updated": "2026-09-22",
     "plural_form": "chickens",
     "tags": [
       "spoken"
@@ -463,7 +447,10 @@
     "emoji": "🐔",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "farm_animals"
+    "sub_theme": "farm_animals",
+    "secondary_themes": [
+      "food"
+    ]
   },
   {
     "id": "en:duck:noun",
@@ -749,28 +736,6 @@
       "B1"
     ],
     "article": "a",
-    "sub_theme": "plants_trees"
-  },
-  {
-    "id": "en:leaves:noun",
-    "word": "leaves",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "flat green parts on tree branches"
-    ],
-    "examples": [
-      "Yellow leaves fall in autumn time."
-    ],
-    "domain": "general",
-    "theme": "nature",
-    "updated": "2025-01-15",
-    "plural_form": "leaves",
-    "transcription": "/liːvz/",
-    "no_antonym": true,
-    "emoji": "🍃",
-    "countability": "countable",
     "sub_theme": "plants_trees"
   },
   {
