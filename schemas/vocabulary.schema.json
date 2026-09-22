@@ -248,7 +248,33 @@
     },
     "domain": {
       "type": "string",
-      "description": "Subject domain"
+      "pattern": "^(general|spoken|travelling|travel|relocation|exam_preparation|exam|professional|general_adjectives)(, (general|spoken|travelling|travel|relocation|exam_preparation|exam|professional|general_adjectives))*$",
+      "description": "Subject domain (single tag or comma-separated list)"
+    },
+    "scenario": {
+      "type": "string",
+      "description": "Short situational tag, e.g. airport check-in"
+    },
+    "register": {
+      "type": "string",
+      "enum": [
+        "formal",
+        "neutral",
+        "informal"
+      ],
+      "description": "Register or tone of the word"
+    },
+    "exam_board": {
+      "type": "string",
+      "description": "Exam board or specification name, e.g. IELTS, TOEFL, DELF B2"
+    },
+    "exam_level": {
+      "type": "string",
+      "description": "Level or grade within the specific exam board if distinct from CEFR level"
+    },
+    "transliteration": {
+      "type": "string",
+      "description": "Latin-script rendering of the word for non-Latin script languages"
     },
     "theme": {
       "type": "string",
