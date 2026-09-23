@@ -5,6 +5,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const LIGHTWEIGHT_FIELDS = ['id', 'word', 'emoji', 'level', 'form', 'theme', 'domain', 'tags'];
+
 function getJsonFiles(dir) {
   let results = [];
   if (!fs.existsSync(dir)) return results;
@@ -14,17 +16,23 @@ function getJsonFiles(dir) {
     const stat = fs.statSync(fullPath);
     if (stat && stat.isDirectory()) {
       results = results.concat(getJsonFiles(fullPath));
-    } else if (item.endsWith('.json') && item !== 'index.json' && item !== 'flat-index.json' && item !== 'search-index.json') {
+    } else if (
+      item.endsWith('.json') &&
+      item !== 'index.json' &&
+      item !== 'flat-index.json' &&
+      item !== 'search-index.json' &&
+      !item.endsWith('-tracks.json')
+    ) {
       results.push(fullPath);
     }
   }
   return results;
 }
 
-function buildFlatIndexForLanguage(langDir) {
+function buildSearchIndexForLanguage(langDir) {
   const files = getJsonFiles(langDir);
-  const flatIndex = {};
-  const TARGET_FIELDS = ['word', 'plural_form', 'comparative', 'superlative'];
+  const searchEntries = [];
+  const seenIds = new Set();
 
   for (const filePath of files) {
     try {
@@ -39,22 +47,16 @@ function buildFlatIndexForLanguage(langDir) {
 
       for (const entry of entries) {
         if (!entry || !entry.id) continue;
+        if (seenIds.has(entry.id)) continue;
+        seenIds.add(entry.id);
 
-        for (const field of TARGET_FIELDS) {
-          const val = entry[field];
-          if (typeof val === 'string' && val.trim() !== '') {
-            const surfaceForm = val.trim().toLowerCase();
-            if (!flatIndex[surfaceForm]) {
-              flatIndex[surfaceForm] = [];
-            }
-            const exists = flatIndex[surfaceForm].some(
-              (item) => item.id === entry.id && item.field === field
-            );
-            if (!exists) {
-              flatIndex[surfaceForm].push({ id: entry.id, field });
-            }
+        const lightweightEntry = {};
+        for (const field of LIGHTWEIGHT_FIELDS) {
+          if (entry[field] !== undefined) {
+            lightweightEntry[field] = entry[field];
           }
         }
+        searchEntries.push(lightweightEntry);
       }
     } catch (err) {
       console.error(`Error reading ${filePath}: ${err.message}`);
@@ -62,20 +64,14 @@ function buildFlatIndexForLanguage(langDir) {
     }
   }
 
-  const sortedMap = {};
-  const sortedKeys = Object.keys(flatIndex).sort();
+  // Sort entries deterministically by ID
+  searchEntries.sort((a, b) => a.id.localeCompare(b.id));
 
-  for (const key of sortedKeys) {
-    const sortedItems = flatIndex[key].sort((a, b) => {
-      if (a.id !== b.id) return a.id.localeCompare(b.id);
-      return a.field.localeCompare(b.field);
-    });
-    sortedMap[key] = sortedItems;
-  }
-
-  const outputPath = path.join(langDir, 'flat-index.json');
-  fs.writeFileSync(outputPath, JSON.stringify(sortedMap, null, 2) + '\n', 'utf8');
-  console.log(`Updated ${path.relative(path.join(__dirname, '..'), outputPath)} with ${sortedKeys.length} surface form(s).`);
+  const outputPath = path.join(langDir, 'search-index.json');
+  fs.writeFileSync(outputPath, JSON.stringify(searchEntries, null, 2) + '\n', 'utf8');
+  console.log(
+    `Updated ${path.relative(path.join(__dirname, '..'), outputPath)} with ${searchEntries.length} lightweight entry/entries.`
+  );
 }
 
 function main() {
@@ -88,7 +84,7 @@ function main() {
     .filter((item) => fs.statSync(item).isDirectory());
 
   for (const langDir of langDirs) {
-    buildFlatIndexForLanguage(langDir);
+    buildSearchIndexForLanguage(langDir);
   }
 }
 

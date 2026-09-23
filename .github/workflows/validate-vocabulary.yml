@@ -53,3 +53,11 @@ jobs:
             echo "Error: vocabulary flat-index.json files are out of date! Please run 'npm run build:flat-index' and commit the changes."
             exit 1
           fi
+
+      - name: Check Search Index Freshness
+        run: |
+          npm run build:search-index
+          if ! git diff --exit-code vocabulary/; then
+            echo "Error: vocabulary search-index.json files are out of date! Please run 'npm run build:search-index' and commit the changes."
+            exit 1
+          fi
