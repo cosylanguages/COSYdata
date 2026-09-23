@@ -248,8 +248,8 @@
     },
     "domain": {
       "type": "string",
-      "pattern": "^(general|spoken|travelling|travel|relocation|exam_preparation|exam|professional|general_adjectives)(, (general|spoken|travelling|travel|relocation|exam_preparation|exam|professional|general_adjectives))*$",
-      "description": "Subject domain (single tag or comma-separated list)"
+      "pattern": "^(general|travelling|travel|relocation|spoken|exam_preparation|exam|professional|general_adjectives)(, (general|travelling|travel|relocation|spoken|exam_preparation|exam|professional|general_adjectives))*$",
+      "description": "Subject domain course tracks (single tag or comma-separated list, e.g. general, travelling, relocation, spoken, exam_preparation, professional)"
     },
     "scenario": {
       "type": "string",
