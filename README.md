@@ -63,9 +63,15 @@ vocabulary/
 - **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.
 - **`a2/`**: Elementary CEFR A2 level vocabulary files across general and spoken courses.
 - **`b1/`**: Intermediate CEFR B1 level vocabulary files across general and spoken courses.
-- **`general`**: Standard CEFR course vocabulary.
-- **`spoken`**: Spoken course vocabulary focused on conversation.
-- **`general, spoken`**: Words present in both general and spoken course lists.
+
+### Course Track Domains (`domain`)
+- **`general`**: Standard CEFR course vocabulary for everyday communication.
+- **`travelling`**: Travel course vocabulary focused on tourism, transit, and navigation.
+- **`relocation`**: Relocation course vocabulary focused on housing, immigration, and settling in a new country.
+- **`spoken`**: Spoken course vocabulary focused on informal conversation and oral fluency.
+- **`exam_preparation`**: Exam preparation course vocabulary aligned with international proficiency tests (e.g. IELTS, TOEFL, DELF, TORFL).
+- **`professional`**: Professional course vocabulary focused on workplace, business, legal, financial, IT, and medical specializations.
+- **Multi-domain strings**: Entries can belong to multiple course tracks as a comma-separated list (e.g., `general, relocation, professional`).
 
 To regenerate `index.json` for all language folders, run:
 
