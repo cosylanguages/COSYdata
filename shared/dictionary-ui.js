@@ -188,7 +188,15 @@ export async function initDictionaryUI(container, options = {}) {
   }
 
   const lang = options.lang || targetEl.getAttribute('data-dictionary-lang') || targetEl.getAttribute('data-lang') || 'en';
-  const baseUrl = options.baseUrl || targetEl.getAttribute('data-base-url') || DEFAULT_BASE_URL;
+
+  let defaultRelativeBase = './';
+  if (typeof window !== 'undefined' && window.location && window.location.pathname) {
+    if (window.location.pathname.includes('/vocabulary/')) {
+      defaultRelativeBase = '../../';
+    }
+  }
+
+  const baseUrl = options.baseUrl || targetEl.getAttribute('data-base-url') || defaultRelativeBase;
 
   // Render initial loading state
   targetEl.classList.add('cosy-dict-container');

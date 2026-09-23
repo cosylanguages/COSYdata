@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COSYdata — Vocabulary Hub</title>
+  <link rel="stylesheet" href="./shared/dictionary-ui.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--cosy-dict-bg);
+      color: var(--cosy-dict-text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .hub-header {
+      background-color: var(--cosy-dict-card-bg);
+      border-bottom: 1px solid var(--cosy-dict-border);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: var(--cosy-dict-shadow);
+    }
+    .hub-title {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 36px;
+      margin: 0 0 12px 0;
+      color: var(--cosy-dict-primary);
+    }
+    .hub-tagline {
+      font-size: 18px;
+      color: var(--cosy-dict-text-muted);
+      max-width: 720px;
+      margin: 0 auto 16px auto;
+      line-height: 1.5;
+    }
+    .hub-description {
+      font-size: 14px;
+      color: var(--cosy-dict-text-muted);
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .hub-container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    .hub-section-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .language-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .lang-card {
+      background-color: var(--cosy-dict-card-bg);
+      border: 1px solid var(--cosy-dict-border);
+      border-radius: var(--cosy-dict-radius);
+      padding: 20px;
+      text-decoration: none;
+      color: var(--cosy-dict-text);
+      box-shadow: var(--cosy-dict-shadow);
+      transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .lang-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--cosy-dict-accent);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+    .lang-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .lang-name {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--cosy-dict-text);
+    }
+    .lang-code {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background-color: var(--cosy-dict-badge-bg);
+      color: var(--cosy-dict-badge-text);
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .lang-count {
+      font-size: 14px;
+      color: var(--cosy-dict-text-muted);
+      margin-top: 10px;
+    }
+    .lang-action {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--cosy-dict-accent);
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header class="hub-header">
+    <h1 class="hub-title">COSYdata Vocabulary Hub</h1>
+    <p class="hub-tagline">
+      Oxford/Cambridge-style dictionary browsing for the COSYlanguages ecosystem
+    </p>
+    <p class="hub-description">
+      <strong>COSYdata</strong> serves as the single source of truth for machine-readable vocabulary datasets, functional phrases, and curriculum competencies consumed across the COSYlanguages ecosystem (<a href="https://github.com/cosylanguages/COSYlanguages" target="_blank" style="color: inherit;">COSYlanguages</a>, <a href="https://github.com/cosylanguages/COSYmanuals" target="_blank" style="color: inherit;">COSYmanuals</a>, <a href="https://github.com/cosylanguages/COSYgames" target="_blank" style="color: inherit;">COSYgames</a>, <a href="https://github.com/cosylanguages/COSYtools" target="_blank" style="color: inherit;">COSYtools</a>).
+    </p>
+  </header>
+
+  <main class="hub-container">
+    <h2 class="hub-section-title">Available Language Dictionaries</h2>
+    <div class="language-grid" id="language-grid">
+      <!-- Dynamically generated language cards -->
+    </div>
+  </main>
+
+  <script type="module">
+    const languages = [
+      { code: 'en', name: 'English', flag: '🇬🇧' },
+      { code: 'fr', name: 'French', flag: '🇫🇷' },
+      { code: 'it', name: 'Italian', flag: '🇮🇹' },
+      { code: 'de', name: 'German', flag: '🇩🇪' },
+      { code: 'ru', name: 'Russian', flag: '🇷🇺' },
+      { code: 'el', name: 'Greek', flag: '🇬🇷' },
+      { code: 'es', name: 'Spanish', flag: '🇪🇸' },
+      { code: 'pt', name: 'Portuguese', flag: '🇵🇹' },
+      { code: 'br', name: 'Breton', flag: '🏴' },
+      { code: 'cv', name: 'Chuvash', flag: '🌐' },
+      { code: 'hy', name: 'Armenian', flag: '🇦🇲' },
+      { code: 'ka', name: 'Georgian', flag: '🇬🇪' },
+      { code: 'ba', name: 'Bashkir', flag: '🌐' },
+      { code: 'tt', name: 'Tatar', flag: '🌐' }
+    ];
+
+    async function loadWordCounts() {
+      const grid = document.getElementById('language-grid');
+      grid.innerHTML = '';
+
+      for (const lang of languages) {
+        const card = document.createElement('a');
+        card.className = 'lang-card';
+        card.href = `./vocabulary/${lang.code}/index.html`;
+
+        card.innerHTML = `
+          <div>
+            <div class="lang-card-header">
+              <span class="lang-name">${lang.flag} ${lang.name}</span>
+              <span class="lang-code">${lang.code}</span>
+            </div>
+            <div class="lang-count" id="count-${lang.code}">Loading word count...</div>
+          </div>
+          <div class="lang-action">Browse Dictionary →</div>
+        `;
+
+        grid.appendChild(card);
+
+        // Fetch index.json to count entries
+        fetch(`./vocabulary/${lang.code}/index.json`)
+          .then(res => res.ok ? res.json() : null)
+          .then(data => {
+            const countEl = document.getElementById(`count-${lang.code}`);
+            if (data && typeof data === 'object') {
+              const count = Object.keys(data).length;
+              countEl.textContent = `${count.toLocaleString()} vocabulary entries`;
+            } else {
+              countEl.textContent = 'Dictionary ready';
+            }
+          })
+          .catch(() => {
+            const countEl = document.getElementById(`count-${lang.code}`);
+            if (countEl) countEl.textContent = 'Dictionary ready';
+          });
+      }
+    }
+
+    loadWordCounts();
+  </script>
+</body>
+</html>
