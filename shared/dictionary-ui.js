@@ -2,7 +2,7 @@
  * COSYdata Dictionary UI Engine
  *
  * Framework-free, reusable ES module for rendering an Oxford/Cambridge-style
- * browsing experience for any language dataset in COSYdata.
+ * browsing experience for any language dataset in COSYdata with full accessibility support.
  */
 
 import { resolveVocab, hydrateVocabElements } from './vocab-resolver.js';
@@ -16,6 +16,30 @@ const KNOWN_DOMAINS = [
   'spoken',
   'exam_preparation',
   'professional'
+];
+
+const SUPPORTED_LANGUAGES = [
+  { code: 'en', name: 'English' },
+  { code: 'fr', name: 'French' },
+  { code: 'it', name: 'Italian' },
+  { code: 'de', name: 'German' },
+  { code: 'ru', name: 'Russian' },
+  { code: 'el', name: 'Greek' },
+  { code: 'es', name: 'Spanish' },
+  { code: 'pt', name: 'Portuguese' },
+  { code: 'br', name: 'Breton' },
+  { code: 'cv', name: 'Chuvash' },
+  { code: 'hy', name: 'Armenian' },
+  { code: 'ka', name: 'Georgian' },
+  { code: 'ba', name: 'Bashkir' },
+  { code: 'tt', name: 'Tatar' }
+];
+
+const ECOSYSTEM_REPOS = [
+  { name: 'COSYlanguages', desc: 'Learning Platform', pagesUrl: 'https://cosylanguages.github.io/COSYlanguages/', repoUrl: 'https://github.com/cosylanguages/COSYlanguages' },
+  { name: 'COSYmanuals', desc: 'Grammar Manuals', pagesUrl: 'https://cosylanguages.github.io/COSYmanuals/', repoUrl: 'https://github.com/cosylanguages/COSYmanuals' },
+  { name: 'COSYgames', desc: 'Language Games', pagesUrl: 'https://cosylanguages.github.io/COSYgames/', repoUrl: 'https://github.com/cosylanguages/COSYgames' },
+  { name: 'COSYtools', desc: 'Language Tools', pagesUrl: 'https://cosylanguages.github.io/COSYtools/', repoUrl: 'https://github.com/cosylanguages/COSYtools' }
 ];
 
 /**
@@ -158,7 +182,6 @@ async function loadLanguageDictionary(lang, baseUrl) {
 
     // Determine available domains in standard order
     const availableDomains = KNOWN_DOMAINS.filter((d) => foundDomains.has(d));
-    // Append any extra unknown domains found
     for (const d of foundDomains) {
       if (!availableDomains.includes(d)) {
         availableDomains.push(d);
@@ -201,8 +224,8 @@ export async function initDictionaryUI(container, options = {}) {
   // Render initial loading state
   targetEl.classList.add('cosy-dict-container');
   targetEl.innerHTML = `
-    <div class="cosy-dict-loading">
-      <div class="cosy-dict-spinner"></div>
+    <div class="cosy-dict-loading" role="status" aria-live="polite">
+      <div class="cosy-dict-spinner" aria-hidden="true"></div>
       <p>Loading ${lang.toUpperCase()} dictionary...</p>
     </div>
   `;
@@ -211,8 +234,14 @@ export async function initDictionaryUI(container, options = {}) {
   const favorites = getFavorites(lang);
   const wordOfTheDay = getWordOfTheDay(entries);
 
-  // State
+  // Parse search query from URL params if present
   let searchQuery = '';
+  if (typeof window !== 'undefined' && window.location && window.location.search) {
+    const params = new URLSearchParams(window.location.search);
+    searchQuery = params.get('q') || '';
+  }
+
+  // State
   let selectedLevels = new Set();
   let selectedDomains = new Set();
   let showFavoritesOnly = false;
@@ -220,28 +249,66 @@ export async function initDictionaryUI(container, options = {}) {
   // Render Skeleton UI
   targetEl.innerHTML = '';
 
-  const headerEl = document.createElement('div');
+  // Header Landmark
+  const headerEl = document.createElement('header');
   headerEl.className = 'cosy-dict-header';
+  headerEl.setAttribute('role', 'banner');
 
-  // Title & Stats
-  const titleEl = document.createElement('h2');
+  // Title Row with Title and Language Switcher
+  const titleRow = document.createElement('div');
+  titleRow.className = 'cosy-dict-title-row';
+
+  const titleEl = document.createElement('h1');
   titleEl.className = 'cosy-dict-title';
-  titleEl.textContent = `${lang.toUpperCase()} Dictionary (${entries.length.toLocaleString()} words)`;
-  headerEl.appendChild(titleEl);
+  const langObj = SUPPORTED_LANGUAGES.find((l) => l.code === lang) || { name: lang.toUpperCase() };
+  titleEl.textContent = `${langObj.name} Dictionary (${entries.length.toLocaleString()} words)`;
+  titleRow.appendChild(titleEl);
+
+  // Language Switcher Dropdown
+  const langSelectWrapper = document.createElement('div');
+  langSelectWrapper.className = 'cosy-dict-lang-switcher';
+  langSelectWrapper.innerHTML = `
+    <label for="cosy-lang-select" class="cosy-dict-lang-label">Language:</label>
+    <select id="cosy-lang-select" class="cosy-dict-lang-select" aria-label="Switch dictionary language">
+      ${SUPPORTED_LANGUAGES.map(
+        (l) => `<option value="${l.code}" ${l.code === lang ? 'selected' : ''}>${l.name} (${l.code.toUpperCase()})</option>`
+      ).join('')}
+    </select>
+  `;
+
+  const langSelect = langSelectWrapper.querySelector('#cosy-lang-select');
+  langSelect.addEventListener('change', (e) => {
+    const newLang = e.target.value;
+    if (newLang !== lang) {
+      let targetUrl = `../../vocabulary/${newLang}/index.html`;
+      if (searchQuery) {
+        targetUrl += `?q=${encodeURIComponent(searchQuery)}`;
+      }
+      window.location.href = targetUrl;
+    }
+  });
+
+  titleRow.appendChild(langSelectWrapper);
+  headerEl.appendChild(titleRow);
 
   // Word of the Day Banner
   if (wordOfTheDay) {
-    const wotdBanner = document.createElement('div');
+    const wotdBanner = document.createElement('section');
     wotdBanner.className = 'cosy-dict-wotd';
+    wotdBanner.setAttribute('aria-label', 'Word of the Day');
     wotdBanner.innerHTML = `
       <div class="cosy-dict-wotd-badge">Word of the Day</div>
       <div class="cosy-dict-wotd-content">
-        <span class="cosy-dict-wotd-emoji">${wordOfTheDay.emoji || ''}</span>
+        ${
+          wordOfTheDay.emoji
+            ? `<span class="cosy-dict-wotd-emoji" role="img" aria-label="Emoji ${wordOfTheDay.emoji}">${wordOfTheDay.emoji}</span>`
+            : ''
+        }
         <strong class="cosy-dict-wotd-word">${wordOfTheDay.word || ''}</strong>
         <span class="cosy-dict-wotd-pos">${wordOfTheDay.form || ''}</span>
         <span class="cosy-dict-wotd-def">${(wordOfTheDay.definitions && wordOfTheDay.definitions[0]) || ''}</span>
       </div>
-      <button type="button" class="cosy-dict-wotd-btn" data-jump-id="${wordOfTheDay.id}">Jump to entry →</button>
+      <button type="button" class="cosy-dict-wotd-btn" data-jump-id="${wordOfTheDay.id}" aria-label="Jump to entry for ${wordOfTheDay.word}">Jump to entry →</button>
     `;
 
     wotdBanner.querySelector('.cosy-dict-wotd-btn').addEventListener('click', () => {
@@ -252,20 +319,22 @@ export async function initDictionaryUI(container, options = {}) {
   }
 
   // Search & Filter Control Panel
-  const controlsEl = document.createElement('div');
+  const controlsEl = document.createElement('section');
   controlsEl.className = 'cosy-dict-controls';
+  controlsEl.setAttribute('role', 'search');
+  controlsEl.setAttribute('aria-label', 'Search and filter dictionary controls');
 
   // Search input
   const searchRow = document.createElement('div');
   searchRow.className = 'cosy-dict-search-row';
   searchRow.innerHTML = `
     <div class="cosy-dict-search-wrapper">
-      <span class="cosy-dict-search-icon">🔍</span>
-      <input type="text" class="cosy-dict-search-input" placeholder="Search words, definitions, tags..." aria-label="Search dictionary" />
-      <button type="button" class="cosy-dict-clear-btn" aria-label="Clear search" style="display: none;">×</button>
+      <span class="cosy-dict-search-icon" aria-hidden="true">🔍</span>
+      <input type="text" class="cosy-dict-search-input" value="${escapeHtml(searchQuery)}" placeholder="Search words, definitions, tags..." aria-label="Search words, definitions, or tags" />
+      <button type="button" class="cosy-dict-clear-btn" aria-label="Clear search input" style="display: ${searchQuery ? 'block' : 'none'};">×</button>
     </div>
-    <button type="button" class="cosy-dict-fav-toggle-btn ${showFavoritesOnly ? 'active' : ''}">
-      <span class="cosy-dict-star-icon">★</span> My List (${favorites.size})
+    <button type="button" class="cosy-dict-fav-toggle-btn ${showFavoritesOnly ? 'active' : ''}" aria-label="Toggle my saved favorites list">
+      <span class="cosy-dict-star-icon" aria-hidden="true">★</span> My List (${favorites.size})
     </button>
   `;
 
@@ -300,13 +369,13 @@ export async function initDictionaryUI(container, options = {}) {
   filtersRow.className = 'cosy-dict-filters-row';
 
   // Level filter
-  const levelFilterGroup = document.createElement('div');
+  const levelFilterGroup = document.createElement('fieldset');
   levelFilterGroup.className = 'cosy-dict-filter-group';
   levelFilterGroup.innerHTML = `
-    <span class="cosy-dict-filter-label">Level:</span>
+    <legend class="cosy-dict-filter-label">Level:</legend>
     <div class="cosy-dict-level-badges">
       ${ALL_CEFR_LEVELS.map(
-        (lvl) => `<button type="button" class="cosy-dict-level-chip" data-level="${lvl}">${lvl}</button>`
+        (lvl) => `<button type="button" class="cosy-dict-level-chip" data-level="${lvl}" aria-pressed="false" aria-label="Filter CEFR level ${lvl}">${lvl}</button>`
       ).join('')}
     </div>
   `;
@@ -317,9 +386,11 @@ export async function initDictionaryUI(container, options = {}) {
       if (selectedLevels.has(lvl)) {
         selectedLevels.delete(lvl);
         btn.classList.remove('active');
+        btn.setAttribute('aria-pressed', 'false');
       } else {
         selectedLevels.add(lvl);
         btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
       }
       renderList();
     });
@@ -329,16 +400,16 @@ export async function initDictionaryUI(container, options = {}) {
 
   // Domain filter (dynamic based on available domains)
   if (availableDomains.length > 0) {
-    const domainFilterGroup = document.createElement('div');
+    const domainFilterGroup = document.createElement('fieldset');
     domainFilterGroup.className = 'cosy-dict-filter-group';
     domainFilterGroup.innerHTML = `
-      <span class="cosy-dict-filter-label">Domain:</span>
+      <legend class="cosy-dict-filter-label">Domain:</legend>
       <div class="cosy-dict-domain-checkboxes">
         ${availableDomains
           .map(
             (dom) => `
           <label class="cosy-dict-domain-label">
-            <input type="checkbox" value="${dom}" class="cosy-dict-domain-cb" />
+            <input type="checkbox" value="${dom}" class="cosy-dict-domain-cb" aria-label="Filter domain ${formatDomainLabel(dom)}" />
             <span>${formatDomainLabel(dom)}</span>
           </label>
         `
@@ -368,18 +439,45 @@ export async function initDictionaryUI(container, options = {}) {
   // Status Bar
   const statusBar = document.createElement('div');
   statusBar.className = 'cosy-dict-status';
+  statusBar.setAttribute('role', 'status');
+  statusBar.setAttribute('aria-live', 'polite');
   targetEl.appendChild(statusBar);
 
-  // List Container
-  const listEl = document.createElement('div');
+  // Main List Container
+  const listEl = document.createElement('main');
   listEl.className = 'cosy-dict-list';
+  listEl.setAttribute('role', 'main');
+  listEl.setAttribute('aria-label', `${langObj.name} Vocabulary List`);
   targetEl.appendChild(listEl);
+
+  // Ecosystem Footer Block
+  const footerEl = document.createElement('footer');
+  footerEl.className = 'cosy-dict-footer';
+  footerEl.setAttribute('role', 'contentinfo');
+  footerEl.innerHTML = `
+    <div class="cosy-dict-footer-content">
+      <h3 class="cosy-dict-footer-title">COSYlanguages Ecosystem</h3>
+      <p class="cosy-dict-footer-desc">Explore connected tools, learning modules, and manuals in the COSY ecosystem:</p>
+      <div class="cosy-dict-ecosystem-links">
+        ${ECOSYSTEM_REPOS.map(
+          (repo) => `
+          <a href="${repo.pagesUrl}" class="cosy-dict-eco-link" target="_blank" rel="noopener noreferrer" aria-label="${repo.name} - ${repo.desc}">
+            <strong>${repo.name}</strong>
+            <span>${repo.desc}</span>
+          </a>
+        `
+        ).join('')}
+      </div>
+    </div>
+  `;
+  targetEl.appendChild(footerEl);
 
   // Function to jump to and highlight an entry
   function jumpToEntry(entryId) {
     const card = listEl.querySelector(`[data-entry-id="${CSS.escape(entryId)}"]`);
     if (card) {
       card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.focus();
       card.classList.add('cosy-dict-card-highlight');
       setTimeout(() => {
         card.classList.remove('cosy-dict-card-highlight');
@@ -390,7 +488,10 @@ export async function initDictionaryUI(container, options = {}) {
       searchInput.value = '';
       clearBtn.style.display = 'none';
       selectedLevels.clear();
-      levelFilterGroup.querySelectorAll('.cosy-dict-level-chip').forEach((b) => b.classList.remove('active'));
+      levelFilterGroup.querySelectorAll('.cosy-dict-level-chip').forEach((b) => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       selectedDomains.clear();
       domainFilterGroup?.querySelectorAll('.cosy-dict-domain-cb').forEach((cb) => (cb.checked = false));
       showFavoritesOnly = false;
@@ -402,6 +503,7 @@ export async function initDictionaryUI(container, options = {}) {
         const targetCard = listEl.querySelector(`[data-entry-id="${CSS.escape(entryId)}"]`);
         if (targetCard) {
           targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          targetCard.focus();
           targetCard.classList.add('cosy-dict-card-highlight');
           setTimeout(() => {
             targetCard.classList.remove('cosy-dict-card-highlight');
@@ -480,7 +582,7 @@ export async function initDictionaryUI(container, options = {}) {
 
     if (filtered.length === 0) {
       listEl.innerHTML = `
-        <div class="cosy-dict-empty">
+        <div class="cosy-dict-empty" role="region" aria-label="No results">
           <p>No vocabulary terms found matching your filter criteria.</p>
         </div>
       `;
@@ -502,7 +604,7 @@ export async function initDictionaryUI(container, options = {}) {
             favorites.delete(id);
           }
           saveFavorites(lang, favorites);
-          favToggleBtn.innerHTML = `<span class="cosy-dict-star-icon">★</span> My List (${favorites.size})`;
+          favToggleBtn.innerHTML = `<span class="cosy-dict-star-icon" aria-hidden="true">★</span> My List (${favorites.size})`;
           if (showFavoritesOnly && !isFav) {
             renderList();
           }
@@ -525,7 +627,7 @@ export async function initDictionaryUI(container, options = {}) {
 }
 
 /**
- * Creates an entry card DOM element.
+ * Creates an entry card DOM element with full accessibility properties.
  */
 function createEntryCard(entry, context) {
   const { lang, entryMap, favorites, onFavoriteToggle, onJumpToEntry } = context;
@@ -533,6 +635,8 @@ function createEntryCard(entry, context) {
   const card = document.createElement('article');
   card.className = 'cosy-dict-card';
   card.setAttribute('data-entry-id', entry.id);
+  card.setAttribute('tabindex', '0');
+  card.setAttribute('aria-label', `Vocabulary card for ${entry.word || entry.id}`);
 
   // Header Row: Emoji, Word, Fav star
   const cardHeader = document.createElement('div');
@@ -544,6 +648,8 @@ function createEntryCard(entry, context) {
   if (!entry.no_emoji && entry.emoji) {
     const emojiSpan = document.createElement('span');
     emojiSpan.className = 'cosy-dict-emoji';
+    emojiSpan.setAttribute('role', 'img');
+    emojiSpan.setAttribute('aria-label', `Emoji representation ${entry.emoji}`);
     emojiSpan.textContent = entry.emoji;
     titleGroup.appendChild(emojiSpan);
   }
@@ -560,14 +666,17 @@ function createEntryCard(entry, context) {
   const favBtn = document.createElement('button');
   favBtn.type = 'button';
   favBtn.className = `cosy-dict-star-btn ${isFav ? 'is-favorite' : ''}`;
-  favBtn.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
+  favBtn.setAttribute('aria-label', isFav ? `Remove ${entry.word} from favorites` : `Add ${entry.word} to favorites`);
+  favBtn.setAttribute('aria-pressed', isFav ? 'true' : 'false');
   favBtn.innerHTML = isFav ? '★' : '☆';
 
-  favBtn.addEventListener('click', () => {
+  favBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
     const nextState = !favorites.has(entry.id);
     favBtn.classList.toggle('is-favorite', nextState);
     favBtn.innerHTML = nextState ? '★' : '☆';
-    favBtn.setAttribute('aria-label', nextState ? 'Remove from favorites' : 'Add to favorites');
+    favBtn.setAttribute('aria-label', nextState ? `Remove ${entry.word} from favorites` : `Add ${entry.word} to favorites`);
+    favBtn.setAttribute('aria-pressed', nextState ? 'true' : 'false');
     onFavoriteToggle(entry.id, nextState);
   });
 
@@ -582,6 +691,7 @@ function createEntryCard(entry, context) {
   if (entry.transcription) {
     const ipaSpan = document.createElement('span');
     ipaSpan.className = 'cosy-dict-ipa';
+    ipaSpan.setAttribute('aria-label', `IPA Pronunciation ${entry.transcription}`);
     ipaSpan.textContent = entry.transcription;
     metaRow.appendChild(ipaSpan);
   } else if (entry.transcription_variants) {
@@ -618,8 +728,10 @@ function createEntryCard(entry, context) {
     const audioBtn = document.createElement('button');
     audioBtn.type = 'button';
     audioBtn.className = 'cosy-dict-audio-btn';
+    audioBtn.setAttribute('aria-label', `Play recorded pronunciation for ${entry.word}`);
     audioBtn.innerHTML = '🔊 Play';
-    audioBtn.onclick = () => {
+    audioBtn.onclick = (e) => {
+      e.stopPropagation();
       const audio = new Audio(entry.audio);
       audio.play().catch((err) => console.warn('[COSYdata UI] Audio play error:', err));
     };
@@ -628,8 +740,10 @@ function createEntryCard(entry, context) {
     const audioBtn = document.createElement('button');
     audioBtn.type = 'button';
     audioBtn.className = 'cosy-dict-audio-btn';
+    audioBtn.setAttribute('aria-label', `Listen to speech synthesis for ${entry.word}`);
     audioBtn.innerHTML = '🔊 Listen';
-    audioBtn.onclick = () => {
+    audioBtn.onclick = (e) => {
+      e.stopPropagation();
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(entry.word);
       utterance.lang = lang;
@@ -646,19 +760,19 @@ function createEntryCard(entry, context) {
   const grammarItems = [];
 
   if (entry.form === 'noun') {
-    if (entry.article) grammarItems.push(`<strong>Article:</strong> ${entry.article}`);
-    if (entry.gender) grammarItems.push(`<strong>Gender:</strong> ${entry.gender}`);
-    if (entry.countability) grammarItems.push(`<strong>Countability:</strong> ${entry.countability}`);
-    if (entry.plural_form) grammarItems.push(`<strong>Plural:</strong> ${entry.plural_form}`);
-    if (entry.singular_workaround) grammarItems.push(`<strong>Singular:</strong> ${entry.singular_workaround}`);
+    if (entry.article) grammarItems.push(`<strong>Article:</strong> ${escapeHtml(entry.article)}`);
+    if (entry.gender) grammarItems.push(`<strong>Gender:</strong> ${escapeHtml(entry.gender)}`);
+    if (entry.countability) grammarItems.push(`<strong>Countability:</strong> ${escapeHtml(entry.countability)}`);
+    if (entry.plural_form) grammarItems.push(`<strong>Plural:</strong> ${escapeHtml(entry.plural_form)}`);
+    if (entry.singular_workaround) grammarItems.push(`<strong>Singular:</strong> ${escapeHtml(entry.singular_workaround)}`);
   } else if (entry.form === 'adjective' || entry.form === 'adverb') {
-    if (entry.comparative) grammarItems.push(`<strong>Comparative:</strong> ${entry.comparative}`);
-    if (entry.superlative) grammarItems.push(`<strong>Superlative:</strong> ${entry.superlative}`);
-    if (entry.feminine) grammarItems.push(`<strong>Fem.:</strong> ${entry.feminine}`);
-    if (entry.neuter) grammarItems.push(`<strong>Neuter:</strong> ${entry.neuter}`);
-    if (entry.masculine_plural) grammarItems.push(`<strong>Masc. Pl.:</strong> ${entry.masculine_plural}`);
-    if (entry.feminine_plural) grammarItems.push(`<strong>Fem. Pl.:</strong> ${entry.feminine_plural}`);
-    if (entry.position) grammarItems.push(`<strong>Position:</strong> ${entry.position}`);
+    if (entry.comparative) grammarItems.push(`<strong>Comparative:</strong> ${escapeHtml(entry.comparative)}`);
+    if (entry.superlative) grammarItems.push(`<strong>Superlative:</strong> ${escapeHtml(entry.superlative)}`);
+    if (entry.feminine) grammarItems.push(`<strong>Fem.:</strong> ${escapeHtml(entry.feminine)}`);
+    if (entry.neuter) grammarItems.push(`<strong>Neuter:</strong> ${escapeHtml(entry.neuter)}`);
+    if (entry.masculine_plural) grammarItems.push(`<strong>Masc. Pl.:</strong> ${escapeHtml(entry.masculine_plural)}`);
+    if (entry.feminine_plural) grammarItems.push(`<strong>Fem. Pl.:</strong> ${escapeHtml(entry.feminine_plural)}`);
+    if (entry.position) grammarItems.push(`<strong>Position:</strong> ${escapeHtml(entry.position)}`);
   }
 
   if (grammarItems.length > 0) {
@@ -670,6 +784,7 @@ function createEntryCard(entry, context) {
   if (Array.isArray(entry.definitions) && entry.definitions.length > 0) {
     const defsList = document.createElement('ol');
     defsList.className = 'cosy-dict-definitions';
+    defsList.setAttribute('aria-label', `Definitions for ${entry.word}`);
     for (const def of entry.definitions) {
       const li = document.createElement('li');
       li.textContent = def;
@@ -682,6 +797,7 @@ function createEntryCard(entry, context) {
   if (Array.isArray(entry.examples) && entry.examples.length > 0) {
     const exList = document.createElement('div');
     exList.className = 'cosy-dict-examples';
+    exList.setAttribute('aria-label', `Example sentences for ${entry.word}`);
     for (const ex of entry.examples) {
       const exItem = document.createElement('blockquote');
       exItem.className = 'cosy-dict-example-item';
@@ -705,14 +821,16 @@ function createEntryCard(entry, context) {
       chip.type = 'button';
       chip.className = 'cosy-dict-chip cosy-dict-chip-synonym';
 
-      // Find if synonym exists in dictionary
       const targetEntry = findTargetEntry(syn, entryMap);
       chip.textContent = targetEntry ? targetEntry.word : syn;
 
       if (targetEntry) {
         chip.classList.add('is-clickable');
-        chip.title = `Jump to ${targetEntry.word}`;
-        chip.onclick = () => onJumpToEntry(targetEntry.id);
+        chip.setAttribute('aria-label', `Jump to synonym entry ${targetEntry.word}`);
+        chip.onclick = (e) => {
+          e.stopPropagation();
+          onJumpToEntry(targetEntry.id);
+        };
       }
 
       synGroup.appendChild(chip);
@@ -730,14 +848,16 @@ function createEntryCard(entry, context) {
       chip.type = 'button';
       chip.className = 'cosy-dict-chip cosy-dict-chip-antonym';
 
-      // Find if antonym exists in dictionary
       const targetEntry = findTargetEntry(ant, entryMap);
       chip.textContent = targetEntry ? targetEntry.word : ant;
 
       if (targetEntry) {
         chip.classList.add('is-clickable');
-        chip.title = `Jump to ${targetEntry.word}`;
-        chip.onclick = () => onJumpToEntry(targetEntry.id);
+        chip.setAttribute('aria-label', `Jump to antonym entry ${targetEntry.word}`);
+        chip.onclick = (e) => {
+          e.stopPropagation();
+          onJumpToEntry(targetEntry.id);
+        };
       }
 
       antGroup.appendChild(chip);
@@ -763,6 +883,7 @@ function createEntryCard(entry, context) {
         link.href = parsed.url;
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
+        link.setAttribute('aria-label', `External reference link to ${parsed.label}`);
         link.textContent = parsed.label;
         relatedRow.appendChild(link);
       }
@@ -795,6 +916,19 @@ function formatDomainLabel(domainStr) {
   return domainStr
     .replace(/_/g, ' ')
     .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+/**
+ * Escapes HTML characters in text string.
+ */
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
 // Auto-initialize on DOM ready for elements with data-dictionary-lang
