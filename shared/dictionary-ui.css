@@ -2,27 +2,28 @@
  * COSYdata Dictionary UI Engine Styles
  *
  * Clean, Oxford/Cambridge-style dictionary layout with serif typography for headwords,
- * responsive down to mobile width (320px), and light/dark theme support.
+ * responsive down to mobile width (320px), high-contrast accessible focus states,
+ * and light/dark theme support.
  */
 
 :root {
   --cosy-dict-bg: #f8fafc;
   --cosy-dict-card-bg: #ffffff;
   --cosy-dict-text: #0f172a;
-  --cosy-dict-text-muted: #64748b;
-  --cosy-dict-border: #e2e8f0;
+  --cosy-dict-text-muted: #475569;
+  --cosy-dict-border: #cbd5e1;
   --cosy-dict-primary: #1e3a8a; /* Classic Oxford Navy */
   --cosy-dict-primary-hover: #1e40af;
   --cosy-dict-accent: #0284c7;
   --cosy-dict-highlight: #fef08a;
-  --cosy-dict-badge-bg: #f1f5f9;
-  --cosy-dict-badge-text: #334155;
+  --cosy-dict-badge-bg: #e2e8f0;
+  --cosy-dict-badge-text: #1e293b;
   --cosy-dict-chip-bg: #e0f2fe;
   --cosy-dict-chip-text: #0369a1;
   --cosy-dict-chip-antonym-bg: #ffe4e6;
-  --cosy-dict-chip-antonym-text: #be123c;
+  --cosy-dict-chip-antonym-text: #9f1239;
   --cosy-dict-wotd-bg: #eff6ff;
-  --cosy-dict-wotd-border: #bfdbfe;
+  --cosy-dict-wotd-border: #93c5fd;
   --cosy-dict-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
   --cosy-dict-radius: 10px;
 }
@@ -32,22 +33,28 @@
     --cosy-dict-bg: #0f172a;
     --cosy-dict-card-bg: #1e293b;
     --cosy-dict-text: #f8fafc;
-    --cosy-dict-text-muted: #94a3b8;
-    --cosy-dict-border: #334155;
+    --cosy-dict-text-muted: #cbd5e1;
+    --cosy-dict-border: #475569;
     --cosy-dict-primary: #38bdf8;
     --cosy-dict-primary-hover: #60a5fa;
     --cosy-dict-accent: #38bdf8;
     --cosy-dict-highlight: #854d0e;
     --cosy-dict-badge-bg: #334155;
-    --cosy-dict-badge-text: #cbd5e1;
+    --cosy-dict-badge-text: #f1f5f9;
     --cosy-dict-chip-bg: #1e3a8a;
-    --cosy-dict-chip-text: #bae6fd;
+    --cosy-dict-chip-text: #e0f2fe;
     --cosy-dict-chip-antonym-bg: #881337;
-    --cosy-dict-chip-antonym-text: #fecdd3;
+    --cosy-dict-chip-antonym-text: #ffe4e6;
     --cosy-dict-wotd-bg: #172554;
-    --cosy-dict-wotd-border: #1e40af;
+    --cosy-dict-wotd-border: #2563eb;
     --cosy-dict-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
   }
+}
+
+/* Global High-Contrast Focus Indicator for Accessibility */
+.cosy-dict-container *:focus-visible {
+  outline: 3px solid var(--cosy-dict-accent) !important;
+  outline-offset: 2px !important;
 }
 
 .cosy-dict-container {
@@ -86,16 +93,53 @@
   }
 }
 
-/* Header & Controls */
+/* Header & Title Row */
 .cosy-dict-header {
   margin-bottom: 20px;
+}
+
+.cosy-dict-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
 .cosy-dict-title {
   font-size: 26px;
   font-weight: 700;
-  margin: 0 0 16px 0;
+  margin: 0;
   color: var(--cosy-dict-text);
+}
+
+/* Language Switcher */
+.cosy-dict-lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cosy-dict-lang-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cosy-dict-text-muted);
+}
+
+.cosy-dict-lang-select {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: 6px;
+  background-color: var(--cosy-dict-card-bg);
+  color: var(--cosy-dict-text);
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--cosy-dict-accent);
+  }
 }
 
 /* Word of the Day Banner */
@@ -213,8 +257,7 @@
   box-sizing: border-box;
 
   &:focus {
-    outline: 2px solid var(--cosy-dict-accent);
-    border-color: transparent;
+    border-color: var(--cosy-dict-accent);
   }
 }
 
@@ -250,14 +293,14 @@
   transition: all 0.15s ease;
 
   &:hover {
-    border-color: #f59e0b;
-    color: #f59e0b;
+    border-color: #d97706;
+    color: #d97706;
   }
 
   &.active {
     background-color: #fef3c7;
-    border-color: #f59e0b;
-    color: #92400e;
+    border-color: #d97706;
+    color: #78350f;
   }
 }
 
@@ -279,6 +322,9 @@
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .cosy-dict-filter-label {
@@ -286,6 +332,7 @@
   font-weight: 600;
   color: var(--cosy-dict-text-muted);
   min-width: 50px;
+  padding: 0;
 }
 
 .cosy-dict-level-badges {
@@ -351,6 +398,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 30px;
 }
 
 .cosy-dict-empty {
@@ -417,11 +465,11 @@
   transition: color 0.15s ease;
 
   &:hover {
-    color: #f59e0b;
+    color: #d97706;
   }
 
   &.is-favorite {
-    color: #f59e0b;
+    color: #d97706;
   }
 }
 
@@ -456,14 +504,14 @@
 }
 
 .cosy-dict-badge-level {
-  background-color: #e2e8f0;
-  color: #1e293b;
+  background-color: #cbd5e1;
+  color: #0f172a;
 }
 
 .cosy-dict-level-a0,
 .cosy-dict-level-a1 {
   background-color: #dcfce7;
-  color: #166534;
+  color: #14532d;
 }
 
 .cosy-dict-level-a2 {
@@ -473,7 +521,7 @@
 
 .cosy-dict-level-b1 {
   background-color: #e0f2fe;
-  color: #075985;
+  color: #0369a1;
 }
 
 .cosy-dict-level-b2 {
@@ -483,12 +531,12 @@
 
 .cosy-dict-level-c1 {
   background-color: #fef3c7;
-  color: #92400e;
+  color: #78350f;
 }
 
 .cosy-dict-level-c2 {
   background-color: #fce7f3;
-  color: #9d174d;
+  color: #831843;
 }
 
 .cosy-dict-audio-btn {
@@ -496,7 +544,7 @@
   border: 1px solid var(--cosy-dict-border);
   border-radius: 6px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--cosy-dict-text);
   padding: 3px 8px;
   cursor: pointer;
@@ -575,7 +623,7 @@
 .cosy-dict-chip {
   border: none;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 3px 9px;
   border-radius: 12px;
   background-color: var(--cosy-dict-chip-bg);
@@ -617,9 +665,71 @@
 .cosy-dict-related-link {
   color: var(--cosy-dict-accent);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+/* Ecosystem Footer Block */
+.cosy-dict-footer {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--cosy-dict-border);
+}
+
+.cosy-dict-footer-content {
+  background-color: var(--cosy-dict-card-bg);
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: var(--cosy-dict-radius);
+  padding: 20px;
+  box-shadow: var(--cosy-dict-shadow);
+}
+
+.cosy-dict-footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+  color: var(--cosy-dict-primary);
+}
+
+.cosy-dict-footer-desc {
+  font-size: 13px;
+  color: var(--cosy-dict-text-muted);
+  margin: 0 0 16px 0;
+}
+
+.cosy-dict-ecosystem-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.cosy-dict-eco-link {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  background-color: var(--cosy-dict-bg);
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--cosy-dict-text);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--cosy-dict-accent);
+    transform: translateY(-1px);
+  }
+
+  strong {
+    font-size: 14px;
+    color: var(--cosy-dict-primary);
+    margin-bottom: 2px;
+  }
+
+  span {
+    font-size: 12px;
+    color: var(--cosy-dict-text-muted);
   }
 }
