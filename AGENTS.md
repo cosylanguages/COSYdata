@@ -3,13 +3,12 @@
 ## Repo facts
 - Vocabulary lives in `vocabulary/<lang>/<level>/*.json` (each file is a JSON array of entries). Levels: a0_a1, a2, b1, b2, c1, c2. Languages: ba br cv de el en es fr hy it ka pt ru tt.
 - English is the source language. Every entry in another language should point to the English entry that has the same meaning through the `concept` field.
-- Schema: `schemas/vocabulary.schema.json` (+ fixtures in `schemas/examples/`). Indexes: `vocabulary/<lang>/index.json` and `flat-index.json`.
+- Schema: `schemas/vocabulary.schema.json` (+ fixtures in `schemas/examples/`). Indexes: `vocabulary/<lang>/index.json`, `flat-index.json`, and `search-index.json`.
 - Theme taxonomy: `docs/theme-taxonomy.md` and its machine-readable copy `shared/themes.json`.
 
 ## Commands (run all before finishing; all must pass)
     npm ci
-    npm run build:index
-    npm run build:flat-index
+    npm run build
     npm run validate
     node scripts/audit-a0-a1.cjs        # once it exists; must not report NEW problems compared with main
 

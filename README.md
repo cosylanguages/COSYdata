@@ -58,6 +58,39 @@ vocabulary/
 
 - **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its relative theme file path (e.g. `"en:cat:noun": "a0_a1/animals.json"`).
+- **`vocabulary/<lang>/search-index.json`**: Lightweight entry array used to populate UI search, browse, and filter views efficiently without needing to load full definitions, examples, collocations, or audio metadata.
+
+### Search Index (`search-index.json`) Shape
+Each language folder contains `search-index.json`, an array of lightweight JSON objects formatted with key metadata fields required for quick dictionary browsing and filtering:
+
+```json
+[
+  {
+    "id": "en:cat:noun",
+    "word": "cat",
+    "emoji": "🐱",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general, spoken",
+    "tags": ["spoken", "beginner"]
+  }
+]
+```
+
+Fields omitted in `search-index.json` to optimize payload size: `definitions`, `examples`, `collocations`, `related_forms`, `audio`, `image`, `antonyms`, `synonyms`, `transcription`, `transcription_variants`.
+
+To regenerate `search-index.json` across all languages, run:
+
+```bash
+npm run build:search-index
+```
+
+Or run all build tasks (index, flat index, search index) at once with:
+
+```bash
+npm run build
+```
 
 ### Course Domains & Level Folders
 - **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.

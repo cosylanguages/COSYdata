@@ -95,6 +95,7 @@ function main() {
     (f) =>
       path.basename(f) !== 'index.json' &&
       path.basename(f) !== 'flat-index.json' &&
+      path.basename(f) !== 'search-index.json' &&
       !path.basename(f).endsWith('-tracks.json')
   );
   const indexFiles = allJsonFiles.filter((f) => path.basename(f) === 'index.json');

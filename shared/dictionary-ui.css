@@ -2,8 +2,8 @@
  * COSYdata Dictionary UI Engine Styles
  *
  * Clean, Oxford/Cambridge-style dictionary layout with serif typography for headwords,
- * responsive down to mobile width (320px), high-contrast accessible focus states,
- * and light/dark theme support.
+ * responsive search-first home view, high-contrast accessible focus states,
+ * and dark mode support.
  */
 
 :root {
@@ -25,7 +25,7 @@
   --cosy-dict-wotd-bg: #eff6ff;
   --cosy-dict-wotd-border: #93c5fd;
   --cosy-dict-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --cosy-dict-radius: 10px;
+  --cosy-dict-radius: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,9 +61,9 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   color: var(--cosy-dict-text);
   background-color: var(--cosy-dict-bg);
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 20px 16px;
   box-sizing: border-box;
 }
 
@@ -73,7 +73,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
   color: var(--cosy-dict-text-muted);
 }
 
@@ -95,7 +95,7 @@
 
 /* Header & Title Row */
 .cosy-dict-header {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .cosy-dict-title-row {
@@ -104,14 +104,26 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .cosy-dict-title {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 800;
   margin: 0;
   color: var(--cosy-dict-text);
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.cosy-dict-word-count {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cosy-dict-text-muted);
+  background-color: var(--cosy-dict-badge-bg);
+  padding: 3px 9px;
+  border-radius: 12px;
 }
 
 /* Language Switcher */
@@ -132,7 +144,7 @@
   font-size: 14px;
   font-weight: 600;
   border: 1px solid var(--cosy-dict-border);
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: var(--cosy-dict-card-bg);
   color: var(--cosy-dict-text);
   cursor: pointer;
@@ -142,13 +154,79 @@
   }
 }
 
+/* Search Hero Section */
+.cosy-dict-search-hero {
+  margin-bottom: 24px;
+}
+
+.cosy-dict-search-box {
+  position: relative;
+  width: 100%;
+}
+
+.cosy-dict-search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.cosy-dict-search-input {
+  width: 100%;
+  padding: 14px 44px 14px 46px;
+  font-size: 17px;
+  border: 2px solid var(--cosy-dict-border);
+  border-radius: var(--cosy-dict-radius);
+  background-color: var(--cosy-dict-card-bg);
+  color: var(--cosy-dict-text);
+  box-shadow: var(--cosy-dict-shadow);
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:focus {
+    border-color: var(--cosy-dict-primary);
+  }
+}
+
+.cosy-dict-search-clear-btn {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--cosy-dict-text-muted);
+  cursor: pointer;
+  padding: 0 4px;
+
+  &:hover {
+    color: var(--cosy-dict-text);
+  }
+}
+
+/* Sections & Home View */
+.cosy-dict-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: var(--cosy-dict-text);
+}
+
+.cosy-dict-browse-section {
+  margin-bottom: 28px;
+}
+
 /* Word of the Day Banner */
 .cosy-dict-wotd {
   background-color: var(--cosy-dict-wotd-bg);
   border: 1px solid var(--cosy-dict-wotd-border);
   border-radius: var(--cosy-dict-radius);
-  padding: 16px;
-  margin-bottom: 20px;
+  padding: 18px 20px;
+  margin-bottom: 28px;
   position: relative;
 }
 
@@ -160,17 +238,17 @@
   letter-spacing: 0.05em;
   background-color: var(--cosy-dict-primary);
   color: #ffffff;
-  padding: 2px 8px;
+  padding: 3px 9px;
   border-radius: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
-.cosy-dict-wotd-content {
+.cosy-dict-wotd-header {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .cosy-dict-wotd-emoji {
@@ -184,285 +262,315 @@
   color: var(--cosy-dict-text);
 }
 
-.cosy-dict-wotd-pos {
+.cosy-dict-wotd-loading {
+  font-size: 13px;
   font-style: italic;
   color: var(--cosy-dict-text-muted);
-  font-size: 14px;
+  margin: 4px 0 0 0;
 }
 
 .cosy-dict-wotd-def {
-  font-size: 14px;
-  color: var(--cosy-dict-text);
-  flex-basis: 100%;
-}
-
-.cosy-dict-wotd-btn {
-  background: none;
-  border: none;
-  color: var(--cosy-dict-accent);
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0;
-  margin-top: 4px;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-/* Control Panel */
-.cosy-dict-controls {
-  background-color: var(--cosy-dict-card-bg);
-  border: 1px solid var(--cosy-dict-border);
-  border-radius: var(--cosy-dict-radius);
-  padding: 16px;
-  box-shadow: var(--cosy-dict-shadow);
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.cosy-dict-search-row {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.cosy-dict-search-wrapper {
-  position: relative;
-  flex: 1;
-  min-width: 240px;
-}
-
-.cosy-dict-search-icon {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 16px;
-  pointer-events: none;
-  opacity: 0.6;
-}
-
-.cosy-dict-search-input {
-  width: 100%;
-  padding: 10px 36px 10px 38px;
   font-size: 15px;
-  border: 1px solid var(--cosy-dict-border);
-  border-radius: 8px;
-  background-color: var(--cosy-dict-bg);
+  margin: 6px 0 8px 0;
   color: var(--cosy-dict-text);
-  box-sizing: border-box;
-
-  &:focus {
-    border-color: var(--cosy-dict-accent);
-  }
 }
 
-.cosy-dict-clear-btn {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 18px;
-  color: var(--cosy-dict-text-muted);
-  cursor: pointer;
-  padding: 0 4px;
-
-  &:hover {
-    color: var(--cosy-dict-text);
-  }
-}
-
-.cosy-dict-fav-toggle-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 10px 14px;
-  font-size: 14px;
-  font-weight: 600;
-  border: 1px solid var(--cosy-dict-border);
-  border-radius: 8px;
-  background-color: var(--cosy-dict-bg);
-  color: var(--cosy-dict-text);
-  cursor: pointer;
-  transition: all 0.15s ease;
-
-  &:hover {
-    border-color: #d97706;
-    color: #d97706;
-  }
-
-  &.active {
-    background-color: #fef3c7;
-    border-color: #d97706;
-    color: #78350f;
-  }
-}
-
-/* Filters Row */
-.cosy-dict-filters-row {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-
-  @media (min-width: 640px) {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-}
-
-.cosy-dict-filter-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  border: none;
-  padding: 0;
+.cosy-dict-wotd-ex {
   margin: 0;
-}
-
-.cosy-dict-filter-label {
-  font-size: 13px;
-  font-weight: 600;
+  padding-left: 12px;
+  border-left: 3px solid var(--cosy-dict-accent);
+  font-style: italic;
+  font-size: 14px;
   color: var(--cosy-dict-text-muted);
-  min-width: 50px;
-  padding: 0;
 }
 
-.cosy-dict-level-badges {
+/* Browse-by-Letter Row (A–Z) */
+.cosy-dict-letter-row {
   display: flex;
-  gap: 6px;
   flex-wrap: wrap;
+  gap: 6px;
 }
 
-.cosy-dict-level-chip {
-  background-color: var(--cosy-dict-bg);
+.cosy-dict-letter-btn {
+  flex: 1 0 32px;
+  min-width: 32px;
+  height: 38px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 700;
   border: 1px solid var(--cosy-dict-border);
-  color: var(--cosy-dict-text-muted);
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 6px;
+  border-radius: 8px;
+  background-color: var(--cosy-dict-card-bg);
+  color: var(--cosy-dict-text);
   cursor: pointer;
   transition: all 0.15s ease;
 
   &:hover {
-    border-color: var(--cosy-dict-primary);
-    color: var(--cosy-dict-primary);
-  }
-
-  &.active {
     background-color: var(--cosy-dict-primary);
     border-color: var(--cosy-dict-primary);
     color: #ffffff;
   }
 }
 
-.cosy-dict-domain-checkboxes {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+/* User Section (My List & Recently Viewed) */
+.cosy-dict-user-section {
+  margin-bottom: 28px;
 }
 
-.cosy-dict-domain-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 13px;
-  color: var(--cosy-dict-text);
-  cursor: pointer;
-  user-select: none;
+.cosy-dict-user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
 
-  input[type='checkbox'] {
-    accent-color: var(--cosy-dict-primary);
-    cursor: pointer;
+.cosy-dict-user-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background-color: var(--cosy-dict-card-bg);
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: var(--cosy-dict-radius);
+  box-shadow: var(--cosy-dict-shadow);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--cosy-dict-accent);
+    transform: translateY(-1px);
   }
 }
 
-/* Status Bar */
-.cosy-dict-status {
-  font-size: 13px;
-  color: var(--cosy-dict-text-muted);
-  margin-bottom: 12px;
-  padding: 0 4px;
+.cosy-dict-user-icon {
+  font-size: 24px;
 }
 
-/* Entry List & Cards */
-.cosy-dict-list {
+.cosy-dict-user-info {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-bottom: 30px;
+
+  strong {
+    font-size: 15px;
+    color: var(--cosy-dict-text);
+  }
+
+  span {
+    font-size: 13px;
+    color: var(--cosy-dict-text-muted);
+  }
+}
+
+/* Category Tiles Grid */
+.cosy-dict-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.cosy-dict-tile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background-color: var(--cosy-dict-card-bg);
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: 10px;
+  box-shadow: var(--cosy-dict-shadow);
+  cursor: pointer;
+  text-align: left;
+  min-height: 64px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--cosy-dict-primary);
+    transform: translateY(-1px);
+  }
+}
+
+.cosy-dict-tile-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--cosy-dict-text);
+  margin-bottom: 4px;
+}
+
+.cosy-dict-tile-count {
+  font-size: 12px;
+  color: var(--cosy-dict-text-muted);
+}
+
+/* Level Grid */
+.cosy-dict-level-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.cosy-dict-level-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  border-radius: 10px;
+  border: 1px solid var(--cosy-dict-border);
+  background-color: var(--cosy-dict-card-bg);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  strong {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  span {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+}
+
+/* Domain Grid */
+.cosy-dict-domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.cosy-dict-domain-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 14px;
+  background-color: var(--cosy-dict-card-bg);
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--cosy-dict-accent);
+    transform: translateY(-1px);
+  }
+
+  strong {
+    font-size: 14px;
+    color: var(--cosy-dict-text);
+  }
+
+  span {
+    font-size: 12px;
+    color: var(--cosy-dict-text-muted);
+    margin-top: 2px;
+  }
+}
+
+/* Results View */
+.cosy-dict-results-header {
+  margin-bottom: 20px;
+}
+
+.cosy-dict-back-btn {
+  background: none;
+  border: none;
+  color: var(--cosy-dict-accent);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 12px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.cosy-dict-results-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 4px 0;
+  color: var(--cosy-dict-text);
+}
+
+.cosy-dict-results-status {
+  font-size: 13px;
+  color: var(--cosy-dict-text-muted);
+}
+
+.cosy-dict-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
 }
 
 .cosy-dict-empty {
   text-align: center;
-  padding: 40px 20px;
+  padding: 50px 20px;
   color: var(--cosy-dict-text-muted);
   background-color: var(--cosy-dict-card-bg);
   border: 1px solid var(--cosy-dict-border);
   border-radius: var(--cosy-dict-radius);
 }
 
+/* Entry Cards */
 .cosy-dict-card {
   background-color: var(--cosy-dict-card-bg);
   border: 1px solid var(--cosy-dict-border);
   border-radius: var(--cosy-dict-radius);
-  padding: 18px 20px;
+  padding: 16px 18px;
   box-shadow: var(--cosy-dict-shadow);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.5s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &.is-expanded {
+    border-color: var(--cosy-dict-primary);
+  }
 }
 
-.cosy-dict-card-highlight {
-  background-color: var(--cosy-dict-highlight) !important;
-  border-color: #eab308 !important;
-}
-
-/* Card Header */
 .cosy-dict-card-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-bottom: 6px;
+  flex-wrap: wrap;
 }
 
 .cosy-dict-title-group {
   display: flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
 .cosy-dict-emoji {
-  font-size: 24px;
-  line-height: 1;
+  font-size: 22px;
 }
 
 .cosy-dict-headword {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin: 0;
   color: var(--cosy-dict-text);
-  line-height: 1.2;
+}
+
+.cosy-dict-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .cosy-dict-star-btn {
   background: none;
   border: none;
-  font-size: 22px;
-  line-height: 1;
+  font-size: 20px;
   color: var(--cosy-dict-border);
   cursor: pointer;
   padding: 2px 4px;
-  transition: color 0.15s ease;
 
   &:hover {
     color: #d97706;
@@ -473,17 +581,68 @@
   }
 }
 
-/* Card Meta Row */
+.cosy-dict-expand-btn {
+  background-color: var(--cosy-dict-bg);
+  border: 1px solid var(--cosy-dict-border);
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--cosy-dict-text);
+  padding: 4px 10px;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--cosy-dict-primary);
+    color: var(--cosy-dict-primary);
+  }
+}
+
+.cosy-dict-tags-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.cosy-dict-tag-chip {
+  font-size: 11px;
+  font-weight: 600;
+  background-color: var(--cosy-dict-badge-bg);
+  color: var(--cosy-dict-badge-text);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.cosy-dict-tag-domain {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+/* Expanded Details Box */
+.cosy-dict-expanded-details {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--cosy-dict-border);
+}
+
+.cosy-dict-loading-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--cosy-dict-text-muted);
+}
+
 .cosy-dict-meta-row {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .cosy-dict-ipa {
-  font-family: 'SF Pro Text', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: 'SF Pro Text', SFMono-Regular, Consolas, monospace;
   font-size: 14px;
   color: var(--cosy-dict-text-muted);
 }
@@ -495,7 +654,6 @@
   padding: 2px 7px;
   border-radius: 4px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 .cosy-dict-badge-form {
@@ -548,62 +706,36 @@
   color: var(--cosy-dict-text);
   padding: 3px 8px;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
 
   &:hover {
     background-color: var(--cosy-dict-border);
   }
 }
 
-/* Grammar Block */
-.cosy-dict-grammar-props {
-  font-size: 13px;
-  color: var(--cosy-dict-text-muted);
-  background-color: var(--cosy-dict-bg);
-  padding: 6px 12px;
-  border-radius: 6px;
-  margin-bottom: 12px;
-
-  strong {
-    color: var(--cosy-dict-text);
-  }
-}
-
-/* Definitions */
 .cosy-dict-definitions {
-  margin: 0 0 10px 0;
+  margin: 8px 0;
   padding-left: 20px;
   font-size: 15px;
   line-height: 1.5;
-  color: var(--cosy-dict-text);
-
-  li {
-    margin-bottom: 4px;
-  }
 }
 
-/* Examples */
 .cosy-dict-examples {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .cosy-dict-example-item {
-  margin: 0 0 6px 0;
-  padding-left: 12px;
+  margin: 0 0 4px 0;
+  padding-left: 10px;
   border-left: 3px solid var(--cosy-dict-accent);
   font-style: italic;
   font-size: 14px;
   color: var(--cosy-dict-text-muted);
 }
 
-/* Chips Row */
 .cosy-dict-chips-row {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 10px;
+  gap: 6px;
 }
 
 .cosy-dict-chip-group {
@@ -617,27 +749,15 @@
   font-size: 12px;
   font-weight: 600;
   color: var(--cosy-dict-text-muted);
-  min-width: 65px;
 }
 
 .cosy-dict-chip {
-  border: none;
   font-size: 12px;
   font-weight: 600;
-  padding: 3px 9px;
+  padding: 2px 8px;
   border-radius: 12px;
   background-color: var(--cosy-dict-chip-bg);
   color: var(--cosy-dict-chip-text);
-
-  &.is-clickable {
-    cursor: pointer;
-    transition: opacity 0.15s ease;
-
-    &:hover {
-      opacity: 0.8;
-      text-decoration: underline;
-    }
-  }
 }
 
 .cosy-dict-chip-antonym {
@@ -645,30 +765,28 @@
   color: var(--cosy-dict-chip-antonym-text);
 }
 
-/* Related Row */
-.cosy-dict-related-row {
+/* Load More Pagination */
+.cosy-dict-load-more-container {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  font-size: 12px;
-  border-top: 1px dashed var(--cosy-dict-border);
-  padding-top: 10px;
-  margin-top: 8px;
+  justify-content: center;
+  margin: 20px 0 40px 0;
 }
 
-.cosy-dict-related-label {
-  color: var(--cosy-dict-text-muted);
-  font-weight: 600;
-}
-
-.cosy-dict-related-link {
-  color: var(--cosy-dict-accent);
-  text-decoration: none;
-  font-weight: 600;
+.cosy-dict-load-more-btn {
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: var(--cosy-dict-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--cosy-dict-radius);
+  cursor: pointer;
+  box-shadow: var(--cosy-dict-shadow);
+  transition: background-color 0.15s ease, transform 0.15s ease;
 
   &:hover {
-    text-decoration: underline;
+    background-color: var(--cosy-dict-primary-hover);
+    transform: translateY(-1px);
   }
 }
 
