@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Consolidated and adapted English vocabulary data from COSYlanguages across all CEFR levels (A0_A1 through C2): resolved 6 schema validation errors, removed 127 retired entry ID occurrences, and merged 1,042 duplicate entry IDs into primary CEFR level and theme files while preserving multi-level designations and taxonomy metadata; rebuilt English index files.
 - Cleaned up English A0/A1 vocabulary entries across Tasks EN-10 to EN-14: removed workaround twin entries, corrected part-of-speech form labels, merged single-word phrase duplicates and separate plural entries, updated copy-paste definitions and shared example sentences, created missing regional counterpart entries with reciprocal links, re-assigned theme and sub_theme fields for accurate taxonomy mapping, and updated shared/id-aliases.json and indices.
 - Corrected `domain` field values across 15 spoken idioms/expressions in `vocabulary/en/` according to Section 2 of `/reports/theme-domain-regional-audit.md` (updated from `domain: "general"` to `domain: "general, spoken"`):
   - `b1/`: 2 entries in `idioms.json`.
