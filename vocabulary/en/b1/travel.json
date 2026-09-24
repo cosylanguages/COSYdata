@@ -12,7 +12,7 @@
       "The flight was overbooked so three volunteers took a later plane."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌəʊ.vəˈbʊkt/",
     "emoji": "🎟️",
@@ -20,7 +20,8 @@
     "synonyms": [
       "oversold",
       "fully reserved"
-    ]
+    ],
+    "sub_theme": "transit_booking"
   },
   {
     "id": "en:standby:noun",
@@ -35,7 +36,7 @@
       "She waited on standby hoping for an available seat."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈstænd.baɪ/",
     "emoji": "⏳",
@@ -44,7 +45,8 @@
       "waiting list",
       "reserve status"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "transit_booking"
   },
   {
     "id": "en:turbulence:noun",
@@ -59,7 +61,7 @@
       "The airplane encountered sudden turbulence over the mountain range."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈtɜː.bjə.ləns/",
     "emoji": "☁️",
@@ -68,7 +70,8 @@
       "bumpiness",
       "rough air"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "transit_booking"
   },
   {
     "id": "en:transit-visa:noun",
@@ -83,7 +86,7 @@
       "Passengers on layovers required a transit visa before changing flights."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈtræn.zɪt ˈviː.zə/",
     "emoji": "🛂",
@@ -93,7 +96,8 @@
       "layover permit"
     ],
     "countability": "countable",
-    "plural_form": "transit visas"
+    "plural_form": "transit visas",
+    "sub_theme": "transit_booking"
   },
   {
     "id": "en:visa-application:noun",
@@ -108,7 +112,7 @@
       "Submit your official visa application at least four weeks before flying."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈviː.zə ˌæp.lɪˈkeɪ.ʃən/",
     "emoji": "📄",
@@ -118,6 +122,59 @@
       "entry request"
     ],
     "countability": "countable",
-    "plural_form": "visa applications"
+    "plural_form": "visa applications",
+    "sub_theme": "transit_booking"
+  },
+  {
+    "id": "en:mileage:noun",
+    "word": "mileage",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "the total distance traveled measured in miles"
+    ],
+    "examples": [
+      "Keep track of your vehicle mileage for rental returns."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈmaɪ.lɪdʒ/",
+    "emoji": "🚗",
+    "no_antonym": true,
+    "synonyms": [
+      "distance covered",
+      "fuel economy"
+    ],
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:peak-hours:noun",
+    "word": "peak hours",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "the times of day when travel traffic is heaviest"
+    ],
+    "examples": [
+      "Subway trains are extremely crowded during morning peak hours."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/piːk ˈaʊəz/",
+    "emoji": "⏰",
+    "antonyms": [
+      "off-peak hours"
+    ],
+    "synonyms": [
+      "rush hour",
+      "busy periods"
+    ],
+    "countability": "pluralia_tantum",
+    "sub_theme": "transit_booking"
   }
 ]
