@@ -12,7 +12,7 @@
       "Different generations hold different views."
     ],
     "domain": "general, spoken, professional, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "generations",
     "tags": [
@@ -26,7 +26,7 @@
     "emoji": "👨‍👩‍👧‍👦",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:public:noun",
@@ -41,7 +41,7 @@
       "The park is open to the public daily."
     ],
     "domain": "general, professional, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "levels": [
       "A2",
@@ -53,7 +53,7 @@
     "antonyms": [
       "private"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:national:noun",
@@ -68,7 +68,7 @@
       "July fourth is a major national holiday."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "nationals",
     "levels": [
@@ -81,7 +81,8 @@
     "antonyms": [
       "international",
       "local"
-    ]
+    ],
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:festival:noun",
@@ -96,7 +97,7 @@
       "We attended a colourful summer music festival."
     ],
     "domain": "general, relocation, spoken, travel, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "festivals",
     "tags": [
@@ -112,7 +113,7 @@
     "transcription_variants": {
       "us": "/ˈfes.tə.vəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:celebration:noun",
@@ -127,7 +128,7 @@
       "They held a big celebration for his victory."
     ],
     "domain": "general, relocation, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "celebrations",
     "levels": [
@@ -137,7 +138,7 @@
     "emoji": "🥳",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:ceremony:noun",
@@ -152,7 +153,7 @@
       "The wedding ceremony took place in a church."
     ],
     "domain": "general, travel, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "ceremonies",
     "transcription": "/ˈser.ɪ.mə.ni/",
@@ -162,7 +163,7 @@
     "transcription_variants": {
       "us": "/ˈser.ə.moʊ.ni/"
     },
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:wedding:noun",
@@ -177,7 +178,7 @@
       "They invited fifty guests to their wedding."
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "weddings",
     "tags": [
@@ -190,7 +191,7 @@
     "emoji": "💒",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:funeral:noun",
@@ -205,7 +206,7 @@
       "Friends attended the quiet funeral service."
     ],
     "domain": "general, professional",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "funerals",
     "transcription": "/ˈfjuː.nər.əl/",
@@ -214,7 +215,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈfjuː.nɚ.əl/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:religion:noun",
@@ -229,13 +231,14 @@
       "Freedom of religion is important in society."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "religions",
     "transcription": "/rɪˈlɪdʒ.ən/",
     "emoji": "🛐",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:religious:adjective",
@@ -250,14 +253,15 @@
       "They visited a religious monument on Sunday."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/rɪˈlɪdʒ.əs/",
     "emoji": "🛐",
     "antonyms": [
       "secular",
       "non-religious"
-    ]
+    ],
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:costume:noun",
@@ -272,7 +276,7 @@
       "Children wore funny costumes for Halloween."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "costumes",
     "transcription": "/ˈkɒs.tjuːm/",
@@ -281,7 +285,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈkɑːs.tuːm/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:parade:noun",
@@ -296,13 +301,14 @@
       "Dancers marched in the colorful street parade."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "parades",
     "transcription": "/pəˈreɪd/",
     "emoji": "🪅",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:fireworks:noun",
@@ -317,7 +323,7 @@
       "We watched spectacular fireworks at midnight."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
     "transcription": "/ˈfaɪə.wɜːks/",
@@ -326,7 +332,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈfaɪr.wɝːks/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:decoration:noun",
@@ -341,7 +348,7 @@
       "They put up birthday decorations yesterday."
     ],
     "domain": "general, spoken",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "decorations",
     "tags": [
@@ -353,7 +360,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌdek.ərˈeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:ornament:noun",
@@ -368,7 +376,7 @@
       "She hung a glass ornament on the tree."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "ornaments",
     "transcription": "/ˈɔː.nə.mənt/",
@@ -377,7 +385,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈɔːr.nə.mənt/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:exchange:noun",
@@ -392,7 +401,7 @@
       "We arranged a cultural student exchange."
     ],
     "domain": "general, relocation, spoken, travel, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "exchanges",
     "tags": [
@@ -405,7 +414,7 @@
     "emoji": "🔄",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:belief:noun",
@@ -420,7 +429,7 @@
       "Respecting every personal belief is essential."
     ],
     "domain": "general, spoken",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "beliefs",
     "tags": [
@@ -436,7 +445,8 @@
     "antonyms": [
       "disbelief",
       "doubt"
-    ]
+    ],
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:folk:noun",
@@ -451,7 +461,7 @@
       "They played lively folk music at the festival."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/fəʊk/",
     "emoji": "🪕",
@@ -459,7 +469,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/foʊk/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:tale:noun",
@@ -474,13 +485,14 @@
       "Grandmother told us an old folk tale."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "tales",
     "transcription": "/teɪl/",
     "emoji": "📖",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:legend:noun",
@@ -495,13 +507,14 @@
       "Robin Hood is a famous English legend."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "legends",
     "transcription": "/ˈledʒ.ənd/",
     "emoji": "🗡️",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:myth:noun",
@@ -516,7 +529,7 @@
       "We studied Greek myths in history class."
     ],
     "domain": "general",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "plural_form": "myths",
     "transcription": "/mɪθ/",
@@ -525,7 +538,8 @@
     "antonyms": [
       "fact",
       "truth"
-    ]
+    ],
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:heritage:noun",
@@ -540,7 +554,7 @@
       "The castle is part of our national heritage."
     ],
     "domain": "general, spoken, relocation, professional",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -555,7 +569,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈher.ə.t̬ɪdʒ/"
-    }
+    },
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:cards:noun",
@@ -570,13 +585,14 @@
       "They sat around the table playing cards all night."
     ],
     "domain": "general, spoken",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/kɑːdz/",
     "emoji": "🃏",
     "countability": "pluralia_tantum",
     "singular_workaround": "a playing card",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:mosque:noun",
@@ -591,7 +607,7 @@
       "The historic mosque is located near the city center."
     ],
     "domain": "general, relocation, travel, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/mɒsk/",
     "transcription_variants": {
@@ -601,7 +617,7 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "mosques",
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:temple:noun",
@@ -616,7 +632,7 @@
       "Tourists and worshippers visited the ancient stone temple."
     ],
     "domain": "general, relocation, travel, exam",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/ˈtem.pəl/",
     "transcription_variants": {
@@ -626,7 +642,7 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "temples",
-    "sub_theme": "general"
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:donation:noun",
@@ -641,7 +657,7 @@
       "The charity received a generous donation of warm coats."
     ],
     "domain": "general, relocation, professional",
-    "theme": "community",
+    "theme": "geography",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -654,7 +670,8 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "donations",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:street-food-culture:noun",
@@ -663,7 +680,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "definitions": [
       "The social tradition of buying and eating food prepared by sidewalk stalls."
@@ -682,7 +699,8 @@
     "tags": [
       "culture",
       "travel"
-    ]
+    ],
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:food-festival:noun",
@@ -691,7 +709,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "definitions": [
       "A community event celebrating diverse dishes and culinary culture."
@@ -711,7 +729,8 @@
     "tags": [
       "culture",
       "travel"
-    ]
+    ],
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:art-gallery:noun",
@@ -726,13 +745,14 @@
       "We visited a local art gallery yesterday."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/ˈɑːt ˌɡæl.ər.i/",
     "emoji": "🖼️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "art galleries"
+    "plural_form": "art galleries",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:folk-dance:noun",
@@ -747,13 +767,14 @@
       "Local dancers performed a lively folk dance."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/ˈfəʊk dɑːns/",
     "emoji": "💃",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "folk dances"
+    "plural_form": "folk dances",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:historical-site:noun",
@@ -768,13 +789,14 @@
       "Tourists explored the famous historical site."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/hɪˈstɒr.ɪ.kəl saɪt/",
     "emoji": "🏛️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "historical sites"
+    "plural_form": "historical sites",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:local-festival:noun",
@@ -789,13 +811,14 @@
       "Town residents organized a colorful local festival."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/ˈləʊ.kəl ˈfes.tɪ.vəl/",
     "emoji": "🎉",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "local festivals"
+    "plural_form": "local festivals",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:ruins:noun",
@@ -810,12 +833,13 @@
       "Tourists took photos near ancient castle ruins."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/ˈruː.ɪnz/",
     "emoji": "🏛️",
     "no_antonym": true,
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:traditional-costume:noun",
@@ -830,13 +854,14 @@
       "Dancers wore colorful traditional costume at festival."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/trəˈdɪʃ.ən.əl ˈkɒs.tʃuːm/",
     "emoji": "👘",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "traditional costumes"
+    "plural_form": "traditional costumes",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:street-performer:noun",
@@ -851,13 +876,14 @@
       "Crowds gathered to watch the talented street performer."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/striːt pəˈfɔː.mər/",
     "emoji": "🎸",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "street performers"
+    "plural_form": "street performers",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:live-music:noun",
@@ -872,12 +898,13 @@
       "We listened to live music at cafe."
     ],
     "domain": "general, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/laɪv ˈmjuː.zɪk/",
     "emoji": "🎶",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "countries_regions"
   },
   {
     "id": "en:official-language:noun",
@@ -892,12 +919,13 @@
       "Spanish is the official language here."
     ],
     "domain": "general, relocation, travel",
-    "theme": "culture",
+    "theme": "geography",
     "updated": "2025-01-15",
     "transcription": "/əˈfɪʃ.əl ˈlæŋ.ɡwɪdʒ/",
     "emoji": "🗣️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "official languages"
+    "plural_form": "official languages",
+    "sub_theme": "countries_regions"
   }
 ]

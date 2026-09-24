@@ -13,13 +13,14 @@
       "Je cherche l'information sur internet."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🌐",
     "no_antonym": true,
     "countability": "uncountable",
     "article": "l'",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:site-web:noun",
@@ -35,14 +36,15 @@
       "Consultez notre nouveau site web d'information."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🌐",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "sites web"
+    "plural_form": "sites web",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:mot-de-passe:noun",
@@ -58,14 +60,15 @@
       "N'oubliez pas votre mot de passe secret."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🔑",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "mots de passe"
+    "plural_form": "mots de passe",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:ecran:noun",
@@ -81,14 +84,15 @@
       "L'écran de l'ordinateur est très clair."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🖥️",
     "no_antonym": true,
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "écrans"
+    "plural_form": "écrans",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:batterie:noun",
@@ -104,14 +108,15 @@
       "La batterie du portable se décharge vite."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🔋",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "batteries"
+    "plural_form": "batteries",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:charger:verb",
@@ -127,13 +132,14 @@
       "Je dois charger mon téléphone ce soir."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🔌",
     "no_antonym": true,
     "related_forms": [
       "COSYtools:fr-conjugeur:charger"
-    ]
+    ],
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:application:noun",
@@ -149,14 +155,15 @@
       "J'ai téléchargé une application utile."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "📲",
     "no_antonym": true,
     "countability": "countable",
     "article": "l'",
     "gender": "feminine",
-    "plural_form": "applications"
+    "plural_form": "applications",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:video:noun",
@@ -172,14 +179,15 @@
       "Nous regardons une vidéo intéressante."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "📹",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "vidéos"
+    "plural_form": "vidéos",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:appareil-photo:noun",
@@ -195,14 +203,15 @@
       "Il prend des vues avec son nouvel appareil photo."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "📷",
     "no_antonym": true,
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "appareils photo"
+    "plural_form": "appareils photo",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:telecharger:verb",
@@ -218,10 +227,11 @@
       "Je vais télécharger le document requis."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "📥",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:imprimer:verb",
@@ -237,10 +247,11 @@
       "J'imprime mon billet de train ce soir."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🖨️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:fichier:noun",
@@ -256,14 +267,15 @@
       "Ouvrez le fichier sur votre ordinateur."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "📁",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "fichiers"
+    "plural_form": "fichiers",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:enregistrer:verb",
@@ -279,10 +291,11 @@
       "N'oubliez pas d'enregistrer le fichier."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "💾",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:allumer:verb",
@@ -298,7 +311,7 @@
       "J'allume la lampe de bureau pour lire."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "💡",
     "antonyms": [
@@ -306,7 +319,8 @@
     ],
     "related_forms": [
       "COSYtools:fr-conjugeur:allumer"
-    ]
+    ],
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:eteindre:verb",
@@ -322,7 +336,7 @@
       "Éteignez la télévision avant d'aller dormir."
     ],
     "domain": "general",
-    "theme": "media",
+    "theme": "communication",
     "updated": "2025-05-18",
     "emoji": "🔌",
     "antonyms": [
@@ -330,7 +344,8 @@
     ],
     "related_forms": [
       "COSYtools:fr-conjugeur:éteindre"
-    ]
+    ],
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:contacter:verb",
@@ -352,7 +367,8 @@
     ],
     "no_antonym": true,
     "domain": "general",
-    "theme": "media"
+    "theme": "communication",
+    "sub_theme": "greetings"
   },
   {
     "id": "fr:se-deconnecter:verb",
@@ -374,6 +390,7 @@
     ],
     "no_antonym": true,
     "domain": "general",
-    "theme": "media"
+    "theme": "communication",
+    "sub_theme": "greetings"
   }
 ]

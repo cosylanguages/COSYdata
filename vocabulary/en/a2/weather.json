@@ -24,7 +24,7 @@
     "antonyms": [
       "dry"
     ],
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:humidity:noun",
@@ -54,7 +54,7 @@
     "transcription_variants": {
       "us": "/hjuːˈmɪd.ə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:foggy:noun",
@@ -84,7 +84,7 @@
     "transcription_variants": {
       "us": "/ˈfɑː.ɡi/"
     },
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:misty:noun",
@@ -110,7 +110,8 @@
     "countability": "uncountable",
     "antonyms": [
       "clear"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:freezing:noun",
@@ -137,7 +138,7 @@
     "antonyms": [
       "boiling"
     ],
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:boiling:noun",
@@ -163,7 +164,8 @@
     "countability": "uncountable",
     "antonyms": [
       "freezing"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:mild:noun",
@@ -191,7 +193,7 @@
       "harsh",
       "extreme"
     ],
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:heatwave:noun",
@@ -219,7 +221,7 @@
     "antonyms": [
       "cold snap"
     ],
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:breeze:noun",
@@ -245,7 +247,7 @@
     "emoji": "🍃",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:drizzle:noun",
@@ -271,7 +273,8 @@
     "countability": "uncountable",
     "antonyms": [
       "downpour"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:hail:noun",
@@ -295,7 +298,8 @@
     "transcription": "/heɪl/",
     "emoji": "🧊",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:sunrise:noun",
@@ -322,7 +326,8 @@
     "countability": "countable",
     "antonyms": [
       "sunset"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:sunset:noun",
@@ -349,7 +354,8 @@
     "countability": "countable",
     "antonyms": [
       "sunrise"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:shade:noun",
@@ -375,7 +381,8 @@
     "countability": "uncountable",
     "antonyms": [
       "sunlight"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:weather-warning:noun",
@@ -404,7 +411,8 @@
     "tags": [
       "travel",
       "weather"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:daylight:noun",
@@ -426,7 +434,8 @@
     "antonyms": [
       "darkness"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:dry-season:noun",
@@ -449,7 +458,8 @@
       "rainy season"
     ],
     "countability": "countable",
-    "plural_form": "dry seasons"
+    "plural_form": "dry seasons",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:high-tide:noun",
@@ -472,7 +482,8 @@
       "low tide"
     ],
     "countability": "countable",
-    "plural_form": "high tides"
+    "plural_form": "high tides",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:low-tide:noun",
@@ -495,7 +506,8 @@
       "high tide"
     ],
     "countability": "countable",
-    "plural_form": "low tides"
+    "plural_form": "low tides",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:rainy-season:noun",
@@ -518,7 +530,8 @@
       "dry season"
     ],
     "countability": "countable",
-    "plural_form": "rainy seasons"
+    "plural_form": "rainy seasons",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "en:weather-forecast:noun",
@@ -539,6 +552,7 @@
     "emoji": "🌤️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "weather forecasts"
+    "plural_form": "weather forecasts",
+    "sub_theme": "precipitation_sky"
   }
 ]

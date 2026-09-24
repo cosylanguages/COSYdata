@@ -20,7 +20,8 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "douleurs"
+    "plural_form": "douleurs",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:fievre:noun",
@@ -42,7 +43,8 @@
     "no_antonym": true,
     "countability": "uncountable",
     "article": "la",
-    "gender": "feminine"
+    "gender": "feminine",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:mal-de-tete:noun",
@@ -65,7 +67,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "maux de tête"
+    "plural_form": "maux de tête",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:toux:noun",
@@ -88,7 +91,8 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "toux"
+    "plural_form": "toux",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:rhume:noun",
@@ -111,7 +115,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "rhumes"
+    "plural_form": "rhumes",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:medicament:noun",
@@ -134,7 +139,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "médicaments"
+    "plural_form": "médicaments",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:comprime:noun",
@@ -157,7 +163,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "comprimés"
+    "plural_form": "comprimés",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:blessure:noun",
@@ -180,7 +187,8 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "blessures"
+    "plural_form": "blessures",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:ambulance:noun",
@@ -203,7 +211,8 @@
     "countability": "countable",
     "article": "l'",
     "gender": "feminine",
-    "plural_form": "ambulances"
+    "plural_form": "ambulances",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:rendez-vous:noun",
@@ -226,7 +235,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "rendez-vous"
+    "plural_form": "rendez-vous",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:se-sentir-mal:verb",
@@ -247,7 +257,8 @@
     "emoji": "🤢",
     "antonyms": [
       "se sentir bien"
-    ]
+    ],
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:tomber-malade:verb",
@@ -268,7 +279,8 @@
     "emoji": "🤒",
     "antonyms": [
       "guérir"
-    ]
+    ],
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:guerir:verb",
@@ -292,7 +304,8 @@
     ],
     "related_forms": [
       "COSYtools:fr-conjugeur:guérir"
-    ]
+    ],
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:enceinte:adjective",
@@ -311,7 +324,8 @@
     "theme": "health",
     "updated": "2025-05-18",
     "emoji": "🤰",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:allergie:noun",
@@ -334,7 +348,8 @@
     "countability": "countable",
     "article": "l'",
     "gender": "feminine",
-    "plural_form": "allergies"
+    "plural_form": "allergies",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:regime:noun",
@@ -357,7 +372,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "régimes"
+    "plural_form": "régimes",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:poids:noun",
@@ -380,7 +396,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "poids"
+    "plural_form": "poids",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:sang:noun",
@@ -402,7 +419,8 @@
     "no_antonym": true,
     "countability": "uncountable",
     "article": "le",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:dentiste:noun",
@@ -425,7 +443,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "dentistes"
+    "plural_form": "dentistes",
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:faire-mal:verb",
@@ -444,7 +463,8 @@
     "theme": "health",
     "updated": "2025-05-18",
     "emoji": "💥",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "body_parts"
   },
   {
     "id": "fr:bras-a2:noun",
@@ -466,6 +486,7 @@
     ],
     "no_antonym": true,
     "domain": "general",
-    "theme": "health"
+    "theme": "health",
+    "sub_theme": "body_parts"
   }
 ]

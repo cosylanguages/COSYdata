@@ -29,7 +29,7 @@
     "transcription_variants": {
       "us": "/ˈdɑː.kjə.mənt/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:id:noun",
@@ -54,7 +54,8 @@
     "transcription": "/ˌaɪˈdiː/",
     "emoji": "🪪",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:identity-card:noun",
@@ -83,7 +84,7 @@
     "transcription_variants": {
       "us": "/aɪˈden.t̬ə.t̬i ˌkɑːrd/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:driver-s-license:noun",
@@ -111,7 +112,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈdraɪ.vɚz ˌlaɪ.səns/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:birth-certificate:noun",
@@ -139,7 +141,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈbɝːθ sɚˌtɪf.ə.kət/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:signature:noun",
@@ -168,7 +171,7 @@
     "transcription_variants": {
       "us": "/ˈsɪɡ.nə.tʃɚ/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:form:noun",
@@ -197,7 +200,7 @@
     "transcription_variants": {
       "us": "/fɔːrm/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:details:noun",
@@ -225,7 +228,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/dɪˈteɪlz/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:date-of-birth:noun",
@@ -253,7 +257,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌdeɪt əv ˈbɝːθ/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:marital-status:noun",
@@ -280,7 +285,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌmær.ə.t̬əl ˈstæt̬.əs/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:contact-information:noun",
@@ -307,7 +313,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈkɑːn.tækt ˌɪn.fɚˈmeɪ.ʃən/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:postal-code:noun",
@@ -335,7 +342,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈpoʊ.stəl ˌkoʊd/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:zip-code:noun",
@@ -366,7 +374,8 @@
     },
     "region": [
       "US"
-    ]
+    ],
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:army:noun",
@@ -387,7 +396,8 @@
     "emoji": "🪖",
     "countability": "countable",
     "plural_form": "armies",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:ex:noun",
@@ -408,7 +418,8 @@
     "emoji": "💔",
     "countability": "countable",
     "plural_form": "exes",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:individual:noun",
@@ -432,7 +443,7 @@
     "antonyms": [
       "group"
     ],
-    "sub_theme": "general"
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:combine:verb",
@@ -456,7 +467,8 @@
     "emoji": "🔀",
     "antonyms": [
       "separate"
-    ]
+    ],
+    "sub_theme": "daily_routines"
   },
   {
     "id": "en:occur:verb",
@@ -471,7 +483,7 @@
       "Accidents can occur when drivers do not pay attention."
     ],
     "domain": "general, relocation, exam",
-    "theme": "events",
+    "theme": "activities",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -482,7 +494,7 @@
     },
     "emoji": "⚡",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "daily_life"
   },
   {
     "id": "en:create:verb",
@@ -507,7 +519,7 @@
     "antonyms": [
       "destroy"
     ],
-    "sub_theme": "general"
+    "sub_theme": "daily_routines"
   },
   {
     "id": "en:select:verb",
@@ -522,7 +534,7 @@
       "Please select your preferred language option from the drop-down menu."
     ],
     "domain": "general, relocation, exam",
-    "theme": "choice",
+    "theme": "communication",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -532,7 +544,7 @@
     "antonyms": [
       "reject"
     ],
-    "sub_theme": "general"
+    "sub_theme": "greetings"
   },
   {
     "id": "en:tend:verb",
@@ -547,14 +559,15 @@
       "Temperatures tend to drop sharply in northern regions during autumn."
     ],
     "domain": "general, relocation",
-    "theme": "behavior",
+    "theme": "descriptors",
     "updated": "2025-01-15",
     "levels": [
       "A2"
     ],
     "transcription": "/tend/",
     "emoji": "📈",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "physical_appearance"
   },
   {
     "id": "en:attack:noun",
@@ -571,11 +584,12 @@
       "The local authority issued a warning following a wild animal attack."
     ],
     "domain": "general, travel",
-    "theme": "common_nouns",
+    "theme": "general",
     "updated": "2025-01-15",
     "transcription": "/əˈtæk/",
     "emoji": "⚠️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:phone-number:noun",
@@ -603,7 +617,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈfoʊn ˌnʌm.bɚ/"
-    }
+    },
+    "sub_theme": "miscellaneous"
   },
   {
     "id": "en:email-address:noun",
@@ -632,6 +647,6 @@
     "transcription_variants": {
       "us": "/ˈiː.meɪl ˌæd.res/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "miscellaneous"
   }
 ]
