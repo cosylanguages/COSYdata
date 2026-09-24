@@ -26,7 +26,7 @@
       "connected city"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "building_types"
   },
   {
     "id": "en:urban:noun",
@@ -55,7 +55,7 @@
       "urban revitalizers"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "building_types"
   },
   {
     "id": "en:use:noun",
@@ -86,7 +86,7 @@
     "antonyms": [
       "single-use zoning"
     ],
-    "sub_theme": "general"
+    "sub_theme": "building_types"
   },
   {
     "id": "en:planning:noun",
@@ -114,7 +114,8 @@
       "city planning",
       "urban design"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "building_types"
   },
   {
     "id": "en:affordable:noun",
@@ -144,7 +145,8 @@
     ],
     "antonyms": [
       "luxury housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:sprawl:noun",
@@ -171,7 +173,8 @@
     "antonyms": [
       "urban consolidation",
       "compact development"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:regulation:noun",
@@ -229,7 +232,8 @@
     ],
     "antonyms": [
       "free traffic flow"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:commuter:noun",
@@ -255,7 +259,7 @@
       "transit passenger"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "building_types"
   },
   {
     "id": "en:municipal:adjective",
@@ -282,7 +286,8 @@
     "antonyms": [
       "national",
       "federal"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:civic:adjective",
@@ -308,7 +313,8 @@
     ],
     "antonyms": [
       "private"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:land:noun",
@@ -334,7 +340,7 @@
       "real estate project"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "building_types"
   },
   {
     "id": "en:overpopulation:noun",
@@ -362,7 +368,7 @@
       "underpopulation",
       "depopulation"
     ],
-    "sub_theme": "general"
+    "sub_theme": "building_types"
   },
   {
     "id": "en:hub:noun",
@@ -387,7 +393,8 @@
       "transit center",
       "transportation node"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "building_types"
   },
   {
     "id": "en:utility:noun",
@@ -412,7 +419,8 @@
       "service provider",
       "public utility"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "building_types"
   },
   {
     "id": "en:provider:noun",
@@ -439,7 +447,8 @@
     ],
     "antonyms": [
       "private landlord"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:assisted-living:noun",
@@ -454,7 +463,7 @@
       "Although her grandmother wished to stay home, she chose an assisted living facility for better support."
     ],
     "domain": "relocation",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/əˌsɪs.tɪd ˈlɪv.ɪŋ/",
     "transcription_variants": {
@@ -466,7 +475,8 @@
       "sheltered housing",
       "elderly care residency"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "rooms_spaces"
   },
   {
     "id": "en:electrical-wiring:noun",
@@ -496,7 +506,8 @@
       "electric circuits",
       "power cabling"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "home_fixtures"
   },
   {
     "id": "en:gated-community:noun",
@@ -528,7 +539,8 @@
       "private residential area",
       "enclosed neighborhood"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "building_types"
   },
   {
     "id": "en:homeowners-association:noun",
@@ -543,7 +555,7 @@
       "Monthly dues paid to the homeowners association cover neighborhood landscaping and pool maintenance."
     ],
     "domain": "relocation",
-    "theme": "housing governance",
+    "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
       "B2"
@@ -560,7 +572,8 @@
       "HOA",
       "neighborhood association"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "building_types"
   },
   {
     "id": "en:insulation:noun",
@@ -575,7 +588,7 @@
       "Proper double-window insulation reduces heating costs significantly during cold winter months."
     ],
     "domain": "relocation",
-    "theme": "building construction",
+    "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
       "B2"
@@ -590,7 +603,8 @@
       "thermal lining",
       "weatherproofing"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "home_fixtures"
   },
   {
     "id": "en:sublet:verb",
@@ -619,7 +633,8 @@
     "no_antonym": true,
     "related_forms": [
       "COSYtools:en-irregular-verbs:sublet"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:ventilation:noun",
@@ -634,7 +649,7 @@
       "Adequate bathroom ventilation prevents dampness and mold growth in rented apartments."
     ],
     "domain": "general, relocation",
-    "theme": "housing construction",
+    "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
       "B2"
@@ -649,7 +664,8 @@
       "air circulation",
       "fresh air system"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "home_fixtures"
   },
   {
     "id": "en:wear-and-tear:noun",
@@ -664,7 +680,7 @@
       "Landlords cannot deduct funds from security deposits for fair wear and tear."
     ],
     "domain": "relocation",
-    "theme": "property condition",
+    "theme": "housing",
     "updated": "2025-01-15",
     "levels": [
       "B2"
@@ -681,7 +697,8 @@
     ],
     "antonyms": [
       "wilful damage"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:affordable-housing-crisis:noun",
@@ -689,7 +706,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "relocation",
-    "theme": "urban_housing",
+    "theme": "housing",
     "emoji": "🏚️",
     "countability": "countable",
     "article": "an",
@@ -710,7 +727,8 @@
     ],
     "examples": [
       "The city council announced new zoning incentives to combat the affordable housing crisis."
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:food-desert:noun",
@@ -718,7 +736,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "relocation",
-    "theme": "urban_housing",
+    "theme": "housing",
     "emoji": "🍎",
     "countability": "countable",
     "article": "a",
@@ -739,7 +757,8 @@
     ],
     "examples": [
       "Community gardens were established to improve fresh produce access in the food desert."
-    ]
+    ],
+    "sub_theme": "rooms_spaces"
   },
   {
     "id": "en:urban-planning:noun",
@@ -747,7 +766,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, relocation",
-    "theme": "urban_housing",
+    "theme": "housing",
     "emoji": "🏙️",
     "countability": "uncountable",
     "synonyms": [
@@ -766,7 +785,8 @@
     ],
     "examples": [
       "Modern urban planning prioritizes public transit infrastructure and sustainable housing design."
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:walkability:noun",
@@ -774,7 +794,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "relocation",
-    "theme": "urban_housing",
+    "theme": "housing",
     "emoji": "🚶",
     "countability": "uncountable",
     "synonyms": [
@@ -793,7 +813,8 @@
     ],
     "examples": [
       "High walkability is a key factor attracting new residents to downtown neighborhoods."
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:air-traffic-control:noun",
@@ -802,7 +823,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "The service and system managing aircraft movements on the ground and in controlled airspace."
@@ -821,7 +842,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:biometric-passport:noun",
@@ -830,7 +852,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "A passport containing an embedded microchip with biometric identity data."
@@ -850,7 +872,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:cabin-pressure:noun",
@@ -859,7 +882,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "The controlled atmospheric air pressure inside an aircraft cabin."
@@ -878,7 +901,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:codeshare-flight:noun",
@@ -887,7 +911,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "An aviation arrangement where airlines market a single flight jointly."
@@ -907,7 +931,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:congestion-charge:noun",
@@ -916,7 +941,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "A fee charged to vehicles entering central city zones during peak hours."
@@ -936,7 +961,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:couchette:noun",
@@ -945,7 +971,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "A sleeping compartment with fold-down beds on an overnight train."
@@ -965,7 +991,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:denied-boarding:noun",
@@ -974,7 +1001,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "Refusal by an airline to allow a confirmed passenger to board due to overbooking."
@@ -993,7 +1020,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:diversion:noun",
@@ -1002,7 +1030,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "An alternative route or flight rerouting caused by obstacles."
@@ -1022,7 +1050,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:frequent-flyer-status:noun",
@@ -1031,7 +1060,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "A tiered membership level in an airline loyalty program granting perks."
@@ -1050,7 +1079,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:holding-pattern:noun",
@@ -1059,7 +1089,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "A flight path flown by aircraft waiting for landing clearance."
@@ -1079,7 +1109,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:legacy-carrier:noun",
@@ -1088,7 +1119,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "An established airline providing full-service travel and baggage handling."
@@ -1110,7 +1141,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:minimum-connection-time:noun",
@@ -1119,7 +1151,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "The shortest required layover duration needed to transfer safely between flights."
@@ -1138,7 +1170,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:open-jaw-ticket:noun",
@@ -1147,7 +1180,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "An airline booking where departure and arrival cities differ on return journeys."
@@ -1167,7 +1200,8 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   },
   {
     "id": "en:overbooking-policy:noun",
@@ -1176,7 +1210,7 @@
     "form": "noun",
     "level": "B2",
     "domain": "general, travel",
-    "theme": "urban_housing",
+    "theme": "housing",
     "updated": "2025-01-15",
     "definitions": [
       "Airline or hotel rules regarding selling more reservations than capacity."
@@ -1196,6 +1230,7 @@
     "tags": [
       "travel",
       "urban_housing"
-    ]
+    ],
+    "sub_theme": "building_types"
   }
 ]
