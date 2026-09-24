@@ -4,7 +4,7 @@ Welcome to **COSYdata**, the canonical static data repository for the COSYlangua
 
 ## Overview
 
-This repository serves as the **single source of truth** for vocabulary data consumed by other repositories across the COSYlanguages ecosystem (`COSYlanguages`, `COSYmanuals`, `COSYgames`, `COSYtools`).
+This repository serves as the **single source of truth** for vocabulary data consumed by other repositories across the COSYlanguages ecosystem (`COSYlanguages`, `COSYmanuals`, `COSYgames`, `COSYtools`, `COSYplatform`).
 
 There is no backend service or build step required for the data itself. All canonical vocabulary files are versioned JSON files served statically over HTTP via **GitHub Pages**.
 
@@ -30,12 +30,14 @@ $$\text{\{language\}}:\text{\{word-slug\}}:\text{\{form\}}$$
 
 ## Vocabulary File Organization & Datasets
 
-Vocabulary entries are **batched into theme files** organized by CEFR levels and courses:
+Vocabulary entries are **batched into theme files** organized by CEFR levels in level subdirectories under each language directory:
 
 ```
 vocabulary/
 └── <lang>/
     ├── index.json
+    ├── search-index.json
+    ├── flat-index.json
     ├── a0_a1/
     │   ├── animals.json
     │   ├── colors.json
@@ -52,13 +54,22 @@ vocabulary/
     │   ├── cause_effect.json
     │   ├── society.json
     │   └── ...
-    ├── b2/ (B2+)
-    └── ...
+    ├── b2/
+    │   ├── academic_vocabulary.json
+    │   ├── business_management.json
+    │   └── ...
+    ├── c1/
+    │   ├── advanced_ethics.json
+    │   └── ...
+    └── c2/
+        ├── philosophy_epistemology.json
+        └── ...
 ```
 
-- **`vocabulary/<lang>/<level>/<theme>.json`**: Contains array or map of word entries belonging to a given level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`).
+- **`vocabulary/<lang>/<level>/<theme>.json`**: Level-first directory structure containing array of word entries belonging to a given CEFR level and theme (e.g. `vocabulary/en/a0_a1/animals.json`, `vocabulary/en/a2/personality.json`, `vocabulary/en/b1/society.json`).
 - **`vocabulary/<lang>/index.json`**: Mappings from each word ID to its relative theme file path (e.g. `"en:cat:noun": "a0_a1/animals.json"`).
 - **`vocabulary/<lang>/search-index.json`**: Lightweight entry array used to populate UI search, browse, and filter views efficiently without needing to load full definitions, examples, collocations, or audio metadata.
+- **`vocabulary/<lang>/flat-index.json`**: Fast lookup table mapping word surface forms across language datasets.
 
 ### Search Index (`search-index.json`) Shape
 Each language folder contains `search-index.json`, an array of lightweight JSON objects formatted with key metadata fields required for quick dictionary browsing and filtering:
@@ -96,6 +107,9 @@ npm run build
 - **`a0_a1/`**: Beginner CEFR A0–A1 level vocabulary files across general and spoken courses.
 - **`a2/`**: Elementary CEFR A2 level vocabulary files across general and spoken courses.
 - **`b1/`**: Intermediate CEFR B1 level vocabulary files across general and spoken courses.
+- **`b2/`**: Upper-Intermediate CEFR B2 level vocabulary files across general, professional, and exam courses.
+- **`c1/`**: Advanced CEFR C1 level vocabulary files across specialized, academic, and professional domains.
+- **`c2/`**: Mastery CEFR C2 level vocabulary files across nuanced, specialized, and domain-specific tracks.
 
 ### Course Track Domains (`domain`)
 - **`general`**: Standard CEFR course vocabulary for everyday communication.
