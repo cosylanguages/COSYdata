@@ -12,7 +12,7 @@
       "The town center has many tourist shops."
     ],
     "domain": "general, spoken, travel, professional, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -23,7 +23,7 @@
     "transcription_variants": {
       "us": "/ˈtʊr.ɪst/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:lively:adjective",
@@ -38,14 +38,15 @@
       "The market square was very lively on Saturday."
     ],
     "domain": "general",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈlaɪv.li/",
     "emoji": "🎉",
     "antonyms": [
       "quiet",
       "dull"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:historic:adjective",
@@ -60,7 +61,7 @@
       "We visited a historic castle built centuries ago."
     ],
     "domain": "general, spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -72,7 +73,8 @@
     ],
     "transcription_variants": {
       "us": "/hɪˈstɔːr.ɪk/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:scenic:adjective",
@@ -87,14 +89,15 @@
       "We took a scenic drive along the coast."
     ],
     "domain": "general, spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
     ],
     "transcription": "/ˈsiː.nɪk/",
     "emoji": "🏞️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:picturesque:adjective",
@@ -109,13 +112,14 @@
       "It is a picturesque village with narrow streets."
     ],
     "domain": "general, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌpɪk.tʃərˈesk/",
     "emoji": "🖼️",
     "antonyms": [
       "ugly"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:polluted:adjective",
@@ -130,7 +134,7 @@
       "The river was too polluted for swimming."
     ],
     "domain": "general",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/pəˈluː.tɪd/",
     "emoji": "🏭",
@@ -140,7 +144,8 @@
     ],
     "transcription_variants": {
       "us": "/pəˈluː.t̬ɪd/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:urban:adjective",
@@ -155,7 +160,7 @@
       "Many young people prefer living in urban areas."
     ],
     "domain": "general, spoken, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -168,7 +173,7 @@
     "transcription_variants": {
       "us": "/ˈɝː.bən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:rural:adjective",
@@ -183,7 +188,7 @@
       "They enjoy a quiet life in a rural village."
     ],
     "domain": "general, spoken, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -196,7 +201,7 @@
     "transcription_variants": {
       "us": "/ˈrʊr.əl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:downtown:adjective",
@@ -211,7 +216,7 @@
       "We met at a busy downtown café for lunch."
     ],
     "domain": "general, relocation, spoken, travel, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -222,7 +227,7 @@
       "uptown",
       "suburban"
     ],
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:suburb:adjective",
@@ -237,7 +242,7 @@
       "They moved to a quiet suburb last year."
     ],
     "domain": "general, relocation, spoken, travel, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -250,7 +255,7 @@
     "transcription_variants": {
       "us": "/ˈsʌb.ɝːb/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:outskirts:adjective",
@@ -265,7 +270,7 @@
       "The new shopping center is on the outskirts."
     ],
     "domain": "general, spoken",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -277,7 +282,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈaʊt.skɝːts/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:skyline:adjective",
@@ -292,12 +298,12 @@
       "The city skyline looked amazing at night."
     ],
     "domain": "general, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈskaɪ.laɪn/",
     "emoji": "🏙️",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:landmark:adjective",
@@ -312,7 +318,7 @@
       "The old clock tower is a famous local landmark."
     ],
     "domain": "general, spoken, travel, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -323,7 +329,7 @@
     "transcription_variants": {
       "us": "/ˈlænd.mɑːrk/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:monument:adjective",
@@ -338,7 +344,7 @@
       "Visitors took photos of the ancient stone monument."
     ],
     "domain": "general, spoken, travel, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -349,7 +355,7 @@
     "transcription_variants": {
       "us": "/ˈmɑːn.jə.mənt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:population:adjective",
@@ -364,7 +370,7 @@
       "The city has a large and diverse population."
     ],
     "domain": "general, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌpɒp.jəˈleɪ.ʃən/",
     "emoji": "👥",
@@ -372,7 +378,7 @@
     "transcription_variants": {
       "us": "/ˌpɑː.pjəˈleɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:density:adjective",
@@ -387,14 +393,15 @@
       "High population density causes heavy traffic."
     ],
     "domain": "general",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈden.sə.ti/",
     "emoji": "🏢",
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈden.sə.t̬i/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:attraction:adjective",
@@ -409,11 +416,12 @@
       "The castle is the main tourist attraction here."
     ],
     "domain": "general",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/əˈtræk.ʃən/",
     "emoji": "🎡",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:popular:adjective",
@@ -428,7 +436,7 @@
       "This park is very popular on summer weekends."
     ],
     "domain": "general, spoken, travel, professional, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -441,7 +449,7 @@
     "transcription_variants": {
       "us": "/ˈpɑː.pjə.lɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:remote:adjective",
@@ -456,7 +464,7 @@
       "They stayed in a remote mountain cabin."
     ],
     "domain": "general, spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -473,7 +481,8 @@
     ],
     "transcription_variants": {
       "us": "/rɪˈmoʊt/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:isolated:adjective",
@@ -488,7 +497,7 @@
       "The farm house stood isolated in the fields."
     ],
     "domain": "general, spoken, travel, professional",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -500,7 +509,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈaɪ.sə.leɪ.t̬ɪd/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:central:adjective",
@@ -515,7 +525,7 @@
       "The hotel has a convenient central location."
     ],
     "domain": "general, spoken",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -525,7 +535,8 @@
     "antonyms": [
       "remote",
       "distant"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:old-fashioned:adjective",
@@ -540,7 +551,7 @@
       "He wore an old-fashioned suit to party."
     ],
     "domain": "spoken",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -553,7 +564,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌoʊldˈfæʃ.ənd/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:touristy:adjective",
@@ -568,7 +580,7 @@
       "Avoid buying souvenirs at touristy shops."
     ],
     "domain": "spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -581,7 +593,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈtʊr.ɪ.sti/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:industrial:adjective",
@@ -596,7 +609,7 @@
       "Many workers commute to the industrial area."
     ],
     "domain": "spoken",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -606,7 +619,8 @@
     "emoji": "🏭",
     "antonyms": [
       "residential"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:residential:adjective",
@@ -621,7 +635,7 @@
       "Speed limits are lower in residential streets."
     ],
     "domain": "spoken",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -634,7 +648,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌrez.əˈden.ʃəl/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:spacious:adjective",
@@ -649,7 +664,7 @@
       "Their new living room is very spacious."
     ],
     "domain": "spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -660,7 +675,8 @@
     "antonyms": [
       "cramped",
       "small"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:cozy:adjective",
@@ -675,7 +691,7 @@
       "We spent a cozy evening by the fireplace."
     ],
     "domain": "spoken",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -688,7 +704,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈkoʊ.zi/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:well-known:adjective",
@@ -703,7 +720,7 @@
       "She is a well-known writer in England."
     ],
     "domain": "spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "tags": [
       "spoken",
       "elementary"
@@ -717,7 +734,8 @@
     ],
     "transcription_variants": {
       "us": "/ˌwelˈnoʊn/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:alley:noun",
@@ -732,13 +750,14 @@
       "They walked down a quiet cobblestone alley."
     ],
     "domain": "general, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈæl.i/",
     "emoji": "🏙️",
     "countability": "countable",
     "plural_form": "alleys",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:city-center:noun",
@@ -753,13 +772,14 @@
       "We stayed at a hotel in the city center."
     ],
     "domain": "general, spoken",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈsɪt.i ˈsen.tər/",
     "emoji": "🏙️",
     "countability": "countable",
     "plural_form": "city centers",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:fire-station:noun",
@@ -774,14 +794,14 @@
       "School children visited the local fire station."
     ],
     "domain": "general, relocation, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈfaɪə ˌsteɪ.ʃən/",
     "emoji": "🚒",
     "countability": "countable",
     "plural_form": "fire stations",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:gas-station:noun",
@@ -796,7 +816,7 @@
       "We stopped at a gas station to fill the tank."
     ],
     "domain": "general, spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈɡæs ˌsteɪ.ʃən/",
     "emoji": "⛽",
@@ -808,7 +828,8 @@
     ],
     "regional_equivalents": [
       "en:petrol-station:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:parking:noun",
@@ -823,12 +844,13 @@
       "Is free parking available near the hotel?"
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpɑː.kɪŋ/",
     "emoji": "🅿️",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:petrol-gas-station:noun",
@@ -843,13 +865,14 @@
       "There is a petrol / gas station on the highway."
     ],
     "domain": "general, spoken",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpet.rəl / ˈɡæs ˌsteɪ.ʃən/",
     "emoji": "⛽",
     "countability": "countable",
     "plural_form": "petrol / gas stations",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:region:noun",
@@ -864,14 +887,14 @@
       "This mountain region receives heavy snowfall in winter."
     ],
     "domain": "general, travel, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈriː.dʒən/",
     "emoji": "🏞️",
     "countability": "countable",
     "plural_form": "regions",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:town-hall:noun",
@@ -886,14 +909,14 @@
       "The wedding ceremony took place at the town hall."
     ],
     "domain": "general, relocation, professional",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌtaʊn ˈhɔːl/",
     "emoji": "🏛️",
     "countability": "countable",
     "plural_form": "town halls",
     "no_antonym": true,
-    "sub_theme": "legal-english"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:cafeteria:noun",
@@ -908,7 +931,7 @@
       "We met for lunch in the company cafeteria."
     ],
     "domain": "general, relocation, exam",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌkæf.əˈtɪə.ri.ə/",
     "transcription_variants": {
@@ -918,7 +941,7 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "cafeterias",
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:canteen:noun",
@@ -933,7 +956,7 @@
       "Students buy hot meals at the school canteen."
     ],
     "domain": "general, relocation, professional",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/kænˈtiːn/",
     "transcription_variants": {
@@ -943,7 +966,7 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "canteens",
-    "sub_theme": "academic-english"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:city-hall:noun",
@@ -958,7 +981,7 @@
       "We visited city hall to complete local residence registration."
     ],
     "domain": "relocation",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌsɪt.i ˈhɔːl/",
     "transcription_variants": {
@@ -967,7 +990,8 @@
     "emoji": "🏛️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "city halls"
+    "plural_form": "city halls",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:community-center:noun",
@@ -982,7 +1006,7 @@
       "The local community center offers free language classes."
     ],
     "domain": "general, relocation",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/kəˈmjuː.nə.ti ˌsen.tə/",
     "transcription_variants": {
@@ -991,7 +1015,8 @@
     "emoji": "🏢",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "community centers"
+    "plural_form": "community centers",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:queue:noun",
@@ -1006,7 +1031,7 @@
       "There was a long queue at the immigration counter."
     ],
     "domain": "general, relocation, exam",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/kjuː/",
     "transcription_variants": {
@@ -1016,7 +1041,7 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "queues",
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:shopping-center:noun",
@@ -1031,7 +1056,7 @@
       "We visited the shopping center to buy household appliances."
     ],
     "domain": "general, relocation",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈʃɒp.ɪŋ ˌsen.tə/",
     "transcription_variants": {
@@ -1040,7 +1065,8 @@
     "emoji": "🛍️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "shopping centers"
+    "plural_form": "shopping centers",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:carpool:verb",
@@ -1055,7 +1081,7 @@
       "We carpool with our neighbors to get to work."
     ],
     "domain": "general, relocation, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1065,7 +1091,8 @@
       "us": "/ˈkɑːr.puːl/"
     },
     "emoji": "🚗",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:courier:noun",
@@ -1080,7 +1107,7 @@
       "The courier delivered the document to my home address."
     ],
     "domain": "general, relocation, exam",
-    "theme": "services",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1094,7 +1121,7 @@
     "article": "a",
     "plural_form": "couriers",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:cyclist:noun",
@@ -1109,7 +1136,7 @@
       "Every cyclist should wear a helmet on busy streets."
     ],
     "domain": "general, relocation, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1119,7 +1146,8 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "cyclists",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:parcel:noun",
@@ -1134,7 +1162,7 @@
       "The postal worker left a large parcel at our front door."
     ],
     "domain": "general, relocation",
-    "theme": "services",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1147,7 +1175,8 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "parcels",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:parking-fine:noun",
@@ -1162,7 +1191,7 @@
       "He received a thirty-pound parking fine for overstaying the meter limit."
     ],
     "domain": "general, relocation, travel",
-    "theme": "traffic penalties",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1175,7 +1204,8 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "parking fines",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:public-transportation:noun",
@@ -1190,7 +1220,7 @@
       "Using public transportation is cheaper than maintaining a private car in city centers."
     ],
     "domain": "general, relocation",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1201,7 +1231,8 @@
     },
     "emoji": "🚌",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:speeding:noun",
@@ -1216,7 +1247,7 @@
       "Traffic cameras monitor the highway and issue automated fines for speeding."
     ],
     "domain": "general, relocation",
-    "theme": "traffic violations",
+    "theme": "travel",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1226,7 +1257,8 @@
     "countability": "uncountable",
     "antonyms": [
       "safe driving"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:boarding-time:noun",
@@ -1243,14 +1275,15 @@
       "Make sure to arrive at Gate 4 before your boarding time."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈbɔː.dɪŋ ˌtaɪm/",
     "transcription_variants": {
       "us": "/ˈbɔːr.dɪŋ ˌtaɪm/"
     },
     "emoji": "⏰",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:flight-attendant:noun",
@@ -1267,14 +1300,15 @@
       "The flight attendant served refreshments during the long journey."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈflaɪt əˌten.dənt/",
     "emoji": "🧑‍✈️",
     "no_antonym": true,
     "levels": [
       "A2"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:landing:noun",
@@ -1294,10 +1328,11 @@
       "Passengers applauded after a smooth landing in rainy weather."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈlæn.dɪŋ/",
-    "emoji": "🛬"
+    "emoji": "🛬",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:petrol-station:noun",
@@ -1320,11 +1355,12 @@
       "We stopped at a petrol station to refuel before driving further."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpet.rəl ˌsteɪ.ʃən/",
     "emoji": "⛽",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:runway:noun",
@@ -1341,11 +1377,12 @@
       "The plane lined up on the runway waiting for clearance."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈrʌn.weɪ/",
     "emoji": "🛫",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:single-ticket:noun",
@@ -1365,12 +1402,12 @@
       "I purchased a single ticket to central station."
     ],
     "domain": "general, travel, exam",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌsɪŋ.ɡəl ˈtɪk.ɪt/",
     "emoji": "🎫",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:takeoff:noun",
@@ -1390,13 +1427,14 @@
       "Please remain seated with your seatbelt fastened during takeoff."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈteɪk.ɒf/",
     "transcription_variants": {
       "us": "/ˈteɪk.ɑːf/"
     },
-    "emoji": "🛫"
+    "emoji": "🛫",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:terminal:noun",
@@ -1413,14 +1451,15 @@
       "Our international flight leaves from Terminal 2."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈtɜː.mɪ.nəl/",
     "transcription_variants": {
       "us": "/ˈtɝː.mə.nəl/"
     },
     "emoji": "🛄",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:airport-shuttle:noun",
@@ -1435,13 +1474,14 @@
       "The free airport shuttle arrives every ten minutes."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈeə.pɔːt ˌʃʌt.əl/",
     "emoji": "🚌",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "airport shuttles"
+    "plural_form": "airport shuttles",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:arrival-hall:noun",
@@ -1456,13 +1496,14 @@
       "We met our family inside the arrival hall."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/əˈraɪ.vəl hɔːl/",
     "emoji": "🛬",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "arrival halls"
+    "plural_form": "arrival halls",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:arrivals-board:noun",
@@ -1477,13 +1518,14 @@
       "Check the arrivals board for flight status updates."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/əˈraɪ.vəlz bɔːd/",
     "emoji": "📊",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "arrivals boards"
+    "plural_form": "arrivals boards",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:baggage-carousel:noun",
@@ -1498,13 +1540,14 @@
       "Passengers gathered around baggage carousel number three."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈbæɡ.ɪdʒ ˌkær.ə.sel/",
     "emoji": "🧳",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "baggage carousels"
+    "plural_form": "baggage carousels",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:baggage-claim:noun",
@@ -1519,12 +1562,13 @@
       "Collect your heavy suitcases at baggage claim."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈbæɡ.ɪdʒ kleɪm/",
     "emoji": "🛄",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:board-a-plane:phrase",
@@ -1539,11 +1583,12 @@
       "Passengers board a plane through the gate."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/bɔːd ə pleɪn/",
     "emoji": "✈️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:boarding-zone:noun",
@@ -1558,13 +1603,14 @@
       "Please wait in your assigned boarding zone."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈbɔː.dɪŋ zəʊn/",
     "emoji": "🚪",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "boarding zones"
+    "plural_form": "boarding zones",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:budget-airline:noun",
@@ -1579,13 +1625,14 @@
       "We booked cheap tickets with a budget airline."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈbʌdʒ.ɪt ˌeə.laɪn/",
     "emoji": "✈️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "budget airlines"
+    "plural_form": "budget airlines",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:business-class:noun",
@@ -1600,12 +1647,13 @@
       "He traveled in business class for work."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈbɪz.nɪs klɑːs/",
     "emoji": "💺",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:cancelled-service:noun",
@@ -1620,7 +1668,7 @@
       "Station staff announced a cancelled service today."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈkæn.səld ˌsɜː.vɪs/",
     "emoji": "❌",
@@ -1628,7 +1676,8 @@
       "active service"
     ],
     "countability": "countable",
-    "plural_form": "cancelled services"
+    "plural_form": "cancelled services",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:connecting-gate:noun",
@@ -1643,13 +1692,14 @@
       "Hurry to reach your connecting gate quickly."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/kəˈnek.tɪŋ ɡeɪt/",
     "emoji": "🚪",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "connecting gates"
+    "plural_form": "connecting gates",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:connection-time:noun",
@@ -1664,13 +1714,14 @@
       "Allow two hours of connection time here."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/kəˈnek.ʃən taɪm/",
     "emoji": "⏱️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "connection times"
+    "plural_form": "connection times",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:delayed-flight:noun",
@@ -1685,7 +1736,7 @@
       "Our delayed flight finally landed at midnight."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/dɪˈleɪd flaɪt/",
     "emoji": "⏳",
@@ -1693,7 +1744,8 @@
       "on-time flight"
     ],
     "countability": "countable",
-    "plural_form": "delayed flights"
+    "plural_form": "delayed flights",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:departure-board:noun",
@@ -1708,13 +1760,14 @@
       "Look at the departure board for gates."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/dɪˈpɑː.tʃə bɔːd/",
     "emoji": "📋",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "departure boards"
+    "plural_form": "departure boards",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:departure-lounge:noun",
@@ -1729,13 +1782,14 @@
       "We rested in the quiet departure lounge."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/dɪˈpɑː.tʃə ˌlaʊndʒ/",
     "emoji": "🛋️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "departure lounges"
+    "plural_form": "departure lounges",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:departures-board:noun",
@@ -1750,13 +1804,14 @@
       "Check the departures board for gate numbers."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/dɪˈpɑː.tʃəz bɔːd/",
     "emoji": "📋",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "departures boards"
+    "plural_form": "departures boards",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:direct-flight:noun",
@@ -1771,7 +1826,7 @@
       "We booked a direct flight to Tokyo."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/daɪˈrekt flaɪt/",
     "emoji": "✈️",
@@ -1779,7 +1834,8 @@
       "connecting flight"
     ],
     "countability": "countable",
-    "plural_form": "direct flights"
+    "plural_form": "direct flights",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:during-the-flight:phrase",
@@ -1794,11 +1850,12 @@
       "Passengers slept peacefully during the flight."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈdjʊə.rɪŋ ðə flaɪt/",
     "emoji": "✈️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:economy-class:noun",
@@ -1813,12 +1870,13 @@
       "They bought economy class tickets for holiday."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ɪˈkɒn.ə.mi klɑːs/",
     "emoji": "💺",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:emergency-exit-row:noun",
@@ -1833,13 +1891,14 @@
       "He requested an emergency exit row seat."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ɪˈmɜː.dʒən.si ˈek.sɪt rəʊ/",
     "emoji": "🚪",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "emergency exit rows"
+    "plural_form": "emergency exit rows",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:excess-baggage:noun",
@@ -1854,12 +1913,13 @@
       "She paid extra fees for excess baggage."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ɪkˈses ˌbæɡ.ɪdʒ/",
     "emoji": "🧳",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:first-class:noun",
@@ -1874,12 +1934,13 @@
       "They enjoyed spacious seats in first class."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌfɜːst ˈklɑːs/",
     "emoji": "💺",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:hand-luggage:noun",
@@ -1894,7 +1955,7 @@
       "Keep your hand luggage under the seat."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈhænd ˌlʌɡ.ɪdʒ/",
     "emoji": "🧳",
@@ -1902,7 +1963,8 @@
     "countability": "uncountable",
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:liquid-restrictions:noun",
@@ -1917,12 +1979,13 @@
       "Airport security strictly enforces liquid restrictions."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈlɪk.wɪd rɪˈstrɪk.ʃənz/",
     "emoji": "🧴",
     "no_antonym": true,
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:metal-detector:noun",
@@ -1937,13 +2000,14 @@
       "Walk slowly through the airport metal detector."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈmet.əl dɪˌtek.tər/",
     "emoji": "🚨",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "metal detectors"
+    "plural_form": "metal detectors",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:missed-flight:noun",
@@ -1958,13 +2022,14 @@
       "Heavy traffic resulted in a missed flight."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/mɪst flaɪt/",
     "emoji": "❌",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "missed flights"
+    "plural_form": "missed flights",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:non-stop-flight:noun",
@@ -1979,7 +2044,7 @@
       "They prefer taking a non-stop flight."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌnɒnˈstɒp flaɪt/",
     "emoji": "✈️",
@@ -1987,7 +2052,8 @@
       "layover flight"
     ],
     "countability": "countable",
-    "plural_form": "non-stop flights"
+    "plural_form": "non-stop flights",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:passport-control:noun",
@@ -2002,12 +2068,13 @@
       "Show your passport at passport control."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpɑːs.pɔːt kənˌtrəʊl/",
     "emoji": "🛂",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:priority-boarding:noun",
@@ -2022,12 +2089,13 @@
       "Families with infants enjoyed priority boarding."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/praɪˈɒr.ə.ti ˈbɔː.dɪŋ/",
     "emoji": "🎫",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:pedestrian-area:noun",
@@ -2042,13 +2110,14 @@
       "Cars are forbidden inside the pedestrian area."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/pəˈdes.tri.ən ˈeə.ri.ə/",
     "emoji": "🚶",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "pedestrian areas"
+    "plural_form": "pedestrian areas",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:pedestrian-crossing:noun",
@@ -2063,13 +2132,14 @@
       "Use the zebra pedestrian crossing to walk safely."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/pəˈdes.tri.ən ˈkrɒs.ɪŋ/",
     "emoji": "🚸",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "pedestrian crossings"
+    "plural_form": "pedestrian crossings",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:platform-number:noun",
@@ -2084,13 +2154,14 @@
       "Check platform number four for your train."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈplæt.fɔːm ˌnʌm.bər/",
     "emoji": "🔢",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "platform numbers"
+    "plural_form": "platform numbers",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:capital-city:noun",
@@ -2105,13 +2176,14 @@
       "Paris is the capital city of France."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈkæp.ɪ.təl ˈsɪt.i/",
     "emoji": "🏛️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "capital cities"
+    "plural_form": "capital cities",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:lost-and-found:noun",
@@ -2126,12 +2198,13 @@
       "Inquire at lost and found for lost keys."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/lɒst ənd faʊnd/",
     "emoji": "🔍",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:lost-property-office:noun",
@@ -2146,13 +2219,14 @@
       "I claimed my bag at lost property office."
     ],
     "domain": "general, relocation, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/lɒst ˈprɒp.ə.ti ˌɒf.ɪs/",
     "emoji": "🏢",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "lost property offices"
+    "plural_form": "lost property offices",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:main-street:noun",
@@ -2167,13 +2241,14 @@
       "Shops and cafes line the busy main street."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/meɪn striːt/",
     "emoji": "🏙️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "main streets"
+    "plural_form": "main streets",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:neighboring-country:noun",
@@ -2188,13 +2263,14 @@
       "We took a train into a neighboring country."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈneɪ.bər.ɪŋ ˈkʌn.tri/",
     "emoji": "🗺️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "neighboring countries"
+    "plural_form": "neighboring countries",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:side-street:noun",
@@ -2209,13 +2285,14 @@
       "We found a cafe on a side street."
     ],
     "domain": "general, travel",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/saɪd striːt/",
     "emoji": "🏙️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "side streets"
+    "plural_form": "side streets",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:first:noun",
@@ -2230,7 +2307,7 @@
       "First class tickets are more expensive."
     ],
     "domain": "general, relocation, spoken, travel, professional",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2248,7 +2325,7 @@
     "transcription_variants": {
       "us": "/fɝːst/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:platform:noun",
@@ -2263,7 +2340,7 @@
       "The train arrives at platform three soon."
     ],
     "domain": "general, relocation, spoken, travel, professional",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "platforms",
     "tags": [
@@ -2280,7 +2357,7 @@
     "transcription_variants": {
       "us": "/ˈplæt.fɔːrm/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:traffic:noun",
@@ -2295,7 +2372,7 @@
       "Heavy traffic delayed our bus this morning."
     ],
     "domain": "general, relocation, spoken, travel, professional",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2303,7 +2380,8 @@
     "countability": "uncountable",
     "transcription": "/ˈtræf.ɪk/",
     "emoji": "🚗",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:jam:noun",
@@ -2318,13 +2396,14 @@
       "We got stuck in a traffic jam."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "jams",
     "transcription": "/dʒæm/",
     "emoji": "🚗",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:rush:noun",
@@ -2339,12 +2418,13 @@
       "Avoid traveling during morning rush hour."
     ],
     "domain": "general",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/rʌʃ/",
     "emoji": "🏃",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:crossroads:noun",
@@ -2359,7 +2439,7 @@
       "Turn right at the next crossroads ahead."
     ],
     "domain": "general, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2377,7 +2457,8 @@
     ],
     "regional_equivalents": [
       "en:intersection:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:roundabout:noun",
@@ -2392,7 +2473,7 @@
       "Take the second exit at the roundabout."
     ],
     "domain": "general, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "roundabouts",
     "tags": [
@@ -2404,7 +2485,8 @@
     "no_antonym": true,
     "region": [
       "UK"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:junction:noun",
@@ -2419,13 +2501,14 @@
       "Slow down when approaching the highway junction."
     ],
     "domain": "general",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "junctions",
     "transcription": "/ˈdʒʌŋk.ʃən/",
     "emoji": "🔀",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:motorway:noun",
@@ -2440,7 +2523,7 @@
       "Drive fast on the multi-lane motorway."
     ],
     "domain": "general, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "motorways",
     "tags": [
@@ -2458,7 +2541,8 @@
     ],
     "regional_equivalents": [
       "en:highway:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:highway:noun",
@@ -2473,7 +2557,7 @@
       "Traffic moved smoothly along the national highway."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "highways",
     "tags": [
@@ -2488,7 +2572,8 @@
     ],
     "regional_equivalents": [
       "en:motorway:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:pedestrian:noun",
@@ -2503,7 +2588,7 @@
       "Cars stopped to let the pedestrian cross."
     ],
     "domain": "general, spoken, relocation, professional",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "pedestrians",
     "tags": [
@@ -2514,7 +2599,8 @@
     "countability": "countable",
     "antonyms": [
       "driver"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:crossing:noun",
@@ -2529,7 +2615,7 @@
       "Use the pedestrian crossing to cross safely."
     ],
     "domain": "general, relocation",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "crossings",
     "transcription": "/ˈkrɒs.ɪŋ/",
@@ -2538,7 +2624,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈkrɑː.sɪŋ/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:lights:noun",
@@ -2553,13 +2640,14 @@
       "Stop when traffic lights turn red."
     ],
     "domain": "general",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "countability": "pluralia_tantum",
     "transcription": "/laɪts/",
     "emoji": "🚦",
     "singular_workaround": "a light",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:limit:noun",
@@ -2574,13 +2662,14 @@
       "Observe the speed limit when driving here."
     ],
     "domain": "general, relocation",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "limits",
     "transcription": "/ˈlɪm.ɪt/",
     "emoji": "🛑",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:fare:noun",
@@ -2595,7 +2684,7 @@
       "How much is the bus fare to town?"
     ],
     "domain": "general, relocation, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "fares",
     "transcription": "/feər/",
@@ -2604,7 +2693,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/fer/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:turning:noun",
@@ -2619,7 +2709,7 @@
       "Take the second turning on your left."
     ],
     "domain": "general",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "plural_form": "turnings",
     "transcription": "/ˈtɜː.nɪŋ/",
@@ -2628,7 +2718,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈtɝː.nɪŋ/"
-    }
+    },
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:miss:verb",
@@ -2643,7 +2734,7 @@
       "Hurry or you will miss the train."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -2652,7 +2743,8 @@
     "emoji": "❌",
     "antonyms": [
       "catch"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:ferry:noun",
@@ -2667,13 +2759,14 @@
       "We took a passenger ferry across the harbor."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈfer.i/",
     "emoji": "⛴️",
     "countability": "countable",
     "plural_form": "ferries",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:hurry:verb",
@@ -2688,14 +2781,15 @@
       "We must hurry or we will miss our flight."
     ],
     "domain": "general, spoken",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈhʌr.i/",
     "emoji": "🏃",
     "antonyms": [
       "delay",
       "dawdle"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:one-way:adjective",
@@ -2710,14 +2804,15 @@
       "He bought a one-way ticket to London."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌwʌnˈweɪ/",
     "emoji": "➡️",
     "antonyms": [
       "return",
       "round-trip"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:passenger:noun",
@@ -2732,13 +2827,14 @@
       "All passengers must fasten their seatbelts."
     ],
     "domain": "general, spoken, relocation",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpæs.ən.dʒər/",
     "emoji": "🧳",
     "countability": "countable",
     "plural_form": "passengers",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:return-ticket:noun",
@@ -2753,13 +2849,14 @@
       "I purchased a return ticket for the weekend train."
     ],
     "domain": "general, relocation, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/rɪˈtɜːn ˌtɪk.ɪt/",
     "emoji": "🎟️",
     "countability": "countable",
     "plural_form": "return tickets",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:seatbelt:noun",
@@ -2774,13 +2871,14 @@
       "Fasten your seatbelt before driving."
     ],
     "domain": "general, spoken, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈsiːt.belt/",
     "emoji": "💺",
     "countability": "countable",
     "plural_form": "seatbelts",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:traffic-jam:noun",
@@ -2795,13 +2893,14 @@
       "We were stuck in a heavy traffic jam for an hour."
     ],
     "domain": "general, spoken",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈtræf.ɪk dʒæm/",
     "emoji": "🚗",
     "countability": "countable",
     "plural_form": "traffic jams",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:driving-license:noun",
@@ -2816,7 +2915,7 @@
       "You must exchange your foreign driving license within six months."
     ],
     "domain": "relocation, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈdraɪ.vɪŋ ˌlaɪ.səns/",
     "transcription_variants": {
@@ -2825,7 +2924,8 @@
     "emoji": "🪪",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "driving licenses"
+    "plural_form": "driving licenses",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:reserved-seating:noun",
@@ -2834,7 +2934,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A passenger seating arrangement where specific seats are pre-assigned."
@@ -2855,7 +2955,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:roadworks:noun",
@@ -2864,7 +2965,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "Construction or repair work being carried out on a road."
@@ -2887,7 +2988,8 @@
       "UK",
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:satellite-navigation:noun",
@@ -2896,7 +2998,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "Electronic guidance using satellites to direct vehicle navigation."
@@ -2915,7 +3017,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:spare-tire:noun",
@@ -2924,7 +3027,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "An extra wheel stored in a vehicle to replace a punctured tire."
@@ -2944,7 +3047,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:speed-camera:noun",
@@ -2953,7 +3057,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A roadside camera that records vehicles exceeding speed limits."
@@ -2973,7 +3077,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:speed-limit:noun",
@@ -2982,7 +3087,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "The maximum legal driving speed allowed on a specific road."
@@ -3002,7 +3107,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:tow-truck:noun",
@@ -3011,7 +3117,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A vehicle equipped to haul disabled or broken-down automobiles."
@@ -3031,7 +3137,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:detour:noun",
@@ -3040,7 +3147,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A longer alternative route taken to avoid an obstacle or congestion."
@@ -3060,7 +3167,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:first-class-carriage:noun",
@@ -3069,7 +3177,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A premium train car offering greater comfort and spacious seating."
@@ -3091,7 +3199,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:flat-tire:noun",
@@ -3100,7 +3209,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A vehicle tire that has lost air pressure from a puncture."
@@ -3120,7 +3229,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:get-around:verb",
@@ -3129,7 +3239,7 @@
     "form": "verb",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "To travel or move from place to place within an area."
@@ -3147,7 +3257,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:gps-navigation:noun",
@@ -3156,7 +3267,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "Satellite-based electronic guidance systems providing directions."
@@ -3175,7 +3286,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:high-speed-rail:noun",
@@ -3184,7 +3296,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A passenger train network operating at significantly higher speeds."
@@ -3203,7 +3315,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:luggage-rack:noun",
@@ -3212,7 +3325,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A shelf or framework designed for holding baggage on trains."
@@ -3232,7 +3345,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:no-parking-zone:noun",
@@ -3241,7 +3355,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A street location where parking vehicles is legally prohibited."
@@ -3261,7 +3375,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:rail-pass:noun",
@@ -3270,7 +3385,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "definitions": [
       "A travel pass permitting unlimited train journeys within a designated zone."
@@ -3290,7 +3405,8 @@
     "tags": [
       "transport",
       "travel"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:app-based-taxi:noun",
@@ -3305,13 +3421,14 @@
       "We ordered an app-based taxi to the station."
     ],
     "domain": "general, relocation, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/æp beɪst ˈtæk.si/",
     "emoji": "🚕",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "app-based taxis"
+    "plural_form": "app-based taxis",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:cable-car:noun",
@@ -3326,13 +3443,14 @@
       "We rode a cable car to mountain peak."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈkeɪ.bəl kɑːr/",
     "emoji": "🚡",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "cable cars"
+    "plural_form": "cable cars",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:car-rental:noun",
@@ -3347,12 +3465,13 @@
       "Arranging car rental made island travel easy."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈkɑː ˌren.təl/",
     "emoji": "🚗",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:caravan:noun",
@@ -3367,7 +3486,7 @@
       "They towed a caravan to coastal campsites."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈkær.ə.væn/",
     "emoji": "🚐",
@@ -3379,7 +3498,8 @@
     ],
     "regional_equivalents": [
       "en:rv:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:express-train:noun",
@@ -3394,7 +3514,7 @@
       "Take the express train to save time."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ɪkˈspres treɪn/",
     "emoji": "🚆",
@@ -3402,7 +3522,8 @@
       "local train"
     ],
     "countability": "countable",
-    "plural_form": "express trains"
+    "plural_form": "express trains",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:ferry-terminal:noun",
@@ -3417,13 +3538,14 @@
       "We arrived at the ferry terminal early."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈfer.i ˌtɜː.mɪ.nəl/",
     "emoji": "⛴️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "ferry terminals"
+    "plural_form": "ferry terminals",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:local-train:noun",
@@ -3438,7 +3560,7 @@
       "The local train stops at every village."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈləʊ.kəl treɪn/",
     "emoji": "🚆",
@@ -3446,7 +3568,8 @@
       "express train"
     ],
     "countability": "countable",
-    "plural_form": "local trains"
+    "plural_form": "local trains",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:moped:noun",
@@ -3461,13 +3584,14 @@
       "He rented a moped to explore island roads."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈməʊ.ped/",
     "emoji": "🛵",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "mopeds"
+    "plural_form": "mopeds",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:night-bus:noun",
@@ -3482,13 +3606,14 @@
       "We caught the night bus home after dinner."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/naɪt bʌs/",
     "emoji": "🚌",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "night buses"
+    "plural_form": "night buses",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:one-way-trip:noun",
@@ -3503,7 +3628,7 @@
       "They booked a one-way trip to Paris."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌwʌn.weɪ ˈtrɪp/",
     "emoji": "➡️",
@@ -3514,7 +3639,8 @@
     "plural_form": "one-way trips",
     "region": [
       "US"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:public-transport:noun",
@@ -3529,14 +3655,15 @@
       "Using public transport is convenient and cheap."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpʌb.lɪk ˈtræn.spɔːt/",
     "emoji": "🚌",
     "antonyms": [
       "private transport"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:ride-share:noun",
@@ -3551,13 +3678,14 @@
       "We booked a ride-share to reach airport."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈraɪd.ʃeər/",
     "emoji": "🚗",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "ride-shares"
+    "plural_form": "ride-shares",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:round-trip:noun",
@@ -3572,7 +3700,7 @@
       "We bought a round trip train ticket."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈraʊnd trɪp/",
     "emoji": "🔄",
@@ -3583,7 +3711,8 @@
     "plural_form": "round trips",
     "region": [
       "US"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:rv:noun",
@@ -3598,7 +3727,7 @@
       "They drove an rv across national parks."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˌɑːrˈviː/",
     "emoji": "🚐",
@@ -3610,7 +3739,8 @@
     ],
     "regional_equivalents": [
       "en:caravan:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:scooter:noun",
@@ -3625,13 +3755,14 @@
       "She rode a rental scooter around town."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈskuː.tər/",
     "emoji": "🛴",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "scooters"
+    "plural_form": "scooters",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:shuttle-bus:noun",
@@ -3646,13 +3777,14 @@
       "Take the shuttle bus to hotel terminal."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈʃʌt.əl bʌs/",
     "emoji": "🚌",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "shuttle buses"
+    "plural_form": "shuttle buses",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:toll-road:noun",
@@ -3667,13 +3799,14 @@
       "Driving on the toll road saved time."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈtəʊl rəʊd/",
     "emoji": "🛣️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "toll roads"
+    "plural_form": "toll roads",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:transfer-station:noun",
@@ -3688,13 +3821,14 @@
       "Change subway trains at the next transfer station."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈtræns.fɜː ˌsteɪ.ʃən/",
     "emoji": "🚉",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "transfer stations"
+    "plural_form": "transfer stations",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:deck:noun",
@@ -3709,13 +3843,14 @@
       "Passengers stood on the open ship deck."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/dek/",
     "emoji": "🚢",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "decks"
+    "plural_form": "decks",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:diesel:noun",
@@ -3730,12 +3865,13 @@
       "The tour bus runs on diesel fuel."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈdiː.zəl/",
     "emoji": "⛽",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:fare-estimate:noun",
@@ -3750,13 +3886,14 @@
       "Check the taxi fare estimate before riding."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/feər ˈes.tɪ.mət/",
     "emoji": "🚖",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "fare estimates"
+    "plural_form": "fare estimates",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:on-schedule:phrase",
@@ -3771,13 +3908,14 @@
       "Our train arrived on schedule today."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ɒn ˈʃed.juːl/",
     "emoji": "⏰",
     "antonyms": [
       "delayed"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:petrol:noun",
@@ -3792,7 +3930,7 @@
       "Fill the tank with petrol before driving."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpet.rəl/",
     "emoji": "⛽",
@@ -3803,7 +3941,8 @@
     ],
     "regional_equivalents": [
       "en:gasoline:noun"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:private-transport:noun",
@@ -3818,14 +3957,15 @@
       "Renting a car provides private transport."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/ˈpraɪ.vət ˈtræn.spɔːt/",
     "emoji": "🚗",
     "antonyms": [
       "public transport"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:port:noun",
@@ -3840,13 +3980,14 @@
       "Cruise ships docked at the busy coastal port."
     ],
     "domain": "general, travel",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/pɔːt/",
     "emoji": "⚓",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "ports"
+    "plural_form": "ports",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:drive:verb",
@@ -3861,14 +4002,15 @@
       "She learned to drive a car when she was eighteen."
     ],
     "domain": "general",
-    "theme": "transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/draɪv/",
     "emoji": "🚗",
     "no_antonym": true,
     "related_forms": [
       "COSYtools:en-irregular-verbs:drive"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "en:traditional:adjective",
@@ -3883,7 +4025,7 @@
       "They live in a traditional wooden cottage."
     ],
     "domain": "general, spoken, travel, exam",
-    "theme": "places",
+    "theme": "travel",
     "updated": "2025-01-15",
     "tags": [
       "spoken"
@@ -3893,6 +4035,1701 @@
     "antonyms": [
       "modern"
     ],
-    "sub_theme": "general"
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:first:noun",
+    "word": "first",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "Preceding all others in time or order."
+    ],
+    "examples": [
+      "First class tickets are more expensive."
+    ],
+    "domain": "general, relocation, spoken, travel, professional, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "levels": [
+      "A2",
+      "C1"
+    ],
+    "transcription": "/fɜːst/",
+    "emoji": "1️⃣",
+    "countability": "uncountable",
+    "antonyms": [
+      "last"
+    ],
+    "transcription_variants": {
+      "us": "/fɝːst/"
+    },
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:platform:noun",
+    "word": "platform",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "The raised area at a railway station."
+    ],
+    "examples": [
+      "The train arrives at platform three soon."
+    ],
+    "domain": "general, relocation, spoken, travel, professional, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "platforms",
+    "tags": [
+      "spoken"
+    ],
+    "levels": [
+      "A2",
+      "B1"
+    ],
+    "transcription": "/ˈplæt.fɔːm/",
+    "emoji": "🚉",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈplæt.fɔːrm/"
+    },
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:traffic:noun",
+    "word": "traffic",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "Vehicles moving on a road or highway."
+    ],
+    "examples": [
+      "Heavy traffic delayed our bus this morning."
+    ],
+    "domain": "general, relocation, spoken, travel, professional",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "countability": "uncountable",
+    "transcription": "/ˈtræf.ɪk/",
+    "emoji": "🚗",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:jam:noun",
+    "word": "jam",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A situation where road traffic comes to a stop."
+    ],
+    "examples": [
+      "We got stuck in a traffic jam."
+    ],
+    "domain": "general, travel, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "jams",
+    "transcription": "/dʒæm/",
+    "emoji": "🚗",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:rush:noun",
+    "word": "rush",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A period of high traffic or activity."
+    ],
+    "examples": [
+      "Avoid traveling during morning rush hour."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/rʌʃ/",
+    "emoji": "🏃",
+    "countability": "uncountable",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:crossroads:noun",
+    "word": "crossroads",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "An intersection where two roads cross."
+    ],
+    "examples": [
+      "Turn right at the next crossroads ahead."
+    ],
+    "domain": "general, spoken, travel, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "countability": "countable",
+    "transcription": "/ˈkrɒs.rəʊdz/",
+    "emoji": "🚥",
+    "plural_form": "crossroads",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈkrɑːs.roʊdz/"
+    },
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:intersection:noun"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:roundabout:noun",
+    "word": "roundabout",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A circular road junction with moving traffic."
+    ],
+    "examples": [
+      "Take the second exit at the roundabout."
+    ],
+    "domain": "general, spoken, travel, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "roundabouts",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈraʊnd.ə.baʊt/",
+    "emoji": "🔄",
+    "countability": "countable",
+    "no_antonym": true,
+    "region": [
+      "UK"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:junction:noun",
+    "word": "junction",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A point where two or more roads meet."
+    ],
+    "examples": [
+      "Slow down when approaching the highway junction."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "junctions",
+    "transcription": "/ˈdʒʌŋk.ʃən/",
+    "emoji": "🔀",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:motorway:noun",
+    "word": "motorway",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A major dual-carriageway road for fast traffic."
+    ],
+    "examples": [
+      "Drive fast on the multi-lane motorway."
+    ],
+    "domain": "general, spoken, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "motorways",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈməʊ.tə.weɪ/",
+    "emoji": "🛣️",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈmoʊ.t̬ɚ.weɪ/"
+    },
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:highway:noun"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:highway:noun",
+    "word": "highway",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A main road connecting towns or cities."
+    ],
+    "examples": [
+      "Traffic moved smoothly along the national highway."
+    ],
+    "domain": "general, relocation, spoken, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "highways",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/ˈhaɪ.weɪ/",
+    "emoji": "🛣️",
+    "countability": "countable",
+    "no_antonym": true,
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:motorway:noun"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:pedestrian:noun",
+    "word": "pedestrian",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A person walking rather than traveling in vehicle."
+    ],
+    "examples": [
+      "Cars stopped to let the pedestrian cross."
+    ],
+    "domain": "general, spoken, relocation, professional",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "pedestrians",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/pəˈdes.tri.ən/",
+    "emoji": "🚶",
+    "countability": "countable",
+    "antonyms": [
+      "driver"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:crossing:noun",
+    "word": "crossing",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A marked place where pedestrians cross road."
+    ],
+    "examples": [
+      "Use the pedestrian crossing to cross safely."
+    ],
+    "domain": "general, relocation",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "crossings",
+    "transcription": "/ˈkrɒs.ɪŋ/",
+    "emoji": "🚶",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈkrɑː.sɪŋ/"
+    },
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:lights:noun",
+    "word": "lights",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "Signals controlling road traffic movement."
+    ],
+    "examples": [
+      "Stop when traffic lights turn red."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "countability": "pluralia_tantum",
+    "transcription": "/laɪts/",
+    "emoji": "🚦",
+    "singular_workaround": "a light",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:limit:noun",
+    "word": "limit",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "The maximum legal speed allowed on road."
+    ],
+    "examples": [
+      "Observe the speed limit when driving here."
+    ],
+    "domain": "general, relocation, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "limits",
+    "transcription": "/ˈlɪm.ɪt/",
+    "emoji": "🛑",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:fare:noun",
+    "word": "fare",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "The money paid for a journey on transport."
+    ],
+    "examples": [
+      "How much is the bus fare to town?"
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "fares",
+    "transcription": "/feər/",
+    "emoji": "💵",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/fer/"
+    },
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:turning:noun",
+    "word": "turning",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A place where a road turns off."
+    ],
+    "examples": [
+      "Take the second turning on your left."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "plural_form": "turnings",
+    "transcription": "/ˈtɜː.nɪŋ/",
+    "emoji": "↪️",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈtɝː.nɪŋ/"
+    },
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:miss:verb",
+    "word": "miss",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To fail to catch a transport vehicle."
+    ],
+    "examples": [
+      "Hurry or you will miss the train."
+    ],
+    "domain": "general, relocation, spoken, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "tags": [
+      "spoken"
+    ],
+    "transcription": "/mɪs/",
+    "emoji": "❌",
+    "antonyms": [
+      "catch"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:ferry:noun",
+    "word": "ferry",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A boat or ship for conveying passengers and goods across water."
+    ],
+    "examples": [
+      "We took a passenger ferry across the harbor."
+    ],
+    "domain": "general, travel, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈfer.i/",
+    "emoji": "⛴️",
+    "countability": "countable",
+    "plural_form": "ferries",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:hurry:verb",
+    "word": "hurry",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "Move or act with haste or speed."
+    ],
+    "examples": [
+      "We must hurry or we will miss our flight."
+    ],
+    "domain": "general, spoken",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈhʌr.i/",
+    "emoji": "🏃",
+    "antonyms": [
+      "delay",
+      "dawdle"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:one-way:adjective",
+    "word": "one-way",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "definitions": [
+      "Moving or allowing movement in one direction only."
+    ],
+    "examples": [
+      "He bought a one-way ticket to London."
+    ],
+    "domain": "general, relocation, spoken, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˌwʌnˈweɪ/",
+    "emoji": "➡️",
+    "antonyms": [
+      "return",
+      "round-trip"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:passenger:noun",
+    "word": "passenger",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A traveler on a public or private conveyance other than driver."
+    ],
+    "examples": [
+      "All passengers must fasten their seatbelts."
+    ],
+    "domain": "general, spoken, relocation, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈpæs.ən.dʒər/",
+    "emoji": "🧳",
+    "countability": "countable",
+    "plural_form": "passengers",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:return-ticket:noun",
+    "word": "return ticket",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A ticket allowing travel to a destination and back."
+    ],
+    "examples": [
+      "I purchased a return ticket for the weekend train."
+    ],
+    "domain": "general, relocation, spoken, travel, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/rɪˈtɜːn ˌtɪk.ɪt/",
+    "emoji": "🎟️",
+    "countability": "countable",
+    "plural_form": "return tickets",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:seatbelt:noun",
+    "word": "seatbelt",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A safety belt used in a vehicle or aircraft."
+    ],
+    "examples": [
+      "Fasten your seatbelt before driving."
+    ],
+    "domain": "general, spoken, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈsiːt.belt/",
+    "emoji": "💺",
+    "countability": "countable",
+    "plural_form": "seatbelts",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:traffic-jam:noun",
+    "word": "traffic jam",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A line of road vehicles moving very slowly or stopped."
+    ],
+    "examples": [
+      "We were stuck in a heavy traffic jam for an hour."
+    ],
+    "domain": "general, spoken, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈtræf.ɪk dʒæm/",
+    "emoji": "🚗",
+    "countability": "countable",
+    "plural_form": "traffic jams",
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:driving-license:noun",
+    "word": "driving license",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "an official document permitting a person to drive a motor vehicle"
+    ],
+    "examples": [
+      "You must exchange your foreign driving license within six months."
+    ],
+    "domain": "relocation, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈdraɪ.vɪŋ ˌlaɪ.səns/",
+    "transcription_variants": {
+      "us": "/ˈdraɪ.vɪŋ ˌlaɪ.səns/"
+    },
+    "emoji": "🪪",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "driving licenses",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:reserved-seating:noun",
+    "word": "reserved seating",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A passenger seating arrangement where specific seats are pre-assigned."
+    ],
+    "examples": [
+      "Express trains feature reserved seating to guarantee passengers a spot."
+    ],
+    "transcription": "/rɪˈzɜːvd ˈsiː.tɪŋ/",
+    "emoji": "💺",
+    "countability": "uncountable",
+    "synonyms": [
+      "assigned seating",
+      "allocated seating"
+    ],
+    "antonyms": [
+      "unreserved seating"
+    ],
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:roadworks:noun",
+    "word": "roadworks",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Construction or repair work being carried out on a road."
+    ],
+    "examples": [
+      "Heavy roadworks caused long traffic delays on the main highway."
+    ],
+    "transcription": "/ˈrəʊd.wɜːks/",
+    "emoji": "🚧",
+    "region": [
+      "UK"
+    ],
+    "countability": "pluralia_tantum",
+    "synonyms": [
+      "street repairs",
+      "road construction"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "UK",
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:satellite-navigation:noun",
+    "word": "satellite navigation",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Electronic guidance using satellites to direct vehicle navigation."
+    ],
+    "examples": [
+      "Satellite navigation made driving through rural villages stress-free."
+    ],
+    "transcription": "/ˈsæt.əl.aɪt næv.ɪˈɡeɪ.ʃən/",
+    "emoji": "🗺️",
+    "countability": "uncountable",
+    "synonyms": [
+      "satnav",
+      "GPS guidance"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:spare-tire:noun",
+    "word": "spare tire",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "An extra wheel stored in a vehicle to replace a punctured tire."
+    ],
+    "examples": [
+      "Make sure your rental car includes an inflated spare tire."
+    ],
+    "transcription": "/speər taɪər/",
+    "emoji": "🛞",
+    "countability": "countable",
+    "plural_form": "spare tires",
+    "synonyms": [
+      "replacement wheel",
+      "extra tire"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:speed-camera:noun",
+    "word": "speed camera",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A roadside camera that records vehicles exceeding speed limits."
+    ],
+    "examples": [
+      "Drivers were slowed down by a speed camera near the school zone."
+    ],
+    "transcription": "/spiːd ˈkæm.ər.ə/",
+    "emoji": "📷",
+    "countability": "countable",
+    "plural_form": "speed cameras",
+    "synonyms": [
+      "traffic camera",
+      "radar camera"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:speed-limit:noun",
+    "word": "speed limit",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "The maximum legal driving speed allowed on a specific road."
+    ],
+    "examples": [
+      "Always obey the posted speed limit when driving through mountain tunnels."
+    ],
+    "transcription": "/spiːd ˈlɪm.ɪt/",
+    "emoji": "🚘",
+    "countability": "countable",
+    "plural_form": "speed limits",
+    "synonyms": [
+      "maximum speed",
+      "legal speed limit"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:tow-truck:noun",
+    "word": "tow truck",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A vehicle equipped to haul disabled or broken-down automobiles."
+    ],
+    "examples": [
+      "A tow truck arrived promptly to move our stalled rental vehicle."
+    ],
+    "transcription": "/təʊ trʌk/",
+    "emoji": "🛻",
+    "countability": "countable",
+    "plural_form": "tow trucks",
+    "synonyms": [
+      "breakdown vehicle",
+      "recovery truck"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:detour:noun",
+    "word": "detour",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A longer alternative route taken to avoid an obstacle or congestion."
+    ],
+    "examples": [
+      "We took a scenic detour through the hills to bypass highway roadworks."
+    ],
+    "transcription": "/ˈdiː.tɔːr/",
+    "emoji": "↪️",
+    "countability": "countable",
+    "plural_form": "detours",
+    "synonyms": [
+      "alternative route",
+      "bypass"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:first-class-carriage:noun",
+    "word": "first-class carriage",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A premium train car offering greater comfort and spacious seating."
+    ],
+    "examples": [
+      "Passengers in the first-class carriage enjoy quiet seating and free wifi."
+    ],
+    "transcription": "/ˌfɜːstˈklɑːs ˈkær.ɪdʒ/",
+    "emoji": "🚆",
+    "countability": "countable",
+    "plural_form": "first-class carriages",
+    "synonyms": [
+      "executive coach",
+      "premium train car"
+    ],
+    "antonyms": [
+      "standard carriage"
+    ],
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:flat-tire:noun",
+    "word": "flat tire",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A vehicle tire that has lost air pressure from a puncture."
+    ],
+    "examples": [
+      "Our road trip was briefly delayed when the car got a flat tire."
+    ],
+    "transcription": "/flæt taɪər/",
+    "emoji": "🛞",
+    "countability": "countable",
+    "plural_form": "flat tires",
+    "synonyms": [
+      "punctured tire",
+      "blowout"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:get-around:verb",
+    "word": "get around",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "To travel or move from place to place within an area."
+    ],
+    "examples": [
+      "Public buses make it very easy to get around the historic city center."
+    ],
+    "transcription": "/ɡet əˈraʊnd/",
+    "emoji": "🚌",
+    "synonyms": [
+      "travel about",
+      "navigate"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:gps-navigation:noun",
+    "word": "gps navigation",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Satellite-based electronic guidance systems providing directions."
+    ],
+    "examples": [
+      "We relied on GPS navigation to guide us through mountain roads."
+    ],
+    "transcription": "/ˌdʒiː.piːˈes næv.ɪˈɡeɪ.ʃən/",
+    "emoji": "🗺️",
+    "countability": "uncountable",
+    "synonyms": [
+      "satellite navigation",
+      "route guidance"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:high-speed-rail:noun",
+    "word": "high-speed rail",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A passenger train network operating at significantly higher speeds."
+    ],
+    "examples": [
+      "High-speed rail connects the two capital cities in under two hours."
+    ],
+    "transcription": "/haɪ spiːd reɪl/",
+    "emoji": "🚅",
+    "countability": "uncountable",
+    "synonyms": [
+      "express rail",
+      "bullet train service"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:luggage-rack:noun",
+    "word": "luggage rack",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A shelf or framework designed for holding baggage on trains."
+    ],
+    "examples": [
+      "Place your heavy bags on the overhead luggage rack during the journey."
+    ],
+    "transcription": "/ˈlʌɡ.ɪdʒ ræk/",
+    "emoji": "🧳",
+    "countability": "countable",
+    "plural_form": "luggage racks",
+    "synonyms": [
+      "baggage rack",
+      "overhead rack"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:no-parking-zone:noun",
+    "word": "no-parking zone",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A street location where parking vehicles is legally prohibited."
+    ],
+    "examples": [
+      "Leaving your rental car in a no-parking zone results in a heavy fine."
+    ],
+    "transcription": "/nəʊ ˈpɑː.kɪŋ zəʊn/",
+    "emoji": "🚫",
+    "countability": "countable",
+    "plural_form": "no-parking zones",
+    "synonyms": [
+      "clearway",
+      "restricted parking area"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:rail-pass:noun",
+    "word": "rail pass",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A travel pass permitting unlimited train journeys within a designated zone."
+    ],
+    "examples": [
+      "Purchasing a regional rail pass saved us money on daily train tickets."
+    ],
+    "transcription": "/reɪl pɑːs/",
+    "emoji": "🎫",
+    "countability": "countable",
+    "plural_form": "rail passes",
+    "synonyms": [
+      "train pass",
+      "unlimited rail ticket"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "transport",
+      "travel"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:app-based-taxi:noun",
+    "word": "app-based taxi",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a taxi ordered through a mobile smartphone application"
+    ],
+    "examples": [
+      "We ordered an app-based taxi to the station."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/æp beɪst ˈtæk.si/",
+    "emoji": "🚕",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "app-based taxis",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:cable-car:noun",
+    "word": "cable car",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a vehicle suspended from aerial cables moving up mountains"
+    ],
+    "examples": [
+      "We rode a cable car to mountain peak."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈkeɪ.bəl kɑːr/",
+    "emoji": "🚡",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "cable cars",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:car-rental:noun",
+    "word": "car rental",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "an arrangement paying to drive a hired vehicle temporarily"
+    ],
+    "examples": [
+      "Arranging car rental made island travel easy."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈkɑː ˌren.təl/",
+    "emoji": "🚗",
+    "no_antonym": true,
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:caravan:noun",
+    "word": "caravan",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a vehicle towed by a car equipped for living in"
+    ],
+    "examples": [
+      "They towed a caravan to coastal campsites."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈkær.ə.væn/",
+    "emoji": "🚐",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "caravans",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:rv:noun"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:express-train:noun",
+    "word": "express train",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a fast train making very few stops between major stations"
+    ],
+    "examples": [
+      "Take the express train to save time."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ɪkˈspres treɪn/",
+    "emoji": "🚆",
+    "antonyms": [
+      "local train"
+    ],
+    "countability": "countable",
+    "plural_form": "express trains",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:ferry-terminal:noun",
+    "word": "ferry terminal",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a port building where passengers board water ferries"
+    ],
+    "examples": [
+      "We arrived at the ferry terminal early."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈfer.i ˌtɜː.mɪ.nəl/",
+    "emoji": "⛴️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "ferry terminals",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:local-train:noun",
+    "word": "local train",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a train stopping at every station along its route"
+    ],
+    "examples": [
+      "The local train stops at every village."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈləʊ.kəl treɪn/",
+    "emoji": "🚆",
+    "antonyms": [
+      "express train"
+    ],
+    "countability": "countable",
+    "plural_form": "local trains",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:moped:noun",
+    "word": "moped",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a light motorcycle equipped with a small low-power engine"
+    ],
+    "examples": [
+      "He rented a moped to explore island roads."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈməʊ.ped/",
+    "emoji": "🛵",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "mopeds",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:night-bus:noun",
+    "word": "night bus",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a public bus service operating during late overnight hours"
+    ],
+    "examples": [
+      "We caught the night bus home after dinner."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/naɪt bʌs/",
+    "emoji": "🚌",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "night buses",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:one-way-trip:noun",
+    "word": "one-way trip",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a travel journey in one direction without returning"
+    ],
+    "examples": [
+      "They booked a one-way trip to Paris."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˌwʌn.weɪ ˈtrɪp/",
+    "emoji": "➡️",
+    "antonyms": [
+      "round trip"
+    ],
+    "countability": "countable",
+    "plural_form": "one-way trips",
+    "region": [
+      "US"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:public-transport:noun",
+    "word": "public transport",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "buses, trains, and subways available to the public"
+    ],
+    "examples": [
+      "Using public transport is convenient and cheap."
+    ],
+    "domain": "general, travel, exam",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈpʌb.lɪk ˈtræn.spɔːt/",
+    "emoji": "🚌",
+    "antonyms": [
+      "private transport"
+    ],
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:ride-share:noun",
+    "word": "ride-share",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a transport arrangement sharing rides via online services"
+    ],
+    "examples": [
+      "We booked a ride-share to reach airport."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈraɪd.ʃeər/",
+    "emoji": "🚗",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "ride-shares",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:round-trip:noun",
+    "word": "round trip",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a journey to a destination and back again"
+    ],
+    "examples": [
+      "We bought a round trip train ticket."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈraʊnd trɪp/",
+    "emoji": "🔄",
+    "antonyms": [
+      "one-way trip"
+    ],
+    "countability": "countable",
+    "plural_form": "round trips",
+    "region": [
+      "US"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:rv:noun",
+    "word": "rv",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a recreational motor vehicle equipped for living inside"
+    ],
+    "examples": [
+      "They drove an rv across national parks."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˌɑːrˈviː/",
+    "emoji": "🚐",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "rvs",
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:caravan:noun"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:scooter:noun",
+    "word": "scooter",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a small light two-wheeled vehicle driven while standing or sitting"
+    ],
+    "examples": [
+      "She rode a rental scooter around town."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈskuː.tər/",
+    "emoji": "🛴",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "scooters",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:shuttle-bus:noun",
+    "word": "shuttle bus",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a bus traveling back and forth over a short route"
+    ],
+    "examples": [
+      "Take the shuttle bus to hotel terminal."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈʃʌt.əl bʌs/",
+    "emoji": "🚌",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "shuttle buses",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:toll-road:noun",
+    "word": "toll road",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a highway where drivers must pay a fee to travel"
+    ],
+    "examples": [
+      "Driving on the toll road saved time."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈtəʊl rəʊd/",
+    "emoji": "🛣️",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "toll roads",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:transfer-station:noun",
+    "word": "transfer station",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a transit station where passengers change travel lines"
+    ],
+    "examples": [
+      "Change subway trains at the next transfer station."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈtræns.fɜː ˌsteɪ.ʃən/",
+    "emoji": "🚉",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "transfer stations",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:deck:noun",
+    "word": "deck",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a flat floor surface extending across a ship or bus"
+    ],
+    "examples": [
+      "Passengers stood on the open ship deck."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/dek/",
+    "emoji": "🚢",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "decks",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:diesel:noun",
+    "word": "diesel",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "heavy petroleum fuel used in diesel engines"
+    ],
+    "examples": [
+      "The tour bus runs on diesel fuel."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈdiː.zəl/",
+    "emoji": "⛽",
+    "no_antonym": true,
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:fare-estimate:noun",
+    "word": "fare estimate",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "an approximate calculated cost of transport journey"
+    ],
+    "examples": [
+      "Check the taxi fare estimate before riding."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/feər ˈes.tɪ.mət/",
+    "emoji": "🚖",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "fare estimates",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:on-schedule:phrase",
+    "word": "on schedule",
+    "language": "en",
+    "form": "phrase",
+    "level": "A2",
+    "definitions": [
+      "occurring at the exact planned expected time"
+    ],
+    "examples": [
+      "Our train arrived on schedule today."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ɒn ˈʃed.juːl/",
+    "emoji": "⏰",
+    "antonyms": [
+      "delayed"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:petrol:noun",
+    "word": "petrol",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "refined liquid petroleum fuel used in motor vehicles"
+    ],
+    "examples": [
+      "Fill the tank with petrol before driving."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈpet.rəl/",
+    "emoji": "⛽",
+    "no_antonym": true,
+    "countability": "uncountable",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:gasoline:noun"
+    ],
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:private-transport:noun",
+    "word": "private transport",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "transport vehicles operated for personal non-public use"
+    ],
+    "examples": [
+      "Renting a car provides private transport."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/ˈpraɪ.vət ˈtræn.spɔːt/",
+    "emoji": "🚗",
+    "antonyms": [
+      "public transport"
+    ],
+    "countability": "uncountable",
+    "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "en:port:noun",
+    "word": "port",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "a harbor town or city where ships dock and unload"
+    ],
+    "examples": [
+      "Cruise ships docked at the busy coastal port."
+    ],
+    "domain": "general, travel",
+    "theme": "travel",
+    "updated": "2025-01-15",
+    "transcription": "/pɔːt/",
+    "emoji": "⚓",
+    "no_antonym": true,
+    "countability": "countable",
+    "plural_form": "ports",
+    "sub_theme": "vehicles_transportation"
   }
 ]

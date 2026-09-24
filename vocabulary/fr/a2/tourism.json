@@ -13,14 +13,15 @@
       "J'ai acheté un billet de train pour aller à Lyon."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🎟️",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "billets"
+    "plural_form": "billets",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:passeport:noun",
@@ -36,14 +37,15 @@
       "Présentez votre passeport au contrôle de la douane."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🛂",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "passeports"
+    "plural_form": "passeports",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:valise:noun",
@@ -59,14 +61,15 @@
       "Elle prépare sa valise pour les vacances d'été."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧳",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "valises"
+    "plural_form": "valises",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:voyage:noun",
@@ -82,14 +85,15 @@
       "Nous faisons un merveilleux voyage en Italie."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "✈️",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "voyages"
+    "plural_form": "voyages",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:reservation:noun",
@@ -105,14 +109,15 @@
       "J'ai fait une réservation d'hôtel sur internet."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "📅",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "réservations"
+    "plural_form": "réservations",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:direction:noun",
@@ -128,14 +133,15 @@
       "Suivez la direction du centre-ville pour arriver à la gare."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧭",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "directions"
+    "plural_form": "directions",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:tout-droit:adverb",
@@ -151,10 +157,11 @@
       "Continuez tout droit pendant cent mètres."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "⬆️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:tourner:verb",
@@ -170,10 +177,11 @@
       "Tournez à gauche après la boulangerie."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "↪️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:nord:noun",
@@ -189,7 +197,7 @@
       "L'aiguille de la boussole indique le nord."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧭",
     "antonyms": [
@@ -197,7 +205,8 @@
     ],
     "countability": "uncountable",
     "article": "le",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:sud:noun",
@@ -213,7 +222,7 @@
       "Nous partons en vacances dans le sud de la France."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧭",
     "antonyms": [
@@ -221,7 +230,8 @@
     ],
     "countability": "uncountable",
     "article": "le",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:est:noun",
@@ -237,7 +247,7 @@
       "Le soleil se lève à l'est le matin."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧭",
     "antonyms": [
@@ -245,7 +255,8 @@
     ],
     "countability": "uncountable",
     "article": "l'",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:ouest:noun",
@@ -261,7 +272,7 @@
       "Le soleil se couche à l'ouest en fin de journée."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧭",
     "antonyms": [
@@ -269,7 +280,8 @@
     ],
     "countability": "uncountable",
     "article": "l'",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:bagages:noun",
@@ -285,14 +297,15 @@
       "Laissez vos bagages à la consigne de la gare."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧳",
     "no_antonym": true,
     "countability": "pluralia_tantum",
     "article": "les",
     "gender": "masculine",
-    "singular_workaround": "un bagage"
+    "singular_workaround": "un bagage",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:frontiere:noun",
@@ -308,14 +321,15 @@
       "Nous avons traversé la frontière suisse ce matin."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🚧",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "frontières"
+    "plural_form": "frontières",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:touriste:noun",
@@ -331,14 +345,15 @@
       "De nombreux touristes visitent les monuments de la ville."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🧳",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "touristes"
+    "plural_form": "touristes",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:guide:noun",
@@ -354,14 +369,15 @@
       "Le guide nous explique l'histoire du château."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "👨‍💼",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "guides"
+    "plural_form": "guides",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:quai:noun",
@@ -377,14 +393,15 @@
       "Le train pour Paris attend sur le quai numéro deux."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🚉",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "quais"
+    "plural_form": "quais",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:vol:noun",
@@ -400,14 +417,15 @@
       "Notre vol pour Rome décolle dans deux heures."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "✈️",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "vols"
+    "plural_form": "vols",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:retard:noun",
@@ -423,7 +441,7 @@
       "Le train a dix minutes de retard ce matin."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "⏰",
     "antonyms": [
@@ -432,7 +450,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "retards"
+    "plural_form": "retards",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:douane:noun",
@@ -448,13 +467,14 @@
       "Les douaniers contrôlent les valises à la douane."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🛃",
     "no_antonym": true,
     "countability": "uncountable",
     "article": "la",
-    "gender": "feminine"
+    "gender": "feminine",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:visa:noun",
@@ -470,14 +490,15 @@
       "J'ai obtenu mon visa pour entrer dans ce pays."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🛂",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "visas"
+    "plural_form": "visas",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:a-l-etranger:adverb",
@@ -493,10 +514,11 @@
       "Elle aime passer ses vacances d'été à l'étranger."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "✈️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:visiter:verb",
@@ -512,13 +534,14 @@
       "Nous allons visiter le grand musée ce matin."
     ],
     "domain": "general",
-    "theme": "tourism",
+    "theme": "travel",
     "updated": "2025-05-18",
     "emoji": "🏛️",
     "no_antonym": true,
     "related_forms": [
       "COSYtools:fr-conjugeur:visiter"
-    ]
+    ],
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:atteindre:verb",
@@ -540,7 +563,8 @@
     ],
     "no_antonym": true,
     "domain": "general",
-    "theme": "tourism"
+    "theme": "travel",
+    "sub_theme": "vehicles_transportation"
   },
   {
     "id": "fr:destination:noun",
@@ -562,6 +586,7 @@
     ],
     "no_antonym": true,
     "domain": "general",
-    "theme": "tourism"
+    "theme": "travel",
+    "sub_theme": "vehicles_transportation"
   }
 ]

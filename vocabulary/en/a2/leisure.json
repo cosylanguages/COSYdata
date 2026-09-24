@@ -1,5 +1,653 @@
 [
   {
+    "id": "en:teammate:noun",
+    "word": "teammate",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A fellow member of a team."
+    ],
+    "examples": [
+      "He passed the ball to his teammate."
+    ],
+    "domain": "spoken, exam",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "teammates",
+    "transcription": "/ˈtiːm.meɪt/",
+    "emoji": "🧑‍🤝‍🧑",
+    "countability": "countable",
+    "antonyms": [
+      "opponent"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:league:noun",
+    "word": "league",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A collection of sports teams that compete."
+    ],
+    "examples": [
+      "Our team won the local football league."
+    ],
+    "domain": "spoken, exam",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "leagues",
+    "transcription": "/liːɡ/",
+    "emoji": "🏆",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:pitch:noun",
+    "word": "pitch",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "An area painted for playing sports games."
+    ],
+    "examples": [
+      "Players ran onto the green football pitch."
+    ],
+    "domain": "spoken, exam",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "pitches",
+    "transcription": "/pɪtʃ/",
+    "emoji": "⚽",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:track:noun",
+    "word": "track",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A prepared course for running or racing."
+    ],
+    "examples": [
+      "Athletes ran around the synthetic track."
+    ],
+    "domain": "spoken, travel",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "tracks",
+    "transcription": "/træk/",
+    "emoji": "🛤️",
+    "countability": "countable",
+    "no_antonym": true,
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:fitness-center:noun",
+    "word": "fitness center",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A place equipped for physical exercise."
+    ],
+    "examples": [
+      "She exercises at the local fitness center."
+    ],
+    "domain": "spoken, travel",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "fitness centers",
+    "transcription": "/ˈfɪt.nəs ˌsen.tər/",
+    "emoji": "🏋️",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈfɪt.nəs ˌsen.t̬ɚ/"
+    },
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:marathon:noun",
+    "word": "marathon",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A long-distance running race of 42 km."
+    ],
+    "examples": [
+      "Thousands of runners ran the city marathon."
+    ],
+    "domain": "spoken",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "marathons",
+    "transcription": "/ˈmær.ə.θən/",
+    "emoji": "🏃",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈmær.ə.θɑːn/"
+    },
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:jog:noun",
+    "word": "jog",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "To run at a gentle, steady pace."
+    ],
+    "examples": [
+      "I like to jog in the park morning."
+    ],
+    "domain": "spoken, relocation",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "jogs",
+    "transcription": "/dʒɒɡ/",
+    "emoji": "🏃",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/dʒɑːɡ/"
+    },
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:warm-up:noun",
+    "word": "warm up",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "Light exercise done before intense sport."
+    ],
+    "examples": [
+      "Do a short warm-up before running."
+    ],
+    "domain": "spoken, exam",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "warm-ups",
+    "transcription": "/ˈwɔːm.ʌp/",
+    "emoji": "🏃",
+    "countability": "countable",
+    "antonyms": [
+      "cool down"
+    ],
+    "transcription_variants": {
+      "us": "/ˈwɔːrm.ʌp/"
+    },
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:cool-down:noun",
+    "word": "cool down",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "Gentle exercise done after intense sport."
+    ],
+    "examples": [
+      "Stretch after running to cool down properly."
+    ],
+    "domain": "spoken",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "cool-downs",
+    "transcription": "/ˈkuːl.daʊn/",
+    "emoji": "🧘",
+    "countability": "countable",
+    "antonyms": [
+      "warm up"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:trophy:noun",
+    "word": "trophy",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A decorative cup awarded as a prize."
+    ],
+    "examples": [
+      "The winning team lifted the gold trophy."
+    ],
+    "domain": "spoken, exam",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "trophies",
+    "transcription": "/ˈtrəʊ.fi/",
+    "emoji": "🏆",
+    "countability": "countable",
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/ˈtroʊ.fi/"
+    },
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:supporter:noun",
+    "word": "supporter",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "A person who approves of a sports team."
+    ],
+    "examples": [
+      "Cheering supporters filled the sports stadium."
+    ],
+    "domain": "spoken, exam",
+    "theme": "leisure",
+    "tags": [
+      "spoken",
+      "elementary"
+    ],
+    "updated": "2025-01-15",
+    "plural_form": "supporters",
+    "transcription": "/səˈpɔː.tər/",
+    "emoji": "👏",
+    "countability": "countable",
+    "antonyms": [
+      "opponent"
+    ],
+    "transcription_variants": {
+      "us": "/səˈpɔːr.t̬ɚ/"
+    },
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:away-team:noun",
+    "word": "away team",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "The sports team playing at an opponent's stadium or ground."
+    ],
+    "examples": [
+      "The away team scored two quick goals before half time."
+    ],
+    "transcription": "/əˈweɪ tiːm/",
+    "emoji": "⚽",
+    "countability": "countable",
+    "plural_form": "away teams",
+    "synonyms": [
+      "visiting team",
+      "visiting side"
+    ],
+    "antonyms": [
+      "home team"
+    ],
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:season-ticket-holder:noun",
+    "word": "season ticket holder",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A person who owns a ticket valid for all games in a season."
+    ],
+    "examples": [
+      "Season ticket holders receive dedicated stadium seating and store discounts."
+    ],
+    "transcription": "/ˈsiː.zən ˈtɪk.ɪt ˈhəʊl.dər/",
+    "emoji": "🎟️",
+    "countability": "countable",
+    "plural_form": "season ticket holders",
+    "synonyms": [
+      "regular ticket holder",
+      "club seat owner"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:sports-equipment-rental:noun",
+    "word": "sports equipment rental",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Hiring athletic gear such as skis or surfboards for temporary use."
+    ],
+    "examples": [
+      "The beach shop provides sports equipment rental for surfing and kayaking."
+    ],
+    "transcription": "/spɔːts ɪˈkwɪp.mənt ˈren.təl/",
+    "emoji": "🏄‍♂️",
+    "countability": "uncountable",
+    "synonyms": [
+      "gear rental",
+      "sports gear hire"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:sports-memorabilia:noun",
+    "word": "sports memorabilia",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Souvenir items associated with famous sports events or athletes."
+    ],
+    "examples": [
+      "The sports bar wall was covered with autographed sports memorabilia."
+    ],
+    "transcription": "/spɔːts ˌmem.ər.əˈbɪl.i.ə/",
+    "emoji": "🏆",
+    "countability": "uncountable",
+    "synonyms": [
+      "collectibles",
+      "sports souvenirs"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:training-camp:noun",
+    "word": "training camp",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A facility or period of intensive preparation for athletic teams."
+    ],
+    "examples": [
+      "The football squad spent two weeks at an alpine training camp."
+    ],
+    "transcription": "/ˈtreɪ.nɪŋ kæmp/",
+    "emoji": "🏋️",
+    "countability": "countable",
+    "plural_form": "training camps",
+    "synonyms": [
+      "sports preparation camp",
+      "intensive camp"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:warm-up-routine:noun",
+    "word": "warm-up routine",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Gentle physical preparation exercises done before athletic activity."
+    ],
+    "examples": [
+      "A ten-minute warm-up routine prevents sports injuries before tennis."
+    ],
+    "transcription": "/ˈwɔːm.ʌp ruːˈtiːn/",
+    "emoji": "🤸‍♂️",
+    "countability": "countable",
+    "plural_form": "warm-up routines",
+    "synonyms": [
+      "stretching session",
+      "warm-up preparation"
+    ],
+    "antonyms": [
+      "cool-down routine"
+    ],
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:cool-down-routine:noun",
+    "word": "cool-down routine",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "Light physical exercises done after strenuous workout to slow heart rate."
+    ],
+    "examples": [
+      "A proper cool-down routine helps prevent muscle soreness after running."
+    ],
+    "transcription": "/ˈkuːl.daʊn ruːˈtiːn/",
+    "emoji": "🧘",
+    "countability": "countable",
+    "plural_form": "cool-down routines",
+    "synonyms": [
+      "stretching session",
+      "cooling period"
+    ],
+    "antonyms": [
+      "warm-up routine"
+    ],
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:guided-fitness-class:noun",
+    "word": "guided fitness class",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "An exercise session directed by a certified fitness instructor."
+    ],
+    "examples": [
+      "The beach resort offers a guided fitness class every morning at sunrise."
+    ],
+    "transcription": "/ˈɡaɪ.dɪd ˈfɪt.nəs klɑːs/",
+    "emoji": "🧘‍♀️",
+    "countability": "countable",
+    "plural_form": "guided fitness classes",
+    "synonyms": [
+      "instructor-led workout",
+      "fitness session"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:home-team:noun",
+    "word": "home team",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "The sports team playing in its home stadium."
+    ],
+    "examples": [
+      "Thousands of local fans cheered loudly for the home team."
+    ],
+    "transcription": "/həʊm tiːm/",
+    "emoji": "🏟️",
+    "countability": "countable",
+    "plural_form": "home teams",
+    "synonyms": [
+      "hosting team",
+      "local side"
+    ],
+    "antonyms": [
+      "away team"
+    ],
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:life-vest:noun",
+    "word": "life vest",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A buoyant life jacket worn to keep a person afloat in water."
+    ],
+    "examples": [
+      "Put on your life vest before boarding the small motorboat."
+    ],
+    "transcription": "/laɪf vest/",
+    "emoji": "🤿",
+    "countability": "countable",
+    "plural_form": "life vests",
+    "synonyms": [
+      "life jacket",
+      "buoyancy vest"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
+    "id": "en:personal-trainer:noun",
+    "word": "personal trainer",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "domain": "general, travel",
+    "theme": "leisure",
+    "updated": "2025-01-15",
+    "definitions": [
+      "A fitness professional hired to design individual exercise routines."
+    ],
+    "examples": [
+      "The resort gym hired a personal trainer to guide guest workouts."
+    ],
+    "transcription": "/ˈpɜː.sən.əl ˈtreɪ.nər/",
+    "emoji": "🏋️‍♂️",
+    "countability": "countable",
+    "plural_form": "personal trainers",
+    "synonyms": [
+      "fitness coach",
+      "gym instructor"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "sports",
+      "travel"
+    ],
+    "sub_theme": "sports"
+  },
+  {
     "id": "en:sculpture:noun",
     "word": "sculpture",
     "language": "en",
@@ -26,7 +674,7 @@
     "transcription_variants": {
       "us": "/ˈskʌlp.tʃɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:exhibition:noun",
@@ -58,7 +706,7 @@
     "transcription_variants": {
       "us": "/ˌek.səˈbɪʃ.ən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:performance:noun",
@@ -90,7 +738,7 @@
     "transcription_variants": {
       "us": "/pɚˈfɔːr.məns/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:championship:noun",
@@ -119,7 +767,7 @@
     "emoji": "🏆",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:tournament:noun",
@@ -151,7 +799,7 @@
     "transcription_variants": {
       "us": "/ˈtʊr.nə.mənt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:competition:noun",
@@ -183,7 +831,7 @@
     "transcription_variants": {
       "us": "/ˌkɑːm.pəˈtɪʃ.ən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:coach:verb",
@@ -213,7 +861,7 @@
     "transcription_variants": {
       "us": "/koʊtʃ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:interest:noun",
@@ -241,7 +889,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈɪn.trɪst/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:pastime:noun",
@@ -265,7 +914,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈpæs.taɪm/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:concert:noun",
@@ -293,7 +943,7 @@
     "transcription_variants": {
       "us": "/ˈkɑːn.sɚt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:gallery:noun",
@@ -321,7 +971,7 @@
     "transcription_variants": {
       "us": "/ˈɡæl.ɚ.i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:band:noun",
@@ -346,7 +996,7 @@
     "emoji": "🎸",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:musician:noun",
@@ -368,7 +1018,7 @@
     "emoji": "🧑‍🎤",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:instrument:noun",
@@ -393,7 +1043,7 @@
     "emoji": "🎸",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:painting:noun",
@@ -420,7 +1070,7 @@
     "transcription_variants": {
       "us": "/ˈpeɪn.t̬ɪŋ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:referee:noun",
@@ -445,7 +1095,7 @@
     "emoji": "👨‍⚖️",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:stadium:noun",
@@ -470,7 +1120,7 @@
     "emoji": "🏟️",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:equipment:noun",
@@ -491,7 +1141,7 @@
     "transcription": "/ɪˈkwɪp.mənt/",
     "emoji": "🏋️",
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "sports"
   },
   {
     "id": "en:puzzle:noun",
@@ -516,7 +1166,7 @@
     "emoji": "🧩",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:camping:noun",
@@ -539,7 +1189,8 @@
     "transcription": "/ˈkæm.pɪŋ/",
     "emoji": "🏕️",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:fishing:noun",
@@ -562,7 +1213,8 @@
     "transcription": "/ˈfɪʃ.ɪŋ/",
     "emoji": "🎣",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:hiking:noun",
@@ -585,7 +1237,8 @@
     "transcription": "/ˈhaɪ.kɪŋ/",
     "emoji": "🥾",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:collecting:noun",
@@ -605,7 +1258,8 @@
     "transcription": "/kəˈlek.tɪŋ/",
     "emoji": "🪙",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:collect:noun",
@@ -630,7 +1284,7 @@
     "emoji": "🪙",
     "countability": "uncountable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:collection:noun",
@@ -656,7 +1310,7 @@
     "emoji": "🪙",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:knitting:noun",
@@ -683,7 +1337,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈnɪt̬.ɪŋ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:sewing:noun",
@@ -710,7 +1365,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈsoʊ.ɪŋ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:woodworking:noun",
@@ -737,7 +1393,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈwʊdˌwɝː.kɪŋ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:chess:noun",
@@ -761,7 +1418,8 @@
     "countability": "uncountable",
     "transcription": "/tʃes/",
     "emoji": "♟️",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:board-game:noun",
@@ -790,7 +1448,7 @@
     "transcription_variants": {
       "us": "/ˈbɔːrd ɡeɪm/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:video-game:noun",
@@ -819,7 +1477,7 @@
     "transcription_variants": {
       "us": "/ˈvɪd.i.oʊ ɡeɪm/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:card-game:noun",
@@ -847,7 +1505,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈkɑːrd ɡeɪm/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:karaoke:noun",
@@ -874,7 +1533,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˌker.iˈoʊ.ki/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:musical:noun",
@@ -899,7 +1559,8 @@
     "transcription": "/ˈmjuː.zɪ.kəl/",
     "emoji": "🎭",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:orchestra:noun",
@@ -928,7 +1589,7 @@
     "transcription_variants": {
       "us": "/ˈɔːr.kə.strə/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:guitar:noun",
@@ -954,7 +1615,7 @@
     "emoji": "🎸",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:piano:noun",
@@ -983,7 +1644,7 @@
     "transcription_variants": {
       "us": "/piˈæn.oʊ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:drums:noun",
@@ -1008,7 +1669,8 @@
     "transcription": "/drʌmz/",
     "emoji": "🥁",
     "singular_workaround": "a drum",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:violin:noun",
@@ -1033,7 +1695,8 @@
     "transcription": "/ˌvaɪəˈlɪn/",
     "emoji": "🎻",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:rehearsal:noun",
@@ -1061,7 +1724,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/rɪˈhɝː.səl/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:jogging:noun",
@@ -1081,7 +1745,8 @@
     "transcription": "/ˈdʒɒɡ.ɪŋ/",
     "emoji": "🏃",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:sports-center:noun",
@@ -1102,7 +1767,8 @@
     "emoji": "🏋️",
     "countability": "countable",
     "plural_form": "sports centers",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:team-sport:noun",
@@ -1117,7 +1783,7 @@
       "Playing a team sport like basketball helps children make friends at their new school."
     ],
     "domain": "general, relocation",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "levels": [
       "A2"
@@ -1132,7 +1798,8 @@
     "plural_form": "team sports",
     "antonyms": [
       "individual sport"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:season-pass:noun",
@@ -1141,7 +1808,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "A pass granting entry to a venue or ski resort throughout a season."
@@ -1161,7 +1828,8 @@
     "tags": [
       "sports_hobbies",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:base-camp:noun",
@@ -1170,7 +1838,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "A central camp providing supplies and shelter for mountain climbers."
@@ -1190,7 +1858,8 @@
     "tags": [
       "sports_hobbies",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:bungee-jumping:noun",
@@ -1205,12 +1874,13 @@
       "He tried bungee jumping off a bridge."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈbʌn.dʒi ˌdʒʌm.pɪŋ/",
     "emoji": "🪂",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:camping-gear:noun",
@@ -1225,12 +1895,13 @@
       "Pack your camping gear inside the car."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈkæm.pɪŋ ɡɪər/",
     "emoji": "⛺",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:canoeing:noun",
@@ -1245,12 +1916,13 @@
       "We enjoyed canoeing down the river rapids."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/kəˈnuː.ɪŋ/",
     "emoji": "🛶",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:diving-instructor:noun",
@@ -1265,13 +1937,14 @@
       "The diving instructor guided us underwater."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈdaɪ.vɪŋ ɪnˌstrʌk.tər/",
     "emoji": "🥽",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "diving instructors"
+    "plural_form": "diving instructors",
+    "sub_theme": "sports"
   },
   {
     "id": "en:fisherman:noun",
@@ -1286,13 +1959,14 @@
       "The old fisherman caught fresh sea fish."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈfɪʃ.ə.mæn/",
     "emoji": "🎣",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "fishermen"
+    "plural_form": "fishermen",
+    "sub_theme": "sports"
   },
   {
     "id": "en:fishing-trip:noun",
@@ -1307,13 +1981,14 @@
       "They took an early morning fishing trip."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈfɪʃ.ɪŋ trɪp/",
     "emoji": "🎣",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "fishing trips"
+    "plural_form": "fishing trips",
+    "sub_theme": "sports"
   },
   {
     "id": "en:golf-course:noun",
@@ -1328,13 +2003,14 @@
       "He played eighteen holes at golf course."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ɡɒlf kɔːs/",
     "emoji": "⛳",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "golf courses"
+    "plural_form": "golf courses",
+    "sub_theme": "sports"
   },
   {
     "id": "en:helmet:noun",
@@ -1349,13 +2025,14 @@
       "Wear a helmet while riding a scooter."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈhel.mət/",
     "emoji": "🪖",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "helmets"
+    "plural_form": "helmets",
+    "sub_theme": "sports"
   },
   {
     "id": "en:hiking-boots:noun",
@@ -1370,12 +2047,13 @@
       "Put on comfortable hiking boots before walking."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈhaɪ.kɪŋ buːts/",
     "emoji": "🥾",
     "no_antonym": true,
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "sub_theme": "sports"
   },
   {
     "id": "en:hiking-trail:noun",
@@ -1390,13 +2068,14 @@
       "Follow the marked hiking trail through woods."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈhaɪ.kɪŋ treɪl/",
     "emoji": "🥾",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "hiking trails"
+    "plural_form": "hiking trails",
+    "sub_theme": "sports"
   },
   {
     "id": "en:horseback-riding:noun",
@@ -1411,12 +2090,13 @@
       "They went horseback riding along the beach."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈhɔːs.bæk ˌraɪ.dɪŋ/",
     "emoji": "🐎",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:ice-skating:noun",
@@ -1431,12 +2111,13 @@
       "We went ice skating at city rink."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈaɪs ˌskeɪ.tɪŋ/",
     "emoji": "⛸️",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:kayaking:noun",
@@ -1451,12 +2132,13 @@
       "Kayaking along coastal cliffs was very exciting."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈkaɪ.æk.ɪŋ/",
     "emoji": "🛶",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:mountain-biking:noun",
@@ -1471,12 +2153,13 @@
       "They enjoyed mountain biking down mountain trails."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈmaʊn.tɪn ˌbaɪ.kɪŋ/",
     "emoji": "🚵",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:paddleboarding:noun",
@@ -1491,12 +2174,13 @@
       "She tried paddleboarding on the calm lake."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈpæd.əl.bɔː.dɪŋ/",
     "emoji": "🏄",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:rafting:noun",
@@ -1511,12 +2195,13 @@
       "White-water rafting on the river was thrilling."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈrɑːf.tɪŋ/",
     "emoji": "🚣",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:rock-climbing:noun",
@@ -1531,12 +2216,13 @@
       "Safety equipment is mandatory for rock climbing."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈrɒk ˌklaɪ.mɪŋ/",
     "emoji": "🧗",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:running-track:noun",
@@ -1551,13 +2237,14 @@
       "He ran five laps around running track."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈrʌn.ɪŋ træk/",
     "emoji": "🏃",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "running tracks"
+    "plural_form": "running tracks",
+    "sub_theme": "sports"
   },
   {
     "id": "en:sailing:noun",
@@ -1572,12 +2259,13 @@
       "They went sailing around the coastal islands."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈseɪ.lɪŋ/",
     "emoji": "⛵",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:ski-resort:noun",
@@ -1592,13 +2280,14 @@
       "We stayed at a snowy ski resort."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈskiː rɪˌzɔːt/",
     "emoji": "⛷️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "ski resorts"
+    "plural_form": "ski resorts",
+    "sub_theme": "sports"
   },
   {
     "id": "en:skiing:noun",
@@ -1613,13 +2302,13 @@
       "They spent the winter holiday skiing daily."
     ],
     "domain": "general, travel, exam",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈskiː.ɪŋ/",
     "emoji": "⛷️",
     "no_antonym": true,
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:sleeping-bag:noun",
@@ -1634,13 +2323,14 @@
       "Keep warm inside your insulated sleeping bag."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈsliː.pɪŋ bæɡ/",
     "emoji": "⛺",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "sleeping bags"
+    "plural_form": "sleeping bags",
+    "sub_theme": "sports"
   },
   {
     "id": "en:snorkeling:noun",
@@ -1655,12 +2345,13 @@
       "We went snorkeling near the coral reef."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈsnɔː.kəl.ɪŋ/",
     "emoji": "🥽",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:snowboarding:noun",
@@ -1675,12 +2366,13 @@
       "Young athletes enjoy snowboarding in winter."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈsnəʊ.bɔː.dɪŋ/",
     "emoji": "🏂",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:surfing:noun",
@@ -1695,12 +2387,13 @@
       "Surfing on ocean waves was great fun."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈsɜː.fɪŋ/",
     "emoji": "🏄",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:tennis-court:noun",
@@ -1715,13 +2408,14 @@
       "They played match on the resort tennis court."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈten.ɪs kɔːt/",
     "emoji": "🎾",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "tennis courts"
+    "plural_form": "tennis courts",
+    "sub_theme": "sports"
   },
   {
     "id": "en:windsurfing:noun",
@@ -1736,12 +2430,13 @@
       "Strong breezes provided great conditions for windsurfing."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈwɪndˌsɜː.fɪŋ/",
     "emoji": "🏄",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:zip-lining:noun",
@@ -1756,12 +2451,13 @@
       "Zip-lining through forest canopy was an amazing adventure."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈzɪp.laɪ.nɪŋ/",
     "emoji": "🪂",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:life-jacket:noun",
@@ -1776,13 +2472,14 @@
       "Fasten your life jacket securely on boat."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈlaɪf ˌdʒæk.ɪt/",
     "emoji": "🦺",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "life jackets"
+    "plural_form": "life jackets",
+    "sub_theme": "sports"
   },
   {
     "id": "en:gym-membership:noun",
@@ -1797,13 +2494,14 @@
       "The hotel includes a temporary gym membership."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/dʒɪm ˈmem.bə.ʃɪp/",
     "emoji": "🏋️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "gym memberships"
+    "plural_form": "gym memberships",
+    "sub_theme": "sports"
   },
   {
     "id": "en:scuba-diving:noun",
@@ -1818,12 +2516,13 @@
       "They enjoyed scuba diving near tropical coral reefs."
     ],
     "domain": "general, travel",
-    "theme": "sports_hobbies",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "transcription": "/ˈskuː.bə ˌdaɪ.vɪŋ/",
     "emoji": "🤿",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "sports"
   },
   {
     "id": "en:teammate:noun",
@@ -1838,7 +2537,7 @@
       "He passed the ball to his teammate."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -1850,7 +2549,8 @@
     "countability": "countable",
     "antonyms": [
       "opponent"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:league:noun",
@@ -1865,7 +2565,7 @@
       "Our team won the local football league."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -1875,7 +2575,8 @@
     "transcription": "/liːɡ/",
     "emoji": "🏆",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:pitch:noun",
@@ -1890,7 +2591,7 @@
       "Players ran onto the green football pitch."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -1900,7 +2601,8 @@
     "transcription": "/pɪtʃ/",
     "emoji": "⚽",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:track:noun",
@@ -1915,7 +2617,7 @@
       "Athletes ran around the synthetic track."
     ],
     "domain": "spoken, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -1925,7 +2627,8 @@
     "transcription": "/træk/",
     "emoji": "🛤️",
     "countability": "countable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   },
   {
     "id": "en:fitness-center:noun",
@@ -1940,7 +2643,7 @@
       "She exercises at the local fitness center."
     ],
     "domain": "spoken, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -1953,7 +2656,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈfɪt.nəs ˌsen.t̬ɚ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:marathon:noun",
@@ -1968,7 +2672,7 @@
       "Thousands of runners ran the city marathon."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -1981,7 +2685,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈmær.ə.θɑːn/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:jog:noun",
@@ -1996,7 +2701,7 @@
       "I like to jog in the park morning."
     ],
     "domain": "spoken, relocation",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -2009,7 +2714,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/dʒɑːɡ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:warm-up:noun",
@@ -2024,7 +2730,7 @@
       "Do a short warm-up before running."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -2039,7 +2745,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈwɔːrm.ʌp/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:cool-down:noun",
@@ -2054,7 +2761,7 @@
       "Stretch after running to cool down properly."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -2066,7 +2773,8 @@
     "countability": "countable",
     "antonyms": [
       "warm up"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:trophy:noun",
@@ -2081,7 +2789,7 @@
       "The winning team lifted the gold trophy."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -2094,7 +2802,8 @@
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈtroʊ.fi/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:supporter:noun",
@@ -2109,7 +2818,7 @@
       "Cheering supporters filled the sports stadium."
     ],
     "domain": "spoken",
-    "theme": "sports",
+    "theme": "leisure",
     "tags": [
       "spoken",
       "elementary"
@@ -2124,7 +2833,8 @@
     ],
     "transcription_variants": {
       "us": "/səˈpɔːr.t̬ɚ/"
-    }
+    },
+    "sub_theme": "sports"
   },
   {
     "id": "en:away-team:noun",
@@ -2133,7 +2843,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "The sports team playing at an opponent's stadium or ground."
@@ -2155,7 +2865,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:season-ticket-holder:noun",
@@ -2164,7 +2875,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "A person who owns a ticket valid for all games in a season."
@@ -2184,7 +2895,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:sports-equipment-rental:noun",
@@ -2193,7 +2905,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "Hiring athletic gear such as skis or surfboards for temporary use."
@@ -2212,7 +2924,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:sports-memorabilia:noun",
@@ -2221,7 +2934,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "Souvenir items associated with famous sports events or athletes."
@@ -2240,7 +2953,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:training-camp:noun",
@@ -2249,7 +2963,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "A facility or period of intensive preparation for athletic teams."
@@ -2269,7 +2983,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:warm-up-routine:noun",
@@ -2278,7 +2993,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "Gentle physical preparation exercises done before athletic activity."
@@ -2300,7 +3015,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:cool-down-routine:noun",
@@ -2309,7 +3025,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "Light physical exercises done after strenuous workout to slow heart rate."
@@ -2331,7 +3047,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:guided-fitness-class:noun",
@@ -2340,7 +3057,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "An exercise session directed by a certified fitness instructor."
@@ -2360,7 +3077,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:home-team:noun",
@@ -2369,7 +3087,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "The sports team playing in its home stadium."
@@ -2391,7 +3109,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:life-vest:noun",
@@ -2400,7 +3119,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "A buoyant life jacket worn to keep a person afloat in water."
@@ -2420,7 +3139,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:personal-trainer:noun",
@@ -2429,7 +3149,7 @@
     "form": "noun",
     "level": "A2",
     "domain": "general, travel",
-    "theme": "sports",
+    "theme": "leisure",
     "updated": "2025-01-15",
     "definitions": [
       "A fitness professional hired to design individual exercise routines."
@@ -2449,7 +3169,8 @@
     "tags": [
       "sports",
       "travel"
-    ]
+    ],
+    "sub_theme": "sports"
   },
   {
     "id": "en:gym:noun",
@@ -2474,7 +3195,7 @@
     "emoji": "🏋️",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:cycling:noun",
@@ -2498,7 +3219,7 @@
     "emoji": "🚴",
     "countability": "uncountable",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "sports"
   },
   {
     "id": "en:yoga:noun",
@@ -2518,6 +3239,7 @@
     "transcription": "/ˈjəʊ.ɡə/",
     "emoji": "🧘",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "sub_theme": "sports"
   }
 ]

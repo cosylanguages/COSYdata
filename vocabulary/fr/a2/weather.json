@@ -20,7 +20,8 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "températures"
+    "plural_form": "températures",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:orage:noun",
@@ -43,7 +44,8 @@
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "orages"
+    "plural_form": "orages",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:brouillard:noun",
@@ -65,7 +67,8 @@
     "no_antonym": true,
     "countability": "uncountable",
     "article": "le",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:glace-meteo:noun",
@@ -87,7 +90,8 @@
     "no_antonym": true,
     "countability": "uncountable",
     "article": "la",
-    "gender": "feminine"
+    "gender": "feminine",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:ensoleille:adjective",
@@ -108,7 +112,8 @@
     "emoji": "☀️",
     "antonyms": [
       "nuageux"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:nuageux:adjective",
@@ -129,7 +134,8 @@
     "emoji": "☁️",
     "antonyms": [
       "ensoleillé"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:pluvieux:adjective",
@@ -150,7 +156,8 @@
     "emoji": "🌧️",
     "antonyms": [
       "sec"
-    ]
+    ],
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:degre:noun",
@@ -173,7 +180,8 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "degrés"
+    "plural_form": "degrés",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:tonnerre:noun",
@@ -195,7 +203,8 @@
     "no_antonym": true,
     "countability": "uncountable",
     "article": "le",
-    "gender": "masculine"
+    "gender": "masculine",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:eclair:noun",
@@ -218,7 +227,8 @@
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "éclairs"
+    "plural_form": "éclairs",
+    "sub_theme": "precipitation_sky"
   },
   {
     "id": "fr:humidite:noun",
@@ -240,6 +250,7 @@
     "no_antonym": true,
     "countability": "uncountable",
     "article": "l'",
-    "gender": "feminine"
+    "gender": "feminine",
+    "sub_theme": "precipitation_sky"
   }
 ]
