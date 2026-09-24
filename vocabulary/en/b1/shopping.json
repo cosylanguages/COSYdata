@@ -22,7 +22,8 @@
       "fashion shop"
     ],
     "countability": "countable",
-    "plural_form": "boutiques"
+    "plural_form": "boutiques",
+    "sub_theme": "general"
   },
   {
     "id": "en:bargaining:noun",
@@ -46,7 +47,8 @@
       "haggling",
       "negotiation"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "sub_theme": "general"
   },
   {
     "id": "en:fishmonger:noun",
@@ -71,7 +73,8 @@
       "seafood seller"
     ],
     "countability": "countable",
-    "plural_form": "fishmongers"
+    "plural_form": "fishmongers",
+    "sub_theme": "general"
   },
   {
     "id": "en:haggle:verb",
@@ -94,6 +97,189 @@
     "synonyms": [
       "bargain",
       "negotiate price"
-    ]
+    ],
+    "sub_theme": "general"
+  },
+  {
+    "id": "en:gratuity:noun",
+    "word": "gratuity",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "a tip given voluntarily to service workers for good service"
+    ],
+    "examples": [
+      "The bill included a ten percent gratuity for the waitstaff."
+    ],
+    "domain": "general, travel",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ɡrəˈtʃuː.ə.ti/",
+    "emoji": "💵",
+    "no_antonym": true,
+    "synonyms": [
+      "tip",
+      "service tip"
+    ],
+    "countability": "countable",
+    "plural_form": "gratuities",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:bureau-de-change:noun",
+    "word": "bureau de change",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "an office or booth where foreign currencies are exchanged"
+    ],
+    "examples": [
+      "We converted Euros at the airport bureau de change before leaving."
+    ],
+    "domain": "general, travel",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˌbjʊə.rəʊ də ˈʃɑːnʒ/",
+    "emoji": "💱",
+    "no_antonym": true,
+    "synonyms": [
+      "currency exchange",
+      "money exchange"
+    ],
+    "countability": "countable",
+    "plural_form": "bureaux de change",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:commission:noun",
+    "word": "commission",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "a fee charged by financial brokers or exchange counters for services"
+    ],
+    "examples": [
+      "The exchange booth charged a five percent commission on cash transactions."
+    ],
+    "domain": "general, travel, exam",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/kəˈmɪʃ.ən/",
+    "emoji": "💵",
+    "no_antonym": true,
+    "synonyms": [
+      "transaction fee",
+      "brokerage fee"
+    ],
+    "countability": "countable",
+    "plural_form": "commissions",
+    "sub_theme": "transactions_pricing"
+  },
+  {
+    "id": "en:currency-exchange-counter:noun",
+    "word": "currency exchange counter",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "a service desk where travelers exchange cash into foreign money"
+    ],
+    "examples": [
+      "Exchange rates were displayed on screens above the currency exchange counter."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˈkʌr.ən.si ɪksˈtʃeɪndʒ ˈkaʊn.tər/",
+    "emoji": "💱",
+    "no_antonym": true,
+    "synonyms": [
+      "exchange booth",
+      "forex counter"
+    ],
+    "countability": "countable",
+    "plural_form": "currency exchange counters",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:foreign-currency:noun",
+    "word": "foreign currency",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "money that is officially used in a foreign country"
+    ],
+    "examples": [
+      "Withdraw local foreign currency from official bank ATMs upon arrival."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˈfɒr.ən ˈkʌr.ən.si/",
+    "emoji": "💱",
+    "antonyms": [
+      "local currency"
+    ],
+    "synonyms": [
+      "foreign money",
+      "forex"
+    ],
+    "countability": "uncountable",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:travelers-check:noun",
+    "word": "traveler's check",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "a pre-printed fixed-amount check exchangeable for local cash"
+    ],
+    "examples": [
+      "He exchanged a traveler's check at the hotel reception desk."
+    ],
+    "domain": "general, travel",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˈtræv.ə.ləz tʃek/",
+    "emoji": "💵",
+    "no_antonym": true,
+    "synonyms": [
+      "travelers cheque",
+      "certified check"
+    ],
+    "countability": "countable",
+    "plural_form": "traveler's checks",
+    "sub_theme": "money_currency"
+  },
+  {
+    "id": "en:vat:noun",
+    "word": "vat",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "value-added tax levied on consumer goods and services"
+    ],
+    "examples": [
+      "Tourists can claim a refund on vat before leaving the country."
+    ],
+    "domain": "general, relocation, travel",
+    "theme": "shopping",
+    "updated": "2025-01-15",
+    "transcription": "/ˌviː.eɪˈtiː/",
+    "emoji": "🧾",
+    "no_antonym": true,
+    "synonyms": [
+      "value added tax",
+      "sales tax"
+    ],
+    "countability": "uncountable",
+    "sub_theme": "transactions_pricing"
   }
 ]
