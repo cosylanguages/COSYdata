@@ -2179,6 +2179,18 @@
       "field": "word"
     }
   ],
+  "ai model": [
+    {
+      "id": "en:ai-model:noun",
+      "field": "word"
+    }
+  ],
+  "ai models": [
+    {
+      "id": "en:ai-model:noun",
+      "field": "plural_form"
+    }
+  ],
   "aid": [
     {
       "id": "en:aid:noun",
@@ -2363,6 +2375,10 @@
   ],
   "algorithm": [
     {
+      "id": "en:algorithm-technology:noun",
+      "field": "word"
+    },
+    {
       "id": "en:algorithm:noun",
       "field": "word"
     }
@@ -2404,6 +2420,10 @@
     }
   ],
   "algorithms": [
+    {
+      "id": "en:algorithm-technology:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:algorithm:noun",
       "field": "plural_form"
@@ -3798,6 +3818,10 @@
     }
   ],
   "apodictic": [
+    {
+      "id": "en:apodictic-philosophy:adjective",
+      "field": "word"
+    },
     {
       "id": "en:apodictic:adjective",
       "field": "word"
@@ -5660,6 +5684,10 @@
     }
   ],
   "automation": [
+    {
+      "id": "en:automation-technology:noun",
+      "field": "word"
+    },
     {
       "id": "en:automation:noun",
       "field": "word"
@@ -11155,6 +11183,18 @@
       "field": "word"
     }
   ],
+  "categorical imperative": [
+    {
+      "id": "en:categorical-imperative:noun",
+      "field": "word"
+    }
+  ],
+  "categorical imperatives": [
+    {
+      "id": "en:categorical-imperative:noun",
+      "field": "plural_form"
+    }
+  ],
   "categorically": [
     {
       "id": "en:categorically:phrase",
@@ -11839,6 +11879,18 @@
     {
       "id": "en:chat:noun",
       "field": "word"
+    }
+  ],
+  "chatbot": [
+    {
+      "id": "en:chatbot:noun",
+      "field": "word"
+    }
+  ],
+  "chatbots": [
+    {
+      "id": "en:chatbot:noun",
+      "field": "plural_form"
     }
   ],
   "chats": [
@@ -15314,6 +15366,10 @@
     }
   ],
   "consciousness": [
+    {
+      "id": "en:consciousness-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:consciousness:noun",
       "field": "word"
@@ -18855,11 +18911,19 @@
   ],
   "data breach": [
     {
+      "id": "en:data-breach-technology:noun",
+      "field": "word"
+    },
+    {
       "id": "en:data-breach:noun",
       "field": "word"
     }
   ],
   "data breaches": [
+    {
+      "id": "en:data-breach-technology:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:data-breach:noun",
       "field": "plural_form"
@@ -18934,6 +18998,18 @@
   "databases": [
     {
       "id": "en:database:noun",
+      "field": "plural_form"
+    }
+  ],
+  "dataset": [
+    {
+      "id": "en:dataset:noun",
+      "field": "word"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "en:dataset:noun",
       "field": "plural_form"
     }
   ],
@@ -20049,6 +20125,18 @@
       "field": "word"
     }
   ],
+  "deontological": [
+    {
+      "id": "en:deontological:adjective",
+      "field": "word"
+    }
+  ],
+  "deontology": [
+    {
+      "id": "en:deontology:noun",
+      "field": "word"
+    }
+  ],
   "depart": [
     {
       "id": "en:depart:verb",
@@ -20493,6 +20581,10 @@
   ],
   "determinism": [
     {
+      "id": "en:determinism-philosophy:noun",
+      "field": "word"
+    },
+    {
       "id": "en:determinism:noun",
       "field": "word"
     }
@@ -20653,11 +20745,25 @@
   ],
   "dialectic": [
     {
+      "id": "en:dialectic-philosophy:noun",
+      "field": "word"
+    },
+    {
       "id": "en:dialectic:noun",
       "field": "word"
     }
   ],
+  "dialectical": [
+    {
+      "id": "en:dialectical:adjective",
+      "field": "word"
+    }
+  ],
   "dialectics": [
+    {
+      "id": "en:dialectic-philosophy:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:dialectic:noun",
       "field": "plural_form"
@@ -20977,6 +21083,12 @@
     {
       "id": "en:digital-nomad:noun",
       "field": "plural_form"
+    }
+  ],
+  "digital privacy": [
+    {
+      "id": "en:digital-privacy:noun",
+      "field": "word"
     }
   ],
   "digital sovereignty": [
@@ -24773,6 +24885,10 @@
   ],
   "empiricism": [
     {
+      "id": "en:empiricism-philosophy:noun",
+      "field": "word"
+    },
+    {
       "id": "en:empiricism:noun",
       "field": "word"
     }
@@ -24916,6 +25032,10 @@
     }
   ],
   "encryption": [
+    {
+      "id": "en:encryption-technology:noun",
+      "field": "word"
+    },
     {
       "id": "en:encryption:noun",
       "field": "word"
@@ -25575,11 +25695,19 @@
   ],
   "epistemological": [
     {
+      "id": "en:epistemological-philosophy:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:epistemological:adjective",
       "field": "word"
     }
   ],
   "epistemology": [
+    {
+      "id": "en:epistemology-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:epistemology:noun",
       "field": "plural_form"
@@ -26003,6 +26131,10 @@
     {
       "id": "en:ethic:noun",
       "field": "plural_form"
+    },
+    {
+      "id": "en:ethics-philosophy:noun",
+      "field": "word"
     },
     {
       "id": "en:ethics:noun",
@@ -26906,6 +27038,10 @@
     }
   ],
   "existentialism": [
+    {
+      "id": "en:existentialism-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:existentialism:noun",
       "field": "word"
@@ -27959,11 +28095,19 @@
   ],
   "fallacies": [
     {
+      "id": "en:fallacy-philosophy:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:fallacy:noun",
       "field": "plural_form"
     }
   ],
   "fallacy": [
+    {
+      "id": "en:fallacy-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:fallacy:noun",
       "field": "word"
@@ -29185,11 +29329,19 @@
   ],
   "firewall": [
     {
+      "id": "en:firewall-technology:noun",
+      "field": "word"
+    },
+    {
       "id": "en:firewall:noun",
       "field": "word"
     }
   ],
   "firewalls": [
+    {
+      "id": "en:firewall-technology:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:firewall:noun",
       "field": "plural_form"
@@ -30869,6 +31021,10 @@
   ],
   "free will": [
     {
+      "id": "en:free-will-philosophy:noun",
+      "field": "word"
+    },
+    {
       "id": "en:free-will:noun",
       "field": "word"
     }
@@ -31947,6 +32103,12 @@
     {
       "id": "en:generation:noun",
       "field": "plural_form"
+    }
+  ],
+  "generative ai": [
+    {
+      "id": "en:generative-ai:noun",
+      "field": "word"
     }
   ],
   "generativity": [
@@ -35374,6 +35536,10 @@
     }
   ],
   "hermeneutics": [
+    {
+      "id": "en:hermeneutics-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:hermeneutics:noun",
       "field": "word"
@@ -45087,6 +45253,12 @@
       "field": "word"
     }
   ],
+  "logic": [
+    {
+      "id": "en:logic:noun",
+      "field": "word"
+    }
+  ],
   "logical": [
     {
       "id": "en:logical:noun",
@@ -45741,6 +45913,10 @@
   ],
   "machine learning": [
     {
+      "id": "en:machine-learning-technology:noun",
+      "field": "word"
+    },
+    {
       "id": "en:machine-learning:noun",
       "field": "word"
     }
@@ -46178,6 +46354,10 @@
     }
   ],
   "malware": [
+    {
+      "id": "en:malware-technology:noun",
+      "field": "word"
+    },
     {
       "id": "en:malware:noun",
       "field": "word"
@@ -46874,6 +47054,12 @@
   "meaning": [
     {
       "id": "en:meaning:noun",
+      "field": "word"
+    }
+  ],
+  "meaning of life": [
+    {
+      "id": "en:meaning-of-life:noun",
       "field": "word"
     }
   ],
@@ -48885,7 +49071,17 @@
       "field": "word"
     }
   ],
+  "moral responsibility": [
+    {
+      "id": "en:moral-responsibility:noun",
+      "field": "word"
+    }
+  ],
   "morality": [
+    {
+      "id": "en:morality-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:morality:noun",
       "field": "word"
@@ -52409,11 +52605,19 @@
   ],
   "neural network": [
     {
+      "id": "en:neural-network-technology:noun",
+      "field": "word"
+    },
+    {
       "id": "en:neural-network:noun",
       "field": "word"
     }
   ],
   "neural networks": [
+    {
+      "id": "en:neural-network-technology:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:neural-network:noun",
       "field": "plural_form"
@@ -53403,11 +53607,19 @@
   ],
   "noumena": [
     {
+      "id": "en:noumenon-philosophy:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:noumenon:noun",
       "field": "plural_form"
     }
   ],
   "noumenon": [
+    {
+      "id": "en:noumenon-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:noumenon:noun",
       "field": "word"
@@ -54646,6 +54858,10 @@
     }
   ],
   "ontology": [
+    {
+      "id": "en:ontology-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:ontology:noun",
       "field": "word"
@@ -56687,6 +56903,12 @@
       "field": "word"
     }
   ],
+  "password protection": [
+    {
+      "id": "en:password-protection:noun",
+      "field": "word"
+    }
+  ],
   "passwords": [
     {
       "id": "en:password:noun",
@@ -57585,6 +57807,12 @@
       "field": "word"
     }
   ],
+  "personal identity": [
+    {
+      "id": "en:personal-identity:noun",
+      "field": "word"
+    }
+  ],
   "personal space": [
     {
       "id": "en:personal-space:noun",
@@ -57871,6 +58099,10 @@
   ],
   "phenomenology": [
     {
+      "id": "en:phenomenology-philosophy:noun",
+      "field": "word"
+    },
+    {
       "id": "en:phenomenology:noun",
       "field": "word"
     }
@@ -57900,6 +58132,10 @@
     }
   ],
   "phishing": [
+    {
+      "id": "en:phishing-technology:noun",
+      "field": "word"
+    },
     {
       "id": "en:phishing:noun",
       "field": "word"
@@ -61117,8 +61353,18 @@
   ],
   "prompt": [
     {
+      "id": "en:ai-prompt:noun",
+      "field": "word"
+    },
+    {
       "id": "en:prompt:adjective",
       "field": "word"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "en:ai-prompt:noun",
+      "field": "plural_form"
     }
   ],
   "pronounce": [
@@ -63728,6 +63974,12 @@
   "reductio": [
     {
       "id": "en:reductio:noun",
+      "field": "word"
+    }
+  ],
+  "reductio ad absurdum": [
+    {
+      "id": "en:reductio-ad-absurdum:noun",
       "field": "word"
     }
   ],
@@ -71534,6 +71786,10 @@
     }
   ],
   "solipsism": [
+    {
+      "id": "en:solipsism-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:solipsism:noun",
       "field": "word"
@@ -82307,6 +82563,10 @@
   ],
   "two-factor authentication": [
     {
+      "id": "en:two-factor-authentication-technology:noun",
+      "field": "word"
+    },
+    {
       "id": "en:two-factor-authentication:noun",
       "field": "word"
     }
@@ -83732,6 +83992,10 @@
     }
   ],
   "utilitarianism": [
+    {
+      "id": "en:utilitarianism-philosophy:noun",
+      "field": "word"
+    },
     {
       "id": "en:utilitarianism:noun",
       "field": "word"
