@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/lesson.schema.json",
+  "title": "Lesson Entry",
+  "description": "JSON Schema (draft 2020-12) for COSYdata lesson entries",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "language",
+    "level"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}:lesson:[a-z0-9-]+$",
+      "description": "Identifier matching <lang>:lesson:<slug>"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the lesson"
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$",
+      "description": "2-letter language code, e.g. en"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "A0",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "description": "CEFR level"
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "grammar": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "topic_id",
+              "manual_url"
+            ],
+            "properties": {
+              "topic_id": {
+                "type": "string",
+                "pattern": "^[a-z]{2}:grammar:[a-z0-9-]+$",
+                "description": "Grammar topic identifier"
+              },
+              "manual_url": {
+                "type": "string",
+                "format": "uri",
+                "description": "URL pointing to the corresponding COSYmanuals grammar page"
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "Array of grammar topic link references"
+        },
+        "communication": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "phrase_id",
+              "manual_url"
+            ],
+            "properties": {
+              "phrase_id": {
+                "type": "string",
+                "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+:[a-z0-9-]+$",
+                "description": "Functional phrase entry identifier"
+              },
+              "manual_url": {
+                "type": "string",
+                "format": "uri",
+                "description": "URL pointing to the corresponding COSYmanuals communication topic page"
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "Array of communication functional phrase link references"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Links to manuals and learning resources"
+    }
+  }
+}
