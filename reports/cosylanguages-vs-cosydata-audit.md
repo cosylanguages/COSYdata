@@ -59,7 +59,7 @@ This report presents a language-by-language, level-by-level, and word-level comp
 
 ## Ecosystem Linking Architecture & Consumer Repositories
 
-All downstream applications across the COSYlanguages ecosystem (**COSYmanuals**, **COSYevents**, **COSYlanguages**, **COSYplatform**, **COSYgames**, **COSYworld**) consume canonical vocabulary from COSYdata via the following mechanisms:
+All downstream applications across the COSYlanguages ecosystem (**COSYmanuals**, **COSYlanguages**, **COSYplatform**, **COSYgames**) consume canonical vocabulary from COSYdata via the following mechanisms:
 
 1. **Static HTTP Serving**: Served over GitHub Pages at `https://cosylanguages.github.io/COSYdata/`.
 2. **Index Lookups**:

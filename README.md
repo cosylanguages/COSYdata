@@ -4,9 +4,12 @@ Welcome to **COSYdata**, the canonical static data repository for the COSYlangua
 
 ## Overview
 
-This repository serves as the **single source of truth** for vocabulary data consumed by other repositories across the COSYlanguages ecosystem (`COSYlanguages`, `COSYmanuals`, `COSYgames`, `COSYtools`).
+This repository serves as the **single source of truth** for vocabulary data consumed by other repositories across the COSYlanguages ecosystem (`COSYlanguages`, `COSYmanuals`, `COSYgames`, `COSYtools`, `COSYplatform`).
 
 There is no backend service or build step required for the data itself. All canonical vocabulary files are versioned JSON files served statically over HTTP via **GitHub Pages**.
+
+> **Note on COSYevents:**
+> Per ecosystem design, `COSYevents` is the only repository in the ecosystem that is **not** a COSYdata consumer. Instead, `COSYevents` generates vocabulary used in live learning sessions. Any useful words/phrases from `COSYevents` sessions flow **into** COSYdata via the automated ingestion path detailed below.
 
 > **GitHub Pages Configuration Note:**
 > To enable GitHub Pages for this repository, navigate to **Settings > Pages** in GitHub, set the source to deploy from the `main` branch root folder (`/`).
@@ -111,6 +114,61 @@ To regenerate `index.json` for all language folders, run:
 ```bash
 npm run build:index
 ```
+
+---
+
+## COSYevents Vocabulary Ingestion Path
+
+Vocabulary produced during `COSYevents` sessions is converted into canonical COSYdata entries through a documented ingestion script.
+
+### Input JSON Format
+Events session exports should be formatted as a JSON array of word objects (e.g., `intake/events-session.json`):
+
+```json
+[
+  {
+    "word": "resilient",
+    "language": "en",
+    "form": "adjective",
+    "level": "B2",
+    "theme": "personality",
+    "sub_theme": "personality_traits",
+    "context": "Used in session on overcoming personal challenges",
+    "transcription": "/rɪˈzɪl.jənt/",
+    "emoji": "💪",
+    "definitions": ["able to withstand or recover quickly from difficult conditions"],
+    "examples": ["She remained resilient despite facing many obstacles."],
+    "synonyms": ["tough", "adaptable"],
+    "antonyms": ["fragile", "vulnerable"]
+  }
+]
+```
+
+### Running the Import Script
+To process an input events JSON file, run:
+
+```bash
+npm run import:events -- <path-to-input-json>
+```
+
+Or directly:
+
+```bash
+node scripts/import-events-vocab.cjs <path-to-input-json>
+```
+
+### Ingestion Logic & Resolution Rules
+1. **Schema Validation & Completeness**: Candidate entries are validated against `schemas/vocabulary.schema.json`.
+2. **Level & Theme Resolution**:
+   - The script maps CEFR `level` (e.g. `A1`, `B2`, `C1`) to the appropriate subdirectory (`a0_a1`, `a2`, `b1`, `b2`, `c1`, `c2`).
+   - The `theme` is checked against valid canonical themes in `shared/themes.json` and existing theme files.
+3. **Manual Review Flagging**:
+   - If an entry's level or theme is missing, ambiguous, or unmapped, the script **does not guess silently**.
+   - If an entry fails schema validation (e.g., missing mandatory required fields like `transcription`, `emoji`/`no_emoji`, or `antonyms`/`no_antonym`), or if an ID conflict occurs, it is flagged for review.
+   - Unresolved items are written to `reports/events-import-needs-review.json` with detailed failure reasons.
+4. **Merging & Indexing**:
+   - Fully resolved entries are cleanly appended to the matching `vocabulary/<lang>/<level>/<theme>.json` file.
+   - All indices (`index.json`, `flat-index.json`, `search-index.json`) are automatically rebuilt upon successful import via `npm run build`.
 
 ---
 
