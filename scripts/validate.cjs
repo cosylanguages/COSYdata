@@ -100,6 +100,8 @@ function main() {
       !path.basename(f).endsWith('-tracks.json')
   );
   const indexFiles = allJsonFiles.filter((f) => path.basename(f) === 'index.json');
+  const flatIndexFiles = allJsonFiles.filter((f) => path.basename(f) === 'flat-index.json');
+  const searchIndexFiles = allJsonFiles.filter((f) => path.basename(f) === 'search-index.json');
 
   console.log(`Validating ${themeFiles.length} data file(s)...`);
 
@@ -151,17 +153,17 @@ function main() {
       for (const [idx, entry] of entries.entries()) {
         let entryValidate = validate;
         let entrySchemaType = schemaType;
-        if (entry && entry.id && entry.id.includes(':lesson:')) {
+        if (entry && entry.id && entry.id.includes(':lesson:') && relPath.startsWith('lessons/')) {
           entryValidate = validators.lesson;
           entrySchemaType = 'lesson';
         }
         const valid = entryValidate(entry);
         if (!valid) {
-          const blockingErrors = validate.errors.filter((err) => err.keyword !== 'if');
+          const blockingErrors = (entryValidate.errors || []).filter((err) => err.keyword !== 'if');
 
           if (blockingErrors.length > 0) {
             hasError = true;
-            console.error(`\n[SCHEMA ERROR] File: ${relPath} (${schemaType}, Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
+            console.error(`\n[SCHEMA ERROR] File: ${relPath} (${entrySchemaType}, Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
             for (const err of blockingErrors) {
               let fieldName = '/';
               if (err.keyword === 'required' && err.params && err.params.missingProperty) {
@@ -299,6 +301,72 @@ function main() {
     } catch (err) {
       hasError = true;
       console.error(`\n[JSON ERROR] Could not parse index file: ${relIndexPath}\n  ${err.message}`);
+    }
+  }
+
+  console.log(`Checking ${flatIndexFiles.length} flat-index.json file(s)...`);
+  for (const flatFile of flatIndexFiles) {
+    const relFlatPath = path.relative(rootDir, flatFile).replace(/\\/g, '/');
+    try {
+      const flatMap = JSON.parse(fs.readFileSync(flatFile, 'utf8'));
+      if (typeof flatMap !== 'object' || flatMap === null || Array.isArray(flatMap)) {
+        hasError = true;
+        console.error(`\n[FLAT-INDEX ERROR] File ${relFlatPath} must be a JSON object mapping surface forms to arrays of { id, field }.`);
+        continue;
+      }
+
+      for (const [surfaceForm, refs] of Object.entries(flatMap)) {
+        if (!Array.isArray(refs)) {
+          hasError = true;
+          console.error(`\n[FLAT-INDEX ERROR] File ${relFlatPath}: Entry for '${surfaceForm}' must be an array.`);
+          continue;
+        }
+
+        for (const ref of refs) {
+          if (!ref || typeof ref !== 'object' || !ref.id) {
+            hasError = true;
+            console.error(`\n[FLAT-INDEX ERROR] File ${relFlatPath}: Invalid reference item for '${surfaceForm}'.`);
+            continue;
+          }
+
+          if (Object.keys(idToFilesMap).length > 0 && !idToFilesMap[ref.id]) {
+            hasError = true;
+            console.error(`\n[FLAT-INDEX MISMATCH ERROR] File ${relFlatPath}: ID '${ref.id}' for surface form '${surfaceForm}' was not found in data files.`);
+          }
+        }
+      }
+    } catch (err) {
+      hasError = true;
+      console.error(`\n[JSON ERROR] Could not parse flat-index file: ${relFlatPath}\n  ${err.message}`);
+    }
+  }
+
+  console.log(`Checking ${searchIndexFiles.length} search-index.json file(s)...`);
+  for (const searchFile of searchIndexFiles) {
+    const relSearchPath = path.relative(rootDir, searchFile).replace(/\\/g, '/');
+    try {
+      const searchItems = JSON.parse(fs.readFileSync(searchFile, 'utf8'));
+      if (!Array.isArray(searchItems)) {
+        hasError = true;
+        console.error(`\n[SEARCH-INDEX ERROR] File ${relSearchPath} must be a JSON array of lightweight entries.`);
+        continue;
+      }
+
+      for (const item of searchItems) {
+        if (!item || typeof item !== 'object' || !item.id) {
+          hasError = true;
+          console.error(`\n[SEARCH-INDEX ERROR] File ${relSearchPath}: Entry missing 'id' property.`);
+          continue;
+        }
+
+        if (Object.keys(idToFilesMap).length > 0 && !idToFilesMap[item.id]) {
+          hasError = true;
+          console.error(`\n[SEARCH-INDEX MISMATCH ERROR] File ${relSearchPath}: ID '${item.id}' was not found in data files.`);
+        }
+      }
+    } catch (err) {
+      hasError = true;
+      console.error(`\n[JSON ERROR] Could not parse search-index file: ${relSearchPath}\n  ${err.message}`);
     }
   }
 

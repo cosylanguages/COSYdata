@@ -1448,56 +1448,6 @@
     "sub_theme": "greetings"
   },
   {
-    "id": "en:website:noun",
-    "word": "website",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A set of pages on the internet with information."
-    ],
-    "examples": [
-      "Visit our official website for details."
-    ],
-    "domain": "general, relocation, spoken, travel, professional, exam",
-    "theme": "technology",
-    "updated": "2025-01-15",
-    "plural_form": "websites",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈweb.saɪt/",
-    "emoji": "🌐",
-    "countability": "countable",
-    "no_antonym": true,
-    "sub_theme": "devices_hardware"
-  },
-  {
-    "id": "en:app:noun",
-    "word": "app",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "A program downloaded onto a mobile phone."
-    ],
-    "examples": [
-      "I downloaded a language learning app today."
-    ],
-    "domain": "general, relocation, spoken, travel, professional, exam",
-    "theme": "technology",
-    "updated": "2025-01-15",
-    "plural_form": "apps",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/æp/",
-    "emoji": "📱",
-    "countability": "countable",
-    "no_antonym": true,
-    "sub_theme": "devices_hardware"
-  },
-  {
     "id": "en:follow:verb",
     "word": "follow",
     "language": "en",
@@ -1523,6 +1473,9 @@
     "transcription_variants": {
       "us": "/ˈfɑː.loʊ/"
     },
-    "sub_theme": "greetings"
+    "sub_theme": "greetings",
+    "secondary_themes": [
+      "actions"
+    ]
   }
 ]
