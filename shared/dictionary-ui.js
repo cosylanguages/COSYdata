@@ -251,6 +251,25 @@ export async function initDictionaryUI(container, options = {}) {
   const favorites = getFavorites(lang);
   const wotdLightweight = getWordOfTheDay(entries);
 
+  // Ecosystem Strip Header Landmark
+  const stripEl = document.createElement('div');
+  stripEl.className = 'cosy-ecosystem-strip';
+  stripEl.setAttribute('role', 'navigation');
+  stripEl.setAttribute('aria-label', 'COSY Ecosystem Products');
+  stripEl.innerHTML = `
+    <div class="cosy-strip-inner">
+      <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
+      <ul class="cosy-strip-links">
+        <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages</a></li>
+        <li><a href="${baseUrl}index.html" class="cosy-strip-link active">COSYdata 📚</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+      </ul>
+    </div>
+  `;
+  targetEl.appendChild(stripEl);
+
   // Active UI Navigation State
   // mode: 'home' | 'letter' | 'category' | 'level' | 'domain' | 'favorites' | 'recent' | 'search'
   let activeState = {

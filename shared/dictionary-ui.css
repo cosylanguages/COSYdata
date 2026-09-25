@@ -7,58 +7,58 @@
  */
 
 :root {
-  --cosy-dict-bg: #f8fafc;
-  --cosy-dict-card-bg: #ffffff;
-  --cosy-dict-text: #0f172a;
-  --cosy-dict-text-muted: #475569;
-  --cosy-dict-border: #cbd5e1;
-  --cosy-dict-primary: #1e3a8a; /* Classic Oxford Navy */
-  --cosy-dict-primary-hover: #1e40af;
-  --cosy-dict-accent: #0284c7;
-  --cosy-dict-highlight: #fef08a;
-  --cosy-dict-badge-bg: #e2e8f0;
-  --cosy-dict-badge-text: #1e293b;
-  --cosy-dict-chip-bg: #e0f2fe;
-  --cosy-dict-chip-text: #0369a1;
-  --cosy-dict-chip-antonym-bg: #ffe4e6;
-  --cosy-dict-chip-antonym-text: #9f1239;
-  --cosy-dict-wotd-bg: #eff6ff;
-  --cosy-dict-wotd-border: #93c5fd;
-  --cosy-dict-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --cosy-dict-radius: 12px;
+  --cosy-dict-bg: var(--cosy-color-cream, #fdfcf8);
+  --cosy-dict-card-bg: var(--cosy-color-warm-white, #FFFEFB);
+  --cosy-dict-text: var(--cosy-color-ink, #2a2a2a);
+  --cosy-dict-text-muted: var(--cosy-color-ink-soft, #4a4a4a);
+  --cosy-dict-border: var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+  --cosy-dict-primary: var(--cosy-color-sage, #416b49);
+  --cosy-dict-primary-hover: var(--cosy-color-sage-dark, #375742);
+  --cosy-dict-accent: var(--cosy-color-sage, #416b49);
+  --cosy-dict-highlight: var(--cosy-color-honey-pale, #fff8e7);
+  --cosy-dict-badge-bg: var(--cosy-color-sage-light, #e8f0e9);
+  --cosy-dict-badge-text: var(--cosy-color-sage-dark, #375742);
+  --cosy-dict-chip-bg: var(--cosy-color-sage-light, #e8f0e9);
+  --cosy-dict-chip-text: var(--cosy-color-sage-deep, #233827);
+  --cosy-dict-chip-antonym-bg: var(--cosy-color-coral-light, #faeee8);
+  --cosy-dict-chip-antonym-text: var(--cosy-color-coral, #B84318);
+  --cosy-dict-wotd-bg: var(--cosy-color-sage-mist, #f0f5f1);
+  --cosy-dict-wotd-border: var(--cosy-color-border-hover, rgba(74, 107, 80, 0.25));
+  --cosy-dict-shadow: var(--cosy-shadow-base, 0 6px 28px rgba(46, 74, 51, 0.10));
+  --cosy-dict-radius: var(--cosy-radius-md, 14px);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --cosy-dict-bg: #0f172a;
-    --cosy-dict-card-bg: #1e293b;
-    --cosy-dict-text: #f8fafc;
-    --cosy-dict-text-muted: #cbd5e1;
-    --cosy-dict-border: #475569;
-    --cosy-dict-primary: #38bdf8;
-    --cosy-dict-primary-hover: #60a5fa;
-    --cosy-dict-accent: #38bdf8;
-    --cosy-dict-highlight: #854d0e;
-    --cosy-dict-badge-bg: #334155;
-    --cosy-dict-badge-text: #f1f5f9;
-    --cosy-dict-chip-bg: #1e3a8a;
-    --cosy-dict-chip-text: #e0f2fe;
-    --cosy-dict-chip-antonym-bg: #881337;
-    --cosy-dict-chip-antonym-text: #ffe4e6;
-    --cosy-dict-wotd-bg: #172554;
-    --cosy-dict-wotd-border: #2563eb;
-    --cosy-dict-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --cosy-dict-bg: var(--cosy-color-cream, #1a1f1a);
+    --cosy-dict-card-bg: var(--cosy-color-warm-white, #222b22);
+    --cosy-dict-text: var(--cosy-color-ink, #e8f0e9);
+    --cosy-dict-text-muted: var(--cosy-color-ink-soft, #c8d8c9);
+    --cosy-dict-border: var(--cosy-color-border, rgba(107, 143, 113, 0.20));
+    --cosy-dict-primary: var(--cosy-color-sage, #5a7a5f);
+    --cosy-dict-primary-hover: var(--cosy-color-sage-dark, #8a9e8b);
+    --cosy-dict-accent: var(--cosy-color-sage, #5a7a5f);
+    --cosy-dict-badge-bg: var(--cosy-color-sage-pale, #222c23);
+    --cosy-dict-badge-text: var(--cosy-color-sage-dark, #8a9e8b);
+    --cosy-dict-chip-bg: var(--cosy-color-sage-pale, #222c23);
+    --cosy-dict-chip-text: var(--cosy-color-sage-deep, #e8f0e9);
+    --cosy-dict-chip-antonym-bg: var(--cosy-color-coral-light, #2d1a15);
+    --cosy-dict-chip-antonym-text: var(--cosy-color-coral, #B84318);
+    --cosy-dict-wotd-bg: var(--cosy-color-sage-mist, #1f2720);
+    --cosy-dict-wotd-border: var(--cosy-color-border-hover, rgba(107, 143, 113, 0.35));
+    --cosy-dict-shadow: var(--cosy-shadow-base, 0 6px 28px rgba(0, 0, 0, 0.3));
   }
 }
 
 /* Global High-Contrast Focus Indicator for Accessibility */
 .cosy-dict-container *:focus-visible {
-  outline: 3px solid var(--cosy-dict-accent) !important;
+  outline: 3px solid var(--cosy-semantic-focus, #416b49) !important;
   outline-offset: 2px !important;
+  box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
 }
 
 .cosy-dict-container {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--cosy-font-sans, 'Nunito', 'DM Sans', sans-serif);
   color: var(--cosy-dict-text);
   background-color: var(--cosy-dict-bg);
   max-width: 1040px;
@@ -256,7 +256,7 @@
 }
 
 .cosy-dict-wotd-word {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--cosy-font-serif, 'Fraunces', 'Lora', Georgia, serif);
   font-size: 22px;
   font-weight: 700;
   color: var(--cosy-dict-text);
@@ -551,7 +551,7 @@
 }
 
 .cosy-dict-headword {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--cosy-font-serif, 'Fraunces', 'Lora', Georgia, serif);
   font-size: 22px;
   font-weight: 700;
   margin: 0;
