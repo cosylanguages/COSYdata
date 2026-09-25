@@ -4,27 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>COSYdata — Vocabulary Hub</title>
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
   <style>
     body {
       margin: 0;
       padding: 0;
-      background-color: var(--cosy-dict-bg);
-      color: var(--cosy-dict-text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--cosy-color-cream, #fdfcf8);
+      color: var(--cosy-color-ink, #2a2a2a);
+      font-family: var(--cosy-font-sans, 'Nunito', 'DM Sans', sans-serif);
     }
     .hub-header {
-      background-color: var(--cosy-dict-card-bg);
-      border-bottom: 1px solid var(--cosy-dict-border);
+      background-color: var(--cosy-color-warm-white, #FFFEFB);
+      border-bottom: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
       padding: 40px 20px;
       text-align: center;
-      box-shadow: var(--cosy-dict-shadow);
+      box-shadow: var(--cosy-shadow-base, 0 6px 28px rgba(46, 74, 51, 0.10));
     }
     .hub-title {
-      font-family: Georgia, 'Times New Roman', serif;
+      font-family: var(--cosy-font-serif, 'Fraunces', 'Lora', Georgia, serif);
       font-size: 36px;
       margin: 0 0 12px 0;
-      color: var(--cosy-dict-primary);
+      color: var(--cosy-color-sage, #416b49);
     }
     .hub-tagline {
       font-size: 18px;
@@ -112,6 +113,19 @@
   </style>
 </head>
 <body>
+  <div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
+    <div class="cosy-strip-inner">
+      <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
+      <ul class="cosy-strip-links">
+        <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages</a></li>
+        <li><a href="./index.html" class="cosy-strip-link active">COSYdata 📚</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+      </ul>
+    </div>
+  </div>
+
   <header class="hub-header">
     <h1 class="hub-title">COSYdata Vocabulary Hub</h1>
     <p class="hub-tagline">
