@@ -624,73 +624,6 @@
     "sub_theme": "general"
   },
   {
-    "id": "en:early:adjective",
-    "word": "early",
-    "language": "en",
-    "form": "adjective",
-    "level": "A1",
-    "definitions": [
-      "happening before the usual time"
-    ],
-    "examples": [
-      "Wake up early in the morning."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2026-09-22",
-    "tags": [
-      "spoken"
-    ],
-    "levels": [
-      "A1",
-      "B2"
-    ],
-    "transcription": "/ˈɜː.li/",
-    "emoji": "🌅",
-    "antonyms": [
-      "late"
-    ],
-    "transcription_variants": {
-      "us": "/ˈɝː.li/"
-    },
-    "comparative": "earlier",
-    "superlative": "earliest",
-    "sub_theme": "days_months_seasons",
-    "secondary_themes": [
-      "descriptors"
-    ]
-  },
-  {
-    "id": "en:late:adjective",
-    "word": "late",
-    "language": "en",
-    "form": "adjective",
-    "level": "A1",
-    "definitions": [
-      "happening after the usual time"
-    ],
-    "examples": [
-      "Do not arrive late class."
-    ],
-    "domain": "general, relocation, spoken, travel",
-    "theme": "time",
-    "updated": "2026-09-22",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/leɪt/",
-    "emoji": "🌇",
-    "antonyms": [
-      "early"
-    ],
-    "comparative": "later",
-    "superlative": "latest",
-    "sub_theme": "days_months_seasons",
-    "secondary_themes": [
-      "descriptors"
-    ]
-  },
-  {
     "id": "en:date:verb",
     "word": "date",
     "language": "en",
@@ -1775,7 +1708,10 @@
       "weekend"
     ],
     "article": "a",
-    "sub_theme": "days_months_seasons"
+    "sub_theme": "days_months_seasons",
+    "secondary_themes": [
+      "activities"
+    ]
   },
   {
     "id": "en:always:noun",

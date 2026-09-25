@@ -151,13 +151,15 @@ function main() {
       for (const [idx, entry] of entries.entries()) {
         let entryValidate = validate;
         let entrySchemaType = schemaType;
-        if (entry && entry.id && entry.id.includes(':lesson:')) {
+        const KNOWN_POS_FORMS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase', 'number', 'determiner']);
+        const idParts = entry && entry.id ? entry.id.split(':') : [];
+        if (idParts.length === 3 && idParts[1] === 'lesson' && !KNOWN_POS_FORMS.has(idParts[2])) {
           entryValidate = validators.lesson;
           entrySchemaType = 'lesson';
         }
         const valid = entryValidate(entry);
         if (!valid) {
-          const blockingErrors = validate.errors.filter((err) => err.keyword !== 'if');
+          const blockingErrors = (entryValidate.errors || []).filter((err) => err.keyword !== 'if');
 
           if (blockingErrors.length > 0) {
             hasError = true;

@@ -687,531 +687,719 @@
         ]
       },
       "then": {
-        "not": {
-          "properties": {
-            "theme": {
-              "type": "string"
-            },
-            "secondary_themes": {
-              "type": "array"
-            }
-          },
-          "allOf": [
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "actions"
-                  }
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "actions"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "actions"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "activities"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "activities"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "activities"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "animals"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "animals"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "animals"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "clothing"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "clothing"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "clothing"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "colors"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "colors"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "colors"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "communication"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "communication"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "communication"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "descriptors"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "descriptors"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "descriptors"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "education"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "education"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "education"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "emotions"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "emotions"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "emotions"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "family"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "family"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "family"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "food"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "food"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "food"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "general"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "general"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "general"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "geography"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "geography"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "geography"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "grammar"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "grammar"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "grammar"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "health"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "health"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "health"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "housing"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "housing"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "housing"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "leisure"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "leisure"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "leisure"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "measurement"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "measurement"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "measurement"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "nature"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "nature"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "nature"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "navigation"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "navigation"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "navigation"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "numbers"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "numbers"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "numbers"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "objects"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "objects"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "objects"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "shapes"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "shapes"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "shapes"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "shopping"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "shopping"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "shopping"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "technology"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "philosophy"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
+                    "contains": {
+                      "const": "philosophy"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "technology"
+                }
+              },
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "technology"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "time"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "time"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "time"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "travel"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "travel"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "travel"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "weather"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "weather"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "weather"
                     }
                   }
                 }
               }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "work"
-                  }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "work"
                 }
               },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
                     "contains": {
                       "const": "work"
                     }
@@ -1219,8 +1407,128 @@
                 }
               }
             }
-          ]
-        }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "idioms"
+                }
+              },
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
+                    "contains": {
+                      "const": "idioms"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "phrasal_verbs"
+                }
+              },
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
+                    "contains": {
+                      "const": "phrasal_verbs"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "expressions"
+                }
+              },
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
+                    "contains": {
+                      "const": "expressions"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "collocations"
+                }
+              },
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
+                    "contains": {
+                      "const": "collocations"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "theme": {
+                  "const": "linking_words"
+                }
+              },
+              "required": [
+                "theme"
+              ]
+            },
+            "then": {
+              "properties": {
+                "secondary_themes": {
+                  "type": "array",
+                  "not": {
+                    "contains": {
+                      "const": "linking_words"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
       }
     },
     {
