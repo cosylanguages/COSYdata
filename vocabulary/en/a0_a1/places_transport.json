@@ -482,10 +482,7 @@
     "emoji": "🏫",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general",
-    "secondary_themes": [
-      "places_transport"
-    ]
+    "sub_theme": "general"
   },
   {
     "id": "en:college:noun",
@@ -1664,7 +1661,7 @@
       "Walk two blocks down this street to find the station."
     ],
     "domain": "general, relocation",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/blɒks/",
     "transcription_variants": {
@@ -1689,7 +1686,7 @@
       "Take line 4 on the tram to reach the downtown station."
     ],
     "domain": "general, relocation, travel, exam",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/træm/",
     "transcription_variants": {
@@ -1715,7 +1712,7 @@
       "Can you tell me the best way to get to the subway station?"
     ],
     "domain": "general, relocation",
-    "theme": "places_transport",
+    "theme": "travel",
     "updated": "2025-01-15",
     "transcription": "/weɪ/",
     "transcription_variants": {
@@ -1926,7 +1923,10 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "secondary_themes": [
+      "work"
+    ]
   },
   {
     "id": "en:passport:noun",
@@ -2013,6 +2013,9 @@
     ],
     "regional_equivalents": [
       "en:chemist:noun"
+    ],
+    "secondary_themes": [
+      "health"
     ]
   },
   {
@@ -2157,92 +2160,5 @@
     ],
     "updated": "2026-09-22",
     "no_antonym": true
-  },
-  {
-    "id": "en:far:noun",
-    "word": "far",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a great distance away in space"
-    ],
-    "examples": [
-      "They traveled to a far town."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "travel",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/fɑː/",
-    "emoji": "🗺️",
-    "antonyms": [
-      "near"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/fɑːr/"
-    },
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:there:noun",
-    "word": "there",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "that place away from speaker"
-    ],
-    "examples": [
-      "Look at that shop over there."
-    ],
-    "domain": "general, spoken, travel, exam",
-    "theme": "travel",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ðeə/",
-    "emoji": "👉",
-    "antonyms": [
-      "here"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/ðer/"
-    },
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:near:noun",
-    "word": "near",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "a position short distance away"
-    ],
-    "examples": [
-      "The park is in the near area."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "travel",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/nɪə/",
-    "emoji": "📍",
-    "antonyms": [
-      "far"
-    ],
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/nɪr/"
-    },
-    "sub_theme": "general"
   }
 ]

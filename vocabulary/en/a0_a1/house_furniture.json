@@ -1740,7 +1740,7 @@
       "Deep cleaning is required before returning apartment keys."
     ],
     "domain": "general, relocation",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/ˈkliː.nɪŋ/",
     "transcription_variants": {
@@ -1764,7 +1764,7 @@
       "The apartment kitchen has a new gas cooker."
     ],
     "domain": "general, relocation, exam",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/ˈkʊk.ə/",
     "transcription_variants": {
@@ -1794,7 +1794,7 @@
       "Turn off the kitchen faucet tightly to save water."
     ],
     "domain": "general, relocation",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/ˈfɔː.sɪt/",
     "transcription_variants": {
@@ -1820,7 +1820,7 @@
       "Test the smoke detector and fire alarm every month."
     ],
     "domain": "general, relocation",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/ˈfaɪə əˌlɑːm/",
     "transcription_variants": {
@@ -1846,7 +1846,7 @@
       "Store the frozen meat inside the kitchen freezer."
     ],
     "domain": "general, relocation, exam",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/ˈfriː.zə/",
     "transcription_variants": {
@@ -1872,7 +1872,7 @@
       "Moving to a foreign city requires careful preparation."
     ],
     "domain": "general, relocation",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/ˈmuː.vɪŋ/",
     "transcription_variants": {
@@ -1900,7 +1900,7 @@
       "They placed a soft wool rug in the living room."
     ],
     "domain": "general, relocation, exam",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/rʌɡ/",
     "transcription_variants": {
@@ -1926,7 +1926,7 @@
       "Please take a seat in the waiting area until called."
     ],
     "domain": "general, relocation, travel, exam",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/siːt/",
     "transcription_variants": {
@@ -1956,7 +1956,7 @@
       "Turn off the bathroom tap after washing your hands."
     ],
     "domain": "general, relocation, exam",
-    "theme": "house_furniture",
+    "theme": "housing",
     "updated": "2025-01-15",
     "transcription": "/tæp/",
     "transcription_variants": {
@@ -2023,7 +2023,10 @@
     "no_antonym": true,
     "domain": "general",
     "theme": "housing",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "secondary_themes": [
+      "nature"
+    ]
   },
   {
     "id": "en:bathtub:noun",
@@ -2049,103 +2052,5 @@
     "domain": "general",
     "theme": "housing",
     "sub_theme": "furniture"
-  },
-  {
-    "id": "en:clean:noun",
-    "word": "clean",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the state of being free dirt"
-    ],
-    "examples": [
-      "Keep your house clean always."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/kliːn/",
-    "antonyms": [
-      "dirty"
-    ],
-    "emoji": "✨",
-    "countability": "uncountable",
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:rooms:noun",
-    "word": "rooms",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "divided spaces inside a building"
-    ],
-    "examples": [
-      "The house has five rooms."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "plural_form": "rooms",
-    "countability": "countable",
-    "transcription": "/ruːmz/",
-    "no_antonym": true,
-    "emoji": "🚪"
-  },
-  {
-    "id": "en:dirty:noun",
-    "word": "dirty",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "the state of being covered dirt"
-    ],
-    "examples": [
-      "Wash the dirty plates now."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈdɜː.ti/",
-    "antonyms": [
-      "clean"
-    ],
-    "emoji": "🧹",
-    "countability": "uncountable",
-    "transcription_variants": {
-      "us": "/ˈdɝː.t̬i/"
-    },
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:tidy:noun",
-    "word": "tidy",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "having everything neat in place"
-    ],
-    "examples": [
-      "Keep your bedroom tidy daily."
-    ],
-    "domain": "general, relocation",
-    "theme": "housing",
-    "updated": "2025-01-15",
-    "transcription": "/ˈtaɪ.di/",
-    "emoji": "✨",
-    "antonyms": [
-      "messy"
-    ],
-    "countability": "uncountable"
   }
 ]

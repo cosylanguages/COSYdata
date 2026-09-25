@@ -97,6 +97,18 @@ async function fetchJson(url) {
   }
 }
 
+function handleFailure(message, options, error = null) {
+  const err = error || new Error(message);
+  console.warn(`[COSYdata] ${message}`);
+  if (options && typeof options.onError === 'function') {
+    options.onError(err);
+  }
+  if (options && options.fallback !== undefined) {
+    return options.fallback;
+  }
+  return null;
+}
+
 /**
  * Resolves a vocabulary reference into a vocabulary entry object.
  *
@@ -109,17 +121,17 @@ async function fetchJson(url) {
  * @param {Object} [options]
  * @param {string} [options.baseUrl] - Base URL for COSYdata repo
  * @param {number} [options.ttlMs] - Cache TTL in milliseconds
- * @returns {Promise<Object|null>} Vocabulary entry object or null if not found
+ * @param {any} [options.fallback] - Optional fallback return value when entry cannot be resolved
+ * @param {Function} [options.onError] - Optional error handler callback
+ * @returns {Promise<Object|null>} Vocabulary entry object, fallback value, or null
  */
 export async function resolveVocab(ref, options = {}, _visited = new Set()) {
   if (!ref || typeof ref !== 'string') {
-    console.warn(`[COSYdata] Invalid ref passed to resolveVocab: ${ref}`);
-    return null;
+    return handleFailure(`Invalid ref passed to resolveVocab: ${ref}`, options);
   }
 
   if (_visited.has(ref)) {
-    console.warn(`[COSYdata] Circular alias cycle detected for ref '${ref}'.`);
-    return null;
+    return handleFailure(`Circular alias cycle detected for ref '${ref}'.`, options);
   }
   _visited.add(ref);
 
@@ -128,8 +140,7 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
 
   const parts = ref.split(':');
   if (parts.length < 2) {
-    console.warn(`[COSYdata] Malformed ref '${ref}'. Expected 'lang:word' or 'lang:theme:word' or 'lang:word:form'.`);
-    return null;
+    return handleFailure(`Malformed ref '${ref}'. Expected 'lang:word' or 'lang:theme:word' or 'lang:word:form'.`, options);
   }
 
   const lang = parts[0];
@@ -137,13 +148,18 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
   let wordSlug = null;
   let targetForm = null;
 
-  const KNOWN_FORMS = new Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase', 'number']);
+  const KNOWN_FORMS = new Set([
+    'noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition',
+    'postposition', 'conjunction', 'interjection', 'phrase', 'number',
+    'determiner', 'article', 'particle', 'phrasal_verb', 'idiom',
+    'expression', 'prefix', 'suffix'
+  ]);
 
   if (parts.length >= 3) {
     const lastPart = parts[parts.length - 1];
     if (KNOWN_FORMS.has(lastPart.toLowerCase())) {
       // Format: lang:word-slug:form
-      wordSlug = parts[1];
+      wordSlug = parts.slice(1, parts.length - 1).join(':');
       targetForm = lastPart;
     } else {
       // Format: lang:theme:word-slug
@@ -168,8 +184,7 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
     }
 
     if (!indexData) {
-      console.warn(`[COSYdata] Unable to load index.json for language '${lang}'.`);
-      return null;
+      return handleFailure(`Unable to load index.json for language '${lang}'.`, options);
     }
 
     // Match wordSlug / exact ref / canonical ID in index.json
@@ -178,8 +193,11 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
     if (!targetFile) {
       for (const [idKey, filename] of Object.entries(indexData)) {
         const keyParts = idKey.split(':');
-        const slugInKey = keyParts.length >= 2 ? keyParts[1] : idKey;
-        const formInKey = keyParts.length >= 3 ? keyParts[2] : null;
+        const hasFormInKey = keyParts.length >= 3 && KNOWN_FORMS.has(keyParts[keyParts.length - 1].toLowerCase());
+        const slugInKey = keyParts.length >= 2
+          ? keyParts.slice(1, hasFormInKey ? keyParts.length - 1 : keyParts.length).join(':')
+          : idKey;
+        const formInKey = hasFormInKey ? keyParts[keyParts.length - 1] : null;
 
         if (
           idKey === ref ||
@@ -210,8 +228,7 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
         return await resolveVocab(targetAliasId, options, _visited);
       }
 
-      console.warn(`[COSYdata] Word reference '${ref}' not found in index for language '${lang}'.`);
-      return null;
+      return handleFailure(`Word reference '${ref}' not found in index for language '${lang}'.`, options);
     }
 
     theme = targetFile.replace(/\.json$/, '');
@@ -229,8 +246,7 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
   }
 
   if (!themeData) {
-    console.warn(`[COSYdata] Unable to load theme file '${theme}.json' for language '${lang}'.`);
-    return null;
+    return handleFailure(`Unable to load theme file '${theme}.json' for language '${lang}'.`, options);
   }
 
   const entries = Array.isArray(themeData)
@@ -244,8 +260,11 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
   for (const entry of entries) {
     if (!entry || !entry.id) continue;
     const keyParts = entry.id.split(':');
-    const slugInId = keyParts.length >= 2 ? keyParts[1] : entry.word;
-    const formInId = keyParts.length >= 3 ? keyParts[2] : entry.form;
+    const hasFormInId = keyParts.length >= 3 && KNOWN_FORMS.has(keyParts[keyParts.length - 1].toLowerCase());
+    const slugInId = keyParts.length >= 2
+      ? keyParts.slice(1, hasFormInId ? keyParts.length - 1 : keyParts.length).join(':')
+      : entry.word;
+    const formInId = hasFormInId ? keyParts[keyParts.length - 1] : entry.form;
 
     if (
       entry.id === ref ||
@@ -274,7 +293,41 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
     return await resolveVocab(targetAliasId, options, _visited);
   }
 
-  console.warn(`[COSYdata] Word reference '${ref}' not found in theme '${theme}' for language '${lang}'.`);
+  return handleFailure(`Word reference '${ref}' not found in theme '${theme}' for language '${lang}'.`, options);
+}
+
+/**
+ * Extracts field value from a vocabulary entry.
+ * Supports array indexing (e.g. definitions[0], synonyms[1]), aliases (definition, example), and joined arrays.
+ *
+ * @param {Object} entry - Vocabulary entry object
+ * @param {string} field - Field specification string
+ * @returns {any} Field value or null if not found
+ */
+export function extractVocabField(entry, field = 'word') {
+  if (!entry || typeof entry !== 'object') return null;
+
+  if (field === 'definition') field = 'definitions[0]';
+  if (field === 'example') field = 'examples[0]';
+
+  const arrayIndexMatch = field.match(/^([a-zA-Z0-9_]+)\[(\d+)\]$/);
+  if (arrayIndexMatch) {
+    const prop = arrayIndexMatch[1];
+    const index = parseInt(arrayIndexMatch[2], 10);
+    if (Array.isArray(entry[prop]) && index < entry[prop].length) {
+      return entry[prop][index];
+    }
+    return null;
+  }
+
+  if (field in entry) {
+    const val = entry[field];
+    if (Array.isArray(val)) {
+      return val.join(', ');
+    }
+    return val;
+  }
+
   return null;
 }
 
@@ -282,7 +335,9 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
  * Hydrates DOM elements with data-vocab attributes under a root element.
  *
  * @param {Element|Document} [root=document] - Root container element
- * @param {Object} [options] - Options passed to resolveVocab
+ * @param {Object} [options] - Options passed to resolveVocab and fallback settings
+ * @param {any} [options.fallback] - Fallback text or function (ref, field) => string
+ * @param {Function} [options.onError] - Error handler callback (ref, field, error) => void
  */
 export async function hydrateVocabElements(root = typeof document !== 'undefined' ? document : null, options = {}) {
   if (!root || typeof root.querySelectorAll !== 'function') {
@@ -299,23 +354,40 @@ export async function hydrateVocabElements(root = typeof document !== 'undefined
 
     try {
       const entry = await resolveVocab(ref, options);
-      if (!entry) continue;
-
       let value = null;
 
-      if (field === 'definitions[0]' || field === 'definition') {
-        value = Array.isArray(entry.definitions) && entry.definitions.length > 0 ? entry.definitions[0] : null;
-      } else if (field === 'examples[0]' || field === 'example') {
-        value = Array.isArray(entry.examples) && entry.examples.length > 0 ? entry.examples[0] : null;
-      } else if (field in entry) {
-        value = entry[field];
+      if (entry) {
+        value = extractVocabField(entry, field);
       }
 
       if (value !== null && value !== undefined) {
         el.textContent = String(value);
+      } else {
+        let fallbackVal = typeof el.getAttribute === 'function' ? el.getAttribute('data-vocab-fallback') : null;
+        if (fallbackVal === null && options.fallback !== undefined) {
+          fallbackVal = typeof options.fallback === 'function' ? options.fallback(ref, field) : options.fallback;
+        }
+
+        if (fallbackVal !== null && fallbackVal !== undefined) {
+          el.textContent = String(fallbackVal);
+        }
+
+        if (!entry && typeof options.onError === 'function') {
+          options.onError(ref, field, new Error(`Failed to resolve ref '${ref}'`));
+        }
       }
     } catch (err) {
       console.warn(`[COSYdata] Failed to hydrate element for ref '${ref}': ${err.message}`);
+      let fallbackVal = typeof el.getAttribute === 'function' ? el.getAttribute('data-vocab-fallback') : null;
+      if (fallbackVal === null && options.fallback !== undefined) {
+        fallbackVal = typeof options.fallback === 'function' ? options.fallback(ref, field) : options.fallback;
+      }
+      if (fallbackVal !== null && fallbackVal !== undefined) {
+        el.textContent = String(fallbackVal);
+      }
+      if (typeof options.onError === 'function') {
+        options.onError(ref, field, err);
+      }
     }
   }
 }
