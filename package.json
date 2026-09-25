@@ -9,6 +9,7 @@
     "build:index": "node scripts/build-index.cjs",
     "build:flat-index": "node scripts/build-flat-index.js",
     "build:search-index": "node scripts/build-search-index.js",
+    "import:events": "node scripts/import-events-vocab.cjs",
     "validate": "node scripts/validate.cjs"
   },
   "devDependencies": {
