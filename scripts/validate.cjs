@@ -38,6 +38,7 @@ function main() {
     vocab: 'vocabulary.schema.json',
     phrase: 'functional-phrase.schema.json',
     curriculum: 'curriculum-competency.schema.json',
+    lesson: 'lesson.schema.json',
   };
 
   const validators = {};
@@ -120,6 +121,14 @@ function main() {
     } else if (relPath.startsWith('curriculum/')) {
       validate = validators.curriculum;
       schemaType = 'curriculum competency';
+    } else if (relPath.startsWith('schemas/examples/')) {
+      if (relPath.includes('valid-lesson')) {
+        validate = validators.lesson;
+        schemaType = 'lesson';
+      } else {
+        validate = validators.vocab;
+        schemaType = 'vocabulary example';
+      }
     } else {
       console.warn(`[WARNING] Skipping ${relPath}: unknown directory context for schema selection.`);
       continue;
@@ -140,7 +149,13 @@ function main() {
       }
 
       for (const [idx, entry] of entries.entries()) {
-        const valid = validate(entry);
+        let entryValidate = validate;
+        let entrySchemaType = schemaType;
+        if (entry && entry.id && entry.id.includes(':lesson:')) {
+          entryValidate = validators.lesson;
+          entrySchemaType = 'lesson';
+        }
+        const valid = entryValidate(entry);
         if (!valid) {
           const blockingErrors = validate.errors.filter((err) => err.keyword !== 'if');
 

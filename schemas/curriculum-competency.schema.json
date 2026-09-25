@@ -17,8 +17,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^en:[a-z0-9-]+:competency:[a-z0-9-]+$",
-      "description": "Identifier matching en:relocation:competency:<slug>"
+      "pattern": "^[a-z]{2}:[a-z0-9-]+:competency:[a-z0-9-]+$",
+      "description": "Identifier matching <lang>:<domain>:competency:<slug>"
     },
     "objective": {
       "type": "string",
@@ -83,7 +83,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "^en:[a-z0-9-]+:[a-z0-9-]+:[a-z0-9-]+$"
+        "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+:[a-z0-9-]+$"
       },
       "description": "Array of functional phrase entry IDs"
     }
