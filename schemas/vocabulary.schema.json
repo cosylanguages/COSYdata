@@ -223,6 +223,13 @@
       },
       "description": "Array of ID references into another COSY repo's data, e.g. COSYtools:fr-conjugeur:aimer"
     },
+    "related_content": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of referenced gated lesson or manual section IDs, e.g. COSYplatform:lesson:english-b2:relaxation-and-hygge"
+    },
     "grammar_refs": {
       "type": "array",
       "items": {
