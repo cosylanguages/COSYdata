@@ -150,6 +150,14 @@
       "type": "string",
       "description": "Short sentence of usage guidance in English"
     },
+    "literal_translation": {
+      "type": "string",
+      "description": "Word-for-word literal translation of the idiomatic expression"
+    },
+    "meaning": {
+      "type": "string",
+      "description": "Paraphrased meaning or figurative explanation of the idiomatic expression"
+    },
     "stress": {
       "type": "string",
       "description": "Headword with combining acute accent U+0301 on stressed vowel"
