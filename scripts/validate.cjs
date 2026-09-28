@@ -57,6 +57,7 @@ function main() {
     if (!fs.existsSync(dir)) return fileList;
     const files = fs.readdirSync(dir);
     for (const file of files) {
+      if (file.startsWith('_')) continue;
       const filePath = path.join(dir, file);
       const stat = fs.statSync(filePath);
       if (stat.isDirectory()) {
