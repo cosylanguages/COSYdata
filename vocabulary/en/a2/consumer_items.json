@@ -37,7 +37,9 @@
       "A promise that something will be done or repaired."
     ],
     "examples": [
-      "We give a money-back guarantee on all goods."
+      "We give a money-back guarantee on all goods.",
+      "The appliance comes with a two-year guarantee.",
+      "There is no guarantee of success."
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "shopping",
@@ -50,7 +52,11 @@
     "emoji": "🛡️",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "synonyms": [
+      "warranty",
+      "pledge"
+    ]
   },
   {
     "id": "en:invoice:noun",
@@ -301,7 +307,9 @@
       "An object used to hold or store things."
     ],
     "examples": [
-      "Store the leftover soup in a plastic container."
+      "Store the leftover soup in a plastic container.",
+      "Store leftover food in a sealed container.",
+      "Cargo containers arrived at the port."
     ],
     "domain": "general, professional",
     "theme": "shopping",
@@ -314,7 +322,11 @@
     "transcription_variants": {
       "us": "/kənˈteɪ.nɚ/"
     },
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "synonyms": [
+      "box",
+      "holder"
+    ]
   },
   {
     "id": "en:manufacturer:noun",
@@ -492,7 +504,9 @@
       "A cylindrical glass container with a wide mouth."
     ],
     "examples": [
-      "She opened a glass jar of strawberry jam."
+      "She opened a glass jar of strawberry jam.",
+      "Store strawberry jam in a glass jar.",
+      "She filled a cookie jar with biscuits."
     ],
     "domain": "general, relocation, exam",
     "theme": "shopping",
@@ -796,7 +810,9 @@
       "to work or control a machine or system"
     ],
     "examples": [
-      "Do you know how to operate this coffee machine?"
+      "Do you know how to operate this coffee machine?",
+      "Do you know how to operate this machine?",
+      "The company operates in three countries."
     ],
     "domain": "general, relocation",
     "theme": "objects",
@@ -810,7 +826,11 @@
     },
     "emoji": "⚙️",
     "no_antonym": true,
-    "sub_theme": "personal_items"
+    "sub_theme": "personal_items",
+    "synonyms": [
+      "run",
+      "work"
+    ]
   },
   {
     "id": "en:replacement:noun",
@@ -876,7 +896,9 @@
       "a fault or error in a computer program or system"
     ],
     "examples": [
-      "The software update fixed a bug in the online banking application."
+      "The software update fixed a bug in the online banking application.",
+      "A tiny bug crawled up the leaf.",
+      "Developers fixed a bug in the code."
     ],
     "domain": "general, relocation, professional",
     "theme": "technology",
@@ -890,7 +912,11 @@
     "article": "a",
     "plural_form": "bugs",
     "no_antonym": true,
-    "sub_theme": "devices_hardware"
+    "sub_theme": "devices_hardware",
+    "synonyms": [
+      "insect",
+      "error"
+    ]
   },
   {
     "id": "en:repair-shop:noun",
@@ -1115,7 +1141,9 @@
       "a person employed to receive guests and manage bookings"
     ],
     "examples": [
-      "The receptionist checked our passports and issued room keys."
+      "The receptionist checked our passports and issued room keys.",
+      "The hotel receptionist handed us room keys.",
+      "Speak to the office receptionist."
     ],
     "domain": "general, travel",
     "theme": "objects",
