@@ -954,7 +954,9 @@
       "to write using a keyboard"
     ],
     "examples": [
-      "Type a letter on computer."
+      "Type a letter on computer.",
+      "Type your full name in the box.",
+      "He types very fast on a laptop."
     ],
     "domain": "spoken, relocation, exam",
     "theme": "actions",
@@ -2515,7 +2517,9 @@
       "to keep going without stopping"
     ],
     "examples": [
-      "Continue reading page six now."
+      "Continue reading page six now.",
+      "The rain continued all day.",
+      "Please continue reading."
     ],
     "domain": "spoken, relocation",
     "theme": "actions",
@@ -2538,7 +2542,11 @@
     "past_participle": "continued",
     "present_participle": "continuing",
     "is_irregular": false,
-    "sub_theme": "physical_movement"
+    "sub_theme": "physical_movement",
+    "synonyms": [
+      "go on",
+      "keep doing"
+    ]
   },
   {
     "id": "en:hide:verb",
@@ -2550,7 +2558,8 @@
       "to put something out of sight"
     ],
     "examples": [
-      "Cats hide under the bed when scared."
+      "Cats hide under the bed when scared.",
+      "He is hiding behind the door."
     ],
     "domain": "spoken",
     "theme": "actions",
@@ -2735,7 +2744,9 @@
       "to give your word to do"
     ],
     "examples": [
-      "Promise to help me tomorrow."
+      "Promise to help me tomorrow.",
+      "Promise to call when you arrive.",
+      "She promised to help us tomorrow."
     ],
     "domain": "spoken, relocation, exam",
     "theme": "actions",
@@ -2770,7 +2781,8 @@
       "to form word with letters"
     ],
     "examples": [
-      "Spell your name out loud."
+      "Spell your name out loud.",
+      "How do you spell your name?"
     ],
     "domain": "spoken, exam",
     "theme": "actions",
@@ -2780,7 +2792,6 @@
     ],
     "updated": "2025-01-15",
     "transcription": "/spel/",
-    "no_antonym": true,
     "emoji": "🔤",
     "past_tense": "spelled",
     "past_participle": "spelled",
@@ -2789,6 +2800,12 @@
     "sub_theme": "general",
     "related_forms": [
       "COSYtools:en-irregular-verbs:spell"
+    ],
+    "synonyms": [
+      "lettering"
+    ],
+    "antonyms": [
+      "misspell"
     ]
   },
   {
@@ -2801,7 +2818,8 @@
       "to say what someone is like"
     ],
     "examples": [
-      "Describe your house to class."
+      "Describe your house to class.",
+      "Can you describe your house?"
     ],
     "domain": "relocation, spoken, travel, exam",
     "theme": "actions",
@@ -2811,13 +2829,15 @@
     ],
     "updated": "2025-01-15",
     "transcription": "/dɪˈskraɪb/",
-    "no_antonym": true,
     "emoji": "💬",
     "past_tense": "described",
     "past_participle": "described",
     "present_participle": "describing",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "antonyms": [
+      "summarize"
+    ]
   },
   {
     "id": "en:print:verb",
@@ -2829,7 +2849,9 @@
       "to produce text on paper"
     ],
     "examples": [
-      "Print the document on paper."
+      "Print the document on paper.",
+      "Print two copies of the contract.",
+      "He printed his boarding pass."
     ],
     "domain": "spoken, relocation",
     "theme": "actions",
@@ -2896,7 +2918,9 @@
       "to press button on mouse"
     ],
     "examples": [
-      "Click the link on screen."
+      "Click the link on screen.",
+      "Click on the link to open the page.",
+      "Double-click the file icon."
     ],
     "domain": "spoken, exam",
     "theme": "actions",
@@ -3042,7 +3066,8 @@
       "to lift or move to a higher position"
     ],
     "examples": [
-      "Raise your hand to ask a question."
+      "Raise your hand to ask a question.",
+      "The campaign raised awareness of workplace mental health."
     ],
     "domain": "general, spoken",
     "theme": "actions",

@@ -433,7 +433,9 @@
       "Liked or enjoyed by many people."
     ],
     "examples": [
-      "This park is very popular on summer weekends."
+      "This park is very popular on summer weekends.",
+      "This restaurant is very popular.",
+      "The new café near the office is very popular."
     ],
     "domain": "general, spoken, travel, professional, exam",
     "theme": "travel",
@@ -449,7 +451,11 @@
     "transcription_variants": {
       "us": "/ˈpɑː.pjə.lɚ/"
     },
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "famous",
+      "liked"
+    ]
   },
   {
     "id": "en:remote:adjective",
@@ -461,7 +467,8 @@
       "Far away from main towns and hard to reach."
     ],
     "examples": [
-      "They stayed in a remote mountain cabin."
+      "They stayed in a remote mountain cabin.",
+      "They live in a remote village in the mountains."
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
@@ -482,7 +489,10 @@
     "transcription_variants": {
       "us": "/rɪˈmoʊt/"
     },
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "distant"
+    ]
   },
   {
     "id": "en:isolated:adjective",
@@ -522,7 +532,8 @@
       "Located in or near the middle of a place."
     ],
     "examples": [
-      "The hotel has a convenient central location."
+      "The hotel has a convenient central location.",
+      "The hotel is in a central location."
     ],
     "domain": "general, spoken",
     "theme": "travel",
@@ -536,7 +547,11 @@
       "remote",
       "distant"
     ],
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "middle",
+      "main"
+    ]
   },
   {
     "id": "en:old-fashioned:adjective",
@@ -606,7 +621,8 @@
       "Connected with factories and manufacturing."
     ],
     "examples": [
-      "Many workers commute to the industrial area."
+      "Many workers commute to the industrial area.",
+      "The town is in an industrial area."
     ],
     "domain": "spoken",
     "theme": "travel",
@@ -620,7 +636,10 @@
     "antonyms": [
       "residential"
     ],
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "industry-related"
+    ]
   },
   {
     "id": "en:residential:adjective",
@@ -661,7 +680,9 @@
       "Having plenty of room or space."
     ],
     "examples": [
-      "Their new living room is very spacious."
+      "Their new living room is very spacious.",
+      "The hotel room was bright and spacious.",
+      "We rented a spacious villa near the sea."
     ],
     "domain": "spoken, travel",
     "theme": "travel",
@@ -676,7 +697,11 @@
       "cramped",
       "small"
     ],
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "roomy",
+      "large"
+    ]
   },
   {
     "id": "en:cozy:adjective",
@@ -688,7 +713,9 @@
       "Warm, comfortable, and pleasant inside."
     ],
     "examples": [
-      "We spent a cozy evening by the fireplace."
+      "We spent a cozy evening by the fireplace.",
+      "They spent a cozy evening by the fireplace.",
+      "The cafe has a small cozy corner."
     ],
     "domain": "spoken",
     "theme": "travel",
@@ -705,7 +732,11 @@
     "transcription_variants": {
       "us": "/ˈkoʊ.zi/"
     },
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "warm",
+      "comfortable"
+    ]
   },
   {
     "id": "en:well-known:adjective",
@@ -747,7 +778,9 @@
       "A narrow passageway between buildings."
     ],
     "examples": [
-      "They walked down a quiet cobblestone alley."
+      "They walked down a quiet cobblestone alley.",
+      "Walk down the cobbled alley.",
+      "The quiet alley led to a hidden courtyard."
     ],
     "domain": "general, travel",
     "theme": "travel",
@@ -884,7 +917,9 @@
       "An area or division of a country or the world."
     ],
     "examples": [
-      "This mountain region receives heavy snowfall in winter."
+      "This mountain region receives heavy snowfall in winter.",
+      "This region is famous for its wine.",
+      "The northern region of the country is very cold."
     ],
     "domain": "general, travel, exam",
     "theme": "travel",
@@ -894,7 +929,11 @@
     "countability": "countable",
     "plural_form": "regions",
     "no_antonym": true,
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "synonyms": [
+      "area",
+      "district"
+    ]
   },
   {
     "id": "en:town-hall:noun",
@@ -1297,7 +1336,9 @@
       "a crew member on an aircraft attending to passenger safety and needs"
     ],
     "examples": [
-      "The flight attendant served refreshments during the long journey."
+      "The flight attendant served refreshments during the long journey.",
+      "The flight attendant served drinks.",
+      "Listen to flight attendant safety instructions."
     ],
     "domain": "general, travel",
     "theme": "travel",
@@ -1448,7 +1489,9 @@
       "a large airport or station building for passenger arrivals and departures"
     ],
     "examples": [
-      "Our international flight leaves from Terminal 2."
+      "Our international flight leaves from Terminal 2.",
+      "Check in at departure terminal two.",
+      "The bus terminal was busy."
     ],
     "domain": "general, travel",
     "theme": "travel",
@@ -2327,7 +2370,8 @@
       "Following long-established customs or styles."
     ],
     "examples": [
-      "They live in a traditional wooden cottage."
+      "They live in a traditional wooden cottage.",
+      "The company has a traditional management structure."
     ],
     "domain": "general, spoken, travel, exam",
     "theme": "travel",
@@ -2343,6 +2387,613 @@
     "sub_theme": "vehicles_transportation",
     "secondary_themes": [
       "descriptors"
+    ],
+    "synonyms": [
+      "old"
+    ]
+  },
+  {
+    "id": "en:back:adjective",
+    "word": "back",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "Situated at or toward the rear of something."
+    ],
+    "examples": [
+      "Sit in the back seat of the car.",
+      "Use the back door to enter."
+    ],
+    "transcription": "/bæk/",
+    "emoji": "🔙",
+    "no_antonym": true,
+    "synonyms": [
+      "rear",
+      "hind"
+    ]
+  },
+  {
+    "id": "en:bound:adjective",
+    "word": "bound",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "Heading toward a specified place."
+    ],
+    "examples": [
+      "This train is northbound to Edinburgh.",
+      "We are bound for the coast tomorrow."
+    ],
+    "transcription": "/baʊnd/",
+    "emoji": "🚆",
+    "no_antonym": true,
+    "synonyms": [
+      "headed",
+      "destined"
+    ]
+  },
+  {
+    "id": "en:kingdom:noun",
+    "word": "kingdom",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A country, state, or territory ruled by a king or queen."
+    ],
+    "examples": [
+      "The United Kingdom consists of four countries.",
+      "Tales tell of an ancient fantasy kingdom."
+    ],
+    "transcription": "/ˈkɪŋdəm/",
+    "emoji": "👑",
+    "no_antonym": true,
+    "synonyms": [
+      "realm",
+      "empire"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "kingdoms"
+  },
+  {
+    "id": "en:camp:noun",
+    "word": "camp",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A place where tents or temporary shelters are set up."
+    ],
+    "examples": [
+      "We set up camp near the riverbank.",
+      "Children enjoy summer camp activities."
+    ],
+    "transcription": "/kæmp/",
+    "emoji": "🏕️",
+    "no_antonym": true,
+    "synonyms": [
+      "tent site"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "camps"
+  },
+  {
+    "id": "en:crossroads:noun",
+    "word": "crossroads",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A place where two roads meet and cross each other."
+    ],
+    "examples": [
+      "Turn right at the crossroads.",
+      "There was an accident at the crossroads."
+    ],
+    "transcription": "/ˈkrɒsroʊdz/",
+    "emoji": "✖️",
+    "no_antonym": true,
+    "synonyms": [
+      "intersection",
+      "crossing"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "crossroadss"
+  },
+  {
+    "id": "en:driving-license:noun",
+    "word": "driving license",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "An official document that shows you are qualified to drive a vehicle."
+    ],
+    "examples": [
+      "You must carry your driving license while driving.",
+      "He passed his test and got his driving license."
+    ],
+    "transcription": "/ˈdraɪvɪŋ ˈlaɪsns/",
+    "emoji": "🪪",
+    "no_antonym": true,
+    "synonyms": [
+      "driver's permit",
+      "ID"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "driving licenses"
+  },
+  {
+    "id": "en:junction:noun",
+    "word": "junction",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A place where two or more roads or railroads join."
+    ],
+    "examples": [
+      "Turn left at the next junction.",
+      "The accident happened at a busy road junction."
+    ],
+    "transcription": "/ˈdʒʌŋkʃn/",
+    "emoji": "🛣️",
+    "no_antonym": true,
+    "synonyms": [
+      "intersection",
+      "road crossing"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "junctions"
+  },
+  {
+    "id": "en:roundabout:noun",
+    "word": "roundabout",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A place where three or more roads join and traffic must go around a central island."
+    ],
+    "examples": [
+      "Take the second exit at the roundabout.",
+      "There is a lot of traffic at the roundabout."
+    ],
+    "transcription": "/ˈraʊndəbaʊt/",
+    "emoji": "🔄",
+    "no_antonym": true,
+    "synonyms": [
+      "traffic circle",
+      "intersection"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "roundabouts"
+  },
+  {
+    "id": "en:traffic-jam:noun",
+    "word": "traffic jam",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A large number of vehicles close together and unable to move or moving very slowly."
+    ],
+    "examples": [
+      "I was late because of a traffic jam.",
+      "We were stuck in a traffic jam for an hour."
+    ],
+    "transcription": "/ˈtræfɪk dʒæm/",
+    "emoji": "🚗🚙🚕",
+    "no_antonym": true,
+    "synonyms": [
+      "heavy traffic",
+      "congestion"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "traffic jams"
+  },
+  {
+    "id": "en:traffic-lights:noun",
+    "word": "traffic lights",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A set of red, yellow, and green lights that control the flow of traffic."
+    ],
+    "examples": [
+      "Stop when the traffic lights are red.",
+      "Turn right at the traffic lights."
+    ],
+    "transcription": "/ˈtræfɪk laɪts/",
+    "emoji": "🚦",
+    "no_antonym": true,
+    "synonyms": [
+      "stop lights",
+      "signal"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "traffic lightss"
+  },
+  {
+    "id": "en:voyage:noun",
+    "word": "voyage",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A long journey involving travel by sea or space."
+    ],
+    "examples": [
+      "The ship set sail on a transatlantic voyage.",
+      "The voyage across the ocean took two weeks."
+    ],
+    "transcription": "/ˈvɔɪɪdʒ/",
+    "emoji": "🚢",
+    "no_antonym": true,
+    "synonyms": [
+      "sea trip",
+      "cruise"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "voyages"
+  },
+  {
+    "id": "en:traffic:noun",
+    "word": "traffic",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "The cars, trucks, and other vehicles using a road."
+    ],
+    "examples": [
+      "The traffic is very heavy this morning."
+    ],
+    "transcription": "/ˈtræfɪk/",
+    "emoji": "🚗",
+    "no_antonym": true,
+    "synonyms": [
+      "cars",
+      "vehicles"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "traffics"
+  },
+  {
+    "id": "en:vehicle:noun",
+    "word": "vehicle",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "A machine with wheels used for transporting people or goods."
+    ],
+    "examples": [
+      "Emergency vehicles arrived quickly.",
+      "Park your vehicle in the designated space."
+    ],
+    "transcription": "/ˈviːəkl/",
+    "emoji": "🚘",
+    "no_antonym": true,
+    "synonyms": [
+      "car",
+      "transit"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "vehicles"
+  },
+  {
+    "id": "en:abroad:adverb",
+    "word": "abroad",
+    "language": "en",
+    "form": "adverb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "In or to another country."
+    ],
+    "examples": [
+      "They go abroad every summer."
+    ],
+    "transcription": "/əˈbrɔːd/",
+    "emoji": "✈️",
+    "no_antonym": true,
+    "synonyms": [
+      "overseas"
+    ]
+  },
+  {
+    "id": "en:check-in:verb",
+    "word": "check in",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To report your arrival at an airport or hotel."
+    ],
+    "examples": [
+      "You need to check in two hours before the flight.",
+      "We checked in at the hotel at 3 pm."
+    ],
+    "transcription": "/tʃɛk ɪn/",
+    "emoji": "🏢",
+    "no_antonym": true,
+    "synonyms": [
+      "register arrival"
+    ],
+    "is_irregular": true,
+    "past_tense": "checked in",
+    "past_participle": "checked in"
+  },
+  {
+    "id": "en:check-out:verb",
+    "word": "check out",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To leave a hotel after paying the bill."
+    ],
+    "examples": [
+      "We need to check out before 11 am.",
+      "They checked out of the hotel this morning."
+    ],
+    "transcription": "/tʃɛk aʊt/",
+    "emoji": "🚪",
+    "no_antonym": true,
+    "synonyms": [
+      "register departure"
+    ],
+    "is_irregular": true,
+    "past_tense": "checked out",
+    "past_participle": "checked out"
+  },
+  {
+    "id": "en:overtake:verb",
+    "word": "overtake",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To come from behind another vehicle and go past it."
+    ],
+    "examples": [
+      "It's dangerous to overtake on a corner.",
+      "He overtook the slow truck."
+    ],
+    "transcription": "/ˌoʊvərˈteɪk/",
+    "emoji": "🏎️",
+    "no_antonym": true,
+    "synonyms": [
+      "pass"
+    ],
+    "is_irregular": true,
+    "past_tense": "overtook",
+    "past_participle": "overtaken"
+  },
+  {
+    "id": "en:reach:verb",
+    "word": "reach",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To arrive at a place or a level."
+    ],
+    "examples": [
+      "We reached the hotel late at night."
+    ],
+    "transcription": "/riːtʃ/",
+    "emoji": "🏁",
+    "no_antonym": true,
+    "synonyms": [
+      "arrive at"
+    ]
+  },
+  {
+    "id": "en:reserve:verb",
+    "word": "reserve",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To keep something for a particular person or purpose."
+    ],
+    "examples": [
+      "I'd like to reserve a table for two.",
+      "The seats are reserved for elderly passengers."
+    ],
+    "transcription": "/rɪˈzɜːrv/",
+    "emoji": "🛎️",
+    "no_antonym": true,
+    "synonyms": [
+      "book"
+    ],
+    "is_irregular": true,
+    "past_tense": "reserved",
+    "past_participle": "reserved"
+  },
+  {
+    "id": "en:navigate:verb",
+    "word": "navigate",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To plan and direct the course of a vehicle or journey."
+    ],
+    "examples": [
+      "Use GPS to navigate through city streets.",
+      "She navigated the boat into the harbor."
+    ],
+    "transcription": "/ˈnævɪɡeɪt/",
+    "emoji": "🗺️",
+    "no_antonym": true,
+    "synonyms": [
+      "guide",
+      "steer"
+    ]
+  },
+  {
+    "id": "en:accompany:verb",
+    "word": "accompany",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To go somewhere with someone as a companion."
+    ],
+    "examples": [
+      "Her brother accompanied her to the airport.",
+      "Children must be accompanied by an adult."
+    ],
+    "transcription": "/əˈkʌmpəni/",
+    "emoji": "👫",
+    "no_antonym": true,
+    "synonyms": [
+      "escort",
+      "join"
+    ]
+  },
+  {
+    "id": "en:approach:verb",
+    "word": "approach",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To come near or nearer to someone or something in distance or time."
+    ],
+    "examples": [
+      "The train approached the station slowly.",
+      "Summer is approaching quickly."
+    ],
+    "transcription": "/əˈprəʊtʃ/",
+    "emoji": "🚶",
+    "no_antonym": true,
+    "synonyms": [
+      "near",
+      "advance"
+    ]
+  },
+  {
+    "id": "en:cancel:verb",
+    "word": "cancel",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To decide that something planned will not happen."
+    ],
+    "examples": [
+      "She had to cancel her flight due to illness."
+    ],
+    "transcription": "/ˈkænsəl/",
+    "emoji": "❌",
+    "antonyms": [
+      "book"
+    ],
+    "is_irregular": true,
+    "past_tense": "cancelled",
+    "past_participle": "cancelled"
+  },
+  {
+    "id": "en:miss:verb",
+    "word": "miss",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To fail to catch a transport connection; or to feel sad about absence."
+    ],
+    "examples": [
+      "He missed his train and had to wait an hour."
+    ],
+    "transcription": "/mɪs/",
+    "emoji": "🏃‍♂️",
+    "antonyms": [
+      "attend"
+    ]
+  },
+  {
+    "id": "en:board:verb",
+    "word": "board",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To get on a ship, aircraft, train, or bus."
+    ],
+    "examples": [
+      "Passengers board the aircraft twenty minutes before flight.",
+      "We boarded the ferry at sunrise."
+    ],
+    "transcription": "/bɔːd/",
+    "emoji": "🎫",
+    "no_antonym": true,
+    "synonyms": [
+      "get on",
+      "embark"
+    ]
+  },
+  {
+    "id": "en:block:verb",
+    "word": "block",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "theme": "travel",
+    "definitions": [
+      "To make transmission or movement impossible."
+    ],
+    "examples": [
+      "Fallen trees blocked the main highway.",
+      "A big truck blocked the driveway."
+    ],
+    "transcription": "/blɒk/",
+    "emoji": "🚧",
+    "no_antonym": true,
+    "synonyms": [
+      "obstruct",
+      "stop"
     ]
   }
 ]

@@ -66,7 +66,9 @@
       "The smaller part or number of a group."
     ],
     "examples": [
-      "Only a small minority voted against the plan."
+      "Only a small minority voted against the plan.",
+      "Only a minority arrived late.",
+      "Ethnic minorities enrich culture."
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "measurement",
@@ -101,7 +103,8 @@
       "The larger part or number of a group."
     ],
     "examples": [
-      "The majority of students passed the test."
+      "The majority of students passed the test.",
+      "A vast majority voted yes."
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "measurement",
@@ -280,7 +283,9 @@
       "The amount of space between two places."
     ],
     "examples": [
-      "The distance from home to work is short."
+      "The distance from home to work is short.",
+      "The distance between the two cities is 100 miles.",
+      "He walked the distance in two hours."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "measurement",
@@ -297,7 +302,11 @@
     "emoji": "📏",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "gap",
+      "length"
+    ]
   },
   {
     "id": "en:few:noun",
@@ -458,7 +467,9 @@
       "Two people or a small number of things."
     ],
     "examples": [
-      "We spent a couple of days in London."
+      "We spent a couple of days in London.",
+      "They are a very happy couple.",
+      "The young couple just bought a house."
     ],
     "domain": "general, spoken, travel, exam",
     "theme": "measurement",
@@ -471,7 +482,10 @@
     "emoji": "👫",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "pair of people"
+    ]
   },
   {
     "id": "en:average:noun",
@@ -483,7 +497,9 @@
       "An amount calculated by adding quantities together."
     ],
     "examples": [
-      "The average temperature in July is high."
+      "The average temperature in July is high.",
+      "His score was well above the class average.",
+      "On average, train journeys take two hours."
     ],
     "domain": "general, spoken, travel, professional, exam",
     "theme": "measurement",
@@ -503,7 +519,11 @@
     "transcription_variants": {
       "us": "/ˈæv.ɚ.ɪdʒ/"
     },
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "mean",
+      "norm"
+    ]
   },
   {
     "id": "en:percentage:noun",
@@ -515,7 +535,9 @@
       "A rate or amount per hundred."
     ],
     "examples": [
-      "A large percentage of people voted."
+      "A large percentage of people voted.",
+      "What percentage of students passed the test?",
+      "The percentage of sales rose by ten percent."
     ],
     "domain": "general, travel, professional, exam",
     "theme": "measurement",
@@ -532,7 +554,11 @@
     "transcription_variants": {
       "us": "/pɚˈsen.t̬ɪdʒ/"
     },
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "rate",
+      "proportion"
+    ]
   },
   {
     "id": "en:fraction:noun",
@@ -544,7 +570,9 @@
       "A small part or portion of something."
     ],
     "examples": [
-      "Only a fraction of work is done."
+      "Only a fraction of work is done.",
+      "Half and one quarter are fractions.",
+      "A small fraction of respondents disagreed."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -554,7 +582,11 @@
     "emoji": "🍕",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "part",
+      "portion"
+    ]
   },
   {
     "id": "en:triple:noun",
@@ -618,7 +650,9 @@
       "The measurement of someone from head to foot."
     ],
     "examples": [
-      "His height is one hundred eighty centimeters."
+      "His height is one hundred eighty centimeters.",
+      "Measure your child's height against the wall.",
+      "The mountain reaches a height of 3000 meters."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "measurement",
@@ -631,7 +665,11 @@
     "emoji": "📏",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "stature",
+      "altitude"
+    ]
   },
   {
     "id": "en:length:noun",
@@ -643,7 +681,9 @@
       "The measurement of something from end to end."
     ],
     "examples": [
-      "Measure the length of the wooden table."
+      "Measure the length of the wooden table.",
+      "Measure the exact length of the dining table.",
+      "The pool has a length of twenty-five meters."
     ],
     "domain": "general, relocation, travel, exam",
     "theme": "measurement",
@@ -655,7 +695,11 @@
     "antonyms": [
       "width"
     ],
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "extent",
+      "distance"
+    ]
   },
   {
     "id": "en:width:noun",
@@ -1351,7 +1395,9 @@
       "Either of two equal parts into which something is divided."
     ],
     "examples": [
-      "She cut the apple into two equal halves."
+      "She cut the apple into two equal halves.",
+      "Cut the apple in half.",
+      "She ate half of the sandwich."
     ],
     "domain": "general",
     "theme": "measurement",
@@ -1364,6 +1410,9 @@
     "transcription_variants": {
       "us": "/hæf/"
     },
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "dimensions_weight",
+    "synonyms": [
+      "divided by two"
+    ]
   }
 ]
