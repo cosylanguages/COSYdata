@@ -251,6 +251,8 @@ export async function initDictionaryUI(container, options = {}) {
   const favorites = getFavorites(lang);
   const wotdLightweight = getWordOfTheDay(entries);
 
+  targetEl.innerHTML = '';
+
   // Ecosystem Strip Header Landmark
   const stripEl = document.createElement('div');
   stripEl.className = 'cosy-ecosystem-strip';
@@ -284,8 +286,6 @@ export async function initDictionaryUI(container, options = {}) {
   const resolvedFullEntries = new Map();
 
   // Render Main Shell
-  targetEl.innerHTML = '';
-
   // Header Landmark
   const headerEl = document.createElement('header');
   headerEl.className = 'cosy-dict-header';

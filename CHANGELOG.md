@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Added synonym paraphrases to 12 English B1 idioms and updated their dates, using Cambridge Dictionary definitions for `piece of cake`, `break a leg`, `so far so good`, `time flies`, `easy come, easy go`, `better late than never`, `make up your mind`, `keep in touch`, `step by step`, `day in, day out`, `all in all`, and `safe and sound`.
+- Added Cambridge-grounded synonym paraphrases to 12 more English B1 idioms: `first come, first served`, `give it a try`, `cross your fingers`, `never mind`, `no problem`, `long time no see`, `make yourself at home`, `take it easy`, `as good as new`, `take your time`, `sooner or later`, and `over and over`.
+- Added Cambridge-grounded synonym paraphrases to nine further English B1 idioms: `here and there`, `right now`, `good luck`, `by the way`, `in fact`, `at last`, `on time`, `in time`, and `for ever`.
+- Added Cambridge-grounded synonym paraphrases to nine more English B1 idioms: `from time to time`, `again and again`, `little by little`, `side by side`, `hand in hand`, `face to face`, `out of order`, `at home`, and `at work`.
+- Added Cambridge-grounded synonym paraphrases to seven English B1 expressions: `in a hurry`, `in trouble`, `on foot`, `on holiday`, `on sale`, `on the phone`, and `out of town`; `in love` and `on TV` remain under review because the checked pages did not confirm the target senses.
+- Added Cambridge-grounded synonym paraphrases to five more English B1 expressions: `up to date`, `as soon as possible`, `all the best`, `take a break`, and `have fun`; `take a seat` and `take care` remain under review because the checked senses did not match these entries.
+- Added Cambridge-grounded synonyms to four English B1 idioms: `have a look`, `make a decision`, `make a mistake`, and `make friends`; `a big deal` remains under review because the checked page did not confirm the target sense.
+- Added Cambridge-grounded synonyms to five more English B1 idioms: `keep quiet`, `get lost`, `get married`, `get up`, and `go home`.
+- Added Cambridge-grounded synonym paraphrases to five more English B1 idioms: `have a good time`, `all day long`, `on TV`, `take a seat`, and `a big deal`.
+- Added Cambridge-grounded synonyms to four English B1 idioms: `go to sleep`, `come in`, `call back`, and `turn on`.
+- Added Cambridge-grounded synonym paraphrases to three English B1 phrasal idioms: `turn off`, `look for`, and `listen to`.
+- Added a Cambridge-grounded paraphrase to the English B1 phrasal idiom `wait for`.
+- Migrated English CEFR level metadata from COSYlanguages into 696 existing COSYdata entries across 146 files by merging source levels into `levels`; no vocabulary entries were added or removed, and 11 ambiguous headword/form matches were skipped.
+- Migrated CEFR level metadata from COSYlanguages into 211 existing non-English COSYdata entries across 77 files; no vocabulary entries were added or removed, and ambiguous or unmatched forms were skipped.
+- Aligned the existing Italian entry `it:all-estero:phrase` to English concept `en:abroad:adverb` from the matching A2 COSYlanguages record; no new entry was added.
 - Cleaned up English A0/A1 vocabulary entries across Tasks EN-10 to EN-14: removed workaround twin entries, corrected part-of-speech form labels, merged single-word phrase duplicates and separate plural entries, updated copy-paste definitions and shared example sentences, created missing regional counterpart entries with reciprocal links, re-assigned theme and sub_theme fields for accurate taxonomy mapping, and updated shared/id-aliases.json and indices.
 - Corrected `domain` field values across 15 spoken idioms/expressions in `vocabulary/en/` according to Section 2 of `/reports/theme-domain-regional-audit.md` (updated from `domain: "general"` to `domain: "general, spoken"`):
   - `b1/`: 2 entries in `idioms.json`.

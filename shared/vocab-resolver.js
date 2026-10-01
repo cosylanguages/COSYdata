@@ -171,68 +171,70 @@ export async function resolveVocab(ref, options = {}, _visited = new Set()) {
     wordSlug = parts[1];
   }
 
-  if (!theme) {
-    const indexCacheKey = `${lang}:index`;
-    let indexData = getCache(indexCacheKey);
+  const indexCacheKey = `${lang}:index`;
+  let indexData = getCache(indexCacheKey);
 
-    if (!indexData) {
-      const indexUrl = `${baseUrl}vocabulary/${lang}/index.json`;
-      indexData = await fetchJson(indexUrl);
-      if (indexData) {
-        setCache(indexCacheKey, indexData, ttlMs);
-      }
+  if (!indexData) {
+    const indexUrl = `${baseUrl}vocabulary/${lang}/index.json`;
+    indexData = await fetchJson(indexUrl);
+    if (indexData) {
+      setCache(indexCacheKey, indexData, ttlMs);
     }
+  }
 
-    if (!indexData) {
-      return handleFailure(`Unable to load index.json for language '${lang}'.`, options);
-    }
+  if (!indexData) {
+    return handleFailure(`Unable to load index.json for language '${lang}'.`, options);
+  }
 
-    // Match wordSlug / exact ref / canonical ID in index.json
-    let targetFile = indexData[ref];
+  // Match the reference against IDs and indexed theme file paths.
+  let targetFile = indexData[ref];
 
-    if (!targetFile) {
-      for (const [idKey, filename] of Object.entries(indexData)) {
-        const keyParts = idKey.split(':');
-        const hasFormInKey = keyParts.length >= 3 && KNOWN_FORMS.has(keyParts[keyParts.length - 1].toLowerCase());
-        const slugInKey = keyParts.length >= 2
-          ? keyParts.slice(1, hasFormInKey ? keyParts.length - 1 : keyParts.length).join(':')
-          : idKey;
-        const formInKey = hasFormInKey ? keyParts[keyParts.length - 1] : null;
+  if (!targetFile) {
+    for (const [idKey, filename] of Object.entries(indexData)) {
+      const keyParts = idKey.split(':');
+      const hasFormInKey = keyParts.length >= 3 && KNOWN_FORMS.has(keyParts[keyParts.length - 1].toLowerCase());
+      const slugInKey = keyParts.length >= 2
+        ? keyParts.slice(1, hasFormInKey ? keyParts.length - 1 : keyParts.length).join(':')
+        : idKey;
+      const formInKey = hasFormInKey ? keyParts[keyParts.length - 1] : null;
+      const themeInFilename = filename.split('/').pop().replace(/\.json$/, '');
 
-        if (
+      if (
+        (!theme || themeInFilename === theme) &&
+        (
           idKey === ref ||
           idKey === wordSlug ||
           slugInKey === wordSlug ||
           (targetForm && slugInKey === wordSlug && formInKey === targetForm)
-        ) {
-          targetFile = filename;
-          break;
-        }
+        )
+      ) {
+        targetFile = filename;
+        break;
       }
     }
-
-    if (!targetFile) {
-      // Fallback: check shared/id-aliases.json for retired IDs
-      const aliasCacheKey = 'shared:id-aliases';
-      let aliasData = getCache(aliasCacheKey);
-      if (!aliasData) {
-        const aliasUrl = `${baseUrl}shared/id-aliases.json`;
-        aliasData = await fetchJson(aliasUrl);
-        if (aliasData) {
-          setCache(aliasCacheKey, aliasData, ttlMs);
-        }
-      }
-
-      if (aliasData && aliasData[ref]) {
-        const targetAliasId = aliasData[ref];
-        return await resolveVocab(targetAliasId, options, _visited);
-      }
-
-      return handleFailure(`Word reference '${ref}' not found in index for language '${lang}'.`, options);
-    }
-
-    theme = targetFile.replace(/\.json$/, '');
   }
+
+  if (!targetFile) {
+    // Fallback: check shared/id-aliases.json for retired IDs
+    const aliasCacheKey = 'shared:id-aliases';
+    let aliasData = getCache(aliasCacheKey);
+    if (!aliasData) {
+      const aliasUrl = `${baseUrl}shared/id-aliases.json`;
+      aliasData = await fetchJson(aliasUrl);
+      if (aliasData) {
+        setCache(aliasCacheKey, aliasData, ttlMs);
+      }
+    }
+
+    if (aliasData && aliasData[ref]) {
+      const targetAliasId = aliasData[ref];
+      return await resolveVocab(targetAliasId, options, _visited);
+    }
+
+    return handleFailure(`Word reference '${ref}' not found in index for language '${lang}'.`, options);
+  }
+
+  theme = targetFile.replace(/\.json$/, '');
 
   const themeCacheKey = `${lang}:${theme}`;
   let themeData = getCache(themeCacheKey);

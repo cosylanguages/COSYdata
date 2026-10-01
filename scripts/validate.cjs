@@ -54,7 +54,10 @@ function main() {
   }
 
   function findFiles(dir, fileList = []) {
-    if (!fs.existsSync(dir)) return fileList;
+    if (
+      !fs.existsSync(dir) ||
+      path.resolve(dir) === path.join(rootDir, 'vocabulary', '_canonical')
+    ) return fileList;
     const files = fs.readdirSync(dir);
     for (const file of files) {
       const filePath = path.join(dir, file);
@@ -249,6 +252,8 @@ function main() {
 
   console.log(`Checking ${indexFiles.length} index.json file(s)...`);
 
+  const indexTargetIdsCache = new Map();
+
   for (const indexFile of indexFiles) {
     const relIndexPath = path.relative(rootDir, indexFile).replace(/\\/g, '/');
     const langDir = path.dirname(indexFile);
@@ -273,20 +278,26 @@ function main() {
         }
 
         try {
-          const targetContent = JSON.parse(fs.readFileSync(targetPath, 'utf8'));
-          let exists = false;
+          let targetIds = indexTargetIdsCache.get(targetPath);
+          if (!indexTargetIdsCache.has(targetPath)) {
+            const targetContent = JSON.parse(fs.readFileSync(targetPath, 'utf8'));
+            targetIds = new Set();
 
-          if (Array.isArray(targetContent)) {
-            exists = targetContent.some((entry) => entry && entry.id === wordId);
-          } else if (typeof targetContent === 'object' && targetContent !== null) {
-            if (targetContent[wordId]) {
-              exists = true;
-            } else if (targetContent.id === wordId) {
-              exists = true;
-            } else {
-              exists = Object.values(targetContent).some((entry) => entry && typeof entry === 'object' && entry.id === wordId);
+            if (Array.isArray(targetContent)) {
+              for (const entry of targetContent) {
+                if (entry && entry.id) targetIds.add(entry.id);
+              }
+            } else if (typeof targetContent === 'object' && targetContent !== null) {
+              if (targetContent.id) targetIds.add(targetContent.id);
+              for (const [key, value] of Object.entries(targetContent)) {
+                if (key !== 'id' && value) targetIds.add(key);
+                if (value && typeof value === 'object' && value.id) targetIds.add(value.id);
+              }
             }
+
+            indexTargetIdsCache.set(targetPath, targetIds);
           }
+          const exists = targetIds.has(wordId);
 
           if (!exists) {
             hasError = true;
