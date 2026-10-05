@@ -129,7 +129,7 @@
     "form": "noun",
     "level": "A0",
     "definitions": [
-      "a living organism growing in soil"
+      "a living green thing growing in soil or water"
     ],
     "examples": [
       "Water the green plant daily.",
@@ -142,7 +142,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "plants",
     "transcription": "/plɑːnt/",
     "no_antonym": true,
@@ -517,14 +517,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "having pleasant mild heat temperature"
+      "having a comfortable temperature with a little heat"
     ],
     "examples": [
       "The sun feels warm today."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -713,5 +713,55 @@
     "sub_theme": "temperature_climate",
     "comparative": "snowier",
     "superlative": "snowiest"
+  },
+  {
+    "id": "en:rain:verb",
+    "word": "rain",
+    "language": "en",
+    "form": "verb",
+    "level": "A1",
+    "is_irregular": false,
+    "transcription": {
+      "uk": "/reɪn/",
+      "us": "/reɪn/"
+    },
+    "emoji": "🌧️",
+    "no_antonym": true,
+    "definitions": [
+      "to fall as drops of water from clouds"
+    ],
+    "examples": [
+      "It starts to rain outside."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "sub_theme": "precipitation_sky",
+    "concept": "en:rain:verb",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:snow:verb",
+    "word": "snow",
+    "language": "en",
+    "form": "verb",
+    "level": "A1",
+    "is_irregular": false,
+    "transcription": {
+      "uk": "/snəʊ/",
+      "us": "/snoʊ/"
+    },
+    "emoji": "❄️",
+    "no_antonym": true,
+    "definitions": [
+      "to fall as frozen white ice from clouds"
+    ],
+    "examples": [
+      "It began to snow in the evening."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "sub_theme": "precipitation_sky",
+    "concept": "en:snow:verb",
+    "updated": "2025-05-20"
   }
 ]
