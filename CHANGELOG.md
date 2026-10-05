@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Comprehensive review and CEFR adaptation of B1 and B2 vocabulary data across `vocabulary/en/b1/` and `vocabulary/en/b2/`:
+  - Fixed level field mismatches for `en:pronunciation-practice:noun` (to B1), `en:cross-contamination:noun` (to B1), and `en:government-policy:noun` (to B2).
+  - Updated `schemas/vocabulary.schema.json` so `plural_form` requirement for countable nouns applies specifically to levels A0, A1, A2, and B1.
+  - Stripped `comparative`, `superlative`, and regular `plural_form` fields starting from B2 level entries, while retaining genuine irregular plurals (e.g. Latin/Greek plurals, compound plurals, stem mutations).
+  - Curated definitions and example sentences to CEFR B1 and B2 standards, eliminated tautological definitions, and fixed headword spelling/usage in examples.
+  - Added 15 missing dual part-of-speech entries for B1 and B2 terms (`risk:verb`, `demand:verb`, `feature:verb`, `contrast:noun`, `request:noun`, `trigger:noun`, `outline:noun`, `foster:adjective`, `venture:verb`, `audit:verb`, `sample:verb`, `harness:noun`, `prompt:verb`, `yield:noun`, `scale:verb`) with complete schema compliance.
+  - Rebuilt index, flat-index, and search-index files.
 - Added synonym paraphrases to 12 English B1 idioms and updated their dates, using Cambridge Dictionary definitions for `piece of cake`, `break a leg`, `so far so good`, `time flies`, `easy come, easy go`, `better late than never`, `make up your mind`, `keep in touch`, `step by step`, `day in, day out`, `all in all`, and `safe and sound`.
 - Added Cambridge-grounded synonym paraphrases to 12 more English B1 idioms: `first come, first served`, `give it a try`, `cross your fingers`, `never mind`, `no problem`, `long time no see`, `make yourself at home`, `take it easy`, `as good as new`, `take your time`, `sooner or later`, and `over and over`.
 - Added Cambridge-grounded synonym paraphrases to nine further English B1 idioms: `here and there`, `right now`, `good luck`, `by the way`, `in fact`, `at last`, `on time`, `in time`, and `for ever`.
