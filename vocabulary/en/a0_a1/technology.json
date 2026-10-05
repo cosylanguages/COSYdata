@@ -192,14 +192,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a telephone device for calling and talking"
+      "a device used for calling and talking to people"
     ],
     "examples": [
       "Answer your phone right now."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "phones",
     "tags": [
       "spoken"
@@ -260,7 +260,7 @@
     ],
     "domain": "general",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "mobiles",
     "transcription": "/ˈməʊ.baɪl/",
     "no_antonym": true,
@@ -414,14 +414,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "messages sent electronically by computer"
+      "a digital message sent from one computer or phone to another"
     ],
     "examples": [
       "Send me an email message."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "emails",
     "tags": [
       "spoken"
@@ -440,14 +440,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a written message sent by phone"
+      "a short text message sent using a mobile phone"
     ],
     "examples": [
       "Send a quick text now."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "texts",
     "tags": [
       "spoken"
@@ -876,7 +876,7 @@
       "US"
     ],
     "regional_equivalents": [
-      "en:mobile-phone:noun"
+      "en:mobile:noun"
     ],
     "definitions": [
       "a portable wireless phone carried for communication"
@@ -886,7 +886,7 @@
     ],
     "domain": "general, travel",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈsel fəʊn/",
     "transcription_variants": {
       "us": "/ˈsel foʊn/"
@@ -1076,5 +1076,80 @@
     ],
     "countability": "uncountable",
     "sub_theme": "general"
+  },
+  {
+    "id": "en:email:verb",
+    "word": "email",
+    "language": "en",
+    "form": "verb",
+    "level": "A1",
+    "is_irregular": false,
+    "transcription": {
+      "uk": "/ˈiː.meɪl/",
+      "us": "/ˈiː.meɪl/"
+    },
+    "emoji": "📧",
+    "no_antonym": true,
+    "definitions": [
+      "to send a message electronically using a computer or phone"
+    ],
+    "examples": [
+      "Please email me the details today."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "sub_theme": "communication_tech",
+    "concept": "en:email:verb",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:phone:verb",
+    "word": "phone",
+    "language": "en",
+    "form": "verb",
+    "level": "A1",
+    "is_irregular": false,
+    "transcription": {
+      "uk": "/fəʊn/",
+      "us": "/foʊn/"
+    },
+    "emoji": "📞",
+    "no_antonym": true,
+    "definitions": [
+      "to call someone using a telephone"
+    ],
+    "examples": [
+      "I phone my parents every weekend."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "sub_theme": "communication_tech",
+    "concept": "en:phone:verb",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:text:verb",
+    "word": "text",
+    "language": "en",
+    "form": "verb",
+    "level": "A1",
+    "is_irregular": false,
+    "transcription": {
+      "uk": "/tekst/",
+      "us": "/tekst/"
+    },
+    "emoji": "📱",
+    "no_antonym": true,
+    "definitions": [
+      "to send a written text message on a phone"
+    ],
+    "examples": [
+      "I will text you when I arrive at the station."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "sub_theme": "communication_tech",
+    "concept": "en:text:verb",
+    "updated": "2025-05-20"
   }
 ]

@@ -1223,14 +1223,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a trip in a car or vehicle"
+      "a trip made in a car or motor vehicle"
     ],
     "examples": [
       "We took a long drive home."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "drives",
     "tags": [
       "spoken"
@@ -1275,14 +1275,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a journey in a vehicle or bicycle"
+      "a trip made on a bicycle, horse, or in a vehicle"
     ],
     "examples": [
       "Enjoy your bicycle ride today."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "travel",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "rides",
     "tags": [
       "spoken"
@@ -2055,7 +2055,8 @@
     ],
     "secondary_themes": [
       "health"
-    ]
+    ],
+    "updated": "2025-05-20"
   },
   {
     "id": "en:subway:noun",
@@ -2090,7 +2091,7 @@
     "regional_equivalents": [
       "en:underground:noun"
     ],
-    "updated": "2026-09-22"
+    "updated": "2025-05-20"
   },
   {
     "id": "en:motorcycle:noun",
@@ -2201,5 +2202,70 @@
     ],
     "updated": "2026-09-22",
     "no_antonym": true
+  },
+  {
+    "id": "en:chemist:noun",
+    "word": "chemist",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "article": "a",
+    "countability": "countable",
+    "plural_form": "chemists",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:pharmacy:noun"
+    ],
+    "transcription": {
+      "uk": "/ˈkem.ɪst/",
+      "us": "/ˈkem.ɪst/"
+    },
+    "emoji": "💊",
+    "no_antonym": true,
+    "definitions": [
+      "a shop where medicines and toiletries are sold"
+    ],
+    "examples": [
+      "I bought medicine at the local chemist."
+    ],
+    "domain": "general",
+    "theme": "health",
+    "sub_theme": "medical_care",
+    "concept": "en:chemist:noun",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:underground:noun",
+    "word": "underground",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "article": "the",
+    "countability": "invariable",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:subway:noun"
+    ],
+    "transcription": {
+      "uk": "/ˈʌn.də.ɡraʊnd/",
+      "us": "/ˈʌn.dɚ.ɡraʊnd/"
+    },
+    "emoji": "🚇",
+    "no_antonym": true,
+    "definitions": [
+      "an underground railway system in a city like London"
+    ],
+    "examples": [
+      "We took the London Underground to work."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "sub_theme": "vehicles_transportation",
+    "concept": "en:underground:noun",
+    "updated": "2025-05-20"
   }
 ]

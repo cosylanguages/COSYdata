@@ -274,14 +274,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a request for food in restaurant"
+      "a request for food or drinks at a restaurant"
     ],
     "examples": [
       "The waiter took our order."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "orders",
     "tags": [
       "spoken"
@@ -1145,14 +1145,14 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a sweet substance from plants"
+      "a sweet white or brown powder made from plants"
     ],
     "examples": [
       "Put sugar in your hot tea."
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1466,14 +1466,14 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "tasting very good"
+      "having a very pleasant and good taste"
     ],
     "examples": [
       "This hot meal is delicious."
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "food",
-    "updated": "2026-09-22",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -2020,7 +2020,7 @@
     "countability": "countable",
     "plural_form": "bars",
     "definitions": [
-      "an establishment where drinks and light snacks are served"
+      "a public place where people buy drinks and snacks"
     ],
     "examples": [
       "We sat at the hotel bar and ordered drinks.",
@@ -2029,7 +2029,7 @@
     ],
     "domain": "general, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/bɑː/",
     "transcription_variants": {
       "us": "/bɑːr/"
@@ -2096,7 +2096,7 @@
     ],
     "domain": "general, travel, exam",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/tʃɪps/",
     "emoji": "🍟",
     "no_antonym": true,
@@ -2182,14 +2182,14 @@
     "form": "phrase",
     "level": "A1",
     "definitions": [
-      "specifying a beverage or dish prepared without sugar"
+      "served or made without sugar"
     ],
     "examples": [
       "Please serve my iced coffee with no sugar."
     ],
     "domain": "general, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/nəʊ ˈʃʊɡ.ə/",
     "transcription_variants": {
       "us": "/noʊ ˈʃʊɡ.ɚ/"
@@ -2234,14 +2234,14 @@
       "alcoholic drink"
     ],
     "definitions": [
-      "a non-alcoholic carbonated beverage"
+      "a sweet cold drink without alcohol"
     ],
     "examples": [
       "The meal deal includes a burger and a soft drink."
     ],
     "domain": "general, travel, exam",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˌsɒft ˈdrɪŋk/",
     "transcription_variants": {
       "us": "/ˌsɑːft ˈdrɪŋk/"
@@ -2318,7 +2318,7 @@
       "US"
     ],
     "regional_equivalents": [
-      "en:take-away:noun"
+      "en:takeaway:noun"
     ],
     "definitions": [
       "packaged for takeaway consumption away from the café or restaurant"
@@ -2328,7 +2328,7 @@
     ],
     "domain": "general, travel",
     "theme": "food",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/tuː ˈɡəʊ/",
     "transcription_variants": {
       "us": "/tuː ˈɡoʊ/"
@@ -2521,5 +2521,69 @@
     "emoji": "🍽️",
     "countability": "uncountable",
     "sub_theme": "general"
+  },
+  {
+    "id": "en:french-fries:noun",
+    "word": "french fries",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "countability": "pluralia_tantum",
+    "region": [
+      "US"
+    ],
+    "regional_equivalents": [
+      "en:chips:noun"
+    ],
+    "transcription": {
+      "uk": "/ˌfrentʃ ˈfraɪz/",
+      "us": "/ˌfrentʃ ˈfraɪz/"
+    },
+    "emoji": "🍟",
+    "no_antonym": true,
+    "definitions": [
+      "deep-fried long thin strips of potato"
+    ],
+    "examples": [
+      "I ordered a burger with french fries."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "sub_theme": "snacks_sweets",
+    "concept": "en:french-fries:noun",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:takeaway:noun",
+    "word": "takeaway",
+    "language": "en",
+    "form": "noun",
+    "level": "A1",
+    "article": "a",
+    "countability": "countable",
+    "plural_form": "takeaways",
+    "region": [
+      "UK"
+    ],
+    "regional_equivalents": [
+      "en:to-go:phrase"
+    ],
+    "transcription": {
+      "uk": "/ˈteɪk.ə.weɪ/",
+      "us": "/ˈteɪk.ə.weɪ/"
+    },
+    "emoji": "🥡",
+    "no_antonym": true,
+    "definitions": [
+      "prepared food bought from a restaurant to eat elsewhere"
+    ],
+    "examples": [
+      "We got a Chinese takeaway for dinner."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "sub_theme": "meals",
+    "concept": "en:takeaway:noun",
+    "updated": "2025-05-20"
   }
 ]
