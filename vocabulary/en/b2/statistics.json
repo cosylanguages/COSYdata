@@ -13,8 +13,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "declines",
+    "updated": "2025-10-05",
     "tags": [
       "spoken"
     ],
@@ -148,8 +147,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "projections",
+    "updated": "2025-10-05",
     "tags": [
       "spoken"
     ],
@@ -181,8 +179,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "anomalys",
+    "updated": "2025-10-05",
     "levels": [
       "B2",
       "C1"
@@ -277,8 +274,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "steadys",
+    "updated": "2025-10-05",
     "tags": [
       "spoken"
     ],
@@ -370,8 +366,7 @@
     ],
     "domain": "general",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "statisticallys",
+    "updated": "2025-10-05",
     "transcription": "/statistically/",
     "no_emoji": true,
     "countability": "countable",
@@ -397,8 +392,7 @@
     ],
     "domain": "general",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "outliers",
+    "updated": "2025-10-05",
     "transcription": "/outlier/",
     "no_emoji": true,
     "countability": "countable",
@@ -426,8 +420,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "samples",
+    "updated": "2025-10-05",
     "transcription": "/sample/",
     "no_emoji": true,
     "countability": "countable",
@@ -453,8 +446,7 @@
     ],
     "domain": "general, professional",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "margins",
+    "updated": "2025-10-05",
     "transcription": "/margin/",
     "no_emoji": true,
     "countability": "countable",
@@ -480,8 +472,7 @@
     ],
     "domain": "general, professional",
     "theme": "statistics",
-    "updated": "2026-10-01",
-    "plural_form": "errors",
+    "updated": "2025-10-05",
     "transcription": "/error/",
     "no_emoji": true,
     "countability": "countable",
@@ -510,8 +501,7 @@
     ],
     "domain": "general",
     "theme": "statistics",
-    "updated": "2025-01-15",
-    "plural_form": "skeweds",
+    "updated": "2025-10-05",
     "transcription": "/skewed/",
     "no_emoji": true,
     "countability": "countable",
@@ -592,8 +582,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "statistics",
-    "updated": "2026-10-01",
-    "plural_form": "benchmarks",
+    "updated": "2025-10-05",
     "transcription": "/benchmark/",
     "no_emoji": true,
     "countability": "countable",
@@ -699,5 +688,34 @@
       "underestimate"
     ],
     "sub_theme": "general"
+  },
+  {
+    "id": "en:sample:verb",
+    "word": "sample",
+    "language": "en",
+    "form": "verb",
+    "level": "B2",
+    "transcription": "/ˈsɑːmpəl/",
+    "emoji": "🧪",
+    "past_tense": "sampled",
+    "past_participle": "sampled",
+    "present_participle": "sampling",
+    "is_irregular": false,
+    "definitions": [
+      "To test or evaluate a representative section of something for statistical analysis."
+    ],
+    "examples": [
+      "Scientists sampled soil across multiple agricultural sites to measure chemical levels."
+    ],
+    "synonyms": [
+      "test",
+      "examine",
+      "try"
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "statistics",
+    "concept": "en:sample:verb",
+    "updated": "2025-10-05"
   }
 ]

@@ -1679,10 +1679,19 @@
         "properties": {
           "countability": {
             "const": "countable"
+          },
+          "level": {
+            "enum": [
+              "A0",
+              "A1",
+              "A2",
+              "B1"
+            ]
           }
         },
         "required": [
-          "countability"
+          "countability",
+          "level"
         ]
       },
       "then": {
