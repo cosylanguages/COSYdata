@@ -7835,11 +7835,19 @@
   ],
   "marché": [
     {
+      "id": "fr:marche-commerce:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:marche:noun",
       "field": "word"
     }
   ],
   "marchés": [
+    {
+      "id": "fr:marche-commerce:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:marche:noun",
       "field": "plural_form"
@@ -10971,6 +10979,18 @@
       "field": "plural_form"
     }
   ],
+  "promenade": [
+    {
+      "id": "fr:promenade:noun",
+      "field": "word"
+    }
+  ],
+  "promenades": [
+    {
+      "id": "fr:promenade:noun",
+      "field": "plural_form"
+    }
+  ],
   "promettre": [
     {
       "id": "fr:promettre:verb",
@@ -11451,6 +11471,12 @@
       "field": "word"
     }
   ],
+  "regard": [
+    {
+      "id": "fr:regard:noun",
+      "field": "word"
+    }
+  ],
   "regarder": [
     {
       "id": "fr:regarder:verb",
@@ -11461,6 +11487,12 @@
     {
       "id": "fr:regarder-la-television:phrase",
       "field": "word"
+    }
+  ],
+  "regards": [
+    {
+      "id": "fr:regard:noun",
+      "field": "plural_form"
     }
   ],
   "rejeter": [
@@ -11560,6 +11592,16 @@
   "rendre service": [
     {
       "id": "fr:rendre-service:phrase",
+      "field": "word"
+    }
+  ],
+  "repas": [
+    {
+      "id": "fr:repas:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:repas:noun",
       "field": "word"
     }
   ],
@@ -14619,10 +14661,22 @@
       "field": "plural_form"
     }
   ],
+  "visite": [
+    {
+      "id": "fr:visite:noun",
+      "field": "word"
+    }
+  ],
   "visiter": [
     {
       "id": "fr:visiter:verb",
       "field": "word"
+    }
+  ],
+  "visites": [
+    {
+      "id": "fr:visite:noun",
+      "field": "plural_form"
     }
   ],
   "vitamine": [
