@@ -151,7 +151,17 @@
   ],
   "ένα": [
     {
+      "id": "el:ena-arthro:determiner",
+      "field": "word"
+    },
+    {
       "id": "el:ena:number",
+      "field": "word"
+    }
+  ],
+  "ένας": [
+    {
+      "id": "el:enas-arthro:determiner",
       "field": "word"
     }
   ],
@@ -329,10 +339,6 @@
   ],
   "αγχωμένος": [
     {
-      "id": "el:agchomenos-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:agchomenos:adjective",
       "field": "word"
     }
@@ -447,10 +453,6 @@
   ],
   "ακολουθώ": [
     {
-      "id": "el:akoloytho-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:akoloytho:verb",
       "field": "word"
     }
@@ -468,10 +470,6 @@
     }
   ],
   "ακριβός": [
-    {
-      "id": "el:akrivos-1:adjective",
-      "field": "word"
-    },
     {
       "id": "el:akrivos:adjective",
       "field": "word"
@@ -701,10 +699,6 @@
   ],
   "απασχολημένος": [
     {
-      "id": "el:apascholimenos-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:apascholimenos:adjective",
       "field": "word"
     }
@@ -915,10 +909,6 @@
   ],
   "αστείος": [
     {
-      "id": "el:asteios-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:asteios:adjective",
       "field": "word"
     }
@@ -1003,7 +993,7 @@
   ],
   "αυτό": [
     {
-      "id": "el:ayto:phrase",
+      "id": "el:ayto:pronoun",
       "field": "word"
     }
   ],
@@ -1074,10 +1064,6 @@
     }
   ],
   "βαρετός": [
-    {
-      "id": "el:varetos-1:adjective",
-      "field": "word"
-    },
     {
       "id": "el:varetos:adjective",
       "field": "word"
@@ -1342,10 +1328,6 @@
     }
   ],
   "γίνομαι": [
-    {
-      "id": "el:ginomai-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:ginomai:verb",
       "field": "word"
@@ -1899,10 +1881,6 @@
   ],
   "δημοφιλής": [
     {
-      "id": "el:dimofilis-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:dimofilis:adjective",
       "field": "word"
     }
@@ -2119,19 +2097,11 @@
   ],
   "δρόμοι": [
     {
-      "id": "el:dromos-street:noun",
-      "field": "plural_form"
-    },
-    {
       "id": "el:dromos:noun",
       "field": "plural_form"
     }
   ],
   "δρόμος": [
-    {
-      "id": "el:dromos-street:noun",
-      "field": "word"
-    },
     {
       "id": "el:dromos:noun",
       "field": "word"
@@ -2281,10 +2251,6 @@
   ],
   "ειλικρινής": [
     {
-      "id": "el:eilikrinis-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:eilikrinis:adjective",
       "field": "word"
     }
@@ -2339,7 +2305,7 @@
   ],
   "εκείνο": [
     {
-      "id": "el:ekeino:phrase",
+      "id": "el:ekeino:pronoun",
       "field": "word"
     }
   ],
@@ -2477,10 +2443,6 @@
   ],
   "ενδιαφέρων": [
     {
-      "id": "el:endiaferon-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:endiaferon:adjective",
       "field": "word"
     }
@@ -2534,10 +2496,6 @@
     }
   ],
   "εξηγώ": [
-    {
-      "id": "el:exigo-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:exigo:verb",
       "field": "word"
@@ -2604,10 +2562,6 @@
     }
   ],
   "επισκευάζω": [
-    {
-      "id": "el:episkeyazo-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:episkeyazo:verb",
       "field": "word"
@@ -2741,10 +2695,6 @@
   ],
   "ευγενικός": [
     {
-      "id": "el:eygenikos-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:eygenikos:adjective",
       "field": "word"
     }
@@ -2830,6 +2780,12 @@
   "ζώνη": [
     {
       "id": "el:zoni:noun",
+      "field": "word"
+    }
+  ],
+  "η": [
+    {
+      "id": "el:i-arthro:determiner",
       "field": "word"
     }
   ],
@@ -3943,10 +3899,6 @@
   ],
   "λαμβάνω": [
     {
-      "id": "el:lamvano-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:lamvano:verb",
       "field": "word"
     }
@@ -4221,6 +4173,12 @@
       "field": "plural_form"
     }
   ],
+  "μία": [
+    {
+      "id": "el:mia-arthro:determiner",
+      "field": "word"
+    }
+  ],
   "μαγειρεύω": [
     {
       "id": "el:magireyo:verb",
@@ -4397,10 +4355,6 @@
   ],
   "μεγαλώνω": [
     {
-      "id": "el:megalono-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:megalono:verb",
       "field": "word"
     }
@@ -4550,10 +4504,6 @@
     }
   ],
   "μοιράζομαι": [
-    {
-      "id": "el:moirazomai-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:moirazomai:verb",
       "field": "word"
@@ -4853,10 +4803,6 @@
   ],
   "νοικιάζω": [
     {
-      "id": "el:noikiazo-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:noikiazo:verb",
       "field": "word"
     }
@@ -5011,6 +4957,12 @@
       "field": "word"
     }
   ],
+  "ο": [
+    {
+      "id": "el:o-arthro:determiner",
+      "field": "word"
+    }
+  ],
   "ογδόντα": [
     {
       "id": "el:ogdonta:number",
@@ -5056,6 +5008,12 @@
   "οθόνη υπολογιστή": [
     {
       "id": "el:othoni-ypologisti:noun",
+      "field": "word"
+    }
+  ],
+  "οι": [
+    {
+      "id": "el:oi-arthro:determiner",
       "field": "word"
     }
   ],
@@ -5553,10 +5511,6 @@
   ],
   "παρουσιάζω": [
     {
-      "id": "el:paroysiazo-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:paroysiazo:verb",
       "field": "word"
     }
@@ -5640,10 +5594,6 @@
     }
   ],
   "περιλαμβάνω": [
-    {
-      "id": "el:perilamvano-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:perilamvano:verb",
       "field": "word"
@@ -6131,10 +6081,6 @@
   ],
   "προσκαλώ": [
     {
-      "id": "el:proskalo-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:proskalo:verb",
       "field": "word"
     }
@@ -6337,7 +6283,7 @@
   ],
   "πώς": [
     {
-      "id": "el:pos:phrase",
+      "id": "el:pos:adverb",
       "field": "word"
     }
   ],
@@ -6484,10 +6430,6 @@
     }
   ],
   "σίγουρος": [
-    {
-      "id": "el:sigoyros-1:adjective",
-      "field": "word"
-    },
     {
       "id": "el:sigoyros:adjective",
       "field": "word"
@@ -6793,6 +6735,12 @@
       "field": "word"
     }
   ],
+  "στα": [
+    {
+      "id": "el:sta:preposition",
+      "field": "word"
+    }
+  ],
   "σταθερές τιμές": [
     {
       "id": "el:statheri-timi:noun",
@@ -6841,9 +6789,33 @@
       "field": "word"
     }
   ],
+  "στη": [
+    {
+      "id": "el:sti:preposition",
+      "field": "word"
+    }
+  ],
   "στη γωνία": [
     {
       "id": "el:stigi-gonia:phrase",
+      "field": "word"
+    }
+  ],
+  "στην": [
+    {
+      "id": "el:stin:preposition",
+      "field": "word"
+    }
+  ],
+  "στις": [
+    {
+      "id": "el:stis:preposition",
+      "field": "word"
+    }
+  ],
+  "στο": [
+    {
+      "id": "el:sto:preposition",
       "field": "word"
     }
   ],
@@ -6863,6 +6835,18 @@
     {
       "id": "el:stomachi:noun",
       "field": "plural_form"
+    }
+  ],
+  "στον": [
+    {
+      "id": "el:ston:preposition",
+      "field": "word"
+    }
+  ],
+  "στους": [
+    {
+      "id": "el:stous:preposition",
+      "field": "word"
     }
   ],
   "στρίβω": [
@@ -6973,10 +6957,6 @@
   ],
   "συμφωνώ": [
     {
-      "id": "el:symfono-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:symfono:verb",
       "field": "word"
     }
@@ -7013,10 +6993,6 @@
   ],
   "συνεχίζω": [
     {
-      "id": "el:synechizo-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:synechizo:verb",
       "field": "word"
     }
@@ -7028,10 +7004,6 @@
     }
   ],
   "συνιστώ": [
-    {
-      "id": "el:synisto-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:synisto:verb",
       "field": "word"
@@ -7074,10 +7046,6 @@
     }
   ],
   "σχεδιάζω": [
-    {
-      "id": "el:schediazo-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:schediazo:verb",
       "field": "word"
@@ -7190,6 +7158,12 @@
   "τίνος": [
     {
       "id": "el:tinos:pronoun",
+      "field": "word"
+    }
+  ],
+  "τα": [
+    {
+      "id": "el:ta-arthro:determiner",
       "field": "word"
     }
   ],
@@ -7351,7 +7325,7 @@
   ],
   "τι": [
     {
-      "id": "el:ti:phrase",
+      "id": "el:ti:pronoun",
       "field": "word"
     }
   ],
@@ -7370,6 +7344,12 @@
   "τιφλίδα": [
     {
       "id": "el:tiflida:noun",
+      "field": "word"
+    }
+  ],
+  "το": [
+    {
+      "id": "el:to-arthro:determiner",
       "field": "word"
     }
   ],
@@ -7621,10 +7601,6 @@
   ],
   "υγιής": [
     {
-      "id": "el:ygiis-1:adjective",
-      "field": "word"
-    },
-    {
       "id": "el:ygiis:adjective",
       "field": "word"
     }
@@ -7781,10 +7757,6 @@
   ],
   "φαίνομαι": [
     {
-      "id": "el:fainomai-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:fainomai:verb",
       "field": "word"
     }
@@ -7862,10 +7834,6 @@
     }
   ],
   "φιλικός": [
-    {
-      "id": "el:filikos-1:adjective",
-      "field": "word"
-    },
     {
       "id": "el:filikos:adjective",
       "field": "word"
@@ -8239,10 +8207,6 @@
   ],
   "χρεώνω": [
     {
-      "id": "el:chreono-1:verb",
-      "field": "word"
-    },
-    {
       "id": "el:chreono:verb",
       "field": "word"
     }
@@ -8308,10 +8272,6 @@
     }
   ],
   "χτίζω": [
-    {
-      "id": "el:chtizo-1:verb",
-      "field": "word"
-    },
     {
       "id": "el:chtizo:verb",
       "field": "word"
