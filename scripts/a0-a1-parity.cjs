@@ -192,13 +192,30 @@ function main() {
   const violations = {};
   let totalViolations = 0;
 
+  const FR_MASS_NOUNS = new Set(['poulet', 'poisson', 'fromage', 'sport', 'musique', 'temps', 'argent', 'chance']);
+  const IT_MASS_NOUNS = new Set(['pane', 'frutta', 'acqua', 'spaghetti', 'latte', 'caffè', 'riso', 'carne', 'formaggio', 'zucchero', 'vino', 'birra', 'tè', 'burro', 'pasta']);
+
+  const REQUIRED_CONTRACTED_FORMS = {
+    fr: ['au', 'aux', 'du', 'des'],
+    it: [
+      'al', 'allo', 'alla', "all'", 'ai', 'agli', 'alle',
+      'del', 'dello', 'della', "dell'", 'dei', 'degli', 'delle',
+      'nel', 'nello', 'nella', "nell'", 'nei', 'negli', 'nelle',
+      'sul', 'sullo', 'sulla', "sull'", 'sui', 'sugli', 'sulle',
+      'dal', 'dallo', 'dalla', "dall'", 'dai', 'dagli', 'dalle'
+    ],
+    el: ['στο', 'στη', 'στην', 'στον', 'στα', 'στους', 'στις']
+  };
+
   TARGET_LANGS.forEach((lang) => {
     violations[lang] = {
       domainViolations: [],
       formViolations: [],
       levelViolations: [],
       duplicateIds: [],
-      duplicateWordFormSense: []
+      duplicateWordFormSense: [],
+      missingPartitives: [],
+      missingContractions: []
     };
 
     const entries = langData[lang].entries;
@@ -292,6 +309,47 @@ function main() {
         }
       }
     });
+
+    // Check missing partitives for fr and it
+    if (lang === 'fr' || lang === 'it') {
+      const massSet = lang === 'fr' ? FR_MASS_NOUNS : IT_MASS_NOUNS;
+      entries.forEach((e) => {
+        if (e.form === 'noun') {
+          const wordLower = (e.word || '').toLowerCase();
+          const isUncountable = e.countability === 'uncountable';
+          const isPluraliaTantum = e.countability === 'pluralia_tantum';
+          const isNormallyMass = massSet.has(wordLower);
+
+          if ((isUncountable || isPluraliaTantum || isNormallyMass) && !e.partitive) {
+            violations[lang].missingPartitives.push(
+              `Noun '${e.word}' (${e.id}, countability '${e.countability}') missing required partitive`
+            );
+            totalViolations++;
+          }
+        }
+      });
+    }
+
+    // Check missing contracted forms for fr, it, el
+    if (REQUIRED_CONTRACTED_FORMS[lang]) {
+      const existingContractionWords = new Set();
+      entries.forEach((e) => {
+        if (e.form === 'preposition') {
+          const w = (e.word || '').toLowerCase().replace(/[’']/g, "'").trim();
+          existingContractionWords.add(w);
+        }
+      });
+
+      REQUIRED_CONTRACTED_FORMS[lang].forEach((req) => {
+        const reqNorm = req.toLowerCase().replace(/[’']/g, "'").trim();
+        if (!existingContractionWords.has(reqNorm)) {
+          violations[lang].missingContractions.push(
+            `Missing contracted preposition form '${req}'`
+          );
+          totalViolations++;
+        }
+      });
+    }
   });
 
   // Essentials coverage check
@@ -396,7 +454,7 @@ function main() {
     }
 
     const v = violations[lang];
-    console.log(`  Violations: Domains=${v.domainViolations.length}, Forms=${v.formViolations.length}, Levels=${v.levelViolations.length}, DuplicateIDs=${v.duplicateIds.length}, DuplicateWordFormSense=${v.duplicateWordFormSense.length}`);
+    console.log(`  Violations: Domains=${v.domainViolations.length}, Forms=${v.formViolations.length}, Levels=${v.levelViolations.length}, DuplicateIDs=${v.duplicateIds.length}, DuplicateWordFormSense=${v.duplicateWordFormSense.length}, MissingPartitives=${v.missingPartitives.length}, MissingContractions=${v.missingContractions.length}`);
     console.log(`  Missing Essentials: ${missingEssentials[lang].length}`);
 
     if (targetData && targetData.themes) {
@@ -461,7 +519,9 @@ function main() {
       violations[lang].formViolations.length +
       violations[lang].levelViolations.length +
       violations[lang].duplicateIds.length +
-      violations[lang].duplicateWordFormSense.length;
+      violations[lang].duplicateWordFormSense.length +
+      violations[lang].missingPartitives.length +
+      violations[lang].missingContractions.length;
 
     md += `| ${lang.toUpperCase()} | ${data.total} | ${data.a0Count} | ${data.a1Count} | ${defTotalStr} | ${defA0Str} | ${defA1Str} | ${vCount} | ${missingEssentials[lang].length} |\n`;
   });
@@ -508,6 +568,18 @@ function main() {
         md += `##### Duplicate Word+Form+Sense (${v.duplicateWordFormSense.length})\n`;
         v.duplicateWordFormSense.slice(0, 15).forEach((item) => (md += `- ${item}\n`));
         if (v.duplicateWordFormSense.length > 15) md += `- *...and ${v.duplicateWordFormSense.length - 15} more*\n`;
+        md += `\n`;
+      }
+      if (v.missingPartitives.length > 0) {
+        md += `##### Missing Partitives (${v.missingPartitives.length})\n`;
+        v.missingPartitives.slice(0, 15).forEach((item) => (md += `- ${item}\n`));
+        if (v.missingPartitives.length > 15) md += `- *...and ${v.missingPartitives.length - 15} more*\n`;
+        md += `\n`;
+      }
+      if (v.missingContractions.length > 0) {
+        md += `##### Missing Contractions (${v.missingContractions.length})\n`;
+        v.missingContractions.slice(0, 15).forEach((item) => (md += `- ${item}\n`));
+        if (v.missingContractions.length > 15) md += `- *...and ${v.missingContractions.length - 15} more*\n`;
         md += `\n`;
       }
     } else {

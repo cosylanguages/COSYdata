@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.0] - Unreleased
 
+### Added
+- Schema, validator, and policy support for partitive articles on nouns and preposition+article contractions (Task P1b):
+  - Added `contraction` object definition and language/form restrictions in `schemas/vocabulary.schema.json` (`contraction` allowed only on prepositions for `fr`, `it`, `el`; `partitive` rejected for `en`, `ru`, `el`).
+  - Added example schema fixtures `schemas/examples/valid-partitive.json` and `schemas/examples/valid-contraction.json`.
+  - Added partitive agreement/requirement checks and preposition contraction cross-referencing checks in `scripts/validate.cjs`.
+  - Added missing partitive and missing contraction checks per language to `scripts/a0-a1-parity.cjs` (errors under `--strict`).
+  - Added "Partitives and contractions" rules section and updated entry counting rules in `docs/a0-a1-policy.md`.
+
 ### Changed
 - Completed English A0–A1 level audit and established target dataset (`reports/a0_a1_target.json`) following `docs/a0-a1-policy.md`:
   - Audited every entry in `vocabulary/en/a0_a1/` against Oxford 3000 sense-aware tags, English Vocabulary Profile (EVP), and Cambridge Starters/Movers lists.
