@@ -13,6 +13,17 @@ All notable changes to this project will be documented in this file.
   - Added "Partitives and contractions" rules section and updated entry counting rules in `docs/a0-a1-policy.md`.
 
 ### Changed
+- Completed Italian A0–A1 level audit and clean-up following `docs/a0-a1-policy.md` (Task P2-it):
+  - Audited every entry in `vocabulary/it/a0_a1/` against *Profilo della lingua italiana A1*, *CILS A1*, *CELI 1*, and *Nuovo vocabolario di base (NVdB)*.
+  - Moved 132 non-transparent idioms and proverbs out of `a0_a1/expressions.json` to `vocabulary/it/b1/idioms.json`.
+  - Moved 20 over-level or historical/advanced terms (e.g. *Dante Alighieri*, *Michelangelo*, *successo*, *clientela*, *affari*, *schermo computer*) to `vocabulary/it/a2/`.
+  - Moved 32 essential A1 vocabulary items (e.g. *e*, *ma*, *poi*, *o*, *nord*, *sud*, *est*, *ovest*, *farmacia*, *ufficio*, *biglietto*, *costoso*, *caro*, *economico*, *giusto*, *sbagliato*, *gratuito*, *gentile*, *temporale*, *giornale*, *chiamare*, *svegliarsi*, *alzarsi*, *viaggiare*, *incontrare*, etc.) into `vocabulary/it/a0_a1/`.
+  - Added 35 preposizioni articolate (contracted prepositions) for *a*, *di*, *in*, *su*, *da* to `vocabulary/it/a0_a1/prepositions.json` with `contraction` object metadata and linked them in `related_forms`.
+  - Applied partitive articles (*del*, *dello*, *della*, *dell'*, *dei*, *degli*, *delle*) across all uncountable, mass, and pluralia tantum nouns in `a0_a1`.
+  - Classified 109 survival core entries as level `"A0"` and 920 entries as `"A1"`.
+  - Standardized domain fields across all A0–A1 entries (ensuring `general` is listed first, allowing only `spoken` and `travel`, and stripping prohibited domains).
+  - Resolved duplicate/homograph word+form pairs using sense slugs (`pesce`, `strada`) and filled mandatory noun/pronoun grammar fields.
+  - Generated `reports/it-a0-a1-level-audit.md` and updated indices.
 - Completed English A0–A1 level audit and established target dataset (`reports/a0_a1_target.json`) following `docs/a0-a1-policy.md`:
   - Audited every entry in `vocabulary/en/a0_a1/` against Oxford 3000 sense-aware tags, English Vocabulary Profile (EVP), and Cambridge Starters/Movers lists.
   - Moved 19 over-level entries (e.g., `single`, `low`, `empty`, `closed`, `simple`, `weak`, `heavy`, `loud`, `wood`, `ocean`, `storm`, `earth`, `nature`, `sand`, `may`, `might`, `shall`, `being`, `tongue`) to `vocabulary/en/a2/<same theme file>`, unioning `levels` arrays and updating `level = min(levels)`.

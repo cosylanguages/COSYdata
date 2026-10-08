@@ -13,10 +13,10 @@
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1669 | 474 | 1195 | +0 | +0 | +0 | 0 | 0 |
-| FR | 1094 | 17 | 1077 | -575 | -457 | -118 | 132 | 54 |
-| IT | 1113 | 17 | 1096 | -556 | -457 | -99 | 297 | 56 |
+| FR | 1094 | 17 | 1077 | -575 | -457 | -118 | 198 | 54 |
+| IT | 1029 | 109 | 920 | -640 | -365 | -275 | 5 | 27 |
 | RU | 910 | 19 | 891 | -759 | -455 | -304 | 6 | 75 |
-| EL | 794 | 17 | 777 | -875 | -457 | -418 | 13 | 57 |
+| EL | 794 | 17 | 777 | -875 | -457 | -418 | 20 | 57 |
 
 ### Details: EN
 
@@ -56,6 +56,30 @@
 - Word+form+sense 'marche::noun::' duplicated across IDs: fr:marche-commerce:noun, fr:marche:noun
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
 
+##### Missing Partitives (62)
+- Noun 'poisson' (fr:poisson:noun, countability 'countable') missing required partitive
+- Noun 'cheveux' (fr:cheveux:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'peau' (fr:peau:noun, countability 'uncountable') missing required partitive
+- Noun 'vêtements' (fr:vetements:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'chaussures' (fr:chaussures:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'chaussettes' (fr:chaussettes:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'gants' (fr:gants:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'musique' (fr:musique:noun, countability 'uncountable') missing required partitive
+- Noun 'sport' (fr:sport:noun, countability 'countable') missing required partitive
+- Noun 'nouvelles' (fr:nouvelles:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'vacances' (fr:vacances:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'santé' (fr:sante:noun, countability 'uncountable') missing required partitive
+- Noun 'paix' (fr:paix:noun, countability 'uncountable') missing required partitive
+- Noun 'épargne' (fr:epargne:noun, countability 'uncountable') missing required partitive
+- Noun 'football' (fr:football:noun, countability 'uncountable') missing required partitive
+- *...and 47 more*
+
+##### Missing Contractions (4)
+- Missing contracted preposition form 'au'
+- Missing contracted preposition form 'aux'
+- Missing contracted preposition form 'du'
+- Missing contracted preposition form 'des'
+
 #### Missing Essentials (54)
 
 - **I don't understand** (expected: `je ne comprends pas`)
@@ -87,50 +111,20 @@
 
 ### Details: IT
 
-#### Structural & Policy Violations (297)
+#### Structural & Policy Violations (4)
 
-##### Domain Violations (162)
-- Entry 'it:pranzare:verb' domain tag 'food' not allowed at A0-A1
-- Entry 'it:cenare:verb' domain tag 'food' not allowed at A0-A1
-- Entry 'it:madre:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:padre:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:genitori:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:figlio:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:figlia:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:bambino:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:fratello:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:sorella:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:nonna:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:nonno:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:marito:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:moglie:noun' domain tag 'relocation' not allowed at A0-A1
-- Entry 'it:famiglia:noun' domain tag 'relocation' not allowed at A0-A1
-- *...and 147 more*
-
-##### Form Violations (132)
-- Entry 'it:avere-fame:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-sete:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-caldo:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-freddo:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-paura:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-sonno:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-fretta:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-ragione:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-torto:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-voglia-di:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-fortuna:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-tempo:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-intenzione-di:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:avere-fretta-di:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'it:essere-in-anticipo:idiom' form 'idiom' is not an allowed form at A0-A1
-- *...and 117 more*
+##### Level Violations (1)
+- Entry 'it:zero:number' level 'A0' does not equal min of levels [A1, A2] ('A1')
 
 ##### Duplicate Word+Form+Sense (3)
 - Word+form+sense 'pesce::noun::' duplicated across IDs: it:pesce-animale:noun, it:pesce:noun
 - Word+form+sense 'strada::noun::' duplicated across IDs: it:strada-modo:noun, it:strada:noun
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
 
-#### Missing Essentials (56)
+##### Missing Partitives (1)
+- Noun 'pasta' (it:pasta:noun, countability 'countable') missing required partitive
+
+#### Missing Essentials (27)
 
 - **I don't understand** (expected: `non capisco`)
 - **I don't know** (expected: `non lo so`)
@@ -139,25 +133,25 @@
 - **do you speak English** (expected: `parla inglese/parli inglese`)
 - **I would like** (expected: `vorrei`)
 - **happy birthday** (expected: `buon compleanno`)
+- **enjoy your meal** (expected: `buon appetito`)
 - **good luck** (expected: `buona fortuna/in bocca al lupo`)
 - **thousand** (expected: `mille/mila`)
-- **to call** (expected: `chiamare`)
-- **to wake up** (expected: `svegliarsi`)
-- **to get up** (expected: `alzarsi`)
-- **to travel** (expected: `viaggiare`)
 - **to need** (expected: `avere bisogno`)
-- **to wait for/meet** (expected: `incontrare`)
 - **boy** (expected: `ragazzo`)
 - **girl** (expected: `ragazza`)
-- **supermarket** (expected: `supermercato`)
-- **pharmacy** (expected: `farmacia`)
 - **post office** (expected: `posta/ufficio postale`)
 - **beach** (expected: `spiaggia`)
-- **office** (expected: `ufficio`)
-- **cinema** (expected: `cinema`)
-- **ticket** (expected: `biglietto`)
-- **weekend** (expected: `fine settimana/weekend`)
-- *...and 31 more*
+- **people** (expected: `gente/persone`)
+- **birthday** (expected: `compleanno`)
+- **straight on** (expected: `dritto/sempre dritto/diritto`)
+- **behind** (expected: `dietro`)
+- **in front of** (expected: `davanti`)
+- **next to** (expected: `accanto/vicino a`)
+- **not** (expected: `non`)
+- **all** (expected: `tutto`)
+- **a little** (expected: `un po'/poco`)
+- **only** (expected: `solo/soltanto`)
+- *...and 2 more*
 
 ### Details: RU
 
@@ -222,6 +216,15 @@
 - Word+form+sense 'δρομος::noun::' duplicated across IDs: el:dromos:noun, el:dromos-street:noun
 - Word+form+sense 'παρακαλω::phrase::' duplicated across IDs: el:parakalo:phrase, el:parakalo-welcome:phrase
 - Word+form+sense 'συζυγος::noun::' duplicated across IDs: el:syzygos-andras:noun, el:syzygos-gynaika:noun
+
+##### Missing Contractions (7)
+- Missing contracted preposition form 'στο'
+- Missing contracted preposition form 'στη'
+- Missing contracted preposition form 'στην'
+- Missing contracted preposition form 'στον'
+- Missing contracted preposition form 'στα'
+- Missing contracted preposition form 'στους'
+- Missing contracted preposition form 'στις'
 
 #### Missing Essentials (57)
 

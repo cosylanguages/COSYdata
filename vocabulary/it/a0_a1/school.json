@@ -4,7 +4,7 @@
     "word": "libro",
     "language": "it",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "Insieme di pagine stampate rilegate insieme da leggere."
     ],
@@ -27,7 +27,7 @@
     "word": "penna",
     "language": "it",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "Strumento per scrivere a inchiostro su carta."
     ],
@@ -88,7 +88,8 @@
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "partitive": "della"
   },
   {
     "id": "it:quaderno:noun",
@@ -180,7 +181,8 @@
     "article": "i",
     "gender": "masculine",
     "countability": "pluralia_tantum",
-    "singular_workaround": "una moneta"
+    "singular_workaround": "una moneta",
+    "partitive": "dei"
   },
   {
     "id": "it:lettera:noun",
@@ -255,7 +257,7 @@
     "word": "nome",
     "language": "it",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "Parola con cui si identifica una persona o cosa."
     ],
@@ -572,7 +574,8 @@
     "article": "la",
     "gender": "feminine",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "partitive": "della"
   },
   {
     "id": "it:storia:noun",
@@ -595,7 +598,8 @@
     "article": "la",
     "gender": "feminine",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "partitive": "della"
   },
   {
     "id": "it:scienza:noun",
@@ -618,7 +622,8 @@
     "article": "la",
     "gender": "feminine",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "partitive": "della"
   },
   {
     "id": "it:geografia:noun",
@@ -641,7 +646,8 @@
     "article": "la",
     "gender": "feminine",
     "countability": "uncountable",
-    "no_antonym": true
+    "no_antonym": true,
+    "partitive": "della"
   },
   {
     "id": "it:righello:noun",
@@ -690,5 +696,36 @@
     "countability": "countable",
     "plural_form": "esempi",
     "no_antonym": true
+  },
+  {
+    "id": "it:lezione:noun",
+    "word": "lezione",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Insegnamento d'una materia svolto dal professore in aula."
+    ],
+    "examples": [
+      "Seguo la lezione d'italiano ogni lunedì e mercoledì."
+    ],
+    "synonyms": [
+      "corso",
+      "spiegazione"
+    ],
+    "domain": "general, spoken",
+    "theme": "education",
+    "updated": "2025-01-15",
+    "transcription": "/leˈtsjoː.ne/",
+    "emoji": "👨‍🏫",
+    "no_antonym": true,
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "lezioni",
+    "levels": [
+      "A1",
+      "B1"
+    ]
   }
 ]
