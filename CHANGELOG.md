@@ -13,12 +13,23 @@ All notable changes to this project will be documented in this file.
   - Added "Partitives and contractions" rules section and updated entry counting rules in `docs/a0-a1-policy.md`.
 
 ### Changed
+- Completed Greek A0–A1 level audit and clean-up following `docs/a0-a1-policy.md` (Task P2-el):
+  - Audited every entry in `vocabulary/el/a0_a1/` against **Κέντρο Ελληνικής Γλώσσας (ΚΕΓ) A1 Syllabus / Πιστοποίηση Ελληνομάθειας A1**.
+  - Moved 44 entries out of `a0_a1` to `vocabulary/el/a2/` (including historical figure *Σωκράτης* and multi-word non-survival phrase combinations like *γράφω γράμμα*, *διαβάζω βιβλίο*, *τρώω πίτσα*, *πίνω καφέ*, *μαγειρεύω φαγητό*, *καθαρίζω σπίτι*, *αγοράζω βιβλίο*, *ζω στην Ελλάδα*, classroom directives like *σήκωσε το χέρι*, etc.).
+  - Moved 8 essential A1 vocabulary items (*σούπερ μάρκετ*, *κινηματογράφος*, *εισιτήριο*, *δωρεάν*, *βαλίτσα*, *ταξίδι*, *ραντεβού*, *απάντηση*) from `a2` into `vocabulary/el/a0_a1/`.
+  - Resolved duplicate word+form pairs (*νέος*, *δυνατός*, *ψάρι*, *κοτόπουλο*, *παρακαλώ*, *σύζυγος*) using `sense` slugs, and merged duplicate *δρόμος* entry with alias recorded in `shared/id-aliases.json`.
+  - Added 7 contracted prepositions of σε + article (*στο*, *στη*, *στην*, *στον*, *στα*, *στους*, *στις*) in `vocabulary/el/a0_a1/prepositions.json` with `contraction` metadata and linked them from *σε* via `related_forms`.
+  - Added 8 definite and indefinite articles (*ο*, *η*, *το*, *οι*, *τα*; *ένας*, *μία*, *ένα*) as determiner entries in `vocabulary/el/a0_a1/pronouns.json`.
+  - Classified 133 survival core entries as level `"A0"` and 682 entries as `"A1"`.
+  - Fixed form mismatches (*τι*, *πώς*, *αυτό*, *εκείνο*), updated all primary themes to canonical `shared/themes.json` taxonomy, cleaned domain fields (ensuring `general` is listed first, allowing only `spoken` and `travel`, and removing invalid domain tags), filled missing noun grammar fields (*article*, *gender*) and set verb voice (*active*/*deponent*).
+  - Rebuilt index, flat-index, and search-index files and generated `reports/el-a0-a1-level-audit.md`.
+
 - Completed Russian A0–A1 level audit and clean-up following `docs/a0-a1-policy.md` (Task P2-ru):
   - Audited every entry in `vocabulary/ru/a0_a1/` against **Лексический минимум ТЭУ (элементарный уровень, A1) of TORFL**.
   - Moved 155 non-literal idioms, proverbs, and free sentence expressions out of `a0_a1` to `vocabulary/ru/a2/idioms.json`.
   - Moved 128 over-level artificial multi-word compounds and advanced A2+ terms (e.g. *продавец-консультант*, *интернет-сайт*, *живопись*, *юрист*, *медсестра*, *Александр Пушкин*, *Франция*, *Италия*, *корабль*, *церковь*, *существовать*, *организовать*, etc.) to `vocabulary/ru/a2/`.
   - Moved 24 essential A1 vocabulary items (e.g. *потому что*, *много*, *несколько*, *север*, *юг*, *восток*, *запад*, *потом*, *аптека*, *направо*, *налево*, *деревня*, *офис*, *билет*, *повернуть*, *дорогой*, *дешёвый*, *правильный*, *неправильный*, *бесплатный*, *приезжать*, *носить*, *звонить*, *просыпаться*, *вставать*, *путешествовать*, etc.) into `vocabulary/ru/a0_a1/`.
-  - Resolved duplicates/homographs (`рыба`, `курица`, `мир`) using `sense` slugs.
+  - Resolved duplicates/homographs (*рыба*, *курица*, *мир*) using `sense` slugs.
   - Normalized Russian aspectual verb pairs into single headwords (imperfective with `aspect_pair` and `aspect: "imperfective"`), merging 13 separate perfective entries (*открыть*, *закрыть*, *начать*, *закончить*, *спросить*, *ответить*, *помочь*, *забыть*, *дать*, *взять*, *заплатить*, *подождать*, *упасть*) and recording aliases in `shared/id-aliases.json`.
   - Annotated motion verbs (*идти*, *ходить*, *ехать*, *ездить*, *нести*, *носить*, etc.) with `motion_type` (`"unidirectional"` / `"multidirectional"`).
   - Added required `governs_case` property to all preposition entries in `prepositions.json`.
@@ -85,7 +96,7 @@ All notable changes to this project will be documented in this file.
   - `c1/`: 3 corrections across 3 files (`collocations.json`, `emotions.json`, `synonyms.json`).
   - `c2/`: 1 correction in 1 file (`rare_adjectives.json`).
 - Replaced templated placeholder definitions and example sentences across all 1,277 B2 vocabulary entries in `vocabulary/en/b2/` across 37 theme files with genuine, nuanced B2 definitions and complex 12–18 word example sentences featuring subordinate clauses, passive voice, or reported speech where natural:
-  - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `economy.json`, `education.json`): 295 entries rewritten.
+  - **Batch 1** (9 files: `academic_vocabulary.json`, `advanced_verbs.json`, `collocations.json`, `communication.json`, `comparisons.json`, `crime.json`, `culture.json`, `education.json`): 295 entries rewritten.
   - **Batch 2** (9 files: `emotions.json`, `environment.json`, `ethics.json`, `expressions.json`, `general_adjectives.json`, `global_issues.json`, `health.json`, `idioms.json`, `innovation.json`): 350 entries rewritten.
   - **Batch 3** (9 files: `lifestyle.json`, `linking_words.json`, `media.json`, `migration.json`, `nature.json`, `opinions.json`, `personality.json`, `phrasal_verbs.json`, `politics.json`): 335 entries rewritten.
   - **Batch 4** (10 files: `psychology.json`, `register.json`, `relationships.json`, `science.json`, `society.json`, `statistics.json`, `time.json`, `urban_housing.json`, `word_building.json`, `work.json`): 297 entries rewritten.
