@@ -4,7 +4,7 @@
     "word": "salut",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/sa.ly/",
     "definitions": [
       "Mots de salutation informelle pour dire bonjour ou au revoir."
@@ -17,14 +17,17 @@
     "updated": "2026-10-05",
     "emoji": "👋",
     "no_antonym": true,
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:au-revoir:phrase",
     "word": "au revoir",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/o.ʁə.vwaʁ/",
     "definitions": [
       "Formule de politesse utilisée au moment de se quitter."
@@ -37,14 +40,17 @@
     "updated": "2026-10-05",
     "emoji": "👋",
     "no_antonym": true,
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:s-il-vous-plait:phrase",
     "word": "s'il vous plaît",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/sil.vu.plɛ/",
     "definitions": [
       "Formule de politesse pour demander poliment quelque chose."
@@ -57,7 +63,10 @@
     "updated": "2026-10-05",
     "emoji": "🙏",
     "no_antonym": true,
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:merci:phrase",
@@ -84,7 +93,7 @@
     "word": "de rien",
     "language": "fr",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/də.ʁjɛ̃/",
     "definitions": [
       "Réponse polie à un remerciement."
@@ -97,14 +106,17 @@
     "updated": "2026-10-05",
     "emoji": "🤝",
     "no_antonym": true,
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "fr:oui:phrase",
     "word": "oui",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/wi/",
     "definitions": [
       "Mot exprimant une affirmation ou un accord."
@@ -119,14 +131,17 @@
     "antonyms": [
       "non"
     ],
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:non:adverb",
     "word": "non",
     "language": "fr",
     "form": "adverb",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/nɔ̃/",
     "definitions": [
       "Mot exprimant un refus ou une négation."
@@ -141,7 +156,10 @@
     "antonyms": [
       "oui"
     ],
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:excusez-moi:phrase",
@@ -168,7 +186,7 @@
     "word": "désolé",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/de.zɔ.le/",
     "definitions": [
       "Mot exprimant le regret d'une faute ou d'un retard."
@@ -181,14 +199,17 @@
     "updated": "2026-10-05",
     "emoji": "😔",
     "no_antonym": true,
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:bonjour:phrase",
     "word": "bonjour",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/bɔ̃.ʒuʁ/",
     "definitions": [
       "Formule de salutation utilisée pendant la journée."
@@ -203,7 +224,10 @@
     "antonyms": [
       "bonsoir"
     ],
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:bonsoir:phrase",
@@ -312,7 +336,7 @@
     "word": "pardon",
     "language": "fr",
     "form": "phrase",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/paʁ.dɔ̃/",
     "definitions": [
       "Mot utilisé pour s'excuser."
@@ -325,7 +349,10 @@
     "updated": "2026-10-05",
     "emoji": "🙇",
     "no_antonym": true,
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:exercice:noun",
@@ -444,7 +471,8 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "partitive": "du"
   },
   {
     "id": "fr:tennis:noun",
@@ -467,7 +495,8 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "partitive": "du"
   },
   {
     "id": "fr:natation:noun",
@@ -490,7 +519,8 @@
     "gender": "feminine",
     "article": "la",
     "countability": "uncountable",
-    "sub_theme": "social_expressions"
+    "sub_theme": "social_expressions",
+    "partitive": "de la"
   },
   {
     "id": "fr:il-y-a:phrase",

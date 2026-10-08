@@ -11,6 +11,14 @@ All notable changes to this project will be documented in this file.
   - Added partitive agreement/requirement checks and preposition contraction cross-referencing checks in `scripts/validate.cjs`.
   - Added missing partitive and missing contraction checks per language to `scripts/a0-a1-parity.cjs` (errors under `--strict`).
   - Added "Partitives and contractions" rules section and updated entry counting rules in `docs/a0-a1-policy.md`.
+- Completed French A0–A1 level audit and cleaning (Task P2-fr):
+  - Relocated 126 idiom entries out of `vocabulary/fr/a0_a1/` into `vocabulary/fr/b1/idioms.json`.
+  - Moved 25 core A1 essential entries from `vocabulary/fr/a2/` into `vocabulary/fr/a0_a1/` (*et*, *mais*, *parce que*, *ensuite*, *billet*, *pharmacie*, *supermarché*, *village*, *week-end*, *nord*, *est*, *ouest*, *sud*, *cher*, *gratuit*, *gentil*, *correct*, *orage*, *appeler*, *se réveiller*, *voyager*, *rester*, *rencontrer*, *tourner*, *bonne chance*).
+  - Added 4 contracted preposition entries (*au*, *aux*, *du* [sense: contracte], *des* [sense: contracte]) to `vocabulary/fr/a0_a1/prepositions.json` with `contraction` object and `related_forms` links on base prepositions *à* and *de*.
+  - Applied required `partitive` field (*du*, *de la*, *de l'*, *des*) across 66 uncountable, pluralia tantum, and mass nouns in French A0/A1.
+  - Corrected 7 determiners/articles misclassified as nouns in `vocabulary/fr/a0_a1/common_nouns.json` to `form: "determiner"` in `vocabulary/fr/a0_a1/pronouns.json`.
+  - Classified 141 survival-core entries as level A0 and 856 entries as level A1 (total French A0/A1 entries: 997).
+  - Generated `reports/fr-a0-a1-level-audit.md` detailing changes and remaining target deficit.
 
 ### Changed
 - Completed English A0–A1 level audit and established target dataset (`reports/a0_a1_target.json`) following `docs/a0-a1-policy.md`:

@@ -269,7 +269,11 @@
     "updated": "2026-10-05",
     "no_emoji": true,
     "no_antonym": true,
-    "sub_theme": "prepositions_spatial"
+    "sub_theme": "prepositions_spatial",
+    "related_forms": [
+      "fr:au:preposition",
+      "fr:aux:preposition"
+    ]
   },
   {
     "id": "fr:devant:preposition",
@@ -352,7 +356,11 @@
     "domain": "general",
     "theme": "grammar",
     "updated": "2026-10-05",
-    "sub_theme": "prepositions_spatial"
+    "sub_theme": "prepositions_spatial",
+    "related_forms": [
+      "fr:du-contracte:preposition",
+      "fr:des-contracte:preposition"
+    ]
   },
   {
     "id": "fr:a-propos-de:preposition",
@@ -373,5 +381,115 @@
     "theme": "grammar",
     "updated": "2026-10-05",
     "sub_theme": "prepositions_spatial"
+  },
+  {
+    "id": "fr:au:preposition",
+    "word": "au",
+    "language": "fr",
+    "form": "preposition",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "transcription": "o",
+    "no_emoji": true,
+    "no_antonym": true,
+    "contraction": {
+      "preposition": "à",
+      "article": "le"
+    },
+    "definitions": [
+      "Contraction de la préposition à et de l'article défini le."
+    ],
+    "examples": [
+      "Je vais au cinéma ce soir avec mes amis."
+    ],
+    "domain": "general",
+    "theme": "grammar",
+    "sub_theme": "pronouns",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "fr:aux:preposition",
+    "word": "aux",
+    "language": "fr",
+    "form": "preposition",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "transcription": "o",
+    "no_emoji": true,
+    "no_antonym": true,
+    "contraction": {
+      "preposition": "à",
+      "article": "les"
+    },
+    "definitions": [
+      "Contraction de la préposition à et de l'article défini les."
+    ],
+    "examples": [
+      "Il parle aux étudiants après le cours."
+    ],
+    "domain": "general",
+    "theme": "grammar",
+    "sub_theme": "pronouns",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "fr:du-contracte:preposition",
+    "word": "du",
+    "language": "fr",
+    "form": "preposition",
+    "sense": "contracte",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "transcription": "dy",
+    "no_emoji": true,
+    "no_antonym": true,
+    "contraction": {
+      "preposition": "de",
+      "article": "le"
+    },
+    "definitions": [
+      "Contraction de la préposition de et de l'article défini le."
+    ],
+    "examples": [
+      "Le chien du voisin aboie très fort."
+    ],
+    "domain": "general",
+    "theme": "grammar",
+    "sub_theme": "pronouns",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "fr:des-contracte:preposition",
+    "word": "des",
+    "language": "fr",
+    "form": "preposition",
+    "sense": "contracte",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "transcription": "de",
+    "no_emoji": true,
+    "no_antonym": true,
+    "contraction": {
+      "preposition": "de",
+      "article": "les"
+    },
+    "definitions": [
+      "Contraction de la préposition de et de l'article défini les."
+    ],
+    "examples": [
+      "Voici la clé des champs et des portes."
+    ],
+    "domain": "general",
+    "theme": "grammar",
+    "sub_theme": "pronouns",
+    "updated": "2025-05-20"
   }
 ]

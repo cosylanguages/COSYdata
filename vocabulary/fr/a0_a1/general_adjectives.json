@@ -26,7 +26,7 @@
     "word": "petit",
     "language": "fr",
     "form": "adjective",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/pə.ti/",
     "definitions": [
       "Qui est de taille ou de dimension réduite."
@@ -42,14 +42,17 @@
       "grand",
       "gros"
     ],
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:grand:adjective",
     "word": "grand",
     "language": "fr",
     "form": "adjective",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/ɡʁɑ̃/",
     "definitions": [
       "Qui a une taille au-dessus de la moyenne."
@@ -64,7 +67,10 @@
     "antonyms": [
       "petit"
     ],
-    "sub_theme": "quality_condition"
+    "sub_theme": "quality_condition",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:court:adjective",
@@ -874,5 +880,107 @@
       "profond"
     ],
     "sub_theme": "quality_condition"
+  },
+  {
+    "id": "fr:cher:adjective",
+    "word": "cher",
+    "language": "fr",
+    "form": "adjective",
+    "level": "A1",
+    "transcription": "/ʃɛʁ/",
+    "definitions": [
+      "Qui a un prix élevé."
+    ],
+    "examples": [
+      "Cet ordinateur portable est trop cher pour mon budget."
+    ],
+    "domain": "general",
+    "theme": "descriptors",
+    "updated": "2025-05-18",
+    "emoji": "💎",
+    "antonyms": [
+      "bon marché"
+    ],
+    "sub_theme": "physical_appearance",
+    "levels": [
+      "A1"
+    ]
+  },
+  {
+    "id": "fr:gratuit:adjective",
+    "word": "gratuit",
+    "language": "fr",
+    "form": "adjective",
+    "level": "A1",
+    "transcription": "/gratuit/",
+    "feminine": "gratuite",
+    "feminine_plural": "gratuites",
+    "comparative": "plus gratuit",
+    "superlative": "le plus gratuit",
+    "emoji": "🎁",
+    "definitions": [
+      "Qui ne coûte rien."
+    ],
+    "examples": [
+      "Le parking est gratuit pour tous les employés."
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "descriptors",
+    "sub_theme": "physical_appearance",
+    "levels": [
+      "A1"
+    ]
+  },
+  {
+    "id": "fr:gentil:adjective",
+    "word": "gentil",
+    "language": "fr",
+    "form": "adjective",
+    "level": "A1",
+    "transcription": "/gentil/",
+    "feminine": "gentille",
+    "feminine_plural": "gentilles",
+    "comparative": "plus gentil",
+    "superlative": "le plus gentil",
+    "emoji": "❤️",
+    "definitions": [
+      "Généreux et attentionné envers les autres."
+    ],
+    "examples": [
+      "Elle est gentille avec tout le monde, même sous pression."
+    ],
+    "no_antonym": true,
+    "domain": "general",
+    "theme": "descriptors",
+    "sub_theme": "physical_appearance",
+    "levels": [
+      "A1"
+    ]
+  },
+  {
+    "id": "fr:correct:adjective",
+    "word": "correct",
+    "language": "fr",
+    "form": "adjective",
+    "level": "A1",
+    "transcription": "/kɔ.ʁɛkt/",
+    "definitions": [
+      "Qui est exact et sans erreur."
+    ],
+    "examples": [
+      "Votre exercice de grammaire est parfaitement correct."
+    ],
+    "domain": "general",
+    "theme": "descriptors",
+    "updated": "2025-05-18",
+    "emoji": "✅",
+    "antonyms": [
+      "faux"
+    ],
+    "sub_theme": "physical_appearance",
+    "levels": [
+      "A1"
+    ]
   }
 ]

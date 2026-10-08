@@ -13,10 +13,10 @@
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1669 | 474 | 1195 | +0 | +0 | +0 | 0 | 0 |
-| FR | 1094 | 17 | 1077 | -575 | -457 | -118 | 132 | 54 |
-| IT | 1113 | 17 | 1096 | -556 | -457 | -99 | 297 | 56 |
+| FR | 997 | 141 | 856 | -672 | -333 | -339 | 1 | 32 |
+| IT | 1113 | 17 | 1096 | -556 | -457 | -99 | 399 | 56 |
 | RU | 910 | 19 | 891 | -759 | -455 | -304 | 6 | 75 |
-| EL | 794 | 17 | 777 | -875 | -457 | -418 | 13 | 57 |
+| EL | 794 | 17 | 777 | -875 | -457 | -418 | 20 | 57 |
 
 ### Details: EN
 
@@ -26,37 +26,12 @@
 
 ### Details: FR
 
-#### Structural & Policy Violations (132)
+#### Structural & Policy Violations (1)
 
-##### Domain Violations (2)
-- Entry 'fr:diner:verb' domain tag 'food' not allowed at A0-A1
-- Entry 'fr:dejeuner:verb' domain tag 'food' not allowed at A0-A1
-
-##### Form Violations (126)
-- Entry 'fr:avoir-faim:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-soif:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-chaud:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-froid:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-peur:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-besoin-de:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-l-air:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-mal-a:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-envie-de:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-de-la-chance:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-le-temps:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-hate-de:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-raison:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-tort:idiom' form 'idiom' is not an allowed form at A0-A1
-- Entry 'fr:avoir-sommeil:idiom' form 'idiom' is not an allowed form at A0-A1
-- *...and 111 more*
-
-##### Duplicate Word+Form+Sense (4)
-- Word+form+sense 'poisson::noun::' duplicated across IDs: fr:poisson:noun, fr:poisson-aliment:noun
-- Word+form+sense 'ce soir::idiom::' duplicated across IDs: fr:a-ce-soir:idiom, fr:ce-soir:idiom
-- Word+form+sense 'marche::noun::' duplicated across IDs: fr:marche-commerce:noun, fr:marche:noun
+##### Duplicate Word+Form+Sense (1)
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
 
-#### Missing Essentials (54)
+#### Missing Essentials (32)
 
 - **I don't understand** (expected: `je ne comprends pas`)
 - **I don't know** (expected: `je ne sais pas`)
@@ -65,25 +40,25 @@
 - **do you speak English** (expected: `parlez-vous anglais`)
 - **I would like** (expected: `je voudrais`)
 - **happy birthday** (expected: `joyeux anniversaire`)
-- **good luck** (expected: `bonne chance`)
+- **enjoy your meal** (expected: `bon appétit`)
 - **thousand** (expected: `mille`)
-- **to call** (expected: `appeler`)
-- **to wake up** (expected: `se réveiller`)
-- **to travel** (expected: `voyager`)
 - **to need** (expected: `avoir besoin`)
-- **to stay** (expected: `rester`)
-- **to wait for/meet** (expected: `rencontrer`)
 - **boy** (expected: `garçon`)
-- **supermarket** (expected: `supermarché`)
-- **pharmacy** (expected: `pharmacie`)
 - **post office** (expected: `poste/bureau de poste`)
-- **village** (expected: `village`)
+- **beach** (expected: `plage`)
 - **cinema** (expected: `cinéma`)
-- **ticket** (expected: `billet`)
-- **weekend** (expected: `week-end`)
-- **expensive** (expected: `cher`)
 - **cheap** (expected: `bon marché`)
-- *...and 29 more*
+- **newspaper** (expected: `journal`)
+- **umbrella** (expected: `parapluie`)
+- **address** (expected: `adresse`)
+- **lesson** (expected: `leçon/cours`)
+- **thing** (expected: `chose`)
+- **people** (expected: `gens/personnes`)
+- **birthday** (expected: `anniversaire`)
+- **near** (expected: `près`)
+- **right (direction)** (expected: `droite`)
+- **straight on** (expected: `tout droit`)
+- *...and 7 more*
 
 ### Details: IT
 
@@ -129,6 +104,42 @@
 - Word+form+sense 'pesce::noun::' duplicated across IDs: it:pesce-animale:noun, it:pesce:noun
 - Word+form+sense 'strada::noun::' duplicated across IDs: it:strada-modo:noun, it:strada:noun
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
+
+##### Missing Partitives (67)
+- Noun 'capelli' (it:capelli:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'pelle' (it:pelle:noun, countability 'uncountable') missing required partitive
+- Noun 'vestiti' (it:vestiti:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'pantaloni' (it:pantaloni:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'scarpe' (it:scarpe:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'calzini' (it:calzini:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'guanti' (it:guanti:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'musica' (it:musica:noun, countability 'uncountable') missing required partitive
+- Noun 'notizie' (it:notizie:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'salute' (it:salute:noun, countability 'uncountable') missing required partitive
+- Noun 'pace' (it:pace:noun, countability 'uncountable') missing required partitive
+- Noun 'calcio' (it:calcio:noun, countability 'uncountable') missing required partitive
+- Noun 'nuoto' (it:nuoto:noun, countability 'uncountable') missing required partitive
+- Noun 'genitori' (it:genitori:noun, countability 'pluralia_tantum') missing required partitive
+- Noun 'pane' (it:pane:noun, countability 'uncountable') missing required partitive
+- *...and 52 more*
+
+##### Missing Contractions (35)
+- Missing contracted preposition form 'al'
+- Missing contracted preposition form 'allo'
+- Missing contracted preposition form 'alla'
+- Missing contracted preposition form 'all''
+- Missing contracted preposition form 'ai'
+- Missing contracted preposition form 'agli'
+- Missing contracted preposition form 'alle'
+- Missing contracted preposition form 'del'
+- Missing contracted preposition form 'dello'
+- Missing contracted preposition form 'della'
+- Missing contracted preposition form 'dell''
+- Missing contracted preposition form 'dei'
+- Missing contracted preposition form 'degli'
+- Missing contracted preposition form 'delle'
+- Missing contracted preposition form 'nel'
+- *...and 20 more*
 
 #### Missing Essentials (56)
 
@@ -222,6 +233,15 @@
 - Word+form+sense 'δρομος::noun::' duplicated across IDs: el:dromos:noun, el:dromos-street:noun
 - Word+form+sense 'παρακαλω::phrase::' duplicated across IDs: el:parakalo:phrase, el:parakalo-welcome:phrase
 - Word+form+sense 'συζυγος::noun::' duplicated across IDs: el:syzygos-andras:noun, el:syzygos-gynaika:noun
+
+##### Missing Contractions (7)
+- Missing contracted preposition form 'στο'
+- Missing contracted preposition form 'στη'
+- Missing contracted preposition form 'στην'
+- Missing contracted preposition form 'στον'
+- Missing contracted preposition form 'στα'
+- Missing contracted preposition form 'στους'
+- Missing contracted preposition form 'στις'
 
 #### Missing Essentials (57)
 

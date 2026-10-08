@@ -4,7 +4,7 @@
     "word": "maison",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/mɛ.zɔ̃/",
     "definitions": [
       "Bâtiment servant d'habitation à une famille."
@@ -21,7 +21,10 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "maisons",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:appartement:noun",
@@ -148,7 +151,7 @@
     "word": "salon",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/sa.lɔ̃/",
     "definitions": [
       "Pièce de séjour pour se détendre en famille."
@@ -165,14 +168,17 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "salons",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "fr:porte:noun",
     "word": "porte",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/pɔʁt/",
     "definitions": [
       "Panneau mobile fermant l'entrée d'une pièce."
@@ -189,7 +195,10 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "portes",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:fenetre:noun",
@@ -654,7 +663,8 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "partitive": "du"
   },
   {
     "id": "fr:tasse:noun",
