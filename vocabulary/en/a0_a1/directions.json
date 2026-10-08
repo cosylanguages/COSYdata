@@ -11,9 +11,9 @@
     "examples": [
       "Children play outside in the garden."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -22,29 +22,31 @@
     "antonyms": [
       "inside"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:between:preposition",
     "word": "between",
     "language": "en",
     "form": "preposition",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "in the space separating two objects"
     ],
     "examples": [
       "The shop is between two houses."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "C1"
+      "A0"
     ],
     "transcription": "/bɪˈtwiːn/",
     "no_antonym": true,
@@ -65,7 +67,7 @@
     ],
     "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈfɔː.wəd/",
     "emoji": "⏩",
     "antonyms": [
@@ -92,9 +94,9 @@
     "examples": [
       "Drive north along the highway."
     ],
-    "domain": "general, relocation, travel, exam",
+    "domain": "general, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/nɔːθ/",
     "emoji": "⬆️",
     "antonyms": [
@@ -103,7 +105,10 @@
     "transcription_variants": {
       "us": "/nɔːrθ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:south:adverb",
@@ -117,15 +122,18 @@
     "examples": [
       "Birds fly south in autumn."
     ],
-    "domain": "general, relocation, travel, exam",
+    "domain": "general, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/saʊθ/",
     "emoji": "⬇️",
     "antonyms": [
       "north"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:east:adverb",
@@ -139,15 +147,18 @@
     "examples": [
       "Look east to see sunrise."
     ],
-    "domain": "general, relocation, travel, exam",
+    "domain": "general, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/iːst/",
     "emoji": "➡️",
     "antonyms": [
       "west"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:west:adverb",
@@ -161,15 +172,18 @@
     "examples": [
       "The sun moves west in the evening."
     ],
-    "domain": "general, relocation, travel, exam",
+    "domain": "general, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/west/",
     "emoji": "⬅️",
     "antonyms": [
       "east"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:left:adverb",
@@ -183,9 +197,9 @@
     "examples": [
       "Turn left at the street corner."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -194,23 +208,26 @@
     "antonyms": [
       "right"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:right:adverb",
     "word": "right",
     "language": "en",
     "form": "adverb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "towards the right side direction"
     ],
     "examples": [
       "Turn right past the park."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -219,7 +236,14 @@
       "left"
     ],
     "emoji": "➡️",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "right (correct)",
+      "right (direction)"
+    ]
   },
   {
     "id": "en:straight:adjective",
@@ -233,9 +257,9 @@
     "examples": [
       "Draw a straight line with ruler."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -251,7 +275,10 @@
     ],
     "comparative": "more straight",
     "superlative": "most straight",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "straight on"
+    ]
   },
   {
     "id": "en:ahead:adverb",
@@ -267,7 +294,7 @@
     ],
     "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/əˈhed/",
     "emoji": "⬆️",
     "antonyms": [
@@ -293,7 +320,7 @@
     ],
     "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈbæk.wəd/",
     "emoji": "⏪",
     "antonyms": [
@@ -302,23 +329,26 @@
     "transcription_variants": {
       "us": "/ˈbæk.wɚd/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:inside:adverb",
     "word": "inside",
     "language": "en",
     "form": "adverb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "within a building or room"
     ],
     "examples": [
       "Come inside out of the rain."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -331,8 +361,7 @@
       "us": "/ˈɪn.saɪd/"
     },
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "sub_theme": "general"
   },
@@ -350,7 +379,7 @@
     ],
     "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˌɪnˈdɔːz/",
     "emoji": "🏠",
     "antonyms": [
@@ -379,7 +408,7 @@
     ],
     "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˌaʊtˈdɔːz/",
     "emoji": "🏞️",
     "antonyms": [
@@ -406,9 +435,9 @@
     "examples": [
       "The lamp hangs above the table."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -435,9 +464,9 @@
     "examples": [
       "The cat slept below the desk."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -468,7 +497,7 @@
     ],
     "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/bɪˈsaɪd/",
     "no_antonym": true,
     "emoji": "🧍‍♂️🧍‍♀️",
@@ -490,9 +519,9 @@
     "examples": [
       "A flower grew among grass."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/əˈmʌŋ/",
     "no_antonym": true,
     "emoji": "👥",
@@ -514,9 +543,9 @@
     "examples": [
       "We looked everywhere for the key."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -546,9 +575,9 @@
     "examples": [
       "My pen is somewhere in bag."
     ],
-    "domain": "general, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -578,9 +607,9 @@
     "examples": [
       "The lost key was nowhere found."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -610,9 +639,9 @@
     "examples": [
       "You can sit anywhere today."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈen.i.weə/",
     "no_antonym": true,
     "emoji": "📍",
@@ -637,9 +666,9 @@
     "examples": [
       "Put the book on top."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -669,9 +698,9 @@
     "examples": [
       "Write your name at bottom."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -701,9 +730,9 @@
     "examples": [
       "We met in the town centre."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "navigation",
-    "updated": "2026-09-22",
+    "updated": "2025-05-20",
     "transcription": "/ˈsen.tə/",
     "no_antonym": true,
     "emoji": "🎯",
@@ -740,9 +769,9 @@
     "examples": [
       "The sports center opens at eight."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
-    "updated": "2026-09-22",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -761,7 +790,10 @@
     "sub_theme": "asking_giving_directions",
     "countability": "countable",
     "plural_form": "centers",
-    "article": "a"
+    "article": "a",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:edge:adverb",
@@ -775,9 +807,9 @@
     "examples": [
       "Do not stand near edge."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "navigation",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/edʒ/",
     "no_antonym": true,
     "emoji": "🔲",
@@ -792,71 +824,77 @@
     "word": "Where is",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "asking about location of item"
     ],
     "examples": [
       "Where is the train station?"
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/weə s/",
     "no_antonym": true,
     "emoji": "❓",
     "transcription_variants": {
       "us": "/wer s/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:how-do-i-get-to:phrase",
     "word": "How do I get to",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "asking for directions to a place"
     ],
     "examples": [
       "How do I get to the station?"
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/haʊ də aɪ ɡet tuː/",
     "no_antonym": true,
     "emoji": "🗺️",
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:turn-left:phrase",
     "word": "Turn left",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "instruction to turn left"
     ],
     "examples": [
       "Turn left at corner street."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/tɜːn left/",
     "emoji": "↩️",
     "antonyms": [
@@ -865,27 +903,30 @@
     "transcription_variants": {
       "us": "/tɝːn left/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:turn-right:phrase",
     "word": "Turn right",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "instruction to turn right"
     ],
     "examples": [
       "Turn right near big park."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/tɜːn raɪt/",
     "emoji": "↪️",
     "antonyms": [
@@ -894,54 +935,60 @@
     "transcription_variants": {
       "us": "/tɝːn raɪt/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:go-straight:phrase",
     "word": "Go straight",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "instruction to move straight ahead"
     ],
     "examples": [
       "Go straight down this street."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ɡəʊ streɪt/",
     "no_antonym": true,
     "emoji": "⬆️",
     "transcription_variants": {
       "us": "/ɡoʊ streɪt/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:it-s-near:phrase",
     "word": "It's near",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "saying a place is close"
     ],
     "examples": [
       "It's near the red building."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ɪts nɪə/",
     "emoji": "📍",
     "antonyms": [
@@ -950,27 +997,30 @@
     "transcription_variants": {
       "us": "/ɪts nɪr/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:it-s-far:phrase",
     "word": "It's far",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "saying a place is distant"
     ],
     "examples": [
       "It's far away from here."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ɪts fɑː/",
     "emoji": "🗺️",
     "antonyms": [
@@ -979,7 +1029,10 @@
     "transcription_variants": {
       "us": "/ɪts fɑːr/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:excuse-me:phrase",
@@ -993,7 +1046,7 @@
     "examples": [
       "Excuse me, where is bank?"
     ],
-    "domain": "relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
     "tags": [
       "spoken",
@@ -1013,22 +1066,22 @@
     "word": "Can you help me",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "asking someone politely for assistance"
     ],
     "examples": [
       "Can you help me find this street?"
     ],
-    "domain": "spoken, exam",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
-      "A0"
+      "A1"
     ],
     "transcription": "/kæn juː help miː/",
     "no_antonym": true,
@@ -1040,51 +1093,57 @@
     "word": "I'm lost",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "saying you do not know way"
     ],
     "examples": [
       "Help me, I'm lost here."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˌaɪˈem lɒst/",
     "no_antonym": true,
     "emoji": "🗺️",
     "transcription_variants": {
       "us": "/ˌaɪˈem lɑːst/"
     },
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:straight-ahead:phrase",
     "word": "straight ahead",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "moving directly in front"
     ],
     "examples": [
       "The shop is straight ahead."
     ],
-    "domain": "spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/streɪt əˈhed/",
     "no_antonym": true,
     "emoji": "⬆️",
-    "sub_theme": "asking_giving_directions"
+    "sub_theme": "asking_giving_directions",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:next-to:phrase",
@@ -1098,43 +1157,49 @@
     "examples": [
       "Sit down next to me."
     ],
-    "domain": "relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/nekst tuː/",
     "no_antonym": true,
     "emoji": "↔️",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:opposite:phrase",
     "word": "opposite",
     "language": "en",
     "form": "phrase",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "facing something across space"
     ],
     "examples": [
       "The school is opposite park."
     ],
-    "domain": "relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "navigation",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈɒp.ə.zɪt/",
     "no_antonym": true,
     "emoji": "🔃",
     "transcription_variants": {
       "us": "/ˈɑː.pə.zɪt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   }
 ]

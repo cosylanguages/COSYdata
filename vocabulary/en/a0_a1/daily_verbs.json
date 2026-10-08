@@ -4,16 +4,16 @@
     "word": "shop",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to buy goods in a store"
     ],
     "examples": [
       "We shop for fresh fruit on Saturday."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -27,7 +27,13 @@
     "past_participle": "shopped",
     "present_participle": "shopping",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to shop"
+    ]
   },
   {
     "id": "en:hang:verb",
@@ -43,7 +49,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
@@ -57,7 +63,8 @@
     "is_irregular": true,
     "sub_theme": "daily_routines",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:hang"
+      "COSYtools:en-irregular-verbs:hang",
+      "to hang"
     ]
   },
   {
@@ -65,25 +72,21 @@
     "word": "in",
     "language": "en",
     "form": "preposition",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "shows that something is inside another thing"
     ],
     "examples": [
       "The key is in my pocket."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2",
-      "B1",
-      "B2",
-      "C2"
+      "A0"
     ],
     "transcription": "/ɪn/",
     "antonyms": [
@@ -97,23 +100,21 @@
     "word": "run",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to move fast using your legs"
     ],
     "examples": [
       "They run in the park every morning."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2",
-      "B1"
+      "A0"
     ],
     "transcription": "/rʌn/",
     "emoji": "🏃",
@@ -126,7 +127,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:run"
+      "COSYtools:en-irregular-verbs:run",
+      "to run"
     ]
   },
   {
@@ -134,21 +136,21 @@
     "word": "jump",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to push yourself off the ground into the air"
     ],
     "examples": [
       "Children jump high on the grass."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "activities",
     "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/dʒʌmp/",
     "no_antonym": true,
@@ -157,26 +159,28 @@
     "past_participle": "jumped",
     "present_participle": "jumping",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to jump"
+    ]
   },
   {
     "id": "en:throw:verb",
     "word": "throw",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to send something through air with hand"
     ],
     "examples": [
       "Throw the red ball to me."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "transcription": "/θrəʊ/",
     "emoji": "🤾",
@@ -192,7 +196,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:throw"
+      "COSYtools:en-irregular-verbs:throw",
+      "to throw"
     ]
   },
   {
@@ -209,7 +214,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/weɪ/",
     "no_antonym": true,
     "emoji": "⚖️",
@@ -221,7 +226,10 @@
     "past_participle": "weighed",
     "present_participle": "weighing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to weigh"
+    ]
   },
   {
     "id": "en:push:verb",
@@ -235,9 +243,9 @@
     "examples": [
       "Push the heavy door open."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
@@ -250,28 +258,31 @@
     "past_participle": "pushed",
     "present_participle": "pushing",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to push"
+    ]
   },
   {
     "id": "en:walk:verb",
     "word": "walk",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to move on foot at a regular speed"
     ],
     "examples": [
       "We walk to school every morning."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/wɔːk/",
     "emoji": "🚶",
@@ -285,29 +296,31 @@
     "past_participle": "walked",
     "present_participle": "walking",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to walk"
+    ]
   },
   {
     "id": "en:hold:verb",
     "word": "hold",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to carry something in hands or arms"
     ],
     "examples": [
       "Hold my hand crossing the street."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "B1"
+      "A0"
     ],
     "transcription": "/həʊld/",
     "emoji": "🤲",
@@ -323,7 +336,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:hold"
+      "COSYtools:en-irregular-verbs:hold",
+      "to hold"
     ]
   },
   {
@@ -331,16 +345,16 @@
     "word": "water",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to pour liquid on plants to grow"
     ],
     "examples": [
       "Water the green flowers every morning."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -354,7 +368,13 @@
     "past_participle": "watered",
     "present_participle": "watering",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to water"
+    ]
   },
   {
     "id": "en:share:verb",
@@ -368,9 +388,9 @@
     "examples": [
       "Share your food with your friend."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -394,7 +414,10 @@
         "example": "Share the food with your brother."
       }
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to share"
+    ]
   },
   {
     "id": "en:carry:verb",
@@ -408,9 +431,9 @@
     "examples": [
       "Carry the heavy bag to class."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -428,7 +451,10 @@
     "past_participle": "carried",
     "present_participle": "carrying",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to carry"
+    ]
   },
   {
     "id": "en:drop:verb",
@@ -442,9 +468,9 @@
     "examples": [
       "Do not drop the glass cup."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -465,27 +491,28 @@
     "past_participle": "dropped",
     "present_participle": "dropping",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to drop"
+    ]
   },
   {
     "id": "en:catch:verb",
     "word": "catch",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to stop and hold a moving ball"
     ],
     "examples": [
       "Catch the ball with both hands."
     ],
-    "domain": "general, travel, exam",
+    "domain": "general, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
-      "A1",
-      "A2",
-      "B1"
+      "A0"
     ],
     "transcription": "/kætʃ/",
     "emoji": "🤾",
@@ -499,7 +526,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:catch"
+      "COSYtools:en-irregular-verbs:catch",
+      "to catch"
     ]
   },
   {
@@ -507,7 +535,7 @@
     "word": "point",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to show position using finger"
     ],
@@ -516,13 +544,12 @@
     ],
     "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "B1"
+      "A0"
     ],
     "transcription": "/pɔɪnt/",
     "no_antonym": true,
@@ -537,7 +564,10 @@
         "example": "Point at the map."
       }
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to point"
+    ]
   },
   {
     "id": "en:agree:verb",
@@ -551,9 +581,9 @@
     "examples": [
       "I agree with your good idea."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -578,7 +608,8 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-verb-prep:agree"
+      "COSYtools:en-verb-prep:agree",
+      "to agree"
     ]
   },
   {
@@ -593,9 +624,9 @@
     "examples": [
       "They disagree on the right answer."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -618,7 +649,10 @@
         "example": "She disagrees with the decision."
       }
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to disagree"
+    ]
   },
   {
     "id": "en:guess:verb",
@@ -634,9 +668,9 @@
       "Can you guess how old he is?",
       "I guess she is about thirty."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -654,6 +688,9 @@
     "sub_theme": "general",
     "synonyms": [
       "estimate"
+    ],
+    "related_forms": [
+      "to guess"
     ]
   },
   {
@@ -668,9 +705,9 @@
     "examples": [
       "Do not argue with your brother."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -697,7 +734,10 @@
         "example": "Do not argue with him."
       }
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to argue"
+    ]
   },
   {
     "id": "en:touch:verb",
@@ -711,9 +751,9 @@
     "examples": [
       "Touch the soft fur of dog."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -728,7 +768,10 @@
     "past_participle": "touched",
     "present_participle": "touching",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to touch"
+    ]
   },
   {
     "id": "en:spend:verb",
@@ -742,9 +785,9 @@
     "examples": [
       "We spend money at the shop."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -765,7 +808,11 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:spend"
+      "COSYtools:en-irregular-verbs:spend",
+      "to spend"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -780,9 +827,9 @@
     "examples": [
       "Save your coins in a jar."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -800,23 +847,26 @@
     "past_participle": "saved",
     "present_participle": "saving",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to save"
+    ]
   },
   {
     "id": "en:fly:verb",
     "word": "fly",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to move through air using wings"
     ],
     "examples": [
       "Birds fly high in blue sky."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -829,7 +879,11 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:fly"
+      "COSYtools:en-irregular-verbs:fly",
+      "to fly"
+    ],
+    "levels": [
+      "A0"
     ]
   },
   {
@@ -837,16 +891,16 @@
     "word": "dress",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to put on clothes on body"
     ],
     "examples": [
       "Dress warmly before going outside."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -859,7 +913,13 @@
     "past_participle": "dressed",
     "present_participle": "dressing",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to dress"
+    ]
   },
   {
     "id": "en:brush:verb",
@@ -875,7 +935,7 @@
     ],
     "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -890,7 +950,10 @@
     "past_participle": "brushed",
     "present_participle": "brushing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to brush"
+    ]
   },
   {
     "id": "en:lock:verb",
@@ -904,9 +967,9 @@
     "examples": [
       "Lock the door when you leave."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/lɒk/",
     "emoji": "🔒",
     "antonyms": [
@@ -923,7 +986,10 @@
     "past_participle": "locked",
     "present_participle": "locking",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to lock"
+    ]
   },
   {
     "id": "en:apologize:verb",
@@ -937,9 +1003,9 @@
     "examples": [
       "Apologize to your teacher for delay."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -965,7 +1031,8 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-verb-prep:apologize"
+      "COSYtools:en-verb-prep:apologize",
+      "to apologize"
     ]
   },
   {
@@ -981,9 +1048,9 @@
       "Forgive your friend for the mistake.",
       "She eventually forgave him for the mistake."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1005,7 +1072,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:forgive"
+      "COSYtools:en-irregular-verbs:forgive",
+      "to forgive"
     ],
     "synonyms": [
       "pardon"
@@ -1016,14 +1084,14 @@
     "word": "shower",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to wash your body standing under falling water"
     ],
     "examples": [
       "I shower every morning before breakfast."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
     "updated": "2025-05-20",
     "transcription": "/ʃaʊə/",
@@ -1036,7 +1104,13 @@
     "past_participle": "showered",
     "present_participle": "showering",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to shower"
+    ]
   },
   {
     "id": "en:bathe:verb",
@@ -1054,7 +1128,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "transcription": "/beɪð/",
     "no_antonym": true,
     "emoji": "🛁",
@@ -1070,6 +1144,9 @@
     "levels": [
       "A1",
       "A2"
+    ],
+    "related_forms": [
+      "to bathe"
     ]
   },
   {
@@ -1086,7 +1163,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ʌnˈdres/",
     "emoji": "🥼",
     "antonyms": [
@@ -1096,7 +1173,13 @@
     "past_participle": "undressed",
     "present_participle": "undressing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to undress"
+    ]
   },
   {
     "id": "en:comb:verb",
@@ -1112,7 +1195,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1126,7 +1209,13 @@
     "past_participle": "combed",
     "present_participle": "combing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to comb"
+    ]
   },
   {
     "id": "en:shave:verb",
@@ -1142,7 +1231,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ʃeɪv/",
     "no_antonym": true,
     "emoji": "🪒",
@@ -1152,7 +1241,11 @@
     "is_irregular": false,
     "sub_theme": "daily_routines",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:shave"
+      "COSYtools:en-irregular-verbs:shave",
+      "to shave"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -1167,9 +1260,9 @@
     "examples": [
       "Switch on the room light now."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/swɪtʃ/",
     "no_antonym": true,
     "emoji": "🎛️",
@@ -1181,7 +1274,10 @@
     "past_participle": "switched",
     "present_participle": "switching",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to switch"
+    ]
   },
   {
     "id": "en:plug:verb",
@@ -1195,9 +1291,9 @@
     "examples": [
       "Plug the charger into wall."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/plʌɡ/",
     "emoji": "🔌",
     "antonyms": [
@@ -1211,7 +1307,10 @@
     "past_participle": "plugged",
     "present_participle": "plugging",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to plug"
+    ]
   },
   {
     "id": "en:unplug:verb",
@@ -1227,7 +1326,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ʌnˈplʌɡ/",
     "emoji": "🔌",
     "antonyms": [
@@ -1237,7 +1336,13 @@
     "past_participle": "unplugged",
     "present_participle": "unplugging",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to unplug"
+    ]
   },
   {
     "id": "en:unlock:verb",
@@ -1253,7 +1358,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ʌnˈlɒk/",
     "emoji": "🔓",
     "antonyms": [
@@ -1266,7 +1371,13 @@
     "past_participle": "unlocked",
     "present_participle": "unlocking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to unlock"
+    ]
   },
   {
     "id": "en:fold:verb",
@@ -1282,7 +1393,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/fəʊld/",
     "emoji": "👕",
     "antonyms": [
@@ -1299,7 +1410,10 @@
     "past_participle": "folded",
     "present_participle": "folding",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to fold"
+    ]
   },
   {
     "id": "en:sweep:verb",
@@ -1315,7 +1429,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/swiːp/",
     "no_antonym": true,
     "emoji": "🧹",
@@ -1329,7 +1443,8 @@
     "is_irregular": true,
     "sub_theme": "daily_routines",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:sweep"
+      "COSYtools:en-irregular-verbs:sweep",
+      "to sweep"
     ]
   },
   {
@@ -1346,7 +1461,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/mɒp/",
     "no_antonym": true,
     "emoji": "🧹",
@@ -1357,7 +1472,13 @@
     "past_participle": "mopped",
     "present_participle": "mopping",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to mop"
+    ]
   },
   {
     "id": "en:pour:verb",
@@ -1373,7 +1494,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/pɔː/",
     "no_antonym": true,
     "emoji": "🫗",
@@ -1388,7 +1509,10 @@
     "past_participle": "poured",
     "present_participle": "pouring",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to pour"
+    ]
   },
   {
     "id": "en:mix:verb",
@@ -1402,9 +1526,9 @@
     "examples": [
       "Mix flour and sugar in bowl."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
@@ -1418,7 +1542,10 @@
     "past_participle": "mixed",
     "present_participle": "mixing",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to mix"
+    ]
   },
   {
     "id": "en:stir:verb",
@@ -1434,9 +1561,9 @@
       "Stir the soup continuously so it does not burn.",
       "She stirred sugar into her tea."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
@@ -1455,6 +1582,9 @@
     "synonyms": [
       "mix",
       "blend"
+    ],
+    "related_forms": [
+      "to stir"
     ]
   },
   {
@@ -1469,9 +1599,9 @@
     "examples": [
       "Bake a sweet cake for party."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1486,7 +1616,10 @@
     "past_participle": "baked",
     "present_participle": "baking",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to bake"
+    ]
   },
   {
     "id": "en:fry:verb",
@@ -1500,9 +1633,9 @@
     "examples": [
       "Fry two eggs for breakfast."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
@@ -1514,7 +1647,10 @@
     "past_participle": "fried",
     "present_participle": "frying",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to fry"
+    ]
   },
   {
     "id": "en:boil:verb",
@@ -1528,9 +1664,9 @@
     "examples": [
       "Boil fresh potatoes for dinner."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
@@ -1544,7 +1680,10 @@
     "past_participle": "boiled",
     "present_participle": "boiling",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to boil"
+    ]
   },
   {
     "id": "en:roast:verb",
@@ -1558,9 +1697,9 @@
     "examples": [
       "She roasts chicken for Sunday dinner."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
@@ -1575,7 +1714,10 @@
     "past_participle": "roasted",
     "present_participle": "roasting",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to roast"
+    ]
   },
   {
     "id": "en:pack:verb",
@@ -1591,7 +1733,7 @@
     ],
     "domain": "general, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/pæk/",
     "emoji": "🧳",
     "antonyms": [
@@ -1605,7 +1747,10 @@
     "past_participle": "packed",
     "present_participle": "packing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to pack"
+    ]
   },
   {
     "id": "en:unpack:verb",
@@ -1619,9 +1764,9 @@
     "examples": [
       "Unpack your clothes in the room."
     ],
-    "domain": "general, travel, exam",
+    "domain": "general, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ʌnˈpæk/",
     "emoji": "🧳",
     "antonyms": [
@@ -1631,7 +1776,13 @@
     "past_participle": "unpacked",
     "present_participle": "unpacking",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to unpack"
+    ]
   },
   {
     "id": "en:repair:verb",
@@ -1646,9 +1797,9 @@
       "He repaired the broken bicycle today.",
       "The landlord is slow to repair things in the flat."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1672,6 +1823,9 @@
     "sub_theme": "general",
     "synonyms": [
       "fix"
+    ],
+    "related_forms": [
+      "to repair"
     ]
   },
   {
@@ -1686,9 +1840,9 @@
     "examples": [
       "Can you fix my broken desk lamp?"
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1704,7 +1858,10 @@
     "past_participle": "fixed",
     "present_participle": "fixing",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to fix"
+    ]
   },
   {
     "id": "en:build:verb",
@@ -1720,9 +1877,9 @@
       "They are building a new office block.",
       "She built a strong reputation over ten years."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1741,7 +1898,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:build"
+      "COSYtools:en-irregular-verbs:build",
+      "to build"
     ]
   },
   {
@@ -1749,18 +1907,18 @@
     "word": "paint",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to cover a surface with color liquid"
     ],
     "examples": [
       "She paints the wooden door red."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/peɪnt/",
     "no_antonym": true,
@@ -1769,7 +1927,10 @@
     "past_participle": "painted",
     "present_participle": "painting",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to paint"
+    ]
   },
   {
     "id": "en:decorate:verb",
@@ -1786,7 +1947,7 @@
     ],
     "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1808,6 +1969,9 @@
     "synonyms": [
       "redecorate",
       "interior decoration"
+    ],
+    "related_forms": [
+      "to decorate"
     ]
   },
   {
@@ -1822,9 +1986,9 @@
     "examples": [
       "Can I borrow your blue pen please?"
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1852,7 +2016,8 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-verb-prep:borrow"
+      "COSYtools:en-verb-prep:borrow",
+      "to borrow"
     ]
   },
   {
@@ -1868,9 +2033,9 @@
       "I lend my pencil to my classmate.",
       "The bank refused to lend him more money."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1889,7 +2054,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:lend"
+      "COSYtools:en-irregular-verbs:lend",
+      "to lend"
     ],
     "synonyms": [
       "give"
@@ -1900,16 +2066,16 @@
     "word": "count",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to name numbers in order to find total"
     ],
     "examples": [
       "Count the books on the table."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1917,14 +2083,16 @@
     "no_antonym": true,
     "emoji": "🔢",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "past_tense": "counted",
     "past_participle": "counted",
     "present_participle": "counting",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to count"
+    ]
   },
   {
     "id": "en:measure:verb",
@@ -1942,7 +2110,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "transcription": "/ˈmeʒ.ə/",
     "no_antonym": true,
     "emoji": "📏",
@@ -1961,6 +2129,9 @@
     "sub_theme": "daily_routines",
     "synonyms": [
       "calculate"
+    ],
+    "related_forms": [
+      "to measure"
     ]
   },
   {
@@ -1975,7 +2146,7 @@
     "examples": [
       "The children laugh at the funny story."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
     "updated": "2025-05-20",
     "tags": [
@@ -2004,7 +2175,8 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-verb-prep:laugh"
+      "COSYtools:en-verb-prep:laugh",
+      "to laugh"
     ]
   },
   {
@@ -2012,21 +2184,21 @@
     "word": "smile",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to curve your mouth upwards when you are happy"
     ],
     "examples": [
       "She smiled when she saw her mother."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
     "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/smaɪl/",
     "emoji": "😊",
@@ -2045,7 +2217,8 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-verb-prep:smile"
+      "COSYtools:en-verb-prep:smile",
+      "to smile"
     ]
   },
   {
@@ -2060,9 +2233,9 @@
     "examples": [
       "Small babies cry when they are hungry."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -2078,7 +2251,10 @@
     "past_participle": "cried",
     "present_participle": "crying",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to cry"
+    ]
   },
   {
     "id": "en:shout:verb",
@@ -2092,9 +2268,9 @@
     "examples": [
       "Do not shout inside the classroom."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -2119,7 +2295,8 @@
     ],
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-verb-prep:shout"
+      "COSYtools:en-verb-prep:shout",
+      "to shout"
     ]
   },
   {
@@ -2134,9 +2311,9 @@
     "examples": [
       "She whispered a secret in my ear."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -2156,7 +2333,10 @@
     "past_participle": "whispered",
     "present_participle": "whispering",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to whisper"
+    ]
   },
   {
     "id": "en:pull:verb",
@@ -2170,9 +2350,9 @@
     "examples": [
       "Pull the door open to enter."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
@@ -2185,7 +2365,10 @@
     "past_participle": "pulled",
     "present_participle": "pulling",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to pull"
+    ]
   },
   {
     "id": "en:lift:verb",
@@ -2199,9 +2382,9 @@
     "examples": [
       "He lifted the heavy box easily."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/lɪft/",
     "emoji": "🏋️",
     "antonyms": [
@@ -2215,35 +2398,40 @@
     "past_participle": "lifted",
     "present_participle": "lifting",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to lift"
+    ]
   },
   {
     "id": "en:kick:verb",
     "word": "kick",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to hit something with your foot"
     ],
     "examples": [
       "Kick the soccer ball hard."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/kɪk/",
     "no_antonym": true,
     "emoji": "⚽",
     "levels": [
-      "A1",
-      "B1"
+      "A0"
     ],
     "past_tense": "kicked",
     "past_participle": "kicked",
     "present_participle": "kicking",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to kick"
+    ]
   },
   {
     "id": "en:climb:verb",
@@ -2257,9 +2445,9 @@
     "examples": [
       "Monkeys climb tall trees quickly."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/klaɪm/",
     "no_antonym": true,
     "emoji": "🧗",
@@ -2267,23 +2455,29 @@
     "past_participle": "climbed",
     "present_participle": "climbing",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to climb"
+    ]
   },
   {
     "id": "en:swim:verb",
     "word": "swim",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to move through water using arms legs"
     ],
     "examples": [
       "We swim in the lake during summer."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -2296,7 +2490,11 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:swim"
+      "COSYtools:en-irregular-verbs:swim",
+      "to swim"
+    ],
+    "levels": [
+      "A0"
     ]
   },
   {
@@ -2313,7 +2511,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/daɪv/",
     "no_antonym": true,
     "emoji": "🤿",
@@ -2327,7 +2525,8 @@
     "is_irregular": false,
     "sub_theme": "daily_routines",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:dive"
+      "COSYtools:en-irregular-verbs:dive",
+      "to dive"
     ]
   },
   {
@@ -2344,7 +2543,7 @@
     ],
     "domain": "general",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/krɔːl/",
     "no_antonym": true,
     "emoji": "👶",
@@ -2359,7 +2558,10 @@
     "past_participle": "crawled",
     "present_participle": "crawling",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to crawl"
+    ]
   },
   {
     "id": "en:hug:verb",
@@ -2386,7 +2588,13 @@
     "past_participle": "hugged",
     "present_participle": "hugging",
     "is_irregular": false,
-    "sub_theme": "social_interaction"
+    "sub_theme": "social_interaction",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to hug"
+    ]
   },
   {
     "id": "en:kiss:verb",
@@ -2417,7 +2625,10 @@
     "past_participle": "kissed",
     "present_participle": "kissing",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "related_forms": [
+      "to kiss"
+    ]
   },
   {
     "id": "en:check:verb",
@@ -2431,9 +2642,9 @@
     "examples": [
       "Check your answers before submitting."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "activities",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -2444,14 +2655,20 @@
     "past_participle": "checked",
     "present_participle": "checking",
     "is_irregular": false,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to check"
+    ]
   },
   {
     "id": "en:cross:verb",
     "word": "cross",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to go from one side of a road or bridge to the other"
     ],
@@ -2459,17 +2676,16 @@
       "Always look both ways before you cross the street.",
       "Cross the wrong answer."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, travel",
     "theme": "daily_verbs",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/krɒs/",
     "transcription_variants": {
       "us": "/krɑːs/"
     },
     "emoji": "🚶",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "past_tense": "crossed",
     "past_participle": "crossed",
@@ -2481,6 +2697,9 @@
     ],
     "antonyms": [
       "tick"
+    ],
+    "related_forms": [
+      "to cross"
     ]
   },
   {
@@ -2497,9 +2716,9 @@
       "Let me help you with those bags.",
       "She let the dog out into the garden."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "daily_verbs",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "transcription": "/let/",
     "transcription_variants": {
       "us": "/let/"
@@ -2514,7 +2733,8 @@
     "is_irregular": true,
     "sub_theme": "daily_routines",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:let"
+      "COSYtools:en-irregular-verbs:let",
+      "to let"
     ],
     "levels": [
       "A1",
@@ -2526,7 +2746,7 @@
     "word": "dance",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "is_irregular": false,
     "transcription": {
       "uk": "/dɑːns/",
@@ -2544,14 +2764,20 @@
     "theme": "activities",
     "sub_theme": "hobbies",
     "concept": "en:dance:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to dance"
+    ]
   },
   {
     "id": "en:drive:verb",
     "word": "drive",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "is_irregular": true,
     "past_tense": "drove",
     "past_participle": "driven",
@@ -2571,14 +2797,20 @@
     "theme": "travel",
     "sub_theme": "vehicles_transportation",
     "concept": "en:drive:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to drive"
+    ]
   },
   {
     "id": "en:ride:verb",
     "word": "ride",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "is_irregular": true,
     "past_tense": "rode",
     "past_participle": "ridden",
@@ -2598,7 +2830,13 @@
     "theme": "travel",
     "sub_theme": "vehicles_transportation",
     "concept": "en:ride:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to ride"
+    ]
   },
   {
     "id": "en:hope:verb",
@@ -2623,7 +2861,13 @@
     "theme": "emotions",
     "sub_theme": "positive_feelings",
     "concept": "en:hope:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to hope"
+    ]
   },
   {
     "id": "en:wish:verb",
@@ -2648,14 +2892,20 @@
     "theme": "communication",
     "sub_theme": "courtesy",
     "concept": "en:wish:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to wish"
+    ]
   },
   {
     "id": "en:book:verb",
     "word": "book",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "is_irregular": false,
     "transcription": {
       "uk": "/bʊk/",
@@ -2673,7 +2923,13 @@
     "theme": "travel",
     "sub_theme": "transit_booking",
     "concept": "en:book:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to book"
+    ]
   },
   {
     "id": "en:order:verb",
@@ -2698,14 +2954,20 @@
     "theme": "food",
     "sub_theme": "meals",
     "concept": "en:order:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to order"
+    ]
   },
   {
     "id": "en:plant:verb",
     "word": "plant",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "is_irregular": false,
     "transcription": {
       "uk": "/plɑːnt/",
@@ -2723,6 +2985,12 @@
     "theme": "nature",
     "sub_theme": "plants_trees",
     "concept": "en:plant:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to plant"
+    ]
   }
 ]

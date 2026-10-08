@@ -11,9 +11,9 @@
     "examples": [
       "He ate a piece of cake."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "pieces",
     "tags": [
       "spoken"
@@ -23,26 +23,28 @@
     "emoji": "🧩",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:end:verb",
     "word": "end",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "to finish doing something or reach the end"
     ],
     "examples": [
       "The school class will end at three."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "general",
     "updated": "2025-05-20",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "transcription": "/end/",
     "emoji": "🏁",
@@ -54,7 +56,10 @@
     "past_participle": "ended",
     "present_participle": "ending",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to end"
+    ]
   },
   {
     "id": "en:news:noun",
@@ -68,9 +73,9 @@
     "examples": [
       "We heard good news today."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -99,9 +104,9 @@
     "examples": [
       "Painting eggs is an old tradition."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "traditions",
     "tags": [
       "spoken"
@@ -147,7 +152,10 @@
     "past_participle": "sounded",
     "present_participle": "sounding",
     "is_irregular": false,
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "related_forms": [
+      "to sound"
+    ]
   },
   {
     "id": "en:light:noun",
@@ -161,7 +169,7 @@
     "examples": [
       "Turn on the room light."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "general",
     "updated": "2025-05-20",
     "plural_form": "lights",
@@ -182,6 +190,9 @@
     "secondary_themes": [
       "nature",
       "housing"
+    ],
+    "related_forms": [
+      "light (weight)"
     ]
   },
   {
@@ -196,9 +207,9 @@
     "examples": [
       "Cats see well in dark."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -211,7 +222,10 @@
     "transcription_variants": {
       "us": "/dɑːrk/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:group:noun",
@@ -225,9 +239,9 @@
     "examples": [
       "A group of students visited us."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "groups",
     "tags": [
       "spoken"
@@ -255,9 +269,9 @@
     "examples": [
       "She ate the whole apple."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "wholes",
     "transcription": "/həʊl/",
     "emoji": "🔴",
@@ -287,9 +301,9 @@
     "examples": [
       "Stand on the right side."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "sides",
     "tags": [
       "spoken"
@@ -314,22 +328,22 @@
     "word": "example",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a thing showing how something works"
     ],
     "examples": [
       "Look at example on board."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "examples",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/ɪɡˈzɑːm.pəl/",
     "no_antonym": true,
@@ -353,9 +367,9 @@
     "examples": [
       "I have a good idea."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "ideas",
     "tags": [
       "spoken"
@@ -368,7 +382,10 @@
       "us": "/aɪˈdiː.ə/"
     },
     "article": "an",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:plan:noun",
@@ -382,9 +399,9 @@
     "examples": [
       "We made a plan for weekend."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "plans",
     "tags": [
       "spoken"
@@ -394,7 +411,10 @@
     "emoji": "📋",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:problem:noun",
@@ -408,9 +428,9 @@
     "examples": [
       "We solved the math problem together."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "problems",
     "tags": [
       "spoken"
@@ -444,9 +464,9 @@
       "He found a solution to sum.",
       "We need to find a solution to this problem quickly."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "solutions",
     "tags": [
       "spoken"
@@ -479,9 +499,9 @@
     "examples": [
       "Tell me the reason for delay."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "reasons",
     "tags": [
       "spoken"
@@ -509,9 +529,9 @@
     "examples": [
       "Ask for information at desk."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -540,14 +560,17 @@
     "examples": [
       "Teacher gave good advice."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "countability": "uncountable",
     "transcription": "/ədˈvaɪs/",
     "no_antonym": true,
     "emoji": "💡",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:list:noun",
@@ -561,9 +584,9 @@
     "examples": [
       "Write a shopping list today."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "lists",
     "tags": [
       "spoken"
@@ -573,7 +596,10 @@
     "emoji": "📝",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:team:noun",
@@ -587,9 +613,9 @@
     "examples": [
       "Our team won soccer game."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "teams",
     "tags": [
       "spoken"
@@ -616,9 +642,9 @@
     "examples": [
       "She joined the chess club."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "clubs",
     "levels": [
       "A1",
@@ -643,9 +669,9 @@
     "examples": [
       "He is a member of club."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "members",
     "levels": [
       "A1",
@@ -675,7 +701,7 @@
     ],
     "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "noises",
     "tags": [
       "spoken"
@@ -707,7 +733,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "voices",
     "transcription": "/vɔɪs/",
     "no_antonym": true,
@@ -762,7 +788,7 @@
     "examples": [
       "Taste this fresh apple soup now."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-05-20",
     "tags": [
@@ -779,7 +805,10 @@
     "past_participle": "tasted",
     "present_participle": "tasting",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to taste"
+    ]
   },
   {
     "id": "en:touch:noun",
@@ -793,9 +822,9 @@
     "examples": [
       "Soft fur feels nice touch."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -825,7 +854,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "images",
     "transcription": "/ˈɪm.ɪdʒ/",
     "no_antonym": true,
@@ -847,16 +876,16 @@
     "word": "drawing",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a picture made using pencil"
     ],
     "examples": [
       "The child made a cat drawing."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "drawings",
     "tags": [
       "spoken"
@@ -869,8 +898,7 @@
       "us": "/ˈdrɑː.ɪŋ/"
     },
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "article": "a",
     "sub_theme": "general"
@@ -889,7 +917,7 @@
     ],
     "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "shadows",
     "tags": [
       "spoken"
@@ -913,16 +941,16 @@
     "word": "part",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a piece of a whole thing"
     ],
     "examples": [
       "Read the first part of book."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "parts",
     "tags": [
       "spoken"
@@ -937,7 +965,10 @@
       "us": "/pɑːrt/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:beginning:noun",
@@ -953,7 +984,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "beginnings",
     "transcription": "/bɪˈɡɪn.ɪŋ/",
     "emoji": "🎬",
@@ -962,7 +993,10 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:middle:noun",
@@ -976,9 +1010,9 @@
     "examples": [
       "Stand in middle of room."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "middles",
     "tags": [
       "spoken"
@@ -1011,9 +1045,9 @@
       "Is there any chance of rain today?",
       "Take a chance and apply for the role."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "chances",
     "tags": [
       "spoken"
@@ -1050,7 +1084,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/lʌk/",
     "no_antonym": true,
     "emoji": "🍀",
@@ -1076,9 +1110,9 @@
     "examples": [
       "I made a spelling mistake."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "mistakes",
     "tags": [
       "spoken"
@@ -1088,7 +1122,10 @@
     "emoji": "❌",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:rule:noun",
@@ -1102,9 +1139,9 @@
     "examples": [
       "Follow the school safety rule."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "rules",
     "tags": [
       "spoken"
@@ -1133,9 +1170,9 @@
       "Everyone must obey the law.",
       "It is against the law to steal."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "laws",
     "tags": [
       "spoken"
@@ -1172,7 +1209,7 @@
     ],
     "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "symbols",
     "tags": [
       "spoken"
@@ -1204,7 +1241,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "labels",
     "levels": [
       "A1",
@@ -1234,9 +1271,9 @@
       "Shaking hands is old custom.",
       "It is a local custom to wear bright colors."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "customs",
     "tags": [
       "spoken"
@@ -1270,9 +1307,9 @@
       "I love learning about different cultures.",
       "London is a city with a very diverse culture."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "cultures",
     "tags": [
       "spoken"
@@ -1311,9 +1348,9 @@
     "examples": [
       "Peace came after long war."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "wars",
     "transcription": "/wɔː/",
     "emoji": "⚔️",
@@ -1343,9 +1380,9 @@
     "examples": [
       "We hope for world peace."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/piːs/",
     "emoji": "🕊️",
     "antonyms": [
@@ -1370,9 +1407,9 @@
     "examples": [
       "We studied history in school."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1402,7 +1439,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "futures",
     "transcription": "/ˈfjuː.tʃə/",
     "emoji": "🔮",
@@ -1414,7 +1451,10 @@
       "us": "/ˈfjuː.tʃɚ/"
     },
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:present:noun",
@@ -1428,9 +1468,9 @@
     "examples": [
       "She received a birthday present."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "presents",
     "tags": [
       "spoken"
@@ -1492,7 +1532,7 @@
       "Never lose hope during difficult times.",
       "There is still hope for recovery."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-05-20",
     "plural_form": "hopes",
@@ -1529,7 +1569,7 @@
     "examples": [
       "Make a wish on birthday."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "updated": "2025-05-20",
     "plural_form": "wishes",
@@ -1561,7 +1601,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "secrets",
     "transcription": "/ˈsiː.krət/",
     "no_antonym": true,
@@ -1588,7 +1628,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "surprises",
     "transcription": "/səˈpraɪz/",
     "no_antonym": true,
@@ -1616,9 +1656,9 @@
     "examples": [
       "He bought a gift for mother."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "gifts",
     "tags": [
       "spoken"
@@ -1648,7 +1688,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "prizes",
     "transcription": "/praɪz/",
     "no_antonym": true,
@@ -1675,7 +1715,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "rewards",
     "transcription": "/rɪˈwɔːd/",
     "no_antonym": true,
@@ -1696,20 +1736,20 @@
     "word": "address",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "details of where house located"
     ],
     "examples": [
       "Write your home address here."
     ],
-    "domain": "relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "general",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "addresses",
     "countability": "countable",
     "transcription": "/əˈdres/",
@@ -1722,6 +1762,9 @@
     "sub_theme": "general",
     "secondary_themes": [
       "navigation"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -1738,13 +1781,13 @@
       "Tell me a story.",
       "I like stories about animals."
     ],
-    "domain": "spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "stories",
     "transcription": "/ˈstɔː.ri/",
     "no_antonym": true,
@@ -1756,8 +1799,7 @@
     "article": "a",
     "sub_theme": "general",
     "levels": [
-      "A0",
-      "A2"
+      "A0"
     ]
   },
   {
@@ -1765,7 +1807,7 @@
     "word": "place",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "a specific location or area site"
     ],
@@ -1773,13 +1815,13 @@
       "This park is a nice place.",
       "This is a nice place."
     ],
-    "domain": "spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "places",
     "transcription": "/pleɪs/",
     "no_antonym": true,
@@ -1788,8 +1830,7 @@
     "article": "a",
     "sub_theme": "general",
     "levels": [
-      "A0",
-      "A2"
+      "A1"
     ]
   },
   {
@@ -1797,7 +1838,7 @@
     "word": "thing",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "an object or item not person"
     ],
@@ -1805,13 +1846,13 @@
       "What is that red thing on table?",
       "What is that thing?"
     ],
-    "domain": "spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "things",
     "transcription": "/θɪŋ/",
     "no_antonym": true,
@@ -1820,8 +1861,7 @@
     "article": "a",
     "sub_theme": "general",
     "levels": [
-      "A0",
-      "A2"
+      "A1"
     ]
   },
   {
@@ -1829,34 +1869,37 @@
     "word": "type",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "a category or kind of thing"
     ],
     "examples": [
       "What type of food is this?"
     ],
-    "domain": "spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "general",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "types",
     "transcription": "/taɪp/",
     "no_antonym": true,
     "emoji": "🏷️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:moment:noun",
     "word": "moment",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "a very brief period time"
     ],
@@ -1865,13 +1908,13 @@
       "Just a moment, I will check.",
       "She paused for a moment."
     ],
-    "domain": "spoken, relocation",
+    "domain": "general, spoken",
     "theme": "general",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "moments",
     "transcription": "/ˈməʊ.mənt/",
     "no_antonym": true,
@@ -1883,8 +1926,7 @@
     "article": "a",
     "sub_theme": "common_things",
     "levels": [
-      "A0",
-      "A2"
+      "A1"
     ]
   },
   {
@@ -1899,9 +1941,9 @@
     "examples": [
       "Write your first name clearly on the visa application."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈfɜːst neɪm/",
     "transcription_variants": {
       "us": "/ˈfɝːst neɪm/"
@@ -1913,7 +1955,10 @@
     "countability": "countable",
     "plural_form": "first names",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:full-name:noun",
@@ -1927,9 +1972,9 @@
     "examples": [
       "Please print your full name as shown on your passport."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/fʊl neɪm/",
     "transcription_variants": {
       "us": "/fʊl neɪm/"
@@ -1939,7 +1984,10 @@
     "countability": "countable",
     "plural_form": "full names",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:last-name:noun",
@@ -1953,9 +2001,9 @@
     "examples": [
       "Write your last name in capital letters on this form."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/lɑːst neɪm/",
     "transcription_variants": {
       "us": "/læst neɪm/"
@@ -1967,7 +2015,10 @@
     "countability": "countable",
     "plural_form": "last names",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:surname:noun",
@@ -1981,9 +2032,9 @@
     "examples": [
       "Please spell your surname clearly for the registrar."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈsɜː.neɪm/",
     "transcription_variants": {
       "us": "/ˈsɝː.neɪm/"
@@ -1995,7 +2046,10 @@
     "countability": "countable",
     "plural_form": "surnames",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:madam:noun",
@@ -2014,7 +2068,7 @@
     ],
     "domain": "general, travel",
     "theme": "common_nouns",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "transcription": "/ˈmæd.əm/",
     "emoji": "👩",
     "no_antonym": true,
@@ -2040,7 +2094,7 @@
     ],
     "domain": "general, travel",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈmɪs.tə/",
     "transcription_variants": {
       "us": "/ˈmɪs.tɚ/"
@@ -2048,7 +2102,10 @@
     "emoji": "👨",
     "no_antonym": true,
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:mr:noun",
@@ -2065,14 +2122,17 @@
     ],
     "domain": "general, travel",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈmɪs.tə/",
     "transcription_variants": {
       "us": "/ˈmɪs.tɚ/"
     },
     "emoji": "👨",
     "no_antonym": true,
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:mrs:noun",
@@ -2089,11 +2149,14 @@
     ],
     "domain": "general, travel",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈmɪs.ɪz/",
     "emoji": "👩",
     "no_antonym": true,
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:sir:noun",
@@ -2112,7 +2175,7 @@
     ],
     "domain": "general, travel",
     "theme": "common_nouns",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/sɜː/",
     "transcription_variants": {
       "us": "/sɝː/"
@@ -2148,14 +2211,20 @@
     "theme": "work",
     "sub_theme": "office_business",
     "concept": "en:work:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to work"
+    ]
   },
   {
     "id": "en:help:noun",
     "word": "help",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "countability": "uncountable",
     "transcription": {
       "uk": "/help/",
@@ -2173,14 +2242,21 @@
     "theme": "actions",
     "sub_theme": "social_interaction",
     "concept": "en:help:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to help",
+      "help (noun)"
+    ]
   },
   {
     "id": "en:sleep:noun",
     "word": "sleep",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "countability": "uncountable",
     "transcription": {
       "uk": "/sliːp/",
@@ -2198,14 +2274,20 @@
     "theme": "health",
     "sub_theme": "fitness_hygiene",
     "concept": "en:sleep:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to sleep"
+    ]
   },
   {
     "id": "en:smile:noun",
     "word": "smile",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "article": "a",
     "countability": "countable",
     "plural_form": "smiles",
@@ -2225,7 +2307,10 @@
     "theme": "descriptors",
     "sub_theme": "physical_appearance",
     "concept": "en:smile:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:laugh:noun",
@@ -2252,7 +2337,10 @@
     "theme": "emotions",
     "sub_theme": "positive_feelings",
     "concept": "en:laugh:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:hug:noun",
@@ -2279,7 +2367,10 @@
     "theme": "communication",
     "sub_theme": "social_expressions",
     "concept": "en:hug:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:kiss:noun",
@@ -2306,7 +2397,10 @@
     "theme": "communication",
     "sub_theme": "social_expressions",
     "concept": "en:kiss:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:visit:noun",
@@ -2333,14 +2427,17 @@
     "theme": "travel",
     "sub_theme": "vacation_lodging",
     "concept": "en:visit:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:talk:noun",
     "word": "talk",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "article": "a",
     "countability": "countable",
     "plural_form": "talks",
@@ -2360,14 +2457,17 @@
     "theme": "communication",
     "sub_theme": "social_expressions",
     "concept": "en:talk:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:look:noun",
     "word": "look",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "article": "a",
     "countability": "countable",
     "plural_form": "looks",
@@ -2387,7 +2487,13 @@
     "theme": "actions",
     "sub_theme": "physical_movement",
     "concept": "en:look:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to look"
+    ]
   },
   {
     "id": "en:sound:noun",
@@ -2414,7 +2520,10 @@
     "theme": "general",
     "sub_theme": "common_things",
     "concept": "en:sound:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:need:noun",
@@ -2441,14 +2550,20 @@
     "theme": "general",
     "sub_theme": "abstract_concepts",
     "concept": "en:need:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to need"
+    ]
   },
   {
     "id": "en:start:noun",
     "word": "start",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "article": "a",
     "countability": "countable",
     "plural_form": "starts",
@@ -2468,14 +2583,20 @@
     "theme": "time",
     "sub_theme": "time_periods",
     "concept": "en:start:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to start"
+    ]
   },
   {
     "id": "en:end:noun",
     "word": "end",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "article": "an",
     "countability": "countable",
     "plural_form": "ends",
@@ -2495,6 +2616,9 @@
     "theme": "time",
     "sub_theme": "time_periods",
     "concept": "en:end:noun",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ]
   }
 ]

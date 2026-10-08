@@ -11,9 +11,9 @@
     "examples": [
       "The temperature fell below zero."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "temperatures",
     "tags": [
       "spoken"
@@ -44,9 +44,9 @@
     "examples": [
       "It is twenty degrees outside."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "degrees",
     "tags": [
       "spoken"
@@ -74,9 +74,9 @@
     "examples": [
       "Spain has a warm climate."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "climates",
     "tags": [
       "spoken"
@@ -104,9 +104,9 @@
     "examples": [
       "Spring is a beautiful season."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "seasons",
     "tags": [
       "spoken"
@@ -136,7 +136,7 @@
       "Water your indoor potted plants.",
       "Green plants produce oxygen."
     ],
-    "domain": "spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "weather",
     "tags": [
       "spoken",
@@ -154,8 +154,7 @@
     "article": "a",
     "sub_theme": "seasons_atmosphere",
     "levels": [
-      "A0",
-      "A2"
+      "A0"
     ]
   },
   {
@@ -170,9 +169,9 @@
     "examples": [
       "Cold weather started this week."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -183,7 +182,10 @@
     "transcription_variants": {
       "us": "/ˈweð.ɚ/"
     },
-    "sub_theme": "precipitation_sky"
+    "sub_theme": "precipitation_sky",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:moon:noun",
@@ -197,9 +199,9 @@
     "examples": [
       "The moon shines in the dark sky."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "moons",
     "tags": [
       "spoken"
@@ -227,9 +229,9 @@
     "examples": [
       "A white cloud covers the sun."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "clouds",
     "tags": [
       "spoken"
@@ -251,16 +253,16 @@
     "word": "sky",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "the space above earth atmosphere"
     ],
     "examples": [
       "The sky is bright blue today."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "skies",
     "tags": [
       "spoken"
@@ -270,8 +272,7 @@
     "emoji": "🌌",
     "countability": "countable",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "sub_theme": "precipitation_sky",
     "article": "a"
@@ -281,16 +282,16 @@
     "word": "sun",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "the star providing light to earth"
     ],
     "examples": [
       "The sun gives light and heat."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "suns",
     "tags": [
       "spoken"
@@ -300,23 +301,26 @@
     "no_antonym": true,
     "countability": "countable",
     "sub_theme": "precipitation_sky",
-    "article": "a"
+    "article": "a",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:star:noun",
     "word": "star",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a point of light in night"
     ],
     "examples": [
       "A bright star shines at night."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "stars",
     "tags": [
       "spoken"
@@ -329,7 +333,10 @@
       "us": "/stɑːr/"
     },
     "sub_theme": "precipitation_sky",
-    "article": "a"
+    "article": "a",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:rain:noun",
@@ -343,9 +350,9 @@
     "examples": [
       "Cold rain fell on the street."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -353,23 +360,26 @@
     "no_antonym": true,
     "emoji": "🌧️",
     "countability": "uncountable",
-    "sub_theme": "precipitation_sky"
+    "sub_theme": "precipitation_sky",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:snow:noun",
     "word": "snow",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "frozen white ice falling from sky"
     ],
     "examples": [
       "White snow covers the cold road."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -380,7 +390,10 @@
     "transcription_variants": {
       "us": "/snoʊ/"
     },
-    "sub_theme": "precipitation_sky"
+    "sub_theme": "precipitation_sky",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:wind:noun",
@@ -394,9 +407,9 @@
     "examples": [
       "Strong wind blew through trees."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -411,39 +424,6 @@
     "sub_theme": "precipitation_sky"
   },
   {
-    "id": "en:storm:noun",
-    "word": "storm",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "severe weather with heavy rain wind"
-    ],
-    "examples": [
-      "A heavy storm hit the town."
-    ],
-    "domain": "general, relocation, spoken, travel, exam",
-    "theme": "weather",
-    "updated": "2025-01-15",
-    "plural_form": "storms",
-    "tags": [
-      "spoken"
-    ],
-    "levels": [
-      "A1",
-      "A2"
-    ],
-    "transcription": "/stɔːm/",
-    "no_antonym": true,
-    "emoji": "🌩️",
-    "countability": "countable",
-    "transcription_variants": {
-      "us": "/stɔːrm/"
-    },
-    "sub_theme": "precipitation_sky",
-    "article": "a"
-  },
-  {
     "id": "en:hot:adjective",
     "word": "hot",
     "language": "en",
@@ -455,9 +435,9 @@
     "examples": [
       "Drink this hot tea now."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -488,9 +468,9 @@
     "examples": [
       "I feel cold in winter time."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -522,7 +502,7 @@
     "examples": [
       "The sun feels warm today."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
     "updated": "2025-05-20",
     "tags": [
@@ -549,21 +529,21 @@
     "word": "cool",
     "language": "en",
     "form": "adjective",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "slightly cold in pleasant way"
     ],
     "examples": [
       "A cool wind blew this morning."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/kuːl/",
     "emoji": "😎",
@@ -586,9 +566,9 @@
     "examples": [
       "It is a sunny day outside."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -600,7 +580,10 @@
     ],
     "sub_theme": "temperature_climate",
     "comparative": "sunnier",
-    "superlative": "sunniest"
+    "superlative": "sunniest",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:rainy:adjective",
@@ -614,9 +597,9 @@
     "examples": [
       "We stayed inside on rainy days."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -627,7 +610,10 @@
     ],
     "sub_theme": "temperature_climate",
     "comparative": "rainier",
-    "superlative": "rainiest"
+    "superlative": "rainiest",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:cloudy:adjective",
@@ -641,9 +627,9 @@
     "examples": [
       "The sky was cloudy all morning."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -655,7 +641,10 @@
     ],
     "sub_theme": "temperature_climate",
     "comparative": "cloudier",
-    "superlative": "cloudiest"
+    "superlative": "cloudiest",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:windy:adjective",
@@ -669,9 +658,9 @@
     "examples": [
       "It was windy near the sea."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -682,7 +671,10 @@
     ],
     "sub_theme": "temperature_climate",
     "comparative": "windier",
-    "superlative": "windiest"
+    "superlative": "windiest",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:snowy:adjective",
@@ -696,9 +688,9 @@
     "examples": [
       "They walked on snowy road."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -712,7 +704,10 @@
     },
     "sub_theme": "temperature_climate",
     "comparative": "snowier",
-    "superlative": "snowiest"
+    "superlative": "snowiest",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:rain:verb",
@@ -737,14 +732,20 @@
     "theme": "weather",
     "sub_theme": "precipitation_sky",
     "concept": "en:rain:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to rain"
+    ]
   },
   {
     "id": "en:snow:verb",
     "word": "snow",
     "language": "en",
     "form": "verb",
-    "level": "A1",
+    "level": "A0",
     "is_irregular": false,
     "transcription": {
       "uk": "/snəʊ/",
@@ -762,6 +763,12 @@
     "theme": "weather",
     "sub_theme": "precipitation_sky",
     "concept": "en:snow:verb",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to snow"
+    ]
   }
 ]

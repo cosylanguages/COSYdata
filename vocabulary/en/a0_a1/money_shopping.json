@@ -11,9 +11,9 @@
     "examples": [
       "Keep your shopping receipt safe."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "receipts",
     "tags": [
       "spoken"
@@ -41,9 +41,9 @@
     "examples": [
       "Pay with credit card at shop."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "cards",
     "tags": [
       "spoken"
@@ -74,9 +74,9 @@
     "examples": [
       "He paid with cash at shop."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -104,9 +104,9 @@
     "examples": [
       "He dropped a metal coin."
     ],
-    "domain": "general, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "coins",
     "tags": [
       "spoken"
@@ -134,9 +134,9 @@
     "examples": [
       "She paid with a ten pound note."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "notes",
     "transcription": "/nəʊt/",
     "no_antonym": true,
@@ -152,6 +152,9 @@
     "sub_theme": "general",
     "regional_equivalents": [
       "en:banknote:noun"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -166,9 +169,9 @@
     "examples": [
       "Deposit money in the bank."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "banks",
     "tags": [
       "spoken"
@@ -199,9 +202,9 @@
     "examples": [
       "What is the price of coat?"
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "prices",
     "tags": [
       "spoken"
@@ -211,7 +214,10 @@
     "emoji": "🏷️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:cost:noun",
@@ -225,9 +231,9 @@
     "examples": [
       "The cost was ten pounds total."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "costs",
     "tags": [
       "spoken"
@@ -240,7 +246,10 @@
       "us": "/kɑːst/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:cheap:adjective",
@@ -254,7 +263,7 @@
     "examples": [
       "Buy cheap apples at the market."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
     "updated": "2025-05-20",
     "tags": [
@@ -270,6 +279,9 @@
     "sub_theme": "transactions_pricing",
     "secondary_themes": [
       "descriptors"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -284,9 +296,9 @@
     "examples": [
       "That car is very expensive."
     ],
-    "domain": "general, relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2026-09-22",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -300,6 +312,9 @@
     "sub_theme": "transactions_pricing",
     "secondary_themes": [
       "descriptors"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -314,9 +329,9 @@
     "examples": [
       "This coat was a good buy."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "buys",
     "tags": [
       "spoken"
@@ -328,7 +343,13 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ],
+    "related_forms": [
+      "to buy"
+    ]
   },
   {
     "id": "en:spend:noun",
@@ -342,9 +363,9 @@
     "examples": [
       "Check your weekly spend money."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -372,9 +393,9 @@
     "examples": [
       "We go shopping on Saturday."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -396,23 +417,22 @@
     "word": "store",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a place where goods are sold retail"
     ],
     "examples": [
       "The grocery store opened early today."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "stores",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "transcription": "/stɔː/",
     "no_antonym": true,
@@ -442,9 +462,9 @@
     "examples": [
       "Fresh fruit is sold at the market."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "markets",
     "tags": [
       "spoken"
@@ -469,7 +489,7 @@
     "word": "credit card",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "a plastic card used to buy goods on credit"
     ],
@@ -477,13 +497,13 @@
       "She paid for clothes with a credit card.",
       "Can I pay by credit card?"
     ],
-    "domain": "relocation, spoken, travel",
+    "domain": "general, spoken, travel",
     "theme": "shopping",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "credit cards",
     "transcription": "/ˈkred.ɪt ˌkɑːd/",
     "no_antonym": true,
@@ -498,8 +518,7 @@
       "payment card"
     ],
     "levels": [
-      "A0",
-      "A2"
+      "A1"
     ]
   },
   {
@@ -516,7 +535,7 @@
     ],
     "domain": "general, spoken",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "shopping centers / malls",
     "tags": [
       "spoken"
@@ -533,7 +552,10 @@
       "mall"
     ],
     "article": "a",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:discount:noun",
@@ -549,7 +571,7 @@
     ],
     "domain": "general, spoken",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -579,7 +601,7 @@
     ],
     "domain": "general, spoken",
     "theme": "shopping",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -618,7 +640,8 @@
     "no_antonym": true,
     "domain": "general",
     "theme": "shopping",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "updated": "2025-05-20"
   },
   {
     "id": "en:euro:noun",
@@ -643,7 +666,8 @@
     "no_antonym": true,
     "domain": "general",
     "theme": "shopping",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "updated": "2025-05-20"
   },
   {
     "id": "en:banknote:noun",
@@ -660,7 +684,7 @@
     "examples": [
       "He paid for the ticket with a ten-pound banknote."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "shopping",
     "sub_theme": "money_currency",
     "transcription": "/ˈbæŋk.noʊt/",
@@ -671,7 +695,7 @@
     "regional_equivalents": [
       "en:note:noun"
     ],
-    "updated": "2026-09-22",
+    "updated": "2025-05-20",
     "no_antonym": true,
     "levels": [
       "A1",

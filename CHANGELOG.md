@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 ## [0.1.0] - Unreleased
 
 ### Changed
+- Completed English A0–A1 level audit and established target dataset (`reports/a0_a1_target.json`) following `docs/a0-a1-policy.md`:
+  - Audited every entry in `vocabulary/en/a0_a1/` against Oxford 3000 sense-aware tags, English Vocabulary Profile (EVP), and Cambridge Starters/Movers lists.
+  - Moved 19 over-level entries (e.g., `single`, `low`, `empty`, `closed`, `simple`, `weak`, `heavy`, `loud`, `wood`, `ocean`, `storm`, `earth`, `nature`, `sand`, `may`, `might`, `shall`, `being`, `tongue`) to `vocabulary/en/a2/<same theme file>`, unioning `levels` arrays and updating `level = min(levels)`.
+  - Fixed `level`/`levels` consistency across all 1,669 remaining A0–A1 entries (`level = min(levels)`), classifying 474 entries as A0 and 1,195 entries as A1.
+  - Cleaned domains for all 1,669 English A0–A1 entries: ensured `general` is listed first, restricted secondary domains strictly to `spoken` and `travel`, and stripped `relocation`, `exam`, `professional`, and invalid domain tags.
+  - Added 6 missing A1 essential beginner entries (`not`, `more`, `enough`, `metro`, `would like`, `enjoy your meal`) following AGENTS.md rule 6.
+  - Generated `reports/en-a0-a1-level-audit.md` and created `reports/a0_a1_target.json` with final English counts (Total: 1,669, A0: 474, A1: 1,195, plus per-theme counts) as the target for all ecosystem languages.
 - Comprehensive review and CEFR adaptation of B1 and B2 vocabulary data across `vocabulary/en/b1/` and `vocabulary/en/b2/`:
   - Fixed level field mismatches for `en:pronunciation-practice:noun` (to B1), `en:cross-contamination:noun` (to B1), and `en:government-policy:noun` (to B2).
   - Updated `schemas/vocabulary.schema.json` so `plural_form` requirement for countable nouns applies specifically to levels A0, A1, A2, and B1.
