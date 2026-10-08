@@ -286,34 +286,6 @@
     "sub_theme": "cardinal_directions"
   },
   {
-    "id": "ru:derevnya:noun",
-    "word": "деревня",
-    "form": "noun",
-    "theme": "navigation",
-    "transcription": "[dʲɪˈrʲevɳə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "деревни",
-    "emoji": "🏡",
-    "antonyms": [
-      "город"
-    ],
-    "definitions": [
-      "Небольшой сельский населённый пункт с деревянными домами."
-    ],
-    "examples": [
-      "Летом мы часто ездим к бабушке в деревню."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "cardinal_directions"
-  },
-  {
     "id": "ru:stolitsa:noun",
     "word": "столица",
     "form": "noun",
@@ -389,5 +361,207 @@
     "domain": "general",
     "updated": "2025-01-01",
     "sub_theme": "cardinal_directions"
+  },
+  {
+    "id": "ru:idite-pryamo:phrase",
+    "word": "идите прямо",
+    "language": "ru",
+    "form": "phrase",
+    "level": "A2",
+    "transliteration": "idite pryamo",
+    "definitions": [
+      "идти вперед не поворачивая"
+    ],
+    "examples": [
+      "Идите прямо до угла улицы."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/ɪˈdʲi.tʲɪ ˈprʲa.mə/",
+    "no_antonym": true,
+    "emoji": "⬆️",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:na-uglu:phrase",
+    "word": "на углу",
+    "language": "ru",
+    "form": "phrase",
+    "level": "A2",
+    "transliteration": "na uglu",
+    "definitions": [
+      "в месте пересечения двух улиц"
+    ],
+    "examples": [
+      "Кафе находится прямо на углу."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/nə ʊgˈlu/",
+    "no_antonym": true,
+    "emoji": "📍",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:glavnaya-ulitsa:noun",
+    "word": "главная улица",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "transliteration": "glavnaya ulitsa",
+    "definitions": [
+      "самая важная улица города"
+    ],
+    "examples": [
+      "Все магазины на главной улице."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/ˈgla.vnə.jə ˈu.lʲɪ.tsə/",
+    "no_antonym": true,
+    "emoji": "🛣️",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "главные улицы",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:avtobusnaya-ostanovka:noun",
+    "word": "автобусная остановка",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "transliteration": "avtobusnaya ostanovka",
+    "definitions": [
+      "место где останавливается автобус"
+    ],
+    "examples": [
+      "Я жду на автобусной остановке."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/ɐvˈto.bʊs.nə.jə ɐs.tɐˈnof.kə/",
+    "no_antonym": true,
+    "emoji": "🚏",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "автобусные остановки",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:peshekhodnyi-perekhod:noun",
+    "word": "пешеходный переход",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "transliteration": "peshekhodnyi perekhod",
+    "definitions": [
+      "место дороги для пешеходов"
+    ],
+    "examples": [
+      "Переходите дорогу по пешеходному переходу."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/pʲɪ.ʂɨˈxod.nɨj pʲɪ.rʲɪˈxot/",
+    "no_antonym": true,
+    "emoji": "🚶",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "пешеходные переходы",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:tsentralnaya-ploshchad:noun",
+    "word": "центральная площадь",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "transliteration": "tsentralnaya ploshchad",
+    "definitions": [
+      "открытое место в центре города"
+    ],
+    "examples": [
+      "Мы встречаемся на центральной площади."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/tsɨnˈtralʲ.nə.jə ˈplo.ʂːətʲ/",
+    "no_antonym": true,
+    "emoji": "🏛️",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "центральные площади",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:dorozhnyi-perekrestok:noun",
+    "word": "дорожный перекресток",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "transliteration": "dorozhnyi perekrestok",
+    "definitions": [
+      "место пересечения дорог"
+    ],
+    "examples": [
+      "Осторожно на дорожном перекрестке."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/dɐˈroʐ.nɨj pʲɪ.rʲɪˈkrʲo.stək/",
+    "no_antonym": true,
+    "emoji": "✖️",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "дорожные перекрестки",
+    "levels": [
+      "A2"
+    ]
+  },
+  {
+    "id": "ru:svetofor-na-doroge:noun",
+    "word": "светофор на дороге",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "transliteration": "svetofor na doroge",
+    "definitions": [
+      "сигнал с красным и зеленым светом"
+    ],
+    "examples": [
+      "Машина стоит у светофора."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "transcription": "/svʲɪ.tɐˈfor nə dɐˈro.gʲɪ/",
+    "no_antonym": true,
+    "emoji": "🚦",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "светофоры на дороге",
+    "levels": [
+      "A2"
+    ]
   }
 ]

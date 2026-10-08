@@ -4,7 +4,7 @@
     "word": "учитель",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[ʊˈtɕitʲɪlʲ]",
     "gender": "masculine",
     "countability": "countable",
@@ -22,14 +22,14 @@
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:vrach:noun",
     "word": "врач",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[vratɕ]",
     "gender": "masculine",
     "countability": "countable",
@@ -47,14 +47,14 @@
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:student:noun",
     "word": "студент",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[stʊˈdʲent]",
     "gender": "masculine",
     "countability": "countable",
@@ -72,14 +72,14 @@
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:inzhener:noun",
     "word": "инженер",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[ɪnʐɨˈnʲer]",
     "gender": "masculine",
     "countability": "countable",
@@ -94,69 +94,17 @@
     ],
     "language": "ru",
     "levels": [
-      "A1",
-      "A2",
-      "B1"
-    ],
-    "domain": "general",
-    "updated": "2026-10-01"
-  },
-  {
-    "id": "ru:yurist:noun",
-    "word": "юрист",
-    "level": "A0",
-    "form": "noun",
-    "theme": "jobs",
-    "transcription": "[jʊˈrʲist]",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "юристы",
-    "emoji": "⚖️",
-    "no_antonym": true,
-    "definitions": [
-      "Специалист по юридическим вопросам и законам."
-    ],
-    "examples": [
-      "Известный юрист помогает людям в суде."
-    ],
-    "language": "ru",
-    "levels": [
-      "A0"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01"
-  },
-  {
-    "id": "ru:medsestra:noun",
-    "word": "медсестра",
-    "level": "A1",
-    "form": "noun",
-    "theme": "jobs",
-    "transcription": "[mʲɪtsʲɪsˈtra]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "медсёстры",
-    "emoji": "👩‍⚕️",
-    "no_antonym": true,
-    "definitions": [
-      "Медицинский работник со средним образованием."
-    ],
-    "examples": [
-      "Медсестра усердно помогает врачу в больнице."
-    ],
-    "language": "ru",
-    "levels": [
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:politseiski:noun",
     "word": "полицейский",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[pəlʲɪˈtsjejskʲɪj]",
     "gender": "masculine",
     "countability": "countable",
@@ -171,17 +119,17 @@
     ],
     "language": "ru",
     "levels": [
-      "A0"
+      "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:povar:noun",
     "word": "повар",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[ˈpovər]",
     "gender": "masculine",
     "countability": "countable",
@@ -199,14 +147,14 @@
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:voditel:noun",
     "word": "водитель",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[vɐˈdʲitʲɪlʲ]",
     "gender": "masculine",
     "countability": "countable",
@@ -224,14 +172,14 @@
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "ru:rabochyi:noun",
     "word": "рабочий",
     "level": "A1",
     "form": "noun",
-    "theme": "jobs",
+    "theme": "work",
     "transcription": "[rɐˈbotɕɪj]",
     "gender": "masculine",
     "countability": "countable",
@@ -249,6 +197,33 @@
       "A1"
     ],
     "domain": "general",
-    "updated": "2025-01-01"
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:prodavets:noun",
+    "word": "продавец",
+    "form": "noun",
+    "theme": "work",
+    "transcription": "[prədɐˈvʲets]",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "продавцы",
+    "emoji": "🧑‍💼",
+    "antonyms": [
+      "покупатель"
+    ],
+    "definitions": [
+      "Работник магазина, продающий товары покупателям."
+    ],
+    "examples": [
+      "Опытный продавец помог мне выбрать хорошую зимнюю куртку."
+    ],
+    "language": "ru",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general",
+    "updated": "2025-05-20"
   }
 ]

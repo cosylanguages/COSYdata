@@ -1,31 +1,5 @@
 [
   {
-    "id": "ru:bilet:noun",
-    "word": "билет",
-    "form": "noun",
-    "theme": "travel",
-    "transcription": "[bʲɪˈlʲet]",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "билеты",
-    "emoji": "🎫",
-    "no_antonym": true,
-    "definitions": [
-      "Документ, который даёт право на проезд в транспорте."
-    ],
-    "examples": [
-      "Пассажир купил новый билет на поезд в кассе вокзала."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "vehicles_transportation"
-  },
-  {
     "id": "ru:pasport:noun",
     "word": "паспорт",
     "form": "noun",
@@ -194,137 +168,6 @@
     ],
     "examples": [
       "На перекрёстке вам нужно поворачивать направо к площади."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "vehicles_transportation"
-  },
-  {
-    "id": "ru:povernut:verb",
-    "word": "повернуть",
-    "form": "verb",
-    "theme": "travel",
-    "transcription": "[pəvʲɪrˈnutʲ]",
-    "emoji": "↪️",
-    "no_antonym": true,
-    "definitions": [
-      "Совершить один поворот в сторону при движении."
-    ],
-    "examples": [
-      "Водитель сумел быстро повернуть налево у старого светофора."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "vehicles_transportation"
-  },
-  {
-    "id": "ru:sever:noun",
-    "word": "север",
-    "form": "noun",
-    "theme": "travel",
-    "transcription": "[ˈsʲevʲɪr]",
-    "gender": "masculine",
-    "countability": "uncountable",
-    "emoji": "🧭",
-    "antonyms": [
-      "юг"
-    ],
-    "definitions": [
-      "Сторона света, противоположная югу и тёплым странам."
-    ],
-    "examples": [
-      "Перелётные птицы улетают на холодный север весной."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "vehicles_transportation"
-  },
-  {
-    "id": "ru:yug:noun",
-    "word": "юг",
-    "form": "noun",
-    "theme": "travel",
-    "transcription": "[juk]",
-    "gender": "masculine",
-    "countability": "uncountable",
-    "emoji": "☀️",
-    "antonyms": [
-      "север"
-    ],
-    "definitions": [
-      "Сторона света, противоположная северу, где тепло."
-    ],
-    "examples": [
-      "Летом многие люди едут отдыхать на тёплый юг."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "vehicles_transportation"
-  },
-  {
-    "id": "ru:vostok:noun",
-    "word": "восток",
-    "form": "noun",
-    "theme": "travel",
-    "transcription": "[vɐsˈtok]",
-    "gender": "masculine",
-    "countability": "uncountable",
-    "emoji": "🌅",
-    "antonyms": [
-      "запад"
-    ],
-    "definitions": [
-      "Сторона света, где каждое утро восходит солнце."
-    ],
-    "examples": [
-      "Солнце медленно встаёт на востоке ранним летним утром."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "vehicles_transportation"
-  },
-  {
-    "id": "ru:zapad:noun",
-    "word": "запад",
-    "form": "noun",
-    "theme": "travel",
-    "transcription": "[ˈzapət]",
-    "gender": "masculine",
-    "countability": "uncountable",
-    "emoji": "🌇",
-    "antonyms": [
-      "восток"
-    ],
-    "definitions": [
-      "Сторона света, где вечером заходит яркое солнце."
-    ],
-    "examples": [
-      "Солнце красиво садится на западе поздним тёплым вечером."
     ],
     "language": "ru",
     "level": "A2",
@@ -656,5 +499,248 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "vehicles_transportation"
+  },
+  {
+    "id": "ru:lodka:noun",
+    "word": "лодка",
+    "level": "A2",
+    "form": "noun",
+    "theme": "travel",
+    "transcription": "[ˈlotkə]",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "лодки",
+    "emoji": "🛶",
+    "no_antonym": true,
+    "definitions": [
+      "Небольшое судно для плавания по воде."
+    ],
+    "examples": [
+      "Деревянная лодка плывёт по тихой реке."
+    ],
+    "language": "ru",
+    "levels": [
+      "A2"
+    ],
+    "domain": "general",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:korabl:noun",
+    "word": "корабль",
+    "level": "A2",
+    "form": "noun",
+    "theme": "travel",
+    "transcription": "[kɐˈrablʲ]",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "корабли",
+    "emoji": "🚢",
+    "no_antonym": true,
+    "definitions": [
+      "Большое морское судно для плавания."
+    ],
+    "examples": [
+      "Большой белый корабль плывёт по морю."
+    ],
+    "language": "ru",
+    "levels": [
+      "A2"
+    ],
+    "domain": "general",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:tserkov:noun",
+    "word": "церковь",
+    "level": "A2",
+    "form": "noun",
+    "theme": "travel",
+    "transcription": "[ˈtserkəfʲ]",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "церкви",
+    "emoji": "⛪",
+    "no_antonym": true,
+    "definitions": [
+      "Здание для проведения религиозных служб."
+    ],
+    "examples": [
+      "В центре города стоит старинная церковь."
+    ],
+    "language": "ru",
+    "levels": [
+      "A2"
+    ],
+    "domain": "general",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:ssha:noun",
+    "word": "США",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[США]",
+    "definitions": [
+      "США"
+    ],
+    "examples": [
+      "Мой старший брат уехал жить в США."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "masculine",
+    "countability": "invariable"
+  },
+  {
+    "id": "ru:parizh:noun",
+    "word": "Париж",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[Париж]",
+    "definitions": [
+      "Париж"
+    ],
+    "examples": [
+      "Туристы мечтают посетить красивый и древний Париж."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "masculine",
+    "countability": "invariable"
+  },
+  {
+    "id": "ru:london:noun",
+    "word": "Лондон",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[Лондон]",
+    "definitions": [
+      "Лондон"
+    ],
+    "examples": [
+      "Студенты летят в Лондон изучать английский язык."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "masculine",
+    "countability": "invariable"
+  },
+  {
+    "id": "ru:rim:noun",
+    "word": "Рим",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[Рим]",
+    "definitions": [
+      "Рим"
+    ],
+    "examples": [
+      "Мы путешествовали в исторический город Рим летом."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "masculine",
+    "countability": "invariable"
+  },
+  {
+    "id": "ru:moskva:noun",
+    "word": "Москва",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[Москва]",
+    "definitions": [
+      "Москва"
+    ],
+    "examples": [
+      "Москва — огромный и очень красивый главный город."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "feminine",
+    "countability": "invariable"
+  },
+  {
+    "id": "ru:afiny:noun",
+    "word": "Афины",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[Афины]",
+    "definitions": [
+      "Афины"
+    ],
+    "examples": [
+      "В Афинах сохранились старинные великие памятники архитектуры."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "feminine",
+    "countability": "invariable"
+  },
+  {
+    "id": "ru:nyu-york:noun",
+    "word": "Нью-Йорк",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[Нью-Йорк]",
+    "definitions": [
+      "Нью-Йорк"
+    ],
+    "examples": [
+      "Нью-Йорк — знаменитый крупный мировой финансовый центр."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true,
+    "gender": "masculine",
+    "countability": "invariable"
   }
 ]

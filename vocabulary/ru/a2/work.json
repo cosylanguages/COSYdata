@@ -158,32 +158,6 @@
     "sub_theme": "professions_jobs"
   },
   {
-    "id": "ru:ofis:noun",
-    "word": "офис",
-    "form": "noun",
-    "theme": "work",
-    "transcription": "[ˈofʲɪs]",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "офисы",
-    "emoji": "🏢",
-    "no_antonym": true,
-    "definitions": [
-      "Служебное помещение компании с рабочими столами."
-    ],
-    "examples": [
-      "Новый светлый офис находится в самом центре города."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01",
-    "sub_theme": "professions_jobs"
-  },
-  {
     "id": "ru:kontrakt:noun",
     "word": "контракт",
     "form": "noun",
@@ -588,5 +562,55 @@
     "domain": "general",
     "theme": "work",
     "sub_theme": "professions_jobs"
+  },
+  {
+    "id": "ru:yurist:noun",
+    "word": "юрист",
+    "level": "A2",
+    "form": "noun",
+    "theme": "work",
+    "transcription": "[jʊˈrʲist]",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "юристы",
+    "emoji": "⚖️",
+    "no_antonym": true,
+    "definitions": [
+      "Специалист по юридическим вопросам и законам."
+    ],
+    "examples": [
+      "Известный юрист помогает людям в суде."
+    ],
+    "language": "ru",
+    "levels": [
+      "A2"
+    ],
+    "domain": "general",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:medsestra:noun",
+    "word": "медсестра",
+    "level": "A2",
+    "form": "noun",
+    "theme": "work",
+    "transcription": "[mʲɪtsʲɪsˈtra]",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "медсёстры",
+    "emoji": "👩‍⚕️",
+    "no_antonym": true,
+    "definitions": [
+      "Медицинский работник со средним образованием."
+    ],
+    "examples": [
+      "Медсестра усердно помогает врачу в больнице."
+    ],
+    "language": "ru",
+    "levels": [
+      "A2"
+    ],
+    "domain": "general",
+    "updated": "2025-05-20"
   }
 ]
