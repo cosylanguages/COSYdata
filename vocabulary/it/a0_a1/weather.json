@@ -19,7 +19,8 @@
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "partitive": "del"
   },
   {
     "id": "it:pioggia:noun",
@@ -41,7 +42,8 @@
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "partitive": "della"
   },
   {
     "id": "it:neve:noun",
@@ -63,7 +65,8 @@
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "partitive": "della"
   },
   {
     "id": "it:vento:noun",
@@ -89,7 +92,8 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "partitive": "del"
   },
   {
     "id": "it:nuvola:noun",
@@ -139,6 +143,31 @@
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "partitive": "del"
+  },
+  {
+    "id": "it:temporale:noun",
+    "word": "temporale",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Forte precipitazione atmosferica accompagnata da tuoni e fulmini."
+    ],
+    "examples": [
+      "Un forte temporale estivo è arrivato nel pomeriggio."
+    ],
+    "domain": "general, spoken, travel",
+    "theme": "weather",
+    "updated": "2025-01-15",
+    "transcription": "/tem.poˈraː.le/",
+    "emoji": "🌩️",
+    "no_antonym": true,
+    "article": "il",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "temporali",
+    "sub_theme": "precipitation_sky"
   }
 ]
