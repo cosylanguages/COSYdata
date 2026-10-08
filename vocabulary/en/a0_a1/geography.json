@@ -11,9 +11,9 @@
     "examples": [
       "Spain is a warm country."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "countries",
     "tags": [
       "spoken"
@@ -42,7 +42,7 @@
     ],
     "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
@@ -67,9 +67,9 @@
     "examples": [
       "London is located in England."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
@@ -91,9 +91,9 @@
     "examples": [
       "London is the capital city."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "capitals",
     "levels": [
       "A1",
@@ -126,7 +126,7 @@
     ],
     "domain": "general, travel",
     "theme": "geography",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "plural_form": "continents",
     "transcription": "/ˈkɒn.tɪ.nənt/",
     "no_antonym": true,
@@ -157,9 +157,9 @@
     "examples": [
       "France is located in Europe."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈjʊə.rəp/",
     "no_antonym": true,
     "emoji": "🇪🇺",
@@ -167,7 +167,10 @@
     "transcription_variants": {
       "us": "/ˈjʊr.əp/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:asia:noun",
@@ -181,14 +184,17 @@
     "examples": [
       "China is located in Asia."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈeɪ.ʒə/",
     "no_antonym": true,
     "emoji": "🌏",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:africa:noun",
@@ -202,14 +208,17 @@
     "examples": [
       "Egypt is located in Africa."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈæf.rɪ.kə/",
     "no_antonym": true,
     "emoji": "🌍",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:australia:noun",
@@ -223,9 +232,9 @@
     "examples": [
       "Kangaroos live in Australia."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ɒsˈtreɪ.li.ə/",
     "no_antonym": true,
     "emoji": "🇦🇺",
@@ -233,7 +242,10 @@
     "transcription_variants": {
       "us": "/ɑːˈstreɪl.jə/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:scotland:noun",
@@ -247,9 +259,9 @@
     "examples": [
       "Edinburgh is in Scotland."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈskɒt.lənd/",
     "no_antonym": true,
     "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -257,7 +269,10 @@
     "transcription_variants": {
       "us": "/ˈskɑːt.lənd/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:wales:noun",
@@ -271,14 +286,17 @@
     "examples": [
       "Cardiff is located in Wales."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "countability": "invariable",
     "transcription": "/weɪlz/",
     "no_antonym": true,
     "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:ireland:noun",
@@ -292,9 +310,9 @@
     "examples": [
       "Dublin is capital of Ireland."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈaɪə.lənd/",
     "no_antonym": true,
     "emoji": "🇮🇪",
@@ -302,7 +320,10 @@
     "transcription_variants": {
       "us": "/ˈaɪr.lənd/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:france:noun",
@@ -316,9 +337,9 @@
     "examples": [
       "Paris is capital of France."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/frɑːns/",
     "no_antonym": true,
     "emoji": "🇫🇷",
@@ -326,7 +347,10 @@
     "transcription_variants": {
       "us": "/fræns/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:germany:noun",
@@ -340,9 +364,9 @@
     "examples": [
       "Berlin is capital of Germany."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈdʒɜː.mə.ni/",
     "no_antonym": true,
     "emoji": "🇩🇪",
@@ -350,7 +374,10 @@
     "transcription_variants": {
       "us": "/ˈdʒɝː.mə.ni/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:spain:noun",
@@ -364,14 +391,17 @@
     "examples": [
       "Madrid is capital of Spain."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/speɪn/",
     "no_antonym": true,
     "emoji": "🇪🇸",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:italy:noun",
@@ -385,9 +415,9 @@
     "examples": [
       "Rome is capital of Italy."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈɪt.əl.i/",
     "no_antonym": true,
     "emoji": "🇮🇹",
@@ -395,7 +425,10 @@
     "transcription_variants": {
       "us": "/ˈɪt̬.əl.i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:portugal:noun",
@@ -409,9 +442,9 @@
     "examples": [
       "Lisbon is capital of Portugal."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈpɔː.tʃə.ɡəl/",
     "no_antonym": true,
     "emoji": "🇵🇹",
@@ -419,7 +452,10 @@
     "transcription_variants": {
       "us": "/ˈpɔːr.tʃə.ɡəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:russia:noun",
@@ -433,14 +469,17 @@
     "examples": [
       "Moscow is capital of Russia."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈrʌʃ.ə/",
     "no_antonym": true,
     "emoji": "🇷🇺",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:china:noun",
@@ -454,14 +493,17 @@
     "examples": [
       "Beijing is capital of China."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈtʃaɪ.nə/",
     "no_antonym": true,
     "emoji": "🇨🇳",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:japan:noun",
@@ -475,14 +517,17 @@
     "examples": [
       "Tokyo is capital of Japan."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/dʒəˈpæn/",
     "no_antonym": true,
     "emoji": "🇯🇵",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:india:noun",
@@ -496,14 +541,17 @@
     "examples": [
       "Delhi is located in India."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈɪn.di.ə/",
     "no_antonym": true,
     "emoji": "🇮🇳",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:canada:noun",
@@ -517,14 +565,17 @@
     "examples": [
       "Toronto is located in Canada."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈkæn.ə.də/",
     "no_antonym": true,
     "emoji": "🇨🇦",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:mexico:noun",
@@ -538,9 +589,9 @@
     "examples": [
       "They visited Mexico in winter."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈmek.sɪ.kəʊ/",
     "no_antonym": true,
     "emoji": "🇲🇽",
@@ -548,7 +599,10 @@
     "transcription_variants": {
       "us": "/ˈmek.sɪ.koʊ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:brazil:noun",
@@ -562,14 +616,17 @@
     "examples": [
       "The Amazon is in Brazil."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/brəˈzɪl/",
     "no_antonym": true,
     "emoji": "🇧🇷",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:egypt:noun",
@@ -583,14 +640,17 @@
     "examples": [
       "Pyramids stand in Egypt."
     ],
-    "domain": "general, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈiː.dʒɪpt/",
     "no_antonym": true,
     "emoji": "🇪🇬",
     "countability": "invariable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:city:noun",
@@ -604,9 +664,9 @@
     "examples": [
       "Paris is a famous city."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "cities",
     "tags": [
       "spoken"
@@ -639,7 +699,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "borders",
     "tags": [
       "spoken"
@@ -672,7 +732,7 @@
     ],
     "domain": "general, travel",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "flags",
     "levels": [
       "A1"
@@ -698,9 +758,9 @@
       "Cows grazed in the green field.",
       "Golden wheat grew in the field."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/fiːld/",
     "transcription_variants": {
       "us": "/fiːld/"
@@ -728,9 +788,9 @@
     "examples": [
       "Rain made the grassy ground soft and wet."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "geography",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ɡraʊnd/",
     "transcription_variants": {
       "us": "/ɡraʊnd/"

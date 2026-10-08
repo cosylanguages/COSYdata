@@ -11,9 +11,9 @@
     "examples": [
       "Do not lose the soccer game."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -31,7 +31,8 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:lose"
+      "COSYtools:en-irregular-verbs:lose",
+      "to lose"
     ]
   },
   {
@@ -39,16 +40,16 @@
     "word": "play",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a theatrical show or game activity"
     ],
     "examples": [
       "We watched a school play."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "plays",
     "tags": [
       "spoken"
@@ -60,7 +61,13 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to play"
+    ]
   },
   {
     "id": "en:vacation:noun",
@@ -74,9 +81,9 @@
     "examples": [
       "We went on summer vacation."
     ],
-    "domain": "general, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "vacations",
     "tags": [
       "spoken"
@@ -110,9 +117,9 @@
     "examples": [
       "He scored a goal today."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -130,30 +137,32 @@
     "past_participle": "scored",
     "present_participle": "scoring",
     "is_irregular": false,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "related_forms": [
+      "to score"
+    ]
   },
   {
     "id": "en:game:noun",
     "word": "game",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "an activity played for fun or score"
     ],
     "examples": [
       "We played a board game together."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "games",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1",
-      "C2"
+      "A0"
     ],
     "transcription": "/ɡeɪm/",
     "no_antonym": true,
@@ -167,20 +176,19 @@
     "word": "party",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a social gathering with food games"
     ],
     "examples": [
       "We enjoyed the birthday party."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "parties",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "transcription": "/ˈpɑː.ti/",
     "no_antonym": true,
@@ -197,37 +205,40 @@
     "word": "paint",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "colored liquid used for drawing pictures"
     ],
     "examples": [
       "Use red paint on paper."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/peɪnt/",
     "no_antonym": true,
     "emoji": "🎨",
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:sport:noun",
     "word": "sport",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a physical game or activity played for fun"
     ],
     "examples": [
       "Football is a popular sport."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "sports",
     "tags": [
       "spoken"
@@ -240,23 +251,26 @@
       "us": "/spɔːrt/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:football:noun",
     "word": "football",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a game played by kicking a round ball"
     ],
     "examples": [
       "He plays football with friends."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -276,6 +290,9 @@
     "sub_theme": "general",
     "secondary_themes": [
       "geography"
+    ],
+    "levels": [
+      "A0"
     ]
   },
   {
@@ -290,9 +307,9 @@
     "examples": [
       "They played soccer in the park."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -320,16 +337,16 @@
     "word": "basketball",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a game throwing a ball into net basket"
     ],
     "examples": [
       "She plays basketball at school."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -341,8 +358,7 @@
       "us": "/ˈbæs.kət.bɑːl/"
     },
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "sub_theme": "general"
   },
@@ -351,16 +367,16 @@
     "word": "tennis",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a game hitting ball across net with racket"
     ],
     "examples": [
       "They play tennis on court."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -368,7 +384,10 @@
     "transcription": "/ˈten.ɪs/",
     "no_antonym": true,
     "emoji": "🎾",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:swimming:noun",
@@ -382,9 +401,9 @@
     "examples": [
       "Swimming in the lake is fun."
     ],
-    "domain": "general, relocation, spoken, travel, exam",
+    "domain": "general, spoken, travel",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -392,7 +411,10 @@
     "no_antonym": true,
     "emoji": "🏊",
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:running:noun",
@@ -406,9 +428,9 @@
     "examples": [
       "He goes running every morning."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -434,9 +456,9 @@
     "examples": [
       "The soccer player scored a goal."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "players",
     "tags": [
       "spoken"
@@ -449,7 +471,10 @@
       "us": "/ˈpleɪ.ɚ/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:win:verb",
@@ -463,9 +488,9 @@
     "examples": [
       "Our team hopes to win."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -480,7 +505,11 @@
     "is_irregular": true,
     "sub_theme": "general",
     "related_forms": [
-      "COSYtools:en-irregular-verbs:win"
+      "COSYtools:en-irregular-verbs:win",
+      "to win"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -488,16 +517,16 @@
     "word": "song",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a piece of music sung by human voice"
     ],
     "examples": [
       "They sang a happy song."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "songs",
     "transcription": "/sɒŋ/",
     "no_antonym": true,
@@ -507,23 +536,26 @@
       "us": "/sɑːŋ/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:sing:noun",
     "word": "sing",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "the act of singing songs"
     ],
     "examples": [
       "She loves a good sing."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -531,23 +563,29 @@
     "no_antonym": true,
     "emoji": "🎤",
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to sing"
+    ]
   },
   {
     "id": "en:dance:noun",
     "word": "dance",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "moving your body to music rhythms"
     ],
     "examples": [
       "She loves to dance fast."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "dances",
     "tags": [
       "spoken"
@@ -560,7 +598,13 @@
       "us": "/dæns/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ],
+    "related_forms": [
+      "to dance"
+    ]
   },
   {
     "id": "en:dancing:noun",
@@ -574,9 +618,9 @@
     "examples": [
       "Dancing makes people very happy."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -587,7 +631,10 @@
     "transcription_variants": {
       "us": "/ˈdæn.sɪŋ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:reading:noun",
@@ -601,9 +648,9 @@
     "examples": [
       "Reading is my favorite hobby."
     ],
-    "domain": "general, spoken, relocation",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -611,7 +658,10 @@
     "no_antonym": true,
     "emoji": "📖",
     "countability": "uncountable",
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:movie:noun",
@@ -625,9 +675,9 @@
     "examples": [
       "We watched a funny movie."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "movies",
     "transcription": "/ˈmuː.vi/",
     "no_antonym": true,
@@ -640,7 +690,10 @@
       "en:film:noun"
     ],
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:film:noun",
@@ -654,9 +707,9 @@
     "examples": [
       "They saw a new film."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "films",
     "transcription": "/fɪlm/",
     "no_antonym": true,
@@ -669,7 +722,10 @@
       "en:movie:noun"
     ],
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:photography:noun",
@@ -683,9 +739,9 @@
     "examples": [
       "Photography is a creative hobby."
     ],
-    "domain": "general, spoken, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -714,9 +770,9 @@
     "examples": [
       "Grandma enjoys gardening very much."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -727,7 +783,10 @@
     "transcription_variants": {
       "us": "/ˈɡɑːr.dən.ɪŋ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:cooking:noun",
@@ -741,9 +800,9 @@
     "examples": [
       "My father enjoys cooking dinner."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -751,23 +810,26 @@
     "no_antonym": true,
     "emoji": "🍳",
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:hobby:noun",
     "word": "hobby",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "an activity done for pleasure in free time"
     ],
     "examples": [
       "Gardening is my quiet hobby."
     ],
-    "domain": "general, spoken, relocation, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "hobbies",
     "tags": [
       "spoken"
@@ -780,14 +842,17 @@
       "us": "/ˈhɑː.bi/"
     },
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:fun:noun",
     "word": "fun",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "enjoyment or amusement in activity"
     ],
@@ -796,41 +861,43 @@
     ],
     "domain": "general",
     "theme": "leisure",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "countability": "uncountable",
     "transcription": "/fʌn/",
     "emoji": "🎉",
     "antonyms": [
       "boredom"
     ],
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "en:singing:noun",
     "word": "singing",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "the activity of making musical sounds"
     ],
     "examples": [
       "Her singing sounded very sweet."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "leisure",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈsɪŋ.ɪŋ/",
     "no_antonym": true,
     "emoji": "🎤",
     "countability": "uncountable",
     "levels": [
-      "A0",
-      "A2"
+      "A1"
     ],
     "sub_theme": "sports"
   },
@@ -839,20 +906,20 @@
     "word": "traveling",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "the activity of visiting different places"
     ],
     "examples": [
       "Traveling to new cities is fun."
     ],
-    "domain": "spoken, exam",
+    "domain": "general, spoken",
     "theme": "leisure",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈtræv.əl.ɪŋ/",
     "no_antonym": true,
     "emoji": "🧳",
@@ -863,6 +930,9 @@
     "sub_theme": "general",
     "regional_equivalents": [
       "en:travelling:noun"
+    ],
+    "levels": [
+      "A1"
     ]
   },
   {
@@ -870,27 +940,26 @@
     "word": "gaming",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "the activity of playing video games"
     ],
     "examples": [
       "He spends hours on gaming."
     ],
-    "domain": "spoken",
+    "domain": "general, spoken",
     "theme": "leisure",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈɡeɪ.mɪŋ/",
     "no_antonym": true,
     "emoji": "🎮",
     "countability": "uncountable",
     "levels": [
-      "A0",
-      "B2"
+      "A1"
     ],
     "sub_theme": "sports"
   },
@@ -899,28 +968,27 @@
     "word": "race",
     "language": "en",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "a contest of speed in running"
     ],
     "examples": [
       "He won the running race."
     ],
-    "domain": "spoken, relocation",
+    "domain": "general, spoken",
     "theme": "leisure",
     "tags": [
       "spoken",
       "beginner"
     ],
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "plural_form": "races",
     "transcription": "/reɪs/",
     "no_antonym": true,
     "emoji": "🏁",
     "countability": "countable",
     "levels": [
-      "A0",
-      "A2"
+      "A1"
     ],
     "article": "a",
     "sub_theme": "sports"
@@ -938,9 +1006,9 @@
       "How do you like to spend your free time on weekends?",
       "I read books in my free time."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general",
     "theme": "sports_hobbies",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "transcription": "/friː taɪm/",
     "transcription_variants": {
       "us": "/friː taɪm/"
@@ -959,16 +1027,16 @@
     "word": "slide",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a playground structure with a smooth slope for sliding down"
     ],
     "examples": [
       "Children love playing on the playground slide."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "sports_hobbies",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/slaɪd/",
     "transcription_variants": {
       "us": "/slaɪd/"
@@ -978,8 +1046,7 @@
     "countability": "countable",
     "plural_form": "slides",
     "levels": [
-      "A1",
-      "B2"
+      "A0"
     ],
     "article": "a",
     "sub_theme": "sports"
@@ -996,9 +1063,9 @@
     "examples": [
       "The kids played on the park swings after class."
     ],
-    "domain": "general, relocation",
+    "domain": "general",
     "theme": "sports_hobbies",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/swɪŋ/",
     "transcription_variants": {
       "us": "/swɪŋ/"
@@ -1029,14 +1096,17 @@
     ],
     "domain": "general, travel",
     "theme": "sports_hobbies",
-    "updated": "2025-01-15",
+    "updated": "2025-05-20",
     "transcription": "/ˈwɔː.kɪŋ/",
     "transcription_variants": {
       "us": "/ˈwɑː.kɪŋ/"
     },
     "emoji": "🚶",
     "no_antonym": true,
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:gym:noun",
@@ -1053,7 +1123,7 @@
     ],
     "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1088,7 +1158,7 @@
     ],
     "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1121,7 +1191,7 @@
     ],
     "domain": "general, spoken",
     "theme": "leisure",
-    "updated": "2026-10-01",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1163,17 +1233,17 @@
     "no_antonym": true,
     "domain": "general",
     "theme": "leisure",
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "updated": "2025-05-20"
   },
   {
     "id": "en:baseball:noun",
     "word": "baseball",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "emoji": "⚾",
     "transcription": "/ˈbeɪsbɔːl/",
@@ -1189,7 +1259,7 @@
     "domain": "general",
     "theme": "leisure",
     "sub_theme": "sports",
-    "updated": "2026-10-01"
+    "updated": "2025-05-20"
   },
   {
     "id": "en:travelling:noun",
@@ -1204,7 +1274,7 @@
     "examples": [
       "Travelling abroad expands your horizons."
     ],
-    "domain": "general, relocation, travel",
+    "domain": "general, travel",
     "theme": "leisure",
     "sub_theme": "entertainment_arts",
     "transcription": "/ˈtræv.əl.ɪŋ/",
@@ -1215,64 +1285,73 @@
     "regional_equivalents": [
       "en:traveling:noun"
     ],
-    "updated": "2026-09-22",
-    "no_antonym": true
+    "updated": "2025-05-20",
+    "no_antonym": true,
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "en:run:noun",
     "word": "run",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a period or distance of running for exercise"
     ],
     "examples": [
       "He goes for a short run every morning."
     ],
-    "domain": "general, leisure",
+    "domain": "general",
     "theme": "sports_hobbies",
-    "updated": "2026-03-30",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/rʌn/",
     "countability": "countable",
     "plural_form": "runs",
     "no_antonym": true,
     "emoji": "🏃",
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "related_forms": [
+      "to run"
+    ]
   },
   {
     "id": "en:swim:noun",
     "word": "swim",
     "language": "en",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "definitions": [
       "a period or act of swimming"
     ],
     "examples": [
       "Let us go for a quick swim in the pool."
     ],
-    "domain": "general, leisure",
+    "domain": "general",
     "theme": "sports_hobbies",
-    "updated": "2026-03-30",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
     "levels": [
-      "A1"
+      "A0"
     ],
     "transcription": "/swɪm/",
     "countability": "countable",
     "plural_form": "swims",
     "no_antonym": true,
     "emoji": "🏊",
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "related_forms": [
+      "to swim"
+    ]
   },
   {
     "id": "en:finish:noun",
@@ -1286,9 +1365,9 @@
     "examples": [
       "The runners crossed the finish line together."
     ],
-    "domain": "general, leisure",
+    "domain": "general",
     "theme": "sports_hobbies",
-    "updated": "2026-03-30",
+    "updated": "2025-05-20",
     "tags": [
       "spoken"
     ],
@@ -1300,6 +1379,9 @@
     "plural_form": "finishes",
     "no_antonym": true,
     "emoji": "🏁",
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "related_forms": [
+      "to finish"
+    ]
   }
 ]

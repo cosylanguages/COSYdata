@@ -4,68 +4,25 @@
 
 ## Target Metrics
 
-*No target file present (`reports/a0_a1_target.json` is missing). Current counts reported below.*
+- **Target Total**: 1669
+- **Target A0**: 474
+- **Target A1**: 1195
 
 ## Summary Table
 
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EN | 1682 | 266 | 1416 | N/A | N/A | N/A | 2511 | 66 |
-| FR | 1094 | 17 | 1077 | N/A | N/A | N/A | 132 | 55 |
-| IT | 1113 | 17 | 1096 | N/A | N/A | N/A | 297 | 57 |
-| RU | 910 | 19 | 891 | N/A | N/A | N/A | 6 | 76 |
-| EL | 794 | 17 | 777 | N/A | N/A | N/A | 13 | 58 |
+| EN | 1669 | 474 | 1195 | +0 | +0 | +0 | 0 | 0 |
+| FR | 1094 | 17 | 1077 | -575 | -457 | -118 | 132 | 54 |
+| IT | 1113 | 17 | 1096 | -556 | -457 | -99 | 297 | 56 |
+| RU | 910 | 19 | 891 | -759 | -455 | -304 | 6 | 75 |
+| EL | 794 | 17 | 777 | -875 | -457 | -418 | 13 | 57 |
 
 ### Details: EN
 
-#### Structural & Policy Violations (2511)
+*No structural or policy violations found.*
 
-##### Domain Violations (2511)
-- Entry 'en:long:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:long:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:good:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:good:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:easy:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:easy:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:wrong:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:wrong:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:short:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:short:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:open:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:open:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:full:adjective' domain tag 'relocation' not allowed at A0-A1
-- Entry 'en:full:adjective' domain tag 'exam' not allowed at A0-A1
-- Entry 'en:same:adjective' domain tag 'relocation' not allowed at A0-A1
-- *...and 2496 more*
-
-#### Missing Essentials (66)
-
-- **I would like** (expected: `I would like`)
-- **enjoy your meal** (expected: `enjoy your meal`)
-- **to be** (expected: `to be`)
-- **to have** (expected: `to have`)
-- **to come** (expected: `to come`)
-- **to want** (expected: `to want`)
-- **to know** (expected: `to know`)
-- **to see** (expected: `to see`)
-- **to eat** (expected: `to eat`)
-- **to drink** (expected: `to drink`)
-- **to sleep** (expected: `to sleep`)
-- **to live** (expected: `to live`)
-- **to work** (expected: `to work`)
-- **to speak** (expected: `to speak`)
-- **to buy** (expected: `to buy`)
-- **to open** (expected: `to open`)
-- **to close** (expected: `to close`)
-- **to read** (expected: `to read`)
-- **to write** (expected: `to write`)
-- **to give** (expected: `to give`)
-- **to take** (expected: `to take`)
-- **to say** (expected: `to say`)
-- **to learn** (expected: `to learn`)
-- **to understand** (expected: `to understand`)
-- **to listen** (expected: `to listen`)
-- *...and 41 more*
+*All non-exempt essentials covered.*
 
 ### Details: FR
 
@@ -99,7 +56,7 @@
 - Word+form+sense 'marche::noun::' duplicated across IDs: fr:marche-commerce:noun, fr:marche:noun
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
 
-#### Missing Essentials (55)
+#### Missing Essentials (54)
 
 - **I don't understand** (expected: `je ne comprends pas`)
 - **I don't know** (expected: `je ne sais pas`)
@@ -126,7 +83,7 @@
 - **weekend** (expected: `week-end`)
 - **expensive** (expected: `cher`)
 - **cheap** (expected: `bon marché`)
-- *...and 30 more*
+- *...and 29 more*
 
 ### Details: IT
 
@@ -173,7 +130,7 @@
 - Word+form+sense 'strada::noun::' duplicated across IDs: it:strada-modo:noun, it:strada:noun
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
 
-#### Missing Essentials (57)
+#### Missing Essentials (56)
 
 - **I don't understand** (expected: `non capisco`)
 - **I don't know** (expected: `non lo so`)
@@ -200,7 +157,7 @@
 - **cinema** (expected: `cinema`)
 - **ticket** (expected: `biglietto`)
 - **weekend** (expected: `fine settimana/weekend`)
-- *...and 32 more*
+- *...and 31 more*
 
 ### Details: RU
 
@@ -216,7 +173,7 @@
 - Word+form+sense 'курица::noun::' duplicated across IDs: ru:kuritsa-anim:noun, ru:kuritsa:noun
 - Word+form+sense 'мир::noun::' duplicated across IDs: ru:mir-peace:noun, ru:mir-country:noun
 
-#### Missing Essentials (76)
+#### Missing Essentials (75)
 
 - **no** (expected: `нет`)
 - **I don't understand** (expected: `я не понимаю`)
@@ -243,7 +200,7 @@
 - **meal** (expected: `еда/приём пищи`)
 - **supermarket** (expected: `супермаркет`)
 - **pharmacy** (expected: `аптека`)
-- *...and 51 more*
+- *...and 50 more*
 
 ### Details: EL
 
@@ -266,7 +223,7 @@
 - Word+form+sense 'παρακαλω::phrase::' duplicated across IDs: el:parakalo:phrase, el:parakalo-welcome:phrase
 - Word+form+sense 'συζυγος::noun::' duplicated across IDs: el:syzygos-andras:noun, el:syzygos-gynaika:noun
 
-#### Missing Essentials (58)
+#### Missing Essentials (57)
 
 - **hello** (expected: `γεια`)
 - **I don't understand** (expected: `δεν καταλαβαίνω`)
@@ -293,4 +250,12 @@
 - **cinema** (expected: `κινηματογράφος/σινεμά`)
 - **ticket** (expected: `εισιτήριο`)
 - **sometimes** (expected: `μερικές φορές/καμιά φορά/μερικές φορές`)
-- *...and 33 more*
+- *...and 32 more*
+
+## Exempt Essentials Keys (5)
+
+- `empty`
+- `closed (adj)`
+- `weak`
+- `heavy`
+- `storm`
