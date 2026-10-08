@@ -296,7 +296,7 @@
     "word": "ville",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/vil/",
     "definitions": [
       "Grand regroupement d'habitations et d'habitants."
@@ -315,7 +315,10 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "villes",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:rue:noun",
@@ -435,7 +438,8 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "marchés",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "sense": "lieu"
   },
   {
     "id": "fr:eglise:noun",
@@ -646,7 +650,7 @@
     "word": "pays",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/pe.i/",
     "definitions": [
       "Territoire habité par une nation."
@@ -663,7 +667,10 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "pays",
-    "sub_theme": "places_destinations"
+    "sub_theme": "places_destinations",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:etats-unis:noun",
@@ -1280,5 +1287,59 @@
       "COSYtools:fr-conjugeur:manquer"
     ],
     "sub_theme": "places_destinations"
+  },
+  {
+    "id": "fr:pharmacie:noun",
+    "word": "pharmacie",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/faʁ.ma.si/",
+    "definitions": [
+      "Magasin où l'on vend des médicaments."
+    ],
+    "examples": [
+      "Je vais à la pharmacie pour acheter du sirop."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-18",
+    "emoji": "💊",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "la",
+    "gender": "feminine",
+    "plural_form": "pharmacies",
+    "sub_theme": "vehicles_transportation",
+    "levels": [
+      "A1"
+    ]
+  },
+  {
+    "id": "fr:supermarche:noun",
+    "word": "supermarché",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sy.pɛʁ.maʁ.ʃe/",
+    "definitions": [
+      "Grand magasin d'alimentation en libre-service."
+    ],
+    "examples": [
+      "Nous faisons nos grosses courses au supermarché."
+    ],
+    "domain": "general",
+    "theme": "travel",
+    "updated": "2025-05-18",
+    "emoji": "🛒",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "le",
+    "gender": "masculine",
+    "plural_form": "supermarchés",
+    "sub_theme": "vehicles_transportation",
+    "levels": [
+      "A1"
+    ]
   }
 ]

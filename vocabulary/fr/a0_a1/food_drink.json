@@ -4,7 +4,7 @@
     "word": "pain",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/pɛ̃/",
     "definitions": [
       "Aliment fait de farine, d'eau et de levure cuit au four."
@@ -22,8 +22,7 @@
     "gender": "masculine",
     "plural_form": "pains",
     "levels": [
-      "A1",
-      "A2"
+      "A0"
     ],
     "sub_theme": "meals"
   },
@@ -32,7 +31,7 @@
     "word": "eau",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/o/",
     "definitions": [
       "Liquide transparent indispensable à la vie."
@@ -48,7 +47,11 @@
     "countability": "uncountable",
     "article": "l'",
     "gender": "feminine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "de l'",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:lait:noun",
@@ -71,14 +74,15 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:cafe:noun",
     "word": "café",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/ka.fe/",
     "definitions": [
       "Boisson chaude préparée avec des grains torréfiés."
@@ -95,14 +99,17 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "cafés",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:the:noun",
     "word": "thé",
     "language": "fr",
     "form": "noun",
-    "level": "A1",
+    "level": "A0",
     "transcription": "/te/",
     "definitions": [
       "Boisson préparée par infusion de feuilles séchées."
@@ -119,7 +126,10 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "thés",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "levels": [
+      "A0"
+    ]
   },
   {
     "id": "fr:vin:noun",
@@ -239,7 +249,8 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "fromages",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:beurre:noun",
@@ -262,7 +273,8 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:viande:noun",
@@ -285,7 +297,8 @@
     "countability": "uncountable",
     "article": "la",
     "gender": "feminine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "de la"
   },
   {
     "id": "fr:poulet:noun",
@@ -309,7 +322,8 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "poulets",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:poisson-aliment:noun",
@@ -333,7 +347,9 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "poissons",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du",
+    "sense": "aliment"
   },
   {
     "id": "fr:riz:noun",
@@ -356,7 +372,8 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:pates:noun",
@@ -380,7 +397,8 @@
     "article": "les",
     "gender": "feminine",
     "singular_workaround": "une pâte",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "des"
   },
   {
     "id": "fr:soupe:noun",
@@ -619,7 +637,8 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:sucre:noun",
@@ -642,7 +661,8 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:sandwich:noun",
@@ -697,7 +717,7 @@
     "word": "glace",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/ɡlas/",
     "definitions": [
       "Dessert glacé sucré parfumé au chocolat ou aux fruits."
@@ -714,7 +734,10 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "glaces",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "fr:chocolat:noun",
@@ -949,7 +972,7 @@
     "word": "serviette",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/sɛʁ.vjɛt/",
     "definitions": [
       "Morceau de tissu ou de papier pour s'essuyer à table."
@@ -966,7 +989,10 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "serviettes",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "fr:restaurant:noun",
@@ -1045,7 +1071,7 @@
     "word": "ail",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/aj/",
     "definitions": [
       "Plante potagère odorante servant de condiment."
@@ -1061,7 +1087,11 @@
     "countability": "uncountable",
     "article": "l'",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "de l'",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "fr:citron:noun",
@@ -1112,7 +1142,8 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:yaourt:noun",
@@ -1159,7 +1190,8 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "du"
   },
   {
     "id": "fr:huile:noun",
@@ -1186,7 +1218,8 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "meals"
+    "sub_theme": "meals",
+    "partitive": "de l'"
   },
   {
     "id": "fr:ratatouille:noun",
@@ -1467,8 +1500,8 @@
     "examples": [
       "Nous dînons à huit heures ce soir."
     ],
-    "domain": "general, food",
-    "theme": "food_drink",
+    "domain": "general",
+    "theme": "food",
     "sub_theme": "meals",
     "updated": "2026-03-30",
     "tags": [
