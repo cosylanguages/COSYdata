@@ -82,9 +82,49 @@ If an authoritative source cannot be reached or consulted for an entry, do not g
 
 ---
 
+## Partitives and contractions
+
+### Partitive articles on nouns
+- **Field**: `partitive` (string, optional on nouns).
+- **French (`fr`)**:
+  - Allowed values: `"du"`, `"de la"`, `"de l'"`, `"des"`.
+  - **REQUIRED** on every noun with countability `uncountable` (*du pain*, *de la viande*, *de l'eau*).
+  - **REQUIRED** with value `"des"` on `pluralia_tantum` nouns (*des pâtes*, *des vacances*).
+  - **REQUIRED** on countable nouns that are normally also used as a mass noun at A1 (*du poulet*, *du poisson*, *du fromage*, *du sport*, *de la musique*, *du temps*, *de l'argent*, *de la chance*).
+  - **OMITTED** on ordinary countable nouns (their plural remains in `plural_form`).
+  - Value agreement: masculine -> `du`; feminine -> `de la`; initial vowel or mute h (`h_aspire: false`) -> `de l'`. If the mass sense and count sense differ in meaning (e.g., *poulet* animal vs *poulet* meat), use separate entry IDs distinguished with `sense`.
+- **Italian (`it`)**:
+  - Allowed values: `"del"`, `"dello"`, `"della"`, `"dell'"`, `"dei"`, `"degli"`, `"delle"`.
+  - Same logic: required on uncountable and normally-mass nouns, plural forms for pluralia_tantum / mass-plural nouns (*del pane*, *della frutta*, *dell'acqua*, *degli spaghetti*), omitted on ordinary countable nouns.
+- **English (`en`), Russian (`ru`), Greek (`el`)**:
+  - `partitive` is prohibited and rejected by the schema.
+- **Counting Rule**: Partitive articles themselves are **NOT** separate entries; they live in the `partitive` field on the noun entries.
+
+### Preposition + article contractions
+- **Field**: `contraction` (`{"preposition": "<base preposition>", "article": "<article>"}`).
+- Allowed strictly when `form` is `"preposition"` and language is `fr`, `it`, or `el`.
+- Each contracted form is its **OWN entry** (e.g., ID `fr:au:preposition`; homograph entries like `fr:du-contracte:preposition` and `fr:des-contracte:preposition` use `sense` so they never clash with partitive or indefinite uses of *du* / *des*).
+- Base prepositions list their contracted entry IDs in `related_forms`.
+- **Required A1 Sets**:
+  - **French (`fr`)**: *au* (à+le), *aux* (à+les), *du* (de+le), *des* (de+les). Base prepositions: *à*, *de*.
+  - **Italian (`it`)**:
+    - *a* -> *al*, *allo*, *alla*, *all'*, *ai*, *agli*, *alle*;
+    - *di* -> *del*, *dello*, *della*, *dell'*, *dei*, *degli*, *delle*;
+    - *in* -> *nel*, *nello*, *nella*, *nell'*, *nei*, *negli*, *nelle*;
+    - *su* -> *sul*, *sullo*, *sulla*, *sull'*, *sui*, *sugli*, *sulle*;
+    - *da* -> *dal*, *dallo*, *dalla*, *dall'*, *dai*, *dagli*, *dalle*.
+    - *(con + article forms col / coi are not A1).*
+  - **Greek (`el`)**: *στο*, *στη*, *στην*, *στον*, *στα*, *στους*, *στις* (σε + article). Base preposition: *σε*.
+  - **English (`en`) and Russian (`ru`)**: Not applicable; the field is rejected.
+- **Counting Rule**: Each contracted form is one entry and counts in the A0–A1 total like any other entry.
+
+---
+
 ## Counting rule
 
 - **Unit of Counting**: 1 entry ID = 1 unit.
+- **Contracted Prepositions**: Each contracted preposition entry (e.g., *au*, *aux*, *del*, *στο*) counts as **ONE** entry.
+- **Partitives**: Partitive articles live in the `partitive` property on noun entries and do **NOT** count as separate entries.
 - **Homographs**: Words with identical surface forms but distinct meanings/senses must be separate entry IDs distinguished by the `sense` slug.
 - **Russian Aspect Pairs**: Aspectual verb pairs (imperfective/perfective) count as **ONE** entry. The imperfective verb serves as the headword, with the perfective verb referenced in `related_forms`.
 - **Russian Motion Verbs**: Unidirectional vs. multidirectional motion verbs (e.g., *идти* / *ходить*) count as **TWO** separate entries.

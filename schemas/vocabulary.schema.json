@@ -338,6 +338,25 @@
       "type": "string",
       "description": "Partitive article/form (e.g. du, de la, del)"
     },
+    "contraction": {
+      "type": "object",
+      "required": [
+        "preposition",
+        "article"
+      ],
+      "properties": {
+        "preposition": {
+          "type": "string",
+          "description": "Base preposition before contraction (e.g. à, de, a, di, da, in, su, σε)"
+        },
+        "article": {
+          "type": "string",
+          "description": "Definite article before contraction (e.g. le, les, il, lo, la, l', i, gli, le, το, τη, την, στον, etc.)"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Preposition + article contraction details"
+    },
     "h_aspire": {
       "type": "boolean",
       "description": "Indicates aspirate h in French"
@@ -1774,6 +1793,72 @@
         "properties": {
           "plural_form": false,
           "singular_workaround": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "form": {
+            "const": "preposition"
+          }
+        },
+        "required": [
+          "form"
+        ]
+      },
+      "then": {
+        "properties": {
+          "contraction": {
+            "type": "object"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "contraction": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "language": {
+            "enum": [
+              "fr",
+              "it",
+              "el"
+            ]
+          }
+        },
+        "required": [
+          "language"
+        ]
+      },
+      "else": {
+        "properties": {
+          "contraction": false
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "language": {
+            "enum": [
+              "en",
+              "ru",
+              "el"
+            ]
+          }
+        },
+        "required": [
+          "language"
+        ]
+      },
+      "then": {
+        "properties": {
+          "partitive": false
         }
       }
     }

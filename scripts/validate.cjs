@@ -221,6 +221,20 @@ function main() {
     }
   }
 
+  // Index all vocabulary entries by ID and by language+word+form for relational checks
+  const vocabIdMap = new Map();
+  const langWordFormMap = new Map(); // "lang:word:form" -> array of entries
+  for (const { entry, relPath } of vocabEntriesList) {
+    if (entry && entry.id) {
+      vocabIdMap.set(entry.id, { entry, relPath });
+      const key = `${entry.language}:${entry.word}:${entry.form}`;
+      if (!langWordFormMap.has(key)) {
+        langWordFormMap.set(key, []);
+      }
+      langWordFormMap.get(key).push({ entry, relPath });
+    }
+  }
+
   // Taxonomy & concept resolution checks (warnings)
   console.log(`Checking theme taxonomy and concept resolution...`);
   for (const { entry, relPath } of vocabEntriesList) {
@@ -246,6 +260,190 @@ function main() {
     if (entry.concept) {
       if (!allEnglishIds.has(entry.concept)) {
         console.info(`[INFO] File ${relPath} (ID: ${entry.id}): concept '${entry.concept}' does not resolve to an existing English entry ID (optional field)`);
+      }
+    }
+  }
+
+  // Partitive and Contraction validation checks
+  console.log(`Checking partitive and contraction rules...`);
+  const FR_MASS_NOUNS = new Set(['poulet', 'poisson', 'fromage', 'sport', 'musique', 'temps', 'argent', 'chance']);
+  const IT_MASS_NOUNS = new Set(['pane', 'frutta', 'acqua', 'spaghetti', 'latte', 'caffè', 'riso', 'carne', 'formaggio', 'zucchero', 'vino', 'birra', 'tè', 'burro', 'pasta']);
+
+  const FR_ALLOWED_PARTITIVES = new Set(['du', 'de la', "de l'", 'des']);
+  const IT_ALLOWED_PARTITIVES = new Set(['del', 'dello', 'della', "dell'", 'dei', 'degli', 'delle']);
+
+  const IT_ARTICLE_TO_PARTITIVE = {
+    'il': 'del',
+    'lo': 'dello',
+    'la': 'della',
+    "l'": "dell'",
+    "l’": "dell'",
+    'i': 'dei',
+    'gli': 'degli',
+    'le': 'delle'
+  };
+
+  for (const { entry, relPath } of vocabEntriesList) {
+    const lang = entry.language;
+
+    // Check 1: Partitive presence in unsupported languages
+    if (entry.partitive !== undefined && entry.partitive !== null) {
+      if (lang === 'en' || lang === 'ru' || lang === 'el') {
+        hasError = true;
+        console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+        console.error(`  - Field 'partitive': Partitive is not allowed for language '${lang}'`);
+      }
+    }
+
+    // Check 2: French partitives
+    if (lang === 'fr') {
+      if (entry.partitive !== undefined && entry.partitive !== null) {
+        if (!FR_ALLOWED_PARTITIVES.has(entry.partitive)) {
+          hasError = true;
+          console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+          console.error(`  - Field 'partitive': Invalid French partitive value '${entry.partitive}'. Must be one of: du, de la, de l', des`);
+        }
+
+        // Agreement checks for French
+        if (entry.form === 'noun') {
+          if (entry.countability === 'pluralia_tantum' && entry.partitive !== 'des') {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'partitive': Pluralia tantum noun must have partitive 'des', found '${entry.partitive}'`);
+          } else if (entry.countability === 'uncountable' || entry.countability === 'countable') {
+            const wordClean = (entry.word || '').toLowerCase();
+            const startsWithVowelOrMuteH = /^[aeiouyéèêëàâùûîïô]/i.test(wordClean) || (/^h/i.test(wordClean) && entry.h_aspire !== true);
+
+            if (startsWithVowelOrMuteH) {
+              if (entry.partitive !== "de l'") {
+                hasError = true;
+                console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+                console.error(`  - Field 'partitive': Inconsistent French partitive '${entry.partitive}' for word starting with vowel/mute h. Expected 'de l''`);
+              }
+            } else if (entry.gender === 'masculine') {
+              if (entry.partitive !== 'du') {
+                hasError = true;
+                console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+                console.error(`  - Field 'partitive': Inconsistent French partitive '${entry.partitive}' for masculine noun. Expected 'du'`);
+              }
+            } else if (entry.gender === 'feminine') {
+              if (entry.partitive !== 'de la') {
+                hasError = true;
+                console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+                console.error(`  - Field 'partitive': Inconsistent French partitive '${entry.partitive}' for feminine noun. Expected 'de la'`);
+              }
+            }
+          }
+        }
+      }
+
+      // Omitted on ordinary countable nouns check
+      if (entry.form === 'noun') {
+        const isNormallyMass = FR_MASS_NOUNS.has((entry.word || '').toLowerCase());
+        const isOrdinaryCountable = entry.countability === 'countable' && !isNormallyMass;
+
+        if (isOrdinaryCountable && entry.partitive) {
+          hasError = true;
+          console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+          console.error(`  - Field 'partitive': Partitive should be omitted on ordinary countable noun '${entry.word}'`);
+        }
+      }
+    }
+
+    // Check 3: Italian partitives
+    if (lang === 'it') {
+      if (entry.partitive !== undefined && entry.partitive !== null) {
+        if (!IT_ALLOWED_PARTITIVES.has(entry.partitive)) {
+          hasError = true;
+          console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+          console.error(`  - Field 'partitive': Invalid Italian partitive value '${entry.partitive}'`);
+        }
+
+        // Agreement check with article if present
+        if (entry.article && IT_ARTICLE_TO_PARTITIVE[entry.article]) {
+          const expected = IT_ARTICLE_TO_PARTITIVE[entry.article];
+          if (entry.partitive !== expected) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'partitive': Inconsistent Italian partitive '${entry.partitive}' for article '${entry.article}'. Expected '${expected}'`);
+          }
+        }
+      }
+
+      if (entry.form === 'noun') {
+        const isNormallyMass = IT_MASS_NOUNS.has((entry.word || '').toLowerCase());
+        const isOrdinaryCountable = entry.countability === 'countable' && !isNormallyMass;
+
+        if (isOrdinaryCountable && entry.partitive) {
+          hasError = true;
+          console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+          console.error(`  - Field 'partitive': Partitive should be omitted on ordinary countable noun '${entry.word}'`);
+        }
+      }
+    }
+
+    // Check 4: Contractions
+    if (entry.contraction) {
+      if (entry.form !== 'preposition') {
+        hasError = true;
+        console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+        console.error(`  - Field 'contraction': Contraction is allowed only when form is 'preposition'`);
+      }
+
+      if (lang !== 'fr' && lang !== 'it' && lang !== 'el') {
+        hasError = true;
+        console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+        console.error(`  - Field 'contraction': Contraction is not allowed for language '${lang}'`);
+      }
+
+      // Check base preposition entry and cross-referencing in related_forms
+      const basePrep = entry.contraction.preposition;
+      if (basePrep) {
+        const matches = langWordFormMap.get(`${lang}:${basePrep}:preposition`) || [];
+        if (matches.length === 0) {
+          hasError = true;
+          console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+          console.error(`  - Field 'contraction': Base preposition '${basePrep}' not found as a preposition entry in language '${lang}'`);
+        } else {
+          // Check that at least one base preposition entry lists this contracted entry ID in its related_forms
+          const relatesBack = matches.some((m) => Array.isArray(m.entry.related_forms) && m.entry.related_forms.includes(entry.id));
+          if (!relatesBack) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'contraction': Base preposition '${matches[0].entry.id}' missing related_forms reference to contracted entry '${entry.id}'`);
+          }
+        }
+      }
+
+      // Check definition / example language script suitability for contracted entries
+      if (Array.isArray(entry.definitions)) {
+        for (const def of entry.definitions) {
+          if (lang === 'el' && !/[\u0370-\u03ff\u1f00-\u1fff]/.test(def)) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'definitions': Definition '${def}' is not written in Greek`);
+          }
+          if ((lang === 'fr' || lang === 'it') && /[\u0400-\u04ff\u0370-\u03ff]/.test(def)) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'definitions': Definition '${def}' is not in the entry's language (${lang})`);
+          }
+        }
+      }
+
+      if (Array.isArray(entry.examples)) {
+        for (const ex of entry.examples) {
+          if (lang === 'el' && !/[\u0370-\u03ff\u1f00-\u1fff]/.test(ex)) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'examples': Example '${ex}' is not written in Greek`);
+          }
+          if ((lang === 'fr' || lang === 'it') && /[\u0400-\u04ff\u0370-\u03ff]/.test(ex)) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'examples': Example '${ex}' is not in the entry's language (${lang})`);
+          }
+        }
       }
     }
   }
