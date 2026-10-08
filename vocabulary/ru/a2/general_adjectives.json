@@ -446,56 +446,6 @@
     "updated": "2025-01-01"
   },
   {
-    "id": "ru:nepravilnyi:adjective",
-    "word": "неправильный",
-    "form": "adjective",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance",
-    "transcription": "[nʲɪˈpravʲɪlʲnɨj]",
-    "emoji": "❌",
-    "antonyms": [
-      "правильный"
-    ],
-    "definitions": [
-      "Содержащий ошибку, не соответствующий правилам."
-    ],
-    "examples": [
-      "Ученик сделал неправильный ответ на этот вопрос."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01"
-  },
-  {
-    "id": "ru:pravilnyi:adjective",
-    "word": "правильный",
-    "form": "adjective",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance",
-    "transcription": "[ˈpravʲɪlʲnɨj]",
-    "emoji": "✅",
-    "antonyms": [
-      "неправильный"
-    ],
-    "definitions": [
-      "Свободный от ошибок, верный по смыслу."
-    ],
-    "examples": [
-      "Студент назвал правильный ответ на уроке учителю."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2025-01-01"
-  },
-  {
     "id": "ru:sovremennyi:adjective",
     "word": "современный",
     "form": "adjective",
@@ -1315,29 +1265,6 @@
     "sub_theme": "physical_appearance"
   },
   {
-    "id": "ru:deshevyi:adjective",
-    "word": "дешевый",
-    "language": "ru",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/дешевый/",
-    "feminine": "дешевая",
-    "neuter": "дешевое",
-    "comparative": "более дешевый",
-    "superlative": "самый дешевый",
-    "emoji": "🏷️",
-    "definitions": [
-      "дешевый"
-    ],
-    "examples": [
-      "Он использует выражение \"дешевый\" в своем разговоре."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
     "id": "ru:dostupnyi-po-tsene:adjective",
     "word": "доступный по цене",
     "language": "ru",
@@ -1377,29 +1304,6 @@
     ],
     "examples": [
       "Он использует выражение \"стоит\" в своем разговоре."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
-    "id": "ru:besplatnyi:adjective",
-    "word": "бесплатный",
-    "language": "ru",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/бесплатный/",
-    "feminine": "бесплатная",
-    "neuter": "бесплатное",
-    "comparative": "более бесплатный",
-    "superlative": "самый бесплатный",
-    "emoji": "🎁",
-    "definitions": [
-      "бесплатный"
-    ],
-    "examples": [
-      "Он использует выражение \"бесплатный\" в своем разговоре."
     ],
     "no_antonym": true,
     "domain": "general",
@@ -2595,5 +2499,95 @@
       "COSYtools:ru-spryazhenie:обсуждать"
     ],
     "sub_theme": "physical_appearance"
+  },
+  {
+    "id": "ru:nepolnyy:adjective",
+    "word": "неполный",
+    "language": "ru",
+    "form": "adjective",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[неполный]",
+    "definitions": [
+      "Работающий меньшее количество часов, чем стандартная рабочая неделя."
+    ],
+    "examples": [
+      "Студент выбрал неполный рабочий день этим летом."
+    ],
+    "domain": "general",
+    "theme": "descriptors",
+    "updated": "2025-05-20",
+    "emoji": "⏳",
+    "antonyms": [
+      "полный"
+    ]
+  },
+  {
+    "id": "ru:otvratitelnyy:adjective",
+    "word": "отвратительный",
+    "language": "ru",
+    "form": "adjective",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[atvraˈtʲitʲilʲnɨj]",
+    "definitions": [
+      "Очень плохой или неприятный."
+    ],
+    "examples": [
+      "Вчера на улице стоял отвратительный холодный ветер."
+    ],
+    "domain": "general",
+    "theme": "descriptors",
+    "updated": "2025-05-20",
+    "emoji": "🤮",
+    "no_antonym": true
+  },
+  {
+    "id": "ru:neobkhodimyy:adjective",
+    "word": "необходимый",
+    "language": "ru",
+    "form": "adjective",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[nʲiabxaˈdʲimɨj]",
+    "definitions": [
+      "Требуемый; обязательный."
+    ],
+    "examples": [
+      "Ключ — очень необходимый предмет для дома."
+    ],
+    "domain": "general",
+    "theme": "descriptors",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true
+  },
+  {
+    "id": "ru:nevozmozhnyy:adjective",
+    "word": "невозможный",
+    "language": "ru",
+    "form": "adjective",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "transcription": "[nʲivazˈmoʐnɨj]",
+    "definitions": [
+      "Неспособный произойти."
+    ],
+    "examples": [
+      "Сделать эту сложную работу сейчас совершенно невозможно."
+    ],
+    "domain": "general",
+    "theme": "descriptors",
+    "updated": "2025-05-20",
+    "emoji": "✨",
+    "no_antonym": true
   }
 ]

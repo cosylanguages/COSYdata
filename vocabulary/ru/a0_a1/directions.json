@@ -1,234 +1,156 @@
 [
   {
-    "id": "ru:povernite-napravo:phrase",
-    "word": "поверните направо",
+    "id": "ru:napravo:adverb",
+    "word": "направо",
     "language": "ru",
-    "form": "phrase",
+    "form": "adverb",
     "level": "A1",
     "transliteration": "povernite napravo",
     "definitions": [
-      "повернуть на правую сторону улицы"
+      "В правую сторону."
     ],
     "examples": [
-      "Поверните направо возле светофора."
+      "Поверните направо возле магазина."
     ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/pə.vʲɪrˈnʲi.tʲɪ nɐˈpra.və/",
+    "domain": "general, travel",
+    "theme": "navigation",
+    "updated": "2025-05-20",
+    "transcription": "[nəˈpravə]",
     "antonyms": [
       "поверните налево"
     ],
     "emoji": "➡️",
-    "sub_theme": "navigation"
+    "levels": [
+      "A1"
+    ]
   },
   {
-    "id": "ru:povernite-nalevo:phrase",
-    "word": "поверните налево",
+    "id": "ru:nalevo:adverb",
+    "word": "налево",
     "language": "ru",
-    "form": "phrase",
+    "form": "adverb",
     "level": "A1",
     "transliteration": "povernite nalevo",
     "definitions": [
-      "повернуть на левую сторону улицы"
+      "В левую сторону."
     ],
     "examples": [
-      "Поверните налево за банком."
+      "Поверните налево на перекрёстке."
     ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/pə.vʲɪrˈnʲi.tʲɪ nɐˈlʲe.və/",
+    "domain": "general, travel",
+    "theme": "navigation",
+    "updated": "2025-05-20",
+    "transcription": "[nəˈlʲevə]",
     "antonyms": [
       "поверните направо"
     ],
     "emoji": "⬅️",
-    "sub_theme": "navigation"
+    "levels": [
+      "A1"
+    ]
   },
   {
-    "id": "ru:idite-pryamo:phrase",
-    "word": "идите прямо",
-    "language": "ru",
-    "form": "phrase",
-    "level": "A1",
-    "transliteration": "idite pryamo",
-    "definitions": [
-      "идти вперед не поворачивая"
-    ],
-    "examples": [
-      "Идите прямо до угла улицы."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/ɪˈdʲi.tʲɪ ˈprʲa.mə/",
-    "no_antonym": true,
-    "emoji": "⬆️",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "ru:na-uglu:phrase",
-    "word": "на углу",
-    "language": "ru",
-    "form": "phrase",
-    "level": "A1",
-    "transliteration": "na uglu",
-    "definitions": [
-      "в месте пересечения двух улиц"
-    ],
-    "examples": [
-      "Кафе находится прямо на углу."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/nə ʊgˈlu/",
-    "no_antonym": true,
-    "emoji": "📍",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "ru:glavnaya-ulitsa:noun",
-    "word": "главная улица",
-    "language": "ru",
+    "id": "ru:sever:noun",
+    "word": "север",
     "form": "noun",
-    "level": "A1",
-    "transliteration": "glavnaya ulitsa",
-    "definitions": [
-      "самая важная улица города"
-    ],
-    "examples": [
-      "Все магазины на главной улице."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/ˈgla.vnə.jə ˈu.lʲɪ.tsə/",
-    "no_antonym": true,
-    "emoji": "🛣️",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "главные улицы",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "ru:avtobusnaya-ostanovka:noun",
-    "word": "автобусная остановка",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "transliteration": "avtobusnaya ostanovka",
-    "definitions": [
-      "место где останавливается автобус"
-    ],
-    "examples": [
-      "Я жду на автобусной остановке."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/ɐvˈto.bʊs.nə.jə ɐs.tɐˈnof.kə/",
-    "no_antonym": true,
-    "emoji": "🚏",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "автобусные остановки",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "ru:peshekhodnyi-perekhod:noun",
-    "word": "пешеходный переход",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "transliteration": "peshekhodnyi perekhod",
-    "definitions": [
-      "место дороги для пешеходов"
-    ],
-    "examples": [
-      "Переходите дорогу по пешеходному переходу."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/pʲɪ.ʂɨˈxod.nɨj pʲɪ.rʲɪˈxot/",
-    "no_antonym": true,
-    "emoji": "🚶",
+    "theme": "navigation",
+    "transcription": "[ˈsʲevʲɪr]",
     "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "пешеходные переходы",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "ru:tsentralnaya-ploshchad:noun",
-    "word": "центральная площадь",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "transliteration": "tsentralnaya ploshchad",
+    "countability": "uncountable",
+    "emoji": "🧭",
+    "antonyms": [
+      "юг"
+    ],
     "definitions": [
-      "открытое место в центре города"
+      "Сторона света, противоположная югу и тёплым странам."
     ],
     "examples": [
-      "Мы встречаемся на центральной площади."
+      "Перелётные птицы улетают на холодный север весной."
     ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/tsɨnˈtralʲ.nə.jə ˈplo.ʂːətʲ/",
-    "no_antonym": true,
-    "emoji": "🏛️",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "центральные площади",
-    "sub_theme": "navigation"
+    "language": "ru",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, travel",
+    "updated": "2025-05-20"
   },
   {
-    "id": "ru:dorozhnyi-perekrestok:noun",
-    "word": "дорожный перекресток",
-    "language": "ru",
+    "id": "ru:yug:noun",
+    "word": "юг",
     "form": "noun",
-    "level": "A1",
-    "transliteration": "dorozhnyi perekrestok",
-    "definitions": [
-      "место пересечения дорог"
-    ],
-    "examples": [
-      "Осторожно на дорожном перекрестке."
-    ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/dɐˈroʐ.nɨj pʲɪ.rʲɪˈkrʲo.stək/",
-    "no_antonym": true,
-    "emoji": "✖️",
+    "theme": "navigation",
+    "transcription": "[juk]",
     "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "дорожные перекрестки",
-    "sub_theme": "navigation"
-  },
-  {
-    "id": "ru:svetofor-na-doroge:noun",
-    "word": "светофор на дороге",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "transliteration": "svetofor na doroge",
+    "countability": "uncountable",
+    "emoji": "☀️",
+    "antonyms": [
+      "север"
+    ],
     "definitions": [
-      "сигнал с красным и зеленым светом"
+      "Сторона света, противоположная северу, где тепло."
     ],
     "examples": [
-      "Машина стоит у светофора."
+      "Летом многие люди едут отдыхать на тёплый юг."
     ],
-    "domain": "general",
-    "theme": "places_transport",
-    "updated": "2026-09-22",
-    "transcription": "/svʲɪ.tɐˈfor nə dɐˈro.gʲɪ/",
-    "no_antonym": true,
-    "emoji": "🚦",
+    "language": "ru",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, travel",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:vostok:noun",
+    "word": "восток",
+    "form": "noun",
+    "theme": "navigation",
+    "transcription": "[vɐsˈtok]",
     "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "светофоры на дороге",
-    "sub_theme": "navigation"
+    "countability": "uncountable",
+    "emoji": "🌅",
+    "antonyms": [
+      "запад"
+    ],
+    "definitions": [
+      "Сторона света, где каждое утро восходит солнце."
+    ],
+    "examples": [
+      "Солнце медленно встаёт на востоке ранним летним утром."
+    ],
+    "language": "ru",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, travel",
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "ru:zapad:noun",
+    "word": "запад",
+    "form": "noun",
+    "theme": "navigation",
+    "transcription": "[ˈzapət]",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "emoji": "🌇",
+    "antonyms": [
+      "восток"
+    ],
+    "definitions": [
+      "Сторона света, где вечером заходит яркое солнце."
+    ],
+    "examples": [
+      "Солнце красиво садится на западе поздним тёплым вечером."
+    ],
+    "language": "ru",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, travel",
+    "updated": "2025-05-20"
   }
 ]

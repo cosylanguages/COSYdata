@@ -13,6 +13,21 @@ All notable changes to this project will be documented in this file.
   - Added "Partitives and contractions" rules section and updated entry counting rules in `docs/a0-a1-policy.md`.
 
 ### Changed
+- Completed Russian A0–A1 level audit and clean-up following `docs/a0-a1-policy.md` (Task P2-ru):
+  - Audited every entry in `vocabulary/ru/a0_a1/` against **Лексический минимум ТЭУ (элементарный уровень, A1) of TORFL**.
+  - Moved 155 non-literal idioms, proverbs, and free sentence expressions out of `a0_a1` to `vocabulary/ru/a2/idioms.json`.
+  - Moved 128 over-level artificial multi-word compounds and advanced A2+ terms (e.g. *продавец-консультант*, *интернет-сайт*, *живопись*, *юрист*, *медсестра*, *Александр Пушкин*, *Франция*, *Италия*, *корабль*, *церковь*, *существовать*, *организовать*, etc.) to `vocabulary/ru/a2/`.
+  - Moved 24 essential A1 vocabulary items (e.g. *потому что*, *много*, *несколько*, *север*, *юг*, *восток*, *запад*, *потом*, *аптека*, *направо*, *налево*, *деревня*, *офис*, *билет*, *повернуть*, *дорогой*, *дешёвый*, *правильный*, *неправильный*, *бесплатный*, *приезжать*, *носить*, *звонить*, *просыпаться*, *вставать*, *путешествовать*, etc.) into `vocabulary/ru/a0_a1/`.
+  - Resolved duplicates/homographs (`рыба`, `курица`, `мир`) using `sense` slugs.
+  - Normalized Russian aspectual verb pairs into single headwords (imperfective with `aspect_pair` and `aspect: "imperfective"`), merging 13 separate perfective entries (*открыть*, *закрыть*, *начать*, *закончить*, *спросить*, *ответить*, *помочь*, *забыть*, *дать*, *взять*, *заплатить*, *подождать*, *упасть*) and recording aliases in `shared/id-aliases.json`.
+  - Annotated motion verbs (*идти*, *ходить*, *ехать*, *ездить*, *нести*, *носить*, etc.) with `motion_type` (`"unidirectional"` / `"multidirectional"`).
+  - Added required `governs_case` property to all preposition entries in `prepositions.json`.
+  - Cleaned `domain` fields across all A0–A1 entries (ensuring `general` is listed first, adding `spoken` and `travel` per policy definitions, and removing prohibited domain values).
+  - Classified 206 survival core entries as level `"A0"` and 431 entries as `"A1"`.
+  - Recorded A1 classroom phrases and model sentences in `reports/ru-a1-phrases-for-functional-set.md`.
+  - Generated audit report `reports/ru-a0-a1-level-audit.md` and `reports/needs-review/P2-ru.md`.
+  - Rebuilt index, flat-index, and search-index files.
+
 - Completed Italian A0–A1 level audit and clean-up following `docs/a0-a1-policy.md` (Task P2-it):
   - Audited every entry in `vocabulary/it/a0_a1/` against *Profilo della lingua italiana A1*, *CILS A1*, *CELI 1*, and *Nuovo vocabolario di base (NVdB)*.
   - Moved 132 non-transparent idioms and proverbs out of `a0_a1/expressions.json` to `vocabulary/it/b1/idioms.json`.
