@@ -245,7 +245,7 @@ function main() {
 
     if (entry.concept) {
       if (!allEnglishIds.has(entry.concept)) {
-        console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): concept '${entry.concept}' does not resolve to an existing English entry ID`);
+        console.info(`[INFO] File ${relPath} (ID: ${entry.id}): concept '${entry.concept}' does not resolve to an existing English entry ID (optional field)`);
       }
     }
   }
