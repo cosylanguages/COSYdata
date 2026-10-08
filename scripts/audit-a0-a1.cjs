@@ -17,7 +17,6 @@ const CHECK_KEYS = [
   '9_transcription_empty_or_spelling',
   '10_noun_missing_countability_or_plural',
   '11_invalid_theme_or_subtheme',
-  '12_concept_missing_or_unresolved',
   '13_regional_equivalents_dangling_or_non_reciprocal'
 ];
 
@@ -401,23 +400,11 @@ function auditLanguage(rootDir, lang, knownThemes, englishIds) {
     }
   });
 
-  // Check 12: concept missing, or not resolving to an existing English entry (report % coverage per language)
+  // Concept coverage (informational metric only)
   let withConcept = 0;
   entries.forEach((e) => {
-    if (!e.concept) {
-      results.counts['12_concept_missing_or_unresolved']++;
-      results.examples['12_concept_missing_or_unresolved'].push(
-        `Entry '${e.id}' missing concept`
-      );
-    } else {
-      if (englishIds.has(e.concept)) {
-        withConcept++;
-      } else {
-        results.counts['12_concept_missing_or_unresolved']++;
-        results.examples['12_concept_missing_or_unresolved'].push(
-          `Entry '${e.id}' concept '${e.concept}' does not resolve to an English entry`
-        );
-      }
+    if (e.concept && englishIds.has(e.concept)) {
+      withConcept++;
     }
   });
   results.conceptCoverage.withConcept = withConcept;

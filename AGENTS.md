@@ -2,7 +2,7 @@
 
 ## Repo facts
 - Vocabulary lives in `vocabulary/<lang>/<level>/*.json` (each file is a JSON array of entries). Levels: a0_a1, a2, b1, b2, c1, c2. Languages: ba br cv de el en es fr hy it ka pt ru tt.
-- English is the source language. Every entry in another language should point to the English entry that has the same meaning through the `concept` field.
+- English is the size reference for A0–A1 only. Dictionaries are independent; `concept` is optional, never required, never created for non-English entries; existing values are left untouched.
 - Schema: `schemas/vocabulary.schema.json` (+ fixtures in `schemas/examples/`). Indexes: `vocabulary/<lang>/index.json`, `flat-index.json`, and `search-index.json`.
 - Theme taxonomy: `docs/theme-taxonomy.md` and its machine-readable copy `shared/themes.json`.
 
@@ -26,8 +26,11 @@
 - Definitions and examples must be written in the entry's own language, must describe THAT word (never copy another word's definition), and must contain the headword.
 - Do not add real named people, brands or copyrighted material as vocabulary.
 
+## A0–A1 programme
+For policies, sources, domain rules, allowed forms, counting rules, and parity targets for CEFR A0–A1 vocabulary, see [docs/a0-a1-policy.md](docs/a0-a1-policy.md).
+
 ## Field decisions (names are fixed; P01 adds them to the schema)
-- `concept`: string, the id of the English entry with the same meaning and sense, e.g. "en:dog:noun". English entries point to themselves; for a UK/US pair both entries use the UK entry's id. Omit `concept` when no English entry matches (list those in `reports/concept-alignment-<lang>.md`).
+- `concept`: string, optional ID of an English entry. Dictionaries are independent monolingual reference sets; `concept` is optional, never required, never created for non-English entries, and existing values are left untouched.
 - `secondary_themes`: array of canonical theme names (see `shared/themes.json`) for words that belong to more than one theme. `theme` stays the single primary theme. NEVER duplicate an entry to place it in a second theme.
 - `sense`: short slug that distinguishes homographs (e.g. "animal" / "food").
 - `usage_note`: one short sentence of usage guidance in English.

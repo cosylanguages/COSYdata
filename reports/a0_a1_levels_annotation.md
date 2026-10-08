@@ -1,3 +1,5 @@
+Superseded by reports/a0_a1_parity.md (see docs/a0-a1-policy.md)
+
 # A0–A1 Vocabulary Datasets: CEFR Levels Annotation & Cross-Linguistic Translation Parity Report
 
 ## Executive Summary
