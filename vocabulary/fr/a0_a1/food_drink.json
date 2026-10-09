@@ -4,7 +4,7 @@
     "word": "pain",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/pɛ̃/",
     "definitions": [
       "Aliment fait de farine, d'eau et de levure cuit au four."
@@ -24,8 +24,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "meals"
+    ]
   },
   {
     "id": "fr:eau:noun",
@@ -48,7 +47,7 @@
     "countability": "uncountable",
     "article": "l'",
     "gender": "feminine",
-    "sub_theme": "meals"
+    "partitive": "de l'"
   },
   {
     "id": "fr:lait:noun",
@@ -71,7 +70,7 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:cafe:noun",
@@ -94,8 +93,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "cafés",
-    "sub_theme": "meals"
+    "plural_form": "cafés"
   },
   {
     "id": "fr:the:noun",
@@ -118,8 +116,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "thés",
-    "sub_theme": "meals"
+    "plural_form": "thés"
   },
   {
     "id": "fr:vin:noun",
@@ -142,8 +139,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "vins",
-    "sub_theme": "meals"
+    "plural_form": "vins"
   },
   {
     "id": "fr:biere:noun",
@@ -166,8 +162,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "bières",
-    "sub_theme": "meals"
+    "plural_form": "bières"
   },
   {
     "id": "fr:jus:noun",
@@ -190,8 +185,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "jus",
-    "sub_theme": "meals"
+    "plural_form": "jus"
   },
   {
     "id": "fr:oeuf:noun",
@@ -214,8 +208,7 @@
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "œufs",
-    "sub_theme": "meals"
+    "plural_form": "œufs"
   },
   {
     "id": "fr:fromage:noun",
@@ -239,7 +232,7 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "fromages",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:beurre:noun",
@@ -262,7 +255,7 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:viande:noun",
@@ -285,7 +278,7 @@
     "countability": "uncountable",
     "article": "la",
     "gender": "feminine",
-    "sub_theme": "meals"
+    "partitive": "de la"
   },
   {
     "id": "fr:poulet:noun",
@@ -309,7 +302,7 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "poulets",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:poisson-aliment:noun",
@@ -333,7 +326,8 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "poissons",
-    "sub_theme": "meals"
+    "sense": "food",
+    "partitive": "du"
   },
   {
     "id": "fr:riz:noun",
@@ -356,7 +350,7 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:pates:noun",
@@ -380,7 +374,7 @@
     "article": "les",
     "gender": "feminine",
     "singular_workaround": "une pâte",
-    "sub_theme": "meals"
+    "partitive": "des"
   },
   {
     "id": "fr:soupe:noun",
@@ -403,8 +397,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "soupes",
-    "sub_theme": "meals"
+    "plural_form": "soupes"
   },
   {
     "id": "fr:salade:noun",
@@ -427,8 +420,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "salades",
-    "sub_theme": "meals"
+    "plural_form": "salades"
   },
   {
     "id": "fr:fruit:noun",
@@ -451,8 +443,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "fruits",
-    "sub_theme": "meals"
+    "plural_form": "fruits"
   },
   {
     "id": "fr:pomme:noun",
@@ -475,8 +466,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "pommes",
-    "sub_theme": "meals"
+    "plural_form": "pommes"
   },
   {
     "id": "fr:banane:noun",
@@ -499,8 +489,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "bananes",
-    "sub_theme": "meals"
+    "plural_form": "bananes"
   },
   {
     "id": "fr:orange:noun",
@@ -523,8 +512,7 @@
     "countability": "countable",
     "article": "l'",
     "gender": "feminine",
-    "plural_form": "oranges",
-    "sub_theme": "meals"
+    "plural_form": "oranges"
   },
   {
     "id": "fr:tomate:noun",
@@ -547,8 +535,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "tomates",
-    "sub_theme": "meals"
+    "plural_form": "tomates"
   },
   {
     "id": "fr:pomme-de-terre:noun",
@@ -571,8 +558,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "pommes de terre",
-    "sub_theme": "meals"
+    "plural_form": "pommes de terre"
   },
   {
     "id": "fr:legume:noun",
@@ -595,8 +581,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "légumes",
-    "sub_theme": "meals"
+    "plural_form": "légumes"
   },
   {
     "id": "fr:sel:noun",
@@ -619,7 +604,7 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:sucre:noun",
@@ -642,7 +627,7 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:sandwich:noun",
@@ -665,8 +650,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "sandwichs",
-    "sub_theme": "meals"
+    "plural_form": "sandwichs"
   },
   {
     "id": "fr:gateau:noun",
@@ -689,8 +673,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "gâteaux",
-    "sub_theme": "meals"
+    "plural_form": "gâteaux"
   },
   {
     "id": "fr:glace:noun",
@@ -713,8 +696,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "glaces",
-    "sub_theme": "meals"
+    "plural_form": "glaces"
   },
   {
     "id": "fr:chocolat:noun",
@@ -737,8 +719,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "chocolats",
-    "sub_theme": "meals"
+    "plural_form": "chocolats"
   },
   {
     "id": "fr:petit-dejeuner:noun",
@@ -761,8 +742,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "petits-déjeuners",
-    "sub_theme": "meals"
+    "plural_form": "petits-déjeuners"
   },
   {
     "id": "fr:dejeuner:noun",
@@ -785,8 +765,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "déjeuners",
-    "sub_theme": "meals"
+    "plural_form": "déjeuners"
   },
   {
     "id": "fr:diner:noun",
@@ -809,15 +788,14 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "dîners",
-    "sub_theme": "meals"
+    "plural_form": "dîners"
   },
   {
     "id": "fr:assiette:noun",
     "word": "assiette",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/a.sjɛt/",
     "definitions": [
       "Pièce de vaisselle creuse ou plate pour servir la nourriture."
@@ -837,8 +815,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "meals"
+    ]
   },
   {
     "id": "fr:verre:noun",
@@ -861,15 +838,14 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "verres",
-    "sub_theme": "meals"
+    "plural_form": "verres"
   },
   {
     "id": "fr:fourchette:noun",
     "word": "fourchette",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/fuʁ.ʃɛt/",
     "definitions": [
       "Ustensile à dents servant à piquer les aliments."
@@ -889,8 +865,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "meals"
+    ]
   },
   {
     "id": "fr:couteau:noun",
@@ -913,15 +888,14 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "couteaux",
-    "sub_theme": "meals"
+    "plural_form": "couteaux"
   },
   {
     "id": "fr:cuillere:noun",
     "word": "cuillère",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/kɥi.jɛʁ/",
     "definitions": [
       "Ustensile creux servant à manger la soupe."
@@ -941,8 +915,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "meals"
+    ]
   },
   {
     "id": "fr:serviette:noun",
@@ -965,8 +938,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "serviettes",
-    "sub_theme": "meals"
+    "plural_form": "serviettes"
   },
   {
     "id": "fr:restaurant:noun",
@@ -989,8 +961,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "restaurants",
-    "sub_theme": "meals"
+    "plural_form": "restaurants"
   },
   {
     "id": "fr:oignon:noun",
@@ -1013,8 +984,7 @@
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "oignons",
-    "sub_theme": "meals"
+    "plural_form": "oignons"
   },
   {
     "id": "fr:ail:noun",
@@ -1037,14 +1007,14 @@
     "countability": "uncountable",
     "article": "l'",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "de l'"
   },
   {
     "id": "fr:citron:noun",
     "word": "citron",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/si.tʁɔ̃/",
     "definitions": [
       "Fruit jaune et très acide."
@@ -1064,8 +1034,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "meals"
+    ]
   },
   {
     "id": "fr:miel:noun",
@@ -1088,7 +1057,7 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:yaourt:noun",
@@ -1111,8 +1080,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "yaourts",
-    "sub_theme": "meals"
+    "plural_form": "yaourts"
   },
   {
     "id": "fr:poivre:noun",
@@ -1135,14 +1103,14 @@
     "countability": "uncountable",
     "article": "le",
     "gender": "masculine",
-    "sub_theme": "meals"
+    "partitive": "du"
   },
   {
     "id": "fr:huile:noun",
     "word": "huile",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/ɥil/",
     "definitions": [
       "Matière grasse liquide d'origine végétale."
@@ -1162,7 +1130,7 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "meals"
+    "partitive": "de l'"
   },
   {
     "id": "fr:ratatouille:noun",
@@ -1186,8 +1154,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "ratatouilles",
-    "sub_theme": "meals"
+    "plural_form": "ratatouilles"
   },
   {
     "id": "fr:croissant:noun",
@@ -1211,8 +1178,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "croissants",
-    "sub_theme": "meals"
+    "plural_form": "croissants"
   },
   {
     "id": "fr:oeuf-1:noun",
@@ -1236,8 +1202,7 @@
     "gender": "masculine",
     "article": "l'",
     "countability": "countable",
-    "plural_form": "oeufs",
-    "sub_theme": "meals"
+    "plural_form": "oeufs"
   },
   {
     "id": "fr:nourriture:noun",
@@ -1260,8 +1225,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "nourritures",
-    "sub_theme": "meals"
+    "plural_form": "nourritures"
   },
   {
     "id": "fr:boeuf:noun",
@@ -1284,8 +1248,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "boeufs",
-    "sub_theme": "meals"
+    "plural_form": "boeufs"
   },
   {
     "id": "fr:porc:noun",
@@ -1308,8 +1271,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "porcs",
-    "sub_theme": "meals"
+    "plural_form": "porcs"
   },
   {
     "id": "fr:vinaigre:noun",
@@ -1332,8 +1294,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "vinaigres",
-    "sub_theme": "meals"
+    "plural_form": "vinaigres"
   },
   {
     "id": "fr:gouter:noun",
@@ -1356,8 +1317,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "goûters",
-    "sub_theme": "meals"
+    "plural_form": "goûters"
   },
   {
     "id": "fr:souper:noun",
@@ -1380,8 +1340,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "soupers",
-    "sub_theme": "meals"
+    "plural_form": "soupers"
   },
   {
     "id": "fr:collation:noun",
@@ -1404,8 +1363,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "collations",
-    "sub_theme": "meals"
+    "plural_form": "collations"
   },
   {
     "id": "fr:couper:verb",
@@ -1428,15 +1386,14 @@
     "no_antonym": true,
     "related_forms": [
       "COSYtools:fr-conjugeur:couper"
-    ],
-    "sub_theme": "meals"
+    ]
   },
   {
     "id": "fr:diner:verb",
     "word": "dîner",
     "language": "fr",
     "form": "verb",
-    "level": "A0",
+    "level": "A1",
     "definitions": [
       "prendre le repas du soir"
     ],
@@ -1445,7 +1402,6 @@
     ],
     "domain": "general",
     "theme": "food",
-    "sub_theme": "meals",
     "updated": "2026-03-30",
     "tags": [
       "spoken"
@@ -1456,5 +1412,465 @@
     "transcription": "/di.ne/",
     "no_antonym": true,
     "emoji": "🍽️"
+  },
+  {
+    "id": "fr:fromage-frais:noun",
+    "word": "fromage frais",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/fʁɔ.maʒ fʁɛ/",
+    "definitions": [
+      "Fromage doux."
+    ],
+    "examples": [
+      "Du fromage frais du matin."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:pain-de-mie:noun",
+    "word": "pain de mie",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pɛ̃ də mi/",
+    "definitions": [
+      "Pain moelleux."
+    ],
+    "examples": [
+      "Du pain de mie grillé."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:beurre-doux:noun",
+    "word": "beurre doux",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/bœʁ du/",
+    "definitions": [
+      "Beurre sans sel."
+    ],
+    "examples": [
+      "Du beurre doux à tartiner."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:lait-frais:noun",
+    "word": "lait frais",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/lɛ fʁɛ/",
+    "definitions": [
+      "Lait de ferme."
+    ],
+    "examples": [
+      "Un verre de lait frais."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:oeuf-frais:noun",
+    "word": "œuf frais",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/œf fʁɛ/",
+    "definitions": [
+      "Œuf pondu récemment."
+    ],
+    "examples": [
+      "Un bon œuf frais."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "œufs frais"
+  },
+  {
+    "id": "fr:poisson-frais:noun",
+    "word": "poisson frais",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pwa.sɔ̃ fʁɛ/",
+    "definitions": [
+      "Poisson de pêche."
+    ],
+    "examples": [
+      "Du poisson frais cuisiné."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:poulet-roti:noun",
+    "word": "poulet rôti",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pu.lɛ ʁo.ti/",
+    "definitions": [
+      "Poulet cuit au four."
+    ],
+    "examples": [
+      "Un délicieux poulet rôti."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "poulets rôtis"
+  },
+  {
+    "id": "fr:viande-rouge:noun",
+    "word": "viande rouge",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/vjɑ̃d ʁuʒ/",
+    "definitions": [
+      "Viande de bœuf."
+    ],
+    "examples": [
+      "De la viande rouge tendre."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:riz-cuit:noun",
+    "word": "riz cuit",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʁi kɥi/",
+    "definitions": [
+      "Riz préparé."
+    ],
+    "examples": [
+      "Du riz cuit chaud."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:pates-fraiches:noun",
+    "word": "pâtes fraîches",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pɑt fʁɛʃ/",
+    "definitions": [
+      "Pâtes maison."
+    ],
+    "examples": [
+      "Des pâtes fraîches délicieuses."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "les",
+    "gender": "feminine",
+    "countability": "pluralia_tantum",
+    "partitive": "des"
+  },
+  {
+    "id": "fr:sel-de-table:noun",
+    "word": "sel de table",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sɛl də tabl/",
+    "definitions": [
+      "Condiment fin."
+    ],
+    "examples": [
+      "Du sel de table."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:poivre-noir:noun",
+    "word": "poivre noir",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pwavʁ nwaʁ/",
+    "definitions": [
+      "Épice noire."
+    ],
+    "examples": [
+      "Du poivre noir moulu."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:huile-olive:noun",
+    "word": "huile d'olive",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ɥil d_ɔ.liv/",
+    "definitions": [
+      "Huile végétale."
+    ],
+    "examples": [
+      "De l'huile d'olive de qualité."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de l'"
+  },
+  {
+    "id": "fr:sucre-blanc:noun",
+    "word": "sucre blanc",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sykʁ blɑ̃/",
+    "definitions": [
+      "Sucre fin."
+    ],
+    "examples": [
+      "Du sucre blanc en poudre."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:miel-fleurs:noun",
+    "word": "miel de fleurs",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/mjɛl də flœʁ/",
+    "definitions": [
+      "Miel naturel."
+    ],
+    "examples": [
+      "Du miel de fleurs pur."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:jus-de-pomme:noun",
+    "word": "jus de pomme",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʒy də pɔm/",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du",
+    "definitions": [
+      "Boisson faite à partir du jus pressé des pommes."
+    ],
+    "examples": [
+      "Un verre de jus de pomme frais."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jus-de-raisin:noun",
+    "word": "jus de raisin",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʒy də ʁɛ.zɛ̃/",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du",
+    "definitions": [
+      "Boisson sucrée issue du raisin."
+    ],
+    "examples": [
+      "Un verre de jus de raisin frais."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jus-de-citron:noun",
+    "word": "jus de citron",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʒy də si.tʁɔ̃/",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du",
+    "definitions": [
+      "Jus acide pressé du citron."
+    ],
+    "examples": [
+      "Un peu de jus de citron sur le poisson."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:the-vert:noun",
+    "word": "thé vert",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/te vɛʁ/",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du",
+    "definitions": [
+      "Boisson chaude d'infusion de feuilles de thé."
+    ],
+    "examples": [
+      "Une tasse de thé vert chaud."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:cafe-au-lait-boisson:noun",
+    "word": "café au lait",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ka.fe o lɛ/",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du",
+    "definitions": [
+      "Café chaud mélangé avec du lait."
+    ],
+    "examples": [
+      "Un grand café au lait le matin."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
   }
 ]

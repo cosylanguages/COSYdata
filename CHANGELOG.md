@@ -1,3 +1,9 @@
+## [Unreleased] - 2026-10-05
+
+### Added
+- **Vocabulary (French A0–A1)**: Added 425 new CEFR A0–A1 vocabulary entries across 34 theme files in `vocabulary/fr/a0_a1/`, bringing total French A0–A1 vocabulary entries from 1,195 to 1,620.
+- **Essentials & Grammar Coverage**: Added all remaining French essential terms from `scripts/data/a0_a1_essentials.tsv` along with required A1 grammar items (determiners, possessives, demonstratives, interrogatives, negation, pronouns, and contracted prepositions `au`, `aux`, `du`, `des`).
+- **Policy & Schema Compliance**: Applied full French noun grammar rules (`article`, `gender`, `countability`, `plural_form`, and `partitive`), re-aligned entry levels to equal `levels[0]`, resolved homograph senses (`poisson`, `marché`, `entrée`, pronouns), and regenerated build indexes (`index.json`, `flat-index.json`, `search-index.json`).
 # Changelog
 
 ## [Unreleased]
