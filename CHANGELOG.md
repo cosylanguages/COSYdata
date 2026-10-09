@@ -1,17 +1,15 @@
-## [Unreleased] - 2026-10-05
-
-### Added
-- **Vocabulary (French A0–A1)**: Added 425 new CEFR A0–A1 vocabulary entries across 34 theme files in `vocabulary/fr/a0_a1/`, bringing total French A0–A1 vocabulary entries from 1,195 to 1,620.
-- **Essentials & Grammar Coverage**: Added all remaining French essential terms from `scripts/data/a0_a1_essentials.tsv` along with required A1 grammar items (determiners, possessives, demonstratives, interrogatives, negation, pronouns, and contracted prepositions `au`, `aux`, `du`, `des`).
-- **Policy & Schema Compliance**: Applied full French noun grammar rules (`article`, `gender`, `countability`, `plural_form`, and `partitive`), re-aligned entry levels to equal `levels[0]`, resolved homograph senses (`poisson`, `marché`, `entrée`, pronouns), and regenerated build indexes (`index.json`, `flat-index.json`, `search-index.json`).
 # Changelog
+
+All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
 ### Added
-- [P3-fr] Added 150 new French A0–A1 entries (52 A0, 98 A1) in `vocabulary/fr/a0_a1/` covering missing essentials (je ne comprends pas, je ne sais pas, je voudrais, garçon, journal, adresse, gens, etc.), core grammar determiners/possessives, tonic pronouns, and DELF A1 / Français fondamental vocabulary.
-
-All notable changes to this project will be documented in this file.
+- [P3-it] Added 490 new Italian A0–A1 entries (215 A0, 275 A1) across 23 theme files in `vocabulary/it/a0_a1/`, bringing total Italian A0–A1 vocabulary entries from 1,179 to 1,669 (matching the target in `reports/a0_a1_target.json`).
+- Covered 100% of Italian essential terms from `scripts/data/a0_a1_essentials.tsv` (including `buon appetito`, `in bocca al lupo`, `buona fortuna`, `sempre dritto`, `tutto`, `girare`, `ragazzo`, `ragazza`, `posta`, `gente`, `solo`, `davvero`).
+- Added required A0–A1 Italian function words (subject pronouns `io`, `tu`, `lui`, `lei`, `noi`, `voi`, `loro`, possessives `mio`, `tuo`, `suo`, `nostro`, `vostro`, `loro`, demonstratives `questo`, `quello`, interrogatives `chi`, `che`, `dove`, `quando`, `perché`, `come`, `quanto`, `quale`, negation `non`, `mai`, `niente`, `nulla`, spatial/time adverbs `qui`, `qua`, `lì`, `là`, `sopra`, `sotto`, `prima`, `dopo`, `oggi`, `domani`, `ieri`).
+- Sourced genuine Italian beginner lemmas from *Profilo della lingua italiana A1*, *CELI 1 / CILS A1*, and *Nuovo vocabolario di base (NVdB)* across underrepresented themes (`descriptors`, `housing`, `food`, `education`, `work`, `family`, `nature`, `geography`, `daily_verbs`, `clothing`, `places_transport`, `health`, `technology`, `time`, `numbers`, `colors`, `shapes_materials`, `measurement`).
+- Updated reports `reports/it-a0-a1-fill.md` and `reports/a0_a1_parity.md`, and regenerated build artifacts (`index.json`, `flat-index.json`, `search-index.json`).
 
 ## [0.1.0] - Unreleased
 
