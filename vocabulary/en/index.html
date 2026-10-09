@@ -3,12 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>English Dictionary — COSYdata</title>
+  <title>English Dictionary &amp; Vocabulary Data — COSYdata</title>
+  <meta name="description" content="Browse English vocabulary dataset with CEFR levels, definitions, and pronunciations in COSYdata." />
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/vocabulary/en/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="English Dictionary &amp; Vocabulary Data — COSYdata" />
+  <meta property="og:description" content="Browse English vocabulary dataset with CEFR levels, definitions, and pronunciations in COSYdata." />
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYdata/vocabulary/en/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="English Dictionary &amp; Vocabulary Data — COSYdata" />
+  <meta name="twitter:description" content="Browse English vocabulary dataset with CEFR levels, definitions, and pronunciations in COSYdata." />
+
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="../../shared/dictionary-ui.css" />
 </head>
 <body>
-  <div id="dictionary-app" data-dictionary-lang="en" data-base-url="../../"></div>
+  <div id="dictionary-app" data-dictionary-lang="en" data-base-url="../../">
+    <h1 class="cosy-dict-title">English Dictionary — COSYdata</h1>
+  </div>
   <script type="module">
     import { initDictionaryUI } from '../../shared/dictionary-ui.js';
     initDictionaryUI('#dictionary-app', { lang: 'en', baseUrl: '../../' });

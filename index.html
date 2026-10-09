@@ -3,7 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>COSYdata — Vocabulary Hub</title>
+  <title>COSYdata — Machine-Readable Vocabulary &amp; Data</title>
+  <meta name="description" content="Explore machine-readable vocabulary datasets, functional phrases, and language dictionaries for the COSYlanguages ecosystem." />
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="COSYdata — Machine-Readable Vocabulary &amp; Data" />
+  <meta property="og:description" content="Explore machine-readable vocabulary datasets, functional phrases, and language dictionaries for the COSYlanguages ecosystem." />
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYdata/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="COSYdata — Machine-Readable Vocabulary &amp; Data" />
+  <meta name="twitter:description" content="Explore machine-readable vocabulary datasets, functional phrases, and language dictionaries for the COSYlanguages ecosystem." />
+
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
   <style>
@@ -110,6 +125,14 @@
       align-items: center;
       gap: 4px;
     }
+    .hub-footer {
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+      border-top: 1px solid var(--cosy-dict-border);
+      color: var(--cosy-dict-text-muted);
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
@@ -142,6 +165,10 @@
       <!-- Dynamically generated language cards -->
     </div>
   </main>
+
+  <footer class="hub-footer">
+    <p>Copyright (c) 2025-2026 COSY Languages. All rights reserved.</p>
+  </footer>
 
   <script type="module">
     const languages = [
