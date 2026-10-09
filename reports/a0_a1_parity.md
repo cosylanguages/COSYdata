@@ -1,6 +1,6 @@
 # A0–A1 Parity Report
 
-*Generated automatically on 2026-10-08*
+*Generated automatically on 2026-10-09*
 
 ## Target Metrics
 
@@ -13,10 +13,10 @@
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1669 | 474 | 1195 | +0 | +0 | +0 | 0 | 0 |
-| FR | 1094 | 17 | 1077 | -575 | -457 | -118 | 198 | 54 |
+| FR | 1195 | 1195 | 0 | -474 | +721 | -1195 | 347 | 34 |
 | IT | 1029 | 109 | 920 | -640 | -365 | -275 | 5 | 27 |
-| RU | 910 | 19 | 891 | -759 | -455 | -304 | 6 | 75 |
-| EL | 794 | 17 | 777 | -875 | -457 | -418 | 20 | 57 |
+| RU | 637 | 206 | 431 | -1032 | -268 | -764 | 4 | 55 |
+| EL | 815 | 133 | 682 | -854 | -341 | -513 | 1 | 52 |
 
 ### Details: EN
 
@@ -26,11 +26,25 @@
 
 ### Details: FR
 
-#### Structural & Policy Violations (132)
+#### Structural & Policy Violations (279)
 
-##### Domain Violations (2)
-- Entry 'fr:diner:verb' domain tag 'food' not allowed at A0-A1
-- Entry 'fr:dejeuner:verb' domain tag 'food' not allowed at A0-A1
+##### Domain Violations (38)
+- Entry 'fr:bureau-de-poste:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:toilettes:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:nationalite:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:station:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:bagage:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:euro:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:caisse:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:solde:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:carte-d-identite:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:sac-a-dos:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:lunettes-de-soleil:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:guichet:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:correspondance:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:valise-a-roulettes:noun' domain tag 'travelling' not allowed at A0-A1
+- Entry 'fr:enregistrement:noun' domain tag 'travelling' not allowed at A0-A1
+- *...and 23 more*
 
 ##### Form Violations (126)
 - Entry 'fr:avoir-faim:idiom' form 'idiom' is not an allowed form at A0-A1
@@ -50,13 +64,36 @@
 - Entry 'fr:avoir-sommeil:idiom' form 'idiom' is not an allowed form at A0-A1
 - *...and 111 more*
 
-##### Duplicate Word+Form+Sense (4)
+##### Level Violations (106)
+- Entry 'fr:faible:adjective' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- Entry 'fr:vide:adjective' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- Entry 'fr:ferme:adjective' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- Entry 'fr:doux:adjective' level 'A0' does not equal min of levels [A1, A2, B2] ('A1')
+- Entry 'fr:exact:adjective' level 'A0' does not equal min of levels [A1] ('A1')
+- Entry 'fr:seulement:adverb' level 'A0' does not equal min of levels [A1] ('A1')
+- Entry 'fr:vraiment:adverb' level 'A0' does not equal min of levels [A1] ('A1')
+- Entry 'fr:mal:adverb' level 'A0' does not equal min of levels [A1] ('A1')
+- Entry 'fr:chat:noun' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- Entry 'fr:elephant:noun' level 'A0' does not equal min of levels [A1, B1] ('A1')
+- Entry 'fr:ours:noun' level 'A0' does not equal min of levels [A1, B2] ('A1')
+- Entry 'fr:singe:noun' level 'A0' does not equal min of levels [A1, A2, B1] ('A1')
+- Entry 'fr:doigt:noun' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- Entry 'fr:coeur:noun' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- Entry 'fr:estomac:noun' level 'A0' does not equal min of levels [A1, A2] ('A1')
+- *...and 91 more*
+
+##### Duplicate Word+Form+Sense (9)
 - Word+form+sense 'poisson::noun::' duplicated across IDs: fr:poisson:noun, fr:poisson-aliment:noun
 - Word+form+sense 'ce soir::idiom::' duplicated across IDs: fr:a-ce-soir:idiom, fr:ce-soir:idiom
 - Word+form+sense 'marche::noun::' duplicated across IDs: fr:marche-commerce:noun, fr:marche:noun
+- Word+form+sense 'entree::noun::' duplicated across IDs: fr:entree-restaurant:noun, fr:entree:noun
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
+- Word+form+sense 'elle::pronoun::' duplicated across IDs: fr:elle:pronoun, fr:elle-tonique:pronoun
+- Word+form+sense 'nous::pronoun::' duplicated across IDs: fr:nous:pronoun, fr:nous-tonique:pronoun
+- Word+form+sense 'vous::pronoun::' duplicated across IDs: fr:vous:pronoun, fr:vous-tonique:pronoun
+- Word+form+sense 'hier::adverb::' duplicated across IDs: fr:hier:adverb, fr:hier-adverb:adverb
 
-##### Missing Partitives (62)
+##### Missing Partitives (64)
 - Noun 'poisson' (fr:poisson:noun, countability 'countable') missing required partitive
 - Noun 'cheveux' (fr:cheveux:noun, countability 'pluralia_tantum') missing required partitive
 - Noun 'peau' (fr:peau:noun, countability 'uncountable') missing required partitive
@@ -72,7 +109,7 @@
 - Noun 'paix' (fr:paix:noun, countability 'uncountable') missing required partitive
 - Noun 'épargne' (fr:epargne:noun, countability 'uncountable') missing required partitive
 - Noun 'football' (fr:football:noun, countability 'uncountable') missing required partitive
-- *...and 47 more*
+- *...and 49 more*
 
 ##### Missing Contractions (4)
 - Missing contracted preposition form 'au'
@@ -80,34 +117,34 @@
 - Missing contracted preposition form 'du'
 - Missing contracted preposition form 'des'
 
-#### Missing Essentials (54)
+#### Missing Essentials (34)
 
-- **I don't understand** (expected: `je ne comprends pas`)
-- **I don't know** (expected: `je ne sais pas`)
-- **what's your name** (expected: `comment vous appelez-vous/comment t'appelles-tu/tu t'appelles comment`)
-- **how much is it** (expected: `combien ça coûte/c'est combien`)
-- **do you speak English** (expected: `parlez-vous anglais`)
-- **I would like** (expected: `je voudrais`)
-- **happy birthday** (expected: `joyeux anniversaire`)
 - **good luck** (expected: `bonne chance`)
-- **thousand** (expected: `mille`)
 - **to call** (expected: `appeler`)
 - **to wake up** (expected: `se réveiller`)
 - **to travel** (expected: `voyager`)
 - **to need** (expected: `avoir besoin`)
 - **to stay** (expected: `rester`)
 - **to wait for/meet** (expected: `rencontrer`)
-- **boy** (expected: `garçon`)
 - **supermarket** (expected: `supermarché`)
 - **pharmacy** (expected: `pharmacie`)
-- **post office** (expected: `poste/bureau de poste`)
 - **village** (expected: `village`)
 - **cinema** (expected: `cinéma`)
 - **ticket** (expected: `billet`)
 - **weekend** (expected: `week-end`)
 - **expensive** (expected: `cher`)
 - **cheap** (expected: `bon marché`)
-- *...and 29 more*
+- **free (no cost)** (expected: `gratuit`)
+- **kind** (expected: `gentil`)
+- **umbrella** (expected: `parapluie`)
+- **lesson** (expected: `leçon/cours`)
+- **thing** (expected: `chose`)
+- **near** (expected: `près`)
+- **right (direction)** (expected: `droite`)
+- **straight on** (expected: `tout droit`)
+- **and** (expected: `et`)
+- **because** (expected: `parce que/car`)
+- *...and 9 more*
 
 ### Details: IT
 
@@ -155,19 +192,15 @@
 
 ### Details: RU
 
-#### Structural & Policy Violations (6)
+#### Structural & Policy Violations (4)
 
-##### Domain Violations (3)
-- Entry 'ru:obedat:verb' domain tag 'food' not allowed at A0-A1
-- Entry 'ru:uzhinat:verb' domain tag 'food' not allowed at A0-A1
-- Entry 'ru:tanets:noun' domain tag 'leisure' not allowed at A0-A1
-
-##### Duplicate Word+Form+Sense (3)
+##### Duplicate Word+Form+Sense (4)
 - Word+form+sense 'рыба::noun::' duplicated across IDs: ru:ryba-anim:noun, ru:ryba:noun
 - Word+form+sense 'курица::noun::' duplicated across IDs: ru:kuritsa-anim:noun, ru:kuritsa:noun
 - Word+form+sense 'мир::noun::' duplicated across IDs: ru:mir-peace:noun, ru:mir-country:noun
+- Word+form+sense 'дешевыи::adjective::' duplicated across IDs: ru:deshevyi:adjective, ru:deshyovyi:adjective
 
-#### Missing Essentials (75)
+#### Missing Essentials (55)
 
 - **no** (expected: `нет`)
 - **I don't understand** (expected: `я не понимаю`)
@@ -180,53 +213,30 @@
 - **enjoy your meal** (expected: `приятного аппетита`)
 - **good luck** (expected: `удачи`)
 - **thousand** (expected: `тысяча`)
-- **to call** (expected: `звонить/называть`)
-- **to wake up** (expected: `просыпаться/проснуться`)
-- **to get up** (expected: `вставать`)
-- **to wear** (expected: `носить`)
-- **to travel** (expected: `путешествовать`)
 - **to stay** (expected: `оставаться`)
 - **to wait for/meet** (expected: `встречать/встретить`)
+- **baby** (expected: `малыш/младенец`)
 - **boy** (expected: `мальчик`)
 - **girl** (expected: `девочка`)
 - **vegetable** (expected: `овощ`)
 - **fruit** (expected: `фрукт`)
 - **meal** (expected: `еда/приём пищи`)
 - **supermarket** (expected: `супермаркет`)
-- **pharmacy** (expected: `аптека`)
-- *...and 50 more*
+- **post office** (expected: `почта`)
+- **church** (expected: `церковь`)
+- **beach** (expected: `пляж`)
+- **toilet** (expected: `туалет`)
+- **cinema** (expected: `кинотеатр/кино`)
+- *...and 30 more*
 
 ### Details: EL
 
-#### Structural & Policy Violations (13)
+#### Structural & Policy Violations (1)
 
-##### Domain Violations (5)
-- Entry 'el:fagito:noun' domain tag 'food' not allowed at A0-A1
-- Entry 'el:doulia:noun' domain tag 'professional' not allowed at A0-A1
-- Entry 'el:kolympi:noun' domain tag 'leisure' not allowed at A0-A1
-- Entry 'el:choros:noun' domain tag 'leisure' not allowed at A0-A1
-- Entry 'el:tragoudi:noun' domain tag 'leisure' not allowed at A0-A1
-
-##### Duplicate Word+Form+Sense (8)
-- Word+form+sense 'νεος::adjective::' duplicated across IDs: el:neos:adjective, el:neos-young:adjective
-- Word+form+sense 'δυνατος::adjective::' duplicated across IDs: el:dynatos:adjective, el:dynatos-possible:adjective
+##### Duplicate Word+Form+Sense (1)
 - Word+form+sense 'ποτε::adverb::' duplicated across IDs: el:pote-never:adverb, el:pote:adverb
-- Word+form+sense 'ψαρι::noun::' duplicated across IDs: el:psari-animal:noun, el:psari:noun
-- Word+form+sense 'κοτοπουλο::noun::' duplicated across IDs: el:kotopoylo-animal:noun, el:kotopoylo:noun
-- Word+form+sense 'δρομος::noun::' duplicated across IDs: el:dromos:noun, el:dromos-street:noun
-- Word+form+sense 'παρακαλω::phrase::' duplicated across IDs: el:parakalo:phrase, el:parakalo-welcome:phrase
-- Word+form+sense 'συζυγος::noun::' duplicated across IDs: el:syzygos-andras:noun, el:syzygos-gynaika:noun
 
-##### Missing Contractions (7)
-- Missing contracted preposition form 'στο'
-- Missing contracted preposition form 'στη'
-- Missing contracted preposition form 'στην'
-- Missing contracted preposition form 'στον'
-- Missing contracted preposition form 'στα'
-- Missing contracted preposition form 'στους'
-- Missing contracted preposition form 'στις'
-
-#### Missing Essentials (57)
+#### Missing Essentials (52)
 
 - **hello** (expected: `γεια`)
 - **I don't understand** (expected: `δεν καταλαβαίνω`)
@@ -244,16 +254,16 @@
 - **boy** (expected: `αγόρι`)
 - **girl** (expected: `κορίτσι`)
 - **beer** (expected: `μπύρα`)
-- **supermarket** (expected: `σούπερ μάρκετ/σουπερμάρκετ`)
 - **pharmacy** (expected: `φαρμακείο`)
 - **post office** (expected: `ταχυδρομείο`)
 - **village** (expected: `χωριό`)
 - **beach** (expected: `παραλία`)
 - **toilet** (expected: `τουαλέτα`)
-- **cinema** (expected: `κινηματογράφος/σινεμά`)
-- **ticket** (expected: `εισιτήριο`)
 - **sometimes** (expected: `μερικές φορές/καμιά φορά/μερικές φορές`)
-- *...and 32 more*
+- **weekend** (expected: `σαββατοκύριακο`)
+- **wrong** (expected: `λάθος`)
+- **newspaper** (expected: `εφημερίδα`)
+- *...and 27 more*
 
 ## Exempt Essentials Keys (5)
 

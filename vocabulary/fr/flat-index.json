@@ -77,10 +77,34 @@
       "field": "word"
     }
   ],
+  "addition": [
+    {
+      "id": "fr:addition:noun",
+      "field": "word"
+    }
+  ],
+  "additions": [
+    {
+      "id": "fr:addition:noun",
+      "field": "plural_form"
+    }
+  ],
   "adorer": [
     {
       "id": "fr:adorer:verb",
       "field": "word"
+    }
+  ],
+  "adresse": [
+    {
+      "id": "fr:adresse:noun",
+      "field": "word"
+    }
+  ],
+  "adresses": [
+    {
+      "id": "fr:adresse:noun",
+      "field": "plural_form"
     }
   ],
   "affaires": [
@@ -249,6 +273,18 @@
       "field": "word"
     }
   ],
+  "amie": [
+    {
+      "id": "fr:amie:noun",
+      "field": "word"
+    }
+  ],
+  "amies": [
+    {
+      "id": "fr:amie:noun",
+      "field": "plural_form"
+    }
+  ],
   "amis": [
     {
       "id": "fr:ami:noun",
@@ -307,6 +343,18 @@
     {
       "id": "fr:angleterre:noun",
       "field": "word"
+    }
+  ],
+  "anniversaire": [
+    {
+      "id": "fr:anniversaire:noun",
+      "field": "word"
+    }
+  ],
+  "anniversaires": [
+    {
+      "id": "fr:anniversaire:noun",
+      "field": "plural_form"
     }
   ],
   "annuler": [
@@ -787,6 +835,10 @@
   ],
   "aujourd'hui": [
     {
+      "id": "fr:aujourd-hui-time:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:aujourd-hui:adverb",
       "field": "word"
     }
@@ -1139,7 +1191,17 @@
       "field": "plural_form"
     }
   ],
+  "bagage": [
+    {
+      "id": "fr:bagage:noun",
+      "field": "word"
+    }
+  ],
   "bagages": [
+    {
+      "id": "fr:bagage:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:bagages:noun",
       "field": "word"
@@ -1220,6 +1282,18 @@
   "bananes": [
     {
       "id": "fr:banane:noun",
+      "field": "plural_form"
+    }
+  ],
+  "banlieue": [
+    {
+      "id": "fr:banlieue:noun",
+      "field": "word"
+    }
+  ],
+  "banlieues": [
+    {
+      "id": "fr:banlieue:noun",
       "field": "plural_form"
     }
   ],
@@ -1353,6 +1427,12 @@
       "field": "plural_form"
     }
   ],
+  "bien": [
+    {
+      "id": "fr:bien:adverb",
+      "field": "word"
+    }
+  ],
   "bien que": [
     {
       "id": "fr:bien-que:phrase",
@@ -1387,6 +1467,12 @@
       "field": "word"
     }
   ],
+  "billet de banque": [
+    {
+      "id": "fr:billet-de-banque:noun",
+      "field": "word"
+    }
+  ],
   "billets": [
     {
       "id": "fr:billet-a2:noun",
@@ -1394,6 +1480,12 @@
     },
     {
       "id": "fr:billet:noun",
+      "field": "plural_form"
+    }
+  ],
+  "billets de banque": [
+    {
+      "id": "fr:billet-de-banque:noun",
       "field": "plural_form"
     }
   ],
@@ -1481,6 +1573,18 @@
     {
       "id": "fr:bois-materiau:noun",
       "field": "word"
+    }
+  ],
+  "boisson": [
+    {
+      "id": "fr:boisson:noun",
+      "field": "word"
+    }
+  ],
+  "boissons": [
+    {
+      "id": "fr:boisson:noun",
+      "field": "plural_form"
     }
   ],
   "bol": [
@@ -1695,6 +1799,12 @@
       "field": "word"
     }
   ],
+  "boîte aux lettres": [
+    {
+      "id": "fr:boite-aux-lettres:noun",
+      "field": "word"
+    }
+  ],
   "boîte en carton": [
     {
       "id": "fr:boite-en-carton:noun",
@@ -1704,6 +1814,12 @@
   "boîtes": [
     {
       "id": "fr:boite:noun",
+      "field": "plural_form"
+    }
+  ],
+  "boîtes aux lettres": [
+    {
+      "id": "fr:boite-aux-lettres:noun",
       "field": "plural_form"
     }
   ],
@@ -1813,6 +1929,12 @@
       "field": "word"
     }
   ],
+  "bureau de poste": [
+    {
+      "id": "fr:bureau-de-poste:noun",
+      "field": "word"
+    }
+  ],
   "bureaux": [
     {
       "id": "fr:bureau-travail:noun",
@@ -1820,6 +1942,12 @@
     },
     {
       "id": "fr:bureau:noun",
+      "field": "plural_form"
+    }
+  ],
+  "bureaux de poste": [
+    {
+      "id": "fr:bureau-de-poste:noun",
       "field": "plural_form"
     }
   ],
@@ -1855,6 +1983,12 @@
     {
       "id": "fr:bebe:noun",
       "field": "plural_form"
+    }
+  ],
+  "c'est combien": [
+    {
+      "id": "fr:c-est-combien:phrase",
+      "field": "word"
     }
   ],
   "c'est la vie": [
@@ -1923,10 +2057,22 @@
       "field": "plural_form"
     }
   ],
+  "caisse": [
+    {
+      "id": "fr:caisse:noun",
+      "field": "word"
+    }
+  ],
   "caisse magasin": [
     {
       "id": "fr:caisse-magasin:noun",
       "field": "word"
+    }
+  ],
+  "caisses": [
+    {
+      "id": "fr:caisse:noun",
+      "field": "plural_form"
     }
   ],
   "caisses magasin": [
@@ -2087,6 +2233,12 @@
       "field": "word"
     }
   ],
+  "carte d'identité": [
+    {
+      "id": "fr:carte-d-identite:noun",
+      "field": "word"
+    }
+  ],
   "carte de crédit": [
     {
       "id": "fr:carte-de-credit:noun",
@@ -2096,6 +2248,12 @@
   "carte de crédit bancaire": [
     {
       "id": "fr:carte-de-credit-bancaire:noun",
+      "field": "word"
+    }
+  ],
+  "carte postale": [
+    {
+      "id": "fr:carte-postale:noun",
       "field": "word"
     }
   ],
@@ -2111,6 +2269,12 @@
       "field": "plural_form"
     }
   ],
+  "cartes d'identité": [
+    {
+      "id": "fr:carte-d-identite:noun",
+      "field": "plural_form"
+    }
+  ],
   "cartes de crédit": [
     {
       "id": "fr:carte-de-credit:noun",
@@ -2120,6 +2284,12 @@
   "cartes de crédit bancaires": [
     {
       "id": "fr:carte-de-credit-bancaire:noun",
+      "field": "plural_form"
+    }
+  ],
+  "cartes postales": [
+    {
+      "id": "fr:carte-postale:noun",
       "field": "plural_form"
     }
   ],
@@ -2225,6 +2395,12 @@
       "field": "word"
     }
   ],
+  "centre-ville": [
+    {
+      "id": "fr:centre-ville:noun",
+      "field": "word"
+    }
+  ],
   "centres": [
     {
       "id": "fr:centre:noun",
@@ -2234,6 +2410,12 @@
   "centres commerciaux": [
     {
       "id": "fr:centre-commercial:noun",
+      "field": "plural_form"
+    }
+  ],
+  "centres-villes": [
+    {
+      "id": "fr:centre-ville:noun",
       "field": "plural_form"
     }
   ],
@@ -2258,6 +2440,18 @@
   "certain": [
     {
       "id": "fr:certain:adjective",
+      "field": "word"
+    }
+  ],
+  "ces": [
+    {
+      "id": "fr:ces:determiner",
+      "field": "word"
+    }
+  ],
+  "cette": [
+    {
+      "id": "fr:cette:determiner",
       "field": "word"
     }
   ],
@@ -2669,6 +2863,18 @@
       "field": "plural_form"
     }
   ],
+  "clef": [
+    {
+      "id": "fr:clef:noun",
+      "field": "word"
+    }
+  ],
+  "clefs": [
+    {
+      "id": "fr:clef:noun",
+      "field": "plural_form"
+    }
+  ],
   "client": [
     {
       "id": "fr:client:noun",
@@ -2759,6 +2965,16 @@
       "field": "plural_form"
     }
   ],
+  "colis": [
+    {
+      "id": "fr:colis:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:colis:noun",
+      "field": "word"
+    }
+  ],
   "colis postal": [
     {
       "id": "fr:colis-postal:noun",
@@ -2831,6 +3047,12 @@
       "field": "word"
     }
   ],
+  "combien ça coûte": [
+    {
+      "id": "fr:combien-ca-coute:phrase",
+      "field": "word"
+    }
+  ],
   "commande": [
     {
       "id": "fr:commande:noun",
@@ -2870,6 +3092,12 @@
   "comment allez-vous": [
     {
       "id": "fr:comment-allez-vous:phrase",
+      "field": "word"
+    }
+  ],
+  "comment tu t'appelles": [
+    {
+      "id": "fr:comment-tu-t-appelles:phrase",
       "field": "word"
     }
   ],
@@ -3103,6 +3331,18 @@
     {
       "id": "fr:correct:adjective",
       "field": "word"
+    }
+  ],
+  "correspondance": [
+    {
+      "id": "fr:correspondance:noun",
+      "field": "word"
+    }
+  ],
+  "correspondances": [
+    {
+      "id": "fr:correspondance:noun",
+      "field": "plural_form"
     }
   ],
   "corée du sud": [
@@ -3615,6 +3855,10 @@
   ],
   "demain": [
     {
+      "id": "fr:demain-time:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:demain:adverb",
       "field": "word"
     }
@@ -3681,6 +3925,18 @@
     {
       "id": "fr:derriere:preposition",
       "field": "word"
+    }
+  ],
+  "dessert": [
+    {
+      "id": "fr:dessert:noun",
+      "field": "word"
+    }
+  ],
+  "desserts": [
+    {
+      "id": "fr:dessert:noun",
+      "field": "plural_form"
     }
   ],
   "dessiner": [
@@ -3881,6 +4137,18 @@
     {
       "id": "fr:dix-sept:number",
       "field": "word"
+    }
+  ],
+  "document": [
+    {
+      "id": "fr:document:noun",
+      "field": "word"
+    }
+  ],
+  "documents": [
+    {
+      "id": "fr:document:noun",
+      "field": "plural_form"
     }
   ],
   "doigt": [
@@ -4339,6 +4607,10 @@
   ],
   "elle": [
     {
+      "id": "fr:elle-tonique:pronoun",
+      "field": "word"
+    },
+    {
       "id": "fr:elle:pronoun",
       "field": "word"
     }
@@ -4347,6 +4619,18 @@
     {
       "id": "fr:elles:pronoun",
       "field": "word"
+    }
+  ],
+  "embarquement": [
+    {
+      "id": "fr:embarquement:noun",
+      "field": "word"
+    }
+  ],
+  "embarquements": [
+    {
+      "id": "fr:embarquement:noun",
+      "field": "plural_form"
     }
   ],
   "embaucher": [
@@ -4361,6 +4645,18 @@
       "field": "word"
     }
   ],
+  "employé": [
+    {
+      "id": "fr:employe:noun",
+      "field": "word"
+    }
+  ],
+  "employés": [
+    {
+      "id": "fr:employe:noun",
+      "field": "plural_form"
+    }
+  ],
   "emprunter": [
     {
       "id": "fr:emprunter:verb",
@@ -4370,6 +4666,10 @@
   "en": [
     {
       "id": "fr:en:preposition",
+      "field": "word"
+    },
+    {
+      "id": "fr:en:pronoun",
       "field": "word"
     }
   ],
@@ -4625,6 +4925,18 @@
       "field": "word"
     }
   ],
+  "enregistrement": [
+    {
+      "id": "fr:enregistrement:noun",
+      "field": "word"
+    }
+  ],
+  "enregistrements": [
+    {
+      "id": "fr:enregistrement:noun",
+      "field": "plural_form"
+    }
+  ],
   "enregistrer": [
     {
       "id": "fr:enregistrer:verb",
@@ -4717,20 +5029,40 @@
   ],
   "entrée": [
     {
+      "id": "fr:entree-restaurant:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:entree:noun",
       "field": "word"
     }
   ],
   "entrées": [
     {
+      "id": "fr:entree-restaurant:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "fr:entree:noun",
       "field": "plural_form"
+    }
+  ],
+  "enveloppe": [
+    {
+      "id": "fr:enveloppe:noun",
+      "field": "word"
     }
   ],
   "enveloppe lettre": [
     {
       "id": "fr:enveloppe-lettre:noun",
       "field": "word"
+    }
+  ],
+  "enveloppes": [
+    {
+      "id": "fr:enveloppe:noun",
+      "field": "plural_form"
     }
   ],
   "enveloppes lettre": [
@@ -4839,6 +5171,30 @@
       "field": "word"
     }
   ],
+  "euro": [
+    {
+      "id": "fr:euro:noun",
+      "field": "word"
+    }
+  ],
+  "euros": [
+    {
+      "id": "fr:euro:noun",
+      "field": "plural_form"
+    }
+  ],
+  "eux": [
+    {
+      "id": "fr:eux:pronoun",
+      "field": "word"
+    }
+  ],
+  "exact": [
+    {
+      "id": "fr:exact:adjective",
+      "field": "word"
+    }
+  ],
   "excellent": [
     {
       "id": "fr:excellent:adjective",
@@ -4927,6 +5283,18 @@
     {
       "id": "fr:facile:adjective",
       "field": "word"
+    }
+  ],
+  "facteur": [
+    {
+      "id": "fr:facteur:noun",
+      "field": "word"
+    }
+  ],
+  "facteurs": [
+    {
+      "id": "fr:facteur:noun",
+      "field": "plural_form"
     }
   ],
   "facture": [
@@ -5487,6 +5855,18 @@
       "field": "word"
     }
   ],
+  "fleuriste": [
+    {
+      "id": "fr:fleuriste:noun",
+      "field": "word"
+    }
+  ],
+  "fleuristes": [
+    {
+      "id": "fr:fleuriste:noun",
+      "field": "plural_form"
+    }
+  ],
   "fleurs": [
     {
       "id": "fr:fleur:noun",
@@ -5532,6 +5912,18 @@
   "formes géométriques": [
     {
       "id": "fr:forme-geometrique:noun",
+      "field": "plural_form"
+    }
+  ],
+  "formulaire": [
+    {
+      "id": "fr:formulaire:noun",
+      "field": "word"
+    }
+  ],
+  "formulaires": [
+    {
+      "id": "fr:formulaire:noun",
       "field": "plural_form"
     }
   ],
@@ -5861,6 +6253,18 @@
       "field": "plural_form"
     }
   ],
+  "garçon": [
+    {
+      "id": "fr:garcon:noun",
+      "field": "word"
+    }
+  ],
+  "garçons": [
+    {
+      "id": "fr:garcon:noun",
+      "field": "plural_form"
+    }
+  ],
   "gauche": [
     {
       "id": "fr:gauche:adjective",
@@ -5877,6 +6281,12 @@
     {
       "id": "fr:genou:noun",
       "field": "plural_form"
+    }
+  ],
+  "gens": [
+    {
+      "id": "fr:gens:noun",
+      "field": "word"
     }
   ],
   "gentil": [
@@ -6063,6 +6473,18 @@
       "field": "word"
     }
   ],
+  "guichet": [
+    {
+      "id": "fr:guichet:noun",
+      "field": "word"
+    }
+  ],
+  "guichets": [
+    {
+      "id": "fr:guichet:noun",
+      "field": "plural_form"
+    }
+  ],
   "guide": [
     {
       "id": "fr:guide:noun",
@@ -6133,6 +6555,18 @@
     {
       "id": "fr:gerer:verb",
       "field": "word"
+    }
+  ],
+  "habitant": [
+    {
+      "id": "fr:habitant:noun",
+      "field": "word"
+    }
+  ],
+  "habitants": [
+    {
+      "id": "fr:habitant:noun",
+      "field": "plural_form"
     }
   ],
   "habiter": [
@@ -6226,6 +6660,10 @@
     }
   ],
   "hier": [
+    {
+      "id": "fr:hier-adverb:adverb",
+      "field": "word"
+    },
     {
       "id": "fr:hier:adverb",
       "field": "word"
@@ -6673,6 +7111,18 @@
       "field": "word"
     }
   ],
+  "invitation": [
+    {
+      "id": "fr:invitation:noun",
+      "field": "word"
+    }
+  ],
+  "invitations": [
+    {
+      "id": "fr:invitation:noun",
+      "field": "plural_form"
+    }
+  ],
   "invite": [
     {
       "id": "fr:invite-ia:noun",
@@ -6797,6 +7247,24 @@
       "field": "word"
     }
   ],
+  "je ne comprends pas": [
+    {
+      "id": "fr:je-ne-comprends-pas:phrase",
+      "field": "word"
+    }
+  ],
+  "je ne sais pas": [
+    {
+      "id": "fr:je-ne-sais-pas:phrase",
+      "field": "word"
+    }
+  ],
+  "je voudrais": [
+    {
+      "id": "fr:je-voudrais:phrase",
+      "field": "word"
+    }
+  ],
   "jean": [
     {
       "id": "fr:jean:noun",
@@ -6905,6 +7373,30 @@
       "field": "word"
     }
   ],
+  "journal": [
+    {
+      "id": "fr:journal:noun",
+      "field": "word"
+    }
+  ],
+  "journaliste": [
+    {
+      "id": "fr:journaliste:noun",
+      "field": "word"
+    }
+  ],
+  "journalistes": [
+    {
+      "id": "fr:journaliste:noun",
+      "field": "plural_form"
+    }
+  ],
+  "journaux": [
+    {
+      "id": "fr:journal:noun",
+      "field": "plural_form"
+    }
+  ],
   "jours": [
     {
       "id": "fr:jour:noun",
@@ -6915,6 +7407,12 @@
     {
       "id": "fr:jour-de-semaine:noun",
       "field": "plural_form"
+    }
+  ],
+  "joyeux anniversaire": [
+    {
+      "id": "fr:joyeux-anniversaire:phrase",
+      "field": "word"
     }
   ],
   "juillet": [
@@ -6999,6 +7497,18 @@
     {
       "id": "fr:kilometre:noun",
       "field": "plural_form"
+    }
+  ],
+  "l'": [
+    {
+      "id": "fr:l-elision:determiner",
+      "field": "word"
+    }
+  ],
+  "la": [
+    {
+      "id": "fr:la:determiner",
+      "field": "word"
     }
   ],
   "lac": [
@@ -7741,6 +8251,12 @@
       "field": "plural_form"
     }
   ],
+  "lui": [
+    {
+      "id": "fr:lui:pronoun",
+      "field": "word"
+    }
+  ],
   "lumineux": [
     {
       "id": "fr:lumineux:adjective",
@@ -7774,6 +8290,12 @@
   "lunettes": [
     {
       "id": "fr:lunettes:noun",
+      "field": "word"
+    }
+  ],
+  "lunettes de soleil": [
+    {
+      "id": "fr:lunettes-de-soleil:noun",
       "field": "word"
     }
   ],
@@ -7911,6 +8433,12 @@
     {
       "id": "fr:maison:noun",
       "field": "plural_form"
+    }
+  ],
+  "mal": [
+    {
+      "id": "fr:mal:adverb",
+      "field": "word"
     }
   ],
   "mal de tête": [
@@ -8307,6 +8835,12 @@
       "field": "word"
     }
   ],
+  "mille": [
+    {
+      "id": "fr:mille:number",
+      "field": "word"
+    }
+  ],
   "mince": [
     {
       "id": "fr:mince:adjective",
@@ -8371,6 +8905,12 @@
     {
       "id": "fr:modele-d-ia:noun",
       "field": "plural_form"
+    }
+  ],
+  "moi": [
+    {
+      "id": "fr:moi:pronoun",
+      "field": "word"
     }
   ],
   "moins": [
@@ -8787,6 +9327,18 @@
       "field": "word"
     }
   ],
+  "nationalité": [
+    {
+      "id": "fr:nationalite:noun",
+      "field": "word"
+    }
+  ],
+  "nationalités": [
+    {
+      "id": "fr:nationalite:noun",
+      "field": "plural_form"
+    }
+  ],
   "naturel": [
     {
       "id": "fr:naturel:adjective",
@@ -8803,6 +9355,12 @@
     {
       "id": "fr:navire:noun",
       "field": "plural_form"
+    }
+  ],
+  "ne": [
+    {
+      "id": "fr:ne-ne-pas:adverb",
+      "field": "word"
     }
   ],
   "ne pas être d'accord": [
@@ -8929,6 +9487,10 @@
   ],
   "notre": [
     {
+      "id": "fr:notre:determiner",
+      "field": "word"
+    },
+    {
       "id": "fr:notre:pronoun",
       "field": "word"
     }
@@ -8952,6 +9514,10 @@
     }
   ],
   "nous": [
+    {
+      "id": "fr:nous-tonique:pronoun",
+      "field": "word"
+    },
     {
       "id": "fr:nous:pronoun",
       "field": "word"
@@ -9583,6 +10149,12 @@
       "field": "word"
     }
   ],
+  "parlez-vous anglais": [
+    {
+      "id": "fr:parlez-vous-anglais:phrase",
+      "field": "word"
+    }
+  ],
   "partager": [
     {
       "id": "fr:partager:verb",
@@ -9598,6 +10170,12 @@
   "partir en voyage": [
     {
       "id": "fr:partir-en-voyage:phrase",
+      "field": "word"
+    }
+  ],
+  "pas": [
+    {
+      "id": "fr:pas-negation:adverb",
       "field": "word"
     }
   ],
@@ -9623,6 +10201,18 @@
     {
       "id": "fr:passage-pieton:noun",
       "field": "word"
+    }
+  ],
+  "passager": [
+    {
+      "id": "fr:passager:noun",
+      "field": "word"
+    }
+  ],
+  "passagers": [
+    {
+      "id": "fr:passager:noun",
+      "field": "plural_form"
     }
   ],
   "passages piétons": [
@@ -9899,8 +10489,18 @@
   ],
   "personne": [
     {
+      "id": "fr:personne:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:personne:pronoun",
       "field": "word"
+    }
+  ],
+  "personnes": [
+    {
+      "id": "fr:personne:noun",
+      "field": "plural_form"
     }
   ],
   "persuader": [
@@ -9967,6 +10567,18 @@
     {
       "id": "fr:photo:noun",
       "field": "word"
+    }
+  ],
+  "photographe": [
+    {
+      "id": "fr:photographe:noun",
+      "field": "word"
+    }
+  ],
+  "photographes": [
+    {
+      "id": "fr:photographe:noun",
+      "field": "plural_form"
     }
   ],
   "photographie art": [
@@ -10057,6 +10669,12 @@
       "field": "word"
     }
   ],
+  "pièce de monnaie": [
+    {
+      "id": "fr:piece-de-monnaie:noun",
+      "field": "word"
+    }
+  ],
   "pièces": [
     {
       "id": "fr:piece-monnaie:noun",
@@ -10064,6 +10682,12 @@
     },
     {
       "id": "fr:piece:noun",
+      "field": "plural_form"
+    }
+  ],
+  "pièces de monnaie": [
+    {
+      "id": "fr:piece-de-monnaie:noun",
       "field": "plural_form"
     }
   ],
@@ -10079,6 +10703,12 @@
       "field": "word"
     }
   ],
+  "place de parking": [
+    {
+      "id": "fr:place-de-parking:noun",
+      "field": "word"
+    }
+  ],
   "places": [
     {
       "id": "fr:place:noun",
@@ -10088,6 +10718,12 @@
   "places centrales": [
     {
       "id": "fr:place-centrale:noun",
+      "field": "plural_form"
+    }
+  ],
+  "places de parking": [
+    {
+      "id": "fr:place-de-parking:noun",
       "field": "plural_form"
     }
   ],
@@ -10137,6 +10773,30 @@
     {
       "id": "fr:plastique-materiau:noun",
       "field": "word"
+    }
+  ],
+  "plat du jour": [
+    {
+      "id": "fr:plat-du-jour:noun",
+      "field": "word"
+    }
+  ],
+  "plat principal": [
+    {
+      "id": "fr:plat-principal:noun",
+      "field": "word"
+    }
+  ],
+  "plats du jour": [
+    {
+      "id": "fr:plat-du-jour:noun",
+      "field": "plural_form"
+    }
+  ],
+  "plats principaux": [
+    {
+      "id": "fr:plat-principal:noun",
+      "field": "plural_form"
     }
   ],
   "plein": [
@@ -10723,6 +11383,12 @@
       "field": "word"
     }
   ],
+  "porte-monnaie": [
+    {
+      "id": "fr:porte-monnaie:noun",
+      "field": "word"
+    }
+  ],
   "portefeuille": [
     {
       "id": "fr:portefeuille:noun",
@@ -10855,6 +11521,18 @@
     {
       "id": "fr:pour-l-instant:idiom",
       "field": "word"
+    }
+  ],
+  "pourboire": [
+    {
+      "id": "fr:pourboire:noun",
+      "field": "word"
+    }
+  ],
+  "pourboires": [
+    {
+      "id": "fr:pourboire:noun",
+      "field": "plural_form"
     }
   ],
   "pourquoi": [
@@ -11253,6 +11931,18 @@
     {
       "id": "fr:prefere:adjective",
       "field": "word"
+    }
+  ],
+  "prénom": [
+    {
+      "id": "fr:prenom:noun",
+      "field": "word"
+    }
+  ],
+  "prénoms": [
+    {
+      "id": "fr:prenom:noun",
+      "field": "plural_form"
     }
   ],
   "préparer": [
@@ -12359,6 +13049,12 @@
       "field": "word"
     }
   ],
+  "s'appeler": [
+    {
+      "id": "fr:s-appeler:verb",
+      "field": "word"
+    }
+  ],
   "s'arrêter": [
     {
       "id": "fr:s-arreter:verb",
@@ -12419,6 +13115,12 @@
       "field": "word"
     }
   ],
+  "s'il te plaît": [
+    {
+      "id": "fr:s-il-te-plait:phrase",
+      "field": "word"
+    }
+  ],
   "s'il vous plaît": [
     {
       "id": "fr:s-il-vous-plait:phrase",
@@ -12467,6 +13169,12 @@
       "field": "word"
     }
   ],
+  "sac de voyage": [
+    {
+      "id": "fr:sac-de-voyage:noun",
+      "field": "word"
+    }
+  ],
   "sac en cuir": [
     {
       "id": "fr:sac-en-cuir:noun",
@@ -12475,7 +13183,17 @@
   ],
   "sac à dos": [
     {
+      "id": "fr:sac-a-dos:noun",
+      "field": "word"
+    },
+    {
       "id": "fr:sac-a-dos:phrase",
+      "field": "word"
+    }
+  ],
+  "sac à main": [
+    {
+      "id": "fr:sac-a-main:noun",
       "field": "word"
     }
   ],
@@ -12491,9 +13209,27 @@
       "field": "plural_form"
     }
   ],
+  "sacs de voyage": [
+    {
+      "id": "fr:sac-de-voyage:noun",
+      "field": "plural_form"
+    }
+  ],
   "sacs en cuir": [
     {
       "id": "fr:sac-en-cuir:noun",
+      "field": "plural_form"
+    }
+  ],
+  "sacs à dos": [
+    {
+      "id": "fr:sac-a-dos:noun",
+      "field": "plural_form"
+    }
+  ],
+  "sacs à main": [
+    {
+      "id": "fr:sac-a-main:noun",
       "field": "plural_form"
     }
   ],
@@ -13041,6 +13777,18 @@
       "field": "plural_form"
     }
   ],
+  "serveuse": [
+    {
+      "id": "fr:serveuse:noun",
+      "field": "word"
+    }
+  ],
+  "serveuses": [
+    {
+      "id": "fr:serveuse:noun",
+      "field": "plural_form"
+    }
+  ],
   "serviable": [
     {
       "id": "fr:serviable:adjective",
@@ -13091,6 +13839,12 @@
       "field": "word"
     }
   ],
+  "seulement": [
+    {
+      "id": "fr:seulement:adverb",
+      "field": "word"
+    }
+  ],
   "short": [
     {
       "id": "fr:short:noun",
@@ -13107,6 +13861,18 @@
     {
       "id": "fr:si:phrase",
       "field": "word"
+    }
+  ],
+  "signature": [
+    {
+      "id": "fr:signature:noun",
+      "field": "word"
+    }
+  ],
+  "signatures": [
+    {
+      "id": "fr:signature:noun",
+      "field": "plural_form"
     }
   ],
   "silencieux": [
@@ -13167,6 +13933,18 @@
     {
       "id": "fr:six:number",
       "field": "word"
+    }
+  ],
+  "siège": [
+    {
+      "id": "fr:siege:noun",
+      "field": "word"
+    }
+  ],
+  "sièges": [
+    {
+      "id": "fr:siege:noun",
+      "field": "plural_form"
     }
   ],
   "smartphone portable": [
@@ -13267,6 +14045,12 @@
     {
       "id": "fr:soldat:noun",
       "field": "plural_form"
+    }
+  ],
+  "solde": [
+    {
+      "id": "fr:solde:noun",
+      "field": "word"
     }
   ],
   "soldes": [
@@ -13469,6 +14253,12 @@
       "field": "word"
     }
   ],
+  "station": [
+    {
+      "id": "fr:station:noun",
+      "field": "word"
+    }
+  ],
   "station de bus": [
     {
       "id": "fr:station-de-bus:phrase",
@@ -13479,6 +14269,12 @@
     {
       "id": "fr:station-service:noun",
       "field": "word"
+    }
+  ],
+  "stations": [
+    {
+      "id": "fr:station:noun",
+      "field": "plural_form"
     }
   ],
   "stations-service": [
@@ -13645,6 +14441,12 @@
     {
       "id": "fr:t-shirt:noun",
       "field": "plural_form"
+    }
+  ],
+  "ta": [
+    {
+      "id": "fr:ta:determiner",
+      "field": "word"
     }
   ],
   "table": [
@@ -13837,6 +14639,12 @@
       "field": "word"
     }
   ],
+  "tes": [
+    {
+      "id": "fr:tes:determiner",
+      "field": "word"
+    }
+  ],
   "thaïlande": [
     {
       "id": "fr:thailande:noun",
@@ -13909,6 +14717,18 @@
       "field": "plural_form"
     }
   ],
+  "timbre-poste": [
+    {
+      "id": "fr:timbre-poste:noun",
+      "field": "word"
+    }
+  ],
+  "timbres-poste": [
+    {
+      "id": "fr:timbre-poste:noun",
+      "field": "plural_form"
+    }
+  ],
   "timide": [
     {
       "id": "fr:timide:adjective",
@@ -13933,6 +14753,12 @@
       "field": "word"
     }
   ],
+  "toi": [
+    {
+      "id": "fr:toi:pronoun",
+      "field": "word"
+    }
+  ],
   "toilette": [
     {
       "id": "fr:toilette:noun",
@@ -13943,6 +14769,10 @@
     {
       "id": "fr:toilette:noun",
       "field": "plural_form"
+    },
+    {
+      "id": "fr:toilettes:noun",
+      "field": "word"
     }
   ],
   "toit": [
@@ -14014,6 +14844,10 @@
     }
   ],
   "ton": [
+    {
+      "id": "fr:ton:determiner",
+      "field": "word"
+    },
     {
       "id": "fr:ton:pronoun",
       "field": "word"
@@ -14341,6 +15175,12 @@
       "field": "word"
     }
   ],
+  "tu t'appelles comment": [
+    {
+      "id": "fr:tu-t-appelles-comment:phrase",
+      "field": "word"
+    }
+  ],
   "tuer": [
     {
       "id": "fr:tuer:verb",
@@ -14449,6 +15289,12 @@
       "field": "word"
     }
   ],
+  "un peu": [
+    {
+      "id": "fr:un-peu:adverb",
+      "field": "word"
+    }
+  ],
   "un peu de": [
     {
       "id": "fr:un-peu-de:idiom",
@@ -14531,9 +15377,21 @@
       "field": "word"
     }
   ],
+  "valise à roulettes": [
+    {
+      "id": "fr:valise-a-roulettes:noun",
+      "field": "word"
+    }
+  ],
   "valises": [
     {
       "id": "fr:valise:noun",
+      "field": "plural_form"
+    }
+  ],
+  "valises à roulettes": [
+    {
+      "id": "fr:valise-a-roulettes:noun",
       "field": "plural_form"
     }
   ],
@@ -15021,6 +15879,12 @@
       "field": "word"
     }
   ],
+  "votre": [
+    {
+      "id": "fr:votre:determiner",
+      "field": "word"
+    }
+  ],
   "vouloir": [
     {
       "id": "fr:vouloir:verb",
@@ -15034,6 +15898,10 @@
     }
   ],
   "vous": [
+    {
+      "id": "fr:vous-tonique:pronoun",
+      "field": "word"
+    },
     {
       "id": "fr:vous:pronoun",
       "field": "word"
@@ -15072,6 +15940,12 @@
   "vrai": [
     {
       "id": "fr:vrai:adjective",
+      "field": "word"
+    }
+  ],
+  "vraiment": [
+    {
+      "id": "fr:vraiment:adverb",
       "field": "word"
     }
   ],
@@ -15125,6 +15999,12 @@
     {
       "id": "fr:week-end:noun",
       "field": "plural_form"
+    }
+  ],
+  "y": [
+    {
+      "id": "fr:y:pronoun",
+      "field": "word"
     }
   ],
   "yaourt": [
@@ -15188,6 +16068,12 @@
   "à ce soir": [
     {
       "id": "fr:a-ce-soir:idiom",
+      "field": "word"
+    }
+  ],
+  "à côté de": [
+    {
+      "id": "fr:a-cote-de:preposition",
       "field": "word"
     }
   ],
@@ -15296,6 +16182,12 @@
   "ça ne fait rien": [
     {
       "id": "fr:ca-ne-fait-rien:phrase",
+      "field": "word"
+    }
+  ],
+  "ça va": [
+    {
+      "id": "fr:ca-va:phrase",
       "field": "word"
     }
   ],
