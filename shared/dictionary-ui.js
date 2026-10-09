@@ -228,6 +228,10 @@ export async function initDictionaryUI(container, options = {}) {
 
   const lang = options.lang || targetEl.getAttribute('data-dictionary-lang') || targetEl.getAttribute('data-lang') || 'en';
 
+  if (typeof document !== 'undefined' && document.documentElement) {
+    document.documentElement.lang = lang;
+  }
+
   let defaultRelativeBase = './';
   if (typeof window !== 'undefined' && window.location && window.location.pathname) {
     if (window.location.pathname.includes('/vocabulary/')) {
@@ -407,6 +411,7 @@ export async function initDictionaryUI(container, options = {}) {
         `
         ).join('')}
       </div>
+      <p style="margin-top: 24px; font-size: 13px; color: var(--cosy-dict-text-muted, #666);">Copyright (c) 2025-2026 COSY Languages. All rights reserved.</p>
     </div>
   `;
   targetEl.appendChild(footerEl);
