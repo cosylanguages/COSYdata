@@ -12,7 +12,7 @@
     "id": "fr:a-cause-de:idiom",
     "word": "à cause de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -20,23 +20,23 @@
     "id": "fr:a-ce-soir:idiom",
     "word": "à ce soir",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
   {
     "id": "fr:a-cote-de:preposition",
     "word": "à côté de",
-    "level": "A0",
+    "level": "A1",
     "form": "preposition",
     "theme": "navigation",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:a-demain:idiom",
     "word": "à demain",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -44,7 +44,7 @@
     "id": "fr:a-haute-voix:idiom",
     "word": "à haute voix",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -52,7 +52,7 @@
     "id": "fr:a-l-avenir:idiom",
     "word": "à l'avenir",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -69,7 +69,7 @@
     "id": "fr:a-la-campagne:idiom",
     "word": "à la campagne",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -77,7 +77,7 @@
     "id": "fr:a-la-fin:idiom",
     "word": "à la fin",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -85,7 +85,7 @@
     "id": "fr:a-la-fois:idiom",
     "word": "à la fois",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -93,7 +93,7 @@
     "id": "fr:a-la-maison:idiom",
     "word": "à la maison",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -101,7 +101,7 @@
     "id": "fr:a-la-montagne:idiom",
     "word": "à la montagne",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -109,7 +109,7 @@
     "id": "fr:a-la-plage:idiom",
     "word": "à la plage",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -117,7 +117,7 @@
     "id": "fr:a-mon-avis:idiom",
     "word": "à mon avis",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -169,7 +169,7 @@
     "id": "fr:a-tout-a-l-heure:idiom",
     "word": "à tout à l'heure",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -224,6 +224,14 @@
     "level": "A0",
     "form": "phrase",
     "theme": "shopping",
+    "domain": "general"
+  },
+  {
+    "id": "fr:acheter-pain:phrase",
+    "word": "acheter du pain",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -283,10 +291,10 @@
   {
     "id": "fr:addition:noun",
     "word": "addition",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:adorer:verb",
@@ -354,7 +362,7 @@
     "id": "fr:aide:noun",
     "word": "aide",
     "emoji": "🤝",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "actions",
     "domain": "general",
@@ -441,6 +449,38 @@
     "level": "A0",
     "form": "phrase",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:aller-a-la-piscine:phrase",
+    "word": "aller à la piscine",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:aller-au-cinema:phrase",
+    "word": "aller au cinéma",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:aller-au-musee:phrase",
+    "word": "aller au musée",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:aller-au-theatre:phrase",
+    "word": "aller au théâtre",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -675,6 +715,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:appartement-centre:noun",
+    "word": "appartement du centre",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:appartement:noun",
     "word": "appartement",
     "emoji": "🏢",
@@ -729,6 +777,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:apporter-aide:phrase",
+    "word": "apporter de l'aide",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:apporter-cadeau:phrase",
+    "word": "apporter un cadeau",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:apporter:verb",
     "word": "apporter",
     "emoji": "🎁",
@@ -753,6 +817,14 @@
     "level": "A0",
     "form": "phrase",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:apprendre-vite:phrase",
+    "word": "apprendre vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -801,12 +873,28 @@
     "domain": "general, exam"
   },
   {
+    "id": "fr:arbre-frui:noun",
+    "word": "arbre fruitier",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:arbre:noun",
     "word": "arbre",
     "emoji": "🌳",
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:arc-en-ciel:noun",
+    "word": "arc-en-ciel",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
     "domain": "general"
   },
   {
@@ -849,7 +937,7 @@
     "id": "fr:armoire:noun",
     "word": "armoire",
     "emoji": "🚪",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -900,6 +988,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:arriver-heure:phrase",
+    "word": "arriver à l'heure",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:arriver-tard:phrase",
+    "word": "arriver tard",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:arriver:verb",
     "word": "arriver",
     "emoji": "🛬",
@@ -927,6 +1031,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:ascenseur-immeuble:noun",
+    "word": "ascenseur d'immeuble",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:ascenseur:noun",
     "word": "ascenseur",
     "emoji": "🛗",
@@ -939,7 +1051,7 @@
     "id": "fr:assez-de:idiom",
     "word": "assez de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -956,7 +1068,7 @@
     "id": "fr:assiette:noun",
     "word": "assiette",
     "emoji": "🍽️",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -985,6 +1097,14 @@
     "emoji": "💪",
     "level": "A2",
     "form": "verb",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:atelier-art:noun",
+    "word": "atelier d'artiste",
+    "level": "A1",
+    "form": "noun",
     "theme": "work",
     "domain": "general"
   },
@@ -1046,7 +1166,7 @@
     "id": "fr:au-bout-de:idiom",
     "word": "au bout de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1054,7 +1174,7 @@
     "id": "fr:au-chaud:idiom",
     "word": "au chaud",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1062,7 +1182,7 @@
     "id": "fr:au-cinema:idiom",
     "word": "au cinéma",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1079,7 +1199,7 @@
     "id": "fr:au-debut:idiom",
     "word": "au début",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1087,7 +1207,7 @@
     "id": "fr:au-dessus-de:idiom",
     "word": "au-dessus de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1104,7 +1224,7 @@
     "id": "fr:au-frais:idiom",
     "word": "au frais",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1121,7 +1241,7 @@
     "id": "fr:au-marche:idiom",
     "word": "au marché",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1129,7 +1249,7 @@
     "id": "fr:au-milieu-de:idiom",
     "word": "au milieu de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1146,7 +1266,7 @@
     "id": "fr:au-restaurant:idiom",
     "word": "au restaurant",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1157,6 +1277,14 @@
     "level": "A0",
     "form": "phrase",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:aucun-p:pronoun",
+    "word": "aucun",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -1183,6 +1311,14 @@
     "level": "A0",
     "form": "adverb",
     "theme": "time",
+    "domain": "general"
+  },
+  {
+    "id": "fr:auquel:pronoun",
+    "word": "auquel",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -1231,12 +1367,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:autre-p:pronoun",
+    "word": "autre",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:autriche:noun",
     "word": "Autriche",
     "emoji": "✨",
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:auxquelles:pronoun",
+    "word": "auxquelles",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:auxquels:pronoun",
+    "word": "auxquels",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -1252,7 +1412,7 @@
     "id": "fr:avec-plaisir:idiom",
     "word": "avec plaisir",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1263,6 +1423,14 @@
     "level": "A0",
     "form": "preposition",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:avenir-proche:noun",
+    "word": "avenir proche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
     "domain": "general"
   },
   {
@@ -1294,9 +1462,9 @@
   },
   {
     "id": "fr:avoir-besoin-de:idiom",
-    "word": "avoir besoin de",
+    "word": "avoir besoin",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1313,7 +1481,7 @@
     "id": "fr:avoir-chaud:idiom",
     "word": "avoir chaud",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1321,7 +1489,7 @@
     "id": "fr:avoir-de-la-chance:idiom",
     "word": "avoir de la chance",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1365,7 +1533,7 @@
     "id": "fr:avoir-envie-de:idiom",
     "word": "avoir envie de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1373,7 +1541,7 @@
     "id": "fr:avoir-faim:idiom",
     "word": "avoir faim",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1381,7 +1549,7 @@
     "id": "fr:avoir-froid:idiom",
     "word": "avoir froid",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1389,7 +1557,7 @@
     "id": "fr:avoir-hate-de:idiom",
     "word": "avoir hâte de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1397,7 +1565,7 @@
     "id": "fr:avoir-l-air:idiom",
     "word": "avoir l'air",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1459,7 +1627,7 @@
     "id": "fr:avoir-le-temps:idiom",
     "word": "avoir le temps",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1503,7 +1671,7 @@
     "id": "fr:avoir-mal-a:idiom",
     "word": "avoir mal à",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1520,7 +1688,7 @@
     "id": "fr:avoir-peur:idiom",
     "word": "avoir peur",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1528,7 +1696,7 @@
     "id": "fr:avoir-raison:idiom",
     "word": "avoir raison",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1536,7 +1704,7 @@
     "id": "fr:avoir-soif:idiom",
     "word": "avoir soif",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1544,7 +1712,7 @@
     "id": "fr:avoir-sommeil:idiom",
     "word": "avoir sommeil",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1552,7 +1720,7 @@
     "id": "fr:avoir-tort:idiom",
     "word": "avoir tort",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1643,7 +1811,7 @@
     "level": "A0",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:bagages:noun",
@@ -1678,6 +1846,14 @@
     "emoji": "🧹",
     "level": "A2",
     "form": "verb",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:balcon-terrasse:noun",
+    "word": "balcon terrasse",
+    "level": "A1",
+    "form": "noun",
     "theme": "housing",
     "domain": "general"
   },
@@ -1720,7 +1896,7 @@
   {
     "id": "fr:banlieue:noun",
     "word": "banlieue",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
     "domain": "general"
@@ -1826,9 +2002,9 @@
   },
   {
     "id": "fr:beaucoup-de:idiom",
-    "word": "beaucoup de",
+    "word": "beaucoup",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -1869,6 +2045,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:beurre-doux:noun",
+    "word": "beurre doux",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:beurre:noun",
     "word": "beurre",
     "emoji": "🧈",
@@ -1881,7 +2065,7 @@
     "id": "fr:bibliotheque:noun",
     "word": "bibliothèque",
     "emoji": "📚",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
     "domain": "general"
@@ -1960,7 +2144,7 @@
   {
     "id": "fr:billet-de-banque:noun",
     "word": "billet de banque",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "shopping",
     "domain": "general"
@@ -1984,6 +2168,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:blanc-pur:adjective",
+    "word": "blanc pur",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:blanc:adjective",
     "word": "blanc",
     "emoji": "⚪",
@@ -1999,6 +2191,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:bleu-ciel:adjective",
+    "word": "bleu ciel",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -2029,6 +2229,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:boire-eau:phrase",
+    "word": "boire de l'eau",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:boire-un-cafe:phrase",
     "word": "boire un café",
     "emoji": "☕",
@@ -2038,12 +2246,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:boire-un-verre:phrase",
+    "word": "boire un verre",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:boire:verb",
     "word": "boire",
     "emoji": "🥛",
     "level": "A0",
     "form": "verb",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:bois-massif:noun",
+    "word": "bois massif",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
     "domain": "general"
   },
   {
@@ -2058,17 +2282,25 @@
   {
     "id": "fr:boisson:noun",
     "word": "boisson",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:boite-aux-lettres:noun",
     "word": "boîte aux lettres",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:boite-carton:noun",
+    "word": "boîte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
     "domain": "general"
   },
   {
@@ -2102,7 +2334,7 @@
     "id": "fr:bon-appetit:idiom",
     "word": "bon appétit",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -2119,7 +2351,7 @@
     "id": "fr:bon-voyage:idiom",
     "word": "bon voyage",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -2286,6 +2518,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:bouteille-eau:noun",
+    "word": "bouteille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
+  },
+  {
     "id": "fr:bouteille:noun",
     "word": "bouteille",
     "emoji": "🍾",
@@ -2331,6 +2571,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:bricoler:/bʁi.kɔ.le/",
+    "word": "bricoler",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:brosse-habits:noun",
     "word": "brosse habits",
     "emoji": "🪮",
@@ -2346,6 +2594,14 @@
     "level": "A0",
     "form": "verb",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:brouillard-epais:noun",
+    "word": "brouillard épais",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
     "domain": "general"
   },
   {
@@ -2405,10 +2661,26 @@
   {
     "id": "fr:bureau-de-poste:noun",
     "word": "bureau de poste",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:bureau-direction:noun",
+    "word": "bureau de direction",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:bureau-eleve:noun",
+    "word": "bureau d'élève",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
   },
   {
     "id": "fr:bureau-travail:noun",
@@ -2441,7 +2713,7 @@
     "id": "fr:c-est-a-dire:idiom",
     "word": "c'est-à-dire",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -2451,13 +2723,13 @@
     "level": "A0",
     "form": "phrase",
     "theme": "shopping",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:c-est-la-vie:idiom",
     "word": "c'est la vie",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -2479,12 +2751,44 @@
     "domain": "general, spoken"
   },
   {
+    "id": "fr:cabinet-med:noun",
+    "word": "cabinet médical",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cable-charge:noun",
+    "word": "câble",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
     "id": "fr:cable-electrique:noun",
     "word": "câble électrique",
     "emoji": "🔌",
     "level": "A0",
     "form": "noun",
     "theme": "technology",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cacher-cle:phrase",
+    "word": "cacher sa clé",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cacher-objet:phrase",
+    "word": "cacher un objet",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -2503,6 +2807,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cafe-au-lait-boisson:noun",
+    "word": "café au lait",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -2544,10 +2856,10 @@
   {
     "id": "fr:caisse:noun",
     "word": "caisse",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "shopping",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:caissier:noun",
@@ -2574,6 +2886,30 @@
     "level": "A0",
     "form": "phrase",
     "theme": "education",
+    "domain": "general"
+  },
+  {
+    "id": "fr:camera-video:noun",
+    "word": "caméra",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
+    "id": "fr:campagne-verte:noun",
+    "word": "campagne verte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
+    "id": "fr:camper:/kɑ̃.pe/",
+    "word": "camper",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -2604,6 +2940,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:canard-lac:noun",
+    "word": "canard du lac",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:canard:noun",
     "word": "canard",
     "emoji": "🦆",
@@ -2613,12 +2957,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:cantine-ecole:noun",
+    "word": "cantine",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:capitale:noun",
     "word": "capitale",
     "emoji": "🏛️",
     "level": "A2",
     "form": "noun",
     "theme": "navigation",
+    "domain": "general"
+  },
+  {
+    "id": "fr:car:conjunction",
+    "word": "car",
+    "level": "A0",
+    "form": "conjunction",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -2635,6 +2995,14 @@
     "word": "carré forme",
     "emoji": "🔲",
     "level": "A0",
+    "form": "noun",
+    "theme": "shapes",
+    "domain": "general"
+  },
+  {
+    "id": "fr:carre-parfait:noun",
+    "word": "carré parfait",
+    "level": "A1",
     "form": "noun",
     "theme": "shapes",
     "domain": "general"
@@ -2676,6 +3044,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:cartable-ecole:noun",
+    "word": "cartable",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:carte-bancaire:noun",
     "word": "carte bancaire",
     "emoji": "💳",
@@ -2690,7 +3066,7 @@
     "level": "A0",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:carte-de-credit-bancaire:noun",
@@ -2713,10 +3089,10 @@
   {
     "id": "fr:carte-postale:noun",
     "word": "carte postale",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:carte:noun",
@@ -2767,7 +3143,7 @@
     "id": "fr:ce-soir:idiom",
     "word": "ce soir",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -2790,10 +3166,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:ceinture-cuir:noun",
+    "word": "ceinture en cuir",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:ceinture:noun",
     "word": "ceinture",
     "emoji": "🛞",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "clothing",
     "domain": "general"
@@ -2835,6 +3219,62 @@
     "domain": "general"
   },
   {
+    "id": "fr:celle-ci:pronoun",
+    "word": "celle-ci",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:celle-la:pronoun",
+    "word": "celle-là",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:celles-ci:pronoun",
+    "word": "celles-ci",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:celles-la:pronoun",
+    "word": "celles-là",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:celui-ci:pronoun",
+    "word": "celui-ci",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:celui-la:pronoun",
+    "word": "celui-là",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cent-num:number",
+    "word": "cent",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:cent:number",
     "word": "cent",
     "emoji": "💯",
@@ -2864,10 +3304,10 @@
   {
     "id": "fr:centre-ville:noun",
     "word": "centre-ville",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:centre:noun",
@@ -2885,6 +3325,14 @@
     "level": "B1",
     "form": "adverb",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cercle-rond:noun",
+    "word": "cercle rond",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
     "domain": "general"
   },
   {
@@ -2906,8 +3354,32 @@
     "domain": "general"
   },
   {
+    "id": "fr:certaines:pronoun",
+    "word": "certaines",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:certains:pronoun",
+    "word": "certains",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:ces:determiner",
     "word": "ces",
+    "level": "A0",
+    "form": "determiner",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cet:determiner",
+    "word": "cet",
     "level": "A0",
     "form": "determiner",
     "theme": "grammar",
@@ -2922,10 +3394,58 @@
     "domain": "general"
   },
   {
+    "id": "fr:ceux-ci:pronoun",
+    "word": "ceux-ci",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:ceux-la:pronoun",
+    "word": "ceux-là",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chacun:pronoun",
+    "word": "chacun",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chacune:pronoun",
+    "word": "chacune",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:chaise:noun",
     "word": "chaise",
     "emoji": "🪑",
     "level": "A0",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chaleur-ete:noun",
+    "word": "chaleur d'été",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chambre-coucher:noun",
+    "word": "chambre à coucher",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -2946,6 +3466,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:champ-ble:noun",
+    "word": "champ de blé",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
     "domain": "general"
   },
   {
@@ -2985,6 +3513,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:chanter-une-chanson:phrase",
+    "word": "chanter une chanson",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chanter:/ʃɑ̃.te/",
+    "word": "chanter",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:chanter:verb",
     "word": "chanter",
     "emoji": "🎤",
@@ -2994,12 +3538,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:chapeau-paille:noun",
+    "word": "chapeau de paille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:chapeau:noun",
     "word": "chapeau",
     "emoji": "🎩",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "clothing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chapitre-livre:noun",
+    "word": "chapitre",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -3039,6 +3599,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:chargeur-phone:noun",
+    "word": "chargeur",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
     "id": "fr:chariot:noun",
     "word": "chariot",
     "emoji": "🛒",
@@ -3048,10 +3616,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:chat-maison:noun",
+    "word": "chat de maison",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:chat:noun",
     "word": "chat",
     "emoji": "🐱",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "animals",
     "domain": "general"
@@ -3075,10 +3651,26 @@
     "domain": "general"
   },
   {
+    "id": "fr:chaussettes-laine-p:noun",
+    "word": "chaussettes en laine",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:chaussettes:noun",
     "word": "chaussettes",
     "emoji": "🧦",
     "level": "A0",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chaussures-cuir-p:noun",
+    "word": "chaussures en cuir",
+    "level": "A1",
     "form": "noun",
     "theme": "clothing",
     "domain": "general"
@@ -3120,6 +3712,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:chemise-homme:noun",
+    "word": "chemise d'homme",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:chemise:noun",
     "word": "chemise",
     "emoji": "👔",
@@ -3147,6 +3747,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:chercher-cle:phrase",
+    "word": "chercher ses clés",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chercher-travail:phrase",
+    "word": "chercher du travail",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:chercher:verb",
     "word": "chercher",
     "emoji": "🔍",
@@ -3162,6 +3778,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cheval-course:noun",
+    "word": "cheval de course",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
     "domain": "general"
   },
   {
@@ -3189,6 +3813,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:chien-compagnon:noun",
+    "word": "chien de compagnie",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
     "domain": "general"
   },
   {
@@ -3237,6 +3869,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:chose:noun",
+    "word": "chose",
+    "level": "A0",
+    "form": "noun",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:chou:noun",
     "word": "chou",
     "emoji": "🥬",
@@ -3255,10 +3895,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:ciel-clef:noun",
+    "word": "ciel dégagé",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:ciel:noun",
     "word": "ciel",
     "emoji": "🌌",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
     "domain": "general"
@@ -3279,6 +3927,14 @@
     "level": "A0",
     "form": "number",
     "theme": "numbers",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cinquante-num:number",
+    "word": "cinquante",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -3303,7 +3959,7 @@
     "id": "fr:citron:noun",
     "word": "citron",
     "emoji": "🍋",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -3318,12 +3974,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:classe-ecole:noun",
+    "word": "classe",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:claude-monet:noun",
     "word": "Claude Monet",
     "emoji": "✨",
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:clavier-ordinateur:noun",
+    "word": "clavier d'ordinateur",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
     "domain": "general"
   },
   {
@@ -3398,6 +4070,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:cochon-ferme:noun",
+    "word": "cochon de ferme",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:cochon:noun",
     "word": "cochon",
     "emoji": "🐷",
@@ -3419,7 +4099,7 @@
     "id": "fr:coeur:noun",
     "word": "cœur",
     "emoji": "❤️",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
     "domain": "general"
@@ -3445,7 +4125,7 @@
   {
     "id": "fr:colis:noun",
     "word": "colis",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
     "domain": "general"
@@ -3469,12 +4149,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:collectionner:/kɔ.lɛk.sjɔ.ne/",
+    "word": "collectionner",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:collectionner:verb",
     "word": "collectionner",
     "emoji": "📦",
     "level": "A2",
     "form": "verb",
     "theme": "leisure",
+    "domain": "general"
+  },
+  {
+    "id": "fr:collegue-bureau:noun",
+    "word": "collègue de bureau",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
     "domain": "general"
   },
   {
@@ -3496,6 +4192,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:colline-douce:noun",
+    "word": "colline douce",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:colorier:verb",
     "word": "colorier",
     "emoji": "🖍️",
@@ -3510,7 +4214,7 @@
     "level": "A0",
     "form": "phrase",
     "theme": "shopping",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:combien:pronoun",
@@ -3543,7 +4247,7 @@
     "id": "fr:comme-ci-comme-ca:idiom",
     "word": "comme ci comme ça",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -3592,6 +4296,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:commode-bois:noun",
+    "word": "commode en bois",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:commode-tiroirs:noun",
+    "word": "commode à tiroirs",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:commode:adjective",
     "word": "commode",
     "emoji": "👌",
@@ -3634,6 +4354,14 @@
     "level": "A2",
     "form": "adjective",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:comprendre-tout:phrase",
+    "word": "comprendre tout",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -3772,6 +4500,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:conge-paye:noun",
+    "word": "congé payé",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:conscience:noun",
     "word": "conscience",
     "emoji": "💡",
@@ -3835,6 +4571,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:contrat-embauche:noun",
+    "word": "contrat d'embauche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:contrat:noun",
     "word": "contrat",
     "emoji": "📄",
@@ -3873,10 +4617,10 @@
   {
     "id": "fr:correspondance:noun",
     "word": "correspondance",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:cote:noun",
@@ -3891,9 +4635,17 @@
     "id": "fr:cou:noun",
     "word": "cou",
     "emoji": "🧣",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:coudre:/ku.dʁ/",
+    "word": "coudre",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -3942,6 +4694,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:cour-ecole:noun",
+    "word": "cour de récréation",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:courageux:adjective",
     "word": "courageux",
     "emoji": "🦁",
@@ -3960,12 +4720,44 @@
     "domain": "general"
   },
   {
+    "id": "fr:courir-vite:phrase",
+    "word": "courir vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:courir:/ku.ʁiʁ/",
+    "word": "courir",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:courir:verb",
     "word": "courir",
     "emoji": "🏃",
     "level": "A0",
     "form": "verb",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:courriel-electronique:noun",
+    "word": "courriel",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cours-matiere:noun",
+    "word": "cours",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -3987,10 +4779,26 @@
     "domain": "general"
   },
   {
+    "id": "fr:cousin-germain:noun",
+    "word": "cousin germain",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
     "id": "fr:cousin:noun",
     "word": "cousin",
     "emoji": "👦",
     "level": "A0",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cousine-germaine:noun",
+    "word": "cousine germaine",
+    "level": "A1",
     "form": "noun",
     "theme": "family",
     "domain": "general"
@@ -4152,7 +4960,7 @@
     "id": "fr:cuillere:noun",
     "word": "cuillère",
     "emoji": "🥄",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -4164,6 +4972,14 @@
     "level": "A2",
     "form": "verb",
     "theme": "food",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cuisine-equipee:noun",
+    "word": "cuisine équipée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
     "domain": "general"
   },
   {
@@ -4191,6 +5007,22 @@
     "level": "A0",
     "form": "phrase",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cuisiner-un-plat:phrase",
+    "word": "cuisiner un plat",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:cuisiner:/kɥi.zi.ne/",
+    "word": "cuisiner",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -4251,7 +5083,7 @@
     "id": "fr:d-accord:idiom",
     "word": "d'accord",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4259,7 +5091,7 @@
     "id": "fr:d-habitude:idiom",
     "word": "d'habitude",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4267,7 +5099,7 @@
     "id": "fr:d-un-cote:idiom",
     "word": "d'un côté",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4299,6 +5131,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:danser-ensemble:phrase",
+    "word": "danser ensemble",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:danser:/dɑ̃.se/",
+    "word": "danser",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:danser:verb",
     "word": "danser",
     "emoji": "💃",
@@ -4320,7 +5168,7 @@
     "id": "fr:de-l-autre-cote:idiom",
     "word": "de l'autre côté",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4328,7 +5176,7 @@
     "id": "fr:de-loin:idiom",
     "word": "de loin",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4336,7 +5184,7 @@
     "id": "fr:de-nouveau:idiom",
     "word": "de nouveau",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4344,7 +5192,7 @@
     "id": "fr:de-plus:idiom",
     "word": "de plus",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4352,7 +5200,7 @@
     "id": "fr:de-pres:idiom",
     "word": "de près",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4369,7 +5217,7 @@
     "id": "fr:de-temps-en-temps:idiom",
     "word": "de temps en temps",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4484,7 +5332,7 @@
     "id": "fr:dejeuner:verb",
     "word": "déjeuner",
     "emoji": "🍽️",
-    "level": "A0",
+    "level": "A1",
     "form": "verb",
     "theme": "food",
     "domain": "general",
@@ -4514,7 +5362,7 @@
     "id": "fr:demain-matin:idiom",
     "word": "demain matin",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -4660,12 +5508,44 @@
     "domain": "general"
   },
   {
+    "id": "fr:dernier-rang:adjective",
+    "word": "dernier",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:derriere:preposition",
     "word": "derrière",
     "emoji": "🚪",
     "level": "A0",
     "form": "preposition",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:des-art:determiner",
+    "word": "des",
+    "level": "A0",
+    "form": "determiner",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:descendre-rue:phrase",
+    "word": "descendre la rue",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:descendre-vite:phrase",
+    "word": "descendre vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -4687,12 +5567,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:desquelles:pronoun",
+    "word": "desquelles",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:desquels:pronoun",
+    "word": "desquels",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:dessert:noun",
     "word": "dessert",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:dessiner:/de.si.ne/",
+    "word": "dessiner",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
   },
   {
     "id": "fr:dessiner:verb",
@@ -4775,6 +5679,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:deuxieme-rang:adjective",
+    "word": "deuxième",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:devant:preposition",
     "word": "devant",
     "emoji": "🚪",
@@ -4820,6 +5732,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:devoir-maison:noun",
+    "word": "devoir",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:devoir:verb",
     "word": "devoir",
     "emoji": "💸",
@@ -4853,6 +5773,14 @@
     "form": "noun",
     "theme": "philosophy",
     "domain": "general, exam"
+  },
+  {
+    "id": "fr:dictionnaire-livre:noun",
+    "word": "dictionnaire",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
   },
   {
     "id": "fr:different:adjective",
@@ -4903,13 +5831,21 @@
     "id": "fr:diner:verb",
     "word": "dîner",
     "emoji": "🍽️",
-    "level": "A0",
+    "level": "A1",
     "form": "verb",
     "theme": "food",
     "domain": "general",
     "tags": [
       "spoken"
     ]
+  },
+  {
+    "id": "fr:diplome-fin:noun",
+    "word": "diplôme",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
   },
   {
     "id": "fr:dire-du-bien-de:phrase",
@@ -4963,6 +5899,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "travel",
+    "domain": "general"
+  },
+  {
+    "id": "fr:directrice-ecole:noun",
+    "word": "directrice",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -5047,9 +5991,17 @@
     "domain": "general"
   },
   {
+    "id": "fr:docteur-soignant:noun",
+    "word": "docteur soignant",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
     "id": "fr:document:noun",
     "word": "document",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
     "domain": "general"
@@ -5058,7 +6010,7 @@
     "id": "fr:doigt:noun",
     "word": "doigt",
     "emoji": "👆",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
     "domain": "general"
@@ -5070,6 +6022,14 @@
     "level": "A2",
     "form": "adverb",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:donner-a-manger:phrase",
+    "word": "donner à manger",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -5118,6 +6078,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:dont:pronoun",
+    "word": "dont",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:dore:adjective",
     "word": "doré",
     "emoji": "🪙",
@@ -5131,6 +6099,14 @@
     "word": "dormir à poings fermés",
     "emoji": "💬",
     "level": "A2",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:dormir-bien:phrase",
+    "word": "dormir bien",
+    "level": "A1",
     "form": "phrase",
     "theme": "general",
     "domain": "general"
@@ -5181,6 +6157,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:douleur-tete:noun",
+    "word": "douleur de tête",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
     "id": "fr:douleur:noun",
     "word": "douleur",
     "emoji": "🤕",
@@ -5202,7 +6186,7 @@
     "id": "fr:doux:adjective",
     "word": "doux",
     "emoji": "🧸",
-    "level": "A0",
+    "level": "A1",
     "form": "adjective",
     "theme": "descriptors",
     "domain": "general"
@@ -5235,6 +6219,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:droite:noun",
+    "word": "droite",
+    "level": "A0",
+    "form": "noun",
+    "theme": "navigation",
+    "domain": "general"
+  },
+  {
     "id": "fr:drole:adjective",
     "word": "drôle",
     "emoji": "😂",
@@ -5247,7 +6239,7 @@
     "id": "fr:du-coup:idiom",
     "word": "du coup",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5267,6 +6259,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:duquel:pronoun",
+    "word": "duquel",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -5315,6 +6315,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:echarpe-soie:noun",
+    "word": "écharpe en soie",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:echarpe:noun",
     "word": "écharpe",
     "emoji": "🧣",
@@ -5339,6 +6347,14 @@
     "level": "A2",
     "form": "verb",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:eclair-orage:noun",
+    "word": "éclair d'orage",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
     "domain": "general"
   },
   {
@@ -5378,12 +6394,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:ecouter-bien:phrase",
+    "word": "écouter bien",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:ecouter-de-la-musique:phrase",
     "word": "écouter de la musique",
     "emoji": "🎧",
     "level": "A0",
     "form": "phrase",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:ecouter-la-radio:phrase",
+    "word": "écouter la radio",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -5420,6 +6452,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:ecrire-mot:phrase",
+    "word": "écrire un mot",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -5498,7 +6538,7 @@
     "id": "fr:eglise:noun",
     "word": "église",
     "emoji": "⛪",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
     "domain": "general"
@@ -5534,7 +6574,7 @@
     "id": "fr:elephant:noun",
     "word": "éléphant",
     "emoji": "🐘",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "animals",
     "domain": "general"
@@ -5568,10 +6608,10 @@
   {
     "id": "fr:embarquement:noun",
     "word": "embarquement",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:embaucher:verb",
@@ -5592,11 +6632,43 @@
     "domain": "general, exam"
   },
   {
-    "id": "fr:employe:noun",
-    "word": "employé",
-    "level": "A0",
+    "id": "fr:emploi-temps:noun",
+    "word": "emploi du temps",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:employe-bureau:noun",
+    "word": "employé de bureau",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:employe:noun",
+    "word": "employé",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:emporter-repas:phrase",
+    "word": "emporter son repas",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:emporter-sac:phrase",
+    "word": "emporter son sac",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -5630,7 +6702,7 @@
     "id": "fr:en-bas:idiom",
     "word": "en bas",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5638,7 +6710,7 @@
     "id": "fr:en-bus:idiom",
     "word": "en bus",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5646,7 +6718,7 @@
     "id": "fr:en-ce-moment:idiom",
     "word": "en ce moment",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5654,7 +6726,7 @@
     "id": "fr:en-chantant:idiom",
     "word": "en chantant",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5671,7 +6743,7 @@
     "id": "fr:en-cours:idiom",
     "word": "en cours",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5679,7 +6751,7 @@
     "id": "fr:en-danger:idiom",
     "word": "en danger",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5687,7 +6759,7 @@
     "id": "fr:en-dessous-de:idiom",
     "word": "en dessous de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5695,7 +6767,7 @@
     "id": "fr:en-direct:idiom",
     "word": "en direct",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5703,7 +6775,7 @@
     "id": "fr:en-effet:idiom",
     "word": "en effet",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5711,7 +6783,7 @@
     "id": "fr:en-face-de:idiom",
     "word": "en face de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5719,7 +6791,7 @@
     "id": "fr:en-face:idiom",
     "word": "en face",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5754,7 +6826,7 @@
     "id": "fr:en-haut:idiom",
     "word": "en haut",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5762,7 +6834,7 @@
     "id": "fr:en-liberte:idiom",
     "word": "en liberté",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5779,7 +6851,7 @@
     "id": "fr:en-meme-temps:idiom",
     "word": "en même temps",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5787,7 +6859,7 @@
     "id": "fr:en-paix:idiom",
     "word": "en paix",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5795,7 +6867,7 @@
     "id": "fr:en-panne:idiom",
     "word": "en panne",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5803,7 +6875,7 @@
     "id": "fr:en-plus:idiom",
     "word": "en plus",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5811,7 +6883,7 @@
     "id": "fr:en-securite:idiom",
     "word": "en sécurité",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5819,7 +6891,7 @@
     "id": "fr:en-silence:idiom",
     "word": "en silence",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5827,7 +6899,7 @@
     "id": "fr:en-solde:idiom",
     "word": "en solde",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5844,7 +6916,7 @@
     "id": "fr:en-tout-cas:idiom",
     "word": "en tout cas",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5852,7 +6924,7 @@
     "id": "fr:en-train-de:idiom",
     "word": "en train de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5860,7 +6932,7 @@
     "id": "fr:en-train:idiom",
     "word": "en train",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5868,7 +6940,7 @@
     "id": "fr:en-vacances:idiom",
     "word": "en vacances",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5876,7 +6948,7 @@
     "id": "fr:en-ville:idiom",
     "word": "en ville",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5884,7 +6956,7 @@
     "id": "fr:en-voiture:idiom",
     "word": "en voiture",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -5900,7 +6972,7 @@
   {
     "id": "fr:en:pronoun",
     "word": "en",
-    "level": "A0",
+    "level": "A1",
     "form": "pronoun",
     "theme": "grammar",
     "domain": "general"
@@ -5980,10 +7052,10 @@
   {
     "id": "fr:enregistrement:noun",
     "word": "enregistrement",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:enregistrer:verb",
@@ -6060,10 +7132,10 @@
   {
     "id": "fr:entree-restaurant:noun",
     "word": "entrée",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:entree:noun",
@@ -6075,12 +7147,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:entreprise-mod:noun",
+    "word": "entreprise moderne",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:entreprise:noun",
     "word": "entreprise",
     "emoji": "🏢",
     "level": "A2",
     "form": "noun",
     "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:entrer-maison:phrase",
+    "word": "entrer dans la maison",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:entrer-vite:phrase",
+    "word": "entrer vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -6122,7 +7218,7 @@
   {
     "id": "fr:enveloppe:noun",
     "word": "enveloppe",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
     "domain": "general"
@@ -6167,7 +7263,7 @@
     "id": "fr:epaule:noun",
     "word": "épaule",
     "emoji": "🤷",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
     "domain": "general"
@@ -6243,6 +7339,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:escalier-bois:noun",
+    "word": "escalier en bois",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:escalier:noun",
     "word": "escalier",
     "emoji": "🪜",
@@ -6297,6 +7401,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:est-cardinal:noun",
+    "word": "est",
+    "level": "A0",
+    "form": "noun",
+    "theme": "navigation",
+    "domain": "general"
+  },
+  {
     "id": "fr:est:noun",
     "word": "est",
     "emoji": "🧭",
@@ -6309,9 +7421,17 @@
     "id": "fr:estomac:noun",
     "word": "estomac",
     "emoji": "🫄",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:et:conjunction",
+    "word": "et",
+    "level": "A0",
+    "form": "conjunction",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -6328,6 +7448,14 @@
     "word": "étage",
     "emoji": "📶",
     "level": "A0",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:etagere-murale:noun",
+    "word": "étagère murale",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -6453,7 +7581,7 @@
     "id": "fr:etre-desole:idiom",
     "word": "être désolé",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6461,7 +7589,7 @@
     "id": "fr:etre-en-avance:idiom",
     "word": "être en avance",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6469,7 +7597,7 @@
     "id": "fr:etre-en-forme:idiom",
     "word": "être en forme",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6495,7 +7623,7 @@
     "id": "fr:etre-occupe:idiom",
     "word": "être occupé",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6503,7 +7631,7 @@
     "id": "fr:etre-pret:idiom",
     "word": "être prêt",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6511,7 +7639,7 @@
     "id": "fr:etre-surpris:idiom",
     "word": "être surpris",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6552,6 +7680,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:etudier-beaucoup:phrase",
+    "word": "étudier beaucoup",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:etudier:verb",
     "word": "étudier",
     "emoji": "📚",
@@ -6563,10 +7699,10 @@
   {
     "id": "fr:euro:noun",
     "word": "euro",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "shopping",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:eux:pronoun",
@@ -6597,9 +7733,17 @@
   {
     "id": "fr:exact:adjective",
     "word": "exact",
-    "level": "A0",
+    "level": "A1",
     "form": "adjective",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:examen-ecole:noun",
+    "word": "examen",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -6722,7 +7866,7 @@
   {
     "id": "fr:facteur:noun",
     "word": "facteur",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
     "domain": "general"
@@ -6749,7 +7893,7 @@
     "id": "fr:faible:adjective",
     "word": "faible",
     "emoji": "🪶",
-    "level": "A0",
+    "level": "A1",
     "form": "adjective",
     "theme": "descriptors",
     "domain": "general"
@@ -6767,7 +7911,7 @@
     "id": "fr:faire-attention:idiom",
     "word": "faire attention",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6790,12 +7934,44 @@
     "domain": "general"
   },
   {
+    "id": "fr:faire-de-la-gym:phrase",
+    "word": "faire de la gym",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-de-la-marche:phrase",
+    "word": "faire de la marche",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:faire-de-la-peine:phrase",
     "word": "faire de la peine",
     "emoji": "💬",
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-de-la-peinture:phrase",
+    "word": "faire de la peinture",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-de-la-plongee:phrase",
+    "word": "faire de la plongée",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -6808,6 +7984,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:faire-de-la-voile:phrase",
+    "word": "faire de la voile",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:faire-de-son-mieux:phrase",
     "word": "faire de son mieux",
     "emoji": "💬",
@@ -6817,11 +8001,51 @@
     "domain": "general"
   },
   {
+    "id": "fr:faire-des-achats:phrase",
+    "word": "faire des achats",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-du-camping:phrase",
+    "word": "faire du camping",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-du-shopping:phrase",
+    "word": "faire du shopping",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-du-ski:phrase",
+    "word": "faire du ski",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:faire-du-sport:idiom",
     "word": "faire du sport",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-du-velo:phrase",
+    "word": "faire du vélo",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -6831,6 +8055,14 @@
     "level": "A2",
     "form": "verb",
     "theme": "leisure",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-du-yoga:phrase",
+    "word": "faire du yoga",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -6855,7 +8087,7 @@
     "id": "fr:faire-la-connaissance-de:idiom",
     "word": "faire la connaissance de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6863,15 +8095,23 @@
     "id": "fr:faire-la-cuisine:idiom",
     "word": "faire la cuisine",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-la-fete-1:phrase",
+    "word": "faire la fête",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
     "id": "fr:faire-la-fete:idiom",
     "word": "faire la fête",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6888,8 +8128,16 @@
     "id": "fr:faire-la-queue:idiom",
     "word": "faire la queue",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-la-sieste:phrase",
+    "word": "faire la sieste",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -6905,7 +8153,7 @@
     "id": "fr:faire-la-vaisselle:idiom",
     "word": "faire la vaisselle",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6922,7 +8170,7 @@
     "id": "fr:faire-le-menage:idiom",
     "word": "faire le ménage",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -6948,17 +8196,8 @@
     "id": "fr:faire-les-courses:idiom",
     "word": "faire les courses",
     "level": "A0",
-    "form": "idiom",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
-    "id": "fr:faire-les-courses:phrase",
-    "word": "faire les courses",
-    "emoji": "🛒",
-    "level": "A0",
     "form": "phrase",
-    "theme": "actions",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -7049,6 +8288,22 @@
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-un-pique-nique:phrase",
+    "word": "faire un pique-nique",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:faire-un-tour:phrase",
+    "word": "faire un tour",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -7223,6 +8478,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:fenetre-double:noun",
+    "word": "fenêtre double vitrage",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:fenetre:noun",
     "word": "fenêtre",
     "emoji": "🪟",
@@ -7235,7 +8498,7 @@
     "id": "fr:ferme:adjective",
     "word": "fermé",
     "emoji": "🔒",
-    "level": "A0",
+    "level": "A1",
     "form": "adjective",
     "theme": "descriptors",
     "domain": "general"
@@ -7262,7 +8525,7 @@
     "id": "fr:fermer:verb",
     "word": "fermer",
     "emoji": "🔒",
-    "level": "A0",
+    "level": "A1",
     "form": "verb",
     "theme": "actions",
     "domain": "general"
@@ -7301,6 +8564,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:fêter-un-anniversaire:phrase",
+    "word": "fêter un anniversaire",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -7385,12 +8656,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:fievre-forte:noun",
+    "word": "fièvre forte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
     "id": "fr:fievre:noun",
     "word": "fièvre",
     "emoji": "🌡️",
     "level": "A2",
     "form": "noun",
     "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:fille-aînee:noun",
+    "word": "fille aînée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -7418,6 +8705,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:fils-aîne:noun",
+    "word": "fils aîné",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -7457,6 +8752,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:fleur-champ:noun",
+    "word": "fleur des champs",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:fleur:noun",
     "word": "fleur",
     "emoji": "🌸",
@@ -7468,9 +8771,17 @@
   {
     "id": "fr:fleuriste:noun",
     "word": "fleuriste",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:fleuve-tr:noun",
+    "word": "fleuve tranquille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
     "domain": "general"
   },
   {
@@ -7510,10 +8821,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:foret-pins:noun",
+    "word": "forêt de pins",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:foret:noun",
     "word": "forêt",
     "emoji": "🌲",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
     "domain": "general"
@@ -7530,10 +8849,10 @@
   {
     "id": "fr:formulaire:noun",
     "word": "formulaire",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:fort-a2:adjective",
@@ -7575,7 +8894,7 @@
     "id": "fr:fourchette:noun",
     "word": "fourchette",
     "emoji": "🍴",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -7644,6 +8963,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:frere-cadet:noun",
+    "word": "frère cadet",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
     "id": "fr:frere:noun",
     "word": "frère",
     "emoji": "👦",
@@ -7671,6 +8998,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:froid-hiver:noun",
+    "word": "froid d'hiver",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:froid:adjective",
     "word": "froid",
     "emoji": "❄️",
@@ -7686,6 +9021,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:fromage-frais:noun",
+    "word": "fromage frais",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -7734,6 +9077,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:gagner-argent:phrase",
+    "word": "gagner de l'argent",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:gagner:verb",
     "word": "gagner",
     "emoji": "🏆",
@@ -7747,6 +9098,14 @@
     "word": "gant",
     "emoji": "🧤",
     "level": "A0",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:gants-cuir-p:noun",
+    "word": "gants en cuir",
+    "level": "A1",
     "form": "noun",
     "theme": "clothing",
     "domain": "general"
@@ -7775,6 +9134,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "family",
+    "domain": "general"
+  },
+  {
+    "id": "fr:garder-des-enfants:phrase",
+    "word": "garder des enfants",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -7889,7 +9256,7 @@
     "id": "fr:genou:noun",
     "word": "genou",
     "emoji": "🦵",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
     "domain": "general"
@@ -7897,7 +9264,7 @@
   {
     "id": "fr:gens:noun",
     "word": "gens",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "family",
     "domain": "general, spoken"
@@ -7948,6 +9315,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:gomme-ecole:noun",
+    "word": "gomme",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:gout:noun",
     "word": "goût",
     "emoji": "😋",
@@ -7978,7 +9353,7 @@
     "id": "fr:grace-a:idiom",
     "word": "grâce à",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -8001,10 +9376,26 @@
     "domain": "general"
   },
   {
+    "id": "fr:grand-mere-maternelle:noun",
+    "word": "grand-mère maternelle",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
     "id": "fr:grand-mere:noun",
     "word": "grand-mère",
     "emoji": "👵",
     "level": "A0",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
+    "id": "fr:grand-pere-paternel:noun",
+    "word": "grand-père paternel",
+    "level": "A1",
     "form": "noun",
     "theme": "family",
     "domain": "general"
@@ -8016,6 +9407,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "family",
+    "domain": "general"
+  },
+  {
+    "id": "fr:grand-taille-haut:adjective",
+    "word": "de grande taille",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -8073,6 +9472,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:gris-clair:adjective",
+    "word": "gris clair",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:gris:adjective",
     "word": "gris",
     "emoji": "🩶",
@@ -8111,10 +9518,10 @@
   {
     "id": "fr:guichet:noun",
     "word": "guichet",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:guide:noun",
@@ -8144,9 +9551,17 @@
     "domain": "general"
   },
   {
+    "id": "fr:gymnase-ecole:noun",
+    "word": "gymnase",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:habitant:noun",
     "word": "habitant",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
     "domain": "general"
@@ -8218,7 +9633,7 @@
     "id": "fr:herbe:noun",
     "word": "herbe",
     "emoji": "🌿",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
     "domain": "general"
@@ -8230,6 +9645,14 @@
     "form": "noun",
     "theme": "philosophy",
     "domain": "general, exam"
+  },
+  {
+    "id": "fr:heure-temps:noun",
+    "word": "heure du jour",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
   },
   {
     "id": "fr:heure:noun",
@@ -8259,18 +9682,10 @@
     "domain": "general"
   },
   {
-    "id": "fr:hier-adverb:adverb",
-    "word": "hier",
-    "level": "A0",
-    "form": "adverb",
-    "theme": "time",
-    "domain": "general, spoken"
-  },
-  {
     "id": "fr:hier-soir:idiom",
     "word": "hier soir",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -8338,6 +9753,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:hopital-general:noun",
+    "word": "hôpital général",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
     "id": "fr:hopital:noun",
     "word": "hôpital",
     "emoji": "🏥",
@@ -8351,6 +9774,14 @@
     "word": "horaire",
     "emoji": "📅",
     "level": "A2",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:horloge-murale:noun",
+    "word": "horloge murale",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -8374,10 +9805,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:huile-olive:noun",
+    "word": "huile d'olive",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:huile:noun",
     "word": "huile",
     "emoji": "🫒",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -8389,6 +9828,14 @@
     "level": "A0",
     "form": "number",
     "theme": "numbers",
+    "domain": "general"
+  },
+  {
+    "id": "fr:huitante-num:number",
+    "word": "huitante",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -8452,6 +9899,14 @@
     "level": "A0",
     "form": "pronoun",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:ile-deserte:noun",
+    "word": "île déserte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
     "domain": "general"
   },
   {
@@ -8544,6 +9999,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:imprimante-bureau:noun",
+    "word": "imprimante",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
     "id": "fr:imprimante-papier:noun",
     "word": "imprimante papier",
     "emoji": "🖨️",
@@ -8619,7 +10082,7 @@
     "id": "fr:infirmier-1:noun",
     "word": "infirmier",
     "emoji": "🧑‍⚕️",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
     "domain": "general"
@@ -8655,7 +10118,7 @@
     "id": "fr:ingenieur:noun",
     "word": "ingénieur",
     "emoji": "👷",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
     "domain": "general"
@@ -8694,6 +10157,14 @@
     "level": "B1",
     "form": "noun",
     "theme": "emotions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:instant-court:noun",
+    "word": "instant court",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
     "domain": "general"
   },
   {
@@ -8742,6 +10213,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:internet-web:noun",
+    "word": "internet",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
     "id": "fr:internet:noun",
     "word": "internet",
     "emoji": "🌐",
@@ -8780,7 +10259,7 @@
   {
     "id": "fr:invitation:noun",
     "word": "invitation",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
     "domain": "general, spoken"
@@ -8801,6 +10280,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "family",
+    "domain": "general"
+  },
+  {
+    "id": "fr:inviter-des-amis:phrase",
+    "word": "inviter des amis",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -8903,12 +10390,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:jardin-fleurs:noun",
+    "word": "jardin fleuri",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:jardin:noun",
     "word": "jardin",
     "emoji": "🏡",
     "level": "A0",
     "form": "noun",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jardiner:/ʒaʁ.di.ne/",
+    "word": "jardiner",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jaune-vif:adjective",
+    "word": "jaune vif",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -8942,7 +10453,7 @@
     "level": "A0",
     "form": "phrase",
     "theme": "communication",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:je:pronoun",
@@ -9044,6 +10555,62 @@
     "domain": "general"
   },
   {
+    "id": "fr:jouer-a-un-jeu:phrase",
+    "word": "jouer à un jeu",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jouer-au-foot:phrase",
+    "word": "jouer au football",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jouer-au-tennis:phrase",
+    "word": "jouer au tennis",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jouer-aux-echecs:phrase",
+    "word": "jouer aux échecs",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jouer-de-la-guitare:phrase",
+    "word": "jouer de la guitare",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jouer-dehors:phrase",
+    "word": "jouer dehors",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jouer-du-piano:phrase",
+    "word": "jouer du piano",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:jouer:verb",
     "word": "jouer",
     "emoji": "🎮",
@@ -9073,7 +10640,7 @@
   {
     "id": "fr:journal:noun",
     "word": "journal",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
     "domain": "general"
@@ -9081,9 +10648,17 @@
   {
     "id": "fr:journaliste:noun",
     "word": "journaliste",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:journee-travail:noun",
+    "word": "journée de travail",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
     "domain": "general"
   },
   {
@@ -9122,12 +10697,44 @@
     "domain": "general"
   },
   {
+    "id": "fr:jupe-courte:noun",
+    "word": "jupe courte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:jupe:noun",
     "word": "jupe",
     "emoji": "🥻",
     "level": "A0",
     "form": "noun",
     "theme": "clothing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jus-de-citron:noun",
+    "word": "jus de citron",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jus-de-pomme:noun",
+    "word": "jus de pomme",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
+    "id": "fr:jus-de-raisin:noun",
+    "word": "jus de raisin",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -9192,6 +10799,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:lac-montagne:noun",
+    "word": "lac de montagne",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:lac:noun",
     "word": "lac",
     "emoji": "🏞️",
@@ -9219,6 +10834,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:lait-frais:noun",
+    "word": "lait frais",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:lait:noun",
     "word": "lait",
     "emoji": "🥛",
@@ -9240,7 +10863,7 @@
     "id": "fr:lampe:noun",
     "word": "lampe",
     "emoji": "💡",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -9255,12 +10878,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:lapin-champs:noun",
+    "word": "lapin des champs",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:lapin:noun",
     "word": "lapin",
     "emoji": "🐰",
     "level": "A0",
     "form": "noun",
     "theme": "animals",
+    "domain": "general"
+  },
+  {
+    "id": "fr:laquelle:pronoun",
+    "word": "laquelle",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -9309,6 +10948,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:lecon:noun",
+    "word": "leçon",
+    "level": "A0",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:leger:adjective",
     "word": "léger",
     "emoji": "🪶",
@@ -9354,11 +11001,43 @@
     "domain": "general"
   },
   {
+    "id": "fr:lesquelles:pronoun",
+    "word": "lesquelles",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:lesquels:pronoun",
+    "word": "lesquels",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:lettre:noun",
     "word": "lettre",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:leur-det:determiner",
+    "word": "leur",
+    "level": "A0",
+    "form": "determiner",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:leur-p:pronoun",
+    "word": "leur",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -9452,6 +11131,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:lire-journal:phrase",
+    "word": "lire le journal quotidien",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:lire-un-livre:phrase",
     "word": "lire un livre",
     "emoji": "📖",
@@ -9488,6 +11175,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:lit-une-place:noun",
+    "word": "lit simple",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:lit:noun",
     "word": "lit",
     "emoji": "🛏️",
@@ -9512,6 +11207,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:livre-ecole:noun",
+    "word": "livre scolaire",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -9653,7 +11356,7 @@
     "id": "fr:lourd:adjective",
     "word": "lourd",
     "emoji": "🏋️",
-    "level": "A0",
+    "level": "A1",
     "form": "adjective",
     "theme": "descriptors",
     "domain": "general"
@@ -9697,7 +11400,7 @@
     "id": "fr:lune:noun",
     "word": "lune",
     "emoji": "🌙",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "weather",
     "domain": "general"
@@ -9705,10 +11408,18 @@
   {
     "id": "fr:lunettes-de-soleil:noun",
     "word": "lunettes de soleil",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "objects",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:lunettes-vue:noun",
+    "word": "lunettes de vue",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
   },
   {
     "id": "fr:lunettes:noun",
@@ -9765,12 +11476,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:magazine-lire:noun",
+    "word": "magazine",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
+  },
+  {
     "id": "fr:mai:noun",
     "word": "mai",
     "emoji": "🗓️",
     "level": "A0",
     "form": "noun",
     "theme": "time",
+    "domain": "general"
+  },
+  {
+    "id": "fr:maillot-bain-1:noun",
+    "word": "maillot de bain une pièce",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
     "domain": "general"
   },
   {
@@ -9810,6 +11537,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:maison-habitation:noun",
+    "word": "maison individuelle",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:maison:noun",
     "word": "maison",
     "emoji": "🏠",
@@ -9830,7 +11565,7 @@
   {
     "id": "fr:mal:adverb",
     "word": "mal",
-    "level": "A0",
+    "level": "A1",
     "form": "adverb",
     "theme": "descriptors",
     "domain": "general, spoken"
@@ -9851,6 +11586,14 @@
     "level": "A0",
     "form": "adjective",
     "theme": "emotions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:maladie-grave:noun",
+    "word": "maladie grave",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
     "domain": "general"
   },
   {
@@ -9878,6 +11621,22 @@
     "level": "A2",
     "form": "adjective",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:manger-au-restaurant:phrase",
+    "word": "manger au restaurant",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:manger-sain:phrase",
+    "word": "manger sainement",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -9917,6 +11676,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:manteau-hiver:noun",
+    "word": "manteau d'hiver",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:manteau:noun",
     "word": "manteau",
     "emoji": "🧥",
@@ -9944,6 +11711,30 @@
     "domain": "general"
   },
   {
+    "id": "fr:marcher-en-foret:phrase",
+    "word": "marcher en forêt",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:marcher-rue:phrase",
+    "word": "marcher dans la rue",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:marcher-vite:phrase",
+    "word": "marcher vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:marcher:verb",
     "word": "marcher",
     "emoji": "🚶",
@@ -9959,6 +11750,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "time",
+    "domain": "general"
+  },
+  {
+    "id": "fr:mari-epoux:noun",
+    "word": "époux",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -10034,6 +11833,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:matin-tot:noun",
+    "word": "matin tôt",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
     "id": "fr:matin:noun",
     "word": "matin",
     "emoji": "🌅",
@@ -10049,6 +11856,14 @@
     "level": "A0",
     "form": "adjective",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:matinee-calme:noun",
+    "word": "matinée calme",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
     "domain": "general"
   },
   {
@@ -10070,12 +11885,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:medecin-famille:noun",
+    "word": "médecin de famille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
     "id": "fr:medecin:noun",
     "word": "médecin",
     "emoji": "🩺",
     "level": "A0",
     "form": "noun",
     "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:medicament-sirop:noun",
+    "word": "médicament en sirop",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
     "domain": "general"
   },
   {
@@ -10103,6 +11934,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:meme-p:pronoun",
+    "word": "même",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -10135,10 +11974,18 @@
   {
     "id": "fr:menu:noun",
     "word": "menu",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:mer-bleue:noun",
+    "word": "mer bleue",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
   },
   {
     "id": "fr:mer:noun",
@@ -10165,6 +12012,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "time",
+    "domain": "general"
+  },
+  {
+    "id": "fr:mere-famille:noun",
+    "word": "mère de famille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -10222,12 +12077,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:metal-solide:noun",
+    "word": "métal solide",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
+    "domain": "general"
+  },
+  {
+    "id": "fr:meteo-jour:noun",
+    "word": "météo du jour",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:meteo:noun",
     "word": "météo",
     "emoji": "🌤️",
     "level": "A0",
     "form": "noun",
     "theme": "weather",
+    "domain": "general"
+  },
+  {
+    "id": "fr:metier-avenir:noun",
+    "word": "métier d'avenir",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
     "domain": "general"
   },
   {
@@ -10339,12 +12218,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:miel-fleurs:noun",
+    "word": "miel de fleurs",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:miel:noun",
     "word": "miel",
     "emoji": "🍯",
     "level": "A0",
     "form": "noun",
     "theme": "food",
+    "domain": "general"
+  },
+  {
+    "id": "fr:mien:pronoun",
+    "word": "mien",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:mienne:pronoun",
+    "word": "mienne",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -10359,9 +12262,17 @@
   {
     "id": "fr:mille:number",
     "word": "mille",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
+    "domain": "general"
+  },
+  {
+    "id": "fr:milliard-num:number",
+    "word": "milliard",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -10378,6 +12289,14 @@
     "word": "minuit",
     "emoji": "🕛",
     "level": "A0",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
+    "id": "fr:minute-temps:noun",
+    "word": "minute de temps",
+    "level": "A1",
     "form": "noun",
     "theme": "time",
     "domain": "general"
@@ -10472,6 +12391,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:moment-present:noun",
+    "word": "moment présent",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
     "id": "fr:mon:pronoun",
     "word": "mon",
     "emoji": "👤",
@@ -10499,6 +12426,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:montagne-neige:noun",
+    "word": "montagne enneigée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:montagne:noun",
     "word": "montagne",
     "emoji": "⛰️",
@@ -10508,10 +12443,26 @@
     "domain": "general"
   },
   {
+    "id": "fr:monter-etage:phrase",
+    "word": "monter à l'étage",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:monter-la-garde:phrase",
     "word": "monter la garde",
     "emoji": "💬",
     "level": "A2",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:monter-vite:phrase",
+    "word": "monter vite",
+    "level": "A1",
     "form": "phrase",
     "theme": "general",
     "domain": "general"
@@ -10535,6 +12486,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:montre-poignet:noun",
+    "word": "montre",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
+  },
+  {
     "id": "fr:montre:noun",
     "word": "montre",
     "emoji": "⌚",
@@ -10550,6 +12509,22 @@
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:montrer-carte:phrase",
+    "word": "montrer sa carte",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:montrer-chemin:phrase",
+    "word": "montrer le chemin",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -10604,6 +12579,14 @@
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:mot-de-passe-sec:noun",
+    "word": "mot de passe",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
     "domain": "general"
   },
   {
@@ -10670,6 +12653,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:mouton-laine:noun",
+    "word": "mouton à laine",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:mouton:noun",
     "word": "mouton",
     "emoji": "🐑",
@@ -10700,7 +12691,7 @@
     "id": "fr:musee:noun",
     "word": "musée",
     "emoji": "🏛️",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
     "domain": "general"
@@ -10748,6 +12739,22 @@
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:nager-bien:phrase",
+    "word": "nager bien",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:nager:/na.ʒe/",
+    "word": "nager",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -10810,7 +12817,7 @@
     "level": "A0",
     "form": "noun",
     "theme": "geography",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:naturel:adjective",
@@ -10825,7 +12832,7 @@
     "id": "fr:navire:noun",
     "word": "navire",
     "emoji": "🚢",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
     "domain": "general"
@@ -10884,6 +12891,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:neige-blanche:noun",
+    "word": "neige blanche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:neige:noun",
     "word": "neige",
     "emoji": "❄️",
@@ -10938,6 +12953,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:neveu-famille:noun",
+    "word": "neveu adoré",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
     "id": "fr:new-york:noun",
     "word": "New York",
     "emoji": "✨",
@@ -10953,6 +12976,22 @@
     "level": "A0",
     "form": "noun",
     "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:niece-famille:noun",
+    "word": "nièce adorée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
+    "id": "fr:noir-profond:adjective",
+    "word": "noir profond",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -11001,6 +13040,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:nonante-num:number",
+    "word": "nonante",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:nord:noun",
     "word": "nord",
     "emoji": "🧭",
@@ -11025,6 +13072,22 @@
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:note-scolaire:noun",
+    "word": "note",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
+    "id": "fr:notre-p:pronoun",
+    "word": "nôtre",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -11106,10 +13169,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:nuage-gris:noun",
+    "word": "nuage gris",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:nuage:noun",
     "word": "nuage",
     "emoji": "☁️",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "weather",
     "domain": "general"
@@ -11121,6 +13192,14 @@
     "level": "A2",
     "form": "adjective",
     "theme": "weather",
+    "domain": "general"
+  },
+  {
+    "id": "fr:nuit-noire:noun",
+    "word": "nuit noire",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
     "domain": "general"
   },
   {
@@ -11169,6 +13248,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:ocean-pacifique:noun",
+    "word": "océan pacifique",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:octobre:noun",
     "word": "octobre",
     "emoji": "🗓️",
@@ -11200,6 +13287,14 @@
     "word": "oeuf",
     "emoji": "🥚",
     "level": "A0",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
+    "id": "fr:oeuf-frais:noun",
+    "word": "œuf frais",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -11259,12 +13354,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:oiseau-jardin:noun",
+    "word": "oiseau du jardin",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:oiseau:noun",
     "word": "oiseau",
     "emoji": "🐦",
     "level": "A0",
     "form": "noun",
     "theme": "animals",
+    "domain": "general"
+  },
+  {
+    "id": "fr:oncle-famille:noun",
+    "word": "oncle proche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -11355,6 +13466,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:ordonnance-doc:noun",
+    "word": "ordonnance médicale",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
     "domain": "general"
   },
   {
@@ -11451,7 +13570,7 @@
     "id": "fr:ours:noun",
     "word": "ours",
     "emoji": "🐻",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "animals",
     "domain": "general"
@@ -11502,6 +13621,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:page-livre:noun",
+    "word": "page",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:paiement:noun",
     "word": "paiement",
     "emoji": "💳",
@@ -11511,10 +13638,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:pain-de-mie:noun",
+    "word": "pain de mie",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:pain:noun",
     "word": "pain",
     "emoji": "🍞",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
     "domain": "general"
@@ -11535,6 +13670,22 @@
     "level": "A0",
     "form": "noun",
     "theme": "shopping",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pansement-plaie:noun",
+    "word": "pansement pour plaie",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pantalon-jean:noun",
+    "word": "pantalon en jean",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
     "domain": "general"
   },
   {
@@ -11565,10 +13716,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:paquet-poste:noun",
+    "word": "paquet",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
+  },
+  {
     "id": "fr:par-contre:idiom",
     "word": "par contre",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -11585,7 +13744,7 @@
     "id": "fr:par-terre:idiom",
     "word": "par terre",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -11614,6 +13773,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "travel",
+    "domain": "general"
+  },
+  {
+    "id": "fr:parce-que:conjunction",
+    "word": "parce que",
+    "level": "A0",
+    "form": "conjunction",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -11716,6 +13883,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:parler-fort:phrase",
+    "word": "parler fort",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:parler-francais:phrase",
     "word": "parler français",
     "emoji": "🗣️",
@@ -11739,7 +13914,7 @@
     "level": "A0",
     "form": "phrase",
     "theme": "communication",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:partager:verb",
@@ -11757,6 +13932,22 @@
     "level": "A0",
     "form": "phrase",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:partir-tot:phrase",
+    "word": "partir tôt",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:partir-vacances:phrase",
+    "word": "partir en vacances",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -11815,10 +14006,18 @@
   {
     "id": "fr:passager:noun",
     "word": "passager",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:passe-historique:noun",
+    "word": "passé historique",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
   },
   {
     "id": "fr:passe-temps:noun",
@@ -11842,7 +14041,7 @@
     "id": "fr:passer-du-temps:idiom",
     "word": "passer du temps",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -11859,7 +14058,7 @@
     "id": "fr:passer-un-examen:idiom",
     "word": "passer un examen",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -11900,6 +14099,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:pates-fraiches:noun",
+    "word": "pâtes fraîches",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:pates:noun",
     "word": "pâtes",
     "emoji": "🍝",
@@ -11918,12 +14125,36 @@
     "domain": "general"
   },
   {
+    "id": "fr:patiner:/pa.ti.ne/",
+    "word": "patiner",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:patron-boite:noun",
+    "word": "patron d'entreprise",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:patron:noun",
     "word": "patron",
     "emoji": "👨‍💼",
     "level": "A2",
     "form": "noun",
     "theme": "work",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pause-recreation:noun",
+    "word": "pause",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -11951,6 +14182,14 @@
     "level": "A0",
     "form": "adjective",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:payer-comptant:phrase",
+    "word": "payer comptant",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -12011,9 +14250,25 @@
     "id": "fr:peau:noun",
     "word": "peau",
     "emoji": "✋",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pêcher:/pɛ.ʃe/",
+    "word": "pêcher",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pédaler:/pe.da.le/",
+    "word": "pédaler",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -12023,6 +14278,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "objects",
+    "domain": "general"
+  },
+  {
+    "id": "fr:peindre:/pɛ̃.dʁ/",
+    "word": "peindre",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -12143,12 +14406,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:perdre-temps:phrase",
+    "word": "perdre du temps",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:perdre:verb",
     "word": "perdre",
     "emoji": "❓",
     "level": "A2",
     "form": "verb",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pere-famille:noun",
+    "word": "père de famille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -12172,7 +14451,7 @@
   {
     "id": "fr:personne:noun",
     "word": "personne",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "family",
     "domain": "general"
@@ -12220,6 +14499,14 @@
     "level": "A0",
     "form": "adjective",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:petite-taille:adjective",
+    "word": "de petite taille",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -12279,7 +14566,7 @@
   {
     "id": "fr:photographe:noun",
     "word": "photographe",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
     "domain": "general"
@@ -12291,6 +14578,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "leisure",
+    "domain": "general"
+  },
+  {
+    "id": "fr:photographier:/fɔ.tɔ.ɡʁa.fje/",
+    "word": "photographier",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -12314,7 +14609,7 @@
   {
     "id": "fr:piece-de-monnaie:noun",
     "word": "pièce de monnaie",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "shopping",
     "domain": "general"
@@ -12350,16 +14645,24 @@
     "id": "fr:pierre:noun",
     "word": "pierre",
     "emoji": "🪨",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pile-electrique:noun",
+    "word": "pile",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
     "domain": "general"
   },
   {
     "id": "fr:pilote:noun",
     "word": "pilote",
     "emoji": "👨‍✈️",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
     "domain": "general"
@@ -12385,10 +14688,10 @@
   {
     "id": "fr:place-de-parking:noun",
     "word": "place de parking",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:place:noun",
@@ -12397,6 +14700,22 @@
     "level": "A2",
     "form": "noun",
     "theme": "navigation",
+    "domain": "general"
+  },
+  {
+    "id": "fr:plafond-haut:noun",
+    "word": "plafond haut",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:plage:noun",
+    "word": "plage",
+    "level": "A0",
+    "form": "noun",
+    "theme": "leisure",
     "domain": "general"
   },
   {
@@ -12427,12 +14746,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:plante-verte:noun",
+    "word": "plante verte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:plante:noun",
     "word": "plante",
     "emoji": "🪴",
     "level": "A2",
     "form": "noun",
     "theme": "nature",
+    "domain": "general"
+  },
+  {
+    "id": "fr:plastique-dure:noun",
+    "word": "plastique dur",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
     "domain": "general"
   },
   {
@@ -12447,18 +14782,18 @@
   {
     "id": "fr:plat-du-jour:noun",
     "word": "plat du jour",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:plat-principal:noun",
     "word": "plat principal",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:plein:adjective",
@@ -12488,6 +14823,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:pluie-fine:noun",
+    "word": "pluie fine",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:pluie:noun",
     "word": "pluie",
     "emoji": "🌧️",
@@ -12500,7 +14843,7 @@
     "id": "fr:plus-ou-moins:idiom",
     "word": "plus ou moins",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -12519,6 +14862,14 @@
     "emoji": "➕",
     "level": "A0",
     "form": "adverb",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:plusieurs-p:pronoun",
+    "word": "plusieurs",
+    "level": "A1",
+    "form": "pronoun",
     "theme": "grammar",
     "domain": "general"
   },
@@ -12577,12 +14928,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:poisson-frais:noun",
+    "word": "poisson frais",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:poisson:noun",
     "word": "poisson",
     "emoji": "🐟",
     "level": "A0",
     "form": "noun",
     "theme": "animals",
+    "domain": "general"
+  },
+  {
+    "id": "fr:poivre-noir:noun",
+    "word": "poivre noir",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -12721,9 +15088,17 @@
     "domain": "general"
   },
   {
+    "id": "fr:porte-entree:noun",
+    "word": "porte d'entrée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:porte-monnaie:noun",
     "word": "porte-monnaie",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "objects",
     "domain": "general"
@@ -12735,6 +15110,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:portefeuille-poche:noun",
+    "word": "portefeuille",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
     "domain": "general"
   },
   {
@@ -12813,17 +15196,8 @@
     "id": "fr:poser-une-question:idiom",
     "word": "poser une question",
     "level": "A0",
-    "form": "idiom",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
-    "id": "fr:poser-une-question:phrase",
-    "word": "poser une question",
-    "emoji": "❓",
-    "level": "A0",
     "form": "phrase",
-    "theme": "communication",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -12863,12 +15237,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:poule-pondeuse:noun",
+    "word": "poule pondeuse",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
+    "domain": "general"
+  },
+  {
     "id": "fr:poule:noun",
     "word": "poule",
     "emoji": "🐔",
     "level": "A0",
     "form": "noun",
     "theme": "animals",
+    "domain": "general"
+  },
+  {
+    "id": "fr:poulet-roti:noun",
+    "word": "poulet rôti",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -12884,7 +15274,7 @@
     "id": "fr:pour-l-instant:idiom",
     "word": "pour l'instant",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -12900,10 +15290,10 @@
   {
     "id": "fr:pourboire:noun",
     "word": "pourboire",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "food",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:pourquoi:pronoun",
@@ -12987,6 +15377,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:premier-rang:adjective",
+    "word": "premier",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:premierement:adverb",
     "word": "premièrement",
     "emoji": "1️⃣",
@@ -13002,6 +15400,14 @@
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:prendre-des-photos:phrase",
+    "word": "prendre des photos",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -13062,17 +15468,8 @@
     "id": "fr:prendre-le-bus:idiom",
     "word": "prendre le bus",
     "level": "A0",
-    "form": "idiom",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
-    "id": "fr:prendre-le-bus:phrase",
-    "word": "prendre le bus",
-    "emoji": "🚌",
-    "level": "A0",
     "form": "phrase",
-    "theme": "actions",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -13115,7 +15512,7 @@
     "id": "fr:prendre-son-temps:idiom",
     "word": "prendre son temps",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -13123,7 +15520,7 @@
     "id": "fr:prendre-un-bain:idiom",
     "word": "prendre un bain",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -13131,17 +15528,8 @@
     "id": "fr:prendre-un-cafe:idiom",
     "word": "prendre un café",
     "level": "A0",
-    "form": "idiom",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
-    "id": "fr:prendre-un-cafe:phrase",
-    "word": "prendre un café",
-    "emoji": "☕",
-    "level": "A0",
     "form": "phrase",
-    "theme": "actions",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -13166,7 +15554,7 @@
     "id": "fr:prendre-une-decision:idiom",
     "word": "prendre une décision",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -13174,17 +15562,8 @@
     "id": "fr:prendre-une-douche:idiom",
     "word": "prendre une douche",
     "level": "A0",
-    "form": "idiom",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
-    "id": "fr:prendre-une-douche:phrase",
-    "word": "prendre une douche",
-    "emoji": "🚿",
-    "level": "A0",
     "form": "phrase",
-    "theme": "actions",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -13220,6 +15599,22 @@
     "level": "A2",
     "form": "verb",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pres:preposition",
+    "word": "près",
+    "level": "A0",
+    "form": "preposition",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:present-actuel:noun",
+    "word": "présent actuel",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
     "domain": "general"
   },
   {
@@ -13430,6 +15825,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:projet-pro:noun",
+    "word": "projet professionnel",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:projet:noun",
     "word": "projet",
     "emoji": "📊",
@@ -13520,6 +15923,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:puis:adverb",
+    "word": "puis",
+    "level": "A0",
+    "form": "adverb",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:pull-laine:noun",
+    "word": "pull en laine",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:pull:noun",
     "word": "pull",
     "emoji": "🧶",
@@ -13580,6 +15999,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "measurement",
+    "domain": "general"
+  },
+  {
+    "id": "fr:quarante-num:number",
+    "word": "quarante",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -13655,6 +16082,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:quelqu-un:pronoun",
+    "word": "quelqu'un",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:quelque-chose:phrase",
+    "word": "quelque chose",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:quelquefois:adverb",
     "word": "quelquefois",
     "emoji": "⏱️",
@@ -13686,6 +16129,14 @@
     "word": "qui",
     "emoji": "❓",
     "level": "A0",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:quiconque:pronoun",
+    "word": "quiconque",
+    "level": "A1",
     "form": "pronoun",
     "theme": "grammar",
     "domain": "general"
@@ -13733,6 +16184,14 @@
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:radio-ecouter:noun",
+    "word": "radio",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
     "domain": "general"
   },
   {
@@ -13810,7 +16269,7 @@
     "id": "fr:rarement:idiom",
     "word": "rarement",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -13884,6 +16343,14 @@
     "level": "A2",
     "form": "verb",
     "theme": "descriptors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:recreation-ecole:noun",
+    "word": "récréation",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -13977,12 +16444,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:regarder-la-tele:phrase",
+    "word": "regarder la télévision",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:regarder-la-television:phrase",
     "word": "regarder la télévision",
     "emoji": "📺",
     "level": "A0",
     "form": "phrase",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:regarder-un-film:phrase",
+    "word": "regarder un film",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -14121,6 +16604,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:rencontrer-des-amis:phrase",
+    "word": "rencontrer des amis",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:rencontrer:verb",
     "word": "rencontrer",
     "emoji": "🤝",
@@ -14145,6 +16636,14 @@
     "level": "A2",
     "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:rentree-scolaire:noun",
+    "word": "rentrée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -14212,6 +16711,14 @@
     "tags": [
       "spoken"
     ]
+  },
+  {
+    "id": "fr:reposer-un-peu:phrase",
+    "word": "se reposer un peu",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
   },
   {
     "id": "fr:reprendre-son-souffle:phrase",
@@ -14367,6 +16874,30 @@
     "domain": "general"
   },
   {
+    "id": "fr:retourner-chez-soi:phrase",
+    "word": "retourner chez soi",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:retourner-vite:phrase",
+    "word": "retourner vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:reunion-travail:noun",
+    "word": "réunion de travail",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:reunion:noun",
     "word": "réunion",
     "emoji": "🤝",
@@ -14412,6 +16943,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:reveil-matin:noun",
+    "word": "réveil matin",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:reveil:noun",
     "word": "réveil",
     "emoji": "⏰",
@@ -14436,6 +16975,14 @@
     "level": "A2",
     "form": "verb",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:rhume-hiver:noun",
+    "word": "rhume d'hiver",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
     "domain": "general"
   },
   {
@@ -14466,6 +17013,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:rideau-fenetre:noun",
+    "word": "rideau de fenêtre",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:rien:pronoun",
     "word": "rien",
     "emoji": "🚫",
@@ -14481,6 +17036,14 @@
     "level": "A0",
     "form": "verb",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:riviere-eau:noun",
+    "word": "rivière d'eau douce",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
     "domain": "general"
   },
   {
@@ -14502,6 +17065,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:riz-cuit:noun",
+    "word": "riz cuit",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:riz:noun",
     "word": "riz",
     "emoji": "🍚",
@@ -14517,6 +17088,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:robe-soiree:noun",
+    "word": "robe de soirée",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
     "domain": "general"
   },
   {
@@ -14538,12 +17117,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:rocher-dur:noun",
+    "word": "rocher dur",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
+    "domain": "general"
+  },
+  {
     "id": "fr:rome:noun",
     "word": "Rome",
     "emoji": "✨",
     "level": "A0",
     "form": "noun",
     "theme": "geography",
+    "domain": "general"
+  },
+  {
+    "id": "fr:rond-parfait:noun",
+    "word": "rond parfait",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
     "domain": "general"
   },
   {
@@ -14562,6 +17157,14 @@
     "level": "A0",
     "form": "adjective",
     "theme": "colors",
+    "domain": "general"
+  },
+  {
+    "id": "fr:rouge-fonce:adjective",
+    "word": "rouge foncé",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -14815,12 +17418,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:s-occuper-du-jardin:phrase",
+    "word": "s'occuper du jardin",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sa:determiner",
+    "word": "sa",
+    "level": "A0",
+    "form": "determiner",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:sac-a-dos:noun",
     "word": "sac à dos",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "objects",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:sac-a-dos:phrase",
@@ -14834,7 +17453,7 @@
   {
     "id": "fr:sac-a-main:noun",
     "word": "sac à main",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "objects",
     "domain": "general"
@@ -14851,10 +17470,10 @@
   {
     "id": "fr:sac-de-voyage:noun",
     "word": "sac de voyage",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:sac-en-cuir:noun",
@@ -14884,12 +17503,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:saison-chaude:noun",
+    "word": "saison chaude",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:salade:noun",
     "word": "salade",
     "emoji": "🥗",
     "level": "A0",
     "form": "noun",
     "theme": "food",
+    "domain": "general"
+  },
+  {
+    "id": "fr:salaire-mensuel:noun",
+    "word": "salaire mensuel",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
     "domain": "general"
   },
   {
@@ -14929,6 +17564,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:salle-de-bains-douche:noun",
+    "word": "salle de bains avec douche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:salle-de-bains:noun",
     "word": "salle de bains",
     "emoji": "🛁",
@@ -14944,6 +17587,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "leisure",
+    "domain": "general"
+  },
+  {
+    "id": "fr:salon-sejour:noun",
+    "word": "salon séjour",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
     "domain": "general"
   },
   {
@@ -15013,7 +17664,7 @@
     "id": "fr:sans-doute:idiom",
     "word": "sans doute",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -15024,6 +17675,14 @@
     "level": "A0",
     "form": "preposition",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sante-corps:noun",
+    "word": "santé du corps",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
     "domain": "general"
   },
   {
@@ -15042,6 +17701,22 @@
     "level": "B1",
     "form": "noun",
     "theme": "emotions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sauter-haut:phrase",
+    "word": "sauter haut",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sauter-loin:phrase",
+    "word": "sauter loin",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -15087,6 +17762,22 @@
     "level": "A0",
     "form": "noun",
     "theme": "education",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sculpter:/skyl.te/",
+    "word": "sculpter",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:se-baigner:phrase",
+    "word": "se baigner",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -15450,6 +18141,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:seconde-temps:noun",
+    "word": "seconde de temps",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
     "id": "fr:seconde:noun",
     "word": "seconde",
     "emoji": "⏱️",
@@ -15477,6 +18176,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:sel-de-table:noun",
+    "word": "sel de table",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:sel:noun",
     "word": "sel",
     "emoji": "🧂",
@@ -15489,7 +18196,7 @@
     "id": "fr:selon-moi:idiom",
     "word": "selon moi",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -15539,6 +18246,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:septante-num:number",
+    "word": "septante",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:septembre:noun",
     "word": "septembre",
     "emoji": "🗓️",
@@ -15577,10 +18292,10 @@
   {
     "id": "fr:serveuse:noun",
     "word": "serveuse",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "work",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:serviable:adjective",
@@ -15628,6 +18343,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:ses:determiner",
+    "word": "ses",
+    "level": "A0",
+    "form": "determiner",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:seul:adjective",
     "word": "seul",
     "emoji": "👤",
@@ -15639,7 +18362,7 @@
   {
     "id": "fr:seulement:adverb",
     "word": "seulement",
-    "level": "A0",
+    "level": "A1",
     "form": "adverb",
     "theme": "descriptors",
     "domain": "general, spoken"
@@ -15663,17 +18386,41 @@
     "domain": "general"
   },
   {
+    "id": "fr:siecle-dernier:noun",
+    "word": "siècle dernier",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
     "id": "fr:siege:noun",
     "word": "siège",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:sien:pronoun",
+    "word": "sien",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sienne:pronoun",
+    "word": "sienne",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
   },
   {
     "id": "fr:signature:noun",
     "word": "signature",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
     "domain": "general"
@@ -15709,9 +18456,25 @@
     "id": "fr:singe:noun",
     "word": "singe",
     "emoji": "🐒",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "animals",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sirop-toux:noun",
+    "word": "sirop pour la toux",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:site-internet:noun",
+    "word": "site web",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
     "domain": "general"
   },
   {
@@ -15739,6 +18502,14 @@
     "level": "A0",
     "form": "number",
     "theme": "numbers",
+    "domain": "general"
+  },
+  {
+    "id": "fr:skier:/ski.je/",
+    "word": "skier",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -15778,6 +18549,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:soeur-cadette:noun",
+    "word": "sœur cadette",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
+    "domain": "general"
+  },
+  {
     "id": "fr:soeur:noun",
     "word": "sœur",
     "emoji": "👧",
@@ -15787,10 +18566,34 @@
     "domain": "general"
   },
   {
+    "id": "fr:soin-medical:noun",
+    "word": "soin médical",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
+    "domain": "general"
+  },
+  {
+    "id": "fr:soir-tard:noun",
+    "word": "soir tard",
+    "level": "A1",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
     "id": "fr:soir:noun",
     "word": "soir",
     "emoji": "🌆",
     "level": "A0",
+    "form": "noun",
+    "theme": "time",
+    "domain": "general"
+  },
+  {
+    "id": "fr:soiree-fete:noun",
+    "word": "soirée de fête",
+    "level": "A1",
     "form": "noun",
     "theme": "time",
     "domain": "general"
@@ -15814,12 +18617,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:soixante-num:number",
+    "word": "soixante",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:soixante:number",
     "word": "soixante",
     "emoji": "6️⃣0️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sol-carrelage:noun",
+    "word": "sol carrelé",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
     "domain": "general"
   },
   {
@@ -15835,7 +18654,7 @@
     "id": "fr:sol:noun",
     "word": "sol",
     "emoji": "🪵",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -15852,10 +18671,10 @@
   {
     "id": "fr:solde:noun",
     "word": "solde",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "shopping",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:soldes:noun",
@@ -15864,6 +18683,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "shopping",
+    "domain": "general"
+  },
+  {
+    "id": "fr:soleil-brillant:noun",
+    "word": "soleil brillant",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
     "domain": "general"
   },
   {
@@ -15957,6 +18784,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:sortir-soir:phrase",
+    "word": "sortir le soir",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sortir-vite:phrase",
+    "word": "sortir vite",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:sortir:verb",
     "word": "sortir",
     "emoji": "🚪",
@@ -15999,6 +18842,14 @@
     "level": "A0",
     "form": "verb",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:souris-ordinateur:noun",
+    "word": "souris d'ordinateur",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
     "domain": "general"
   },
   {
@@ -16065,6 +18916,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:stade-sport:noun",
+    "word": "stade",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:station-de-bus:phrase",
     "word": "station de bus",
     "emoji": "🚌",
@@ -16088,7 +18947,7 @@
     "level": "A0",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:stressant:adjective",
@@ -16115,6 +18974,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "education",
+    "domain": "general"
+  },
+  {
+    "id": "fr:sucre-blanc:noun",
+    "word": "sucre blanc",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -16211,7 +19078,7 @@
     "id": "fr:sur-le-point-de:idiom",
     "word": "sur le point de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -16219,7 +19086,7 @@
     "id": "fr:sur-place:idiom",
     "word": "sur place",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -16239,6 +19106,14 @@
     "level": "A0",
     "form": "preposition",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:surf-internet:phrase",
+    "word": "surfer sur internet",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
     "domain": "general"
   },
   {
@@ -16269,6 +19144,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:t-shirt-coton:noun",
+    "word": "t-shirt en coton",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
+    "domain": "general"
+  },
+  {
     "id": "fr:t-shirt:noun",
     "word": "t-shirt",
     "emoji": "👕",
@@ -16286,12 +19169,28 @@
     "domain": "general"
   },
   {
+    "id": "fr:table-salle:noun",
+    "word": "table à manger",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
+    "domain": "general"
+  },
+  {
     "id": "fr:table:noun",
     "word": "table",
     "emoji": "🪑",
     "level": "A0",
     "form": "noun",
     "theme": "housing",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tableau-classe:noun",
+    "word": "tableau",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
     "domain": "general"
   },
   {
@@ -16310,6 +19209,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "shopping",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tante-famille:noun",
+    "word": "tante proche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "family",
     "domain": "general"
   },
   {
@@ -16439,6 +19346,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:tempete-vent:noun",
+    "word": "tempête de vent",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:temps-libre:noun",
     "word": "temps libre",
     "emoji": "🎮",
@@ -16537,6 +19452,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:test-ecole:noun",
+    "word": "test",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:tete:noun",
     "word": "tête",
     "emoji": "🗣️",
@@ -16552,6 +19475,14 @@
     "level": "A0",
     "form": "noun",
     "theme": "travel",
+    "domain": "general"
+  },
+  {
+    "id": "fr:the-vert:noun",
+    "word": "thé vert",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
     "domain": "general"
   },
   {
@@ -16573,9 +19504,17 @@
     "domain": "general"
   },
   {
+    "id": "fr:ticket-caisse:noun",
+    "word": "ticket de caisse",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
+  },
+  {
     "id": "fr:ticket-de-caisse:noun",
     "word": "ticket de caisse",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "shopping",
     "domain": "general"
@@ -16599,6 +19538,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:tienne:pronoun",
+    "word": "tienne",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tiens-p:pronoun",
+    "word": "tien",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:tigre:noun",
     "word": "tigre",
     "emoji": "🐯",
@@ -16610,10 +19565,10 @@
   {
     "id": "fr:timbre-poste:noun",
     "word": "timbre-poste",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "communication",
-    "domain": "general, travelling"
+    "domain": "general, travel"
   },
   {
     "id": "fr:timide:adjective",
@@ -16631,6 +19586,14 @@
     "level": "A0",
     "form": "verb",
     "theme": "actions",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tiroir-bureau:noun",
+    "word": "tiroir de bureau",
+    "level": "A1",
+    "form": "noun",
+    "theme": "housing",
     "domain": "general"
   },
   {
@@ -16665,13 +19628,13 @@
     "level": "A0",
     "form": "noun",
     "theme": "housing",
-    "domain": "general, spoken, travelling"
+    "domain": "general, spoken, travel"
   },
   {
     "id": "fr:toit:noun",
     "word": "toit",
     "emoji": "🏠",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "housing",
     "domain": "general"
@@ -16707,7 +19670,7 @@
     "id": "fr:tomber-amoureux:idiom",
     "word": "tomber amoureux",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -16742,7 +19705,7 @@
     "id": "fr:tomber:verb",
     "word": "tomber",
     "emoji": "🍂",
-    "level": "A0",
+    "level": "A1",
     "form": "verb",
     "theme": "actions",
     "domain": "general"
@@ -16762,6 +19725,14 @@
     "level": "A0",
     "form": "pronoun",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tonnerre-fort:noun",
+    "word": "tonnerre fort",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
     "domain": "general"
   },
   {
@@ -16876,8 +19847,16 @@
     "id": "fr:tous-les-jours:idiom",
     "word": "tous les jours",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tous-p:pronoun",
+    "word": "tous",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -16893,7 +19872,7 @@
     "id": "fr:tout-a-coup:idiom",
     "word": "tout à coup",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -16901,7 +19880,7 @@
     "id": "fr:tout-a-fait:idiom",
     "word": "tout à fait",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -16909,7 +19888,7 @@
     "id": "fr:tout-de-suite:idiom",
     "word": "tout de suite",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -16920,6 +19899,14 @@
     "level": "A2",
     "form": "adverb",
     "theme": "travel",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tout-droit:phrase",
+    "word": "tout droit",
+    "level": "A0",
+    "form": "phrase",
+    "theme": "navigation",
     "domain": "general"
   },
   {
@@ -16935,8 +19922,24 @@
     "id": "fr:tout-le-temps:idiom",
     "word": "tout le temps",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tout-nouveau:adjective",
+    "word": "tout nouveau",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tout-p:pronoun",
+    "word": "tout",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
     "domain": "general"
   },
   {
@@ -16946,6 +19949,22 @@
     "level": "A2",
     "form": "pronoun",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:toutes-p:pronoun",
+    "word": "toutes",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:toux-seche:noun",
+    "word": "toux sèche",
+    "level": "A1",
+    "form": "noun",
+    "theme": "health",
     "domain": "general"
   },
   {
@@ -17003,6 +20022,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:travail-equipe:noun",
+    "word": "travail d'équipe",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:travail:noun",
     "word": "travail",
     "emoji": "💼",
@@ -17057,6 +20084,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:trente-num:number",
+    "word": "trente",
+    "level": "A1",
+    "form": "number",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:trente:number",
     "word": "trente",
     "emoji": "3️⃣0️⃣",
@@ -17066,12 +20101,196 @@
     "domain": "general"
   },
   {
+    "id": "fr:tres-amoureux:adjective",
+    "word": "très amoureux",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-beau:adjective",
+    "word": "très beau",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-bon:adjective",
+    "word": "très bon",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-calme:adjective",
+    "word": "très calme",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-chaud:adjective",
+    "word": "très chaud",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-content:adjective",
+    "word": "très content",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-difficile:adjective",
+    "word": "très difficile",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-fache:adjective",
+    "word": "très fâché",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-facile:adjective",
+    "word": "très facile",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-fatigue:adjective",
+    "word": "très fatigué",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-froid:adjective",
+    "word": "très froid",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-heureux:adjective",
+    "word": "très heureux",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-inquiet:adjective",
+    "word": "très inquiet",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-jeune:adjective",
+    "word": "très jeune",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-joli:adjective",
+    "word": "très joli",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-mauvais:adjective",
+    "word": "très mauvais",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-propre:adjective",
+    "word": "très propre",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-stresse:adjective",
+    "word": "très stressé",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-surpris:adjective",
+    "word": "très surpris",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-triste:adjective",
+    "word": "très triste",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-utile:adjective",
+    "word": "très utile",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:tres-vieux:adjective",
+    "word": "très vieux",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:tres:adverb",
     "word": "très",
     "emoji": "⚡",
     "level": "A0",
     "form": "adverb",
     "theme": "grammar",
+    "domain": "general"
+  },
+  {
+    "id": "fr:triangle-plat:noun",
+    "word": "triangle plat",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
     "domain": "general"
   },
   {
@@ -17102,6 +20321,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:tricoter:/tʁi.kɔ.te/",
+    "word": "tricoter",
+    "level": "A1",
+    "form": "noun",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:tricoter:verb",
     "word": "tricoter",
     "emoji": "🧶",
@@ -17129,10 +20356,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:troisieme-rang:adjective",
+    "word": "troisième",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:trop-de:idiom",
     "word": "trop de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -17143,6 +20378,30 @@
     "level": "A2",
     "form": "noun",
     "theme": "navigation",
+    "domain": "general"
+  },
+  {
+    "id": "fr:trousse-ecole:noun",
+    "word": "trousse",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
+    "id": "fr:trouver-solution:phrase",
+    "word": "trouver une solution",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:trouver-travail:phrase",
+    "word": "trouver du travail",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
     "domain": "general"
   },
   {
@@ -17199,10 +20458,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:un-det:determiner",
+    "word": "un",
+    "level": "A0",
+    "form": "determiner",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:un-peu-de:idiom",
     "word": "un peu de",
     "level": "A0",
-    "form": "idiom",
+    "form": "phrase",
     "theme": "general",
     "domain": "general"
   },
@@ -17251,6 +20518,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:usine-fabrique:noun",
+    "word": "usine de fabrication",
+    "level": "A1",
+    "form": "noun",
+    "theme": "work",
+    "domain": "general"
+  },
+  {
     "id": "fr:usine:noun",
     "word": "usine",
     "emoji": "🏭",
@@ -17287,12 +20562,28 @@
     "domain": "general, exam"
   },
   {
+    "id": "fr:vacances-scolaires:noun",
+    "word": "vacances scolaires",
+    "level": "A1",
+    "form": "noun",
+    "theme": "education",
+    "domain": "general"
+  },
+  {
     "id": "fr:vacances:noun",
     "word": "vacances",
     "emoji": "🏖️",
     "level": "A0",
     "form": "noun",
     "theme": "general",
+    "domain": "general"
+  },
+  {
+    "id": "fr:vache-laitiere:noun",
+    "word": "vache laitière",
+    "level": "A1",
+    "form": "noun",
+    "theme": "animals",
     "domain": "general"
   },
   {
@@ -17307,10 +20598,18 @@
   {
     "id": "fr:valise-a-roulettes:noun",
     "word": "valise à roulettes",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "travel",
-    "domain": "general, travelling"
+    "domain": "general, travel"
+  },
+  {
+    "id": "fr:valise-voyage:noun",
+    "word": "valise",
+    "level": "A1",
+    "form": "noun",
+    "theme": "objects",
+    "domain": "general"
   },
   {
     "id": "fr:valise:noun",
@@ -17319,6 +20618,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "travel",
+    "domain": "general"
+  },
+  {
+    "id": "fr:vallee-verte:noun",
+    "word": "vallée verte",
+    "level": "A1",
+    "form": "noun",
+    "theme": "nature",
     "domain": "general"
   },
   {
@@ -17385,6 +20692,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:vendre-maison:phrase",
+    "word": "vendre sa maison",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:vendre:verb",
     "word": "vendre",
     "emoji": "🏷️",
@@ -17430,10 +20745,18 @@
     "domain": "general"
   },
   {
+    "id": "fr:vent-frais:noun",
+    "word": "vent frais",
+    "level": "A1",
+    "form": "noun",
+    "theme": "weather",
+    "domain": "general"
+  },
+  {
     "id": "fr:vent:noun",
     "word": "vent",
     "emoji": "💨",
-    "level": "A0",
+    "level": "A1",
     "form": "noun",
     "theme": "weather",
     "domain": "general"
@@ -17493,6 +20816,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:verre-transparence:noun",
+    "word": "verre transparent",
+    "level": "A1",
+    "form": "noun",
+    "theme": "shapes",
+    "domain": "general"
+  },
+  {
     "id": "fr:verre:noun",
     "word": "verre",
     "emoji": "🥛",
@@ -17511,6 +20842,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:vert-clair:adjective",
+    "word": "vert clair",
+    "level": "A1",
+    "form": "adjective",
+    "theme": "general",
+    "domain": "general"
+  },
+  {
     "id": "fr:vert:adjective",
     "word": "vert",
     "emoji": "🟢",
@@ -17526,6 +20865,14 @@
     "level": "A2",
     "form": "noun",
     "theme": "communication",
+    "domain": "general"
+  },
+  {
+    "id": "fr:veste-cuir:noun",
+    "word": "veste en cuir",
+    "level": "A1",
+    "form": "noun",
+    "theme": "clothing",
     "domain": "general"
   },
   {
@@ -17556,6 +20903,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:viande-rouge:noun",
+    "word": "viande rouge",
+    "level": "A1",
+    "form": "noun",
+    "theme": "food",
+    "domain": "general"
+  },
+  {
     "id": "fr:viande:noun",
     "word": "viande",
     "emoji": "🥩",
@@ -17577,7 +20932,7 @@
     "id": "fr:vide:adjective",
     "word": "vide",
     "emoji": "🫙",
-    "level": "A0",
+    "level": "A1",
     "form": "adjective",
     "theme": "descriptors",
     "domain": "general"
@@ -17718,6 +21073,22 @@
     "domain": "general"
   },
   {
+    "id": "fr:visiter-lieu:verb",
+    "word": "visiter",
+    "level": "A1",
+    "form": "verb",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
+    "id": "fr:visiter-une-ville:phrase",
+    "word": "visiter une ville",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:visiter:verb",
     "word": "visiter",
     "emoji": "🏛️",
@@ -17835,6 +21206,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:votre-p:pronoun",
+    "word": "vôtre",
+    "level": "A1",
+    "form": "pronoun",
+    "theme": "grammar",
+    "domain": "general"
+  },
+  {
     "id": "fr:votre:determiner",
     "word": "votre",
     "level": "A0",
@@ -17887,6 +21266,14 @@
     "domain": "general"
   },
   {
+    "id": "fr:voyager-train:phrase",
+    "word": "voyager en train",
+    "level": "A1",
+    "form": "phrase",
+    "theme": "activities",
+    "domain": "general"
+  },
+  {
     "id": "fr:voyager:verb",
     "word": "voyager",
     "emoji": "✈️",
@@ -17916,7 +21303,7 @@
   {
     "id": "fr:vraiment:adverb",
     "word": "vraiment",
-    "level": "A0",
+    "level": "A1",
     "form": "adverb",
     "theme": "descriptors",
     "domain": "general, spoken"
@@ -17940,9 +21327,17 @@
     "domain": "general"
   },
   {
+    "id": "fr:wifi-maison:noun",
+    "word": "wifi",
+    "level": "A1",
+    "form": "noun",
+    "theme": "technology",
+    "domain": "general"
+  },
+  {
     "id": "fr:y:pronoun",
     "word": "y",
-    "level": "A0",
+    "level": "A1",
     "form": "pronoun",
     "theme": "grammar",
     "domain": "general"
@@ -17960,7 +21355,7 @@
     "id": "fr:zero:number",
     "word": "zéro",
     "emoji": "0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
     "domain": "general"

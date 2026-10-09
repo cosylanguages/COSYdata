@@ -20,15 +20,14 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "soleils",
-    "sub_theme": "precipitation_sky"
+    "plural_form": "soleils"
   },
   {
     "id": "fr:lune:noun",
     "word": "lune",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/lyn/",
     "definitions": [
       "Astre qui brille la nuit dans le ciel."
@@ -48,8 +47,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "precipitation_sky"
+    ]
   },
   {
     "id": "fr:pluie:noun",
@@ -72,7 +70,7 @@
     "countability": "uncountable",
     "article": "la",
     "gender": "feminine",
-    "sub_theme": "precipitation_sky"
+    "partitive": "de la"
   },
   {
     "id": "fr:neige:noun",
@@ -95,14 +93,14 @@
     "countability": "uncountable",
     "article": "la",
     "gender": "feminine",
-    "sub_theme": "precipitation_sky"
+    "partitive": "de la"
   },
   {
     "id": "fr:vent:noun",
     "word": "vent",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/vɑ̃/",
     "definitions": [
       "Déplacement de l'air de l'atmosphère."
@@ -122,14 +120,14 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "precipitation_sky"
+    "partitive": "du"
   },
   {
     "id": "fr:nuage:noun",
     "word": "nuage",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/nɥaʒ/",
     "definitions": [
       "Masse de vapeur d'eau suspendue dans le ciel."
@@ -150,8 +148,7 @@
       "A1",
       "A2",
       "B1"
-    ],
-    "sub_theme": "precipitation_sky"
+    ]
   },
   {
     "id": "fr:meteo:noun",
@@ -174,6 +171,351 @@
     "countability": "uncountable",
     "article": "la",
     "gender": "feminine",
-    "sub_theme": "precipitation_sky"
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:soleil-brillant:noun",
+    "word": "soleil brillant",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sɔ.lɛj bʁi.jɑ̃/",
+    "definitions": [
+      "Astre chaud."
+    ],
+    "examples": [
+      "Du soleil brillant."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:nuage-gris:noun",
+    "word": "nuage gris",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/nɥaʒ ɡʁi/",
+    "definitions": [
+      "Nuage de pluie."
+    ],
+    "examples": [
+      "Un nuage gris au ciel."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "nuages gris"
+  },
+  {
+    "id": "fr:brouillard-epais:noun",
+    "word": "brouillard épais",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/bʁu.jaʁ e.pɛ/",
+    "definitions": [
+      "Brouillard fort."
+    ],
+    "examples": [
+      "Du brouillard épais."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:tempete-vent:noun",
+    "word": "tempête de vent",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/tɑ̃.pɛt də vɑ̃/",
+    "definitions": [
+      "Fort vent."
+    ],
+    "examples": [
+      "Une tempête de vent."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "tempêtes de vent"
+  },
+  {
+    "id": "fr:eclair-orage:noun",
+    "word": "éclair d'orage",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/e.klɛʁ d_ɔ.ʁaʒ/",
+    "definitions": [
+      "Lumière d'orage."
+    ],
+    "examples": [
+      "Un éclair d'orage."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "éclairs d'orage"
+  },
+  {
+    "id": "fr:tonnerre-fort:noun",
+    "word": "tonnerre fort",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/tɔ.nɛʁ fɔʁ/",
+    "definitions": [
+      "Bruit d'orage."
+    ],
+    "examples": [
+      "Du tonnerre fort."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:chaleur-ete:noun",
+    "word": "chaleur d'été",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʃa.lœʁ d_e.te/",
+    "definitions": [
+      "Chaud d'été."
+    ],
+    "examples": [
+      "La chaleur d'été."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:froid-hiver:noun",
+    "word": "froid d'hiver",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/fʁwa d_i.vɛʁ/",
+    "definitions": [
+      "Froid intense."
+    ],
+    "examples": [
+      "Le froid d'hiver."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:saison-chaude:noun",
+    "word": "saison chaude",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sɛ.zɔ̃ ʃod/",
+    "definitions": [
+      "Été."
+    ],
+    "examples": [
+      "La saison chaude."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "saisons chaudes"
+  },
+  {
+    "id": "fr:pluie-fine:noun",
+    "word": "pluie fine",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/plɥi fin/",
+    "definitions": [
+      "Petite pluie."
+    ],
+    "examples": [
+      "De la pluie fine."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:neige-blanche:noun",
+    "word": "neige blanche",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/nɛʒ blɑ̃ʃ/",
+    "definitions": [
+      "Neige fraîche."
+    ],
+    "examples": [
+      "De la neige blanche."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:vent-frais:noun",
+    "word": "vent frais",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/vɑ̃ fʁɛ/",
+    "definitions": [
+      "Brise fraîche."
+    ],
+    "examples": [
+      "Du vent frais."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:meteo-jour:noun",
+    "word": "météo du jour",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/me.te.o dy ʒuʁ/",
+    "definitions": [
+      "Prévisions."
+    ],
+    "examples": [
+      "Consulter la météo du jour."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:ciel-clef:noun",
+    "word": "ciel dégagé",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sjɛl de.ɡa.ʒe/",
+    "definitions": [
+      "Ciel bleu."
+    ],
+    "examples": [
+      "Un ciel dégagé."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "ciels dégagés"
+  },
+  {
+    "id": "fr:arc-en-ciel:noun",
+    "word": "arc-en-ciel",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/aʁ.kɑ̃.sjɛl/",
+    "definitions": [
+      "Arc coloré au ciel."
+    ],
+    "examples": [
+      "Un beau arc-en-ciel."
+    ],
+    "domain": "general",
+    "theme": "weather",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "arcs-en-ciel"
   }
 ]

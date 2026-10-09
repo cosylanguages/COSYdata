@@ -20,15 +20,14 @@
     "countability": "countable",
     "article": "l'",
     "gender": "feminine",
-    "plural_form": "étoiles",
-    "sub_theme": "countries_regions"
+    "plural_form": "étoiles"
   },
   {
     "id": "fr:ciel:noun",
     "word": "ciel",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/sjɛl/",
     "definitions": [
       "Espace visible au-dessus de nos têtes."
@@ -48,8 +47,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "countries_regions"
+    ]
   },
   {
     "id": "fr:mer:noun",
@@ -72,8 +70,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "mers",
-    "sub_theme": "countries_regions"
+    "plural_form": "mers"
   },
   {
     "id": "fr:riviere:noun",
@@ -96,8 +93,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "rivières",
-    "sub_theme": "countries_regions"
+    "plural_form": "rivières"
   },
   {
     "id": "fr:montagne:noun",
@@ -120,15 +116,14 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "montagnes",
-    "sub_theme": "countries_regions"
+    "plural_form": "montagnes"
   },
   {
     "id": "fr:foret:noun",
     "word": "forêt",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/fɔ.ʁɛ/",
     "definitions": [
       "Grande étendue couverte d'arbres."
@@ -148,8 +143,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "countries_regions"
+    ]
   },
   {
     "id": "fr:arbre:noun",
@@ -172,8 +166,7 @@
     "countability": "countable",
     "article": "l'",
     "gender": "masculine",
-    "plural_form": "arbres",
-    "sub_theme": "countries_regions"
+    "plural_form": "arbres"
   },
   {
     "id": "fr:fleur:noun",
@@ -196,15 +189,14 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "fleurs",
-    "sub_theme": "countries_regions"
+    "plural_form": "fleurs"
   },
   {
     "id": "fr:herbe:noun",
     "word": "herbe",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/ɛʁb/",
     "definitions": [
       "Plante verte qui recouvre les champs."
@@ -224,14 +216,14 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "countries_regions"
+    "partitive": "de l'"
   },
   {
     "id": "fr:pierre:noun",
     "word": "pierre",
     "language": "fr",
     "form": "noun",
-    "level": "A0",
+    "level": "A1",
     "transcription": "/pjɛʁ/",
     "definitions": [
       "Matière minérale dure servant à la construction."
@@ -251,8 +243,7 @@
     "levels": [
       "A1",
       "A2"
-    ],
-    "sub_theme": "countries_regions"
+    ]
   },
   {
     "id": "fr:terre:noun",
@@ -275,8 +266,7 @@
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
-    "plural_form": "terres",
-    "sub_theme": "countries_regions"
+    "plural_form": "terres"
   },
   {
     "id": "fr:feu:noun",
@@ -299,8 +289,7 @@
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
-    "plural_form": "feux",
-    "sub_theme": "countries_regions"
+    "plural_form": "feux"
   },
   {
     "id": "fr:air:noun",
@@ -323,6 +312,351 @@
     "countability": "uncountable",
     "article": "l'",
     "gender": "masculine",
-    "sub_theme": "countries_regions"
+    "partitive": "de l'"
+  },
+  {
+    "id": "fr:arbre-frui:noun",
+    "word": "arbre fruitier",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/aʁbʁ fʁɥi.tje/",
+    "definitions": [
+      "Arbre de fruits."
+    ],
+    "examples": [
+      "Un arbre fruitier."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "arbres fruitiers"
+  },
+  {
+    "id": "fr:fleur-champ:noun",
+    "word": "fleur des champs",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/flœʁ de ʃɑ̃/",
+    "definitions": [
+      "Fleur sauvage."
+    ],
+    "examples": [
+      "Une fleur des champs."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "fleurs des champs"
+  },
+  {
+    "id": "fr:foret-pins:noun",
+    "word": "forêt de pins",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/fɔ.ʁɛ də pɛ̃/",
+    "definitions": [
+      "Bois de pins."
+    ],
+    "examples": [
+      "Une forêt de pins."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "forêts de pins"
+  },
+  {
+    "id": "fr:montagne-neige:noun",
+    "word": "montagne enneigée",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/mɔ̃.taɲ ɑ̃.nɛ.ʒe/",
+    "definitions": [
+      "Montagne."
+    ],
+    "examples": [
+      "Une montagne enneigée."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "montagnes enneigées"
+  },
+  {
+    "id": "fr:riviere-eau:noun",
+    "word": "rivière d'eau douce",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʁi.vjɛʁ d_o dus/",
+    "definitions": [
+      "Cours d'eau."
+    ],
+    "examples": [
+      "Une rivière d'eau douce."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "rivières d'eau douce"
+  },
+  {
+    "id": "fr:fleuve-tr:noun",
+    "word": "fleuve tranquille",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/flœv tʁɑ̃.kil/",
+    "definitions": [
+      "Grand fleuve."
+    ],
+    "examples": [
+      "Un fleuve tranquille."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "fleuves tranquilles"
+  },
+  {
+    "id": "fr:lac-montagne:noun",
+    "word": "lac de montagne",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/lak də mɔ̃.taɲ/",
+    "definitions": [
+      "Lac en altitude."
+    ],
+    "examples": [
+      "Un lac de montagne."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "lacs de montagne"
+  },
+  {
+    "id": "fr:mer-bleue:noun",
+    "word": "mer bleue",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/mɛʁ blø/",
+    "definitions": [
+      "Mer salée."
+    ],
+    "examples": [
+      "La mer bleue."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "mers bleues"
+  },
+  {
+    "id": "fr:ocean-pacifique:noun",
+    "word": "océan pacifique",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ɔ.se.ɑ̃ pa.si.fik/",
+    "definitions": [
+      "Grand océan."
+    ],
+    "examples": [
+      "L'océan pacifique."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "océans pacifiques"
+  },
+  {
+    "id": "fr:ile-deserte:noun",
+    "word": "île déserte",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/il de.zɛʁt/",
+    "definitions": [
+      "Île sans gens."
+    ],
+    "examples": [
+      "Une île déserte."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "l'",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "îles désertes"
+  },
+  {
+    "id": "fr:campagne-verte:noun",
+    "word": "campagne verte",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kɑ̃.paɲ vɛʁt/",
+    "definitions": [
+      "Espace vert."
+    ],
+    "examples": [
+      "La campagne verte."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "uncountable",
+    "partitive": "de la"
+  },
+  {
+    "id": "fr:champ-ble:noun",
+    "word": "champ de blé",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʃɑ̃ də ble/",
+    "definitions": [
+      "Champ."
+    ],
+    "examples": [
+      "Un champ de blé."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "champs de blé"
+  },
+  {
+    "id": "fr:vallee-verte:noun",
+    "word": "vallée verte",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/va.le vɛʁt/",
+    "definitions": [
+      "Vallée."
+    ],
+    "examples": [
+      "Une belle vallée verte."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "vallées vertes"
+  },
+  {
+    "id": "fr:colline-douce:noun",
+    "word": "colline douce",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kɔ.lin dus/",
+    "definitions": [
+      "Petite montagne."
+    ],
+    "examples": [
+      "Une colline douce."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "collines douces"
+  },
+  {
+    "id": "fr:rocher-dur:noun",
+    "word": "rocher dur",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʁɔ.ʃe dyʁ/",
+    "definitions": [
+      "Bloc de pierre."
+    ],
+    "examples": [
+      "Un rocher dur."
+    ],
+    "domain": "general",
+    "theme": "nature",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "le",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "rochers durs"
   }
 ]

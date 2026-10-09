@@ -20,8 +20,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "smartphones portables",
-    "sub_theme": "devices_hardware"
+    "plural_form": "smartphones portables"
   },
   {
     "id": "fr:tablette-tactile:noun",
@@ -44,8 +43,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "tablettes tactiles",
-    "sub_theme": "devices_hardware"
+    "plural_form": "tablettes tactiles"
   },
   {
     "id": "fr:pc-portable:noun",
@@ -68,8 +66,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "PC portables",
-    "sub_theme": "devices_hardware"
+    "plural_form": "PC portables"
   },
   {
     "id": "fr:imprimante-papier:noun",
@@ -92,8 +89,7 @@
     "gender": "feminine",
     "article": "l'",
     "countability": "countable",
-    "plural_form": "imprimantes papier",
-    "sub_theme": "devices_hardware"
+    "plural_form": "imprimantes papier"
   },
   {
     "id": "fr:chargeur-batterie:noun",
@@ -116,8 +112,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "chargeurs batterie",
-    "sub_theme": "devices_hardware"
+    "plural_form": "chargeurs batterie"
   },
   {
     "id": "fr:appel-telephonique:noun",
@@ -140,8 +135,7 @@
     "gender": "masculine",
     "article": "l'",
     "countability": "countable",
-    "plural_form": "appels téléphoniques",
-    "sub_theme": "communication_tech"
+    "plural_form": "appels téléphoniques"
   },
   {
     "id": "fr:site-web-internet:noun",
@@ -164,8 +158,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "sites web internet",
-    "sub_theme": "digital_media_internet"
+    "plural_form": "sites web internet"
   },
   {
     "id": "fr:cable-electrique:noun",
@@ -188,8 +181,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "câbles électriques",
-    "sub_theme": "devices_hardware"
+    "plural_form": "câbles électriques"
   },
   {
     "id": "fr:ecran-ordinateur:noun",
@@ -212,8 +204,7 @@
     "gender": "masculine",
     "article": "l'",
     "countability": "countable",
-    "plural_form": "écrans ordinateur",
-    "sub_theme": "devices_hardware"
+    "plural_form": "écrans ordinateur"
   },
   {
     "id": "fr:telephone-cellulaire:noun",
@@ -236,8 +227,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "téléphones cellulaires",
-    "sub_theme": "devices_hardware"
+    "plural_form": "téléphones cellulaires"
   },
   {
     "id": "fr:television-couleur:noun",
@@ -260,8 +250,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "télévisions couleur",
-    "sub_theme": "devices_hardware"
+    "plural_form": "télévisions couleur"
   },
   {
     "id": "fr:reseau-internet:noun",
@@ -284,6 +273,259 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "digital_media_internet"
+    "partitive": "du"
+  },
+  {
+    "id": "fr:imprimante-bureau:noun",
+    "word": "imprimante",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ɛ̃.pʁi.mɑ̃t/",
+    "definitions": [
+      "Appareil d'impression."
+    ],
+    "examples": [
+      "L'imprimante marche bien."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "feminine",
+    "article": "l'",
+    "countability": "countable",
+    "plural_form": "imprimantes"
+  },
+  {
+    "id": "fr:courriel-electronique:noun",
+    "word": "courriel",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ku.ʁjɛl/",
+    "definitions": [
+      "Email."
+    ],
+    "examples": [
+      "Envoyer un courriel."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "courriels"
+  },
+  {
+    "id": "fr:site-internet:noun",
+    "word": "site web",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/sit wɛb/",
+    "definitions": [
+      "Page web."
+    ],
+    "examples": [
+      "Visiter le site web."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "sites web"
+  },
+  {
+    "id": "fr:mot-de-passe-sec:noun",
+    "word": "mot de passe",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/mo də pas/",
+    "definitions": [
+      "Code d'accès."
+    ],
+    "examples": [
+      "Entrez le mot de passe."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "mots de passe"
+  },
+  {
+    "id": "fr:internet-web:noun",
+    "word": "internet",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ɛ̃.tɛʁ.nɛt/",
+    "definitions": [
+      "Réseau mondial."
+    ],
+    "examples": [
+      "Chercher sur internet."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "l'",
+    "countability": "uncountable",
+    "partitive": "de l'"
+  },
+  {
+    "id": "fr:wifi-maison:noun",
+    "word": "wifi",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/wi.fi/",
+    "definitions": [
+      "Réseau sans fil."
+    ],
+    "examples": [
+      "Le wifi est rapide."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "uncountable",
+    "partitive": "du"
+  },
+  {
+    "id": "fr:camera-video:noun",
+    "word": "caméra",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ka.me.ʁa/",
+    "definitions": [
+      "Appareil vidéo."
+    ],
+    "examples": [
+      "Filmer avec la caméra."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "caméras"
+  },
+  {
+    "id": "fr:cable-charge:noun",
+    "word": "câble",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kɑbl/",
+    "definitions": [
+      "Fil d'énergie."
+    ],
+    "examples": [
+      "Branche le câble."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "câbles"
+  },
+  {
+    "id": "fr:chargeur-phone:noun",
+    "word": "chargeur",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʃaʁ.ʒœʁ/",
+    "definitions": [
+      "Rechargeur."
+    ],
+    "examples": [
+      "Où est le chargeur ?"
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "chargeurs"
+  },
+  {
+    "id": "fr:souris-ordinateur:noun",
+    "word": "souris d'ordinateur",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/su.ʁi d_ɔʁ.di.na.tœʁ/",
+    "definitions": [
+      "Appareil pour cliquer."
+    ],
+    "examples": [
+      "Cliquer avec la souris."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "souris d'ordinateur"
+  },
+  {
+    "id": "fr:clavier-ordinateur:noun",
+    "word": "clavier d'ordinateur",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kla.vje d_ɔʁ.di.na.tœʁ/",
+    "definitions": [
+      "Touches d'écriture."
+    ],
+    "examples": [
+      "Écrire au clavier."
+    ],
+    "domain": "general",
+    "theme": "technology",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "claviers d'ordinateur"
   }
 ]

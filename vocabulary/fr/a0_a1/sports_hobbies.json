@@ -20,7 +20,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "sports"
+    "partitive": "du"
   },
   {
     "id": "fr:volley-ball:noun",
@@ -43,7 +43,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "sports"
+    "partitive": "du"
   },
   {
     "id": "fr:course-a-pied:noun",
@@ -66,8 +66,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "courses à pied",
-    "sub_theme": "sports"
+    "plural_form": "courses à pied"
   },
   {
     "id": "fr:cyclisme:noun",
@@ -90,7 +89,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "uncountable",
-    "sub_theme": "sports"
+    "partitive": "du"
   },
   {
     "id": "fr:salle-de-sport:noun",
@@ -113,8 +112,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "salles de sport",
-    "sub_theme": "sports"
+    "plural_form": "salles de sport"
   },
   {
     "id": "fr:peinture-art:noun",
@@ -137,7 +135,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "uncountable",
-    "sub_theme": "games_hobbies"
+    "partitive": "de la"
   },
   {
     "id": "fr:photographie-art:noun",
@@ -160,7 +158,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "uncountable",
-    "sub_theme": "games_hobbies"
+    "partitive": "de la"
   },
   {
     "id": "fr:natation-libre:noun",
@@ -183,7 +181,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "uncountable",
-    "sub_theme": "sports"
+    "partitive": "de la"
   },
   {
     "id": "fr:terrain-de-tennis:noun",
@@ -206,8 +204,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "terrains de tennis",
-    "sub_theme": "sports"
+    "plural_form": "terrains de tennis"
   },
   {
     "id": "fr:fete-d-anniversaire:noun",
@@ -230,8 +227,7 @@
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
-    "plural_form": "fêtes d'anniversaire",
-    "sub_theme": "entertainment_arts"
+    "plural_form": "fêtes d'anniversaire"
   },
   {
     "id": "fr:film-comique:noun",
@@ -254,8 +250,7 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "films comiques",
-    "sub_theme": "entertainment_arts"
+    "plural_form": "films comiques"
   },
   {
     "id": "fr:match-de-football:noun",
@@ -278,7 +273,1209 @@
     "gender": "masculine",
     "article": "le",
     "countability": "countable",
-    "plural_form": "matchs de football",
-    "sub_theme": "sports"
+    "plural_form": "matchs de football"
+  },
+  {
+    "id": "fr:plage:noun",
+    "word": "plage",
+    "language": "fr",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/plaʒ/",
+    "definitions": [
+      "Bord de mer couvert de sable."
+    ],
+    "examples": [
+      "Nous allons à la plage."
+    ],
+    "domain": "general",
+    "theme": "leisure",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "plages"
+  },
+  {
+    "id": "fr:dessiner:/de.si.ne/",
+    "word": "dessiner",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/de.si.ne/",
+    "definitions": [
+      "L'enfant dessine."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:danser:/dɑ̃.se/",
+    "word": "danser",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/dɑ̃.se/",
+    "definitions": [
+      "Elle aime danser."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:chanter:/ʃɑ̃.te/",
+    "word": "chanter",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʃɑ̃.te/",
+    "definitions": [
+      "Nous chantons."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:cuisiner:/kɥi.zi.ne/",
+    "word": "cuisiner",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kɥi.zi.ne/",
+    "definitions": [
+      "Il aime cuisiner."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jardiner:/ʒaʁ.di.ne/",
+    "word": "jardiner",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ʒaʁ.di.ne/",
+    "definitions": [
+      "Mon père jardine."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:bricoler:/bʁi.kɔ.le/",
+    "word": "bricoler",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/bʁi.kɔ.le/",
+    "definitions": [
+      "Il bricole chez lui."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:courir:/ku.ʁiʁ/",
+    "word": "courir",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ku.ʁiʁ/",
+    "definitions": [
+      "Je cours le matin."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:nager:/na.ʒe/",
+    "word": "nager",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/na.ʒe/",
+    "definitions": [
+      "Ils aiment nager."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:pédaler:/pe.da.le/",
+    "word": "pédaler",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pe.da.le/",
+    "definitions": [
+      "Il pédale vite."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:skier:/ski.je/",
+    "word": "skier",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ski.je/",
+    "definitions": [
+      "Nous skions en hiver."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:patiner:/pa.ti.ne/",
+    "word": "patiner",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pa.ti.ne/",
+    "definitions": [
+      "Elle patine bien."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:camper:/kɑ̃.pe/",
+    "word": "camper",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kɑ̃.pe/",
+    "definitions": [
+      "Ils aiment camper."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:pêcher:/pɛ.ʃe/",
+    "word": "pêcher",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pɛ.ʃe/",
+    "definitions": [
+      "Mon grand-père pêche."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:photographier:/fɔ.tɔ.ɡʁa.fje/",
+    "word": "photographier",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/fɔ.tɔ.ɡʁa.fje/",
+    "definitions": [
+      "Il photographie les monuments."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:collectionner:/kɔ.lɛk.sjɔ.ne/",
+    "word": "collectionner",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/kɔ.lɛk.sjɔ.ne/",
+    "definitions": [
+      "Elle collectionne les timbres."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:tricoter:/tʁi.kɔ.te/",
+    "word": "tricoter",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/tʁi.kɔ.te/",
+    "definitions": [
+      "Elle tricote un pull."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:coudre:/ku.dʁ/",
+    "word": "coudre",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ku.dʁ/",
+    "definitions": [
+      "Ma mère sait coudre."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:peindre:/pɛ̃.dʁ/",
+    "word": "peindre",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/pɛ̃.dʁ/",
+    "definitions": [
+      "L'artiste peint."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:sculpter:/skyl.te/",
+    "word": "sculpter",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/skyl.te/",
+    "definitions": [
+      "Il sculpte le bois."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:visiter-lieu:verb",
+    "word": "visiter",
+    "language": "fr",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/vi.zi.te/",
+    "definitions": [
+      "Aller voir un endroit."
+    ],
+    "examples": [
+      "Nous visitons la ville."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "sense": "places"
+  },
+  {
+    "id": "fr:voyager-train:phrase",
+    "word": "voyager en train",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/vwa.ja.ʒe ɑ̃ tʁɛ̃/",
+    "definitions": [
+      "Prendre le train."
+    ],
+    "examples": [
+      "J'aime voyager en train."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-du-velo:phrase",
+    "word": "faire du vélo",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ dy ve.lo/",
+    "definitions": [
+      "Rouler à vélo."
+    ],
+    "examples": [
+      "Ils font du vélo."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-de-la-marche:phrase",
+    "word": "faire de la marche",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ də la maʁʃ/",
+    "definitions": [
+      "Marcher."
+    ],
+    "examples": [
+      "Nous faisons de la marche."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-de-la-gym:phrase",
+    "word": "faire de la gym",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ də la ʒim/",
+    "definitions": [
+      "Exercices physiques."
+    ],
+    "examples": [
+      "Elle fait de la gym."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-du-yoga:phrase",
+    "word": "faire du yoga",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ dy jo.ɡa/",
+    "definitions": [
+      "Postures de yoga."
+    ],
+    "examples": [
+      "Je fais du yoga."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-du-ski:phrase",
+    "word": "faire du ski",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ dy ski/",
+    "definitions": [
+      "Ski à la montagne."
+    ],
+    "examples": [
+      "Ils font du ski."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-du-camping:phrase",
+    "word": "faire du camping",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ dy kɑ̃.piŋ/",
+    "definitions": [
+      "Vacances sous la tente."
+    ],
+    "examples": [
+      "Nous faisons du camping."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jouer-au-foot:phrase",
+    "word": "jouer au football",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʒwe o fut.bɔl/",
+    "definitions": [
+      "Jouer au ballon."
+    ],
+    "examples": [
+      "Les garçons jouent au football."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jouer-au-tennis:phrase",
+    "word": "jouer au tennis",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʒwe o te.nis/",
+    "definitions": [
+      "Jouer avec raquette."
+    ],
+    "examples": [
+      "Elle joue au tennis."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jouer-aux-echecs:phrase",
+    "word": "jouer aux échecs",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʒwe oz e.ʃɛk/",
+    "definitions": [
+      "Jeu d'échecs."
+    ],
+    "examples": [
+      "Mon frère joue aux échecs."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jouer-de-la-guitare:phrase",
+    "word": "jouer de la guitare",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʒwe də la ɡi.taʁ/",
+    "definitions": [
+      "Jouer de la guitare."
+    ],
+    "examples": [
+      "Il joue de la guitare."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jouer-du-piano:phrase",
+    "word": "jouer du piano",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʒwe dy pja.no/",
+    "definitions": [
+      "Pratiquer le piano."
+    ],
+    "examples": [
+      "Ma sœur joue du piano."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:regarder-un-film:phrase",
+    "word": "regarder un film",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʁə.ɡaʁ.de œ̃ film/",
+    "definitions": [
+      "Visionner un film."
+    ],
+    "examples": [
+      "Nous regardons un film."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:prendre-des-photos:phrase",
+    "word": "prendre des photos",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/pʁɑ̃.dʁə de fɔ.to/",
+    "definitions": [
+      "Appareil photo."
+    ],
+    "examples": [
+      "Il prend des photos."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:aller-au-cinema:phrase",
+    "word": "aller au cinéma",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/a.le o si.ne.ma/",
+    "definitions": [
+      "Salle de cinéma."
+    ],
+    "examples": [
+      "Ils vont au cinéma."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:aller-au-theatre:phrase",
+    "word": "aller au théâtre",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/a.le o te.ɑtʁ/",
+    "definitions": [
+      "Pièce de théâtre."
+    ],
+    "examples": [
+      "Nous allons au théâtre."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:aller-au-musee:phrase",
+    "word": "aller au musée",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/a.le o my.ze/",
+    "definitions": [
+      "Exposition."
+    ],
+    "examples": [
+      "Elle aime aller au musée."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:aller-a-la-piscine:phrase",
+    "word": "aller à la piscine",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/a.le a la pi.sin/",
+    "definitions": [
+      "Se baigner."
+    ],
+    "examples": [
+      "Les enfants vont à la piscine."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:rencontrer-des-amis:phrase",
+    "word": "rencontrer des amis",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʁɑ̃.kɔ̃.tʁe de z_a.mi/",
+    "definitions": [
+      "Voir ses copains."
+    ],
+    "examples": [
+      "Je rencontre des amis."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-la-sieste:phrase",
+    "word": "faire la sieste",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ la sjɛst/",
+    "definitions": [
+      "Dormir un peu."
+    ],
+    "examples": [
+      "Grand-père fait la sieste."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:cuisiner-un-plat:phrase",
+    "word": "cuisiner un plat",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/kɥi.zi.ne œ̃ pla/",
+    "definitions": [
+      "Préparer un plat."
+    ],
+    "examples": [
+      "Elle cuisine un bon plat."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:boire-un-verre:phrase",
+    "word": "boire un verre",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/bwaʁ œ̃ vɛʁ/",
+    "definitions": [
+      "Prendre une boisson."
+    ],
+    "examples": [
+      "Allons boire un verre !"
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:manger-au-restaurant:phrase",
+    "word": "manger au restaurant",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/mɑ̃.ʒe o ʁɛs.to.ʁɑ̃/",
+    "definitions": [
+      "Repas dehors."
+    ],
+    "examples": [
+      "Ils mangent au restaurant."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-la-fete-1:phrase",
+    "word": "faire la fête",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ la fɛt/",
+    "definitions": [
+      "S'amuser."
+    ],
+    "examples": [
+      "Nous faisons la fête."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05",
+    "sense": "party"
+  },
+  {
+    "id": "fr:fêter-un-anniversaire:phrase",
+    "word": "fêter un anniversaire",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛ.te œ̃ n_a.ni.vɛʁ.sɛʁ/",
+    "definitions": [
+      "Célébrer."
+    ],
+    "examples": [
+      "Elle fête son anniversaire."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:inviter-des-amis:phrase",
+    "word": "inviter des amis",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ɛ̃.vi.te de z_a.mi/",
+    "definitions": [
+      "Proposer de venir."
+    ],
+    "examples": [
+      "J'invite des amis."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:regarder-la-tele:phrase",
+    "word": "regarder la télévision",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʁə.ɡaʁ.de la te.le.vi.zjɔ̃/",
+    "definitions": [
+      "Visionner la télé."
+    ],
+    "examples": [
+      "Ils regardent la télévision."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:surf-internet:phrase",
+    "word": "surfer sur internet",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/syʁ.fe syʁ ɛ̃.tɛʁ.nɛt/",
+    "definitions": [
+      "Naviguer le web."
+    ],
+    "examples": [
+      "Il surfe sur internet."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:jouer-a-un-jeu:phrase",
+    "word": "jouer à un jeu",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʒwe a œ̃ ʒø/",
+    "definitions": [
+      "Jeu de société."
+    ],
+    "examples": [
+      "Nous jouons à un jeu."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-de-la-peinture:phrase",
+    "word": "faire de la peinture",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ də la pɛ̃.tyʁ/",
+    "definitions": [
+      "Peindre."
+    ],
+    "examples": [
+      "Elle fait de la peinture."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:ecouter-la-radio:phrase",
+    "word": "écouter la radio",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/e.ku.te la ʁa.djo/",
+    "definitions": [
+      "Radio."
+    ],
+    "examples": [
+      "Mon père écoute la radio."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:chanter-une-chanson:phrase",
+    "word": "chanter une chanson",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ʃɑ̃.te yn ʃɑ̃.sɔ̃/",
+    "definitions": [
+      "Morceau musical."
+    ],
+    "examples": [
+      "Elle chante une chanson."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:danser-ensemble:phrase",
+    "word": "danser ensemble",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/dɑ̃.se ɑ̃.sɑ̃bl/",
+    "definitions": [
+      "Danser à deux."
+    ],
+    "examples": [
+      "Ils dansent ensemble."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:marcher-en-foret:phrase",
+    "word": "marcher en forêt",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/maʁ.ʃe ɑ̃ fɔ.ʁɛ/",
+    "definitions": [
+      "Marcher parmi les arbres."
+    ],
+    "examples": [
+      "Nous marchons en forêt."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-un-pique-nique:phrase",
+    "word": "faire un pique-nique",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ œ̃ pik.nik/",
+    "definitions": [
+      "Manger dehors."
+    ],
+    "examples": [
+      "Faisons un pique-nique !"
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:se-baigner:phrase",
+    "word": "se baigner",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/sə bɛ.ɲe/",
+    "definitions": [
+      "Entrer dans l'eau."
+    ],
+    "examples": [
+      "Les enfants se baignent."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-de-la-plongee:phrase",
+    "word": "faire de la plongée",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ də la plɔ̃.ʒe/",
+    "definitions": [
+      "Nager sous l'eau."
+    ],
+    "examples": [
+      "Ils font de la plongée."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-de-la-voile:phrase",
+    "word": "faire de la voile",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ də la vwal/",
+    "definitions": [
+      "Bateau à voile."
+    ],
+    "examples": [
+      "Nous faisons de la voile."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:visiter-une-ville:phrase",
+    "word": "visiter une ville",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/vi.zi.te yn vil/",
+    "definitions": [
+      "Découvrir une ville."
+    ],
+    "examples": [
+      "Nous visitons la ville."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-un-tour:phrase",
+    "word": "faire un tour",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ œ̃ tuʁ/",
+    "definitions": [
+      "Courte promenade."
+    ],
+    "examples": [
+      "Je fais un tour."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-des-achats:phrase",
+    "word": "faire des achats",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ de z_a.ʃa/",
+    "definitions": [
+      "Acheter des choses."
+    ],
+    "examples": [
+      "Elle fait des achats."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:faire-du-shopping:phrase",
+    "word": "faire du shopping",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/fɛʁ dy ʃɔ.piŋ/",
+    "definitions": [
+      "Magasiner."
+    ],
+    "examples": [
+      "Nous faisons du shopping."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:garder-des-enfants:phrase",
+    "word": "garder des enfants",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/ɡaʁ.de de z_ɑ̃.fɑ̃/",
+    "definitions": [
+      "S'occuper des enfants."
+    ],
+    "examples": [
+      "Elle garde des enfants."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:s-occuper-du-jardin:phrase",
+    "word": "s'occuper du jardin",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/s ɔ.ky.pe dy ʒaʁ.dɛ̃/",
+    "definitions": [
+      "Prendre soin du jardin."
+    ],
+    "examples": [
+      "Il s'occupe du jardin."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
+  },
+  {
+    "id": "fr:donner-a-manger:phrase",
+    "word": "donner à manger",
+    "language": "fr",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/dɔ.ne a mɑ̃.ʒe/",
+    "definitions": [
+      "Nourrir."
+    ],
+    "examples": [
+      "Je donne à manger aux oiseaux."
+    ],
+    "domain": "general",
+    "theme": "activities",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-05"
   }
 ]
