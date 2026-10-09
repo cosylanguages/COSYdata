@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- [P3-fr] Added 150 new French A0–A1 entries (52 A0, 98 A1) in `vocabulary/fr/a0_a1/` covering missing essentials (je ne comprends pas, je ne sais pas, je voudrais, garçon, journal, adresse, gens, etc.), core grammar determiners/possessives, tonic pronouns, and DELF A1 / Français fondamental vocabulary.
+
 All notable changes to this project will be documented in this file.
 
 ## [0.1.0] - Unreleased
