@@ -1,48 +1,2802 @@
 [
   {
-    "id": "es:dos:noun",
-    "word": "dos",
+    "id": "es:cero:number",
+    "word": "cero",
     "language": "es",
-    "form": "noun",
-    "level": "A1",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 0,
+    "transcription": "/cero/",
+    "no_emoji": true,
+    "no_antonym": true,
     "definitions": [
-      "Número que sigue al uno."
+      "el número cardinal igual a 0"
     ],
     "examples": [
-      "Tengo un dos en casa."
+      "Hay cero libros en la mesa."
     ],
-    "domain": "general",
-    "theme": "numbers",
-    "updated": "2025-01-15",
-    "transcription": "/dos/",
-    "emoji": "2️⃣",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "doses"
+    "updated": "2025-05-20",
+    "concept": "en:zero:number"
   },
   {
-    "id": "es:uno:noun",
+    "id": "es:uno:number",
     "word": "uno",
     "language": "es",
-    "form": "noun",
-    "level": "A1",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 1,
+    "transcription": "/uno/",
+    "no_emoji": true,
+    "no_antonym": true,
     "definitions": [
-      "Primer número cardinal."
+      "el número cardinal igual a 1"
     ],
     "examples": [
-      "Tengo un uno en casa."
+      "Hay uno libro en la mesa."
     ],
-    "domain": "general",
+    "updated": "2025-05-20",
+    "concept": "en:one:number"
+  },
+  {
+    "id": "es:dos:number",
+    "word": "dos",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
     "theme": "numbers",
-    "updated": "2025-01-15",
-    "transcription": "/ˈu.no/",
-    "emoji": "1️⃣",
+    "sub_theme": "cardinal_numbers",
+    "value": 2,
+    "transcription": "/dos/",
+    "no_emoji": true,
     "no_antonym": true,
-    "countability": "countable",
-    "article": "el",
-    "gender": "masculine",
-    "plural_form": "unos"
+    "definitions": [
+      "el número cardinal igual a 2"
+    ],
+    "examples": [
+      "Hay dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:two:number"
+  },
+  {
+    "id": "es:tres:number",
+    "word": "tres",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 3,
+    "transcription": "/tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 3"
+    ],
+    "examples": [
+      "Hay tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:three:number"
+  },
+  {
+    "id": "es:cuatro:number",
+    "word": "cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 4,
+    "transcription": "/cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 4"
+    ],
+    "examples": [
+      "Hay cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:four:number"
+  },
+  {
+    "id": "es:cinco:number",
+    "word": "cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 5,
+    "transcription": "/cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 5"
+    ],
+    "examples": [
+      "Hay cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:five:number"
+  },
+  {
+    "id": "es:seis:number",
+    "word": "seis",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 6,
+    "transcription": "/seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 6"
+    ],
+    "examples": [
+      "Hay seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:six:number"
+  },
+  {
+    "id": "es:siete:number",
+    "word": "siete",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 7,
+    "transcription": "/siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 7"
+    ],
+    "examples": [
+      "Hay siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seven:number"
+  },
+  {
+    "id": "es:ocho:number",
+    "word": "ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 8,
+    "transcription": "/ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 8"
+    ],
+    "examples": [
+      "Hay ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eight:number"
+  },
+  {
+    "id": "es:nueve:number",
+    "word": "nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 9,
+    "transcription": "/nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 9"
+    ],
+    "examples": [
+      "Hay nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:nine:number"
+  },
+  {
+    "id": "es:diez:number",
+    "word": "diez",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 10,
+    "transcription": "/diez/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 10"
+    ],
+    "examples": [
+      "Hay diez libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ten:number"
+  },
+  {
+    "id": "es:once:number",
+    "word": "once",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 11,
+    "transcription": "/once/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 11"
+    ],
+    "examples": [
+      "Hay once libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eleven:number"
+  },
+  {
+    "id": "es:doce:number",
+    "word": "doce",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 12,
+    "transcription": "/doce/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 12"
+    ],
+    "examples": [
+      "Hay doce libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twelve:number"
+  },
+  {
+    "id": "es:trece:number",
+    "word": "trece",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 13,
+    "transcription": "/trece/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 13"
+    ],
+    "examples": [
+      "Hay trece libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirteen:number"
+  },
+  {
+    "id": "es:catorce:number",
+    "word": "catorce",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 14,
+    "transcription": "/catorce/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 14"
+    ],
+    "examples": [
+      "Hay catorce libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fourteen:number"
+  },
+  {
+    "id": "es:quince:number",
+    "word": "quince",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 15,
+    "transcription": "/quince/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 15"
+    ],
+    "examples": [
+      "Hay quince libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifteen:number"
+  },
+  {
+    "id": "es:dieciseis:number",
+    "word": "dieciséis",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 16,
+    "transcription": "/dieciséis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 16"
+    ],
+    "examples": [
+      "Hay dieciséis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixteen:number"
+  },
+  {
+    "id": "es:diecisiete:number",
+    "word": "diecisiete",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 17,
+    "transcription": "/diecisiete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 17"
+    ],
+    "examples": [
+      "Hay diecisiete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventeen:number"
+  },
+  {
+    "id": "es:dieciocho:number",
+    "word": "dieciocho",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 18,
+    "transcription": "/dieciocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 18"
+    ],
+    "examples": [
+      "Hay dieciocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighteen:number"
+  },
+  {
+    "id": "es:diecinueve:number",
+    "word": "diecinueve",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 19,
+    "transcription": "/diecinueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 19"
+    ],
+    "examples": [
+      "Hay diecinueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:nineteen:number"
+  },
+  {
+    "id": "es:veinte:number",
+    "word": "veinte",
+    "language": "es",
+    "form": "number",
+    "level": "A0",
+    "levels": [
+      "A0"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 20,
+    "transcription": "/veinte/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 20"
+    ],
+    "examples": [
+      "Hay veinte libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty:number"
+  },
+  {
+    "id": "es:veintiuno:number",
+    "word": "veintiuno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 21,
+    "transcription": "/veintiuno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 21"
+    ],
+    "examples": [
+      "Hay veintiuno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-one:number"
+  },
+  {
+    "id": "es:veintidos:number",
+    "word": "veintidós",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 22,
+    "transcription": "/veintidós/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 22"
+    ],
+    "examples": [
+      "Hay veintidós libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-two:number"
+  },
+  {
+    "id": "es:veintitres:number",
+    "word": "veintitrés",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 23,
+    "transcription": "/veintitrés/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 23"
+    ],
+    "examples": [
+      "Hay veintitrés libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-three:number"
+  },
+  {
+    "id": "es:veinticuatro:number",
+    "word": "veinticuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 24,
+    "transcription": "/veinticuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 24"
+    ],
+    "examples": [
+      "Hay veinticuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-four:number"
+  },
+  {
+    "id": "es:veinticinco:number",
+    "word": "veinticinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 25,
+    "transcription": "/veinticinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 25"
+    ],
+    "examples": [
+      "Hay veinticinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-five:number"
+  },
+  {
+    "id": "es:veintiseis:number",
+    "word": "veintiséis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 26,
+    "transcription": "/veintiséis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 26"
+    ],
+    "examples": [
+      "Hay veintiséis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-six:number"
+  },
+  {
+    "id": "es:veintisiete:number",
+    "word": "veintisiete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 27,
+    "transcription": "/veintisiete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 27"
+    ],
+    "examples": [
+      "Hay veintisiete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-seven:number"
+  },
+  {
+    "id": "es:veintiocho:number",
+    "word": "veintiocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 28,
+    "transcription": "/veintiocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 28"
+    ],
+    "examples": [
+      "Hay veintiocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-eight:number"
+  },
+  {
+    "id": "es:veintinueve:number",
+    "word": "veintinueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 29,
+    "transcription": "/veintinueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 29"
+    ],
+    "examples": [
+      "Hay veintinueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:twenty-nine:number"
+  },
+  {
+    "id": "es:treinta:number",
+    "word": "treinta",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 30,
+    "transcription": "/treinta/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 30"
+    ],
+    "examples": [
+      "Hay treinta libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty:number"
+  },
+  {
+    "id": "es:treinta-y-uno:number",
+    "word": "treinta y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 31,
+    "transcription": "/treinta y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 31"
+    ],
+    "examples": [
+      "Hay treinta y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-one:number"
+  },
+  {
+    "id": "es:treinta-y-dos:number",
+    "word": "treinta y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 32,
+    "transcription": "/treinta y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 32"
+    ],
+    "examples": [
+      "Hay treinta y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-two:number"
+  },
+  {
+    "id": "es:treinta-y-tres:number",
+    "word": "treinta y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 33,
+    "transcription": "/treinta y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 33"
+    ],
+    "examples": [
+      "Hay treinta y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-three:number"
+  },
+  {
+    "id": "es:treinta-y-cuatro:number",
+    "word": "treinta y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 34,
+    "transcription": "/treinta y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 34"
+    ],
+    "examples": [
+      "Hay treinta y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-four:number"
+  },
+  {
+    "id": "es:treinta-y-cinco:number",
+    "word": "treinta y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 35,
+    "transcription": "/treinta y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 35"
+    ],
+    "examples": [
+      "Hay treinta y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-five:number"
+  },
+  {
+    "id": "es:treinta-y-seis:number",
+    "word": "treinta y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 36,
+    "transcription": "/treinta y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 36"
+    ],
+    "examples": [
+      "Hay treinta y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-six:number"
+  },
+  {
+    "id": "es:treinta-y-siete:number",
+    "word": "treinta y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 37,
+    "transcription": "/treinta y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 37"
+    ],
+    "examples": [
+      "Hay treinta y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-seven:number"
+  },
+  {
+    "id": "es:treinta-y-ocho:number",
+    "word": "treinta y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 38,
+    "transcription": "/treinta y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 38"
+    ],
+    "examples": [
+      "Hay treinta y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-eight:number"
+  },
+  {
+    "id": "es:treinta-y-nueve:number",
+    "word": "treinta y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 39,
+    "transcription": "/treinta y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 39"
+    ],
+    "examples": [
+      "Hay treinta y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thirty-nine:number"
+  },
+  {
+    "id": "es:cuarenta:number",
+    "word": "cuarenta",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 40,
+    "transcription": "/cuarenta/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 40"
+    ],
+    "examples": [
+      "Hay cuarenta libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty:number"
+  },
+  {
+    "id": "es:cuarenta-y-uno:number",
+    "word": "cuarenta y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 41,
+    "transcription": "/cuarenta y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 41"
+    ],
+    "examples": [
+      "Hay cuarenta y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-one:number"
+  },
+  {
+    "id": "es:cuarenta-y-dos:number",
+    "word": "cuarenta y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 42,
+    "transcription": "/cuarenta y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 42"
+    ],
+    "examples": [
+      "Hay cuarenta y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-two:number"
+  },
+  {
+    "id": "es:cuarenta-y-tres:number",
+    "word": "cuarenta y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 43,
+    "transcription": "/cuarenta y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 43"
+    ],
+    "examples": [
+      "Hay cuarenta y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-three:number"
+  },
+  {
+    "id": "es:cuarenta-y-cuatro:number",
+    "word": "cuarenta y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 44,
+    "transcription": "/cuarenta y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 44"
+    ],
+    "examples": [
+      "Hay cuarenta y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-four:number"
+  },
+  {
+    "id": "es:cuarenta-y-cinco:number",
+    "word": "cuarenta y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 45,
+    "transcription": "/cuarenta y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 45"
+    ],
+    "examples": [
+      "Hay cuarenta y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-five:number"
+  },
+  {
+    "id": "es:cuarenta-y-seis:number",
+    "word": "cuarenta y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 46,
+    "transcription": "/cuarenta y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 46"
+    ],
+    "examples": [
+      "Hay cuarenta y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-six:number"
+  },
+  {
+    "id": "es:cuarenta-y-siete:number",
+    "word": "cuarenta y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 47,
+    "transcription": "/cuarenta y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 47"
+    ],
+    "examples": [
+      "Hay cuarenta y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-seven:number"
+  },
+  {
+    "id": "es:cuarenta-y-ocho:number",
+    "word": "cuarenta y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 48,
+    "transcription": "/cuarenta y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 48"
+    ],
+    "examples": [
+      "Hay cuarenta y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-eight:number"
+  },
+  {
+    "id": "es:cuarenta-y-nueve:number",
+    "word": "cuarenta y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 49,
+    "transcription": "/cuarenta y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 49"
+    ],
+    "examples": [
+      "Hay cuarenta y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:forty-nine:number"
+  },
+  {
+    "id": "es:cincuenta:number",
+    "word": "cincuenta",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 50,
+    "transcription": "/cincuenta/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 50"
+    ],
+    "examples": [
+      "Hay cincuenta libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty:number"
+  },
+  {
+    "id": "es:cincuenta-y-uno:number",
+    "word": "cincuenta y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 51,
+    "transcription": "/cincuenta y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 51"
+    ],
+    "examples": [
+      "Hay cincuenta y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-one:number"
+  },
+  {
+    "id": "es:cincuenta-y-dos:number",
+    "word": "cincuenta y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 52,
+    "transcription": "/cincuenta y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 52"
+    ],
+    "examples": [
+      "Hay cincuenta y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-two:number"
+  },
+  {
+    "id": "es:cincuenta-y-tres:number",
+    "word": "cincuenta y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 53,
+    "transcription": "/cincuenta y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 53"
+    ],
+    "examples": [
+      "Hay cincuenta y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-three:number"
+  },
+  {
+    "id": "es:cincuenta-y-cuatro:number",
+    "word": "cincuenta y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 54,
+    "transcription": "/cincuenta y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 54"
+    ],
+    "examples": [
+      "Hay cincuenta y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-four:number"
+  },
+  {
+    "id": "es:cincuenta-y-cinco:number",
+    "word": "cincuenta y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 55,
+    "transcription": "/cincuenta y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 55"
+    ],
+    "examples": [
+      "Hay cincuenta y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-five:number"
+  },
+  {
+    "id": "es:cincuenta-y-seis:number",
+    "word": "cincuenta y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 56,
+    "transcription": "/cincuenta y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 56"
+    ],
+    "examples": [
+      "Hay cincuenta y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-six:number"
+  },
+  {
+    "id": "es:cincuenta-y-siete:number",
+    "word": "cincuenta y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 57,
+    "transcription": "/cincuenta y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 57"
+    ],
+    "examples": [
+      "Hay cincuenta y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-seven:number"
+  },
+  {
+    "id": "es:cincuenta-y-ocho:number",
+    "word": "cincuenta y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 58,
+    "transcription": "/cincuenta y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 58"
+    ],
+    "examples": [
+      "Hay cincuenta y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-eight:number"
+  },
+  {
+    "id": "es:cincuenta-y-nueve:number",
+    "word": "cincuenta y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 59,
+    "transcription": "/cincuenta y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 59"
+    ],
+    "examples": [
+      "Hay cincuenta y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifty-nine:number"
+  },
+  {
+    "id": "es:sesenta:number",
+    "word": "sesenta",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 60,
+    "transcription": "/sesenta/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 60"
+    ],
+    "examples": [
+      "Hay sesenta libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty:number"
+  },
+  {
+    "id": "es:sesenta-y-uno:number",
+    "word": "sesenta y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 61,
+    "transcription": "/sesenta y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 61"
+    ],
+    "examples": [
+      "Hay sesenta y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-one:number"
+  },
+  {
+    "id": "es:sesenta-y-dos:number",
+    "word": "sesenta y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 62,
+    "transcription": "/sesenta y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 62"
+    ],
+    "examples": [
+      "Hay sesenta y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-two:number"
+  },
+  {
+    "id": "es:sesenta-y-tres:number",
+    "word": "sesenta y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 63,
+    "transcription": "/sesenta y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 63"
+    ],
+    "examples": [
+      "Hay sesenta y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-three:number"
+  },
+  {
+    "id": "es:sesenta-y-cuatro:number",
+    "word": "sesenta y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 64,
+    "transcription": "/sesenta y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 64"
+    ],
+    "examples": [
+      "Hay sesenta y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-four:number"
+  },
+  {
+    "id": "es:sesenta-y-cinco:number",
+    "word": "sesenta y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 65,
+    "transcription": "/sesenta y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 65"
+    ],
+    "examples": [
+      "Hay sesenta y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-five:number"
+  },
+  {
+    "id": "es:sesenta-y-seis:number",
+    "word": "sesenta y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 66,
+    "transcription": "/sesenta y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 66"
+    ],
+    "examples": [
+      "Hay sesenta y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-six:number"
+  },
+  {
+    "id": "es:sesenta-y-siete:number",
+    "word": "sesenta y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 67,
+    "transcription": "/sesenta y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 67"
+    ],
+    "examples": [
+      "Hay sesenta y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-seven:number"
+  },
+  {
+    "id": "es:sesenta-y-ocho:number",
+    "word": "sesenta y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 68,
+    "transcription": "/sesenta y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 68"
+    ],
+    "examples": [
+      "Hay sesenta y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-eight:number"
+  },
+  {
+    "id": "es:sesenta-y-nueve:number",
+    "word": "sesenta y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 69,
+    "transcription": "/sesenta y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 69"
+    ],
+    "examples": [
+      "Hay sesenta y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixty-nine:number"
+  },
+  {
+    "id": "es:setenta:number",
+    "word": "setenta",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 70,
+    "transcription": "/setenta/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 70"
+    ],
+    "examples": [
+      "Hay setenta libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy:number"
+  },
+  {
+    "id": "es:setenta-y-uno:number",
+    "word": "setenta y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 71,
+    "transcription": "/setenta y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 71"
+    ],
+    "examples": [
+      "Hay setenta y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-one:number"
+  },
+  {
+    "id": "es:setenta-y-dos:number",
+    "word": "setenta y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 72,
+    "transcription": "/setenta y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 72"
+    ],
+    "examples": [
+      "Hay setenta y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-two:number"
+  },
+  {
+    "id": "es:setenta-y-tres:number",
+    "word": "setenta y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 73,
+    "transcription": "/setenta y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 73"
+    ],
+    "examples": [
+      "Hay setenta y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-three:number"
+  },
+  {
+    "id": "es:setenta-y-cuatro:number",
+    "word": "setenta y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 74,
+    "transcription": "/setenta y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 74"
+    ],
+    "examples": [
+      "Hay setenta y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-four:number"
+  },
+  {
+    "id": "es:setenta-y-cinco:number",
+    "word": "setenta y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 75,
+    "transcription": "/setenta y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 75"
+    ],
+    "examples": [
+      "Hay setenta y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-five:number"
+  },
+  {
+    "id": "es:setenta-y-seis:number",
+    "word": "setenta y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 76,
+    "transcription": "/setenta y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 76"
+    ],
+    "examples": [
+      "Hay setenta y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-six:number"
+  },
+  {
+    "id": "es:setenta-y-siete:number",
+    "word": "setenta y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 77,
+    "transcription": "/setenta y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 77"
+    ],
+    "examples": [
+      "Hay setenta y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-seven:number"
+  },
+  {
+    "id": "es:setenta-y-ocho:number",
+    "word": "setenta y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 78,
+    "transcription": "/setenta y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 78"
+    ],
+    "examples": [
+      "Hay setenta y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-eight:number"
+  },
+  {
+    "id": "es:setenta-y-nueve:number",
+    "word": "setenta y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 79,
+    "transcription": "/setenta y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 79"
+    ],
+    "examples": [
+      "Hay setenta y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventy-nine:number"
+  },
+  {
+    "id": "es:ochenta:number",
+    "word": "ochenta",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 80,
+    "transcription": "/ochenta/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 80"
+    ],
+    "examples": [
+      "Hay ochenta libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty:number"
+  },
+  {
+    "id": "es:ochenta-y-uno:number",
+    "word": "ochenta y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 81,
+    "transcription": "/ochenta y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 81"
+    ],
+    "examples": [
+      "Hay ochenta y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-one:number"
+  },
+  {
+    "id": "es:ochenta-y-dos:number",
+    "word": "ochenta y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 82,
+    "transcription": "/ochenta y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 82"
+    ],
+    "examples": [
+      "Hay ochenta y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-two:number"
+  },
+  {
+    "id": "es:ochenta-y-tres:number",
+    "word": "ochenta y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 83,
+    "transcription": "/ochenta y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 83"
+    ],
+    "examples": [
+      "Hay ochenta y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-three:number"
+  },
+  {
+    "id": "es:ochenta-y-cuatro:number",
+    "word": "ochenta y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 84,
+    "transcription": "/ochenta y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 84"
+    ],
+    "examples": [
+      "Hay ochenta y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-four:number"
+  },
+  {
+    "id": "es:ochenta-y-cinco:number",
+    "word": "ochenta y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 85,
+    "transcription": "/ochenta y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 85"
+    ],
+    "examples": [
+      "Hay ochenta y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-five:number"
+  },
+  {
+    "id": "es:ochenta-y-seis:number",
+    "word": "ochenta y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 86,
+    "transcription": "/ochenta y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 86"
+    ],
+    "examples": [
+      "Hay ochenta y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-six:number"
+  },
+  {
+    "id": "es:ochenta-y-siete:number",
+    "word": "ochenta y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 87,
+    "transcription": "/ochenta y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 87"
+    ],
+    "examples": [
+      "Hay ochenta y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-seven:number"
+  },
+  {
+    "id": "es:ochenta-y-ocho:number",
+    "word": "ochenta y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 88,
+    "transcription": "/ochenta y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 88"
+    ],
+    "examples": [
+      "Hay ochenta y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-eight:number"
+  },
+  {
+    "id": "es:ochenta-y-nueve:number",
+    "word": "ochenta y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 89,
+    "transcription": "/ochenta y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 89"
+    ],
+    "examples": [
+      "Hay ochenta y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighty-nine:number"
+  },
+  {
+    "id": "es:noventa:number",
+    "word": "noventa",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 90,
+    "transcription": "/noventa/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 90"
+    ],
+    "examples": [
+      "Hay noventa libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety:number"
+  },
+  {
+    "id": "es:noventa-y-uno:number",
+    "word": "noventa y uno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 91,
+    "transcription": "/noventa y uno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 91"
+    ],
+    "examples": [
+      "Hay noventa y uno libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-one:number"
+  },
+  {
+    "id": "es:noventa-y-dos:number",
+    "word": "noventa y dos",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 92,
+    "transcription": "/noventa y dos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 92"
+    ],
+    "examples": [
+      "Hay noventa y dos libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-two:number"
+  },
+  {
+    "id": "es:noventa-y-tres:number",
+    "word": "noventa y tres",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 93,
+    "transcription": "/noventa y tres/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 93"
+    ],
+    "examples": [
+      "Hay noventa y tres libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-three:number"
+  },
+  {
+    "id": "es:noventa-y-cuatro:number",
+    "word": "noventa y cuatro",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 94,
+    "transcription": "/noventa y cuatro/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 94"
+    ],
+    "examples": [
+      "Hay noventa y cuatro libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-four:number"
+  },
+  {
+    "id": "es:noventa-y-cinco:number",
+    "word": "noventa y cinco",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 95,
+    "transcription": "/noventa y cinco/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 95"
+    ],
+    "examples": [
+      "Hay noventa y cinco libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-five:number"
+  },
+  {
+    "id": "es:noventa-y-seis:number",
+    "word": "noventa y seis",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 96,
+    "transcription": "/noventa y seis/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 96"
+    ],
+    "examples": [
+      "Hay noventa y seis libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-six:number"
+  },
+  {
+    "id": "es:noventa-y-siete:number",
+    "word": "noventa y siete",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 97,
+    "transcription": "/noventa y siete/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 97"
+    ],
+    "examples": [
+      "Hay noventa y siete libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-seven:number"
+  },
+  {
+    "id": "es:noventa-y-ocho:number",
+    "word": "noventa y ocho",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 98,
+    "transcription": "/noventa y ocho/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 98"
+    ],
+    "examples": [
+      "Hay noventa y ocho libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-eight:number"
+  },
+  {
+    "id": "es:noventa-y-nueve:number",
+    "word": "noventa y nueve",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 99,
+    "transcription": "/noventa y nueve/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 99"
+    ],
+    "examples": [
+      "Hay noventa y nueve libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninety-nine:number"
+  },
+  {
+    "id": "es:cien:number",
+    "word": "cien",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 100,
+    "transcription": "/cien/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 100"
+    ],
+    "examples": [
+      "Hay cien libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:hundred:number"
+  },
+  {
+    "id": "es:mil:number",
+    "word": "mil",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "cardinal_numbers",
+    "value": 1000,
+    "transcription": "/mil/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "el número cardinal igual a 1000"
+    ],
+    "examples": [
+      "Hay mil libros en la mesa."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:thousand:number"
+  },
+  {
+    "id": "es:primero:number",
+    "word": "primero",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 1,
+    "transcription": "/primero/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 1"
+    ],
+    "examples": [
+      "Es el primero día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:first:number"
+  },
+  {
+    "id": "es:segundo:number",
+    "word": "segundo",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 2,
+    "transcription": "/segundo/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 2"
+    ],
+    "examples": [
+      "Es el segundo día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:second:number"
+  },
+  {
+    "id": "es:tercero:number",
+    "word": "tercero",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 3,
+    "transcription": "/tercero/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 3"
+    ],
+    "examples": [
+      "Es el tercero día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:third:number"
+  },
+  {
+    "id": "es:cuarto:number",
+    "word": "cuarto",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 4,
+    "transcription": "/cuarto/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 4"
+    ],
+    "examples": [
+      "Es el cuarto día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fourth:number"
+  },
+  {
+    "id": "es:quinto:number",
+    "word": "quinto",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 5,
+    "transcription": "/quinto/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 5"
+    ],
+    "examples": [
+      "Es el quinto día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:fifth:number"
+  },
+  {
+    "id": "es:sexto:number",
+    "word": "sexto",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 6,
+    "transcription": "/sexto/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 6"
+    ],
+    "examples": [
+      "Es el sexto día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:sixth:number"
+  },
+  {
+    "id": "es:septimo:number",
+    "word": "séptimo",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 7,
+    "transcription": "/séptimo/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 7"
+    ],
+    "examples": [
+      "Es el séptimo día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:seventh:number"
+  },
+  {
+    "id": "es:octavo:number",
+    "word": "octavo",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 8,
+    "transcription": "/octavo/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 8"
+    ],
+    "examples": [
+      "Es el octavo día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:eighth:number"
+  },
+  {
+    "id": "es:noveno:number",
+    "word": "noveno",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 9,
+    "transcription": "/noveno/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 9"
+    ],
+    "examples": [
+      "Es el noveno día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:ninth:number"
+  },
+  {
+    "id": "es:decimo:number",
+    "word": "décimo",
+    "language": "es",
+    "form": "number",
+    "level": "A1",
+    "levels": [
+      "A1"
+    ],
+    "domain": "general, spoken",
+    "theme": "numbers",
+    "sub_theme": "ordinal_numbers",
+    "value": 10,
+    "transcription": "/décimo/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "que ocupa la posición número 10"
+    ],
+    "examples": [
+      "Es el décimo día de la semana."
+    ],
+    "updated": "2025-05-20",
+    "concept": "en:tenth:number"
   }
 ]

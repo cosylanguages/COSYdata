@@ -3267,21 +3267,12 @@
     "domain": "general"
   },
   {
-    "id": "fr:cent-num:number",
+    "id": "fr:cent:number",
     "word": "cent",
     "level": "A1",
     "form": "number",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
-    "id": "fr:cent:number",
-    "word": "cent",
-    "emoji": "💯",
-    "level": "A0",
-    "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:centimetre:noun",
@@ -3923,28 +3914,98 @@
   {
     "id": "fr:cinq:number",
     "word": "cinq",
-    "emoji": "5️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
-    "id": "fr:cinquante-num:number",
-    "word": "cinquante",
+    "id": "fr:cinquante-cinq:number",
+    "word": "cinquante-cinq",
     "level": "A1",
     "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-deux:number",
+    "word": "cinquante-deux",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-et-un:number",
+    "word": "cinquante-et-un",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-huit:number",
+    "word": "cinquante-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-neuf:number",
+    "word": "cinquante-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-quatre:number",
+    "word": "cinquante-quatre",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-sept:number",
+    "word": "cinquante-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-six:number",
+    "word": "cinquante-six",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquante-trois:number",
+    "word": "cinquante-trois",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:cinquante:number",
     "word": "cinquante",
-    "emoji": "5️⃣0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:cinquieme:number",
+    "word": "cinquième",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:citoyen:noun",
@@ -5508,14 +5569,6 @@
     "domain": "general"
   },
   {
-    "id": "fr:dernier-rang:adjective",
-    "word": "dernier",
-    "level": "A1",
-    "form": "adjective",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
     "id": "fr:derriere:preposition",
     "word": "derrière",
     "emoji": "🚪",
@@ -5672,19 +5725,18 @@
   {
     "id": "fr:deux:number",
     "word": "deux",
-    "emoji": "2️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
-    "id": "fr:deuxieme-rang:adjective",
+    "id": "fr:deuxieme:number",
     "word": "deuxième",
     "level": "A1",
-    "form": "adjective",
-    "theme": "general",
-    "domain": "general"
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:devant:preposition",
@@ -5957,38 +6009,42 @@
   {
     "id": "fr:dix-huit:number",
     "word": "dix-huit",
-    "emoji": "1️⃣8️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:dix-neuf:number",
     "word": "dix-neuf",
-    "emoji": "1️⃣9️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:dix-sept:number",
     "word": "dix-sept",
-    "emoji": "1️⃣7️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:dix:number",
     "word": "dix",
-    "emoji": "🔟",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:dixieme:number",
+    "word": "dixième",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:docteur-soignant:noun",
@@ -6194,11 +6250,10 @@
   {
     "id": "fr:douze:number",
     "word": "douze",
-    "emoji": "1️⃣2️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:droit:adjective",
@@ -9824,19 +9879,18 @@
   {
     "id": "fr:huit:number",
     "word": "huit",
-    "emoji": "8️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
-    "id": "fr:huitante-num:number",
-    "word": "huitante",
+    "id": "fr:huitieme:number",
+    "word": "huitième",
     "level": "A1",
     "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:humeur:noun",
@@ -12265,15 +12319,7 @@
     "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
-  },
-  {
-    "id": "fr:milliard-num:number",
-    "word": "milliard",
-    "level": "A1",
-    "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:mince:adjective",
@@ -12946,11 +12992,18 @@
   {
     "id": "fr:neuf:number",
     "word": "neuf",
-    "emoji": "9️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:neuvieme:number",
+    "word": "neuvième",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:neveu-famille:noun",
@@ -13022,29 +13075,12 @@
     "domain": "general"
   },
   {
-    "id": "fr:nombre:noun",
-    "word": "nombre",
-    "emoji": "🔢",
-    "level": "A0",
-    "form": "noun",
-    "theme": "numbers",
-    "domain": "general"
-  },
-  {
     "id": "fr:non:adverb",
     "word": "non",
     "emoji": "👎",
     "level": "A0",
     "form": "adverb",
     "theme": "communication",
-    "domain": "general"
-  },
-  {
-    "id": "fr:nonante-num:number",
-    "word": "nonante",
-    "level": "A1",
-    "form": "number",
-    "theme": "general",
     "domain": "general"
   },
   {
@@ -13221,15 +13257,6 @@
     "domain": "general"
   },
   {
-    "id": "fr:numero:noun",
-    "word": "numéro",
-    "emoji": "🔢",
-    "level": "A0",
-    "form": "noun",
-    "theme": "general",
-    "domain": "general"
-  },
-  {
     "id": "fr:obtenir:verb",
     "word": "obtenir",
     "emoji": "📥",
@@ -13399,11 +13426,10 @@
   {
     "id": "fr:onze:number",
     "word": "onze",
-    "emoji": "1️⃣1️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:orage:noun",
@@ -15377,12 +15403,12 @@
     "domain": "general"
   },
   {
-    "id": "fr:premier-rang:adjective",
+    "id": "fr:premier:number",
     "word": "premier",
     "level": "A1",
-    "form": "adjective",
-    "theme": "general",
-    "domain": "general"
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:premierement:adverb",
@@ -16002,21 +16028,84 @@
     "domain": "general"
   },
   {
-    "id": "fr:quarante-num:number",
-    "word": "quarante",
+    "id": "fr:quarante-cinq:number",
+    "word": "quarante-cinq",
     "level": "A1",
     "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-deux:number",
+    "word": "quarante-deux",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-et-un:number",
+    "word": "quarante-et-un",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-huit:number",
+    "word": "quarante-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-neuf:number",
+    "word": "quarante-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-quatre:number",
+    "word": "quarante-quatre",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-sept:number",
+    "word": "quarante-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-six:number",
+    "word": "quarante-six",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quarante-trois:number",
+    "word": "quarante-trois",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:quarante:number",
     "word": "quarante",
-    "emoji": "4️⃣0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:quartier:noun",
@@ -16030,38 +16119,186 @@
   {
     "id": "fr:quatorze:number",
     "word": "quatorze",
-    "emoji": "1️⃣4️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-cinq:number",
+    "word": "quatre-vingt-cinq",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-deux:number",
+    "word": "quatre-vingt-deux",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-dix-huit:number",
+    "word": "quatre-vingt-dix-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-dix-neuf:number",
+    "word": "quatre-vingt-dix-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-dix-sept:number",
+    "word": "quatre-vingt-dix-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:quatre-vingt-dix:number",
     "word": "quatre-vingt-dix",
-    "emoji": "9️⃣0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-douze:number",
+    "word": "quatre-vingt-douze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-huit:number",
+    "word": "quatre-vingt-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-neuf:number",
+    "word": "quatre-vingt-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-onze:number",
+    "word": "quatre-vingt-onze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-quatorze:number",
+    "word": "quatre-vingt-quatorze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-quatre:number",
+    "word": "quatre-vingt-quatre",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-quinze:number",
+    "word": "quatre-vingt-quinze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-seize:number",
+    "word": "quatre-vingt-seize",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-sept:number",
+    "word": "quatre-vingt-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-six:number",
+    "word": "quatre-vingt-six",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-treize:number",
+    "word": "quatre-vingt-treize",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-trois:number",
+    "word": "quatre-vingt-trois",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatre-vingt-un:number",
+    "word": "quatre-vingt-un",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:quatre-vingts:number",
     "word": "quatre-vingts",
-    "emoji": "8️⃣0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:quatre:number",
     "word": "quatre",
-    "emoji": "4️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:quatrieme:number",
+    "word": "quatrième",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:que:pronoun",
@@ -16144,11 +16381,10 @@
   {
     "id": "fr:quinze:number",
     "word": "quinze",
-    "emoji": "1️⃣5️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:quoi:pronoun",
@@ -18169,11 +18405,10 @@
   {
     "id": "fr:seize:number",
     "word": "seize",
-    "emoji": "1️⃣6️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:sel-de-table:noun",
@@ -18239,19 +18474,10 @@
   {
     "id": "fr:sept:number",
     "word": "sept",
-    "emoji": "7️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
-  },
-  {
-    "id": "fr:septante-num:number",
-    "word": "septante",
-    "level": "A1",
-    "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:septembre:noun",
@@ -18261,6 +18487,14 @@
     "form": "noun",
     "theme": "time",
     "domain": "general"
+  },
+  {
+    "id": "fr:septieme:number",
+    "word": "septième",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:serieux:adjective",
@@ -18498,11 +18732,18 @@
   {
     "id": "fr:six:number",
     "word": "six",
-    "emoji": "6️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:sixieme:number",
+    "word": "sixième",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:skier:/ski.je/",
@@ -18608,30 +18849,164 @@
     "domain": "general"
   },
   {
-    "id": "fr:soixante-dix:number",
-    "word": "soixante-dix",
-    "emoji": "7️⃣0️⃣",
-    "level": "A0",
-    "form": "number",
-    "theme": "numbers",
-    "domain": "general"
-  },
-  {
-    "id": "fr:soixante-num:number",
-    "word": "soixante",
+    "id": "fr:soixante-cinq:number",
+    "word": "soixante-cinq",
     "level": "A1",
     "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-deux:number",
+    "word": "soixante-deux",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-dix-huit:number",
+    "word": "soixante-dix-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-dix-neuf:number",
+    "word": "soixante-dix-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-dix-sept:number",
+    "word": "soixante-dix-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-dix:number",
+    "word": "soixante-dix",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-douze:number",
+    "word": "soixante-douze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-et-onze:number",
+    "word": "soixante-et-onze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-et-un:number",
+    "word": "soixante-et-un",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-huit:number",
+    "word": "soixante-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-neuf:number",
+    "word": "soixante-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-quatorze:number",
+    "word": "soixante-quatorze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-quatre:number",
+    "word": "soixante-quatre",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-quinze:number",
+    "word": "soixante-quinze",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-seize:number",
+    "word": "soixante-seize",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-sept:number",
+    "word": "soixante-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-six:number",
+    "word": "soixante-six",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-treize:number",
+    "word": "soixante-treize",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:soixante-trois:number",
+    "word": "soixante-trois",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:soixante:number",
     "word": "soixante",
-    "emoji": "6️⃣0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:sol-carrelage:noun",
@@ -20077,28 +20452,90 @@
   {
     "id": "fr:treize:number",
     "word": "treize",
-    "emoji": "1️⃣3️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
-    "id": "fr:trente-num:number",
-    "word": "trente",
+    "id": "fr:trente-cinq:number",
+    "word": "trente-cinq",
     "level": "A1",
     "form": "number",
-    "theme": "general",
-    "domain": "general"
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-deux:number",
+    "word": "trente-deux",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-et-un:number",
+    "word": "trente-et-un",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-huit:number",
+    "word": "trente-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-neuf:number",
+    "word": "trente-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-quatre:number",
+    "word": "trente-quatre",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-sept:number",
+    "word": "trente-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-six:number",
+    "word": "trente-six",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:trente-trois:number",
+    "word": "trente-trois",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:trente:number",
     "word": "trente",
-    "emoji": "3️⃣0️⃣",
-    "level": "A0",
+    "level": "A1",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:tres-amoureux:adjective",
@@ -20349,19 +20786,18 @@
   {
     "id": "fr:trois:number",
     "word": "trois",
-    "emoji": "3️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
-    "id": "fr:troisieme-rang:adjective",
+    "id": "fr:troisieme:number",
     "word": "troisième",
     "level": "A1",
-    "form": "adjective",
-    "theme": "general",
-    "domain": "general"
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
   },
   {
     "id": "fr:trop-de:idiom",
@@ -20484,11 +20920,10 @@
   {
     "id": "fr:un:number",
     "word": "un",
-    "emoji": "1️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:une:determiner",
@@ -21019,13 +21454,84 @@
     "domain": "general"
   },
   {
+    "id": "fr:vingt-cinq:number",
+    "word": "vingt-cinq",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-deux:number",
+    "word": "vingt-deux",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-et-un:number",
+    "word": "vingt-et-un",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-huit:number",
+    "word": "vingt-huit",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-neuf:number",
+    "word": "vingt-neuf",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-quatre:number",
+    "word": "vingt-quatre",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-sept:number",
+    "word": "vingt-sept",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-six:number",
+    "word": "vingt-six",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
+    "id": "fr:vingt-trois:number",
+    "word": "vingt-trois",
+    "level": "A1",
+    "form": "number",
+    "theme": "numbers",
+    "domain": "general, spoken"
+  },
+  {
     "id": "fr:vingt:number",
     "word": "vingt",
-    "emoji": "2️⃣0️⃣",
     "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:violation-de-donnees:noun",
@@ -21354,11 +21860,10 @@
   {
     "id": "fr:zero:number",
     "word": "zéro",
-    "emoji": "0️⃣",
-    "level": "A1",
+    "level": "A0",
     "form": "number",
     "theme": "numbers",
-    "domain": "general"
+    "domain": "general, spoken"
   },
   {
     "id": "fr:zinedine-zidane:noun",
