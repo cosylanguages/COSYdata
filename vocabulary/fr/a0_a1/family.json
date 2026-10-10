@@ -659,7 +659,7 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "fr:fils-aîne:noun",
+    "id": "fr:fils-aine:noun",
     "word": "fils aîné",
     "language": "fr",
     "form": "noun",
@@ -683,7 +683,7 @@
     "sub_theme": "immediate_family"
   },
   {
-    "id": "fr:fille-aînee:noun",
+    "id": "fr:fille-ainee:noun",
     "word": "fille aînée",
     "language": "fr",
     "form": "noun",
@@ -969,5 +969,53 @@
     "countability": "countable",
     "plural_form": "époux",
     "sub_theme": "immediate_family"
+  },
+  {
+    "id": "fr:maman:noun",
+    "word": "maman",
+    "language": "fr",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "mam\\u0251\\u0303",
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "mamans",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "terme affectueux pour désigner la mère"
+    ],
+    "examples": [
+      "La petite fille a couru vers sa maman."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "fr:papa:noun",
+    "word": "papa",
+    "language": "fr",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "pap\\u0251",
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "papas",
+    "no_emoji": true,
+    "no_antonym": true,
+    "definitions": [
+      "terme affectueux pour désigner le père"
+    ],
+    "examples": [
+      "Son papa lui lit une histoire chaque soir."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
   }
 ]
