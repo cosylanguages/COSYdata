@@ -1,0 +1,3524 @@
+{
+  "description": "Comprehensive multi-language reference dataset for Days of the Week, Months of the Year, and Seasons across 14 languages, organized by CEFR levels (A0 and A1).",
+  "total_languages": 14,
+  "items_per_language": 23,
+  "categories": {
+    "days_of_week": {
+      "count": 7,
+      "level": "A0",
+      "description": "Days of the week from Monday to Sunday"
+    },
+    "months": {
+      "count": 12,
+      "level": "A1",
+      "description": "Months of the year from January to December"
+    },
+    "seasons": {
+      "count": 4,
+      "level": "A1",
+      "description": "Four seasons of the year (spring, summer, autumn, winter)"
+    }
+  },
+  "languages": {
+    "ba": {
+      "language": "Bashkir",
+      "code": "ba",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "duyshambe",
+              "word": "дүйшәмбе",
+              "translation": "атнаның беренсе көнө",
+              "transcription_ipa": "[dʏj.ʃæmˈbɪ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:duyshambe:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shishambe",
+              "word": "шишәмбе",
+              "translation": "атнаның икенсе көнө",
+              "transcription_ipa": "[ʃi.ʃæmˈbɪ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:shishambe:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sharshamby",
+              "word": "шаршамбы",
+              "translation": "атнаның өсөнсө көнө",
+              "transcription_ipa": "[ʃɑr.ʃɑmˈbɯ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:sharshamby:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "keseuach",
+              "word": "кесеуач",
+              "translation": "атнаның дүртенсе көнө",
+              "transcription_ipa": "[kɪ.sɪ.wɑtɕ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:keseuach:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yoma",
+              "word": "йома",
+              "translation": "атнаның бишенсе көнө",
+              "transcription_ipa": "[joˈmɑ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:yoma:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shimba",
+              "word": "шимбә",
+              "translation": "атнаның алтынсы көнө, ял көнө",
+              "transcription_ipa": "[ʃimˈbæ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:shimba:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yakshambe",
+              "word": "йәкшәмбе",
+              "translation": "атнаның етенсе көнө, ял көнө",
+              "transcription_ipa": "[jæk.ʃæmˈbɪ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ba:yakshambe:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "ghinuar",
+              "word": "ғинуар",
+              "translation": "йылдың беренсе айы",
+              "transcription_ipa": "[ʁi.nuˈɑr]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:ghinuar:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fevral",
+              "word": "февраль",
+              "translation": "йылдың икенсе айы",
+              "transcription_ipa": "[fʲɪˈvrɑlʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:fevral:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mart",
+              "word": "март",
+              "translation": "йылдың өсөнсө айы",
+              "transcription_ipa": "[mɑrt]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:mart:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aprel",
+              "word": "апрель",
+              "translation": "йылдың дүртенсе айы",
+              "transcription_ipa": "[ɐˈprʲelʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:aprel:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "may",
+              "word": "май",
+              "translation": "йылдың бишенсе айы",
+              "transcription_ipa": "[mɑj]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:may:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iyun",
+              "word": "июнь",
+              "translation": "йылдың алтынсы айы",
+              "transcription_ipa": "[ɪˈjunʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:iyun:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iyul",
+              "word": "июль",
+              "translation": "йылдың етенсе айы",
+              "transcription_ipa": "[ɪˈjulʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:iyul:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "avgust",
+              "word": "август",
+              "translation": "йылдың һигеҙенсе айы",
+              "transcription_ipa": "[ˈɑv.ɡust]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:avgust:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sentyabr",
+              "word": "сентябрь",
+              "translation": "йылдың туғыҙынсы айы",
+              "transcription_ipa": "[sʲɪnˈtʲɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:sentyabr:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "oktyabr",
+              "word": "октябрь",
+              "translation": "йылдың унынсы айы",
+              "transcription_ipa": "[ɐkˈtʲɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:oktyabr:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noyabr",
+              "word": "ноябрь",
+              "translation": "йылдың он беренсе айы",
+              "transcription_ipa": "[nɐˈjɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:noyabr:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dekabr",
+              "word": "декабрь",
+              "translation": "йылдың он икенсе айы",
+              "transcription_ipa": "[dʲɪˈkɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:dekabr:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "yaz",
+              "word": "яҙ",
+              "translation": "ҡыш менән йәй араһындағы йыл миҙгеле",
+              "transcription_ipa": "[jɑð]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:yaz:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yay",
+              "word": "йәй",
+              "translation": "йылдың иң йылы миҙгеле",
+              "transcription_ipa": "[jæj]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:yay:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "koz",
+              "word": "көҙ",
+              "translation": "йәй менән ҡыш араһындағы йыл миҙгеле",
+              "transcription_ipa": "[kʏð]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:koz:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kysh",
+              "word": "ҡыш",
+              "translation": "йылдың иң һыуыҡ миҙгеле",
+              "transcription_ipa": "[qɯʃ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ba:kysh:noun",
+              "repository_file": "vocabulary/ba/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "br": {
+      "language": "Breton",
+      "code": "br",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "lun",
+              "word": "lun",
+              "translation": "kentañ devezh ar sizhun laborat",
+              "transcription_ipa": "/lyːn/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:lun:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "meurzh",
+              "word": "meurzh",
+              "translation": "eil devezh ar sizhun",
+              "transcription_ipa": "/mœʁs/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:meurzh:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mercher",
+              "word": "merc'her",
+              "translation": "trede devezh ar sizhun",
+              "transcription_ipa": "/mɛʁˈxɛʁ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:mercher:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yaou",
+              "word": "yaou",
+              "translation": "pevare devezh ar sizhun",
+              "transcription_ipa": "/jaw/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:yaou:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "gwener",
+              "word": "gwener",
+              "translation": "pempvet devezh ar sizhun",
+              "transcription_ipa": "/ˈɡwɛːnɛʁ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:gwener:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sadorn",
+              "word": "sadorn",
+              "translation": "c'hwec'hvet devezh ar sizhun",
+              "transcription_ipa": "/ˈsaːdɔʁn/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:sadorn:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sul",
+              "word": "sul",
+              "translation": "seizhvet devezh ar sizhun",
+              "transcription_ipa": "/syːl/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "br:sul:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "genver",
+              "word": "genver",
+              "translation": "kentañ miz ar bloaz",
+              "transcription_ipa": "/ˈɡɛnvɛʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:genver:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "chwevrer",
+              "word": "c'hwevrer",
+              "translation": "eil miz ar bloaz",
+              "transcription_ipa": "/ˈxwɛvʁɛʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:chwevrer:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "meurzh-miz",
+              "word": "meurzh",
+              "translation": "trede miz ar bloaz",
+              "transcription_ipa": "/mœʁs/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:meurzh-miz:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ebrel",
+              "word": "ebrel",
+              "translation": "pevare miz ar bloaz",
+              "transcription_ipa": "/ˈeːbʁɛl/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:ebrel:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mae",
+              "word": "mae",
+              "translation": "pempvet miz ar bloaz",
+              "transcription_ipa": "/mɛː/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:mae:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mehefin",
+              "word": "mehefin",
+              "translation": "c'hwec'hvet miz ar bloaz",
+              "transcription_ipa": "/mɛˈheːvĩn/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:mehefin:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "gouere",
+              "word": "gouere",
+              "translation": "seizhvet miz ar bloaz",
+              "transcription_ipa": "/ˈɡweːʁɛ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:gouere:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "eost",
+              "word": "eost",
+              "translation": "eizhvet miz ar bloaz",
+              "transcription_ipa": "/ɛwst/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:eost:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "gwengolo",
+              "word": "gwengolo",
+              "translation": "navvet miz ar bloaz",
+              "transcription_ipa": "/ɡwɛnˈɡoːlo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:gwengolo:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "here",
+              "word": "here",
+              "translation": "dekvet miz ar bloaz",
+              "transcription_ipa": "/ˈheːʁɛ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:here:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "du",
+              "word": "du",
+              "translation": "unnekvet miz ar bloaz",
+              "transcription_ipa": "/dyː/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:du:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kerzu",
+              "word": "kerzu",
+              "translation": "Rikvet miz ar bloaz",
+              "transcription_ipa": "/ˈkɛʁzy/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:kerzu:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "nevez-amzer",
+              "word": "nevez-amzer",
+              "translation": "ar mare eus ar bloaz etre ar goañv hag an hañv",
+              "transcription_ipa": "/ˌneːveˈdamzɛʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:nevez-amzer:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "hanv",
+              "word": "hañv",
+              "translation": "ar mare tommañ eus ar bloaz",
+              "transcription_ipa": "/hɑ̃ːv/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:hanv:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "diskar-amzer",
+              "word": "diskar-amzer",
+              "translation": "ar mare eus ar bloaz etre an hañv hag ar goañv",
+              "transcription_ipa": "/ˌdiskaˈramzɛʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:diskar-amzer:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            },
+            {
+              "slug": "goanv",
+              "word": "goañv",
+              "translation": "ar mare yenañ eus ar bloaz",
+              "transcription_ipa": "/ɡwɑ̃ːv/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "br:goanv:noun",
+              "repository_file": "vocabulary/br/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "cv": {
+      "language": "Chuvash",
+      "code": "cv",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "tuntikun",
+              "word": "тунтикун",
+              "translation": "эрненӗ пӗрремӗш кунӗ",
+              "transcription_ipa": "[tun.tiˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:tuntikun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ytlarikun",
+              "word": "ытларикун",
+              "translation": "эрненӗ иккӗмӗш кунӗ",
+              "transcription_ipa": "[ɯt.la.riˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:ytlarikun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yunkun",
+              "word": "юнкун",
+              "translation": "эрненӗ виҫҫӗмӗш кунӗ",
+              "transcription_ipa": "[junˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:yunkun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kesnernikun",
+              "word": "кӗҫнерникун",
+              "translation": "эрненӗ тӑваттӑмӗш куνӗ",
+              "transcription_ipa": "[kɘɕ.nɛr.niˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:kesnernikun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ernekun",
+              "word": "эрнекун",
+              "translation": "эрненӗ пиллӗкӗмӗш кунӗ",
+              "transcription_ipa": "[ɛr.nɛˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:ernekun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shamatkun",
+              "word": "шӑматкун",
+              "translation": "эрненӗ улттӑмӗш кунӗ, კანикул кунӗ",
+              "transcription_ipa": "[ʃə.matˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:shamatkun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "vyrsarnikun",
+              "word": "вырсарникун",
+              "translation": "эрненӗ ҫиччӗмӗш кунӗ, канни кунӗ",
+              "transcription_ipa": "[vɯr.sar.niˈkun]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "cv:vyrsarnikun:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "karlach",
+              "word": "кӑрлач",
+              "translation": "ҫулталӑкӑн пӗрремӗш уйӑхӗ",
+              "transcription_ipa": "[kərˈlatɕ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:karlach:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "naras",
+              "word": "нарӑс",
+              "translation": "ҫулталӑкӑн иккӗмӗш уйӑхӗ",
+              "transcription_ipa": "[naˈrəs]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:naras:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "push",
+              "word": "пуш",
+              "translation": "ҫулталӑкӑн виҫҫӗмӗш уйӑхӗ",
+              "transcription_ipa": "[puʃ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:push:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aka",
+              "word": "ака",
+              "translation": "ҫулталӑкӑн тӑваттӑмӗш уйӑхӗ",
+              "transcription_ipa": "[aˈka]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:aka:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "may",
+              "word": "май",
+              "translation": "ҫулталӑкӑн пиллӗкӗмӗш уйӑхӗ",
+              "transcription_ipa": "[maj]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:may:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sertme",
+              "word": "ҫӗртме",
+              "translation": "ҫулталӑкӑн улттӑмӗш уйӑхӗ",
+              "transcription_ipa": "[ɕɘrtˈmɛ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:sertme:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "uta",
+              "word": "утӑ",
+              "translation": "ҫулталӑкӑн ҫиччӗмӗш уйӑхӗ",
+              "transcription_ipa": "[uˈtə]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:uta:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "surla",
+              "word": "ҫурла",
+              "translation": "ҫулталӑкӑн миҫемӗш уйӑхӗ",
+              "transcription_ipa": "[ɕurˈla]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:surla:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "avan",
+              "word": "авӑн",
+              "translation": "ҫулталӑкӑн тӑххӑрмӗш уйӑхӗ",
+              "transcription_ipa": "[aˈvən]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:avan:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yupa",
+              "word": "юпа",
+              "translation": "ҫулталӑкӑн вуннӑмӗш уйӑхӗ",
+              "transcription_ipa": "[juˈpa]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:yupa:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "chuk",
+              "word": "чӳк",
+              "translation": "ҫулталӑкӑн вунпӗрремӗш уйӑхӗ",
+              "transcription_ipa": "[tɕyk]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:chuk:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "rashtav",
+              "word": "раштав",
+              "translation": "ҫулталӑкӑн вунниккӗмӗш уйӑхӗ",
+              "transcription_ipa": "[raʃˈtav]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:rashtav:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "surkunne",
+              "word": "ҫуркунне",
+              "translation": "хӗлпе ҫу хушшинчи ҫулталӑк вӑхӑчӗ",
+              "transcription_ipa": "[ɕur.kunˈnɛ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:surkunne:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "su",
+              "word": "ҫу",
+              "translation": "ҫулталӑкӑν чи ӑшӑ вӑхӑчӗ",
+              "transcription_ipa": "[ɕu]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:su:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ker",
+              "word": "кӗр",
+              "translation": "ҫупе хӗл хушшинчи ҫулталӑк вӑхӑчӗ",
+              "transcription_ipa": "[kɘr]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:ker:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            },
+            {
+              "slug": "khel",
+              "word": "хӗл",
+              "translation": "ҫулталӑкӑн чи сивӗ вӑхӑчӗ",
+              "transcription_ipa": "[xɘl]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "cv:khel:noun",
+              "repository_file": "vocabulary/cv/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "de": {
+      "language": "German",
+      "code": "de",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "montag",
+              "word": "Montag",
+              "translation": "Der erste Tag der Arbeitswoche.",
+              "transcription_ipa": "/ˈmoːntaːk/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:montag:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dienstag",
+              "word": "Dienstag",
+              "translation": "Der zweite Tag der Woche.",
+              "transcription_ipa": "/ˈdiːnstaːk/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:dienstag:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mittwoch",
+              "word": "Mittwoch",
+              "translation": "Der dritte Tag der Woche, Mitte der Arbeitswoche.",
+              "transcription_ipa": "/ˈmɪtvɔx/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:mittwoch:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "donnerstag",
+              "word": "Donnerstag",
+              "translation": "Der vierte Tag der Woche.",
+              "transcription_ipa": "/ˈdɔnɐstaːk/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:donnerstag:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "freitag",
+              "word": "Freitag",
+              "translation": "Der fünfte Tag der Woche.",
+              "transcription_ipa": "/ˈfraɪ̯taːk/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:freitag:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "samstag",
+              "word": "Samstag",
+              "translation": "Der sechste Tag der Woche, erster Tag des Wochenendes.",
+              "transcription_ipa": "/ˈzamstaːk/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:samstag:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sonntag",
+              "word": "Sonntag",
+              "translation": "Der siebte Tag der Woche, Ruhetag.",
+              "transcription_ipa": "/ˈzɔntaːk/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "de:sonntag:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "januar",
+              "word": "Januar",
+              "translation": "Der erste Monat des Jahres.",
+              "transcription_ipa": "/ˈjanuaːɐ̯/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:januar:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "februar",
+              "word": "Februar",
+              "translation": "Der zweite Monat des Jahres.",
+              "transcription_ipa": "/ˈfeːbruaːɐ̯/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:februar:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "maerz",
+              "word": "März",
+              "translation": "Der dritte Monat des Jahres.",
+              "transcription_ipa": "/mɛʁts/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:maerz:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "april",
+              "word": "April",
+              "translation": "Der vierte Monat des Jahres.",
+              "transcription_ipa": "/aˈpʁɪl/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:april:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mai",
+              "word": "Mai",
+              "translation": "Der fünfte Monat des Jahres.",
+              "transcription_ipa": "/maɪ̯/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:mai:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "juni",
+              "word": "Juni",
+              "translation": "Der sechste Monat des Jahres.",
+              "transcription_ipa": "/ˈjuːni/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:juni:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "juli",
+              "word": "Juli",
+              "translation": "Der siebte Monat des Jahres.",
+              "transcription_ipa": "/ˈjuːli/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:juli:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "august",
+              "word": "August",
+              "translation": "Der achte Monat des Jahres.",
+              "transcription_ipa": "/aʊ̯ˈɡʊst/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:august:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "september",
+              "word": "September",
+              "translation": "Der neunte Monat des Jahres.",
+              "transcription_ipa": "/zɛpˈtɛmbɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:september:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "oktober",
+              "word": "Oktober",
+              "translation": "Der zehnte Monat des Jahres.",
+              "transcription_ipa": "/ɔkˈtoːbɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:oktober:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "november",
+              "word": "November",
+              "translation": "Der elfte Monat des Jahres.",
+              "transcription_ipa": "/noˈvɛmbɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:november:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dezember",
+              "word": "Dezember",
+              "translation": "Der zwölfte Monat des Jahres.",
+              "transcription_ipa": "/deˈtsɛmbɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:dezember:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "fruehling",
+              "word": "Frühling",
+              "translation": "Die Jahreszeit zwischen Winter und Sommer.",
+              "transcription_ipa": "/ˈfʁyːlɪŋ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:fruehling:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sommer",
+              "word": "Sommer",
+              "translation": "Die wärmste Jahreszeit des Jahres.",
+              "transcription_ipa": "/ˈzɔmɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:sommer:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "herbst",
+              "word": "Herbst",
+              "translation": "Die Jahreszeit zwischen Sommer und Winter.",
+              "transcription_ipa": "/hɛʁpst/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:herbst:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            },
+            {
+              "slug": "winter",
+              "word": "Winter",
+              "translation": "Die kälteste Jahreszeit des Jahres.",
+              "transcription_ipa": "/ˈvɪntɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "de:winter:noun",
+              "repository_file": "vocabulary/de/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "el": {
+      "language": "Greek",
+      "code": "el",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "deytera",
+              "word": "Δευτέρα",
+              "translation": "η πρώτη ημέρα της εβδομάδας",
+              "transcription_ipa": "/ðefˈtera/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:deytera:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "triti",
+              "word": "Τρίτη",
+              "translation": "η δεύτερη ημέρα της εβδομάδας",
+              "transcription_ipa": "/ˈtriti/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:triti:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "tetarti",
+              "word": "Τετάρτη",
+              "translation": "η τρίτη ημέρα της εβδομάδας",
+              "transcription_ipa": "/teˈtarti/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:tetarti:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "pempti",
+              "word": "Πέμπτη",
+              "translation": "η τέταρτη ημέρα της εβδομάδας",
+              "transcription_ipa": "/ˈpempti/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:pempti:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "paraskevi",
+              "word": "Παρασκευή",
+              "translation": "η πέμπτη ημέρα της εβδομάδας",
+              "transcription_ipa": "/pa.ra.skeˈvi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:paraskevi:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sabbato",
+              "word": "Σάββατο",
+              "translation": "η έκτη ημέρα της εβδομάδας",
+              "transcription_ipa": "/ˈsavato/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:sabbato:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kyriaki",
+              "word": "Κυριακή",
+              "translation": "η έβδομη ημέρα της εβδομάδας",
+              "transcription_ipa": "/ci.rjaˈci/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "el:kyriaki:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "ianouarios",
+              "word": "Ιανουάριος",
+              "translation": "ο πρώτος μήνας του έτους",
+              "transcription_ipa": "/i.a.nuˈa.ri.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:ianouarios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fevrouarios",
+              "word": "Φεβρουάριος",
+              "translation": "ο δεύτερος μήνας του έτους",
+              "transcription_ipa": "/fe.vruˈa.ri.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:fevrouarios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "martios",
+              "word": "Μάρτιος",
+              "translation": "ο τρίτος μήνας του έτους",
+              "transcription_ipa": "/ˈmar.ti.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:martios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aprilios",
+              "word": "Απρίλιος",
+              "translation": "ο τέταρτος μήνας του έτους",
+              "transcription_ipa": "/aˈpri.li.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:aprilios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "maios",
+              "word": "Μάιος",
+              "translation": "ο πέμπτος μήνας του έτους",
+              "transcription_ipa": "/ˈma.i.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:maios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iounios",
+              "word": "Ιούνιος",
+              "translation": "ο έκτος μήνας του έτους",
+              "transcription_ipa": "/iˈu.ni.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:iounios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ioulios",
+              "word": "Ιούλιος",
+              "translation": "ο έβδομος μήνας του έτους",
+              "transcription_ipa": "/iˈu.li.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:ioulios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "avgoustos",
+              "word": "Αύγουστος",
+              "translation": "ο όγδοος μήνας του έτους",
+              "transcription_ipa": "/ˈav.ɣu.stos/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:avgoustos:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "septembrios",
+              "word": "Σεπτέμβριος",
+              "translation": "ο ένατος μήνας του έτους",
+              "transcription_ipa": "/seˈpte.vri.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:septembrios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "oktovrios",
+              "word": "Οκτώβριος",
+              "translation": "ο δέκατος μήνας του έτους",
+              "transcription_ipa": "/oˈkto.vri.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:oktovrios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noembrios",
+              "word": "Νοέμβριος",
+              "translation": "ο ενδέκατος μήνας του έτους",
+              "transcription_ipa": "/noˈe.vri.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:noembrios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dekembrios",
+              "word": "Δεκέμβριος",
+              "translation": "ο δωδέκατος μήνας του έτους",
+              "transcription_ipa": "/ðeˈke.vri.os/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:dekembrios:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "anoixi",
+              "word": "άνοιξη",
+              "translation": "η εποχή μετά τον χειμώνα",
+              "transcription_ipa": "/ˈa.ni.ksi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:anoixi:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kalokairi",
+              "word": "καλοκαίρι",
+              "translation": "η πιο θερμή εποχή του έτους",
+              "transcription_ipa": "/ka.loˈce.ri/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:kalokairi:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fthinoporo",
+              "word": "φθινόπωρο",
+              "translation": "η εποχή μετά το καλοκαίρι",
+              "transcription_ipa": "/fθiˈno.po.ro/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:fthinoporo:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            },
+            {
+              "slug": "cheimonas",
+              "word": "χειμώνας",
+              "translation": "η πιο κρύα εποχή του έτους",
+              "transcription_ipa": "/çiˈmo.nas/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "el:cheimonas:noun",
+              "repository_file": "vocabulary/el/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "en": {
+      "language": "English",
+      "code": "en",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "monday",
+              "word": "Monday",
+              "translation": "the first day of the working week",
+              "transcription_ipa": "/ˈmʌn.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:monday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "tuesday",
+              "word": "Tuesday",
+              "translation": "the second day of the week",
+              "transcription_ipa": "/ˈtjuːz.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:tuesday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "wednesday",
+              "word": "Wednesday",
+              "translation": "the third day of the week",
+              "transcription_ipa": "/ˈwɛnz.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:wednesday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "thursday",
+              "word": "Thursday",
+              "translation": "the fourth day of the week",
+              "transcription_ipa": "/ˈθɜːz.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:thursday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "friday",
+              "word": "Friday",
+              "translation": "the fifth day of the week",
+              "transcription_ipa": "/ˈfraɪ.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:friday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "saturday",
+              "word": "Saturday",
+              "translation": "the sixth day of the week, part of the weekend",
+              "transcription_ipa": "/ˈsæt.ə.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:saturday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sunday",
+              "word": "Sunday",
+              "translation": "the seventh day of the week, part of the weekend",
+              "transcription_ipa": "/ˈsʌn.deɪ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "en:sunday:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "january",
+              "word": "January",
+              "translation": "the first month of the year",
+              "transcription_ipa": "/ˈdʒæn.ju.ə.ri/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:january:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "february",
+              "word": "February",
+              "translation": "the second month of the year",
+              "transcription_ipa": "/ˈfɛb.ru.ə.ri/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:february:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "march",
+              "word": "March",
+              "translation": "the third month of the year",
+              "transcription_ipa": "/mɑːtʃ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:march:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "april",
+              "word": "April",
+              "translation": "the fourth month of the year",
+              "transcription_ipa": "/ˈeɪ.prəl/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:april:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "may",
+              "word": "May",
+              "translation": "the fifth month of the year",
+              "transcription_ipa": "/meɪ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:may:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "june",
+              "word": "June",
+              "translation": "the sixth month of the year",
+              "transcription_ipa": "/dʒuːn/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:june:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "july",
+              "word": "July",
+              "translation": "the seventh month of the year",
+              "transcription_ipa": "/dʒuˈlaɪ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:july:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "august",
+              "word": "August",
+              "translation": "the eighth month of the year",
+              "transcription_ipa": "/ˈɔː.ɡəst/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:august:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "september",
+              "word": "September",
+              "translation": "the ninth month of the year",
+              "transcription_ipa": "/sɛpˈtɛm.bə/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:september:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "october",
+              "word": "October",
+              "translation": "the tenth month of the year",
+              "transcription_ipa": "/ɒkˈtəʊ.bə/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:october:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "november",
+              "word": "November",
+              "translation": "the eleventh month of the year",
+              "transcription_ipa": "/nəʊˈvɛm.bə/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:november:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "december",
+              "word": "December",
+              "translation": "the twelfth month of the year",
+              "transcription_ipa": "/dɪˈsɛm.bə/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:december:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "spring",
+              "word": "spring",
+              "translation": "the season between winter and summer when plants begin to grow",
+              "transcription_ipa": "/sprɪŋ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:spring:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "summer",
+              "word": "summer",
+              "translation": "the warmest season of the year, between spring and autumn",
+              "transcription_ipa": "/ˈsʌm.ə/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:summer:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "autumn",
+              "word": "autumn",
+              "translation": "the season between summer and winter when leaves fall",
+              "transcription_ipa": "/ˈɔː.təm/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:autumn:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            },
+            {
+              "slug": "winter",
+              "word": "winter",
+              "translation": "the coldest season of the year, between autumn and spring",
+              "transcription_ipa": "/ˈwɪn.tə/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "en:winter:noun",
+              "repository_file": "vocabulary/en/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "es": {
+      "language": "Spanish",
+      "code": "es",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "lunes",
+              "word": "lunes",
+              "translation": "El primer día de la semana laboral.",
+              "transcription_ipa": "/ˈlu.nes/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:lunes:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "martes",
+              "word": "martes",
+              "translation": "El segundo día de la semana.",
+              "transcription_ipa": "/ˈmar.tes/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:martes:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "miercoles",
+              "word": "miércoles",
+              "translation": "El tercer día de la semana.",
+              "transcription_ipa": "/ˈmjer.ko.les/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:miercoles:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "jueves",
+              "word": "jueves",
+              "translation": "El cuarto día de la semana.",
+              "transcription_ipa": "/ˈxwe.βes/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:jueves:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "viernes",
+              "word": "viernes",
+              "translation": "El quinto día de la semana.",
+              "transcription_ipa": "/ˈbjer.nes/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:viernes:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sabado",
+              "word": "sábado",
+              "translation": "El sexto día de la semana, fin de semana.",
+              "transcription_ipa": "/ˈsa.βa.ðo/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:sabado:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "domingo",
+              "word": "domingo",
+              "translation": "El séptimo día de la semana.",
+              "transcription_ipa": "/doˈmiŋ.ɡo/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "es:domingo:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "enero",
+              "word": "enero",
+              "translation": "El primer mes del año.",
+              "transcription_ipa": "/eˈne.ro/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:enero:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "febrero",
+              "word": "febrero",
+              "translation": "El segundo mes del año.",
+              "transcription_ipa": "/feˈβre.ro/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:febrero:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "marzo",
+              "word": "marzo",
+              "translation": "El tercer mes del año.",
+              "transcription_ipa": "/ˈmar.θo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:marzo:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "abril",
+              "word": "abril",
+              "translation": "El cuarto mes del año.",
+              "transcription_ipa": "/aˈβril/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:abril:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mayo",
+              "word": "mayo",
+              "translation": "El quinto mes del año.",
+              "transcription_ipa": "/ˈma.ʝo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:mayo:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "junio",
+              "word": "junio",
+              "translation": "El sexto mes del año.",
+              "transcription_ipa": "/ˈxu.njo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:junio:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "julio",
+              "word": "julio",
+              "translation": "El séptimo mes del año.",
+              "transcription_ipa": "/ˈxu.ljo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:julio:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "agosto",
+              "word": "agosto",
+              "translation": "El octavo mes del año.",
+              "transcription_ipa": "/aˈɣos.to/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:agosto:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "septiembre",
+              "word": "septiembre",
+              "translation": "El noveno mes del año.",
+              "transcription_ipa": "/sepˈtjem.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:septiembre:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "octubre",
+              "word": "octubre",
+              "translation": "El décimo mes del año.",
+              "transcription_ipa": "/okˈtu.βre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:octubre:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noviembre",
+              "word": "noviembre",
+              "translation": "El undécimo mes del año.",
+              "transcription_ipa": "/noˈβjem.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:noviembre:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "diciembre",
+              "word": "diciembre",
+              "translation": "El duodécimo mes del año.",
+              "transcription_ipa": "/diˈθjem.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:diciembre:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "primavera",
+              "word": "primavera",
+              "translation": "La estación entre el invierno y el verano.",
+              "transcription_ipa": "/pri.maˈβe.ra/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:primavera:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "verano",
+              "word": "verano",
+              "translation": "La estación más cálida del año.",
+              "transcription_ipa": "/beˈra.no/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:verano:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "otono",
+              "word": "otoño",
+              "translation": "La estación entre el verano y el invierno.",
+              "transcription_ipa": "/oˈto.ɲo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:otono:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            },
+            {
+              "slug": "invierno",
+              "word": "invierno",
+              "translation": "La estación más fría del año.",
+              "transcription_ipa": "/imˈbjer.no/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "es:invierno:noun",
+              "repository_file": "vocabulary/es/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "fr": {
+      "language": "French",
+      "code": "fr",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "lundi",
+              "word": "lundi",
+              "translation": "Le premier jour de la semaine de travail.",
+              "transcription_ipa": "/lœ̃.di/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:lundi:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mardi",
+              "word": "mardi",
+              "translation": "Le deuxième jour de la semaine.",
+              "transcription_ipa": "/maʁ.di/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:mardi:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mercredi",
+              "word": "mercredi",
+              "translation": "Le troisième jour de la semaine.",
+              "transcription_ipa": "/mɛʁ.kʁə.di/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:mercredi:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "jeudi",
+              "word": "jeudi",
+              "translation": "Le quatrième jour de la semaine.",
+              "transcription_ipa": "/ʒø.di/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:jeudi:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "vendredi",
+              "word": "vendredi",
+              "translation": "Le cinquième jour de la semaine.",
+              "transcription_ipa": "/vɑ̃.dʁə.di/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:vendredi:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "samedi",
+              "word": "samedi",
+              "translation": "Le sixième jour de la semaine, premier jour du week-end.",
+              "transcription_ipa": "/sam.di/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:samedi:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dimanche",
+              "word": "dimanche",
+              "translation": "Le septième et dernier jour de la semaine.",
+              "transcription_ipa": "/di.mɑ̃ʃ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "fr:dimanche:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "janvier",
+              "word": "janvier",
+              "translation": "Le premier mois de l'année.",
+              "transcription_ipa": "/ʒɑ̃.vje/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:janvier:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fevrier",
+              "word": "février",
+              "translation": "Le deuxième mois de l'année.",
+              "transcription_ipa": "/fe.vʁije/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:fevrier:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mars",
+              "word": "mars",
+              "translation": "Le troisième mois de l'année.",
+              "transcription_ipa": "/maʁs/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:mars:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "avril",
+              "word": "avril",
+              "translation": "Le quatrième mois de l'année.",
+              "transcription_ipa": "/a.vʁil/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:avril:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mai",
+              "word": "mai",
+              "translation": "Le cinquième mois de l'année.",
+              "transcription_ipa": "/mɛ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:mai:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "juin",
+              "word": "juin",
+              "translation": "Le sixième mois de l'année.",
+              "transcription_ipa": "/ʒɥɛ̃/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:juin:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "juillet",
+              "word": "juillet",
+              "translation": "Le septième mois de l'année.",
+              "transcription_ipa": "/ʒɥi.jɛ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:juillet:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aout",
+              "word": "août",
+              "translation": "Le huitième mois de l'année.",
+              "transcription_ipa": "/ut/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:aout:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "septembre",
+              "word": "septembre",
+              "translation": "Le neuvième mois de l'année.",
+              "transcription_ipa": "/sɛp.tɑ̃bʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:septembre:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "octobre",
+              "word": "octobre",
+              "translation": "Le dixième mois de l'année.",
+              "transcription_ipa": "/ɔk.tɔbʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:octobre:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "novembre",
+              "word": "novembre",
+              "translation": "Le onzième mois de l'année.",
+              "transcription_ipa": "/nɔ.vɑ̃bʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:novembre:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "decembre",
+              "word": "décembre",
+              "translation": "Le douzième et dernier mois de l'année.",
+              "transcription_ipa": "/de.sɑ̃bʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:decembre:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "printemps",
+              "word": "printemps",
+              "translation": "La saison entre l'hiver et l'été.",
+              "transcription_ipa": "/pʁɛ̃.tɑ̃/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:printemps:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ete",
+              "word": "été",
+              "translation": "La saison la plus chaude de l'année.",
+              "transcription_ipa": "/e.te/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:ete:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "automne",
+              "word": "automne",
+              "translation": "La saison entre l'été et l'hiver.",
+              "transcription_ipa": "/o.tɔn/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:automne:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            },
+            {
+              "slug": "hiver",
+              "word": "hiver",
+              "translation": "La saison la plus froide de l'année.",
+              "transcription_ipa": "/i.vɛʁ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "fr:hiver:noun",
+              "repository_file": "vocabulary/fr/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "hy": {
+      "language": "Armenian",
+      "code": "hy",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "erkushabti",
+              "word": "երկուշաբթի",
+              "translation": "շաբաթվա առաջին օրը",
+              "transcription_ipa": "/jɛɾkuʃɑpˈtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:erkushabti:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ereqshabti",
+              "word": "երեքշաբթի",
+              "translation": "շաբաթվա երկրորդ օրը",
+              "transcription_ipa": "/jɛɾɛkʰʃɑpˈtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:ereqshabti:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "choreqshabti",
+              "word": "չորեքշաբթի",
+              "translation": "շաբաթվա երրորդ օրը",
+              "transcription_ipa": "/tʃʰɔɾɛkʰʃɑpˈtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:choreqshabti:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "hingshabti",
+              "word": "հինգշաբթի",
+              "translation": "շաբաթվա չորրորդ օրը",
+              "transcription_ipa": "/hinɡʃɑpˈtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:hingshabti:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "urbat",
+              "word": "ուրբաթ",
+              "translation": "շաբաթվա հինգերորդ օրը",
+              "transcription_ipa": "/uɾˈpʰɑtʰ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:urbat:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shabat",
+              "word": "շաբաթ",
+              "translation": "շաբաթվա վեցերորդ օրը",
+              "transcription_ipa": "/ʃɑˈpʰɑtʰ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:shabat:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kiraki",
+              "word": "կիրակի",
+              "translation": "շաբաթվա յոթերորդ օրը",
+              "transcription_ipa": "/kiɾɑˈki/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "hy:kiraki:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "hunvar",
+              "word": "հունվար",
+              "translation": "տարվա առաջին ամիսը",
+              "transcription_ipa": "/hunˈvɑɾ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:hunvar:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "petrvar",
+              "word": "փետրվար",
+              "translation": "տարվա երկրորդ ամիսը",
+              "transcription_ipa": "/pʰɛtɾˈvɑɾ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:petrvar:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mart",
+              "word": "մարտ",
+              "translation": "տարվա երրորդ ամիսը",
+              "transcription_ipa": "/mɑɾt/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:mart:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "april",
+              "word": "ապրիլ",
+              "translation": "տարվա չորրորդ ամիսը",
+              "transcription_ipa": "/ɑpˈɾil/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:april:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mayis",
+              "word": "մայիս",
+              "translation": "տարվա հինգերորդ ամիսը",
+              "transcription_ipa": "/mɑˈjis/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:mayis:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "hunis",
+              "word": "հունիս",
+              "translation": "տարվա վեցերորդ ամիսը",
+              "transcription_ipa": "/huˈnis/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:hunis:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "hulis",
+              "word": "հուլիս",
+              "translation": "տարվա յոթերորդ ամիսը",
+              "transcription_ipa": "/huˈlis/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:hulis:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ogostos",
+              "word": "օգոստոս",
+              "translation": "տարվա ութերորդ ամիսը",
+              "transcription_ipa": "/ɔɡɔsˈtɔs/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:ogostos:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "september",
+              "word": "սեպտեմբեր",
+              "translation": "տարվա իններորդ ամիսը",
+              "transcription_ipa": "/sɛptɛmˈbɛɾ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:september:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "hoktember",
+              "word": "հոկտեմբեր",
+              "translation": "տարվա տասներորդ ամիսը",
+              "transcription_ipa": "/hɔktɛmˈbɛɾ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:hoktember:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noyember",
+              "word": "նոյեմբեր",
+              "translation": "տարվա տասնմեկերորդ ամիսը",
+              "transcription_ipa": "/nɔjɛmˈbɛɾ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:noyember:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dektember",
+              "word": "դեկտեմբեր",
+              "translation": "տարվա տասներկուերորդ ամիսը",
+              "transcription_ipa": "/dɛktɛmˈbɛɾ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:dektember:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "garun",
+              "word": "գարուն",
+              "translation": "տարվա եղանակ ձմռան և ամռան միջև",
+              "transcription_ipa": "/ɡɑˈɾun/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:garun:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "amar",
+              "word": "ամառ",
+              "translation": "տարվա ամենատաք եղանակը",
+              "transcription_ipa": "/ɑˈmɑr/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:amar:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ashun",
+              "word": "աշուն",
+              "translation": "տարվա եղանակ ամռան և ձմռան միջև",
+              "transcription_ipa": "/ɑˈʃun/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:ashun:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dzmer",
+              "word": "ձմեռ",
+              "translation": "տարվա ամենացուրտ եղանակը",
+              "transcription_ipa": "/dzəˈmɛr/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "hy:dzmer:noun",
+              "repository_file": "vocabulary/hy/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "it": {
+      "language": "Italian",
+      "code": "it",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "lunedi",
+              "word": "lunedì",
+              "translation": "Il primo giorno della settimana lavorativa.",
+              "transcription_ipa": "/lu.neˈdi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:lunedi:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "martedi",
+              "word": "martedì",
+              "translation": "Il secondo giorno della settimana.",
+              "transcription_ipa": "/mar.teˈdi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:martedi:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mercoledi",
+              "word": "mercoledì",
+              "translation": "Il terzo giorno della settimana.",
+              "transcription_ipa": "/mer.ko.leˈdi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:mercoledi:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "giovedi",
+              "word": "giovedì",
+              "translation": "Il quarto giorno della settimana.",
+              "transcription_ipa": "/dʒo.veˈdi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:giovedi:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "venerdi",
+              "word": "venerdì",
+              "translation": "Il quinto giorno della settimana.",
+              "transcription_ipa": "/ve.nerˈdi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:venerdi:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sabato",
+              "word": "sabato",
+              "translation": "Il sesto giorno della settimana.",
+              "transcription_ipa": "/ˈsa.ba.to/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:sabato:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "domenica",
+              "word": "domenica",
+              "translation": "L'ultimo giorno della settimana.",
+              "transcription_ipa": "/doˈme.ni.ka/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "it:domenica:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "gennaio",
+              "word": "gennaio",
+              "translation": "Il primo mese dell'anno.",
+              "transcription_ipa": "/dʒenˈna.jo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:gennaio:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "febbraio",
+              "word": "febbraio",
+              "translation": "Il secondo mese dell'anno.",
+              "transcription_ipa": "/febˈbra.jo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:febbraio:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "marzo",
+              "word": "marzo",
+              "translation": "Il terzo mese dell'anno.",
+              "transcription_ipa": "/ˈmar.tso/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:marzo:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aprile",
+              "word": "aprile",
+              "translation": "Il quarto mese dell'anno.",
+              "transcription_ipa": "/aˈpri.le/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:aprile:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "maggio",
+              "word": "maggio",
+              "translation": "Il quinto mese dell'anno.",
+              "transcription_ipa": "/ˈmad.dʒo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:maggio:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "giugno",
+              "word": "giugno",
+              "translation": "Il sesto mese dell'anno.",
+              "transcription_ipa": "/ˈdʒuɲ.ɲo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:giugno:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "luglio",
+              "word": "luglio",
+              "translation": "Il settimo mese dell'anno.",
+              "transcription_ipa": "/ˈluʎ.ʎo/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:luglio:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "agosto",
+              "word": "agosto",
+              "translation": "L'ottavo mese dell'anno.",
+              "transcription_ipa": "/aˈɡos.to/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:agosto:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "settembre",
+              "word": "settembre",
+              "translation": "Il nono mese dell'anno.",
+              "transcription_ipa": "/setˈtem.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:settembre:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ottobre",
+              "word": "ottobre",
+              "translation": "Il decimo mese dell'anno.",
+              "transcription_ipa": "/otˈto.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:ottobre:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "novembre",
+              "word": "novembre",
+              "translation": "L'undicesimo mese dell'anno.",
+              "transcription_ipa": "/noˈvem.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:novembre:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dicembre",
+              "word": "dicembre",
+              "translation": "L'dodicesimo mese dell'anno.",
+              "transcription_ipa": "/diˈtʃem.bre/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:dicembre:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "primavera",
+              "word": "primavera",
+              "translation": "La stagione tra l'inverno e l'estate.",
+              "transcription_ipa": "/pri.maˈve.ra/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:primavera:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "estate",
+              "word": "estate",
+              "translation": "La stagione più calda dell'anno.",
+              "transcription_ipa": "/esˈta.te/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:estate:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "autunno",
+              "word": "autunno",
+              "translation": "La stagione tra l'estate e l'inverno.",
+              "transcription_ipa": "/au̯ˈtun.no/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:autunno:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            },
+            {
+              "slug": "inverno",
+              "word": "inverno",
+              "translation": "La stagione più fredda dell'anno.",
+              "transcription_ipa": "/inˈvɛr.no/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "it:inverno:noun",
+              "repository_file": "vocabulary/it/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "ka": {
+      "language": "Georgian",
+      "code": "ka",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "orshabati",
+              "word": "ორშაბათი",
+              "translation": "კვირის პირველი სამუშაო დღე",
+              "transcription_ipa": "/ɔɾʃɑbɑtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:orshabati:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "samshabati",
+              "word": "სამშაბათი",
+              "translation": "კვირის მეორე დღე",
+              "transcription_ipa": "/sɑmʃɑbɑtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:samshabati:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "otkhshabati",
+              "word": "ოთხშაბათი",
+              "translation": "კვირის მესამე დღე",
+              "transcription_ipa": "/ɔtʰxʃɑbɑtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:otkhshabati:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "khutshabati",
+              "word": "ხუთშაბათი",
+              "translation": "კვირის მეოთხე დღე",
+              "transcription_ipa": "/xutʰʃɑbɑtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:khutshabati:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "paraskevi",
+              "word": "პარასკევი",
+              "translation": "კვირის მეხუთე დღე",
+              "transcription_ipa": "/pɑɾɑskɛvi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:paraskevi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shabati",
+              "word": "შაბათი",
+              "translation": "კვირის მეექვსე დღე, დასვენების დღე",
+              "transcription_ipa": "/ʃɑbɑtʰi/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:shabati:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kvira",
+              "word": "კვირა",
+              "translation": "კვირის მეშვიდე დღე, დასვენების დღე",
+              "transcription_ipa": "/kviɾɑ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ka:kvira:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "ianvari",
+              "word": "იანვარი",
+              "translation": "წლის პირველი თვე",
+              "transcription_ipa": "/iɑnvɑɾi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:ianvari:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "tebervali",
+              "word": "თებერვალი",
+              "translation": "წლის მეორე თვე",
+              "transcription_ipa": "/tʰɛbɛɾvɑli/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:tebervali:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "marti",
+              "word": "მარტი",
+              "translation": "წლის მესამე თვე",
+              "transcription_ipa": "/mɑɾtʰi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:marti:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aprili",
+              "word": "აპრილი",
+              "translation": "წლის მეოთხე თვე",
+              "transcription_ipa": "/ɑpɾili/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:aprili:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "maisi",
+              "word": "მაისი",
+              "translation": "წლის მეხუთე თვე",
+              "transcription_ipa": "/mɑisi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:maisi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ivnisi",
+              "word": "ივნისი",
+              "translation": "წლის მეექვსე თვე",
+              "transcription_ipa": "/ivnisi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:ivnisi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "ivlisi",
+              "word": "ივლისი",
+              "translation": "წლის მეშვიდე თვე",
+              "transcription_ipa": "/ivlisi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:ivlisi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "agvisto",
+              "word": "აგვისტო",
+              "translation": "წლის მეერვე თვე",
+              "transcription_ipa": "/ɑɡvistɔ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:agvisto:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sekhtemberi",
+              "word": "სექტემბერი",
+              "translation": "წლის მეცხრე თვე",
+              "transcription_ipa": "/sɛktʰɛmbɛɾi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:sekhtemberi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "oktomberi",
+              "word": "ოქტომბერი",
+              "translation": "წლის მეათე თვე",
+              "transcription_ipa": "/ɔktʰɔmbɛɾi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:oktomberi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noemberi",
+              "word": "ნოემბერი",
+              "translation": "წლის მეერთმეტე თვე",
+              "transcription_ipa": "/nɔɛmbɛɾi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:noemberi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dekemberi",
+              "word": "დეკემბერი",
+              "translation": "წლის მეთორმეტე თვე",
+              "transcription_ipa": "/dɛkʰɛmbɛɾi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:dekemberi:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "gazapkhuli",
+              "word": "გაზაფხული",
+              "translation": "წელიწადის დრო ზამთარსა და ზაფხულს შორის",
+              "transcription_ipa": "/ɡɑzɑpʰxuli/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:gazapkhuli:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "zapkhuli",
+              "word": "ზაფხული",
+              "translation": "წელიწადის ყველაზე თბილი დრო",
+              "transcription_ipa": "/zɑpʰxuli/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:zapkhuli:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shemodgoma",
+              "word": "შემოდგომა",
+              "translation": "წელიწადის დრო ზაფხულსა და ზამთარს შორის",
+              "transcription_ipa": "/ʃɛmɔdɡɔmɑ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:shemodgoma:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            },
+            {
+              "slug": "zamtari",
+              "word": "ზამთარი",
+              "translation": "წელიწადის ყველაზე ცივი დრო",
+              "transcription_ipa": "/zɑmtʰɑɾi/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ka:zamtari:noun",
+              "repository_file": "vocabulary/ka/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "pt": {
+      "language": "Portuguese",
+      "code": "pt",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "segunda-feira",
+              "word": "segunda-feira",
+              "translation": "O primeiro dia da semana de trabalho.",
+              "transcription_ipa": "/seˈɡũ.dɐ ˈfej.ɾɐ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:segunda-feira:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "terca-feira",
+              "word": "terça-feira",
+              "translation": "O segundo dia da semana.",
+              "transcription_ipa": "/ˈteɾ.sɐ ˈfej.ɾɐ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:terca-feira:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "quarta-feira",
+              "word": "quarta-feira",
+              "translation": "O terceiro dia da semana.",
+              "transcription_ipa": "/ˈkwaɾ.tɐ ˈfej.ɾɐ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:quarta-feira:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "quinta-feira",
+              "word": "quinta-feira",
+              "translation": "O quarto dia da semana.",
+              "transcription_ipa": "/ˈkĩ.tɐ ˈfej.ɾɐ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:quinta-feira:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sexta-feira",
+              "word": "sexta-feira",
+              "translation": "O quinto dia da semana.",
+              "transcription_ipa": "/ˈses.tɐ ˈfej.ɾɐ/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:sexta-feira:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sabado",
+              "word": "sábado",
+              "translation": "O sexto dia da semana, dia do fim de semana.",
+              "transcription_ipa": "/ˈsa.bɐ.ðu/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:sabado:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "domingo",
+              "word": "domingo",
+              "translation": "O sétimo dia da semana.",
+              "transcription_ipa": "/duˈmĩ.ɡu/",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "pt:domingo:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "janeiro",
+              "word": "janeiro",
+              "translation": "O primeiro mês do ano.",
+              "transcription_ipa": "/ʒɐˈnej.ɾu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:janeiro:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fevereiro",
+              "word": "fevereiro",
+              "translation": "O segundo mês do ano.",
+              "transcription_ipa": "/fe.vəˈɾej.ɾu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:fevereiro:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "marco",
+              "word": "março",
+              "translation": "O terceiro mês do ano.",
+              "transcription_ipa": "/ˈmaɾ.su/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:marco:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "abril",
+              "word": "abril",
+              "translation": "O quarto mês do ano.",
+              "transcription_ipa": "/ɐˈβɾil/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:abril:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "maio",
+              "word": "maio",
+              "translation": "O quinto mês do ano.",
+              "transcription_ipa": "/ˈmaj.u/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:maio:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "junho",
+              "word": "junho",
+              "translation": "O sexto mês do ano.",
+              "transcription_ipa": "/ˈʒu.ɲu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:junho:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "julho",
+              "word": "julho",
+              "translation": "Em julho vou de férias para a praia.",
+              "transcription_ipa": "/ˈʒu.ʎu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:julho:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "agosto",
+              "word": "agosto",
+              "translation": "O oitavo mês do ano.",
+              "transcription_ipa": "/ɐˈɡoʃ.tu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:agosto:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "setembro",
+              "word": "setembro",
+              "translation": "O nono mês do ano.",
+              "transcription_ipa": "/seˈtẽ.bɾu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:setembro:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "outubro",
+              "word": "outubro",
+              "translation": "O décimo mês do ano.",
+              "transcription_ipa": "/owˈtu.βɾu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:outubro:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "novembro",
+              "word": "novembro",
+              "translation": "O décimo primeiro mês do ano.",
+              "transcription_ipa": "/nuˈvẽ.bɾu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:novembro:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dezembro",
+              "word": "dezembro",
+              "translation": "O décimo segundo mês do ano.",
+              "transcription_ipa": "/deˈzẽ.bɾu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:dezembro:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "primavera",
+              "word": "primavera",
+              "translation": "A estação entre o inverno e o verão.",
+              "transcription_ipa": "/pɾi.mɐˈvɛ.ɾɐ/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:primavera:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "verao",
+              "word": "verão",
+              "translation": "A estação mais quente do ano.",
+              "transcription_ipa": "/veˈɾɐ̃w̃/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:verao:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "outono",
+              "word": "outono",
+              "translation": "A estação entre o verão e o inverno.",
+              "transcription_ipa": "/owˈto.nu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:outono:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "inverno",
+              "word": "inverno",
+              "translation": "A estação mais fria do ano.",
+              "transcription_ipa": "/ĩˈvɛɾ.nu/",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "pt:inverno:noun",
+              "repository_file": "vocabulary/pt/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "ru": {
+      "language": "Russian",
+      "code": "ru",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "ponedelnik",
+              "word": "понедельник",
+              "translation": "Первый день недели, который идёт за воскресеньем.",
+              "transcription_ipa": "[pənʲɪˈdʲelʲnʲɪk]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:ponedelnik:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "vtornik",
+              "word": "вторник",
+              "translation": "Второй день недели, который идёт за понедельником.",
+              "transcription_ipa": "[ˈftornʲɪk]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:vtornik:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sreda",
+              "word": "среда",
+              "translation": "Третий день недели, середина рабочей недели.",
+              "transcription_ipa": "[srʲɪˈda]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:sreda:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "chetverg",
+              "word": "четверг",
+              "translation": "Четвёртый день недели, перед пятницей.",
+              "transcription_ipa": "[tɕɪtˈvʲerk]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:chetverg:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "pyatnitsa",
+              "word": "пятница",
+              "translation": "Пятый день недели, последний рабочий день.",
+              "transcription_ipa": "[ˈpʲætʲnʲɪtsə]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:pyatnitsa:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "subbota",
+              "word": "суббота",
+              "translation": "Шестой день недели, первый выходной.",
+              "transcription_ipa": "[sʊˈbotə]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:subbota:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "voskresenye",
+              "word": "воскресенье",
+              "translation": "Седьмой день недели, выходной день.",
+              "transcription_ipa": "[vəskrʲɪˈsʲenʲjə]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "ru:voskresenye:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "yanvar",
+              "word": "январь",
+              "translation": "Первый месяц года, зимний месяц.",
+              "transcription_ipa": "[jɪnˈvarʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:yanvar:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fevral",
+              "word": "февраль",
+              "translation": "Второй месяц года, самый короткий месяц.",
+              "transcription_ipa": "[fʲɪˈvralʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:fevral:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mart",
+              "word": "март",
+              "translation": "Третий месяц года, первый месяц весны.",
+              "transcription_ipa": "[mart]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:mart:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aprel",
+              "word": "апрель",
+              "translation": "Четвёртый месяц года, весенний месяц.",
+              "transcription_ipa": "[ɐˈprʲelʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:aprel:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mai",
+              "word": "май",
+              "translation": "Пятый месяц года, последний месяц весны.",
+              "transcription_ipa": "[maj]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:mai:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iyun",
+              "word": "июнь",
+              "translation": "Шестой месяц года, первый месяц лета.",
+              "transcription_ipa": "[ɪˈjunʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:iyun:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iyul",
+              "word": "июль",
+              "translation": "Седьмой месяц года, самый жаркий месяц.",
+              "transcription_ipa": "[ɪˈjulʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:iyul:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "avgust",
+              "word": "август",
+              "translation": "Восьмой месяц года, последний месяц лета.",
+              "transcription_ipa": "[ˈavɡʊst]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:avgust:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sentyabr",
+              "word": "сентябрь",
+              "translation": "Девятый месяц года, первый месяц осени.",
+              "transcription_ipa": "[sʲɪnˈtʲabrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:sentyabr:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "oktyabr",
+              "word": "октябрь",
+              "translation": "Десятый месяц года, осенний месяц.",
+              "transcription_ipa": "[ɐkˈtʲabrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:oktyabr:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noyabr",
+              "word": "ноябрь",
+              "translation": "Одиннадцатый месяц года, последний месяц осени.",
+              "transcription_ipa": "[nɐˈjabrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:noyabr:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dekabr",
+              "word": "декабрь",
+              "translation": "Двенадцатый месяц года, первый месяц зимы.",
+              "transcription_ipa": "[dʲɪˈkabrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:dekabr:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "vesna",
+              "word": "весна",
+              "translation": "Время года между зимой и летом.",
+              "transcription_ipa": "[vʲɪsˈna]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:vesna:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "leto",
+              "word": "лето",
+              "translation": "Самое тёплое время года между весной и осенью.",
+              "transcription_ipa": "[ˈlʲetə]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:leto:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "osen",
+              "word": "осень",
+              "translation": "Время года между летом и зимой.",
+              "transcription_ipa": "[ˈosʲɪnʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:osen:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            },
+            {
+              "slug": "zima",
+              "word": "зима",
+              "translation": "Самое холодное время года между осенью и весной.",
+              "transcription_ipa": "[zʲɪˈma]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "ru:zima:noun",
+              "repository_file": "vocabulary/ru/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    },
+    "tt": {
+      "language": "Tatar",
+      "code": "tt",
+      "summary": {
+        "total_items": 23,
+        "in_repository_count": 23
+      },
+      "levels": {
+        "A0": {
+          "days_of_week": [
+            {
+              "slug": "dushambe",
+              "word": "дүшәмбе",
+              "translation": "атнаның беренче көне",
+              "transcription_ipa": "[dy.ʃæmˈbe]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:dushambe:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shishambe",
+              "word": "шишәмбе",
+              "translation": "атнаның икенче көне",
+              "transcription_ipa": "[ʃi.ʃæmˈbe]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:shishambe:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sharshambe",
+              "word": "шаршәмбе",
+              "translation": "атнаның третьче көне",
+              "transcription_ipa": "[ʃɑr.ʃæmˈbe]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:sharshambe:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "panjeshambe",
+              "word": "пәнҗешәмбе",
+              "translation": "атнаның дүртенче көне",
+              "transcription_ipa": "[pæn.ʑe.ʃæmˈbe]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:panjeshambe:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "zhomga",
+              "word": "җомга",
+              "translation": "атнаның бишенче көне",
+              "transcription_ipa": "[ʑomˈɣɑ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:zhomga:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "shimba",
+              "word": "шимбә",
+              "translation": "атнаның алтынчы көне, ял көне",
+              "transcription_ipa": "[ʃimˈbæ]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:shimba:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "yakshambe",
+              "word": "якшәмбе",
+              "translation": "атнаның җиденче көне, ял көне",
+              "transcription_ipa": "[jɑq.ʃæmˈbe]",
+              "level": "A0",
+              "in_repository": true,
+              "repository_entry_id": "tt:yakshambe:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            }
+          ]
+        },
+        "A1": {
+          "months": [
+            {
+              "slug": "gyynvar",
+              "word": "гыйнвар",
+              "translation": "елының беренче ае",
+              "transcription_ipa": "[ʁɯjnˈvɑr]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:gyynvar:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "fevral",
+              "word": "февраль",
+              "translation": "елының икенче ае",
+              "transcription_ipa": "[fʲɪˈvrɑlʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:fevral:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "mart",
+              "word": "март",
+              "translation": "елының третьче ае",
+              "transcription_ipa": "[mɑrt]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:mart:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "aprel",
+              "word": "апрель",
+              "translation": "елының дүртенче ае",
+              "transcription_ipa": "[ɐˈprʲelʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:aprel:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "may",
+              "word": "май",
+              "translation": "елының бишенче ае",
+              "transcription_ipa": "[mɑj]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:may:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iyun",
+              "word": "июнь",
+              "translation": "елының алтынчы ае",
+              "transcription_ipa": "[ɪˈjunʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:iyun:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "iyul",
+              "word": "июль",
+              "translation": "елының җиденче ае",
+              "transcription_ipa": "[ɪˈjulʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:iyul:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "avgust",
+              "word": "август",
+              "translation": "елының сигезенче ае",
+              "transcription_ipa": "[ˈɑv.ɡust]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:avgust:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "sentyabr",
+              "word": "сентябрь",
+              "translation": "елының тугызынчы ае",
+              "transcription_ipa": "[sʲɪnˈtʲɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:sentyabr:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "oktyabr",
+              "word": "октябрь",
+              "translation": "елының унынчы ае",
+              "transcription_ipa": "[ɐkˈtʲɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:oktyabr:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "noyabr",
+              "word": "ноябрь",
+              "translation": "елының он беренче ае",
+              "transcription_ipa": "[nɐˈjɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:noyabr:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "dekabr",
+              "word": "декабрь",
+              "translation": "елының он икенче ае",
+              "transcription_ipa": "[dʲɪˈkɑbrʲ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:dekabr:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            }
+          ],
+          "seasons": [
+            {
+              "slug": "yaz",
+              "word": "яз",
+              "translation": "кыш белән җәй арасындагы ел фаслы",
+              "transcription_ipa": "[jɑz]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:yaz:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "zhay",
+              "word": "җәй",
+              "translation": "елының иң җылы фаслы",
+              "transcription_ipa": "[ʑæj]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:zhay:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "koz",
+              "word": "көз",
+              "translation": "җәй белән кыш арасындагы ел фаслы",
+              "transcription_ipa": "[kʏz]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:koz:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            },
+            {
+              "slug": "kysh",
+              "word": "кыш",
+              "translation": "елының иң салкын фаслы",
+              "transcription_ipa": "[qɯʃ]",
+              "level": "A1",
+              "in_repository": true,
+              "repository_entry_id": "tt:kysh:noun",
+              "repository_file": "vocabulary/tt/a0_a1/calendar.json"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
