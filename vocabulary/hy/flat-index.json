@@ -221,6 +221,12 @@
       "field": "word"
     }
   ],
+  "առաջին": [
+    {
+      "id": "hy:arajin:number",
+      "field": "word"
+    }
+  ],
   "առավոտ": [
     {
       "id": "hy:aravot:noun",
@@ -254,12 +260,6 @@
   "ավարտել": [
     {
       "id": "hy:avartel:verb",
-      "field": "word"
-    }
-  ],
-  "ավելացնել": [
-    {
-      "id": "hy:avelacnel:verb",
       "field": "word"
     }
   ],
@@ -743,16 +743,70 @@
       "field": "plural_form"
     }
   ],
-  "երեք": [
+  "երեսուն": [
     {
-      "id": "hy:erek:noun",
+      "id": "hy:ereson:number",
       "field": "word"
     }
   ],
-  "երեքներ": [
+  "երեսուն երեք": [
     {
-      "id": "hy:erek:noun",
-      "field": "plural_form"
+      "id": "hy:ereson-erek:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն երկու": [
+    {
+      "id": "hy:ereson-erko:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն ինը": [
+    {
+      "id": "hy:ereson-iny:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն հինգ": [
+    {
+      "id": "hy:ereson-hing:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն մեկ": [
+    {
+      "id": "hy:ereson-mek:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն յոթ": [
+    {
+      "id": "hy:ereson-yot:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն ութ": [
+    {
+      "id": "hy:ereson-ot:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն չորս": [
+    {
+      "id": "hy:ereson-chors:number",
+      "field": "word"
+    }
+  ],
+  "երեսուն վեց": [
+    {
+      "id": "hy:ereson-vets:number",
+      "field": "word"
+    }
+  ],
+  "երեք": [
+    {
+      "id": "hy:erek:number",
+      "field": "word"
     }
   ],
   "երթևեկել": [
@@ -775,19 +829,25 @@
   ],
   "երկու": [
     {
-      "id": "hy:erko:noun",
+      "id": "hy:erko:number",
       "field": "word"
     }
   ],
-  "երկուներ": [
+  "երկրորդ": [
     {
-      "id": "hy:erko:noun",
-      "field": "plural_form"
+      "id": "hy:erkrord:number",
+      "field": "word"
     }
   ],
   "երջանիկ": [
     {
       "id": "hy:erjanik:adjective",
+      "field": "word"
+    }
+  ],
+  "երրորդ": [
+    {
+      "id": "hy:errord:number",
       "field": "word"
     }
   ],
@@ -854,6 +914,12 @@
   "զով": [
     {
       "id": "hy:zov:adjective",
+      "field": "word"
+    }
+  ],
+  "զրո": [
+    {
+      "id": "hy:zro:number",
       "field": "word"
     }
   ],
@@ -1028,6 +1094,78 @@
   "իմանալ": [
     {
       "id": "hy:imanal:verb",
+      "field": "word"
+    }
+  ],
+  "ինը": [
+    {
+      "id": "hy:iny:number",
+      "field": "word"
+    }
+  ],
+  "իններորդ": [
+    {
+      "id": "hy:innerord:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն": [
+    {
+      "id": "hy:innson:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն երեք": [
+    {
+      "id": "hy:innson-erek:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն երկու": [
+    {
+      "id": "hy:innson-erko:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն ինը": [
+    {
+      "id": "hy:innson-iny:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն հինգ": [
+    {
+      "id": "hy:innson-hing:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն մեկ": [
+    {
+      "id": "hy:innson-mek:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն յոթ": [
+    {
+      "id": "hy:innson-yot:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն ութ": [
+    {
+      "id": "hy:innson-ot:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն չորս": [
+    {
+      "id": "hy:innson-chors:number",
+      "field": "word"
+    }
+  ],
+  "իննսուն վեց": [
+    {
+      "id": "hy:innson-vets:number",
       "field": "word"
     }
   ],
@@ -1463,6 +1601,12 @@
       "field": "word"
     }
   ],
+  "հազար": [
+    {
+      "id": "hy:hazar:number",
+      "field": "word"
+    }
+  ],
   "հաղթել": [
     {
       "id": "hy:haghtel:verb",
@@ -1577,6 +1721,12 @@
       "field": "word"
     }
   ],
+  "հարյուր": [
+    {
+      "id": "hy:haryor:number",
+      "field": "word"
+    }
+  ],
   "հարցնել": [
     {
       "id": "hy:harcnel:verb",
@@ -1663,19 +1813,79 @@
   ],
   "հինգ": [
     {
-      "id": "hy:hing:noun",
+      "id": "hy:hing:number",
       "field": "word"
     }
   ],
-  "հինգներ": [
+  "հինգերորդ": [
     {
-      "id": "hy:hing:noun",
-      "field": "plural_form"
+      "id": "hy:hingerord:number",
+      "field": "word"
     }
   ],
   "հիշել": [
     {
       "id": "hy:hishel:verb",
+      "field": "word"
+    }
+  ],
+  "հիսուն": [
+    {
+      "id": "hy:hison:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն երեք": [
+    {
+      "id": "hy:hison-erek:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն երկու": [
+    {
+      "id": "hy:hison-erko:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն ինը": [
+    {
+      "id": "hy:hison-iny:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն հինգ": [
+    {
+      "id": "hy:hison-hing:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն մեկ": [
+    {
+      "id": "hy:hison-mek:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն յոթ": [
+    {
+      "id": "hy:hison-yot:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն ութ": [
+    {
+      "id": "hy:hison-ot:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն չորս": [
+    {
+      "id": "hy:hison-chors:number",
+      "field": "word"
+    }
+  ],
+  "հիսուն վեց": [
+    {
+      "id": "hy:hison-vets:number",
       "field": "word"
     }
   ],
@@ -1933,14 +2143,8 @@
   ],
   "մեկ": [
     {
-      "id": "hy:mek:noun",
+      "id": "hy:mek:number",
       "field": "word"
-    }
-  ],
-  "մեկներ": [
-    {
-      "id": "hy:mek:noun",
-      "field": "plural_form"
     }
   ],
   "մենակ": [
@@ -2000,6 +2204,78 @@
   "մտածել": [
     {
       "id": "hy:mtatsel:verb",
+      "field": "word"
+    }
+  ],
+  "յոթ": [
+    {
+      "id": "hy:yot:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն": [
+    {
+      "id": "hy:yotanason:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն երեք": [
+    {
+      "id": "hy:yotanason-erek:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն երկու": [
+    {
+      "id": "hy:yotanason-erko:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն ինը": [
+    {
+      "id": "hy:yotanason-iny:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն հինգ": [
+    {
+      "id": "hy:yotanason-hing:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն մեկ": [
+    {
+      "id": "hy:yotanason-mek:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն յոթ": [
+    {
+      "id": "hy:yotanason-yot:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն ութ": [
+    {
+      "id": "hy:yotanason-ot:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն չորս": [
+    {
+      "id": "hy:yotanason-chors:number",
+      "field": "word"
+    }
+  ],
+  "յոթանասուն վեց": [
+    {
+      "id": "hy:yotanason-vets:number",
+      "field": "word"
+    }
+  ],
+  "յոթերորդ": [
+    {
+      "id": "hy:yoterord:number",
       "field": "word"
     }
   ],
@@ -2201,6 +2477,78 @@
       "field": "word"
     }
   ],
+  "ութ": [
+    {
+      "id": "hy:ot:number",
+      "field": "word"
+    }
+  ],
+  "ութերորդ": [
+    {
+      "id": "hy:oterord:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն": [
+    {
+      "id": "hy:otson:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն երեք": [
+    {
+      "id": "hy:otson-erek:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն երկու": [
+    {
+      "id": "hy:otson-erko:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն ինը": [
+    {
+      "id": "hy:otson-iny:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն հինգ": [
+    {
+      "id": "hy:otson-hing:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն մեկ": [
+    {
+      "id": "hy:otson-mek:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն յոթ": [
+    {
+      "id": "hy:otson-yot:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն ութ": [
+    {
+      "id": "hy:otson-ot:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն չորս": [
+    {
+      "id": "hy:otson-chors:number",
+      "field": "word"
+    }
+  ],
+  "ութսուն վեց": [
+    {
+      "id": "hy:otson-vets:number",
+      "field": "word"
+    }
+  ],
   "ուժեղ": [
     {
       "id": "hy:o-zhegh:adjective",
@@ -2269,14 +2617,14 @@
   ],
   "չորս": [
     {
-      "id": "hy:chors:noun",
+      "id": "hy:chors:number",
       "field": "word"
     }
   ],
-  "չորսներ": [
+  "չորրորդ": [
     {
-      "id": "hy:chors:noun",
-      "field": "plural_form"
+      "id": "hy:chorrord:number",
+      "field": "word"
     }
   ],
   "պահարան": [
@@ -2543,6 +2891,66 @@
       "field": "word"
     }
   ],
+  "վաթսուն": [
+    {
+      "id": "hy:vatson:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն երեք": [
+    {
+      "id": "hy:vatson-erek:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն երկու": [
+    {
+      "id": "hy:vatson-erko:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն ինը": [
+    {
+      "id": "hy:vatson-iny:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն հինգ": [
+    {
+      "id": "hy:vatson-hing:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն մեկ": [
+    {
+      "id": "hy:vatson-mek:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն յոթ": [
+    {
+      "id": "hy:vatson-yot:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն ութ": [
+    {
+      "id": "hy:vatson-ot:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն չորս": [
+    {
+      "id": "hy:vatson-chors:number",
+      "field": "word"
+    }
+  ],
+  "վաթսուն վեց": [
+    {
+      "id": "hy:vatson-vets:number",
+      "field": "word"
+    }
+  ],
   "վախեցած": [
     {
       "id": "hy:vakhecats:adjective",
@@ -2627,6 +3035,18 @@
       "field": "word"
     }
   ],
+  "վեց": [
+    {
+      "id": "hy:vets:number",
+      "field": "word"
+    }
+  ],
+  "վեցերորդ": [
+    {
+      "id": "hy:vetserord:number",
+      "field": "word"
+    }
+  ],
   "վճարել": [
     {
       "id": "hy:vcharel:verb",
@@ -2666,6 +3086,72 @@
   "տանել": [
     {
       "id": "hy:tanel:verb",
+      "field": "word"
+    }
+  ],
+  "տասը": [
+    {
+      "id": "hy:tasy:number",
+      "field": "word"
+    }
+  ],
+  "տասներեք": [
+    {
+      "id": "hy:tasnerek:number",
+      "field": "word"
+    }
+  ],
+  "տասներկու": [
+    {
+      "id": "hy:tasnerko:number",
+      "field": "word"
+    }
+  ],
+  "տասներորդ": [
+    {
+      "id": "hy:tasnerord:number",
+      "field": "word"
+    }
+  ],
+  "տասնինը": [
+    {
+      "id": "hy:tasniny:number",
+      "field": "word"
+    }
+  ],
+  "տասնհինգ": [
+    {
+      "id": "hy:tasnhing:number",
+      "field": "word"
+    }
+  ],
+  "տասնմեկ": [
+    {
+      "id": "hy:tasnmek:number",
+      "field": "word"
+    }
+  ],
+  "տասնյոթ": [
+    {
+      "id": "hy:tasnyot:number",
+      "field": "word"
+    }
+  ],
+  "տասնութ": [
+    {
+      "id": "hy:tasnot:number",
+      "field": "word"
+    }
+  ],
+  "տասնչորս": [
+    {
+      "id": "hy:tasnchors:number",
+      "field": "word"
+    }
+  ],
+  "տասնվեց": [
+    {
+      "id": "hy:tasnvets:number",
       "field": "word"
     }
   ],
@@ -2879,6 +3365,66 @@
       "field": "word"
     }
   ],
+  "քառասուն": [
+    {
+      "id": "hy:karason:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն երեք": [
+    {
+      "id": "hy:karason-erek:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն երկու": [
+    {
+      "id": "hy:karason-erko:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն ինը": [
+    {
+      "id": "hy:karason-iny:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն հինգ": [
+    {
+      "id": "hy:karason-hing:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն մեկ": [
+    {
+      "id": "hy:karason-mek:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն յոթ": [
+    {
+      "id": "hy:karason-yot:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն ութ": [
+    {
+      "id": "hy:karason-ot:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն չորս": [
+    {
+      "id": "hy:karason-chors:number",
+      "field": "word"
+    }
+  ],
+  "քառասուն վեց": [
+    {
+      "id": "hy:karason-vets:number",
+      "field": "word"
+    }
+  ],
   "քթեր": [
     {
       "id": "hy:kit:noun",
@@ -2907,6 +3453,66 @@
     {
       "id": "hy:kuyr:noun",
       "field": "plural_form"
+    }
+  ],
+  "քսան": [
+    {
+      "id": "hy:ksan:number",
+      "field": "word"
+    }
+  ],
+  "քսան երեք": [
+    {
+      "id": "hy:ksan-erek:number",
+      "field": "word"
+    }
+  ],
+  "քսան երկու": [
+    {
+      "id": "hy:ksan-erko:number",
+      "field": "word"
+    }
+  ],
+  "քսան ինը": [
+    {
+      "id": "hy:ksan-iny:number",
+      "field": "word"
+    }
+  ],
+  "քսան հինգ": [
+    {
+      "id": "hy:ksan-hing:number",
+      "field": "word"
+    }
+  ],
+  "քսան մեկ": [
+    {
+      "id": "hy:ksan-mek:number",
+      "field": "word"
+    }
+  ],
+  "քսան յոթ": [
+    {
+      "id": "hy:ksan-yot:number",
+      "field": "word"
+    }
+  ],
+  "քսան ութ": [
+    {
+      "id": "hy:ksan-ot:number",
+      "field": "word"
+    }
+  ],
+  "քսան չորս": [
+    {
+      "id": "hy:ksan-chors:number",
+      "field": "word"
+    }
+  ],
+  "քսան վեց": [
+    {
+      "id": "hy:ksan-vets:number",
+      "field": "word"
     }
   ],
   "օգնել": [
