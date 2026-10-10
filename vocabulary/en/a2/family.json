@@ -1,49 +1,577 @@
 [
   {
-    "id": "en:beloved:adjective",
-    "word": "beloved",
-    "language": "en",
-    "form": "adjective",
-    "level": "A2",
-    "theme": "family",
-    "definitions": [
-      "Dearly loved."
-    ],
-    "examples": [
-      "She visited her beloved grandmother.",
-      "The dog was a beloved family pet."
-    ],
-    "transcription": "/bɪˈlʌvɪd/",
-    "emoji": "❤️",
-    "no_antonym": true,
-    "synonyms": [
-      "cherished",
-      "dear"
-    ]
-  },
-  {
-    "id": "en:heir:noun",
-    "word": "heir",
+    "id": "en:mother-in-law:noun",
+    "word": "mother-in-law",
     "language": "en",
     "form": "noun",
     "level": "A2",
-    "theme": "family",
-    "definitions": [
-      "A person legally entitled to the property or rank of another."
-    ],
-    "examples": [
-      "Prince William is heir to the throne.",
-      "She inherited the estate as sole heir."
-    ],
-    "transcription": "/eə/",
-    "emoji": "👑",
-    "no_antonym": true,
-    "synonyms": [
-      "successor",
-      "inheritor"
-    ],
+    "transcription": "\\u02c8m\\u028c\\u00f0\\u0259r \\u026an l\\u0254\\u02d0",
+    "no_emoji": true,
     "countability": "countable",
     "article": "a",
-    "plural_form": "heirs"
+    "plural_form": "mothers-in-law",
+    "no_antonym": true,
+    "definitions": [
+      "the mother of one's husband or wife"
+    ],
+    "examples": [
+      "My mother-in-law invited us for Sunday lunch."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:father-in-law:noun",
+    "word": "father-in-law",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8f\\u0251\\u02d0\\u00f0\\u0259r \\u026an l\\u0254\\u02d0",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "fathers-in-law",
+    "no_antonym": true,
+    "definitions": [
+      "the father of one's husband or wife"
+    ],
+    "examples": [
+      "His father-in-law helps him with gardening."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:brother-in-law:noun",
+    "word": "brother-in-law",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8br\\u028c\\u00f0\\u0259r \\u026an l\\u0254\\u02d0",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "brothers-in-law",
+    "no_antonym": true,
+    "definitions": [
+      "the brother of one's spouse or the husband of one's sibling"
+    ],
+    "examples": [
+      "My brother-in-law works at a bank."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:sister-in-law:noun",
+    "word": "sister-in-law",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8s\\u026ast\\u0259r \\u026an l\\u0254\\u02d0",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "sisters-in-law",
+    "no_antonym": true,
+    "definitions": [
+      "the sister of one's spouse or the wife of one's sibling"
+    ],
+    "examples": [
+      "Her sister-in-law lives in Toronto."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:son-in-law:noun",
+    "word": "son-in-law",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8s\\u028cn \\u026an l\\u0254\\u02d0",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "sons-in-law",
+    "no_antonym": true,
+    "definitions": [
+      "the husband of one's daughter"
+    ],
+    "examples": [
+      "Their son-in-law is a doctor."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:daughter-in-law:noun",
+    "word": "daughter-in-law",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8d\\u0254\\u02d0t\\u0259r \\u026an l\\u0254\\u02d0",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "daughters-in-law",
+    "no_antonym": true,
+    "definitions": [
+      "the wife of one's son"
+    ],
+    "examples": [
+      "They welcomed their new daughter-in-law warmly."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepmother:noun",
+    "word": "stepmother",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bp\\u02ccm\\u028c\\u00f0\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepmothers",
+    "no_antonym": true,
+    "definitions": [
+      "the wife of one's father by a later marriage"
+    ],
+    "examples": [
+      "Her stepmother baked a birthday cake for her."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepfather:noun",
+    "word": "stepfather",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bp\\u02ccf\\u0251\\u02d0\\u00f0\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepfathers",
+    "no_antonym": true,
+    "definitions": [
+      "the husband of one's mother by a later marriage"
+    ],
+    "examples": [
+      "His stepfather plays soccer with him every Saturday."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:half-brother:noun",
+    "word": "half-brother",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8h\\u00e6f \\u02ccbr\\u028c\\u00f0\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "half-brothers",
+    "no_antonym": true,
+    "definitions": [
+      "a brother with whom one shares only one biological parent"
+    ],
+    "examples": [
+      "They share the same mother, so he is his half-brother."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:half-sister:noun",
+    "word": "half-sister",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8h\\u00e6f \\u02ccs\\u026ast\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "half-sisters",
+    "no_antonym": true,
+    "definitions": [
+      "a sister with whom one shares only one biological parent"
+    ],
+    "examples": [
+      "She visited her half-sister during the holiday."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepson:noun",
+    "word": "stepson",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bps\\u028cn",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepsons",
+    "no_antonym": true,
+    "definitions": [
+      "a son of one's spouse by a previous relationship"
+    ],
+    "examples": [
+      "He bought a new bicycle for his stepson."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepdaughter:noun",
+    "word": "stepdaughter",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bp\\u02cbd\\u0254\\u02d0t\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepdaughters",
+    "no_antonym": true,
+    "definitions": [
+      "a daughter of one's spouse by a previous relationship"
+    ],
+    "examples": [
+      "She helped her stepdaughter prepare for the school exam."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepparent:noun",
+    "word": "stepparent",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bp\\u02ccp\\u025b\\u0259r\\u0259nt",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepparents",
+    "no_antonym": true,
+    "definitions": [
+      "a person who is the spouse of one's biological parent"
+    ],
+    "examples": [
+      "A supportive stepparent helps maintain family harmony."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepchild:noun",
+    "word": "stepchild",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bpt\\u0283a\\u026ald",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepchildren",
+    "no_antonym": true,
+    "definitions": [
+      "a child of one's spouse by a previous relationship"
+    ],
+    "examples": [
+      "She treats her stepchild with equal love and care."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepbrother:noun",
+    "word": "stepbrother",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bp\\u02ccbr\\u028c\\u00f0\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepbrothers",
+    "no_antonym": true,
+    "definitions": [
+      "the son of one's stepparent by a previous relationship"
+    ],
+    "examples": [
+      "Her stepbrother plays guitar in a band."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:stepsister:noun",
+    "word": "stepsister",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8st\\u025bp\\u02ccs\\u026ast\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "stepsisters",
+    "no_antonym": true,
+    "definitions": [
+      "the daughter of one's stepparent by a previous relationship"
+    ],
+    "examples": [
+      "His stepsister shares a room with her."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "immediate_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-grandmother:noun",
+    "word": "great-grandmother",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02cc\\u0261r\\u00e6nm\\u028c\\u00f0\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-grandmothers",
+    "no_antonym": true,
+    "definitions": [
+      "the mother of one's grandparent"
+    ],
+    "examples": [
+      "Her great-grandmother lived to be ninety-nine years old."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-grandfather:noun",
+    "word": "great-grandfather",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02cc\\u0261r\\u00e6nf\\u0251\\u02d0\\u00f0\\u0259r",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-grandfathers",
+    "no_antonym": true,
+    "definitions": [
+      "the father of one's grandparent"
+    ],
+    "examples": [
+      "His great-grandfather served as a village doctor."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-grandparent:noun",
+    "word": "great-grandparent",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02cc\\u0261r\\u00e6np\\u025b\\u0259r\\u0259nt",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-grandparents",
+    "no_antonym": true,
+    "definitions": [
+      "a parent of one's grandparent"
+    ],
+    "examples": [
+      "We visited my great-grandparent during the reunion."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-aunt:noun",
+    "word": "great-aunt",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02cc\\u0251\\u02d0nt",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-aunts",
+    "no_antonym": true,
+    "definitions": [
+      "an aunt of one's father or mother"
+    ],
+    "examples": [
+      "Her great-aunt sent a vintage postcard from London."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-uncle:noun",
+    "word": "great-uncle",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02cc\\u028c\\u014bk\\u0259l",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-uncles",
+    "no_antonym": true,
+    "definitions": [
+      "an uncle of one's father or mother"
+    ],
+    "examples": [
+      "His great-uncle served in the merchant navy."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-niece:noun",
+    "word": "great-niece",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02ccni\\u02d0s",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-nieces",
+    "no_antonym": true,
+    "definitions": [
+      "a daughter of one's nephew or niece"
+    ],
+    "examples": [
+      "She knitted a warm sweater for her great-niece."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:great-nephew:noun",
+    "word": "great-nephew",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u0261re\\u026at \\u02ccn\\u025bvju\\u02d0",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "great-nephews",
+    "no_antonym": true,
+    "definitions": [
+      "a son of one's nephew or niece"
+    ],
+    "examples": [
+      "His great-nephew started university this autumn."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "extended_family",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:ex-husband:noun",
+    "word": "ex-husband",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u025bks \\u02c8h\\u028czb\\u0259nd",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "an",
+    "plural_form": "ex-husbands",
+    "no_antonym": true,
+    "definitions": [
+      "a former husband from whom one is divorced"
+    ],
+    "examples": [
+      "She remains on friendly terms with her ex-husband."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "relationships",
+    "updated": "2026-10-10"
+  },
+  {
+    "id": "en:ex-wife:noun",
+    "word": "ex-wife",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "transcription": "\\u02c8\\u025bks \\u02c8wa\\u026af",
+    "no_emoji": true,
+    "countability": "countable",
+    "article": "an",
+    "plural_form": "ex-wives",
+    "no_antonym": true,
+    "definitions": [
+      "a former wife from whom one is divorced"
+    ],
+    "examples": [
+      "He communicates regularly with his ex-wife regarding weekend plans."
+    ],
+    "domain": "general",
+    "theme": "family",
+    "sub_theme": "relationships",
+    "updated": "2026-10-10"
   }
 ]

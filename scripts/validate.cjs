@@ -538,7 +538,7 @@ function main() {
             continue;
           }
 
-          if (Object.keys(idToFilesMap).length > 0 && !idToFilesMap[ref.id]) {
+          if (idToFilesMap[ref.id] === undefined && !idToFilesMap[ref.id]) {
             hasError = true;
             console.error(`\n[FLAT-INDEX MISMATCH ERROR] File ${relFlatPath}: ID '${ref.id}' for surface form '${surfaceForm}' was not found in data files.`);
           }
@@ -568,7 +568,7 @@ function main() {
           continue;
         }
 
-        if (Object.keys(idToFilesMap).length > 0 && !idToFilesMap[item.id]) {
+        if (idToFilesMap[item.id] === undefined && !idToFilesMap[item.id]) {
           hasError = true;
           console.error(`\n[SEARCH-INDEX MISMATCH ERROR] File ${relSearchPath}: ID '${item.id}' was not found in data files.`);
         }
