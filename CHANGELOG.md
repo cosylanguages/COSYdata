@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+- Organized English vocabulary dataset (`vocabulary/en/`) into canonical theme taxonomy across all levels (`a0_a1`, `a2`, `b1`, `b2`, `c1`, `c2`), expanded `shared/themes.json` and `docs/theme-taxonomy.md` to cover 40+ user-requested categories, resolved all 17 pre-existing duplicate English entry IDs, and regenerated index artifacts (`index.json`, `flat-index.json`, `search-index.json`).
+
 ### Added
 - [P3-it] Added 490 new Italian A0–A1 entries (215 A0, 275 A1) across 23 theme files in `vocabulary/it/a0_a1/`, bringing total Italian A0–A1 vocabulary entries from 1,179 to 1,669 (matching the target in `reports/a0_a1_target.json`).
 - Covered 100% of Italian essential terms from `scripts/data/a0_a1_essentials.tsv` (including `buon appetito`, `in bocca al lupo`, `buona fortuna`, `sempre dritto`, `tutto`, `girare`, `ragazzo`, `ragazza`, `posta`, `gente`, `solo`, `davvero`).
