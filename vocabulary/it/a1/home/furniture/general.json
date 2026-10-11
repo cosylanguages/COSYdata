@@ -21,7 +21,8 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "appartamenti",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:apartment:noun"
   },
   {
     "id": "it:ascensore:noun",
@@ -118,7 +119,8 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "cucine",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:kitchen:noun"
   },
   {
     "id": "it:dentifricio:noun",
@@ -142,6 +144,30 @@
     "countability": "countable",
     "plural_form": "dentifrici",
     "no_antonym": true,
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "it:divano:noun",
+    "word": "divano",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Sedile imbottito a più posti con braccioli nel soggiorno."
+    ],
+    "examples": [
+      "Ci riposiamo sul divano del soggiorno la sera."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "transcription": "/diˈvaː.no/",
+    "emoji": "🛋️",
+    "no_antonym": true,
+    "article": "il",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "divani",
     "sub_theme": "furniture"
   },
   {
@@ -247,6 +273,30 @@
     "sub_theme": "furniture"
   },
   {
+    "id": "it:muri:noun",
+    "word": "muri",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Pareti di una stanza."
+    ],
+    "examples": [
+      "Muri bianchi."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "transcription": "/ˈmuri/",
+    "emoji": "🧱",
+    "article": "i",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "muri",
+    "no_antonym": true,
+    "sub_theme": "furniture"
+  },
+  {
     "id": "it:orologio:noun",
     "word": "orologio",
     "language": "it",
@@ -315,6 +365,31 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "pentole",
+    "no_antonym": true,
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "it:poltrona:noun",
+    "word": "poltrona",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Una sedia grande e comoda con braccioli."
+    ],
+    "examples": [
+      "Mi siedo sulla poltrona per leggere.",
+      "Abbiamo comprato una poltrona nuova."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "transcription": "/polˈtrona/",
+    "emoji": "🛋️",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "poltrone",
     "no_antonym": true,
     "sub_theme": "furniture"
   },
@@ -460,7 +535,8 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "sedie",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:chair:noun"
   },
   {
     "id": "it:soffitto:noun",
@@ -534,7 +610,8 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "tavoli",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:table:noun"
   },
   {
     "id": "it:tazza:noun",
@@ -607,6 +684,30 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "telefoni",
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "it:televisione:noun",
+    "word": "televisione",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "definitions": [
+      "Apparecchio elettronico per guardare programmi e film."
+    ],
+    "examples": [
+      "Guardiamo le notizie in televisione ogni sera."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "transcription": "/te.le.viˈzjoː.ne/",
+    "emoji": "📺",
+    "no_antonym": true,
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "televisioni",
     "sub_theme": "furniture"
   },
   {

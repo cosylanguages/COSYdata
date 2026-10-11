@@ -21,7 +21,8 @@
     "article": "l'",
     "gender": "masculine",
     "plural_form": "appartements",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:apartment:noun"
   },
   {
     "id": "fr:ascenseur:noun",
@@ -117,7 +118,8 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "chaises",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:chair:noun"
   },
   {
     "id": "fr:clavier:noun",
@@ -238,6 +240,31 @@
     "sub_theme": "furniture"
   },
   {
+    "id": "fr:grille-pain:noun",
+    "word": "grille-pain",
+    "language": "fr",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/ɡʁij pɛ̃/",
+    "definitions": [
+      "Un appareil électrique pour griller le pain."
+    ],
+    "examples": [
+      "J'utilise le grille-pain pour le petit déjeuner.",
+      "Le grille-pain est sur la table de la cuisine."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "emoji": "🍞",
+    "no_antonym": true,
+    "gender": "masculine",
+    "article": "le",
+    "countability": "countable",
+    "plural_form": "grille-pains",
+    "sub_theme": "furniture"
+  },
+  {
     "id": "fr:horloge:noun",
     "word": "horloge",
     "language": "fr",
@@ -283,6 +310,30 @@
     "related_forms": [
       "COSYtools:fr-conjugeur:mettre"
     ],
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "fr:murs:noun",
+    "word": "murs",
+    "language": "fr",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/myʁ/",
+    "definitions": [
+      "Parois d'une pièce."
+    ],
+    "examples": [
+      "Des murs blancs."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "emoji": "🧱",
+    "no_antonym": true,
+    "gender": "masculine",
+    "article": "les",
+    "countability": "countable",
+    "plural_form": "murs",
     "sub_theme": "furniture"
   },
   {
@@ -471,7 +522,8 @@
     "article": "la",
     "gender": "feminine",
     "plural_form": "tables",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:table:noun"
   },
   {
     "id": "fr:tasse:noun",
@@ -519,6 +571,30 @@
     "article": "le",
     "gender": "masculine",
     "plural_form": "téléphones",
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "fr:toilette:noun",
+    "word": "toilette",
+    "language": "fr",
+    "form": "noun",
+    "level": "A0",
+    "transcription": "/twa.lɛt/",
+    "definitions": [
+      "Lieu pour les besoins naturels."
+    ],
+    "examples": [
+      "Où sont les toilettes ?"
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "emoji": "🚽",
+    "no_antonym": true,
+    "gender": "feminine",
+    "article": "la",
+    "countability": "countable",
+    "plural_form": "toilettes",
     "sub_theme": "furniture"
   },
   {

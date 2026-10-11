@@ -21,7 +21,8 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "bagni",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "en:bathroom:noun"
   },
   {
     "id": "it:corridoio:noun",
@@ -96,30 +97,6 @@
     "sub_theme": "rooms_spaces"
   },
   {
-    "id": "it:muri:noun",
-    "word": "muri",
-    "language": "it",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "Pareti di una stanza."
-    ],
-    "examples": [
-      "Muri bianchi."
-    ],
-    "domain": "general, spoken",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/ˈmuri/",
-    "emoji": "🧱",
-    "article": "i",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "muri",
-    "no_antonym": true,
-    "sub_theme": "rooms_spaces"
-  },
-  {
     "id": "it:muro:noun",
     "word": "muro",
     "language": "it",
@@ -165,31 +142,6 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "pavimenti",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "it:poltrona:noun",
-    "word": "poltrona",
-    "language": "it",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "Una sedia grande e comoda con braccioli."
-    ],
-    "examples": [
-      "Mi siedo sulla poltrona per leggere.",
-      "Abbiamo comprato una poltrona nuova."
-    ],
-    "domain": "general, spoken",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/polˈtrona/",
-    "emoji": "🛋️",
-    "article": "la",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "poltrone",
-    "no_antonym": true,
     "sub_theme": "rooms_spaces"
   },
   {
@@ -263,7 +215,8 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "stanze",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "en:room:noun"
   },
   {
     "id": "it:tetto:noun",

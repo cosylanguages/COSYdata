@@ -21,7 +21,8 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "appartements du centre",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:apartment:noun"
   },
   {
     "id": "fr:ascenseur-immeuble:noun",
@@ -69,6 +70,54 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "balcons terrasses",
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "fr:etagere-murale:noun",
+    "word": "étagère murale",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/e.ta.ʒɛʁ my.ʁal/",
+    "definitions": [
+      "Fixation murale."
+    ],
+    "examples": [
+      "Une étagère murale."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-11",
+    "article": "l'",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "étagères murales",
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "fr:horloge-murale:noun",
+    "word": "horloge murale",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "transcription": "/ɔʁ.lɔʒ my.ʁal/",
+    "definitions": [
+      "Cadran mural."
+    ],
+    "examples": [
+      "L'horloge murale tourne."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "no_emoji": true,
+    "no_antonym": true,
+    "updated": "2026-10-11",
+    "article": "l'",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "horloges murales",
     "sub_theme": "furniture"
   },
   {
@@ -193,7 +242,8 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "tables à manger",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "en:table:noun"
   },
   {
     "id": "fr:tiroir-bureau:noun",

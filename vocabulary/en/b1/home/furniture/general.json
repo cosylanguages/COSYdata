@@ -94,35 +94,6 @@
     "sub_theme": "furniture"
   },
   {
-    "id": "en:bike-lane:noun",
-    "word": "bike lane",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "A marked division of a roadway designated specifically for bicycle traffic."
-    ],
-    "examples": [
-      "Riding to work became safer after the local council constructed a dedicated bike lane."
-    ],
-    "domain": "general, relocation",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "levels": [
-      "B1"
-    ],
-    "transcription": "/ˈbaɪk leɪn/",
-    "emoji": "🚲",
-    "countability": "countable",
-    "plural_form": "bike lanes",
-    "synonyms": [
-      "cycle lane",
-      "bikelane"
-    ],
-    "no_antonym": true,
-    "sub_theme": "furniture"
-  },
-  {
     "id": "en:boarding-priority:noun",
     "word": "boarding priority",
     "language": "en",
@@ -272,59 +243,6 @@
       "travel",
       "urban_housing"
     ],
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "en:commute-time:noun",
-    "word": "commute time",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "The total duration required to travel between one's residential home and workplace."
-    ],
-    "examples": [
-      "Choosing an apartment near public transit significantly reduces daily commute time for working adults."
-    ],
-    "domain": "relocation",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "levels": [
-      "B1"
-    ],
-    "transcription": "/kəˈmjuːt taɪm/",
-    "emoji": "⏱️",
-    "countability": "countable",
-    "plural_form": "commute times",
-    "synonyms": [
-      "travel duration",
-      "commuting duration"
-    ],
-    "no_antonym": true,
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "en:commute:verb",
-    "word": "commute",
-    "language": "en",
-    "form": "verb",
-    "level": "B1",
-    "definitions": [
-      "To travel some distance between one's home and place of work regularly."
-    ],
-    "examples": [
-      "He has to commute for an hour by train every morning."
-    ],
-    "domain": "general, relocation, travel, exam",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/kəˈmjuːt/",
-    "emoji": "🚆",
-    "synonyms": [
-      "travel to work",
-      "shuttle"
-    ],
-    "no_antonym": true,
     "sub_theme": "furniture"
   },
   {
@@ -531,36 +449,6 @@
       "road test"
     ],
     "no_antonym": true,
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "en:e-gate:noun",
-    "word": "e-gate",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "domain": "general, travel",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "definitions": [
-      "An automated airport barrier using biometric passport verification."
-    ],
-    "examples": [
-      "Scanning my passport at the airport e-gate saved twenty minutes."
-    ],
-    "transcription": "/ˈiː.ɡeɪt/",
-    "emoji": "🚪",
-    "countability": "countable",
-    "plural_form": "e-gates",
-    "synonyms": [
-      "automated passport gate",
-      "biometric barrier"
-    ],
-    "no_antonym": true,
-    "tags": [
-      "travel",
-      "urban_housing"
-    ],
     "sub_theme": "furniture"
   },
   {
@@ -836,38 +724,36 @@
     "sub_theme": "furniture"
   },
   {
-    "id": "en:gentrification:noun",
-    "word": "gentrification",
+    "id": "en:homeowner:noun",
+    "word": "homeowner",
     "language": "en",
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "The process of changing the character of a neighborhood through influx."
+      "A person who owns a house or home in which they live."
     ],
     "examples": [
-      "Urban gentrification transformed the old industrial district into fashionable arts cafes.",
-      "Gentrification has changed the character of the neighbourhood.",
-      "The local community is worried about gentrification."
+      "Every homeowner must pay annual property taxes to the local council."
     ],
-    "domain": "general, relocation, exam",
+    "domain": "general, relocation",
     "theme": "housing",
     "updated": "2026-10-11",
-    "transcription": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/",
-    "emoji": "🏙️",
-    "countability": "uncountable",
+    "plural_form": "homeowners",
+    "transcription": "/ˈhəʊmˌəʊ.nə/",
+    "emoji": "🏠",
+    "countability": "countable",
     "synonyms": [
-      "urban renewal",
-      "redevelopment"
+      "property owner",
+      "householder"
     ],
-    "no_antonym": true,
+    "antonyms": [
+      "tenant",
+      "renter"
+    ],
     "transcription_variants": {
-      "us": "/ˌdʒen.trə.fəˈkeɪ.ʃən/"
+      "us": "/ˈhoʊmˌoʊ.nɚ/"
     },
-    "sub_theme": "furniture",
-    "levels": [
-      "B1",
-      "B2"
-    ]
+    "sub_theme": "furniture"
   },
   {
     "id": "en:housing:noun",
@@ -894,45 +780,6 @@
     ],
     "no_antonym": true,
     "sub_theme": "furniture"
-  },
-  {
-    "id": "en:infrastructure:noun",
-    "word": "infrastructure",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "The basic physical and organizational structures needed for operation of society."
-    ],
-    "examples": [
-      "The government invested heavily in modernizing public transport infrastructure this year.",
-      "The city's infrastructure needs investment.",
-      "The earthquake damaged the regional infrastructure."
-    ],
-    "domain": "general, spoken, relocation, professional, exam",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "plural_form": "infrastructures",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈɪn.frəˌstrʌk.tʃə/",
-    "emoji": "🏗️",
-    "countability": "countable",
-    "synonyms": [
-      "framework",
-      "facilities",
-      "utilities"
-    ],
-    "no_antonym": true,
-    "transcription_variants": {
-      "us": "/ˈɪn.frəˌstrʌk.tʃɚ/"
-    },
-    "sub_theme": "furniture",
-    "levels": [
-      "B1",
-      "B2"
-    ]
   },
   {
     "id": "en:inspection:noun",
@@ -1341,6 +1188,38 @@
     "sub_theme": "furniture"
   },
   {
+    "id": "en:nursing-home:noun",
+    "word": "nursing home",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "a residential facility providing ongoing nursing care and accommodation for elderly or sick residents"
+    ],
+    "examples": [
+      "Their grandmother receives round-the-clock medical care at a local nursing home."
+    ],
+    "domain": "relocation",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "levels": [
+      "B1"
+    ],
+    "transcription": "/ˈnɜː.sɪŋ həʊm/",
+    "transcription_variants": {
+      "us": "/ˈnɝː.sɪŋ hoʊm/"
+    },
+    "emoji": "🏥",
+    "countability": "countable",
+    "plural_form": "nursing homes",
+    "synonyms": [
+      "care home",
+      "assisted facility"
+    ],
+    "no_antonym": true,
+    "sub_theme": "furniture"
+  },
+  {
     "id": "en:overcrowding:noun",
     "word": "overcrowding",
     "language": "en",
@@ -1457,37 +1336,6 @@
       "travel",
       "urban_housing"
     ],
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "en:pest-control:noun",
-    "word": "pest control",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "the regulation or management of species defined as pests from residential buildings"
-    ],
-    "examples": [
-      "The landlord contacted a pest control service to eliminate insects in the basement."
-    ],
-    "domain": "relocation",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "levels": [
-      "B1"
-    ],
-    "transcription": "/pest kənˈtrəʊl/",
-    "transcription_variants": {
-      "us": "/pest kənˈtroʊl/"
-    },
-    "emoji": "🪲",
-    "countability": "uncountable",
-    "synonyms": [
-      "extermination",
-      "vermin management"
-    ],
-    "no_antonym": true,
     "sub_theme": "furniture"
   },
   {
@@ -2238,36 +2086,6 @@
     "sub_theme": "furniture"
   },
   {
-    "id": "en:technical-delay:noun",
-    "word": "technical delay",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "domain": "general, travel",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "definitions": [
-      "A postponement caused by mechanical or software problems."
-    ],
-    "examples": [
-      "A minor technical delay postponed our train departure by thirty minutes."
-    ],
-    "transcription": "/ˈtek.nɪ.kəl dɪˈleɪ/",
-    "emoji": "⚙️",
-    "countability": "countable",
-    "plural_form": "technical delays",
-    "synonyms": [
-      "mechanical delay",
-      "system malfunction delay"
-    ],
-    "no_antonym": true,
-    "tags": [
-      "travel",
-      "urban_housing"
-    ],
-    "sub_theme": "furniture"
-  },
-  {
     "id": "en:tenancy-agreement:noun",
     "word": "tenancy agreement",
     "language": "en",
@@ -2450,42 +2268,6 @@
     "sub_theme": "furniture"
   },
   {
-    "id": "en:urbanisation:noun",
-    "word": "urbanisation",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "The process of making an area more urban, with population growth."
-    ],
-    "examples": [
-      "Rapid urbanisation led to the expansion of surrounding suburban residential neighborhoods."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
-    "emoji": "🏙️",
-    "countability": "uncountable",
-    "synonyms": [
-      "urban growth",
-      "city development"
-    ],
-    "antonyms": [
-      "ruralization"
-    ],
-    "transcription_variants": {
-      "us": "/ˌɝː.bən.əˈzeɪ.ʃən/"
-    },
-    "region": [
-      "UK"
-    ],
-    "regional_equivalents": [
-      "en:urbanization:noun"
-    ],
-    "sub_theme": "furniture"
-  },
-  {
     "id": "en:urbanization:noun",
     "word": "urbanization",
     "language": "en",
@@ -2525,6 +2307,64 @@
     "sub_theme": "furniture"
   },
   {
+    "id": "en:utilities:noun",
+    "word": "utilities",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Services such as electricity, gas, water, or sewage provided to buildings."
+    ],
+    "examples": [
+      "Monthly apartment rent includes all basic utilities except for internet service."
+    ],
+    "domain": "general",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "countability": "pluralia_tantum",
+    "transcription": "/juːˈtɪl.ə.tiz/",
+    "emoji": "💡",
+    "synonyms": [
+      "public services",
+      "amenities"
+    ],
+    "no_antonym": true,
+    "transcription_variants": {
+      "us": "/juːˈtɪl.ə.t̬iz/"
+    },
+    "sub_theme": "furniture"
+  },
+  {
+    "id": "en:utility-bill:noun",
+    "word": "utility bill",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "domain": "general, travel",
+    "theme": "housing",
+    "updated": "2026-10-11",
+    "definitions": [
+      "A statement of charges for household services like electricity or water."
+    ],
+    "examples": [
+      "Providing a recent utility bill serves as proof of local address."
+    ],
+    "transcription": "/juːˈtɪl.ə.ti bɪl/",
+    "emoji": "🧾",
+    "countability": "countable",
+    "plural_form": "utility bills",
+    "synonyms": [
+      "electricity bill",
+      "water statement"
+    ],
+    "no_antonym": true,
+    "tags": [
+      "travel",
+      "urban_housing"
+    ],
+    "sub_theme": "furniture"
+  },
+  {
     "id": "en:vehicle-registration:noun",
     "word": "vehicle registration",
     "language": "en",
@@ -2553,36 +2393,6 @@
       "auto title registration"
     ],
     "no_antonym": true,
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "en:weather-delay:noun",
-    "word": "weather delay",
-    "language": "en",
-    "form": "noun",
-    "level": "B1",
-    "domain": "general, travel",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "definitions": [
-      "A flight or transit delay caused by adverse meteorological conditions."
-    ],
-    "examples": [
-      "Severe fog at the airport caused a two-hour weather delay."
-    ],
-    "transcription": "/ˈweð.ər dɪˈleɪ/",
-    "emoji": "🌫️",
-    "countability": "countable",
-    "plural_form": "weather delays",
-    "synonyms": [
-      "meteorological delay",
-      "storm delay"
-    ],
-    "no_antonym": true,
-    "tags": [
-      "travel",
-      "urban_housing"
-    ],
     "sub_theme": "furniture"
   },
   {

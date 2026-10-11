@@ -1,27 +1,28 @@
 [
   {
-    "id": "el:domatio:noun",
-    "word": "δωμάτιο",
+    "id": "el:diamerisma:noun",
+    "word": "διαμέρισμα",
     "language": "el",
     "form": "noun",
     "level": "A1",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "δωμάτια",
-    "transcription": "/ðoˈmatio/",
-    "emoji": "🚪",
+    "plural_form": "διαμερίσματα",
+    "transcription": "/ðiameˈrizma/",
+    "emoji": "🏢",
     "definitions": [
-      "ξεχωριστός χώρος μέσα στο σπίτι"
+      "ανεξάρτητη κατοικία σε πολυκατοικία"
     ],
     "examples": [
-      "Το δωμάτιο είναι φωτεινό."
+      "Μένει σε ένα διαμέρισμα στο κέντρο."
     ],
     "domain": "general",
     "theme": "housing",
     "updated": "2026-10-11",
     "no_antonym": true,
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "en:apartment:noun"
   },
   {
     "id": "el:spiti:noun",
@@ -45,30 +46,7 @@
     "theme": "housing",
     "updated": "2026-10-11",
     "no_antonym": true,
-    "sub_theme": "building_types"
-  },
-  {
-    "id": "el:ypnodomatio:noun",
-    "word": "υπνοδωμάτιο",
-    "language": "el",
-    "form": "noun",
-    "level": "A1",
-    "article": "το",
-    "gender": "neuter",
-    "countability": "countable",
-    "plural_form": "υπνοδωμάτια",
-    "transcription": "/ipnoðoˈmatio/",
-    "emoji": "🛏️",
-    "definitions": [
-      "δωμάτιο για ύπνο"
-    ],
-    "examples": [
-      "Το υπνοδωμάτιο έχει ένα μεγάλο κρεβάτι."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2026-10-11",
-    "no_antonym": true,
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "en:house:noun"
   }
 ]

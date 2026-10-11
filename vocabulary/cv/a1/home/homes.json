@@ -1,25 +1,25 @@
 [
   {
-    "id": "cv:curt:noun",
-    "word": "çурт",
+    "id": "cv:khvatter:noun",
+    "word": "хваттер",
     "language": "cv",
     "form": "noun",
     "level": "A1",
-    "transcription": "/surt/",
-    "emoji": "🏠",
-    "definitions": [
-      "Пурăнмалли вырăн, çурт-кĕрĕт:"
-    ],
-    "examples": [
-      "Пирĕн çурт мăн та çутă."
-    ],
+    "countability": "countable",
+    "plural_form": "хваттерсем",
+    "transcription": "/χvat.ter/",
+    "emoji": "🏢",
     "domain": "general",
     "theme": "housing",
-    "updated": "2026-10-11",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "çуртсем",
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "definitions": [
+      "Çуртри пурăнмалли пӳлĕмсем."
+    ],
+    "examples": [
+      "Унăн хваттерĕ çĕнĕ."
+    ],
+    "concept": "en:apartment:noun",
+    "updated": "2026-10-11"
   },
   {
     "id": "cv:pelem:noun",
@@ -41,6 +41,7 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "пĕлĕмсем",
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "en:room:noun"
   }
 ]
