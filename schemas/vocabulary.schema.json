@@ -13,7 +13,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z]{2}:[a-z0-9-/]+:[a-z0-9-]+$",
+      "pattern": "^[a-z]{2}:[^:]+:[^:]+$",
       "description": "Identifier matching <language>:<word-slug>:<form>, e.g. en:healthy:adjective"
     },
     "word": {

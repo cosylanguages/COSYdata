@@ -74,7 +74,7 @@ function main() {
   function findFiles(dir, fileList = []) {
     if (
       !fs.existsSync(dir) ||
-      path.resolve(dir) === path.join(rootDir, 'vocabulary', '_canonical')
+      path.resolve(dir).startsWith(path.join(rootDir, 'vocabulary', '_canonical'))
     ) return fileList;
     const files = fs.readdirSync(dir);
     for (const file of files) {
