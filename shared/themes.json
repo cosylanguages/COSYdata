@@ -4,13 +4,19 @@
       "daily_routines",
       "physical_movement",
       "social_interaction",
-      "mental_cognition"
+      "mental_cognition",
+      "teachers-scientists",
+      "academic-english",
+      "legal-english",
+      "it-specialists",
+      "general"
     ],
     "activities": [
       "daily_life",
       "chores",
       "hobbies",
-      "events"
+      "events",
+      "general"
     ],
     "animals": [
       "pets",
@@ -20,18 +26,55 @@
       "insects",
       "general"
     ],
+    "arts": [
+      "fine_arts",
+      "performing_arts",
+      "literature",
+      "visual_arts",
+      "academic-english",
+      "legal-english",
+      "general"
+    ],
+    "body": [
+      "body_parts",
+      "organs_systems",
+      "face_head",
+      "limbs",
+      "general"
+    ],
+    "business": [
+      "management",
+      "marketing",
+      "commerce",
+      "corporate",
+      "financial_specialization",
+      "it-specialists",
+      "legal-english",
+      "academic-english",
+      "teachers-scientists",
+      "general"
+    ],
+    "city": [
+      "urban_places",
+      "city_infrastructure",
+      "public_spaces",
+      "towns_buildings",
+      "general"
+    ],
     "clothing": [
       "everyday_wear",
       "footwear",
       "accessories",
       "outerwear",
-      "weather_gear"
+      "weather_gear",
+      "general"
     ],
     "colors": [
       "primary_colors",
       "secondary_colors",
       "shades_tones",
-      "descriptors"
+      "descriptors",
+      "general"
     ],
     "communication": [
       "greetings",
@@ -39,29 +82,70 @@
       "social_expressions",
       "questions",
       "classroom_language",
-      "personal_info"
+      "personal_info",
+      "it-specialists",
+      "teachers-scientists",
+      "legal-english",
+      "academic-english",
+      "general"
+    ],
+    "crime": [
+      "offenses",
+      "law_enforcement",
+      "justice_punishment",
+      "investigation",
+      "legal-english",
+      "it-specialists",
+      "general"
     ],
     "descriptors": [
       "physical_appearance",
       "size_dimension",
       "quality_condition",
-      "personality_traits"
+      "personality_traits",
+      "teachers-scientists",
+      "academic-english",
+      "general"
+    ],
+    "drinks": [
+      "hot_beverages",
+      "cold_beverages",
+      "alcoholic_drinks",
+      "soft_drinks",
+      "general"
     ],
     "education": [
       "school_subjects",
       "classroom_objects",
       "academic_roles",
-      "learning_activities"
+      "learning_activities",
+      "academic-english",
+      "teachers-scientists",
+      "it-specialists",
+      "general"
     ],
     "emotions": [
       "positive_feelings",
       "negative_feelings",
-      "mental_states"
+      "mental_states",
+      "general"
+    ],
+    "environment": [
+      "climate_change",
+      "ecology",
+      "conservation",
+      "pollution",
+      "teachers-scientists",
+      "it-specialists",
+      "general"
     ],
     "family": [
       "immediate_family",
       "extended_family",
-      "relationships"
+      "relationships",
+      "it-specialists",
+      "teachers-scientists",
+      "general"
     ],
     "food": [
       "meals",
@@ -69,18 +153,32 @@
       "fruits_vegetables",
       "cooking",
       "meat_dairy",
-      "snacks_sweets"
+      "snacks_sweets",
+      "teachers-scientists",
+      "general"
+    ],
+    "games": [
+      "board_card_games",
+      "video_games",
+      "play_toys",
+      "gaming",
+      "general"
     ],
     "general": [
       "miscellaneous",
       "abstract_concepts",
-      "common_things"
+      "common_things",
+      "it-specialists",
+      "academic-english",
+      "general"
     ],
     "geography": [
       "countries_regions",
       "nationalities_languages",
       "landscape_features",
-      "cities_towns"
+      "cities_towns",
+      "legal-english",
+      "general"
     ],
     "grammar": [
       "pronouns",
@@ -89,7 +187,12 @@
       "conjunctions_connectors",
       "auxiliaries_modals",
       "quantifiers",
-      "adverbs"
+      "adverbs",
+      "academic-english",
+      "it-specialists",
+      "legal-english",
+      "teachers-scientists",
+      "general"
     ],
     "health": [
       "body_parts",
@@ -97,7 +200,26 @@
       "medical_care",
       "fitness_hygiene",
       "conditions",
-      "body_substances"
+      "body_substances",
+      "teachers-scientists",
+      "it-specialists",
+      "general"
+    ],
+    "history": [
+      "historical_eras",
+      "historical_events",
+      "archaeology",
+      "heritage",
+      "general"
+    ],
+    "home": [
+      "rooms_spaces",
+      "furniture",
+      "appliances",
+      "home_fixtures",
+      "building_types",
+      "kitchen",
+      "general"
     ],
     "housing": [
       "rooms_spaces",
@@ -105,51 +227,103 @@
       "appliances",
       "home_fixtures",
       "building_types",
-      "kitchen"
+      "kitchen",
+      "general"
+    ],
+    "internet": [
+      "web_social_media",
+      "online_services",
+      "cyberculture",
+      "networking",
+      "general"
+    ],
+    "law": [
+      "legal_system",
+      "justice",
+      "court_procedures",
+      "rights",
+      "legal-english",
+      "it-specialists",
+      "general"
     ],
     "leisure": [
       "sports",
       "games_hobbies",
       "entertainment_arts",
-      "relaxation"
+      "relaxation",
+      "general"
     ],
     "measurement": [
       "dimensions_weight",
       "units_scales",
-      "quantity"
+      "quantity",
+      "general"
+    ],
+    "media": [
+      "journalism",
+      "broadcasting",
+      "publishing",
+      "mass_media",
+      "teachers-scientists",
+      "it-specialists",
+      "academic-english",
+      "general"
+    ],
+    "military": [
+      "armed_forces",
+      "defense",
+      "warfare",
+      "weapons_equipment",
+      "general"
+    ],
+    "money": [
+      "currency",
+      "banking",
+      "finance",
+      "payments",
+      "general"
+    ],
+    "music": [
+      "musical_instruments",
+      "genres",
+      "performance",
+      "sound_audio",
+      "general"
     ],
     "nature": [
       "plants_trees",
       "landforms",
       "environment",
-      "celestial_bodies"
+      "celestial_bodies",
+      "teachers-scientists",
+      "general"
     ],
     "navigation": [
       "cardinal_directions",
       "spatial_orientation",
       "asking_giving_directions",
-      "distance"
+      "distance",
+      "general"
     ],
     "numbers": [
       "cardinal_numbers",
       "ordinal_numbers",
-      "fractions_amounts"
+      "fractions_amounts",
+      "general"
     ],
     "objects": [
       "personal_items",
       "everyday_tools",
       "containers",
-      "office_supplies"
+      "office_supplies",
+      "general"
     ],
-    "shapes": [
-      "geometric_shapes",
-      "materials_textures",
-      "lines_and_curves"
-    ],
-    "shopping": [
-      "money_currency",
-      "stores_shops",
-      "transactions_pricing"
+    "personality": [
+      "personality_traits",
+      "character",
+      "behavior",
+      "teachers-scientists",
+      "general"
     ],
     "philosophy": [
       "epistemology",
@@ -159,44 +333,137 @@
       "ethics_morality",
       "general"
     ],
+    "plants": [
+      "trees",
+      "flowers",
+      "crops_gardening",
+      "botany",
+      "general"
+    ],
+    "politics": [
+      "government",
+      "elections",
+      "policy",
+      "ideology",
+      "legal-english",
+      "academic-english",
+      "it-specialists",
+      "teachers-scientists",
+      "general"
+    ],
+    "religion": [
+      "faith_beliefs",
+      "religious_practices",
+      "sacred_places",
+      "theology",
+      "general"
+    ],
+    "science": [
+      "physics_chemistry",
+      "biology",
+      "research_method",
+      "teachers-scientists",
+      "legal-english",
+      "academic-english",
+      "it-specialists",
+      "general"
+    ],
+    "shapes": [
+      "geometric_shapes",
+      "materials_textures",
+      "lines_and_curves",
+      "general"
+    ],
+    "shopping": [
+      "money_currency",
+      "stores_shops",
+      "transactions_pricing",
+      "general"
+    ],
+    "society": [
+      "community",
+      "social_structures",
+      "demographics",
+      "culture",
+      "it-specialists",
+      "legal-english",
+      "academic-english",
+      "general"
+    ],
+    "space": [
+      "astronomy",
+      "space_exploration",
+      "celestial_bodies",
+      "cosmos",
+      "general"
+    ],
+    "sports": [
+      "team_sports",
+      "individual_sports",
+      "athletics_fitness",
+      "water_winter_sports",
+      "general"
+    ],
     "technology": [
       "devices_hardware",
       "digital_media_internet",
       "communication_tech",
       "artificial_intelligence",
-      "cybersecurity"
+      "cybersecurity",
+      "it-specialists",
+      "academic-english",
+      "general"
     ],
     "time": [
       "days_months_seasons",
       "clock_time",
       "frequency_duration",
-      "time_periods"
+      "time_periods",
+      "academic-english",
+      "general"
+    ],
+    "transport": [
+      "vehicles",
+      "public_transport",
+      "road_traffic",
+      "air_sea_travel",
+      "general"
     ],
     "travel": [
       "vehicles_transportation",
       "places_destinations",
       "transit_booking",
-      "vacation_lodging"
+      "vacation_lodging",
+      "general"
     ],
     "weather": [
       "precipitation_sky",
       "temperature_climate",
-      "seasons_atmosphere"
+      "seasons_atmosphere",
+      "general"
     ],
     "work": [
       "professions_jobs",
       "workplace_locations",
-      "office_business"
+      "office_business",
+      "it-specialists",
+      "legal-english",
+      "academic-english",
+      "teachers-scientists",
+      "general"
     ]
   },
   "macro_domains": {
     "SELF": [
+      "body",
       "descriptors",
       "emotions",
       "family",
-      "health"
+      "health",
+      "personality"
     ],
     "HOME": [
+      "home",
       "housing",
       "objects"
     ],
@@ -209,27 +476,55 @@
       "time"
     ],
     "FOOD": [
+      "drinks",
       "food"
     ],
     "SOCIETY": [
+      "business",
       "communication",
       "education",
       "geography",
+      "money",
       "shopping",
+      "society",
       "work"
     ],
     "WORLD": [
       "animals",
+      "city",
+      "environment",
       "nature",
       "navigation",
+      "plants",
+      "space",
       "technology",
+      "transport",
       "travel",
       "weather"
     ],
     "LEISURE": [
       "clothing",
       "colors",
-      "leisure"
+      "games",
+      "internet",
+      "leisure",
+      "media",
+      "sports"
+    ],
+    "CULTURE_HUMANITIES": [
+      "arts",
+      "history",
+      "music",
+      "religion"
+    ],
+    "SCIENCE_TECH": [
+      "science"
+    ],
+    "GOVERNANCE_LAW": [
+      "crime",
+      "law",
+      "military",
+      "politics"
     ],
     "GRAMMAR_FN": [
       "grammar"

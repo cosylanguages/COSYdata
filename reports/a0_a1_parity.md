@@ -1,6 +1,6 @@
 # A0–A1 Parity Report
 
-*Generated automatically on 2026-10-09*
+*Generated automatically on 2026-10-11*
 
 ## Target Metrics
 
@@ -12,32 +12,45 @@
 
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EN | 1669 | 474 | 1195 | +0 | +0 | +0 | 0 | 0 |
-| FR | 1620 | 1100 | 520 | -49 | +626 | -675 | 15 | 21 |
-| IT | 1179 | 259 | 920 | -490 | -215 | -275 | 2 | 5 |
-| RU | 637 | 206 | 431 | -1032 | -268 | -764 | 4 | 55 |
-| EL | 815 | 133 | 682 | -854 | -341 | -513 | 1 | 52 |
+| EN | 1657 | 452 | 1205 | -12 | -22 | +10 | 0 | 19 |
+| FR | 1611 | 1027 | 584 | -58 | +553 | -611 | 8 | 36 |
+| IT | 1199 | 250 | 949 | -470 | -224 | -246 | 2 | 23 |
+| RU | 697 | 191 | 506 | -972 | -283 | -689 | 4 | 70 |
+| EL | 882 | 133 | 749 | -787 | -341 | -446 | 10 | 68 |
 
 ### Details: EN
 
 *No structural or policy violations found.*
 
-*All non-exempt essentials covered.*
+#### Missing Essentials (19)
+
+- **house** (expected: `house`)
+- **room** (expected: `room`)
+- **kitchen** (expected: `kitchen`)
+- **bedroom** (expected: `bedroom`)
+- **bathroom** (expected: `bathroom`)
+- **door** (expected: `door`)
+- **window** (expected: `window`)
+- **table** (expected: `table`)
+- **chair** (expected: `chair`)
+- **bed** (expected: `bed`)
+- **key** (expected: `key`)
+- **garden** (expected: `garden`)
+- **apartment** (expected: `apartment`)
+- **toilet** (expected: `toilet`)
+- **dirty** (expected: `dirty`)
+- **clock** (expected: `clock`)
+- **all** (expected: `all`)
+- **some** (expected: `some`)
+- **many** (expected: `many`)
 
 ### Details: FR
 
-#### Structural & Policy Violations (11)
+#### Structural & Policy Violations (4)
 
-##### Duplicate Word+Form+Sense (11)
+##### Duplicate Word+Form+Sense (4)
 - Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:idiom, fr:ce-soir:idiom
 - Word+form+sense 'ticket de caisse::noun::' duplicated across IDs: fr:ticket-de-caisse:noun, fr:ticket-caisse:noun
-- Word+form+sense 'trente::number::' duplicated across IDs: fr:trente-num:number, fr:trente:number
-- Word+form+sense 'quarante::number::' duplicated across IDs: fr:quarante-num:number, fr:quarante:number
-- Word+form+sense 'cinquante::number::' duplicated across IDs: fr:cinquante-num:number, fr:cinquante:number
-- Word+form+sense 'soixante::number::' duplicated across IDs: fr:soixante-num:number, fr:soixante:number
-- Word+form+sense 'cent::number::' duplicated across IDs: fr:cent-num:number, fr:cent:number
-- Word+form+sense 'boite::noun::' duplicated across IDs: fr:boite:noun, fr:boite-carton:noun
-- Word+form+sense 'radio::noun::' duplicated across IDs: fr:radio:noun, fr:radio-ecouter:noun
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
 - Word+form+sense 'regarder la television::phrase::' duplicated across IDs: fr:regarder-la-tele:phrase, fr:regarder-la-television:phrase
 
@@ -47,7 +60,7 @@
 - Missing contracted preposition form 'du'
 - Missing contracted preposition form 'des'
 
-#### Missing Essentials (21)
+#### Missing Essentials (36)
 
 - **good luck** (expected: `bonne chance`)
 - **to call** (expected: `appeler`)
@@ -55,21 +68,26 @@
 - **to travel** (expected: `voyager`)
 - **to stay** (expected: `rester`)
 - **to wait for/meet** (expected: `rencontrer`)
+- **room** (expected: `pièce/chambre`)
+- **kitchen** (expected: `cuisine`)
+- **bedroom** (expected: `chambre`)
+- **bathroom** (expected: `salle de bains`)
+- **door** (expected: `porte`)
+- **window** (expected: `fenêtre`)
+- **table** (expected: `table`)
+- **chair** (expected: `chaise`)
+- **bed** (expected: `lit`)
+- **garden** (expected: `jardin`)
+- **apartment** (expected: `appartement`)
 - **supermarket** (expected: `supermarché`)
 - **pharmacy** (expected: `pharmacie`)
 - **village** (expected: `village`)
+- **toilet** (expected: `toilettes`)
 - **cinema** (expected: `cinéma`)
 - **ticket** (expected: `billet`)
 - **weekend** (expected: `week-end`)
 - **expensive** (expected: `cher`)
-- **cheap** (expected: `bon marché`)
-- **free (no cost)** (expected: `gratuit`)
-- **kind** (expected: `gentil`)
-- **umbrella** (expected: `parapluie`)
-- **turn** (expected: `tourner`)
-- **north** (expected: `nord`)
-- **south** (expected: `sud`)
-- **west** (expected: `ouest`)
+- *...and 11 more*
 
 ### Details: IT
 
@@ -79,10 +97,28 @@
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
 - Word+form+sense '::determiner::article' duplicated across IDs: it:l-apostrofo:determiner, it:un-apostrofo:determiner
 
-#### Missing Essentials (5)
+#### Missing Essentials (23)
 
 - **enjoy your meal** (expected: `buon appetito`)
 - **good luck** (expected: `buona fortuna/in bocca al lupo`)
+- **house** (expected: `casa`)
+- **room** (expected: `stanza/camera`)
+- **kitchen** (expected: `cucina`)
+- **bedroom** (expected: `camera da letto/camera`)
+- **bathroom** (expected: `bagno`)
+- **door** (expected: `porta`)
+- **window** (expected: `finestra`)
+- **table** (expected: `tavolo/tavola`)
+- **chair** (expected: `sedia`)
+- **bed** (expected: `letto`)
+- **key** (expected: `chiave`)
+- **garden** (expected: `giardino`)
+- **apartment** (expected: `appartamento`)
+- **toilet** (expected: `bagno/toilette`)
+- **phone** (expected: `telefono`)
+- **computer** (expected: `computer`)
+- **television** (expected: `televisione/tv`)
+- **clock** (expected: `orologio`)
 - **straight on** (expected: `dritto/sempre dritto/diritto`)
 - **all** (expected: `tutto`)
 - **turn** (expected: `girare`)
@@ -97,7 +133,7 @@
 - Word+form+sense 'мир::noun::' duplicated across IDs: ru:mir-peace:noun, ru:mir-country:noun
 - Word+form+sense 'дешевыи::adjective::' duplicated across IDs: ru:deshevyi:adjective, ru:deshyovyi:adjective
 
-#### Missing Essentials (55)
+#### Missing Essentials (70)
 
 - **no** (expected: `нет`)
 - **I don't understand** (expected: `я не понимаю`)
@@ -109,7 +145,6 @@
 - **happy birthday** (expected: `с днём рождения/с днем рождения`)
 - **enjoy your meal** (expected: `приятного аппетита`)
 - **good luck** (expected: `удачи`)
-- **thousand** (expected: `тысяча`)
 - **to stay** (expected: `оставаться`)
 - **to wait for/meet** (expected: `встречать/встретить`)
 - **baby** (expected: `малыш/младенец`)
@@ -118,22 +153,32 @@
 - **vegetable** (expected: `овощ`)
 - **fruit** (expected: `фрукт`)
 - **meal** (expected: `еда/приём пищи`)
-- **supermarket** (expected: `супермаркет`)
-- **post office** (expected: `почта`)
-- **church** (expected: `церковь`)
-- **beach** (expected: `пляж`)
-- **toilet** (expected: `туалет`)
-- **cinema** (expected: `кинотеатр/кино`)
-- *...and 30 more*
+- **house** (expected: `дом`)
+- **room** (expected: `комната`)
+- **kitchen** (expected: `кухня`)
+- **bedroom** (expected: `спальня`)
+- **bathroom** (expected: `ванная`)
+- **door** (expected: `дверь`)
+- **window** (expected: `окно`)
+- *...and 45 more*
 
 ### Details: EL
 
-#### Structural & Policy Violations (1)
+#### Structural & Policy Violations (10)
 
-##### Duplicate Word+Form+Sense (1)
+##### Duplicate Word+Form+Sense (10)
 - Word+form+sense 'ποτε::adverb::' duplicated across IDs: el:pote-never:adverb, el:pote:adverb
+- Word+form+sense 'σαββατο::noun::' duplicated across IDs: el:sabbato:noun, el:savvato:noun
+- Word+form+sense 'ιανουαριος::noun::' duplicated across IDs: el:ianouarios:noun, el:ianoyarios:noun
+- Word+form+sense 'φεβρουαριος::noun::' duplicated across IDs: el:fevrouarios:noun, el:fevroyarios:noun
+- Word+form+sense 'ιουνιος::noun::' duplicated across IDs: el:iounios:noun, el:ioynios:noun
+- Word+form+sense 'ιουλιος::noun::' duplicated across IDs: el:ioulios:noun, el:ioylios:noun
+- Word+form+sense 'αυγουστος::noun::' duplicated across IDs: el:avgoustos:noun, el:aygoystos:noun
+- Word+form+sense 'σεπτεμβριος::noun::' duplicated across IDs: el:septembrios:noun, el:septemvrios:noun
+- Word+form+sense 'νοεμβριος::noun::' duplicated across IDs: el:noembrios:noun, el:noemvrios:noun
+- Word+form+sense 'δεκεμβριος::noun::' duplicated across IDs: el:dekembrios:noun, el:dekemvrios:noun
 
-#### Missing Essentials (52)
+#### Missing Essentials (68)
 
 - **hello** (expected: `γεια`)
 - **I don't understand** (expected: `δεν καταλαβαίνω`)
@@ -147,20 +192,20 @@
 - **enjoy your meal** (expected: `καλή όρεξη`)
 - **good luck** (expected: `καλή τύχη`)
 - **welcome** (expected: `καλώς ήρθατε/καλώς ήρθες/καλωσορίσατε`)
-- **thousand** (expected: `χίλια/χίλιοι`)
 - **boy** (expected: `αγόρι`)
 - **girl** (expected: `κορίτσι`)
 - **beer** (expected: `μπύρα`)
-- **pharmacy** (expected: `φαρμακείο`)
-- **post office** (expected: `ταχυδρομείο`)
-- **village** (expected: `χωριό`)
-- **beach** (expected: `παραλία`)
-- **toilet** (expected: `τουαλέτα`)
-- **sometimes** (expected: `μερικές φορές/καμιά φορά/μερικές φορές`)
-- **weekend** (expected: `σαββατοκύριακο`)
-- **wrong** (expected: `λάθος`)
-- **newspaper** (expected: `εφημερίδα`)
-- *...and 27 more*
+- **house** (expected: `σπίτι`)
+- **room** (expected: `δωμάτιο`)
+- **kitchen** (expected: `κουζίνα`)
+- **bedroom** (expected: `υπνοδωμάτιο`)
+- **bathroom** (expected: `μπάνιο`)
+- **door** (expected: `πόρτα`)
+- **window** (expected: `παράθυρο`)
+- **table** (expected: `τραπέζι`)
+- **chair** (expected: `καρέκλα`)
+- **bed** (expected: `κρεβάτι`)
+- *...and 43 more*
 
 ## Exempt Essentials Keys (5)
 
