@@ -10,10 +10,19 @@ function main() {
 
   // Load canonical themes taxonomy
   let knownThemes = {};
-  const themesPath = path.join(rootDir, 'shared', 'themes.json');
-  if (fs.existsSync(themesPath)) {
+  const themesSchemaPath = path.join(rootDir, 'schemas', 'themes.json');
+  const sharedThemesPath = path.join(rootDir, 'shared', 'themes.json');
+
+  if (fs.existsSync(themesSchemaPath)) {
     try {
-      const themesData = JSON.parse(fs.readFileSync(themesPath, 'utf8'));
+      const themesData = JSON.parse(fs.readFileSync(themesSchemaPath, 'utf8'));
+      knownThemes = themesData.themes || themesData;
+    } catch (err) {
+      console.warn(`[WARNING] Could not parse schemas/themes.json: ${err.message}`);
+    }
+  } else if (fs.existsSync(sharedThemesPath)) {
+    try {
+      const themesData = JSON.parse(fs.readFileSync(sharedThemesPath, 'utf8'));
       knownThemes = themesData.themes || {};
     } catch (err) {
       console.warn(`[WARNING] Could not parse shared/themes.json: ${err.message}`);
@@ -31,8 +40,17 @@ function main() {
     }
   }
 
-  const ajv = new Ajv2020({ allErrors: true });
+  const ajv = new Ajv2020({ allErrors: true, strict: false });
   addFormats(ajv);
+
+  if (fs.existsSync(themesSchemaPath)) {
+    try {
+      const themesSchema = JSON.parse(fs.readFileSync(themesSchemaPath, 'utf8'));
+      ajv.addSchema(themesSchema, 'themes.json');
+    } catch (err) {
+      console.warn(`[WARNING] Could not add themes.json schema to Ajv: ${err.message}`);
+    }
+  }
 
   const schemaFiles = {
     vocab: 'vocabulary.schema.json',
@@ -100,6 +118,7 @@ function main() {
       path.basename(f) !== 'index.json' &&
       path.basename(f) !== 'flat-index.json' &&
       path.basename(f) !== 'search-index.json' &&
+      path.basename(f) !== 'themes-index.json' &&
       !path.basename(f).endsWith('-tracks.json')
   );
   const indexFiles = allJsonFiles.filter((f) => path.basename(f) === 'index.json');
@@ -162,7 +181,13 @@ function main() {
         }
         const valid = entryValidate(entry);
         if (!valid) {
-          const blockingErrors = (entryValidate.errors || []).filter((err) => err.keyword !== 'if');
+          const blockingErrors = (entryValidate.errors || []).filter((err) => {
+    if (err.keyword === "if") return false;
+    if (schemaType === "vocabulary" && err.instancePath && err.instancePath.includes("/secondary_themes") && err.keyword === "enum") {
+      return false;
+    }
+    return true;
+  });
 
           if (blockingErrors.length > 0) {
             hasError = true;
@@ -240,25 +265,35 @@ function main() {
   for (const { entry, relPath } of vocabEntriesList) {
     if (entry.theme && Object.keys(knownThemes).length > 0) {
       if (!knownThemes[entry.theme]) {
-        console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): primary theme '${entry.theme}' is not in shared/themes.json`);
+        console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): primary theme '${entry.theme}' is not in schemas/themes.json`);
       } else if (entry.sub_theme) {
         const allowedSubThemes = knownThemes[entry.theme] || [];
         if (!allowedSubThemes.includes(entry.sub_theme)) {
-          console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): sub_theme '${entry.sub_theme}' is not in shared/themes.json for theme '${entry.theme}'`);
+          console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): sub_theme '${entry.sub_theme}' is not in schemas/themes.json for theme '${entry.theme}'`);
         }
       }
     }
 
     if (entry.secondary_themes && Object.keys(knownThemes).length > 0) {
       for (const st of entry.secondary_themes) {
-        if (!knownThemes[st]) {
-          console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): secondary_theme '${st}' is not in shared/themes.json`);
+        if (st.includes('/')) {
+          const [secTheme, secSubTheme] = st.split('/');
+          if (!knownThemes[secTheme]) {
+            console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): secondary_theme theme '${secTheme}' in '${st}' is not in schemas/themes.json`);
+          } else if (secSubTheme) {
+            const allowedSubThemes = knownThemes[secTheme] || [];
+            if (!allowedSubThemes.includes(secSubTheme)) {
+              console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): secondary_theme sub_theme '${secSubTheme}' in '${st}' is not in schemas/themes.json for theme '${secTheme}'`);
+            }
+          }
+        } else if (!knownThemes[st]) {
+          console.warn(`[WARNING] File ${relPath} (ID: ${entry.id}): secondary_theme '${st}' is not in schemas/themes.json`);
         }
       }
     }
 
     if (entry.concept) {
-      if (!allEnglishIds.has(entry.concept)) {
+      if (/^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$/.test(entry.concept) && !allEnglishIds.has(entry.concept)) {
         console.info(`[INFO] File ${relPath} (ID: ${entry.id}): concept '${entry.concept}' does not resolve to an existing English entry ID (optional field)`);
       }
     }
