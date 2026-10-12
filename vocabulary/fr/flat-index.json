@@ -17,6 +17,30 @@
       "field": "word"
     }
   ],
+  "accord": [
+    {
+      "id": "fr:accord:noun",
+      "field": "word"
+    }
+  ],
+  "accord de location": [
+    {
+      "id": "fr:accord-de-location:noun",
+      "field": "word"
+    }
+  ],
+  "accords": [
+    {
+      "id": "fr:accord:noun",
+      "field": "plural_form"
+    }
+  ],
+  "accords de location": [
+    {
+      "id": "fr:accord-de-location:noun",
+      "field": "plural_form"
+    }
+  ],
   "achat": [
     {
       "id": "fr:achat:noun",
@@ -135,9 +159,39 @@
       "field": "word"
     }
   ],
+  "agence immobilière": [
+    {
+      "id": "fr:agence-immobiliere:noun",
+      "field": "word"
+    }
+  ],
+  "agencement": [
+    {
+      "id": "fr:agencement:noun",
+      "field": "word"
+    }
+  ],
+  "agencements": [
+    {
+      "id": "fr:agencement:noun",
+      "field": "plural_form"
+    }
+  ],
+  "agences immobilières": [
+    {
+      "id": "fr:agence-immobiliere:noun",
+      "field": "plural_form"
+    }
+  ],
   "agent conversationnel": [
     {
       "id": "fr:agent-conversationnel:noun",
+      "field": "word"
+    }
+  ],
+  "agent immobilier": [
+    {
+      "id": "fr:agent-immobilier:noun",
       "field": "word"
     }
   ],
@@ -145,6 +199,18 @@
     {
       "id": "fr:agent-conversationnel:noun",
       "field": "plural_form"
+    }
+  ],
+  "agents immobiliers": [
+    {
+      "id": "fr:agent-immobilier:noun",
+      "field": "plural_form"
+    }
+  ],
+  "agrandir": [
+    {
+      "id": "fr:agrandir:verb",
+      "field": "word"
     }
   ],
   "aide": [
@@ -333,6 +399,18 @@
       "field": "plural_form"
     }
   ],
+  "ampoule": [
+    {
+      "id": "fr:ampoule:noun",
+      "field": "word"
+    }
+  ],
+  "ampoules": [
+    {
+      "id": "fr:ampoule:noun",
+      "field": "plural_form"
+    }
+  ],
   "amsterdam": [
     {
       "id": "fr:amsterdam:noun",
@@ -429,9 +507,9 @@
       "field": "word"
     }
   ],
-  "apparaître": [
+  "appareil ménager": [
     {
-      "id": "fr:apparaitre:verb",
+      "id": "fr:appareil-menager:noun",
       "field": "word"
     }
   ],
@@ -439,6 +517,12 @@
     {
       "id": "fr:appareil-photo:noun",
       "field": "word"
+    }
+  ],
+  "appareils ménagers": [
+    {
+      "id": "fr:appareil-menager:noun",
+      "field": "plural_form"
     }
   ],
   "appareils photo": [
@@ -453,28 +537,10 @@
       "field": "word"
     }
   ],
-  "appartement du centre": [
-    {
-      "id": "fr:appartement-centre:noun",
-      "field": "word"
-    }
-  ],
   "appartements": [
     {
       "id": "fr:appartement:noun",
       "field": "plural_form"
-    }
-  ],
-  "appartements du centre": [
-    {
-      "id": "fr:appartement-centre:noun",
-      "field": "plural_form"
-    }
-  ],
-  "appartenir": [
-    {
-      "id": "fr:appartenir:verb",
-      "field": "word"
     }
   ],
   "appel téléphonique": [
@@ -615,6 +681,12 @@
       "field": "word"
     }
   ],
+  "architectural": [
+    {
+      "id": "fr:architectural:adjective",
+      "field": "word"
+    }
+  ],
   "arcs-en-ciel": [
     {
       "id": "fr:arc-en-ciel:noun",
@@ -642,18 +714,6 @@
   "arguments": [
     {
       "id": "fr:argument:noun",
-      "field": "plural_form"
-    }
-  ],
-  "armoire": [
-    {
-      "id": "fr:armoire:noun",
-      "field": "word"
-    }
-  ],
-  "armoires": [
-    {
-      "id": "fr:armoire:noun",
       "field": "plural_form"
     }
   ],
@@ -753,25 +813,33 @@
   ],
   "ascenseur": [
     {
-      "id": "fr:ascenseur:noun",
+      "id": "fr:ascenseur-elevator:noun",
       "field": "word"
-    }
-  ],
-  "ascenseur d'immeuble": [
+    },
     {
-      "id": "fr:ascenseur-immeuble:noun",
+      "id": "fr:ascenseur:noun",
       "field": "word"
     }
   ],
   "ascenseurs": [
     {
+      "id": "fr:ascenseur-elevator:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "fr:ascenseur:noun",
       "field": "plural_form"
     }
   ],
-  "ascenseurs d'immeuble": [
+  "aspirateur": [
     {
-      "id": "fr:ascenseur-immeuble:noun",
+      "id": "fr:aspirateur:noun",
+      "field": "word"
+    }
+  ],
+  "aspirateurs": [
+    {
+      "id": "fr:aspirateur:noun",
       "field": "plural_form"
     }
   ],
@@ -1335,6 +1403,12 @@
       "field": "plural_form"
     }
   ],
+  "aération": [
+    {
+      "id": "fr:aeration:noun",
+      "field": "word"
+    }
+  ],
   "aéroport": [
     {
       "id": "fr:aeroport:noun",
@@ -1344,6 +1418,18 @@
   "aéroports": [
     {
       "id": "fr:aeroport:noun",
+      "field": "plural_form"
+    }
+  ],
+  "bac de recyclage": [
+    {
+      "id": "fr:bac-de-recyclage:noun",
+      "field": "word"
+    }
+  ],
+  "bacs de recyclage": [
+    {
+      "id": "fr:bac-de-recyclage:noun",
       "field": "plural_form"
     }
   ],
@@ -1375,6 +1461,36 @@
       "field": "plural_form"
     }
   ],
+  "baignoire": [
+    {
+      "id": "fr:baignoire:noun",
+      "field": "word"
+    }
+  ],
+  "baignoires": [
+    {
+      "id": "fr:baignoire:noun",
+      "field": "plural_form"
+    }
+  ],
+  "bail": [
+    {
+      "id": "fr:bail:noun",
+      "field": "word"
+    }
+  ],
+  "bail de location": [
+    {
+      "id": "fr:bail-de-location:noun",
+      "field": "word"
+    }
+  ],
+  "bails de location": [
+    {
+      "id": "fr:bail-de-location:noun",
+      "field": "plural_form"
+    }
+  ],
   "bain": [
     {
       "id": "fr:bain:noun",
@@ -1387,10 +1503,16 @@
       "field": "plural_form"
     }
   ],
-  "balayer": [
+  "balai": [
     {
-      "id": "fr:balayer:verb",
+      "id": "fr:balai:noun",
       "field": "word"
+    }
+  ],
+  "balais": [
+    {
+      "id": "fr:balai:noun",
+      "field": "plural_form"
     }
   ],
   "balcon": [
@@ -1399,21 +1521,9 @@
       "field": "word"
     }
   ],
-  "balcon terrasse": [
-    {
-      "id": "fr:balcon-terrasse:noun",
-      "field": "word"
-    }
-  ],
   "balcons": [
     {
       "id": "fr:balcon:noun",
-      "field": "plural_form"
-    }
-  ],
-  "balcons terrasses": [
-    {
-      "id": "fr:balcon-terrasse:noun",
       "field": "plural_form"
     }
   ],
@@ -1450,6 +1560,18 @@
   "bananes": [
     {
       "id": "fr:banane:noun",
+      "field": "plural_form"
+    }
+  ],
+  "banc": [
+    {
+      "id": "fr:banc:noun",
+      "field": "word"
+    }
+  ],
+  "bancs": [
+    {
+      "id": "fr:banc:noun",
       "field": "plural_form"
     }
   ],
@@ -1540,6 +1662,12 @@
   "batteries": [
     {
       "id": "fr:batterie:noun",
+      "field": "plural_form"
+    }
+  ],
+  "baux": [
+    {
+      "id": "fr:bail:noun",
       "field": "plural_form"
     }
   ],
@@ -1665,6 +1793,12 @@
       "field": "word"
     }
   ],
+  "bien locatif": [
+    {
+      "id": "fr:bien-locatif:noun",
+      "field": "word"
+    }
+  ],
   "bien que": [
     {
       "id": "fr:bien-que:phrase",
@@ -1675,6 +1809,12 @@
     {
       "id": "fr:bien-sur:phrase",
       "field": "word"
+    }
+  ],
+  "biens locatifs": [
+    {
+      "id": "fr:bien-locatif:noun",
+      "field": "plural_form"
     }
   ],
   "bientôt": [
@@ -1995,6 +2135,18 @@
       "field": "word"
     }
   ],
+  "bouilloire": [
+    {
+      "id": "fr:bouilloire:noun",
+      "field": "word"
+    }
+  ],
+  "bouilloires": [
+    {
+      "id": "fr:bouilloire:noun",
+      "field": "plural_form"
+    }
+  ],
   "boulangerie": [
     {
       "id": "fr:boulangerie:noun",
@@ -2085,6 +2237,12 @@
       "field": "word"
     }
   ],
+  "boîte à ordures": [
+    {
+      "id": "fr:boite-a-ordures:noun",
+      "field": "word"
+    }
+  ],
   "boîtes": [
     {
       "id": "fr:boite-carton:noun",
@@ -2104,6 +2262,12 @@
   "boîtes en carton": [
     {
       "id": "fr:boite-en-carton:noun",
+      "field": "plural_form"
+    }
+  ],
+  "boîtes à ordures": [
+    {
+      "id": "fr:boite-a-ordures:noun",
       "field": "plural_form"
     }
   ],
@@ -2131,9 +2295,27 @@
       "field": "word"
     }
   ],
+  "brique": [
+    {
+      "id": "fr:brique:noun",
+      "field": "word"
+    }
+  ],
+  "briques": [
+    {
+      "id": "fr:brique:noun",
+      "field": "plural_form"
+    }
+  ],
   "brosse habits": [
     {
       "id": "fr:brosse-habits:noun",
+      "field": "word"
+    }
+  ],
+  "brosse à dents": [
+    {
+      "id": "fr:brosse-a-dents:noun",
       "field": "word"
     }
   ],
@@ -2146,6 +2328,12 @@
   "brosses habits": [
     {
       "id": "fr:brosse-habits:noun",
+      "field": "plural_form"
+    }
+  ],
+  "brosses à dents": [
+    {
+      "id": "fr:brosse-a-dents:noun",
       "field": "plural_form"
     }
   ],
@@ -2207,6 +2395,18 @@
     {
       "id": "fr:budgetiser:verb",
       "field": "word"
+    }
+  ],
+  "bungalow": [
+    {
+      "id": "fr:bungalow:noun",
+      "field": "word"
+    }
+  ],
+  "bungalows": [
+    {
+      "id": "fr:bungalow:noun",
+      "field": "plural_form"
     }
   ],
   "bureau": [
@@ -2356,6 +2556,18 @@
   "cadeaux": [
     {
       "id": "fr:cadeau:noun",
+      "field": "plural_form"
+    }
+  ],
+  "cafetière": [
+    {
+      "id": "fr:cafetiere:noun",
+      "field": "word"
+    }
+  ],
+  "cafetières": [
+    {
+      "id": "fr:cafetiere:noun",
       "field": "plural_form"
     }
   ],
@@ -2739,16 +2951,40 @@
       "field": "plural_form"
     }
   ],
-  "casser": [
-    {
-      "id": "fr:casser:verb",
-      "field": "word"
-    }
-  ],
   "casser les pieds": [
     {
       "id": "fr:casser-les-pieds:phrase",
       "field": "word"
+    }
+  ],
+  "casserole": [
+    {
+      "id": "fr:casserole:noun",
+      "field": "word"
+    }
+  ],
+  "casseroles": [
+    {
+      "id": "fr:casserole:noun",
+      "field": "plural_form"
+    }
+  ],
+  "cassé": [
+    {
+      "id": "fr:casse:adjective",
+      "field": "word"
+    }
+  ],
+  "cave": [
+    {
+      "id": "fr:cave:noun",
+      "field": "word"
+    }
+  ],
+  "caves": [
+    {
+      "id": "fr:cave:noun",
+      "field": "plural_form"
     }
   ],
   "ce": [
@@ -2821,6 +3057,18 @@
     {
       "id": "fr:celles-la:pronoun",
       "field": "word"
+    }
+  ],
+  "cellier": [
+    {
+      "id": "fr:cellier:noun",
+      "field": "word"
+    }
+  ],
+  "celliers": [
+    {
+      "id": "fr:cellier:noun",
+      "field": "plural_form"
     }
   ],
   "celui-ci": [
@@ -2991,6 +3239,18 @@
       "field": "plural_form"
     }
   ],
+  "chalet": [
+    {
+      "id": "fr:chalet:noun",
+      "field": "word"
+    }
+  ],
+  "chalets": [
+    {
+      "id": "fr:chalet:noun",
+      "field": "plural_form"
+    }
+  ],
   "chaleur d'été": [
     {
       "id": "fr:chaleur-ete:noun",
@@ -3009,27 +3269,21 @@
       "field": "word"
     }
   ],
-  "chambre à coucher": [
-    {
-      "id": "fr:chambre-coucher:noun",
-      "field": "word"
-    }
-  ],
   "chambres": [
     {
       "id": "fr:chambre:noun",
       "field": "plural_form"
     }
   ],
+  "chambres communicantes": [
+    {
+      "id": "fr:chambres-communicantes:noun",
+      "field": "word"
+    }
+  ],
   "chambres d'hôtel": [
     {
       "id": "fr:chambre-d-hotel:noun",
-      "field": "plural_form"
-    }
-  ],
-  "chambres à coucher": [
-    {
-      "id": "fr:chambre-coucher:noun",
       "field": "plural_form"
     }
   ],
@@ -3151,6 +3405,12 @@
       "field": "word"
     }
   ],
+  "charges": [
+    {
+      "id": "fr:charges:noun",
+      "field": "word"
+    }
+  ],
   "chargeur": [
     {
       "id": "fr:chargeur-phone:noun",
@@ -3217,6 +3477,42 @@
       "field": "word"
     }
   ],
+  "chaudière": [
+    {
+      "id": "fr:chaudiere:noun",
+      "field": "word"
+    }
+  ],
+  "chaudières": [
+    {
+      "id": "fr:chaudiere:noun",
+      "field": "plural_form"
+    }
+  ],
+  "chauffage": [
+    {
+      "id": "fr:chauffage:noun",
+      "field": "word"
+    }
+  ],
+  "chauffage d'appoint": [
+    {
+      "id": "fr:chauffage-d-appoint:noun",
+      "field": "word"
+    }
+  ],
+  "chauffages": [
+    {
+      "id": "fr:chauffage:noun",
+      "field": "plural_form"
+    }
+  ],
+  "chauffages d'appoint": [
+    {
+      "id": "fr:chauffage-d-appoint:noun",
+      "field": "plural_form"
+    }
+  ],
   "chauffeur": [
     {
       "id": "fr:chauffeur:noun",
@@ -3280,6 +3576,18 @@
   "chemins": [
     {
       "id": "fr:chemin:noun",
+      "field": "plural_form"
+    }
+  ],
+  "cheminée": [
+    {
+      "id": "fr:cheminee:noun",
+      "field": "word"
+    }
+  ],
+  "cheminées": [
+    {
+      "id": "fr:cheminee:noun",
       "field": "plural_form"
     }
   ],
@@ -3364,6 +3672,18 @@
   "chevaux de course": [
     {
       "id": "fr:cheval-course:noun",
+      "field": "plural_form"
+    }
+  ],
+  "chevet": [
+    {
+      "id": "fr:chevet:noun",
+      "field": "word"
+    }
+  ],
+  "chevets": [
+    {
+      "id": "fr:chevet:noun",
       "field": "plural_form"
     }
   ],
@@ -3461,6 +3781,30 @@
     {
       "id": "fr:chuchoter:verb",
       "field": "word"
+    }
+  ],
+  "château": [
+    {
+      "id": "fr:chateau:noun",
+      "field": "word"
+    }
+  ],
+  "château fort": [
+    {
+      "id": "fr:chateau-fort:noun",
+      "field": "word"
+    }
+  ],
+  "châteaux": [
+    {
+      "id": "fr:chateau:noun",
+      "field": "plural_form"
+    }
+  ],
+  "châteaux forts": [
+    {
+      "id": "fr:chateau-fort:noun",
+      "field": "plural_form"
     }
   ],
   "ciel": [
@@ -3679,6 +4023,24 @@
       "field": "word"
     }
   ],
+  "climatisation": [
+    {
+      "id": "fr:climatisation:noun",
+      "field": "word"
+    }
+  ],
+  "climatiseur": [
+    {
+      "id": "fr:climatiseur:noun",
+      "field": "word"
+    }
+  ],
+  "climatiseurs": [
+    {
+      "id": "fr:climatiseur:noun",
+      "field": "plural_form"
+    }
+  ],
   "climats": [
     {
       "id": "fr:climat:noun",
@@ -3706,6 +4068,18 @@
   "clés maison": [
     {
       "id": "fr:cle-maison:noun",
+      "field": "plural_form"
+    }
+  ],
+  "clôture": [
+    {
+      "id": "fr:cloture:noun",
+      "field": "word"
+    }
+  ],
+  "clôtures": [
+    {
+      "id": "fr:cloture:noun",
       "field": "plural_form"
     }
   ],
@@ -3931,29 +4305,15 @@
     {
       "id": "fr:commode:adjective",
       "field": "word"
-    }
-  ],
-  "commode en bois": [
+    },
     {
-      "id": "fr:commode-bois:noun",
+      "id": "fr:commode:noun",
       "field": "word"
     }
   ],
-  "commode à tiroirs": [
+  "commodes": [
     {
-      "id": "fr:commode-tiroirs:noun",
-      "field": "word"
-    }
-  ],
-  "commodes en bois": [
-    {
-      "id": "fr:commode-bois:noun",
-      "field": "plural_form"
-    }
-  ],
-  "commodes à tiroirs": [
-    {
-      "id": "fr:commode-tiroirs:noun",
+      "id": "fr:commode:noun",
       "field": "plural_form"
     }
   ],
@@ -4069,6 +4429,12 @@
       "field": "plural_form"
     }
   ],
+  "conditionnement": [
+    {
+      "id": "fr:conditionnement:noun",
+      "field": "word"
+    }
+  ],
   "conducteur": [
     {
       "id": "fr:conducteur:noun",
@@ -4121,6 +4487,18 @@
     {
       "id": "fr:conge-paye:noun",
       "field": "word"
+    }
+  ],
+  "congélateur": [
+    {
+      "id": "fr:congelateur:noun",
+      "field": "word"
+    }
+  ],
+  "congélateurs": [
+    {
+      "id": "fr:congelateur:noun",
+      "field": "plural_form"
     }
   ],
   "congés payés": [
@@ -4183,6 +4561,12 @@
       "field": "word"
     }
   ],
+  "contrat de location": [
+    {
+      "id": "fr:contrat-de-location:noun",
+      "field": "word"
+    }
+  ],
   "contrats": [
     {
       "id": "fr:contrat:noun",
@@ -4192,6 +4576,12 @@
   "contrats d'embauche": [
     {
       "id": "fr:contrat-embauche:noun",
+      "field": "plural_form"
+    }
+  ],
+  "contrats de location": [
+    {
+      "id": "fr:contrat-de-location:noun",
       "field": "plural_form"
     }
   ],
@@ -4213,9 +4603,21 @@
       "field": "word"
     }
   ],
+  "correspondance manquée": [
+    {
+      "id": "fr:correspondance-manquee:noun",
+      "field": "word"
+    }
+  ],
   "correspondances": [
     {
       "id": "fr:correspondance:noun",
+      "field": "plural_form"
+    }
+  ],
+  "correspondances manquées": [
+    {
+      "id": "fr:correspondance-manquee:noun",
       "field": "plural_form"
     }
   ],
@@ -4249,15 +4651,15 @@
       "field": "plural_form"
     }
   ],
-  "couloir": [
+  "couloir de passage": [
     {
-      "id": "fr:couloir:noun",
+      "id": "fr:couloir-de-passage:noun",
       "field": "word"
     }
   ],
-  "couloirs": [
+  "couloirs de passage": [
     {
-      "id": "fr:couloir:noun",
+      "id": "fr:couloir-de-passage:noun",
       "field": "plural_form"
     }
   ],
@@ -4276,6 +4678,12 @@
   "couper": [
     {
       "id": "fr:couper:verb",
+      "field": "word"
+    }
+  ],
+  "cour": [
+    {
+      "id": "fr:cour:noun",
       "field": "word"
     }
   ],
@@ -4326,6 +4734,10 @@
     }
   ],
   "cours": [
+    {
+      "id": "fr:cour:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:cours-matiere:noun",
       "field": "plural_form"
@@ -4491,6 +4903,18 @@
       "field": "plural_form"
     }
   ],
+  "crise du logement abordable": [
+    {
+      "id": "fr:crise-du-logement-abordable:noun",
+      "field": "word"
+    }
+  ],
+  "crises du logement abordable": [
+    {
+      "id": "fr:crise-du-logement-abordable:noun",
+      "field": "plural_form"
+    }
+  ],
   "croire": [
     {
       "id": "fr:croire:verb",
@@ -4519,6 +4943,18 @@
     {
       "id": "fr:cru:adjective",
       "field": "word"
+    }
+  ],
+  "crèche": [
+    {
+      "id": "fr:creche:noun",
+      "field": "word"
+    }
+  ],
+  "crèches": [
+    {
+      "id": "fr:creche:noun",
+      "field": "plural_form"
     }
   ],
   "créatif": [
@@ -4575,12 +5011,6 @@
       "field": "word"
     }
   ],
-  "cuisine équipée": [
-    {
-      "id": "fr:cuisine-equipee:noun",
-      "field": "word"
-    }
-  ],
   "cuisiner": [
     {
       "id": "fr:cuisiner:/kɥi.zi.ne/",
@@ -4609,12 +5039,6 @@
       "field": "plural_form"
     }
   ],
-  "cuisines équipées": [
-    {
-      "id": "fr:cuisine-equipee:noun",
-      "field": "plural_form"
-    }
-  ],
   "cuisinier": [
     {
       "id": "fr:cuisinier:noun",
@@ -4624,6 +5048,18 @@
   "cuisiniers": [
     {
       "id": "fr:cuisinier:noun",
+      "field": "plural_form"
+    }
+  ],
+  "cuisinière": [
+    {
+      "id": "fr:cuisiniere:noun",
+      "field": "word"
+    }
+  ],
+  "cuisinières": [
+    {
+      "id": "fr:cuisiniere:noun",
       "field": "plural_form"
     }
   ],
@@ -4653,6 +5089,18 @@
     {
       "id": "fr:cyclisme:noun",
       "field": "word"
+    }
+  ],
+  "câblage électrique": [
+    {
+      "id": "fr:cablage-electrique:noun",
+      "field": "word"
+    }
+  ],
+  "câblages électriques": [
+    {
+      "id": "fr:cablage-electrique:noun",
+      "field": "plural_form"
     }
   ],
   "câble": [
@@ -4888,6 +5336,18 @@
   "demandes": [
     {
       "id": "fr:demande:noun",
+      "field": "plural_form"
+    }
+  ],
+  "demeure seigneuriale": [
+    {
+      "id": "fr:demeure-seigneuriale:noun",
+      "field": "word"
+    }
+  ],
+  "demeures seigneuriales": [
+    {
+      "id": "fr:demeure-seigneuriale:noun",
       "field": "plural_form"
     }
   ],
@@ -5181,16 +5641,22 @@
       "field": "word"
     }
   ],
-  "disparaître": [
-    {
-      "id": "fr:disparaitre:verb",
-      "field": "word"
-    }
-  ],
   "disponible": [
     {
       "id": "fr:disponible:adjective",
       "field": "word"
+    }
+  ],
+  "divan": [
+    {
+      "id": "fr:divan:noun",
+      "field": "word"
+    }
+  ],
+  "divans": [
+    {
+      "id": "fr:divan:noun",
+      "field": "plural_form"
     }
   ],
   "diversité": [
@@ -5465,6 +5931,16 @@
       "field": "word"
     }
   ],
+  "duplex": [
+    {
+      "id": "fr:duplex:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:duplex:noun",
+      "field": "word"
+    }
+  ],
   "duquel": [
     {
       "id": "fr:duquel:pronoun",
@@ -5486,6 +5962,24 @@
   "durable": [
     {
       "id": "fr:durable:adjective",
+      "field": "word"
+    }
+  ],
+  "durée d'escale": [
+    {
+      "id": "fr:duree-d-escale:noun",
+      "field": "word"
+    }
+  ],
+  "durées d'escale": [
+    {
+      "id": "fr:duree-d-escale:noun",
+      "field": "plural_form"
+    }
+  ],
+  "débarrasser": [
+    {
+      "id": "fr:debarrasser:verb",
       "field": "word"
     }
   ],
@@ -5565,6 +6059,18 @@
       "field": "word"
     }
   ],
+  "délai minimum de correspondance": [
+    {
+      "id": "fr:delai-minimum-de-correspondance:noun",
+      "field": "word"
+    }
+  ],
+  "délais minimums de correspondance": [
+    {
+      "id": "fr:delai-minimum-de-correspondance:noun",
+      "field": "plural_form"
+    }
+  ],
   "délicieux": [
     {
       "id": "fr:delicieux:adjective",
@@ -5583,10 +6089,16 @@
       "field": "word"
     }
   ],
-  "déménager": [
+  "déménagement": [
     {
-      "id": "fr:demenager:verb",
+      "id": "fr:demenagement:noun",
       "field": "word"
+    }
+  ],
+  "déménagements": [
+    {
+      "id": "fr:demenagement:noun",
+      "field": "plural_form"
     }
   ],
   "déontologie": [
@@ -5613,12 +6125,6 @@
       "field": "plural_form"
     }
   ],
-  "dépendre": [
-    {
-      "id": "fr:dependre:verb",
-      "field": "word"
-    }
-  ],
   "dépense": [
     {
       "id": "fr:depense:noun",
@@ -5634,6 +6140,30 @@
   "dépenses": [
     {
       "id": "fr:depense:noun",
+      "field": "plural_form"
+    }
+  ],
+  "dépôt de garantie": [
+    {
+      "id": "fr:depot-de-garantie:noun",
+      "field": "word"
+    }
+  ],
+  "dépôts de garantie": [
+    {
+      "id": "fr:depot-de-garantie:noun",
+      "field": "plural_form"
+    }
+  ],
+  "dératisation": [
+    {
+      "id": "fr:deratisation:noun",
+      "field": "word"
+    }
+  ],
+  "dératisations": [
+    {
+      "id": "fr:deratisation:noun",
       "field": "plural_form"
     }
   ],
@@ -5653,6 +6183,24 @@
     {
       "id": "fr:desole:phrase",
       "field": "word"
+    }
+  ],
+  "désordre": [
+    {
+      "id": "fr:desordre:noun",
+      "field": "word"
+    }
+  ],
+  "détecteur de fumée": [
+    {
+      "id": "fr:detecteur-de-fumee:noun",
+      "field": "word"
+    }
+  ],
+  "détecteurs de fumée": [
+    {
+      "id": "fr:detecteur-de-fumee:noun",
+      "field": "plural_form"
     }
   ],
   "détendu": [
@@ -5700,12 +6248,6 @@
   "développer": [
     {
       "id": "fr:developper:verb",
-      "field": "word"
-    }
-  ],
-  "déverrouiller": [
-    {
-      "id": "fr:deverrouiller:verb",
       "field": "word"
     }
   ],
@@ -5789,6 +6331,18 @@
       "field": "word"
     }
   ],
+  "emménagement": [
+    {
+      "id": "fr:emmenagement:noun",
+      "field": "word"
+    }
+  ],
+  "emménagements": [
+    {
+      "id": "fr:emmenagement:noun",
+      "field": "plural_form"
+    }
+  ],
   "empirisme": [
     {
       "id": "fr:empirisme:noun",
@@ -5840,12 +6394,6 @@
   "emporter son sac": [
     {
       "id": "fr:emporter-sac:phrase",
-      "field": "word"
-    }
-  ],
-  "emprunter": [
-    {
-      "id": "fr:emprunter:verb",
       "field": "word"
     }
   ],
@@ -6241,19 +6789,11 @@
     {
       "id": "fr:entree-restaurant:noun",
       "field": "word"
-    },
-    {
-      "id": "fr:entree:noun",
-      "field": "word"
     }
   ],
   "entrées": [
     {
       "id": "fr:entree-restaurant:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "fr:entree:noun",
       "field": "plural_form"
     }
   ],
@@ -6323,21 +6863,9 @@
       "field": "word"
     }
   ],
-  "escalier en bois": [
-    {
-      "id": "fr:escalier-bois:noun",
-      "field": "word"
-    }
-  ],
   "escaliers": [
     {
       "id": "fr:escalier:noun",
-      "field": "plural_form"
-    }
-  ],
-  "escaliers en bois": [
-    {
-      "id": "fr:escalier-bois:noun",
       "field": "plural_form"
     }
   ],
@@ -6360,10 +6888,6 @@
     }
   ],
   "essayer": [
-    {
-      "id": "fr:essayer-a2:verb",
-      "field": "word"
-    },
     {
       "id": "fr:essayer:verb",
       "field": "word"
@@ -6503,6 +7027,18 @@
       "field": "plural_form"
     }
   ],
+  "expulsion": [
+    {
+      "id": "fr:expulsion:noun",
+      "field": "word"
+    }
+  ],
+  "expulsions": [
+    {
+      "id": "fr:expulsion:noun",
+      "field": "plural_form"
+    }
+  ],
   "expérience": [
     {
       "id": "fr:experience:noun",
@@ -6519,6 +7055,18 @@
     {
       "id": "fr:experimente:adjective",
       "field": "word"
+    }
+  ],
+  "extension": [
+    {
+      "id": "fr:extension:noun",
+      "field": "word"
+    }
+  ],
+  "extensions": [
+    {
+      "id": "fr:extension:noun",
+      "field": "plural_form"
     }
   ],
   "facile": [
@@ -6545,6 +7093,12 @@
       "field": "word"
     }
   ],
+  "facture de services": [
+    {
+      "id": "fr:facture-de-services:noun",
+      "field": "word"
+    }
+  ],
   "facturer": [
     {
       "id": "fr:facturer:verb",
@@ -6554,6 +7108,12 @@
   "factures": [
     {
       "id": "fr:facture:noun",
+      "field": "plural_form"
+    }
+  ],
+  "factures de services": [
+    {
+      "id": "fr:facture-de-services:noun",
       "field": "plural_form"
     }
   ],
@@ -6977,22 +7537,16 @@
       "field": "word"
     }
   ],
-  "fenêtre double vitrage": [
-    {
-      "id": "fr:fenetre-double:noun",
-      "field": "word"
-    }
-  ],
   "fenêtres": [
     {
       "id": "fr:fenetre:noun",
       "field": "plural_form"
     }
   ],
-  "fenêtres double vitrage": [
+  "fer à repasser": [
     {
-      "id": "fr:fenetre-double:noun",
-      "field": "plural_form"
+      "id": "fr:fer-a-repasser:noun",
+      "field": "word"
     }
   ],
   "ferme": [
@@ -7007,15 +7561,21 @@
       "field": "word"
     }
   ],
-  "fermer à clé": [
-    {
-      "id": "fr:fermer-a-cle:verb",
-      "field": "word"
-    }
-  ],
   "fermes": [
     {
       "id": "fr:ferme:noun",
+      "field": "plural_form"
+    }
+  ],
+  "fermette": [
+    {
+      "id": "fr:fermette:noun",
+      "field": "word"
+    }
+  ],
+  "fermettes": [
+    {
+      "id": "fr:fermette:noun",
       "field": "plural_form"
     }
   ],
@@ -7029,6 +7589,12 @@
     {
       "id": "fr:ferme:adjective",
       "field": "word"
+    }
+  ],
+  "fers à repasser": [
+    {
+      "id": "fr:fer-a-repasser:noun",
+      "field": "plural_form"
     }
   ],
   "festival": [
@@ -7200,6 +7766,12 @@
   "finlande": [
     {
       "id": "fr:finlande:noun",
+      "field": "word"
+    }
+  ],
+  "fixer": [
+    {
+      "id": "fr:fixer:verb",
       "field": "word"
     }
   ],
@@ -7393,6 +7965,12 @@
       "field": "word"
     }
   ],
+  "foyers": [
+    {
+      "id": "fr:foyer:noun",
+      "field": "plural_form"
+    }
+  ],
   "frais": [
     {
       "id": "fr:frais:adjective",
@@ -7491,6 +8069,12 @@
       "field": "plural_form"
     }
   ],
+  "frotter": [
+    {
+      "id": "fr:frotter:verb",
+      "field": "word"
+    }
+  ],
   "fruit": [
     {
       "id": "fr:fruit:noun",
@@ -7524,6 +8108,18 @@
   "frères cadets": [
     {
       "id": "fr:frere-cadet:noun",
+      "field": "plural_form"
+    }
+  ],
+  "fuite": [
+    {
+      "id": "fr:fuite:noun",
+      "field": "word"
+    }
+  ],
+  "fuites": [
+    {
+      "id": "fr:fuite:noun",
       "field": "plural_form"
     }
   ],
@@ -7649,6 +8245,12 @@
       "field": "plural_form"
     }
   ],
+  "garde d'enfants": [
+    {
+      "id": "fr:garde-d-enfants:noun",
+      "field": "word"
+    }
+  ],
   "garder": [
     {
       "id": "fr:garder:verb",
@@ -7721,6 +8323,12 @@
       "field": "word"
     }
   ],
+  "gaz": [
+    {
+      "id": "fr:gaz:noun",
+      "field": "word"
+    }
+  ],
   "gendre": [
     {
       "id": "fr:gendre:noun",
@@ -7761,6 +8369,18 @@
     {
       "id": "fr:geneve:noun",
       "field": "word"
+    }
+  ],
+  "gestionnaire immobilier": [
+    {
+      "id": "fr:gestionnaire-immobilier:noun",
+      "field": "word"
+    }
+  ],
+  "gestionnaires immobiliers": [
+    {
+      "id": "fr:gestionnaire-immobilier:noun",
+      "field": "plural_form"
     }
   ],
   "glace": [
@@ -7911,13 +8531,39 @@
       "field": "plural_form"
     }
   ],
+  "gratte-ciel": [
+    {
+      "id": "fr:gratte-ciel:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:gratte-ciel:noun",
+      "field": "word"
+    }
+  ],
   "gratuit": [
     {
       "id": "fr:gratuit:adjective",
       "field": "word"
     }
   ],
+  "grenier": [
+    {
+      "id": "fr:grenier:noun",
+      "field": "word"
+    }
+  ],
+  "greniers": [
+    {
+      "id": "fr:grenier:noun",
+      "field": "plural_form"
+    }
+  ],
   "grille-pain": [
+    {
+      "id": "fr:grille-pain:noun",
+      "field": "plural_form"
+    },
     {
       "id": "fr:grille-pain:noun",
       "field": "word"
@@ -8073,6 +8719,18 @@
       "field": "word"
     }
   ],
+  "gîte": [
+    {
+      "id": "fr:gite:noun",
+      "field": "word"
+    }
+  ],
+  "gîtes": [
+    {
+      "id": "fr:gite:noun",
+      "field": "plural_form"
+    }
+  ],
   "habitant": [
     {
       "id": "fr:habitant:noun",
@@ -8082,6 +8740,18 @@
   "habitants": [
     {
       "id": "fr:habitant:noun",
+      "field": "plural_form"
+    }
+  ],
+  "habitation à loyer modéré": [
+    {
+      "id": "fr:habitation-a-loyer-modere:noun",
+      "field": "word"
+    }
+  ],
+  "habitations à loyer modéré": [
+    {
+      "id": "fr:habitation-a-loyer-modere:noun",
       "field": "plural_form"
     }
   ],
@@ -8259,21 +8929,9 @@
       "field": "word"
     }
   ],
-  "horloge murale": [
-    {
-      "id": "fr:horloge-murale:noun",
-      "field": "word"
-    }
-  ],
   "horloges": [
     {
       "id": "fr:horloge:noun",
-      "field": "plural_form"
-    }
-  ],
-  "horloges murales": [
-    {
-      "id": "fr:horloge-murale:noun",
       "field": "plural_form"
     }
   ],
@@ -8405,21 +9063,39 @@
       "field": "word"
     }
   ],
-  "imaginer": [
-    {
-      "id": "fr:imaginer:verb",
-      "field": "word"
-    }
-  ],
   "immeuble": [
     {
       "id": "fr:immeuble:noun",
       "field": "word"
     }
   ],
+  "immeuble collectif": [
+    {
+      "id": "fr:immeuble-collectif:noun",
+      "field": "word"
+    }
+  ],
+  "immeuble d'habitation": [
+    {
+      "id": "fr:immeuble-d-habitation:noun",
+      "field": "word"
+    }
+  ],
   "immeubles": [
     {
       "id": "fr:immeuble:noun",
+      "field": "plural_form"
+    }
+  ],
+  "immeubles collectifs": [
+    {
+      "id": "fr:immeuble-collectif:noun",
+      "field": "plural_form"
+    }
+  ],
+  "immeubles d'habitation": [
+    {
+      "id": "fr:immeuble-d-habitation:noun",
       "field": "plural_form"
     }
   ],
@@ -8629,6 +9305,22 @@
       "field": "plural_form"
     }
   ],
+  "installation": [
+    {
+      "id": "fr:installation:noun",
+      "field": "word"
+    }
+  ],
+  "installations": [
+    {
+      "id": "fr:installation:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:installations:noun",
+      "field": "word"
+    }
+  ],
   "instant court": [
     {
       "id": "fr:instant-court:noun",
@@ -8653,12 +9345,6 @@
       "field": "word"
     }
   ],
-  "interdire": [
-    {
-      "id": "fr:interdire:verb",
-      "field": "word"
-    }
-  ],
   "international": [
     {
       "id": "fr:international:adjective",
@@ -8679,6 +9365,18 @@
     {
       "id": "fr:interessant:adjective",
       "field": "word"
+    }
+  ],
+  "intérieur": [
+    {
+      "id": "fr:interieur:noun",
+      "field": "word"
+    }
+  ],
+  "intérieurs": [
+    {
+      "id": "fr:interieur:noun",
+      "field": "plural_form"
     }
   ],
   "inutile": [
@@ -8753,6 +9451,12 @@
       "field": "plural_form"
     }
   ],
+  "isolation thermique": [
+    {
+      "id": "fr:isolation-thermique:noun",
+      "field": "word"
+    }
+  ],
   "istanbul": [
     {
       "id": "fr:istanbul:noun",
@@ -8823,27 +9527,19 @@
       "field": "word"
     }
   ],
-  "jardin fleuri": [
-    {
-      "id": "fr:jardin-fleurs:noun",
-      "field": "word"
-    }
-  ],
   "jardiner": [
     {
       "id": "fr:jardiner:/ʒaʁ.di.ne/",
+      "field": "word"
+    },
+    {
+      "id": "fr:jardiner:verb",
       "field": "word"
     }
   ],
   "jardins": [
     {
       "id": "fr:jardin:noun",
-      "field": "plural_form"
-    }
-  ],
-  "jardins fleuris": [
-    {
-      "id": "fr:jardin-fleurs:noun",
       "field": "plural_form"
     }
   ],
@@ -9027,12 +9723,6 @@
       "field": "word"
     }
   ],
-  "jour de semaine": [
-    {
-      "id": "fr:jour-de-semaine:noun",
-      "field": "word"
-    }
-  ],
   "journal": [
     {
       "id": "fr:journal:noun",
@@ -9072,12 +9762,6 @@
   "jours": [
     {
       "id": "fr:jour:noun",
-      "field": "plural_form"
-    }
-  ],
-  "jours de semaine": [
-    {
-      "id": "fr:jour-de-semaine:noun",
       "field": "plural_form"
     }
   ],
@@ -9323,10 +10007,42 @@
       "field": "word"
     }
   ],
+  "lave-linge": [
+    {
+      "id": "fr:lave-linge:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:lave-linge:noun",
+      "field": "word"
+    }
+  ],
+  "lave-vaisselle": [
+    {
+      "id": "fr:lave-vaisselle:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:lave-vaisselle:noun",
+      "field": "word"
+    }
+  ],
   "laver": [
     {
       "id": "fr:laver:verb",
       "field": "word"
+    }
+  ],
+  "laverie": [
+    {
+      "id": "fr:laverie:noun",
+      "field": "word"
+    }
+  ],
+  "laveries": [
+    {
+      "id": "fr:laverie:noun",
+      "field": "plural_form"
     }
   ],
   "le": [
@@ -9713,6 +10429,12 @@
       "field": "word"
     }
   ],
+  "lessive": [
+    {
+      "id": "fr:lessive:noun",
+      "field": "word"
+    }
+  ],
   "lettre": [
     {
       "id": "fr:lettre:noun",
@@ -9863,9 +10585,9 @@
       "field": "word"
     }
   ],
-  "lit simple": [
+  "lit de bébé": [
     {
-      "id": "fr:lit-une-place:noun",
+      "id": "fr:lit-de-bebe:noun",
       "field": "word"
     }
   ],
@@ -9887,10 +10609,16 @@
       "field": "plural_form"
     }
   ],
-  "lits simples": [
+  "lits de bébé": [
     {
-      "id": "fr:lit-une-place:noun",
+      "id": "fr:lit-de-bebe:noun",
       "field": "plural_form"
+    }
+  ],
+  "lits superposés": [
+    {
+      "id": "fr:lits-superposes:noun",
+      "field": "word"
     }
   ],
   "livraison": [
@@ -9933,6 +10661,66 @@
     {
       "id": "fr:local:adjective",
       "field": "word"
+    }
+  ],
+  "locataire": [
+    {
+      "id": "fr:locataire:noun",
+      "field": "word"
+    }
+  ],
+  "locataires": [
+    {
+      "id": "fr:locataire:noun",
+      "field": "plural_form"
+    }
+  ],
+  "location courte durée": [
+    {
+      "id": "fr:location-courte-duree:noun",
+      "field": "word"
+    }
+  ],
+  "location longue durée": [
+    {
+      "id": "fr:location-longue-duree:noun",
+      "field": "word"
+    }
+  ],
+  "locations courte durée": [
+    {
+      "id": "fr:location-courte-duree:noun",
+      "field": "plural_form"
+    }
+  ],
+  "locations longue durée": [
+    {
+      "id": "fr:location-longue-duree:noun",
+      "field": "plural_form"
+    }
+  ],
+  "logement": [
+    {
+      "id": "fr:logement:noun",
+      "field": "word"
+    }
+  ],
+  "logement abordable": [
+    {
+      "id": "fr:logement-abordable:noun",
+      "field": "word"
+    }
+  ],
+  "logements": [
+    {
+      "id": "fr:logement:noun",
+      "field": "plural_form"
+    }
+  ],
+  "logements abordables": [
+    {
+      "id": "fr:logement-abordable:noun",
+      "field": "plural_form"
     }
   ],
   "logiciel malveillant": [
@@ -10143,15 +10931,15 @@
       "field": "word"
     }
   ],
-  "machine à laver": [
+  "machine": [
     {
-      "id": "fr:machine-a-laver:noun",
+      "id": "fr:machine:noun",
       "field": "word"
     }
   ],
-  "machines à laver": [
+  "machines": [
     {
-      "id": "fr:machine-a-laver:noun",
+      "id": "fr:machine:noun",
       "field": "plural_form"
     }
   ],
@@ -10261,9 +11049,33 @@
       "field": "word"
     }
   ],
+  "maison de retraite": [
+    {
+      "id": "fr:maison-de-retraite:noun",
+      "field": "word"
+    }
+  ],
+  "maison de ville": [
+    {
+      "id": "fr:maison-de-ville:noun",
+      "field": "word"
+    }
+  ],
+  "maison en bande": [
+    {
+      "id": "fr:maison-en-bande:noun",
+      "field": "word"
+    }
+  ],
   "maison individuelle": [
     {
-      "id": "fr:maison-habitation:noun",
+      "id": "fr:maison-individuelle:noun",
+      "field": "word"
+    }
+  ],
+  "maison mitoyenne": [
+    {
+      "id": "fr:maison-mitoyenne:noun",
       "field": "word"
     }
   ],
@@ -10273,9 +11085,33 @@
       "field": "plural_form"
     }
   ],
+  "maisons de retraite": [
+    {
+      "id": "fr:maison-de-retraite:noun",
+      "field": "plural_form"
+    }
+  ],
+  "maisons de ville": [
+    {
+      "id": "fr:maison-de-ville:noun",
+      "field": "plural_form"
+    }
+  ],
+  "maisons en bande": [
+    {
+      "id": "fr:maison-en-bande:noun",
+      "field": "plural_form"
+    }
+  ],
   "maisons individuelles": [
     {
-      "id": "fr:maison-habitation:noun",
+      "id": "fr:maison-individuelle:noun",
+      "field": "plural_form"
+    }
+  ],
+  "maisons mitoyennes": [
+    {
+      "id": "fr:maison-mitoyenne:noun",
       "field": "plural_form"
     }
   ],
@@ -10371,6 +11207,18 @@
     {
       "id": "fr:manger-une-pizza:phrase",
       "field": "word"
+    }
+  ],
+  "manoir": [
+    {
+      "id": "fr:manoir:noun",
+      "field": "word"
+    }
+  ],
+  "manoirs": [
+    {
+      "id": "fr:manoir:noun",
+      "field": "plural_form"
     }
   ],
   "manquer": [
@@ -10521,6 +11369,16 @@
     {
       "id": "fr:match-de-football:noun",
       "field": "plural_form"
+    }
+  ],
+  "matelas": [
+    {
+      "id": "fr:matelas:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:matelas:noun",
+      "field": "word"
     }
   ],
   "mathématiques": [
@@ -10745,6 +11603,42 @@
       "field": "word"
     }
   ],
+  "meuble": [
+    {
+      "id": "fr:meuble:noun",
+      "field": "word"
+    }
+  ],
+  "meuble de rangement": [
+    {
+      "id": "fr:meuble-de-rangement:noun",
+      "field": "word"
+    }
+  ],
+  "meubler": [
+    {
+      "id": "fr:meubler:verb",
+      "field": "word"
+    }
+  ],
+  "meubles": [
+    {
+      "id": "fr:meuble:noun",
+      "field": "plural_form"
+    }
+  ],
+  "meubles de rangement": [
+    {
+      "id": "fr:meuble-de-rangement:noun",
+      "field": "plural_form"
+    }
+  ],
+  "meublé": [
+    {
+      "id": "fr:meuble:adjective",
+      "field": "word"
+    }
+  ],
   "mexico city": [
     {
       "id": "fr:mexico-city:noun",
@@ -10754,6 +11648,28 @@
   "miami": [
     {
       "id": "fr:miami:noun",
+      "field": "word"
+    }
+  ],
+  "micro-maison": [
+    {
+      "id": "fr:micro-maison:noun",
+      "field": "word"
+    }
+  ],
+  "micro-maisons": [
+    {
+      "id": "fr:micro-maison:noun",
+      "field": "plural_form"
+    }
+  ],
+  "micro-ondes": [
+    {
+      "id": "fr:micro-ondes:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:micro-ondes:noun",
       "field": "word"
     }
   ],
@@ -10856,6 +11772,18 @@
   "miroirs salle de bain": [
     {
       "id": "fr:miroir-salle-de-bain:noun",
+      "field": "plural_form"
+    }
+  ],
+  "mobil-home": [
+    {
+      "id": "fr:mobil-home:noun",
+      "field": "word"
+    }
+  ],
+  "mobil-homes": [
+    {
+      "id": "fr:mobil-home:noun",
       "field": "plural_form"
     }
   ],
@@ -11207,14 +12135,6 @@
     {
       "id": "fr:mur:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "fr:murs:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "fr:murs:noun",
-      "field": "word"
     }
   ],
   "musique": [
@@ -11304,6 +12224,30 @@
   "médicaments en sirop": [
     {
       "id": "fr:medicament-sirop:noun",
+      "field": "plural_form"
+    }
+  ],
+  "mélangeur": [
+    {
+      "id": "fr:melangeur:noun",
+      "field": "word"
+    }
+  ],
+  "mélangeurs": [
+    {
+      "id": "fr:melangeur:noun",
+      "field": "plural_form"
+    }
+  ],
+  "ménage": [
+    {
+      "id": "fr:menage:noun",
+      "field": "word"
+    }
+  ],
+  "ménages": [
+    {
+      "id": "fr:menage:noun",
       "field": "plural_form"
     }
   ],
@@ -11513,6 +12457,12 @@
       "field": "word"
     }
   ],
+  "nettoyage": [
+    {
+      "id": "fr:nettoyage:noun",
+      "field": "word"
+    }
+  ],
   "nettoyer": [
     {
       "id": "fr:nettoyer:verb",
@@ -11614,6 +12564,12 @@
   "non": [
     {
       "id": "fr:non:adverb",
+      "field": "word"
+    }
+  ],
+  "non meublé": [
+    {
+      "id": "fr:non-meuble:adjective",
       "field": "word"
     }
   ],
@@ -12039,34 +12995,22 @@
       "field": "plural_form"
     }
   ],
+  "ordonné": [
+    {
+      "id": "fr:ordonne:adjective",
+      "field": "word"
+    }
+  ],
   "oreille": [
     {
       "id": "fr:oreille:noun",
       "field": "word"
     }
   ],
-  "oreiller": [
-    {
-      "id": "fr:oreiller:noun",
-      "field": "word"
-    }
-  ],
-  "oreillers": [
-    {
-      "id": "fr:oreiller:noun",
-      "field": "plural_form"
-    }
-  ],
   "oreilles": [
     {
       "id": "fr:oreille:noun",
       "field": "plural_form"
-    }
-  ],
-  "organiser": [
-    {
-      "id": "fr:organiser:verb",
-      "field": "word"
     }
   ],
   "organisé": [
@@ -12220,6 +13164,18 @@
   "paniers de courses": [
     {
       "id": "fr:panier-de-courses:noun",
+      "field": "plural_form"
+    }
+  ],
+  "panne mécanique": [
+    {
+      "id": "fr:panne-mecanique:noun",
+      "field": "word"
+    }
+  ],
+  "pannes mécaniques": [
+    {
+      "id": "fr:panne-mecanique:noun",
       "field": "plural_form"
     }
   ],
@@ -12571,6 +13527,12 @@
       "field": "word"
     }
   ],
+  "passer l'aspirateur": [
+    {
+      "id": "fr:passer-l-aspirateur:verb",
+      "field": "word"
+    }
+  ],
   "passer un coup de balai": [
     {
       "id": "fr:passer-un-coup-de-balai:phrase",
@@ -12791,10 +13753,34 @@
       "field": "word"
     }
   ],
+  "penderie": [
+    {
+      "id": "fr:penderie:noun",
+      "field": "word"
+    }
+  ],
+  "penderies": [
+    {
+      "id": "fr:penderie:noun",
+      "field": "plural_form"
+    }
+  ],
   "penser": [
     {
       "id": "fr:penser:verb",
       "field": "word"
+    }
+  ],
+  "penthouse": [
+    {
+      "id": "fr:penthouse:noun",
+      "field": "word"
+    }
+  ],
+  "penthouses": [
+    {
+      "id": "fr:penthouse:noun",
+      "field": "plural_form"
     }
   ],
   "perdre": [
@@ -12845,9 +13831,13 @@
       "field": "word"
     }
   ],
-  "permettre": [
+  "permis d'apprentissage": [
     {
-      "id": "fr:permettre:verb",
+      "id": "fr:permis-d-apprentissage:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:permis-d-apprentissage:noun",
       "field": "word"
     }
   ],
@@ -12885,10 +13875,22 @@
       "field": "word"
     }
   ],
+  "petit tapis": [
+    {
+      "id": "fr:petit-tapis:noun",
+      "field": "word"
+    }
+  ],
   "petit-déjeuner": [
     {
       "id": "fr:petit-dejeuner:noun",
       "field": "word"
+    }
+  ],
+  "petits tapis": [
+    {
+      "id": "fr:petit-tapis:noun",
+      "field": "plural_form"
     }
   ],
   "petits-déjeuners": [
@@ -13071,6 +14073,18 @@
       "field": "plural_form"
     }
   ],
+  "placard": [
+    {
+      "id": "fr:placard:noun",
+      "field": "word"
+    }
+  ],
+  "placards": [
+    {
+      "id": "fr:placard:noun",
+      "field": "plural_form"
+    }
+  ],
   "place": [
     {
       "id": "fr:place:noun",
@@ -13086,6 +14100,12 @@
   "place de parking": [
     {
       "id": "fr:place-de-parking:noun",
+      "field": "word"
+    }
+  ],
+  "placement libre": [
+    {
+      "id": "fr:placement-libre:noun",
       "field": "word"
     }
   ],
@@ -13107,15 +14127,15 @@
       "field": "plural_form"
     }
   ],
-  "plafond haut": [
+  "plafond": [
     {
-      "id": "fr:plafond-haut:noun",
+      "id": "fr:plafond:noun",
       "field": "word"
     }
   ],
-  "plafonds hauts": [
+  "plafonds": [
     {
-      "id": "fr:plafond-haut:noun",
+      "id": "fr:plafond:noun",
       "field": "plural_form"
     }
   ],
@@ -13128,6 +14148,18 @@
   "plages": [
     {
       "id": "fr:plage:noun",
+      "field": "plural_form"
+    }
+  ],
+  "plainte pour bruit": [
+    {
+      "id": "fr:plainte-pour-bruit:noun",
+      "field": "word"
+    }
+  ],
+  "plaintes pour bruit": [
+    {
+      "id": "fr:plainte-pour-bruit:noun",
       "field": "plural_form"
     }
   ],
@@ -13155,21 +14187,9 @@
       "field": "word"
     }
   ],
-  "plante verte": [
-    {
-      "id": "fr:plante-verte:noun",
-      "field": "word"
-    }
-  ],
   "plantes": [
     {
       "id": "fr:plante:noun",
-      "field": "plural_form"
-    }
-  ],
-  "plantes vertes": [
-    {
-      "id": "fr:plante-verte:noun",
       "field": "plural_form"
     }
   ],
@@ -13182,6 +14202,18 @@
   "planètes": [
     {
       "id": "fr:planete:noun",
+      "field": "plural_form"
+    }
+  ],
+  "plaque tournante": [
+    {
+      "id": "fr:plaque-tournante:noun",
+      "field": "word"
+    }
+  ],
+  "plaques tournantes": [
+    {
+      "id": "fr:plaque-tournante:noun",
       "field": "plural_form"
     }
   ],
@@ -13236,6 +14268,12 @@
   "pleuvoir des cordes": [
     {
       "id": "fr:pleuvoir-des-cordes:phrase",
+      "field": "word"
+    }
+  ],
+  "plomberie": [
+    {
+      "id": "fr:plomberie:noun",
       "field": "word"
     }
   ],
@@ -13723,6 +14761,18 @@
       "field": "plural_form"
     }
   ],
+  "politique de surréservation": [
+    {
+      "id": "fr:politique-de-surreservation:noun",
+      "field": "word"
+    }
+  ],
+  "politiques de surréservation": [
+    {
+      "id": "fr:politique-de-surreservation:noun",
+      "field": "plural_form"
+    }
+  ],
   "pollution": [
     {
       "id": "fr:pollution:noun",
@@ -13827,10 +14877,16 @@
       "field": "word"
     }
   ],
-  "porte d'entrée": [
+  "porte-manteau": [
     {
-      "id": "fr:porte-entree:noun",
+      "id": "fr:porte-manteau:noun",
       "field": "word"
+    }
+  ],
+  "porte-manteaux": [
+    {
+      "id": "fr:porte-manteau:noun",
+      "field": "plural_form"
     }
   ],
   "porte-monnaie": [
@@ -13872,12 +14928,6 @@
   "portes": [
     {
       "id": "fr:porte:noun",
-      "field": "plural_form"
-    }
-  ],
-  "portes d'entrée": [
-    {
-      "id": "fr:porte-entree:noun",
       "field": "plural_form"
     }
   ],
@@ -13945,6 +14995,30 @@
     {
       "id": "fr:postuler:verb",
       "field": "word"
+    }
+  ],
+  "poubelle": [
+    {
+      "id": "fr:poubelle:noun",
+      "field": "word"
+    }
+  ],
+  "poubelle d'extérieur": [
+    {
+      "id": "fr:poubelle-d-exterieur:noun",
+      "field": "word"
+    }
+  ],
+  "poubelles": [
+    {
+      "id": "fr:poubelle:noun",
+      "field": "plural_form"
+    }
+  ],
+  "poubelles d'extérieur": [
+    {
+      "id": "fr:poubelle-d-exterieur:noun",
+      "field": "plural_form"
     }
   ],
   "poule": [
@@ -14043,6 +15117,18 @@
       "field": "word"
     }
   ],
+  "poêle": [
+    {
+      "id": "fr:poele:noun",
+      "field": "word"
+    }
+  ],
+  "poêles": [
+    {
+      "id": "fr:poele:noun",
+      "field": "plural_form"
+    }
+  ],
   "prague": [
     {
       "id": "fr:prague:noun",
@@ -14133,12 +15219,6 @@
       "field": "word"
     }
   ],
-  "prendre le petit-déjeuner": [
-    {
-      "id": "fr:prendre-le-petit-dejeuner:verb",
-      "field": "word"
-    }
-  ],
   "prendre sa retraite": [
     {
       "id": "fr:prendre-sa-retraite:verb",
@@ -14190,6 +15270,12 @@
   "prendre une décision": [
     {
       "id": "fr:prendre-une-decision:idiom",
+      "field": "word"
+    }
+  ],
+  "prendre à bail": [
+    {
+      "id": "fr:prendre-a-bail:verb",
       "field": "word"
     }
   ],
@@ -14249,9 +15335,21 @@
       "field": "word"
     }
   ],
+  "problème de maintenance": [
+    {
+      "id": "fr:probleme-de-maintenance:noun",
+      "field": "word"
+    }
+  ],
   "problèmes": [
     {
       "id": "fr:probleme:noun",
+      "field": "plural_form"
+    }
+  ],
+  "problèmes de maintenance": [
+    {
+      "id": "fr:probleme-de-maintenance:noun",
       "field": "plural_form"
     }
   ],
@@ -14357,6 +15455,12 @@
       "field": "plural_form"
     }
   ],
+  "prolonger": [
+    {
+      "id": "fr:prolonger:verb",
+      "field": "word"
+    }
+  ],
   "promenade": [
     {
       "id": "fr:promenade:noun",
@@ -14397,6 +15501,42 @@
     {
       "id": "fr:propre:adjective",
       "field": "word"
+    }
+  ],
+  "propriétaire": [
+    {
+      "id": "fr:proprietaire:noun",
+      "field": "word"
+    }
+  ],
+  "propriétaire occupant": [
+    {
+      "id": "fr:proprietaire-occupant:noun",
+      "field": "word"
+    }
+  ],
+  "propriétaires": [
+    {
+      "id": "fr:proprietaire:noun",
+      "field": "plural_form"
+    }
+  ],
+  "propriétaires occupants": [
+    {
+      "id": "fr:proprietaire-occupant:noun",
+      "field": "plural_form"
+    }
+  ],
+  "propriété": [
+    {
+      "id": "fr:propriete:noun",
+      "field": "word"
+    }
+  ],
+  "propriétés": [
+    {
+      "id": "fr:propriete:noun",
+      "field": "plural_form"
     }
   ],
   "protection par mot de passe": [
@@ -14447,12 +15587,6 @@
       "field": "plural_form"
     }
   ],
-  "préparer": [
-    {
-      "id": "fr:preparer:verb",
-      "field": "word"
-    }
-  ],
   "présent actuel": [
     {
       "id": "fr:present-actuel:noun",
@@ -14501,15 +15635,21 @@
       "field": "word"
     }
   ],
-  "prêter": [
+  "prêt immobilier": [
     {
-      "id": "fr:preter:verb",
+      "id": "fr:pret-immobilier:noun",
       "field": "word"
     }
   ],
   "prêts hypothécaires": [
     {
       "id": "fr:pret-hypothecaire:noun",
+      "field": "plural_form"
+    }
+  ],
+  "prêts immobiliers": [
+    {
+      "id": "fr:pret-immobilier:noun",
       "field": "plural_form"
     }
   ],
@@ -14607,6 +15747,18 @@
     {
       "id": "fr:pekin:noun",
       "field": "word"
+    }
+  ],
+  "péniche d'habitation": [
+    {
+      "id": "fr:peniche-d-habitation:noun",
+      "field": "word"
+    }
+  ],
+  "péniches d'habitation": [
+    {
+      "id": "fr:peniche-d-habitation:noun",
+      "field": "plural_form"
     }
   ],
   "pêcher": [
@@ -15049,6 +16201,18 @@
       "field": "plural_form"
     }
   ],
+  "rayon de bibliothèque": [
+    {
+      "id": "fr:rayon-de-bibliotheque:noun",
+      "field": "word"
+    }
+  ],
+  "rayons de bibliothèque": [
+    {
+      "id": "fr:rayon-de-bibliotheque:noun",
+      "field": "plural_form"
+    }
+  ],
   "rebondir": [
     {
       "id": "fr:rebondir:verb",
@@ -15107,6 +16271,18 @@
     {
       "id": "fr:recycler:verb",
       "field": "word"
+    }
+  ],
+  "refuge": [
+    {
+      "id": "fr:refuge:noun",
+      "field": "word"
+    }
+  ],
+  "refuges": [
+    {
+      "id": "fr:refuge:noun",
+      "field": "plural_form"
     }
   ],
   "refuser": [
@@ -15227,6 +16403,12 @@
       "field": "plural_form"
     }
   ],
+  "rencontre d'enfants": [
+    {
+      "id": "fr:rencontre-d-enfants:noun",
+      "field": "word"
+    }
+  ],
   "rencontrer": [
     {
       "id": "fr:rencontrer:verb",
@@ -15237,6 +16419,12 @@
     {
       "id": "fr:rencontrer-des-amis:phrase",
       "field": "word"
+    }
+  ],
+  "rencontres d'enfants": [
+    {
+      "id": "fr:rencontre-d-enfants:noun",
+      "field": "plural_form"
     }
   ],
   "rendez-vous": [
@@ -15253,6 +16441,24 @@
     {
       "id": "fr:rendre-service:phrase",
       "field": "word"
+    }
+  ],
+  "renouveler": [
+    {
+      "id": "fr:renouveler:verb",
+      "field": "word"
+    }
+  ],
+  "renouvellement": [
+    {
+      "id": "fr:renouvellement:noun",
+      "field": "word"
+    }
+  ],
+  "renouvellements": [
+    {
+      "id": "fr:renouvellement:noun",
+      "field": "plural_form"
     }
   ],
   "rentrée": [
@@ -15274,12 +16480,6 @@
     },
     {
       "id": "fr:repas:noun",
-      "field": "word"
-    }
-  ],
-  "repasser": [
-    {
-      "id": "fr:repasser:verb",
       "field": "word"
     }
   ],
@@ -15331,6 +16531,12 @@
     {
       "id": "fr:restaurant:noun",
       "field": "plural_form"
+    }
+  ],
+  "restaurer": [
+    {
+      "id": "fr:restaurer:verb",
+      "field": "word"
     }
   ],
   "rester": [
@@ -15411,6 +16617,18 @@
       "field": "plural_form"
     }
   ],
+  "riad": [
+    {
+      "id": "fr:riad:noun",
+      "field": "word"
+    }
+  ],
+  "riads": [
+    {
+      "id": "fr:riad:noun",
+      "field": "plural_form"
+    }
+  ],
   "riche": [
     {
       "id": "fr:riche-a2:adjective",
@@ -15421,15 +16639,15 @@
       "field": "word"
     }
   ],
-  "rideau de fenêtre": [
+  "rideau": [
     {
-      "id": "fr:rideau-fenetre:noun",
+      "id": "fr:rideau:noun",
       "field": "word"
     }
   ],
-  "rideaux de fenêtre": [
+  "rideaux": [
     {
-      "id": "fr:rideau-fenetre:noun",
+      "id": "fr:rideau:noun",
       "field": "plural_form"
     }
   ],
@@ -15749,9 +16967,21 @@
       "field": "word"
     }
   ],
-  "réparer": [
+  "rénovation": [
     {
-      "id": "fr:reparer:verb",
+      "id": "fr:renovation:noun",
+      "field": "word"
+    }
+  ],
+  "rénovations": [
+    {
+      "id": "fr:renovation:noun",
+      "field": "plural_form"
+    }
+  ],
+  "rénover": [
+    {
+      "id": "fr:renover:verb",
       "field": "word"
     }
   ],
@@ -15845,6 +17075,42 @@
       "field": "plural_form"
     }
   ],
+  "résidence autonomie": [
+    {
+      "id": "fr:residence-autonomie:noun",
+      "field": "word"
+    }
+  ],
+  "résidence fermée": [
+    {
+      "id": "fr:residence-fermee:noun",
+      "field": "word"
+    }
+  ],
+  "résidence universitaire": [
+    {
+      "id": "fr:residence-universitaire:noun",
+      "field": "word"
+    }
+  ],
+  "résidences autonomie": [
+    {
+      "id": "fr:residence-autonomie:noun",
+      "field": "plural_form"
+    }
+  ],
+  "résidences fermées": [
+    {
+      "id": "fr:residence-fermee:noun",
+      "field": "plural_form"
+    }
+  ],
+  "résidences universitaires": [
+    {
+      "id": "fr:residence-universitaire:noun",
+      "field": "plural_form"
+    }
+  ],
   "résoudre": [
     {
       "id": "fr:resoudre:verb",
@@ -15905,33 +17171,15 @@
       "field": "word"
     }
   ],
-  "réveil matin": [
-    {
-      "id": "fr:reveil-matin:noun",
-      "field": "word"
-    }
-  ],
   "réveils": [
     {
       "id": "fr:reveil:noun",
       "field": "plural_form"
     }
   ],
-  "réveils matin": [
-    {
-      "id": "fr:reveil-matin:noun",
-      "field": "plural_form"
-    }
-  ],
   "rêve": [
     {
       "id": "fr:reve:noun",
-      "field": "word"
-    }
-  ],
-  "rêver": [
-    {
-      "id": "fr:rever:verb",
       "field": "word"
     }
   ],
@@ -16227,12 +17475,6 @@
       "field": "word"
     }
   ],
-  "salle de bains avec douche": [
-    {
-      "id": "fr:salle-de-bains-douche:noun",
-      "field": "word"
-    }
-  ],
   "salle de sport": [
     {
       "id": "fr:salle-de-sport:noun",
@@ -16240,6 +17482,10 @@
     }
   ],
   "salle à manger": [
+    {
+      "id": "fr:salle-a-manger:noun",
+      "field": "word"
+    },
     {
       "id": "fr:salle-a-manger:phrase",
       "field": "word"
@@ -16251,15 +17497,15 @@
       "field": "plural_form"
     }
   ],
-  "salles de bains avec douche": [
-    {
-      "id": "fr:salle-de-bains-douche:noun",
-      "field": "plural_form"
-    }
-  ],
   "salles de sport": [
     {
       "id": "fr:salle-de-sport:noun",
+      "field": "plural_form"
+    }
+  ],
+  "salles à manger": [
+    {
+      "id": "fr:salle-a-manger:noun",
       "field": "plural_form"
     }
   ],
@@ -16269,21 +17515,9 @@
       "field": "word"
     }
   ],
-  "salon séjour": [
-    {
-      "id": "fr:salon-sejour:noun",
-      "field": "word"
-    }
-  ],
   "salons": [
     {
       "id": "fr:salon:noun",
-      "field": "plural_form"
-    }
-  ],
-  "salons séjours": [
-    {
-      "id": "fr:salon-sejour:noun",
       "field": "plural_form"
     }
   ],
@@ -16431,33 +17665,15 @@
       "field": "word"
     }
   ],
-  "se brosser les dents": [
-    {
-      "id": "fr:se-brosser-les-dents:verb",
-      "field": "word"
-    }
-  ],
   "se concentrer sur": [
     {
       "id": "fr:se-concentrer-sur:phrase",
       "field": "word"
     }
   ],
-  "se coucher": [
-    {
-      "id": "fr:se-coucher:verb",
-      "field": "word"
-    }
-  ],
   "se disputer": [
     {
       "id": "fr:se-disputer:verb",
-      "field": "word"
-    }
-  ],
-  "se doucher": [
-    {
-      "id": "fr:se-doucher:verb",
       "field": "word"
     }
   ],
@@ -16603,12 +17819,6 @@
       "field": "word"
     }
   ],
-  "se réveiller": [
-    {
-      "id": "fr:se-reveiller:verb",
-      "field": "word"
-    }
-  ],
   "se sentir": [
     {
       "id": "fr:se-sentir:verb",
@@ -16661,6 +17871,18 @@
     {
       "id": "fr:se-tromper:phrase",
       "field": "word"
+    }
+  ],
+  "seau": [
+    {
+      "id": "fr:seau:noun",
+      "field": "word"
+    }
+  ],
+  "seaux": [
+    {
+      "id": "fr:seau:noun",
+      "field": "plural_form"
     }
   ],
   "sec": [
@@ -16795,6 +18017,18 @@
       "field": "plural_form"
     }
   ],
+  "serrure": [
+    {
+      "id": "fr:serrure:noun",
+      "field": "word"
+    }
+  ],
+  "serrures": [
+    {
+      "id": "fr:serrure:noun",
+      "field": "plural_form"
+    }
+  ],
   "serveur": [
     {
       "id": "fr:serveur:noun",
@@ -16831,29 +18065,45 @@
       "field": "word"
     }
   ],
+  "service public": [
+    {
+      "id": "fr:service-public:noun",
+      "field": "word"
+    }
+  ],
   "services": [
     {
       "id": "fr:service:noun",
       "field": "plural_form"
     }
   ],
-  "serviette": [
+  "services publics": [
     {
-      "id": "fr:serviette-bain:noun",
-      "field": "word"
-    },
+      "id": "fr:service-public:noun",
+      "field": "plural_form"
+    }
+  ],
+  "serviette": [
     {
       "id": "fr:serviette:noun",
       "field": "word"
     }
   ],
+  "serviette de table": [
+    {
+      "id": "fr:serviette-de-table:noun",
+      "field": "word"
+    }
+  ],
   "serviettes": [
     {
-      "id": "fr:serviette-bain:noun",
-      "field": "plural_form"
-    },
-    {
       "id": "fr:serviette:noun",
+      "field": "plural_form"
+    }
+  ],
+  "serviettes de table": [
+    {
+      "id": "fr:serviette-de-table:noun",
       "field": "plural_form"
     }
   ],
@@ -17265,12 +18515,6 @@
       "field": "word"
     }
   ],
-  "sol carrelé": [
-    {
-      "id": "fr:sol-carrelage:noun",
-      "field": "word"
-    }
-  ],
   "soldat": [
     {
       "id": "fr:soldat:noun",
@@ -17335,12 +18579,6 @@
       "field": "plural_form"
     }
   ],
-  "sols carrelés": [
-    {
-      "id": "fr:sol-carrelage:noun",
-      "field": "plural_form"
-    }
-  ],
   "solution": [
     {
       "id": "fr:solution:noun",
@@ -17383,6 +18621,18 @@
       "field": "word"
     }
   ],
+  "sonnette": [
+    {
+      "id": "fr:sonnette:noun",
+      "field": "word"
+    }
+  ],
+  "sonnettes": [
+    {
+      "id": "fr:sonnette:noun",
+      "field": "plural_form"
+    }
+  ],
   "sophisme": [
     {
       "id": "fr:sophisme:noun",
@@ -17395,9 +18645,21 @@
       "field": "word"
     }
   ],
+  "sortie de secours": [
+    {
+      "id": "fr:sortie-de-secours:noun",
+      "field": "word"
+    }
+  ],
   "sorties": [
     {
       "id": "fr:sortie:noun",
+      "field": "plural_form"
+    }
+  ],
+  "sorties de secours": [
+    {
+      "id": "fr:sortie-de-secours:noun",
       "field": "plural_form"
     }
   ],
@@ -17478,6 +18740,12 @@
   "sous": [
     {
       "id": "fr:sous:preposition",
+      "field": "word"
+    }
+  ],
+  "sous-louer": [
+    {
+      "id": "fr:sous-louer:verb",
       "field": "word"
     }
   ],
@@ -17577,6 +18845,18 @@
       "field": "word"
     }
   ],
+  "studio": [
+    {
+      "id": "fr:studio:noun",
+      "field": "word"
+    }
+  ],
+  "studios": [
+    {
+      "id": "fr:studio:noun",
+      "field": "plural_form"
+    }
+  ],
   "stylo": [
     {
       "id": "fr:stylo:noun",
@@ -17667,9 +18947,27 @@
       "field": "word"
     }
   ],
+  "surclassement gratuit": [
+    {
+      "id": "fr:surclassement-gratuit:noun",
+      "field": "word"
+    }
+  ],
+  "surclassements gratuits": [
+    {
+      "id": "fr:surclassement-gratuit:noun",
+      "field": "plural_form"
+    }
+  ],
   "surfer sur internet": [
     {
       "id": "fr:surf-internet:phrase",
+      "field": "word"
+    }
+  ],
+  "surpeuplement": [
+    {
+      "id": "fr:surpeuplement:noun",
       "field": "word"
     }
   ],
@@ -17694,6 +18992,34 @@
   "sympa": [
     {
       "id": "fr:sympa:adjective",
+      "field": "word"
+    }
+  ],
+  "syndic de copropriété": [
+    {
+      "id": "fr:syndic-de-copropriete:noun",
+      "field": "word"
+    }
+  ],
+  "syndics de copropriété": [
+    {
+      "id": "fr:syndic-de-copropriete:noun",
+      "field": "plural_form"
+    }
+  ],
+  "sèche-linge": [
+    {
+      "id": "fr:seche-linge:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:seche-linge:noun",
+      "field": "word"
+    }
+  ],
+  "sécurité du quartier": [
+    {
+      "id": "fr:securite-du-quartier:noun",
       "field": "word"
     }
   ],
@@ -17773,9 +19099,9 @@
       "field": "word"
     }
   ],
-  "table à manger": [
+  "table basse": [
     {
-      "id": "fr:table-salle:noun",
+      "id": "fr:table-basse:noun",
       "field": "word"
     }
   ],
@@ -17797,9 +19123,9 @@
       "field": "plural_form"
     }
   ],
-  "tables à manger": [
+  "tables basses": [
     {
-      "id": "fr:table-salle:noun",
+      "id": "fr:table-basse:noun",
       "field": "plural_form"
     }
   ],
@@ -17915,6 +19241,16 @@
       "field": "word"
     }
   ],
+  "temps de correspondance": [
+    {
+      "id": "fr:temps-de-correspondance:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "fr:temps-de-correspondance:noun",
+      "field": "word"
+    }
+  ],
   "temps libre": [
     {
       "id": "fr:temps-libre:noun",
@@ -17975,15 +19311,39 @@
       "field": "word"
     }
   ],
+  "terrain": [
+    {
+      "id": "fr:terrain:noun",
+      "field": "word"
+    }
+  ],
   "terrain de tennis": [
     {
       "id": "fr:terrain-de-tennis:noun",
       "field": "word"
     }
   ],
+  "terrains": [
+    {
+      "id": "fr:terrain:noun",
+      "field": "plural_form"
+    }
+  ],
   "terrains de tennis": [
     {
       "id": "fr:terrain-de-tennis:noun",
+      "field": "plural_form"
+    }
+  ],
+  "terrasse": [
+    {
+      "id": "fr:terrasse:noun",
+      "field": "word"
+    }
+  ],
+  "terrasses": [
+    {
+      "id": "fr:terrasse:noun",
       "field": "plural_form"
     }
   ],
@@ -18145,15 +19505,21 @@
       "field": "word"
     }
   ],
-  "tiroir de bureau": [
+  "tirer la chasse": [
     {
-      "id": "fr:tiroir-bureau:noun",
+      "id": "fr:tirer-la-chasse:verb",
       "field": "word"
     }
   ],
-  "tiroirs de bureau": [
+  "tiroir": [
     {
-      "id": "fr:tiroir-bureau:noun",
+      "id": "fr:tiroir:noun",
+      "field": "word"
+    }
+  ],
+  "tiroirs": [
+    {
+      "id": "fr:tiroir:noun",
       "field": "plural_form"
     }
   ],
@@ -18266,6 +19632,12 @@
     },
     {
       "id": "fr:ton:pronoun",
+      "field": "word"
+    }
+  ],
+  "tondre": [
+    {
+      "id": "fr:tondre:verb",
       "field": "word"
     }
   ],
@@ -18485,9 +19857,21 @@
       "field": "plural_form"
     }
   ],
+  "trajets quotidiens": [
+    {
+      "id": "fr:trajets-quotidiens:noun",
+      "field": "word"
+    }
+  ],
   "transférer": [
     {
       "id": "fr:transferer:verb",
+      "field": "word"
+    }
+  ],
+  "transports": [
+    {
+      "id": "fr:transports:noun",
       "field": "word"
     }
   ],
@@ -18696,6 +20080,18 @@
   "trottoirs": [
     {
       "id": "fr:trottoir:noun",
+      "field": "plural_form"
+    }
+  ],
+  "trou": [
+    {
+      "id": "fr:trou:noun",
+      "field": "word"
+    }
+  ],
+  "trous": [
+    {
+      "id": "fr:trou:noun",
       "field": "plural_form"
     }
   ],
@@ -18933,22 +20329,10 @@
       "field": "plural_form"
     }
   ],
-  "télévision": [
-    {
-      "id": "fr:television:noun",
-      "field": "word"
-    }
-  ],
   "télévision couleur": [
     {
       "id": "fr:television-couleur:noun",
       "field": "word"
-    }
-  ],
-  "télévisions": [
-    {
-      "id": "fr:television:noun",
-      "field": "plural_form"
     }
   ],
   "télévisions couleur": [
@@ -19049,6 +20433,12 @@
       "field": "plural_form"
     }
   ],
+  "usure normale": [
+    {
+      "id": "fr:usure-normale:noun",
+      "field": "word"
+    }
+  ],
   "utile": [
     {
       "id": "fr:utile:adjective",
@@ -19100,6 +20490,18 @@
   "vaches laitières": [
     {
       "id": "fr:vache-laitiere:noun",
+      "field": "plural_form"
+    }
+  ],
+  "valeur immobilière": [
+    {
+      "id": "fr:valeur-immobiliere:noun",
+      "field": "word"
+    }
+  ],
+  "valeurs immobilières": [
+    {
+      "id": "fr:valeur-immobiliere:noun",
       "field": "plural_form"
     }
   ],
@@ -19419,6 +20821,12 @@
       "field": "word"
     }
   ],
+  "vie quotidienne": [
+    {
+      "id": "fr:vie-quotidienne:noun",
+      "field": "word"
+    }
+  ],
   "vienne": [
     {
       "id": "fr:vienne:noun",
@@ -19437,6 +20845,12 @@
       "field": "word"
     }
   ],
+  "villa": [
+    {
+      "id": "fr:villa:noun",
+      "field": "word"
+    }
+  ],
   "village": [
     {
       "id": "fr:village:noun",
@@ -19446,6 +20860,12 @@
   "villages": [
     {
       "id": "fr:village:noun",
+      "field": "plural_form"
+    }
+  ],
+  "villas": [
+    {
+      "id": "fr:villa:noun",
       "field": "plural_form"
     }
   ],
@@ -19671,16 +21091,10 @@
       "field": "word"
     }
   ],
-  "voisin": [
+  "voisins vigilants": [
     {
-      "id": "fr:voisin:noun",
+      "id": "fr:voisins-vigilants:noun",
       "field": "word"
-    }
-  ],
-  "voisins": [
-    {
-      "id": "fr:voisin:noun",
-      "field": "plural_form"
     }
   ],
   "voiture": [
@@ -19823,12 +21237,6 @@
     {
       "id": "fr:velo:noun",
       "field": "plural_form"
-    }
-  ],
-  "vérifier": [
-    {
-      "id": "fr:verifier:verb",
-      "field": "word"
     }
   ],
   "vêtement": [
@@ -20065,6 +21473,18 @@
     {
       "id": "fr:ca-va:phrase",
       "field": "word"
+    }
+  ],
+  "échange de maison": [
+    {
+      "id": "fr:echange-de-maison:noun",
+      "field": "word"
+    }
+  ],
+  "échanges de maison": [
+    {
+      "id": "fr:echange-de-maison:noun",
+      "field": "plural_form"
     }
   ],
   "écharpe": [
@@ -20401,6 +21821,12 @@
       "field": "word"
     }
   ],
+  "équipements": [
+    {
+      "id": "fr:equipements:noun",
+      "field": "word"
+    }
+  ],
   "équipes": [
     {
       "id": "fr:equipe:noun",
@@ -20425,21 +21851,21 @@
       "field": "word"
     }
   ],
-  "étagère murale": [
-    {
-      "id": "fr:etagere-murale:noun",
-      "field": "word"
-    }
-  ],
   "étagères": [
     {
       "id": "fr:etagere:noun",
       "field": "plural_form"
     }
   ],
-  "étagères murales": [
+  "état des lieux": [
     {
-      "id": "fr:etagere-murale:noun",
+      "id": "fr:etat-des-lieux:noun",
+      "field": "word"
+    }
+  ],
+  "états des lieux": [
+    {
+      "id": "fr:etat-des-lieux:noun",
       "field": "plural_form"
     }
   ],

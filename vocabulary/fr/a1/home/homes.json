@@ -1,26 +1,32 @@
 [
   {
-    "id": "fr:maison-habitation:noun",
-    "word": "maison individuelle",
+    "id": "fr:immeuble-collectif:noun",
+    "word": "immeuble collectif",
     "language": "fr",
     "form": "noun",
     "level": "A1",
-    "transcription": "/mɛ.zɔ̃ ɛ̃.di.vi.dy.ɛl/",
-    "definitions": [
-      "Pavillon pour une famille."
-    ],
-    "examples": [
-      "Une jolie maison individuelle."
-    ],
-    "domain": "general",
+    "status": "needs_review",
+    "concept": "en:apartment-building:noun",
     "theme": "housing",
-    "no_emoji": true,
-    "no_antonym": true,
-    "updated": "2026-10-11",
-    "article": "la",
-    "gender": "feminine",
+    "sub_theme": "building_types",
+    "article": "un",
+    "gender": "masculine",
     "countability": "countable",
-    "plural_form": "maisons individuelles",
-    "sub_theme": "building_types"
+    "plural_form": "immeubles collectifs"
+  },
+  {
+    "id": "fr:immeuble:noun",
+    "word": "immeuble",
+    "language": "fr",
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:building:noun",
+    "theme": "housing",
+    "sub_theme": "building_types",
+    "article": "un",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "immeubles"
   }
 ]
