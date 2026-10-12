@@ -2286,12 +2286,13 @@
     "domain": "general",
     "theme": "health",
     "sub_theme": "medical_care",
-    "concept": "en:chemist:noun",
+    "concept": "health.medical_care.chemist",
     "updated": "2025-05-20",
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "secondary_themes": []
   },
   {
     "id": "en:underground:noun",
@@ -2319,7 +2320,7 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "vehicles_transportation",
-    "concept": "en:underground:noun",
+    "concept": "travel.vehicles_transportation.underground",
     "updated": "2025-05-20",
     "levels": [
       "A1",
@@ -2327,7 +2328,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈʌn.dɚ.ɡraʊnd/"
-    }
+    },
+    "secondary_themes": []
   },
   {
     "id": "en:park:verb",

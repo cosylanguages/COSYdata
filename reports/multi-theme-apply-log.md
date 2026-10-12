@@ -1,0 +1,213 @@
+# Multi-Theme Audit Application Log
+
+Applied 199 high-confidence entries from `reports/multi-theme-audit.json`.
+
+## Summary of Changes Applied
+
+- **en:shower:noun** (shower): Primary: `housing/home_fixtures`, Secondary: `[]`, Rooms: `[]`, Concept: `housing.home_fixtures.shower`
+- **en:work:noun** (work): Primary: `work/office_business`, Secondary: `[]`, Rooms: `[]`, Concept: `work.office_business.work`
+- **en:help:noun** (help): Primary: `actions/social_interaction`, Secondary: `[]`, Rooms: `[]`, Concept: `actions.social_interaction.help`
+- **en:sleep:noun** (sleep): Primary: `health/fitness_hygiene`, Secondary: `[]`, Rooms: `[]`, Concept: `health.fitness_hygiene.sleep`
+- **en:smile:noun** (smile): Primary: `descriptors/physical_appearance`, Secondary: `[]`, Rooms: `[]`, Concept: `descriptors.physical_appearance.smile`
+- **en:laugh:noun** (laugh): Primary: `emotions/positive_feelings`, Secondary: `[]`, Rooms: `[]`, Concept: `emotions.positive_feelings.laugh`
+- **en:hug:noun** (hug): Primary: `communication/social_expressions`, Secondary: `[]`, Rooms: `[]`, Concept: `communication.social_expressions.hug`
+- **en:kiss:noun** (kiss): Primary: `communication/social_expressions`, Secondary: `[]`, Rooms: `[]`, Concept: `communication.social_expressions.kiss`
+- **en:visit:noun** (visit): Primary: `travel/vacation_lodging`, Secondary: `[]`, Rooms: `[]`, Concept: `travel.vacation_lodging.visit`
+- **en:talk:noun** (talk): Primary: `communication/social_expressions`, Secondary: `[]`, Rooms: `[]`, Concept: `communication.social_expressions.talk`
+- **en:look:noun** (look): Primary: `actions/physical_movement`, Secondary: `[]`, Rooms: `[]`, Concept: `actions.physical_movement.look`
+- **en:sound:noun** (sound): Primary: `general/common_things`, Secondary: `[]`, Rooms: `[]`, Concept: `general.common_things.sound`
+- **en:need:noun** (need): Primary: `general/abstract_concepts`, Secondary: `[]`, Rooms: `[]`, Concept: `general.abstract_concepts.need`
+- **en:start:noun** (start): Primary: `time/time_periods`, Secondary: `[]`, Rooms: `[]`, Concept: `time.time_periods.start`
+- **en:end:noun** (end): Primary: `time/time_periods`, Secondary: `[]`, Rooms: `[]`, Concept: `time.time_periods.end`
+- **en:sweep:verb** (sweep): Primary: `activities/daily_routines`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:mop:verb** (mop): Primary: `activities/daily_routines`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:bake:verb** (bake): Primary: `activities/general`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:fry:verb** (fry): Primary: `activities/general`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:boil:verb** (boil): Primary: `activities/general`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:roast:verb** (roast): Primary: `activities/general`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:dance:verb** (dance): Primary: `activities/hobbies`, Secondary: `[]`, Rooms: `[]`, Concept: `activities.hobbies.dance`
+- **en:drive:verb** (drive): Primary: `travel/vehicles_transportation`, Secondary: `[]`, Rooms: `[]`, Concept: `travel.vehicles_transportation.drive`
+- **en:ride:verb** (ride): Primary: `travel/vehicles_transportation`, Secondary: `[]`, Rooms: `[]`, Concept: `travel.vehicles_transportation.ride`
+- **en:hope:verb** (hope): Primary: `emotions/positive_feelings`, Secondary: `[]`, Rooms: `[]`, Concept: `emotions.positive_feelings.hope`
+- **en:wish:verb** (wish): Primary: `communication/courtesy`, Secondary: `[]`, Rooms: `[]`, Concept: `communication.courtesy.wish`
+- **en:book:verb** (book): Primary: `travel/transit_booking`, Secondary: `[]`, Rooms: `[]`, Concept: `travel.transit_booking.book`
+- **en:order:verb** (order): Primary: `food/meals`, Secondary: `[]`, Rooms: `[]`, Concept: `food.meals.order`
+- **en:plant:verb** (plant): Primary: `nature/plants_trees`, Secondary: `[]`, Rooms: `[]`, Concept: `nature.plants_trees.plant`
+- **en:cheers:phrase** (cheers): Primary: `communication/social_expressions`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:french-fries:noun** (french fries): Primary: `food/snacks_sweets`, Secondary: `[]`, Rooms: `[]`, Concept: `food.snacks_sweets.french-fries`
+- **en:takeaway:noun** (takeaway): Primary: `food/meals`, Secondary: `[]`, Rooms: `[]`, Concept: `food.meals.takeaway`
+- **en:chemist:noun** (chemist): Primary: `health/medical_care`, Secondary: `[]`, Rooms: `[]`, Concept: `health.medical_care.chemist`
+- **en:underground:noun** (underground): Primary: `travel/vehicles_transportation`, Secondary: `[]`, Rooms: `[]`, Concept: `travel.vehicles_transportation.underground`
+- **en:email-address:noun** (email address): Primary: `technology/devices_hardware`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:phone-number:noun** (phone number): Primary: `technology/devices_hardware`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:email:verb** (email): Primary: `technology/communication_tech`, Secondary: `[]`, Rooms: `[]`, Concept: `technology.communication_tech.email`
+- **en:phone:verb** (phone): Primary: `technology/communication_tech`, Secondary: `[]`, Rooms: `[]`, Concept: `technology.communication_tech.phone`
+- **en:text:verb** (text): Primary: `technology/communication_tech`, Secondary: `[]`, Rooms: `[]`, Concept: `technology.communication_tech.text`
+- **en:cook:verb** (cook): Primary: `actions/general`, Secondary: `["food","work"]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:clean:verb** (clean): Primary: `actions/general`, Secondary: `["housing/chores","health/fitness_hygiene"]`, Rooms: `["bathroom","kitchen"]`, Concept: `N/A`
+- **en:wash:verb** (wash): Primary: `actions/general`, Secondary: `["housing/chores","health/fitness_hygiene"]`, Rooms: `["bathroom","kitchen"]`, Concept: `N/A`
+- **en:smell:verb** (smell): Primary: `actions/physical_movement`, Secondary: `[]`, Rooms: `[]`, Concept: `actions.physical_movement.smell`
+- **en:rain:verb** (rain): Primary: `weather/precipitation_sky`, Secondary: `[]`, Rooms: `[]`, Concept: `weather.precipitation_sky.rain`
+- **en:snow:verb** (snow): Primary: `weather/precipitation_sky`, Secondary: `[]`, Rooms: `[]`, Concept: `weather.precipitation_sky.snow`
+- **en:sink:noun** (sink): Primary: `housing/furniture`, Secondary: `["nature","housing/chores"]`, Rooms: `["kitchen","bathroom"]`, Concept: `N/A`
+- **en:grill:verb** (grill): Primary: `food/meals`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:slice:verb** (slice): Primary: `food/meals`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:chop:verb** (chop): Primary: `food/meals`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:peel:verb** (peel): Primary: `food/meals`, Secondary: `[]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:rubbish:noun** (rubbish): Primary: `housing/chores`, Secondary: `["housing/chores"]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:garbage:noun** (garbage): Primary: `housing/chores`, Secondary: `["housing/chores"]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:memory:phrase** (memory): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:how-s-it-going:phrase** (How's it going?): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:how-have-you-been:phrase** (How have you been?): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:long-time-no-see:phrase** (Long time no see): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:what-s-up:phrase** (What's up?): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:not-much:phrase** (Not much): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:same-here:phrase** (Same here): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:take-it-easy:phrase** (Take it easy): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:catch-you-later:phrase** (Catch you later): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:have-a-good-one:phrase** (Have a good one): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:good-to-see-you:phrase** (Good to see you): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-s-been-a-while:phrase** (It's been a while): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:make-yourself-at-home:phrase** (Make yourself at home): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:after-you:phrase** (After you): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:excuse-me-for-a-second:phrase** (Excuse me for a second): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-appreciate-it:phrase** (I appreciate it): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:no-worries:phrase** (No worries): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:my-pleasure:phrase** (My pleasure): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-s-my-pleasure:phrase** (It's my pleasure): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:bless-you:phrase** (Bless you): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:get-well-soon:phrase** (Get well soon): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:best-wishes:phrase** (Best wishes): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:all-the-best:phrase** (All the best): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:take-care-of-yourself:phrase** (Take care of yourself): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:let-s:phrase** (Let's): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:shall-we:phrase** (Shall we): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:how-about:phrase** (How about): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:what-about:phrase** (What about): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:why-don-t-we:phrase** (Why don't we): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:would-you-like-to:phrase** (Would you like to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:do-you-want-to:phrase** (Do you want to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-d-love-to:phrase** (I'd love to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-d-rather:phrase** (I'd rather): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:sounds-good:phrase** (Sounds good): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:sounds-great:phrase** (Sounds great): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:good-idea:phrase** (Good idea): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-m-in:phrase** (I'm in): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:count-me-in:phrase** (Count me in): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-can-t-make-it:phrase** (I can't make it): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:maybe-next-time:phrase** (Maybe next time): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-m-busy-that-day:phrase** (I'm busy that day): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:are-you-free:phrase** (Are you free): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:what-time-suits-you:phrase** (What time suits you): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:let-s-meet-at:phrase** (Let's meet at): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:see-you-then:phrase** (See you then): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-s-a-date:phrase** (It's a date): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:make-an-arrangement:phrase** (make an arrangement): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:meeting-agenda:phrase** (meeting agenda): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:postpone:phrase** (postpone): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:reschedule:phrase** (reschedule): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:confirm:phrase** (confirm): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:once-upon-a-time:phrase** (once upon a time): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:a-long-time-ago:phrase** (a long time ago): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:in-the-past:phrase** (in the past): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:when-i-was-young:phrase** (when I was young): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:when-i-was-a-child:phrase** (when I was a child): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:growing-up:phrase** (growing up): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-used-to:phrase** (I used to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-remember:phrase** (I remember): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:after-that:phrase** (after that): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:in-the-end:phrase** (in the end): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:at-first:phrase** (at first): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:later-on:phrase** (later on): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:at-that-moment:phrase** (at that moment): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-happened:phrase** (it happened): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:childhood:phrase** (childhood): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:event:phrase** (event): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:in-the-future:phrase** (in the future): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:someday:phrase** (someday): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:one-day:phrase** (one day): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:next-year:phrase** (next year): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:in-a-few-years:phrase** (in a few years): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-m-going-to:phrase** (I'm going to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-will:phrase** (I will): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-plan-to:phrase** (I plan to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-hope-to:phrase** (I hope to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-m-planning-on:phrase** (I'm planning on): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-m-thinking-of:phrase** (I'm thinking of): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:prediction:phrase** (prediction): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:new-year-s-resolution:phrase** (New Year's resolution): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:weather-s-nice-today:phrase** (weather's nice today): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:what-do-you-do-for-a-living:phrase** (What do you do for a living): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:where-are-you-headed:phrase** (Where are you headed): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:what-are-you-up-to:phrase** (What are you up to): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:any-plans-for-the-weekend:phrase** (Any plans for the weekend): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:how-was-your-day:phrase** (How was your day): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:how-was-your-trip:phrase** (How was your trip): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:did-you-have-a-good-time:phrase** (Did you have a good time): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:what-happened:phrase** (What happened): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:tell-me-about-it:phrase** (Tell me about it): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-can-imagine:phrase** (I can imagine): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:that-must-have-been-hard:phrase** (That must have been hard): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:that-s-great-news:phrase** (That's great news): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-m-sorry-to-hear-that:phrase** (I'm sorry to hear that): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:that-makes-sense:phrase** (That makes sense): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:no-wonder:phrase** (No wonder): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-see-what-you-mean:phrase** (I see what you mean): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:fair-enough:phrase** (Fair enough): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:dust:verb** (dust): Primary: `general/miscellaneous`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:iron:verb** (iron): Primary: `general/miscellaneous`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:wipe:verb** (wipe): Primary: `general/miscellaneous`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:dishwasher:noun** (dishwasher): Primary: `housing/appliances`, Secondary: `["housing/chores"]`, Rooms: `["kitchen"]`, Concept: `N/A`
+- **en:vacuum:verb** (vacuum): Primary: `housing/appliances`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:washing-machine:noun** (washing machine): Primary: `housing/appliances`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:lease:verb** (lease): Primary: `housing/rooms_spaces`, Secondary: `["law/legal_system","money/finance"]`, Rooms: `[]`, Concept: `N/A`
+- **en:mortgage:noun** (mortgage): Primary: `housing/rooms_spaces`, Secondary: `["money/finance"]`, Rooms: `[]`, Concept: `N/A`
+- **en:rent:noun** (rent): Primary: `housing/rooms_spaces`, Secondary: `["money/finance"]`, Rooms: `[]`, Concept: `N/A`
+- **en:rent:verb** (rent): Primary: `housing/rooms_spaces`, Secondary: `["money/finance"]`, Rooms: `[]`, Concept: `N/A`
+- **en:laundry:noun** (laundry): Primary: `activities/daily_life`, Secondary: `["housing/chores"]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-think:phrase** (I think): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-believe:phrase** (I believe): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:in-my-opinion:phrase** (In my opinion): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-guess:phrase** (I guess): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-suppose:phrase** (I suppose): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-doubt-it:phrase** (I doubt it): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:exactly:phrase** (Exactly): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:that-s-true:phrase** (That's true): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:that-s-not-true:phrase** (That's not true): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:you-re-right:phrase** (You're right): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:you-re-wrong:phrase** (You're wrong): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-depends:phrase** (It depends): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:on-the-other-hand:phrase** (On the other hand): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:honestly:phrase** (Honestly): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:to-be-honest:phrase** (To be honest): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:as-far-as-i-know:phrase** (As far as I know): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-seems-that:phrase** (It seems that): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:it-looks-like:phrase** (It looks like): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-d-say:phrase** (I'd say): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:personally:phrase** (Personally): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:i-feel-that:phrase** (I feel that): Primary: `communication/greetings`, Secondary: `[]`, Rooms: `[]`, Concept: `N/A`
+- **en:risk:verb** (risk): Primary: `general/miscellaneous`, Secondary: `[]`, Rooms: `[]`, Concept: `general.miscellaneous.risk`
+- **en:feature:verb** (feature): Primary: `general/miscellaneous`, Secondary: `[]`, Rooms: `[]`, Concept: `general.miscellaneous.feature`
+- **en:demand:verb** (demand): Primary: `actions/general`, Secondary: `[]`, Rooms: `[]`, Concept: `actions.general.demand`
+- **en:outline:noun** (outline): Primary: `actions/general`, Secondary: `[]`, Rooms: `[]`, Concept: `actions.general.outline`
+- **en:trigger:noun** (trigger): Primary: `general/abstract_concepts`, Secondary: `[]`, Rooms: `[]`, Concept: `general.abstract_concepts.trigger`
+- **en:contrast:noun** (contrast): Primary: `grammar/general`, Secondary: `[]`, Rooms: `[]`, Concept: `grammar.general.contrast`
+- **en:foster:adjective** (foster): Primary: `family/general`, Secondary: `[]`, Rooms: `[]`, Concept: `family.general.foster`
+- **en:eviction:noun** (eviction): Primary: `housing/furniture`, Secondary: `["law/legal_system"]`, Rooms: `[]`, Concept: `N/A`
+- **en:lease:noun** (lease): Primary: `housing/furniture`, Secondary: `["law/legal_system","money/finance"]`, Rooms: `[]`, Concept: `N/A`
+- **en:request:noun** (request): Primary: `communication/general`, Secondary: `[]`, Rooms: `[]`, Concept: `communication.general.request`
+- **en:prompt:verb** (prompt): Primary: `communication/general`, Secondary: `[]`, Rooms: `[]`, Concept: `communication.general.prompt`
+- **en:venture:verb** (venture): Primary: `business/commerce`, Secondary: `[]`, Rooms: `[]`, Concept: `business.commerce.venture`
+- **en:audit:verb** (audit): Primary: `business/commerce`, Secondary: `[]`, Rooms: `[]`, Concept: `business.commerce.audit`
+- **en:yield:noun** (yield): Primary: `business/commerce`, Secondary: `[]`, Rooms: `[]`, Concept: `business.commerce.yield`
+- **en:harness:noun** (harness): Primary: `technology/general`, Secondary: `[]`, Rooms: `[]`, Concept: `technology.general.harness`
+- **en:scale:verb** (scale): Primary: `technology/general`, Secondary: `[]`, Rooms: `[]`, Concept: `technology.general.scale`
+- **en:sample:verb** (sample): Primary: `measurement/units_scales`, Secondary: `[]`, Rooms: `[]`, Concept: `measurement.units_scales.sample`
+
+## Execution Statistics
+
+- Total entries updated: 199
+- Primary theme relocations: 2
+- Secondary theme updates: 199
+- Room assignments: 15
+- Self-referencing concept fixes: 48

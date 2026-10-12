@@ -1029,9 +1029,7 @@
     "plural_form": "email addresses",
     "no_antonym": true,
     "sub_theme": "devices_hardware",
-    "secondary_themes": [
-      "general"
-    ],
+    "secondary_themes": [],
     "levels": [
       "A1"
     ]
@@ -1064,9 +1062,7 @@
     "no_antonym": true,
     "article": "a",
     "sub_theme": "devices_hardware",
-    "secondary_themes": [
-      "general"
-    ],
+    "secondary_themes": [],
     "levels": [
       "A1"
     ]
@@ -1156,14 +1152,15 @@
     "domain": "general",
     "theme": "technology",
     "sub_theme": "communication_tech",
-    "concept": "en:email:verb",
+    "concept": "technology.communication_tech.email",
     "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
     "related_forms": [
       "to email"
-    ]
+    ],
+    "secondary_themes": []
   },
   {
     "id": "en:phone:verb",
@@ -1184,7 +1181,7 @@
     "domain": "general",
     "theme": "technology",
     "sub_theme": "communication_tech",
-    "concept": "en:phone:verb",
+    "concept": "technology.communication_tech.phone",
     "updated": "2025-05-20",
     "levels": [
       "A0"
@@ -1194,7 +1191,8 @@
     ],
     "transcription_variants": {
       "us": "/foʊn/"
-    }
+    },
+    "secondary_themes": []
   },
   {
     "id": "en:text:verb",
@@ -1215,7 +1213,7 @@
     "domain": "general",
     "theme": "technology",
     "sub_theme": "communication_tech",
-    "concept": "en:text:verb",
+    "concept": "technology.communication_tech.text",
     "updated": "2025-05-20",
     "levels": [
       "A0",
@@ -1223,6 +1221,7 @@
     ],
     "related_forms": [
       "to text"
-    ]
+    ],
+    "secondary_themes": []
   }
 ]

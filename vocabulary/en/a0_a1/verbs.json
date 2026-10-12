@@ -34,6 +34,9 @@
     ],
     "related_forms": [
       "to cook"
+    ],
+    "rooms": [
+      "kitchen"
     ]
   },
   {
@@ -1436,6 +1439,14 @@
     ],
     "related_forms": [
       "to clean"
+    ],
+    "secondary_themes": [
+      "housing/chores",
+      "health/fitness_hygiene"
+    ],
+    "rooms": [
+      "bathroom",
+      "kitchen"
     ]
   },
   {
@@ -2452,6 +2463,14 @@
     ],
     "related_forms": [
       "to wash"
+    ],
+    "secondary_themes": [
+      "housing/chores",
+      "health/fitness_hygiene"
+    ],
+    "rooms": [
+      "bathroom",
+      "kitchen"
     ]
   },
   {
@@ -3529,13 +3548,14 @@
     "domain": "general",
     "theme": "actions",
     "sub_theme": "physical_movement",
-    "concept": "en:smell:verb",
+    "concept": "actions.physical_movement.smell",
     "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
     "related_forms": [
       "to smell"
-    ]
+    ],
+    "secondary_themes": []
   }
 ]
