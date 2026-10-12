@@ -1,27 +1,48 @@
 [
   {
-    "id": "it:lavastoviglie:noun",
-    "word": "lavastoviglie",
+    "id": "it:fornello:noun",
+    "word": "fornello",
     "language": "it",
     "form": "noun",
     "level": "A1",
-    "definitions": [
-      "Macchina per lavare i piatti."
-    ],
-    "examples": [
-      "Carico la lavastoviglie."
-    ],
-    "domain": "general, spoken",
+    "status": "needs_review",
+    "concept": "en:cooker:noun",
     "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/lavastoˈviʎʎe/",
-    "emoji": "🍽️",
+    "sub_theme": "appliances",
+    "article": "il",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "fornelli"
+  },
+  {
+    "id": "it:credenza:noun",
+    "word": "credenza",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:cupboard:noun",
+    "theme": "housing",
+    "sub_theme": "appliances",
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "lavastoviglie",
-    "no_antonym": true,
-    "sub_theme": "appliances"
+    "plural_form": "credenze"
+  },
+  {
+    "id": "it:frigorifero:noun",
+    "word": "frigorifero",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:fridge:noun",
+    "theme": "housing",
+    "sub_theme": "appliances",
+    "article": "il",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "frigoriferi"
   },
   {
     "id": "it:microonde:noun",
@@ -29,48 +50,57 @@
     "language": "it",
     "form": "noun",
     "level": "A1",
-    "definitions": [
-      "Un forno che usa onde per scaldare il cibo velocemente."
-    ],
-    "examples": [
-      "Scaldo il latte nel microonde.",
-      "Il microonde è molto utile in cucina."
-    ],
-    "domain": "general, spoken",
+    "status": "needs_review",
+    "concept": "en:microwave:noun",
     "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/mikroˈonde/",
-    "emoji": "📟",
+    "sub_theme": "appliances",
     "article": "il",
     "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "microonde",
-    "no_antonym": true,
-    "sub_theme": "appliances"
+    "countability": "invariable"
   },
   {
-    "id": "it:tostapane:noun",
-    "word": "tostapane",
+    "id": "it:forno:noun",
+    "word": "forno",
     "language": "it",
     "form": "noun",
     "level": "A1",
-    "definitions": [
-      "Un apparecchio elettrico per tostare il pane."
-    ],
-    "examples": [
-      "Uso il tostapane per la colazione.",
-      "Il tostapane è sul tavolo della cucina."
-    ],
-    "domain": "general, spoken",
+    "status": "needs_review",
+    "concept": "en:oven:noun",
     "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/tostaˈpane/",
-    "emoji": "🍞",
+    "sub_theme": "appliances",
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "tostapane",
-    "no_antonym": true,
-    "sub_theme": "appliances"
+    "plural_form": "forni"
+  },
+  {
+    "id": "it:frigorifero:noun",
+    "word": "frigorifero",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:refrigerator:noun",
+    "theme": "housing",
+    "sub_theme": "appliances",
+    "article": "il",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "frigoriferi"
+  },
+  {
+    "id": "it:stufa-da-cucina:noun",
+    "word": "stufa da cucina",
+    "language": "it",
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:stove:noun",
+    "theme": "housing",
+    "sub_theme": "appliances",
+    "article": "la",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "stufe da cucina"
   }
 ]

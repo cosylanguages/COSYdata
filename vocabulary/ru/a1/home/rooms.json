@@ -1,134 +1,72 @@
 [
   {
-    "id": "ru:gostinaya:noun",
-    "word": "гостиная",
-    "level": "A1",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[ɡɐˈsʲtʲinəjə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "гостиные",
-    "emoji": "🛋️",
-    "no_antonym": true,
-    "definitions": [
-      "Общая комната в доме для приема гостей."
-    ],
-    "examples": [
-      "Вся семья собирается вечером в гостиной."
-    ],
+    "id": "ru:potolok:noun",
+    "word": "потолок",
     "language": "ru",
-    "levels": [
-      "A1"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:pol:noun",
-    "word": "пол",
-    "level": "A1",
     "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:ceiling:noun",
     "theme": "housing",
-    "transcription": "[pol]",
+    "sub_theme": "rooms_spaces",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "полы",
-    "emoji": "🪵",
-    "antonyms": [
-      "потолок"
-    ],
-    "definitions": [
-      "Нижнее покрытие помещения, по которому ходят."
-    ],
-    "examples": [
-      "Маленький котёнок весело бегает по полу."
-    ],
-    "language": "ru",
-    "levels": [
-      "A1"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "потолки"
   },
   {
-    "id": "ru:spalnya:noun",
-    "word": "спальня",
-    "level": "A1",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[ˈspalʲnʲə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "спальни",
-    "emoji": "🛏️",
-    "no_antonym": true,
-    "definitions": [
-      "Комната в доме для ночного отдыха."
-    ],
-    "examples": [
-      "В тихой спальне стоит большая удобная кровать."
-    ],
+    "id": "ru:garazh:noun",
+    "word": "гараж",
     "language": "ru",
-    "levels": [
-      "A1"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:garage:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "гаражи"
   },
   {
-    "id": "ru:stena:noun",
-    "word": "стена",
-    "level": "A1",
+    "id": "ru:gostinaya:noun",
+    "word": "гостиная",
+    "language": "ru",
     "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:living-room:noun",
     "theme": "housing",
-    "transcription": "[stʲɪˈna]",
+    "sub_theme": "rooms_spaces",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "стены",
-    "emoji": "🧱",
-    "no_antonym": true,
-    "definitions": [
-      "Вертикальное ограждение комнаты или здания."
-    ],
-    "examples": [
-      "На белой стене висит красивая картина."
-    ],
-    "language": "ru",
-    "levels": [
-      "A1"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "гостиные"
   },
   {
-    "id": "ru:vannaya:noun",
-    "word": "ванная",
-    "level": "A1",
+    "id": "ru:krysha:noun",
+    "word": "крыша",
+    "language": "ru",
     "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:roof:noun",
     "theme": "housing",
-    "transcription": "[ˈvanːəjə]",
+    "sub_theme": "rooms_spaces",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "ванные",
-    "emoji": "🛁",
-    "no_antonym": true,
-    "definitions": [
-      "Комната в квартире для мытья и купания."
-    ],
-    "examples": [
-      "Утром я умываюсь в светлой ванной."
-    ],
+    "plural_form": "крыши"
+  },
+  {
+    "id": "ru:lestnitsa:noun",
+    "word": "лестница",
     "language": "ru",
-    "levels": [
-      "A1"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "form": "noun",
+    "level": "A1",
+    "status": "needs_review",
+    "concept": "en:stairs:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "лестницы"
   }
 ]

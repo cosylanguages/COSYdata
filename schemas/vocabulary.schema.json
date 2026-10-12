@@ -353,6 +353,10 @@
       "format": "date",
       "description": "ISO date format string YYYY-MM-DD"
     },
+    "status": {
+      "type": "string",
+      "description": "Publication or review status, e.g. needs_review"
+    },
     "article": {
       "type": "string",
       "description": "Grammatical article (meaningful for nouns)"

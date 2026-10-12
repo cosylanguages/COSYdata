@@ -1,437 +1,750 @@
 [
   {
-    "id": "ru:arenda:noun",
-    "word": "аренда",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[ɐˈrʲendə]",
-    "gender": "feminine",
-    "countability": "uncountable",
-    "emoji": "🔑",
-    "no_antonym": true,
-    "definitions": [
-      "Плата за временное пользование жилой квартирой."
-    ],
-    "examples": [
-      "Ежемесячная аренда нашей квартиры стоит не слишком дорого."
-    ],
+    "id": "ru:smezhnye-komnaty:noun",
+    "word": "смежные комнаты",
     "language": "ru",
+    "form": "noun",
     "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "status": "needs_review",
+    "concept": "en:adjoining-rooms:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "pluralia_tantum"
+  },
+  {
+    "id": "ru:soglashenie:noun",
+    "word": "соглашение",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:agreement:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "neuter",
+    "countability": "countable",
+    "plural_form": "соглашения"
+  },
+  {
+    "id": "ru:konditsioner:noun",
+    "word": "кондиционер",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:air-conditioner:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "кондиционеры"
+  },
+  {
+    "id": "ru:konditsionirovanie-vozdukha:noun",
+    "word": "кондиционирование воздуха",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:air-conditioning:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "neuter",
+    "countability": "uncountable"
+  },
+  {
+    "id": "ru:vozdukh:noun",
+    "word": "воздух",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:air:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "uncountable"
+  },
+  {
+    "id": "ru:bytovoy-pribor:noun",
+    "word": "бытовой прибор",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:appliance:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "бытовые приборы"
+  },
+  {
+    "id": "ru:cherdak:noun",
+    "word": "чердак",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:attic:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "чердаки"
   },
   {
     "id": "ru:balkon:noun",
     "word": "балкон",
+    "language": "ru",
     "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:balcony:noun",
     "theme": "housing",
-    "transcription": "[bɐlˈkon]",
+    "sub_theme": "rooms_spaces",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "балконы",
-    "emoji": "🏢",
-    "no_antonym": true,
-    "definitions": [
-      "Площадка с перилами, выступающая из стены здания."
-    ],
-    "examples": [
-      "Утром дедушка пьёт чай на открытом балконе."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "балконы"
   },
   {
-    "id": "ru:dukhovka:noun",
-    "word": "духовка",
+    "id": "ru:podval:noun",
+    "word": "подвал",
+    "language": "ru",
     "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:basement:noun",
     "theme": "housing",
-    "transcription": "[dʊˈxofkə]",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "подвалы"
+  },
+  {
+    "id": "ru:pogreb:noun",
+    "word": "погреб",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:cellar:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "погреба"
+  },
+  {
+    "id": "ru:konditsionirovanie:noun",
+    "word": "кондиционирование",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:conditioning:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "neuter",
+    "countability": "uncountable"
+  },
+  {
+    "id": "ru:koridornyy-prokhod:noun",
+    "word": "коридорный проход",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:corridor:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "коридорные проходы"
+  },
+  {
+    "id": "ru:detskaya-krovatka:noun",
+    "word": "детская кроватка",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:cot:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "духовки",
-    "emoji": "🍳",
-    "no_antonym": true,
-    "definitions": [
-      "Закрытая камера кухонной плиты для запекания."
-    ],
-    "examples": [
-      "Бабушка поставила пирог в горячую духовку запекаться."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "детские кроватки"
   },
   {
-    "id": "ru:gladit:verb",
-    "word": "гладить",
+    "id": "ru:dvernoy-zvonok:noun",
+    "word": "дверной звонок",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:doorbell:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "дверные звонки"
+  },
+  {
+    "id": "ru:vydvizhnoy-yashchik:noun",
+    "word": "выдвижной ящик",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:drawer:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "выдвижные ящики"
+  },
+  {
+    "id": "ru:sushilnaya-mashina:noun",
+    "word": "сушильная машина",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:dryer:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "сушильные машины"
+  },
+  {
+    "id": "ru:lift-elevator:noun",
+    "word": "лифт",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:elevator:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "лифты"
+  },
+  {
+    "id": "ru:zapasnyy-vykhod:noun",
+    "word": "запасный выход",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:emergency-exit:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "запасные выходы"
+  },
+  {
+    "id": "ru:rasshiryat:verb",
+    "word": "расширять",
+    "language": "ru",
     "form": "verb",
-    "theme": "housing",
-    "transcription": "[ˈɡladʲɪtʲ]",
-    "emoji": "🧺",
-    "no_antonym": true,
-    "definitions": [
-      "Выравнивать складки на одежде горячим утюгом."
-    ],
-    "examples": [
-      "Мама начала гладить выстиранные рубашки утюгом."
-    ],
-    "language": "ru",
     "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "related_forms": [
-      "COSYtools:ru-spryazhenie:гладить"
-    ],
+    "status": "needs_review",
+    "concept": "en:expand:verb",
+    "theme": "housing",
     "sub_theme": "rooms_spaces"
   },
   {
-    "id": "ru:kholodilnik:noun",
-    "word": "холодильник",
-    "form": "noun",
+    "id": "ru:meblirovat:verb",
+    "word": "меблировать",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:furnish:verb",
     "theme": "housing",
-    "transcription": "[xəlɐˈdʲilʲnʲɪk]",
+    "sub_theme": "rooms_spaces",
+    "rooms": [
+      "living_room",
+      "bedroom",
+      "dining_room"
+    ]
+  },
+  {
+    "id": "ru:meblirovannyy:adjective",
+    "word": "меблированный",
+    "language": "ru",
+    "form": "adjective",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:furnished:adjective",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces"
+  },
+  {
+    "id": "ru:mebel:noun",
+    "word": "мебель",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:furniture:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "uncountable"
+  },
+  {
+    "id": "ru:zanimatsya-sadovodstvom:verb",
+    "word": "заниматься садоводством",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:garden:verb",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces"
+  },
+  {
+    "id": "ru:gaz:noun",
+    "word": "газ",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:gas:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "uncountable"
+  },
+  {
+    "id": "ru:obogrevatel:noun",
+    "word": "обогреватель",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:heater:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "холодильники",
-    "emoji": "🧊",
-    "no_antonym": true,
-    "definitions": [
-      "Прибор для охлаждения и сохранения свежих продуктов."
-    ],
-    "examples": [
-      "Мы положили свежее молоко и сыр в холодильник."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "обогреватели"
   },
   {
-    "id": "ru:kovyor:noun",
-    "word": "ковёр",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[kɐˈvʲor]",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "ковры",
-    "emoji": "🛋️",
-    "no_antonym": true,
-    "definitions": [
-      "Плотное тканое изделие с узором на пол."
-    ],
-    "examples": [
-      "В нашей гостиной на полу лежит мягкий ковёр."
-    ],
+    "id": "ru:otoplenie:noun",
+    "word": "отопление",
     "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:krysha:noun",
-    "word": "крыша",
-    "level": "A2",
     "form": "noun",
-    "theme": "housing",
-    "transcription": "[ˈkrɨʂə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "крыши",
-    "emoji": "🏠",
-    "no_antonym": true,
-    "definitions": [
-      "Верхнее покрытие здания для защиты от дождя."
-    ],
-    "examples": [
-      "На крыше дома сидит серый кот."
-    ],
-    "language": "ru",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:lestnitsa:noun",
-    "word": "лестница",
     "level": "A2",
-    "form": "noun",
+    "status": "needs_review",
+    "concept": "en:heating:noun",
     "theme": "housing",
-    "transcription": "[ˈlʲesʲnʲɪtsə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "лестницы",
-    "emoji": "🪜",
-    "no_antonym": true,
-    "definitions": [
-      "Сооружение со ступенями для подъёма наверх."
-    ],
-    "examples": [
-      "Мы поднимаемся по высокой лестнице наверх."
-    ],
-    "language": "ru",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:odeyalo:noun",
-    "word": "одеяло",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[ədʲɪˈjalə]",
+    "sub_theme": "rooms_spaces",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "одеяла",
-    "emoji": "🛌",
-    "no_antonym": true,
-    "definitions": [
-      "Тёплое покровное изделие для укрывания человека во сне."
-    ],
-    "examples": [
-      "Зимой приятно укрываться тёплым шерстяным одеялом."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "отопления"
   },
   {
-    "id": "ru:podmetat:verb",
-    "word": "подметать",
-    "form": "verb",
-    "theme": "housing",
-    "transcription": "[pədmʲɪˈtatʲ]",
-    "emoji": "🧹",
-    "no_antonym": true,
-    "definitions": [
-      "Очищать пол от мусора веником или щеткой."
-    ],
-    "examples": [
-      "Девочка помогает маме подметать деревянный пол на кухне."
-    ],
+    "id": "ru:utyug:noun",
+    "word": "утюг",
     "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:podushka:noun",
-    "word": "подушка",
     "form": "noun",
-    "theme": "housing",
-    "transcription": "[pɐˈduʂkə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "подушки",
-    "emoji": "🛌",
-    "no_antonym": true,
-    "definitions": [
-      "Мягкий подголовник для комфортного сна в кровати."
-    ],
-    "examples": [
-      "На кровати лежит мягкая удобная белая подушка."
-    ],
-    "language": "ru",
     "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:polka:noun",
-    "word": "полка",
-    "form": "noun",
+    "status": "needs_review",
+    "concept": "en:iron:noun",
     "theme": "housing",
-    "transcription": "[ˈpolkə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "полки",
-    "emoji": "📚",
-    "no_antonym": true,
-    "definitions": [
-      "Горизонтальное дощатое устройство на стене для книг."
-    ],
-    "examples": [
-      "На книжной полке стоят наши любимые книги."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:polotentse:noun",
-    "word": "полотенце",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[pəlɐˈtʲentsə]",
-    "gender": "neuter",
-    "countability": "countable",
-    "plural_form": "полотенца",
-    "emoji": "🧴",
-    "no_antonym": true,
-    "definitions": [
-      "Ткань для вытирания тела после мытья."
-    ],
-    "examples": [
-      "После душа я вытерся мягким хлопковым полотенцем."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:rakovina:noun",
-    "word": "раковина",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[ˈrakəvʲɪnə]",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "раковины",
-    "emoji": "🚰",
-    "no_antonym": true,
-    "definitions": [
-      "Чаша со сливом для мытья посуды и рук."
-    ],
-    "examples": [
-      "Грязная посуда лежит в кухонной раковине."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "ru:sosed:noun",
-    "word": "сосед",
-    "form": "noun",
-    "theme": "housing",
-    "transcription": "[sɐˈsʲet]",
+    "sub_theme": "rooms_spaces",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "соседи",
-    "emoji": "🧑‍🤝‍🧑",
-    "no_antonym": true,
-    "definitions": [
-      "Человек, живущий в доме рядом по соседству."
-    ],
-    "examples": [
-      "Наш доброжелательный сосед помог нам с ремонтом."
-    ],
-    "language": "ru",
-    "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "plural_form": "утюги"
   },
   {
-    "id": "ru:stiralnaya-mashina:noun",
-    "word": "стиральная машина",
+    "id": "ru:arendodatel:noun",
+    "word": "арендодатель",
+    "language": "ru",
     "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:landlord:noun",
     "theme": "housing",
-    "transcription": "[stʲɪˈralʲnəjə mɐˈʂɨnə]",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "арендодатели"
+  },
+  {
+    "id": "ru:prachechnaya-samoobsluzhivaniya:noun",
+    "word": "прачечная самообслуживания",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:laundromat:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "стиральные машины",
-    "emoji": "🧺",
-    "no_antonym": true,
-    "definitions": [
-      "Бытовой электрический прибор для автоматической стирки одежды."
-    ],
-    "examples": [
-      "Новая стиральная машина быстро выстирала всю грязную одежду."
-    ],
+    "plural_form": "прачечные самообслуживания"
+  },
+  {
+    "id": "ru:sdavat-v-arendu:verb",
+    "word": "сдавать в аренду",
     "language": "ru",
+    "form": "verb",
     "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
+    "status": "needs_review",
+    "concept": "en:lease:verb",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "rooms": [
+      "shared"
+    ]
+  },
+  {
+    "id": "ru:pochtovyy-yashchik:noun",
+    "word": "почтовый ящик",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:mailbox:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "почтовые ящики"
+  },
+  {
+    "id": "ru:ipoteka:noun",
+    "word": "ипотека",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:mortgage:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "ипотеки"
+  },
+  {
+    "id": "ru:zaselenie:noun",
+    "word": "заселение",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:move-in:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "neuter",
+    "countability": "countable",
+    "plural_form": "заселения"
+  },
+  {
+    "id": "ru:vyezd:noun",
+    "word": "выезд",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:move-out:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "выезды"
+  },
+  {
+    "id": "ru:rayon:noun",
+    "word": "район",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:neighborhood:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "районы"
+  },
+  {
+    "id": "ru:rayon:noun",
+    "word": "район",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:neighbourhood:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "районы"
+  },
+  {
+    "id": "ru:detskaya-vstrecha:noun",
+    "word": "детская встреча",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:playdate:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "детские встречи"
+  },
+  {
+    "id": "ru:nedvizhimost:noun",
+    "word": "недвижимость",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:property:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "uncountable"
+  },
+  {
+    "id": "ru:remontirovat:verb",
+    "word": "ремонтировать",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:renovate:verb",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "rooms": [
+      "living_room",
+      "bedroom",
+      "kitchen",
+      "bathroom"
+    ]
+  },
+  {
+    "id": "ru:arendnaya-plata:noun",
+    "word": "арендная плата",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:rent:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "арендные платы"
+  },
+  {
+    "id": "ru:arendovat:verb",
+    "word": "арендовать",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:rent:verb",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "rooms": [
+      "shared",
+      "entrance"
+    ]
+  },
+  {
+    "id": "ru:obustroystvo:noun",
+    "word": "обустройство",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:settling-in:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "neuter",
+    "countability": "countable",
+    "plural_form": "обустройства"
+  },
+  {
+    "id": "ru:ubezhishche:noun",
+    "word": "убежище",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:shelter:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "neuter",
+    "countability": "countable",
+    "plural_form": "убежища"
+  },
+  {
+    "id": "ru:prigorod:noun",
+    "word": "пригород",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:suburb:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "пригороды"
+  },
+  {
+    "id": "ru:arendator:noun",
+    "word": "арендатор",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:tenant:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "арендаторы"
+  },
+  {
+    "id": "ru:terrasa:noun",
+    "word": "терраса",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:terrace:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "feminine",
+    "countability": "countable",
+    "plural_form": "террасы"
+  },
+  {
+    "id": "ru:bez-mebeli:adjective",
+    "word": "без мебели",
+    "language": "ru",
+    "form": "adjective",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:unfurnished:adjective",
+    "theme": "housing",
     "sub_theme": "rooms_spaces"
   },
   {
-    "id": "ru:ubiratsya:verb",
-    "word": "убираться",
-    "form": "verb",
-    "theme": "housing",
-    "transcription": "[ʊbʲɪˈratsʲə]",
-    "emoji": "🧹",
-    "no_antonym": true,
-    "definitions": [
-      "Наводить порядок и чистоту в своей квартире."
-    ],
-    "examples": [
-      "Каждую субботу наша семья привыкла убираться в доме."
-    ],
+    "id": "ru:dvor:noun",
+    "word": "двор",
     "language": "ru",
+    "form": "noun",
     "level": "A2",
-    "levels": [
-      "A2"
-    ],
-    "domain": "general",
-    "updated": "2026-10-11",
-    "sub_theme": "rooms_spaces"
+    "status": "needs_review",
+    "concept": "en:yard:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "дворы"
+  },
+  {
+    "id": "ru:lift:noun",
+    "word": "лифт",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:lift:noun",
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "лифты"
+  },
+  {
+    "id": "ru:navodit-poryadok:verb",
+    "word": "наводить порядок",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:tidy:verb",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "bedroom",
+      "living_room",
+      "study"
+    ]
+  },
+  {
+    "id": "ru:raschishchat:verb",
+    "word": "расчищать",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:clear:verb",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "dining_room",
+      "kitchen",
+      "study"
+    ]
+  },
+  {
+    "id": "ru:drait:verb",
+    "word": "драить",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:scrub:verb",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "bathroom",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "ru:smyvat:verb",
+    "word": "смывать",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:flush:verb",
+    "theme": "housing",
+    "sub_theme": "home_fixtures",
+    "rooms": [
+      "bathroom"
+    ]
+  },
+  {
+    "id": "ru:kosit:verb",
+    "word": "косить",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "status": "needs_review",
+    "concept": "en:mow:verb",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "garden"
+    ]
   }
 ]

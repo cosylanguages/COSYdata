@@ -1,26 +1,32 @@
 [
   {
-    "id": "it:casa:noun",
-    "word": "casa",
+    "id": "it:appartamento:noun",
+    "word": "appartamento",
     "language": "it",
     "form": "noun",
     "level": "A0",
-    "definitions": [
-      "Edificio destinato ad abitazione privata delle persone."
-    ],
-    "examples": [
-      "Abito in una bella casa con un piccolo giardino."
-    ],
-    "domain": "general, spoken",
+    "status": "needs_review",
+    "concept": "en:apartment:noun",
     "theme": "housing",
-    "updated": "2026-10-11",
-    "transcription": "/ˈkaː.za/",
-    "emoji": "🏠",
-    "no_antonym": true,
-    "article": "la",
-    "gender": "feminine",
+    "sub_theme": "building_types",
+    "article": "l'",
+    "gender": "masculine",
     "countability": "countable",
-    "plural_form": "case",
-    "sub_theme": "building_types"
+    "plural_form": "appartamenti"
+  },
+  {
+    "id": "it:appartamento:noun",
+    "word": "appartamento",
+    "language": "it",
+    "form": "noun",
+    "level": "A0",
+    "status": "needs_review",
+    "concept": "en:flat:noun",
+    "theme": "housing",
+    "sub_theme": "building_types",
+    "article": "l'",
+    "gender": "masculine",
+    "countability": "countable",
+    "plural_form": "appartamenti"
   }
 ]
