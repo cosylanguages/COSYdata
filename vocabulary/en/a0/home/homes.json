@@ -36,7 +36,17 @@
     "levels": [
       "A0"
     ],
-    "variant_group": "flat_apartment"
+    "variant_group": "flat_apartment",
+    "verbs": [
+      "en:rent:verb",
+      "en:furnish:verb",
+      "en:renovate:verb",
+      "en:move-in:verb",
+      "en:move-out:verb",
+      "en:clean:verb",
+      "en:paint:verb",
+      "en:decorate:verb"
+    ]
   },
   {
     "id": "en:flat:noun",
@@ -72,6 +82,16 @@
     ],
     "article": "a",
     "sub_theme": "building_types",
-    "variant_group": "flat_apartment"
+    "variant_group": "flat_apartment",
+    "verbs": [
+      "en:rent:verb",
+      "en:furnish:verb",
+      "en:renovate:verb",
+      "en:move-in:verb",
+      "en:move-out:verb",
+      "en:clean:verb",
+      "en:paint:verb",
+      "en:decorate:verb"
+    ]
   }
 ]

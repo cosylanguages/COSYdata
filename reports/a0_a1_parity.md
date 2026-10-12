@@ -1,6 +1,6 @@
 # A0–A1 Parity Report
 
-*Generated automatically on 2026-10-11*
+*Generated automatically on 2026-10-12*
 
 ## Target Metrics
 
@@ -12,7 +12,7 @@
 
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EN | 1657 | 452 | 1205 | -12 | -22 | +10 | 0 | 19 |
+| EN | 1653 | 452 | 1201 | -16 | -22 | +6 | 0 | 19 |
 | FR | 1611 | 1027 | 584 | -58 | +553 | -611 | 8 | 36 |
 | IT | 1199 | 250 | 949 | -470 | -224 | -246 | 2 | 23 |
 | RU | 697 | 191 | 506 | -972 | -283 | -689 | 4 | 70 |

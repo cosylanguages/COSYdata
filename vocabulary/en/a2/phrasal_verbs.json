@@ -659,7 +659,12 @@
     "transcription": "/pʊt əˈweɪ/",
     "emoji": "📦",
     "no_antonym": true,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "rooms": [
+      "bedroom",
+      "kitchen",
+      "storage"
+    ]
   },
   {
     "id": "en:pick-up:verb",
@@ -1037,7 +1042,12 @@
       "pick up",
       "answer"
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "rooms": [
+      "entrance",
+      "bedroom",
+      "hallway"
+    ]
   },
   {
     "id": "en:fill-out:verb",
@@ -1117,7 +1127,13 @@
     "antonyms": [
       "mess up"
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "rooms": [
+      "living_room",
+      "kitchen",
+      "bedroom",
+      "bathroom"
+    ]
   },
   {
     "id": "en:grow-up:verb",
@@ -2523,5 +2539,172 @@
     "secondary_themes": [
       "grammar"
     ]
+  },
+  {
+    "id": "en:move-in:verb",
+    "word": "move in",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To start living in a new home or accommodation."
+    ],
+    "examples": [
+      "We plan to move in next weekend.",
+      "They moved in on Friday."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "daily_life",
+    "rooms": [
+      "entrance",
+      "living_room",
+      "shared"
+    ],
+    "prepositions": [
+      {
+        "preposition": "into",
+        "example": "We are moving into our new apartment next month."
+      },
+      {
+        "preposition": "with",
+        "example": "He moved in with his brother."
+      }
+    ],
+    "transcription": "/muːv ɪn/",
+    "emoji": "📦",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:move-out:verb",
+    "word": "move out",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To stop living in a home and leave it permanently."
+    ],
+    "examples": [
+      "He is moving out at the end of the month.",
+      "The previous tenants moved out yesterday."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "daily_life",
+    "rooms": [
+      "entrance",
+      "shared"
+    ],
+    "prepositions": [
+      {
+        "preposition": "of",
+        "example": "She moved out of her parents house last year."
+      }
+    ],
+    "transcription": "/muːv aʊt/",
+    "emoji": "🚛",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:tidy-up:verb",
+    "word": "tidy up",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To make a room or space clean and organized."
+    ],
+    "examples": [
+      "Let us tidy up the living room before the guests arrive.",
+      "She tidied up her bedroom after school."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "kitchen",
+      "living_room",
+      "bedroom"
+    ],
+    "prepositions": [
+      {
+        "preposition": "after",
+        "example": "Please tidy up after yourself in the kitchen."
+      }
+    ],
+    "transcription": "/ˈtaɪ.di ʌp/",
+    "emoji": "🧹",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:sit-on:verb",
+    "word": "sit on",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To place one body on a seat, chair, sofa, or surface."
+    ],
+    "examples": [
+      "Please sit on the comfortable armchair.",
+      "They sat on the balcony enjoying the fresh air."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "daily_life",
+    "rooms": [
+      "living_room",
+      "dining_room",
+      "balcony"
+    ],
+    "prepositions": [
+      {
+        "preposition": "on",
+        "example": "Sit on the sofa next to me."
+      }
+    ],
+    "transcription": "/sɪt ɒn/",
+    "emoji": "🪑",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:put-in:verb",
+    "word": "put in",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To place or install something inside a container, appliance, or room."
+    ],
+    "examples": [
+      "Put the groceries in the refrigerator.",
+      "They put in a new dishwasher yesterday."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "kitchen",
+      "laundry_room",
+      "storage"
+    ],
+    "prepositions": [
+      {
+        "preposition": "in",
+        "example": "Put the laundry in the washing machine."
+      },
+      {
+        "preposition": "into",
+        "example": "Put the dirty dishes into the sink."
+      }
+    ],
+    "transcription": "/pʊt ɪn/",
+    "emoji": "📥",
+    "no_antonym": true,
+    "updated": "2025-05-20"
   }
 ]

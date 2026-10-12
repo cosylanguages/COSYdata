@@ -27,7 +27,14 @@
     "transcription_variants": {
       "us": "/ˈvæk.juːm ˌkliː.nɚ/"
     },
-    "sub_theme": "appliances"
+    "sub_theme": "appliances",
+    "verbs": [
+      "en:clean:verb",
+      "en:sweep:verb",
+      "en:mop:verb",
+      "en:vacuum:verb",
+      "en:scrub:verb"
+    ]
   },
   {
     "id": "en:vacuum:verb",
@@ -50,6 +57,11 @@
     "sub_theme": "appliances",
     "secondary_themes": [
       "housing/chores"
+    ],
+    "rooms": [
+      "living_room",
+      "bedroom",
+      "hallway"
     ]
   },
   {
@@ -83,6 +95,13 @@
     "sub_theme": "appliances",
     "secondary_themes": [
       "housing/chores"
+    ],
+    "verbs": [
+      "en:turn-on:verb",
+      "en:turn-off:verb",
+      "en:put-in:verb",
+      "en:unplug:verb",
+      "en:clean:verb"
     ]
   },
   {
@@ -112,6 +131,11 @@
     "rooms": [
       "kitchen",
       "laundry_room"
+    ],
+    "verbs": [
+      "en:clear:verb",
+      "en:clean:verb",
+      "en:put-away:verb"
     ]
   },
   {
@@ -146,6 +170,11 @@
     "variant_group": "dustbin_trash_can",
     "regional_equivalents": [
       "en:trash-can:noun"
+    ],
+    "verbs": [
+      "en:clear:verb",
+      "en:clean:verb",
+      "en:put-away:verb"
     ]
   },
   {
@@ -222,6 +251,11 @@
     ],
     "definitions": [
       "A waste receptacle used for storing rubbish before collection."
+    ],
+    "verbs": [
+      "en:clear:verb",
+      "en:clean:verb",
+      "en:put-away:verb"
     ]
   }
 ]

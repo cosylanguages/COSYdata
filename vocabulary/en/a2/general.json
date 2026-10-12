@@ -2444,7 +2444,12 @@
     "article": "a",
     "plural_form": "mats",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "verbs": [
+      "en:vacuum:verb",
+      "en:clean:verb",
+      "en:sweep:verb"
+    ]
   },
   {
     "id": "en:basin:noun",
@@ -2467,7 +2472,14 @@
     "article": "a",
     "plural_form": "basins",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "verbs": [
+      "en:wash:verb",
+      "en:clean:verb",
+      "en:scrub:verb",
+      "en:turn-on:verb",
+      "en:turn-off:verb"
+    ]
   },
   {
     "id": "en:cloth:noun",
@@ -2628,7 +2640,14 @@
     "article": "a",
     "plural_form": "sponges",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "verbs": [
+      "en:clean:verb",
+      "en:sweep:verb",
+      "en:mop:verb",
+      "en:vacuum:verb",
+      "en:scrub:verb"
+    ]
   },
   {
     "id": "en:duvet:noun",
@@ -2651,7 +2670,12 @@
     "article": "a",
     "plural_form": "duvets",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "verbs": [
+      "en:make:verb",
+      "en:change:verb",
+      "en:sleep:verb"
+    ]
   },
   {
     "id": "en:vase:noun",
@@ -2950,7 +2974,15 @@
     "article": "a",
     "plural_form": "sideboards",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "verbs": [
+      "en:open:verb",
+      "en:close:verb",
+      "en:organize:verb",
+      "en:tidy:verb",
+      "en:clean:verb",
+      "en:dust:verb"
+    ]
   },
   {
     "id": "en:stool:noun",
@@ -2973,7 +3005,13 @@
     "article": "a",
     "plural_form": "stools",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "verbs": [
+      "en:sit:verb",
+      "en:sit-on:verb",
+      "en:clean:verb",
+      "en:vacuum:verb"
+    ]
   },
   {
     "id": "en:hallway:noun",
@@ -6020,7 +6058,7 @@
     "language": "en",
     "form": "verb",
     "level": "A2",
-    "theme": "general",
+    "theme": "housing",
     "definitions": [
       "Remove dust from the surface of."
     ],
@@ -6031,10 +6069,16 @@
     "transcription": "/dʌst/",
     "emoji": "🧹",
     "no_antonym": true,
-    "sub_theme": "miscellaneous",
+    "sub_theme": "chores",
     "updated": "2025-05-20",
     "secondary_themes": [
-      "housing/chores"
+      "housing/chores",
+      "general"
+    ],
+    "rooms": [
+      "living_room",
+      "bedroom",
+      "study"
     ]
   },
   {
@@ -6043,7 +6087,7 @@
     "language": "en",
     "form": "verb",
     "level": "A2",
-    "theme": "general",
+    "theme": "housing",
     "definitions": [
       "Smooth clothes with a heated appliance."
     ],
@@ -6054,10 +6098,15 @@
     "transcription": "/ˈaɪərn/",
     "emoji": "👔",
     "no_antonym": true,
-    "sub_theme": "miscellaneous",
+    "sub_theme": "chores",
     "updated": "2025-05-20",
     "secondary_themes": [
-      "housing/chores"
+      "housing/chores",
+      "general"
+    ],
+    "rooms": [
+      "laundry_room",
+      "bedroom"
     ]
   },
   {
@@ -6066,7 +6115,7 @@
     "language": "en",
     "form": "verb",
     "level": "A2",
-    "theme": "general",
+    "theme": "housing",
     "definitions": [
       "Clean or dry something by rubbing a cloth over it."
     ],
@@ -6077,10 +6126,16 @@
     "transcription": "/waɪp/",
     "emoji": "🧻",
     "no_antonym": true,
-    "sub_theme": "miscellaneous",
+    "sub_theme": "chores",
     "updated": "2025-05-20",
     "secondary_themes": [
-      "housing/chores"
+      "housing/chores",
+      "general"
+    ],
+    "rooms": [
+      "kitchen",
+      "bathroom",
+      "dining_room"
     ]
   },
   {
