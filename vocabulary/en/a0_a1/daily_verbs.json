@@ -1445,6 +1445,9 @@
     "related_forms": [
       "COSYtools:en-irregular-verbs:sweep",
       "to sweep"
+    ],
+    "secondary_themes": [
+      "housing/chores"
     ]
   },
   {
@@ -1478,6 +1481,9 @@
     ],
     "related_forms": [
       "to mop"
+    ],
+    "secondary_themes": [
+      "housing/chores"
     ]
   },
   {
@@ -1619,6 +1625,10 @@
     "sub_theme": "general",
     "related_forms": [
       "to bake"
+    ],
+    "secondary_themes": [],
+    "rooms": [
+      "kitchen"
     ]
   },
   {
@@ -1650,6 +1660,10 @@
     "sub_theme": "general",
     "related_forms": [
       "to fry"
+    ],
+    "secondary_themes": [],
+    "rooms": [
+      "kitchen"
     ]
   },
   {
@@ -1683,6 +1697,10 @@
     "sub_theme": "general",
     "related_forms": [
       "to boil"
+    ],
+    "secondary_themes": [],
+    "rooms": [
+      "kitchen"
     ]
   },
   {
@@ -1717,6 +1735,10 @@
     "sub_theme": "general",
     "related_forms": [
       "to roast"
+    ],
+    "secondary_themes": [],
+    "rooms": [
+      "kitchen"
     ]
   },
   {
@@ -2760,7 +2782,7 @@
     "domain": "general",
     "theme": "activities",
     "sub_theme": "hobbies",
-    "concept": "en:dance:verb",
+    "concept": "activities.hobbies.dance",
     "updated": "2025-05-20",
     "levels": [
       "A0"
@@ -2770,7 +2792,8 @@
     ],
     "transcription_variants": {
       "us": "/dæns/"
-    }
+    },
+    "secondary_themes": []
   },
   {
     "id": "en:drive:verb",
@@ -2793,7 +2816,7 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "vehicles_transportation",
-    "concept": "en:drive:verb",
+    "concept": "travel.vehicles_transportation.drive",
     "updated": "2025-05-20",
     "levels": [
       "A0",
@@ -2801,7 +2824,8 @@
     ],
     "related_forms": [
       "to drive"
-    ]
+    ],
+    "secondary_themes": []
   },
   {
     "id": "en:ride:verb",
@@ -2824,14 +2848,15 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "vehicles_transportation",
-    "concept": "en:ride:verb",
+    "concept": "travel.vehicles_transportation.ride",
     "updated": "2025-05-20",
     "levels": [
       "A0"
     ],
     "related_forms": [
       "to ride"
-    ]
+    ],
+    "secondary_themes": []
   },
   {
     "id": "en:hope:verb",
@@ -2852,7 +2877,7 @@
     "domain": "general",
     "theme": "emotions",
     "sub_theme": "positive_feelings",
-    "concept": "en:hope:verb",
+    "concept": "emotions.positive_feelings.hope",
     "updated": "2025-05-20",
     "levels": [
       "A1",
@@ -2863,7 +2888,8 @@
     ],
     "transcription_variants": {
       "us": "/hoʊp/"
-    }
+    },
+    "secondary_themes": []
   },
   {
     "id": "en:wish:verb",
@@ -2884,14 +2910,15 @@
     "domain": "general",
     "theme": "communication",
     "sub_theme": "courtesy",
-    "concept": "en:wish:verb",
+    "concept": "communication.courtesy.wish",
     "updated": "2025-05-20",
     "levels": [
       "A1"
     ],
     "related_forms": [
       "to wish"
-    ]
+    ],
+    "secondary_themes": []
   },
   {
     "id": "en:book:verb",
@@ -2912,7 +2939,7 @@
     "domain": "general",
     "theme": "travel",
     "sub_theme": "transit_booking",
-    "concept": "en:book:verb",
+    "concept": "travel.transit_booking.book",
     "updated": "2025-05-20",
     "levels": [
       "A0",
@@ -2920,7 +2947,8 @@
     ],
     "related_forms": [
       "to book"
-    ]
+    ],
+    "secondary_themes": []
   },
   {
     "id": "en:order:verb",
@@ -2941,7 +2969,7 @@
     "domain": "general",
     "theme": "food",
     "sub_theme": "meals",
-    "concept": "en:order:verb",
+    "concept": "food.meals.order",
     "updated": "2025-05-20",
     "levels": [
       "A1",
@@ -2952,7 +2980,8 @@
     ],
     "transcription_variants": {
       "us": "/ˈɔːr.dɚ/"
-    }
+    },
+    "secondary_themes": []
   },
   {
     "id": "en:plant:verb",
@@ -2973,7 +3002,7 @@
     "domain": "general",
     "theme": "nature",
     "sub_theme": "plants_trees",
-    "concept": "en:plant:verb",
+    "concept": "nature.plants_trees.plant",
     "updated": "2025-05-20",
     "levels": [
       "A0",
@@ -2984,6 +3013,7 @@
     ],
     "transcription_variants": {
       "us": "/plænt/"
-    }
+    },
+    "secondary_themes": []
   }
 ]
