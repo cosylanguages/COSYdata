@@ -440,7 +440,14 @@
     "transcription_variants": {
       "us": "/ˈdraɪ.ɚ/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "verbs": [
+      "en:turn-on:verb",
+      "en:turn-off:verb",
+      "en:put-in:verb",
+      "en:unplug:verb",
+      "en:clean:verb"
+    ]
   },
   {
     "id": "en:elevator:noun",
@@ -553,6 +560,11 @@
     "synonyms": [
       "equip",
       "fit out"
+    ],
+    "rooms": [
+      "living_room",
+      "bedroom",
+      "dining_room"
     ]
   },
   {
@@ -837,6 +849,9 @@
     "secondary_themes": [
       "law/legal_system",
       "money/finance"
+    ],
+    "rooms": [
+      "shared"
     ]
   },
   {
@@ -1079,7 +1094,17 @@
     "transcription_variants": {
       "us": "/ˈprɑː.pɚ.t̬i/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "verbs": [
+      "en:rent:verb",
+      "en:furnish:verb",
+      "en:renovate:verb",
+      "en:move-in:verb",
+      "en:move-out:verb",
+      "en:clean:verb",
+      "en:paint:verb",
+      "en:decorate:verb"
+    ]
   },
   {
     "id": "en:renovate:verb",
@@ -1108,6 +1133,12 @@
     "synonyms": [
       "restore",
       "remodel"
+    ],
+    "rooms": [
+      "living_room",
+      "bedroom",
+      "kitchen",
+      "bathroom"
     ]
   },
   {
@@ -1161,6 +1192,10 @@
     "sub_theme": "rooms_spaces",
     "secondary_themes": [
       "money/finance"
+    ],
+    "rooms": [
+      "shared",
+      "entrance"
     ]
   },
   {
@@ -1410,5 +1445,164 @@
     "definitions": [
       "A mechanical apparatus with a platform or cage for carrying people or goods between levels."
     ]
+  },
+  {
+    "id": "en:tidy:verb",
+    "word": "tidy",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To arrange things neatly and put them in order."
+    ],
+    "examples": [
+      "Please tidy your room before dinner.",
+      "He tidies his desk every evening."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "bedroom",
+      "living_room",
+      "study"
+    ],
+    "prepositions": [
+      {
+        "preposition": "up",
+        "example": "Tidy up the workspace when finished."
+      }
+    ],
+    "transcription": "/ˈtaɪ.di/",
+    "emoji": "🧹",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:clear:verb",
+    "word": "clear",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To remove dishes or unwanted items from a table or area."
+    ],
+    "examples": [
+      "Please clear the table after eating dinner.",
+      "She cleared her desk before starting to study."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "dining_room",
+      "kitchen",
+      "study"
+    ],
+    "prepositions": [
+      {
+        "preposition": "of",
+        "example": "Clear the dining table of dishes."
+      },
+      {
+        "preposition": "away",
+        "example": "Clear away the toys from the floor."
+      }
+    ],
+    "transcription": "/klɪər/",
+    "emoji": "🍽️",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:scrub:verb",
+    "word": "scrub",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To clean hard surfaces by rubbing firmly with a brush or sponge."
+    ],
+    "examples": [
+      "He scrubbed the kitchen counter until it sparkled.",
+      "They scrubbed the bathroom floor thoroughly."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "bathroom",
+      "kitchen"
+    ],
+    "prepositions": [
+      {
+        "preposition": "with",
+        "example": "Scrub the floor with soap and water."
+      }
+    ],
+    "transcription": "/skrʌb/",
+    "emoji": "🧽",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:flush:verb",
+    "word": "flush",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To cleanse a toilet by causing water to flow through it."
+    ],
+    "examples": [
+      "Remember to flush the toilet after use.",
+      "The toilet flushes automatically."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "home_fixtures",
+    "rooms": [
+      "bathroom"
+    ],
+    "prepositions": [
+      {
+        "preposition": "down",
+        "example": "Do not flush trash down the toilet."
+      }
+    ],
+    "transcription": "/flʌʃ/",
+    "emoji": "🚽",
+    "no_antonym": true,
+    "updated": "2025-05-20"
+  },
+  {
+    "id": "en:mow:verb",
+    "word": "mow",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "definitions": [
+      "To cut grass on a lawn using a machine or tool."
+    ],
+    "examples": [
+      "He mows the lawn every Saturday morning.",
+      "We need to mow the grass in the garden."
+    ],
+    "domain": "general, spoken",
+    "theme": "housing",
+    "sub_theme": "chores",
+    "rooms": [
+      "garden"
+    ],
+    "prepositions": [
+      {
+        "preposition": "with",
+        "example": "Mow the lawn with the new mower."
+      }
+    ],
+    "transcription": "/moʊ/",
+    "emoji": "🌱",
+    "no_antonym": true,
+    "updated": "2025-05-20"
   }
 ]
