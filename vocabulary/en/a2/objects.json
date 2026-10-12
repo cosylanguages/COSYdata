@@ -19,28 +19,50 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "flashlights",
-    "sub_theme": "personal_items"
+    "sub_theme": "personal_items",
+    "region": [
+      "US"
+    ],
+    "variant_group": "torch_flashlight",
+    "regional_equivalents": [
+      "en:torch:noun"
+    ]
   },
   {
-    "id": "en:alarm-clock:noun",
-    "word": "alarm clock",
+    "id": "en:torch:noun",
+    "word": "torch",
     "language": "en",
     "form": "noun",
     "level": "A2",
-    "definitions": [
-      "a clock that rings at a set time to wake someone"
+    "levels": [
+      "A2"
     ],
-    "examples": [
-      "Set your alarm clock for six tomorrow morning."
-    ],
-    "domain": "general, travel",
     "theme": "objects",
-    "updated": "2025-05-20",
-    "transcription": "/əˈlɑːm klɒk/",
-    "emoji": "⏰",
+    "sub_theme": "personal_items",
+    "concept": "objects.torch",
+    "transcription": "/tɔːtʃ/",
+    "emoji": "🔦",
+    "region": [
+      "UK"
+    ],
+    "variant_group": "torch_flashlight",
+    "regional_equivalents": [
+      "en:flashlight:noun"
+    ],
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "alarm clocks",
-    "sub_theme": "personal_items"
+    "article": "a",
+    "plural_form": "torches",
+    "examples": [
+      "When the electricity failed, we lit our path using an electric torch."
+    ],
+    "collocations": [
+      "electric torch",
+      "shine a torch",
+      "battery torch"
+    ],
+    "definitions": [
+      "A portable, battery-powered electric light."
+    ]
   }
 ]
