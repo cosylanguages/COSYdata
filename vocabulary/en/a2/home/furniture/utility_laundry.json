@@ -84,5 +84,144 @@
     "secondary_themes": [
       "housing/chores"
     ]
+  },
+  {
+    "id": "en:recycling-bin:noun",
+    "word": "recycling bin",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "housing",
+    "definitions": [
+      "A container for waste that can be recycled."
+    ],
+    "examples": [
+      "Put the glass bottles in the recycling bin."
+    ],
+    "transcription": "/ˌriːˈsaɪklɪŋ bɪn/",
+    "emoji": "♻️",
+    "no_antonym": true,
+    "synonyms": [
+      "green bin"
+    ],
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "recycling bins",
+    "sub_theme": "furniture",
+    "updated": "2025-05-20",
+    "rooms": [
+      "kitchen",
+      "laundry_room"
+    ]
+  },
+  {
+    "id": "en:dustbin:noun",
+    "word": "dustbin",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "housing",
+    "definitions": [
+      "A container for household refuse."
+    ],
+    "examples": [
+      "Throw food scraps in the dustbin.",
+      "Empty the dustbin every evening."
+    ],
+    "transcription": "/ˈdʌstˌbɪn/",
+    "emoji": "🗑️",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "dustbins",
+    "region": [
+      "UK"
+    ],
+    "updated": "2025-05-20",
+    "sub_theme": "furniture",
+    "rooms": [
+      "laundry_room",
+      "kitchen"
+    ],
+    "variant_group": "dustbin_trash_can",
+    "regional_equivalents": [
+      "en:trash-can:noun"
+    ]
+  },
+  {
+    "id": "en:boiler:noun",
+    "word": "boiler",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "theme": "housing",
+    "sub_theme": "furniture",
+    "rooms": [
+      "laundry_room",
+      "basement"
+    ],
+    "concept": "housing.furniture.boiler",
+    "transcription": "/ˈbɔɪ.lər/",
+    "emoji": "🔥",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "boilers",
+    "examples": [
+      "The gas boiler provides hot water and heating for the entire house."
+    ],
+    "collocations": [
+      "gas boiler",
+      "boiler service",
+      "hot water boiler"
+    ],
+    "definitions": [
+      "A closed vessel in which water or other fluid is heated for heating or hot water supply."
+    ]
+  },
+  {
+    "id": "en:trash-can:noun",
+    "word": "trash can",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "theme": "housing",
+    "sub_theme": "furniture",
+    "rooms": [
+      "kitchen",
+      "laundry_room"
+    ],
+    "concept": "housing.furniture.trash_can",
+    "transcription": "/ˈtræʃ ˌkæn/",
+    "emoji": "🗑️",
+    "region": [
+      "US"
+    ],
+    "variant_group": "dustbin_trash_can",
+    "regional_equivalents": [
+      "en:bin:noun",
+      "en:dustbin:noun"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "trash cans",
+    "examples": [
+      "He threw the empty soda container into the plastic trash can."
+    ],
+    "collocations": [
+      "metal trash can",
+      "empty the trash can",
+      "outdoor trash can"
+    ],
+    "definitions": [
+      "A waste receptacle used for storing rubbish before collection."
+    ]
   }
 ]

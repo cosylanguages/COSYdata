@@ -19,7 +19,7 @@
     ],
     "domain": "general",
     "theme": "housing",
-    "sub_theme": "home_fixtures",
+    "sub_theme": "furniture",
     "concept": "housing.home_fixtures.shower",
     "updated": "2025-05-20",
     "levels": [
@@ -28,7 +28,9 @@
     "transcription_variants": {
       "us": "/ˈʃaʊ.ɚ/"
     },
-    "secondary_themes": []
+    "rooms": [
+      "bathroom"
+    ]
   },
   {
     "id": "en:toilet:noun",
@@ -55,9 +57,12 @@
     "plural_form": "toilets",
     "no_antonym": true,
     "article": "a",
-    "sub_theme": "home_fixtures",
+    "sub_theme": "furniture",
     "levels": [
       "A0"
+    ],
+    "rooms": [
+      "bathroom"
     ]
   }
 ]

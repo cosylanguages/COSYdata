@@ -35,7 +35,8 @@
     "sub_theme": "building_types",
     "levels": [
       "A0"
-    ]
+    ],
+    "variant_group": "flat_apartment"
   },
   {
     "id": "en:flat:noun",
@@ -70,67 +71,7 @@
       "en:apartment:noun"
     ],
     "article": "a",
-    "sub_theme": "building_types"
-  },
-  {
-    "id": "en:home:noun",
-    "word": "home",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "the place where a person lives"
-    ],
-    "examples": [
-      "It feels nice to be home."
-    ],
-    "domain": "general, spoken",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "plural_form": "homes",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/həʊm/",
-    "no_antonym": true,
-    "emoji": "🏡",
-    "countability": "countable",
-    "transcription_variants": {
-      "us": "/hoʊm/"
-    },
-    "article": "a",
     "sub_theme": "building_types",
-    "levels": [
-      "A0"
-    ]
-  },
-  {
-    "id": "en:house:noun",
-    "word": "house",
-    "language": "en",
-    "form": "noun",
-    "level": "A0",
-    "definitions": [
-      "a building where a family lives"
-    ],
-    "examples": [
-      "We live in a white house."
-    ],
-    "domain": "general, spoken",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "plural_form": "houses",
-    "tags": [
-      "spoken"
-    ],
-    "levels": [
-      "A0"
-    ],
-    "transcription": "/haʊs/",
-    "emoji": "🏠",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "sub_theme": "building_types"
+    "variant_group": "flat_apartment"
   }
 ]

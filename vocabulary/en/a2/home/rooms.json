@@ -468,6 +468,10 @@
     "sub_theme": "rooms_spaces",
     "region": [
       "US"
+    ],
+    "variant_group": "lift_elevator",
+    "regional_equivalents": [
+      "en:lift:noun"
     ]
   },
   {
@@ -1021,106 +1025,6 @@
     ]
   },
   {
-    "id": "en:noisy:noun",
-    "word": "noisy",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "Making a lot of loud unpleasant noise."
-    ],
-    "examples": [
-      "The noisy traffic woke me up early."
-    ],
-    "domain": "general, spoken, travel, professional, exam",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈnɔɪ.zi/",
-    "emoji": "🔊",
-    "countability": "uncountable",
-    "antonyms": [
-      "quiet",
-      "silent"
-    ],
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "en:out:noun",
-    "word": "out",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "Away from home or inside of a building."
-    ],
-    "examples": [
-      "We ate out at a restaurant last night."
-    ],
-    "domain": "general, exam",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "transcription": "/aʊt/",
-    "emoji": "🚪",
-    "countability": "uncountable",
-    "antonyms": [
-      "in"
-    ],
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "en:own:verb",
-    "word": "own",
-    "language": "en",
-    "form": "verb",
-    "level": "A2",
-    "definitions": [
-      "To possess something that belongs to you."
-    ],
-    "examples": [
-      "They own a small house by the lake."
-    ],
-    "domain": "general",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "transcription": "/əʊn/",
-    "emoji": "🔑",
-    "antonyms": [
-      "rent"
-    ],
-    "transcription_variants": {
-      "us": "/oʊn/"
-    },
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "en:place-of-birth:noun",
-    "word": "place of birth",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "the town or city where a person was born"
-    ],
-    "examples": [
-      "State your exact place of birth as written on passport."
-    ],
-    "domain": "relocation",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "transcription": "/pleɪs əv bɜːθ/",
-    "transcription_variants": {
-      "us": "/pleɪs əv bɝːθ/"
-    },
-    "emoji": "📍",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "places of birth",
-    "sub_theme": "rooms_spaces"
-  },
-  {
     "id": "en:playdate:noun",
     "word": "playdate",
     "language": "en",
@@ -1144,31 +1048,6 @@
     "article": "a",
     "plural_form": "playdates",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "en:postcode:noun",
-    "word": "postcode",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "a group of letters and numbers added to a postal address"
-    ],
-    "examples": [
-      "Include your new postcode when updating your bank records."
-    ],
-    "domain": "relocation",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "transcription": "/ˈpəʊst.kəʊd/",
-    "transcription_variants": {
-      "us": "/ˈpoʊst.koʊd/"
-    },
-    "emoji": "📮",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "postcodes",
     "sub_theme": "rooms_spaces"
   },
   {
@@ -1200,33 +1079,6 @@
     "transcription_variants": {
       "us": "/ˈprɑː.pɚ.t̬i/"
     },
-    "sub_theme": "rooms_spaces"
-  },
-  {
-    "id": "en:quiet:noun",
-    "word": "quiet",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "Making very little or no noise."
-    ],
-    "examples": [
-      "It is quiet in the library afternoon."
-    ],
-    "domain": "general, relocation, spoken, travel, professional, exam",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "tags": [
-      "spoken"
-    ],
-    "transcription": "/ˈkwaɪ.ət/",
-    "emoji": "🤫",
-    "countability": "uncountable",
-    "antonyms": [
-      "noisy",
-      "loud"
-    ],
     "sub_theme": "rooms_spaces"
   },
   {
@@ -1399,43 +1251,6 @@
     "sub_theme": "rooms_spaces"
   },
   {
-    "id": "en:survive:verb",
-    "word": "survive",
-    "language": "en",
-    "form": "verb",
-    "level": "A2",
-    "definitions": [
-      "to continue to live or exist despite hardship"
-    ],
-    "examples": [
-      "Plants need water and light to survive.",
-      "Desert plants survive long droughts.",
-      "Few animals survived the harsh winter."
-    ],
-    "domain": "general, relocation, travel, professional",
-    "theme": "housing",
-    "updated": "2025-05-20",
-    "levels": [
-      "A2"
-    ],
-    "transcription": "/səˈvaɪv/",
-    "transcription_variants": {
-      "us": "/sɚˈvaɪv/"
-    },
-    "emoji": "🌱",
-    "antonyms": [
-      "perish"
-    ],
-    "related_forms": [
-      "COSYtools:en-verb-prep:survive"
-    ],
-    "sub_theme": "rooms_spaces",
-    "synonyms": [
-      "endure",
-      "live on"
-    ]
-  },
-  {
     "id": "en:tenant:noun",
     "word": "tenant",
     "language": "en",
@@ -1556,6 +1371,44 @@
     ],
     "regional_equivalents": [
       "en:garden:noun"
+    ],
+    "variant_group": "garden_yard"
+  },
+  {
+    "id": "en:lift:noun",
+    "word": "lift",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "theme": "housing",
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms.lift",
+    "transcription": "/lɪft/",
+    "emoji": "🛗",
+    "region": [
+      "UK"
+    ],
+    "variant_group": "lift_elevator",
+    "regional_equivalents": [
+      "en:elevator:noun"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "lifts",
+    "examples": [
+      "We took the lift up to the fifth floor instead of using stairs."
+    ],
+    "collocations": [
+      "take the lift",
+      "passenger lift",
+      "lift shaft"
+    ],
+    "definitions": [
+      "A mechanical apparatus with a platform or cage for carrying people or goods between levels."
     ]
   }
 ]
