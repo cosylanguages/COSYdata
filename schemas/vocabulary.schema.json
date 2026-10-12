@@ -8,13 +8,12 @@
     "id",
     "word",
     "language",
-    "form",
-    "transcription"
+    "form"
   ],
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$",
+      "pattern": "^[a-z]{2}:[^:]+:[^:]+$",
       "description": "Identifier matching <language>:<word-slug>:<form>, e.g. en:healthy:adjective"
     },
     "word": {
@@ -129,17 +128,68 @@
     },
     "concept": {
       "type": "string",
-      "pattern": "^en:[a-z0-9-]+:[a-z0-9-]+$",
-      "description": "ID of the corresponding English concept entry"
+      "pattern": "^(?:[a-z0-9_-]+(?:\\.[a-z0-9_-]+)+|[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+)$",
+      "description": "Language-independent concept key (e.g. housing.furniture.chair) or English entry ID"
     },
     "secondary_themes": {
       "type": "array",
       "items": {
-        "type": "string"
+        "$ref": "themes.json#/$defs/secondary_theme"
       },
       "minItems": 1,
       "uniqueItems": true,
-      "description": "Secondary theme tags"
+      "description": "Secondary theme tags validated against schemas/themes.json taxonomy"
+    },
+    "rooms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "entrance",
+          "hallway",
+          "living_room",
+          "dining_room",
+          "kitchen",
+          "pantry",
+          "bedroom",
+          "nursery",
+          "childrens_room",
+          "bathroom",
+          "study",
+          "laundry_room",
+          "garage",
+          "basement",
+          "attic",
+          "balcony",
+          "terrace",
+          "garden",
+          "storage",
+          "shared"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Rooms or house spaces associated with this item"
+    },
+    "verbs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Action verb entry IDs associated with this item"
+    },
+    "see_also": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Related vocabulary entry IDs"
     },
     "sense": {
       "type": "string",
@@ -681,572 +731,27 @@
     },
     {
       "if": {
-        "properties": {
-          "level": {
-            "enum": [
-              "B1",
-              "B2",
-              "C1",
-              "C2"
-            ]
-          }
-        },
-        "required": [
-          "level"
-        ]
-      },
-      "then": {
-        "required": [
-          "synonyms"
-        ]
-      }
-    },
-    {
-      "if": {
-        "properties": {
-          "secondary_themes": {
-            "type": "array"
-          }
-        },
-        "required": [
-          "secondary_themes"
-        ]
-      },
-      "then": {
         "not": {
-          "properties": {
-            "theme": {
-              "type": "string"
-            },
-            "secondary_themes": {
-              "type": "array"
-            }
-          },
-          "allOf": [
+          "anyOf": [
             {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "actions"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "actions"
-                    }
-                  }
-                }
-              }
+              "required": [
+                "contraction"
+              ]
             },
             {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "activities"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "activities"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "animals"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "animals"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "clothing"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "clothing"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "colors"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "colors"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "communication"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "communication"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "descriptors"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "descriptors"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "education"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "education"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "emotions"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "emotions"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "family"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "family"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "food"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "food"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "general"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "general"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "geography"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "geography"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "grammar"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "grammar"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "health"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "health"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "housing"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "housing"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "leisure"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "leisure"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "measurement"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "measurement"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "nature"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "nature"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "navigation"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "navigation"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "numbers"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "numbers"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "objects"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "objects"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "shapes"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "shapes"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "shopping"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "shopping"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "technology"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "technology"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "time"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "time"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "travel"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "travel"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "weather"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "weather"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "if": {
-                "properties": {
-                  "theme": {
-                    "const": "work"
-                  }
-                }
-              },
-              "then": {
-                "properties": {
-                  "secondary_themes": {
-                    "contains": {
-                      "const": "work"
-                    }
-                  }
+              "properties": {
+                "form": {
+                  "const": "preposition"
                 }
               }
             }
           ]
         }
+      },
+      "then": {
+        "required": [
+          "transcription"
+        ]
       }
     },
     {
@@ -1258,7 +763,14 @@
         },
         "required": [
           "form"
-        ]
+        ],
+        "not": {
+          "properties": {
+            "id": {
+              "pattern": "/"
+            }
+          }
+        }
       },
       "then": {
         "required": [

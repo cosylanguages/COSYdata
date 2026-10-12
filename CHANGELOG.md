@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- Created `schemas/themes.json` defining the canonical theme and sub-theme taxonomy (46 primary themes and 236 sub-theme pairs, including newly added `housing/chores` and `housing/daily_life` sub-themes) along with `$defs.secondary_theme` enum validating secondary theme strings.
+- Added catalog of unapplied theme spelling duplicate merges in `reports/theme-merges.md`.
+- Added new optional fields to `schemas/vocabulary.schema.json`:
+  - `rooms`: Array of house room/space enum values (`entrance`, `hallway`, `living_room`, `dining_room`, `kitchen`, `pantry`, `bedroom`, `nursery`, `childrens_room`, `bathroom`, `study`, `laundry_room`, `garage`, `basement`, `attic`, `balcony`, `terrace`, `garden`, `storage`, `shared`).
+  - `verbs`: Array of action verb entry IDs.
+  - `see_also`: Array of related vocabulary entry IDs.
+- Extended `concept` field schema pattern in `schemas/vocabulary.schema.json` to support language-independent dot-separated keys (e.g., `housing.furniture.chair`). Reported audit finding that 100% (48 out of 48) of existing English entries with `concept` values are self-references.
+- Extended `scripts/build-index.cjs` to generate `vocabulary/<lang>/themes-index.json` mapping `"theme"` and `"theme/sub_theme"` keys to sorted arrays of entry IDs, combining both primary and secondary memberships.
+- Added valid (`valid-rooms-verbs-see-also.json`, `valid-secondary-theme-pair.json`) and invalid (`invalid-secondary-theme-general.json`, `invalid-rooms.json`) schema test fixtures in `schemas/examples/`.
+- Updated `scripts/validate.cjs` to register `schemas/themes.json` with Ajv and perform theme/sub_theme taxonomy checks.
+- Updated `README.md` to document the full repository structure, generated index artifacts (`themes-index.json`), and vocabulary entry fields (including `region`, `regional_equivalents`, `secondary_themes`, `rooms`, `verbs`, `see_also`, `concept`).
+
 ### Changed
 - Organized English vocabulary dataset (`vocabulary/en/`) into canonical theme taxonomy across all levels (`a0_a1`, `a2`, `b1`, `b2`, `c1`, `c2`), expanded `shared/themes.json` and `docs/theme-taxonomy.md` to cover 40+ user-requested categories, resolved all 17 pre-existing duplicate English entry IDs, and regenerated index artifacts (`index.json`, `flat-index.json`, `search-index.json`).
 

@@ -19,11 +19,25 @@ function getJsonFiles(dir) {
     const stat = fs.statSync(fullPath);
     if (stat && stat.isDirectory()) {
       results = results.concat(getJsonFiles(fullPath));
-    } else if (item.endsWith('.json') && item !== 'index.json' && item !== 'flat-index.json' && item !== 'search-index.json') {
+    } else if (
+      item.endsWith('.json') &&
+      item !== 'index.json' &&
+      item !== 'flat-index.json' &&
+      item !== 'search-index.json' &&
+      item !== 'themes-index.json'
+    ) {
       results.push(fullPath);
     }
   }
   return results;
+}
+
+function addThemeEntry(themesMap, key, entryId) {
+  if (!key || typeof key !== 'string') return;
+  if (!themesMap.has(key)) {
+    themesMap.set(key, new Set());
+  }
+  themesMap.get(key).add(entryId);
 }
 
 function buildIndexForCategory(categoryDirName) {
@@ -40,6 +54,7 @@ function buildIndexForCategory(categoryDirName) {
 
   for (const langDir of langDirs) {
     const indexMap = {};
+    const themesMap = new Map();
 
     const files = getJsonFiles(langDir);
 
@@ -67,6 +82,31 @@ function buildIndexForCategory(categoryDirName) {
               }
             }
             indexMap[entry.id] = relativePath;
+
+            if (categoryDirName === 'vocabulary') {
+              // Primary membership
+              if (entry.theme) {
+                addThemeEntry(themesMap, entry.theme, entry.id);
+                if (entry.sub_theme) {
+                  addThemeEntry(themesMap, `${entry.theme}/${entry.sub_theme}`, entry.id);
+                }
+              }
+
+              // Secondary membership
+              if (Array.isArray(entry.secondary_themes)) {
+                for (const st of entry.secondary_themes) {
+                  if (typeof st === 'string') {
+                    if (st.includes('/')) {
+                      addThemeEntry(themesMap, st, entry.id);
+                      const parentTheme = st.split('/')[0];
+                      addThemeEntry(themesMap, parentTheme, entry.id);
+                    } else {
+                      addThemeEntry(themesMap, st, entry.id);
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       } catch (err) {
@@ -90,6 +130,18 @@ function buildIndexForCategory(categoryDirName) {
     const indexPath = path.join(langDir, 'index.json');
     fs.writeFileSync(indexPath, JSON.stringify(sortedMap, null, 2) + '\n', 'utf8');
     console.log(`Updated ${path.relative(path.join(__dirname, '..'), indexPath)} with ${Object.keys(sortedMap).length} entry/entries.`);
+
+    if (categoryDirName === 'vocabulary' && themesMap.size > 0) {
+      const sortedThemesMap = {};
+      const sortedThemeKeys = Array.from(themesMap.keys()).sort();
+      for (const key of sortedThemeKeys) {
+        sortedThemesMap[key] = Array.from(themesMap.get(key)).sort();
+      }
+
+      const themesIndexPath = path.join(langDir, 'themes-index.json');
+      fs.writeFileSync(themesIndexPath, JSON.stringify(sortedThemesMap, null, 2) + '\n', 'utf8');
+      console.log(`Updated ${path.relative(path.join(__dirname, '..'), themesIndexPath)} with ${Object.keys(sortedThemesMap).length} theme key(s).`);
+    }
   }
 }
 
