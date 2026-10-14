@@ -190,7 +190,7 @@ function main() {
   });
 
           if (blockingErrors.length > 0) {
-console.log("hasError set at line 193"); hasError = true;
+console.log("hasError set at line " + 193); hasError = true;
             console.error(`\n[SCHEMA ERROR] File: ${relPath} (${entrySchemaType}, Entry #${idx + 1}, ID: ${entry.id || 'N/A'})`);
             for (const err of blockingErrors) {
               let fieldName = '/';
@@ -222,7 +222,7 @@ console.log("hasError set at line 193"); hasError = true;
         }
       }
     } catch (err) {
-console.log("hasError set at line 225"); hasError = true;
+console.log("hasError set at line " + 225); hasError = true;
       console.error(`\n[JSON ERROR] Could not parse file: ${relPath}\n  ${err.message}`);
     }
   }
@@ -230,7 +230,7 @@ console.log("hasError set at line 225"); hasError = true;
   console.log(`Checking unique IDs across data files...`);
   for (const [id, filesList] of Object.entries(idToFilesMap)) {
     if (filesList.length > 1) {
-console.log("hasError set at line 233"); hasError = true;
+console.log("hasError set at line " + 233); hasError = true;
       console.error(`\n[DUPLICATE ID ERROR] ID '${id}' appears ${filesList.length} times in data files:`);
       filesList.forEach((f) => console.error(`  - ${f}`));
     }
@@ -240,7 +240,7 @@ console.log("hasError set at line 233"); hasError = true;
   console.log(`Checking id-aliases freshness...`);
   for (const retiredId of Object.keys(idAliases)) {
     if (idToFilesMap[retiredId]) {
-console.log("hasError set at line 243"); hasError = true;
+console.log("hasError set at line " + 243); hasError = true;
       console.error(`\n[RETIRED ID ERROR] ID '${retiredId}' is listed in shared/id-aliases.json as retired, but still exists in data files:`);
       idToFilesMap[retiredId].forEach((f) => console.error(`  - ${f}`));
     }
@@ -324,7 +324,7 @@ console.log("hasError set at line 243"); hasError = true;
     // Check 1: Partitive presence in unsupported languages
     if (entry.partitive !== undefined && entry.partitive !== null) {
       if (lang === 'en' || lang === 'ru' || lang === 'el') {
-console.log("hasError set at line 327"); hasError = true;
+console.log("hasError set at line " + 327); hasError = true;
         console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
         console.error(`  - Field 'partitive': Partitive is not allowed for language '${lang}'`);
       }
@@ -334,7 +334,7 @@ console.log("hasError set at line 327"); hasError = true;
     if (lang === 'fr') {
       if (entry.partitive !== undefined && entry.partitive !== null) {
         if (!FR_ALLOWED_PARTITIVES.has(entry.partitive)) {
-console.log("hasError set at line 337"); hasError = true;
+console.log("hasError set at line " + 337); hasError = true;
           console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
           console.error(`  - Field 'partitive': Invalid French partitive value '${entry.partitive}'. Must be one of: du, de la, de l', des`);
         }
@@ -342,7 +342,7 @@ console.log("hasError set at line 337"); hasError = true;
         // Agreement checks for French
         if (entry.form === 'noun') {
           if (entry.countability === 'pluralia_tantum' && entry.partitive !== 'des') {
-console.log("hasError set at line 345"); hasError = true;
+console.log("hasError set at line " + 345); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'partitive': Pluralia tantum noun must have partitive 'des', found '${entry.partitive}'`);
           } else if (entry.countability === 'uncountable' || entry.countability === 'countable') {
@@ -351,19 +351,19 @@ console.log("hasError set at line 345"); hasError = true;
 
             if (startsWithVowelOrMuteH) {
               if (entry.partitive !== "de l'") {
-console.log("hasError set at line 354"); hasError = true;
+console.log("hasError set at line " + 354); hasError = true;
                 console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
                 console.error(`  - Field 'partitive': Inconsistent French partitive '${entry.partitive}' for word starting with vowel/mute h. Expected 'de l''`);
               }
             } else if (entry.gender === 'masculine') {
               if (entry.partitive !== 'du') {
-console.log("hasError set at line 360"); hasError = true;
+console.log("hasError set at line " + 360); hasError = true;
                 console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
                 console.error(`  - Field 'partitive': Inconsistent French partitive '${entry.partitive}' for masculine noun. Expected 'du'`);
               }
             } else if (entry.gender === 'feminine') {
               if (entry.partitive !== 'de la') {
-console.log("hasError set at line 366"); hasError = true;
+console.log("hasError set at line " + 366); hasError = true;
                 console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
                 console.error(`  - Field 'partitive': Inconsistent French partitive '${entry.partitive}' for feminine noun. Expected 'de la'`);
               }
@@ -378,7 +378,7 @@ console.log("hasError set at line 366"); hasError = true;
         const isOrdinaryCountable = entry.countability === 'countable' && !isNormallyMass;
 
         if (isOrdinaryCountable && entry.partitive) {
-console.log("hasError set at line 381"); hasError = true;
+console.log("hasError set at line " + 381); hasError = true;
           console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
           console.error(`  - Field 'partitive': Partitive should be omitted on ordinary countable noun '${entry.word}'`);
         }
@@ -389,7 +389,7 @@ console.log("hasError set at line 381"); hasError = true;
     if (lang === 'it') {
       if (entry.partitive !== undefined && entry.partitive !== null) {
         if (!IT_ALLOWED_PARTITIVES.has(entry.partitive)) {
-console.log("hasError set at line 392"); hasError = true;
+console.log("hasError set at line " + 392); hasError = true;
           console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
           console.error(`  - Field 'partitive': Invalid Italian partitive value '${entry.partitive}'`);
         }
@@ -398,7 +398,7 @@ console.log("hasError set at line 392"); hasError = true;
         if (entry.article && IT_ARTICLE_TO_PARTITIVE[entry.article]) {
           const expected = IT_ARTICLE_TO_PARTITIVE[entry.article];
           if (entry.partitive !== expected) {
-console.log("hasError set at line 401"); hasError = true;
+console.log("hasError set at line " + 401); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'partitive': Inconsistent Italian partitive '${entry.partitive}' for article '${entry.article}'. Expected '${expected}'`);
           }
@@ -410,7 +410,7 @@ console.log("hasError set at line 401"); hasError = true;
         const isOrdinaryCountable = entry.countability === 'countable' && !isNormallyMass;
 
         if (isOrdinaryCountable && entry.partitive) {
-console.log("hasError set at line 413"); hasError = true;
+console.log("hasError set at line " + 413); hasError = true;
           console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
           console.error(`  - Field 'partitive': Partitive should be omitted on ordinary countable noun '${entry.word}'`);
         }
@@ -420,13 +420,13 @@ console.log("hasError set at line 413"); hasError = true;
     // Check 4: Contractions
     if (entry.contraction) {
       if (entry.form !== 'preposition') {
-console.log("hasError set at line 423"); hasError = true;
+console.log("hasError set at line " + 423); hasError = true;
         console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
         console.error(`  - Field 'contraction': Contraction is allowed only when form is 'preposition'`);
       }
 
       if (lang !== 'fr' && lang !== 'it' && lang !== 'el') {
-console.log("hasError set at line 429"); hasError = true;
+console.log("hasError set at line " + 429); hasError = true;
         console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
         console.error(`  - Field 'contraction': Contraction is not allowed for language '${lang}'`);
       }
@@ -436,14 +436,14 @@ console.log("hasError set at line 429"); hasError = true;
       if (basePrep) {
         const matches = langWordFormMap.get(`${lang}:${basePrep}:preposition`) || [];
         if (matches.length === 0) {
-console.log("hasError set at line 439"); hasError = true;
+console.log("hasError set at line " + 439); hasError = true;
           console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
           console.error(`  - Field 'contraction': Base preposition '${basePrep}' not found as a preposition entry in language '${lang}'`);
         } else {
           // Check that at least one base preposition entry lists this contracted entry ID in its related_forms
           const relatesBack = matches.some((m) => Array.isArray(m.entry.related_forms) && m.entry.related_forms.includes(entry.id));
           if (!relatesBack) {
-console.log("hasError set at line 446"); hasError = true;
+console.log("hasError set at line " + 446); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'contraction': Base preposition '${matches[0].entry.id}' missing related_forms reference to contracted entry '${entry.id}'`);
           }
@@ -454,12 +454,12 @@ console.log("hasError set at line 446"); hasError = true;
       if (Array.isArray(entry.definitions)) {
         for (const def of entry.definitions) {
           if (lang === 'el' && !/[\u0370-\u03ff\u1f00-\u1fff]/.test(def)) {
-console.log("hasError set at line 457"); hasError = true;
+console.log("hasError set at line " + 457); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'definitions': Definition '${def}' is not written in Greek`);
           }
           if ((lang === 'fr' || lang === 'it') && /[\u0400-\u04ff\u0370-\u03ff]/.test(def)) {
-console.log("hasError set at line 462"); hasError = true;
+console.log("hasError set at line " + 462); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'definitions': Definition '${def}' is not in the entry's language (${lang})`);
           }
@@ -469,12 +469,12 @@ console.log("hasError set at line 462"); hasError = true;
       if (Array.isArray(entry.examples)) {
         for (const ex of entry.examples) {
           if (lang === 'el' && !/[\u0370-\u03ff\u1f00-\u1fff]/.test(ex)) {
-console.log("hasError set at line 472"); hasError = true;
+console.log("hasError set at line " + 472); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'examples': Example '${ex}' is not written in Greek`);
           }
           if ((lang === 'fr' || lang === 'it') && /[\u0400-\u04ff\u0370-\u03ff]/.test(ex)) {
-console.log("hasError set at line 477"); hasError = true;
+console.log("hasError set at line " + 477); hasError = true;
             console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
             console.error(`  - Field 'examples': Example '${ex}' is not in the entry's language (${lang})`);
           }
@@ -494,7 +494,7 @@ console.log("hasError set at line 477"); hasError = true;
     try {
       const indexMap = JSON.parse(fs.readFileSync(indexFile, 'utf8'));
       if (typeof indexMap !== 'object' || indexMap === null || Array.isArray(indexMap)) {
-console.log("hasError set at line 497"); hasError = true;
+console.log("hasError set at line " + 497); hasError = true;
         console.error(`\n[INDEX ERROR] File ${relIndexPath} must be a JSON object mapping IDs to filenames.`);
         continue;
       }
@@ -504,7 +504,7 @@ console.log("hasError set at line 497"); hasError = true;
         const relTargetPath = path.relative(rootDir, targetPath).replace(/\\/g, '/');
 
         if (!fs.existsSync(targetPath)) {
-console.log("hasError set at line 507"); hasError = true;
+console.log("hasError set at line " + 507); hasError = true;
           console.error(`\n[INDEX ERROR] Missing Target File in ${relIndexPath}:`);
           console.error(`  ID '${wordId}' points to '${targetFilename}', but file '${relTargetPath}' does not exist.`);
           continue;
@@ -533,17 +533,17 @@ console.log("hasError set at line 507"); hasError = true;
           const exists = targetIds.has(wordId);
 
           if (!exists) {
-console.log("hasError set at line 536"); hasError = true;
+console.log("hasError set at line " + 536); hasError = true;
             console.error(`\n[INDEX MISMATCH ERROR] File: ${relIndexPath}`);
             console.error(`  ID '${wordId}' is mapped to '${targetFilename}' in index.json, but '${wordId}' was not found inside '${relTargetPath}'.`);
           }
         } catch (err) {
-console.log("hasError set at line 541"); hasError = true;
+console.log("hasError set at line " + 541); hasError = true;
           console.error(`\n[JSON ERROR] Failed to parse target file '${relTargetPath}' referenced by '${relIndexPath}':\n  ${err.message}`);
         }
       }
     } catch (err) {
-console.log("hasError set at line 546"); hasError = true;
+console.log("hasError set at line " + 546); hasError = true;
       console.error(`\n[JSON ERROR] Could not parse index file: ${relIndexPath}\n  ${err.message}`);
     }
   }
@@ -554,33 +554,33 @@ console.log("hasError set at line 546"); hasError = true;
     try {
       const flatMap = JSON.parse(fs.readFileSync(flatFile, 'utf8'));
       if (typeof flatMap !== 'object' || flatMap === null || Array.isArray(flatMap)) {
-console.log("hasError set at line 557"); hasError = true;
+console.log("hasError set at line " + 557); hasError = true;
         console.error(`\n[FLAT-INDEX ERROR] File ${relFlatPath} must be a JSON object mapping surface forms to arrays of { id, field }.`);
         continue;
       }
 
       for (const [surfaceForm, refs] of Object.entries(flatMap)) {
         if (!Array.isArray(refs)) {
-console.log("hasError set at line 564"); hasError = true;
+console.log("hasError set at line " + 564); hasError = true;
           console.error(`\n[FLAT-INDEX ERROR] File ${relFlatPath}: Entry for '${surfaceForm}' must be an array.`);
           continue;
         }
 
         for (const ref of refs) {
           if (!ref || typeof ref !== 'object' || !ref.id) {
-console.log("hasError set at line 571"); hasError = true;
+console.log("hasError set at line " + 571); hasError = true;
             console.error(`\n[FLAT-INDEX ERROR] File ${relFlatPath}: Invalid reference item for '${surfaceForm}'.`);
             continue;
           }
 
           if (idToFilesMap[ref.id] === undefined && !idToFilesMap[ref.id]) {
-console.log("hasError set at line 577"); hasError = true;
+console.log("hasError set at line " + 577); hasError = true;
             console.error(`\n[FLAT-INDEX MISMATCH ERROR] File ${relFlatPath}: ID '${ref.id}' for surface form '${surfaceForm}' was not found in data files.`);
           }
         }
       }
     } catch (err) {
-console.log("hasError set at line 583"); hasError = true;
+console.log("hasError set at line " + 583); hasError = true;
       console.error(`\n[JSON ERROR] Could not parse flat-index file: ${relFlatPath}\n  ${err.message}`);
     }
   }
@@ -591,25 +591,25 @@ console.log("hasError set at line 583"); hasError = true;
     try {
       const searchItems = JSON.parse(fs.readFileSync(searchFile, 'utf8'));
       if (!Array.isArray(searchItems)) {
-console.log("hasError set at line 594"); hasError = true;
+console.log("hasError set at line " + 594); hasError = true;
         console.error(`\n[SEARCH-INDEX ERROR] File ${relSearchPath} must be a JSON array of lightweight entries.`);
         continue;
       }
 
       for (const item of searchItems) {
         if (!item || typeof item !== 'object' || !item.id) {
-console.log("hasError set at line 601"); hasError = true;
+console.log("hasError set at line " + 601); hasError = true;
           console.error(`\n[SEARCH-INDEX ERROR] File ${relSearchPath}: Entry missing 'id' property.`);
           continue;
         }
 
         if (idToFilesMap[item.id] === undefined && !idToFilesMap[item.id]) {
-console.log("hasError set at line 607"); hasError = true;
+console.log("hasError set at line " + 607); hasError = true;
           console.error(`\n[SEARCH-INDEX MISMATCH ERROR] File ${relSearchPath}: ID '${item.id}' was not found in data files.`);
         }
       }
     } catch (err) {
-console.log("hasError set at line 612"); hasError = true;
+console.log("hasError set at line " + 612); hasError = true;
       console.error(`\n[JSON ERROR] Could not parse search-index file: ${relSearchPath}\n  ${err.message}`);
     }
   }
