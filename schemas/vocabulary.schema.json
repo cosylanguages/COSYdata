@@ -701,13 +701,27 @@
   "allOf": [
     {
       "if": {
-        "properties": {
-          "no_emoji": {
-            "const": true
+        "anyOf": [
+          {
+            "properties": {
+              "no_emoji": {
+                "const": true
+              }
+            },
+            "required": [
+              "no_emoji"
+            ]
+          },
+          {
+            "properties": {
+              "status": {
+                "const": "needs_review"
+              }
+            },
+            "required": [
+              "status"
+            ]
           }
-        },
-        "required": [
-          "no_emoji"
         ]
       },
       "else": {
@@ -718,13 +732,27 @@
     },
     {
       "if": {
-        "properties": {
-          "no_antonym": {
-            "const": true
+        "anyOf": [
+          {
+            "properties": {
+              "no_antonym": {
+                "const": true
+              }
+            },
+            "required": [
+              "no_antonym"
+            ]
+          },
+          {
+            "properties": {
+              "status": {
+                "const": "needs_review"
+              }
+            },
+            "required": [
+              "status"
+            ]
           }
-        },
-        "required": [
-          "no_antonym"
         ]
       },
       "else": {
@@ -748,6 +776,16 @@
                   "const": "preposition"
                 }
               }
+            },
+            {
+              "properties": {
+                "status": {
+                  "const": "needs_review"
+                }
+              },
+              "required": [
+                "status"
+              ]
             }
           ]
         }
