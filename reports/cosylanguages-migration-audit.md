@@ -1,7 +1,7 @@
 # COSYlanguages Vocabulary Migration Audit
 
-Audit date: 2026-10-01  
-Source: `COSYlanguages` commit `fec25ae3d5253deb6485864d109d1bc1316961ea`  
+Audit date: 2026-10-01
+Source: `COSYlanguages` commit `fec25ae3d5253deb6485864d109d1bc1316961ea`
 Target: current COSYdata worktree
 
 ## Scope and Method

@@ -10,7 +10,11 @@
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "levels": [
+      "A2",
+      "B1"
+    ]
   },
   {
     "id": "ru:matras:noun",
@@ -25,23 +29,6 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "матрасы"
-  },
-  {
-    "id": "ru:budilnik:noun",
-    "word": "будильник",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:alarm-clock:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "bedroom"
-    ],
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "будильники"
   },
   {
     "id": "ru:tualetnyy-stolik:noun",
