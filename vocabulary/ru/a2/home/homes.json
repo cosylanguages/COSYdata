@@ -42,20 +42,6 @@
     "plural_form": "хижины"
   },
   {
-    "id": "ru:zamok:noun",
-    "word": "замок",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:castle:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "замки"
-  },
-  {
     "id": "ru:bungalo:noun",
     "word": "бунгало",
     "language": "ru",
@@ -94,7 +80,11 @@
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "особняки"
+    "plural_form": "особняки",
+    "levels": [
+      "A2",
+      "B1"
+    ]
   },
   {
     "id": "ru:dom-na-dva-khozyaina:noun",

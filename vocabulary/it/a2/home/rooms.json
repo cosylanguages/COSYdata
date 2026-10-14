@@ -56,19 +56,6 @@
     "countability": "uncountable"
   },
   {
-    "id": "it:aria:noun",
-    "word": "aria",
-    "language": "it",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:air:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "gender": "feminine",
-    "countability": "uncountable"
-  },
-  {
     "id": "it:elettrodomestico:noun",
     "word": "elettrodomestico",
     "language": "it",
@@ -112,36 +99,6 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "balconi"
-  },
-  {
-    "id": "it:cantina:noun",
-    "word": "cantina",
-    "language": "it",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:basement:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "la",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "cantine"
-  },
-  {
-    "id": "it:cantina:noun",
-    "word": "cantina",
-    "language": "it",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:cellar:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "la",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "cantine"
   },
   {
     "id": "it:condizionamento:noun",
@@ -455,7 +412,11 @@
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "mutui"
+    "plural_form": "mutui",
+    "levels": [
+      "A2",
+      "B1"
+    ]
   },
   {
     "id": "it:trasloco-in-entrata:noun",
@@ -486,36 +447,6 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "traslochi in uscita"
-  },
-  {
-    "id": "it:quartiere:noun",
-    "word": "quartiere",
-    "language": "it",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:neighborhood:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "il",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "quartieri"
-  },
-  {
-    "id": "it:quartiere:noun",
-    "word": "quartiere",
-    "language": "it",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:neighbourhood:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "il",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "quartieri"
   },
   {
     "id": "it:incontro-di-gioco:noun",
@@ -579,21 +510,6 @@
     "plural_form": "affitti"
   },
   {
-    "id": "it:affittare:verb",
-    "word": "affittare",
-    "language": "it",
-    "form": "verb",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:rent:verb",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "rooms": [
-      "shared",
-      "entrance"
-    ]
-  },
-  {
     "id": "it:sistemazione:noun",
     "word": "sistemazione",
     "language": "it",
@@ -654,21 +570,6 @@
     "plural_form": "inquilini"
   },
   {
-    "id": "it:terrazza:noun",
-    "word": "terrazza",
-    "language": "it",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:terrace:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "la",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "terrazze"
-  },
-  {
     "id": "it:non-arredato:adjective",
     "word": "non arredato",
     "language": "it",
@@ -708,22 +609,6 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "ascensori"
-  },
-  {
-    "id": "it:ordinare:verb",
-    "word": "ordinare",
-    "language": "it",
-    "form": "verb",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:tidy:verb",
-    "theme": "housing",
-    "sub_theme": "chores",
-    "rooms": [
-      "bedroom",
-      "living_room",
-      "study"
-    ]
   },
   {
     "id": "it:sgomberare:verb",
