@@ -29,6 +29,10 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A0"
+    ],
+    "concept": "housing.rooms_spaces.bathroom",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -58,7 +62,8 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A0"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.bedroom"
   },
   {
     "id": "en:dining-room:noun",
@@ -89,7 +94,8 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A0"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.dining_room"
   },
   {
     "id": "en:door:noun",
@@ -127,6 +133,10 @@
       "en:close:verb",
       "en:lock:verb",
       "en:unlock:verb"
+    ],
+    "concept": "housing.rooms_spaces.door",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -168,6 +178,10 @@
       "en:vacuum:verb",
       "en:scrub:verb",
       "en:clean:verb"
+    ],
+    "concept": "housing.rooms_spaces.floor",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -197,7 +211,8 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A0"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.room"
   },
   {
     "id": "en:wall:noun",
@@ -229,6 +244,10 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A0"
+    ],
+    "concept": "housing.rooms_spaces.wall",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -268,6 +287,10 @@
       "en:clean:verb",
       "en:wash:verb",
       "en:wipe:verb"
+    ],
+    "concept": "housing.rooms_spaces.window",
+    "region": [
+      "UK"
     ]
   }
 ]

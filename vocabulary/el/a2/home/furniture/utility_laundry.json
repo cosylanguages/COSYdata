@@ -6,13 +6,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:vacuum-cleaner:noun",
+    "concept": "housing.appliances.vacuum_cleaner",
     "theme": "housing",
     "sub_theme": "appliances",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "ηλεκτρικές σκούπες"
+    "plural_form": "ηλεκτρικές σκούπες",
+    "translation_of": "en:vacuum-cleaner:noun"
   },
   {
     "id": "el:skoypizo-me-ilektriki-skoypa:verb",
@@ -21,14 +22,15 @@
     "form": "verb",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:vacuum:verb",
+    "concept": "housing.appliances.vacuum",
     "theme": "housing",
     "sub_theme": "appliances",
     "rooms": [
       "living_room",
       "bedroom",
       "hallway"
-    ]
+    ],
+    "translation_of": "en:vacuum:verb"
   },
   {
     "id": "el:plyntirio-roychon:noun",
@@ -37,13 +39,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:washing-machine:noun",
+    "concept": "housing.appliances.washing_machine",
     "theme": "housing",
     "sub_theme": "appliances",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "πλυντήρια ρούχων"
+    "plural_form": "πλυντήρια ρούχων",
+    "translation_of": "en:washing-machine:noun"
   },
   {
     "id": "el:kados-anakyklosis:noun",
@@ -52,7 +55,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:recycling-bin:noun",
+    "concept": "housing.furniture.recycling_bin",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -62,7 +65,8 @@
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "κάδοι ανακύκλωσης"
+    "plural_form": "κάδοι ανακύκλωσης",
+    "translation_of": "en:recycling-bin:noun"
   },
   {
     "id": "el:kados-aporrimmaton:noun",
@@ -71,7 +75,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:dustbin:noun",
+    "concept": "housing.furniture.dustbin",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -81,7 +85,8 @@
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "κάδοι απορριμμάτων"
+    "plural_form": "κάδοι απορριμμάτων",
+    "translation_of": "en:dustbin:noun"
   },
   {
     "id": "el:thermansis-levitas:noun",
@@ -90,7 +95,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:boiler:noun",
+    "concept": "housing.furniture.boiler",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -100,7 +105,8 @@
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "λέβητες θέρμανσης"
+    "plural_form": "λέβητες θέρμανσης",
+    "translation_of": "en:boiler:noun"
   },
   {
     "id": "el:skoypidotenekes:noun",
@@ -109,7 +115,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:trash-can:noun",
+    "concept": "housing.furniture.trash_can",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -119,6 +125,7 @@
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "σκουπιδοτενεκέδες"
+    "plural_form": "σκουπιδοτενεκέδες",
+    "translation_of": "en:trash-can:noun"
   }
 ]

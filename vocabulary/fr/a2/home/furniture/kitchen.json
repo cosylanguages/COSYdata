@@ -6,13 +6,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:blender:noun",
+    "concept": "housing.appliances.blender",
     "theme": "housing",
     "sub_theme": "appliances",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "mélangeurs"
+    "plural_form": "mélangeurs",
+    "translation_of": "en:blender:noun"
   },
   {
     "id": "fr:lave-vaisselle:noun",
@@ -21,7 +22,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:dishwasher:noun",
+    "concept": "housing.appliances.dishwasher",
     "theme": "housing",
     "sub_theme": "appliances",
     "rooms": [
@@ -30,7 +31,8 @@
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "lave-vaisselle"
+    "plural_form": "lave-vaisselle",
+    "translation_of": "en:dishwasher:noun"
   },
   {
     "id": "fr:bouilloire:noun",
@@ -39,28 +41,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:kettle:noun",
+    "concept": "housing.appliances.kettle",
     "theme": "housing",
     "sub_theme": "appliances",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "bouilloires"
-  },
-  {
-    "id": "fr:grille-pain:noun",
-    "word": "grille-pain",
-    "language": "fr",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:toaster:noun",
-    "theme": "housing",
-    "sub_theme": "appliances",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "grille-pain"
+    "plural_form": "bouilloires",
+    "translation_of": "en:kettle:noun"
   },
   {
     "id": "fr:cafetiere:noun",
@@ -69,7 +57,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:coffee-maker:noun",
+    "concept": "housing.furniture.coffee_maker",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -78,6 +66,7 @@
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "cafetières"
+    "plural_form": "cafetières",
+    "translation_of": "en:coffee-maker:noun"
   }
 ]

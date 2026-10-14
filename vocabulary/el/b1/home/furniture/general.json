@@ -1,27 +1,17 @@
 [
   {
-    "id": "el:prositos:adjective",
-    "word": "προσιτός",
-    "language": "el",
-    "form": "adjective",
-    "level": "B1",
-    "status": "needs_review",
-    "concept": "en:affordable:adjective",
-    "theme": "housing",
-    "sub_theme": "furniture"
-  },
-  {
     "id": "el:paroches:noun",
     "word": "παροχές",
     "language": "el",
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:amenities:noun",
+    "concept": "housing.furniture.amenities",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:amenities:noun"
   },
   {
     "id": "el:metakinisi-ergasias:noun",
@@ -30,11 +20,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:commuting:noun",
+    "concept": "housing.furniture.commuting",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:commuting:noun"
   },
   {
     "id": "el:dorean-anavathmisi:noun",
@@ -43,13 +34,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:complimentary-upgrade:noun",
+    "concept": "housing.furniture.complimentary_upgrade",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "δωρεάν αναβαθμίσεις"
+    "plural_form": "δωρεάν αναβαθμίσεις",
+    "translation_of": "en:complimentary-upgrade:noun"
   },
   {
     "id": "el:chronos-antapokrisis:noun",
@@ -58,13 +50,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:connecting-time:noun",
+    "concept": "housing.furniture.connecting_time",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "χρόνοι ανταπόκρισης"
+    "plural_form": "χρόνοι ανταπόκρισης",
+    "translation_of": "en:connecting-time:noun"
   },
   {
     "id": "el:mesitiko-grafeio:noun",
@@ -73,13 +66,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:estate-agency:noun",
+    "concept": "housing.furniture.estate_agency",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "μεσιτικά γραφεία"
+    "plural_form": "μεσιτικά γραφεία",
+    "translation_of": "en:estate-agency:noun"
   },
   {
     "id": "el:oosi:noun",
@@ -88,13 +82,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:eviction:noun",
+    "concept": "housing.furniture.eviction",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "ώσεις"
+    "plural_form": "ώσεις",
+    "translation_of": "en:eviction:noun"
   },
   {
     "id": "el:stegasi:noun",
@@ -103,11 +98,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:housing:noun",
+    "concept": "housing.furniture.housing",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:housing:noun"
   },
   {
     "id": "el:epitheorisi:noun",
@@ -116,13 +112,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:inspection:noun",
+    "concept": "housing.furniture.inspection",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "επιθεωρήσεις"
+    "plural_form": "επιθεωρήσεις",
+    "translation_of": "en:inspection:noun"
   },
   {
     "id": "el:diarkeia-anamonis:noun",
@@ -131,13 +128,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:layover-time:noun",
+    "concept": "housing.furniture.layover_time",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "διάρκειες αναμονής"
+    "plural_form": "διάρκειες αναμονής",
+    "translation_of": "en:layover-time:noun"
   },
   {
     "id": "el:prosorini-adeia-odigisis:noun",
@@ -146,13 +144,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:learner-s-permit:noun",
+    "concept": "housing.furniture.learner_s_permit",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "προσωρινές άδειες οδήγησης"
+    "plural_form": "προσωρινές άδειες οδήγησης",
+    "translation_of": "en:learner-s-permit:noun"
   },
   {
     "id": "el:misthotirio:noun",
@@ -161,13 +160,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:lease:noun",
+    "concept": "housing.furniture.lease",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "μισθωτήρια"
+    "plural_form": "μισθωτήρια",
+    "translation_of": "en:lease:noun"
   },
   {
     "id": "el:makrochronia-misthosi:noun",
@@ -176,13 +176,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:long-term-let:noun",
+    "concept": "housing.furniture.long_term_let",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "μακροχρόνιες μισθώσεις"
+    "plural_form": "μακροχρόνιες μισθώσεις",
+    "translation_of": "en:long-term-let:noun"
   },
   {
     "id": "el:provlima-syntirisis:noun",
@@ -191,13 +192,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:maintenance-issue:noun",
+    "concept": "housing.furniture.maintenance_issue",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "προβλήματα συντήρησης"
+    "plural_form": "προβλήματα συντήρησης",
+    "translation_of": "en:maintenance-issue:noun"
   },
   {
     "id": "el:syntirisi:noun",
@@ -206,13 +208,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:maintenance:noun",
+    "concept": "housing.furniture.maintenance",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "συντηρήσεις"
+    "plural_form": "συντηρήσεις",
+    "translation_of": "en:maintenance:noun"
   },
   {
     "id": "el:michaniki-vlavi:noun",
@@ -221,13 +224,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:mechanical-issue:noun",
+    "concept": "housing.furniture.mechanical_issue",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "μηχανικές βλάβες"
+    "plural_form": "μηχανικές βλάβες",
+    "translation_of": "en:mechanical-issue:noun"
   },
   {
     "id": "el:chameni-antapokrisi:noun",
@@ -236,13 +240,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:missed-connection:noun",
+    "concept": "housing.furniture.missed_connection",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "χαμένες ανταποκρίσεις"
+    "plural_form": "χαμένες ανταποκρίσεις",
+    "translation_of": "en:missed-connection:noun"
   },
   {
     "id": "el:asfaleia-geitonias:noun",
@@ -251,11 +256,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:neighborhood-safety:noun",
+    "concept": "housing.furniture.neighborhood_safety",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:neighborhood-safety:noun"
   },
   {
     "id": "el:epitirisi-geitonias:noun",
@@ -264,11 +270,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:neighborhood-watch:noun",
+    "concept": "housing.furniture.neighborhood_watch",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:neighborhood-watch:noun"
   },
   {
     "id": "el:kataggelia-gia-thoryvo:noun",
@@ -277,13 +284,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:noise-complaint:noun",
+    "concept": "housing.furniture.noise_complaint",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "καταγγελίες για θόρυβο"
+    "plural_form": "καταγγελίες για θόρυβο",
+    "translation_of": "en:noise-complaint:noun"
   },
   {
     "id": "el:yperplithysmos:noun",
@@ -292,11 +300,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:overcrowding:noun",
+    "concept": "housing.furniture.overcrowding",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:overcrowding:noun"
   },
   {
     "id": "el:apentomosi:noun",
@@ -305,13 +314,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:pest-control:noun",
+    "concept": "housing.furniture.pest_control",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "απεντομώσεις"
+    "plural_form": "απεντομώσεις",
+    "translation_of": "en:pest-control:noun"
   },
   {
     "id": "el:ydraylika:noun",
@@ -320,11 +330,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:plumbing:noun",
+    "concept": "housing.furniture.plumbing",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:plumbing:noun"
   },
   {
     "id": "el:diacheiristis-akiniton:noun",
@@ -333,13 +344,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:property-manager:noun",
+    "concept": "housing.furniture.property_manager",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "διαχειριστές ακινήτων"
+    "plural_form": "διαχειριστές ακινήτων",
+    "translation_of": "en:property-manager:noun"
   },
   {
     "id": "el:axia-akinitoy:noun",
@@ -348,13 +360,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:property-value:noun",
+    "concept": "housing.furniture.property_value",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "αξίες ακινήτων"
+    "plural_form": "αξίες ακινήτων",
+    "translation_of": "en:property-value:noun"
   },
   {
     "id": "el:mesitis-akiniton:noun",
@@ -363,13 +376,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:real-estate-agent:noun",
+    "concept": "housing.furniture.real_estate_agent",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "ο",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "μεσίτες ακινήτων"
+    "plural_form": "μεσίτες ακινήτων",
+    "translation_of": "en:real-estate-agent:noun"
   },
   {
     "id": "el:anakainisi:noun",
@@ -378,13 +392,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:renovation:noun",
+    "concept": "housing.furniture.renovation",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "ανακαινίσεις"
+    "plural_form": "ανακαινίσεις",
+    "translation_of": "en:renovation:noun"
   },
   {
     "id": "el:symfonitiko-misthosis:noun",
@@ -393,13 +408,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-agreement:noun",
+    "concept": "housing.furniture.rental_agreement",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "συμφωνητικά μίσθωσης"
+    "plural_form": "συμφωνητικά μίσθωσης",
+    "translation_of": "en:rental-agreement:noun"
   },
   {
     "id": "el:symvasi-misthosis:noun",
@@ -408,13 +424,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-contract:noun",
+    "concept": "housing.furniture.rental_contract",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "συμβάσεις μίσθωσης"
+    "plural_form": "συμβάσεις μίσθωσης",
+    "translation_of": "en:rental-contract:noun"
   },
   {
     "id": "el:ekmisthoymeno-akinito:noun",
@@ -423,13 +440,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-property:noun",
+    "concept": "housing.furniture.rental_property",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "εκμισθούμενα ακίνητα"
+    "plural_form": "εκμισθούμενα ακίνητα",
+    "translation_of": "en:rental-property:noun"
   },
   {
     "id": "el:eggyisi-misthosis:noun",
@@ -438,13 +456,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:security-deposit:noun",
+    "concept": "housing.furniture.security_deposit",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "εγγυήσεις μίσθωσης"
+    "plural_form": "εγγυήσεις μίσθωσης",
+    "translation_of": "en:security-deposit:noun"
   },
   {
     "id": "el:vrachychronia-misthosi:noun",
@@ -453,13 +472,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:short-term-let:noun",
+    "concept": "housing.furniture.short_term_let",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "βραχυχρόνιες μισθώσεις"
+    "plural_form": "βραχυχρόνιες μισθώσεις",
+    "translation_of": "en:short-term-let:noun"
   },
   {
     "id": "el:symvolaio-enoikiasis:noun",
@@ -468,13 +488,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:tenancy-agreement:noun",
+    "concept": "housing.furniture.tenancy_agreement",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "συμβόλαια ενοικίασης"
+    "plural_form": "συμβόλαια ενοικίασης",
+    "translation_of": "en:tenancy-agreement:noun"
   },
   {
     "id": "el:metafores:noun",
@@ -483,11 +504,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:transport:noun",
+    "concept": "housing.furniture.transport",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:transport:noun"
   },
   {
     "id": "el:mi-kratimeni-thesi:noun",
@@ -496,10 +518,11 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:unreserved-seating:noun",
+    "concept": "housing.furniture.unreserved_seating",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:unreserved-seating:noun"
   }
 ]

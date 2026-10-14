@@ -29,7 +29,11 @@
     "transcription_variants": {
       "us": "/ˈhoʊmˌoʊ.nɚ/"
     },
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "housing.building_types.homeowner",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:house-swap:noun",
@@ -59,7 +63,8 @@
       "travel",
       "urban_housing"
     ],
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "housing.building_types.house_swap"
   },
   {
     "id": "en:nursing-home:noun",
@@ -91,7 +96,11 @@
       "assisted facility"
     ],
     "no_antonym": true,
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "housing.building_types.nursing_home",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:skyscraper:noun",
@@ -120,7 +129,11 @@
     "transcription_variants": {
       "us": "/ˈskaɪˌskreɪ.pɚ/"
     },
-    "sub_theme": "building_types"
+    "sub_theme": "building_types",
+    "concept": "housing.building_types.skyscraper",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:chalet:noun",
@@ -319,5 +332,39 @@
     "definitions": [
       "A boat designed or modified to be used primarily as a permanent residence."
     ]
+  },
+  {
+    "id": "en:dormitory:noun",
+    "word": "dormitory",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "A large building providing residential sleeping quarters for university students or institutional residents."
+    ],
+    "examples": [
+      "First-year university students often live in a student dormitory."
+    ],
+    "domain": "general, professional",
+    "theme": "housing",
+    "tags": [
+      "intermediate"
+    ],
+    "updated": "2025-05-20",
+    "transcription": "/ˈdɔː.mɪ.trɪ/",
+    "emoji": "🛏️",
+    "countability": "countable",
+    "plural_form": "dormitories",
+    "synonyms": [
+      "dorm",
+      "residence hall",
+      "hostel"
+    ],
+    "no_antonym": true,
+    "sub_theme": "building_types",
+    "secondary_themes": [
+      "education/academic-english"
+    ],
+    "concept": "housing.building_types.dormitory"
   }
 ]

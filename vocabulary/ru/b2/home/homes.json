@@ -6,12 +6,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:affordable-housing-crisis:noun",
+    "concept": "housing.building_types.affordable_housing_crisis",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "кризисы доступного жилья"
+    "plural_form": "кризисы доступного жилья",
+    "translation_of": "en:affordable-housing-crisis:noun"
   },
   {
     "id": "ru:dostupnoe-zhilyo:noun",
@@ -20,12 +21,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:affordable:noun",
+    "concept": "housing.building_types.affordable",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "доступные жилья"
+    "plural_form": "доступные жилья",
+    "translation_of": "en:affordable:noun"
   },
   {
     "id": "ru:okhranyaemyy-kottedzhnyy-posyolok:noun",
@@ -34,12 +36,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:gated-community:noun",
+    "concept": "housing.building_types.gated_community",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "охраняемые коттеджные посёлки"
+    "plural_form": "охраняемые коттеджные посёлки",
+    "translation_of": "en:gated-community:noun"
   },
   {
     "id": "ru:tovarishchestvo-sobstvennikov-zhilya:noun",
@@ -48,12 +51,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:homeowners-association:noun",
+    "concept": "housing.building_types.homeowners_association",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "товарищества собственников жилья"
+    "plural_form": "товарищества собственников жилья",
+    "translation_of": "en:homeowners-association:noun"
   },
   {
     "id": "ru:transportnyy-uzel:noun",
@@ -62,12 +66,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:hub:noun",
+    "concept": "housing.building_types.hub",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "транспортные узлы"
+    "plural_form": "транспортные узлы",
+    "translation_of": "en:hub:noun"
   },
   {
     "id": "ru:zemelnyy-uchastok:noun",
@@ -76,12 +81,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:land:noun",
+    "concept": "housing.building_types.land",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "земельные участки"
+    "plural_form": "земельные участки",
+    "translation_of": "en:land:noun"
   },
   {
     "id": "ru:minimalnoe-vremya-peresadki:noun",
@@ -90,12 +96,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:minimum-connection-time:noun",
+    "concept": "housing.building_types.minimum_connection_time",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "минимальные времена пересадки"
+    "plural_form": "минимальные времена пересадки",
+    "translation_of": "en:minimum-connection-time:noun"
   },
   {
     "id": "ru:politika-overbukinga:noun",
@@ -104,12 +111,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:overbooking-policy:noun",
+    "concept": "housing.building_types.overbooking_policy",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "политики овербукинга"
+    "plural_form": "политики овербукинга",
+    "translation_of": "en:overbooking-policy:noun"
   },
   {
     "id": "ru:sdavat-v-subarendu:verb",
@@ -118,12 +126,13 @@
     "form": "verb",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:sublet:verb",
+    "concept": "housing.building_types.sublet",
     "theme": "housing",
     "sub_theme": "building_types",
     "rooms": [
       "shared"
-    ]
+    ],
+    "translation_of": "en:sublet:verb"
   },
   {
     "id": "ru:kommunalnaya-sluzhba:noun",
@@ -132,12 +141,13 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:utility:noun",
+    "concept": "housing.building_types.utility",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "коммунальные службы"
+    "plural_form": "коммунальные службы",
+    "translation_of": "en:utility:noun"
   },
   {
     "id": "ru:estestvennyy-iznos:noun",
@@ -146,25 +156,12 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:wear-and-tear:noun",
+    "concept": "housing.building_types.wear_and_tear",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
-    "countability": "uncountable"
-  },
-  {
-    "id": "ru:zamok:noun",
-    "word": "замок",
-    "language": "ru",
-    "form": "noun",
-    "level": "B2",
-    "status": "needs_review",
-    "concept": "en:chateau:noun",
-    "theme": "housing",
-    "sub_theme": "building_types",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "замки"
+    "countability": "uncountable",
+    "translation_of": "en:wear-and-tear:noun"
   },
   {
     "id": "ru:riat:noun",
@@ -173,11 +170,12 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:riad:noun",
+    "concept": "housing.homes.riad",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "риаты"
+    "plural_form": "риаты",
+    "translation_of": "en:riad:noun"
   }
 ]

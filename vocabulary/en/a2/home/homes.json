@@ -36,6 +36,10 @@
       "en:tidy:verb",
       "en:clean:verb",
       "en:dust:verb"
+    ],
+    "concept": "housing.building_types.cabinet",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -70,7 +74,8 @@
       "en:clean:verb",
       "en:paint:verb",
       "en:decorate:verb"
-    ]
+    ],
+    "concept": "housing.building_types.cottage"
   },
   {
     "id": "en:cabin:noun",
@@ -104,7 +109,8 @@
       "en:clean:verb",
       "en:paint:verb",
       "en:decorate:verb"
-    ]
+    ],
+    "concept": "housing.furniture.cabin"
   },
   {
     "id": "en:castle:noun",
@@ -131,7 +137,11 @@
     },
     "emoji": "🏰",
     "no_antonym": true,
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.castle",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:bungalow:noun",

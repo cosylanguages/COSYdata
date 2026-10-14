@@ -6,12 +6,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:homeowner:noun",
+    "concept": "housing.building_types.homeowner",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "домовладельцы"
+    "plural_form": "домовладельцы",
+    "translation_of": "en:homeowner:noun"
   },
   {
     "id": "ru:obmen-domami:noun",
@@ -20,12 +21,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:house-swap:noun",
+    "concept": "housing.building_types.house_swap",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "обмены домами"
+    "plural_form": "обмены домами",
+    "translation_of": "en:house-swap:noun"
   },
   {
     "id": "ru:dom-prestarelykh:noun",
@@ -34,12 +36,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:nursing-home:noun",
+    "concept": "housing.building_types.nursing_home",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "дома престарелых"
+    "plural_form": "дома престарелых",
+    "translation_of": "en:nursing-home:noun"
   },
   {
     "id": "ru:neboskryob:noun",
@@ -48,12 +51,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:skyscraper:noun",
+    "concept": "housing.building_types.skyscraper",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "небоскрёбы"
+    "plural_form": "небоскрёбы",
+    "translation_of": "en:skyscraper:noun"
   },
   {
     "id": "ru:shale:noun",
@@ -62,11 +66,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:chalet:noun",
+    "concept": "housing.homes.chalet",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
-    "countability": "invariable"
+    "countability": "invariable",
+    "translation_of": "en:chalet:noun"
   },
   {
     "id": "ru:dupleks:noun",
@@ -75,12 +80,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:duplex:noun",
+    "concept": "housing.homes.duplex",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "дуплексы"
+    "plural_form": "дуплексы",
+    "translation_of": "en:duplex:noun"
   },
   {
     "id": "ru:pentkhaus:noun",
@@ -89,26 +95,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:penthouse:noun",
+    "concept": "housing.homes.penthouse",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "пентхаусы"
-  },
-  {
-    "id": "ru:osobnyak:noun",
-    "word": "особняк",
-    "language": "ru",
-    "form": "noun",
-    "level": "B1",
-    "status": "needs_review",
-    "concept": "en:mansion:noun",
-    "theme": "housing",
-    "sub_theme": "building_types",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "особняки"
+    "plural_form": "пентхаусы",
+    "translation_of": "en:penthouse:noun"
   },
   {
     "id": "ru:usadba:noun",
@@ -117,12 +110,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:manor-house:noun",
+    "concept": "housing.homes.manor_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "усадьбы"
+    "plural_form": "усадьбы",
+    "translation_of": "en:manor-house:noun"
   },
   {
     "id": "ru:plavuchiy-dom:noun",
@@ -131,12 +125,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:houseboat:noun",
+    "concept": "housing.homes.houseboat",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "плавучие дома"
+    "plural_form": "плавучие дома",
+    "translation_of": "en:houseboat:noun"
   },
   {
     "id": "ru:studencheskoe-obshchezhitie:noun",
@@ -145,11 +140,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:dormitory:noun",
+    "concept": "housing.building_types.dormitory",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "студенческие общежития"
+    "plural_form": "студенческие общежития",
+    "translation_of": "en:dormitory:noun"
   }
 ]

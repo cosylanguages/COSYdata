@@ -5,7 +5,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:algorithm-technology:noun",
+    "concept": "technology.artificial_intelligence.algorithm_technology",
     "definitions": [
       "une suite finie d'instructions appliquées pour résoudre un problème informatique"
     ],
@@ -29,7 +29,8 @@
     "levels": [
       "B1",
       "C1"
-    ]
+    ],
+    "translation_of": "en:algorithm-technology:noun"
   },
   {
     "id": "fr:apprentissage-automatique:noun",
@@ -37,7 +38,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:machine-learning-technology:noun",
+    "concept": "technology.artificial_intelligence.machine_learning_technology",
     "definitions": [
       "un domaine de l'intelligence artificielle permettant aux machines d'apprendre à partir de données"
     ],
@@ -56,7 +57,8 @@
     "synonyms": [
       "apprentissage machine"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:machine-learning-technology:noun"
   },
   {
     "id": "fr:agent-conversationnel:noun",
@@ -64,7 +66,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:chatbot:noun",
+    "concept": "technology.artificial_intelligence.chatbot",
     "definitions": [
       "un logiciel dialoguant avec un utilisateur humain en langage naturel"
     ],
@@ -85,7 +87,8 @@
       "chatbot",
       "assistant virtuel"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:chatbot:noun"
   },
   {
     "id": "fr:automatisation:noun",
@@ -93,7 +96,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:automation-technology:noun",
+    "concept": "technology.artificial_intelligence.automation_technology",
     "definitions": [
       "l'exécution automatique de tâches par des systèmes informatiques ou mécaniques"
     ],
@@ -115,7 +118,8 @@
     ],
     "antonyms": [
       "travail manuel"
-    ]
+    ],
+    "translation_of": "en:automation-technology:noun"
   },
   {
     "id": "fr:invite-ia:noun",
@@ -123,7 +127,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:ai-prompt:noun",
+    "concept": "technology.artificial_intelligence.ai_prompt",
     "definitions": [
       "une instruction textuelle fournie à un modèle d'intelligence artificielle"
     ],
@@ -142,7 +146,8 @@
     "synonyms": [
       "prompt"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:ai-prompt:noun"
   },
   {
     "id": "fr:protection-par-mot-de-passe:noun",
@@ -150,7 +155,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:password-protection:noun",
+    "concept": "technology.cybersecurity.password_protection",
     "definitions": [
       "une mesure de sécurité exigeant un mot de passe pour accéder à un système"
     ],
@@ -169,7 +174,8 @@
     "synonyms": [
       "sécurisation par mot de passe"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:password-protection:noun"
   },
   {
     "id": "fr:chiffrement:noun",
@@ -177,7 +183,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:encryption-technology:noun",
+    "concept": "technology.cybersecurity.encryption_technology",
     "definitions": [
       "le procédé de transformation de données lisibles en un code secret"
     ],
@@ -199,7 +205,8 @@
     ],
     "antonyms": [
       "déchiffrement"
-    ]
+    ],
+    "translation_of": "en:encryption-technology:noun"
   },
   {
     "id": "fr:hameconnage:noun",
@@ -207,7 +214,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:phishing-technology:noun",
+    "concept": "technology.cybersecurity.phishing_technology",
     "definitions": [
       "une technique frauduleuse visant à tromper un utilisateur pour obtenir des données confidentielles"
     ],
@@ -226,7 +233,8 @@
     "synonyms": [
       "phishing"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:phishing-technology:noun"
   },
   {
     "id": "fr:logiciel-malveillant:noun",
@@ -234,7 +242,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:malware-technology:noun",
+    "concept": "technology.cybersecurity.malware_technology",
     "definitions": [
       "un programme informatique développé pour nuire à un système ou voler des données"
     ],
@@ -255,7 +263,8 @@
       "malware",
       "virus informatique"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:malware-technology:noun"
   },
   {
     "id": "fr:pare-feu:noun",
@@ -263,7 +272,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:firewall-technology:noun",
+    "concept": "technology.cybersecurity.firewall_technology",
     "definitions": [
       "un dispositif de sécurité réseau filtrant le trafic selon des règles prédéfinies"
     ],
@@ -282,7 +291,8 @@
     "synonyms": [
       "firewall"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:firewall-technology:noun"
   },
   {
     "id": "fr:confidentialite-numerique:noun",
@@ -290,7 +300,7 @@
     "language": "fr",
     "form": "noun",
     "level": "C1",
-    "concept": "en:digital-privacy:noun",
+    "concept": "technology.cybersecurity.digital_privacy",
     "definitions": [
       "la protection des informations personnelles lors de leur traitement en ligne"
     ],
@@ -311,6 +321,7 @@
     ],
     "antonyms": [
       "surveillance numérique"
-    ]
+    ],
+    "translation_of": "en:digital-privacy:noun"
   }
 ]

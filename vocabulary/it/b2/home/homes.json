@@ -6,13 +6,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:affordable-housing-crisis:noun",
+    "concept": "housing.building_types.affordable_housing_crisis",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "crisi abitative"
+    "plural_form": "crisi abitative",
+    "translation_of": "en:affordable-housing-crisis:noun"
   },
   {
     "id": "it:alloggio-economico:noun",
@@ -21,13 +22,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:affordable:noun",
+    "concept": "housing.building_types.affordable",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "l'",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "alloggi economici"
+    "plural_form": "alloggi economici",
+    "translation_of": "en:affordable:noun"
   },
   {
     "id": "it:quartiere-chiuso:noun",
@@ -36,13 +38,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:gated-community:noun",
+    "concept": "housing.building_types.gated_community",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "quartieri chiusi"
+    "plural_form": "quartieri chiusi",
+    "translation_of": "en:gated-community:noun"
   },
   {
     "id": "it:associazione-dei-proprietari:noun",
@@ -51,13 +54,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:homeowners-association:noun",
+    "concept": "housing.building_types.homeowners_association",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "l'",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "associazioni dei proprietari"
+    "plural_form": "associazioni dei proprietari",
+    "translation_of": "en:homeowners-association:noun"
   },
   {
     "id": "it:nodo-di-scambio:noun",
@@ -66,13 +70,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:hub:noun",
+    "concept": "housing.building_types.hub",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "nodi di scambio"
+    "plural_form": "nodi di scambio",
+    "translation_of": "en:hub:noun"
   },
   {
     "id": "it:terreno:noun",
@@ -81,13 +86,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:land:noun",
+    "concept": "housing.building_types.land",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "terreni"
+    "plural_form": "terreni",
+    "translation_of": "en:land:noun"
   },
   {
     "id": "it:tempo-minimo-di-coincidenza:noun",
@@ -96,13 +102,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:minimum-connection-time:noun",
+    "concept": "housing.building_types.minimum_connection_time",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "tempi minimi di coincidenza"
+    "plural_form": "tempi minimi di coincidenza",
+    "translation_of": "en:minimum-connection-time:noun"
   },
   {
     "id": "it:politica-di-overbooking:noun",
@@ -111,13 +118,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:overbooking-policy:noun",
+    "concept": "housing.building_types.overbooking_policy",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "politiche di overbooking"
+    "plural_form": "politiche di overbooking",
+    "translation_of": "en:overbooking-policy:noun"
   },
   {
     "id": "it:subaffittare:verb",
@@ -126,12 +134,13 @@
     "form": "verb",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:sublet:verb",
+    "concept": "housing.building_types.sublet",
     "theme": "housing",
     "sub_theme": "building_types",
     "rooms": [
       "shared"
-    ]
+    ],
+    "translation_of": "en:sublet:verb"
   },
   {
     "id": "it:utenza-pubblica:noun",
@@ -140,13 +149,14 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:utility:noun",
+    "concept": "housing.building_types.utility",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "l'",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "utenze pubbliche"
+    "plural_form": "utenze pubbliche",
+    "translation_of": "en:utility:noun"
   },
   {
     "id": "it:usura:noun",
@@ -155,26 +165,12 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:wear-and-tear:noun",
+    "concept": "housing.building_types.wear_and_tear",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "feminine",
-    "countability": "uncountable"
-  },
-  {
-    "id": "it:castello:noun",
-    "word": "castello",
-    "language": "it",
-    "form": "noun",
-    "level": "B2",
-    "status": "needs_review",
-    "concept": "en:chateau:noun",
-    "theme": "housing",
-    "sub_theme": "building_types",
-    "article": "il",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "castelli"
+    "countability": "uncountable",
+    "translation_of": "en:wear-and-tear:noun"
   },
   {
     "id": "it:riad:noun",
@@ -183,11 +179,12 @@
     "form": "noun",
     "level": "B2",
     "status": "needs_review",
-    "concept": "en:riad:noun",
+    "concept": "housing.homes.riad",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "il",
     "gender": "masculine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "translation_of": "en:riad:noun"
   }
 ]

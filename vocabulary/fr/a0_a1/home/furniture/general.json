@@ -1,48 +1,19 @@
 [
   {
-    "id": "fr:chaise:noun",
-    "word": "chaise",
-    "language": "fr",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:chair:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "chaises"
-  },
-  {
-    "id": "fr:horloge:noun",
-    "word": "horloge",
-    "language": "fr",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:clock:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "horloges"
-  },
-  {
     "id": "fr:cuisine:noun",
     "word": "cuisine",
     "language": "fr",
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:kitchen:noun",
+    "concept": "housing.furniture.kitchen",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "cuisines"
+    "plural_form": "cuisines",
+    "translation_of": "en:kitchen:noun"
   },
   {
     "id": "fr:lampe:noun",
@@ -51,28 +22,14 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:lamp:noun",
+    "concept": "housing.furniture.lamp",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "lampes"
-  },
-  {
-    "id": "fr:table:noun",
-    "word": "table",
-    "language": "fr",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:table:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "tables"
+    "plural_form": "lampes",
+    "translation_of": "en:lamp:noun"
   },
   {
     "id": "fr:poubelle:noun",
@@ -81,7 +38,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:bin:noun",
+    "concept": "housing.furniture.bin",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -91,6 +48,7 @@
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "poubelles"
+    "plural_form": "poubelles",
+    "translation_of": "en:bin:noun"
   }
 ]

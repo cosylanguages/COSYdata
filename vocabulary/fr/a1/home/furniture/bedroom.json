@@ -1,32 +1,18 @@
 [
   {
-    "id": "fr:placard:noun",
-    "word": "placard",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:closet:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "placards"
-  },
-  {
     "id": "fr:penderie:noun",
     "word": "penderie",
     "language": "fr",
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:wardrobe:noun",
+    "concept": "housing.furniture.wardrobe",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "penderies"
+    "plural_form": "penderies",
+    "translation_of": "en:wardrobe:noun"
   }
 ]

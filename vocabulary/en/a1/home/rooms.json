@@ -29,7 +29,8 @@
     ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.ceiling"
   },
   {
     "id": "en:garage:noun",
@@ -62,7 +63,11 @@
       "B1"
     ],
     "article": "a",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.garage",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:living-room:noun",
@@ -92,7 +97,8 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A1"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.living_room"
   },
   {
     "id": "en:roof:noun",
@@ -122,7 +128,8 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.roof"
   },
   {
     "id": "en:stairs:noun",
@@ -153,6 +160,10 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A1"
+    ],
+    "concept": "housing.rooms_spaces.stairs",
+    "region": [
+      "UK"
     ]
   }
 ]

@@ -1,33 +1,19 @@
 [
   {
-    "id": "el:syrtariera:noun",
-    "word": "συρταριέρα",
-    "language": "el",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:cabinet:noun",
-    "theme": "housing",
-    "sub_theme": "building_types",
-    "article": "η",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "συρταριέρες"
-  },
-  {
     "id": "el:exochiko:noun",
     "word": "εξοχικό",
     "language": "el",
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:cottage:noun",
+    "concept": "housing.building_types.cottage",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "εξοχικά"
+    "plural_form": "εξοχικά",
+    "translation_of": "en:cottage:noun"
   },
   {
     "id": "el:kalyva:noun",
@@ -36,13 +22,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:cabin:noun",
+    "concept": "housing.furniture.cabin",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "καλύβες"
+    "plural_form": "καλύβες",
+    "translation_of": "en:cabin:noun"
   },
   {
     "id": "el:kastro:noun",
@@ -51,13 +38,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:castle:noun",
+    "concept": "housing.furniture.castle",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "κάστρα"
+    "plural_form": "κάστρα",
+    "translation_of": "en:castle:noun"
   },
   {
     "id": "el:mpangkalooy:noun",
@@ -66,12 +54,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:bungalow:noun",
+    "concept": "housing.homes.bungalow",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "το",
     "gender": "neuter",
-    "countability": "invariable"
+    "countability": "invariable",
+    "translation_of": "en:bungalow:noun"
   },
   {
     "id": "el:kaminada:noun",
@@ -80,13 +69,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:chimney:noun",
+    "concept": "housing.homes.chimney",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "καμινάδες"
+    "plural_form": "καμινάδες",
+    "translation_of": "en:chimney:noun"
   },
   {
     "id": "el:monokatoikia:noun",
@@ -95,13 +85,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:detached-house:noun",
+    "concept": "housing.homes.detached_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "μονοκατοικίες"
+    "plural_form": "μονοκατοικίες",
+    "translation_of": "en:detached-house:noun"
   },
   {
     "id": "el:diplokatoikia:noun",
@@ -110,13 +101,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:semi-detached-house:noun",
+    "concept": "housing.homes.semi_detached_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "διπλοκατοικίες"
+    "plural_form": "διπλοκατοικίες",
+    "translation_of": "en:semi-detached-house:noun"
   },
   {
     "id": "el:seira-monokatoikion:noun",
@@ -125,13 +117,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:terraced-house:noun",
+    "concept": "housing.homes.terraced_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "σειρές μονοκατοικιών"
+    "plural_form": "σειρές μονοκατοικιών",
+    "translation_of": "en:terraced-house:noun"
   },
   {
     "id": "el:vila:noun",
@@ -140,13 +133,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:villa:noun",
+    "concept": "housing.homes.villa",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "βίλες"
+    "plural_form": "βίλες",
+    "translation_of": "en:villa:noun"
   },
   {
     "id": "el:gkarsoniera:noun",
@@ -155,13 +149,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:studio:noun",
+    "concept": "housing.homes.studio",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "γκαρσονιέρες"
+    "plural_form": "γκαρσονιέρες",
+    "translation_of": "en:studio:noun"
   },
   {
     "id": "el:astiki-monokatoikia:noun",
@@ -170,13 +165,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:townhouse:noun",
+    "concept": "housing.homes.townhouse",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "αστικές μονοκατοικίες"
+    "plural_form": "αστικές μονοκατοικίες",
+    "translation_of": "en:townhouse:noun"
   },
   {
     "id": "el:agrotospito:noun",
@@ -185,13 +181,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:farmhouse:noun",
+    "concept": "housing.homes.farmhouse",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "αγροτόσπιτα"
+    "plural_form": "αγροτόσπιτα",
+    "translation_of": "en:farmhouse:noun"
   },
   {
     "id": "el:trochospito:noun",
@@ -200,13 +197,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:mobile-home:noun",
+    "concept": "housing.homes.mobile_home",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "τροχόσπιτα"
+    "plural_form": "τροχόσπιτα",
+    "translation_of": "en:mobile-home:noun"
   },
   {
     "id": "el:mikroskopiko-spiti:noun",
@@ -215,12 +213,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:tiny-house:noun",
+    "concept": "housing.homes.tiny_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "μικροσκοπικά σπίτια"
+    "plural_form": "μικροσκοπικά σπίτια",
+    "translation_of": "en:tiny-house:noun"
   }
 ]

@@ -6,7 +6,7 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:bed:noun",
+    "concept": "housing.furniture.bed",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -15,7 +15,8 @@
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "κρεβάτια"
+    "plural_form": "κρεβάτια",
+    "translation_of": "en:bed:noun"
   },
   {
     "id": "el:koyverta:noun",
@@ -24,7 +25,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:blanket:noun",
+    "concept": "housing.furniture.blanket",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -33,7 +34,8 @@
     "article": "η",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "κουβέρτες"
+    "plural_form": "κουβέρτες",
+    "translation_of": "en:blanket:noun"
   },
   {
     "id": "el:komodino:noun",
@@ -42,7 +44,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:bedside-table:noun",
+    "concept": "housing.furniture.bedside_table",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -51,24 +53,7 @@
     "article": "το",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "κομοδίνα"
-  },
-  {
-    "id": "el:syrtariera:noun",
-    "word": "συρταριέρα",
-    "language": "el",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:chest-of-drawers:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "bedroom"
-    ],
-    "article": "η",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "συρταριέρες"
+    "plural_form": "κομοδίνα",
+    "translation_of": "en:bedside-table:noun"
   }
 ]

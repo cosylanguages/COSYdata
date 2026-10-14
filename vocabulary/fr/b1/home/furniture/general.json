@@ -1,27 +1,17 @@
 [
   {
-    "id": "fr:abordable:adjective",
-    "word": "abordable",
-    "language": "fr",
-    "form": "adjective",
-    "level": "B1",
-    "status": "needs_review",
-    "concept": "en:affordable:adjective",
-    "theme": "housing",
-    "sub_theme": "furniture"
-  },
-  {
     "id": "fr:equipements:noun",
     "word": "équipements",
     "language": "fr",
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:amenities:noun",
+    "concept": "housing.furniture.amenities",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:amenities:noun"
   },
   {
     "id": "fr:trajets-quotidiens:noun",
@@ -30,11 +20,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:commuting:noun",
+    "concept": "housing.furniture.commuting",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:commuting:noun"
   },
   {
     "id": "fr:surclassement-gratuit:noun",
@@ -43,13 +34,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:complimentary-upgrade:noun",
+    "concept": "housing.furniture.complimentary_upgrade",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "surclassements gratuits"
+    "plural_form": "surclassements gratuits",
+    "translation_of": "en:complimentary-upgrade:noun"
   },
   {
     "id": "fr:temps-de-correspondance:noun",
@@ -58,13 +50,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:connecting-time:noun",
+    "concept": "housing.furniture.connecting_time",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "temps de correspondance"
+    "plural_form": "temps de correspondance",
+    "translation_of": "en:connecting-time:noun"
   },
   {
     "id": "fr:agence-immobiliere:noun",
@@ -73,13 +66,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:estate-agency:noun",
+    "concept": "housing.furniture.estate_agency",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "agences immobilières"
+    "plural_form": "agences immobilières",
+    "translation_of": "en:estate-agency:noun"
   },
   {
     "id": "fr:expulsion:noun",
@@ -88,13 +82,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:eviction:noun",
+    "concept": "housing.furniture.eviction",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "expulsions"
+    "plural_form": "expulsions",
+    "translation_of": "en:eviction:noun"
   },
   {
     "id": "fr:logement:noun",
@@ -103,13 +98,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:housing:noun",
+    "concept": "housing.furniture.housing",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "logements"
+    "plural_form": "logements",
+    "translation_of": "en:housing:noun"
   },
   {
     "id": "fr:etat-des-lieux:noun",
@@ -118,13 +114,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:inspection:noun",
+    "concept": "housing.furniture.inspection",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "états des lieux"
+    "plural_form": "états des lieux",
+    "translation_of": "en:inspection:noun"
   },
   {
     "id": "fr:duree-d-escale:noun",
@@ -133,13 +130,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:layover-time:noun",
+    "concept": "housing.furniture.layover_time",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "durées d'escale"
+    "plural_form": "durées d'escale",
+    "translation_of": "en:layover-time:noun"
   },
   {
     "id": "fr:permis-d-apprentissage:noun",
@@ -148,13 +146,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:learner-s-permit:noun",
+    "concept": "housing.furniture.learner_s_permit",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "permis d'apprentissage"
+    "plural_form": "permis d'apprentissage",
+    "translation_of": "en:learner-s-permit:noun"
   },
   {
     "id": "fr:bail:noun",
@@ -163,13 +162,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:lease:noun",
+    "concept": "housing.furniture.lease",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "baux"
+    "plural_form": "baux",
+    "translation_of": "en:lease:noun"
   },
   {
     "id": "fr:location-longue-duree:noun",
@@ -178,13 +178,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:long-term-let:noun",
+    "concept": "housing.furniture.long_term_let",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "locations longue durée"
+    "plural_form": "locations longue durée",
+    "translation_of": "en:long-term-let:noun"
   },
   {
     "id": "fr:probleme-de-maintenance:noun",
@@ -193,28 +194,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:maintenance-issue:noun",
+    "concept": "housing.furniture.maintenance_issue",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "problèmes de maintenance"
-  },
-  {
-    "id": "fr:entretien:noun",
-    "word": "entretien",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "status": "needs_review",
-    "concept": "en:maintenance:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "entretiens"
+    "plural_form": "problèmes de maintenance",
+    "translation_of": "en:maintenance-issue:noun"
   },
   {
     "id": "fr:panne-mecanique:noun",
@@ -223,13 +210,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:mechanical-issue:noun",
+    "concept": "housing.furniture.mechanical_issue",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "pannes mécaniques"
+    "plural_form": "pannes mécaniques",
+    "translation_of": "en:mechanical-issue:noun"
   },
   {
     "id": "fr:correspondance-manquee:noun",
@@ -238,13 +226,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:missed-connection:noun",
+    "concept": "housing.furniture.missed_connection",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "correspondances manquées"
+    "plural_form": "correspondances manquées",
+    "translation_of": "en:missed-connection:noun"
   },
   {
     "id": "fr:securite-du-quartier:noun",
@@ -253,11 +242,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:neighborhood-safety:noun",
+    "concept": "housing.furniture.neighborhood_safety",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:neighborhood-safety:noun"
   },
   {
     "id": "fr:voisins-vigilants:noun",
@@ -266,11 +256,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:neighborhood-watch:noun",
+    "concept": "housing.furniture.neighborhood_watch",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:neighborhood-watch:noun"
   },
   {
     "id": "fr:plainte-pour-bruit:noun",
@@ -279,13 +270,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:noise-complaint:noun",
+    "concept": "housing.furniture.noise_complaint",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "plaintes pour bruit"
+    "plural_form": "plaintes pour bruit",
+    "translation_of": "en:noise-complaint:noun"
   },
   {
     "id": "fr:surpeuplement:noun",
@@ -294,11 +286,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:overcrowding:noun",
+    "concept": "housing.furniture.overcrowding",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:overcrowding:noun"
   },
   {
     "id": "fr:deratisation:noun",
@@ -307,13 +300,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:pest-control:noun",
+    "concept": "housing.furniture.pest_control",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "dératisations"
+    "plural_form": "dératisations",
+    "translation_of": "en:pest-control:noun"
   },
   {
     "id": "fr:plomberie:noun",
@@ -322,11 +316,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:plumbing:noun",
+    "concept": "housing.furniture.plumbing",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:plumbing:noun"
   },
   {
     "id": "fr:gestionnaire-immobilier:noun",
@@ -335,13 +330,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:property-manager:noun",
+    "concept": "housing.furniture.property_manager",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "gestionnaires immobiliers"
+    "plural_form": "gestionnaires immobiliers",
+    "translation_of": "en:property-manager:noun"
   },
   {
     "id": "fr:valeur-immobiliere:noun",
@@ -350,13 +346,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:property-value:noun",
+    "concept": "housing.furniture.property_value",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "valeurs immobilières"
+    "plural_form": "valeurs immobilières",
+    "translation_of": "en:property-value:noun"
   },
   {
     "id": "fr:agent-immobilier:noun",
@@ -365,13 +362,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:real-estate-agent:noun",
+    "concept": "housing.furniture.real_estate_agent",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "agents immobiliers"
+    "plural_form": "agents immobiliers",
+    "translation_of": "en:real-estate-agent:noun"
   },
   {
     "id": "fr:renovation:noun",
@@ -380,13 +378,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:renovation:noun",
+    "concept": "housing.furniture.renovation",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "rénovations"
+    "plural_form": "rénovations",
+    "translation_of": "en:renovation:noun"
   },
   {
     "id": "fr:contrat-de-location:noun",
@@ -395,13 +394,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-agreement:noun",
+    "concept": "housing.furniture.rental_agreement",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "contrats de location"
+    "plural_form": "contrats de location",
+    "translation_of": "en:rental-agreement:noun"
   },
   {
     "id": "fr:bail-de-location:noun",
@@ -410,13 +410,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-contract:noun",
+    "concept": "housing.furniture.rental_contract",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "bails de location"
+    "plural_form": "bails de location",
+    "translation_of": "en:rental-contract:noun"
   },
   {
     "id": "fr:bien-locatif:noun",
@@ -425,13 +426,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-property:noun",
+    "concept": "housing.furniture.rental_property",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "biens locatifs"
+    "plural_form": "biens locatifs",
+    "translation_of": "en:rental-property:noun"
   },
   {
     "id": "fr:depot-de-garantie:noun",
@@ -440,13 +442,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:security-deposit:noun",
+    "concept": "housing.furniture.security_deposit",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "dépôts de garantie"
+    "plural_form": "dépôts de garantie",
+    "translation_of": "en:security-deposit:noun"
   },
   {
     "id": "fr:location-courte-duree:noun",
@@ -455,13 +458,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:short-term-let:noun",
+    "concept": "housing.furniture.short_term_let",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "locations courte durée"
+    "plural_form": "locations courte durée",
+    "translation_of": "en:short-term-let:noun"
   },
   {
     "id": "fr:accord-de-location:noun",
@@ -470,13 +474,14 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:tenancy-agreement:noun",
+    "concept": "housing.furniture.tenancy_agreement",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "accords de location"
+    "plural_form": "accords de location",
+    "translation_of": "en:tenancy-agreement:noun"
   },
   {
     "id": "fr:transports:noun",
@@ -485,11 +490,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:transport:noun",
+    "concept": "housing.furniture.transport",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:transport:noun"
   },
   {
     "id": "fr:placement-libre:noun",
@@ -498,10 +504,11 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:unreserved-seating:noun",
+    "concept": "housing.furniture.unreserved_seating",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:unreserved-seating:noun"
   }
 ]
