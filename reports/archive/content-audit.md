@@ -32979,4 +32979,3 @@ Across the 245 theme files, many JSON files use broader taxonomy categories for 
 ## 5. Follow-up List: Merged Entries Requiring Human Definition Review
 
 The following **0 merged entries** were created by consolidating multi-level ID collisions, but currently possess only placeholder definitions and examples. Content editors should review and replace these placeholder definitions/examples with rich, human-authored content:
-

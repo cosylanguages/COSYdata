@@ -1,0 +1,4362 @@
+{
+  "metadata": {
+    "title": "COSYdata Home Topic Audit Report",
+    "target_language": "en",
+    "total_home_files": 30,
+    "total_home_entries_audited": 298,
+    "timestamp": "2026-10-11T21:37:35.723Z"
+  },
+  "task1_flagged_non_home_entries": [
+    {
+      "id": "en:clean:adjective",
+      "word": "clean",
+      "file": "vocabulary/en/a0/home/furniture/general.json",
+      "reason": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "id": "en:cup:noun",
+      "word": "cup",
+      "file": "vocabulary/en/a0/home/furniture/general.json",
+      "reason": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "id": "en:dirty:adjective",
+      "word": "dirty",
+      "file": "vocabulary/en/a0/home/furniture/general.json",
+      "reason": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "id": "en:adjusted:adjective",
+      "word": "adjusted",
+      "file": "vocabulary/en/a2/home/furniture/general.json",
+      "reason": "General descriptor adjective, not specific to home structure, room, furniture, or appliance."
+    },
+    {
+      "id": "en:bind:verb",
+      "word": "bind",
+      "file": "vocabulary/en/a2/home/furniture/general.json",
+      "reason": "General action verb meaning to tie or fasten, not a home structure, furniture, or utility concept."
+    },
+    {
+      "id": "en:noisy:noun",
+      "word": "noisy",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "id": "en:out:noun",
+      "word": "out",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:own:verb",
+      "word": "own",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "id": "en:place-of-birth:noun",
+      "word": "place of birth",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "Administrative personal identity metadata, not home structure or household object."
+    },
+    {
+      "id": "en:postcode:noun",
+      "word": "postcode",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "Administrative personal identity metadata, not home structure or household object."
+    },
+    {
+      "id": "en:quiet:noun",
+      "word": "quiet",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "id": "en:survive:verb",
+      "word": "survive",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "reason": "General action verb, not specific to housing or home environment."
+    },
+    {
+      "id": "en:alternative-route:noun",
+      "word": "alternative route",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:bike-lane:noun",
+      "word": "bike lane",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:boarding-priority:noun",
+      "word": "boarding priority",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Airline boarding procedure concept belonging to aviation/travel."
+    },
+    {
+      "id": "en:breakdown-assistance:noun",
+      "word": "breakdown assistance",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:breakdown:noun",
+      "word": "breakdown",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:budget-carrier:noun",
+      "word": "budget carrier",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:checked-in-luggage:noun",
+      "word": "checked-in luggage",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:commute-time:noun",
+      "word": "commute time",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:commute:verb",
+      "word": "commute",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:concierge-service:noun",
+      "word": "concierge service",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:conductor:noun",
+      "word": "conductor",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:courier-service:noun",
+      "word": "courier service",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:driving-test:noun",
+      "word": "driving test",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:e-gate:noun",
+      "word": "e-gate",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:emergency-landing:noun",
+      "word": "emergency landing",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:excess-mileage:noun",
+      "word": "excess mileage",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:expiration:noun",
+      "word": "expiration",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:fire:noun",
+      "word": "fire",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "General hazard noun placed under furniture/general; should be categorized under fireplace/heating or safety sub-theme."
+    },
+    {
+      "id": "en:fixed-itinerary:noun",
+      "word": "fixed itinerary",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:flexible-itinerary:noun",
+      "word": "flexible itinerary",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:frequent-flyer:noun",
+      "word": "frequent flyer",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:gentrification:noun",
+      "word": "gentrification",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:infrastructure:noun",
+      "word": "infrastructure",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:interrail:noun",
+      "word": "interrail",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:overhead-compartment:noun",
+      "word": "overhead compartment",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:oversized-baggage:noun",
+      "word": "oversized baggage",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:personalized-service:noun",
+      "word": "personalized service",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:pre-boarding:noun",
+      "word": "pre-boarding",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Airline boarding procedure concept belonging to aviation/travel."
+    },
+    {
+      "id": "en:prohibited-items:noun",
+      "word": "prohibited items",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:public-transit-system:noun",
+      "word": "public transit system",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:rebooking-fee:noun",
+      "word": "rebooking fee",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:regeneration:noun",
+      "word": "regeneration",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:registration:noun",
+      "word": "registration",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:restricted-items:noun",
+      "word": "restricted items",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:ride-sharing:noun",
+      "word": "ride-sharing",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:roadside-assistance:noun",
+      "word": "roadside assistance",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:route-planning:noun",
+      "word": "route planning",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:service-disruption:noun",
+      "word": "service disruption",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:sleeper-train:noun",
+      "word": "sleeper train",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:special-meal-request:noun",
+      "word": "special meal request",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:standby-list:noun",
+      "word": "standby list",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:stopover:noun",
+      "word": "stopover",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:technical-delay:noun",
+      "word": "technical delay",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:toll:noun",
+      "word": "toll",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:transit:noun",
+      "word": "transit",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:upgrade-voucher:noun",
+      "word": "upgrade voucher",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:urbanisation:noun",
+      "word": "urbanisation",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:urbanization:noun",
+      "word": "urbanization",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:vehicle-registration:noun",
+      "word": "vehicle registration",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:weather-delay:noun",
+      "word": "weather delay",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "id": "en:zoning:noun",
+      "word": "zoning",
+      "file": "vocabulary/en/b1/home/furniture/general.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:room-mix-up:noun",
+      "word": "room mix-up",
+      "file": "vocabulary/en/b1/home/rooms.json",
+      "reason": "Hotel and hospitality reservation error, not a residential room term."
+    },
+    {
+      "id": "en:commuter-belt:noun",
+      "word": "commuter belt",
+      "file": "vocabulary/en/b2/home/furniture/general.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:holding-pattern:noun",
+      "word": "holding pattern",
+      "file": "vocabulary/en/b2/home/furniture/general.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:regulation:noun",
+      "word": "regulation",
+      "file": "vocabulary/en/b2/home/furniture/general.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:biometric-passport:noun",
+      "word": "biometric passport",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Travel and identity document, entirely unrelated to home or housing."
+    },
+    {
+      "id": "en:cabin-pressure:noun",
+      "word": "cabin pressure",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Aviation physics phenomenon inside aircraft, not a residential home term."
+    },
+    {
+      "id": "en:civic:adjective",
+      "word": "civic",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:commuter:noun",
+      "word": "commuter",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:congestion-charge:noun",
+      "word": "congestion charge",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:congestion:noun",
+      "word": "congestion",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:couchette:noun",
+      "word": "couchette",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:denied-boarding:noun",
+      "word": "denied boarding",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Airline boarding procedure concept belonging to aviation/travel."
+    },
+    {
+      "id": "en:diversion:noun",
+      "word": "diversion",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "id": "en:frequent-flyer-status:noun",
+      "word": "frequent flyer status",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:legacy-carrier:noun",
+      "word": "legacy carrier",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "id": "en:municipal:adjective",
+      "word": "municipal",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:overpopulation:noun",
+      "word": "overpopulation",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:planning:noun",
+      "word": "planning",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:provider:noun",
+      "word": "provider",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:smart:noun",
+      "word": "smart",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:sprawl:noun",
+      "word": "sprawl",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:urban-planning:noun",
+      "word": "urban planning",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:urban:noun",
+      "word": "urban",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:use:noun",
+      "word": "use",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "id": "en:walkability:noun",
+      "word": "walkability",
+      "file": "vocabulary/en/b2/home/homes.json",
+      "reason": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "id": "en:food-desert:noun",
+      "word": "food desert",
+      "file": "vocabulary/en/b2/home/rooms.json",
+      "reason": "Sociological/geographical term for areas lacking fresh food options, not a residential room or home concept."
+    }
+  ],
+  "task2_home_entries_outside_home": [
+    {
+      "id": "en:blanket:noun",
+      "word": "blanket",
+      "current_file": "vocabulary/en/a0_a1/objects.json",
+      "proposed_owner": "vocabulary/en/a0_a1/home/furniture/bedroom.json",
+      "note": "Essential household bedding item currently categorized under general objects."
+    },
+    {
+      "id": "en:broom:noun",
+      "word": "broom",
+      "current_file": "vocabulary/en/a0_a1/objects.json",
+      "proposed_owner": "vocabulary/en/a0_a1/home/furniture/utility_laundry.json",
+      "note": "Household cleaning tool currently categorized under personal/general objects."
+    },
+    {
+      "id": "en:bucket:noun",
+      "word": "bucket",
+      "current_file": "vocabulary/en/a0_a1/objects.json",
+      "proposed_owner": "vocabulary/en/a0_a1/home/furniture/utility_laundry.json",
+      "note": "Household cleaning container currently categorized under general objects."
+    },
+    {
+      "id": "en:alarm-clock:noun",
+      "word": "alarm clock",
+      "current_file": "vocabulary/en/a2/objects.json",
+      "proposed_owner": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "note": "Bedroom clock/fixture currently categorized under general objects."
+    },
+    {
+      "id": "en:coat-rack:noun",
+      "word": "coat rack",
+      "current_file": "vocabulary/en/a2/general.json",
+      "proposed_owner": "vocabulary/en/a2/home/furniture/general.json",
+      "note": "Hallway/entryway furniture piece currently in general.json."
+    },
+    {
+      "id": "en:cabin:noun",
+      "word": "cabin",
+      "current_file": "vocabulary/en/a2/tourism.json",
+      "proposed_owner": "vocabulary/en/a2/home/homes.json",
+      "note": "Residential building type (rustic timber home) currently categorized under tourism."
+    },
+    {
+      "id": "en:castle:noun",
+      "word": "castle",
+      "current_file": "vocabulary/en/a2/tourism.json",
+      "proposed_owner": "vocabulary/en/a2/home/homes.json",
+      "note": "Historic residential building type currently categorized under tourism."
+    },
+    {
+      "id": "en:block-of-flats:noun",
+      "word": "block of flats",
+      "current_file": "vocabulary/en/a0_a1/places_transport.json",
+      "proposed_owner": "vocabulary/en/a0_a1/home/homes.json",
+      "note": "Multi-family residential building concept currently in places_transport.json."
+    },
+    {
+      "id": "en:dustbin:noun",
+      "word": "dustbin",
+      "current_file": "vocabulary/en/a2/general.json",
+      "proposed_owner": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "note": "Household waste receptacle currently in general.json."
+    },
+    {
+      "id": "en:recycling-bin:noun",
+      "word": "recycling bin",
+      "current_file": "vocabulary/en/a2/nature.json",
+      "proposed_owner": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "note": "Household waste sorting receptacle currently in nature.json."
+    },
+    {
+      "id": "en:dresser:noun",
+      "word": "dresser",
+      "current_file": "vocabulary/en/a2/general.json",
+      "proposed_owner": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "note": "Bedroom furniture piece currently in general.json."
+    }
+  ],
+  "task3_duplicates_and_near_duplicates": [
+    {
+      "concept": "apartment / flat / apartment-building / block-of-flats",
+      "entries": [
+        {
+          "id": "en:apartment:noun",
+          "word": "apartment",
+          "file": "vocabulary/en/a0/home/homes.json",
+          "region": "US",
+          "canonical_owner": "vocabulary/en/a0_a1/home/homes.json"
+        },
+        {
+          "id": "en:flat:noun",
+          "word": "flat",
+          "file": "vocabulary/en/a0/home/homes.json",
+          "region": "UK",
+          "canonical_owner": "vocabulary/en/a0_a1/home/homes.json"
+        },
+        {
+          "id": "en:apartment-building:noun",
+          "word": "apartment building",
+          "file": "vocabulary/en/a2/home/homes.json",
+          "region": "US",
+          "canonical_owner": "vocabulary/en/a2/home/homes.json"
+        },
+        {
+          "id": "en:block-of-flats:noun",
+          "word": "block of flats",
+          "file": "vocabulary/en/a0_a1/places_transport.json",
+          "region": "UK",
+          "canonical_owner": "vocabulary/en/a0_a1/home/homes.json"
+        }
+      ],
+      "proposal": "Co-locate residential building synonyms under vocabulary/en/<level>/home/homes.json, establishing regional links between US (apartment, apartment building) and UK (flat, block of flats) equivalents."
+    },
+    {
+      "concept": "bath / bathtub",
+      "entries": [
+        {
+          "id": "en:bath:noun",
+          "word": "bath",
+          "file": "vocabulary/en/a0/home/furniture/bathroom.json",
+          "region": "UK/general",
+          "canonical_owner": "vocabulary/en/a0_a1/home/furniture/bathroom.json"
+        },
+        {
+          "id": "en:bathtub:noun",
+          "word": "bathtub",
+          "file": "vocabulary/en/a1/home/furniture/bathroom.json",
+          "region": "US",
+          "canonical_owner": "vocabulary/en/a0_a1/home/furniture/bathroom.json"
+        }
+      ],
+      "proposal": "Keep both entries in vocabulary/en/a0_a1/home/furniture/bathroom.json, adding regional_equivalents cross-references."
+    },
+    {
+      "concept": "trash can / bin / dustbin / recycling bin",
+      "entries": [
+        {
+          "id": "en:dustbin:noun",
+          "word": "dustbin",
+          "file": "vocabulary/en/a2/general.json",
+          "region": "UK",
+          "canonical_owner": "vocabulary/en/a2/home/furniture/utility_laundry.json"
+        },
+        {
+          "id": "en:recycling-bin:noun",
+          "word": "recycling bin",
+          "file": "vocabulary/en/a2/nature.json",
+          "region": "neutral",
+          "canonical_owner": "vocabulary/en/a2/home/furniture/utility_laundry.json"
+        }
+      ],
+      "proposal": "Move household waste receptacles into vocabulary/en/<level>/home/furniture/utility_laundry.json and link UK (dustbin) with US (trash can)."
+    },
+    {
+      "concept": "lease (noun vs verb) & rent (noun vs verb)",
+      "entries": [
+        {
+          "id": "en:rent:noun",
+          "word": "rent",
+          "file": "vocabulary/en/a2/home/rooms.json",
+          "canonical_owner": "vocabulary/en/a2/home/homes.json"
+        },
+        {
+          "id": "en:rent:verb",
+          "word": "rent",
+          "file": "vocabulary/en/a2/home/rooms.json",
+          "canonical_owner": "vocabulary/en/a2/home/homes.json"
+        },
+        {
+          "id": "en:lease:verb",
+          "word": "lease",
+          "file": "vocabulary/en/a2/home/rooms.json",
+          "canonical_owner": "vocabulary/en/a2/home/homes.json"
+        },
+        {
+          "id": "en:lease:noun",
+          "word": "lease",
+          "file": "vocabulary/en/b1/home/furniture/general.json",
+          "canonical_owner": "vocabulary/en/b1/home/homes.json"
+        }
+      ],
+      "proposal": "Consolidate tenancy transaction terms (lease, rent) into home/homes.json under housing transactions."
+    }
+  ],
+  "task4_regional_variants": [
+    {
+      "id": "en:closet:noun",
+      "word": "closet",
+      "file": "vocabulary/en/a1/home/furniture/bedroom.json",
+      "region": "US",
+      "equivalent": "en:wardrobe:noun (UK)"
+    },
+    {
+      "id": "en:wardrobe:noun",
+      "word": "wardrobe",
+      "file": "vocabulary/en/a1/home/furniture/bedroom.json",
+      "region": "UK",
+      "equivalent": "en:closet:noun (US)"
+    },
+    {
+      "id": "en:couch:noun",
+      "word": "couch",
+      "file": "vocabulary/en/a1/home/furniture/living_room.json",
+      "region": "US",
+      "equivalent": "en:sofa:noun (neutral/UK)"
+    },
+    {
+      "id": "en:sofa:noun",
+      "word": "sofa",
+      "file": "vocabulary/en/a0/home/furniture/living_room.json",
+      "region": "neutral/UK",
+      "equivalent": "en:couch:noun (US)"
+    },
+    {
+      "id": "en:faucet:noun",
+      "word": "faucet",
+      "file": "vocabulary/en/a1/home/furniture/general.json",
+      "region": "US",
+      "equivalent": "en:tap:noun (UK)"
+    },
+    {
+      "id": "en:tap:noun",
+      "word": "tap",
+      "file": "vocabulary/en/a1/home/furniture/general.json",
+      "region": "UK",
+      "equivalent": "en:faucet:noun (US)"
+    },
+    {
+      "id": "en:cooker:noun",
+      "word": "cooker",
+      "file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "region": "UK",
+      "equivalent": "en:stove:noun (US)"
+    },
+    {
+      "id": "en:stove:noun",
+      "word": "stove",
+      "file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "region": "US",
+      "equivalent": "en:cooker:noun (UK)"
+    },
+    {
+      "id": "en:apartment:noun",
+      "word": "apartment",
+      "file": "vocabulary/en/a0/home/homes.json",
+      "region": "US",
+      "equivalent": "en:flat:noun (UK)"
+    },
+    {
+      "id": "en:flat:noun",
+      "word": "flat",
+      "file": "vocabulary/en/a0/home/homes.json",
+      "region": "UK",
+      "equivalent": "en:apartment:noun (US)"
+    },
+    {
+      "id": "en:yard:noun",
+      "word": "yard",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "region": "US",
+      "equivalent": "en:garden:noun (UK)"
+    },
+    {
+      "id": "en:garden:noun",
+      "word": "garden",
+      "file": "vocabulary/en/a0/home/rooms.json",
+      "region": "UK",
+      "equivalent": "en:yard:noun (US)"
+    },
+    {
+      "id": "en:elevator:noun",
+      "word": "elevator",
+      "file": "vocabulary/en/a2/home/rooms.json",
+      "region": "US",
+      "equivalent": "lift:noun (UK - missing)"
+    },
+    {
+      "id": "en:dustbin:noun",
+      "word": "dustbin",
+      "file": "vocabulary/en/a2/general.json",
+      "region": "UK",
+      "equivalent": "trash can (US - missing)"
+    },
+    {
+      "id": "en:dresser:noun",
+      "word": "dresser",
+      "file": "vocabulary/en/a2/general.json",
+      "region": "US",
+      "equivalent": "chest of drawers (UK - missing)"
+    }
+  ],
+  "task5_level_discrepancies": [
+    {
+      "word": "bed, chair, table, sofa, desk, apartment, flat, home, house, bathroom, bedroom, dining room, kitchen, living room, room",
+      "issue": "Split across separate `a0` subfolder (`vocabulary/en/a0/home/`) vs standard `vocabulary/en/a0_a1/` or `vocabulary/en/a1/home/`.",
+      "recommendation": "Consolidate `a0` and `a1` home subdirectories into unified `vocabulary/en/a0_a1/home/` structure with `levels: [\"A0\", \"A1\"]` property."
+    },
+    {
+      "word": "ceiling, floor, wall, door, window, roof",
+      "issue": "Ceiling is in `a1/home/rooms.json`, while roof, wall, door, window, floor appear in `a0_a1/` or `a1/` across different files.",
+      "recommendation": "Place basic structural room/building parts in `vocabulary/en/a0_a1/home/rooms.json` or `vocabulary/en/a0_a1/home/homes.json` consistently at A1 level."
+    },
+    {
+      "word": "lease, rent, suburb",
+      "issue": "`lease:verb` and `rent:noun` are in `a2/home/rooms.json`, while `lease:noun` is in `b1/home/furniture/general.json` with `levels: [\"A2\", \"B1\"]`.",
+      "recommendation": "Harmonize level tagging to A2/B1 across noun/verb forms in `home/homes.json`."
+    },
+    {
+      "word": "furniture general B1/B2 flood",
+      "issue": "86 terms in B1 and 7 terms in B2 in `home/furniture/general.json` are mostly travel/transit/urban planning terms erroneously assigned to Home B1/B2.",
+      "recommendation": "Re-level or re-home non-furniture items to their respective non-home domains, leaving true Home B1/B2 vocabulary (e.g. `insulation`, `electrical wiring`, `ventilation`, `tenancy agreement`)."
+    }
+  ],
+  "task6_missing_home_words_audit": [
+    {
+      "term": "bedside table",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a1/home/furniture/bedroom.json` (A1)."
+    },
+    {
+      "term": "bunk bed",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a2/home/furniture/bedroom.json` (A2)."
+    },
+    {
+      "term": "bookshelf",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a1/home/furniture/living_room.json` (A1)."
+    },
+    {
+      "term": "bin",
+      "status": "missing (only dustbin / recycling bin exist)",
+      "recommendation": "Add generic `bin` (UK) to `vocabulary/en/a1/home/furniture/general.json` (A1)."
+    },
+    {
+      "term": "bench",
+      "status": "missing in Home (only benchmark exists)",
+      "recommendation": "Add `bench` to `vocabulary/en/a2/home/furniture/outdoor_garden.json` (A2)."
+    },
+    {
+      "term": "boiler",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a2/home/furniture/utility_laundry.json` (A2)."
+    },
+    {
+      "term": "bungalow",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a2/home/homes.json` (A2)."
+    },
+    {
+      "term": "chalet",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/b1/home/homes.json` (B1)."
+    },
+    {
+      "term": "chimney",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a2/home/homes.json` (A2)."
+    },
+    {
+      "term": "chest of drawers",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a1/home/furniture/bedroom.json` (A1, UK equivalent of dresser)."
+    },
+    {
+      "term": "coffee table",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a1/home/furniture/living_room.json` (A1)."
+    },
+    {
+      "term": "coffee maker",
+      "status": "missing",
+      "recommendation": "Add to `vocabulary/en/a2/home/furniture/kitchen.json` (A2)."
+    },
+    {
+      "term": "wardrobe",
+      "status": "present (`en:wardrobe:noun` in `vocabulary/en/a1/home/furniture/bedroom.json`)",
+      "recommendation": "Keep; add explicit regional mapping to `closet`."
+    },
+    {
+      "term": "cooker",
+      "status": "present (`en:cooker:noun` in `vocabulary/en/a1/home/furniture/kitchen.json`)",
+      "recommendation": "Keep; add explicit regional mapping to `stove`."
+    },
+    {
+      "term": "dishwasher",
+      "status": "present (`en:dishwasher:noun` in `vocabulary/en/a2/home/furniture/kitchen.json`)",
+      "recommendation": "Keep."
+    },
+    {
+      "term": "curtain",
+      "status": "present (`en:curtain:noun` in `vocabulary/en/a1/home/homes.json`)",
+      "recommendation": "Move from `home/homes.json` to `home/furniture/living_room.json` or `bedroom.json`."
+    },
+    {
+      "term": "cupboard",
+      "status": "present (`en:cupboard:noun` in `vocabulary/en/a1/home/furniture/kitchen.json`)",
+      "recommendation": "Keep."
+    },
+    {
+      "term": "flat",
+      "status": "present (`en:flat:noun` in `vocabulary/en/a0/home/homes.json`)",
+      "recommendation": "Keep; add explicit regional mapping to `apartment`."
+    },
+    {
+      "term": "lift",
+      "status": "missing as noun in Home (`en:lift:verb` exists in `daily_verbs.json`)",
+      "recommendation": "Add `lift:noun` (UK) to `vocabulary/en/a2/home/rooms.json` as regional equivalent of `elevator`."
+    },
+    {
+      "term": "tap",
+      "status": "present (`en:tap:noun` in `vocabulary/en/a1/home/furniture/general.json`)",
+      "recommendation": "Keep; move to `bathroom.json`/`kitchen.json` and map to `faucet`."
+    }
+  ],
+  "task7_proposed_mapping_table": [
+    {
+      "current_id": "en:shower:noun",
+      "word": "shower",
+      "current_file": "vocabulary/en/a0/home/furniture/bathroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bathroom",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/bathroom.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:toilet:noun",
+      "word": "toilet",
+      "current_file": "vocabulary/en/a0/home/furniture/bathroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bathroom",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/bathroom.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:bed:noun",
+      "word": "bed",
+      "current_file": "vocabulary/en/a0/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/bedroom.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:chair:noun",
+      "word": "chair",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/general.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:clean:adjective",
+      "word": "clean",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "descriptors",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/a2/general_adjectives.json",
+      "action": "move_and_retheme",
+      "notes": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "current_id": "en:clock:noun",
+      "word": "clock",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/general.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:cup:noun",
+      "word": "cup",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "food_drink",
+      "proposed_sub_theme": "tableware",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/a0_a1/food_drink.json",
+      "action": "move_and_retheme",
+      "notes": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "current_id": "en:dirty:adjective",
+      "word": "dirty",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "descriptors",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/a2/general_adjectives.json",
+      "action": "move_and_retheme",
+      "notes": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "current_id": "en:kitchen:noun",
+      "word": "kitchen",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/general.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:lamp:noun",
+      "word": "lamp",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/general.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:table:noun",
+      "word": "table",
+      "current_file": "vocabulary/en/a0/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/general.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:sofa:noun",
+      "word": "sofa",
+      "current_file": "vocabulary/en/a0/home/furniture/living_room.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "living_room",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/living_room.json",
+      "action": "tag-region",
+      "notes": "Tag region: UK and cross-reference US equivalent."
+    },
+    {
+      "current_id": "en:desk:noun",
+      "word": "desk",
+      "current_file": "vocabulary/en/a0/home/furniture/office.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "office",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/office.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:apartment:noun",
+      "word": "apartment",
+      "current_file": "vocabulary/en/a0/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/homes.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:flat:noun",
+      "word": "flat",
+      "current_file": "vocabulary/en/a0/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/homes.json",
+      "action": "tag-region",
+      "notes": "Tag region: UK and cross-reference US equivalent."
+    },
+    {
+      "current_id": "en:home:noun",
+      "word": "home",
+      "current_file": "vocabulary/en/a0/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/homes.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:house:noun",
+      "word": "house",
+      "current_file": "vocabulary/en/a0/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/homes.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:bathroom:noun",
+      "word": "bathroom",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:bedroom:noun",
+      "word": "bedroom",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:dining-room:noun",
+      "word": "dining room",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:door:noun",
+      "word": "door",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:floor:noun",
+      "word": "floor",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:garden:noun",
+      "word": "garden",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "tag-region",
+      "notes": "Tag region: UK and cross-reference US equivalent."
+    },
+    {
+      "current_id": "en:room:noun",
+      "word": "room",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:wall:noun",
+      "word": "wall",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:window:noun",
+      "word": "window",
+      "current_file": "vocabulary/en/a0/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/rooms.json",
+      "action": "move",
+      "notes": "Consolidate from legacy a0/ directory to standard a0_a1/ directory structure."
+    },
+    {
+      "current_id": "en:bathtub:noun",
+      "word": "bathtub",
+      "current_file": "vocabulary/en/a1/home/furniture/bathroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bathroom",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/bathroom.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:closet:noun",
+      "word": "closet",
+      "current_file": "vocabulary/en/a1/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/bedroom.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:wardrobe:noun",
+      "word": "wardrobe",
+      "current_file": "vocabulary/en/a1/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/bedroom.json",
+      "action": "tag-region",
+      "notes": "Tag region: UK and cross-reference US equivalent."
+    },
+    {
+      "current_id": "en:bowl:noun",
+      "word": "bowl",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:carpet:noun",
+      "word": "carpet",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:cleaning:noun",
+      "word": "cleaning",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:dining:noun",
+      "word": "dining",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:faucet:noun",
+      "word": "faucet",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:fire-alarm:noun",
+      "word": "fire alarm",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:fork:noun",
+      "word": "fork",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:freezer:noun",
+      "word": "freezer",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:glass:noun",
+      "word": "glass",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:key:noun",
+      "word": "key",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:light:verb",
+      "word": "light",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:living:noun",
+      "word": "living",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:lock:noun",
+      "word": "lock",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:machine:noun",
+      "word": "machine",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:messy:noun",
+      "word": "messy",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:moving:noun",
+      "word": "moving",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:napkin:noun",
+      "word": "napkin",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:pan:noun",
+      "word": "pan",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:plate:noun",
+      "word": "plate",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:pot:noun",
+      "word": "pot",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rug:noun",
+      "word": "rug",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:seat:noun",
+      "word": "seat",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:shelf:noun",
+      "word": "shelf",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:sink:noun",
+      "word": "sink",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:soap:noun",
+      "word": "soap",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:spoon:noun",
+      "word": "spoon",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:tap:noun",
+      "word": "tap",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "tag-region",
+      "notes": "Tag region: UK and cross-reference US equivalent."
+    },
+    {
+      "current_id": "en:tidy:adjective",
+      "word": "tidy",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:toothbrush:noun",
+      "word": "toothbrush",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:washing:noun",
+      "word": "washing",
+      "current_file": "vocabulary/en/a1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:cooker:noun",
+      "word": "cooker",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "tag-region",
+      "notes": "Tag region: UK and cross-reference US equivalent."
+    },
+    {
+      "current_id": "en:cupboard:noun",
+      "word": "cupboard",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:fridge:noun",
+      "word": "fridge",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:microwave:noun",
+      "word": "microwave",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:oven:noun",
+      "word": "oven",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:refrigerator:noun",
+      "word": "refrigerator",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:stove:noun",
+      "word": "stove",
+      "current_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/kitchen.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:couch:noun",
+      "word": "couch",
+      "current_file": "vocabulary/en/a1/home/furniture/living_room.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "living_room",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/living_room.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:apartment-building:noun",
+      "word": "apartment building",
+      "current_file": "vocabulary/en/a1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:building:noun",
+      "word": "building",
+      "current_file": "vocabulary/en/a1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:curtain:noun",
+      "word": "curtain",
+      "current_file": "vocabulary/en/a1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "living_room",
+      "proposed_owner_file": "vocabulary/en/a1/home/furniture/living_room.json",
+      "action": "move",
+      "notes": "Move from home/homes.json to home/furniture/living_room.json."
+    },
+    {
+      "current_id": "en:ceiling:noun",
+      "word": "ceiling",
+      "current_file": "vocabulary/en/a1/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:garage:noun",
+      "word": "garage",
+      "current_file": "vocabulary/en/a1/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:living-room:noun",
+      "word": "living room",
+      "current_file": "vocabulary/en/a1/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:roof:noun",
+      "word": "roof",
+      "current_file": "vocabulary/en/a1/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:stairs:noun",
+      "word": "stairs",
+      "current_file": "vocabulary/en/a1/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a1/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:bath:noun",
+      "word": "bath",
+      "current_file": "vocabulary/en/a2/home/furniture/bathroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bathroom",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/bathroom.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:facilities:noun",
+      "word": "facilities",
+      "current_file": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:mattress:noun",
+      "word": "mattress",
+      "current_file": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:adjusted:adjective",
+      "word": "adjusted",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "descriptors",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/a2/general_adjectives.json",
+      "action": "move_and_retheme",
+      "notes": "General descriptor adjective, not specific to home structure, room, furniture, or appliance."
+    },
+    {
+      "current_id": "en:architectural:adjective",
+      "word": "architectural",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:bind:verb",
+      "word": "bind",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "actions",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/actions.json",
+      "action": "move_and_retheme",
+      "notes": "General action verb meaning to tie or fasten, not a home structure, furniture, or utility concept."
+    },
+    {
+      "current_id": "en:bookcase:noun",
+      "word": "bookcase",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:brick:noun",
+      "word": "brick",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:broken:adjective",
+      "word": "broken",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:bulb:noun",
+      "word": "bulb",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:childcare:noun",
+      "word": "childcare",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:daycare:noun",
+      "word": "daycare",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:extend:verb",
+      "word": "extend",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:extension:noun",
+      "word": "extension",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:hole:noun",
+      "word": "hole",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:household:noun",
+      "word": "household",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:interior:noun",
+      "word": "interior",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:layout:noun",
+      "word": "layout",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:leak:noun",
+      "word": "leak",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:renew:verb",
+      "word": "renew",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:renewal:noun",
+      "word": "renewal",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:restore:verb",
+      "word": "restore",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:stare:verb",
+      "word": "stare",
+      "current_file": "vocabulary/en/a2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:blender:noun",
+      "word": "blender",
+      "current_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:dishwasher:noun",
+      "word": "dishwasher",
+      "current_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:kettle:noun",
+      "word": "kettle",
+      "current_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:toaster:noun",
+      "word": "toaster",
+      "current_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "appliances",
+      "proposed_room": "kitchen",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/kitchen.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:armchair:noun",
+      "word": "armchair",
+      "current_file": "vocabulary/en/a2/home/furniture/living_room.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "living_room",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/living_room.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:fence:noun",
+      "word": "fence",
+      "current_file": "vocabulary/en/a2/home/furniture/outdoor_garden.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "outdoor",
+      "proposed_room": "outdoor",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/outdoor_garden.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:vacuum-cleaner:noun",
+      "word": "vacuum cleaner",
+      "current_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "utilities",
+      "proposed_room": "utility_laundry",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:vacuum:verb",
+      "word": "vacuum",
+      "current_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "utilities",
+      "proposed_room": "utility_laundry",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:washing-machine:noun",
+      "word": "washing machine",
+      "current_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "utilities",
+      "proposed_room": "utility_laundry",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:cabinet:noun",
+      "word": "cabinet",
+      "current_file": "vocabulary/en/a2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:cottage:noun",
+      "word": "cottage",
+      "current_file": "vocabulary/en/a2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:adjoining-rooms:noun",
+      "word": "adjoining rooms",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:agreement:noun",
+      "word": "agreement",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:air-conditioner:noun",
+      "word": "air conditioner",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:air-conditioning:noun",
+      "word": "air conditioning",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:air:noun",
+      "word": "air",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:appliance:noun",
+      "word": "appliance",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:attic:noun",
+      "word": "attic",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:balcony:noun",
+      "word": "balcony",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:basement:noun",
+      "word": "basement",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:cellar:noun",
+      "word": "cellar",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:conditioning:noun",
+      "word": "conditioning",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:corridor:noun",
+      "word": "corridor",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:cot:noun",
+      "word": "cot",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:doorbell:noun",
+      "word": "doorbell",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:drawer:noun",
+      "word": "drawer",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:dryer:noun",
+      "word": "dryer",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:elevator:noun",
+      "word": "elevator",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:emergency-exit:noun",
+      "word": "emergency exit",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:expand:verb",
+      "word": "expand",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:furnish:verb",
+      "word": "furnish",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:furnished:adjective",
+      "word": "furnished",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:furniture:noun",
+      "word": "furniture",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:garden:verb",
+      "word": "garden",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:gas:noun",
+      "word": "gas",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:heater:noun",
+      "word": "heater",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:heating:noun",
+      "word": "heating",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:iron:noun",
+      "word": "iron",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:landlord:noun",
+      "word": "landlord",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:laundromat:noun",
+      "word": "laundromat",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:lease:verb",
+      "word": "lease",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:mailbox:noun",
+      "word": "mailbox",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:mortgage:noun",
+      "word": "mortgage",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:move-in:noun",
+      "word": "move in",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:move-out:noun",
+      "word": "move out",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:neighborhood:noun",
+      "word": "neighborhood",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:neighbourhood:noun",
+      "word": "neighbourhood",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:noisy:noun",
+      "word": "noisy",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "current_id": "en:out:noun",
+      "word": "out",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:own:verb",
+      "word": "own",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "current_id": "en:place-of-birth:noun",
+      "word": "place of birth",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "identity",
+      "proposed_sub_theme": "personal_details",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/a2/identity.json",
+      "action": "move_and_retheme",
+      "notes": "Administrative personal identity metadata, not home structure or household object."
+    },
+    {
+      "current_id": "en:playdate:noun",
+      "word": "playdate",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:postcode:noun",
+      "word": "postcode",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "identity",
+      "proposed_sub_theme": "personal_details",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/a2/identity.json",
+      "action": "move_and_retheme",
+      "notes": "Administrative personal identity metadata, not home structure or household object."
+    },
+    {
+      "current_id": "en:property:noun",
+      "word": "property",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:quiet:noun",
+      "word": "quiet",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "General adjective/noun/verb misplaced in home/furniture directory."
+    },
+    {
+      "current_id": "en:renovate:verb",
+      "word": "renovate",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rent:noun",
+      "word": "rent",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rent:verb",
+      "word": "rent",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:settling-in:noun",
+      "word": "settling in",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:shelter:noun",
+      "word": "shelter",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:suburb:noun",
+      "word": "suburb",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:survive:verb",
+      "word": "survive",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "actions",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/actions.json",
+      "action": "move_and_retheme",
+      "notes": "General action verb, not specific to housing or home environment."
+    },
+    {
+      "current_id": "en:tenant:noun",
+      "word": "tenant",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:terrace:noun",
+      "word": "terrace",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:unfurnished:adjective",
+      "word": "unfurnished",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:yard:noun",
+      "word": "yard",
+      "current_file": "vocabulary/en/a2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/rooms.json",
+      "action": "tag-region",
+      "notes": "Tag region: US and cross-reference UK equivalent."
+    },
+    {
+      "current_id": "en:utilities:noun",
+      "word": "utilities",
+      "current_file": "vocabulary/en/b1/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/bedroom.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:utility-bill:noun",
+      "word": "utility bill",
+      "current_file": "vocabulary/en/b1/home/furniture/bedroom.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "bedroom",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/bedroom.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:affordable:adjective",
+      "word": "affordable",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:alternative-route:noun",
+      "word": "alternative route",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:amenities:noun",
+      "word": "amenities",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:bike-lane:noun",
+      "word": "bike lane",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:boarding-priority:noun",
+      "word": "boarding priority",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Airline boarding procedure concept belonging to aviation/travel."
+    },
+    {
+      "current_id": "en:breakdown-assistance:noun",
+      "word": "breakdown assistance",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:breakdown:noun",
+      "word": "breakdown",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:budget-carrier:noun",
+      "word": "budget carrier",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:checked-in-luggage:noun",
+      "word": "checked-in luggage",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:commute-time:noun",
+      "word": "commute time",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:commute:verb",
+      "word": "commute",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:commuting:noun",
+      "word": "commuting",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:complimentary-upgrade:noun",
+      "word": "complimentary upgrade",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:concierge-service:noun",
+      "word": "concierge service",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:conductor:noun",
+      "word": "conductor",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:connecting-time:noun",
+      "word": "connecting time",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:courier-service:noun",
+      "word": "courier service",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:driving-test:noun",
+      "word": "driving test",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:e-gate:noun",
+      "word": "e-gate",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:emergency-landing:noun",
+      "word": "emergency landing",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:estate-agency:noun",
+      "word": "estate agency",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:eviction:noun",
+      "word": "eviction",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:excess-mileage:noun",
+      "word": "excess mileage",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:expiration:noun",
+      "word": "expiration",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:fire:noun",
+      "word": "fire",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "General hazard noun placed under furniture/general; should be categorized under fireplace/heating or safety sub-theme."
+    },
+    {
+      "current_id": "en:fixed-itinerary:noun",
+      "word": "fixed itinerary",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:flexible-itinerary:noun",
+      "word": "flexible itinerary",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:frequent-flyer:noun",
+      "word": "frequent flyer",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:gentrification:noun",
+      "word": "gentrification",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:housing:noun",
+      "word": "housing",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:infrastructure:noun",
+      "word": "infrastructure",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:inspection:noun",
+      "word": "inspection",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:interrail:noun",
+      "word": "interrail",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:layover-time:noun",
+      "word": "layover time",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:learner-s-permit:noun",
+      "word": "learner's permit",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:lease:noun",
+      "word": "lease",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:long-term-let:noun",
+      "word": "long-term let",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:maintenance-issue:noun",
+      "word": "maintenance issue",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:maintenance:noun",
+      "word": "maintenance",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:mechanical-issue:noun",
+      "word": "mechanical issue",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:missed-connection:noun",
+      "word": "missed connection",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:neighborhood-safety:noun",
+      "word": "neighborhood safety",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:neighborhood-watch:noun",
+      "word": "neighborhood watch",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:noise-complaint:noun",
+      "word": "noise complaint",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:overcrowding:noun",
+      "word": "overcrowding",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:overhead-compartment:noun",
+      "word": "overhead compartment",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:oversized-baggage:noun",
+      "word": "oversized baggage",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:personalized-service:noun",
+      "word": "personalized service",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:pest-control:noun",
+      "word": "pest control",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:plumbing:noun",
+      "word": "plumbing",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:pre-boarding:noun",
+      "word": "pre-boarding",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Airline boarding procedure concept belonging to aviation/travel."
+    },
+    {
+      "current_id": "en:prohibited-items:noun",
+      "word": "prohibited items",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:property-manager:noun",
+      "word": "property manager",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:property-value:noun",
+      "word": "property value",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:public-transit-system:noun",
+      "word": "public transit system",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:real-estate-agent:noun",
+      "word": "real estate agent",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rebooking-fee:noun",
+      "word": "rebooking fee",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:regeneration:noun",
+      "word": "regeneration",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:registration:noun",
+      "word": "registration",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:renovation:noun",
+      "word": "renovation",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rental-agreement:noun",
+      "word": "rental agreement",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rental-contract:noun",
+      "word": "rental contract",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:rental-property:noun",
+      "word": "rental property",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:restricted-items:noun",
+      "word": "restricted items",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:ride-sharing:noun",
+      "word": "ride-sharing",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:roadside-assistance:noun",
+      "word": "roadside assistance",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:route-planning:noun",
+      "word": "route planning",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:security-deposit:noun",
+      "word": "security deposit",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:service-disruption:noun",
+      "word": "service disruption",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:short-term-let:noun",
+      "word": "short-term let",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:sleeper-train:noun",
+      "word": "sleeper train",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:special-meal-request:noun",
+      "word": "special meal request",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:standby-list:noun",
+      "word": "standby list",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:stopover:noun",
+      "word": "stopover",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:technical-delay:noun",
+      "word": "technical delay",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:tenancy-agreement:noun",
+      "word": "tenancy agreement",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:toll:noun",
+      "word": "toll",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:transit:noun",
+      "word": "transit",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:transport:noun",
+      "word": "transport",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:unreserved-seating:noun",
+      "word": "unreserved seating",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:upgrade-voucher:noun",
+      "word": "upgrade voucher",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:urbanisation:noun",
+      "word": "urbanisation",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:urbanization:noun",
+      "word": "urbanization",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:vehicle-registration:noun",
+      "word": "vehicle registration",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:weather-delay:noun",
+      "word": "weather delay",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Commercial, travel, or hospitality service term rather than residential home feature."
+    },
+    {
+      "current_id": "en:zoning:noun",
+      "word": "zoning",
+      "current_file": "vocabulary/en/b1/home/furniture/general.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:homeowner:noun",
+      "word": "homeowner",
+      "current_file": "vocabulary/en/b1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:house-swap:noun",
+      "word": "house swap",
+      "current_file": "vocabulary/en/b1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:nursing-home:noun",
+      "word": "nursing home",
+      "current_file": "vocabulary/en/b1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:skyscraper:noun",
+      "word": "skyscraper",
+      "current_file": "vocabulary/en/b1/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b1/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:room-mix-up:noun",
+      "word": "room mix-up",
+      "current_file": "vocabulary/en/b1/home/rooms.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Hotel and hospitality reservation error, not a residential room term."
+    },
+    {
+      "current_id": "en:affordable-housing:noun",
+      "word": "affordable housing",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:commuter-belt:noun",
+      "word": "commuter belt",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:electrical-wiring:noun",
+      "word": "electrical wiring",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:holding-pattern:noun",
+      "word": "holding pattern",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:insulation:noun",
+      "word": "insulation",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:regulation:noun",
+      "word": "regulation",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:ventilation:noun",
+      "word": "ventilation",
+      "current_file": "vocabulary/en/b2/home/furniture/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/furniture/general.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:affordable-housing-crisis:noun",
+      "word": "affordable housing crisis",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:affordable:noun",
+      "word": "affordable",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:biometric-passport:noun",
+      "word": "biometric passport",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Travel and identity document, entirely unrelated to home or housing."
+    },
+    {
+      "current_id": "en:cabin-pressure:noun",
+      "word": "cabin pressure",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Aviation physics phenomenon inside aircraft, not a residential home term."
+    },
+    {
+      "current_id": "en:civic:adjective",
+      "word": "civic",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:commuter:noun",
+      "word": "commuter",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "transport",
+      "proposed_sub_theme": "commuting",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/transport.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:congestion-charge:noun",
+      "word": "congestion charge",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:congestion:noun",
+      "word": "congestion",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:couchette:noun",
+      "word": "couchette",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:denied-boarding:noun",
+      "word": "denied boarding",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Airline boarding procedure concept belonging to aviation/travel."
+    },
+    {
+      "current_id": "en:diversion:noun",
+      "word": "diversion",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to transportation, traffic, and commuting domain rather than residential home."
+    },
+    {
+      "current_id": "en:frequent-flyer-status:noun",
+      "word": "frequent flyer status",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:gated-community:noun",
+      "word": "gated community",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:homeowners-association:noun",
+      "word": "homeowners association",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:hub:noun",
+      "word": "hub",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:land:noun",
+      "word": "land",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:legacy-carrier:noun",
+      "word": "legacy carrier",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to aviation and travel domain rather than residential home or housing."
+    },
+    {
+      "current_id": "en:minimum-connection-time:noun",
+      "word": "minimum connection time",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:municipal:adjective",
+      "word": "municipal",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:overbooking-policy:noun",
+      "word": "overbooking policy",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:overpopulation:noun",
+      "word": "overpopulation",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:planning:noun",
+      "word": "planning",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:provider:noun",
+      "word": "provider",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:smart:noun",
+      "word": "smart",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:sprawl:noun",
+      "word": "sprawl",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:sublet:verb",
+      "word": "sublet",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:urban-planning:noun",
+      "word": "urban planning",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:urban:noun",
+      "word": "urban",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:use:noun",
+      "word": "use",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Abstract general business/administrative noun improperly categorized under home/housing."
+    },
+    {
+      "current_id": "en:utility:noun",
+      "word": "utility",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:walkability:noun",
+      "word": "walkability",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "society",
+      "proposed_sub_theme": "urban_planning",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b2/society.json",
+      "action": "move_and_retheme",
+      "notes": "Belongs to urban planning, municipal policy, or civic geography rather than residential home."
+    },
+    {
+      "current_id": "en:wear-and-tear:noun",
+      "word": "wear and tear",
+      "current_file": "vocabulary/en/b2/home/homes.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "building_types",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/homes.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:assisted-living:noun",
+      "word": "assisted living",
+      "current_file": "vocabulary/en/b2/home/rooms.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "rooms_spaces",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/b2/home/rooms.json",
+      "action": "keep",
+      "notes": "Valid Home/Housing topic entry."
+    },
+    {
+      "current_id": "en:food-desert:noun",
+      "word": "food desert",
+      "current_file": "vocabulary/en/b2/home/rooms.json",
+      "proposed_theme": "travel",
+      "proposed_sub_theme": "general",
+      "proposed_room": "none",
+      "proposed_owner_file": "vocabulary/en/b1/travel.json",
+      "action": "move_and_retheme",
+      "notes": "Sociological/geographical term for areas lacking fresh food options, not a residential room or home concept."
+    },
+    {
+      "current_id": "en:blanket:noun",
+      "word": "blanket",
+      "current_file": "vocabulary/en/a0_a1/objects.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/bedroom.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a0_a1/objects.json: Essential household bedding item currently categorized under general objects."
+    },
+    {
+      "current_id": "en:broom:noun",
+      "word": "broom",
+      "current_file": "vocabulary/en/a0_a1/objects.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/utility_laundry.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a0_a1/objects.json: Household cleaning tool currently categorized under personal/general objects."
+    },
+    {
+      "current_id": "en:bucket:noun",
+      "word": "bucket",
+      "current_file": "vocabulary/en/a0_a1/objects.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/furniture/utility_laundry.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a0_a1/objects.json: Household cleaning container currently categorized under general objects."
+    },
+    {
+      "current_id": "en:alarm-clock:noun",
+      "word": "alarm clock",
+      "current_file": "vocabulary/en/a2/objects.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/objects.json: Bedroom clock/fixture currently categorized under general objects."
+    },
+    {
+      "current_id": "en:coat-rack:noun",
+      "word": "coat rack",
+      "current_file": "vocabulary/en/a2/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/general.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/general.json: Hallway/entryway furniture piece currently in general.json."
+    },
+    {
+      "current_id": "en:cabin:noun",
+      "word": "cabin",
+      "current_file": "vocabulary/en/a2/tourism.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/homes.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/tourism.json: Residential building type (rustic timber home) currently categorized under tourism."
+    },
+    {
+      "current_id": "en:castle:noun",
+      "word": "castle",
+      "current_file": "vocabulary/en/a2/tourism.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/homes.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/tourism.json: Historic residential building type currently categorized under tourism."
+    },
+    {
+      "current_id": "en:block-of-flats:noun",
+      "word": "block of flats",
+      "current_file": "vocabulary/en/a0_a1/places_transport.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a0_a1/home/homes.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a0_a1/places_transport.json: Multi-family residential building concept currently in places_transport.json."
+    },
+    {
+      "current_id": "en:dustbin:noun",
+      "word": "dustbin",
+      "current_file": "vocabulary/en/a2/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/general.json: Household waste receptacle currently in general.json."
+    },
+    {
+      "current_id": "en:recycling-bin:noun",
+      "word": "recycling bin",
+      "current_file": "vocabulary/en/a2/nature.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/utility_laundry.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/nature.json: Household waste sorting receptacle currently in nature.json."
+    },
+    {
+      "current_id": "en:dresser:noun",
+      "word": "dresser",
+      "current_file": "vocabulary/en/a2/general.json",
+      "proposed_theme": "housing",
+      "proposed_sub_theme": "furniture",
+      "proposed_room": "general",
+      "proposed_owner_file": "vocabulary/en/a2/home/furniture/bedroom.json",
+      "action": "move",
+      "notes": "External home item currently in vocabulary/en/a2/general.json: Bedroom furniture piece currently in general.json."
+    }
+  ]
+}
