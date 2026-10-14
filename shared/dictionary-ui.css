@@ -50,8 +50,63 @@
   }
 }
 
+/* Ecosystem Navigation Top Strip */
+.cosy-ecosystem-strip {
+  background-color: var(--cosy-dict-card-bg);
+  border-bottom: 1px solid var(--cosy-dict-border);
+  padding: 8px 16px;
+  font-size: 13px;
+  font-family: var(--cosy-font-sans, 'Nunito', 'DM Sans', sans-serif);
+}
+
+.cosy-strip-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cosy-strip-brand {
+  font-weight: 700;
+  color: var(--cosy-dict-primary);
+}
+
+.cosy-strip-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cosy-strip-link {
+  color: var(--cosy-dict-text-muted);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    color: var(--cosy-dict-primary);
+    background-color: var(--cosy-dict-badge-bg);
+  }
+
+  &.active {
+    color: var(--cosy-dict-primary);
+    background-color: var(--cosy-dict-badge-bg);
+    font-weight: 700;
+  }
+}
+
 /* Global High-Contrast Focus Indicator for Accessibility */
-.cosy-dict-container *:focus-visible {
+.cosy-dict-container *:focus-visible,
+.cosy-ecosystem-strip *:focus-visible {
   outline: 3px solid var(--cosy-semantic-focus, #416b49) !important;
   outline-offset: 2px !important;
   box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));

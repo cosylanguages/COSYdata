@@ -11,7 +11,11 @@
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "миски"
+    "plural_form": "миски",
+    "levels": [
+      "A1",
+      "A2"
+    ]
   },
   {
     "id": "ru:kovyor:noun",
@@ -54,20 +58,6 @@
     "countability": "uncountable"
   },
   {
-    "id": "ru:kran:noun",
-    "word": "кран",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:faucet:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "краны"
-  },
-  {
     "id": "ru:pozharnaya-signalizatsiya:noun",
     "word": "пожарная сигнализация",
     "language": "ru",
@@ -82,20 +72,6 @@
     "plural_form": "пожарные сигнализации"
   },
   {
-    "id": "ru:vilka:noun",
-    "word": "вилка",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:fork:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "вилки"
-  },
-  {
     "id": "ru:morozilnik:noun",
     "word": "морозильник",
     "language": "ru",
@@ -108,20 +84,6 @@
     "gender": "masculine",
     "countability": "countable",
     "plural_form": "морозильники"
-  },
-  {
-    "id": "ru:stakan:noun",
-    "word": "стакан",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:glass:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "стаканы"
   },
   {
     "id": "ru:klyuch:noun",
@@ -173,21 +135,12 @@
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "замки"
-  },
-  {
-    "id": "ru:mashina:noun",
-    "word": "машина",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:machine:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "машины"
+    "plural_form": "замки",
+    "levels": [
+      "A1",
+      "A2",
+      "B2"
+    ]
   },
   {
     "id": "ru:besporyadok:noun",
@@ -217,20 +170,6 @@
     "plural_form": "переезды"
   },
   {
-    "id": "ru:salfetka:noun",
-    "word": "салфетка",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:napkin:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "салфетки"
-  },
-  {
     "id": "ru:skovoroda:noun",
     "word": "сковорода",
     "language": "ru",
@@ -243,20 +182,6 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "сковороды"
-  },
-  {
-    "id": "ru:tarelka:noun",
-    "word": "тарелка",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:plate:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "тарелки"
   },
   {
     "id": "ru:kastryulya:noun",
@@ -344,38 +269,6 @@
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "uncountable"
-  },
-  {
-    "id": "ru:lozhka:noun",
-    "word": "ложка",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:spoon:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "ложки"
-  },
-  {
-    "id": "ru:kran:noun",
-    "word": "кран",
-    "language": "ru",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:tap:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "kitchen",
-      "bathroom"
-    ],
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "краны"
   },
   {
     "id": "ru:akkuratnyy:adjective",
