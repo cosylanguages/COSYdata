@@ -45,7 +45,8 @@
       "en:cook:verb",
       "en:boil:verb",
       "en:unplug:verb"
-    ]
+    ],
+    "concept": "housing.appliances.cooker"
   },
   {
     "id": "en:cupboard:noun",
@@ -86,6 +87,10 @@
       "en:tidy:verb",
       "en:clean:verb",
       "en:dust:verb"
+    ],
+    "concept": "housing.appliances.cupboard",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -164,6 +169,10 @@
       "en:cook:verb",
       "en:boil:verb",
       "en:unplug:verb"
+    ],
+    "concept": "housing.appliances.microwave",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -203,7 +212,8 @@
       "en:cook:verb",
       "en:boil:verb",
       "en:unplug:verb"
-    ]
+    ],
+    "concept": "housing.appliances.oven"
   },
   {
     "id": "en:refrigerator:noun",
@@ -239,6 +249,9 @@
       "en:clean:verb",
       "en:put-in:verb",
       "en:unplug:verb"
+    ],
+    "region": [
+      "UK"
     ]
   },
   {
@@ -287,6 +300,7 @@
       "en:cook:verb",
       "en:boil:verb",
       "en:unplug:verb"
-    ]
+    ],
+    "concept": "housing.appliances.stove"
   }
 ]

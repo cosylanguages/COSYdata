@@ -6,12 +6,13 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:apartment-building:noun",
+    "concept": "housing.building_types.apartment_building",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "жилые дома"
+    "plural_form": "жилые дома",
+    "translation_of": "en:apartment-building:noun"
   },
   {
     "id": "ru:zdanie:noun",
@@ -20,11 +21,12 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:building:noun",
+    "concept": "housing.building_types.building",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "здания"
+    "plural_form": "здания",
+    "translation_of": "en:building:noun"
   }
 ]

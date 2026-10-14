@@ -1,30 +1,17 @@
 [
   {
-    "id": "ru:stul:noun",
-    "word": "стул",
-    "language": "ru",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:chair:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "стулья"
-  },
-  {
     "id": "ru:chasy:noun",
     "word": "часы",
     "language": "ru",
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:clock:noun",
+    "concept": "housing.furniture.clock",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:clock:noun"
   },
   {
     "id": "ru:kukhnya:noun",
@@ -33,12 +20,13 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:kitchen:noun",
+    "concept": "housing.furniture.kitchen",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "кухни"
+    "plural_form": "кухни",
+    "translation_of": "en:kitchen:noun"
   },
   {
     "id": "ru:lampa:noun",
@@ -47,26 +35,13 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:lamp:noun",
+    "concept": "housing.furniture.lamp",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "лампы"
-  },
-  {
-    "id": "ru:stol:noun",
-    "word": "стол",
-    "language": "ru",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:table:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "столы"
+    "plural_form": "лампы",
+    "translation_of": "en:lamp:noun"
   },
   {
     "id": "ru:musornoe-vedro:noun",
@@ -75,7 +50,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:bin:noun",
+    "concept": "housing.furniture.bin",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -84,6 +59,7 @@
     ],
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "мусорные вёдра"
+    "plural_form": "мусорные вёдра",
+    "translation_of": "en:bin:noun"
   }
 ]

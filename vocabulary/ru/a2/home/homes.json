@@ -6,12 +6,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:cabinet:noun",
+    "concept": "housing.building_types.cabinet",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "шкафчики"
+    "plural_form": "шкафчики",
+    "translation_of": "en:cabinet:noun"
   },
   {
     "id": "ru:kottedzh:noun",
@@ -20,12 +21,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:cottage:noun",
+    "concept": "housing.building_types.cottage",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "коттеджи"
+    "plural_form": "коттеджи",
+    "translation_of": "en:cottage:noun"
   },
   {
     "id": "ru:khizhina:noun",
@@ -34,26 +36,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:cabin:noun",
+    "concept": "housing.furniture.cabin",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "хижины"
-  },
-  {
-    "id": "ru:zamok:noun",
-    "word": "замок",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:castle:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "замки"
+    "plural_form": "хижины",
+    "translation_of": "en:cabin:noun"
   },
   {
     "id": "ru:bungalo:noun",
@@ -62,11 +51,12 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:bungalow:noun",
+    "concept": "housing.homes.bungalow",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "neuter",
-    "countability": "invariable"
+    "countability": "invariable",
+    "translation_of": "en:bungalow:noun"
   },
   {
     "id": "ru:dymokhod:noun",
@@ -75,26 +65,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:chimney:noun",
+    "concept": "housing.homes.chimney",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "дымоходы"
-  },
-  {
-    "id": "ru:osobnyak:noun",
-    "word": "особняк",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:detached-house:noun",
-    "theme": "housing",
-    "sub_theme": "building_types",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "особняки"
+    "plural_form": "дымоходы",
+    "translation_of": "en:chimney:noun"
   },
   {
     "id": "ru:dom-na-dva-khozyaina:noun",
@@ -103,12 +80,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:semi-detached-house:noun",
+    "concept": "housing.homes.semi_detached_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "дома на два хозяина"
+    "plural_form": "дома на два хозяина",
+    "translation_of": "en:semi-detached-house:noun"
   },
   {
     "id": "ru:taunkhaus:noun",
@@ -117,12 +95,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:terraced-house:noun",
+    "concept": "housing.homes.terraced_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "таунхаусы"
+    "plural_form": "таунхаусы",
+    "translation_of": "en:terraced-house:noun"
   },
   {
     "id": "ru:villa:noun",
@@ -131,12 +110,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:villa:noun",
+    "concept": "housing.homes.villa",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "виллы"
+    "plural_form": "виллы",
+    "translation_of": "en:villa:noun"
   },
   {
     "id": "ru:studiya:noun",
@@ -145,12 +125,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:studio:noun",
+    "concept": "housing.homes.studio",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "студии"
+    "plural_form": "студии",
+    "translation_of": "en:studio:noun"
   },
   {
     "id": "ru:gorodskoy-dom:noun",
@@ -159,12 +140,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:townhouse:noun",
+    "concept": "housing.homes.townhouse",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "городские дома"
+    "plural_form": "городские дома",
+    "translation_of": "en:townhouse:noun"
   },
   {
     "id": "ru:fermerskiy-dom:noun",
@@ -173,12 +155,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:farmhouse:noun",
+    "concept": "housing.homes.farmhouse",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "фермерские дома"
+    "plural_form": "фермерские дома",
+    "translation_of": "en:farmhouse:noun"
   },
   {
     "id": "ru:peredvizhnoy-dom:noun",
@@ -187,12 +170,13 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:mobile-home:noun",
+    "concept": "housing.homes.mobile_home",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "передвижные дома"
+    "plural_form": "передвижные дома",
+    "translation_of": "en:mobile-home:noun"
   },
   {
     "id": "ru:kroshechnyy-dom:noun",
@@ -201,11 +185,12 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:tiny-house:noun",
+    "concept": "housing.homes.tiny_house",
     "theme": "housing",
     "sub_theme": "building_types",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "крошечные дома"
+    "plural_form": "крошечные дома",
+    "translation_of": "en:tiny-house:noun"
   }
 ]

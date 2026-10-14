@@ -6,11 +6,12 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:facilities:noun",
+    "concept": "housing.furniture.facilities",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:facilities:noun"
   },
   {
     "id": "fr:matelas:noun",
@@ -19,13 +20,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:mattress:noun",
+    "concept": "housing.furniture.mattress",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "matelas"
+    "plural_form": "matelas",
+    "translation_of": "en:mattress:noun"
   },
   {
     "id": "fr:reveil:noun",
@@ -34,7 +36,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:alarm-clock:noun",
+    "concept": "housing.furniture.alarm_clock",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -43,25 +45,8 @@
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "réveils"
-  },
-  {
-    "id": "fr:commode:noun",
-    "word": "commode",
-    "language": "fr",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:dresser:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "bedroom"
-    ],
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "commodes"
+    "plural_form": "réveils",
+    "translation_of": "en:alarm-clock:noun"
   },
   {
     "id": "fr:lits-superposes:noun",
@@ -70,13 +55,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:bunk-bed:noun",
+    "concept": "housing.furniture.bunk_bed",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
       "bedroom"
     ],
     "gender": "masculine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:bunk-bed:noun"
   }
 ]

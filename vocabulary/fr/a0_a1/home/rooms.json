@@ -1,33 +1,19 @@
 [
   {
-    "id": "fr:salle-de-bains:noun",
-    "word": "salle de bains",
-    "language": "fr",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:bathroom:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "salles de bains"
-  },
-  {
     "id": "fr:chambre:noun",
     "word": "chambre",
     "language": "fr",
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:bedroom:noun",
+    "concept": "housing.rooms_spaces.bedroom",
     "theme": "housing",
     "sub_theme": "rooms_spaces",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "chambres"
+    "plural_form": "chambres",
+    "translation_of": "en:bedroom:noun"
   },
   {
     "id": "fr:salle-a-manger:noun",
@@ -36,13 +22,14 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:dining-room:noun",
+    "concept": "housing.rooms_spaces.dining_room",
     "theme": "housing",
     "sub_theme": "rooms_spaces",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "salles à manger"
+    "plural_form": "salles à manger",
+    "translation_of": "en:dining-room:noun"
   },
   {
     "id": "fr:porte:noun",
@@ -51,13 +38,14 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:door:noun",
+    "concept": "housing.rooms_spaces.door",
     "theme": "housing",
     "sub_theme": "rooms_spaces",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "portes"
+    "plural_form": "portes",
+    "translation_of": "en:door:noun"
   },
   {
     "id": "fr:sol:noun",
@@ -66,28 +54,14 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:floor:noun",
+    "concept": "housing.rooms_spaces.floor",
     "theme": "housing",
     "sub_theme": "rooms_spaces",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "sols"
-  },
-  {
-    "id": "fr:piece:noun",
-    "word": "pièce",
-    "language": "fr",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:room:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "pièces"
+    "plural_form": "sols",
+    "translation_of": "en:floor:noun"
   },
   {
     "id": "fr:mur:noun",
@@ -96,13 +70,14 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:wall:noun",
+    "concept": "housing.rooms_spaces.wall",
     "theme": "housing",
     "sub_theme": "rooms_spaces",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "murs"
+    "plural_form": "murs",
+    "translation_of": "en:wall:noun"
   },
   {
     "id": "fr:fenetre:noun",
@@ -111,12 +86,13 @@
     "form": "noun",
     "level": "A0",
     "status": "needs_review",
-    "concept": "en:window:noun",
+    "concept": "housing.rooms_spaces.window",
     "theme": "housing",
     "sub_theme": "rooms_spaces",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "fenêtres"
+    "plural_form": "fenêtres",
+    "translation_of": "en:window:noun"
   }
 ]

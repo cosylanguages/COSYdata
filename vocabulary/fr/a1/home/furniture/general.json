@@ -1,33 +1,19 @@
 [
   {
-    "id": "fr:bol:noun",
-    "word": "bol",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:bowl:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "bols"
-  },
-  {
     "id": "fr:tapis:noun",
     "word": "tapis",
     "language": "fr",
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:carpet:noun",
+    "concept": "housing.furniture.carpet",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "tapis"
+    "plural_form": "tapis",
+    "translation_of": "en:carpet:noun"
   },
   {
     "id": "fr:nettoyage:noun",
@@ -36,39 +22,12 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:cleaning:noun",
+    "concept": "housing.furniture.cleaning",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "uncountable"
-  },
-  {
-    "id": "fr:repas:noun",
-    "word": "repas",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:dining:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "masculine",
-    "countability": "uncountable"
-  },
-  {
-    "id": "fr:robinet:noun",
-    "word": "robinet",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:faucet:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "robinets"
+    "countability": "uncountable",
+    "translation_of": "en:cleaning:noun"
   },
   {
     "id": "fr:detecteur-de-fumee:noun",
@@ -77,28 +36,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:fire-alarm:noun",
+    "concept": "housing.furniture.fire_alarm",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "détecteurs de fumée"
-  },
-  {
-    "id": "fr:fourchette:noun",
-    "word": "fourchette",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:fork:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "fourchettes"
+    "plural_form": "détecteurs de fumée",
+    "translation_of": "en:fire-alarm:noun"
   },
   {
     "id": "fr:congelateur:noun",
@@ -107,54 +52,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:freezer:noun",
+    "concept": "housing.furniture.freezer",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "congélateurs"
-  },
-  {
-    "id": "fr:verre:noun",
-    "word": "verre",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:glass:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "verres"
-  },
-  {
-    "id": "fr:cle:noun",
-    "word": "clé",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:key:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "clés"
-  },
-  {
-    "id": "fr:allumer:verb",
-    "word": "allumer",
-    "language": "fr",
-    "form": "verb",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:light:verb",
-    "theme": "housing",
-    "sub_theme": "furniture"
+    "plural_form": "congélateurs",
+    "translation_of": "en:freezer:noun"
   },
   {
     "id": "fr:vie-quotidienne:noun",
@@ -163,11 +68,12 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:living:noun",
+    "concept": "housing.furniture.living",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:living:noun"
   },
   {
     "id": "fr:serrure:noun",
@@ -176,13 +82,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:lock:noun",
+    "concept": "housing.furniture.lock",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "serrures"
+    "plural_form": "serrures",
+    "translation_of": "en:lock:noun"
   },
   {
     "id": "fr:machine:noun",
@@ -191,13 +98,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:machine:noun",
+    "concept": "housing.furniture.machine",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "machines"
+    "plural_form": "machines",
+    "translation_of": "en:machine:noun"
   },
   {
     "id": "fr:desordre:noun",
@@ -206,26 +114,12 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:messy:noun",
+    "concept": "housing.furniture.messy",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "uncountable"
-  },
-  {
-    "id": "fr:demenagement:noun",
-    "word": "déménagement",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:moving:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "déménagements"
+    "countability": "uncountable",
+    "translation_of": "en:messy:noun"
   },
   {
     "id": "fr:serviette-de-table:noun",
@@ -234,13 +128,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:napkin:noun",
+    "concept": "housing.furniture.napkin",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "serviettes de table"
+    "plural_form": "serviettes de table",
+    "translation_of": "en:napkin:noun"
   },
   {
     "id": "fr:poele:noun",
@@ -249,28 +144,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:pan:noun",
+    "concept": "housing.furniture.pan",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "poêles"
-  },
-  {
-    "id": "fr:assiette:noun",
-    "word": "assiette",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:plate:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "assiettes"
+    "plural_form": "poêles",
+    "translation_of": "en:pan:noun"
   },
   {
     "id": "fr:casserole:noun",
@@ -279,13 +160,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:pot:noun",
+    "concept": "housing.furniture.pot",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "casseroles"
+    "plural_form": "casseroles",
+    "translation_of": "en:pot:noun"
   },
   {
     "id": "fr:petit-tapis:noun",
@@ -294,28 +176,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:rug:noun",
+    "concept": "housing.furniture.rug",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "petits tapis"
-  },
-  {
-    "id": "fr:siege:noun",
-    "word": "siège",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:seat:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "sièges"
+    "plural_form": "petits tapis",
+    "translation_of": "en:rug:noun"
   },
   {
     "id": "fr:etagere:noun",
@@ -324,13 +192,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:shelf:noun",
+    "concept": "housing.furniture.shelf",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "étagères"
+    "plural_form": "étagères",
+    "translation_of": "en:shelf:noun"
   },
   {
     "id": "fr:evier:noun",
@@ -339,7 +208,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:sink:noun",
+    "concept": "housing.furniture.sink",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -349,56 +218,8 @@
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "éviers"
-  },
-  {
-    "id": "fr:savon:noun",
-    "word": "savon",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:soap:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "savons"
-  },
-  {
-    "id": "fr:cuillere:noun",
-    "word": "cuillère",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:spoon:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "article": "une",
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "cuillères"
-  },
-  {
-    "id": "fr:robinet:noun",
-    "word": "robinet",
-    "language": "fr",
-    "form": "noun",
-    "level": "A1",
-    "status": "needs_review",
-    "concept": "en:tap:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "kitchen",
-      "bathroom"
-    ],
-    "article": "un",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "robinets"
+    "plural_form": "éviers",
+    "translation_of": "en:sink:noun"
   },
   {
     "id": "fr:ordonne:adjective",
@@ -407,9 +228,10 @@
     "form": "adjective",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:tidy:adjective",
+    "concept": "housing.furniture.tidy",
     "theme": "housing",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "translation_of": "en:tidy:adjective"
   },
   {
     "id": "fr:brosse-a-dents:noun",
@@ -418,13 +240,14 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:toothbrush:noun",
+    "concept": "housing.furniture.toothbrush",
     "theme": "housing",
     "sub_theme": "furniture",
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "brosses à dents"
+    "plural_form": "brosses à dents",
+    "translation_of": "en:toothbrush:noun"
   },
   {
     "id": "fr:lessive:noun",
@@ -433,10 +256,11 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:washing:noun",
+    "concept": "housing.furniture.washing",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:washing:noun"
   }
 ]

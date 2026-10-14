@@ -6,22 +6,10 @@
     "form": "adjective",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:affordable:adjective",
-    "theme": "housing",
-    "sub_theme": "furniture"
-  },
-  {
-    "id": "ru:udobstva:noun",
-    "word": "удобства",
-    "language": "ru",
-    "form": "noun",
-    "level": "B1",
-    "status": "needs_review",
-    "concept": "en:amenities:noun",
+    "concept": "housing.furniture.affordable",
     "theme": "housing",
     "sub_theme": "furniture",
-    "gender": "neuter",
-    "countability": "pluralia_tantum"
+    "translation_of": "en:affordable:adjective"
   },
   {
     "id": "ru:poezdki-na-rabotu:noun",
@@ -30,11 +18,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:commuting:noun",
+    "concept": "housing.furniture.commuting",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:commuting:noun"
   },
   {
     "id": "ru:besplatnoe-povyshenie-klassa:noun",
@@ -43,12 +32,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:complimentary-upgrade:noun",
+    "concept": "housing.furniture.complimentary_upgrade",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "бесплатные повышения класса"
+    "plural_form": "бесплатные повышения класса",
+    "translation_of": "en:complimentary-upgrade:noun"
   },
   {
     "id": "ru:vremya-peresadki:noun",
@@ -57,12 +47,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:connecting-time:noun",
+    "concept": "housing.furniture.connecting_time",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "времена пересадки"
+    "plural_form": "времена пересадки",
+    "translation_of": "en:connecting-time:noun"
   },
   {
     "id": "ru:agentstvo-nedvizhimosti:noun",
@@ -71,12 +62,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:estate-agency:noun",
+    "concept": "housing.furniture.estate_agency",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "агентства недвижимости"
+    "plural_form": "агентства недвижимости",
+    "translation_of": "en:estate-agency:noun"
   },
   {
     "id": "ru:vyselenie:noun",
@@ -85,12 +77,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:eviction:noun",
+    "concept": "housing.furniture.eviction",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "выселения"
+    "plural_form": "выселения",
+    "translation_of": "en:eviction:noun"
   },
   {
     "id": "ru:zhilyo:noun",
@@ -99,11 +92,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:housing:noun",
+    "concept": "housing.furniture.housing",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:housing:noun"
   },
   {
     "id": "ru:osmotr-pomeshcheniya:noun",
@@ -112,12 +106,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:inspection:noun",
+    "concept": "housing.furniture.inspection",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "осмотры помещения"
+    "plural_form": "осмотры помещения",
+    "translation_of": "en:inspection:noun"
   },
   {
     "id": "ru:vremya-ostanovki:noun",
@@ -126,12 +121,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:layover-time:noun",
+    "concept": "housing.furniture.layover_time",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "времена остановки"
+    "plural_form": "времена остановки",
+    "translation_of": "en:layover-time:noun"
   },
   {
     "id": "ru:uchebnye-prava:noun",
@@ -140,11 +136,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:learner-s-permit:noun",
+    "concept": "housing.furniture.learner_s_permit",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
-    "countability": "pluralia_tantum"
+    "countability": "pluralia_tantum",
+    "translation_of": "en:learner-s-permit:noun"
   },
   {
     "id": "ru:dogovor-arendy:noun",
@@ -153,12 +150,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:lease:noun",
+    "concept": "housing.furniture.lease",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "договоры аренды"
+    "plural_form": "договоры аренды",
+    "translation_of": "en:lease:noun"
   },
   {
     "id": "ru:dolgosrochnaya-arenda:noun",
@@ -167,12 +165,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:long-term-let:noun",
+    "concept": "housing.furniture.long_term_let",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "долгосрочные аренды"
+    "plural_form": "долгосрочные аренды",
+    "translation_of": "en:long-term-let:noun"
   },
   {
     "id": "ru:problema-s-obsluzhivaniem:noun",
@@ -181,12 +180,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:maintenance-issue:noun",
+    "concept": "housing.furniture.maintenance_issue",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "проблемы с обслуживанием"
+    "plural_form": "проблемы с обслуживанием",
+    "translation_of": "en:maintenance-issue:noun"
   },
   {
     "id": "ru:tekhnicheskoe-obsluzhivanie:noun",
@@ -195,11 +195,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:maintenance:noun",
+    "concept": "housing.furniture.maintenance",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:maintenance:noun"
   },
   {
     "id": "ru:mekhanicheskaya-nepoladka:noun",
@@ -208,12 +209,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:mechanical-issue:noun",
+    "concept": "housing.furniture.mechanical_issue",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "механические неполадки"
+    "plural_form": "механические неполадки",
+    "translation_of": "en:mechanical-issue:noun"
   },
   {
     "id": "ru:propushchennaya-peresadka:noun",
@@ -222,12 +224,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:missed-connection:noun",
+    "concept": "housing.furniture.missed_connection",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "пропущенные пересадки"
+    "plural_form": "пропущенные пересадки",
+    "translation_of": "en:missed-connection:noun"
   },
   {
     "id": "ru:bezopasnost-rayona:noun",
@@ -236,11 +239,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:neighborhood-safety:noun",
+    "concept": "housing.furniture.neighborhood_safety",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:neighborhood-safety:noun"
   },
   {
     "id": "ru:sosedskiy-patrul:noun",
@@ -249,12 +253,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:neighborhood-watch:noun",
+    "concept": "housing.furniture.neighborhood_watch",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "соседские патрули"
+    "plural_form": "соседские патрули",
+    "translation_of": "en:neighborhood-watch:noun"
   },
   {
     "id": "ru:zhaloba-na-shum:noun",
@@ -263,12 +268,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:noise-complaint:noun",
+    "concept": "housing.furniture.noise_complaint",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "жалобы на шум"
+    "plural_form": "жалобы на шум",
+    "translation_of": "en:noise-complaint:noun"
   },
   {
     "id": "ru:perenaselyonnost:noun",
@@ -277,11 +283,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:overcrowding:noun",
+    "concept": "housing.furniture.overcrowding",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:overcrowding:noun"
   },
   {
     "id": "ru:dezinsektsiya:noun",
@@ -290,12 +297,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:pest-control:noun",
+    "concept": "housing.furniture.pest_control",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "дезинсекции"
+    "plural_form": "дезинсекции",
+    "translation_of": "en:pest-control:noun"
   },
   {
     "id": "ru:santekhnika:noun",
@@ -304,11 +312,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:plumbing:noun",
+    "concept": "housing.furniture.plumbing",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:plumbing:noun"
   },
   {
     "id": "ru:upravlyayushchiy-nedvizhimostyu:noun",
@@ -317,12 +326,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:property-manager:noun",
+    "concept": "housing.furniture.property_manager",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "управляющие недвижимостью"
+    "plural_form": "управляющие недвижимостью",
+    "translation_of": "en:property-manager:noun"
   },
   {
     "id": "ru:stoimost-nedvizhimosti:noun",
@@ -331,12 +341,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:property-value:noun",
+    "concept": "housing.furniture.property_value",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "стоимости недвижимости"
+    "plural_form": "стоимости недвижимости",
+    "translation_of": "en:property-value:noun"
   },
   {
     "id": "ru:agent-po-nedvizhimosti:noun",
@@ -345,12 +356,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:real-estate-agent:noun",
+    "concept": "housing.furniture.real_estate_agent",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "агенты по недвижимости"
+    "plural_form": "агенты по недвижимости",
+    "translation_of": "en:real-estate-agent:noun"
   },
   {
     "id": "ru:remont:noun",
@@ -359,12 +371,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:renovation:noun",
+    "concept": "housing.furniture.renovation",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "ремонты"
+    "plural_form": "ремонты",
+    "translation_of": "en:renovation:noun"
   },
   {
     "id": "ru:soglashenie-ob-arende:noun",
@@ -373,12 +386,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-agreement:noun",
+    "concept": "housing.furniture.rental_agreement",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "соглашения об аренде"
+    "plural_form": "соглашения об аренде",
+    "translation_of": "en:rental-agreement:noun"
   },
   {
     "id": "ru:arendnyy-kontrakt:noun",
@@ -387,12 +401,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-contract:noun",
+    "concept": "housing.furniture.rental_contract",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "арендные контракты"
+    "plural_form": "арендные контракты",
+    "translation_of": "en:rental-contract:noun"
   },
   {
     "id": "ru:arendnaya-nedvizhimost:noun",
@@ -401,12 +416,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:rental-property:noun",
+    "concept": "housing.furniture.rental_property",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "арендные недвижимости"
+    "plural_form": "арендные недвижимости",
+    "translation_of": "en:rental-property:noun"
   },
   {
     "id": "ru:garantiynyy-depozit:noun",
@@ -415,12 +431,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:security-deposit:noun",
+    "concept": "housing.furniture.security_deposit",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "гарантийные депозиты"
+    "plural_form": "гарантийные депозиты",
+    "translation_of": "en:security-deposit:noun"
   },
   {
     "id": "ru:kratkosrochnaya-arenda:noun",
@@ -429,12 +446,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:short-term-let:noun",
+    "concept": "housing.furniture.short_term_let",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "краткосрочные аренды"
+    "plural_form": "краткосрочные аренды",
+    "translation_of": "en:short-term-let:noun"
   },
   {
     "id": "ru:dogovor-nayma-zhilya:noun",
@@ -443,12 +461,13 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:tenancy-agreement:noun",
+    "concept": "housing.furniture.tenancy_agreement",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "договоры найма жилья"
+    "plural_form": "договоры найма жилья",
+    "translation_of": "en:tenancy-agreement:noun"
   },
   {
     "id": "ru:transport:noun",
@@ -457,11 +476,12 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:transport:noun",
+    "concept": "housing.furniture.transport",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:transport:noun"
   },
   {
     "id": "ru:svobodnaya-rassadka:noun",
@@ -470,10 +490,11 @@
     "form": "noun",
     "level": "B1",
     "status": "needs_review",
-    "concept": "en:unreserved-seating:noun",
+    "concept": "housing.furniture.unreserved_seating",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "translation_of": "en:unreserved-seating:noun"
   }
 ]

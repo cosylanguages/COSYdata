@@ -37,6 +37,10 @@
       "en:clear:verb",
       "en:cook:verb",
       "en:boil:verb"
+    ],
+    "concept": "housing.furniture.bowl",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -80,6 +84,10 @@
       "en:vacuum:verb",
       "en:clean:verb",
       "en:sweep:verb"
+    ],
+    "concept": "housing.furniture.carpet",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -107,6 +115,10 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
+    ],
+    "concept": "housing.furniture.cleaning",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -131,7 +143,8 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
-    ]
+    ],
+    "concept": "housing.furniture.dining"
   },
   {
     "id": "en:faucet:noun",
@@ -203,6 +216,10 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
+    ],
+    "concept": "housing.furniture.fire_alarm",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -243,6 +260,10 @@
       "en:clear:verb",
       "en:cook:verb",
       "en:boil:verb"
+    ],
+    "concept": "housing.furniture.fork",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -282,6 +303,10 @@
       "en:clean:verb",
       "en:put-in:verb",
       "en:unplug:verb"
+    ],
+    "concept": "housing.furniture.freezer",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -322,6 +347,9 @@
       "en:clear:verb",
       "en:cook:verb",
       "en:boil:verb"
+    ],
+    "region": [
+      "UK"
     ]
   },
   {
@@ -351,7 +379,8 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
-    ]
+    ],
+    "concept": "housing.furniture.key"
   },
   {
     "id": "en:light:verb",
@@ -384,7 +413,8 @@
     "related_forms": [
       "light (weight)",
       "to light"
-    ]
+    ],
+    "concept": "housing.furniture.light"
   },
   {
     "id": "en:living:noun",
@@ -409,7 +439,8 @@
       "A1",
       "B1"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.living"
   },
   {
     "id": "en:lock:noun",
@@ -441,7 +472,11 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.lock",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:machine:noun",
@@ -468,7 +503,8 @@
     "emoji": "⚙️",
     "countability": "countable",
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.machine"
   },
   {
     "id": "en:messy:noun",
@@ -494,7 +530,8 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
-    ]
+    ],
+    "concept": "housing.furniture.messy"
   },
   {
     "id": "en:moving:noun",
@@ -522,7 +559,11 @@
       "A1",
       "B2"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.moving",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:napkin:noun",
@@ -553,7 +594,8 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
-    ]
+    ],
+    "concept": "housing.furniture.napkin"
   },
   {
     "id": "en:pan:noun",
@@ -589,7 +631,8 @@
       "en:clear:verb",
       "en:cook:verb",
       "en:boil:verb"
-    ]
+    ],
+    "concept": "housing.furniture.pan"
   },
   {
     "id": "en:plate:noun",
@@ -666,6 +709,10 @@
       "en:clear:verb",
       "en:cook:verb",
       "en:boil:verb"
+    ],
+    "concept": "housing.furniture.pot",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -702,6 +749,10 @@
       "en:vacuum:verb",
       "en:clean:verb",
       "en:sweep:verb"
+    ],
+    "concept": "housing.furniture.rug",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -732,7 +783,11 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.seat",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:shelf:noun",
@@ -770,7 +825,8 @@
       "en:tidy:verb",
       "en:clean:verb",
       "en:dust:verb"
-    ]
+    ],
+    "concept": "housing.furniture.shelf"
   },
   {
     "id": "en:sink:noun",
@@ -814,7 +870,8 @@
       "en:scrub:verb",
       "en:turn-on:verb",
       "en:turn-off:verb"
-    ]
+    ],
+    "concept": "housing.furniture.sink"
   },
   {
     "id": "en:soap:noun",
@@ -845,7 +902,11 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.soap",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:spoon:noun",
@@ -958,7 +1019,8 @@
     ],
     "comparative": "tidier",
     "superlative": "tidiest",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.tidy"
   },
   {
     "id": "en:toothbrush:noun",
@@ -987,7 +1049,8 @@
     "sub_theme": "furniture",
     "levels": [
       "A1"
-    ]
+    ],
+    "concept": "housing.furniture.toothbrush"
   },
   {
     "id": "en:washing:noun",
@@ -1015,6 +1078,10 @@
       "A1",
       "A2"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.washing",
+    "region": [
+      "UK"
+    ]
   }
 ]

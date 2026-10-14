@@ -35,6 +35,10 @@
       "en:sit-on:verb",
       "en:clean:verb",
       "en:vacuum:verb"
+    ],
+    "concept": "housing.furniture.chair",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -67,7 +71,11 @@
       "us": "/klɑːk/"
     },
     "article": "a",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.clock",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:kitchen:noun",
@@ -96,7 +104,8 @@
     "sub_theme": "furniture",
     "levels": [
       "A0"
-    ]
+    ],
+    "concept": "housing.furniture.kitchen"
   },
   {
     "id": "en:lamp:noun",
@@ -130,7 +139,8 @@
       "en:turn-on:verb",
       "en:turn-off:verb",
       "en:unplug:verb"
-    ]
+    ],
+    "concept": "housing.furniture.lamp"
   },
   {
     "id": "en:table:noun",
@@ -165,7 +175,8 @@
       "en:clear:verb",
       "en:clean:verb",
       "en:wipe:verb"
-    ]
+    ],
+    "concept": "housing.furniture.table"
   },
   {
     "id": "en:bin:noun",

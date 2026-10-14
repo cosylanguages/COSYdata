@@ -5,7 +5,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C2",
-    "concept": "en:generative-ai:noun",
+    "concept": "technology.artificial_intelligence.generative_ai",
     "definitions": [
       "технология ИИ, способная самостоятельно создавать текст, изображения и иной контент"
     ],
@@ -23,7 +23,8 @@
     "synonyms": [
       "генеративный ИИ"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:generative-ai:noun"
   },
   {
     "id": "ru:neyronnaya-set:noun",
@@ -31,7 +32,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C2",
-    "concept": "en:neural-network-technology:noun",
+    "concept": "technology.artificial_intelligence.neural_network_technology",
     "definitions": [
       "математическая модель, построенная по принципу организации биологических нейронных сетей"
     ],
@@ -50,7 +51,8 @@
     "synonyms": [
       "нейросеть"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:neural-network-technology:noun"
   },
   {
     "id": "ru:model-ii:noun",
@@ -58,7 +60,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C2",
-    "concept": "en:ai-model:noun",
+    "concept": "technology.artificial_intelligence.ai_model",
     "definitions": [
       "обученный на данных алгоритм, способный делать прогнозы или принимать решения"
     ],
@@ -77,7 +79,8 @@
     "synonyms": [
       "модель машинного обучения"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:ai-model:noun"
   },
   {
     "id": "ru:nabor-dannykh:noun",
@@ -85,7 +88,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C2",
-    "concept": "en:dataset:noun",
+    "concept": "technology.artificial_intelligence.dataset",
     "definitions": [
       "структурированный массив информации, используемый для обучения и тестирования нейросетей"
     ],
@@ -105,7 +108,8 @@
       "датасет",
       "массив данных"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:dataset:noun"
   },
   {
     "id": "ru:utechka-dannykh:noun",
@@ -113,7 +117,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C2",
-    "concept": "en:data-breach-technology:noun",
+    "concept": "technology.cybersecurity.data_breach_technology",
     "definitions": [
       "инцидент безопасности, привлекший к несанкционированному доступу к конфиденциальным сведениям"
     ],
@@ -132,7 +136,8 @@
     "synonyms": [
       "разглашение информации"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:data-breach-technology:noun"
   },
   {
     "id": "ru:dvukhfaktornaya-autentifikatsiya:noun",
@@ -140,7 +145,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C2",
-    "concept": "en:two-factor-authentication-technology:noun",
+    "concept": "technology.cybersecurity.two_factor_authentication_technology",
     "definitions": [
       "метод подтверждения личности пользователя с помощью двух независимых ключей проверки"
     ],
@@ -159,6 +164,7 @@
       "2FA",
       "двухэтапная проверка"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:two-factor-authentication-technology:noun"
   }
 ]

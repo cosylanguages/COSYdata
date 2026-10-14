@@ -1,47 +1,18 @@
 [
   {
-    "id": "ru:udobstva:noun",
-    "word": "удобства",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:facilities:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "gender": "neuter",
-    "countability": "pluralia_tantum"
-  },
-  {
     "id": "ru:matras:noun",
     "word": "матрас",
     "language": "ru",
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:mattress:noun",
+    "concept": "housing.furniture.mattress",
     "theme": "housing",
     "sub_theme": "furniture",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "матрасы"
-  },
-  {
-    "id": "ru:budilnik:noun",
-    "word": "будильник",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:alarm-clock:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "bedroom"
-    ],
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "будильники"
+    "plural_form": "матрасы",
+    "translation_of": "en:mattress:noun"
   },
   {
     "id": "ru:tualetnyy-stolik:noun",
@@ -50,7 +21,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:dresser:noun",
+    "concept": "housing.furniture.dresser",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -58,7 +29,8 @@
     ],
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "туалетные столики"
+    "plural_form": "туалетные столики",
+    "translation_of": "en:dresser:noun"
   },
   {
     "id": "ru:dvukhyarusnaya-krovat:noun",
@@ -67,7 +39,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:bunk-bed:noun",
+    "concept": "housing.furniture.bunk_bed",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -75,6 +47,7 @@
     ],
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "двухъярусные кровати"
+    "plural_form": "двухъярусные кровати",
+    "translation_of": "en:bunk-bed:noun"
   }
 ]

@@ -1,29 +1,12 @@
 [
   {
-    "id": "ru:krovat:noun",
-    "word": "кровать",
-    "language": "ru",
-    "form": "noun",
-    "level": "A0",
-    "status": "needs_review",
-    "concept": "en:bed:noun",
-    "theme": "housing",
-    "sub_theme": "furniture",
-    "rooms": [
-      "bedroom"
-    ],
-    "gender": "feminine",
-    "countability": "countable",
-    "plural_form": "кровати"
-  },
-  {
     "id": "ru:odeyalo:noun",
     "word": "одеяло",
     "language": "ru",
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:blanket:noun",
+    "concept": "housing.furniture.blanket",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -31,7 +14,8 @@
     ],
     "gender": "neuter",
     "countability": "countable",
-    "plural_form": "одеяла"
+    "plural_form": "одеяла",
+    "translation_of": "en:blanket:noun"
   },
   {
     "id": "ru:prikrovatnyy-stolik:noun",
@@ -40,7 +24,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:bedside-table:noun",
+    "concept": "housing.furniture.bedside_table",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -48,7 +32,8 @@
     ],
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "прикроватные столики"
+    "plural_form": "прикроватные столики",
+    "translation_of": "en:bedside-table:noun"
   },
   {
     "id": "ru:komod:noun",
@@ -57,7 +42,7 @@
     "form": "noun",
     "level": "A1",
     "status": "needs_review",
-    "concept": "en:chest-of-drawers:noun",
+    "concept": "housing.furniture.chest_of_drawers",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -65,6 +50,7 @@
     ],
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "комоды"
+    "plural_form": "комоды",
+    "translation_of": "en:chest-of-drawers:noun"
   }
 ]

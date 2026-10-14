@@ -21,7 +21,8 @@
       "design"
     ],
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.architectural"
   },
   {
     "id": "en:bookcase:noun",
@@ -51,7 +52,8 @@
       "en:tidy:verb",
       "en:clean:verb",
       "en:dust:verb"
-    ]
+    ],
+    "concept": "housing.furniture.bookcase"
   },
   {
     "id": "en:brick:noun",
@@ -77,7 +79,8 @@
     "article": "a",
     "plural_form": "bricks",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.brick"
   },
   {
     "id": "en:broken:adjective",
@@ -101,7 +104,8 @@
       "cracked"
     ],
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.broken"
   },
   {
     "id": "en:bulb:noun",
@@ -127,7 +131,8 @@
     "article": "a",
     "plural_form": "bulbs",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.bulb"
   },
   {
     "id": "en:childcare:noun",
@@ -156,7 +161,11 @@
     "emoji": "👶",
     "countability": "uncountable",
     "no_antonym": true,
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.childcare",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:daycare:noun",
@@ -183,7 +192,11 @@
     "emoji": "🏫",
     "countability": "uncountable",
     "no_antonym": true,
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.daycare",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:extend:verb",
@@ -210,7 +223,8 @@
     "antonyms": [
       "shorten"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.extend"
   },
   {
     "id": "en:extension:noun",
@@ -242,7 +256,8 @@
     "synonyms": [
       "addition",
       "branch"
-    ]
+    ],
+    "concept": "housing.furniture.extension"
   },
   {
     "id": "en:hole:noun",
@@ -269,7 +284,8 @@
     "article": "a",
     "plural_form": "holes",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.hole"
   },
   {
     "id": "en:household:noun",
@@ -295,7 +311,8 @@
     "article": "a",
     "plural_form": "households",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.household"
   },
   {
     "id": "en:interior:noun",
@@ -322,7 +339,8 @@
     "article": "an",
     "plural_form": "interiors",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.interior"
   },
   {
     "id": "en:layout:noun",
@@ -349,7 +367,8 @@
     "article": "a",
     "plural_form": "layouts",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.layout"
   },
   {
     "id": "en:leak:noun",
@@ -376,7 +395,8 @@
     "article": "a",
     "plural_form": "leaks",
     "sub_theme": "furniture",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.furniture.leak"
   },
   {
     "id": "en:renew:verb",
@@ -404,7 +424,11 @@
     "antonyms": [
       "cancel"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.renew",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:renewal:noun",
@@ -433,7 +457,11 @@
     "article": "a",
     "plural_form": "renewals",
     "no_antonym": true,
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.renewal",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:restore:verb",
@@ -458,7 +486,8 @@
     "antonyms": [
       "destroy"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.restore"
   },
   {
     "id": "en:stare:verb",
@@ -483,7 +512,11 @@
     "antonyms": [
       "glance"
     ],
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "concept": "housing.furniture.stare",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:coat-rack:noun",
@@ -510,6 +543,7 @@
     "rooms": [
       "entrance",
       "hallway"
-    ]
+    ],
+    "concept": "housing.furniture.coat_rack"
   }
 ]

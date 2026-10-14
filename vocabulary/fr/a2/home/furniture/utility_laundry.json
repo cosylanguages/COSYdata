@@ -6,13 +6,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:vacuum-cleaner:noun",
+    "concept": "housing.appliances.vacuum_cleaner",
     "theme": "housing",
     "sub_theme": "appliances",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "aspirateurs"
+    "plural_form": "aspirateurs",
+    "translation_of": "en:vacuum-cleaner:noun"
   },
   {
     "id": "fr:passer-l-aspirateur:verb",
@@ -21,14 +22,15 @@
     "form": "verb",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:vacuum:verb",
+    "concept": "housing.appliances.vacuum",
     "theme": "housing",
     "sub_theme": "appliances",
     "rooms": [
       "living_room",
       "bedroom",
       "hallway"
-    ]
+    ],
+    "translation_of": "en:vacuum:verb"
   },
   {
     "id": "fr:lave-linge:noun",
@@ -37,13 +39,14 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:washing-machine:noun",
+    "concept": "housing.appliances.washing_machine",
     "theme": "housing",
     "sub_theme": "appliances",
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "lave-linge"
+    "plural_form": "lave-linge",
+    "translation_of": "en:washing-machine:noun"
   },
   {
     "id": "fr:bac-de-recyclage:noun",
@@ -52,7 +55,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:recycling-bin:noun",
+    "concept": "housing.furniture.recycling_bin",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -62,7 +65,8 @@
     "article": "un",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "bacs de recyclage"
+    "plural_form": "bacs de recyclage",
+    "translation_of": "en:recycling-bin:noun"
   },
   {
     "id": "fr:poubelle-d-exterieur:noun",
@@ -71,7 +75,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:dustbin:noun",
+    "concept": "housing.furniture.dustbin",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -81,7 +85,8 @@
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "poubelles d'extérieur"
+    "plural_form": "poubelles d'extérieur",
+    "translation_of": "en:dustbin:noun"
   },
   {
     "id": "fr:chaudiere:noun",
@@ -90,7 +95,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:boiler:noun",
+    "concept": "housing.furniture.boiler",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -100,7 +105,8 @@
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "chaudières"
+    "plural_form": "chaudières",
+    "translation_of": "en:boiler:noun"
   },
   {
     "id": "fr:boite-a-ordures:noun",
@@ -109,7 +115,7 @@
     "form": "noun",
     "level": "A2",
     "status": "needs_review",
-    "concept": "en:trash-can:noun",
+    "concept": "housing.furniture.trash_can",
     "theme": "housing",
     "sub_theme": "furniture",
     "rooms": [
@@ -119,6 +125,7 @@
     "article": "une",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "boîtes à ordures"
+    "plural_form": "boîtes à ordures",
+    "translation_of": "en:trash-can:noun"
   }
 ]

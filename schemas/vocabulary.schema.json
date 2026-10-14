@@ -131,6 +131,11 @@
       "pattern": "^(?:[a-z0-9_-]+(?:\\.[a-z0-9_-]+)+|[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+)$",
       "description": "Language-independent concept key (e.g. housing.furniture.chair) or English entry ID"
     },
+    "translation_of": {
+      "type": "string",
+      "pattern": "^[a-z]{2}:[a-z0-9-]+:[a-z0-9-]+$",
+      "description": "Original English vocabulary entry ID that this entry translates, e.g. en:apartment:noun"
+    },
     "secondary_themes": {
       "type": "array",
       "items": {
@@ -355,7 +360,7 @@
     },
     "status": {
       "type": "string",
-      "description": "Publication or review status, e.g. needs_review"
+      "description": "Publication or review status, e.g. needs_review. When status is needs_review, transcription, emoji, and antonyms are optional."
     },
     "article": {
       "type": "string",
@@ -701,13 +706,27 @@
   "allOf": [
     {
       "if": {
-        "properties": {
-          "no_emoji": {
-            "const": true
+        "anyOf": [
+          {
+            "properties": {
+              "no_emoji": {
+                "const": true
+              }
+            },
+            "required": [
+              "no_emoji"
+            ]
+          },
+          {
+            "properties": {
+              "status": {
+                "const": "needs_review"
+              }
+            },
+            "required": [
+              "status"
+            ]
           }
-        },
-        "required": [
-          "no_emoji"
         ]
       },
       "else": {
@@ -718,13 +737,27 @@
     },
     {
       "if": {
-        "properties": {
-          "no_antonym": {
-            "const": true
+        "anyOf": [
+          {
+            "properties": {
+              "no_antonym": {
+                "const": true
+              }
+            },
+            "required": [
+              "no_antonym"
+            ]
+          },
+          {
+            "properties": {
+              "status": {
+                "const": "needs_review"
+              }
+            },
+            "required": [
+              "status"
+            ]
           }
-        },
-        "required": [
-          "no_antonym"
         ]
       },
       "else": {
@@ -735,22 +768,38 @@
     },
     {
       "if": {
-        "not": {
-          "anyOf": [
-            {
-              "required": [
-                "contraction"
-              ]
-            },
-            {
-              "properties": {
-                "form": {
-                  "const": "preposition"
+        "allOf": [
+          {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "contraction"
+                  ]
+                },
+                {
+                  "properties": {
+                    "form": {
+                      "const": "preposition"
+                    }
+                  }
                 }
-              }
+              ]
             }
-          ]
-        }
+          },
+          {
+            "not": {
+              "properties": {
+                "status": {
+                  "const": "needs_review"
+                }
+              },
+              "required": [
+                "status"
+              ]
+            }
+          }
+        ]
       },
       "then": {
         "required": [

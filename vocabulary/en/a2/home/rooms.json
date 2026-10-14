@@ -18,7 +18,8 @@
     "emoji": "🚪",
     "no_antonym": true,
     "countability": "pluralia_tantum",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.adjoining_rooms"
   },
   {
     "id": "en:agreement:noun",
@@ -51,7 +52,8 @@
     "synonyms": [
       "deal",
       "pact"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.agreement"
   },
   {
     "id": "en:air-conditioner:noun",
@@ -80,7 +82,11 @@
     "transcription_variants": {
       "us": "/ˈer kənˌdɪʃ.ən.ɚ/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.air_conditioner",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:air-conditioning:noun",
@@ -104,7 +110,11 @@
     "emoji": "❄️",
     "no_antonym": true,
     "countability": "uncountable",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.air_conditioning",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:air:noun",
@@ -133,7 +143,10 @@
     "transcription_variants": {
       "us": "/er/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:appliance:noun",
@@ -165,7 +178,8 @@
     "synonyms": [
       "device",
       "machine"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.appliance"
   },
   {
     "id": "en:attic:noun",
@@ -197,7 +211,11 @@
     "transcription_variants": {
       "us": "/ˈæt̬.ɪk/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.attic",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:balcony:noun",
@@ -223,7 +241,8 @@
     "emoji": "🏙️",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.balcony"
   },
   {
     "id": "en:basement:noun",
@@ -255,7 +274,8 @@
     "sub_theme": "rooms_spaces",
     "synonyms": [
       "cellar"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.basement"
   },
   {
     "id": "en:cellar:noun",
@@ -281,7 +301,8 @@
     "article": "a",
     "plural_form": "cellars",
     "sub_theme": "rooms_spaces",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.rooms_spaces.cellar"
   },
   {
     "id": "en:conditioning:noun",
@@ -306,7 +327,8 @@
     "emoji": "❄️",
     "countability": "uncountable",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.conditioning"
   },
   {
     "id": "en:corridor:noun",
@@ -333,7 +355,8 @@
     "article": "a",
     "plural_form": "corridors",
     "sub_theme": "rooms_spaces",
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.rooms_spaces.corridor"
   },
   {
     "id": "en:cot:noun",
@@ -355,7 +378,8 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "cots",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.cot"
   },
   {
     "id": "en:doorbell:noun",
@@ -384,7 +408,11 @@
     "transcription_variants": {
       "us": "/ˈdɔːr.bel/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.doorbell",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:drawer:noun",
@@ -411,7 +439,8 @@
     "emoji": "🗄️",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.drawer"
   },
   {
     "id": "en:dryer:noun",
@@ -447,6 +476,10 @@
       "en:put-in:verb",
       "en:unplug:verb",
       "en:clean:verb"
+    ],
+    "concept": "housing.rooms_spaces.dryer",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -479,7 +512,8 @@
     "variant_group": "lift_elevator",
     "regional_equivalents": [
       "en:lift:noun"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.elevator"
   },
   {
     "id": "en:emergency-exit:noun",
@@ -504,7 +538,11 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "emergency exits",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.emergency_exit",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:expand:verb",
@@ -531,7 +569,8 @@
       "shrink",
       "contract"
     ],
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.expand"
   },
   {
     "id": "en:furnish:verb",
@@ -565,6 +604,10 @@
       "living_room",
       "bedroom",
       "dining_room"
+    ],
+    "concept": "housing.rooms_spaces.furnish",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -593,7 +636,11 @@
     "antonyms": [
       "unfurnished"
     ],
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.furnished",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:furniture:noun",
@@ -623,7 +670,11 @@
     "transcription_variants": {
       "us": "/ˈfɝː.nɪ.tʃɚ/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.furniture",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:garden:verb",
@@ -646,7 +697,11 @@
     "transcription_variants": {
       "us": "/ˈɡɑːr.dən/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.garden",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:gas:noun",
@@ -680,7 +735,8 @@
     "synonyms": [
       "vapor",
       "fuel"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.gas"
   },
   {
     "id": "en:heater:noun",
@@ -709,7 +765,11 @@
     "transcription_variants": {
       "us": "/ˈhiː.t̬ɚ/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.heater",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:heating:noun",
@@ -735,7 +795,11 @@
     "transcription_variants": {
       "us": "/ˈhiː.t̬ɪŋ/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.heating",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:iron:noun",
@@ -766,7 +830,11 @@
     "transcription_variants": {
       "us": "/ˈaɪ.ɚn/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.iron",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:landlord:noun",
@@ -800,7 +868,11 @@
     "transcription_variants": {
       "us": "/ˈlænd.lɔːrd/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.landlord",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:laundromat:noun",
@@ -822,7 +894,8 @@
     "countability": "countable",
     "plural_form": "laundromats",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.laundromat"
   },
   {
     "id": "en:lease:verb",
@@ -852,7 +925,8 @@
     ],
     "rooms": [
       "shared"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.lease"
   },
   {
     "id": "en:mailbox:noun",
@@ -881,7 +955,11 @@
     "transcription_variants": {
       "us": "/ˈmeɪl.bɑːks/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.mailbox",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:mortgage:noun",
@@ -920,6 +998,10 @@
     ],
     "secondary_themes": [
       "money/finance"
+    ],
+    "concept": "housing.rooms_spaces.mortgage",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -947,7 +1029,8 @@
     "antonyms": [
       "move out"
     ],
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.move_in"
   },
   {
     "id": "en:move-out:noun",
@@ -974,7 +1057,8 @@
     "antonyms": [
       "move in"
     ],
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.move_out"
   },
   {
     "id": "en:neighborhood:noun",
@@ -1004,7 +1088,10 @@
     "transcription_variants": {
       "us": "/ˈneɪ.bɚ.hʊd/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:neighbourhood:noun",
@@ -1037,6 +1124,9 @@
     "sub_theme": "rooms_spaces",
     "synonyms": [
       "local area"
+    ],
+    "region": [
+      "UK"
     ]
   },
   {
@@ -1063,7 +1153,8 @@
     "article": "a",
     "plural_form": "playdates",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.playdate"
   },
   {
     "id": "en:property:noun",
@@ -1104,6 +1195,10 @@
       "en:clean:verb",
       "en:paint:verb",
       "en:decorate:verb"
+    ],
+    "concept": "housing.rooms_spaces.property",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -1139,7 +1234,8 @@
       "bedroom",
       "kitchen",
       "bathroom"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.renovate"
   },
   {
     "id": "en:rent:noun",
@@ -1163,7 +1259,8 @@
     "sub_theme": "rooms_spaces",
     "secondary_themes": [
       "money/finance"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.rent"
   },
   {
     "id": "en:rent:verb",
@@ -1225,7 +1322,8 @@
       "living",
       "travel"
     ],
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.settling_in"
   },
   {
     "id": "en:shelter:noun",
@@ -1247,7 +1345,8 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "shelters",
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.shelter"
   },
   {
     "id": "en:suburb:noun",
@@ -1283,7 +1382,11 @@
     "transcription_variants": {
       "us": "/ˈsʌb.ɝːb/"
     },
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.suburb",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:tenant:noun",
@@ -1319,7 +1422,8 @@
     "sub_theme": "rooms_spaces",
     "synonyms": [
       "renter"
-    ]
+    ],
+    "concept": "housing.rooms_spaces.tenant"
   },
   {
     "id": "en:terrace:noun",
@@ -1344,7 +1448,8 @@
     "emoji": "🏡",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.terrace"
   },
   {
     "id": "en:unfurnished:adjective",
@@ -1372,7 +1477,11 @@
     "antonyms": [
       "furnished"
     ],
-    "sub_theme": "rooms_spaces"
+    "sub_theme": "rooms_spaces",
+    "concept": "housing.rooms_spaces.unfurnished",
+    "region": [
+      "UK"
+    ]
   },
   {
     "id": "en:yard:noun",
@@ -1407,7 +1516,8 @@
     "regional_equivalents": [
       "en:garden:noun"
     ],
-    "variant_group": "garden_yard"
+    "variant_group": "garden_yard",
+    "concept": "housing.rooms_spaces.yard"
   },
   {
     "id": "en:lift:noun",
@@ -1476,7 +1586,8 @@
     "transcription": "/ˈtaɪ.di/",
     "emoji": "🧹",
     "no_antonym": true,
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.chores.tidy"
   },
   {
     "id": "en:clear:verb",
@@ -1512,7 +1623,8 @@
     "transcription": "/klɪər/",
     "emoji": "🍽️",
     "no_antonym": true,
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.chores.clear"
   },
   {
     "id": "en:scrub:verb",
@@ -1543,7 +1655,8 @@
     "transcription": "/skrʌb/",
     "emoji": "🧽",
     "no_antonym": true,
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.chores.scrub"
   },
   {
     "id": "en:flush:verb",
@@ -1573,7 +1686,8 @@
     "transcription": "/flʌʃ/",
     "emoji": "🚽",
     "no_antonym": true,
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.home_fixtures.flush"
   },
   {
     "id": "en:mow:verb",
@@ -1603,6 +1717,7 @@
     "transcription": "/moʊ/",
     "emoji": "🌱",
     "no_antonym": true,
-    "updated": "2025-05-20"
+    "updated": "2025-05-20",
+    "concept": "housing.chores.mow"
   }
 ]

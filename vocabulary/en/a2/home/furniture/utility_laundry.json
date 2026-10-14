@@ -34,6 +34,10 @@
       "en:mop:verb",
       "en:vacuum:verb",
       "en:scrub:verb"
+    ],
+    "concept": "housing.appliances.vacuum_cleaner",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -62,7 +66,8 @@
       "living_room",
       "bedroom",
       "hallway"
-    ]
+    ],
+    "concept": "housing.appliances.vacuum"
   },
   {
     "id": "en:washing-machine:noun",
@@ -102,6 +107,10 @@
       "en:put-in:verb",
       "en:unplug:verb",
       "en:clean:verb"
+    ],
+    "concept": "housing.appliances.washing_machine",
+    "region": [
+      "UK"
     ]
   },
   {
@@ -136,7 +145,8 @@
       "en:clear:verb",
       "en:clean:verb",
       "en:put-away:verb"
-    ]
+    ],
+    "concept": "housing.furniture.recycling_bin"
   },
   {
     "id": "en:dustbin:noun",
@@ -175,7 +185,8 @@
       "en:clear:verb",
       "en:clean:verb",
       "en:put-away:verb"
-    ]
+    ],
+    "concept": "housing.furniture.dustbin"
   },
   {
     "id": "en:boiler:noun",

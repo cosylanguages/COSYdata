@@ -5,7 +5,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:algorithm-technology:noun",
+    "concept": "technology.artificial_intelligence.algorithm_technology",
     "definitions": [
       "четкая последовательность действий и инструкций для решения вычислительной задачи"
     ],
@@ -29,7 +29,8 @@
     "levels": [
       "B2",
       "C1"
-    ]
+    ],
+    "translation_of": "en:algorithm-technology:noun"
   },
   {
     "id": "ru:mashinnoe-obuchenie:noun",
@@ -37,7 +38,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:machine-learning-technology:noun",
+    "concept": "technology.artificial_intelligence.machine_learning_technology",
     "definitions": [
       "область искусственного интеллекта, развивающая способность систем учиться на данных"
     ],
@@ -55,7 +56,8 @@
     "synonyms": [
       "автоматическое обучение"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:machine-learning-technology:noun"
   },
   {
     "id": "ru:chat-bot:noun",
@@ -63,7 +65,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:chatbot:noun",
+    "concept": "technology.artificial_intelligence.chatbot",
     "definitions": [
       "компьютерная программа для ведения диалога с пользователем на естественном языке"
     ],
@@ -82,7 +84,8 @@
     "synonyms": [
       "виртуальный ассистент"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:chatbot:noun"
   },
   {
     "id": "ru:avtomatizatsiya:noun",
@@ -90,7 +93,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:automation-technology:noun",
+    "concept": "technology.artificial_intelligence.automation_technology",
     "definitions": [
       "использование технических средств и ПО для выполнения задач без участия человека"
     ],
@@ -115,7 +118,8 @@
     "levels": [
       "B2",
       "C1"
-    ]
+    ],
+    "translation_of": "en:automation-technology:noun"
   },
   {
     "id": "ru:prompt:noun",
@@ -123,7 +127,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:ai-prompt:noun",
+    "concept": "technology.artificial_intelligence.ai_prompt",
     "definitions": [
       "текстовый запрос или инструкция, передаваемая нейросети для генерации ответа"
     ],
@@ -143,7 +147,8 @@
       "текстовый запрос",
       "входная инструкция"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:ai-prompt:noun"
   },
   {
     "id": "ru:parolnaya-zashchita:noun",
@@ -151,7 +156,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:password-protection:noun",
+    "concept": "technology.cybersecurity.password_protection",
     "definitions": [
       "мера безопасности, требующая ввода секретной комбинации для доступа к данным"
     ],
@@ -169,7 +174,8 @@
     "synonyms": [
       "защита паролем"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:password-protection:noun"
   },
   {
     "id": "ru:shifrovanie:noun",
@@ -177,7 +183,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:encryption-technology:noun",
+    "concept": "technology.cybersecurity.encryption_technology",
     "definitions": [
       "обратимое преобразование информации в целях защиты от несанкционированного доступа"
     ],
@@ -198,7 +204,8 @@
     ],
     "antonyms": [
       "расшифровка"
-    ]
+    ],
+    "translation_of": "en:encryption-technology:noun"
   },
   {
     "id": "ru:fishing:noun",
@@ -206,7 +213,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:phishing-technology:noun",
+    "concept": "technology.cybersecurity.phishing_technology",
     "definitions": [
       "вид интернет-мошенничества с целью получения доступа к конфиденциальным данным"
     ],
@@ -224,7 +231,8 @@
     "synonyms": [
       "сетевое мошенничество"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:phishing-technology:noun"
   },
   {
     "id": "ru:vredonosnoe-po:noun",
@@ -232,7 +240,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:malware-technology:noun",
+    "concept": "technology.cybersecurity.malware_technology",
     "definitions": [
       "программное обеспечение, созданное для повреждения систем или сбора данных без согласия"
     ],
@@ -251,7 +259,8 @@
       "малварь",
       "компьютерный вирус"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:malware-technology:noun"
   },
   {
     "id": "ru:brandmauer:noun",
@@ -259,7 +268,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:firewall-technology:noun",
+    "concept": "technology.cybersecurity.firewall_technology",
     "definitions": [
       "защитный барьер, контролирующий входящий и исходящий сетевой трафик"
     ],
@@ -279,7 +288,8 @@
       "межсетевой экран",
       "фаервол"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "translation_of": "en:firewall-technology:noun"
   },
   {
     "id": "ru:tsifrovaya-konfidentsialnost:noun",
@@ -287,7 +297,7 @@
     "language": "ru",
     "form": "noun",
     "level": "C1",
-    "concept": "en:digital-privacy:noun",
+    "concept": "technology.cybersecurity.digital_privacy",
     "definitions": [
       "защита персональных данных и информации об активности пользователя в сети"
     ],
@@ -307,6 +317,7 @@
     ],
     "antonyms": [
       "цифровая слежка"
-    ]
+    ],
+    "translation_of": "en:digital-privacy:noun"
   }
 ]
