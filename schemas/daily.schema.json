@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/daily.schema.json",
+  "title": "Daily Strip File",
+  "description": "JSON Schema (draft 2020-12) for COSYdata daily strip files (speaking, writing, idioms, facts)",
+  "type": "array",
+  "items": {
+    "oneOf": [
+      {
+        "$ref": "#/$defs/speakingEntry"
+      },
+      {
+        "$ref": "#/$defs/writingEntry"
+      },
+      {
+        "$ref": "#/$defs/idiomEntry"
+      },
+      {
+        "$ref": "#/$defs/factEntry"
+      }
+    ]
+  },
+  "$defs": {
+    "speakingEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}:speaking:[a-zA-Z0-9_-]+$"
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "writingEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}:writing:[a-zA-Z0-9_-]+$"
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "idiomEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "idiom",
+        "literal_meaning",
+        "real_meaning",
+        "example"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}:idiom:[a-zA-Z0-9_-]+$"
+        },
+        "idiom": {
+          "type": "string"
+        },
+        "literal_meaning": {
+          "type": "string"
+        },
+        "real_meaning": {
+          "type": "string"
+        },
+        "example": {
+          "type": "string"
+        },
+        "audio": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "factEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "fact"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}:fact:[a-zA-Z0-9_-]+$"
+        },
+        "fact": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
