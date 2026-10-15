@@ -21,7 +21,7 @@ The examples below were inspected directly in the current source files. These ar
 | P1 | `en:world:noun`, `vocabulary/en/a0_a1/animals.json` | The entry is in an animals file and tagged `theme: animals`, but “world” is not an animal concept. | Reclassify to an appropriate geography/general theme and move it to the matching source file if that is the repository convention. |
 | P2 | `en:same:adjective`, `vocabulary/en/a0_a1/adjectives.json` | `comparative: more same` and `superlative: most same` are not normal learner-dictionary forms for this adjective. | Remove these fields unless a specific, clearly explained marked usage is intended. |
 | P2 | `en:wrong:adjective`, `vocabulary/en/a0_a1/adjectives.json` | `more wrong / most wrong` can occur in context, but presenting them as routine comparative/superlative forms is questionable for beginner material. | Review against the project’s morphology policy; omit the fields if they are not useful default forms. |
-| P2 | `fr:beau:adjective`, `vocabulary/fr/a0_a1/adjectives.json` | Example “Il fait un beau soleil ce matin.” is understandable, but “Il y a un beau soleil ce matin” is more idiomatic in standard French for this meaning. | Have a French-language reviewer confirm and improve naturalness. |
+| P2 | `fr:beau:adjective`, `vocabulary/fr/a0_a1/adjectives.json` | The original example was understandable but less idiomatic for this meaning. | Updated on the audit branch to “Il y a un beau soleil ce matin.”; still recommend a French-language reviewer confirm naturalness. |
 
 ## CEFR adaptation is a core quality requirement
 
@@ -80,7 +80,9 @@ A focused review of `vocabulary/en/a0_a1/food_drink.json` identified additional 
 | `en:eat:noun` | The example “Let us go out for an eat” is not idiomatic English and the noun label is suspicious for the headword. | Example improved to “Let's get something to eat.”; part-of-speech / ID issue remains flagged for a reference-aware decision. |
 | `en:drank:noun`, `en:eaten:noun`, `en:salty:noun`, `en:sour:noun` | The stored `form` and ID suffix say noun, but the headwords and usage are verb forms or adjectives. | Not renamed or reclassified in this batch because IDs may be referenced by indexes or other data. Requires a repository-wide reference check and coordinated index rebuild. |
 
-The correction branch also rewrites selected animal definitions and everyday verb examples for clarity and beginner-level suitability. These edits are proposals under review, not merged changes.
+The correction branch also rewrites selected animal definitions and everyday verb examples for clarity and beginner-level suitability. The food-and-drink pass now clarifies definitions for verb forms and adjectives, plus entries such as rice, fruit, vegetables, pepper, and cream. The French example above has also been revised on this audit branch. These edits are proposals under review, not merged changes.
+
+The category mismatch for `en:drank:noun`, `en:eaten:noun`, `en:salty:noun`, and `en:sour:noun` is still unresolved. Definitions now describe the actual grammatical form more clearly, but changing `form` or ID suffixes safely requires a repository-wide reference check and index rebuild. This is a structural follow-up, not a wording-only fix.
 
 ## Validation status and limitations
 
