@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Documentation
-- Added an initial COSYdata quality-audit report with directly inspected grammar, lexical, and taxonomy examples plus a staged plan for full automated and human review.
+- Added an initial COSYdata quality-audit report with directly inspected grammar, lexical, and taxonomy examples; made CEFR adaptation of definitions and examples an explicit review requirement.
 
 ### Added
 - Restored 82 valid English vocabulary entries removed without logging in commit `bafad07` into their canonical primary theme files in `vocabulary/en/` (`a0_a1`, `a2`, `b1`, `b2`) per `schemas/themes.json` taxonomy, logged all 89 removed entries in `reports/restore-log.md` (marking 7 wrong-part-of-speech artifacts as dropped), resolved `dormitory` duplicate, and regenerated all English index files (`index.json`, `flat-index.json`, `search-index.json`, `themes-index.json`).
