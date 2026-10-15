@@ -6,7 +6,7 @@ This report presents a comprehensive, exact, file-by-file data gap analysis and 
 
 ### Key Takeaways
 1. **Canonical Vocabulary Standard**: COSYdata hosts standardized Draft 2020-12 JSON files (`vocabulary/<lang>/<level>/*.json`) containing **25,650 entries** across **14 languages** (`ba`, `br`, `cv`, `de`, `el`, `en`, `es`, `fr`, `hy`, `it`, `ka`, `pt`, `ru`, `tt`).
-2. **Direct File Recount vs Legacy Audit Reports**: Previous audit documents (such as `reports/a0_a1_cefr_audit.md`) contained internal contradictions (e.g., summary tables listing 548 Russian entries while detailed sections listed 880 entries, or German listed as 62 in summary vs 494 in detailed sections). Recounting entries directly from current repository dataset files establishes exact, verifiable counts.
+2. **Normalized Headword Overlap Methodology**: Overlap figures between COSYdata and COSYlanguages have been recomputed by normalizing headwords and grammatical forms (`lowercase`, `NFC` normalized, leading articles stripped for `fr`, `it`, `de`, `es`, `pt`) strictly for dictionary words (`dictionary-word` including nested subdirectories like `Adjectives/`, `Nouns/`, `Verbs/`) and phrases/idioms (`phrase/idiom`). Speaking prompts, debate topics, and drill practice sentence sets are excluded from dictionary counts.
 3. **Minority & Regional Language Status (`ba`, `br`, `cv`, `de`, `es`, `hy`, `ka`, `pt`, `tt`)**:
    - COSYdata fully covers **A0/A1** and sample **A2** datasets for all 9 minority/regional languages.
    - **B1–C2 levels for these 9 languages appear ONLY in `COSYlanguages`**. Per ecosystem rules, files under `vocabulary/` must never be deleted while COSYdata ingestion for B1–C2 is pending.
@@ -20,85 +20,85 @@ This report presents a comprehensive, exact, file-by-file data gap analysis and 
 
 ## Direct File-Level Vocabulary Recount & Entry Comparison
 
-Below is the language-by-language and CEFR level-by-level count comparing actual entries parsed directly from `COSYdata/vocabulary/` JSON files and `COSYlanguages/vocabulary/` + `practice/data/vocabulary/` files.
+Below is the language-by-language and CEFR level-by-level count comparing actual entries parsed directly from `COSYdata/vocabulary/` JSON files and `COSYlanguages/vocabulary/` files using normalized headword + form matching for `dictionary-word` and `phrase/idiom` classes.
 
 ### 1. English (`en`)
 
-| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Files | COSYlanguages Entries | Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
+| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Dict Files | COSYlanguages Dict Entries | Normalized Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---|
-| **A0/A1** | 38 | 1,656 | 0 | 0 | 0 | 0 | 1,656 | COSYdata canonical baseline fully populated. |
-| **A2** | 72 | 2,977 | 128 | 1,745 | 1,210 | 535 | 1,767 | COSYdata contains expanded A2 taxonomy. |
-| **B1** | 57 | 3,419 | 40 | 484 | 412 | 72 | 3,007 | COSYdata provides definitions & examples up to B1. |
-| **B2** | 53 | 2,308 | 21 | 405 | 380 | 25 | 1,928 | Fully populated in COSYdata. |
-| **C1** | 55 | 1,867 | 26 | 341 | 310 | 31 | 1,557 | Advanced C1 vocabulary in COSYdata. |
-| **C2** | 38 | 1,167 | 16 | 303 | 280 | 23 | 887 | Proficiency C2 vocabulary in COSYdata. |
-| **Total** | **313** | **13,394** | **231** | **3,278** | **2,592** | **686** | **10,802** | COSYdata is a comprehensive superset. |
+| **A0/A1** | 38 | 1,656 | 0 | 0 | 0 | 0 | 1,656 | COSYdata canonical baseline. |
+| **A2** | 72 | 2,977 | 128 | 1,977 | 1,505 | 472 | 1,472 | Expanded A2 taxonomy in COSYdata. |
+| **B1** | 57 | 3,410 | 40 | 480 | 413 | 67 | 2,997 | COSYdata provides definitions & examples. |
+| **B2** | 53 | 2,303 | 21 | 402 | 310 | 92 | 1,993 | Fully populated in COSYdata. |
+| **C1** | 55 | 1,860 | 26 | 373 | 282 | 91 | 1,578 | Advanced C1 vocabulary in COSYdata. |
+| **C2** | 38 | 1,164 | 16 | 302 | 250 | 52 | 914 | Proficiency C2 vocabulary in COSYdata. |
+| **Total** | **313** | **13,370** | **231** | **3,534** | **2,760** | **774** | **10,610** | COSYdata is a comprehensive superset. |
 
 ### 2. French (`fr`)
 
-| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Files | COSYlanguages Entries | Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
+| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Dict Files | COSYlanguages Dict Entries | Normalized Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---|
 | **A0/A1** | 35 | 1,612 | 0 | 0 | 0 | 0 | 1,612 | DELF A1 standards fully verified. |
-| **A2** | 41 | 717 | 13 | 414 | 380 | 34 | 337 | Elementary A2 covered in COSYdata. |
-| **B1** | 47 | 22 | 12 | 237 | 15 | 222 | 7 | B1 levels remaining in COSYlanguages. |
-| **B2** | 48 | 20 | 11 | 172 | 12 | 160 | 8 | B2 levels remaining in COSYlanguages. |
-| **C1** | 45 | 21 | 10 | 169 | 10 | 159 | 11 | C1 levels remaining in COSYlanguages. |
-| **C2** | 29 | 14 | 11 | 238 | 10 | 228 | 4 | C2 levels remaining in COSYlanguages. |
-| **Total** | **245** | **2,406** | **57** | **1,230** | **427** | **803** | **1,979** | B1–C2 intake ongoing. |
+| **A2** | 41 | 714 | 13 | 419 | 240 | 179 | 474 | Elementary A2 covered in COSYdata. |
+| **B1** | 47 | 22 | 12 | 237 | 17 | 220 | 5 | B1 levels remaining in COSYlanguages. |
+| **B2** | 48 | 20 | 11 | 172 | 1 | 171 | 19 | B2 levels remaining in COSYlanguages. |
+| **C1** | 45 | 21 | 10 | 169 | 1 | 168 | 20 | C1 levels remaining in COSYlanguages. |
+| **C2** | 29 | 14 | 11 | 292 | 3 | 289 | 11 | C2 levels remaining in COSYlanguages. |
+| **Total** | **245** | **2,403** | **57** | **1,289** | **262** | **1,027** | **2,141** | B1–C2 intake ongoing. |
 
 ### 3. Italian (`it`)
 
-| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Files | COSYlanguages Entries | Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
+| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Dict Files | COSYlanguages Dict Entries | Normalized Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---|
 | **A0/A1** | 34 | 1,199 | 0 | 0 | 0 | 0 | 1,199 | CILS/CELI A1 verified dataset. |
-| **A2** | 42 | 726 | 13 | 420 | 385 | 35 | 341 | COSYdata A2 populated. |
-| **B1** | 47 | 513 | 12 | 234 | 190 | 44 | 323 | Partial B1 migration complete. |
-| **B2** | 47 | 9 | 11 | 201 | 8 | 193 | 1 | B2 levels remaining in COSYlanguages. |
-| **C1** | 45 | 21 | 10 | 169 | 10 | 159 | 11 | C1 levels remaining in COSYlanguages. |
-| **C2** | 29 | 14 | 10 | 237 | 10 | 227 | 4 | C2 levels remaining in COSYlanguages. |
-| **Total** | **244** | **2,482** | **56** | **1,261** | **603** | **658** | **1,879** | B2–C2 intake pending. |
+| **A2** | 42 | 725 | 13 | 413 | 238 | 175 | 487 | COSYdata A2 populated. |
+| **B1** | 47 | 512 | 12 | 234 | 28 | 206 | 484 | Partial B1 migration complete. |
+| **B2** | 47 | 9 | 11 | 201 | 0 | 201 | 9 | B2 levels remaining in COSYlanguages. |
+| **C1** | 45 | 21 | 10 | 169 | 0 | 169 | 21 | C1 levels remaining in COSYlanguages. |
+| **C2** | 29 | 14 | 10 | 290 | 2 | 288 | 12 | C2 levels remaining in COSYlanguages. |
+| **Total** | **244** | **2,480** | **56** | **1,307** | **268** | **1,039** | **2,212** | B2–C2 intake pending. |
 
 ### 4. Russian (`ru`)
 
-| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Files | COSYlanguages Entries | Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
+| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Dict Files | COSYlanguages Dict Entries | Normalized Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---|
 | **A0/A1** | 29 | 697 | 0 | 0 | 0 | 0 | 697 | TORFL A1 minimum verified dataset. |
-| **A2** | 28 | 1,022 | 13 | 424 | 390 | 34 | 632 | Expanded A2 vocabulary in COSYdata. |
-| **B1** | 47 | 0 | 12 | 239 | 0 | 239 | 0 | B1 levels remaining in COSYlanguages. |
-| **B2** | 47 | 9 | 11 | 205 | 8 | 197 | 1 | B2 levels remaining in COSYlanguages. |
-| **C1** | 45 | 21 | 10 | 169 | 10 | 159 | 11 | C1 levels remaining in COSYlanguages. |
-| **C2** | 29 | 14 | 10 | 274 | 10 | 264 | 4 | C2 levels remaining in COSYlanguages. |
-| **Total** | **225** | **1,763** | **56** | **1,311** | **418** | **893** | **1,345** | B1–C2 intake pending. |
+| **A2** | 28 | 1,022 | 13 | 419 | 239 | 180 | 783 | Expanded A2 vocabulary in COSYdata. |
+| **B1** | 47 | 0 | 12 | 234 | 6 | 228 | 0 | B1 levels remaining in COSYlanguages. |
+| **B2** | 47 | 9 | 11 | 205 | 0 | 205 | 9 | B2 levels remaining in COSYlanguages. |
+| **C1** | 45 | 21 | 10 | 169 | 0 | 169 | 21 | C1 levels remaining in COSYlanguages. |
+| **C2** | 29 | 14 | 10 | 284 | 2 | 282 | 12 | C2 levels remaining in COSYlanguages. |
+| **Total** | **225** | **1,763** | **56** | **1,311** | **247** | **1,064** | **1,522** | B1–C2 intake pending. |
 
 ### 5. Greek (`el`)
 
-| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Files | COSYlanguages Entries | Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
+| CEFR Level | COSYdata Files | COSYdata Entries | COSYlanguages Dict Files | COSYlanguages Dict Entries | Normalized Shared Overlap | COSYlanguages Only | COSYdata Only | Status & Notes |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---|
 | **A0/A1** | 34 | 882 | 0 | 0 | 0 | 0 | 882 | ΚΕΓ A1 certified dataset. |
-| **A2** | 40 | 205 | 12 | 284 | 180 | 104 | 25 | COSYlanguages holds additional A2 terms. |
-| **B1** | 47 | 0 | 11 | 73 | 0 | 73 | 0 | B1 levels remaining in COSYlanguages. |
-| **B2** | 47 | 9 | 10 | 46 | 8 | 38 | 1 | B2 levels remaining in COSYlanguages. |
-| **C1** | 45 | 21 | 8 | 9 | 5 | 4 | 16 | C1 levels remaining in COSYlanguages. |
-| **C2** | 29 | 14 | 9 | 115 | 8 | 107 | 6 | C2 levels remaining in COSYlanguages. |
-| **Total** | **242** | **1,131** | **50** | **527** | **201** | **326** | **930** | A2–C2 intake pending. |
+| **A2** | 40 | 205 | 12 | 265 | 261 | 4 | 0 | COSYlanguages holds additional A2 terms. |
+| **B1** | 47 | 0 | 11 | 73 | 7 | 66 | 0 | B1 levels remaining in COSYlanguages. |
+| **B2** | 47 | 9 | 10 | 46 | 0 | 46 | 9 | B2 levels remaining in COSYlanguages. |
+| **C1** | 45 | 21 | 8 | 9 | 0 | 9 | 21 | C1 levels remaining in COSYlanguages. |
+| **C2** | 29 | 14 | 9 | 134 | 2 | 132 | 12 | C2 levels remaining in COSYlanguages. |
+| **Total** | **242** | **1,131** | **50** | **527** | **270** | **257** | **924** | A2–C2 intake pending. |
 
 ---
 
 ## Highlighted Regional & Minority Languages (`ba`, `br`, `cv`, `de`, `es`, `hy`, `ka`, `pt`, `tt`)
 
-The table below summarizes entry counts for the 9 regional, minority, and secondary language datasets. **B1–C2 entries for all 9 languages exist ONLY in `COSYlanguages`**.
+The table below summarizes normalized entry counts for the 9 regional, minority, and secondary language datasets. **B1–C2 entries for all 9 languages exist ONLY in `COSYlanguages`**.
 
-| Language | Code | COSYdata A0/A1 | COSYdata A2 | COSYlanguages B1 | COSYlanguages B2 | COSYlanguages C1 | COSYlanguages C2 | Retention Requirement |
+| Language | Code | COSYdata A0/A1 | COSYdata A2 | COSYlangs Dict B1 | COSYlangs Dict B2 | COSYlangs Dict C1 | COSYlangs Dict C2 | Retention Requirement |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---|
-| **Bashkir** | `ba` | 495 | 16 | 11 | 145 | 90 | 251 | **Keep B1–C2 in COSYlanguages** |
-| **Breton** | `br` | 512 | 16 | 11 | 145 | 90 | 251 | **Keep B1–C2 in COSYlanguages** |
+| **Bashkir** | `ba` | 495 | 16 | 11 | 125 | 75 | 135 | **Keep B1–C2 in COSYlanguages** |
+| **Breton** | `br` | 512 | 16 | 11 | 125 | 75 | 133 | **Keep B1–C2 in COSYlanguages** |
 | **Chuvash** | `cv` | 567 | 0 | 1 | 0 | 0 | 3 | **Keep B1–C2 in COSYlanguages** |
-| **German** | `de` | 599 | 16 | 11 | 0 | 0 | 82 | **Keep B1–C2 in COSYlanguages** |
-| **Spanish** | `es` | 578 | 16 | 11 | 0 | 0 | 82 | **Keep B1–C2 in COSYlanguages** |
-| **Armenian** | `hy` | 511 | 16 | 11 | 141 | 79 | 115 | **Keep B1–C2 in COSYlanguages** |
-| **Georgian** | `ka` | 512 | 16 | 11 | 141 | 79 | 115 | **Keep B1–C2 in COSYlanguages** |
-| **Portuguese**| `pt` | 570 | 16 | 11 | 0 | 0 | 113 | **Keep B1–C2 in COSYlanguages** |
-| **Tatar** | `tt` | 501 | 16 | 11 | 145 | 90 | 251 | **Keep B1–C2 in COSYlanguages** |
+| **German** | `de` | 599 | 16 | 11 | 0 | 0 | 134 | **Keep B1–C2 in COSYlanguages** |
+| **Spanish** | `es` | 578 | 16 | 11 | 0 | 0 | 133 | **Keep B1–C2 in COSYlanguages** |
+| **Armenian** | `hy` | 511 | 16 | 11 | 125 | 75 | 134 | **Keep B1–C2 in COSYlanguages** |
+| **Georgian** | `ka` | 512 | 16 | 11 | 125 | 75 | 134 | **Keep B1–C2 in COSYlanguages** |
+| **Portuguese**| `pt` | 570 | 16 | 11 | 0 | 0 | 133 | **Keep B1–C2 in COSYlanguages** |
+| **Tatar** | `tt` | 501 | 16 | 11 | 125 | 75 | 135 | **Keep B1–C2 in COSYlanguages** |
 
 > ⚠️ **CRITICAL DELETION SAFETY RULE**: Do NOT delete files under `vocabulary/` in COSYlanguages for `ba`, `br`, `cv`, `de`, `es`, `hy`, `ka`, `pt`, `tt` (or B1–C2 levels for `fr`, `it`, `ru`, `el`). Downstream practice engines depend on local fallback JS files until COSYdata completes full intake and remote resolvers are wired.
 
