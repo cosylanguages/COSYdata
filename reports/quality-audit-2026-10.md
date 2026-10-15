@@ -67,6 +67,23 @@ The A0/A1 audit script checks several useful patterns (IDs, duplicate word/forms
 5. Keep suggested changes separate from accepted corrections; do not rename IDs or move entries without checking references and rebuilding indexes.
 6. Apply accepted corrections in small, reviewable changes, update the `updated` field only on changed entries, and rerun all required checks.
 
-## Limitations of this pass
+## Follow-up findings from the English A0/A1 correction pass
 
-The source files have not all been downloaded and validated locally in this pass. No vocabulary entries have been changed. The findings above are a small, directly inspected sample intended to establish a reliable audit workflow before applying broad changes.
+A focused review of `vocabulary/en/a0_a1/food_drink.json` identified additional entries where the definition/example was awkward, too technical for A0/A1, or inconsistent with the part-of-speech label. A subset of definition and example wording was simplified on the separate draft correction branch `jules/en-a0-a1-cefr-language-fixes-2026-10` (PR #210). Examples include:
+
+| Entry | Issue observed | Follow-up |
+| --- | --- | --- |
+| `en:yogurt:noun` | Original definition used technical wording (“semi-solid”, “fermented by bacteria”) for A1. | Simplified to “a soft food made from milk.” |
+| `en:sparkling-water:noun` / `en:still-water:noun` | Original definitions used unnecessarily technical language for A1. | Reworded in terms of bubbles. |
+| `en:to-go:phrase`, `en:no-meat:phrase`, `en:no-sugar:phrase` | Definitions were formal or unnatural for common restaurant requests. | Rewritten as simple functional phrases with short examples. |
+| `en:restaurant:noun`, `en:hamburger:noun`, `en:tomato:noun`, `en:bill:noun` | Definitions were vague, unnatural, or misleadingly phrased. | Wording clarified on the correction branch. |
+| `en:eat:noun` | The example “Let us go out for an eat” is not idiomatic English and the noun label is suspicious for the headword. | Example improved to “Let's get something to eat.”; part-of-speech / ID issue remains flagged for a reference-aware decision. |
+| `en:drank:noun`, `en:eaten:noun`, `en:salty:noun`, `en:sour:noun` | The stored `form` and ID suffix say noun, but the headwords and usage are verb forms or adjectives. | Not renamed or reclassified in this batch because IDs may be referenced by indexes or other data. Requires a repository-wide reference check and coordinated index rebuild. |
+
+The correction branch also rewrites selected animal definitions and everyday verb examples for clarity and beginner-level suitability. These edits are proposals under review, not merged changes.
+
+## Validation status and limitations
+
+At the time of this follow-up, GitHub Actions passed the vocabulary-file/reference validation and the freshness checks for the correction branch's preceding revision. A subsequent focused food-and-drink edit was committed after that run; its own workflow must finish before it can be described as validated. These automated checks establish structural/index consistency, not linguistic correctness.
+
+The source files have not all been downloaded and validated locally in this pass. The findings remain a small, directly inspected sample, not a complete linguistic audit of all 14 language directories. The cross-language findings (including the French example above) still need review by proficient speakers. Keep ID changes and file moves separate until references and generated indexes have been checked.
