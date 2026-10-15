@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Improved CEFR-A0/A1 English vocabulary content: clarified the `tree` and `cat` definitions, corrected the `cat` example sentence, and simplified the definitions for `long`, `good`, `easy`, and `short`.
+- Continued CEFR-aware English A0/A1 edits across common nouns, daily verbs, food, rooms, and colours: corrected article use, simplified definitions, and improved example naturalness.
 
 ### Added
 - Restored 82 valid English vocabulary entries removed without logging in commit `bafad07` into their canonical primary theme files in `vocabulary/en/` (`a0_a1`, `a2`, `b1`, `b2`) per `schemas/themes.json` taxonomy, logged all 89 removed entries in `reports/restore-log.md` (marking 7 wrong-part-of-speech artifacts as dropped), resolved `dormitory` duplicate, and regenerated all English index files (`index.json`, `flat-index.json`, `search-index.json`, `themes-index.json`).
