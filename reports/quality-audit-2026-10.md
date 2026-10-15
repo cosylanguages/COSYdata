@@ -23,11 +23,30 @@ The examples below were inspected directly in the current source files. These ar
 | P2 | `en:wrong:adjective`, `vocabulary/en/a0_a1/adjectives.json` | `more wrong / most wrong` can occur in context, but presenting them as routine comparative/superlative forms is questionable for beginner material. | Review against the project’s morphology policy; omit the fields if they are not useful default forms. |
 | P2 | `fr:beau:adjective`, `vocabulary/fr/a0_a1/adjectives.json` | Example “Il fait un beau soleil ce matin.” is understandable, but “Il y a un beau soleil ce matin” is more idiomatic in standard French for this meaning. | Have a French-language reviewer confirm and improve naturalness. |
 
+## CEFR adaptation is a core quality requirement
+
+Definitions and examples must be adapted to the learner's CEFR level, not merely attached to an entry that carries a level label. This applies in every language and at every level.
+
+- **Definitions:** use vocabulary, syntax, and explanation length appropriate to the target level; define the intended sense precisely; avoid circular definitions and unexplained advanced words. Prefer a short, direct definition at A0/A1; allow more nuance and terminology at higher levels when useful.
+- **Examples:** use natural, grammatically correct sentences that demonstrate the target meaning; keep sentence length, clause complexity, idioms, and surrounding vocabulary appropriate to the entry's intended level. A sentence can be grammatical but still be unsuitable for beginners.
+- **Level alignment:** evaluate the whole definition and example, not just the headword. Flag examples that rely on vocabulary or grammar substantially above the target level unless that complexity is intentional and pedagogically justified.
+- **Progression:** avoid treating CEFR as a rigid word-frequency list. Judge suitability in context, allowing common functional chunks and necessary irregular forms at early levels; higher levels should add precision, register, idiomaticity, and nuanced senses rather than simply longer sentences.
+- **Consistency:** use a documented editorial rubric across languages, while allowing language-specific grammar and natural phrasing. Do not mechanically translate the same definition or example across languages.
+- **Review output:** for each flagged item, record the entry ID, field (`definitions` or `examples`), assigned level, specific difficulty (lexical / grammatical / syntactic / pragmatic), reason, and a proposed level-appropriate rewrite.
+
+**Suggested review rubric**
+- **A0/A1:** concrete, familiar vocabulary; short simple sentences; one main idea; minimal subordinate clauses; no unnecessary idioms; clear demonstration of the headword.
+- **A2:** everyday contexts with modest detail and some coordination or common subordinate structures.
+- **B1/B2:** broader contexts, connected discourse, more varied sentence structures, and idiomatic language where relevant.
+- **C1/C2:** nuanced meanings, register, collocation, and complex syntax where these help explain advanced usage—not complexity for its own sake.
+
+These are editorial heuristics, not a substitute for the project's language-specific CEFR policy or expert review. CEFR labels should be checked against the repository's current policy and applied consistently.
+
 ## Important systemic risks to verify
 
 1. **Grammar and morphology:** articles/countability, noun plurals, adjective agreement and comparison, verb forms, preposition patterns, and language-specific exceptions.
 2. **Lexical correctness:** headword/part-of-speech mismatch, wrong sense, inaccurate or over-broad definitions, false friends, and regional labels.
-3. **Examples:** grammaticality, idiomaticity, correct use of the target headword, and alignment with the definition and CEFR level.
+3. **Definitions and examples:** grammaticality, lexical accuracy, idiomaticity, correct use of the target headword, and CEFR adaptation of vocabulary, syntax, sentence length, and conceptual complexity.
 4. **Taxonomy and file placement:** theme/sub-theme validity, topical mismatch, duplicate or inconsistent categorization, and generated-index consistency after any move.
 5. **Pronunciation:** IPA accuracy and dialect labeling. A transcription identical to spelling is a warning signal, not proof of error; some scripts and languages need different treatment.
 6. **Cross-language parity and coverage:** compare coverage carefully without forcing word-for-word equivalence across languages.
