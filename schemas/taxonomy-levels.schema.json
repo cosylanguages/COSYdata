@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/taxonomy-levels.schema.json",
+  "title": "COSYdata CEFR Levels Taxonomy Schema",
+  "type": "object",
+  "required": ["levels", "aliases"],
+  "properties": {
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "folder_code"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+          },
+          "label": {
+            "type": "string"
+          },
+          "folder_code": {
+            "type": "string",
+            "enum": ["a0_a1", "a2", "b1", "b2", "c1", "c2"]
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["a0", "a1", "a2", "b1", "b2", "c1", "c2", "A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

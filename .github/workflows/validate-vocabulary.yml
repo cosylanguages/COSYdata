@@ -7,6 +7,7 @@ on:
       - 'vocabulary/**'
       - 'functional-phrases/**'
       - 'curriculum/**'
+      - 'taxonomy/**'
       - 'schemas/**'
       - 'scripts/**'
       - 'shared/**'
@@ -16,6 +17,7 @@ on:
       - 'vocabulary/**'
       - 'functional-phrases/**'
       - 'curriculum/**'
+      - 'taxonomy/**'
       - 'schemas/**'
       - 'scripts/**'
       - 'shared/**'
@@ -37,6 +39,9 @@ jobs:
 
       - name: Validate Vocabulary Files & Index References
         run: node scripts/validate.cjs
+
+      - name: Validate Taxonomy
+        run: node scripts/validate-taxonomy.cjs
 
       - name: Check Index Freshness
         run: |

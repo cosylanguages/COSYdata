@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/taxonomy-crosswalk-themes.schema.json",
+  "title": "COSYdata Crosswalk Themes Taxonomy Schema",
+  "type": "object",
+  "required": ["legacy_schema_mappings", "unmapped_vocab_file_themes"],
+  "properties": {
+    "legacy_schema_mappings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["targets", "confidence"],
+        "properties": {
+          "targets": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["exact", "partial", "none"]
+          },
+          "note": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "unmapped_vocab_file_themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["theme_key", "note"],
+        "properties": {
+          "theme_key": { "type": "string" },
+          "note": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

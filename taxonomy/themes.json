@@ -1,0 +1,3754 @@
+{
+  "meta": {
+    "version": "1.1",
+    "levels": [
+      "A0",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "level_labels": {
+      "A0": "Pre-A1"
+    },
+    "note": "level = typical first systematic introduction; spiral recycling afterwards"
+  },
+  "domains": {
+    "vocabulary": {
+      "title": "Vocabulary themes",
+      "themes": [
+        {
+          "id": "V01",
+          "name": "Personal identity & self",
+          "subthemes": [
+            {
+              "id": "V01.01",
+              "name": "Name, age, nationality",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V01.02",
+              "name": "Languages spoken",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V01.03",
+              "name": "Physical appearance",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V01.04",
+              "name": "Likes, dislikes & preferences",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V01.05",
+              "name": "Personality & character",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V01.06",
+              "name": "Feelings & emotions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V01.07",
+              "name": "Beliefs, values & worldview",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V01.08",
+              "name": "Identity, belonging & self-image",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V02",
+          "name": "Family & relationships",
+          "subthemes": [
+            {
+              "id": "V02.01",
+              "name": "Family members",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V02.02",
+              "name": "Marital & family status",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V02.03",
+              "name": "Friends & acquaintances",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V02.04",
+              "name": "Social relations & etiquette",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V02.05",
+              "name": "Dating & romantic relationships",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V02.06",
+              "name": "Generations & family change",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V02.07",
+              "name": "Conflict & reconciliation",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V02.08",
+              "name": "Guilt, forgiveness & memory",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V03",
+          "name": "Numbers, quantity & measures",
+          "subthemes": [
+            {
+              "id": "V03.01",
+              "name": "Cardinal & ordinal numbers",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V03.02",
+              "name": "Prices & money",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V03.03",
+              "name": "Quantities, weights & measures",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V03.04",
+              "name": "Fractions, percentages & proportions",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V03.05",
+              "name": "Statistics, trends & data description",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V03.06",
+              "name": "Probability, risk & precision terms",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V04",
+          "name": "Time & calendar",
+          "subthemes": [
+            {
+              "id": "V04.01",
+              "name": "Days, months, seasons",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V04.02",
+              "name": "Telling time & dates",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V04.03",
+              "name": "Frequency & routine time words",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V04.04",
+              "name": "Duration, sequence & deadlines",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V04.05",
+              "name": "Historical periods & eras",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V04.06",
+              "name": "Life stages & life chronology",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "V05",
+          "name": "Home & housing",
+          "subthemes": [
+            {
+              "id": "V05.01",
+              "name": "Rooms & furniture",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V05.02",
+              "name": "Household objects",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V05.03",
+              "name": "Housework & chores",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V05.04",
+              "name": "Finding & renting housing",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V05.05",
+              "name": "Repairs, utilities & neighbours",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V05.06",
+              "name": "Housing market & urban living",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V05.07",
+              "name": "Shared & alternative living",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V06",
+          "name": "Food & drink",
+          "subthemes": [
+            {
+              "id": "V06.01",
+              "name": "Basic foods & drinks",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V06.02",
+              "name": "Meals & mealtimes",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V06.03",
+              "name": "Ordering & preferences",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V06.04",
+              "name": "Cooking, recipes & ingredients",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V06.05",
+              "name": "Nutrition & diets",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V06.06",
+              "name": "Food culture & gastronomy",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V06.07",
+              "name": "Food industry, ethics & sustainability",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V07",
+          "name": "Shopping, clothes & consumption",
+          "subthemes": [
+            {
+              "id": "V07.01",
+              "name": "Shops & products",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V07.02",
+              "name": "Clothes & accessories",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V07.03",
+              "name": "Sizes, colours & prices",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V07.04",
+              "name": "Returns, complaints & guarantees",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V07.05",
+              "name": "Consumer rights & online shopping",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V07.06",
+              "name": "Advertising & consumer culture",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "V08",
+          "name": "Daily life & routines",
+          "subthemes": [
+            {
+              "id": "V08.01",
+              "name": "Daily routine",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V08.02",
+              "name": "Habits & activities",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V08.03",
+              "name": "Household organisation",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V08.04",
+              "name": "Work-life balance",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V08.05",
+              "name": "Quality of life & well-being",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V09",
+          "name": "Places, town & directions",
+          "subthemes": [
+            {
+              "id": "V09.01",
+              "name": "Places in town",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V09.02",
+              "name": "Asking & giving directions",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V09.03",
+              "name": "Location & spatial relations",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V09.04",
+              "name": "Neighbourhood & city description",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V09.05",
+              "name": "Urban change & planning",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V09.06",
+              "name": "Urbanism & public-space debates",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V10",
+          "name": "Travel, transport & tourism",
+          "subthemes": [
+            {
+              "id": "V10.01",
+              "name": "Transport modes",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V10.02",
+              "name": "Tickets, timetables & stations",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V10.03",
+              "name": "Hotels & booking",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V10.04",
+              "name": "Holidays & itineraries",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V10.05",
+              "name": "Travel problems & complaints",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V10.06",
+              "name": "Tourism, heritage & sustainable travel",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V10.07",
+              "name": "Migration, expatriation & mobility",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V11",
+          "name": "Weather, nature & animals",
+          "subthemes": [
+            {
+              "id": "V11.01",
+              "name": "Weather & seasons",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V11.02",
+              "name": "Animals & plants",
+              "level_min": "A1",
+              "level_max": "A2"
+            },
+            {
+              "id": "V11.03",
+              "name": "Landscapes & geography",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V11.04",
+              "name": "Natural phenomena & disasters",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V11.05",
+              "name": "Environment & biodiversity",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V11.06",
+              "name": "Animal welfare & ecology debates",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V12",
+          "name": "Education & learning",
+          "subthemes": [
+            {
+              "id": "V12.01",
+              "name": "Classroom language & objects",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V12.02",
+              "name": "School subjects",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V12.03",
+              "name": "Studying & exams",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V12.04",
+              "name": "Higher education & training",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V12.05",
+              "name": "Learning methods & learner profiles",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V12.06",
+              "name": "Education systems & policy",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V13",
+          "name": "Work & professions",
+          "subthemes": [
+            {
+              "id": "V13.01",
+              "name": "Jobs & workplaces",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V13.02",
+              "name": "Work tasks & colleagues",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V13.03",
+              "name": "CV, job ads & interviews",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V13.04",
+              "name": "Meetings, emails & office life",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V13.05",
+              "name": "Careers, management & negotiation",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V13.06",
+              "name": "Labour market, law & professional ethics",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V14",
+          "name": "Health & body",
+          "subthemes": [
+            {
+              "id": "V14.01",
+              "name": "Body parts",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V14.02",
+              "name": "Symptoms & feeling ill",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V14.03",
+              "name": "Doctor, pharmacy & prescriptions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V14.04",
+              "name": "Accidents & first aid",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V14.05",
+              "name": "Healthy lifestyle & prevention",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V14.06",
+              "name": "Health systems & medical choices",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V14.07",
+              "name": "Bioethics & mental health",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V15",
+          "name": "Leisure, hobbies & sport",
+          "subthemes": [
+            {
+              "id": "V15.01",
+              "name": "Hobbies & free time",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V15.02",
+              "name": "Sports & games",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V15.03",
+              "name": "Music, film & TV",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V15.04",
+              "name": "Outings & invitations",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V15.05",
+              "name": "Events, festivals & nightlife",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V15.06",
+              "name": "Competition, performance & sporting ethics",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V16",
+          "name": "Media, technology & communication",
+          "subthemes": [
+            {
+              "id": "V16.01",
+              "name": "Phone & basic messaging",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V16.02",
+              "name": "Internet & devices",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V16.03",
+              "name": "Social media & online life",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V16.04",
+              "name": "News media & press",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V16.05",
+              "name": "Misinformation & media literacy",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V16.06",
+              "name": "AI, privacy & technology ethics",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V17",
+          "name": "Arts & culture",
+          "subthemes": [
+            {
+              "id": "V17.01",
+              "name": "Festivals & traditions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V17.02",
+              "name": "Cinema, theatre & music",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V17.03",
+              "name": "Literature & reading",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V17.04",
+              "name": "Visual arts & architecture",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V17.05",
+              "name": "Humour, satire & popular culture",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V17.06",
+              "name": "Heritage, restitution & cultural appropriation",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V18",
+          "name": "Society, politics & law",
+          "subthemes": [
+            {
+              "id": "V18.01",
+              "name": "Public services (post, bank, town hall)",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V18.02",
+              "name": "Rules, rights & duties",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V18.03",
+              "name": "Politics, elections & institutions",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V18.04",
+              "name": "Civic engagement & social movements",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V18.05",
+              "name": "Inequality, justice & discrimination",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V18.06",
+              "name": "International relations & governance",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V19",
+          "name": "Economy & finance",
+          "subthemes": [
+            {
+              "id": "V19.01",
+              "name": "Money, banks & payments",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V19.02",
+              "name": "Personal finance & budgeting",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V19.03",
+              "name": "Taxes, welfare & public spending",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V19.04",
+              "name": "Business, markets & trade",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V19.05",
+              "name": "Economic theory & policy",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "V20",
+          "name": "Science & technology",
+          "subthemes": [
+            {
+              "id": "V20.01",
+              "name": "Everyday gadgets",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V20.02",
+              "name": "Inventions & innovation",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V20.03",
+              "name": "Scientific findings & experiments",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V20.04",
+              "name": "Research methods & argumentation",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V20.05",
+              "name": "Specialised & academic terminology",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "V21",
+          "name": "Environment & sustainability",
+          "subthemes": [
+            {
+              "id": "V21.01",
+              "name": "Recycling & daily eco-habits",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V21.02",
+              "name": "Climate change & energy",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V21.03",
+              "name": "Environmental policy & activism",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V21.04",
+              "name": "Eco-anxiety & future scenarios",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V22",
+          "name": "Target-language community & culture",
+          "subthemes": [
+            {
+              "id": "V22.01",
+              "name": "Greetings & politeness customs",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V22.02",
+              "name": "National holidays & traditions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V22.03",
+              "name": "Regional varieties & dialects",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V22.04",
+              "name": "Language attitudes, borrowings & policy",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V22.05",
+              "name": "Minority & endangered-language contexts",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "V23",
+          "name": "Functional & discourse vocabulary",
+          "subthemes": [
+            {
+              "id": "V23.01",
+              "name": "Greetings, thanks, apologies",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V23.02",
+              "name": "Question words & basic connectors",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V23.03",
+              "name": "Time & sequence connectors",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V23.04",
+              "name": "Opinion, agreement & disagreement phrases",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V23.05",
+              "name": "Argumentation & cohesion devices",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "V23.06",
+              "name": "Hedging, nuance & implicit meaning",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V23.07",
+              "name": "Idioms, collocations & fixed expressions",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "V23.08",
+              "name": "Irony, wordplay & stylistic effect",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "V24",
+          "name": "Emergencies, administration & services",
+          "subthemes": [
+            {
+              "id": "V24.01",
+              "name": "Basic forms & personal data",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "V24.02",
+              "name": "Emergency phrases",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V24.03",
+              "name": "Appointments & bookings",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "V24.04",
+              "name": "Official procedures & documents",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "V24.05",
+              "name": "Legal, administrative & contractual language",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        }
+      ]
+    },
+    "lexical_types": {
+      "title": "Lexical types (vocabulary axis independent of topic)",
+      "themes": [
+        {
+          "id": "LT01",
+          "name": "Single words by word class",
+          "subthemes": [
+            {
+              "id": "LT01.01",
+              "name": "Nouns",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.02",
+              "name": "Verbs",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.03",
+              "name": "Adjectives",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.04",
+              "name": "Adverbs",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.05",
+              "name": "Pronouns & determiners",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.06",
+              "name": "Prepositions & postpositions",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.07",
+              "name": "Articles",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.08",
+              "name": "Numbers",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT01.09",
+              "name": "Rare or advanced adjectives & verbs",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "LT02",
+          "name": "Multi-word units",
+          "subthemes": [
+            {
+              "id": "LT02.01",
+              "name": "Fixed routines & greetings (transparent)",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT02.02",
+              "name": "Collocations",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "LT02.03",
+              "name": "Linking words & connectors",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "LT02.04",
+              "name": "Phrasal verbs / verb + particle (where present)",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "LT02.05",
+              "name": "Idioms & non-transparent expressions",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "LT02.06",
+              "name": "Proverbs & sayings",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "LT02.07",
+              "name": "Register-marked expressions",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "LT03",
+          "name": "Word-building & relations",
+          "subthemes": [
+            {
+              "id": "LT03.01",
+              "name": "Word building (affixes, compounds)",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "LT03.02",
+              "name": "Synonyms",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "LT03.03",
+              "name": "Antonyms",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "LT03.04",
+              "name": "Comparisons & contrasts",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "LT03.05",
+              "name": "Regional equivalents & varieties",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "LT04",
+          "name": "Academic & specialised lexis",
+          "subthemes": [
+            {
+              "id": "LT04.01",
+              "name": "Academic vocabulary",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "LT04.02",
+              "name": "Domain terminology",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "LT04.03",
+              "name": "Statistical & analytical terms",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar": {
+      "title": "Grammar themes (core)",
+      "themes": [
+        {
+          "id": "G01",
+          "name": "Script, sounds & prosody",
+          "subthemes": [
+            {
+              "id": "G01.01",
+              "name": "Alphabet/script & writing direction",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "G01.02",
+              "name": "Sound–letter correspondence & spelling rules",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "G01.03",
+              "name": "Stress, rhythm & intonation",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G01.04",
+              "name": "Special sounds & minimal pairs",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G01.05",
+              "name": "Connected speech & reduction",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G01.06",
+              "name": "Accent, dialect & register in pronunciation",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G01.07",
+              "name": "Prosody for nuance, irony & emphasis",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G02",
+          "name": "Nouns & noun phrases",
+          "subthemes": [
+            {
+              "id": "G02.01",
+              "name": "Number (singular/plural)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G02.02",
+              "name": "Gender / noun classes (if present)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G02.03",
+              "name": "Articles & definiteness (if present)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G02.04",
+              "name": "Case system (if present)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G02.05",
+              "name": "Possession (adjectives, suffixes, genitive)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G02.06",
+              "name": "Countable/uncountable & quantification",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G02.07",
+              "name": "Diminutives & augmentatives",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G02.08",
+              "name": "Noun derivation & nominalisation",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G02.09",
+              "name": "Complex noun phrases & apposition",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G03",
+          "name": "Pronouns & determiners",
+          "subthemes": [
+            {
+              "id": "G03.01",
+              "name": "Subject/personal pronouns",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G03.02",
+              "name": "Demonstratives",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G03.03",
+              "name": "Interrogatives",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G03.04",
+              "name": "Reflexive pronouns",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G03.05",
+              "name": "Direct/indirect object pronouns & clitics",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G03.06",
+              "name": "Relative pronouns",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G03.07",
+              "name": "Indefinite pronouns & quantifiers",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G03.08",
+              "name": "Combined pronouns & placement rules",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G03.09",
+              "name": "Emphatic & stylistic pronoun use",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G04",
+          "name": "Adjectives & adverbs",
+          "subthemes": [
+            {
+              "id": "G04.01",
+              "name": "Agreement & position of adjectives",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G04.02",
+              "name": "Basic adverbs (place, time, manner, frequency)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G04.03",
+              "name": "Comparatives & superlatives",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G04.04",
+              "name": "Degree & intensifiers",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G04.05",
+              "name": "Adverb formation",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G04.06",
+              "name": "Participial & complex modifiers",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G04.07",
+              "name": "Stylistic placement & nuance",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G05",
+          "name": "Verb forms",
+          "subthemes": [
+            {
+              "id": "G05.01",
+              "name": "Present tense (regular & key irregulars)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G05.02",
+              "name": "Person/number agreement",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G05.03",
+              "name": "Copula & auxiliaries",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G05.04",
+              "name": "Infinitives & non-finite forms",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G05.05",
+              "name": "Participles",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G05.06",
+              "name": "Gerund / converb / verbal noun",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G05.07",
+              "name": "Irregular & suppletive paradigms",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G05.08",
+              "name": "Literary or archaic forms",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G06",
+          "name": "Tense & aspect",
+          "subthemes": [
+            {
+              "id": "G06.01",
+              "name": "Present & present progressive",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G06.02",
+              "name": "Simple / narrative past",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G06.03",
+              "name": "Perfect / compound past",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G06.04",
+              "name": "Imperfect, habitual past & aspect contrast",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G06.05",
+              "name": "Future (simple, periphrastic)",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G06.06",
+              "name": "Pluperfect & future perfect",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G06.07",
+              "name": "Sequence of tenses & aspect pairs",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G06.08",
+              "name": "Literary / historic tenses",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G07",
+          "name": "Mood & modality",
+          "subthemes": [
+            {
+              "id": "G07.01",
+              "name": "Imperative (informal)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G07.02",
+              "name": "Modal verbs (can, must, want)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G07.03",
+              "name": "Polite requests & conditional",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G07.04",
+              "name": "Formal imperative & commands",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G07.05",
+              "name": "Subjunctive / optative (if present)",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G07.06",
+              "name": "Hypothesis & conditional clauses",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G07.07",
+              "name": "Reported modality & evidentiality (if present)",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G07.08",
+              "name": "Subtle modality, concession & irrealis",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G08",
+          "name": "Voice & valency",
+          "subthemes": [
+            {
+              "id": "G08.01",
+              "name": "Reflexive / middle verbs",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G08.02",
+              "name": "Impersonal constructions",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G08.03",
+              "name": "Passive voice",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G08.04",
+              "name": "Causative & benefactive",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G08.05",
+              "name": "Verb argument structure & case government",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G08.06",
+              "name": "Ergative / polypersonal patterns (if present)",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "G09",
+          "name": "Sentence structure",
+          "subthemes": [
+            {
+              "id": "G09.01",
+              "name": "Basic word order",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G09.02",
+              "name": "Yes/no & wh-questions",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G09.03",
+              "name": "Negation",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G09.04",
+              "name": "Coordination (and, but, or)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G09.05",
+              "name": "Adverbial clauses (time, cause, purpose)",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G09.06",
+              "name": "Relative clauses",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G09.07",
+              "name": "Reported speech",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G09.08",
+              "name": "Conditional sentences",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G09.09",
+              "name": "Complex subordination & concession",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G09.10",
+              "name": "Cleft, focus & information structure",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G09.11",
+              "name": "Ellipsis, inversion & stylistic variation",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G10",
+          "name": "Prepositions, postpositions & particles",
+          "subthemes": [
+            {
+              "id": "G10.01",
+              "name": "Spatial & temporal prepositions/postpositions",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G10.02",
+              "name": "Case-governing prepositions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G10.03",
+              "name": "Verb + preposition collocations",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G10.04",
+              "name": "Discourse particles & fillers",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G10.05",
+              "name": "Fixed prepositional idioms",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G11",
+          "name": "Numerals & quantifiers",
+          "subthemes": [
+            {
+              "id": "G11.01",
+              "name": "Cardinal/ordinal forms & agreement",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G11.02",
+              "name": "Dates, time & fractions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G11.03",
+              "name": "Approximation & measure phrases",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G11.04",
+              "name": "Special number systems (e.g. vigesimal)",
+              "level_min": "A2",
+              "level_max": "A2"
+            }
+          ]
+        },
+        {
+          "id": "G12",
+          "name": "Word formation",
+          "subthemes": [
+            {
+              "id": "G12.01",
+              "name": "Common prefixes & suffixes",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G12.02",
+              "name": "Compounding",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G12.03",
+              "name": "Derivation & word families",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G12.04",
+              "name": "Conversion & borrowings",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "G13",
+          "name": "Discourse & cohesion",
+          "subthemes": [
+            {
+              "id": "G13.01",
+              "name": "Basic connectors",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G13.02",
+              "name": "Sequencing & linking",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G13.03",
+              "name": "Reference & anaphora",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G13.04",
+              "name": "Cohesive devices in long text",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G13.05",
+              "name": "Information structure & topicalisation",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "G13.06",
+              "name": "Rhetorical structuring",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "G14",
+          "name": "Pragmatics & politeness",
+          "subthemes": [
+            {
+              "id": "G14.01",
+              "name": "Formal/informal address (T–V, honorifics)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G14.02",
+              "name": "Politeness formulas",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G14.03",
+              "name": "Register shift",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G14.04",
+              "name": "Indirectness, hedging & softening",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "G14.05",
+              "name": "Irony, implicature & humour",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar_optional": {
+      "title": "Grammar themes (optional modules, switch on per language)",
+      "themes": [
+        {
+          "id": "G15",
+          "name": "Tone & pitch (optional module)",
+          "subthemes": [
+            {
+              "id": "G15.01",
+              "name": "Tone recognition",
+              "level_min": "A0",
+              "level_max": "A0"
+            },
+            {
+              "id": "G15.02",
+              "name": "Tone production & sandhi",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G15.03",
+              "name": "Tone in connected speech",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "G16",
+          "name": "Classifiers & counters (optional module)",
+          "subthemes": [
+            {
+              "id": "G16.01",
+              "name": "Core classifiers with numbers",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G16.02",
+              "name": "Extended classifier sets",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "G17",
+          "name": "Morphophonology (optional module)",
+          "subthemes": [
+            {
+              "id": "G17.01",
+              "name": "Vowel harmony",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G17.02",
+              "name": "Consonant mutation / lenition",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G17.03",
+              "name": "Sandhi & assimilation",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G17.04",
+              "name": "Ablaut & stem alternation",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G17.05",
+              "name": "Exceptions & lexicalised alternations",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "G18",
+          "name": "Evidentiality (optional module)",
+          "subthemes": [
+            {
+              "id": "G18.01",
+              "name": "Reportative / inferential marking",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G18.02",
+              "name": "Evidential contrasts in narration",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "G19",
+          "name": "Polypersonal agreement & screeves (optional module)",
+          "subthemes": [
+            {
+              "id": "G19.01",
+              "name": "Subject/object agreement",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "G19.02",
+              "name": "Preverbs & screeve series",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G19.03",
+              "name": "Case alternation across series",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "G20",
+          "name": "Honorific systems (optional module)",
+          "subthemes": [
+            {
+              "id": "G20.01",
+              "name": "Basic honorific forms",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "G20.02",
+              "name": "Speech levels & humble forms",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "G20.03",
+              "name": "Business and formal honorifics",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "title": "Speaking themes (functions & tasks)",
+      "themes": [
+        {
+          "id": "S01",
+          "name": "Social interaction",
+          "subthemes": [
+            {
+              "id": "S01.01",
+              "name": "Greeting & introductions",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S01.02",
+              "name": "Thanking, apologising, congratulating",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S01.03",
+              "name": "Small talk",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S01.04",
+              "name": "Inviting, accepting, refusing",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S01.05",
+              "name": "Expressing sympathy & praise",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S01.06",
+              "name": "Taking, keeping, yielding turns",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S01.07",
+              "name": "Informal & colloquial exchange",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "S02",
+          "name": "Information exchange",
+          "subthemes": [
+            {
+              "id": "S02.01",
+              "name": "Asking & answering personal questions",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S02.02",
+              "name": "Asking for directions, prices, time",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S02.03",
+              "name": "Phone calls",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S02.04",
+              "name": "Interviews (giving/taking)",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S02.05",
+              "name": "Oral briefings & reports",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "name": "Opinions, feelings & preferences",
+          "subthemes": [
+            {
+              "id": "S03.01",
+              "name": "Likes & dislikes",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S03.02",
+              "name": "Giving opinions & reasons",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S03.03",
+              "name": "Agreeing & disagreeing",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S03.04",
+              "name": "Expressing doubt, regret, hope",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S03.05",
+              "name": "Evaluating & criticising",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S03.06",
+              "name": "Nuanced stance & implicit position",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S04",
+          "name": "Description & narration",
+          "subthemes": [
+            {
+              "id": "S04.01",
+              "name": "Describing people, places, objects",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S04.02",
+              "name": "Narrating past events & anecdotes",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S04.03",
+              "name": "Telling stories & plots",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S04.04",
+              "name": "Detailed narration & reported accounts",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S04.05",
+              "name": "Elaborate storytelling with style",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S05",
+          "name": "Explanation & instruction",
+          "subthemes": [
+            {
+              "id": "S05.01",
+              "name": "Giving simple instructions & directions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S05.02",
+              "name": "Explaining rules & how-to",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S05.03",
+              "name": "Explaining processes & concepts",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S05.04",
+              "name": "Explaining complex ideas to non-specialists",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S06",
+          "name": "Argumentation & debate",
+          "subthemes": [
+            {
+              "id": "S06.01",
+              "name": "Stating & justifying a view",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S06.02",
+              "name": "Weighing pros and cons",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S06.03",
+              "name": "Debating & counter-arguing",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S06.04",
+              "name": "Structured argument & rhetoric",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "S06.05",
+              "name": "Mediating disagreements",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S07",
+          "name": "Presentation & monologue",
+          "subthemes": [
+            {
+              "id": "S07.01",
+              "name": "Presenting oneself",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S07.02",
+              "name": "Short prepared talk",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S07.03",
+              "name": "Presentation with visuals",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S07.04",
+              "name": "Lecture or long formal talk",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "S07.05",
+              "name": "Eloquence, ritual speech & performance (e.g. slam)",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S08",
+          "name": "Transactions & negotiation",
+          "subthemes": [
+            {
+              "id": "S08.01",
+              "name": "Simple transactions (buying, ordering)",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S08.02",
+              "name": "Making arrangements",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S08.03",
+              "name": "Complaints",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S08.04",
+              "name": "Negotiating & problem-solving",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S08.05",
+              "name": "Formal negotiation & persuasion",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S09",
+          "name": "Oral mediation & summarising",
+          "subthemes": [
+            {
+              "id": "S09.01",
+              "name": "Relaying simple information",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "S09.02",
+              "name": "Summarising a text or talk orally",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S09.03",
+              "name": "Informal interpreting between speakers",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S09.04",
+              "name": "Oral synthesis of several sources",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "S10",
+          "name": "Communication strategies",
+          "subthemes": [
+            {
+              "id": "S10.01",
+              "name": "Asking to slow down / repeat",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "S10.02",
+              "name": "Circumlocution & paraphrase",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "S10.03",
+              "name": "Self-correction & backtracking",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "S10.04",
+              "name": "Repair without breaking flow",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        }
+      ]
+    },
+    "writing": {
+      "title": "Writing themes (text types)",
+      "themes": [
+        {
+          "id": "W01",
+          "name": "Forms & personal data",
+          "subthemes": [
+            {
+              "id": "W01.01",
+              "name": "Filling in forms",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "W01.02",
+              "name": "Writing own details",
+              "level_min": "A1",
+              "level_max": "A1"
+            }
+          ]
+        },
+        {
+          "id": "W02",
+          "name": "Short messages & notes",
+          "subthemes": [
+            {
+              "id": "W02.01",
+              "name": "Notes & lists",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "W02.02",
+              "name": "Postcards & greetings",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "W02.03",
+              "name": "SMS / chat messages",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "W02.04",
+              "name": "Social media posts",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "W03",
+          "name": "Informal letters & emails",
+          "subthemes": [
+            {
+              "id": "W03.01",
+              "name": "Thank-you notes",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "W03.02",
+              "name": "Personal email or letter",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "W03.03",
+              "name": "Describing experiences & impressions",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W03.04",
+              "name": "Reflective personal letter",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "W04",
+          "name": "Formal letters & emails",
+          "subthemes": [
+            {
+              "id": "W04.01",
+              "name": "Simple formal request",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W04.02",
+              "name": "Appointment / booking requests",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W04.03",
+              "name": "Complaint or claim",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W04.04",
+              "name": "Administrative letter",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W04.05",
+              "name": "Cover / motivation letter",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W04.06",
+              "name": "Formal correspondence with precise register",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "W05",
+          "name": "Descriptive & narrative writing",
+          "subthemes": [
+            {
+              "id": "W05.01",
+              "name": "Describing people & places",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "W05.02",
+              "name": "Short narrative paragraph",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W05.03",
+              "name": "Biography or anecdote",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W05.04",
+              "name": "Extended narrative / fiction",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W05.05",
+              "name": "Literary pastiche & continuing a text",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "W06",
+          "name": "Informative & explanatory",
+          "subthemes": [
+            {
+              "id": "W06.01",
+              "name": "Short informative text",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W06.02",
+              "name": "Instructions / how-to",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W06.03",
+              "name": "Report on survey or data",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W06.04",
+              "name": "Structured report",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W06.05",
+              "name": "Technical / professional report",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "W07",
+          "name": "Argumentative & evaluative",
+          "subthemes": [
+            {
+              "id": "W07.01",
+              "name": "Short opinion paragraph",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W07.02",
+              "name": "Review (book, film, product)",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W07.03",
+              "name": "For / against essay",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W07.04",
+              "name": "Argued article or op-ed",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W07.05",
+              "name": "Editorial & open letter",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "W07.06",
+              "name": "Academic essay",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "W08",
+          "name": "Summary & synthesis",
+          "subthemes": [
+            {
+              "id": "W08.01",
+              "name": "Summarise a short text",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W08.02",
+              "name": "Summary of a text or talk",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W08.03",
+              "name": "Synthesis of 2+ documents",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "W08.04",
+              "name": "Critical review",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "W09",
+          "name": "CV & professional writing",
+          "subthemes": [
+            {
+              "id": "W09.01",
+              "name": "Simple CV",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "W09.02",
+              "name": "CV & job application set",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W09.03",
+              "name": "Meeting minutes & notes",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W09.04",
+              "name": "Job-ad hook & press copy",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "W10",
+          "name": "Creative writing",
+          "subthemes": [
+            {
+              "id": "W10.01",
+              "name": "Short poem / rhyme",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "W10.02",
+              "name": "Story continuation",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W10.03",
+              "name": "Poem interpretation & writing",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W10.04",
+              "name": "Creative or literary text",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "W11",
+          "name": "Writing process & mechanics",
+          "subthemes": [
+            {
+              "id": "W11.01",
+              "name": "Spelling & punctuation",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "W11.02",
+              "name": "Paragraphing",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "W11.03",
+              "name": "Planning & revising",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "W11.04",
+              "name": "Style & register adaptation",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "W11.05",
+              "name": "Proofreading for nuance",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        }
+      ]
+    },
+    "receptive": {
+      "title": "Listening & reading themes",
+      "themes": [
+        {
+          "id": "R01",
+          "name": "Listening — text types",
+          "subthemes": [
+            {
+              "id": "R01.01",
+              "name": "Slow, clear instructions & numbers",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "R01.02",
+              "name": "Announcements & messages",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "R01.03",
+              "name": "Dialogues in familiar contexts",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "R01.04",
+              "name": "Radio / TV on familiar topics",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "R01.05",
+              "name": "Interviews & documentaries",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "R01.06",
+              "name": "Films, accents & fast speech",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "R01.07",
+              "name": "Any speech incl. dialect & humour",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "R02",
+          "name": "Reading — text types",
+          "subthemes": [
+            {
+              "id": "R02.01",
+              "name": "Signs, menus, forms",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "R02.02",
+              "name": "Ads, timetables, short notes",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "R02.03",
+              "name": "Personal letters & emails",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "R02.04",
+              "name": "Articles on familiar topics",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "R02.05",
+              "name": "Reports & contemporary prose",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "R02.06",
+              "name": "Literary & specialist texts",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "R02.07",
+              "name": "Any text incl. archaic or dialectal",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        },
+        {
+          "id": "R03",
+          "name": "Receptive strategies",
+          "subthemes": [
+            {
+              "id": "R03.01",
+              "name": "Scanning for specific information",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "R03.02",
+              "name": "Getting the gist",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "R03.03",
+              "name": "Inferring meaning from context",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "R03.04",
+              "name": "Recognising stance & implicit meaning",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "R03.05",
+              "name": "Appreciating style & irony",
+              "level_min": "C2",
+              "level_max": "C2"
+            }
+          ]
+        }
+      ]
+    },
+    "situational": {
+      "title": "Situational themes (real-life scenarios)",
+      "themes": [
+        {
+          "id": "SIT01",
+          "name": "Meeting & introductions",
+          "subthemes": [
+            {
+              "id": "SIT01.01",
+              "name": "First meeting",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT01.02",
+              "name": "Introducing others",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT01.03",
+              "name": "Networking & small talk",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT01.04",
+              "name": "Formal introductions",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "SIT02",
+          "name": "Café, restaurant & food service",
+          "subthemes": [
+            {
+              "id": "SIT02.01",
+              "name": "Ordering a drink or snack",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT02.02",
+              "name": "Restaurant meal & paying",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT02.03",
+              "name": "Dietary needs & complaints",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT02.04",
+              "name": "Business dinner & etiquette",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "SIT03",
+          "name": "Shopping & services",
+          "subthemes": [
+            {
+              "id": "SIT03.01",
+              "name": "Buying basics",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT03.02",
+              "name": "Clothes & returns",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT03.03",
+              "name": "Markets & bargaining",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT03.04",
+              "name": "Consumer disputes",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "SIT04",
+          "name": "Transport & travel",
+          "subthemes": [
+            {
+              "id": "SIT04.01",
+              "name": "Buying tickets, asking directions",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT04.02",
+              "name": "Booking or changing reservations",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT04.03",
+              "name": "Delays & lost luggage",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT04.04",
+              "name": "Complex itineraries & claims",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "SIT05",
+          "name": "Accommodation",
+          "subthemes": [
+            {
+              "id": "SIT05.01",
+              "name": "Hotel check-in / out",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT05.02",
+              "name": "Renting a flat",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT05.03",
+              "name": "Landlord issues & contracts",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT05.04",
+              "name": "Legal housing disputes",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT06",
+          "name": "Health",
+          "subthemes": [
+            {
+              "id": "SIT06.01",
+              "name": "Describing symptoms",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT06.02",
+              "name": "Doctor visit & prescription",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT06.03",
+              "name": "Insurance & specialist appointments",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT06.04",
+              "name": "Medical decisions & bioethics",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT07",
+          "name": "Bank, post & public services",
+          "subthemes": [
+            {
+              "id": "SIT07.01",
+              "name": "Post & bank basics",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT07.02",
+              "name": "Opening an account, paperwork",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT07.03",
+              "name": "Official procedures & complaints",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT07.04",
+              "name": "Legal & contractual matters",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT08",
+          "name": "Workplace",
+          "subthemes": [
+            {
+              "id": "SIT08.01",
+              "name": "Introducing yourself at work",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT08.02",
+              "name": "Everyday tasks & meetings (familiar topics)",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT08.03",
+              "name": "Job interview",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT08.04",
+              "name": "Presentations & negotiations",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT08.05",
+              "name": "Leadership & strategic talk",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT09",
+          "name": "Education & study",
+          "subthemes": [
+            {
+              "id": "SIT09.01",
+              "name": "Classroom interaction",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT09.02",
+              "name": "Enrolment & timetable",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT09.03",
+              "name": "Seminars & presentations",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT09.04",
+              "name": "Academic discourse & defence",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT10",
+          "name": "Housing & neighbours",
+          "subthemes": [
+            {
+              "id": "SIT10.01",
+              "name": "Neighbour conversations",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT10.02",
+              "name": "Repairs & utilities",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT10.03",
+              "name": "Collective decisions (co-ownership)",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT11",
+          "name": "Emergencies & safety",
+          "subthemes": [
+            {
+              "id": "SIT11.01",
+              "name": "Asking for help",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "SIT11.02",
+              "name": "Reporting an accident or theft",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT11.03",
+              "name": "Emergency services & safety rules",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "SIT12",
+          "name": "Social life & leisure",
+          "subthemes": [
+            {
+              "id": "SIT12.01",
+              "name": "Invitations & plans",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT12.02",
+              "name": "Hosting & visiting",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT12.03",
+              "name": "Events & clubs",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT12.04",
+              "name": "Cultural discussion & debate",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "SIT13",
+          "name": "Phone & online communication",
+          "subthemes": [
+            {
+              "id": "SIT13.01",
+              "name": "Simple call or voicemail",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT13.02",
+              "name": "Email & chat etiquette",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT13.03",
+              "name": "Video meetings",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT13.04",
+              "name": "Online public discourse",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT14",
+          "name": "Migration, legal & civic",
+          "subthemes": [
+            {
+              "id": "SIT14.01",
+              "name": "Residence / work permit basics",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT14.02",
+              "name": "Citizenship interview or test",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT14.03",
+              "name": "Court & legal procedures",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT15",
+          "name": "Public debate & media",
+          "subthemes": [
+            {
+              "id": "SIT15.01",
+              "name": "Following the news",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT15.02",
+              "name": "Taking part in discussion",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT15.03",
+              "name": "Radio / TV interview, press review",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "SIT16",
+          "name": "Culture & arts",
+          "subthemes": [
+            {
+              "id": "SIT16.01",
+              "name": "Visiting museums",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "SIT16.02",
+              "name": "Discussing a film or book",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "SIT16.03",
+              "name": "Art analysis",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "SIT16.04",
+              "name": "Critical review & heritage debate",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        }
+      ]
+    },
+    "culture": {
+      "title": "Culture & sociolinguistic themes",
+      "themes": [
+        {
+          "id": "C01",
+          "name": "Everyday culture",
+          "subthemes": [
+            {
+              "id": "C01.01",
+              "name": "Customs, politeness & meals",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "C01.02",
+              "name": "Holidays & traditions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "C01.03",
+              "name": "Daily-life norms (time, queues, greetings)",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "C02",
+          "name": "Social norms & taboos",
+          "subthemes": [
+            {
+              "id": "C02.01",
+              "name": "Dos and don'ts",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "C02.02",
+              "name": "Gender, age & status conventions",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "C02.03",
+              "name": "Taboos & sensitive topics",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "C03",
+          "name": "History & geography",
+          "subthemes": [
+            {
+              "id": "C03.01",
+              "name": "Basic geography & regions",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "C03.02",
+              "name": "Key historical events & figures",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "C03.03",
+              "name": "Contemporary history & memory",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "C04",
+          "name": "Institutions & civic knowledge",
+          "subthemes": [
+            {
+              "id": "C04.01",
+              "name": "Basic institutions",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "C04.02",
+              "name": "Political & legal system",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "C04.03",
+              "name": "Civic rights, duties & procedures",
+              "level_min": "B2",
+              "level_max": "B2"
+            }
+          ]
+        },
+        {
+          "id": "C05",
+          "name": "Literature, arts & media",
+          "subthemes": [
+            {
+              "id": "C05.01",
+              "name": "Songs, films & popular culture",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "C05.02",
+              "name": "Canon & authors",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "C05.03",
+              "name": "Literary analysis & stylistic choices",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "C06",
+          "name": "Variation & contact",
+          "subthemes": [
+            {
+              "id": "C06.01",
+              "name": "Regional accents & dialects",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "C06.02",
+              "name": "Registers, slang & youth language",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "C06.03",
+              "name": "Standardisation, orthography & language contact",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        },
+        {
+          "id": "C07",
+          "name": "Intercultural competence",
+          "subthemes": [
+            {
+              "id": "C07.01",
+              "name": "Noticing differences",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "C07.02",
+              "name": "Handling misunderstandings",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "C07.03",
+              "name": "Questioning stereotypes & appropriation",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        }
+      ]
+    },
+    "mediation_strategies": {
+      "title": "Mediation, plurilingual & learning-strategy themes",
+      "themes": [
+        {
+          "id": "M01",
+          "name": "Mediation & plurilingual skills",
+          "subthemes": [
+            {
+              "id": "M01.01",
+              "name": "Relaying simple information",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "M01.02",
+              "name": "Mediating a text (summary, simplification)",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "M01.03",
+              "name": "Mediating concepts & facilitating collaboration",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "M01.04",
+              "name": "Mediating complex or sensitive communication",
+              "level_min": "C1",
+              "level_max": "C1"
+            },
+            {
+              "id": "M01.05",
+              "name": "Using a related language to understand another",
+              "level_min": "B1",
+              "level_max": "B1"
+            }
+          ]
+        },
+        {
+          "id": "M02",
+          "name": "Learning strategies & autonomy",
+          "subthemes": [
+            {
+              "id": "M02.01",
+              "name": "Using dictionaries & apps",
+              "level_min": "A1",
+              "level_max": "A1"
+            },
+            {
+              "id": "M02.02",
+              "name": "Self-assessment with can-do lists",
+              "level_min": "A2",
+              "level_max": "A2"
+            },
+            {
+              "id": "M02.03",
+              "name": "Planning study & tracking progress",
+              "level_min": "B1",
+              "level_max": "B1"
+            },
+            {
+              "id": "M02.04",
+              "name": "Independent exposure (media, tandem)",
+              "level_min": "B2",
+              "level_max": "B2"
+            },
+            {
+              "id": "M02.05",
+              "name": "Error analysis & self-correction",
+              "level_min": "C1",
+              "level_max": "C1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "course_formats": [
+    "grammar course",
+    "phrasal verbs course",
+    "vocabulary practice course",
+    "introductory diagnostic (A0–C2)"
+  ],
+  "level_rules": [
+    "A0 (Pre-A1) is a real level in COSYdata; A0 and A1 share one folder (`a0_a1`).",
+    "Non-transparent idioms and proverbs are NOT A0–A1: moved to A2 (Russian) or B1 (English, Italian) in the changelog.",
+    "Historical figures and over-level proper names go to A2 or higher.",
+    "Russian aspect pairs are stored as one headword (imperfective) with `aspect_pair`; motion verbs carry `motion_type`.",
+    "French, Italian and Greek: contracted prepositions and partitives are separate entries with `contraction` / `partitive` metadata.",
+    "Country, nationality and day/month names are invariable proper nouns (no plural).",
+    "Spoken-course vocabulary is tagged `domain: general, spoken`; `general` is always listed first.",
+    "From B2, regular plurals, comparatives and superlatives are not stored; irregular ones are.",
+    "Entries need transcription, emoji (or `no_emoji`), and antonyms (or `no_antonym`); synonyms are required from B1."
+  ],
+  "repo_map": [
+    {
+      "domain": "Vocabulary (V*) and lexical types (LT*)",
+      "repo": "COSYdata",
+      "structure": "vocabulary/<lang>/<level>/<theme>.json",
+      "also": "COSYlanguages practise, COSYgames, COSYmanuals, COSYplatform"
+    },
+    {
+      "domain": "Grammar (G*) reference tables",
+      "repo": "COSYtools",
+      "structure": "one engine per feature (conjugation, gender/case, prepositional regimes)",
+      "also": "COSYlanguages grammar manuals, COSYmanuals"
+    },
+    {
+      "domain": "Grammar manuals, vocabulary manuals, communication manuals",
+      "repo": "COSYmanuals",
+      "structure": "manual per language/course/level",
+      "also": "COSYplatform (grammar manuals reused)"
+    },
+    {
+      "domain": "Speaking (S*), Writing (W*), Situational (SIT*)",
+      "repo": "COSYplatform",
+      "structure": "curriculums + roadmaps + lessons",
+      "also": "COSYmanuals (communication manuals)"
+    },
+    {
+      "domain": "Listening/Reading (R*), Culture (C*), Mediation/strategies (M*)",
+      "repo": "COSYplatform",
+      "structure": "lesson activities",
+      "also": "COSYlanguages blog/practise"
+    },
+    {
+      "domain": "Event sessions",
+      "repo": "COSYevents",
+      "structure": "sessions -> lessons",
+      "also": "COSYplatform converts, COSYlanguages catalog"
+    },
+    {
+      "domain": "Games and drills",
+      "repo": "COSYgames",
+      "structure": "games tagged by theme/level",
+      "also": "COSYlanguages practise"
+    }
+  ],
+  "events_map": {
+    "status": "draft",
+    "sessions": [
+      {
+        "event": "I Couldn't Help But Wonder",
+        "themes": "S03, S04, V20",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Keeping Up with Science",
+        "themes": "V20, V21, S05",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Mind Matters",
+        "themes": "V14, V01, S03",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Debatable & Relatable",
+        "themes": "S06, V18, C07",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Let's Celebrate",
+        "themes": "V22, V17, SIT12",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "My Life With/Without",
+        "themes": "S04, V08, G07",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "The Greatest Quotes",
+        "themes": "V23, V17, W07",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Cinema Club",
+        "themes": "V17, R01, S03",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Karaoke Club",
+        "themes": "G01, V17, R01",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Game Evening",
+        "themes": "S01, S02, SIT12",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "Long Reads",
+        "themes": "R02, S09, V16",
+        "basis": "inferred from name"
+      },
+      {
+        "event": "If You Were",
+        "themes": "G07, S03, S04",
+        "basis": "inferred from name"
+      }
+    ]
+  }
+}

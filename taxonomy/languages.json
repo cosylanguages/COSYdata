@@ -1,0 +1,1140 @@
+{
+  "language_profile_schema": [
+    {
+      "field": "script",
+      "meaning": "script name(s), direction, orthographic depth, extra letters"
+    },
+    {
+      "field": "standards",
+      "meaning": "standard varieties to teach (e.g. Eastern/Western Armenian; European/Brazilian Portuguese)"
+    },
+    {
+      "field": "gender",
+      "meaning": "none / 2 / 3 / noun classes"
+    },
+    {
+      "field": "case_count",
+      "meaning": "number of cases or 'none'"
+    },
+    {
+      "field": "morphology",
+      "meaning": "isolating / fusional / agglutinative / polysynthetic / templatic"
+    },
+    {
+      "field": "verb_system",
+      "meaning": "aspect-prominent / tense-prominent / evidential / polypersonal"
+    },
+    {
+      "field": "word_order",
+      "meaning": "SVO / SOV / VSO / free + notes"
+    },
+    {
+      "field": "phonology_flags",
+      "meaning": "tone, vowel harmony, mutations, pharyngeals, ejectives"
+    },
+    {
+      "field": "politeness",
+      "meaning": "T–V, honorific levels, none"
+    },
+    {
+      "field": "reference_docs",
+      "meaning": "CoE RLD, national standards, textbook syllabi"
+    },
+    {
+      "field": "exams",
+      "meaning": "exam name, level range, validity, issuer, verified_date"
+    },
+    {
+      "field": "optional_modules",
+      "meaning": "list of G15–G20 modules to enable"
+    },
+    {
+      "field": "overrides",
+      "meaning": "list of {subtheme_id, level_shift (+/-), note}"
+    }
+  ],
+  "languages": {
+    "en": {
+      "name": "English",
+      "profile": "Germanic; articles, no case on nouns, rich auxiliary/modal system",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Articles & countability",
+          "module": "G02",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": "EF/TEFL lists"
+        },
+        {
+          "feature": "Present simple & continuous",
+          "module": "G06",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Phrasal verbs",
+          "module": "G10",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Perfect tenses",
+          "module": "G06",
+          "level": "A2–B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Modals, incl. perfect modals",
+          "module": "G07",
+          "level": "A1–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Conditionals 0–3 & mixed",
+          "module": "G09",
+          "level": "B1–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Inversion, cleft & emphasis",
+          "module": "G09",
+          "level": "C1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Register, idiom & humour",
+          "module": "G14",
+          "level": "C1",
+          "source": "Src",
+          "status": "verified",
+          "note": "EF C1 lists sarcasm/humour"
+        }
+      ]
+    },
+    "fr": {
+      "name": "French",
+      "profile": "Romance; gender, clitic pronouns, subjunctive, strong register split",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Gender, articles & partitives",
+          "module": "G02",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Être/avoir, aller + prepositions, negation",
+          "module": "G05",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": "Alexa course"
+        },
+        {
+          "feature": "Near future, comparatives, possessives, past tenses",
+          "module": "G06",
+          "level": "A2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Imparfait, future, conditional, relative pronouns",
+          "module": "G06",
+          "level": "B1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Object pronouns (direct/indirect, en/y)",
+          "module": "G03",
+          "level": "A2–B1",
+          "source": "Src/Gen",
+          "status": "unverified",
+          "note": "Alexa puts object pronouns at B1"
+        },
+        {
+          "feature": "Subjunctive, pluperfect, future perfect, past conditional",
+          "module": "G07",
+          "level": "B2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Passé simple, passive, direct/indirect speech",
+          "module": "G06",
+          "level": "C1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Register identification & shifting",
+          "module": "G14",
+          "level": "B2",
+          "source": "Src",
+          "status": "verified",
+          "note": "School referential B2"
+        }
+      ]
+    },
+    "it": {
+      "name": "Italian",
+      "profile": "Romance; clitics, rich past/subjunctive system, phonetic spelling",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Present, essere/avere, articles, agreement",
+          "module": "G05",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Passato prossimo (avere/essere) vs imperfetto",
+          "module": "G06",
+          "level": "A2",
+          "source": "Src",
+          "status": "verified",
+          "note": "Key A2 contrast"
+        },
+        {
+          "feature": "Reflexives, direct/indirect pronouns, simple future",
+          "module": "G03",
+          "level": "A2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Present congiuntivo, condizionale, ci/ne, imperative",
+          "module": "G07",
+          "level": "B1",
+          "source": "Src",
+          "status": "verified",
+          "note": "Plateau risk"
+        },
+        {
+          "feature": "Imperfect congiuntivo, periodo ipotetico, passive, reported speech",
+          "module": "G07",
+          "level": "B2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Passato remoto, all congiuntivo uses, register",
+          "module": "G06",
+          "level": "C1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        }
+      ]
+    },
+    "ru": {
+      "name": "Russian",
+      "profile": "Slavic; 6 cases, verbal aspect, Cyrillic, motion verbs",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Cyrillic",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Cyrillic, stress & vowel reduction",
+          "module": "G01",
+          "level": "A0",
+          "source": "Src",
+          "status": "verified",
+          "note": "Polyglot Club/provider"
+        },
+        {
+          "feature": "Nominative, accusative, prepositional; genders & plurals",
+          "module": "G02",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Genitive & dative (possession, absence, recipient)",
+          "module": "G02",
+          "level": "A1–A2",
+          "source": "Src",
+          "status": "verified",
+          "note": "Provider A0–A1 syllabus"
+        },
+        {
+          "feature": "Instrumental",
+          "module": "G02",
+          "level": "A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Present/past tense, быть, verbs of motion (basic)",
+          "module": "G05",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Aspect pairs (perfective/imperfective)",
+          "module": "G06",
+          "level": "A2–B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Prefixed motion verbs, participles, gerunds",
+          "module": "G05",
+          "level": "B2–C1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Politeness: ты/вы & address",
+          "module": "G14",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        }
+      ]
+    },
+    "el": {
+      "name": "Greek",
+      "profile": "Hellenic; own alphabet, cases, aspect, 'katharevousa' legacy only in reading",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Greek",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Alphabet & pronunciation",
+          "module": "G01",
+          "level": "A0",
+          "source": "Src",
+          "status": "verified",
+          "note": "Omilo / Lambda"
+        },
+        {
+          "feature": "Articles, gender, cases (nominative/accusative), adjectives",
+          "module": "G02",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Present, past & future in A1",
+          "module": "G06",
+          "level": "A1",
+          "source": "Src",
+          "status": "verified",
+          "note": "Lambda: grammar is front-loaded"
+        },
+        {
+          "feature": "Genitive, comparison, conditionals, imperative",
+          "module": "G02",
+          "level": "A2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Imperfect, perfect, passive, reported speech, relative clauses",
+          "module": "G06",
+          "level": "A2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Participles, modal verbs, strong/weak pronouns, discourse markers",
+          "module": "G05",
+          "level": "B1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Nuanced reported speech, word formation, register",
+          "module": "G13",
+          "level": "B2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        }
+      ]
+    },
+    "de": {
+      "name": "German",
+      "profile": "Germanic; 4 cases, V2/verb-final order, separable verbs, Konjunktiv",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Articles, gender, nominative/accusative",
+          "module": "G02",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Present & Perfekt (focus A1→A2)",
+          "module": "G06",
+          "level": "A1–A2",
+          "source": "Src",
+          "status": "verified",
+          "note": "PrepareBuddy jump table"
+        },
+        {
+          "feature": "Dative & genitive, prepositions with case",
+          "module": "G10",
+          "level": "A2–B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "V2 / verb-final word order, separable verbs",
+          "module": "G09",
+          "level": "A2–B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Past narration, opinion phrases",
+          "module": "G06",
+          "level": "B1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Passive & argumentation",
+          "module": "G08",
+          "level": "B2",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        },
+        {
+          "feature": "Konjunktiv II (hypothesis), Konjunktiv I (reported speech)",
+          "module": "G07",
+          "level": "B1–C1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Register, idiom, complex structures",
+          "module": "G14",
+          "level": "C1",
+          "source": "Src",
+          "status": "verified",
+          "note": ""
+        }
+      ]
+    },
+    "pt": {
+      "name": "Portuguese",
+      "profile": "Romance; personal infinitive, future subjunctive, contractions; two standards",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Ser/estar/ter, articles & contractions (no, na, do)",
+          "module": "G02",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Pretérito perfeito vs imperfeito; near future (ir + inf.)",
+          "module": "G06",
+          "level": "A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Clitic pronouns & placement (PT vs BR)",
+          "module": "G03",
+          "level": "A2–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Future, conditional, present subjunctive; personal infinitive (intro)",
+          "module": "G07",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Imperfect & future subjunctive, passive, reported speech",
+          "module": "G07",
+          "level": "B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Standard choice (European vs Brazilian)",
+          "module": "G01",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": "Course-design decision"
+        }
+      ]
+    },
+    "es": {
+      "name": "Spanish",
+      "profile": "Romance; ser/estar, subjunctive, por/para; regional variation",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Present, ser/estar/tener, gender/number, gustar",
+          "module": "G05",
+          "level": "A1",
+          "source": "Web",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Pretérito perfecto/indefinido/imperfecto; ir a + inf.; reflexives",
+          "module": "G06",
+          "level": "A2",
+          "source": "Web",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Object pronouns & doubling",
+          "module": "G03",
+          "level": "A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Present subjunctive, conditional, future",
+          "module": "G07",
+          "level": "B1",
+          "source": "Web",
+          "status": "unverified",
+          "note": "Some course maps start subjunctive at B2"
+        },
+        {
+          "feature": "Imperfect subjunctive, si-clauses, passive/se, pluperfect",
+          "module": "G07",
+          "level": "B2",
+          "source": "Web",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Por/para, regional variation (voseo, seseo)",
+          "module": "G10",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        }
+      ]
+    },
+    "tt": {
+      "name": "Tatar",
+      "profile": "Kipchak Turkic; agglutinative, vowel harmony, cases, Cyrillic",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Cyrillic",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Cyrillic with extra letters",
+          "module": "G01",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Vowel harmony",
+          "module": "G17",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Plural, possessive & case suffixes",
+          "module": "G02",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Present/past, copular & negative forms",
+          "module": "G05",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Participles, converbs & verbal nouns",
+          "module": "G05",
+          "level": "B1–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Evidential/reportative past",
+          "module": "G18",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": "Validate with a Tatar methodologist"
+        },
+        {
+          "feature": "Politeness & address",
+          "module": "G14",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        }
+      ]
+    },
+    "ba": {
+      "name": "Bashkir",
+      "profile": "Kipchak Turkic; close to Tatar; extra Cyrillic letters (Ә Ө Ү Ғ Ҡ Ң Ҙ Һ Ҫ)",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Cyrillic",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Cyrillic with extra letters & consonant phonology",
+          "module": "G01",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Vowel harmony",
+          "module": "G17",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Case, plural & possessive suffixes",
+          "module": "G02",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Tense/mood system",
+          "module": "G05",
+          "level": "A2–B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Participles & converbs",
+          "module": "G05",
+          "level": "B1–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Evidential forms",
+          "module": "G18",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": "Validate; adapted from Tatar template"
+        }
+      ]
+    },
+    "cv": {
+      "name": "Chuvash",
+      "profile": "Oghur Turkic; no gender; extra Cyrillic letters (Ӑ Ӗ Ҫ Ӳ); distinct from Tatar/Bashkir",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Cyrillic",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Cyrillic with extra letters",
+          "module": "G01",
+          "level": "A0",
+          "source": "Web",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Harmony patterns (consult specialist grammar)",
+          "module": "G17",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Case, plural & possessive suffixes",
+          "module": "G02",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Verb tenses & moods",
+          "module": "G05",
+          "level": "A2–B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Participles & converbs",
+          "module": "G05",
+          "level": "B1–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "No transfer assumptions from Tatar/Bashkir",
+          "module": "G13",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": "Pedagogical note"
+        }
+      ]
+    },
+    "br": {
+      "name": "Breton",
+      "profile": "Brittonic Celtic; initial mutations, conjugated prepositions, dialect/orthography issues",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Latin",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Alphabet, sounds & orthography (peurunvan)",
+          "module": "G01",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Initial consonant mutations (soft, spirant, hard)",
+          "module": "G17",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Bezañ & periphrastic verb forms",
+          "module": "G05",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Conjugated prepositions",
+          "module": "G10",
+          "level": "A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Articles & mutating contexts",
+          "module": "G02",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Vigesimal numerals",
+          "module": "G11",
+          "level": "A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Dialect awareness (Léon, Trégor, Cornouaille, Vannetais)",
+          "module": "G01",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        }
+      ]
+    },
+    "hy": {
+      "name": "Armenian",
+      "profile": "Own alphabet; Eastern vs Western standards; no grammatical gender; rich cases",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Armenian",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Alphabet & reading",
+          "module": "G01",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Choice of Eastern or Western Armenian",
+          "module": "G01",
+          "level": "A0",
+          "source": "Gen",
+          "status": "unverified",
+          "note": "Course-design decision"
+        },
+        {
+          "feature": "Case system & definiteness",
+          "module": "G02",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Verb auxiliaries, tenses",
+          "module": "G05",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Converbs & participles",
+          "module": "G05",
+          "level": "B1–B2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Evidential/inferential forms",
+          "module": "G18",
+          "level": "B1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        }
+      ]
+    },
+    "ka": {
+      "name": "Georgian",
+      "profile": "Kartvelian; own script (Mkhedruli), screeves, polypersonal agreement, no gender",
+      "source": "Gen",
+      "status": "unverified",
+      "script": "Mkhedruli",
+      "standards": "Standard variety",
+      "gender": "none",
+      "case_count": "none",
+      "morphology": "fusional",
+      "verb_system": "tense-prominent",
+      "word_order": "SVO",
+      "phonology_flags": "none",
+      "politeness": "T–V",
+      "reference_docs": [
+        "CoE RLD / National syllabus"
+      ],
+      "exams": [],
+      "optional_modules": [],
+      "overrides": [],
+      "features": [
+        {
+          "feature": "Mkhedruli script & phonology (ejectives)",
+          "module": "G01",
+          "level": "A0",
+          "source": "Web",
+          "status": "unverified",
+          "note": "CoE RLD A1–B2 exists"
+        },
+        {
+          "feature": "Postpositions & case suffixes",
+          "module": "G10",
+          "level": "A1–A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Present, aorist & basic screeves",
+          "module": "G19",
+          "level": "A2",
+          "source": "Web",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Preverbs, more screeves, case alternation",
+          "module": "G19",
+          "level": "B1–B2",
+          "source": "Web",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Subject/object agreement",
+          "module": "G19",
+          "level": "A2",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        },
+        {
+          "feature": "Politeness & address",
+          "module": "G14",
+          "level": "A1",
+          "source": "Gen",
+          "status": "unverified",
+          "note": ""
+        }
+      ]
+    }
+  }
+}
