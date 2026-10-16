@@ -1,0 +1,4130 @@
+{
+ "meta": {
+  "version": "1.1",
+  "levels": [
+   "A0",
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1",
+   "C2"
+  ],
+  "level_labels": {
+   "A0": "Pre-A1"
+  },
+  "note": "level = typical first systematic introduction; spiral recycling afterwards"
+ },
+ "domains": {
+  "vocabulary": {
+   "title": "Vocabulary themes",
+   "themes": [
+    {
+     "id": "V01",
+     "name": "Personal identity & self",
+     "subthemes": [
+      {
+       "id": "V01.01",
+       "name": "Name, age, nationality",
+       "level": "A1"
+      },
+      {
+       "id": "V01.02",
+       "name": "Languages spoken",
+       "level": "A1"
+      },
+      {
+       "id": "V01.03",
+       "name": "Physical appearance",
+       "level": "A1"
+      },
+      {
+       "id": "V01.04",
+       "name": "Likes, dislikes & preferences",
+       "level": "A1"
+      },
+      {
+       "id": "V01.05",
+       "name": "Personality & character",
+       "level": "A2"
+      },
+      {
+       "id": "V01.06",
+       "name": "Feelings & emotions",
+       "level": "A2"
+      },
+      {
+       "id": "V01.07",
+       "name": "Beliefs, values & worldview",
+       "level": "B2"
+      },
+      {
+       "id": "V01.08",
+       "name": "Identity, belonging & self-image",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V02",
+     "name": "Family & relationships",
+     "subthemes": [
+      {
+       "id": "V02.01",
+       "name": "Family members",
+       "level": "A1"
+      },
+      {
+       "id": "V02.02",
+       "name": "Marital & family status",
+       "level": "A1"
+      },
+      {
+       "id": "V02.03",
+       "name": "Friends & acquaintances",
+       "level": "A1"
+      },
+      {
+       "id": "V02.04",
+       "name": "Social relations & etiquette",
+       "level": "A2"
+      },
+      {
+       "id": "V02.05",
+       "name": "Dating & romantic relationships",
+       "level": "B1"
+      },
+      {
+       "id": "V02.06",
+       "name": "Generations & family change",
+       "level": "B1"
+      },
+      {
+       "id": "V02.07",
+       "name": "Conflict & reconciliation",
+       "level": "B2"
+      },
+      {
+       "id": "V02.08",
+       "name": "Guilt, forgiveness & memory",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V03",
+     "name": "Numbers, quantity & measures",
+     "subthemes": [
+      {
+       "id": "V03.01",
+       "name": "Cardinal & ordinal numbers",
+       "level": "A1"
+      },
+      {
+       "id": "V03.02",
+       "name": "Prices & money",
+       "level": "A1"
+      },
+      {
+       "id": "V03.03",
+       "name": "Quantities, weights & measures",
+       "level": "A1"
+      },
+      {
+       "id": "V03.04",
+       "name": "Fractions, percentages & proportions",
+       "level": "B1"
+      },
+      {
+       "id": "V03.05",
+       "name": "Statistics, trends & data description",
+       "level": "B2"
+      },
+      {
+       "id": "V03.06",
+       "name": "Probability, risk & precision terms",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V04",
+     "name": "Time & calendar",
+     "subthemes": [
+      {
+       "id": "V04.01",
+       "name": "Days, months, seasons",
+       "level": "A1"
+      },
+      {
+       "id": "V04.02",
+       "name": "Telling time & dates",
+       "level": "A1"
+      },
+      {
+       "id": "V04.03",
+       "name": "Frequency & routine time words",
+       "level": "A1"
+      },
+      {
+       "id": "V04.04",
+       "name": "Duration, sequence & deadlines",
+       "level": "A2"
+      },
+      {
+       "id": "V04.05",
+       "name": "Historical periods & eras",
+       "level": "B1"
+      },
+      {
+       "id": "V04.06",
+       "name": "Life stages & life chronology",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "V05",
+     "name": "Home & housing",
+     "subthemes": [
+      {
+       "id": "V05.01",
+       "name": "Rooms & furniture",
+       "level": "A1"
+      },
+      {
+       "id": "V05.02",
+       "name": "Household objects",
+       "level": "A1"
+      },
+      {
+       "id": "V05.03",
+       "name": "Housework & chores",
+       "level": "A2"
+      },
+      {
+       "id": "V05.04",
+       "name": "Finding & renting housing",
+       "level": "A2"
+      },
+      {
+       "id": "V05.05",
+       "name": "Repairs, utilities & neighbours",
+       "level": "B1"
+      },
+      {
+       "id": "V05.06",
+       "name": "Housing market & urban living",
+       "level": "B2"
+      },
+      {
+       "id": "V05.07",
+       "name": "Shared & alternative living",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V06",
+     "name": "Food & drink",
+     "subthemes": [
+      {
+       "id": "V06.01",
+       "name": "Basic foods & drinks",
+       "level": "A1"
+      },
+      {
+       "id": "V06.02",
+       "name": "Meals & mealtimes",
+       "level": "A1"
+      },
+      {
+       "id": "V06.03",
+       "name": "Ordering & preferences",
+       "level": "A1"
+      },
+      {
+       "id": "V06.04",
+       "name": "Cooking, recipes & ingredients",
+       "level": "A2"
+      },
+      {
+       "id": "V06.05",
+       "name": "Nutrition & diets",
+       "level": "B1"
+      },
+      {
+       "id": "V06.06",
+       "name": "Food culture & gastronomy",
+       "level": "B2"
+      },
+      {
+       "id": "V06.07",
+       "name": "Food industry, ethics & sustainability",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V07",
+     "name": "Shopping, clothes & consumption",
+     "subthemes": [
+      {
+       "id": "V07.01",
+       "name": "Shops & products",
+       "level": "A1"
+      },
+      {
+       "id": "V07.02",
+       "name": "Clothes & accessories",
+       "level": "A1"
+      },
+      {
+       "id": "V07.03",
+       "name": "Sizes, colours & prices",
+       "level": "A1"
+      },
+      {
+       "id": "V07.04",
+       "name": "Returns, complaints & guarantees",
+       "level": "B1"
+      },
+      {
+       "id": "V07.05",
+       "name": "Consumer rights & online shopping",
+       "level": "B1"
+      },
+      {
+       "id": "V07.06",
+       "name": "Advertising & consumer culture",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "V08",
+     "name": "Daily life & routines",
+     "subthemes": [
+      {
+       "id": "V08.01",
+       "name": "Daily routine",
+       "level": "A1"
+      },
+      {
+       "id": "V08.02",
+       "name": "Habits & activities",
+       "level": "A1"
+      },
+      {
+       "id": "V08.03",
+       "name": "Household organisation",
+       "level": "A2"
+      },
+      {
+       "id": "V08.04",
+       "name": "Work-life balance",
+       "level": "B2"
+      },
+      {
+       "id": "V08.05",
+       "name": "Quality of life & well-being",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V09",
+     "name": "Places, town & directions",
+     "subthemes": [
+      {
+       "id": "V09.01",
+       "name": "Places in town",
+       "level": "A1"
+      },
+      {
+       "id": "V09.02",
+       "name": "Asking & giving directions",
+       "level": "A1"
+      },
+      {
+       "id": "V09.03",
+       "name": "Location & spatial relations",
+       "level": "A1"
+      },
+      {
+       "id": "V09.04",
+       "name": "Neighbourhood & city description",
+       "level": "A2"
+      },
+      {
+       "id": "V09.05",
+       "name": "Urban change & planning",
+       "level": "B1"
+      },
+      {
+       "id": "V09.06",
+       "name": "Urbanism & public-space debates",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V10",
+     "name": "Travel, transport & tourism",
+     "subthemes": [
+      {
+       "id": "V10.01",
+       "name": "Transport modes",
+       "level": "A1"
+      },
+      {
+       "id": "V10.02",
+       "name": "Tickets, timetables & stations",
+       "level": "A1"
+      },
+      {
+       "id": "V10.03",
+       "name": "Hotels & booking",
+       "level": "A1"
+      },
+      {
+       "id": "V10.04",
+       "name": "Holidays & itineraries",
+       "level": "A2"
+      },
+      {
+       "id": "V10.05",
+       "name": "Travel problems & complaints",
+       "level": "B1"
+      },
+      {
+       "id": "V10.06",
+       "name": "Tourism, heritage & sustainable travel",
+       "level": "B2"
+      },
+      {
+       "id": "V10.07",
+       "name": "Migration, expatriation & mobility",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V11",
+     "name": "Weather, nature & animals",
+     "subthemes": [
+      {
+       "id": "V11.01",
+       "name": "Weather & seasons",
+       "level": "A1"
+      },
+      {
+       "id": "V11.02",
+       "name": "Animals & plants",
+       "level": "A2"
+      },
+      {
+       "id": "V11.03",
+       "name": "Landscapes & geography",
+       "level": "A2"
+      },
+      {
+       "id": "V11.04",
+       "name": "Natural phenomena & disasters",
+       "level": "B1"
+      },
+      {
+       "id": "V11.05",
+       "name": "Environment & biodiversity",
+       "level": "B2"
+      },
+      {
+       "id": "V11.06",
+       "name": "Animal welfare & ecology debates",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V12",
+     "name": "Education & learning",
+     "subthemes": [
+      {
+       "id": "V12.01",
+       "name": "Classroom language & objects",
+       "level": "A1"
+      },
+      {
+       "id": "V12.02",
+       "name": "School subjects",
+       "level": "A1"
+      },
+      {
+       "id": "V12.03",
+       "name": "Studying & exams",
+       "level": "A2"
+      },
+      {
+       "id": "V12.04",
+       "name": "Higher education & training",
+       "level": "B1"
+      },
+      {
+       "id": "V12.05",
+       "name": "Learning methods & learner profiles",
+       "level": "B2"
+      },
+      {
+       "id": "V12.06",
+       "name": "Education systems & policy",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V13",
+     "name": "Work & professions",
+     "subthemes": [
+      {
+       "id": "V13.01",
+       "name": "Jobs & workplaces",
+       "level": "A1"
+      },
+      {
+       "id": "V13.02",
+       "name": "Work tasks & colleagues",
+       "level": "A2"
+      },
+      {
+       "id": "V13.03",
+       "name": "CV, job ads & interviews",
+       "level": "B1"
+      },
+      {
+       "id": "V13.04",
+       "name": "Meetings, emails & office life",
+       "level": "B2"
+      },
+      {
+       "id": "V13.05",
+       "name": "Careers, management & negotiation",
+       "level": "B2"
+      },
+      {
+       "id": "V13.06",
+       "name": "Labour market, law & professional ethics",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V14",
+     "name": "Health & body",
+     "subthemes": [
+      {
+       "id": "V14.01",
+       "name": "Body parts",
+       "level": "A1"
+      },
+      {
+       "id": "V14.02",
+       "name": "Symptoms & feeling ill",
+       "level": "A2"
+      },
+      {
+       "id": "V14.03",
+       "name": "Doctor, pharmacy & prescriptions",
+       "level": "A2"
+      },
+      {
+       "id": "V14.04",
+       "name": "Accidents & first aid",
+       "level": "B1"
+      },
+      {
+       "id": "V14.05",
+       "name": "Healthy lifestyle & prevention",
+       "level": "B1"
+      },
+      {
+       "id": "V14.06",
+       "name": "Health systems & medical choices",
+       "level": "B2"
+      },
+      {
+       "id": "V14.07",
+       "name": "Bioethics & mental health",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V15",
+     "name": "Leisure, hobbies & sport",
+     "subthemes": [
+      {
+       "id": "V15.01",
+       "name": "Hobbies & free time",
+       "level": "A1"
+      },
+      {
+       "id": "V15.02",
+       "name": "Sports & games",
+       "level": "A1"
+      },
+      {
+       "id": "V15.03",
+       "name": "Music, film & TV",
+       "level": "A2"
+      },
+      {
+       "id": "V15.04",
+       "name": "Outings & invitations",
+       "level": "A2"
+      },
+      {
+       "id": "V15.05",
+       "name": "Events, festivals & nightlife",
+       "level": "B1"
+      },
+      {
+       "id": "V15.06",
+       "name": "Competition, performance & sporting ethics",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V16",
+     "name": "Media, technology & communication",
+     "subthemes": [
+      {
+       "id": "V16.01",
+       "name": "Phone & basic messaging",
+       "level": "A1"
+      },
+      {
+       "id": "V16.02",
+       "name": "Internet & devices",
+       "level": "A2"
+      },
+      {
+       "id": "V16.03",
+       "name": "Social media & online life",
+       "level": "B1"
+      },
+      {
+       "id": "V16.04",
+       "name": "News media & press",
+       "level": "B1"
+      },
+      {
+       "id": "V16.05",
+       "name": "Misinformation & media literacy",
+       "level": "B2"
+      },
+      {
+       "id": "V16.06",
+       "name": "AI, privacy & technology ethics",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V17",
+     "name": "Arts & culture",
+     "subthemes": [
+      {
+       "id": "V17.01",
+       "name": "Festivals & traditions",
+       "level": "A2"
+      },
+      {
+       "id": "V17.02",
+       "name": "Cinema, theatre & music",
+       "level": "A2"
+      },
+      {
+       "id": "V17.03",
+       "name": "Literature & reading",
+       "level": "B1"
+      },
+      {
+       "id": "V17.04",
+       "name": "Visual arts & architecture",
+       "level": "B2"
+      },
+      {
+       "id": "V17.05",
+       "name": "Humour, satire & popular culture",
+       "level": "C1"
+      },
+      {
+       "id": "V17.06",
+       "name": "Heritage, restitution & cultural appropriation",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V18",
+     "name": "Society, politics & law",
+     "subthemes": [
+      {
+       "id": "V18.01",
+       "name": "Public services (post, bank, town hall)",
+       "level": "A2"
+      },
+      {
+       "id": "V18.02",
+       "name": "Rules, rights & duties",
+       "level": "B1"
+      },
+      {
+       "id": "V18.03",
+       "name": "Politics, elections & institutions",
+       "level": "B2"
+      },
+      {
+       "id": "V18.04",
+       "name": "Civic engagement & social movements",
+       "level": "B2"
+      },
+      {
+       "id": "V18.05",
+       "name": "Inequality, justice & discrimination",
+       "level": "C1"
+      },
+      {
+       "id": "V18.06",
+       "name": "International relations & governance",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V19",
+     "name": "Economy & finance",
+     "subthemes": [
+      {
+       "id": "V19.01",
+       "name": "Money, banks & payments",
+       "level": "A2"
+      },
+      {
+       "id": "V19.02",
+       "name": "Personal finance & budgeting",
+       "level": "B2"
+      },
+      {
+       "id": "V19.03",
+       "name": "Taxes, welfare & public spending",
+       "level": "B2"
+      },
+      {
+       "id": "V19.04",
+       "name": "Business, markets & trade",
+       "level": "C1"
+      },
+      {
+       "id": "V19.05",
+       "name": "Economic theory & policy",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "V20",
+     "name": "Science & technology",
+     "subthemes": [
+      {
+       "id": "V20.01",
+       "name": "Everyday gadgets",
+       "level": "A2"
+      },
+      {
+       "id": "V20.02",
+       "name": "Inventions & innovation",
+       "level": "B1"
+      },
+      {
+       "id": "V20.03",
+       "name": "Scientific findings & experiments",
+       "level": "B2"
+      },
+      {
+       "id": "V20.04",
+       "name": "Research methods & argumentation",
+       "level": "C1"
+      },
+      {
+       "id": "V20.05",
+       "name": "Specialised & academic terminology",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "V21",
+     "name": "Environment & sustainability",
+     "subthemes": [
+      {
+       "id": "V21.01",
+       "name": "Recycling & daily eco-habits",
+       "level": "B1"
+      },
+      {
+       "id": "V21.02",
+       "name": "Climate change & energy",
+       "level": "B2"
+      },
+      {
+       "id": "V21.03",
+       "name": "Environmental policy & activism",
+       "level": "C1"
+      },
+      {
+       "id": "V21.04",
+       "name": "Eco-anxiety & future scenarios",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V22",
+     "name": "Target-language community & culture",
+     "subthemes": [
+      {
+       "id": "V22.01",
+       "name": "Greetings & politeness customs",
+       "level": "A1"
+      },
+      {
+       "id": "V22.02",
+       "name": "National holidays & traditions",
+       "level": "A2"
+      },
+      {
+       "id": "V22.03",
+       "name": "Regional varieties & dialects",
+       "level": "B2"
+      },
+      {
+       "id": "V22.04",
+       "name": "Language attitudes, borrowings & policy",
+       "level": "C1"
+      },
+      {
+       "id": "V22.05",
+       "name": "Minority & endangered-language contexts",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "V23",
+     "name": "Functional & discourse vocabulary",
+     "subthemes": [
+      {
+       "id": "V23.01",
+       "name": "Greetings, thanks, apologies",
+       "level": "A1"
+      },
+      {
+       "id": "V23.02",
+       "name": "Question words & basic connectors",
+       "level": "A1"
+      },
+      {
+       "id": "V23.03",
+       "name": "Time & sequence connectors",
+       "level": "A2"
+      },
+      {
+       "id": "V23.04",
+       "name": "Opinion, agreement & disagreement phrases",
+       "level": "B1"
+      },
+      {
+       "id": "V23.05",
+       "name": "Argumentation & cohesion devices",
+       "level": "B2"
+      },
+      {
+       "id": "V23.06",
+       "name": "Hedging, nuance & implicit meaning",
+       "level": "C1"
+      },
+      {
+       "id": "V23.07",
+       "name": "Idioms, collocations & fixed expressions",
+       "level": "C1"
+      },
+      {
+       "id": "V23.08",
+       "name": "Irony, wordplay & stylistic effect",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "V24",
+     "name": "Emergencies, administration & services",
+     "subthemes": [
+      {
+       "id": "V24.01",
+       "name": "Basic forms & personal data",
+       "level": "A1"
+      },
+      {
+       "id": "V24.02",
+       "name": "Emergency phrases",
+       "level": "A2"
+      },
+      {
+       "id": "V24.03",
+       "name": "Appointments & bookings",
+       "level": "A2"
+      },
+      {
+       "id": "V24.04",
+       "name": "Official procedures & documents",
+       "level": "B1"
+      },
+      {
+       "id": "V24.05",
+       "name": "Legal, administrative & contractual language",
+       "level": "C1"
+      }
+     ]
+    }
+   ]
+  },
+  "lexical_types": {
+   "title": "Lexical types (vocabulary axis independent of topic)",
+   "themes": [
+    {
+     "id": "LT01",
+     "name": "Single words by word class",
+     "subthemes": [
+      {
+       "id": "LT01.01",
+       "name": "Nouns",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.02",
+       "name": "Verbs",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.03",
+       "name": "Adjectives",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.04",
+       "name": "Adverbs",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.05",
+       "name": "Pronouns & determiners",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.06",
+       "name": "Prepositions & postpositions",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.07",
+       "name": "Articles",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.08",
+       "name": "Numbers",
+       "level": "A0"
+      },
+      {
+       "id": "LT01.09",
+       "name": "Rare or advanced adjectives & verbs",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "LT02",
+     "name": "Multi-word units",
+     "subthemes": [
+      {
+       "id": "LT02.01",
+       "name": "Fixed routines & greetings (transparent)",
+       "level": "A0"
+      },
+      {
+       "id": "LT02.02",
+       "name": "Collocations",
+       "level": "A2"
+      },
+      {
+       "id": "LT02.03",
+       "name": "Linking words & connectors",
+       "level": "A2"
+      },
+      {
+       "id": "LT02.04",
+       "name": "Phrasal verbs / verb + particle (where present)",
+       "level": "A2"
+      },
+      {
+       "id": "LT02.05",
+       "name": "Idioms & non-transparent expressions",
+       "level": "B1"
+      },
+      {
+       "id": "LT02.06",
+       "name": "Proverbs & sayings",
+       "level": "B2"
+      },
+      {
+       "id": "LT02.07",
+       "name": "Register-marked expressions",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "LT03",
+     "name": "Word-building & relations",
+     "subthemes": [
+      {
+       "id": "LT03.01",
+       "name": "Word building (affixes, compounds)",
+       "level": "A2"
+      },
+      {
+       "id": "LT03.02",
+       "name": "Synonyms",
+       "level": "B1"
+      },
+      {
+       "id": "LT03.03",
+       "name": "Antonyms",
+       "level": "A0"
+      },
+      {
+       "id": "LT03.04",
+       "name": "Comparisons & contrasts",
+       "level": "A2"
+      },
+      {
+       "id": "LT03.05",
+       "name": "Regional equivalents & varieties",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "LT04",
+     "name": "Academic & specialised lexis",
+     "subthemes": [
+      {
+       "id": "LT04.01",
+       "name": "Academic vocabulary",
+       "level": "B2"
+      },
+      {
+       "id": "LT04.02",
+       "name": "Domain terminology",
+       "level": "C1"
+      },
+      {
+       "id": "LT04.03",
+       "name": "Statistical & analytical terms",
+       "level": "B2"
+      }
+     ]
+    }
+   ]
+  },
+  "grammar": {
+   "title": "Grammar themes (core)",
+   "themes": [
+    {
+     "id": "G01",
+     "name": "Script, sounds & prosody",
+     "subthemes": [
+      {
+       "id": "G01.01",
+       "name": "Alphabet/script & writing direction",
+       "level": "A0"
+      },
+      {
+       "id": "G01.02",
+       "name": "Sound–letter correspondence & spelling rules",
+       "level": "A0"
+      },
+      {
+       "id": "G01.03",
+       "name": "Stress, rhythm & intonation",
+       "level": "A1"
+      },
+      {
+       "id": "G01.04",
+       "name": "Special sounds & minimal pairs",
+       "level": "A1"
+      },
+      {
+       "id": "G01.05",
+       "name": "Connected speech & reduction",
+       "level": "B1"
+      },
+      {
+       "id": "G01.06",
+       "name": "Accent, dialect & register in pronunciation",
+       "level": "B2"
+      },
+      {
+       "id": "G01.07",
+       "name": "Prosody for nuance, irony & emphasis",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G02",
+     "name": "Nouns & noun phrases",
+     "subthemes": [
+      {
+       "id": "G02.01",
+       "name": "Number (singular/plural)",
+       "level": "A1"
+      },
+      {
+       "id": "G02.02",
+       "name": "Gender / noun classes (if present)",
+       "level": "A1"
+      },
+      {
+       "id": "G02.03",
+       "name": "Articles & definiteness (if present)",
+       "level": "A1"
+      },
+      {
+       "id": "G02.04",
+       "name": "Case system (if present)",
+       "level": "A1"
+      },
+      {
+       "id": "G02.05",
+       "name": "Possession (adjectives, suffixes, genitive)",
+       "level": "A1"
+      },
+      {
+       "id": "G02.06",
+       "name": "Countable/uncountable & quantification",
+       "level": "A2"
+      },
+      {
+       "id": "G02.07",
+       "name": "Diminutives & augmentatives",
+       "level": "B1"
+      },
+      {
+       "id": "G02.08",
+       "name": "Noun derivation & nominalisation",
+       "level": "B2"
+      },
+      {
+       "id": "G02.09",
+       "name": "Complex noun phrases & apposition",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G03",
+     "name": "Pronouns & determiners",
+     "subthemes": [
+      {
+       "id": "G03.01",
+       "name": "Subject/personal pronouns",
+       "level": "A1"
+      },
+      {
+       "id": "G03.02",
+       "name": "Demonstratives",
+       "level": "A1"
+      },
+      {
+       "id": "G03.03",
+       "name": "Interrogatives",
+       "level": "A1"
+      },
+      {
+       "id": "G03.04",
+       "name": "Reflexive pronouns",
+       "level": "A2"
+      },
+      {
+       "id": "G03.05",
+       "name": "Direct/indirect object pronouns & clitics",
+       "level": "A2"
+      },
+      {
+       "id": "G03.06",
+       "name": "Relative pronouns",
+       "level": "B1"
+      },
+      {
+       "id": "G03.07",
+       "name": "Indefinite pronouns & quantifiers",
+       "level": "B1"
+      },
+      {
+       "id": "G03.08",
+       "name": "Combined pronouns & placement rules",
+       "level": "B2"
+      },
+      {
+       "id": "G03.09",
+       "name": "Emphatic & stylistic pronoun use",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G04",
+     "name": "Adjectives & adverbs",
+     "subthemes": [
+      {
+       "id": "G04.01",
+       "name": "Agreement & position of adjectives",
+       "level": "A1"
+      },
+      {
+       "id": "G04.02",
+       "name": "Basic adverbs (place, time, manner, frequency)",
+       "level": "A1"
+      },
+      {
+       "id": "G04.03",
+       "name": "Comparatives & superlatives",
+       "level": "A2"
+      },
+      {
+       "id": "G04.04",
+       "name": "Degree & intensifiers",
+       "level": "A2"
+      },
+      {
+       "id": "G04.05",
+       "name": "Adverb formation",
+       "level": "B1"
+      },
+      {
+       "id": "G04.06",
+       "name": "Participial & complex modifiers",
+       "level": "B2"
+      },
+      {
+       "id": "G04.07",
+       "name": "Stylistic placement & nuance",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G05",
+     "name": "Verb forms",
+     "subthemes": [
+      {
+       "id": "G05.01",
+       "name": "Present tense (regular & key irregulars)",
+       "level": "A1"
+      },
+      {
+       "id": "G05.02",
+       "name": "Person/number agreement",
+       "level": "A1"
+      },
+      {
+       "id": "G05.03",
+       "name": "Copula & auxiliaries",
+       "level": "A1"
+      },
+      {
+       "id": "G05.04",
+       "name": "Infinitives & non-finite forms",
+       "level": "A2"
+      },
+      {
+       "id": "G05.05",
+       "name": "Participles",
+       "level": "A2"
+      },
+      {
+       "id": "G05.06",
+       "name": "Gerund / converb / verbal noun",
+       "level": "B1"
+      },
+      {
+       "id": "G05.07",
+       "name": "Irregular & suppletive paradigms",
+       "level": "B1"
+      },
+      {
+       "id": "G05.08",
+       "name": "Literary or archaic forms",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G06",
+     "name": "Tense & aspect",
+     "subthemes": [
+      {
+       "id": "G06.01",
+       "name": "Present & present progressive",
+       "level": "A1"
+      },
+      {
+       "id": "G06.02",
+       "name": "Simple / narrative past",
+       "level": "A2"
+      },
+      {
+       "id": "G06.03",
+       "name": "Perfect / compound past",
+       "level": "A2"
+      },
+      {
+       "id": "G06.04",
+       "name": "Imperfect, habitual past & aspect contrast",
+       "level": "A2"
+      },
+      {
+       "id": "G06.05",
+       "name": "Future (simple, periphrastic)",
+       "level": "A2"
+      },
+      {
+       "id": "G06.06",
+       "name": "Pluperfect & future perfect",
+       "level": "B2"
+      },
+      {
+       "id": "G06.07",
+       "name": "Sequence of tenses & aspect pairs",
+       "level": "B2"
+      },
+      {
+       "id": "G06.08",
+       "name": "Literary / historic tenses",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G07",
+     "name": "Mood & modality",
+     "subthemes": [
+      {
+       "id": "G07.01",
+       "name": "Imperative (informal)",
+       "level": "A1"
+      },
+      {
+       "id": "G07.02",
+       "name": "Modal verbs (can, must, want)",
+       "level": "A1"
+      },
+      {
+       "id": "G07.03",
+       "name": "Polite requests & conditional",
+       "level": "A2"
+      },
+      {
+       "id": "G07.04",
+       "name": "Formal imperative & commands",
+       "level": "B1"
+      },
+      {
+       "id": "G07.05",
+       "name": "Subjunctive / optative (if present)",
+       "level": "B1"
+      },
+      {
+       "id": "G07.06",
+       "name": "Hypothesis & conditional clauses",
+       "level": "B2"
+      },
+      {
+       "id": "G07.07",
+       "name": "Reported modality & evidentiality (if present)",
+       "level": "B2"
+      },
+      {
+       "id": "G07.08",
+       "name": "Subtle modality, concession & irrealis",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G08",
+     "name": "Voice & valency",
+     "subthemes": [
+      {
+       "id": "G08.01",
+       "name": "Reflexive / middle verbs",
+       "level": "A2"
+      },
+      {
+       "id": "G08.02",
+       "name": "Impersonal constructions",
+       "level": "B1"
+      },
+      {
+       "id": "G08.03",
+       "name": "Passive voice",
+       "level": "B1"
+      },
+      {
+       "id": "G08.04",
+       "name": "Causative & benefactive",
+       "level": "B2"
+      },
+      {
+       "id": "G08.05",
+       "name": "Verb argument structure & case government",
+       "level": "B2"
+      },
+      {
+       "id": "G08.06",
+       "name": "Ergative / polypersonal patterns (if present)",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "G09",
+     "name": "Sentence structure",
+     "subthemes": [
+      {
+       "id": "G09.01",
+       "name": "Basic word order",
+       "level": "A1"
+      },
+      {
+       "id": "G09.02",
+       "name": "Yes/no & wh-questions",
+       "level": "A1"
+      },
+      {
+       "id": "G09.03",
+       "name": "Negation",
+       "level": "A1"
+      },
+      {
+       "id": "G09.04",
+       "name": "Coordination (and, but, or)",
+       "level": "A1"
+      },
+      {
+       "id": "G09.05",
+       "name": "Adverbial clauses (time, cause, purpose)",
+       "level": "A2"
+      },
+      {
+       "id": "G09.06",
+       "name": "Relative clauses",
+       "level": "B1"
+      },
+      {
+       "id": "G09.07",
+       "name": "Reported speech",
+       "level": "B1"
+      },
+      {
+       "id": "G09.08",
+       "name": "Conditional sentences",
+       "level": "B1"
+      },
+      {
+       "id": "G09.09",
+       "name": "Complex subordination & concession",
+       "level": "B2"
+      },
+      {
+       "id": "G09.10",
+       "name": "Cleft, focus & information structure",
+       "level": "B2"
+      },
+      {
+       "id": "G09.11",
+       "name": "Ellipsis, inversion & stylistic variation",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G10",
+     "name": "Prepositions, postpositions & particles",
+     "subthemes": [
+      {
+       "id": "G10.01",
+       "name": "Spatial & temporal prepositions/postpositions",
+       "level": "A1"
+      },
+      {
+       "id": "G10.02",
+       "name": "Case-governing prepositions",
+       "level": "A2"
+      },
+      {
+       "id": "G10.03",
+       "name": "Verb + preposition collocations",
+       "level": "B1"
+      },
+      {
+       "id": "G10.04",
+       "name": "Discourse particles & fillers",
+       "level": "B2"
+      },
+      {
+       "id": "G10.05",
+       "name": "Fixed prepositional idioms",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G11",
+     "name": "Numerals & quantifiers",
+     "subthemes": [
+      {
+       "id": "G11.01",
+       "name": "Cardinal/ordinal forms & agreement",
+       "level": "A1"
+      },
+      {
+       "id": "G11.02",
+       "name": "Dates, time & fractions",
+       "level": "A2"
+      },
+      {
+       "id": "G11.03",
+       "name": "Approximation & measure phrases",
+       "level": "B1"
+      },
+      {
+       "id": "G11.04",
+       "name": "Special number systems (e.g. vigesimal)",
+       "level": "A2"
+      }
+     ]
+    },
+    {
+     "id": "G12",
+     "name": "Word formation",
+     "subthemes": [
+      {
+       "id": "G12.01",
+       "name": "Common prefixes & suffixes",
+       "level": "A2"
+      },
+      {
+       "id": "G12.02",
+       "name": "Compounding",
+       "level": "B1"
+      },
+      {
+       "id": "G12.03",
+       "name": "Derivation & word families",
+       "level": "B2"
+      },
+      {
+       "id": "G12.04",
+       "name": "Conversion & borrowings",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "G13",
+     "name": "Discourse & cohesion",
+     "subthemes": [
+      {
+       "id": "G13.01",
+       "name": "Basic connectors",
+       "level": "A1"
+      },
+      {
+       "id": "G13.02",
+       "name": "Sequencing & linking",
+       "level": "A2"
+      },
+      {
+       "id": "G13.03",
+       "name": "Reference & anaphora",
+       "level": "B1"
+      },
+      {
+       "id": "G13.04",
+       "name": "Cohesive devices in long text",
+       "level": "B2"
+      },
+      {
+       "id": "G13.05",
+       "name": "Information structure & topicalisation",
+       "level": "C1"
+      },
+      {
+       "id": "G13.06",
+       "name": "Rhetorical structuring",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "G14",
+     "name": "Pragmatics & politeness",
+     "subthemes": [
+      {
+       "id": "G14.01",
+       "name": "Formal/informal address (T–V, honorifics)",
+       "level": "A1"
+      },
+      {
+       "id": "G14.02",
+       "name": "Politeness formulas",
+       "level": "A1"
+      },
+      {
+       "id": "G14.03",
+       "name": "Register shift",
+       "level": "B2"
+      },
+      {
+       "id": "G14.04",
+       "name": "Indirectness, hedging & softening",
+       "level": "B2"
+      },
+      {
+       "id": "G14.05",
+       "name": "Irony, implicature & humour",
+       "level": "C1"
+      }
+     ]
+    }
+   ]
+  },
+  "grammar_optional": {
+   "title": "Grammar themes (optional modules, switch on per language)",
+   "themes": [
+    {
+     "id": "G15",
+     "name": "Tone & pitch (optional module)",
+     "subthemes": [
+      {
+       "id": "G15.01",
+       "name": "Tone recognition",
+       "level": "A0"
+      },
+      {
+       "id": "G15.02",
+       "name": "Tone production & sandhi",
+       "level": "A1"
+      },
+      {
+       "id": "G15.03",
+       "name": "Tone in connected speech",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "G16",
+     "name": "Classifiers & counters (optional module)",
+     "subthemes": [
+      {
+       "id": "G16.01",
+       "name": "Core classifiers with numbers",
+       "level": "A1"
+      },
+      {
+       "id": "G16.02",
+       "name": "Extended classifier sets",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "G17",
+     "name": "Morphophonology (optional module)",
+     "subthemes": [
+      {
+       "id": "G17.01",
+       "name": "Vowel harmony",
+       "level": "A1"
+      },
+      {
+       "id": "G17.02",
+       "name": "Consonant mutation / lenition",
+       "level": "A1"
+      },
+      {
+       "id": "G17.03",
+       "name": "Sandhi & assimilation",
+       "level": "A2"
+      },
+      {
+       "id": "G17.04",
+       "name": "Ablaut & stem alternation",
+       "level": "A2"
+      },
+      {
+       "id": "G17.05",
+       "name": "Exceptions & lexicalised alternations",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "G18",
+     "name": "Evidentiality (optional module)",
+     "subthemes": [
+      {
+       "id": "G18.01",
+       "name": "Reportative / inferential marking",
+       "level": "B1"
+      },
+      {
+       "id": "G18.02",
+       "name": "Evidential contrasts in narration",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "G19",
+     "name": "Polypersonal agreement & screeves (optional module)",
+     "subthemes": [
+      {
+       "id": "G19.01",
+       "name": "Subject/object agreement",
+       "level": "A2"
+      },
+      {
+       "id": "G19.02",
+       "name": "Preverbs & screeve series",
+       "level": "B1"
+      },
+      {
+       "id": "G19.03",
+       "name": "Case alternation across series",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "G20",
+     "name": "Honorific systems (optional module)",
+     "subthemes": [
+      {
+       "id": "G20.01",
+       "name": "Basic honorific forms",
+       "level": "A1"
+      },
+      {
+       "id": "G20.02",
+       "name": "Speech levels & humble forms",
+       "level": "B1"
+      },
+      {
+       "id": "G20.03",
+       "name": "Business and formal honorifics",
+       "level": "B2"
+      }
+     ]
+    }
+   ]
+  },
+  "speaking": {
+   "title": "Speaking themes (functions & tasks)",
+   "themes": [
+    {
+     "id": "S01",
+     "name": "Social interaction",
+     "subthemes": [
+      {
+       "id": "S01.01",
+       "name": "Greeting & introductions",
+       "level": "A1"
+      },
+      {
+       "id": "S01.02",
+       "name": "Thanking, apologising, congratulating",
+       "level": "A1"
+      },
+      {
+       "id": "S01.03",
+       "name": "Small talk",
+       "level": "A2"
+      },
+      {
+       "id": "S01.04",
+       "name": "Inviting, accepting, refusing",
+       "level": "A2"
+      },
+      {
+       "id": "S01.05",
+       "name": "Expressing sympathy & praise",
+       "level": "B2"
+      },
+      {
+       "id": "S01.06",
+       "name": "Taking, keeping, yielding turns",
+       "level": "B2"
+      },
+      {
+       "id": "S01.07",
+       "name": "Informal & colloquial exchange",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "S02",
+     "name": "Information exchange",
+     "subthemes": [
+      {
+       "id": "S02.01",
+       "name": "Asking & answering personal questions",
+       "level": "A1"
+      },
+      {
+       "id": "S02.02",
+       "name": "Asking for directions, prices, time",
+       "level": "A1"
+      },
+      {
+       "id": "S02.03",
+       "name": "Phone calls",
+       "level": "A2"
+      },
+      {
+       "id": "S02.04",
+       "name": "Interviews (giving/taking)",
+       "level": "B1"
+      },
+      {
+       "id": "S02.05",
+       "name": "Oral briefings & reports",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "S03",
+     "name": "Opinions, feelings & preferences",
+     "subthemes": [
+      {
+       "id": "S03.01",
+       "name": "Likes & dislikes",
+       "level": "A1"
+      },
+      {
+       "id": "S03.02",
+       "name": "Giving opinions & reasons",
+       "level": "B1"
+      },
+      {
+       "id": "S03.03",
+       "name": "Agreeing & disagreeing",
+       "level": "B1"
+      },
+      {
+       "id": "S03.04",
+       "name": "Expressing doubt, regret, hope",
+       "level": "B1"
+      },
+      {
+       "id": "S03.05",
+       "name": "Evaluating & criticising",
+       "level": "B2"
+      },
+      {
+       "id": "S03.06",
+       "name": "Nuanced stance & implicit position",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S04",
+     "name": "Description & narration",
+     "subthemes": [
+      {
+       "id": "S04.01",
+       "name": "Describing people, places, objects",
+       "level": "A1"
+      },
+      {
+       "id": "S04.02",
+       "name": "Narrating past events & anecdotes",
+       "level": "A2"
+      },
+      {
+       "id": "S04.03",
+       "name": "Telling stories & plots",
+       "level": "B1"
+      },
+      {
+       "id": "S04.04",
+       "name": "Detailed narration & reported accounts",
+       "level": "B2"
+      },
+      {
+       "id": "S04.05",
+       "name": "Elaborate storytelling with style",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S05",
+     "name": "Explanation & instruction",
+     "subthemes": [
+      {
+       "id": "S05.01",
+       "name": "Giving simple instructions & directions",
+       "level": "A2"
+      },
+      {
+       "id": "S05.02",
+       "name": "Explaining rules & how-to",
+       "level": "B1"
+      },
+      {
+       "id": "S05.03",
+       "name": "Explaining processes & concepts",
+       "level": "B2"
+      },
+      {
+       "id": "S05.04",
+       "name": "Explaining complex ideas to non-specialists",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S06",
+     "name": "Argumentation & debate",
+     "subthemes": [
+      {
+       "id": "S06.01",
+       "name": "Stating & justifying a view",
+       "level": "B1"
+      },
+      {
+       "id": "S06.02",
+       "name": "Weighing pros and cons",
+       "level": "B2"
+      },
+      {
+       "id": "S06.03",
+       "name": "Debating & counter-arguing",
+       "level": "B2"
+      },
+      {
+       "id": "S06.04",
+       "name": "Structured argument & rhetoric",
+       "level": "C1"
+      },
+      {
+       "id": "S06.05",
+       "name": "Mediating disagreements",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S07",
+     "name": "Presentation & monologue",
+     "subthemes": [
+      {
+       "id": "S07.01",
+       "name": "Presenting oneself",
+       "level": "A1"
+      },
+      {
+       "id": "S07.02",
+       "name": "Short prepared talk",
+       "level": "B1"
+      },
+      {
+       "id": "S07.03",
+       "name": "Presentation with visuals",
+       "level": "B2"
+      },
+      {
+       "id": "S07.04",
+       "name": "Lecture or long formal talk",
+       "level": "C1"
+      },
+      {
+       "id": "S07.05",
+       "name": "Eloquence, ritual speech & performance (e.g. slam)",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S08",
+     "name": "Transactions & negotiation",
+     "subthemes": [
+      {
+       "id": "S08.01",
+       "name": "Simple transactions (buying, ordering)",
+       "level": "A1"
+      },
+      {
+       "id": "S08.02",
+       "name": "Making arrangements",
+       "level": "A2"
+      },
+      {
+       "id": "S08.03",
+       "name": "Complaints",
+       "level": "B1"
+      },
+      {
+       "id": "S08.04",
+       "name": "Negotiating & problem-solving",
+       "level": "B2"
+      },
+      {
+       "id": "S08.05",
+       "name": "Formal negotiation & persuasion",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S09",
+     "name": "Oral mediation & summarising",
+     "subthemes": [
+      {
+       "id": "S09.01",
+       "name": "Relaying simple information",
+       "level": "A2"
+      },
+      {
+       "id": "S09.02",
+       "name": "Summarising a text or talk orally",
+       "level": "B2"
+      },
+      {
+       "id": "S09.03",
+       "name": "Informal interpreting between speakers",
+       "level": "B2"
+      },
+      {
+       "id": "S09.04",
+       "name": "Oral synthesis of several sources",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "S10",
+     "name": "Communication strategies",
+     "subthemes": [
+      {
+       "id": "S10.01",
+       "name": "Asking to slow down / repeat",
+       "level": "A1"
+      },
+      {
+       "id": "S10.02",
+       "name": "Circumlocution & paraphrase",
+       "level": "B1"
+      },
+      {
+       "id": "S10.03",
+       "name": "Self-correction & backtracking",
+       "level": "B2"
+      },
+      {
+       "id": "S10.04",
+       "name": "Repair without breaking flow",
+       "level": "C1"
+      }
+     ]
+    }
+   ]
+  },
+  "writing": {
+   "title": "Writing themes (text types)",
+   "themes": [
+    {
+     "id": "W01",
+     "name": "Forms & personal data",
+     "subthemes": [
+      {
+       "id": "W01.01",
+       "name": "Filling in forms",
+       "level": "A1"
+      },
+      {
+       "id": "W01.02",
+       "name": "Writing own details",
+       "level": "A1"
+      }
+     ]
+    },
+    {
+     "id": "W02",
+     "name": "Short messages & notes",
+     "subthemes": [
+      {
+       "id": "W02.01",
+       "name": "Notes & lists",
+       "level": "A1"
+      },
+      {
+       "id": "W02.02",
+       "name": "Postcards & greetings",
+       "level": "A1"
+      },
+      {
+       "id": "W02.03",
+       "name": "SMS / chat messages",
+       "level": "A2"
+      },
+      {
+       "id": "W02.04",
+       "name": "Social media posts",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "W03",
+     "name": "Informal letters & emails",
+     "subthemes": [
+      {
+       "id": "W03.01",
+       "name": "Thank-you notes",
+       "level": "A2"
+      },
+      {
+       "id": "W03.02",
+       "name": "Personal email or letter",
+       "level": "A2"
+      },
+      {
+       "id": "W03.03",
+       "name": "Describing experiences & impressions",
+       "level": "B1"
+      },
+      {
+       "id": "W03.04",
+       "name": "Reflective personal letter",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "W04",
+     "name": "Formal letters & emails",
+     "subthemes": [
+      {
+       "id": "W04.01",
+       "name": "Simple formal request",
+       "level": "B1"
+      },
+      {
+       "id": "W04.02",
+       "name": "Appointment / booking requests",
+       "level": "B1"
+      },
+      {
+       "id": "W04.03",
+       "name": "Complaint or claim",
+       "level": "B2"
+      },
+      {
+       "id": "W04.04",
+       "name": "Administrative letter",
+       "level": "B2"
+      },
+      {
+       "id": "W04.05",
+       "name": "Cover / motivation letter",
+       "level": "B2"
+      },
+      {
+       "id": "W04.06",
+       "name": "Formal correspondence with precise register",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "W05",
+     "name": "Descriptive & narrative writing",
+     "subthemes": [
+      {
+       "id": "W05.01",
+       "name": "Describing people & places",
+       "level": "A2"
+      },
+      {
+       "id": "W05.02",
+       "name": "Short narrative paragraph",
+       "level": "B1"
+      },
+      {
+       "id": "W05.03",
+       "name": "Biography or anecdote",
+       "level": "B1"
+      },
+      {
+       "id": "W05.04",
+       "name": "Extended narrative / fiction",
+       "level": "B2"
+      },
+      {
+       "id": "W05.05",
+       "name": "Literary pastiche & continuing a text",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "W06",
+     "name": "Informative & explanatory",
+     "subthemes": [
+      {
+       "id": "W06.01",
+       "name": "Short informative text",
+       "level": "B1"
+      },
+      {
+       "id": "W06.02",
+       "name": "Instructions / how-to",
+       "level": "B1"
+      },
+      {
+       "id": "W06.03",
+       "name": "Report on survey or data",
+       "level": "B2"
+      },
+      {
+       "id": "W06.04",
+       "name": "Structured report",
+       "level": "B2"
+      },
+      {
+       "id": "W06.05",
+       "name": "Technical / professional report",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "W07",
+     "name": "Argumentative & evaluative",
+     "subthemes": [
+      {
+       "id": "W07.01",
+       "name": "Short opinion paragraph",
+       "level": "B1"
+      },
+      {
+       "id": "W07.02",
+       "name": "Review (book, film, product)",
+       "level": "B1"
+      },
+      {
+       "id": "W07.03",
+       "name": "For / against essay",
+       "level": "B2"
+      },
+      {
+       "id": "W07.04",
+       "name": "Argued article or op-ed",
+       "level": "B2"
+      },
+      {
+       "id": "W07.05",
+       "name": "Editorial & open letter",
+       "level": "C1"
+      },
+      {
+       "id": "W07.06",
+       "name": "Academic essay",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "W08",
+     "name": "Summary & synthesis",
+     "subthemes": [
+      {
+       "id": "W08.01",
+       "name": "Summarise a short text",
+       "level": "B1"
+      },
+      {
+       "id": "W08.02",
+       "name": "Summary of a text or talk",
+       "level": "B2"
+      },
+      {
+       "id": "W08.03",
+       "name": "Synthesis of 2+ documents",
+       "level": "C1"
+      },
+      {
+       "id": "W08.04",
+       "name": "Critical review",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "W09",
+     "name": "CV & professional writing",
+     "subthemes": [
+      {
+       "id": "W09.01",
+       "name": "Simple CV",
+       "level": "A2"
+      },
+      {
+       "id": "W09.02",
+       "name": "CV & job application set",
+       "level": "B1"
+      },
+      {
+       "id": "W09.03",
+       "name": "Meeting minutes & notes",
+       "level": "B2"
+      },
+      {
+       "id": "W09.04",
+       "name": "Job-ad hook & press copy",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "W10",
+     "name": "Creative writing",
+     "subthemes": [
+      {
+       "id": "W10.01",
+       "name": "Short poem / rhyme",
+       "level": "A2"
+      },
+      {
+       "id": "W10.02",
+       "name": "Story continuation",
+       "level": "B1"
+      },
+      {
+       "id": "W10.03",
+       "name": "Poem interpretation & writing",
+       "level": "B2"
+      },
+      {
+       "id": "W10.04",
+       "name": "Creative or literary text",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "W11",
+     "name": "Writing process & mechanics",
+     "subthemes": [
+      {
+       "id": "W11.01",
+       "name": "Spelling & punctuation",
+       "level": "A1"
+      },
+      {
+       "id": "W11.02",
+       "name": "Paragraphing",
+       "level": "B1"
+      },
+      {
+       "id": "W11.03",
+       "name": "Planning & revising",
+       "level": "B2"
+      },
+      {
+       "id": "W11.04",
+       "name": "Style & register adaptation",
+       "level": "C1"
+      },
+      {
+       "id": "W11.05",
+       "name": "Proofreading for nuance",
+       "level": "C2"
+      }
+     ]
+    }
+   ]
+  },
+  "receptive": {
+   "title": "Listening & reading themes",
+   "themes": [
+    {
+     "id": "R01",
+     "name": "Listening — text types",
+     "subthemes": [
+      {
+       "id": "R01.01",
+       "name": "Slow, clear instructions & numbers",
+       "level": "A1"
+      },
+      {
+       "id": "R01.02",
+       "name": "Announcements & messages",
+       "level": "A2"
+      },
+      {
+       "id": "R01.03",
+       "name": "Dialogues in familiar contexts",
+       "level": "A2"
+      },
+      {
+       "id": "R01.04",
+       "name": "Radio / TV on familiar topics",
+       "level": "B1"
+      },
+      {
+       "id": "R01.05",
+       "name": "Interviews & documentaries",
+       "level": "B2"
+      },
+      {
+       "id": "R01.06",
+       "name": "Films, accents & fast speech",
+       "level": "C1"
+      },
+      {
+       "id": "R01.07",
+       "name": "Any speech incl. dialect & humour",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "R02",
+     "name": "Reading — text types",
+     "subthemes": [
+      {
+       "id": "R02.01",
+       "name": "Signs, menus, forms",
+       "level": "A1"
+      },
+      {
+       "id": "R02.02",
+       "name": "Ads, timetables, short notes",
+       "level": "A2"
+      },
+      {
+       "id": "R02.03",
+       "name": "Personal letters & emails",
+       "level": "A2"
+      },
+      {
+       "id": "R02.04",
+       "name": "Articles on familiar topics",
+       "level": "B1"
+      },
+      {
+       "id": "R02.05",
+       "name": "Reports & contemporary prose",
+       "level": "B2"
+      },
+      {
+       "id": "R02.06",
+       "name": "Literary & specialist texts",
+       "level": "C1"
+      },
+      {
+       "id": "R02.07",
+       "name": "Any text incl. archaic or dialectal",
+       "level": "C2"
+      }
+     ]
+    },
+    {
+     "id": "R03",
+     "name": "Receptive strategies",
+     "subthemes": [
+      {
+       "id": "R03.01",
+       "name": "Scanning for specific information",
+       "level": "A1"
+      },
+      {
+       "id": "R03.02",
+       "name": "Getting the gist",
+       "level": "A2"
+      },
+      {
+       "id": "R03.03",
+       "name": "Inferring meaning from context",
+       "level": "B1"
+      },
+      {
+       "id": "R03.04",
+       "name": "Recognising stance & implicit meaning",
+       "level": "C1"
+      },
+      {
+       "id": "R03.05",
+       "name": "Appreciating style & irony",
+       "level": "C2"
+      }
+     ]
+    }
+   ]
+  },
+  "situational": {
+   "title": "Situational themes (real-life scenarios)",
+   "themes": [
+    {
+     "id": "SIT01",
+     "name": "Meeting & introductions",
+     "subthemes": [
+      {
+       "id": "SIT01.01",
+       "name": "First meeting",
+       "level": "A1"
+      },
+      {
+       "id": "SIT01.02",
+       "name": "Introducing others",
+       "level": "A1"
+      },
+      {
+       "id": "SIT01.03",
+       "name": "Networking & small talk",
+       "level": "A2"
+      },
+      {
+       "id": "SIT01.04",
+       "name": "Formal introductions",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "SIT02",
+     "name": "Café, restaurant & food service",
+     "subthemes": [
+      {
+       "id": "SIT02.01",
+       "name": "Ordering a drink or snack",
+       "level": "A1"
+      },
+      {
+       "id": "SIT02.02",
+       "name": "Restaurant meal & paying",
+       "level": "A2"
+      },
+      {
+       "id": "SIT02.03",
+       "name": "Dietary needs & complaints",
+       "level": "B1"
+      },
+      {
+       "id": "SIT02.04",
+       "name": "Business dinner & etiquette",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "SIT03",
+     "name": "Shopping & services",
+     "subthemes": [
+      {
+       "id": "SIT03.01",
+       "name": "Buying basics",
+       "level": "A1"
+      },
+      {
+       "id": "SIT03.02",
+       "name": "Clothes & returns",
+       "level": "A2"
+      },
+      {
+       "id": "SIT03.03",
+       "name": "Markets & bargaining",
+       "level": "B1"
+      },
+      {
+       "id": "SIT03.04",
+       "name": "Consumer disputes",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "SIT04",
+     "name": "Transport & travel",
+     "subthemes": [
+      {
+       "id": "SIT04.01",
+       "name": "Buying tickets, asking directions",
+       "level": "A1"
+      },
+      {
+       "id": "SIT04.02",
+       "name": "Booking or changing reservations",
+       "level": "A2"
+      },
+      {
+       "id": "SIT04.03",
+       "name": "Delays & lost luggage",
+       "level": "B1"
+      },
+      {
+       "id": "SIT04.04",
+       "name": "Complex itineraries & claims",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "SIT05",
+     "name": "Accommodation",
+     "subthemes": [
+      {
+       "id": "SIT05.01",
+       "name": "Hotel check-in / out",
+       "level": "A1"
+      },
+      {
+       "id": "SIT05.02",
+       "name": "Renting a flat",
+       "level": "A2"
+      },
+      {
+       "id": "SIT05.03",
+       "name": "Landlord issues & contracts",
+       "level": "B1"
+      },
+      {
+       "id": "SIT05.04",
+       "name": "Legal housing disputes",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT06",
+     "name": "Health",
+     "subthemes": [
+      {
+       "id": "SIT06.01",
+       "name": "Describing symptoms",
+       "level": "A2"
+      },
+      {
+       "id": "SIT06.02",
+       "name": "Doctor visit & prescription",
+       "level": "A2"
+      },
+      {
+       "id": "SIT06.03",
+       "name": "Insurance & specialist appointments",
+       "level": "B1"
+      },
+      {
+       "id": "SIT06.04",
+       "name": "Medical decisions & bioethics",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT07",
+     "name": "Bank, post & public services",
+     "subthemes": [
+      {
+       "id": "SIT07.01",
+       "name": "Post & bank basics",
+       "level": "A2"
+      },
+      {
+       "id": "SIT07.02",
+       "name": "Opening an account, paperwork",
+       "level": "B1"
+      },
+      {
+       "id": "SIT07.03",
+       "name": "Official procedures & complaints",
+       "level": "B2"
+      },
+      {
+       "id": "SIT07.04",
+       "name": "Legal & contractual matters",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT08",
+     "name": "Workplace",
+     "subthemes": [
+      {
+       "id": "SIT08.01",
+       "name": "Introducing yourself at work",
+       "level": "A2"
+      },
+      {
+       "id": "SIT08.02",
+       "name": "Everyday tasks & meetings (familiar topics)",
+       "level": "A2"
+      },
+      {
+       "id": "SIT08.03",
+       "name": "Job interview",
+       "level": "B1"
+      },
+      {
+       "id": "SIT08.04",
+       "name": "Presentations & negotiations",
+       "level": "B2"
+      },
+      {
+       "id": "SIT08.05",
+       "name": "Leadership & strategic talk",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT09",
+     "name": "Education & study",
+     "subthemes": [
+      {
+       "id": "SIT09.01",
+       "name": "Classroom interaction",
+       "level": "A1"
+      },
+      {
+       "id": "SIT09.02",
+       "name": "Enrolment & timetable",
+       "level": "A2"
+      },
+      {
+       "id": "SIT09.03",
+       "name": "Seminars & presentations",
+       "level": "B2"
+      },
+      {
+       "id": "SIT09.04",
+       "name": "Academic discourse & defence",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT10",
+     "name": "Housing & neighbours",
+     "subthemes": [
+      {
+       "id": "SIT10.01",
+       "name": "Neighbour conversations",
+       "level": "A2"
+      },
+      {
+       "id": "SIT10.02",
+       "name": "Repairs & utilities",
+       "level": "B1"
+      },
+      {
+       "id": "SIT10.03",
+       "name": "Collective decisions (co-ownership)",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT11",
+     "name": "Emergencies & safety",
+     "subthemes": [
+      {
+       "id": "SIT11.01",
+       "name": "Asking for help",
+       "level": "A1"
+      },
+      {
+       "id": "SIT11.02",
+       "name": "Reporting an accident or theft",
+       "level": "B1"
+      },
+      {
+       "id": "SIT11.03",
+       "name": "Emergency services & safety rules",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "SIT12",
+     "name": "Social life & leisure",
+     "subthemes": [
+      {
+       "id": "SIT12.01",
+       "name": "Invitations & plans",
+       "level": "A2"
+      },
+      {
+       "id": "SIT12.02",
+       "name": "Hosting & visiting",
+       "level": "A2"
+      },
+      {
+       "id": "SIT12.03",
+       "name": "Events & clubs",
+       "level": "B1"
+      },
+      {
+       "id": "SIT12.04",
+       "name": "Cultural discussion & debate",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "SIT13",
+     "name": "Phone & online communication",
+     "subthemes": [
+      {
+       "id": "SIT13.01",
+       "name": "Simple call or voicemail",
+       "level": "A2"
+      },
+      {
+       "id": "SIT13.02",
+       "name": "Email & chat etiquette",
+       "level": "B1"
+      },
+      {
+       "id": "SIT13.03",
+       "name": "Video meetings",
+       "level": "B2"
+      },
+      {
+       "id": "SIT13.04",
+       "name": "Online public discourse",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT14",
+     "name": "Migration, legal & civic",
+     "subthemes": [
+      {
+       "id": "SIT14.01",
+       "name": "Residence / work permit basics",
+       "level": "B1"
+      },
+      {
+       "id": "SIT14.02",
+       "name": "Citizenship interview or test",
+       "level": "B2"
+      },
+      {
+       "id": "SIT14.03",
+       "name": "Court & legal procedures",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT15",
+     "name": "Public debate & media",
+     "subthemes": [
+      {
+       "id": "SIT15.01",
+       "name": "Following the news",
+       "level": "B1"
+      },
+      {
+       "id": "SIT15.02",
+       "name": "Taking part in discussion",
+       "level": "B2"
+      },
+      {
+       "id": "SIT15.03",
+       "name": "Radio / TV interview, press review",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "SIT16",
+     "name": "Culture & arts",
+     "subthemes": [
+      {
+       "id": "SIT16.01",
+       "name": "Visiting museums",
+       "level": "A2"
+      },
+      {
+       "id": "SIT16.02",
+       "name": "Discussing a film or book",
+       "level": "B1"
+      },
+      {
+       "id": "SIT16.03",
+       "name": "Art analysis",
+       "level": "B2"
+      },
+      {
+       "id": "SIT16.04",
+       "name": "Critical review & heritage debate",
+       "level": "C1"
+      }
+     ]
+    }
+   ]
+  },
+  "culture": {
+   "title": "Culture & sociolinguistic themes",
+   "themes": [
+    {
+     "id": "C01",
+     "name": "Everyday culture",
+     "subthemes": [
+      {
+       "id": "C01.01",
+       "name": "Customs, politeness & meals",
+       "level": "A1"
+      },
+      {
+       "id": "C01.02",
+       "name": "Holidays & traditions",
+       "level": "A2"
+      },
+      {
+       "id": "C01.03",
+       "name": "Daily-life norms (time, queues, greetings)",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "C02",
+     "name": "Social norms & taboos",
+     "subthemes": [
+      {
+       "id": "C02.01",
+       "name": "Dos and don'ts",
+       "level": "B1"
+      },
+      {
+       "id": "C02.02",
+       "name": "Gender, age & status conventions",
+       "level": "B2"
+      },
+      {
+       "id": "C02.03",
+       "name": "Taboos & sensitive topics",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "C03",
+     "name": "History & geography",
+     "subthemes": [
+      {
+       "id": "C03.01",
+       "name": "Basic geography & regions",
+       "level": "A2"
+      },
+      {
+       "id": "C03.02",
+       "name": "Key historical events & figures",
+       "level": "B1"
+      },
+      {
+       "id": "C03.03",
+       "name": "Contemporary history & memory",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "C04",
+     "name": "Institutions & civic knowledge",
+     "subthemes": [
+      {
+       "id": "C04.01",
+       "name": "Basic institutions",
+       "level": "B1"
+      },
+      {
+       "id": "C04.02",
+       "name": "Political & legal system",
+       "level": "B2"
+      },
+      {
+       "id": "C04.03",
+       "name": "Civic rights, duties & procedures",
+       "level": "B2"
+      }
+     ]
+    },
+    {
+     "id": "C05",
+     "name": "Literature, arts & media",
+     "subthemes": [
+      {
+       "id": "C05.01",
+       "name": "Songs, films & popular culture",
+       "level": "A2"
+      },
+      {
+       "id": "C05.02",
+       "name": "Canon & authors",
+       "level": "B2"
+      },
+      {
+       "id": "C05.03",
+       "name": "Literary analysis & stylistic choices",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "C06",
+     "name": "Variation & contact",
+     "subthemes": [
+      {
+       "id": "C06.01",
+       "name": "Regional accents & dialects",
+       "level": "B2"
+      },
+      {
+       "id": "C06.02",
+       "name": "Registers, slang & youth language",
+       "level": "B2"
+      },
+      {
+       "id": "C06.03",
+       "name": "Standardisation, orthography & language contact",
+       "level": "C1"
+      }
+     ]
+    },
+    {
+     "id": "C07",
+     "name": "Intercultural competence",
+     "subthemes": [
+      {
+       "id": "C07.01",
+       "name": "Noticing differences",
+       "level": "B1"
+      },
+      {
+       "id": "C07.02",
+       "name": "Handling misunderstandings",
+       "level": "B2"
+      },
+      {
+       "id": "C07.03",
+       "name": "Questioning stereotypes & appropriation",
+       "level": "C1"
+      }
+     ]
+    }
+   ]
+  },
+  "mediation_strategies": {
+   "title": "Mediation, plurilingual & learning-strategy themes",
+   "themes": [
+    {
+     "id": "M01",
+     "name": "Mediation & plurilingual skills",
+     "subthemes": [
+      {
+       "id": "M01.01",
+       "name": "Relaying simple information",
+       "level": "A2"
+      },
+      {
+       "id": "M01.02",
+       "name": "Mediating a text (summary, simplification)",
+       "level": "B1"
+      },
+      {
+       "id": "M01.03",
+       "name": "Mediating concepts & facilitating collaboration",
+       "level": "B2"
+      },
+      {
+       "id": "M01.04",
+       "name": "Mediating complex or sensitive communication",
+       "level": "C1"
+      },
+      {
+       "id": "M01.05",
+       "name": "Using a related language to understand another",
+       "level": "B1"
+      }
+     ]
+    },
+    {
+     "id": "M02",
+     "name": "Learning strategies & autonomy",
+     "subthemes": [
+      {
+       "id": "M02.01",
+       "name": "Using dictionaries & apps",
+       "level": "A1"
+      },
+      {
+       "id": "M02.02",
+       "name": "Self-assessment with can-do lists",
+       "level": "A2"
+      },
+      {
+       "id": "M02.03",
+       "name": "Planning study & tracking progress",
+       "level": "B1"
+      },
+      {
+       "id": "M02.04",
+       "name": "Independent exposure (media, tandem)",
+       "level": "B2"
+      },
+      {
+       "id": "M02.05",
+       "name": "Error analysis & self-correction",
+       "level": "C1"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "tracks": [
+  {
+   "id": "general",
+   "name": "General",
+   "scope": "Standard CEFR course vocabulary and skills, A0–C2",
+   "source": "COSYlanguages README / COSYdata domain"
+  },
+  {
+   "id": "spoken",
+   "name": "Spoken",
+   "scope": "Conversation-focused course, A0–C2",
+   "source": "COSYlanguages README / COSYdata domain"
+  },
+  {
+   "id": "professional",
+   "name": "Professional",
+   "scope": "Work and business contexts; not used for A0–A1 vocabulary",
+   "source": "COSYlanguages README; COSYdata policy"
+  },
+  {
+   "id": "travel",
+   "name": "Travelling",
+   "scope": "Practical travel language; allowed at A0–A1",
+   "source": "COSYlanguages README; COSYdata policy"
+  },
+  {
+   "id": "relocation",
+   "name": "Relocation",
+   "scope": "Moving abroad, residency, civic life; not used for A0–A1",
+   "source": "COSYlanguages README; COSYdata policy"
+  },
+  {
+   "id": "exam",
+   "name": "Exam Prep",
+   "scope": "Preparation for certification exams; not used for A0–A1",
+   "source": "COSYlanguages README; COSYdata policy"
+  }
+ ],
+ "course_formats": [
+  "grammar course",
+  "phrasal verbs course",
+  "vocabulary practice course",
+  "introductory diagnostic (A0–C2)"
+ ],
+ "level_rules": [
+  "A0 (Pre-A1) is a real level in COSYdata; A0 and A1 share one folder (`a0_a1`).",
+  "Non-transparent idioms and proverbs are NOT A0–A1: moved to A2 (Russian) or B1 (English, Italian) in the changelog.",
+  "Historical figures and over-level proper names go to A2 or higher.",
+  "Russian aspect pairs are stored as one headword (imperfective) with `aspect_pair`; motion verbs carry `motion_type`.",
+  "French, Italian and Greek: contracted prepositions and partitives are separate entries with `contraction` / `partitive` metadata.",
+  "Country, nationality and day/month names are invariable proper nouns (no plural).",
+  "Spoken-course vocabulary is tagged `domain: general, spoken`; `general` is always listed first.",
+  "From B2, regular plurals, comparatives and superlatives are not stored; irregular ones are.",
+  "Entries need transcription, emoji (or `no_emoji`), and antonyms (or `no_antonym`); synonyms are required from B1."
+ ],
+ "repo_map": [
+  {
+   "domain": "Vocabulary (V*) and lexical types (LT*)",
+   "repo": "COSYdata",
+   "structure": "vocabulary/<lang>/<level>/<theme>.json",
+   "also": "COSYlanguages practise, COSYgames, COSYmanuals, COSYplatform"
+  },
+  {
+   "domain": "Grammar (G*) reference tables",
+   "repo": "COSYtools",
+   "structure": "one engine per feature (conjugation, gender/case, prepositional regimes)",
+   "also": "COSYlanguages grammar manuals, COSYmanuals"
+  },
+  {
+   "domain": "Grammar manuals, vocabulary manuals, communication manuals",
+   "repo": "COSYmanuals",
+   "structure": "manual per language/course/level",
+   "also": "COSYplatform (grammar manuals reused)"
+  },
+  {
+   "domain": "Speaking (S*), Writing (W*), Situational (SIT*)",
+   "repo": "COSYplatform",
+   "structure": "curriculums + roadmaps + lessons",
+   "also": "COSYmanuals (communication manuals)"
+  },
+  {
+   "domain": "Listening/Reading (R*), Culture (C*), Mediation/strategies (M*)",
+   "repo": "COSYplatform",
+   "structure": "lesson activities",
+   "also": "COSYlanguages blog/practise"
+  },
+  {
+   "domain": "Event sessions",
+   "repo": "COSYevents",
+   "structure": "sessions -> lessons",
+   "also": "COSYplatform converts, COSYlanguages catalog"
+  },
+  {
+   "domain": "Games and drills",
+   "repo": "COSYgames",
+   "structure": "games tagged by theme/level",
+   "also": "COSYlanguages practise"
+  }
+ ],
+ "tools_coverage": [
+  {
+   "area": "G02 case, gender, number",
+   "tools": "fr-genre, it-genere, ru-rod-padezhi, el-genos-ptoseis",
+   "languages": "fr, it, ru, el"
+  },
+  {
+   "area": "G05/G06 verb forms, tense",
+   "tools": "fr-conjugeur, it-coniugatore, ru-spryazhenie, el-klisi-rimaton",
+   "languages": "fr, it, ru, el"
+  },
+  {
+   "area": "G10 prepositions, government",
+   "tools": "en-verb-prep, fr-regime, it-reggenza, el-syntaxi",
+   "languages": "en, fr, it, el"
+  },
+  {
+   "area": "G17 mutation/harmony (needed)",
+   "tools": "none yet",
+   "languages": "br, tt, ba, cv"
+  },
+  {
+   "area": "G19 screeves/agreement (needed)",
+   "tools": "none yet",
+   "languages": "ka"
+  },
+  {
+   "area": "Case/gender engines (needed)",
+   "tools": "none yet",
+   "languages": "de, es, pt, hy, ka, tt, ba, cv"
+  }
+ ],
+ "events_map": [
+  {
+   "event": "I Couldn't Help But Wonder",
+   "themes": "S03, S04, V20",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Keeping Up with Science",
+   "themes": "V20, V21, S05",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Mind Matters",
+   "themes": "V14, V01, S03",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Debatable & Relatable",
+   "themes": "S06, V18, C07",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Let's Celebrate",
+   "themes": "V22, V17, SIT12",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "My Life With/Without",
+   "themes": "S04, V08, G07",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "The Greatest Quotes",
+   "themes": "V23, V17, W07",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Cinema Club",
+   "themes": "V17, R01, S03",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Karaoke Club",
+   "themes": "G01, V17, R01",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Game Evening",
+   "themes": "S01, S02, SIT12",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "Long Reads",
+   "themes": "R02, S09, V16",
+   "basis": "inferred from name"
+  },
+  {
+   "event": "If You Were",
+   "themes": "G07, S03, S04",
+   "basis": "inferred from name"
+  }
+ ],
+ "language_modules": {
+  "en": {
+   "name": "English",
+   "profile": "Germanic; articles, no case on nouns, rich auxiliary/modal system",
+   "features": [
+    {
+     "feature": "Articles & countability",
+     "module": "G02",
+     "level": "A1",
+     "source": "Src",
+     "note": "EF/TEFL lists"
+    },
+    {
+     "feature": "Present simple & continuous",
+     "module": "G06",
+     "level": "A1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Phrasal verbs",
+     "module": "G10",
+     "level": "B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Perfect tenses",
+     "module": "G06",
+     "level": "A2–B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Modals, incl. perfect modals",
+     "module": "G07",
+     "level": "A1–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Conditionals 0–3 & mixed",
+     "module": "G09",
+     "level": "B1–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Inversion, cleft & emphasis",
+     "module": "G09",
+     "level": "C1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Register, idiom & humour",
+     "module": "G14",
+     "level": "C1",
+     "source": "Src",
+     "note": "EF C1 lists sarcasm/humour"
+    }
+   ]
+  },
+  "fr": {
+   "name": "French",
+   "profile": "Romance; gender, clitic pronouns, subjunctive, strong register split",
+   "features": [
+    {
+     "feature": "Gender, articles & partitives",
+     "module": "G02",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Être/avoir, aller + prepositions, negation",
+     "module": "G05",
+     "level": "A1",
+     "source": "Src",
+     "note": "Alexa course"
+    },
+    {
+     "feature": "Near future, comparatives, possessives, past tenses",
+     "module": "G06",
+     "level": "A2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Imparfait, future, conditional, relative pronouns",
+     "module": "G06",
+     "level": "B1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Object pronouns (direct/indirect, en/y)",
+     "module": "G03",
+     "level": "A2–B1",
+     "source": "Src/Gen",
+     "note": "Alexa puts object pronouns at B1"
+    },
+    {
+     "feature": "Subjunctive, pluperfect, future perfect, past conditional",
+     "module": "G07",
+     "level": "B2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Passé simple, passive, direct/indirect speech",
+     "module": "G06",
+     "level": "C1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Register identification & shifting",
+     "module": "G14",
+     "level": "B2",
+     "source": "Src",
+     "note": "School referential B2"
+    }
+   ]
+  },
+  "it": {
+   "name": "Italian",
+   "profile": "Romance; clitics, rich past/subjunctive system, phonetic spelling",
+   "features": [
+    {
+     "feature": "Present, essere/avere, articles, agreement",
+     "module": "G05",
+     "level": "A1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Passato prossimo (avere/essere) vs imperfetto",
+     "module": "G06",
+     "level": "A2",
+     "source": "Src",
+     "note": "Key A2 contrast"
+    },
+    {
+     "feature": "Reflexives, direct/indirect pronouns, simple future",
+     "module": "G03",
+     "level": "A2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Present congiuntivo, condizionale, ci/ne, imperative",
+     "module": "G07",
+     "level": "B1",
+     "source": "Src",
+     "note": "Plateau risk"
+    },
+    {
+     "feature": "Imperfect congiuntivo, periodo ipotetico, passive, reported speech",
+     "module": "G07",
+     "level": "B2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Passato remoto, all congiuntivo uses, register",
+     "module": "G06",
+     "level": "C1",
+     "source": "Src",
+     "note": ""
+    }
+   ]
+  },
+  "ru": {
+   "name": "Russian",
+   "profile": "Slavic; 6 cases, verbal aspect, Cyrillic, motion verbs",
+   "features": [
+    {
+     "feature": "Cyrillic, stress & vowel reduction",
+     "module": "G01",
+     "level": "A0",
+     "source": "Src",
+     "note": "Polyglot Club/provider"
+    },
+    {
+     "feature": "Nominative, accusative, prepositional; genders & plurals",
+     "module": "G02",
+     "level": "A1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Genitive & dative (possession, absence, recipient)",
+     "module": "G02",
+     "level": "A1–A2",
+     "source": "Src",
+     "note": "Provider A0–A1 syllabus"
+    },
+    {
+     "feature": "Instrumental",
+     "module": "G02",
+     "level": "A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Present/past tense, быть, verbs of motion (basic)",
+     "module": "G05",
+     "level": "A1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Aspect pairs (perfective/imperfective)",
+     "module": "G06",
+     "level": "A2–B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Prefixed motion verbs, participles, gerunds",
+     "module": "G05",
+     "level": "B2–C1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Politeness: ты/вы & address",
+     "module": "G14",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    }
+   ]
+  },
+  "el": {
+   "name": "Greek",
+   "profile": "Hellenic; own alphabet, cases, aspect, 'katharevousa' legacy only in reading",
+   "features": [
+    {
+     "feature": "Alphabet & pronunciation",
+     "module": "G01",
+     "level": "A0",
+     "source": "Src",
+     "note": "Omilo / Lambda"
+    },
+    {
+     "feature": "Articles, gender, cases (nominative/accusative), adjectives",
+     "module": "G02",
+     "level": "A1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Present, past & future in A1",
+     "module": "G06",
+     "level": "A1",
+     "source": "Src",
+     "note": "Lambda: grammar is front-loaded"
+    },
+    {
+     "feature": "Genitive, comparison, conditionals, imperative",
+     "module": "G02",
+     "level": "A2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Imperfect, perfect, passive, reported speech, relative clauses",
+     "module": "G06",
+     "level": "A2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Participles, modal verbs, strong/weak pronouns, discourse markers",
+     "module": "G05",
+     "level": "B1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Nuanced reported speech, word formation, register",
+     "module": "G13",
+     "level": "B2",
+     "source": "Src",
+     "note": ""
+    }
+   ]
+  },
+  "de": {
+   "name": "German",
+   "profile": "Germanic; 4 cases, V2/verb-final order, separable verbs, Konjunktiv",
+   "features": [
+    {
+     "feature": "Articles, gender, nominative/accusative",
+     "module": "G02",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Present & Perfekt (focus A1→A2)",
+     "module": "G06",
+     "level": "A1–A2",
+     "source": "Src",
+     "note": "PrepareBuddy jump table"
+    },
+    {
+     "feature": "Dative & genitive, prepositions with case",
+     "module": "G10",
+     "level": "A2–B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "V2 / verb-final word order, separable verbs",
+     "module": "G09",
+     "level": "A2–B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Past narration, opinion phrases",
+     "module": "G06",
+     "level": "B1",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Passive & argumentation",
+     "module": "G08",
+     "level": "B2",
+     "source": "Src",
+     "note": ""
+    },
+    {
+     "feature": "Konjunktiv II (hypothesis), Konjunktiv I (reported speech)",
+     "module": "G07",
+     "level": "B1–C1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Register, idiom, complex structures",
+     "module": "G14",
+     "level": "C1",
+     "source": "Src",
+     "note": ""
+    }
+   ]
+  },
+  "pt": {
+   "name": "Portuguese",
+   "profile": "Romance; personal infinitive, future subjunctive, contractions; two standards",
+   "features": [
+    {
+     "feature": "Ser/estar/ter, articles & contractions (no, na, do)",
+     "module": "G02",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Pretérito perfeito vs imperfeito; near future (ir + inf.)",
+     "module": "G06",
+     "level": "A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Clitic pronouns & placement (PT vs BR)",
+     "module": "G03",
+     "level": "A2–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Future, conditional, present subjunctive; personal infinitive (intro)",
+     "module": "G07",
+     "level": "B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Imperfect & future subjunctive, passive, reported speech",
+     "module": "G07",
+     "level": "B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Standard choice (European vs Brazilian)",
+     "module": "G01",
+     "level": "A0",
+     "source": "Gen",
+     "note": "Course-design decision"
+    }
+   ]
+  },
+  "es": {
+   "name": "Spanish",
+   "profile": "Romance; ser/estar, subjunctive, por/para; regional variation",
+   "features": [
+    {
+     "feature": "Present, ser/estar/tener, gender/number, gustar",
+     "module": "G05",
+     "level": "A1",
+     "source": "Web",
+     "note": ""
+    },
+    {
+     "feature": "Pretérito perfecto/indefinido/imperfecto; ir a + inf.; reflexives",
+     "module": "G06",
+     "level": "A2",
+     "source": "Web",
+     "note": ""
+    },
+    {
+     "feature": "Object pronouns & doubling",
+     "module": "G03",
+     "level": "A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Present subjunctive, conditional, future",
+     "module": "G07",
+     "level": "B1",
+     "source": "Web",
+     "note": "Some course maps start subjunctive at B2"
+    },
+    {
+     "feature": "Imperfect subjunctive, si-clauses, passive/se, pluperfect",
+     "module": "G07",
+     "level": "B2",
+     "source": "Web",
+     "note": ""
+    },
+    {
+     "feature": "Por/para, regional variation (voseo, seseo)",
+     "module": "G10",
+     "level": "B1",
+     "source": "Gen",
+     "note": ""
+    }
+   ]
+  },
+  "tt": {
+   "name": "Tatar",
+   "profile": "Kipchak Turkic; agglutinative, vowel harmony, cases, Cyrillic",
+   "features": [
+    {
+     "feature": "Cyrillic with extra letters",
+     "module": "G01",
+     "level": "A0",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Vowel harmony",
+     "module": "G17",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Plural, possessive & case suffixes",
+     "module": "G02",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Present/past, copular & negative forms",
+     "module": "G05",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Participles, converbs & verbal nouns",
+     "module": "G05",
+     "level": "B1–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Evidential/reportative past",
+     "module": "G18",
+     "level": "B1",
+     "source": "Gen",
+     "note": "Validate with a Tatar methodologist"
+    },
+    {
+     "feature": "Politeness & address",
+     "module": "G14",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    }
+   ]
+  },
+  "ba": {
+   "name": "Bashkir",
+   "profile": "Kipchak Turkic; close to Tatar; extra Cyrillic letters (Ә Ө Ү Ғ Ҡ Ң Ҙ Һ Ҫ)",
+   "features": [
+    {
+     "feature": "Cyrillic with extra letters & consonant phonology",
+     "module": "G01",
+     "level": "A0",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Vowel harmony",
+     "module": "G17",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Case, plural & possessive suffixes",
+     "module": "G02",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Tense/mood system",
+     "module": "G05",
+     "level": "A2–B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Participles & converbs",
+     "module": "G05",
+     "level": "B1–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Evidential forms",
+     "module": "G18",
+     "level": "B1",
+     "source": "Gen",
+     "note": "Validate; adapted from Tatar template"
+    }
+   ]
+  },
+  "cv": {
+   "name": "Chuvash",
+   "profile": "Oghur Turkic; no gender; extra Cyrillic letters (Ӑ Ӗ Ҫ Ӳ); distinct from Tatar/Bashkir",
+   "features": [
+    {
+     "feature": "Cyrillic with extra letters",
+     "module": "G01",
+     "level": "A0",
+     "source": "Web",
+     "note": ""
+    },
+    {
+     "feature": "Harmony patterns (consult specialist grammar)",
+     "module": "G17",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Case, plural & possessive suffixes",
+     "module": "G02",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Verb tenses & moods",
+     "module": "G05",
+     "level": "A2–B1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Participles & converbs",
+     "module": "G05",
+     "level": "B1–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "No transfer assumptions from Tatar/Bashkir",
+     "module": "G13",
+     "level": "A0",
+     "source": "Gen",
+     "note": "Pedagogical note"
+    }
+   ]
+  },
+  "br": {
+   "name": "Breton",
+   "profile": "Brittonic Celtic; initial mutations, conjugated prepositions, dialect/orthography issues",
+   "features": [
+    {
+     "feature": "Alphabet, sounds & orthography (peurunvan)",
+     "module": "G01",
+     "level": "A0",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Initial consonant mutations (soft, spirant, hard)",
+     "module": "G17",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Bezañ & periphrastic verb forms",
+     "module": "G05",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Conjugated prepositions",
+     "module": "G10",
+     "level": "A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Articles & mutating contexts",
+     "module": "G02",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Vigesimal numerals",
+     "module": "G11",
+     "level": "A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Dialect awareness (Léon, Trégor, Cornouaille, Vannetais)",
+     "module": "G01",
+     "level": "B1",
+     "source": "Gen",
+     "note": ""
+    }
+   ]
+  },
+  "hy": {
+   "name": "Armenian",
+   "profile": "Own alphabet; Eastern vs Western standards; no grammatical gender; rich cases",
+   "features": [
+    {
+     "feature": "Alphabet & reading",
+     "module": "G01",
+     "level": "A0",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Choice of Eastern or Western Armenian",
+     "module": "G01",
+     "level": "A0",
+     "source": "Gen",
+     "note": "Course-design decision"
+    },
+    {
+     "feature": "Case system & definiteness",
+     "module": "G02",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Verb auxiliaries, tenses",
+     "module": "G05",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Converbs & participles",
+     "module": "G05",
+     "level": "B1–B2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Evidential/inferential forms",
+     "module": "G18",
+     "level": "B1",
+     "source": "Gen",
+     "note": ""
+    }
+   ]
+  },
+  "ka": {
+   "name": "Georgian",
+   "profile": "Kartvelian; own script (Mkhedruli), screeves, polypersonal agreement, no gender",
+   "features": [
+    {
+     "feature": "Mkhedruli script & phonology (ejectives)",
+     "module": "G01",
+     "level": "A0",
+     "source": "Web",
+     "note": "CoE RLD A1–B2 exists"
+    },
+    {
+     "feature": "Postpositions & case suffixes",
+     "module": "G10",
+     "level": "A1–A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Present, aorist & basic screeves",
+     "module": "G19",
+     "level": "A2",
+     "source": "Web",
+     "note": ""
+    },
+    {
+     "feature": "Preverbs, more screeves, case alternation",
+     "module": "G19",
+     "level": "B1–B2",
+     "source": "Web",
+     "note": ""
+    },
+    {
+     "feature": "Subject/object agreement",
+     "module": "G19",
+     "level": "A2",
+     "source": "Gen",
+     "note": ""
+    },
+    {
+     "feature": "Politeness & address",
+     "module": "G14",
+     "level": "A1",
+     "source": "Gen",
+     "note": ""
+    }
+   ]
+  }
+ },
+ "language_profile_schema": [
+  {
+   "field": "script",
+   "meaning": "script name(s), direction, orthographic depth, extra letters"
+  },
+  {
+   "field": "standards",
+   "meaning": "standard varieties to teach (e.g. Eastern/Western Armenian; European/Brazilian Portuguese)"
+  },
+  {
+   "field": "gender",
+   "meaning": "none / 2 / 3 / noun classes"
+  },
+  {
+   "field": "case_count",
+   "meaning": "number of cases or 'none'"
+  },
+  {
+   "field": "morphology",
+   "meaning": "isolating / fusional / agglutinative / polysynthetic / templatic"
+  },
+  {
+   "field": "verb_system",
+   "meaning": "aspect-prominent / tense-prominent / evidential / polypersonal"
+  },
+  {
+   "field": "word_order",
+   "meaning": "SVO / SOV / VSO / free + notes"
+  },
+  {
+   "field": "phonology_flags",
+   "meaning": "tone, vowel harmony, mutations, pharyngeals, ejectives"
+  },
+  {
+   "field": "politeness",
+   "meaning": "T–V, honorific levels, none"
+  },
+  {
+   "field": "reference_docs",
+   "meaning": "CoE RLD, national standards, textbook syllabi"
+  },
+  {
+   "field": "exams",
+   "meaning": "exam name, level range, validity, issuer, verified_date"
+  },
+  {
+   "field": "optional_modules",
+   "meaning": "list of G15–G20 modules to enable"
+  },
+  {
+   "field": "overrides",
+   "meaning": "list of {subtheme_id, level_shift (+/-), note}"
+  }
+ ]
+}
