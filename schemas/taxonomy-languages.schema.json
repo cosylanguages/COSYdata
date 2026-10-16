@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/taxonomy-languages.schema.json",
+  "title": "COSYdata Languages Profile Taxonomy Schema",
+  "type": "object",
+  "required": ["language_profile_schema", "languages"],
+  "properties": {
+    "language_profile_schema": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["field", "meaning"],
+        "properties": {
+          "field": { "type": "string" },
+          "meaning": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "languages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "name",
+          "profile",
+          "source",
+          "status",
+          "script",
+          "standards",
+          "gender",
+          "case_count",
+          "morphology",
+          "verb_system",
+          "word_order",
+          "phonology_flags",
+          "politeness",
+          "reference_docs",
+          "exams",
+          "optional_modules",
+          "overrides",
+          "features"
+        ],
+        "properties": {
+          "name": { "type": "string" },
+          "profile": { "type": "string" },
+          "source": { "type": "string", "enum": ["Src", "Web", "Gen"] },
+          "status": { "type": "string", "enum": ["verified", "unverified"] },
+          "script": { "type": "string" },
+          "standards": { "type": "string" },
+          "gender": { "type": "string" },
+          "case_count": { "type": "string" },
+          "morphology": { "type": "string" },
+          "verb_system": { "type": "string" },
+          "word_order": { "type": "string" },
+          "phonology_flags": { "type": "string" },
+          "politeness": { "type": "string" },
+          "reference_docs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "exams": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "level_range"],
+              "properties": {
+                "name": { "type": "string" },
+                "level_range": { "type": "string" },
+                "validity": { "type": "string" },
+                "issuer": { "type": "string" },
+                "verified_date": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "optional_modules": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "overrides": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["subtheme_id", "level_shift", "note"],
+              "properties": {
+                "subtheme_id": { "type": "string" },
+                "level_shift": { "type": "string" },
+                "note": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["feature", "module", "level", "source"],
+              "properties": {
+                "feature": { "type": "string" },
+                "module": { "type": "string" },
+                "level": { "type": "string" },
+                "source": { "type": "string" },
+                "status": { "type": "string" },
+                "note": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

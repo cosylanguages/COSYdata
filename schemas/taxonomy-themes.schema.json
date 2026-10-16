@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/taxonomy-themes.schema.json",
+  "title": "COSYdata Unified Themes Taxonomy Schema",
+  "type": "object",
+  "required": ["meta", "domains"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["version", "note"],
+      "properties": {
+        "version": { "type": "string" },
+        "note": { "type": "string" },
+        "levels": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "level_labels": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "domains": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["title", "themes"],
+        "properties": {
+          "title": { "type": "string" },
+          "themes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "name", "subthemes"],
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "subthemes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "name", "level_min", "level_max"],
+                    "properties": {
+                      "id": { "type": "string" },
+                      "name": { "type": "string" },
+                      "level_min": {
+                        "type": "string",
+                        "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+                      },
+                      "level_max": {
+                        "type": "string",
+                        "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+                      },
+                      "note": { "type": "string" }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "course_formats": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "level_rules": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "repo_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["domain", "repo", "structure"],
+        "properties": {
+          "domain": { "type": "string" },
+          "repo": { "type": "string" },
+          "structure": { "type": "string" },
+          "also": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "events_map": {
+      "type": "object",
+      "required": ["status", "sessions"],
+      "properties": {
+        "status": { "type": "string", "enum": ["draft", "deprecated", "active"] },
+        "sessions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["event", "themes"],
+            "properties": {
+              "event": { "type": "string" },
+              "themes": { "type": "string" },
+              "basis": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

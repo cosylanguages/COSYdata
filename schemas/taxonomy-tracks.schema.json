@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/taxonomy-tracks.schema.json",
+  "title": "COSYdata Course Tracks Taxonomy Schema",
+  "type": "object",
+  "required": ["core_tracks", "extra_tracks", "aliases"],
+  "properties": {
+    "core_tracks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/track" }
+    },
+    "extra_tracks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/track" }
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "track": {
+      "type": "object",
+      "required": ["id", "name", "scope", "owning_repo", "availability"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "scope": { "type": "string" },
+        "owning_repo": { "type": "string" },
+        "availability": {
+          "type": "object",
+          "required": ["allowed_levels"],
+          "properties": {
+            "allowed_levels": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "restricted_levels": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "note": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

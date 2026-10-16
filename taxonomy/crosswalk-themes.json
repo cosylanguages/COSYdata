@@ -1,0 +1,921 @@
+{
+  "legacy_schema_mappings": {
+    "actions": {
+      "targets": [
+        "V01",
+        "LT01.02",
+        "G05",
+        "G06"
+      ],
+      "confidence": "exact",
+      "note": "Physical actions, daily verbs, verb forms"
+    },
+    "activities": {
+      "targets": [
+        "V08",
+        "V10",
+        "SIT02"
+      ],
+      "confidence": "exact",
+      "note": "Leisure, sports, hobbies, free time activities"
+    },
+    "animals": {
+      "targets": [
+        "V11.02"
+      ],
+      "confidence": "exact",
+      "note": "Animals and plants"
+    },
+    "arts": {
+      "targets": [
+        "V17.01",
+        "V17.02",
+        "V17.03"
+      ],
+      "confidence": "exact",
+      "note": "Arts, literature, music, performance"
+    },
+    "body": {
+      "targets": [
+        "V14.01"
+      ],
+      "confidence": "exact",
+      "note": "Body parts and physical anatomy"
+    },
+    "business": {
+      "targets": [
+        "V05.04",
+        "V05.05",
+        "SIT04.03"
+      ],
+      "confidence": "exact",
+      "note": "Workplace, business operations, trade"
+    },
+    "clothing": {
+      "targets": [
+        "V07.02",
+        "SIT03.02"
+      ],
+      "confidence": "exact",
+      "note": "Clothes, footwear, accessories"
+    },
+    "colors": {
+      "targets": [
+        "V07.03",
+        "V01.03",
+        "LT01.03"
+      ],
+      "confidence": "exact",
+      "note": "Colors, appearance descriptors"
+    },
+    "communication": {
+      "targets": [
+        "V15.01",
+        "S01",
+        "S02",
+        "W02"
+      ],
+      "confidence": "exact",
+      "note": "Communication, social interaction, messages"
+    },
+    "crime": {
+      "targets": [
+        "V18.04",
+        "SIT10"
+      ],
+      "confidence": "exact",
+      "note": "Crime, law enforcement, justice"
+    },
+    "descriptors": {
+      "targets": [
+        "LT01.03",
+        "LT01.04",
+        "G04"
+      ],
+      "confidence": "exact",
+      "note": "Adjectives, adverbs, modifiers"
+    },
+    "education": {
+      "targets": [
+        "V04",
+        "SIT05"
+      ],
+      "confidence": "exact",
+      "note": "School, university, learning, studies"
+    },
+    "emotions": {
+      "targets": [
+        "V01.06",
+        "S03.03"
+      ],
+      "confidence": "exact",
+      "note": "Feelings, emotions, psychological states"
+    },
+    "environment": {
+      "targets": [
+        "V11.05",
+        "V11.06",
+        "V12.04"
+      ],
+      "confidence": "exact",
+      "note": "Environment, ecology, sustainability"
+    },
+    "family": {
+      "targets": [
+        "V02.01",
+        "V02.02"
+      ],
+      "confidence": "exact",
+      "note": "Family members, relatives, household relationships"
+    },
+    "food": {
+      "targets": [
+        "V06.01",
+        "V06.02",
+        "SIT02.01"
+      ],
+      "confidence": "exact",
+      "note": "Food, drink, meals, cooking"
+    },
+    "general": {
+      "targets": [
+        "LT01",
+        "V24"
+      ],
+      "confidence": "partial",
+      "note": "General core vocabulary and basic functional words"
+    },
+    "geography": {
+      "targets": [
+        "V11.03",
+        "V12.01"
+      ],
+      "confidence": "exact",
+      "note": "Landscapes, geography, regions, countries"
+    },
+    "grammar": {
+      "targets": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14"
+      ],
+      "confidence": "exact",
+      "note": "Grammatical structures and functional forms"
+    },
+    "health": {
+      "targets": [
+        "V14.02",
+        "V14.03",
+        "V14.04",
+        "SIT08"
+      ],
+      "confidence": "exact",
+      "note": "Health, illness, medical care, pharmacy"
+    },
+    "housing": {
+      "targets": [
+        "V03.01",
+        "V03.02",
+        "SIT06.01"
+      ],
+      "confidence": "exact",
+      "note": "Home, rooms, furniture, chores"
+    },
+    "internet": {
+      "targets": [
+        "V15.02",
+        "V15.03"
+      ],
+      "confidence": "exact",
+      "note": "Digital media, internet, social networks"
+    },
+    "law": {
+      "targets": [
+        "V18.04",
+        "V18.05"
+      ],
+      "confidence": "exact",
+      "note": "Legal systems, laws, rights, justice"
+    },
+    "leisure": {
+      "targets": [
+        "V08.01",
+        "V08.02",
+        "SIT02.02"
+      ],
+      "confidence": "exact",
+      "note": "Hobbies, games, entertainment, free time"
+    },
+    "measurement": {
+      "targets": [
+        "G11.04",
+        "V07.03",
+        "LT01.08"
+      ],
+      "confidence": "exact",
+      "note": "Quantities, measurements, weights, sizes"
+    },
+    "media": {
+      "targets": [
+        "V15.04",
+        "V17.04",
+        "R01.04"
+      ],
+      "confidence": "exact",
+      "note": "News, journalism, broadcasting, media"
+    },
+    "money": {
+      "targets": [
+        "V07.03",
+        "V09.01",
+        "SIT03.04"
+      ],
+      "confidence": "exact",
+      "note": "Currency, prices, banking, financial transactions"
+    },
+    "nature": {
+      "targets": [
+        "V11.01",
+        "V11.02",
+        "V11.03"
+      ],
+      "confidence": "exact",
+      "note": "Nature, plants, animals, natural features"
+    },
+    "navigation": {
+      "targets": [
+        "V10.02",
+        "SIT07.02"
+      ],
+      "confidence": "exact",
+      "note": "Directions, maps, spatial orientation"
+    },
+    "numbers": {
+      "targets": [
+        "G11.01",
+        "G11.02",
+        "LT01.08"
+      ],
+      "confidence": "exact",
+      "note": "Cardinal and ordinal numbers, counting"
+    },
+    "objects": {
+      "targets": [
+        "V03.02",
+        "V07.01",
+        "LT01.01"
+      ],
+      "confidence": "exact",
+      "note": "Everyday objects, items, tools"
+    },
+    "personality": {
+      "targets": [
+        "V01.05"
+      ],
+      "confidence": "exact",
+      "note": "Personality traits, character, disposition"
+    },
+    "philosophy": {
+      "targets": [
+        "V20.01",
+        "V20.02",
+        "V20.03"
+      ],
+      "confidence": "exact",
+      "note": "Philosophy, ethics, logic, epistemology"
+    },
+    "politics": {
+      "targets": [
+        "V18.01",
+        "V18.02"
+      ],
+      "confidence": "exact",
+      "note": "Government, politics, elections, state affairs"
+    },
+    "religion": {
+      "targets": [
+        "V21.01",
+        "V21.02",
+        "C05.02"
+      ],
+      "confidence": "exact",
+      "note": "Religion, faith, spirituality, beliefs"
+    },
+    "science": {
+      "targets": [
+        "V19.01",
+        "V19.02",
+        "V19.03"
+      ],
+      "confidence": "exact",
+      "note": "Science, research, technology, innovation"
+    },
+    "shapes": {
+      "targets": [
+        "V01.03",
+        "G11.04"
+      ],
+      "confidence": "partial",
+      "note": "Geometric shapes, visual forms"
+    },
+    "shopping": {
+      "targets": [
+        "V07.01",
+        "V07.03",
+        "SIT03"
+      ],
+      "confidence": "exact",
+      "note": "Shops, purchases, prices, retail"
+    },
+    "society": {
+      "targets": [
+        "V18.01",
+        "V18.03",
+        "C02"
+      ],
+      "confidence": "exact",
+      "note": "Society, community, social issues, citizenship"
+    },
+    "sports": {
+      "targets": [
+        "V08.03",
+        "V08.04"
+      ],
+      "confidence": "exact",
+      "note": "Sports, fitness, exercise, athletics"
+    },
+    "technology": {
+      "targets": [
+        "V15.02",
+        "V19.02"
+      ],
+      "confidence": "exact",
+      "note": "Devices, IT, computers, digital technology"
+    },
+    "time": {
+      "targets": [
+        "G11.03",
+        "V10.01",
+        "V11.01"
+      ],
+      "confidence": "exact",
+      "note": "Time, dates, calendar, duration, frequency"
+    },
+    "transport": {
+      "targets": [
+        "V10.03",
+        "V10.04",
+        "SIT07.01"
+      ],
+      "confidence": "exact",
+      "note": "Vehicles, public transport, travel infrastructure"
+    },
+    "travel": {
+      "targets": [
+        "V10.01",
+        "V10.05",
+        "SIT07"
+      ],
+      "confidence": "exact",
+      "note": "Travel, tourism, accommodation, transit"
+    },
+    "weather": {
+      "targets": [
+        "V11.01"
+      ],
+      "confidence": "exact",
+      "note": "Weather, climate, temperature, seasons"
+    },
+    "work": {
+      "targets": [
+        "V05.01",
+        "V05.02",
+        "V05.03",
+        "SIT04"
+      ],
+      "confidence": "exact",
+      "note": "Occupations, career, workplace, employment"
+    }
+  },
+  "unmapped_vocab_file_themes": [
+    {
+      "theme_key": "B1_idioms_candidates",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "abstract_concepts",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "abstract_nouns",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "academic_english",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "academic_vocabulary",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "adjectives",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "advanced-register-c1",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "advanced_verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "adverbs_connectors",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "appearance",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "art-culture",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "auxiliary_verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "bathroom",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "bedroom",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "body_health",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "calendar",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "cause_effect",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "classroom_phrases",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "clothes",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "collocations",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "common_nouns",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "comparisons",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "conflict",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "consumer_items",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "cooking",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "cultural_identity_belonging",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "culture",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "daily_verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "describing",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "descriptions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "dining_room",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "directions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "discourse-argument",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "dishes",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "duration-expressions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "economy",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "epistemology-truth",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "ethics",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "exam-tracks",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "expressions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "feelings",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "financial_specialization",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "flat-index",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "food-drink",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "food_drink",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "food_health",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "general_adjectives",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "giving-opinions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "global_issues",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "greetings",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "health-medicine",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "health/fitness_hygiene",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "homes",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "housing/chores",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "identity",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "idioms",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "index",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "innovation",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "it_specialists",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "items-of-clothing",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "jobs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "kitchen",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "knowledge-epistemology-c1",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "language",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "law/legal_system",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "legal_english",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "legal_specialization",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "leisure-activities",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "lifestyle",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "linguistics-theory",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "linking_words",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "literary_devices",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "living_room",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "medical_specialization",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "migration",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "modes-of-transport",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "money/finance",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "money_shopping",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "moral-philosophy",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "music",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "nationalities",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "nuanced_verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "office",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "ontology-existence",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "opinions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "organisational-culture",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "outdoor_garden",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "people",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "persuasion-rhetoric",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "phrasal_verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "places",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "places_transport",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "plants-natural-world",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "power-institutions-c1",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "prepositions",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "professional-tracks",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "pronouns",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "properties",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "psychoanalysis-unconscious",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "psychology",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "quantity",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "rare_adjectives",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "rare_verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "recreation",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "register",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "relationships",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "rhetoric",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "rooms",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "school",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "science-tech-society-c1",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "shapes_materials",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "social",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "sociology-structures-c1",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "sophisticated_adjectives",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "space",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "sports_hobbies",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "statistics",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "surprise-interest",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "synonyms",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "teachers_scientists",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "themes-index",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "tourism",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "toys-games",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "utility_laundry",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "verbs",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "verbs_cognition",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    },
+    {
+      "theme_key": "word_building",
+      "note": "Theme string present in live vocabulary datasets or theme filenames that is not a top-level key in schemas/themes.json"
+    }
+  ]
+}

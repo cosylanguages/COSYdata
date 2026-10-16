@@ -1,0 +1,115 @@
+{
+  "core_tracks": [
+    {
+      "id": "general",
+      "name": "General",
+      "scope": "Standard CEFR course vocabulary and skills, A0–C2",
+      "owning_repo": "COSYdata",
+      "availability": {
+        "allowed_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYlanguages README / COSYdata domain"
+    },
+    {
+      "id": "spoken",
+      "name": "Spoken",
+      "scope": "Conversation-focused course, A0–C2",
+      "owning_repo": "COSYplatform",
+      "availability": {
+        "allowed_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYlanguages README / COSYdata domain"
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "scope": "Work and business contexts; restricted from A0–A1 vocabulary",
+      "owning_repo": "COSYplatform",
+      "availability": {
+        "allowed_levels": ["A2", "B1", "B2", "C1", "C2"],
+        "restricted_levels": ["A0", "A1"],
+        "note": "Not used for A0–A1 vocabulary in COSYdata policy"
+      },
+      "source": "COSYlanguages README; COSYdata policy"
+    },
+    {
+      "id": "travelling",
+      "name": "Travelling",
+      "scope": "Practical travel language; allowed at A0–A1",
+      "owning_repo": "COSYplatform",
+      "availability": {
+        "allowed_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYlanguages README; COSYdata policy"
+    },
+    {
+      "id": "relocation",
+      "name": "Relocation",
+      "scope": "Moving abroad, residency, civic life; restricted from A0–A1 vocabulary",
+      "owning_repo": "COSYplatform",
+      "availability": {
+        "allowed_levels": ["A2", "B1", "B2", "C1", "C2"],
+        "restricted_levels": ["A0", "A1"],
+        "note": "Not used for A0–A1 vocabulary in COSYdata policy"
+      },
+      "source": "COSYlanguages README; COSYdata policy"
+    },
+    {
+      "id": "exam",
+      "name": "Exam Prep",
+      "scope": "Preparation for certification exams; restricted from A0–A1 vocabulary",
+      "owning_repo": "COSYplatform",
+      "availability": {
+        "allowed_levels": ["A2", "B1", "B2", "C1", "C2"],
+        "restricted_levels": ["A0", "A1"],
+        "note": "Not used for A0–A1 vocabulary in COSYdata policy"
+      },
+      "source": "COSYlanguages README; COSYdata policy"
+    }
+  ],
+  "extra_tracks": [
+    {
+      "id": "cinema",
+      "name": "Cinema Club",
+      "scope": "Film, media, narrative, and discussion-focused practice",
+      "owning_repo": "COSYevents",
+      "availability": {
+        "allowed_levels": ["A2", "B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYevents sessions"
+    },
+    {
+      "id": "karaoke",
+      "name": "Karaoke Club",
+      "scope": "Lyrics, rhythm, phonology, and casual music practice",
+      "owning_repo": "COSYevents",
+      "availability": {
+        "allowed_levels": ["A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYevents sessions"
+    },
+    {
+      "id": "discussion",
+      "name": "Debatable & Relatable",
+      "scope": "Debate, argumentation, and opinion exchange",
+      "owning_repo": "COSYevents",
+      "availability": {
+        "allowed_levels": ["B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYevents sessions"
+    },
+    {
+      "id": "pronunciation",
+      "name": "Pronunciation & Phonology Practice",
+      "scope": "Drills and accent/phonology practice",
+      "owning_repo": "COSYgames",
+      "availability": {
+        "allowed_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "source": "COSYtools / COSYgames"
+    }
+  ],
+  "aliases": {
+    "travel": "travelling"
+  }
+}
