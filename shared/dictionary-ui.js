@@ -283,7 +283,9 @@ export async function initDictionaryUI(container, options = {}) {
     value: null,
     searchQuery: '',
     visibleCount: PAGE_SIZE,
-    expandedEntryId: null
+    expandedEntryId: null,
+    filterLevel: 'ALL',
+    filterForm: 'ALL'
   };
 
   // Cache resolved full entries so we don't refetch
@@ -340,19 +342,109 @@ export async function initDictionaryUI(container, options = {}) {
   searchHeroSection.innerHTML = `
     <div class="cosy-dict-search-box">
       <span class="cosy-dict-search-icon" aria-hidden="true">🔍</span>
-      <input type="text" class="cosy-dict-search-input" id="cosy-hero-search-input" placeholder="Search ${entries.length.toLocaleString()} ${langObj.name} words..." aria-label="Search words" autofocus />
+      <input type="text" class="cosy-dict-search-input" id="cosy-hero-search-input" placeholder="Search ${entries.length.toLocaleString()} ${langObj.name} words..." aria-label="Search words" autofocus autocomplete="off" />
       <button type="button" class="cosy-dict-search-clear-btn" aria-label="Clear search" style="display: none;">×</button>
+      <div class="cosy-dict-autocomplete" id="cosy-autocomplete-list" style="display: none;" role="listbox"></div>
     </div>
   `;
 
   const searchInput = searchHeroSection.querySelector('#cosy-hero-search-input');
   const clearSearchBtn = searchHeroSection.querySelector('.cosy-dict-search-clear-btn');
+  const autocompleteList = searchHeroSection.querySelector('#cosy-autocomplete-list');
+
+  let selectedAutocompleteIndex = -1;
+
+  function renderAutocompleteSuggestions(query) {
+    if (!query || query.length < 2) {
+      autocompleteList.style.display = 'none';
+      autocompleteList.innerHTML = '';
+      selectedAutocompleteIndex = -1;
+      return;
+    }
+
+    const norm = normalizeText(query);
+    const matches = entries
+      .filter((e) => e && e.word && normalizeText(e.word).includes(norm))
+      .slice(0, 6);
+
+    if (matches.length === 0) {
+      autocompleteList.style.display = 'none';
+      autocompleteList.innerHTML = '';
+      selectedAutocompleteIndex = -1;
+      return;
+    }
+
+    autocompleteList.innerHTML = matches
+      .map(
+        (m, idx) => `
+        <div class="cosy-dict-autocomplete-item" data-autocomplete-idx="${idx}" data-entry-id="${m.id}" role="option">
+          <div class="cosy-dict-autocomplete-left">
+            ${m.emoji ? `<span style="font-size: 16px;">${m.emoji}</span>` : ''}
+            <span class="cosy-dict-autocomplete-word">${escapeHtml(m.word)}</span>
+          </div>
+          <div class="cosy-dict-autocomplete-badges">
+            ${m.form ? `<span class="cosy-dict-badge cosy-dict-badge-form">${escapeHtml(m.form)}</span>` : ''}
+            ${m.level ? `<span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${m.level.toLowerCase()}">${escapeHtml(m.level)}</span>` : ''}
+          </div>
+        </div>
+      `
+      )
+      .join('');
+
+    autocompleteList.style.display = 'block';
+    selectedAutocompleteIndex = -1;
+
+    autocompleteList.querySelectorAll('.cosy-dict-autocomplete-item').forEach((item) => {
+      item.addEventListener('click', () => {
+        const entryId = item.getAttribute('data-entry-id');
+        const selectedEntry = entryMap.get(entryId);
+        if (selectedEntry) {
+          clearTimeout(searchDebounceTimer);
+          searchInput.value = selectedEntry.word;
+          activeState.mode = 'search';
+          activeState.searchQuery = selectedEntry.word;
+          activeState.expandedEntryId = selectedEntry.id;
+          autocompleteList.style.display = 'none';
+          renderApp();
+        }
+      });
+    });
+  }
+
+  // Keyboard navigation for autocomplete
+  searchInput.addEventListener('keydown', (e) => {
+    const items = autocompleteList.querySelectorAll('.cosy-dict-autocomplete-item');
+    if (autocompleteList.style.display === 'block' && items.length > 0) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedAutocompleteIndex = (selectedAutocompleteIndex + 1) % items.length;
+        items.forEach((it, idx) => it.classList.toggle('is-selected', idx === selectedAutocompleteIndex));
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedAutocompleteIndex = (selectedAutocompleteIndex - 1 + items.length) % items.length;
+        items.forEach((it, idx) => it.classList.toggle('is-selected', idx === selectedAutocompleteIndex));
+      } else if (e.key === 'Enter' && selectedAutocompleteIndex >= 0) {
+        e.preventDefault();
+        items[selectedAutocompleteIndex].click();
+      } else if (e.key === 'Escape') {
+        autocompleteList.style.display = 'none';
+      }
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!searchHeroSection.contains(e.target)) {
+      autocompleteList.style.display = 'none';
+    }
+  });
 
   // Debounce search input
   let searchDebounceTimer = null;
   searchInput.addEventListener('input', (e) => {
     const query = e.target.value.trim();
     clearSearchBtn.style.display = query ? 'block' : 'none';
+
+    renderAutocompleteSuggestions(query);
 
     clearTimeout(searchDebounceTimer);
     searchDebounceTimer = setTimeout(() => {
@@ -696,6 +788,14 @@ export async function initDictionaryUI(container, options = {}) {
       filtered = recents.map((id) => entryMap.get(id)).filter(Boolean);
     }
 
+    // Multi-Facet Filter Application
+    if (activeState.filterLevel !== 'ALL') {
+      filtered = filtered.filter((e) => e && e.level === activeState.filterLevel);
+    }
+    if (activeState.filterForm !== 'ALL') {
+      filtered = filtered.filter((e) => e && e.form === activeState.filterForm);
+    }
+
     // Results Header Bar with Back Button
     const headerBar = document.createElement('div');
     headerBar.className = 'cosy-dict-results-header';
@@ -711,12 +811,83 @@ export async function initDictionaryUI(container, options = {}) {
       activeState.searchQuery = '';
       activeState.visibleCount = PAGE_SIZE;
       activeState.expandedEntryId = null;
+      activeState.filterLevel = 'ALL';
+      activeState.filterForm = 'ALL';
       searchInput.value = '';
       clearSearchBtn.style.display = 'none';
       renderApp();
     });
 
     mainEl.appendChild(headerBar);
+
+    // Multi-Facet Filter Toolbar Controls
+    const filterToolbar = document.createElement('div');
+    filterToolbar.className = 'cosy-dict-filter-toolbar';
+    filterToolbar.innerHTML = `
+      <span class="cosy-dict-filter-label">Filter Results:</span>
+      <select class="cosy-dict-filter-select" id="cosy-filter-level-select" aria-label="Filter by CEFR Level">
+        <option value="ALL" ${activeState.filterLevel === 'ALL' ? 'selected' : ''}>All CEFR Levels</option>
+        ${ALL_CEFR_LEVELS.map((lvl) => `<option value="${lvl}" ${activeState.filterLevel === lvl ? 'selected' : ''}>Level ${lvl}</option>`).join('')}
+      </select>
+      <select class="cosy-dict-filter-select" id="cosy-filter-form-select" aria-label="Filter by Part of Speech">
+        <option value="ALL" ${activeState.filterForm === 'ALL' ? 'selected' : ''}>All Parts of Speech</option>
+        <option value="noun" ${activeState.filterForm === 'noun' ? 'selected' : ''}>Nouns</option>
+        <option value="verb" ${activeState.filterForm === 'verb' ? 'selected' : ''}>Verbs</option>
+        <option value="adjective" ${activeState.filterForm === 'adjective' ? 'selected' : ''}>Adjectives</option>
+        <option value="adverb" ${activeState.filterForm === 'adverb' ? 'selected' : ''}>Adverbs</option>
+        <option value="phrase" ${activeState.filterForm === 'phrase' ? 'selected' : ''}>Phrases</option>
+        <option value="idiom" ${activeState.filterForm === 'idiom' ? 'selected' : ''}>Idioms</option>
+      </select>
+    `;
+
+    filterToolbar.querySelector('#cosy-filter-level-select').addEventListener('change', (e) => {
+      activeState.filterLevel = e.target.value;
+      activeState.visibleCount = PAGE_SIZE;
+      renderApp();
+    });
+
+    filterToolbar.querySelector('#cosy-filter-form-select').addEventListener('change', (e) => {
+      activeState.filterForm = e.target.value;
+      activeState.visibleCount = PAGE_SIZE;
+      renderApp();
+    });
+
+    // Add Export Favorites button if viewing Favorites
+    if (activeState.mode === 'favorites' && favorites.size > 0) {
+      const exportBtn = document.createElement('button');
+      exportBtn.type = 'button';
+      exportBtn.className = 'cosy-dict-export-btn';
+      exportBtn.innerHTML = '📥 Export My List (CSV)';
+      exportBtn.addEventListener('click', () => {
+        const favEntries = Array.from(favorites).map((id) => entryMap.get(id)).filter(Boolean);
+        if (favEntries.length === 0) return;
+
+        let csvLines = ['ID,Headword,Form,Level,Theme'];
+        for (const entry of favEntries) {
+          const row = [
+            `"${entry.id || ''}"`,
+            `"${(entry.word || '').replace(/"/g, '""')}"`,
+            `"${(entry.form || '').replace(/"/g, '""')}"`,
+            `"${(entry.level || '').replace(/"/g, '""')}"`,
+            `"${(entry.theme || '').replace(/"/g, '""')}"`
+          ].join(',');
+          csvLines.push(row);
+        }
+
+        const blob = new Blob([csvLines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.setAttribute('href', url);
+        link.setAttribute('download', `cosydata_favorites_${lang}.csv`);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+      });
+      filterToolbar.appendChild(exportBtn);
+    }
+
+    mainEl.appendChild(filterToolbar);
 
     if (filtered.length === 0) {
       const emptyEl = document.createElement('div');
@@ -958,6 +1129,24 @@ export async function initDictionaryUI(container, options = {}) {
 
         detailsBox.innerHTML = html;
 
+        // Speech locale mapping table for 14 ISO languages
+        const speechLocales = {
+          en: 'en-US',
+          fr: 'fr-FR',
+          it: 'it-IT',
+          de: 'de-DE',
+          ru: 'ru-RU',
+          el: 'el-GR',
+          es: 'es-ES',
+          pt: 'pt-PT',
+          hy: 'hy-AM',
+          ka: 'ka-GE',
+          br: 'fr-FR',
+          cv: 'ru-RU',
+          ba: 'ru-RU',
+          tt: 'ru-RU'
+        };
+
         // Audio Handler
         const audioBtn = detailsBox.querySelector('.cosy-dict-audio-btn');
         if (audioBtn) {
@@ -970,7 +1159,7 @@ export async function initDictionaryUI(container, options = {}) {
             } else if (speechText && typeof window !== 'undefined' && 'speechSynthesis' in window) {
               window.speechSynthesis.cancel();
               const u = new SpeechSynthesisUtterance(speechText);
-              u.lang = lang;
+              u.lang = speechLocales[lang] || lang;
               window.speechSynthesis.speak(u);
             }
           });
