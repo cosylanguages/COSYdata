@@ -30,7 +30,7 @@ Out of 39 evaluated core concepts:
 | **Bashkir** | `ba` | 533 | 39 / 39 | 100% | Infinitives in *-ыу/-еү* & compound phrases (*яуап биреү*) |
 | **Breton** | `br` | 556 | 39 / 39 | 100% | Infinitives in *-añ/-iñ* & nominal verb phrases (*ezhomm kaout*) |
 | **Chuvash** | `cv` | 600 | 39 / 39 | 100% | Infinitives in *-ма/-ме* & postpositional constructions |
-| **Georgian** | `ka` | 558 | 39 / 39 | 100% | Masdar verbal nouns (*ყოფნა*, *ჭამა*, *სმა*) |
+| **Georgian** | `ka` | 557 | 39 / 39 | 100% | Masdar verbal nouns (*ყოფნა*, *ჭამა*, *სმა*, *მოწონება*, *ლაპარაკი*) |
 
 ---
 
@@ -136,7 +136,7 @@ The table below presents the exact word / entry ID found for each of the 39 conc
 | **French (fr)** | ✅ Present | `fr:aimer:verb` | **aimer** | `verb` | `vocabulary/fr/a0_a1/daily_verbs.json` |
 | **Armenian (hy)** | ✅ Present | `hy:havanel:verb` | **հավանել** | `verb` | `vocabulary/hy/a0_a1/daily_verbs.json` |
 | **Italian (it)** | ✅ Present | `it:piacere:verb` | **piacere** | `verb` | `vocabulary/it/a0_a1/daily_verbs.json` |
-| **Georgian (ka)** | ❌ Missing | - | - | - | - |
+| **Georgian (ka)** | ✅ Present | `ka:motsoneba:verb` | **მოწონება** | `verb` | `vocabulary/ka/a0_a1/daily_verbs.json` |
 | **Portuguese (pt)** | ✅ Present | `pt:gostar:verb` | **gostar** | `verb` | `vocabulary/pt/a0_a1/daily_verbs.json` |
 | **Russian (ru)** | ✅ Present | `ru:nravitsya:verb` | **нравиться** | `verb` | `vocabulary/ru/a0_a1/daily_verbs.json` |
 | **Tatar (tt)** | ✅ Present | `tt:oshatu:verb` | **ошату** | `verb` | `vocabulary/tt/a0_a1/daily_verbs.json` |
@@ -147,8 +147,8 @@ The table below presents the exact word / entry ID found for each of the 39 conc
 
 | Language | Status | Entry ID | Word / Expression | Form | File Path |
 | :--- | :---: | :--- | :--- | :---: | :--- |
-| **Bashkir (ba)** | ✅ Present | `ba:by-shyk-yaratyu:verb` | **ныҡ яратыу** | `verb` | `vocabulary/ba/a0_a1/daily_verbs.json` |
-| **Breton (br)** | ✅ Present | `br:aodin-1:verb` | **aodiñ** | `verb` | `vocabulary/br/a0_a1/daily_verbs.json` |
+| **Bashkir (ba)** | ✅ Present | `ba:nyq-yaratyu:verb` | **ныҡ яратыу** | `verb` | `vocabulary/ba/a0_a1/daily_verbs.json` |
+| **Breton (br)** | ✅ Present | `br:adorin-1:verb` | **adoriñ** | `verb` | `vocabulary/br/a0_a1/daily_verbs.json` |
 | **Chuvash (cv)** | ✅ Present | `cv:makhtanash:verb` | **махтанаш** | `verb` | `vocabulary/cv/a0_a1/daily_verbs.json` |
 | **German (de)** | ✅ Present | `de:anbeten:verb` | **anbeten** | `verb` | `vocabulary/de/a0_a1/daily_verbs.json` |
 | **Greek (el)** | ✅ Present | `el:latreyo:verb` | **λατρεύω** | `verb` | `vocabulary/el/a0_a1/verbs.json` |
@@ -211,9 +211,9 @@ The table below presents the exact word / entry ID found for each of the 39 conc
 | Language | Status | Entry ID | Word / Expression | Form | File Path |
 | :--- | :---: | :--- | :--- | :---: | :--- |
 | **Bashkir (ba)** | ✅ Present | `ba:yaratmau:verb` | **яратмау** | `verb` | `vocabulary/ba/a0_a1/daily_verbs.json` |
-| **Breton (br)** | ✅ Present | `br:diasantout-1:verb` | **diasantout** | `verb` | `vocabulary/br/a0_a1/daily_verbs.json` |
+| **Breton (br)** | ✅ Present | `br:chom-hep-plijout-1:phrase` | **chom hep plijout** | `phrase` | `vocabulary/br/a0_a1/daily_verbs.json` |
 | **Chuvash (cv)** | ✅ Present | `cv:kileshterme:verb` | **килĕштерме** | `verb` | `vocabulary/cv/a0_a1/daily_verbs.json` |
-| **German (de)** | ✅ Present | `de:misfallen:verb` | **misfallen** | `verb` | `vocabulary/de/a0_a1/daily_verbs.json` |
+| **German (de)** | ✅ Present | `de:missfallen:verb` | **missfallen** | `verb` | `vocabulary/de/a0_a1/daily_verbs.json` |
 | **Greek (el)** | ✅ Present | `el:den-m-aresei:phrase` | **δεν μ' αρέσει** | `phrase` | `vocabulary/el/a0_a1/verbs.json` |
 | **English (en)** | ✅ Present | `en:dislike:verb` | **dislike** | `verb` | `vocabulary/en/a2/emotions.json` |
 | **Spanish (es)** | ✅ Present | `es:disgustar:verb` | **disgustar** | `verb` | `vocabulary/es/a0_a1/verbs.json` |
@@ -514,7 +514,7 @@ The table below presents the exact word / entry ID found for each of the 39 conc
 | **French (fr)** | ✅ Present | `fr:parler-fort:phrase` | **parler fort** | `phrase` | `vocabulary/fr/a0_a1/common_nouns.json` |
 | **Armenian (hy)** | ✅ Present | `hy:khosel:verb` | **խոսել** | `verb` | `vocabulary/hy/a0_a1/daily_verbs.json` |
 | **Italian (it)** | ✅ Present | `it:parlare:verb` | **parlare** | `verb` | `vocabulary/it/a0_a1/daily_verbs.json` |
-| **Georgian (ka)** | ❌ Missing | - | - | - | - |
+| **Georgian (ka)** | ✅ Present | `ka:laparaki:verb` | **ლაპარაკი** | `verb` | `vocabulary/ka/a0_a1/daily_verbs.json` |
 | **Portuguese (pt)** | ✅ Present | `pt:falar:verb` | **falar** | `verb` | `vocabulary/pt/a0_a1/daily_verbs.json` |
 | **Russian (ru)** | ✅ Present | `ru:govorit:verb` | **говорить** | `verb` | `vocabulary/ru/a0_a1/daily_verbs.json` |
 | **Tatar (tt)** | ✅ Present | `tt:soilashu:noun` | **сөйләшү** | `noun` | `vocabulary/tt/a0_a1/expressions.json` |
@@ -913,6 +913,7 @@ In non-English languages, basic verbs are often rendered as multi-word verbal ex
   - Bashkir: `ba:yauap-bireu:verb` (*яуап биреү* - literally "give answer")
   - Tatar: `tt:zhavap-biru:verb` (*җавап бирү* - literally "give answer")
   - Chuvash: `cv:khurav-parash:verb` (*хурав параш*)
+  - Georgian: `ka:pasukhis-gatsema:phrase` (*პასუხის გაცემა*)
 - **Have to / Must**:
   - Spanish: `es:tener-que:phrase` (*tener que*)
   - Portuguese: `pt:ter-de:phrase` (*ter de*)
