@@ -696,6 +696,55 @@
       },
       "minItems": 1,
       "description": "Array of verb-preposition patterns with examples"
+    },
+    "derivations": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "description": "Derived verb entry ID or word form"
+          },
+          {
+            "type": "object",
+            "required": [
+              "term"
+            ],
+            "properties": {
+              "term": {
+                "type": "string",
+                "description": "Derived verb entry ID (e.g. fr:revenir:verb) or surface word"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "prefix",
+                  "suffix",
+                  "base",
+                  "compound",
+                  "aspectual_prefix"
+                ],
+                "description": "Type of derivation (e.g., prefix addition, suffix addition, base root)"
+              },
+              "prefix": {
+                "type": "string",
+                "description": "Prefix used (e.g. re-, sub-, de-, pré-, over-, un-, пере-, за-, υπο-, περι-)"
+              },
+              "suffix": {
+                "type": "string",
+                "description": "Suffix used (e.g. -iser, -ize, -ificare)"
+              },
+              "meaning_shift": {
+                "type": "string",
+                "description": "Brief note on semantic change or nuance"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 1,
+      "description": "Array of derived verb forms or base verb derivation linkages"
     }
   },
   "allOf": [

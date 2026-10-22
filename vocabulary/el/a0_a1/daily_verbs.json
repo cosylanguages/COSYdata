@@ -82,6 +82,26 @@
     "levels": [
       "A0",
       "A1"
+    ],
+    "derivations": [
+      {
+        "term": "επανέρχομαι",
+        "type": "prefix",
+        "prefix": "επαν-",
+        "meaning_shift": "επιστρέφω"
+      },
+      {
+        "term": "διέρχομαι",
+        "type": "prefix",
+        "prefix": "δι-",
+        "meaning_shift": "περνώ μέσα από κάποιο μέρος"
+      },
+      {
+        "term": "αντέρχομαι",
+        "type": "prefix",
+        "prefix": "αντ-",
+        "meaning_shift": "ανταπεξέρχομαι σε δυσκολία"
+      }
     ]
   },
   {
@@ -422,6 +442,26 @@
     "theme": "actions",
     "updated": "2025-05-20",
     "no_antonym": true,
+    "derivations": [
+      {
+        "term": "el:perigrafo:verb",
+        "type": "prefix",
+        "prefix": "περι-",
+        "meaning_shift": "περιγράφω / δίνω λεπτομέρειες"
+      },
+      {
+        "term": "υπογράφω",
+        "type": "prefix",
+        "prefix": "υπο-",
+        "meaning_shift": "βάζω την υπογραφή μου"
+      },
+      {
+        "term": "αντιγράφω",
+        "type": "prefix",
+        "prefix": "αντι-",
+        "meaning_shift": "κάνω αντίγραφο"
+      }
+    ],
     "related_forms": [
       "COSYtools:el-klisi-rimaton:γράφω"
     ],
@@ -1359,7 +1399,33 @@
     "theme": "actions",
     "updated": "2025-05-20",
     "no_antonym": true,
-    "voice": "active"
+    "voice": "active",
+    "derivations": [
+      {
+        "term": "el:anafero:verb",
+        "type": "prefix",
+        "prefix": "ανα-",
+        "meaning_shift": "αναφέρω / κάνω μνεία"
+      },
+      {
+        "term": "el:metafero:verb",
+        "type": "prefix",
+        "prefix": "μετα-",
+        "meaning_shift": "μεταφέρω σε άλλο μέρος"
+      },
+      {
+        "term": "προσφέρω",
+        "type": "prefix",
+        "prefix": "προσ-",
+        "meaning_shift": "δίνω ως δώρο ή βοήθεια"
+      },
+      {
+        "term": "υποφέρω",
+        "type": "prefix",
+        "prefix": "υπο-",
+        "meaning_shift": "βιώνω πόνο"
+      }
+    ]
   },
   {
     "id": "el:kouvalao:verb",
@@ -2132,7 +2198,27 @@
     "updated": "2025-05-20",
     "emoji": "📞",
     "no_antonym": true,
-    "voice": "active"
+    "voice": "active",
+    "derivations": [
+      {
+        "term": "προσκαλώ",
+        "type": "prefix",
+        "prefix": "προσ-",
+        "meaning_shift": "καλώ κάποιον σε εκδήλωση"
+      },
+      {
+        "term": "ανακαλώ",
+        "type": "prefix",
+        "prefix": "ανα-",
+        "meaning_shift": "φέρνω στη μνήμη ή ακυρώνω"
+      },
+      {
+        "term": "αποκαλώ",
+        "type": "prefix",
+        "prefix": "απο-",
+        "meaning_shift": "ονομάζω κάποιον"
+      }
+    ]
   },
   {
     "id": "el:kerdizo:verb",

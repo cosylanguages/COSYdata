@@ -349,7 +349,20 @@
     "related_forms": [
       "COSYtools:el-klisi-rimaton:αναφέρω"
     ],
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "derivations": [
+      {
+        "term": "el:ferno:verb",
+        "type": "base",
+        "meaning_shift": "βασικό ρήμα (φέρω / φέρνω)"
+      },
+      {
+        "term": "el:metafero:verb",
+        "type": "prefix",
+        "prefix": "μετα-",
+        "meaning_shift": "μεταφέρω σε άλλο σημείο"
+      }
+    ]
   },
   {
     "id": "el:anaptysso:verb",
@@ -529,7 +542,26 @@
     "theme": "actions",
     "updated": "2025-01-15",
     "no_antonym": true,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "derivations": [
+      {
+        "term": "el:grafo:verb",
+        "type": "base",
+        "meaning_shift": "βασικό ρήμα γράφω"
+      },
+      {
+        "term": "υπογράφω",
+        "type": "prefix",
+        "prefix": "υπο-",
+        "meaning_shift": "βάζω την υπογραφή μου"
+      },
+      {
+        "term": "αντιγράφω",
+        "type": "prefix",
+        "prefix": "αντι-",
+        "meaning_shift": "δημιουργώ αντίγραφο"
+      }
+    ]
   },
   {
     "id": "el:piano:verb",
@@ -881,7 +913,20 @@
     "theme": "actions",
     "updated": "2025-01-15",
     "no_antonym": true,
-    "sub_theme": "daily_routines"
+    "sub_theme": "daily_routines",
+    "derivations": [
+      {
+        "term": "el:ferno:verb",
+        "type": "base",
+        "meaning_shift": "βασικό ρήμα (φέρω / φέρνω)"
+      },
+      {
+        "term": "el:anafero:verb",
+        "type": "prefix",
+        "prefix": "ανα-",
+        "meaning_shift": "αναφέρω"
+      }
+    ]
   },
   {
     "id": "el:diekdiko:verb",
