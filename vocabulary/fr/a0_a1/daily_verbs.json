@@ -16,7 +16,33 @@
     "theme": "actions",
     "updated": "2026-10-05",
     "emoji": "🛠️",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivations": [
+      {
+        "term": "fr:refaire:verb",
+        "type": "prefix",
+        "prefix": "re-",
+        "meaning_shift": "faire à nouveau"
+      },
+      {
+        "term": "défaire",
+        "type": "prefix",
+        "prefix": "dé-",
+        "meaning_shift": "annuler ou détruire ce qui a été fait"
+      },
+      {
+        "term": "parfaire",
+        "type": "prefix",
+        "prefix": "par-",
+        "meaning_shift": "mener à la perfection"
+      },
+      {
+        "term": "surfaire",
+        "type": "prefix",
+        "prefix": "sur-",
+        "meaning_shift": "estimer ou évaluer au-dessus de sa valeur"
+      }
+    ]
   },
   {
     "id": "fr:aller:verb",
@@ -350,7 +376,33 @@
     "theme": "actions",
     "updated": "2026-10-05",
     "emoji": "✍️",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivations": [
+      {
+        "term": "récrire",
+        "type": "prefix",
+        "prefix": "ré-",
+        "meaning_shift": "écrire à nouveau"
+      },
+      {
+        "term": "décrire",
+        "type": "prefix",
+        "prefix": "dé-",
+        "meaning_shift": "représenter par des mots"
+      },
+      {
+        "term": "inscrire",
+        "type": "prefix",
+        "prefix": "in-",
+        "meaning_shift": "enregistrer sur une liste"
+      },
+      {
+        "term": "transcrire",
+        "type": "prefix",
+        "prefix": "trans-",
+        "meaning_shift": "copier ou traduire par écrit"
+      }
+    ]
   },
   {
     "id": "fr:ecouter:verb",
@@ -636,6 +688,32 @@
     "emoji": "✊",
     "antonyms": [
       "donner"
+    ],
+    "derivations": [
+      {
+        "term": "apprendre",
+        "type": "prefix",
+        "prefix": "ap-",
+        "meaning_shift": "acquérir des connaissances"
+      },
+      {
+        "term": "comprendre",
+        "type": "prefix",
+        "prefix": "com-",
+        "meaning_shift": "saisir par l esprit"
+      },
+      {
+        "term": "reprendre",
+        "type": "prefix",
+        "prefix": "re-",
+        "meaning_shift": "prendre de nouveau"
+      },
+      {
+        "term": "surprendre",
+        "type": "prefix",
+        "prefix": "sur-",
+        "meaning_shift": "étonner ou prendre au dépourvu"
+      }
     ]
   },
   {
@@ -1164,7 +1242,39 @@
     "theme": "actions",
     "updated": "2026-10-05",
     "emoji": "🎒",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivations": [
+      {
+        "term": "apporter",
+        "type": "prefix",
+        "prefix": "ap-",
+        "meaning_shift": "porter quelque chose à quelqu un"
+      },
+      {
+        "term": "rapporter",
+        "type": "prefix",
+        "prefix": "rap-",
+        "meaning_shift": "porter de nouveau ou raconter"
+      },
+      {
+        "term": "transporter",
+        "type": "prefix",
+        "prefix": "trans-",
+        "meaning_shift": "déplacer d un lieu à un autre"
+      },
+      {
+        "term": "exporter",
+        "type": "prefix",
+        "prefix": "ex-",
+        "meaning_shift": "vendre et envoyer à l étranger"
+      },
+      {
+        "term": "importer",
+        "type": "prefix",
+        "prefix": "im-",
+        "meaning_shift": "faire venir de l étranger"
+      }
+    ]
   },
   {
     "id": "fr:cuisiner:verb",
