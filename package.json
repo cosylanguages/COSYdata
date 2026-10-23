@@ -11,6 +11,7 @@
     "build:search-index": "node scripts/build-search-index.js",
     "import:events": "node scripts/import-events-vocab.cjs",
     "parity": "node scripts/a0-a1-parity.cjs",
+    "test:verb-inventory": "node scripts/validate-verb-inventory.cjs",
     "validate": "node scripts/validate.cjs"
   },
   "devDependencies": {
