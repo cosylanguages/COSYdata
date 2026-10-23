@@ -1,4 +1,38 @@
 {
+  "actions": [
+    "ba:ala-alyu:verb",
+    "ba:buldyryu:verb",
+    "ba:israf-iteu:verb",
+    "ba:iya-bulyu:verb",
+    "ba:kadir-bulyu:phrase",
+    "ba:onytyu:verb",
+    "ba:sarf-iteu:verb",
+    "ba:telar-ine:phrase",
+    "ba:tiesh-bulyu:verb",
+    "ba:tieshlek:phrase",
+    "ba:yahau:verb",
+    "ba:yasau:verb",
+    "ba:yashau-1:verb"
+  ],
+  "actions/daily_routines": [
+    "ba:ala-alyu:verb",
+    "ba:iya-bulyu:verb",
+    "ba:kadir-bulyu:phrase",
+    "ba:telar-ine:phrase",
+    "ba:tiesh-bulyu:verb",
+    "ba:tieshlek:phrase",
+    "ba:yahau:verb",
+    "ba:yashau-1:verb"
+  ],
+  "actions/general": [
+    "ba:buldyryu:verb",
+    "ba:israf-iteu:verb",
+    "ba:sarf-iteu:verb",
+    "ba:yasau:verb"
+  ],
+  "actions/mental_cognition": [
+    "ba:onytyu:verb"
+  ],
   "adverbs_connectors": [
     "ba:belan:preposition",
     "ba:ham:adverb",
@@ -45,26 +79,6 @@
   ],
   "colors": [
     "ba:kuk:adjective"
-  ],
-  "daily_life": [
-    "ba:ala-alyu:verb",
-    "ba:iya-bulyu:verb",
-    "ba:kadir-bulyu:phrase",
-    "ba:telar-ine:phrase",
-    "ba:tiesh-bulyu:verb",
-    "ba:tieshlek:phrase",
-    "ba:yahau:verb",
-    "ba:yashau-1:verb"
-  ],
-  "daily_life/daily_routines": [
-    "ba:ala-alyu:verb",
-    "ba:iya-bulyu:verb",
-    "ba:kadir-bulyu:phrase",
-    "ba:telar-ine:phrase",
-    "ba:tiesh-bulyu:verb",
-    "ba:tieshlek:phrase",
-    "ba:yahau:verb",
-    "ba:yashau-1:verb"
   ],
   "daily_verbs": [
     "ba:alyu:verb",
@@ -202,16 +216,6 @@
     "ba:yyyyu:verb",
     "ba:zakaz-bireu:verb"
   ],
-  "emotions": [
-    "ba:nyq-yaratyu:verb",
-    "ba:yaratmau:verb",
-    "ba:zhek-kureu:verb"
-  ],
-  "emotions/positive_emotions": [
-    "ba:nyq-yaratyu:verb",
-    "ba:yaratmau:verb",
-    "ba:zhek-kureu:verb"
-  ],
   "expressions": [
     "ba:bayram:phrase",
     "ba:hau-bulygyzh:phrase",
@@ -234,7 +238,7 @@
     "ba:olasay:noun",
     "ba:olatay:noun"
   ],
-  "food_drink": [
+  "food": [
     "ba:alma:noun",
     "ba:azhyk:noun",
     "ba:banan:noun",
@@ -364,6 +368,18 @@
     "ba:koyash:noun",
     "ba:yanggyr:noun"
   ],
+  "grammar": [
+    "ba:teesh-bulyu:verb"
+  ],
+  "grammar/general": [
+    "ba:teesh-bulyu:verb"
+  ],
+  "home": [
+    "ba:yashaw:verb"
+  ],
+  "home/general": [
+    "ba:yashaw:verb"
+  ],
   "housing": [
     "ba:askys:noun",
     "ba:baha:noun",
@@ -400,6 +416,12 @@
     "ba:tabip:noun",
     "ba:ukytyusy:noun",
     "ba:vrach:noun"
+  ],
+  "leisure": [
+    "ba:oynau:verb"
+  ],
+  "leisure/general": [
+    "ba:oynau:verb"
   ],
   "nationalities": [
     "ba:bashkort:adjective",
@@ -674,6 +696,20 @@
     "ba:torkia:noun",
     "ba:toronto:noun"
   ],
+  "positive_feelings": [
+    "ba:nyq-yaratyu:verb",
+    "ba:xis-iteu:verb",
+    "ba:yaratmau:verb",
+    "ba:zhek-kureu:verb"
+  ],
+  "positive_feelings/positive_emotions": [
+    "ba:nyq-yaratyu:verb",
+    "ba:yaratmau:verb",
+    "ba:zhek-kureu:verb"
+  ],
+  "positive_feelings/positive_feelings": [
+    "ba:xis-iteu:verb"
+  ],
   "pronouns": [
     "ba:by:pronoun",
     "ba:shul:pronoun"
@@ -683,6 +719,24 @@
     "ba:dares:noun",
     "ba:kitap:noun",
     "ba:ruchka:noun"
+  ],
+  "shopping": [
+    "ba:satyp-alyu:verb"
+  ],
+  "shopping/general": [
+    "ba:satyp-alyu:verb"
+  ],
+  "social_expressions": [
+    "ba:kilesheu:verb",
+    "ba:kileshmaw:verb",
+    "ba:yasyu:verb",
+    "ba:zhibareu:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "ba:kilesheu:verb",
+    "ba:kileshmaw:verb",
+    "ba:yasyu:verb",
+    "ba:zhibareu:verb"
   ],
   "time": [
     "ba:aprel:noun",
@@ -746,5 +800,11 @@
     "ba:ay:noun",
     "ba:dinggezh:noun",
     "ba:yylga:noun"
+  ],
+  "work": [
+    "ba:basyu:verb"
+  ],
+  "work/office_business": [
+    "ba:basyu:verb"
   ]
 }

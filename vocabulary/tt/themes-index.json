@@ -1,4 +1,26 @@
 {
+  "actions": [
+    "tt:buldyru:verb",
+    "tt:israf-itu:verb",
+    "tt:kiraku:verb",
+    "tt:telar-ide:phrase",
+    "tt:tiesh-bulu:verb",
+    "tt:tieshlek:phrase",
+    "tt:utkaru:verb",
+    "tt:yasau:verb"
+  ],
+  "actions/daily_routines": [
+    "tt:telar-ide:phrase",
+    "tt:tiesh-bulu:verb",
+    "tt:tieshlek:phrase",
+    "tt:yasau:verb"
+  ],
+  "actions/general": [
+    "tt:buldyru:verb",
+    "tt:israf-itu:verb",
+    "tt:kiraku:verb",
+    "tt:utkaru:verb"
+  ],
   "adverbs_connectors": [
     "tt:amma:conjunction",
     "tt:belan:postposition",
@@ -59,18 +81,6 @@
     "tt:sory:adjective",
     "tt:yashel:adjective",
     "tt:zanggar:adjective"
-  ],
-  "daily_life": [
-    "tt:telar-ide:phrase",
-    "tt:tiesh-bulu:verb",
-    "tt:tieshlek:phrase",
-    "tt:yasau:verb"
-  ],
-  "daily_life/daily_routines": [
-    "tt:telar-ide:phrase",
-    "tt:tiesh-bulu:verb",
-    "tt:tieshlek:phrase",
-    "tt:yasau:verb"
   ],
   "daily_verbs": [
     "tt:achu:verb",
@@ -208,14 +218,6 @@
     "tt:zhyrlau:verb",
     "tt:zhyyu:verb"
   ],
-  "emotions": [
-    "tt:tabynu:verb",
-    "tt:yaratmau:verb"
-  ],
-  "emotions/positive_emotions": [
-    "tt:tabynu:verb",
-    "tt:yaratmau:verb"
-  ],
   "expressions": [
     "tt:bairam:noun",
     "tt:dus:noun",
@@ -240,7 +242,7 @@
     "tt:khatyn-kyz:noun",
     "tt:khatyn:noun"
   ],
-  "food_drink": [
+  "food": [
     "tt:alma:noun",
     "tt:banan:noun",
     "tt:chai:noun",
@@ -380,6 +382,18 @@
     "tt:tabib:noun",
     "tt:ukytuchy:noun",
     "tt:vrach:noun"
+  ],
+  "leisure": [
+    "tt:oynau:verb"
+  ],
+  "leisure/general": [
+    "tt:oynau:verb"
+  ],
+  "media": [
+    "tt:karap-toru:verb"
+  ],
+  "media/general": [
+    "tt:karap-toru:verb"
   ],
   "nationalities": [
     "tt:tatar:noun",
@@ -656,6 +670,20 @@
     "tt:torkiya:noun",
     "tt:toronto:noun"
   ],
+  "positive_feelings": [
+    "tt:tabynu:verb",
+    "tt:xis-itu:verb",
+    "tt:yaratmau:verb",
+    "tt:zhek-kuru:verb"
+  ],
+  "positive_feelings/positive_emotions": [
+    "tt:tabynu:verb",
+    "tt:yaratmau:verb"
+  ],
+  "positive_feelings/positive_feelings": [
+    "tt:xis-itu:verb",
+    "tt:zhek-kuru:verb"
+  ],
   "school": [
     "tt:daftar:noun",
     "tt:dares:noun",
@@ -663,6 +691,24 @@
     "tt:kompyuter:noun",
     "tt:ruchka:noun",
     "tt:telefon:noun"
+  ],
+  "shopping": [
+    "tt:tolaw:verb"
+  ],
+  "shopping/general": [
+    "tt:tolaw:verb"
+  ],
+  "social_expressions": [
+    "tt:kileshmaw:verb",
+    "tt:kileshu:verb",
+    "tt:soylashu:verb",
+    "tt:yazu:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "tt:kileshmaw:verb",
+    "tt:kileshu:verb",
+    "tt:soylashu:verb",
+    "tt:yazu:verb"
   ],
   "time": [
     "tt:aprel:noun",
@@ -726,5 +772,11 @@
     "tt:elga:noun",
     "tt:koyash:noun",
     "tt:yanggyr:noun"
+  ],
+  "work": [
+    "tt:basu:verb"
+  ],
+  "work/office_business": [
+    "tt:basu:verb"
   ]
 }

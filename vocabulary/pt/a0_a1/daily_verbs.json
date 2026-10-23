@@ -2642,7 +2642,7 @@
       "Adoro praia no verão."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -2667,7 +2667,7 @@
       "Não gosto de café frio."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -2692,7 +2692,7 @@
       "Gostaria de pedir uma água."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:would-like:verb",
     "concept": "actions.daily_life.would_like",
@@ -2717,7 +2717,7 @@
       "Sou capaz de aprender rapidamente."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:be-able-to:phrase",
     "concept": "actions.daily_life.be_able_to",
@@ -2742,12 +2742,150 @@
       "Tenho de ir ao trabalho."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have-to:phrase",
     "concept": "actions.daily_life.have_to",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "pt:conversar:verb",
+    "word": "conversar",
+    "language": "pt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kõ.veʁˈsaʁ/",
+    "emoji": "💬",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Falar com alguém de forma amigável."
+    ],
+    "examples": [
+      "Nós gostamos de conversar durante o almoço."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:talk:verb"
+  },
+  {
+    "id": "pt:escutar:verb",
+    "word": "escutar",
+    "language": "pt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/is.kuˈtaʁ/",
+    "emoji": "🎧",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Ouvir com atenção o som ou a voz."
+    ],
+    "examples": [
+      "Ela gosta de escutar música no quarto."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:listen:verb"
+  },
+  {
+    "id": "pt:digitar:verb",
+    "word": "digitar",
+    "language": "pt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/dʒi.ʒiˈtaʁ/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Escrever texto usando um teclado."
+    ],
+    "examples": [
+      "Preciso digitar este relatório rapidamente."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb"
+  },
+  {
+    "id": "pt:discordar:verb",
+    "word": "discordar",
+    "language": "pt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/dʒis.koʁˈdaʁ/",
+    "emoji": "🙅",
+    "antonyms": [
+      "concordar"
+    ],
+    "definitions": [
+      "Não ter a mesma opinião de outra pessoa."
+    ],
+    "examples": [
+      "Eu discordo da sua opinião sobre o filme."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:disagree:verb"
+  },
+  {
+    "id": "pt:desgostar:verb",
+    "word": "desgostar",
+    "language": "pt",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/dʒiz.ɡosˈtaʁ/",
+    "emoji": "👎",
+    "antonyms": [
+      "gostar"
+    ],
+    "definitions": [
+      "Não ter gosto ou simpatia por algo."
+    ],
+    "examples": [
+      "Eu desgosto de barulho alto."
+    ],
+    "domain": "general, spoken",
+    "theme": "positive_feelings",
+    "sub_theme": "positive_feelings",
+    "updated": "2026-10-23",
+    "concept": "en:dislike:verb"
+  },
+  {
+    "id": "pt:desperdicar:verb",
+    "word": "desperdiçar",
+    "language": "pt",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/dʒis.peʁ.diˈsaʁ/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "economizar"
+    ],
+    "definitions": [
+      "Gastar tempo ou dinheiro sem necessidade."
+    ],
+    "examples": [
+      "Não devemos desperdiçar comida."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb"
   }
 ]

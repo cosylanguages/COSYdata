@@ -1,4 +1,26 @@
 {
+  "actions": [
+    "hy:gitenal:verb",
+    "hy:i-vichaki-linel:phrase",
+    "hy:karoghanal:verb",
+    "hy:kozenayi:phrase",
+    "hy:petk-e:phrase",
+    "hy:stipvats-linel:phrase",
+    "hy:vatnel:verb"
+  ],
+  "actions/daily_routines": [
+    "hy:i-vichaki-linel:phrase",
+    "hy:karoghanal:verb",
+    "hy:kozenayi:phrase",
+    "hy:petk-e:phrase",
+    "hy:stipvats-linel:phrase"
+  ],
+  "actions/general": [
+    "hy:vatnel:verb"
+  ],
+  "actions/mental_cognition": [
+    "hy:gitenal:verb"
+  ],
   "adverbs_connectors": [
     "hy:bayc:conjunction",
     "hy:erek:adverb",
@@ -44,20 +66,6 @@
     "hy:shapik:noun",
     "hy:tabat:noun",
     "hy:zgest:noun"
-  ],
-  "daily_life": [
-    "hy:i-vichaki-linel:phrase",
-    "hy:karoghanal:verb",
-    "hy:kozenayi:phrase",
-    "hy:petk-e:phrase",
-    "hy:stipvats-linel:phrase"
-  ],
-  "daily_life/daily_routines": [
-    "hy:i-vichaki-linel:phrase",
-    "hy:karoghanal:verb",
-    "hy:kozenayi:phrase",
-    "hy:petk-e:phrase",
-    "hy:stipvats-linel:phrase"
   ],
   "daily_verbs": [
     "hy:achel:verb",
@@ -198,14 +206,6 @@
     "hy:zhptal:verb",
     "hy:zro-cel:verb"
   ],
-  "emotions": [
-    "hy:chsirel:verb",
-    "hy:pashtel:verb"
-  ],
-  "emotions/positive_emotions": [
-    "hy:chsirel:verb",
-    "hy:pashtel:verb"
-  ],
   "expressions": [
     "hy:ankoghin-gnal:phrase",
     "hy:bac-toghnel:phrase",
@@ -246,7 +246,7 @@
     "hy:zarmacats:adjective",
     "hy:zbaghvats:adjective"
   ],
-  "food_drink": [
+  "food": [
     "hy:banan:noun",
     "hy:chash:noun",
     "hy:dzo:noun",
@@ -670,6 +670,14 @@
     "hy:toronto:noun",
     "hy:vrastan:noun"
   ],
+  "positive_feelings": [
+    "hy:chsirel:verb",
+    "hy:pashtel:verb"
+  ],
+  "positive_feelings/positive_emotions": [
+    "hy:chsirel:verb",
+    "hy:pashtel:verb"
+  ],
   "prepositions": [
     "hy:hamar:preposition",
     "hy:heto:preposition",
@@ -687,6 +695,12 @@
     "hy:grich:noun",
     "hy:hamakargich:noun",
     "hy:tetr:noun"
+  ],
+  "social_expressions": [
+    "hy:chhamadzaynel:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "hy:chhamadzaynel:verb"
   ],
   "time": [
     "hy:amar:noun",
@@ -752,5 +766,11 @@
     "hy:sare:adjective",
     "hy:tak:adjective",
     "hy:zov:adjective"
+  ],
+  "work": [
+    "hy:tpel:verb"
+  ],
+  "work/office_business": [
+    "hy:tpel:verb"
   ]
 }

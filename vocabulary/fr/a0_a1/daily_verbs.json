@@ -2186,7 +2186,7 @@
     "levels": [
       "A0"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "definition": "Avoir pour nom ou prénom.",
     "example": "Je m'appelle Thomas.",
@@ -2212,12 +2212,68 @@
       "J'aimerais un café, s'il vous plaît."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:would-like:verb",
     "concept": "actions.daily_life.would_like",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "fr:raconter:verb",
+    "word": "raconter",
+    "language": "fr",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ʁa.kɔ̃.te/",
+    "emoji": "📖",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Dire une histoire ou des faits à quelqu'un."
+    ],
+    "examples": [
+      "Grand-père aime raconter une histoire aux enfants."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:tell:verb",
+    "auxiliary": "avoir",
+    "conjugation_class": "1st group (-er)",
+    "related_forms": [
+      "COSYtools:fr-conjugeur:raconter"
+    ]
+  },
+  {
+    "id": "fr:taper:verb",
+    "word": "taper",
+    "language": "fr",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ta.pe/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Écrire un texte sur un clavier d'ordinateur."
+    ],
+    "examples": [
+      "Il sait taper très vite sur son clavier."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb",
+    "auxiliary": "avoir",
+    "conjugation_class": "1st group (-er)",
+    "related_forms": [
+      "COSYtools:fr-conjugeur:taper"
+    ]
   }
 ]

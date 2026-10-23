@@ -2666,7 +2666,7 @@
       "Ул музыкага табына."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -2691,7 +2691,7 @@
       "Ул салкынны яратмый."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -2716,7 +2716,7 @@
       "Ул аш ясый."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:make:verb",
     "concept": "actions.daily_life.make",
@@ -2741,7 +2741,7 @@
       "Мин эшлисе тиеш."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:must:verb",
     "concept": "actions.daily_life.must",
@@ -2766,12 +2766,348 @@
       "Миңа барасы бар."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have-to:phrase",
     "concept": "actions.daily_life.have_to",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "tt:zhek-kuru:verb",
+    "word": "җек күрү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ʑek kyˈry/",
+    "emoji": "😡",
+    "antonyms": [
+      "ярату"
+    ],
+    "definitions": [
+      "Кемнедер яки нәрсәнедер бөтенләй яратмау."
+    ],
+    "examples": [
+      "Ул ялганны җек күрә."
+    ],
+    "domain": "general, spoken",
+    "theme": "positive_feelings",
+    "sub_theme": "positive_feelings",
+    "updated": "2026-10-23",
+    "concept": "en:hate:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:buldyru:verb",
+    "word": "булдыру",
+    "language": "tt",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/buldəˈru/",
+    "emoji": "💪",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Нәрсане дә булса эшли алу сәләте."
+    ],
+    "examples": [
+      "Ул татарча яхшы сөйләшә булдыра."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:can:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "tt:soylashu:verb",
+    "word": "сөйләшү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/søylæˈʃy/",
+    "emoji": "💬",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Кем белән дә булса фикер алышу."
+    ],
+    "examples": [
+      "Без дуслар белән сөйләшәбез."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:talk:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:tolaw:verb",
+    "word": "төләү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/tøˈlæw/",
+    "emoji": "💳",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Саттып алган әйбер өчен акча бирү."
+    ],
+    "examples": [
+      "Мин мал өчен төлим."
+    ],
+    "domain": "general",
+    "theme": "shopping",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:pay:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:xis-itu:verb",
+    "word": "хис итү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/xis iˈty/",
+    "emoji": "😌",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Тән яки күңел халәтен тою."
+    ],
+    "examples": [
+      "Мин үземне яхшы хис итәм."
+    ],
+    "domain": "general, spoken",
+    "theme": "positive_feelings",
+    "sub_theme": "positive_feelings",
+    "updated": "2026-10-23",
+    "concept": "en:feel:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:yazu:verb",
+    "word": "язу",
+    "language": "tt",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/jaˈzu/",
+    "emoji": "✍️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Кәгазьгә яки экранга хәрефләр кую."
+    ],
+    "examples": [
+      "Ул дуска хат яза."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:write:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "tt:basu:verb",
+    "word": "басу",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/baˈsu/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Клавиатурада текст басып язу."
+    ],
+    "examples": [
+      "Компьютерда тиз басу кирәк."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "tt:utkaru:verb",
+    "word": "үткәрү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ytkæˈry/",
+    "emoji": "⏳",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Вакытны яки акчаны куллану."
+    ],
+    "examples": [
+      "Без вакытны яхшы үткәрәбез."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:spend:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:israf-itu:verb",
+    "word": "исраф итү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/isˈraf iˈty/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "саклау"
+    ],
+    "definitions": [
+      "Акчаны яки вакытны бушка сарф итү."
+    ],
+    "examples": [
+      "Ваакытны исраф итәргә ярамый."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:oynau:verb",
+    "word": "ойнау",
+    "language": "tt",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/ojˈnau/",
+    "emoji": "⚽",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Уенда катнашу яки музыка коралында уйнау."
+    ],
+    "examples": [
+      "Балалар тышта ойнайлар."
+    ],
+    "domain": "general",
+    "theme": "leisure",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:play:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "tt:kileshu:verb",
+    "word": "килешү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kileˈʃy/",
+    "emoji": "🤝",
+    "antonyms": [
+      "килешмәү"
+    ],
+    "definitions": [
+      "Уртак фикергә килү."
+    ],
+    "examples": [
+      "Без бу турыда килештек."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:agree:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:kileshmaw:verb",
+    "word": "килешмәү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kileʃˈmæw/",
+    "emoji": "🙅",
+    "antonyms": [
+      "килешү"
+    ],
+    "definitions": [
+      "Уртак фикергә килмәү."
+    ],
+    "examples": [
+      "Мин синең белән килешмим."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:disagree:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:kiraku:verb",
+    "word": "кирәкү",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kiˈræky/",
+    "emoji": "🙏",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Зарурият яки ихтыяҗ булу."
+    ],
+    "examples": [
+      "Маңа яңа китап кирәк."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:need:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "tt:karap-toru:verb",
+    "word": "карап тору",
+    "language": "tt",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kaˈrap toˈru/",
+    "emoji": "📺",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Күзәтү, диккать белән карау."
+    ],
+    "examples": [
+      "Без телевизор карап турабыз."
+    ],
+    "domain": "general",
+    "theme": "media",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:watch:verb",
+    "harmony": "back"
   }
 ]

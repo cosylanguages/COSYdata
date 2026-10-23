@@ -462,7 +462,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Espressione usata per indicare che non si è compreso qualcosa.",
@@ -481,7 +481,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "form": "phrase",
     "definition": "Espressione usata per dire di non avere un'informazione.",
@@ -500,7 +500,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Domanda informale per chiedere il nome di una persona.",
@@ -519,7 +519,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Domanda usata per chiedere il prezzo di un oggetto o servizio.",
@@ -538,7 +538,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Domanda formale per sapere se qualcuno parla la lingua inglese.",
@@ -557,7 +557,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "form": "phrase",
     "definition": "Augurio rivolto a chi festeggia il giorno della propria nascita.",
@@ -576,7 +576,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Espressione formale di cortesia per chiedere scusa o attirare l'attenzione.",
@@ -595,7 +595,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "noun",
     "definition": "Titolo di rispetto per un uomo adulto.",
@@ -620,7 +620,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "noun",
     "definition": "Titolo di rispetto per una donna adulta.",
@@ -645,7 +645,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "form": "noun",
     "definition": "Titolo di rispetto per una giovane donna.",
@@ -668,7 +668,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "form": "phrase",
     "definition": "Espressione usata per fare i complimenti in occasioni festive.",
@@ -687,7 +687,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Risposta o domanda informale per chiedere lo stato di salute o situazione.",
@@ -706,7 +706,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "form": "phrase",
     "definition": "Augurio di buon proseguimento nel proprio lavoro.",
@@ -725,7 +725,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken, travel",
     "form": "phrase",
     "definition": "Augurio per il periodo estivo o di ferie.",
@@ -744,7 +744,7 @@
       "A0",
       "A1"
     ],
-    "theme": "communication",
+    "theme": "social_expressions",
     "domain": "general, spoken",
     "form": "phrase",
     "definition": "Augurio formale di buona continuazione in un'attività.",
@@ -754,5 +754,28 @@
     "updated": "2026-10-09",
     "no_antonym": true,
     "language": "it"
+  },
+  {
+    "id": "it:non-piacere:phrase",
+    "word": "non piacere",
+    "language": "it",
+    "form": "phrase",
+    "level": "A1",
+    "transcription": "/non pjaˈtʃe.re/",
+    "emoji": "👎",
+    "antonyms": [
+      "piacere"
+    ],
+    "definitions": [
+      "Non provare gusto o simpatia per qualcosa."
+    ],
+    "examples": [
+      "Non mi piace il caffè freddo."
+    ],
+    "domain": "general, spoken",
+    "theme": "positive_feelings",
+    "sub_theme": "positive_feelings",
+    "updated": "2026-10-23",
+    "concept": "en:dislike:verb"
   }
 ]

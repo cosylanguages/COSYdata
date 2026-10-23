@@ -1,4 +1,26 @@
 {
+  "actions": [
+    "de:faehig-sein:phrase",
+    "de:haben-zu:phrase",
+    "de:koennen:verb",
+    "de:moechte:verb",
+    "de:muessen:verb",
+    "de:sich-ausruhen:verb",
+    "de:verschwenden:verb",
+    "de:zuschauen:verb"
+  ],
+  "actions/daily_routines": [
+    "de:faehig-sein:phrase",
+    "de:haben-zu:phrase",
+    "de:koennen:verb",
+    "de:moechte:verb",
+    "de:muessen:verb",
+    "de:sich-ausruhen:verb",
+    "de:zuschauen:verb"
+  ],
+  "actions/general": [
+    "de:verschwenden:verb"
+  ],
   "adverbs_connectors": [
     "de:aber:adverb",
     "de:allein:adverb",
@@ -76,24 +98,6 @@
   ],
   "common_nouns": [
     "de:fest:noun"
-  ],
-  "daily_life": [
-    "de:faehig-sein:phrase",
-    "de:haben-zu:phrase",
-    "de:koennen:verb",
-    "de:moechte:verb",
-    "de:muessen:verb",
-    "de:sich-ausruhen:verb",
-    "de:zuschauen:verb"
-  ],
-  "daily_life/daily_routines": [
-    "de:faehig-sein:phrase",
-    "de:haben-zu:phrase",
-    "de:koennen:verb",
-    "de:moechte:verb",
-    "de:muessen:verb",
-    "de:sich-ausruhen:verb",
-    "de:zuschauen:verb"
   ],
   "daily_verbs": [
     "de:aendern:verb",
@@ -237,14 +241,6 @@
     "de:zurueckkommen:verb",
     "de:zustimmen:verb"
   ],
-  "emotions": [
-    "de:anbeten:verb",
-    "de:missfallen:verb"
-  ],
-  "emotions/positive_emotions": [
-    "de:anbeten:verb",
-    "de:missfallen:verb"
-  ],
   "expressions": [
     "de:auf-wiedersehen:phrase",
     "de:bitte:phrase",
@@ -283,7 +279,7 @@
     "de:tochter:noun",
     "de:vater:noun"
   ],
-  "food_drink": [
+  "food": [
     "de:abendessen:noun",
     "de:apfel:noun",
     "de:apfelsine:noun",
@@ -295,6 +291,7 @@
     "de:ei:noun",
     "de:eis:noun",
     "de:essen:noun",
+    "de:essen:verb",
     "de:fleisch:noun",
     "de:fruhstuck:noun",
     "de:gemuese:noun",
@@ -313,6 +310,9 @@
     "de:tee:noun",
     "de:wasser:noun",
     "de:zucker:noun"
+  ],
+  "food/general": [
+    "de:essen:verb"
   ],
   "general_adjectives": [
     "de:aehnlich:adjective",
@@ -474,6 +474,12 @@
     "de:teilzeit:noun",
     "de:verkaeufer:noun",
     "de:vollzeit:noun"
+  ],
+  "media": [
+    "de:zusehen:verb"
+  ],
+  "media/general": [
+    "de:zusehen:verb"
   ],
   "nationalities": [
     "de:athen:noun",
@@ -771,6 +777,14 @@
     "de:urlaub:noun",
     "de:zug:noun"
   ],
+  "positive_feelings": [
+    "de:anbeten:verb",
+    "de:missfallen:verb"
+  ],
+  "positive_feelings/positive_emotions": [
+    "de:anbeten:verb",
+    "de:missfallen:verb"
+  ],
   "pronouns": [
     "de:dein:pronoun",
     "de:du:pronoun",
@@ -788,6 +802,16 @@
     "de:klasse:noun",
     "de:stift:noun",
     "de:unterricht:noun"
+  ],
+  "social_expressions": [
+    "de:schicken:verb",
+    "de:widersprechen:verb",
+    "de:zuhoren:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "de:schicken:verb",
+    "de:widersprechen:verb",
+    "de:zuhoren:verb"
   ],
   "time": [
     "de:abend:noun",
@@ -865,5 +889,11 @@
     "de:wetter:noun",
     "de:wind:noun",
     "de:wolke:noun"
+  ],
+  "work": [
+    "de:tippen:verb"
+  ],
+  "work/office_business": [
+    "de:tippen:verb"
   ]
 }
