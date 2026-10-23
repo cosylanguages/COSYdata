@@ -1,0 +1,160 @@
+{
+  "registry_version": "1.0.0",
+  "total_languages": 14,
+  "languages": {
+    "en": {
+      "code": "en",
+      "name": "English",
+      "native_name": "English",
+      "family": "Indo-European / Germanic",
+      "script": "Latin",
+      "citation_form_convention": "infinitive_without_to",
+      "citation_form_description": "Bare infinitive form (e.g. 'be', 'work', 'have')",
+      "morphology": "fusional",
+      "verb_system_features": ["tense_prominent", "auxiliary_system", "modal_verbs", "phrasal_verbs"]
+    },
+    "fr": {
+      "code": "fr",
+      "name": "French",
+      "native_name": "Français",
+      "family": "Indo-European / Romance",
+      "script": "Latin",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -er, -ir, -re (e.g. 'être', 'aimer')",
+      "morphology": "fusional",
+      "verb_system_features": ["tense_prominent", "auxiliary_avoir_etre", "subjunctive_mood", "pronominal_verbs"]
+    },
+    "it": {
+      "code": "it",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "family": "Indo-European / Romance",
+      "script": "Latin",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -are, -ere, -ire (e.g. 'essere', 'amare')",
+      "morphology": "fusional",
+      "verb_system_features": ["tense_prominent", "auxiliary_avere_essere", "subjunctive_mood", "pronominal_clitics"]
+    },
+    "ru": {
+      "code": "ru",
+      "name": "Russian",
+      "native_name": "Русский",
+      "family": "Indo-European / Slavic",
+      "script": "Cyrillic",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -ть, -ти, -чь (e.g. 'быть', 'знать')",
+      "morphology": "fusional",
+      "verb_system_features": ["aspect_prominent", "imperfective_perfective_pairs", "motion_verbs", "prefixed_aspects"]
+    },
+    "el": {
+      "code": "el",
+      "name": "Greek",
+      "native_name": "Ελληνικά",
+      "family": "Indo-European / Hellenic",
+      "script": "Greek",
+      "citation_form_convention": "first_person_singular_present",
+      "citation_form_description": "1st person singular present indicative (e.g. 'είμαι', 'αγαπώ', 'ξέρω')",
+      "morphology": "fusional",
+      "verb_system_features": ["aspect_prominent", "active_passive_voices", "deponent_verbs", "no_infinitive"]
+    },
+    "pt": {
+      "code": "pt",
+      "name": "Portuguese",
+      "native_name": "Português",
+      "family": "Indo-European / Romance",
+      "script": "Latin",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -ar, -er, -ir, -or (e.g. 'ser', 'estar', 'amar')",
+      "morphology": "fusional",
+      "verb_system_features": ["tense_prominent", "personal_infinitive", "future_subjunctive", "ser_vs_estar"]
+    },
+    "de": {
+      "code": "de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "family": "Indo-European / Germanic",
+      "script": "Latin",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -en or -n (e.g. 'sein', 'haben', 'arbeiten')",
+      "morphology": "fusional",
+      "verb_system_features": ["tense_prominent", "separable_prefixes", "modal_verbs", "auxiliary_haben_sein"]
+    },
+    "es": {
+      "code": "es",
+      "name": "Spanish",
+      "native_name": "Español",
+      "family": "Indo-European / Romance",
+      "script": "Latin",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -ar, -er, -ir (e.g. 'ser', 'estar', 'haber', 'tener')",
+      "morphology": "fusional",
+      "verb_system_features": ["tense_prominent", "ser_vs_estar", "haber_vs_tener", "subjunctive_mood"]
+    },
+    "tt": {
+      "code": "tt",
+      "name": "Tatar",
+      "native_name": "Татарча",
+      "family": "Turkic / Kipchak",
+      "script": "Cyrillic",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive / verbal noun in -у / -ү (e.g. 'булу', 'белү', 'эшләү')",
+      "morphology": "agglutinative",
+      "verb_system_features": ["vowel_harmony", "agglutinative_suffixes", "compound_verbs", "evidentiality"]
+    },
+    "ba": {
+      "code": "ba",
+      "name": "Bashkir",
+      "native_name": "Башҡортса",
+      "family": "Turkic / Kipchak",
+      "script": "Cyrillic",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive / verbal noun in -ыу / -еү / -оу / -өү (e.g. 'булыу', 'белеү', 'эшләү')",
+      "morphology": "agglutinative",
+      "verb_system_features": ["vowel_harmony", "agglutinative_suffixes", "compound_verbs", "extra_cyrillic_letters"]
+    },
+    "cv": {
+      "code": "cv",
+      "name": "Chuvash",
+      "native_name": "Чӑвашла",
+      "family": "Turkic / Oghur",
+      "script": "Cyrillic",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive in -ма / -ме / -маш / -меш (e.g. 'пулмаш', 'пӗлмеш', 'ӗҫлемеш')",
+      "morphology": "agglutinative",
+      "verb_system_features": ["vowel_harmony", "oghur_turkic_structure", "agglutinative_suffixes"]
+    },
+    "br": {
+      "code": "br",
+      "name": "Breton",
+      "native_name": "Brezhoneg",
+      "family": "Indo-European / Celtic / Brittonic",
+      "script": "Latin",
+      "citation_form_convention": "verbal_noun",
+      "citation_form_description": "Verbal noun / infinitive in -añ, -iñ, -out, -at (e.g. 'bezañ', 'gouzout', 'labourat')",
+      "morphology": "fusional",
+      "verb_system_features": ["initial_consonant_mutations", "periphrastic_verbs", "conjugated_prepositions", "verbal_nouns"]
+    },
+    "hy": {
+      "code": "hy",
+      "name": "Armenian",
+      "native_name": "Հայերեն",
+      "family": "Indo-European / Armenian",
+      "script": "Armenian",
+      "citation_form_convention": "infinitive",
+      "citation_form_description": "Infinitive ending in -ել or -ալ (e.g. 'լինել', 'իմասնալ', 'աշխատել')",
+      "morphology": "agglutinative",
+      "verb_system_features": ["auxiliary_verb_construction", "e_conjugation_a_conjugation", "no_grammatical_gender"]
+    },
+    "ka": {
+      "code": "ka",
+      "name": "Georgian",
+      "native_name": "ქართული",
+      "family": "Kartvelian",
+      "script": "Mkhedruli",
+      "citation_form_convention": "masdar_verbal_noun",
+      "citation_form_description": "Masdar verbal noun ending in -ა, -ა/-ება (e.g. 'ყოფნა', 'ცოდნა', 'მუშაობა')",
+      "morphology": "agglutinative",
+      "verb_system_features": ["screeves", "polypersonal_agreement", "masdar_verbal_nouns", "preverbs"]
+    }
+  }
+}
