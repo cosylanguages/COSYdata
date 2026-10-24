@@ -1,4 +1,26 @@
 {
+  "actions": [
+    "es:conseguir:verb",
+    "es:desperdiciar:verb",
+    "es:gustaria:verb",
+    "es:observar:verb",
+    "es:poder:verb",
+    "es:ser-capaz-de:phrase",
+    "es:tener-que:phrase"
+  ],
+  "actions/daily_routines": [
+    "es:gustaria:verb",
+    "es:poder:verb",
+    "es:ser-capaz-de:phrase",
+    "es:tener-que:phrase"
+  ],
+  "actions/general": [
+    "es:desperdiciar:verb",
+    "es:observar:verb"
+  ],
+  "actions/social_interaction": [
+    "es:conseguir:verb"
+  ],
   "adjectives": [
     "es:a-tiempo-completo:adjective",
     "es:a-tiempo-parcial:adjective",
@@ -154,26 +176,6 @@
     "es:vestido:noun",
     "es:zapato:noun"
   ],
-  "daily_life": [
-    "es:gustaria:verb",
-    "es:poder:verb",
-    "es:ser-capaz-de:phrase",
-    "es:tener-que:phrase"
-  ],
-  "daily_life/daily_routines": [
-    "es:gustaria:verb",
-    "es:poder:verb",
-    "es:ser-capaz-de:phrase",
-    "es:tener-que:phrase"
-  ],
-  "emotions": [
-    "es:adorar:verb",
-    "es:disgustar:verb"
-  ],
-  "emotions/positive_emotions": [
-    "es:adorar:verb",
-    "es:disgustar:verb"
-  ],
   "expressions": [
     "es:adios:phrase",
     "es:bienvenido:phrase",
@@ -196,7 +198,7 @@
     "es:nino:noun",
     "es:padre:noun"
   ],
-  "food_drink": [
+  "food": [
     "es:agua:noun",
     "es:almuerzo:noun",
     "es:cafe:noun",
@@ -647,6 +649,14 @@
     "es:viena:other",
     "es:washington-d-c:other"
   ],
+  "positive_feelings": [
+    "es:adorar:verb",
+    "es:disgustar:verb"
+  ],
+  "positive_feelings/positive_emotions": [
+    "es:adorar:verb",
+    "es:disgustar:verb"
+  ],
   "school": [
     "es:boligrafo:noun",
     "es:como:pronoun",
@@ -662,6 +672,16 @@
     "es:que:pronoun",
     "es:quien:pronoun",
     "es:si:adverb"
+  ],
+  "social_expressions": [
+    "es:contar:verb",
+    "es:conversar:verb",
+    "es:no-estar-de-acuerdo:phrase"
+  ],
+  "social_expressions/social_expressions": [
+    "es:contar:verb",
+    "es:conversar:verb",
+    "es:no-estar-de-acuerdo:phrase"
   ],
   "time": [
     "es:abril:noun",
@@ -871,5 +891,11 @@
     "es:lluvia:noun",
     "es:luna:noun",
     "es:sol:noun"
+  ],
+  "work": [
+    "es:teclear:verb"
+  ],
+  "work/office_business": [
+    "es:teclear:verb"
   ]
 }

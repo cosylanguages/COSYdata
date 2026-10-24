@@ -1,4 +1,56 @@
 {
+  "actions": [
+    "ka:ar-motsoneba:phrase",
+    "ka:dakarjgva:verb",
+    "ka:damzadeba:verb",
+    "ka:flangva:verb",
+    "ka:goneba:verb",
+    "ka:isurvebda:phrase",
+    "ka:kitkhva:verb",
+    "ka:moqola:verb",
+    "ka:mushaoba:verb",
+    "ka:nakhva:verb",
+    "ka:pasukhis-gatsema:phrase",
+    "ka:satsiroeba:verb",
+    "ka:sheadzleba:verb",
+    "ka:sheadzlebloba:phrase",
+    "ka:sidzulvili:verb",
+    "ka:siqvaruli:verb",
+    "ka:taqvanistsema:verb",
+    "ka:thqma:verb",
+    "ka:tskhovreba:verb",
+    "ka:tvalis-devneba:phrase",
+    "ka:unda:verb",
+    "ka:valdebuleba:phrase"
+  ],
+  "actions/daily_routines": [
+    "ka:ar-motsoneba:phrase",
+    "ka:damzadeba:verb",
+    "ka:goneba:verb",
+    "ka:isurvebda:phrase",
+    "ka:kitkhva:verb",
+    "ka:moqola:verb",
+    "ka:mushaoba:verb",
+    "ka:nakhva:verb",
+    "ka:pasukhis-gatsema:phrase",
+    "ka:satsiroeba:verb",
+    "ka:sheadzleba:verb",
+    "ka:sheadzlebloba:phrase",
+    "ka:sidzulvili:verb",
+    "ka:siqvaruli:verb",
+    "ka:taqvanistsema:verb",
+    "ka:thqma:verb",
+    "ka:tskhovreba:verb",
+    "ka:tvalis-devneba:phrase",
+    "ka:unda:verb",
+    "ka:valdebuleba:phrase"
+  ],
+  "actions/general": [
+    "ka:flangva:verb"
+  ],
+  "actions/money": [
+    "ka:dakarjgva:verb"
+  ],
   "adjectives": [
     "ka:advili:adjective",
     "ka:akalgazrda:adjective",
@@ -135,50 +187,6 @@
     "ka:peksatsmeli:noun",
     "ka:perangi:noun",
     "ka:sharvali:noun"
-  ],
-  "daily_life": [
-    "ka:ar-motsoneba:phrase",
-    "ka:damzadeba:verb",
-    "ka:goneba:verb",
-    "ka:isurvebda:phrase",
-    "ka:kitkhva:verb",
-    "ka:moqola:verb",
-    "ka:mushaoba:verb",
-    "ka:nakhva:verb",
-    "ka:pasukhis-gatsema:phrase",
-    "ka:satsiroeba:verb",
-    "ka:sheadzleba:verb",
-    "ka:sheadzlebloba:phrase",
-    "ka:sidzulvili:verb",
-    "ka:siqvaruli:verb",
-    "ka:taqvanistsema:verb",
-    "ka:thqma:verb",
-    "ka:tskhovreba:verb",
-    "ka:tvalis-devneba:phrase",
-    "ka:unda:verb",
-    "ka:valdebuleba:phrase"
-  ],
-  "daily_life/daily_routines": [
-    "ka:ar-motsoneba:phrase",
-    "ka:damzadeba:verb",
-    "ka:goneba:verb",
-    "ka:isurvebda:phrase",
-    "ka:kitkhva:verb",
-    "ka:moqola:verb",
-    "ka:mushaoba:verb",
-    "ka:nakhva:verb",
-    "ka:pasukhis-gatsema:phrase",
-    "ka:satsiroeba:verb",
-    "ka:sheadzleba:verb",
-    "ka:sheadzlebloba:phrase",
-    "ka:sidzulvili:verb",
-    "ka:siqvaruli:verb",
-    "ka:taqvanistsema:verb",
-    "ka:thqma:verb",
-    "ka:tskhovreba:verb",
-    "ka:tvalis-devneba:phrase",
-    "ka:unda:verb",
-    "ka:valdebuleba:phrase"
   ],
   "daily_verbs": [
     "ka:adgoma:verb",
@@ -356,7 +364,7 @@
     "ka:shetsukebuli:adjective",
     "ka:ubeduri:adjective"
   ],
-  "food_drink": [
+  "food": [
     "ka:banani:noun",
     "ka:chai:noun",
     "ka:kachapuri:noun",
@@ -696,6 +704,14 @@
     "ka:rveuli:noun",
     "ka:tsigni:noun"
   ],
+  "social_expressions": [
+    "ka:ar-datankhmeba:verb",
+    "ka:saubari:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "ka:ar-datankhmeba:verb",
+    "ka:saubari:verb"
+  ],
   "time": [
     "ka:agvisto:noun",
     "ka:aprili:noun",
@@ -772,5 +788,11 @@
     "ka:tsvima:noun",
     "ka:tsvimiani:adjective",
     "ka:zgva:noun"
+  ],
+  "work": [
+    "ka:akrepa:verb"
+  ],
+  "work/office_business": [
+    "ka:akrepa:verb"
   ]
 }

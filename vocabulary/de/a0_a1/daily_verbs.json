@@ -2779,7 +2779,7 @@
       "Er betet seine Kinder an."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -2804,7 +2804,7 @@
       "Das kalte Wetter missfällt mir."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -2829,7 +2829,7 @@
       "Ich möchte einen Tee trinken."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:would-like:verb",
     "concept": "actions.daily_life.would_like",
@@ -2854,7 +2854,7 @@
       "Nach der Arbeit ruhe ich mich aus."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:rest:verb",
     "concept": "actions.daily_life.rest",
@@ -2879,7 +2879,7 @@
       "Er ist fähig, schnell zu lernen."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:be-able-to:phrase",
     "concept": "actions.daily_life.be_able_to",
@@ -2904,7 +2904,7 @@
       "Wir schauen beim Spiel zu."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:watch:verb",
     "concept": "actions.daily_life.watch",
@@ -2929,12 +2929,175 @@
       "Du hast viel zu tun."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have-to:phrase",
     "concept": "actions.daily_life.have_to",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "de:essen:verb",
+    "word": "essen",
+    "language": "de",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/ˈʔɛsn̩/",
+    "emoji": "🍽️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Nahrung aufnehmen und schlucken."
+    ],
+    "examples": [
+      "Wir essen jeden Tag um zwölf Uhr."
+    ],
+    "domain": "general",
+    "theme": "food",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:eat:verb"
+  },
+  {
+    "id": "de:zusehen:verb",
+    "word": "zusehen",
+    "language": "de",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ˈtsuːˌzeːən/",
+    "emoji": "📺",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Etwas aufmerksam mit den Augen verfolgen."
+    ],
+    "examples": [
+      "Die Kinder sehen beim Spiel zu."
+    ],
+    "domain": "general",
+    "theme": "media",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:watch:verb",
+    "separable_prefix": "zu"
+  },
+  {
+    "id": "de:zuhoren:verb",
+    "word": "zuhören",
+    "language": "de",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ˈtsuːˌhøːʁən/",
+    "emoji": "🎧",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Aufmerksam mit den Ohren zuhören."
+    ],
+    "examples": [
+      "Bitte hören Sie dem Lehrer gut zu."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:listen:verb",
+    "separable_prefix": "zu"
+  },
+  {
+    "id": "de:tippen:verb",
+    "word": "tippen",
+    "language": "de",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ˈtɪpn̩/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Text mit einer Tastatur schreiben."
+    ],
+    "examples": [
+      "Ich muss eine kurze E-Mail tippen."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb"
+  },
+  {
+    "id": "de:widersprechen:verb",
+    "word": "widersprechen",
+    "language": "de",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ˈviːdɐˌʃpʁɛçn̩/",
+    "emoji": "🙅",
+    "antonyms": [
+      "zustimmen"
+    ],
+    "definitions": [
+      "Nicht der gleichen Meinung wie jemand sein."
+    ],
+    "examples": [
+      "Der Schüler widerspricht der Aussage des Lehrers."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:disagree:verb"
+  },
+  {
+    "id": "de:schicken:verb",
+    "word": "schicken",
+    "language": "de",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ˈʃɪkn̩/",
+    "emoji": "✉️",
+    "antonyms": [
+      "empfangen"
+    ],
+    "definitions": [
+      "Etwas an eine Person senden."
+    ],
+    "examples": [
+      "Ich schicke dir morgen eine Nachricht."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:send:verb"
+  },
+  {
+    "id": "de:verschwenden:verb",
+    "word": "verschwenden",
+    "language": "de",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/fɛɐ̯ˈʃvɛndn̩/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "sparen"
+    ],
+    "definitions": [
+      "Geld oder Zeit unnötig verbrauchen."
+    ],
+    "examples": [
+      "Wir dürfen keine Energie verschwenden."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb"
   }
 ]

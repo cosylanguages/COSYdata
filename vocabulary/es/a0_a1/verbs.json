@@ -2844,7 +2844,7 @@
       "Adoro la música clásica."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -2869,7 +2869,7 @@
       "Me disgusta el ruido fuerte."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -2894,7 +2894,7 @@
       "Me gustaría reservar una mesa."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:would-like:verb",
     "concept": "actions.daily_life.would_like",
@@ -2919,7 +2919,7 @@
       "Puedo hablar español."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:can:verb",
     "concept": "actions.daily_life.can",
@@ -2944,7 +2944,7 @@
       "Soy capaz de resolver este problema."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:be-able-to:phrase",
     "concept": "actions.daily_life.be_able_to",
@@ -2969,12 +2969,150 @@
       "Tengo que estudiar hoy."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have-to:phrase",
     "concept": "actions.daily_life.have_to",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "es:conversar:verb",
+    "word": "conversar",
+    "language": "es",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kombeɾˈsaɾ/",
+    "emoji": "💬",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Hablar con otra persona de manera amigable."
+    ],
+    "examples": [
+      "Nos gusta conversar en el parque."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:talk:verb"
+  },
+  {
+    "id": "es:contar:verb",
+    "word": "contar",
+    "language": "es",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/konˈtaɾ/",
+    "emoji": "📖",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Relatar una historia a alguien."
+    ],
+    "examples": [
+      "A mi abuelo le gusta contar historias."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:tell:verb"
+  },
+  {
+    "id": "es:observar:verb",
+    "word": "observar",
+    "language": "es",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/obseɾˈbaɾ/",
+    "emoji": "👀",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Mirar algo con atención."
+    ],
+    "examples": [
+      "Nos gusta observar las estrellas de noche."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:watch:verb"
+  },
+  {
+    "id": "es:teclear:verb",
+    "word": "teclear",
+    "language": "es",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/tekleˈaɾ/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Escribir texto usando un teclado."
+    ],
+    "examples": [
+      "Él puede teclear muy rápido en la computadora."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb"
+  },
+  {
+    "id": "es:desperdiciar:verb",
+    "word": "desperdiciar",
+    "language": "es",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/despeɾðiˈsjaɾ/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "ahorrar"
+    ],
+    "definitions": [
+      "Gastar tiempo o dinero sin necesidad."
+    ],
+    "examples": [
+      "No debemos desperdiciar la comida."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb"
+  },
+  {
+    "id": "es:conseguir:verb",
+    "word": "conseguir",
+    "language": "es",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/konseˈɣiɾ/",
+    "emoji": "🤲",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Alcanzar, obtener o recibir algo."
+    ],
+    "examples": [
+      "Quiero conseguir un buen trabajo."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "social_interaction",
+    "updated": "2026-10-23",
+    "concept": "en:get:verb"
   }
 ]

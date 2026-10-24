@@ -1,4 +1,46 @@
 {
+  "actions": [
+    "br:anaiat-1:verb",
+    "br:comprenan-1:verb",
+    "br:diskouizhan-1:verb",
+    "br:ezhomm-kaout-1:phrase",
+    "br:gallout-1:verb",
+    "br:gastan-1:verb",
+    "br:gellout-1:verb",
+    "br:gouest-bezan-1:phrase",
+    "br:gwelout-1:verb",
+    "br:kaout-ezhomm-1:phrase",
+    "br:klevout-1:verb",
+    "br:kounaat-1:verb",
+    "br:oberian-1:verb",
+    "br:rankout-1:verb",
+    "br:rankout-beazn-1:phrase",
+    "br:tapout-1:verb"
+  ],
+  "actions/daily_routines": [
+    "br:comprenan-1:verb",
+    "br:diskouizhan-1:verb",
+    "br:ezhomm-kaout-1:phrase",
+    "br:gallout-1:verb",
+    "br:gouest-bezan-1:phrase",
+    "br:gwelout-1:verb",
+    "br:klevout-1:verb",
+    "br:rankout-1:verb",
+    "br:rankout-beazn-1:phrase"
+  ],
+  "actions/general": [
+    "br:gastan-1:verb",
+    "br:gellout-1:verb",
+    "br:kaout-ezhomm-1:phrase",
+    "br:oberian-1:verb"
+  ],
+  "actions/mental_cognition": [
+    "br:anaiat-1:verb",
+    "br:kounaat-1:verb"
+  ],
+  "actions/social_interaction": [
+    "br:tapout-1:verb"
+  ],
   "adverbs_connectors": [
     "br:atav-1:adverb",
     "br:breman-1:adverb",
@@ -65,34 +107,6 @@
     "br:priz-1:noun",
     "br:skramm-1:noun",
     "br:urdiazour-1:noun"
-  ],
-  "communication": [
-    "br:lavaret-1:verb"
-  ],
-  "communication/socializing": [
-    "br:lavaret-1:verb"
-  ],
-  "daily_life": [
-    "br:comprenan-1:verb",
-    "br:diskouizhan-1:verb",
-    "br:ezhomm-kaout-1:phrase",
-    "br:gallout-1:verb",
-    "br:gouest-bezan-1:phrase",
-    "br:gwelout-1:verb",
-    "br:klevout-1:verb",
-    "br:rankout-1:verb",
-    "br:rankout-beazn-1:phrase"
-  ],
-  "daily_life/daily_routines": [
-    "br:comprenan-1:verb",
-    "br:diskouizhan-1:verb",
-    "br:ezhomm-kaout-1:phrase",
-    "br:gallout-1:verb",
-    "br:gouest-bezan-1:phrase",
-    "br:gwelout-1:verb",
-    "br:klevout-1:verb",
-    "br:rankout-1:verb",
-    "br:rankout-beazn-1:phrase"
   ],
   "daily_verbs": [
     "br:aozan-ar-malizenn-1:verb",
@@ -210,14 +224,6 @@
     "br:trugarekaat-1:verb",
     "br:urzhian-1:verb"
   ],
-  "emotions": [
-    "br:adorin-1:verb",
-    "br:chom-hep-plijout-1:phrase"
-  ],
-  "emotions/positive_emotions": [
-    "br:adorin-1:verb",
-    "br:chom-hep-plijout-1:phrase"
-  ],
   "expressions": [
     "br:demat:phrase",
     "br:kenavo:phrase",
@@ -237,7 +243,7 @@
     "br:mignon:noun",
     "br:tad:noun"
   ],
-  "food_drink": [
+  "food": [
     "br:amann-1:noun",
     "br:aval:noun",
     "br:banana:noun",
@@ -398,6 +404,12 @@
     "br:labour:noun",
     "br:liorzhour-1:noun",
     "br:medisin:noun"
+  ],
+  "media": [
+    "br:arvestin-1:verb"
+  ],
+  "media/general": [
+    "br:arvestin-1:verb"
   ],
   "nationalities": [
     "br:aten-1:noun",
@@ -675,6 +687,20 @@
     "br:turkia:noun",
     "br:yerevan:noun"
   ],
+  "positive_feelings": [
+    "br:adorin-1:verb",
+    "br:chom-hep-plijout-1:phrase",
+    "br:kasaat-1:verb",
+    "br:nac-han-1:verb"
+  ],
+  "positive_feelings/positive_emotions": [
+    "br:adorin-1:verb",
+    "br:chom-hep-plijout-1:phrase"
+  ],
+  "positive_feelings/positive_feelings": [
+    "br:kasaat-1:verb",
+    "br:nac-han-1:verb"
+  ],
   "prepositions": [
     "br:da-1:preposition",
     "br:e-1:preposition",
@@ -705,6 +731,18 @@
     "br:studian-1:verb",
     "br:talvout-1:verb",
     "br:tremen-1:verb"
+  ],
+  "social_expressions": [
+    "br:a-du-bezan-1:phrase",
+    "br:discontentin-1:verb",
+    "br:lavaret-1:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "br:a-du-bezan-1:phrase",
+    "br:discontentin-1:verb"
+  ],
+  "social_expressions/socializing": [
+    "br:lavaret-1:verb"
   ],
   "time": [
     "br:chwevrer:noun",
@@ -781,5 +819,11 @@
     "br:tomm-1:adjective",
     "br:tommik-1:adjective",
     "br:yen-1:adjective"
+  ],
+  "work": [
+    "br:bizskrivan-1:verb"
+  ],
+  "work/office_business": [
+    "br:bizskrivan-1:verb"
   ]
 }

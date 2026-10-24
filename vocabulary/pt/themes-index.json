@@ -1,4 +1,20 @@
 {
+  "actions": [
+    "pt:desperdicar:verb",
+    "pt:gostaria:verb",
+    "pt:poder:verb",
+    "pt:ser-capaz-de:phrase",
+    "pt:ter-de:phrase"
+  ],
+  "actions/daily_routines": [
+    "pt:gostaria:verb",
+    "pt:poder:verb",
+    "pt:ser-capaz-de:phrase",
+    "pt:ter-de:phrase"
+  ],
+  "actions/general": [
+    "pt:desperdicar:verb"
+  ],
   "adjectives": [
     "pt:amarelo:adjective",
     "pt:amigavel:adjective",
@@ -64,18 +80,6 @@
   ],
   "common_nouns": [
     "pt:festa:noun"
-  ],
-  "daily_life": [
-    "pt:gostaria:verb",
-    "pt:poder:verb",
-    "pt:ser-capaz-de:phrase",
-    "pt:ter-de:phrase"
-  ],
-  "daily_life/daily_routines": [
-    "pt:gostaria:verb",
-    "pt:poder:verb",
-    "pt:ser-capaz-de:phrase",
-    "pt:ter-de:phrase"
   ],
   "daily_verbs": [
     "pt:acontecer:verb",
@@ -217,14 +221,6 @@
     "pt:voar:verb",
     "pt:voltar:verb"
   ],
-  "emotions": [
-    "pt:adorar:verb",
-    "pt:nao-gostar:phrase"
-  ],
-  "emotions/positive_emotions": [
-    "pt:adorar:verb",
-    "pt:nao-gostar:phrase"
-  ],
   "expressions": [
     "pt:adeus:phrase",
     "pt:bem-vindo:phrase",
@@ -268,7 +264,7 @@
     "pt:surpreendido:adjective",
     "pt:triste:adjective"
   ],
-  "food_drink": [
+  "food": [
     "pt:agua:noun",
     "pt:almoco:noun",
     "pt:bacalhau:noun",
@@ -793,6 +789,18 @@
     "pt:toronto:noun",
     "pt:turquia:noun"
   ],
+  "positive_feelings": [
+    "pt:adorar:verb",
+    "pt:desgostar:verb",
+    "pt:nao-gostar:phrase"
+  ],
+  "positive_feelings/positive_emotions": [
+    "pt:adorar:verb",
+    "pt:nao-gostar:phrase"
+  ],
+  "positive_feelings/positive_feelings": [
+    "pt:desgostar:verb"
+  ],
   "pronouns": [
     "pt:ela:pronoun",
     "pt:ele:pronoun",
@@ -817,6 +825,16 @@
     "pt:quantos:pronoun",
     "pt:quem:pronoun",
     "pt:sim:adverb"
+  ],
+  "social_expressions": [
+    "pt:conversar:verb",
+    "pt:discordar:verb",
+    "pt:escutar:verb"
+  ],
+  "social_expressions/social_expressions": [
+    "pt:conversar:verb",
+    "pt:discordar:verb",
+    "pt:escutar:verb"
   ],
   "time": [
     "pt:abril:noun",
@@ -881,5 +899,11 @@
     "pt:ensolarado:adjective",
     "pt:fresco:adjective",
     "pt:sol:noun"
+  ],
+  "work": [
+    "pt:digitar:verb"
+  ],
+  "work/office_business": [
+    "pt:digitar:verb"
   ]
 }

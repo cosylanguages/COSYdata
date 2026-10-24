@@ -3211,7 +3211,7 @@
       "Pranziamo insieme alle una."
     ],
     "domain": "general",
-    "theme": "food_drink",
+    "theme": "food",
     "sub_theme": "general",
     "updated": "2026-03-30",
     "tags": [
@@ -3237,7 +3237,7 @@
       "Ceniamo a casa questa sera."
     ],
     "domain": "general",
-    "theme": "food_drink",
+    "theme": "food",
     "sub_theme": "general",
     "updated": "2026-03-30",
     "tags": [
@@ -3366,7 +3366,7 @@
       "Chiamo mia madre al telefono per sapere come sta."
     ],
     "domain": "general, spoken",
-    "theme": "communication",
+    "theme": "social_expressions",
     "updated": "2025-01-15",
     "transcription": "/kjaˈmaː.re/",
     "emoji": "📞",
@@ -3424,7 +3424,7 @@
       "Adoro viaggiare in estate."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -3449,7 +3449,7 @@
       "Non mi piace la pioggia."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -3474,12 +3474,90 @@
       "Vorrebbe un bicchiere d'acqua."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:would-like:verb",
     "concept": "actions.daily_life.would_like",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "it:aver-bisogno:verb",
+    "word": "aver bisogno",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/aˈvere biˈsoɲɲo/",
+    "emoji": "🙏",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Avere la necessità di qualcosa."
+    ],
+    "examples": [
+      "Ho bisogno di acqua fresca."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:need:verb",
+    "auxiliary": "avere"
+  },
+  {
+    "id": "it:digitare:verb",
+    "word": "digitare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/didʒiˈtare/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Scrivere un testo usando una tastiera."
+    ],
+    "examples": [
+      "Devo digitare questo documento al computer."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb",
+    "auxiliary": "avere",
+    "related_forms": [
+      "COSYtools:it-coniugatore:digitare"
+    ]
+  },
+  {
+    "id": "it:mandare:verb",
+    "word": "mandare",
+    "language": "it",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/manˈdare/",
+    "emoji": "✉️",
+    "antonyms": [
+      "ricevere"
+    ],
+    "definitions": [
+      "Spedire qualcosa a una persona."
+    ],
+    "examples": [
+      "Voglio mandare una lettera alla mia famiglia."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:send:verb",
+    "auxiliary": "avere",
+    "related_forms": [
+      "COSYtools:it-coniugatore:mandare"
+    ]
   }
 ]

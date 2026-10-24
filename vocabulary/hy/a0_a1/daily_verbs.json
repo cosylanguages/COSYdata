@@ -2733,7 +2733,7 @@
       "Նա պաշտում է երաժշտությունը։"
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -2758,7 +2758,7 @@
       "Ես չեմ սիրում աղմուկը։"
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -2783,7 +2783,7 @@
       "Նա ի վիճակի է աշխատել։"
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:be-able-to:phrase",
     "concept": "actions.daily_life.be_able_to",
@@ -2808,12 +2808,104 @@
       "Ես ստիպված եմ սպասել։"
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have-to:phrase",
     "concept": "actions.daily_life.have_to",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "hy:gitenal:verb",
+    "word": "գիտենալ",
+    "language": "hy",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/ɡitɛˈnɑl/",
+    "emoji": "💡",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Տեղեկություն կամ իմացություն ունենալ։"
+    ],
+    "examples": [
+      "Ես գիտեմ այս պատասխանը։"
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "mental_cognition",
+    "updated": "2026-10-23",
+    "concept": "en:know:verb"
+  },
+  {
+    "id": "hy:tpel:verb",
+    "word": "տպել",
+    "language": "hy",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/təˈpɛl/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Տեքստ մուտքագրել ստեղնաշարի միջոցով։"
+    ],
+    "examples": [
+      "Նա արագ տպում է համակարգչով։"
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb"
+  },
+  {
+    "id": "hy:vatnel:verb",
+    "word": "վատնել",
+    "language": "hy",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/vɑtˈnɛl/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "խնայել"
+    ],
+    "definitions": [
+      "Անարդյունավետ ծախսել ժամանակ կամ փող։"
+    ],
+    "examples": [
+      "Պետք չէ վատնել ժամանակը։"
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb"
+  },
+  {
+    "id": "hy:chhamadzaynel:verb",
+    "word": "չհամաձայնել",
+    "language": "hy",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/tʃʰhɑmɑdzɑjˈnɛl/",
+    "emoji": "🙅",
+    "antonyms": [
+      "համաձայնել"
+    ],
+    "definitions": [
+      "Ուրիշի կարծիքի հետ համամիտ չլինել։"
+    ],
+    "examples": [
+      "Ես չեմ համաձայնում այս որոշման հետ։"
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:disagree:verb"
   }
 ]

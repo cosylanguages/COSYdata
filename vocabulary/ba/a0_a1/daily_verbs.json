@@ -2654,7 +2654,7 @@
       "Ул өйгә ия."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have:verb",
     "concept": "actions.daily_life.have",
@@ -2679,7 +2679,7 @@
       "Ул йырларға ныҡ ярата."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
@@ -2704,7 +2704,7 @@
       "Ул ялғанды жек күрә."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:hate:verb",
     "concept": "feelings.emotions.hate",
@@ -2729,7 +2729,7 @@
       "Мин һуыҡты яратмайым."
     ],
     "domain": "general",
-    "theme": "emotions",
+    "theme": "positive_feelings",
     "sub_theme": "positive_emotions",
     "translation_of": "en:dislike:verb",
     "concept": "feelings.emotions.dislike",
@@ -2754,7 +2754,7 @@
       "Мин башҡортса һөйләшә алам."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:can:verb",
     "concept": "actions.daily_life.can",
@@ -2779,7 +2779,7 @@
       "Ул был эште эшләргә ҡадир."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:be-able-to:phrase",
     "concept": "actions.daily_life.be_able_to",
@@ -2804,7 +2804,7 @@
       "Ул аш яһай."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:make:verb",
     "concept": "actions.daily_life.make",
@@ -2829,7 +2829,7 @@
       "Мин эшләргә тиешмен."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:must:verb",
     "concept": "actions.daily_life.must",
@@ -2854,7 +2854,7 @@
       "Миңә барырға тура килә."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:have-to:phrase",
     "concept": "actions.daily_life.have_to",
@@ -2879,12 +2879,372 @@
       "Мин Өфөлә яшайым."
     ],
     "domain": "general",
-    "theme": "daily_life",
+    "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:live:verb",
     "concept": "actions.daily_life.live",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
+  },
+  {
+    "id": "ba:buldyryu:verb",
+    "word": "булдырыу",
+    "language": "ba",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/buldəˈrəw/",
+    "emoji": "💪",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Эшне эшләргә сәләтле булыу."
+    ],
+    "examples": [
+      "Ул башҡортса сөйләшә булдыра."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:can:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:yasau:verb",
+    "word": "яһау",
+    "language": "ba",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/jɑˈhɑw/",
+    "emoji": "🛠️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Нәмәне дә булһа эшләп сығарыу."
+    ],
+    "examples": [
+      "Балалар ҡар бабай яһай."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:make:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:teesh-bulyu:verb",
+    "word": "тееш булыу",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/teˈeʃ buləˈw/",
+    "emoji": "❗",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Эшне эшләргә бурыслы булыу."
+    ],
+    "examples": [
+      "Без ваҡытында килергә теешбеҙ."
+    ],
+    "domain": "general",
+    "theme": "grammar",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:must:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:yashaw:verb",
+    "word": "яшәү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/jæˈʃæw/",
+    "emoji": "🏠",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Билдәле бер урында тороу."
+    ],
+    "examples": [
+      "Өфөлә яшәү бик оҡшай."
+    ],
+    "domain": "general",
+    "theme": "home",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:live:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:satyp-alyu:verb",
+    "word": "сатып алыу",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/sɑˈtəp ɑləˈw/",
+    "emoji": "🛒",
+    "antonyms": [
+      "сатыу"
+    ],
+    "definitions": [
+      "Аксаға әйбер алыу."
+    ],
+    "examples": [
+      "Бөгөн яңы китап сатып алдым."
+    ],
+    "domain": "general",
+    "theme": "shopping",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:buy:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:onytyu:verb",
+    "word": "онытыу",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/onəˈtəw/",
+    "emoji": "🧠",
+    "antonyms": [
+      "хәтерләү"
+    ],
+    "definitions": [
+      "Хәтерҙән сығарыу."
+    ],
+    "examples": [
+      "Үҙ асҡысымды өйҙә оныттым."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "mental_cognition",
+    "updated": "2026-10-23",
+    "concept": "en:forget:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:xis-iteu:verb",
+    "word": "хис итеү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/xis iˈtyw/",
+    "emoji": "😌",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Күңел яки тән халәтен тойоу."
+    ],
+    "examples": [
+      "Үҙемде бик яхшы хис итәм."
+    ],
+    "domain": "general, spoken",
+    "theme": "positive_feelings",
+    "sub_theme": "positive_feelings",
+    "updated": "2026-10-23",
+    "concept": "en:feel:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:yasyu:verb",
+    "word": "языу",
+    "language": "ba",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/jɑˈzəw/",
+    "emoji": "✍️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Хәрефләр менән яҙып куйыу."
+    ],
+    "examples": [
+      "Дуҫыма хат языу кәрәк."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:write:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:basyu:verb",
+    "word": "баҫыу",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/bɑˈθəw/",
+    "emoji": "⌨️",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Клавиатурала текст яҙыу."
+    ],
+    "examples": [
+      "Компьютерҙа тиҙ баҫыу кирәк."
+    ],
+    "domain": "general, professional",
+    "theme": "work",
+    "sub_theme": "office_business",
+    "updated": "2026-10-23",
+    "concept": "en:type:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:sarf-iteu:verb",
+    "word": "сарф итеү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/sɑrf iˈtyw/",
+    "emoji": "⏳",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Ваҡытты йәки аҡсаны ҡулланыу."
+    ],
+    "examples": [
+      "Ваҡытты файҙалы сарф итеү бик мөһим."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:spend:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:israf-iteu:verb",
+    "word": "исраф итеү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/isˈrɑf iˈtyw/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "һҡлау"
+    ],
+    "definitions": [
+      "Аҡсаны йәки ваҡытты бушҡа сарф итеү."
+    ],
+    "examples": [
+      "Ваҡытты исраф итергә ярамай."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:oynau:verb",
+    "word": "ойнау",
+    "language": "ba",
+    "form": "verb",
+    "level": "A0",
+    "transcription": "/ojˈnɑw/",
+    "emoji": "⚽",
+    "antonyms": [
+      "no_antonym"
+    ],
+    "definitions": [
+      "Уйында ҡатнашыу."
+    ],
+    "examples": [
+      "Балалар тышта ойнай."
+    ],
+    "domain": "general",
+    "theme": "leisure",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:play:verb",
+    "harmony": "back"
+  },
+  {
+    "id": "ba:kilesheu:verb",
+    "word": "килешеү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kileˈʃəw/",
+    "emoji": "🤝",
+    "antonyms": [
+      "килешмәү"
+    ],
+    "definitions": [
+      "Уртаҡ фекергә килеү."
+    ],
+    "examples": [
+      "Без ошо турала килештек."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:agree:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:kileshmaw:verb",
+    "word": "килешмәү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/kileʃˈmæw/",
+    "emoji": "🙅",
+    "antonyms": [
+      "килешеү"
+    ],
+    "definitions": [
+      "Уртаҡ фекергә килмәү."
+    ],
+    "examples": [
+      "Мин һинең менән килешмәйем."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:disagree:verb",
+    "harmony": "front"
+  },
+  {
+    "id": "ba:zhibareu:verb",
+    "word": "жибәреү",
+    "language": "ba",
+    "form": "verb",
+    "level": "A1",
+    "transcription": "/ʑibæˈryw/",
+    "emoji": "✉️",
+    "antonyms": [
+      "алыу"
+    ],
+    "definitions": [
+      "Хат йәки әйберҙе кемгәлер юллау."
+    ],
+    "examples": [
+      "Мин аңа хат жибәрәм."
+    ],
+    "domain": "general, spoken",
+    "theme": "social_expressions",
+    "sub_theme": "social_expressions",
+    "updated": "2026-10-23",
+    "concept": "en:send:verb",
+    "harmony": "front"
   }
 ]

@@ -3020,7 +3020,7 @@
       "Хочу задать вопрос учителю."
     ],
     "domain": "general",
-    "theme": "communication",
+    "theme": "social_expressions",
     "updated": "2025-05-20",
     "transcription": "/zəˈdatʲ vɐˈpros/",
     "no_antonym": true,
@@ -3162,7 +3162,7 @@
       "Учусь говорить по-русски в классе."
     ],
     "domain": "general",
-    "theme": "communication",
+    "theme": "social_expressions",
     "updated": "2025-05-20",
     "transcription": "/gə.vɐˈrʲitʲ pɐ ˈrus.skʲɪ/",
     "no_antonym": true,
@@ -3208,7 +3208,7 @@
       "Хочу писать письмо своей семье."
     ],
     "domain": "general",
-    "theme": "communication",
+    "theme": "social_expressions",
     "updated": "2025-05-20",
     "transcription": "/pʲɪˈsatʲ pʲɪsʲˈmo/",
     "no_antonym": true,
@@ -3231,7 +3231,7 @@
       "Люблю читать книгу перед сном."
     ],
     "domain": "general",
-    "theme": "communication",
+    "theme": "social_expressions",
     "updated": "2025-05-20",
     "transcription": "/tʃʲɪˈtatʲ ˈknʲi.gʊ/",
     "no_antonym": true,
@@ -3606,5 +3606,56 @@
     "updated": "2025-05-20",
     "emoji": "📂",
     "no_antonym": true
+  },
+  {
+    "id": "ru:rastrachivat:verb",
+    "word": "растрачивать",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/rəsˈtratɕɪvətʲ/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "экономить"
+    ],
+    "definitions": [
+      "Напрасно тратить деньги или время."
+    ],
+    "examples": [
+      "Не стоит растрачивать время на пустяки."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb",
+    "aspect": "imperfective",
+    "related_forms": [
+      "COSYtools:ru-spryazhenie:растрачивать"
+    ]
+  },
+  {
+    "id": "ru:trantit-vpustuyu:verb",
+    "word": "тратить впустую",
+    "language": "ru",
+    "form": "verb",
+    "level": "A2",
+    "transcription": "/ˈtratʲɪtʲ vpʊˈstujʊ/",
+    "emoji": "🗑️",
+    "antonyms": [
+      "беречь"
+    ],
+    "definitions": [
+      "Бесполезно расходовать время или деньги."
+    ],
+    "examples": [
+      "Не стоит тратить впустую своё время."
+    ],
+    "domain": "general",
+    "theme": "actions",
+    "sub_theme": "general",
+    "updated": "2026-10-23",
+    "concept": "en:waste:verb",
+    "aspect": "imperfective"
   }
 ]
