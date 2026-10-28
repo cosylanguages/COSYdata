@@ -60,7 +60,32 @@ Evaluating the consistency between `taxonomy/themes.json`, `schemas/themes.json`
 
 ---
 
-## 4. Key Recommendations for Taxonomy Harmonization
+## 4. Repository Domain Boundaries & Ecosystem Ownership
+
+To maintain a clean separation of concerns across the COSYlanguages ecosystem, taxonomy domains are assigned clear ownership across repositories:
+
+* **COSYdata (Vocabulary & Lexical Units):**
+  - **Owned Domains:** `V01–V24` (Vocabulary Themes) and `LT01–LT04` (Lexical Types).
+  - **Responsibilities:** Central repository for raw headword entries, phonetics, definitions, examples, search indexes, and functional phrase datasets (`functional-phrases/`).
+  - **Boundary Rule:** Detailed grammar explanations or lesson curriculums are **not** stored here; instead, entries link to `COSYmanuals` or `COSYtools`.
+
+* **COSYmanuals (Grammar & Communication Reference Manuals):**
+  - **Owned Domains:** `G01–G20` (Grammar Manuals) and `S01–S10` / `W01–W11` (Communication Manuals).
+  - **Responsibilities:** In-depth written grammar guides, usage explanations, communicative rules, and style manuals.
+
+* **COSYplatform (Interactive Learning & Course Curriculums):**
+  - **Owned Domains:** `SIT01–SIT16` (Situational Scenarios), `R01–R03` (Receptive Activities), `C01–C07` (Culture), `M01–M02` (Mediation).
+  - **Responsibilities:** Interactive course roadmaps, lesson exercises, student tracking, and structured online learning modules.
+
+* **COSYtools (Grammar Engines & Linguistic Lookup Tools):**
+  - **Responsibilities:** Framework-free lookup tools for verb conjugation (`fr-conjugeur`, `ru-spryazhenie`), declension tables, and verb-preposition regimes.
+
+* **COSYevents & COSYgames (Session Topics & Gamified Practice):**
+  - **Responsibilities:** Conversation session topics (`COSYevents`) and gamified flashcards/drills (`COSYgames`).
+
+---
+
+## 5. Key Recommendations for Taxonomy Harmonization
 
 1. **Maintain Three-Tier Practice Structure:** Always expose CEFR Levels (`A0`–`C2`) as the entry-point primary cards, followed by primary Lexical Themes and detailed Sub-Themes.
 2. **Schema & Index Integration:** Ensure search indexes across all 14 languages maintain `sub_theme` attributes to power fine-grained educational filtering.
