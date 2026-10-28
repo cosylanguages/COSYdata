@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const LIGHTWEIGHT_FIELDS = ['id', 'word', 'emoji', 'level', 'form', 'theme', 'domain', 'tags'];
+const LIGHTWEIGHT_FIELDS = ['id', 'word', 'emoji', 'level', 'form', 'theme', 'sub_theme', 'domain', 'tags'];
 
 function getJsonFiles(dir) {
   let results = [];

@@ -164,7 +164,9 @@ async function loadSearchIndex(lang, baseUrl) {
     const entryMap = new Map();
     const letterSet = new Set();
     const categorySet = new Set();
+    const subCategoryMap = new Map(); // theme -> Set of sub_themes
     const levelSet = new Set();
+    const levelThemeMap = new Map(); // level -> Set of themes
     const domainSet = new Set();
 
     for (const entry of entries) {
@@ -182,14 +184,26 @@ async function loadSearchIndex(lang, baseUrl) {
         }
       }
 
-      // Theme / Category
+      // Theme / Category & Sub-theme
       if (entry.theme) {
         categorySet.add(entry.theme);
+        if (entry.sub_theme) {
+          if (!subCategoryMap.has(entry.theme)) {
+            subCategoryMap.set(entry.theme, new Set());
+          }
+          subCategoryMap.get(entry.theme).add(entry.sub_theme);
+        }
       }
 
       // CEFR Level
       if (entry.level) {
         levelSet.add(entry.level);
+        if (entry.theme) {
+          if (!levelThemeMap.has(entry.level)) {
+            levelThemeMap.set(entry.level, new Set());
+          }
+          levelThemeMap.get(entry.level).add(entry.theme);
+        }
       }
 
       // Domain
@@ -209,10 +223,10 @@ async function loadSearchIndex(lang, baseUrl) {
       if (!domains.includes(d)) domains.push(d);
     }
 
-    return { entries, entryMap, letters, categories, levels, domains };
+    return { entries, entryMap, letters, categories, subCategoryMap, levels, levelThemeMap, domains };
   } catch (err) {
     console.warn(`[COSYdata UI] Error loading search index for '${lang}':`, err);
-    return { entries: [], entryMap: new Map(), letters: [], categories: [], levels: [], domains: [] };
+    return { entries: [], entryMap: new Map(), letters: [], categories: [], subCategoryMap: new Map(), levels: [], levelThemeMap: new Map(), domains: [] };
   }
 }
 
@@ -281,11 +295,13 @@ export async function initDictionaryUI(container, options = {}) {
   let activeState = {
     mode: 'home',
     value: null,
+    subValue: null,
     searchQuery: '',
     visibleCount: PAGE_SIZE,
     expandedEntryId: null,
     filterLevel: 'ALL',
-    filterForm: 'ALL'
+    filterForm: 'ALL',
+    filterSubTheme: 'ALL'
   };
 
   // Cache resolved full entries so we don't refetch
@@ -566,12 +582,92 @@ export async function initDictionaryUI(container, options = {}) {
       });
     }
 
-    // 2. Browse-by-Letter Row (A–Z)
+    // 2. Primary Category Level (Level 1): CEFR Level Cards (A0–C2)
+    if (levels.length > 0) {
+      const levelSection = document.createElement('section');
+      levelSection.className = 'cosy-dict-browse-section';
+      levelSection.innerHTML = `
+        <h2 class="cosy-dict-section-title">🎯 Primary Category: CEFR Proficiency Level</h2>
+        <p class="cosy-dict-section-subtitle" style="margin-bottom: 12px; color: var(--cosy-dict-text-muted); font-size: 14px;">Select a level to practice all vocabulary curated specifically for your proficiency stage:</p>
+        <div class="cosy-dict-level-grid">
+          ${levels
+            .map((lvl) => {
+              const count = entries.filter((e) => e.level === lvl).length;
+              return `
+                <button type="button" class="cosy-dict-level-card cosy-dict-level-${lvl.toLowerCase()}" data-level="${lvl}">
+                  <strong>Level ${lvl}</strong>
+                  <span>${count.toLocaleString()} words</span>
+                </button>
+              `;
+            })
+            .join('')}
+        </div>
+      `;
+
+      levelSection.querySelectorAll('.cosy-dict-level-card').forEach((cardBtn) => {
+        cardBtn.addEventListener('click', () => {
+          activeState.mode = 'level';
+          activeState.value = cardBtn.getAttribute('data-level');
+          activeState.subValue = null;
+          activeState.visibleCount = PAGE_SIZE;
+          activeState.expandedEntryId = null;
+          activeState.filterLevel = 'ALL';
+          activeState.filterForm = 'ALL';
+          activeState.filterSubTheme = 'ALL';
+          renderApp();
+        });
+      });
+
+      mainEl.appendChild(levelSection);
+    }
+
+    // 3. Secondary Category Level (Level 2 & Level 3): Lexical Themes & Sub-Themes
+    if (categories.length > 0) {
+      const catSection = document.createElement('section');
+      catSection.className = 'cosy-dict-browse-section';
+      catSection.innerHTML = `
+        <h2 class="cosy-dict-section-title">📚 Secondary Category: Lexical Themes &amp; Sub-Themes</h2>
+        <p class="cosy-dict-section-subtitle" style="margin-bottom: 12px; color: var(--cosy-dict-text-muted); font-size: 14px;">Explore vocabulary grouped by communicative topics and detailed sub-themes:</p>
+        <div class="cosy-dict-tile-grid">
+          ${categories
+            .map((cat) => {
+              const count = entries.filter((e) => e.theme === cat).length;
+              const subSet = subCategoryMap.get(cat);
+              const subCount = subSet ? subSet.size : 0;
+              return `
+                <button type="button" class="cosy-dict-tile-card" data-category="${cat}">
+                  <span class="cosy-dict-tile-name">${escapeHtml(formatSlugLabel(cat))}</span>
+                  <span class="cosy-dict-tile-count">${count.toLocaleString()} words ${subCount > 0 ? `(${subCount} sub-themes)` : ''}</span>
+                </button>
+              `;
+            })
+            .join('')}
+        </div>
+      `;
+
+      catSection.querySelectorAll('.cosy-dict-tile-card').forEach((cardBtn) => {
+        cardBtn.addEventListener('click', () => {
+          activeState.mode = 'category';
+          activeState.value = cardBtn.getAttribute('data-category');
+          activeState.subValue = null;
+          activeState.visibleCount = PAGE_SIZE;
+          activeState.expandedEntryId = null;
+          activeState.filterLevel = 'ALL';
+          activeState.filterForm = 'ALL';
+          activeState.filterSubTheme = 'ALL';
+          renderApp();
+        });
+      });
+
+      mainEl.appendChild(catSection);
+    }
+
+    // 4. Browse-by-Letter Row (A–Z)
     if (letters.length > 0) {
       const letterSection = document.createElement('section');
       letterSection.className = 'cosy-dict-browse-section';
       letterSection.innerHTML = `
-        <h2 class="cosy-dict-section-title">Browse by Alphabet</h2>
+        <h2 class="cosy-dict-section-title">🔤 Browse by Alphabet</h2>
         <div class="cosy-dict-letter-row">
           ${letters
             .map((ltr) => `<button type="button" class="cosy-dict-letter-btn" data-letter="${ltr}">${ltr}</button>`)
@@ -583,8 +679,12 @@ export async function initDictionaryUI(container, options = {}) {
         btn.addEventListener('click', () => {
           activeState.mode = 'letter';
           activeState.value = btn.getAttribute('data-letter');
+          activeState.subValue = null;
           activeState.visibleCount = PAGE_SIZE;
           activeState.expandedEntryId = null;
+          activeState.filterLevel = 'ALL';
+          activeState.filterForm = 'ALL';
+          activeState.filterSubTheme = 'ALL';
           renderApp();
         });
       });
@@ -592,7 +692,7 @@ export async function initDictionaryUI(container, options = {}) {
       mainEl.appendChild(letterSection);
     }
 
-    // 3. User Saved & Recent Quick Entry Points
+    // 5. User Saved & Recent Quick Entry Points
     const recents = getRecentlyViewed(lang);
     if (favorites.size > 0 || recents.length > 0) {
       const userSection = document.createElement('section');
@@ -619,88 +719,28 @@ export async function initDictionaryUI(container, options = {}) {
       userSection.querySelector('#cosy-favorites-btn').addEventListener('click', () => {
         activeState.mode = 'favorites';
         activeState.value = null;
+        activeState.subValue = null;
         activeState.visibleCount = PAGE_SIZE;
         activeState.expandedEntryId = null;
+        activeState.filterLevel = 'ALL';
+        activeState.filterForm = 'ALL';
+        activeState.filterSubTheme = 'ALL';
         renderApp();
       });
 
       userSection.querySelector('#cosy-recents-btn').addEventListener('click', () => {
         activeState.mode = 'recent';
         activeState.value = null;
+        activeState.subValue = null;
         activeState.visibleCount = PAGE_SIZE;
         activeState.expandedEntryId = null;
+        activeState.filterLevel = 'ALL';
+        activeState.filterForm = 'ALL';
+        activeState.filterSubTheme = 'ALL';
         renderApp();
       });
 
       mainEl.appendChild(userSection);
-    }
-
-    // 4. Browse-by-Category Tiles
-    if (categories.length > 0) {
-      const catSection = document.createElement('section');
-      catSection.className = 'cosy-dict-browse-section';
-      catSection.innerHTML = `
-        <h2 class="cosy-dict-section-title">Browse by Category</h2>
-        <div class="cosy-dict-tile-grid">
-          ${categories
-            .map((cat) => {
-              const count = entries.filter((e) => e.theme === cat).length;
-              return `
-                <button type="button" class="cosy-dict-tile-card" data-category="${cat}">
-                  <span class="cosy-dict-tile-name">${escapeHtml(formatSlugLabel(cat))}</span>
-                  <span class="cosy-dict-tile-count">${count.toLocaleString()} words</span>
-                </button>
-              `;
-            })
-            .join('')}
-        </div>
-      `;
-
-      catSection.querySelectorAll('.cosy-dict-tile-card').forEach((cardBtn) => {
-        cardBtn.addEventListener('click', () => {
-          activeState.mode = 'category';
-          activeState.value = cardBtn.getAttribute('data-category');
-          activeState.visibleCount = PAGE_SIZE;
-          activeState.expandedEntryId = null;
-          renderApp();
-        });
-      });
-
-      mainEl.appendChild(catSection);
-    }
-
-    // 5. Browse-by-Level Chips
-    if (levels.length > 0) {
-      const levelSection = document.createElement('section');
-      levelSection.className = 'cosy-dict-browse-section';
-      levelSection.innerHTML = `
-        <h2 class="cosy-dict-section-title">Browse by CEFR Level</h2>
-        <div class="cosy-dict-level-grid">
-          ${levels
-            .map((lvl) => {
-              const count = entries.filter((e) => e.level === lvl).length;
-              return `
-                <button type="button" class="cosy-dict-level-card cosy-dict-level-${lvl.toLowerCase()}" data-level="${lvl}">
-                  <strong>${lvl}</strong>
-                  <span>${count.toLocaleString()} words</span>
-                </button>
-              `;
-            })
-            .join('')}
-        </div>
-      `;
-
-      levelSection.querySelectorAll('.cosy-dict-level-card').forEach((cardBtn) => {
-        cardBtn.addEventListener('click', () => {
-          activeState.mode = 'level';
-          activeState.value = cardBtn.getAttribute('data-level');
-          activeState.visibleCount = PAGE_SIZE;
-          activeState.expandedEntryId = null;
-          renderApp();
-        });
-      });
-
-      mainEl.appendChild(levelSection);
     }
 
     // 6. Browse-by-Domain Tiles
@@ -771,11 +811,19 @@ export async function initDictionaryUI(container, options = {}) {
         return first === targetLtr;
       });
     } else if (activeState.mode === 'category') {
-      titleText = `Category: ${formatSlugLabel(activeState.value)}`;
-      filtered = entries.filter((e) => e.theme === activeState.value);
+      titleText = `Category: ${formatSlugLabel(activeState.value)}${activeState.subValue ? ` → ${formatSlugLabel(activeState.subValue)}` : ''}`;
+      filtered = entries.filter((e) => {
+        if (e.theme !== activeState.value) return false;
+        if (activeState.subValue && e.sub_theme !== activeState.subValue) return false;
+        return true;
+      });
     } else if (activeState.mode === 'level') {
-      titleText = `CEFR Level: ${activeState.value}`;
-      filtered = entries.filter((e) => e.level === activeState.value);
+      titleText = `CEFR Level: ${activeState.value}${activeState.subValue ? ` → Category: ${formatSlugLabel(activeState.subValue)}` : ''}`;
+      filtered = entries.filter((e) => {
+        if (e.level !== activeState.value) return false;
+        if (activeState.subValue && e.theme !== activeState.subValue) return false;
+        return true;
+      });
     } else if (activeState.mode === 'domain') {
       titleText = `Course Track: ${formatSlugLabel(activeState.value)}`;
       filtered = entries.filter((e) => (e.domain || '').includes(activeState.value));
@@ -795,6 +843,9 @@ export async function initDictionaryUI(container, options = {}) {
     if (activeState.filterForm !== 'ALL') {
       filtered = filtered.filter((e) => e && e.form === activeState.filterForm);
     }
+    if (activeState.filterSubTheme !== 'ALL') {
+      filtered = filtered.filter((e) => e && e.sub_theme === activeState.filterSubTheme);
+    }
 
     // Results Header Bar with Back Button
     const headerBar = document.createElement('div');
@@ -808,17 +859,85 @@ export async function initDictionaryUI(container, options = {}) {
     headerBar.querySelector('#cosy-back-to-home').addEventListener('click', () => {
       activeState.mode = 'home';
       activeState.value = null;
+      activeState.subValue = null;
       activeState.searchQuery = '';
       activeState.visibleCount = PAGE_SIZE;
       activeState.expandedEntryId = null;
       activeState.filterLevel = 'ALL';
       activeState.filterForm = 'ALL';
+      activeState.filterSubTheme = 'ALL';
       searchInput.value = '';
       clearSearchBtn.style.display = 'none';
       renderApp();
     });
 
     mainEl.appendChild(headerBar);
+
+    // Hierarchical Exploration Chips Section
+    if (activeState.mode === 'category' && activeState.value) {
+      const subThemesSet = subCategoryMap.get(activeState.value);
+      if (subThemesSet && subThemesSet.size > 0) {
+        const subNavSection = document.createElement('div');
+        subNavSection.className = 'cosy-dict-subnav-section';
+        subNavSection.style.cssText = 'margin: -10px 0 16px 0; padding: 12px 16px; background: var(--cosy-dict-card-bg, #fff); border: 1px solid var(--cosy-dict-border, #e0e0e0); border-radius: var(--cosy-dict-radius, 8px);';
+
+        let subNavHtml = `<div style="font-size: 13px; font-weight: 700; color: var(--cosy-dict-text-muted); margin-bottom: 8px;">Sub-Themes in ${escapeHtml(formatSlugLabel(activeState.value))}:</div>`;
+        subNavHtml += `<div class="cosy-dict-subnav-chips" style="display: flex; flex-wrap: wrap; gap: 8px;">`;
+        subNavHtml += `<button type="button" class="cosy-dict-chip ${!activeState.subValue ? 'is-active' : ''}" data-subnav="ALL" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${!activeState.subValue ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${!activeState.subValue ? '#fff' : '#333'};">All Sub-Themes</button>`;
+
+        for (const st of Array.from(subThemesSet).sort()) {
+          const stCount = entries.filter((e) => e.theme === activeState.value && e.sub_theme === st).length;
+          const isActive = activeState.subValue === st;
+          subNavHtml += `<button type="button" class="cosy-dict-chip ${isActive ? 'is-active' : ''}" data-subnav="${st}" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${isActive ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${isActive ? '#fff' : '#333'};">${escapeHtml(formatSlugLabel(st))} (${stCount})</button>`;
+        }
+        subNavHtml += `</div>`;
+        subNavSection.innerHTML = subNavHtml;
+
+        subNavSection.querySelectorAll('[data-subnav]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const val = btn.getAttribute('data-subnav');
+            activeState.subValue = val === 'ALL' ? null : val;
+            activeState.visibleCount = PAGE_SIZE;
+            renderApp();
+          });
+        });
+
+        mainEl.appendChild(subNavSection);
+      }
+    } else if (activeState.mode === 'level' && activeState.value) {
+      const themesSet = levelThemeMap.get(activeState.value);
+      if (themesSet && themesSet.size > 0) {
+        const subNavSection = document.createElement('div');
+        subNavSection.className = 'cosy-dict-subnav-section';
+        subNavSection.style.cssText = 'margin: -10px 0 16px 0; padding: 12px 16px; background: var(--cosy-dict-card-bg, #fff); border: 1px solid var(--cosy-dict-border, #e0e0e0); border-radius: var(--cosy-dict-radius, 8px);';
+
+        let subNavHtml = `<div style="font-size: 13px; font-weight: 700; color: var(--cosy-dict-text-muted); margin-bottom: 8px;">Themes in Level ${activeState.value}:</div>`;
+        subNavHtml += `<div class="cosy-dict-subnav-chips" style="display: flex; flex-wrap: wrap; gap: 8px;">`;
+        subNavHtml += `<button type="button" class="cosy-dict-chip ${!activeState.subValue ? 'is-active' : ''}" data-subnav-theme="ALL" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${!activeState.subValue ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${!activeState.subValue ? '#fff' : '#333'};">All Themes</button>`;
+
+        for (const th of Array.from(themesSet).sort()) {
+          const thCount = entries.filter((e) => e.level === activeState.value && e.theme === th).length;
+          const isActive = activeState.subValue === th;
+          subNavHtml += `<button type="button" class="cosy-dict-chip ${isActive ? 'is-active' : ''}" data-subnav-theme="${th}" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${isActive ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${isActive ? '#fff' : '#333'};">${escapeHtml(formatSlugLabel(th))} (${thCount})</button>`;
+        }
+        subNavHtml += `</div>`;
+        subNavSection.innerHTML = subNavHtml;
+
+        subNavSection.querySelectorAll('[data-subnav-theme]').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const val = btn.getAttribute('data-subnav-theme');
+            activeState.subValue = val === 'ALL' ? null : val;
+            activeState.visibleCount = PAGE_SIZE;
+            renderApp();
+          });
+        });
+
+        mainEl.appendChild(subNavSection);
+      }
+    }
+
+    // Extract available sub-themes in current pre-filtered dataset for toolbar filter dropdown
+    const availableSubThemes = Array.from(new Set(filtered.map((e) => e && e.sub_theme).filter(Boolean))).sort();
 
     // Multi-Facet Filter Toolbar Controls
     const filterToolbar = document.createElement('div');
@@ -838,6 +957,16 @@ export async function initDictionaryUI(container, options = {}) {
         <option value="phrase" ${activeState.filterForm === 'phrase' ? 'selected' : ''}>Phrases</option>
         <option value="idiom" ${activeState.filterForm === 'idiom' ? 'selected' : ''}>Idioms</option>
       </select>
+      ${
+        availableSubThemes.length > 0
+          ? `
+        <select class="cosy-dict-filter-select" id="cosy-filter-subtheme-select" aria-label="Filter by Sub-Theme">
+          <option value="ALL" ${activeState.filterSubTheme === 'ALL' ? 'selected' : ''}>All Sub-Themes</option>
+          ${availableSubThemes.map((st) => `<option value="${st}" ${activeState.filterSubTheme === st ? 'selected' : ''}>${escapeHtml(formatSlugLabel(st))}</option>`).join('')}
+        </select>
+      `
+          : ''
+      }
     `;
 
     filterToolbar.querySelector('#cosy-filter-level-select').addEventListener('change', (e) => {
@@ -845,6 +974,15 @@ export async function initDictionaryUI(container, options = {}) {
       activeState.visibleCount = PAGE_SIZE;
       renderApp();
     });
+
+    const subThemeSelect = filterToolbar.querySelector('#cosy-filter-subtheme-select');
+    if (subThemeSelect) {
+      subThemeSelect.addEventListener('change', (e) => {
+        activeState.filterSubTheme = e.target.value;
+        activeState.visibleCount = PAGE_SIZE;
+        renderApp();
+      });
+    }
 
     filterToolbar.querySelector('#cosy-filter-form-select').addEventListener('change', (e) => {
       activeState.filterForm = e.target.value;
@@ -1041,12 +1179,15 @@ export async function initDictionaryUI(container, options = {}) {
 
     card.appendChild(header);
 
-    // Domain Tags Row
-    if (lightweightEntry.domain || lightweightEntry.theme) {
+    // Category, Sub-Theme & Domain Tags Row
+    if (lightweightEntry.domain || lightweightEntry.theme || lightweightEntry.sub_theme) {
       const tagsRow = document.createElement('div');
       tagsRow.className = 'cosy-dict-tags-row';
       if (lightweightEntry.theme) {
         tagsRow.innerHTML += `<span class="cosy-dict-tag-chip">Category: ${escapeHtml(formatSlugLabel(lightweightEntry.theme))}</span>`;
+      }
+      if (lightweightEntry.sub_theme) {
+        tagsRow.innerHTML += `<span class="cosy-dict-tag-chip cosy-dict-tag-subtheme" style="background: rgba(65, 107, 73, 0.1); color: var(--cosy-dict-accent, #416b49);">Sub-theme: ${escapeHtml(formatSlugLabel(lightweightEntry.sub_theme))}</span>`;
       }
       if (lightweightEntry.domain) {
         const doms = lightweightEntry.domain.split(',').map((d) => d.trim());
