@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top 10 Verbs Conjugation Engine — COSYdata</title>
+  <meta name="description" content="Interactive present simple verb conjugation tool for COSYmagazine's Top 10 Verbs series (Part 1, Part 2, Part 3) across 14 languages." />
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/top10-verbs.html" />
+
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
+  <link rel="stylesheet" href="./shared/dictionary-ui.css" />
+  <style>
+    :root {
+      --cosy-bg: var(--cosy-color-cream, #fdfcf8);
+      --cosy-card-bg: #ffffff;
+      --cosy-text: #2a2a2a;
+      --cosy-muted: #666666;
+      --cosy-sage: #416b49;
+      --cosy-sage-light: #eaf1eb;
+      --cosy-border: rgba(65, 107, 73, 0.15);
+      --cosy-accent: #d97706;
+      --cosy-accent-bg: #fef3c7;
+      --cosy-radius: 12px;
+      --cosy-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--cosy-bg);
+      color: var(--cosy-text);
+      font-family: var(--cosy-font-sans, 'Nunito', 'DM Sans', sans-serif);
+      line-height: 1.6;
+    }
+    .hero {
+      background-color: #ffffff;
+      border-bottom: 1px solid var(--cosy-border);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 18px rgba(65, 107, 73, 0.06);
+    }
+    .hero-badge {
+      display: inline-block;
+      background-color: var(--cosy-sage-light);
+      color: var(--cosy-sage);
+      font-weight: 700;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .hero-title {
+      font-family: var(--cosy-font-serif, 'Fraunces', 'Lora', serif);
+      font-size: 34px;
+      margin: 0 0 10px 0;
+      color: var(--cosy-sage);
+    }
+    .hero-subtitle {
+      font-size: 16px;
+      color: var(--cosy-muted);
+      max-width: 720px;
+      margin: 0 auto 20px auto;
+    }
+    .hero-pills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: #f3f4f1;
+      color: var(--cosy-text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+    }
+    .pill-btn:hover, .pill-btn.active {
+      background: var(--cosy-sage);
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    /* Filter Controls */
+    .filter-card {
+      background-color: #ffffff;
+      border: 1px solid var(--cosy-border);
+      border-radius: var(--cosy-radius);
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: var(--cosy-shadow);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .filter-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--cosy-sage);
+    }
+    .btn-toggle {
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--cosy-border);
+      background: #f9f8f3;
+      color: var(--cosy-text);
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .btn-toggle:hover {
+      background: #eef2ed;
+      border-color: var(--cosy-sage);
+    }
+    .btn-toggle.active {
+      background: var(--cosy-sage);
+      color: #ffffff;
+      border-color: var(--cosy-sage);
+    }
+
+    select, input[type="text"] {
+      padding: 8px 12px;
+      border: 1px solid var(--cosy-border);
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      background: #ffffff;
+    }
+    select:focus, input[type="text"]:focus {
+      border-color: var(--cosy-sage);
+      box-shadow: 0 0 0 3px rgba(65, 107, 73, 0.1);
+    }
+
+    /* Verb Display Grid */
+    .verbs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 24px;
+    }
+    .verb-card {
+      background: #ffffff;
+      border: 1px solid var(--cosy-border);
+      border-radius: var(--cosy-radius);
+      padding: 20px;
+      box-shadow: var(--cosy-shadow);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .verb-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+    .verb-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed var(--cosy-border);
+    }
+    .verb-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--cosy-sage);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+    }
+    .part-badge {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background-color: var(--cosy-accent-bg);
+      color: var(--cosy-accent);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .verb-infinitive {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--cosy-text);
+      margin-bottom: 6px;
+    }
+    .verb-notes {
+      font-size: 12px;
+      color: var(--cosy-muted);
+      background-color: #f9f8f3;
+      padding: 6px 10px;
+      border-radius: 6px;
+      margin-bottom: 14px;
+      line-height: 1.4;
+      border-left: 3px solid var(--cosy-sage);
+    }
+
+    .conjugation-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .conjugation-table th, .conjugation-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid #f0f0f0;
+      text-align: left;
+    }
+    .conjugation-table th {
+      background-color: var(--cosy-sage-light);
+      color: var(--cosy-sage);
+      font-weight: 700;
+    }
+    .conjugation-table tr:last-child td {
+      border-bottom: none;
+    }
+    .pronoun-col {
+      color: var(--cosy-muted);
+      font-weight: 600;
+      width: 45%;
+    }
+    .verb-col {
+      font-weight: 700;
+      color: var(--cosy-text);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+      border-top: 1px solid var(--cosy-border);
+      color: var(--cosy-muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Ecosystem Strip Nav -->
+  <div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
+    <div class="cosy-strip-inner">
+      <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
+      <ul class="cosy-strip-links">
+        <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages</a></li>
+        <li><a href="./index.html" class="cosy-strip-link active">COSYdata 📚</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
+        <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <header class="hero">
+    <span class="hero-badge">COSYmagazine Series</span>
+    <h1 class="hero-title">Top 10 Core Verbs Conjugation Engine</h1>
+    <p class="hero-subtitle">
+      Present Simple conjugation tables across 14 languages for COSYmagazine's Top 10 Verbs articles (Part 1, Part 2 &amp; Part 3).
+    </p>
+    <div class="hero-pills">
+      <a href="./index.html" class="pill-btn">← Back to COSYdata Hub</a>
+      <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" class="pill-btn">COSYlanguages Main Site 🌐</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filter-card">
+      <div class="filter-group">
+        <span class="filter-label">Article Part:</span>
+        <button class="btn-toggle active" onclick="setPart(0)" id="part-btn-0">All Parts (40 Verbs)</button>
+        <button class="btn-toggle" onclick="setPart(1)" id="part-btn-1">Part 1 (Core Daily)</button>
+        <button class="btn-toggle" onclick="setPart(2)" id="part-btn-2">Part 2 (Actions &amp; Comm.)</button>
+        <button class="btn-toggle" onclick="setPart(3)" id="part-btn-3">Part 3 (Mind &amp; Exchange)</button>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Target Language:</span>
+        <select id="lang-select" onchange="renderVerbs()">
+          <option value="en">🇬🇧 English (en)</option>
+          <option value="fr" selected>🇫🇷 Français (fr)</option>
+          <option value="it">🇮🇹 Italiano (it)</option>
+          <option value="de">🇩🇪 Deutsch (de)</option>
+          <option value="ru">🇷🇺 Русский (ru)</option>
+          <option value="el">🇬🇷 Ελληνικά (el)</option>
+          <option value="es">🇪🇸 Español (es)</option>
+          <option value="pt">🇵🇹 Português (pt)</option>
+          <option value="hy">🇦🇲 Հայերեն (hy)</option>
+          <option value="ka">🇬🇪 ქართული (ka)</option>
+          <option value="ba">🌐 Башҡортса (ba)</option>
+          <option value="br">🏴 Brezhoneg (br)</option>
+          <option value="cv">🌐 Чӑвашла (cv)</option>
+          <option value="tt">🌐 Татарча (tt)</option>
+        </select>
+
+        <input type="text" id="search-input" placeholder="Search verbs..." oninput="renderVerbs()" />
+      </div>
+    </section>
+
+    <div class="verbs-grid" id="verbs-grid">
+      <!-- Dynamically generated verb cards -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright (c) 2020–2026 COSY Languages. All rights reserved.</p>
+  </footer>
+
+  <script>
+    let verbsData = [];
+    let currentPart = 0;
+
+    const flags = {
+      en: '🇬🇧', fr: '🇫🇷', it: '🇮🇹', de: '🇩🇪', ru: '🇷🇺', el: '🇬🇷', es: '🇪🇸', pt: '🇵🇹',
+      hy: '🇦🇲', ka: '🇬🇪', ba: '🌐', br: '🏴', cv: '🌐', tt: '🌐'
+    };
+
+    async function init() {
+      try {
+        const res = await fetch('./shared/top10-verbs.json');
+        verbsData = await res.json();
+        renderVerbs();
+      } catch (err) {
+        document.getElementById('verbs-grid').innerHTML = '<p style="color: red;">Error loading verb conjugations data.</p>';
+      }
+    }
+
+    function setPart(part) {
+      currentPart = part;
+      for (let i = 0; i <= 3; i++) {
+        const btn = document.getElementById(`part-btn-${i}`);
+        if (btn) btn.classList.toggle('active', i === part);
+      }
+      renderVerbs();
+    }
+
+    function renderVerbs() {
+      const grid = document.getElementById('verbs-grid');
+      const lang = document.getElementById('lang-select').value;
+      const search = document.getElementById('search-input').value.toLowerCase().trim();
+
+      const filtered = verbsData.filter(v => {
+        if (currentPart !== 0 && v.part !== currentPart) return false;
+        if (search) {
+          const matchTitle = v.english_title.toLowerCase().includes(search);
+          const langData = v.languages[lang];
+          const matchInf = langData && langData.infinitive.toLowerCase().includes(search);
+          return matchTitle || matchInf;
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `<div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--cosy-muted);">No verbs found matching your filters.</div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(v => {
+        const langInfo = v.languages[lang] || { infinitive: 'N/A', notes: 'No notes', conjugation: {} };
+        const flag = flags[lang] || '🌐';
+
+        const conjRows = Object.entries(langInfo.conjugation || {}).map(([pronoun, form]) => `
+          <tr>
+            <td class="pronoun-col">${pronoun}</td>
+            <td class="verb-col">${form}</td>
+          </tr>
+        `).join('');
+
+        return `
+          <div class="verb-card">
+            <div>
+              <div class="verb-header">
+                <h3 class="verb-title"><span>${v.emoji}</span> ${v.english_title}</h3>
+                <span class="part-badge">Part ${v.part}</span>
+              </div>
+              <div class="verb-infinitive">${flag} ${langInfo.infinitive}</div>
+              <div class="verb-notes">${langInfo.notes || 'Standard present simple conjugation.'}</div>
+            </div>
+            <table class="conjugation-table">
+              <thead>
+                <tr>
+                  <th>Pronoun</th>
+                  <th>Present Form</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${conjRows}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }).join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>
