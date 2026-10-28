@@ -3644,46 +3644,46 @@
   ],
   "repo_map": [
     {
-      "domain": "Vocabulary (V*) and lexical types (LT*)",
+      "domain": "Vocabulary lexical sets (V*) and lexical types (LT*)",
       "repo": "COSYdata",
-      "structure": "vocabulary/<lang>/<level>/<theme>.json",
-      "also": "COSYlanguages practise, COSYgames, COSYmanuals, COSYplatform"
+      "scope": "Central repository for raw vocabulary datasets, headwords, search indexes, and functional phrase entries.",
+      "structure": "vocabulary/<lang>/<level>/<theme>.json and functional-phrases/<lang>/<level>/<situation>.json",
+      "consumers": "COSYlanguages dictionary & practice, COSYplatform course vocabulary, COSYgames, COSYmanuals"
     },
     {
-      "domain": "Grammar (G*) reference tables",
-      "repo": "COSYtools",
-      "structure": "one engine per feature (conjugation, gender/case, prepositional regimes)",
-      "also": "COSYlanguages grammar manuals, COSYmanuals"
-    },
-    {
-      "domain": "Grammar manuals, vocabulary manuals, communication manuals",
+      "domain": "Grammar manuals (G*) and Communication manuals (S*, W*)",
       "repo": "COSYmanuals",
-      "structure": "manual per language/course/level",
-      "also": "COSYplatform (grammar manuals reused)"
+      "scope": "Comprehensive grammar manuals, communication manuals, and structured language reference guides.",
+      "structure": "manuals/<lang>/<level>/grammar/ and manuals/<lang>/<level>/communication/",
+      "consumers": "COSYplatform lesson links, COSYlanguages reference portal"
     },
     {
-      "domain": "Speaking (S*), Writing (W*), Situational (SIT*)",
+      "domain": "Interactive course curriculums, lessons, situational scenarios (SIT*), receptive skills (R*), culture (C*), mediation (M*)",
       "repo": "COSYplatform",
-      "structure": "curriculums + roadmaps + lessons",
-      "also": "COSYmanuals (communication manuals)"
+      "scope": "Interactive learning platform hosting course roadmaps, structured lesson activities, and practice modules.",
+      "structure": "curriculums/<course>/<level>/ and lessons/<lesson-id>/",
+      "consumers": "COSYplatform web app, COSYlanguages portal"
     },
     {
-      "domain": "Listening/Reading (R*), Culture (C*), Mediation/strategies (M*)",
-      "repo": "COSYplatform",
-      "structure": "lesson activities",
-      "also": "COSYlanguages blog/practise"
+      "domain": "Grammar lookup engines, conjugation tables & linguistic reference tools",
+      "repo": "COSYtools",
+      "scope": "Framework-free web engines and tools for conjugation, declension, verb prepositions, and phonetic lookups.",
+      "structure": "tools/<tool-id>/",
+      "consumers": "COSYdata vocabulary related_forms, COSYlanguages portal"
     },
     {
-      "domain": "Event sessions",
+      "domain": "Speaking session vocabulary & conversation topics",
       "repo": "COSYevents",
-      "structure": "sessions -> lessons",
-      "also": "COSYplatform converts, COSYlanguages catalog"
+      "scope": "Conversation club session guides and speaking topic vocabularies.",
+      "structure": "sessions/<session-id>/",
+      "consumers": "COSYdata (imported via scripts/import-events-vocab.cjs)"
     },
     {
-      "domain": "Games and drills",
+      "domain": "Interactive games, flashcard drills & vocabulary games",
       "repo": "COSYgames",
-      "structure": "games tagged by theme/level",
-      "also": "COSYlanguages practise"
+      "scope": "Gamified practice engines and drills tagged by CEFR level and lexical theme.",
+      "structure": "games/<game-id>/",
+      "consumers": "COSYlanguages practice center"
     }
   ],
   "events_map": {

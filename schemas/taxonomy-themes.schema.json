@@ -82,7 +82,9 @@
         "properties": {
           "domain": { "type": "string" },
           "repo": { "type": "string" },
+          "scope": { "type": "string" },
           "structure": { "type": "string" },
+          "consumers": { "type": "string" },
           "also": { "type": "string" }
         },
         "additionalProperties": false
