@@ -12,6 +12,245 @@
 
 import { resolveVocab, hydrateVocabElements } from './vocab-resolver.js';
 
+
+const TAXONOMY_LOCALIZATIONS = {
+  en: {
+    titleSuffix: "Dictionary",
+    words: "words",
+    searchPlaceholder: "Search words...",
+    language: "Language",
+    primaryCategoryTitle: "🎯 Primary Category: CEFR Proficiency Level",
+    primaryCategorySubtitle: "Select a level to practice all vocabulary curated specifically for your proficiency stage:",
+    secondaryCategoryTitle: "📚 Secondary Category: Lexical Themes & Sub-Themes",
+    secondaryCategorySubtitle: "Explore vocabulary grouped by communicative topics and detailed sub-themes:",
+    browseAlphabetTitle: "🔤 Browse by Alphabet",
+    browseTrackTitle: "Browse by Course Track",
+    myList: "My List",
+    recentlyViewed: "Recently Viewed",
+    wordOfTheDay: "Word of the Day",
+    fetchingDefinition: "Fetching definition...",
+    backToHome: "← Back to Dictionary Home",
+    searchResultsFor: "Search Results for",
+    wordsStartingWith: "Words starting with",
+    category: "Category",
+    level: "CEFR Level",
+    track: "Course Track",
+    subThemesIn: "Sub-Themes in",
+    themesInLevel: "Themes in Level",
+    allSubThemes: "All Sub-Themes",
+    allThemes: "All Themes",
+    filterResults: "Filter Results:",
+    allLevels: "All CEFR Levels",
+    allForms: "All Parts of Speech",
+    noMatchingWords: "No matching words found for this selection.",
+    showMore: "Show More",
+    subThemesCount: "sub-themes",
+    levelPrefix: "Level"
+  },
+  fr: {
+    titleSuffix: "Dictionnaire",
+    words: "mots",
+    searchPlaceholder: "Rechercher des mots...",
+    language: "Langue",
+    primaryCategoryTitle: "🎯 Catégorie principale: Niveau CECRL",
+    primaryCategorySubtitle: "Sélectionnez un niveau pour pratiquer le vocabulaire adapté à votre étape d apprentissage:",
+    secondaryCategoryTitle: "📚 Catégorie secondaire: Thèmes lexicaux & Sous-thèmes",
+    secondaryCategorySubtitle: "Explorez le vocabulaire regroupé par thèmes de communication et sous-thèmes détaillés:",
+    browseAlphabetTitle: "🔤 Parcourir par ordre alphabétique",
+    browseTrackTitle: "Parcourir par parcours de cours",
+    myList: "Ma liste",
+    recentlyViewed: "Vus récemment",
+    wordOfTheDay: "Mot du jour",
+    fetchingDefinition: "Chargement de la définition...",
+    backToHome: "← Retour à l accueil du dictionnaire",
+    searchResultsFor: "Résultats de recherche pour",
+    wordsStartingWith: "Mots commençant par",
+    category: "Catégorie",
+    level: "Niveau CECRL",
+    track: "Parcours de cours",
+    subThemesIn: "Sous-thèmes dans",
+    themesInLevel: "Thèmes au niveau",
+    allSubThemes: "Tous les sous-thèmes",
+    allThemes: "Tous les thèmes",
+    filterResults: "Filtrer les résultats:",
+    allLevels: "Tous les niveaux",
+    allForms: "Toutes les catégories grammaticales",
+    noMatchingWords: "Aucun mot correspondant trouvé pour cette sélection.",
+    showMore: "Afficher plus",
+    subThemesCount: "sous-thèmes",
+    levelPrefix: "Niveau",
+    themes: {
+      housing: "Logement & Maison",
+      family: "Famille & Proches",
+      food: "Nourriture & Boissons",
+      work: "Travail & Professions",
+      education: "Éducation & Écoles",
+      health: "Santé & Corps",
+      travel: "Voyages & Transport",
+      shopping: "Achats & Commerces",
+      money: "Argent & Finance",
+      time: "Temps & Calendrier",
+      weather: "Météo & Climat",
+      nature: "Nature & Environnement",
+      technology: "Technologie & Médias",
+      communication: "Communication",
+      sports: "Sports & Loisirs",
+      arts: "Arts & Culture",
+      emotions: "Émotions & Sentiments",
+      descriptors: "Descriptions & Adjectifs",
+      actions: "Actions & Verbes",
+      society: "Société & Politique",
+      law: "Droit & Justice",
+      business: "Affaires & Commerce",
+      science: "Science",
+      city: "Ville & Lieux",
+      objects: "Objets du quotidien",
+      numbers: "Nombres & Mesures",
+      general: "Vocabulaire général"
+    }
+  },
+  ru: {
+    titleSuffix: "Словарь",
+    words: "слов",
+    searchPlaceholder: "Поиск слов...",
+    language: "Язык",
+    primaryCategoryTitle: "🎯 Основная категория: Уровень владения CEFR",
+    primaryCategorySubtitle: "Выберите уровень для практики лексики вашего этапа обучения:",
+    secondaryCategoryTitle: "📚 Вторичная категория: Лексические темы и подтемы",
+    secondaryCategorySubtitle: "Изучайте слова, сгруппированные по коммуникативным темам и детальным подтемам:",
+    browseAlphabetTitle: "🔤 Просмотр по алфавиту",
+    browseTrackTitle: "Просмотр по курсам",
+    myList: "Мой список",
+    recentlyViewed: "Недавно просмотренные",
+    wordOfTheDay: "Слово дня",
+    fetchingDefinition: "Загрузка определения...",
+    backToHome: "← Назад на главную словаря",
+    searchResultsFor: "Результаты поиска по запросу",
+    wordsStartingWith: "Слова на букву",
+    category: "Категория",
+    level: "Уровень CEFR",
+    track: "Курс",
+    subThemesIn: "Подтемы в категории",
+    themesInLevel: "Темы уровня",
+    allSubThemes: "Все подтемы",
+    allThemes: "Все темы",
+    filterResults: "Фильтр результатов:",
+    allLevels: "Все уровни",
+    allForms: "Все части речи",
+    noMatchingWords: "Слова по данному запросу не найдены.",
+    showMore: "Показать еще",
+    subThemesCount: "подтем",
+    levelPrefix: "Уровень",
+    themes: {
+      housing: "Жилье и дом",
+      family: "Семья и родственники",
+      food: "Еда и напитки",
+      work: "Работа и профессии",
+      education: "Образование и учеба",
+      health: "Здоровье и медицина",
+      travel: "Путешествия и туризм",
+      shopping: "Покупки и магазины",
+      money: "Деньги и финансы",
+      time: "Время и календарь",
+      weather: "Погода и климат",
+      nature: "Природа и животные",
+      technology: "Технологии и интернет",
+      communication: "Общение и речь",
+      sports: "Спорт и фитнес",
+      arts: "Искусство и культура",
+      emotions: "Чувства и эмоции",
+      descriptors: "Описание и свойства",
+      actions: "Действия и глаголы",
+      society: "Общество и политика",
+      law: "Право и закон",
+      business: "Бизнес и коммерция",
+      science: "Наука",
+      city: "Город и места",
+      objects: "Предметы и вещи",
+      numbers: "Числа и счет",
+      general: "Общие слова"
+    }
+  },
+  tt: {
+    titleSuffix: "Сүзлек",
+    words: "сүз",
+    searchPlaceholder: "Сүзләрне эзләү...",
+    language: "Тел",
+    primaryCategoryTitle: "🎯 Төп категория: CEFR белем дәрәҗәсе",
+    primaryCategorySubtitle: "Бүгенге белем дәрәҗәгезгә туры килгән сүзләрне сайлап өйрәнегез:",
+    secondaryCategoryTitle: "📚 Икенчел категория: Лексик темалар һәм ярдәмче темалар",
+    secondaryCategorySubtitle: "Сөйләм темалары һәм җентекле ярдәмче темалар буенча төркемләнгән сүзләр:",
+    browseAlphabetTitle: "🔤 Алфавит буенча карау",
+    browseTrackTitle: "Курслар буенча карау",
+    myList: "Минем исемлек",
+    recentlyViewed: "Соңгы каралганнар",
+    wordOfTheDay: "Көн сүзе",
+    fetchingDefinition: "Аныклама йөкләнә...",
+    backToHome: "← Сүзлекнең баш биренә кайту",
+    searchResultsFor: "Эзләү нәтиҗәләре:",
+    wordsStartingWith: "Бу хәрефкә башланган сүзләр:",
+    category: "Категория",
+    level: "CEFR дәрәҗәсе",
+    track: "Курс",
+    subThemesIn: "Ярдәмче темалар:",
+    themesInLevel: "Дәрәҗә темалары:",
+    allSubThemes: "БАРЛЫК ярдәмче темалар",
+    allThemes: "БАРЛЫК темалар",
+    filterResults: "Нәтиҗәләрне сүзү:",
+    allLevels: "БАРЛЫК дәрәҗәләр",
+    allForms: "БАРЛЫК сүз төркемнәре",
+    noMatchingWords: "Бу сайлау буенча бернинди сүз дә табылмады.",
+    showMore: "Күбрәк күрсәтү",
+    subThemesCount: "ярдәмче тема",
+    levelPrefix: "Дәрәҗә",
+    themes: {
+      housing: "Торак һәм өй",
+      family: "Гаилә һәм туганнар",
+      food: "Ит-сүт һәм ашамлыклар",
+      work: "Эш һәм һөнәрләр",
+      education: "Мәгариф һәм уку",
+      health: "Сәламәтлек",
+      travel: "Сәяхәт",
+      shopping: "Сатып алулар",
+      money: "Акча һәм финанс",
+      time: "Вакыт һәм календарь",
+      weather: "Һава торышы",
+      nature: "Табигать",
+      technology: "Технологияләр",
+      communication: "Сөйләшү һәм аралашу",
+      sports: "Спорт",
+      arts: "Сәнгать һәм мәдәният",
+      emotions: "Хисләр һәм тойгылар",
+      descriptors: "Сыйфатлар",
+      actions: "Хәрәкәтләр һәм фигыльләр",
+      society: "Cәмгыять",
+      law: "Cайлау һәм закон",
+      business: "Бизнес",
+      science: "Фән",
+      city: "Шәһәр һәм урыннар",
+      objects: "Нәрcәләр",
+      numbers: "Саннар",
+      general: "Гомуми сүзләр"
+    }
+  }
+};
+
+function getI18n(lang) {
+  return TAXONOMY_LOCALIZATIONS[lang] || TAXONOMY_LOCALIZATIONS["en"];
+}
+
+function formatSlugLabelLocalized(str, lang) {
+  if (!str) return "";
+  const i18n = getI18n(lang);
+  if (i18n.themes && i18n.themes[str]) {
+    return i18n.themes[str];
+  }
+  return str
+    .replace(/_/g, " ")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 const DEFAULT_BASE_URL = 'https://cosylanguages.github.io/COSYdata/';
 const ALL_CEFR_LEVELS = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const KNOWN_DOMAINS = [
@@ -318,11 +557,12 @@ export async function initDictionaryUI(container, options = {}) {
   const titleEl = document.createElement('h1');
   titleEl.className = 'cosy-dict-title';
   const langObj = SUPPORTED_LANGUAGES.find((l) => l.code === lang) || { name: lang.toUpperCase() };
-  titleEl.textContent = `${langObj.name} Dictionary`;
+  const i18n = getI18n(lang);
+  titleEl.textContent = `${langObj.name} ${i18n.titleSuffix || "Dictionary"}`;
 
   const wordCountBadge = document.createElement('span');
   wordCountBadge.className = 'cosy-dict-word-count';
-  wordCountBadge.textContent = `${entries.length.toLocaleString()} words`;
+  wordCountBadge.textContent = `${entries.length.toLocaleString()} ${i18n.words || "words"}`;
   titleEl.appendChild(wordCountBadge);
 
   titleRow.appendChild(titleEl);
@@ -358,7 +598,7 @@ export async function initDictionaryUI(container, options = {}) {
   searchHeroSection.innerHTML = `
     <div class="cosy-dict-search-box">
       <span class="cosy-dict-search-icon" aria-hidden="true">🔍</span>
-      <input type="text" class="cosy-dict-search-input" id="cosy-hero-search-input" placeholder="Search ${entries.length.toLocaleString()} ${langObj.name} words..." aria-label="Search words" autofocus autocomplete="off" />
+      <input type="text" class="cosy-dict-search-input" id="cosy-hero-search-input" placeholder="${i18n.searchPlaceholder || "Search words..."}" aria-label="Search words" autofocus autocomplete="off" />
       <button type="button" class="cosy-dict-search-clear-btn" aria-label="Clear search" style="display: none;">×</button>
       <div class="cosy-dict-autocomplete" id="cosy-autocomplete-list" style="display: none;" role="listbox"></div>
     </div>
@@ -587,8 +827,8 @@ export async function initDictionaryUI(container, options = {}) {
       const levelSection = document.createElement('section');
       levelSection.className = 'cosy-dict-browse-section';
       levelSection.innerHTML = `
-        <h2 class="cosy-dict-section-title">🎯 Primary Category: CEFR Proficiency Level</h2>
-        <p class="cosy-dict-section-subtitle" style="margin-bottom: 12px; color: var(--cosy-dict-text-muted); font-size: 14px;">Select a level to practice all vocabulary curated specifically for your proficiency stage:</p>
+        <h2 class="cosy-dict-section-title">${i18n.primaryCategoryTitle || "🎯 Primary Category: CEFR Proficiency Level"}</h2>
+        <p class="cosy-dict-section-subtitle" style="margin-bottom: 12px; color: var(--cosy-dict-text-muted); font-size: 14px;">${i18n.primaryCategorySubtitle || "Select a level:"}</p>
         <div class="cosy-dict-level-grid">
           ${levels
             .map((lvl) => {
@@ -626,8 +866,8 @@ export async function initDictionaryUI(container, options = {}) {
       const catSection = document.createElement('section');
       catSection.className = 'cosy-dict-browse-section';
       catSection.innerHTML = `
-        <h2 class="cosy-dict-section-title">📚 Secondary Category: Lexical Themes &amp; Sub-Themes</h2>
-        <p class="cosy-dict-section-subtitle" style="margin-bottom: 12px; color: var(--cosy-dict-text-muted); font-size: 14px;">Explore vocabulary grouped by communicative topics and detailed sub-themes:</p>
+        <h2 class="cosy-dict-section-title">${i18n.secondaryCategoryTitle || "📚 Secondary Category: Lexical Themes & Sub-Themes"}</h2>
+        <p class="cosy-dict-section-subtitle" style="margin-bottom: 12px; color: var(--cosy-dict-text-muted); font-size: 14px;">${i18n.secondaryCategorySubtitle || "Explore vocabulary:"}</p>
         <div class="cosy-dict-tile-grid">
           ${categories
             .map((cat) => {
@@ -636,7 +876,7 @@ export async function initDictionaryUI(container, options = {}) {
               const subCount = subSet ? subSet.size : 0;
               return `
                 <button type="button" class="cosy-dict-tile-card" data-category="${cat}">
-                  <span class="cosy-dict-tile-name">${escapeHtml(formatSlugLabel(cat))}</span>
+                  <span class="cosy-dict-tile-name">${escapeHtml(formatSlugLabelLocalized(cat, lang))}</span>
                   <span class="cosy-dict-tile-count">${count.toLocaleString()} words ${subCount > 0 ? `(${subCount} sub-themes)` : ''}</span>
                 </button>
               `;
@@ -667,7 +907,7 @@ export async function initDictionaryUI(container, options = {}) {
       const letterSection = document.createElement('section');
       letterSection.className = 'cosy-dict-browse-section';
       letterSection.innerHTML = `
-        <h2 class="cosy-dict-section-title">🔤 Browse by Alphabet</h2>
+        <h2 class="cosy-dict-section-title">${i18n.browseAlphabetTitle || "🔤 Browse by Alphabet"}</h2>
         <div class="cosy-dict-letter-row">
           ${letters
             .map((ltr) => `<button type="button" class="cosy-dict-letter-btn" data-letter="${ltr}">${ltr}</button>`)
@@ -755,7 +995,7 @@ export async function initDictionaryUI(container, options = {}) {
               const count = entries.filter((e) => (e.domain || '').includes(dom)).length;
               return `
                 <button type="button" class="cosy-dict-domain-card" data-domain="${dom}">
-                  <strong>${escapeHtml(formatSlugLabel(dom))}</strong>
+                  <strong>${escapeHtml(formatSlugLabelLocalized(dom, lang))}</strong>
                   <span>${count.toLocaleString()} words</span>
                 </button>
               `;
@@ -888,7 +1128,7 @@ export async function initDictionaryUI(container, options = {}) {
         for (const st of Array.from(subThemesSet).sort()) {
           const stCount = entries.filter((e) => e.theme === activeState.value && e.sub_theme === st).length;
           const isActive = activeState.subValue === st;
-          subNavHtml += `<button type="button" class="cosy-dict-chip ${isActive ? 'is-active' : ''}" data-subnav="${st}" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${isActive ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${isActive ? '#fff' : '#333'};">${escapeHtml(formatSlugLabel(st))} (${stCount})</button>`;
+          subNavHtml += `<button type="button" class="cosy-dict-chip ${isActive ? 'is-active' : ''}" data-subnav="${st}" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${isActive ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${isActive ? '#fff' : '#333'};">${escapeHtml(formatSlugLabelLocalized(st, lang))} (${stCount})</button>`;
         }
         subNavHtml += `</div>`;
         subNavSection.innerHTML = subNavHtml;
@@ -918,7 +1158,7 @@ export async function initDictionaryUI(container, options = {}) {
         for (const th of Array.from(themesSet).sort()) {
           const thCount = entries.filter((e) => e.level === activeState.value && e.theme === th).length;
           const isActive = activeState.subValue === th;
-          subNavHtml += `<button type="button" class="cosy-dict-chip ${isActive ? 'is-active' : ''}" data-subnav-theme="${th}" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${isActive ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${isActive ? '#fff' : '#333'};">${escapeHtml(formatSlugLabel(th))} (${thCount})</button>`;
+          subNavHtml += `<button type="button" class="cosy-dict-chip ${isActive ? 'is-active' : ''}" data-subnav-theme="${th}" style="padding: 4px 10px; border-radius: 12px; font-size: 13px; cursor: pointer; border: 1px solid #ccc; background: ${isActive ? 'var(--cosy-dict-accent, #416b49)' : '#fff'}; color: ${isActive ? '#fff' : '#333'};">${escapeHtml(formatSlugLabelLocalized(th, lang))} (${thCount})</button>`;
         }
         subNavHtml += `</div>`;
         subNavSection.innerHTML = subNavHtml;
@@ -962,7 +1202,7 @@ export async function initDictionaryUI(container, options = {}) {
           ? `
         <select class="cosy-dict-filter-select" id="cosy-filter-subtheme-select" aria-label="Filter by Sub-Theme">
           <option value="ALL" ${activeState.filterSubTheme === 'ALL' ? 'selected' : ''}>All Sub-Themes</option>
-          ${availableSubThemes.map((st) => `<option value="${st}" ${activeState.filterSubTheme === st ? 'selected' : ''}>${escapeHtml(formatSlugLabel(st))}</option>`).join('')}
+          ${availableSubThemes.map((st) => `<option value="${st}" ${activeState.filterSubTheme === st ? 'selected' : ''}>${escapeHtml(formatSlugLabelLocalized(st, lang))}</option>`).join('')}
         </select>
       `
           : ''
