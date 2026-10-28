@@ -24,6 +24,7 @@ const DEFAULT_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
 const CACHE_PREFIX = 'cosydata:';
 
 const memoryCache = new Map();
+const inFlightRequests = new Map();
 
 function getStorage() {
   try {
@@ -84,17 +85,28 @@ function setCache(key, data, ttlMs = DEFAULT_TTL_MS) {
 }
 
 async function fetchJson(url) {
-  try {
-    const res = await fetch(url);
-    if (!res.ok) {
-      console.warn(`[COSYdata] Fetch failed (${res.status} ${res.statusText}): ${url}`);
-      return null;
-    }
-    return await res.json();
-  } catch (err) {
-    console.warn(`[COSYdata] Network or parsing error fetching ${url}: ${err.message}`);
-    return null;
+  if (inFlightRequests.has(url)) {
+    return inFlightRequests.get(url);
   }
+
+  const fetchPromise = (async () => {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) {
+        console.warn(`[COSYdata] Fetch failed (${res.status} ${res.statusText}): ${url}`);
+        return null;
+      }
+      return await res.json();
+    } catch (err) {
+      console.warn(`[COSYdata] Network or parsing error fetching ${url}: ${err.message}`);
+      return null;
+    } finally {
+      inFlightRequests.delete(url);
+    }
+  })();
+
+  inFlightRequests.set(url, fetchPromise);
+  return fetchPromise;
 }
 
 function handleFailure(message, options, error = null) {
@@ -316,7 +328,7 @@ export function extractVocabField(entry, field = 'word') {
   if (arrayIndexMatch) {
     const prop = arrayIndexMatch[1];
     const index = parseInt(arrayIndexMatch[2], 10);
-    if (Array.isArray(entry[prop]) && index < entry[prop].length) {
+    if (Array.isArray(entry[prop]) && index >= 0 && index < entry[prop].length) {
       return entry[prop][index];
     }
     return null;
@@ -346,11 +358,12 @@ export async function hydrateVocabElements(root = typeof document !== 'undefined
     return;
   }
 
-  const elements = root.querySelectorAll('[data-vocab]');
+  const elements = Array.from(root.querySelectorAll('[data-vocab]'));
+  if (elements.length === 0) return;
 
-  for (const el of elements) {
+  const tasks = elements.map(async (el) => {
     const ref = el.getAttribute('data-vocab');
-    if (!ref) continue;
+    if (!ref) return;
 
     const field = el.getAttribute('data-vocab-field') || 'word';
 
@@ -391,5 +404,7 @@ export async function hydrateVocabElements(root = typeof document !== 'undefined
         options.onError(ref, field, err);
       }
     }
-  }
+  });
+
+  await Promise.allSettled(tasks);
 }

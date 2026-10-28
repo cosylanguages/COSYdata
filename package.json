@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Canonical static data repository for the COSYlanguages ecosystem",
   "type": "module",
+  "types": "shared/types.d.ts",
   "scripts": {
     "audit": "node scripts/audit-a0-a1.cjs",
     "build": "npm run build:index && npm run build:flat-index && npm run build:search-index",
