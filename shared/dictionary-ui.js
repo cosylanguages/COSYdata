@@ -1427,25 +1427,36 @@ export async function initDictionaryUI(container, options = {}) {
       mainEl.appendChild(wotdSection);
 
       // Asynchronously resolve full WOTD entry
-      resolveVocab(wotdLightweight.id, { baseUrl }).then((fullWotd) => {
-        const wotdCardBody = wotdSection.querySelector('#cosy-wotd-card-body');
-        if (wotdCardBody && fullWotd) {
-          resolvedFullEntries.set(fullWotd.id, fullWotd);
-          const def = (fullWotd.definitions && fullWotd.definitions[0]) || '';
-          const ex = (fullWotd.examples && fullWotd.examples[0]) || '';
-          wotdCardBody.innerHTML = `
-            <div class="cosy-dict-wotd-header">
-              ${fullWotd.emoji ? `<span class="cosy-dict-wotd-emoji">${fullWotd.emoji}</span>` : ''}
-              <strong class="cosy-dict-wotd-word">${escapeHtml(fullWotd.word)}</strong>
-              ${fullWotd.transcription ? `<span class="cosy-dict-ipa">${escapeHtml(fullWotd.transcription)}</span>` : ''}
-              <span class="cosy-dict-badge cosy-dict-badge-form">${fullWotd.form || ''}</span>
-              <span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${(fullWotd.level || 'a1').toLowerCase()}">${fullWotd.level || ''}</span>
-            </div>
-            ${def ? `<p class="cosy-dict-wotd-def">${escapeHtml(def)}</p>` : ''}
-            ${ex ? `<blockquote class="cosy-dict-wotd-ex">"${escapeHtml(ex)}"</blockquote>` : ''}
-          `;
-        }
-      });
+      resolveVocab(wotdLightweight.id, { baseUrl })
+        .then((fullWotd) => {
+          const wotdCardBody = wotdSection.querySelector('#cosy-wotd-card-body');
+          if (wotdCardBody && fullWotd) {
+            resolvedFullEntries.set(fullWotd.id, fullWotd);
+            const def = (fullWotd.definitions && fullWotd.definitions[0]) || '';
+            const ex = (fullWotd.examples && fullWotd.examples[0]) || '';
+            wotdCardBody.innerHTML = `
+              <div class="cosy-dict-wotd-header">
+                ${fullWotd.emoji ? `<span class="cosy-dict-wotd-emoji">${fullWotd.emoji}</span>` : ''}
+                <strong class="cosy-dict-wotd-word">${escapeHtml(fullWotd.word)}</strong>
+                ${fullWotd.transcription ? `<span class="cosy-dict-ipa">${escapeHtml(fullWotd.transcription)}</span>` : ''}
+                <span class="cosy-dict-badge cosy-dict-badge-form">${fullWotd.form || ''}</span>
+                <span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${(fullWotd.level || 'a1').toLowerCase()}">${fullWotd.level || ''}</span>
+              </div>
+              ${def ? `<p class="cosy-dict-wotd-def">${escapeHtml(def)}</p>` : ''}
+              ${ex ? `<blockquote class="cosy-dict-wotd-ex">"${escapeHtml(ex)}"</blockquote>` : ''}
+            `;
+          }
+        })
+        .catch((err) => {
+          console.warn('[COSYdata UI] Failed to resolve full Word of the Day entry:', err);
+          const wotdCardBody = wotdSection.querySelector('#cosy-wotd-card-body');
+          if (wotdCardBody) {
+            const loadingEl = wotdCardBody.querySelector('.cosy-dict-wotd-loading');
+            if (loadingEl) {
+              loadingEl.textContent = 'Definition unavailable.';
+            }
+          }
+        });
     }
 
     // 2. Primary Category Level (Level 1): CEFR Level Cards (A0–C2)

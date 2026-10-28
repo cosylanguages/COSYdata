@@ -413,6 +413,7 @@ export function attachPopupHandler(root = typeof document !== 'undefined' ? docu
   if (doc) injectStyles(doc);
 
   let currentPopup = null;
+  let activeClickToken = 0;
 
   const closePopup = () => {
     if (currentPopup && currentPopup.parentNode) {
@@ -447,8 +448,14 @@ export function attachPopupHandler(root = typeof document !== 'undefined' ? docu
 
     e.preventDefault();
 
+    const clickToken = ++activeClickToken;
+
     try {
       const entry = await resolveEntry(ref);
+      if (clickToken !== activeClickToken) {
+        // Discard stale in-flight resolution if a newer word was clicked
+        return;
+      }
       if (!entry) return;
 
       closePopup();
