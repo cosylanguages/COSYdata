@@ -1,0 +1,2146 @@
+{
+  "schemaVersion": 1,
+  "set": "calendar",
+  "generated_from": [
+    "seasons.months.days.json",
+    "vocabulary/<lang>/a0_a1/calendar.json"
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "it",
+    "ru",
+    "el",
+    "es",
+    "de",
+    "pt",
+    "hy",
+    "ka",
+    "tt",
+    "ba",
+    "br",
+    "cv"
+  ],
+  "concepts": [
+    {
+      "concept_id": "weekday.monday",
+      "kind": "weekday",
+      "order": 1,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:monday:noun",
+          "word": "Monday",
+          "ipa": "/ˈmʌn.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:lundi:noun",
+          "word": "lundi",
+          "ipa": "/lœ̃.di/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:lunedi:noun",
+          "word": "lunedì",
+          "ipa": "/lu.neˈdi/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:ponedelnik:noun",
+          "word": "понедельник",
+          "ipa": "[pənʲɪˈdʲelʲnʲɪk]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:deytera:noun",
+          "word": "Δευτέρα",
+          "ipa": "/ðefˈtera/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:lunes:noun",
+          "word": "lunes",
+          "ipa": "/ˈlu.nes/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:montag:noun",
+          "word": "Montag",
+          "ipa": "/ˈmoːntaːk/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:segunda-feira:noun",
+          "word": "segunda-feira",
+          "ipa": "/seˈɡũ.dɐ ˈfej.ɾɐ/",
+          "gender": "feminine",
+          "article": "a"
+        },
+        "hy": {
+          "entry_id": "hy:erkushabti:noun",
+          "word": "երկուշաբթի",
+          "ipa": "/jɛɾkuʃɑpˈtʰi/"
+        },
+        "ka": {
+          "entry_id": "ka:orshabati:noun",
+          "word": "ორშაბათი",
+          "ipa": "/ɔɾʃɑbɑtʰi/"
+        },
+        "tt": {
+          "entry_id": "tt:dushambe:noun",
+          "word": "дүшәмбе",
+          "ipa": "[dy.ʃæmˈbe]"
+        },
+        "ba": {
+          "entry_id": "ba:duyshambe:noun",
+          "word": "дүйшәмбе",
+          "ipa": "[dʏj.ʃæmˈbɪ]"
+        },
+        "br": {
+          "entry_id": "br:lun:noun",
+          "word": "lun",
+          "ipa": "/lyːn/"
+        },
+        "cv": {
+          "entry_id": "cv:tuntikun:noun",
+          "word": "тунтикун",
+          "ipa": "[tun.tiˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "weekday.tuesday",
+      "kind": "weekday",
+      "order": 2,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:tuesday:noun",
+          "word": "Tuesday",
+          "ipa": "/ˈtjuːz.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:mardi:noun",
+          "word": "mardi",
+          "ipa": "/maʁ.di/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:martedi:noun",
+          "word": "martedì",
+          "ipa": "/mar.teˈdi/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:vtornik:noun",
+          "word": "вторник",
+          "ipa": "[ˈftornʲɪk]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:triti:noun",
+          "word": "Τρίτη",
+          "ipa": "/ˈtriti/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:martes:noun",
+          "word": "martes",
+          "ipa": "/ˈmar.tes/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:dienstag:noun",
+          "word": "Dienstag",
+          "ipa": "/ˈdiːnstaːk/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:terca-feira:noun",
+          "word": "terça-feira",
+          "ipa": "/ˈteɾ.sɐ ˈfej.ɾɐ/",
+          "gender": "feminine",
+          "article": "a"
+        },
+        "hy": {
+          "entry_id": "hy:ereqshabti:noun",
+          "word": "երեքշաբթի",
+          "ipa": "/jɛɾɛkʰʃɑpˈtʰi/"
+        },
+        "ka": {
+          "entry_id": "ka:samshabati:noun",
+          "word": "სამშაბათი",
+          "ipa": "/sɑmʃɑbɑtʰi/"
+        },
+        "tt": {
+          "entry_id": "tt:shishambe:noun",
+          "word": "шишәмбе",
+          "ipa": "[ʃi.ʃæmˈbe]"
+        },
+        "ba": {
+          "entry_id": "ba:shishambe:noun",
+          "word": "шишәмбе",
+          "ipa": "[ʃi.ʃæmˈbɪ]"
+        },
+        "br": {
+          "entry_id": "br:meurzh:noun",
+          "word": "meurzh",
+          "ipa": "/mœʁs/"
+        },
+        "cv": {
+          "entry_id": "cv:ytlarikun:noun",
+          "word": "ытларикун",
+          "ipa": "[ɯt.la.riˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "weekday.wednesday",
+      "kind": "weekday",
+      "order": 3,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:wednesday:noun",
+          "word": "Wednesday",
+          "ipa": "/ˈwɛnz.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:mercredi:noun",
+          "word": "mercredi",
+          "ipa": "/mɛʁ.kʁə.di/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:mercoledi:noun",
+          "word": "mercoledì",
+          "ipa": "/mer.ko.leˈdi/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:sreda:noun",
+          "word": "среда",
+          "ipa": "[srʲɪˈda]",
+          "gender": "feminine"
+        },
+        "el": {
+          "entry_id": "el:tetarti:noun",
+          "word": "Τετάρτη",
+          "ipa": "/teˈtarti/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:miercoles:noun",
+          "word": "miércoles",
+          "ipa": "/ˈmjer.ko.les/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:mittwoch:noun",
+          "word": "Mittwoch",
+          "ipa": "/ˈmɪtvɔx/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:quarta-feira:noun",
+          "word": "quarta-feira",
+          "ipa": "/ˈkwaɾ.tɐ ˈfej.ɾɐ/",
+          "gender": "feminine",
+          "article": "a"
+        },
+        "hy": {
+          "entry_id": "hy:choreqshabti:noun",
+          "word": "չորեքշաբթի",
+          "ipa": "/tʃʰɔɾɛkʰʃɑpˈtʰi/"
+        },
+        "ka": {
+          "entry_id": "ka:otkhshabati:noun",
+          "word": "ოთხშაბათი",
+          "ipa": "/ɔtʰxʃɑbɑtʰi/"
+        },
+        "tt": {
+          "entry_id": "tt:sharshambe:noun",
+          "word": "шаршәмбе",
+          "ipa": "[ʃɑr.ʃæmˈbe]"
+        },
+        "ba": {
+          "entry_id": "ba:sharshamby:noun",
+          "word": "шаршамбы",
+          "ipa": "[ʃɑr.ʃɑmˈbɯ]"
+        },
+        "br": {
+          "entry_id": "br:mercher:noun",
+          "word": "merc'her",
+          "ipa": "/mɛʁˈxɛʁ/"
+        },
+        "cv": {
+          "entry_id": "cv:yunkun:noun",
+          "word": "юнкун",
+          "ipa": "[junˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "weekday.thursday",
+      "kind": "weekday",
+      "order": 4,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:thursday:noun",
+          "word": "Thursday",
+          "ipa": "/ˈθɜːz.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:jeudi:noun",
+          "word": "jeudi",
+          "ipa": "/ʒø.di/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:giovedi:noun",
+          "word": "giovedì",
+          "ipa": "/dʒo.veˈdi/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:chetverg:noun",
+          "word": "четверг",
+          "ipa": "[tɕɪtˈvʲerk]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:pempti:noun",
+          "word": "Πέμπτη",
+          "ipa": "/ˈpempti/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:jueves:noun",
+          "word": "jueves",
+          "ipa": "/ˈxwe.βes/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:donnerstag:noun",
+          "word": "Donnerstag",
+          "ipa": "/ˈdɔnɐstaːk/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:quinta-feira:noun",
+          "word": "quinta-feira",
+          "ipa": "/ˈkĩ.tɐ ˈfej.ɾɐ/",
+          "gender": "feminine",
+          "article": "a"
+        },
+        "hy": {
+          "entry_id": "hy:hingshabti:noun",
+          "word": "հինգշաբթի",
+          "ipa": "/hinɡʃɑpˈtʰi/"
+        },
+        "ka": {
+          "entry_id": "ka:khutshabati:noun",
+          "word": "ხუთშაბათი",
+          "ipa": "/xutʰʃɑbɑtʰi/"
+        },
+        "tt": {
+          "entry_id": "tt:panjeshambe:noun",
+          "word": "пәнҗешәмбе",
+          "ipa": "[pæn.ʑe.ʃæmˈbe]"
+        },
+        "ba": {
+          "entry_id": "ba:keseuach:noun",
+          "word": "кесеуач",
+          "ipa": "[kɪ.sɪ.wɑtɕ]"
+        },
+        "br": {
+          "entry_id": "br:yaou:noun",
+          "word": "yaou",
+          "ipa": "/jaw/"
+        },
+        "cv": {
+          "entry_id": "cv:kesnernikun:noun",
+          "word": "кӗҫнерникун",
+          "ipa": "[kɘɕ.nɛr.niˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "weekday.friday",
+      "kind": "weekday",
+      "order": 5,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:friday:noun",
+          "word": "Friday",
+          "ipa": "/ˈfraɪ.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:vendredi:noun",
+          "word": "vendredi",
+          "ipa": "/vɑ̃.dʁə.di/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:venerdi:noun",
+          "word": "venerdì",
+          "ipa": "/ve.nerˈdi/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:pyatnitsa:noun",
+          "word": "пятница",
+          "ipa": "[ˈpʲætʲnʲɪtsə]",
+          "gender": "feminine"
+        },
+        "el": {
+          "entry_id": "el:paraskevi:noun",
+          "word": "Παρασκευή",
+          "ipa": "/pa.ra.skeˈvi/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:viernes:noun",
+          "word": "viernes",
+          "ipa": "/ˈbjer.nes/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:freitag:noun",
+          "word": "Freitag",
+          "ipa": "/ˈfraɪ̯taːk/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:sexta-feira:noun",
+          "word": "sexta-feira",
+          "ipa": "/ˈses.tɐ ˈfej.ɾɐ/",
+          "gender": "feminine",
+          "article": "a"
+        },
+        "hy": {
+          "entry_id": "hy:urbat:noun",
+          "word": "ուրբաթ",
+          "ipa": "/uɾˈpʰɑtʰ/"
+        },
+        "ka": {
+          "entry_id": "ka:paraskevi:noun",
+          "word": "პარასკევი",
+          "ipa": "/pɑɾɑskɛvi/"
+        },
+        "tt": {
+          "entry_id": "tt:zhomga:noun",
+          "word": "җомга",
+          "ipa": "[ʑomˈɣɑ]"
+        },
+        "ba": {
+          "entry_id": "ba:yoma:noun",
+          "word": "йома",
+          "ipa": "[joˈmɑ]"
+        },
+        "br": {
+          "entry_id": "br:gwener:noun",
+          "word": "gwener",
+          "ipa": "/ˈɡwɛːnɛʁ/"
+        },
+        "cv": {
+          "entry_id": "cv:ernekun:noun",
+          "word": "эрнекун",
+          "ipa": "[ɛr.nɛˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "weekday.saturday",
+      "kind": "weekday",
+      "order": 6,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:saturday:noun",
+          "word": "Saturday",
+          "ipa": "/ˈsæt.ə.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:samedi:noun",
+          "word": "samedi",
+          "ipa": "/sam.di/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:sabato:noun",
+          "word": "sabato",
+          "ipa": "/ˈsa.ba.to/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:subbota:noun",
+          "word": "суббота",
+          "ipa": "[sʊˈbotə]",
+          "gender": "feminine"
+        },
+        "el": {
+          "entry_id": "el:sabbato:noun",
+          "word": "Σάββατο",
+          "ipa": "/ˈsavato/",
+          "gender": "neuter",
+          "article": "το"
+        },
+        "es": {
+          "entry_id": "es:sabado:noun",
+          "word": "sábado",
+          "ipa": "/ˈsa.βa.ðo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:samstag:noun",
+          "word": "Samstag",
+          "ipa": "/ˈzamstaːk/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:sabado:noun",
+          "word": "sábado",
+          "ipa": "/ˈsa.bɐ.ðu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:shabat:noun",
+          "word": "շաբաթ",
+          "ipa": "/ʃɑˈpʰɑtʰ/"
+        },
+        "ka": {
+          "entry_id": "ka:shabati:noun",
+          "word": "შაბათი",
+          "ipa": "/ʃɑbɑtʰi/"
+        },
+        "tt": {
+          "entry_id": "tt:shimba:noun",
+          "word": "шимбә",
+          "ipa": "[ʃimˈbæ]"
+        },
+        "ba": {
+          "entry_id": "ba:shimba:noun",
+          "word": "шимбә",
+          "ipa": "[ʃimˈbæ]"
+        },
+        "br": {
+          "entry_id": "br:sadorn:noun",
+          "word": "sadorn",
+          "ipa": "/ˈsaːdɔʁn/"
+        },
+        "cv": {
+          "entry_id": "cv:shamatkun:noun",
+          "word": "шӑматкун",
+          "ipa": "[ʃə.matˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "weekday.sunday",
+      "kind": "weekday",
+      "order": 7,
+      "cefr": "A0",
+      "emoji": "📅",
+      "forms": {
+        "en": {
+          "entry_id": "en:sunday:noun",
+          "word": "Sunday",
+          "ipa": "/ˈsʌn.deɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:dimanche:noun",
+          "word": "dimanche",
+          "ipa": "/di.mɑ̃ʃ/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:domenica:noun",
+          "word": "domenica",
+          "ipa": "/doˈme.ni.ka/",
+          "gender": "feminine",
+          "article": "la"
+        },
+        "ru": {
+          "entry_id": "ru:voskresenye:noun",
+          "word": "воскресенье",
+          "ipa": "[vəskrʲɪˈsʲenʲjə]",
+          "gender": "neuter"
+        },
+        "el": {
+          "entry_id": "el:kyriaki:noun",
+          "word": "Κυριακή",
+          "ipa": "/ci.rjaˈci/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:domingo:noun",
+          "word": "domingo",
+          "ipa": "/doˈmiŋ.ɡo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:sonntag:noun",
+          "word": "Sonntag",
+          "ipa": "/ˈzɔntaːk/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:domingo:noun",
+          "word": "domingo",
+          "ipa": "/duˈmĩ.ɡu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:kiraki:noun",
+          "word": "կիրակի",
+          "ipa": "/kiɾɑˈki/"
+        },
+        "ka": {
+          "entry_id": "ka:kvira:noun",
+          "word": "კვირა",
+          "ipa": "/kviɾɑ/"
+        },
+        "tt": {
+          "entry_id": "tt:yakshambe:noun",
+          "word": "якшәмбе",
+          "ipa": "[jɑq.ʃæmˈbe]"
+        },
+        "ba": {
+          "entry_id": "ba:yakshambe:noun",
+          "word": "йәкшәмбе",
+          "ipa": "[jæk.ʃæmˈbɪ]"
+        },
+        "br": {
+          "entry_id": "br:sul:noun",
+          "word": "sul",
+          "ipa": "/syːl/"
+        },
+        "cv": {
+          "entry_id": "cv:vyrsarnikun:noun",
+          "word": "вырсарникун",
+          "ipa": "[vɯr.sar.niˈkun]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.january",
+      "kind": "month",
+      "order": 1,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:january:noun",
+          "word": "January",
+          "ipa": "/ˈdʒæn.ju.ə.ri/"
+        },
+        "fr": {
+          "entry_id": "fr:janvier:noun",
+          "word": "janvier",
+          "ipa": "/ʒɑ̃.vje/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:gennaio:noun",
+          "word": "gennaio",
+          "ipa": "/dʒenˈna.jo/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:yanvar:noun",
+          "word": "январь",
+          "ipa": "[jɪnˈvarʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:ianouarios:noun",
+          "word": "Ιανουάριος",
+          "ipa": "/i.a.nuˈa.ri.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:enero:noun",
+          "word": "enero",
+          "ipa": "/eˈne.ro/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:januar:noun",
+          "word": "Januar",
+          "ipa": "/ˈjanuaːɐ̯/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:janeiro:noun",
+          "word": "janeiro",
+          "ipa": "/ʒɐˈnej.ɾu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:hunvar:noun",
+          "word": "հունվար",
+          "ipa": "/hunˈvɑɾ/"
+        },
+        "ka": {
+          "entry_id": "ka:ianvari:noun",
+          "word": "იანვარი",
+          "ipa": "/iɑnvɑɾi/"
+        },
+        "tt": {
+          "entry_id": "tt:gyynvar:noun",
+          "word": "гыйнвар",
+          "ipa": "[ʁɯjnˈvɑr]"
+        },
+        "ba": {
+          "entry_id": "ba:ghinuar:noun",
+          "word": "ғинуар",
+          "ipa": "[ʁi.nuˈɑr]"
+        },
+        "br": {
+          "entry_id": "br:genver:noun",
+          "word": "genver",
+          "ipa": "/ˈɡɛnvɛʁ/"
+        },
+        "cv": {
+          "entry_id": "cv:karlach:noun",
+          "word": "кӑрлач",
+          "ipa": "[kərˈlatɕ]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.february",
+      "kind": "month",
+      "order": 2,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:february:noun",
+          "word": "February",
+          "ipa": "/ˈfɛb.ru.ə.ri/"
+        },
+        "fr": {
+          "entry_id": "fr:fevrier:noun",
+          "word": "février",
+          "ipa": "/fe.vʁije/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:febbraio:noun",
+          "word": "febbraio",
+          "ipa": "/febˈbra.jo/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:fevral:noun",
+          "word": "февраль",
+          "ipa": "[fʲɪˈvralʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:fevrouarios:noun",
+          "word": "Φεβρουάριος",
+          "ipa": "/fe.vruˈa.ri.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:febrero:noun",
+          "word": "febrero",
+          "ipa": "/feˈβre.ro/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:februar:noun",
+          "word": "Februar",
+          "ipa": "/ˈfeːbruaːɐ̯/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:fevereiro:noun",
+          "word": "fevereiro",
+          "ipa": "/fe.vəˈɾej.ɾu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:petrvar:noun",
+          "word": "փետրվար",
+          "ipa": "/pʰɛtɾˈvɑɾ/"
+        },
+        "ka": {
+          "entry_id": "ka:tebervali:noun",
+          "word": "თებერვალი",
+          "ipa": "/tʰɛbɛɾvɑli/"
+        },
+        "tt": {
+          "entry_id": "tt:fevral:noun",
+          "word": "февраль",
+          "ipa": "[fʲɪˈvrɑlʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:fevral:noun",
+          "word": "февраль",
+          "ipa": "[fʲɪˈvrɑlʲ]"
+        },
+        "br": {
+          "entry_id": "br:chwevrer:noun",
+          "word": "c'hwevrer",
+          "ipa": "/ˈxwɛvʁɛʁ/"
+        },
+        "cv": {
+          "entry_id": "cv:naras:noun",
+          "word": "нарӑс",
+          "ipa": "[naˈrəs]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.march",
+      "kind": "month",
+      "order": 3,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:march:noun",
+          "word": "March",
+          "ipa": "/mɑːtʃ/"
+        },
+        "fr": {
+          "entry_id": "fr:mars:noun",
+          "word": "mars",
+          "ipa": "/maʁs/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:marzo:noun",
+          "word": "marzo",
+          "ipa": "/ˈmar.tso/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:mart:noun",
+          "word": "март",
+          "ipa": "[mart]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:martios:noun",
+          "word": "Μάρτιος",
+          "ipa": "/ˈmar.ti.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:marzo:noun",
+          "word": "marzo",
+          "ipa": "/ˈmar.θo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:maerz:noun",
+          "word": "März",
+          "ipa": "/mɛʁts/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:marco:noun",
+          "word": "março",
+          "ipa": "/ˈmaɾ.su/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:mart:noun",
+          "word": "մարտ",
+          "ipa": "/mɑɾt/"
+        },
+        "ka": {
+          "entry_id": "ka:marti:noun",
+          "word": "მარტი",
+          "ipa": "/mɑɾtʰi/"
+        },
+        "tt": {
+          "entry_id": "tt:mart:noun",
+          "word": "март",
+          "ipa": "[mɑrt]"
+        },
+        "ba": {
+          "entry_id": "ba:mart:noun",
+          "word": "март",
+          "ipa": "[mɑrt]"
+        },
+        "br": {
+          "entry_id": "br:meurzh-miz:noun",
+          "word": "meurzh",
+          "ipa": "/mœʁs/"
+        },
+        "cv": {
+          "entry_id": "cv:push:noun",
+          "word": "пуш",
+          "ipa": "[puʃ]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.april",
+      "kind": "month",
+      "order": 4,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:april:noun",
+          "word": "April",
+          "ipa": "/ˈeɪ.prəl/"
+        },
+        "fr": {
+          "entry_id": "fr:avril:noun",
+          "word": "avril",
+          "ipa": "/a.vʁil/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "it": {
+          "entry_id": "it:aprile:noun",
+          "word": "aprile",
+          "ipa": "/aˈpri.le/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "ru": {
+          "entry_id": "ru:aprel:noun",
+          "word": "апрель",
+          "ipa": "[ɐˈprʲelʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:aprilios:noun",
+          "word": "Απρίλιος",
+          "ipa": "/aˈpri.li.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:abril:noun",
+          "word": "abril",
+          "ipa": "/aˈβril/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:april:noun",
+          "word": "April",
+          "ipa": "/aˈpʁɪl/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:abril:noun",
+          "word": "abril",
+          "ipa": "/ɐˈβɾil/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:april:noun",
+          "word": "ապրիլ",
+          "ipa": "/ɑpˈɾil/"
+        },
+        "ka": {
+          "entry_id": "ka:aprili:noun",
+          "word": "აპრილი",
+          "ipa": "/ɑpɾili/"
+        },
+        "tt": {
+          "entry_id": "tt:aprel:noun",
+          "word": "апрель",
+          "ipa": "[ɐˈprʲelʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:aprel:noun",
+          "word": "апрель",
+          "ipa": "[ɐˈprʲelʲ]"
+        },
+        "br": {
+          "entry_id": "br:ebrel:noun",
+          "word": "ebrel",
+          "ipa": "/ˈeːbʁɛl/"
+        },
+        "cv": {
+          "entry_id": "cv:aka:noun",
+          "word": "ака",
+          "ipa": "[aˈka]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.may",
+      "kind": "month",
+      "order": 5,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:may:noun",
+          "word": "May",
+          "ipa": "/meɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:mai:noun",
+          "word": "mai",
+          "ipa": "/mɛ/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:maggio:noun",
+          "word": "maggio",
+          "ipa": "/ˈmad.dʒo/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:mai:noun",
+          "word": "май",
+          "ipa": "[maj]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:maios:noun",
+          "word": "Μάιος",
+          "ipa": "/ˈma.i.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:mayo:noun",
+          "word": "mayo",
+          "ipa": "/ˈma.ʝo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:mai:noun",
+          "word": "Mai",
+          "ipa": "/maɪ̯/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:maio:noun",
+          "word": "maio",
+          "ipa": "/ˈmaj.u/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:mayis:noun",
+          "word": "մայիս",
+          "ipa": "/mɑˈjis/"
+        },
+        "ka": {
+          "entry_id": "ka:maisi:noun",
+          "word": "მაისი",
+          "ipa": "/mɑisi/"
+        },
+        "tt": {
+          "entry_id": "tt:may:noun",
+          "word": "май",
+          "ipa": "[mɑj]"
+        },
+        "ba": {
+          "entry_id": "ba:may:noun",
+          "word": "май",
+          "ipa": "[mɑj]"
+        },
+        "br": {
+          "entry_id": "br:mae:noun",
+          "word": "mae",
+          "ipa": "/mɛː/"
+        },
+        "cv": {
+          "entry_id": "cv:may:noun",
+          "word": "май",
+          "ipa": "[maj]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.june",
+      "kind": "month",
+      "order": 6,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:june:noun",
+          "word": "June",
+          "ipa": "/dʒuːn/"
+        },
+        "fr": {
+          "entry_id": "fr:juin:noun",
+          "word": "juin",
+          "ipa": "/ʒɥɛ̃/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:giugno:noun",
+          "word": "giugno",
+          "ipa": "/ˈdʒuɲ.ɲo/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:iyun:noun",
+          "word": "июнь",
+          "ipa": "[ɪˈjunʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:iounios:noun",
+          "word": "Ιούνιος",
+          "ipa": "/iˈu.ni.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:junio:noun",
+          "word": "junio",
+          "ipa": "/ˈxu.njo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:juni:noun",
+          "word": "Juni",
+          "ipa": "/ˈjuːni/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:junho:noun",
+          "word": "junho",
+          "ipa": "/ˈʒu.ɲu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:hunis:noun",
+          "word": "հունիս",
+          "ipa": "/huˈnis/"
+        },
+        "ka": {
+          "entry_id": "ka:ivnisi:noun",
+          "word": "ივნისი",
+          "ipa": "/ivnisi/"
+        },
+        "tt": {
+          "entry_id": "tt:iyun:noun",
+          "word": "июнь",
+          "ipa": "[ɪˈjunʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:iyun:noun",
+          "word": "июнь",
+          "ipa": "[ɪˈjunʲ]"
+        },
+        "br": {
+          "entry_id": "br:mehefin:noun",
+          "word": "mehefin",
+          "ipa": "/mɛˈheːvĩn/"
+        },
+        "cv": {
+          "entry_id": "cv:sertme:noun",
+          "word": "ҫӗртме",
+          "ipa": "[ɕɘrtˈmɛ]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.july",
+      "kind": "month",
+      "order": 7,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:july:noun",
+          "word": "July",
+          "ipa": "/dʒuˈlaɪ/"
+        },
+        "fr": {
+          "entry_id": "fr:juillet:noun",
+          "word": "juillet",
+          "ipa": "/ʒɥi.jɛ/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:luglio:noun",
+          "word": "luglio",
+          "ipa": "/ˈluʎ.ʎo/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:iyul:noun",
+          "word": "июль",
+          "ipa": "[ɪˈjulʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:ioulios:noun",
+          "word": "Ιούλιος",
+          "ipa": "/iˈu.li.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:julio:noun",
+          "word": "julio",
+          "ipa": "/ˈxu.ljo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:juli:noun",
+          "word": "Juli",
+          "ipa": "/ˈjuːli/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:julho:noun",
+          "word": "julho",
+          "ipa": "/ˈʒu.ʎu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:hulis:noun",
+          "word": "հուլիս",
+          "ipa": "/huˈlis/"
+        },
+        "ka": {
+          "entry_id": "ka:ivlisi:noun",
+          "word": "ივლისი",
+          "ipa": "/ivlisi/"
+        },
+        "tt": {
+          "entry_id": "tt:iyul:noun",
+          "word": "июль",
+          "ipa": "[ɪˈjulʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:iyul:noun",
+          "word": "июль",
+          "ipa": "[ɪˈjulʲ]"
+        },
+        "br": {
+          "entry_id": "br:gouere:noun",
+          "word": "gouere",
+          "ipa": "/ˈɡweːʁɛ/"
+        },
+        "cv": {
+          "entry_id": "cv:uta:noun",
+          "word": "утӑ",
+          "ipa": "[uˈtə]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.august",
+      "kind": "month",
+      "order": 8,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:august:noun",
+          "word": "August",
+          "ipa": "/ˈɔː.ɡəst/"
+        },
+        "fr": {
+          "entry_id": "fr:aout:noun",
+          "word": "août",
+          "ipa": "/ut/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "it": {
+          "entry_id": "it:agosto:noun",
+          "word": "agosto",
+          "ipa": "/aˈɡos.to/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "ru": {
+          "entry_id": "ru:avgust:noun",
+          "word": "август",
+          "ipa": "[ˈavɡʊst]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:avgoustos:noun",
+          "word": "Αύγουστος",
+          "ipa": "/ˈav.ɣu.stos/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:agosto:noun",
+          "word": "agosto",
+          "ipa": "/aˈɣos.to/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:august:noun",
+          "word": "August",
+          "ipa": "/aʊ̯ˈɡʊst/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:agosto:noun",
+          "word": "agosto",
+          "ipa": "/ɐˈɡoʃ.tu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:ogostos:noun",
+          "word": "օգոստոս",
+          "ipa": "/ɔɡɔsˈtɔs/"
+        },
+        "ka": {
+          "entry_id": "ka:agvisto:noun",
+          "word": "აგვისტო",
+          "ipa": "/ɑɡvistɔ/"
+        },
+        "tt": {
+          "entry_id": "tt:avgust:noun",
+          "word": "август",
+          "ipa": "[ˈɑv.ɡust]"
+        },
+        "ba": {
+          "entry_id": "ba:avgust:noun",
+          "word": "август",
+          "ipa": "[ˈɑv.ɡust]"
+        },
+        "br": {
+          "entry_id": "br:eost:noun",
+          "word": "eost",
+          "ipa": "/ɛwst/"
+        },
+        "cv": {
+          "entry_id": "cv:surla:noun",
+          "word": "ҫурла",
+          "ipa": "[ɕurˈla]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.september",
+      "kind": "month",
+      "order": 9,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:september:noun",
+          "word": "September",
+          "ipa": "/sɛpˈtɛm.bə/"
+        },
+        "fr": {
+          "entry_id": "fr:septembre:noun",
+          "word": "septembre",
+          "ipa": "/sɛp.tɑ̃bʁ/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:settembre:noun",
+          "word": "settembre",
+          "ipa": "/setˈtem.bre/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:sentyabr:noun",
+          "word": "сентябрь",
+          "ipa": "[sʲɪnˈtʲabrʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:septembrios:noun",
+          "word": "Σεπτέμβριος",
+          "ipa": "/seˈpte.vri.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:septiembre:noun",
+          "word": "septiembre",
+          "ipa": "/sepˈtjem.bre/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:september:noun",
+          "word": "September",
+          "ipa": "/zɛpˈtɛmbɐ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:setembro:noun",
+          "word": "setembro",
+          "ipa": "/seˈtẽ.bɾu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:september:noun",
+          "word": "սեպտեմբեր",
+          "ipa": "/sɛptɛmˈbɛɾ/"
+        },
+        "ka": {
+          "entry_id": "ka:sekhtemberi:noun",
+          "word": "სექტემბერი",
+          "ipa": "/sɛktʰɛmbɛɾi/"
+        },
+        "tt": {
+          "entry_id": "tt:sentyabr:noun",
+          "word": "сентябрь",
+          "ipa": "[sʲɪnˈtʲɑbrʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:sentyabr:noun",
+          "word": "сентябрь",
+          "ipa": "[sʲɪnˈtʲɑbrʲ]"
+        },
+        "br": {
+          "entry_id": "br:gwengolo:noun",
+          "word": "gwengolo",
+          "ipa": "/ɡwɛnˈɡoːlo/"
+        },
+        "cv": {
+          "entry_id": "cv:avan:noun",
+          "word": "авӑн",
+          "ipa": "[aˈvən]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.october",
+      "kind": "month",
+      "order": 10,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:october:noun",
+          "word": "October",
+          "ipa": "/ɒkˈtəʊ.bə/"
+        },
+        "fr": {
+          "entry_id": "fr:octobre:noun",
+          "word": "octobre",
+          "ipa": "/ɔk.tɔbʁ/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "it": {
+          "entry_id": "it:ottobre:noun",
+          "word": "ottobre",
+          "ipa": "/otˈto.bre/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "ru": {
+          "entry_id": "ru:oktyabr:noun",
+          "word": "октябрь",
+          "ipa": "[ɐkˈtʲabrʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:oktovrios:noun",
+          "word": "Οκτώβριος",
+          "ipa": "/oˈkto.vri.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:octubre:noun",
+          "word": "octubre",
+          "ipa": "/okˈtu.βre/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:oktober:noun",
+          "word": "Oktober",
+          "ipa": "/ɔkˈtoːbɐ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:outubro:noun",
+          "word": "outubro",
+          "ipa": "/owˈtu.βɾu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:hoktember:noun",
+          "word": "հոկտեմբեր",
+          "ipa": "/hɔktɛmˈbɛɾ/"
+        },
+        "ka": {
+          "entry_id": "ka:oktomberi:noun",
+          "word": "ოქტომბერი",
+          "ipa": "/ɔktʰɔmbɛɾi/"
+        },
+        "tt": {
+          "entry_id": "tt:oktyabr:noun",
+          "word": "октябрь",
+          "ipa": "[ɐkˈtʲɑbrʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:oktyabr:noun",
+          "word": "октябрь",
+          "ipa": "[ɐkˈtʲɑbrʲ]"
+        },
+        "br": {
+          "entry_id": "br:here:noun",
+          "word": "here",
+          "ipa": "/ˈheːʁɛ/"
+        },
+        "cv": {
+          "entry_id": "cv:yupa:noun",
+          "word": "юпа",
+          "ipa": "[juˈpa]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.november",
+      "kind": "month",
+      "order": 11,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:november:noun",
+          "word": "November",
+          "ipa": "/nəʊˈvɛm.bə/"
+        },
+        "fr": {
+          "entry_id": "fr:novembre:noun",
+          "word": "novembre",
+          "ipa": "/nɔ.vɑ̃bʁ/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:novembre:noun",
+          "word": "novembre",
+          "ipa": "/noˈvem.bre/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:noyabr:noun",
+          "word": "ноябрь",
+          "ipa": "[nɐˈjabrʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:noembrios:noun",
+          "word": "Νοέμβριος",
+          "ipa": "/noˈe.vri.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:noviembre:noun",
+          "word": "noviembre",
+          "ipa": "/noˈβjem.bre/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:november:noun",
+          "word": "November",
+          "ipa": "/noˈvɛmbɐ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:novembro:noun",
+          "word": "novembro",
+          "ipa": "/nuˈvẽ.bɾu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:noyember:noun",
+          "word": "նոյեմբեր",
+          "ipa": "/nɔjɛmˈbɛɾ/"
+        },
+        "ka": {
+          "entry_id": "ka:noemberi:noun",
+          "word": "ნოემბერი",
+          "ipa": "/nɔɛmbɛɾi/"
+        },
+        "tt": {
+          "entry_id": "tt:noyabr:noun",
+          "word": "ноябрь",
+          "ipa": "[nɐˈjɑbrʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:noyabr:noun",
+          "word": "ноябрь",
+          "ipa": "[nɐˈjɑbrʲ]"
+        },
+        "br": {
+          "entry_id": "br:du:noun",
+          "word": "du",
+          "ipa": "/dyː/"
+        },
+        "cv": {
+          "entry_id": "cv:chuk:noun",
+          "word": "чӳк",
+          "ipa": "[tɕyk]"
+        }
+      }
+    },
+    {
+      "concept_id": "month.december",
+      "kind": "month",
+      "order": 12,
+      "cefr": "A1",
+      "emoji": "🗓️",
+      "forms": {
+        "en": {
+          "entry_id": "en:december:noun",
+          "word": "December",
+          "ipa": "/dɪˈsɛm.bə/"
+        },
+        "fr": {
+          "entry_id": "fr:decembre:noun",
+          "word": "décembre",
+          "ipa": "/de.sɑ̃bʁ/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:dicembre:noun",
+          "word": "dicembre",
+          "ipa": "/diˈtʃem.bre/",
+          "gender": "masculine",
+          "article": "il"
+        },
+        "ru": {
+          "entry_id": "ru:dekabr:noun",
+          "word": "декабрь",
+          "ipa": "[dʲɪˈkabrʲ]",
+          "gender": "masculine"
+        },
+        "el": {
+          "entry_id": "el:dekembrios:noun",
+          "word": "Δεκέμβριος",
+          "ipa": "/ðeˈke.vri.os/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:diciembre:noun",
+          "word": "diciembre",
+          "ipa": "/diˈθjem.bre/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:dezember:noun",
+          "word": "Dezember",
+          "ipa": "/deˈtsɛmbɐ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:dezembro:noun",
+          "word": "dezembro",
+          "ipa": "/deˈzẽ.bɾu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:dektember:noun",
+          "word": "դեկտեմբեր",
+          "ipa": "/dɛktɛmˈbɛɾ/"
+        },
+        "ka": {
+          "entry_id": "ka:dekemberi:noun",
+          "word": "დეკემბერი",
+          "ipa": "/dɛkʰɛmbɛɾi/"
+        },
+        "tt": {
+          "entry_id": "tt:dekabr:noun",
+          "word": "декабрь",
+          "ipa": "[dʲɪˈkɑbrʲ]"
+        },
+        "ba": {
+          "entry_id": "ba:dekabr:noun",
+          "word": "декабрь",
+          "ipa": "[dʲɪˈkɑbrʲ]"
+        },
+        "br": {
+          "entry_id": "br:kerzu:noun",
+          "word": "kerzu",
+          "ipa": "/ˈkɛʁzy/"
+        },
+        "cv": {
+          "entry_id": "cv:rashtav:noun",
+          "word": "раштав",
+          "ipa": "[raʃˈtav]"
+        }
+      }
+    },
+    {
+      "concept_id": "season.spring",
+      "kind": "season",
+      "order": 1,
+      "cefr": "A1",
+      "emoji": "🌱",
+      "forms": {
+        "en": {
+          "entry_id": "en:spring:noun",
+          "word": "spring",
+          "ipa": "/sprɪŋ/",
+          "article": "a"
+        },
+        "fr": {
+          "entry_id": "fr:printemps:noun",
+          "word": "printemps",
+          "ipa": "/pʁɛ̃.tɑ̃/",
+          "gender": "masculine",
+          "article": "le"
+        },
+        "it": {
+          "entry_id": "it:primavera:noun",
+          "word": "primavera",
+          "ipa": "/pri.maˈve.ra/",
+          "gender": "feminine",
+          "article": "la"
+        },
+        "ru": {
+          "entry_id": "ru:vesna:noun",
+          "word": "весна",
+          "ipa": "[vʲɪsˈna]",
+          "gender": "feminine"
+        },
+        "el": {
+          "entry_id": "el:anoixi:noun",
+          "word": "άνοιξη",
+          "ipa": "/ˈa.ni.ksi/",
+          "gender": "feminine",
+          "article": "η"
+        },
+        "es": {
+          "entry_id": "es:primavera:noun",
+          "word": "primavera",
+          "ipa": "/pri.maˈβe.ra/",
+          "gender": "feminine",
+          "article": "la"
+        },
+        "de": {
+          "entry_id": "de:fruehling:noun",
+          "word": "Frühling",
+          "ipa": "/ˈfʁyːlɪŋ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:primavera:noun",
+          "word": "primavera",
+          "ipa": "/pɾi.mɐˈvɛ.ɾɐ/",
+          "gender": "feminine",
+          "article": "a"
+        },
+        "hy": {
+          "entry_id": "hy:garun:noun",
+          "word": "գարուն",
+          "ipa": "/ɡɑˈɾun/"
+        },
+        "ka": {
+          "entry_id": "ka:gazapkhuli:noun",
+          "word": "გაზაფხული",
+          "ipa": "/ɡɑzɑpʰxuli/"
+        },
+        "tt": {
+          "entry_id": "tt:yaz:noun",
+          "word": "яз",
+          "ipa": "[jɑz]"
+        },
+        "ba": {
+          "entry_id": "ba:yaz:noun",
+          "word": "яҙ",
+          "ipa": "[jɑð]"
+        },
+        "br": {
+          "entry_id": "br:nevez-amzer:noun",
+          "word": "nevez-amzer",
+          "ipa": "/ˌneːveˈdamzɛʁ/"
+        },
+        "cv": {
+          "entry_id": "cv:surkunne:noun",
+          "word": "ҫуркунне",
+          "ipa": "[ɕur.kunˈnɛ]"
+        }
+      }
+    },
+    {
+      "concept_id": "season.summer",
+      "kind": "season",
+      "order": 2,
+      "cefr": "A1",
+      "emoji": "☀️",
+      "forms": {
+        "en": {
+          "entry_id": "en:summer:noun",
+          "word": "summer",
+          "ipa": "/ˈsʌm.ə/",
+          "article": "a"
+        },
+        "fr": {
+          "entry_id": "fr:ete:noun",
+          "word": "été",
+          "ipa": "/e.te/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "it": {
+          "entry_id": "it:estate:noun",
+          "word": "estate",
+          "ipa": "/esˈta.te/",
+          "gender": "feminine",
+          "article": "l'"
+        },
+        "ru": {
+          "entry_id": "ru:leto:noun",
+          "word": "лето",
+          "ipa": "[ˈlʲetə]",
+          "gender": "neuter"
+        },
+        "el": {
+          "entry_id": "el:kalokairi:noun",
+          "word": "καλοκαίρι",
+          "ipa": "/ka.loˈce.ri/",
+          "gender": "neuter",
+          "article": "το"
+        },
+        "es": {
+          "entry_id": "es:verano:noun",
+          "word": "verano",
+          "ipa": "/beˈra.no/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:sommer:noun",
+          "word": "Sommer",
+          "ipa": "/ˈzɔmɐ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:verao:noun",
+          "word": "verão",
+          "ipa": "/veˈɾɐ̃w̃/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:amar:noun",
+          "word": "ամառ",
+          "ipa": "/ɑˈmɑr/"
+        },
+        "ka": {
+          "entry_id": "ka:zapkhuli:noun",
+          "word": "ზაფხული",
+          "ipa": "/zɑpʰxuli/"
+        },
+        "tt": {
+          "entry_id": "tt:zhay:noun",
+          "word": "җәй",
+          "ipa": "[ʑæj]"
+        },
+        "ba": {
+          "entry_id": "ba:yay:noun",
+          "word": "йәй",
+          "ipa": "[jæj]"
+        },
+        "br": {
+          "entry_id": "br:hanv:noun",
+          "word": "hañv",
+          "ipa": "/hɑ̃ːv/"
+        },
+        "cv": {
+          "entry_id": "cv:su:noun",
+          "word": "ҫу",
+          "ipa": "[ɕu]"
+        }
+      }
+    },
+    {
+      "concept_id": "season.autumn",
+      "kind": "season",
+      "order": 3,
+      "cefr": "A1",
+      "emoji": "🍂",
+      "forms": {
+        "en": {
+          "entry_id": "en:autumn:noun",
+          "word": "autumn",
+          "ipa": "/ˈɔː.təm/",
+          "article": "an"
+        },
+        "fr": {
+          "entry_id": "fr:automne:noun",
+          "word": "automne",
+          "ipa": "/o.tɔn/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "it": {
+          "entry_id": "it:autunno:noun",
+          "word": "autunno",
+          "ipa": "/au̯ˈtun.no/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "ru": {
+          "entry_id": "ru:osen:noun",
+          "word": "осень",
+          "ipa": "[ˈosʲɪnʲ]",
+          "gender": "feminine"
+        },
+        "el": {
+          "entry_id": "el:fthinoporo:noun",
+          "word": "φθινόπωρο",
+          "ipa": "/fθiˈno.po.ro/",
+          "gender": "neuter",
+          "article": "το"
+        },
+        "es": {
+          "entry_id": "es:otono:noun",
+          "word": "otoño",
+          "ipa": "/oˈto.ɲo/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:herbst:noun",
+          "word": "Herbst",
+          "ipa": "/hɛʁpst/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:outono:noun",
+          "word": "outono",
+          "ipa": "/owˈto.nu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:ashun:noun",
+          "word": "աշուն",
+          "ipa": "/ɑˈʃun/"
+        },
+        "ka": {
+          "entry_id": "ka:shemodgoma:noun",
+          "word": "შემოდგომა",
+          "ipa": "/ʃɛmɔdɡɔmɑ/"
+        },
+        "tt": {
+          "entry_id": "tt:koz:noun",
+          "word": "көз",
+          "ipa": "[kʏz]"
+        },
+        "ba": {
+          "entry_id": "ba:koz:noun",
+          "word": "көҙ",
+          "ipa": "[kʏð]"
+        },
+        "br": {
+          "entry_id": "br:diskar-amzer:noun",
+          "word": "diskar-amzer",
+          "ipa": "/ˌdiskaˈramzɛʁ/"
+        },
+        "cv": {
+          "entry_id": "cv:ker:noun",
+          "word": "кӗр",
+          "ipa": "[kɘr]"
+        }
+      }
+    },
+    {
+      "concept_id": "season.winter",
+      "kind": "season",
+      "order": 4,
+      "cefr": "A1",
+      "emoji": "❄️",
+      "forms": {
+        "en": {
+          "entry_id": "en:winter:noun",
+          "word": "winter",
+          "ipa": "/ˈwɪn.tə/",
+          "article": "a"
+        },
+        "fr": {
+          "entry_id": "fr:hiver:noun",
+          "word": "hiver",
+          "ipa": "/i.vɛʁ/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "it": {
+          "entry_id": "it:inverno:noun",
+          "word": "inverno",
+          "ipa": "/inˈvɛr.no/",
+          "gender": "masculine",
+          "article": "l'"
+        },
+        "ru": {
+          "entry_id": "ru:zima:noun",
+          "word": "зима",
+          "ipa": "[zʲɪˈma]",
+          "gender": "feminine"
+        },
+        "el": {
+          "entry_id": "el:cheimonas:noun",
+          "word": "χειμώνας",
+          "ipa": "/çiˈmo.nas/",
+          "gender": "masculine",
+          "article": "ο"
+        },
+        "es": {
+          "entry_id": "es:invierno:noun",
+          "word": "invierno",
+          "ipa": "/imˈbjer.no/",
+          "gender": "masculine",
+          "article": "el"
+        },
+        "de": {
+          "entry_id": "de:winter:noun",
+          "word": "Winter",
+          "ipa": "/ˈvɪntɐ/",
+          "gender": "masculine",
+          "article": "der"
+        },
+        "pt": {
+          "entry_id": "pt:inverno:noun",
+          "word": "inverno",
+          "ipa": "/ĩˈvɛɾ.nu/",
+          "gender": "masculine",
+          "article": "o"
+        },
+        "hy": {
+          "entry_id": "hy:dzmer:noun",
+          "word": "ձմեռ",
+          "ipa": "/dzəˈmɛr/"
+        },
+        "ka": {
+          "entry_id": "ka:zamtari:noun",
+          "word": "ზამთარი",
+          "ipa": "/zɑmtʰɑɾi/"
+        },
+        "tt": {
+          "entry_id": "tt:kysh:noun",
+          "word": "кыш",
+          "ipa": "[qɯʃ]"
+        },
+        "ba": {
+          "entry_id": "ba:kysh:noun",
+          "word": "ҡыш",
+          "ipa": "[qɯʃ]"
+        },
+        "br": {
+          "entry_id": "br:goanv:noun",
+          "word": "goañv",
+          "ipa": "/ɡwɑ̃ːv/"
+        },
+        "cv": {
+          "entry_id": "cv:khel:noun",
+          "word": "хӗл",
+          "ipa": "[xɘl]"
+        }
+      }
+    }
+  ]
+}
