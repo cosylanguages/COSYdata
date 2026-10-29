@@ -1,0 +1,1765 @@
+{
+  "schemaVersion": 1,
+  "set": "calendar",
+  "notice": "DRAFT: everything here is reviewed:false until a human checks it against the cited sources. UIs must label unreviewed items as drafts.",
+  "groups": [
+    {
+      "id": "weekday.monday.moon",
+      "concept": "weekday.monday",
+      "root": "Latin lunae dies",
+      "gloss": "day of the Moon",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "en",
+          "relation": "calque"
+        },
+        {
+          "lang": "de",
+          "relation": "calque"
+        }
+      ],
+      "reviewed": false,
+      "note": "English and German translated the Latin name (Moon + day); the Romance forms descend directly from Latin."
+    },
+    {
+      "id": "weekday.monday.sunday-count",
+      "concept": "weekday.monday",
+      "root": "feria secunda / δεύτερος",
+      "gloss": "second day (counted from Sunday)",
+      "members": [
+        {
+          "lang": "pt",
+          "relation": "parallel"
+        },
+        {
+          "lang": "el",
+          "relation": "parallel"
+        },
+        {
+          "lang": "hy",
+          "relation": "parallel"
+        },
+        {
+          "lang": "ka",
+          "relation": "parallel"
+        }
+      ],
+      "reviewed": false,
+      "note": "Parallel pattern: the week is counted from Sunday, so Monday is the 'second' day."
+    },
+    {
+      "id": "weekday.monday.persian",
+      "concept": "weekday.monday",
+      "root": "Persian dūshanbe",
+      "gloss": "second day",
+      "members": [
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.tuesday.mars",
+      "concept": "weekday.tuesday",
+      "root": "Latin Martis dies",
+      "gloss": "day of Mars",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "en",
+          "relation": "calque"
+        },
+        {
+          "lang": "de",
+          "relation": "calque"
+        }
+      ],
+      "reviewed": false,
+      "note": "Germanic peoples matched Mars with their war god (English Tiw, from Týr); German Dienstag is usually linked to a by-name of that god, but the etymology is debated."
+    },
+    {
+      "id": "weekday.tuesday.sunday-count",
+      "concept": "weekday.tuesday",
+      "root": "feria tertia / τρίτος",
+      "gloss": "third day (counted from Sunday)",
+      "members": [
+        {
+          "lang": "pt",
+          "relation": "parallel"
+        },
+        {
+          "lang": "el",
+          "relation": "parallel"
+        },
+        {
+          "lang": "hy",
+          "relation": "parallel"
+        },
+        {
+          "lang": "ka",
+          "relation": "parallel"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.tuesday.persian",
+      "concept": "weekday.tuesday",
+      "root": "Persian seshanbe",
+      "gloss": "third day",
+      "members": [
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.wednesday.mercury",
+      "concept": "weekday.wednesday",
+      "root": "Latin Mercurii dies",
+      "gloss": "day of Mercury",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "en",
+          "relation": "calque"
+        }
+      ],
+      "reviewed": false,
+      "note": "English Wednesday is Woden's day: Woden (Odin) was matched with Mercury."
+    },
+    {
+      "id": "weekday.wednesday.middle",
+      "concept": "weekday.wednesday",
+      "root": "'middle of the week'",
+      "gloss": "midweek",
+      "members": [
+        {
+          "lang": "de",
+          "relation": "parallel"
+        },
+        {
+          "lang": "ru",
+          "relation": "parallel"
+        }
+      ],
+      "reviewed": false,
+      "note": "German Mittwoch and Russian среда both mean 'middle' (of the week), formed independently."
+    },
+    {
+      "id": "weekday.wednesday.sunday-count",
+      "concept": "weekday.wednesday",
+      "root": "feria quarta / τέταρτος",
+      "gloss": "fourth day (counted from Sunday)",
+      "members": [
+        {
+          "lang": "pt",
+          "relation": "parallel"
+        },
+        {
+          "lang": "el",
+          "relation": "parallel"
+        },
+        {
+          "lang": "hy",
+          "relation": "parallel"
+        },
+        {
+          "lang": "ka",
+          "relation": "parallel"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.wednesday.persian",
+      "concept": "weekday.wednesday",
+      "root": "Persian chahārshanbe",
+      "gloss": "fourth day",
+      "members": [
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.thursday.jupiter",
+      "concept": "weekday.thursday",
+      "root": "Latin Iovis dies",
+      "gloss": "day of Jupiter",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "en",
+          "relation": "calque"
+        },
+        {
+          "lang": "de",
+          "relation": "calque"
+        }
+      ],
+      "reviewed": false,
+      "note": "Jupiter, god of thunder, was matched with Germanic Thor/Donar: English Thursday = Thor's day, German Donnerstag = Donar's (thunder) day."
+    },
+    {
+      "id": "weekday.thursday.sunday-count",
+      "concept": "weekday.thursday",
+      "root": "feria quinta / πέμπτος",
+      "gloss": "fifth day (counted from Sunday)",
+      "members": [
+        {
+          "lang": "pt",
+          "relation": "parallel"
+        },
+        {
+          "lang": "el",
+          "relation": "parallel"
+        },
+        {
+          "lang": "hy",
+          "relation": "parallel"
+        },
+        {
+          "lang": "ka",
+          "relation": "parallel"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.friday.venus",
+      "concept": "weekday.friday",
+      "root": "Latin Veneris dies",
+      "gloss": "day of Venus",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "en",
+          "relation": "calque"
+        },
+        {
+          "lang": "de",
+          "relation": "calque"
+        }
+      ],
+      "reviewed": false,
+      "note": "Venus was matched with the Germanic goddess Frige/Frija."
+    },
+    {
+      "id": "weekday.friday.preparation",
+      "concept": "weekday.friday",
+      "root": "Greek paraskeuē",
+      "gloss": "preparation (for the Sabbath)",
+      "members": [
+        {
+          "lang": "el",
+          "relation": "source"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.friday.arabic",
+      "concept": "weekday.friday",
+      "root": "Arabic jumʿa",
+      "gloss": "gathering (Friday prayer)",
+      "members": [
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.saturday.sabbath",
+      "concept": "weekday.saturday",
+      "root": "Hebrew shabbat via Greek sabbaton / Latin sabbatum",
+      "gloss": "Sabbath rest",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "el",
+          "relation": "source"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false,
+      "note": "Most languages here take the name of Saturday from the Sabbath. Tatar and Bashkir received it through Persian shanbe."
+    },
+    {
+      "id": "weekday.saturday.saturn",
+      "concept": "weekday.saturday",
+      "root": "Latin Saturni dies",
+      "gloss": "day of Saturn",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "calque"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.sunday.lord",
+      "concept": "weekday.sunday",
+      "root": "Latin dies dominica / Greek kyriakē",
+      "gloss": "the Lord's day",
+      "members": [
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "el",
+          "relation": "source"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false,
+      "note": "Armenian and Georgian forms are generally linked to Greek kyriakē; Georgian კვირა also means 'week'."
+    },
+    {
+      "id": "weekday.sunday.sun",
+      "concept": "weekday.sunday",
+      "root": "Latin solis dies",
+      "gloss": "day of the Sun",
+      "members": [
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "en",
+          "relation": "calque"
+        },
+        {
+          "lang": "de",
+          "relation": "calque"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "weekday.sunday.persian",
+      "concept": "weekday.sunday",
+      "root": "Persian yekshanbe",
+      "gloss": "first day",
+      "members": [
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.january.latin",
+      "concept": "month.january",
+      "root": "Latin Ianuarius",
+      "gloss": "month of Janus",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.february.latin",
+      "concept": "month.february",
+      "root": "Latin Februarius",
+      "gloss": "month of purification (februa)",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.march.latin",
+      "concept": "month.march",
+      "root": "Latin Martius",
+      "gloss": "month of Mars",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        }
+      ],
+      "reviewed": false,
+      "note": "Breton meurzh is both 'March' and 'Tuesday' (both from Latin Martis)."
+    },
+    {
+      "id": "month.april.latin",
+      "concept": "month.april",
+      "root": "Latin Aprilis",
+      "gloss": "(origin uncertain)",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.may.latin",
+      "concept": "month.may",
+      "root": "Latin Maius",
+      "gloss": "month of Maia",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        },
+        {
+          "lang": "cv",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.june.latin",
+      "concept": "month.june",
+      "root": "Latin Iunius",
+      "gloss": "month of Juno",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.july.latin",
+      "concept": "month.july",
+      "root": "Latin Iulius",
+      "gloss": "Julius Caesar's month",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.august.latin",
+      "concept": "month.august",
+      "root": "Latin Augustus",
+      "gloss": "Augustus's month",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        },
+        {
+          "lang": "br",
+          "relation": "inherited"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "month.september.latin",
+      "concept": "month.september",
+      "root": "Latin September",
+      "gloss": "seventh month",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false,
+      "note": "In the early Roman calendar (starting in March) this was the 7th/8th/9th/10th month; the name kept its number after the calendar changed."
+    },
+    {
+      "id": "month.october.latin",
+      "concept": "month.october",
+      "root": "Latin October",
+      "gloss": "eighth month",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false,
+      "note": "In the early Roman calendar (starting in March) this was the 7th/8th/9th/10th month; the name kept its number after the calendar changed."
+    },
+    {
+      "id": "month.november.latin",
+      "concept": "month.november",
+      "root": "Latin November",
+      "gloss": "ninth month",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false,
+      "note": "In the early Roman calendar (starting in March) this was the 7th/8th/9th/10th month; the name kept its number after the calendar changed."
+    },
+    {
+      "id": "month.december.latin",
+      "concept": "month.december",
+      "root": "Latin December",
+      "gloss": "tenth month",
+      "members": [
+        {
+          "lang": "en",
+          "relation": "loan"
+        },
+        {
+          "lang": "fr",
+          "relation": "inherited"
+        },
+        {
+          "lang": "it",
+          "relation": "inherited"
+        },
+        {
+          "lang": "es",
+          "relation": "inherited"
+        },
+        {
+          "lang": "pt",
+          "relation": "inherited"
+        },
+        {
+          "lang": "de",
+          "relation": "loan"
+        },
+        {
+          "lang": "el",
+          "relation": "loan"
+        },
+        {
+          "lang": "ru",
+          "relation": "loan"
+        },
+        {
+          "lang": "hy",
+          "relation": "loan"
+        },
+        {
+          "lang": "ka",
+          "relation": "loan"
+        },
+        {
+          "lang": "tt",
+          "relation": "loan"
+        },
+        {
+          "lang": "ba",
+          "relation": "loan"
+        }
+      ],
+      "reviewed": false,
+      "note": "In the early Roman calendar (starting in March) this was the 7th/8th/9th/10th month; the name kept its number after the calendar changed."
+    }
+  ],
+  "etymologies": {
+    "weekday.monday/fr": {
+      "literal": "day of the Moon",
+      "origin": "Latin lunae dies",
+      "reviewed": false
+    },
+    "weekday.monday/it": {
+      "literal": "day of the Moon",
+      "origin": "Latin lunae dies",
+      "reviewed": false
+    },
+    "weekday.monday/es": {
+      "literal": "day of the Moon",
+      "origin": "Latin lunae dies",
+      "reviewed": false
+    },
+    "weekday.monday/br": {
+      "literal": "day of the Moon",
+      "origin": "Latin lunae dies",
+      "reviewed": false,
+      "note": "Usually written with the prefix di- (di + day name) in Breton."
+    },
+    "weekday.monday/en": {
+      "literal": "Moon's day",
+      "origin": "Old English Mōnandæg, a translation of Latin lunae dies",
+      "reviewed": false
+    },
+    "weekday.monday/de": {
+      "literal": "Moon day",
+      "origin": "Old High German mānatag, a translation of Latin lunae dies",
+      "reviewed": false
+    },
+    "weekday.monday/pt": {
+      "literal": "second feria",
+      "origin": "Ecclesiastical Latin feria secunda",
+      "reviewed": false,
+      "note": "Portuguese numbers weekdays from Sunday (domingo); only Saturday and Sunday keep other names."
+    },
+    "weekday.monday/el": {
+      "literal": "second",
+      "origin": "δεύτερος 'second'",
+      "reviewed": false,
+      "note": "Counted from Sunday, so Monday is the 'second' day."
+    },
+    "weekday.monday/ru": {
+      "literal": "after the week",
+      "origin": "понедельник: по 'after' + неделя",
+      "reviewed": false,
+      "note": "неделя originally meant Sunday (the day of rest), so the word means 'the day after Sunday'."
+    },
+    "weekday.monday/hy": {
+      "literal": "two + Sabbath",
+      "origin": "երկու 'two' + շաբաթ",
+      "reviewed": false,
+      "note": "Counted in days after the Sabbath, as in Persian."
+    },
+    "weekday.monday/ka": {
+      "literal": "two + Sabbath",
+      "origin": "ორ- 'two' + შაბათი",
+      "reviewed": false
+    },
+    "weekday.monday/tt": {
+      "literal": "second day",
+      "origin": "Persian dūshanbe (du 'two' + shanbe)",
+      "reviewed": false
+    },
+    "weekday.monday/ba": {
+      "literal": "second day",
+      "origin": "Persian dūshanbe (du 'two' + shanbe)",
+      "reviewed": false
+    },
+    "weekday.tuesday/fr": {
+      "literal": "day of Mars",
+      "origin": "Latin Martis dies",
+      "reviewed": false
+    },
+    "weekday.tuesday/it": {
+      "literal": "day of Mars",
+      "origin": "Latin Martis dies",
+      "reviewed": false
+    },
+    "weekday.tuesday/es": {
+      "literal": "day of Mars",
+      "origin": "Latin Martis dies",
+      "reviewed": false
+    },
+    "weekday.tuesday/br": {
+      "literal": "day of Mars",
+      "origin": "Latin Martis dies",
+      "reviewed": false,
+      "note": "Usually written with the prefix di- (di + day name) in Breton."
+    },
+    "weekday.tuesday/en": {
+      "literal": "Tiw's day",
+      "origin": "Old English Tīwesdæg; Tiw (Germanic Týr) was matched with Mars",
+      "reviewed": false
+    },
+    "weekday.tuesday/de": {
+      "literal": "Thing's day (probable)",
+      "origin": "Dienstag, usually linked to Germanic Mars Thingsus",
+      "reviewed": false,
+      "note": "Etymology debated."
+    },
+    "weekday.tuesday/pt": {
+      "literal": "third feria",
+      "origin": "Ecclesiastical Latin feria tertia",
+      "reviewed": false
+    },
+    "weekday.tuesday/el": {
+      "literal": "third",
+      "origin": "τρίτος 'third'",
+      "reviewed": false
+    },
+    "weekday.tuesday/ru": {
+      "literal": "second",
+      "origin": "вторый 'second'",
+      "reviewed": false,
+      "note": "Russian counts from Monday, so вторник is the 2nd day: the opposite of Greek or Portuguese counting from Sunday."
+    },
+    "weekday.tuesday/hy": {
+      "literal": "three + Sabbath",
+      "origin": "երեք 'three' + շաբաթ",
+      "reviewed": false
+    },
+    "weekday.tuesday/ka": {
+      "literal": "three + Sabbath",
+      "origin": "სამ- 'three' + შაბათი",
+      "reviewed": false
+    },
+    "weekday.tuesday/tt": {
+      "literal": "third day",
+      "origin": "Persian seshanbe (se 'three')",
+      "reviewed": false
+    },
+    "weekday.tuesday/ba": {
+      "literal": "third day",
+      "origin": "Persian seshanbe (se 'three')",
+      "reviewed": false
+    },
+    "weekday.wednesday/fr": {
+      "literal": "day of Mercury",
+      "origin": "Latin Mercurii dies",
+      "reviewed": false
+    },
+    "weekday.wednesday/it": {
+      "literal": "day of Mercury",
+      "origin": "Latin Mercurii dies",
+      "reviewed": false
+    },
+    "weekday.wednesday/es": {
+      "literal": "day of Mercury",
+      "origin": "Latin Mercurii dies",
+      "reviewed": false
+    },
+    "weekday.wednesday/br": {
+      "literal": "day of Mercury",
+      "origin": "Latin Mercurii dies",
+      "reviewed": false,
+      "note": "Usually written with the prefix di- (di + day name) in Breton."
+    },
+    "weekday.wednesday/en": {
+      "literal": "Woden's day",
+      "origin": "Old English Wōdnesdæg; Woden (Odin) was matched with Mercury",
+      "reviewed": false
+    },
+    "weekday.wednesday/de": {
+      "literal": "mid-week",
+      "origin": "Mittwoch (mitte 'middle' + woche)",
+      "reviewed": false,
+      "note": "Replaced the older Wodan's-day name in the Middle Ages."
+    },
+    "weekday.wednesday/pt": {
+      "literal": "fourth feria",
+      "origin": "Ecclesiastical Latin feria quarta",
+      "reviewed": false
+    },
+    "weekday.wednesday/el": {
+      "literal": "fourth",
+      "origin": "τέταρτος 'fourth'",
+      "reviewed": false
+    },
+    "weekday.wednesday/ru": {
+      "literal": "middle",
+      "origin": "середа 'middle'",
+      "reviewed": false
+    },
+    "weekday.wednesday/hy": {
+      "literal": "four + Sabbath",
+      "origin": "չորս 'four' + շաբաթ",
+      "reviewed": false
+    },
+    "weekday.wednesday/ka": {
+      "literal": "four + Sabbath",
+      "origin": "ოთხ- 'four' + შაბათი",
+      "reviewed": false
+    },
+    "weekday.wednesday/tt": {
+      "literal": "fourth day",
+      "origin": "Persian chahārshanbe",
+      "reviewed": false
+    },
+    "weekday.wednesday/ba": {
+      "literal": "fourth day",
+      "origin": "Persian chahārshanbe",
+      "reviewed": false
+    },
+    "weekday.thursday/fr": {
+      "literal": "day of Jupiter",
+      "origin": "Latin Iovis dies",
+      "reviewed": false
+    },
+    "weekday.thursday/it": {
+      "literal": "day of Jupiter",
+      "origin": "Latin Iovis dies",
+      "reviewed": false
+    },
+    "weekday.thursday/es": {
+      "literal": "day of Jupiter",
+      "origin": "Latin Iovis dies",
+      "reviewed": false
+    },
+    "weekday.thursday/br": {
+      "literal": "day of Jupiter",
+      "origin": "Latin Iovis dies",
+      "reviewed": false,
+      "note": "Usually written with the prefix di- (di + day name) in Breton."
+    },
+    "weekday.thursday/en": {
+      "literal": "Thor's day",
+      "origin": "Old English Þunresdæg; Thor was matched with Jupiter",
+      "reviewed": false
+    },
+    "weekday.thursday/de": {
+      "literal": "Donar's day",
+      "origin": "Donnerstag; Donar is the Germanic thunder god, matched with Jupiter",
+      "reviewed": false
+    },
+    "weekday.thursday/pt": {
+      "literal": "fifth feria",
+      "origin": "Ecclesiastical Latin feria quinta",
+      "reviewed": false
+    },
+    "weekday.thursday/el": {
+      "literal": "fifth",
+      "origin": "πέμπτος 'fifth'",
+      "reviewed": false
+    },
+    "weekday.thursday/ru": {
+      "literal": "fourth",
+      "origin": "четвёртый 'fourth'",
+      "reviewed": false
+    },
+    "weekday.thursday/hy": {
+      "literal": "five + Sabbath",
+      "origin": "հինգ 'five' + շաբաթ",
+      "reviewed": false
+    },
+    "weekday.thursday/ka": {
+      "literal": "five + Sabbath",
+      "origin": "ხუთ- 'five' + შაბათი",
+      "reviewed": false
+    },
+    "weekday.thursday/tt": {
+      "literal": "fifth day",
+      "origin": "Persian panjshanbe",
+      "reviewed": false
+    },
+    "weekday.friday/fr": {
+      "literal": "day of Venus",
+      "origin": "Latin Veneris dies",
+      "reviewed": false
+    },
+    "weekday.friday/it": {
+      "literal": "day of Venus",
+      "origin": "Latin Veneris dies",
+      "reviewed": false
+    },
+    "weekday.friday/es": {
+      "literal": "day of Venus",
+      "origin": "Latin Veneris dies",
+      "reviewed": false
+    },
+    "weekday.friday/br": {
+      "literal": "day of Venus",
+      "origin": "Latin Veneris dies",
+      "reviewed": false,
+      "note": "Usually written with the prefix di- (di + day name) in Breton."
+    },
+    "weekday.friday/en": {
+      "literal": "Frige's day",
+      "origin": "Old English Frīgedæg; Frige was matched with Venus",
+      "reviewed": false
+    },
+    "weekday.friday/de": {
+      "literal": "Frija's day",
+      "origin": "Freitag; Frija was matched with Venus",
+      "reviewed": false
+    },
+    "weekday.friday/pt": {
+      "literal": "sixth feria",
+      "origin": "Ecclesiastical Latin feria sexta",
+      "reviewed": false
+    },
+    "weekday.friday/el": {
+      "literal": "preparation",
+      "origin": "παρασκευή: the day of preparation before the Sabbath",
+      "reviewed": false
+    },
+    "weekday.friday/ru": {
+      "literal": "fifth",
+      "origin": "пятый 'fifth'",
+      "reviewed": false
+    },
+    "weekday.friday/ka": {
+      "literal": "preparation",
+      "origin": "Greek paraskeuē",
+      "reviewed": false
+    },
+    "weekday.friday/tt": {
+      "literal": "gathering",
+      "origin": "Arabic jumʿa (Friday prayer)",
+      "reviewed": false
+    },
+    "weekday.friday/ba": {
+      "literal": "gathering",
+      "origin": "Arabic jumʿa (Friday prayer)",
+      "reviewed": false
+    },
+    "weekday.saturday/fr": {
+      "literal": "Sabbath",
+      "origin": "Late Latin sambati dies, from sabbatum",
+      "reviewed": false
+    },
+    "weekday.saturday/it": {
+      "literal": "Sabbath",
+      "origin": "Latin sabbatum",
+      "reviewed": false
+    },
+    "weekday.saturday/es": {
+      "literal": "Sabbath",
+      "origin": "Latin sabbatum",
+      "reviewed": false
+    },
+    "weekday.saturday/pt": {
+      "literal": "Sabbath",
+      "origin": "Latin sabbatum",
+      "reviewed": false
+    },
+    "weekday.saturday/el": {
+      "literal": "Sabbath",
+      "origin": "Greek sabbaton, from Hebrew shabbat",
+      "reviewed": false
+    },
+    "weekday.saturday/ru": {
+      "literal": "Sabbath",
+      "origin": "Greek sabbaton, from Hebrew shabbat",
+      "reviewed": false
+    },
+    "weekday.saturday/de": {
+      "literal": "Sabbath",
+      "origin": "Samstag, via Greek/Gothic sambato",
+      "reviewed": false
+    },
+    "weekday.saturday/en": {
+      "literal": "Saturn's day",
+      "origin": "Old English Sæterndæg, from Latin Saturni dies",
+      "reviewed": false
+    },
+    "weekday.saturday/br": {
+      "literal": "day of Saturn",
+      "origin": "Latin Saturni dies",
+      "reviewed": false
+    },
+    "weekday.saturday/hy": {
+      "literal": "Sabbath / week",
+      "origin": "շաբաթ also means 'week'",
+      "reviewed": false
+    },
+    "weekday.saturday/ka": {
+      "literal": "Sabbath",
+      "origin": "შაბათი, from Hebrew shabbat",
+      "reviewed": false
+    },
+    "weekday.saturday/tt": {
+      "literal": "Sabbath",
+      "origin": "Persian shanbe, from Hebrew shabbat",
+      "reviewed": false
+    },
+    "weekday.saturday/ba": {
+      "literal": "Sabbath",
+      "origin": "Persian shanbe, from Hebrew shabbat",
+      "reviewed": false
+    },
+    "weekday.sunday/fr": {
+      "literal": "the Lord's day",
+      "origin": "Latin dies dominica",
+      "reviewed": false
+    },
+    "weekday.sunday/it": {
+      "literal": "the Lord's day",
+      "origin": "Latin dies dominica",
+      "reviewed": false
+    },
+    "weekday.sunday/es": {
+      "literal": "the Lord's day",
+      "origin": "Latin dies dominica",
+      "reviewed": false
+    },
+    "weekday.sunday/pt": {
+      "literal": "the Lord's day",
+      "origin": "Latin dies dominica",
+      "reviewed": false
+    },
+    "weekday.sunday/el": {
+      "literal": "of the Lord",
+      "origin": "κυριακή",
+      "reviewed": false
+    },
+    "weekday.sunday/ru": {
+      "literal": "resurrection",
+      "origin": "воскресенье 'resurrection' (of Christ)",
+      "reviewed": false
+    },
+    "weekday.sunday/hy": {
+      "literal": "of the Lord",
+      "origin": "Greek kyriakē (generally accepted)",
+      "reviewed": false
+    },
+    "weekday.sunday/ka": {
+      "literal": "of the Lord / week",
+      "origin": "Probably from Greek kyriakē; also means 'week'",
+      "reviewed": false
+    },
+    "weekday.sunday/en": {
+      "literal": "Sun's day",
+      "origin": "Old English Sunnandæg, a translation of Latin dies solis",
+      "reviewed": false
+    },
+    "weekday.sunday/de": {
+      "literal": "Sun day",
+      "origin": "Sonntag, a translation of Latin dies solis",
+      "reviewed": false
+    },
+    "weekday.sunday/br": {
+      "literal": "day of the Sun",
+      "origin": "Latin solis (dies)",
+      "reviewed": false
+    },
+    "weekday.sunday/tt": {
+      "literal": "first day",
+      "origin": "Persian yekshanbe",
+      "reviewed": false
+    },
+    "weekday.sunday/ba": {
+      "literal": "first day",
+      "origin": "Persian yekshanbe",
+      "reviewed": false
+    }
+  },
+  "insights": [
+    {
+      "id": "weekday-counting",
+      "concepts": [
+        "weekday.monday",
+        "weekday.tuesday",
+        "weekday.wednesday",
+        "weekday.thursday"
+      ],
+      "text": "Greek, Portuguese, Armenian and Georgian count the days from Sunday, so Monday is 'second'. Russian counts from Monday, so вторник (Tuesday) is 'second'.",
+      "reviewed": false
+    },
+    {
+      "id": "weekday-persian",
+      "concepts": [
+        "weekday.monday",
+        "weekday.tuesday",
+        "weekday.wednesday",
+        "weekday.sunday"
+      ],
+      "text": "Tatar and Bashkir weekday names are Persian numbers + shanbe: dū-shanbe (2), se-shanbe (3), chahār-shanbe (4), yek-shanbe (1).",
+      "reviewed": false
+    },
+    {
+      "id": "weekday-gods",
+      "concepts": [
+        "weekday.tuesday",
+        "weekday.wednesday",
+        "weekday.thursday",
+        "weekday.friday"
+      ],
+      "text": "English Tuesday to Friday translate the Latin planetary-god names into Germanic gods: Mars = Tiw, Mercury = Woden, Jupiter = Thor, Venus = Frige.",
+      "reviewed": false
+    },
+    {
+      "id": "month-numbers",
+      "concepts": [
+        "month.september",
+        "month.october",
+        "month.november",
+        "month.december"
+      ],
+      "text": "September, October, November and December come from the Latin numbers 7, 8, 9 and 10, although they are now the 9th to 12th months.",
+      "reviewed": false
+    },
+    {
+      "id": "breton-meurzh",
+      "concepts": [
+        "weekday.tuesday",
+        "month.march"
+      ],
+      "text": "In Breton, meurzh means both Tuesday and March: both come from Latin Martis (of Mars).",
+      "reviewed": false
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wiktionary (per-word etymology sections)",
+      "url": "https://en.wiktionary.org/"
+    },
+    {
+      "title": "Etymonline: day names",
+      "url": "https://www.etymonline.com/"
+    }
+  ]
+}
