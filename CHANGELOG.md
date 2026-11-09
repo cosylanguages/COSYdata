@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- Added level-appropriate jobs and professions across CEFR levels A0–A1, A2, B1, and B2 to English (4 entries added), French (21 entries added), Italian (21 entries added), Russian (27 entries added), and Greek (28 entries added), with culturally and linguistically authentic definitions and examples adapted to each level, full IPA transcriptions, emojis, and complete grammatical metadata.
 - Restored 82 valid English vocabulary entries removed without logging in commit `bafad07` into their canonical primary theme files in `vocabulary/en/` (`a0_a1`, `a2`, `b1`, `b2`) per `schemas/themes.json` taxonomy, logged all 89 removed entries in `reports/restore-log.md` (marking 7 wrong-part-of-speech artifacts as dropped), resolved `dormitory` duplicate, and regenerated all English index files (`index.json`, `flat-index.json`, `search-index.json`, `themes-index.json`).
 - Created `schemas/themes.json` defining the canonical theme and sub-theme taxonomy (46 primary themes and 236 sub-theme pairs, including newly added `housing/chores` and `housing/daily_life` sub-themes) along with `$defs.secondary_theme` enum validating secondary theme strings.
 - Added catalog of unapplied theme spelling duplicate merges in `reports/theme-merges.md`.
