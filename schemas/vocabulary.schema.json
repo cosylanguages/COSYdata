@@ -200,6 +200,10 @@
       "type": "string",
       "description": "Short sentence of usage guidance in English"
     },
+    "literal_meaning": {
+      "type": "string",
+      "description": "Idioms and fixed expressions only: what the words say when read literally, in the entry's own language. Optional; used for the daily idiom card and literal-vs-figurative exercises"
+    },
     "stress": {
       "type": "string",
       "description": "Headword with combining acute accent U+0301 on stressed vowel"
