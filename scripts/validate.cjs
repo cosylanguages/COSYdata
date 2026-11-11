@@ -246,6 +246,21 @@ function main() {
     }
   }
 
+  // Placeholder content check: every entry needs a real definition and a real example
+  console.log(`Checking for placeholder definitions and examples...`);
+  for (const { entry, relPath } of vocabEntriesList) {
+    if (!entry || !entry.id) continue;
+    const defs = Array.isArray(entry.definitions) ? entry.definitions : [];
+    const exs = Array.isArray(entry.examples) ? entry.examples : [];
+    const placeholderDef = defs.some((d) => typeof d === 'string' && /^Idiomatic expression\b/.test(d.trim()));
+    const placeholderEx = exs.some((x) => typeof x === 'string' && /^Example sentence using\b/.test(x.trim()));
+    const emptyIdiomDef = entry.form === 'idiom' && defs.every((d) => !String(d).trim());
+    if (placeholderDef || placeholderEx || emptyIdiomDef) {
+      hasError = true;
+      console.error(`\n[PLACEHOLDER ERROR] File ${relPath} (ID: ${entry.id}): ${placeholderDef ? 'placeholder definition' : ''}${placeholderEx ? ' placeholder example' : ''}${emptyIdiomDef ? ' empty definition' : ''}`.replace(/\s+/g,' '));
+    }
+  }
+
   // Index all vocabulary entries by ID and by language+word+form for relational checks
   const vocabIdMap = new Map();
   const langWordFormMap = new Map(); // "lang:word:form" -> array of entries
