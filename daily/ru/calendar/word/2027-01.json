@@ -1,0 +1,883 @@
+{
+  "lang": "ru",
+  "slot": "word",
+  "month": "2027-01",
+  "days": {
+    "2027-01-01": {
+      "A0": {
+        "id": "ru:goryachyi:adjective",
+        "word": "горячий",
+        "pos": "adjective",
+        "definition": "Имеющий высокую температуру, выделяющий тепло.",
+        "example": "Я пью горячий чай каждое утро.",
+        "emoji": "🔥"
+      },
+      "A1": {
+        "id": "ru:igra:noun",
+        "word": "игра",
+        "pos": "noun",
+        "definition": "Занятие для развлечения и отдыха.",
+        "example": "У детей сегодня интересная настольная игра.",
+        "gender": "feminine",
+        "emoji": "🎮"
+      },
+      "A2": {
+        "id": "ru:bol:noun",
+        "word": "боль",
+        "pos": "noun",
+        "definition": "Неприятное физическое ощущение в теле при болезни.",
+        "example": "Пациент чувствует сильную боль в правой руке сегодня.",
+        "gender": "feminine",
+        "emoji": "🩹"
+      }
+    },
+    "2027-01-02": {
+      "A0": {
+        "id": "ru:imya:noun",
+        "word": "имя",
+        "pos": "noun",
+        "definition": "Личное название человека при рождении.",
+        "example": "Моё имя Иван, а как тебя зовут?",
+        "gender": "neuter",
+        "emoji": "🏷️"
+      },
+      "A1": {
+        "id": "ru:menyu:noun",
+        "word": "меню",
+        "pos": "noun",
+        "definition": "Перечень блюд и напитков с ценами.",
+        "example": "Официант принёс нам меню в ресторане.",
+        "gender": "neuter",
+        "emoji": "📜"
+      },
+      "A2": {
+        "id": "ru:skoro:adverb",
+        "word": "скоро",
+        "pos": "adverb",
+        "definition": "В ближайшем будущем через короткое время.",
+        "example": "Скоро наступит весёлый зимний праздник Новый год.",
+        "emoji": "⏩"
+      }
+    },
+    "2027-01-03": {
+      "A0": {
+        "id": "ru:kholodnyi:adjective",
+        "word": "холодный",
+        "pos": "adjective",
+        "definition": "Имеющий низкую температуру, не тёплый.",
+        "example": "Зимой дует холодный сильный ветер.",
+        "emoji": "❄️"
+      },
+      "A1": {
+        "id": "ru:rubashka:noun",
+        "word": "рубашка",
+        "pos": "noun",
+        "definition": "Одежда для верхнего тела с пуговицами.",
+        "example": "Мужчина надел белую красивую рубашку.",
+        "gender": "feminine",
+        "emoji": "👔"
+      },
+      "A2": {
+        "id": "ru:santekhnik:noun",
+        "word": "сантехник",
+        "pos": "noun",
+        "definition": "Работник, занимающийся установкой и ремонтом водопровода и канализации.",
+        "example": "Сантехник быстро устранил засор в трубе и починил кран на кухне.",
+        "gender": "masculine",
+        "emoji": "🪠"
+      }
+    },
+    "2027-01-04": {
+      "A0": {
+        "id": "ru:belyi:adjective",
+        "word": "белый",
+        "pos": "adjective",
+        "definition": "Цвет, который имеет чистый снег.",
+        "example": "На столе лежит белый лист бумаги.",
+        "emoji": "⚪"
+      },
+      "A1": {
+        "id": "ru:muzyka:noun",
+        "word": "музыка",
+        "pos": "noun",
+        "definition": "Искусство гармоничного сочетания звуков.",
+        "example": "Мы слушаем красивую классическую музыку вечером.",
+        "gender": "feminine",
+        "emoji": "🎵"
+      },
+      "A2": {
+        "id": "ru:smeshnoi:adjective",
+        "word": "смешной",
+        "pos": "adjective",
+        "definition": "Вызывающий весёлый смех своей шуткой.",
+        "example": "Актер рассказал очень смешную историю со сцены.",
+        "emoji": "😂"
+      }
+    },
+    "2027-01-05": {
+      "A0": {
+        "id": "ru:bumaga:noun",
+        "word": "бумага",
+        "pos": "noun",
+        "definition": "Материал в виде тонких листов.",
+        "example": "На столе лежит белый чистый лист бумаги.",
+        "gender": "feminine",
+        "emoji": "📄"
+      },
+      "A1": {
+        "id": "ru:stakan:noun",
+        "word": "стакан",
+        "pos": "noun",
+        "definition": "Стеклянный сосуд для питья воды и сока.",
+        "example": "Я налил чистую воду в стакан.",
+        "gender": "masculine",
+        "emoji": "🥛"
+      },
+      "A2": {
+        "id": "ru:grubyi:adjective",
+        "word": "грубый",
+        "pos": "adjective",
+        "definition": "Невоспитанный, проявляющий неуважение к людям.",
+        "example": "Грубый человек отказался помочь старой женщине сегодня.",
+        "emoji": "😠"
+      }
+    },
+    "2027-01-06": {
+      "A0": {
+        "id": "ru:chai:noun",
+        "word": "чай",
+        "pos": "noun",
+        "definition": "Напиток, завариваемый из сухих листьев.",
+        "example": "Бабушка пьёт горячий чай с лимоном.",
+        "gender": "masculine",
+        "emoji": "🍵"
+      },
+      "A1": {
+        "id": "ru:zmeya:noun",
+        "word": "змея",
+        "pos": "noun",
+        "definition": "Пресмыкающееся животное без ног.",
+        "example": "Длинная зелёная змея ползёт по траве.",
+        "gender": "feminine",
+        "emoji": "🐍"
+      },
+      "A2": {
+        "id": "ru:zloi:adjective",
+        "word": "злой",
+        "pos": "adjective",
+        "definition": "Испытывающий раздражение и сильный гнев.",
+        "example": "Злой человек громко кричит на всех вокруг.",
+        "emoji": "😡"
+      }
+    },
+    "2027-01-07": {
+      "A0": {
+        "id": "ru:doch:noun",
+        "word": "дочь",
+        "pos": "noun",
+        "definition": "Девочка или женщина по отношению к родителям.",
+        "example": "Младшая дочь учится в хорошей школе.",
+        "gender": "feminine",
+        "emoji": "👧"
+      },
+      "A1": {
+        "id": "ru:perets:noun",
+        "word": "перец",
+        "pos": "noun",
+        "definition": "Острая пряная приправа из плодов растения.",
+        "example": "Отец добавляет чёрный перец в суп.",
+        "gender": "masculine",
+        "emoji": "🌶️"
+      },
+      "A2": {
+        "id": "ru:internet:noun",
+        "word": "интернет",
+        "pos": "noun",
+        "definition": "Всемирная компьютерная сеть для обмена информацией.",
+        "example": "Быстрый интернет позволяет работать и учиться удалённо дома.",
+        "gender": "masculine",
+        "emoji": "🌐"
+      }
+    },
+    "2027-01-08": {
+      "A0": {
+        "id": "ru:zholtyi:adjective",
+        "word": "жёлтый",
+        "pos": "adjective",
+        "definition": "Яркий цвет, цвет лимона и яркого солнца.",
+        "example": "Она купила спелый жёлтый банан вчера.",
+        "emoji": "🟡"
+      },
+      "A1": {
+        "id": "ru:pomoshch:noun",
+        "word": "помощь",
+        "pos": "noun",
+        "definition": "содействие или поддержка",
+        "example": "Спасибо за вашу добрую помощь.",
+        "gender": "feminine",
+        "emoji": "🤝"
+      },
+      "A2": {
+        "id": "ru:korabl:noun",
+        "word": "корабль",
+        "pos": "noun",
+        "definition": "Большое морское судно для плавания.",
+        "example": "Большой белый корабль плывёт по морю.",
+        "gender": "masculine",
+        "emoji": "🚢"
+      }
+    },
+    "2027-01-09": {
+      "A0": {
+        "id": "ru:zolotoi:adjective",
+        "word": "золотой",
+        "pos": "adjective",
+        "definition": "Блестящий жёлтый цвет, цвет чистого золота.",
+        "example": "Бабушка носит золотое кольцо на руке.",
+        "emoji": "🟡"
+      },
+      "A1": {
+        "id": "ru:taksi:noun",
+        "word": "такси",
+        "pos": "noun",
+        "definition": "Автомобиль с водителем за плату.",
+        "example": "Мы вызвали жёлтое такси до вокзала.",
+        "gender": "neuter",
+        "emoji": "🚕"
+      },
+      "A2": {
+        "id": "ru:orekh:noun",
+        "word": "орех",
+        "pos": "noun",
+        "definition": "Плод в твердой скорлупе со съедобным ядром.",
+        "example": "Белка прячет сухие грецкие орехи в дупле дерева.",
+        "gender": "masculine",
+        "emoji": "🥜"
+      }
+    },
+    "2027-01-10": {
+      "A0": {
+        "id": "ru:rebyonok:noun",
+        "word": "ребёнок",
+        "pos": "noun",
+        "definition": "Человек в раннем возрасте, дитя.",
+        "example": "Маленький ребёнок весело играет в комнате.",
+        "gender": "masculine",
+        "emoji": "👶"
+      },
+      "A1": {
+        "id": "ru:rannyi:adjective",
+        "word": "ранний",
+        "pos": "adjective",
+        "definition": "Наступающий в начале какого-либо срока.",
+        "example": "Раннее утро начинается со свежего воздуха.",
+        "emoji": "🌅"
+      },
+      "A2": {
+        "id": "ru:kamen:noun",
+        "word": "камень",
+        "pos": "noun",
+        "definition": "Твёрдая кусок породы природного происхождения.",
+        "example": "На берегу реки лежит большой камень.",
+        "gender": "masculine",
+        "emoji": "🪨"
+      }
+    },
+    "2027-01-11": {
+      "A0": {
+        "id": "ru:plokhoi:adjective",
+        "word": "плохой",
+        "pos": "adjective",
+        "definition": "Имеющий отрицательные свойства или недостатки.",
+        "example": "Сегодня на улице очень плохая погода.",
+        "emoji": "👎"
+      },
+      "A1": {
+        "id": "ru:sok:noun",
+        "word": "сок",
+        "pos": "noun",
+        "definition": "Напиток, отжатый из свежих фруктов.",
+        "example": "Дети любят пить апельсиновый сладкий сок.",
+        "gender": "masculine",
+        "emoji": "🧃"
+      },
+      "A2": {
+        "id": "ru:povar-a2:noun",
+        "word": "повар",
+        "pos": "noun",
+        "definition": "Профессиональный кулинар, который работает в ресторане.",
+        "example": "Повар готовит вкусный обед.",
+        "transcription": "/ˈpovər/",
+        "gender": "masculine",
+        "emoji": "👨‍🍳"
+      }
+    },
+    "2027-01-12": {
+      "A0": {
+        "id": "ru:oranzhevyi:adjective",
+        "word": "оранжевый",
+        "pos": "adjective",
+        "definition": "Цвет, который получается при смешивании красного и жёлтого.",
+        "example": "Маленький котёнок ест оранжевую морковь.",
+        "emoji": "🟠"
+      },
+      "A1": {
+        "id": "ru:pogoda:noun",
+        "word": "погода",
+        "pos": "noun",
+        "definition": "Состояние атмосферы в определенное время.",
+        "example": "Сегодня на улице стоит отличная тёплая погода.",
+        "gender": "feminine",
+        "emoji": "🌤️"
+      },
+      "A2": {
+        "id": "ru:razmer:noun",
+        "word": "размер",
+        "pos": "noun",
+        "definition": "Величина одежды или обуви по стандартам.",
+        "example": "Мне нужен сорок второй размер этих осенних кожаных ботинок.",
+        "gender": "masculine",
+        "emoji": "📏"
+      }
+    },
+    "2027-01-13": {
+      "A0": {
+        "id": "ru:noch:noun",
+        "word": "ночь",
+        "pos": "noun",
+        "definition": "Тёмное время суток от заката до восхода солнца.",
+        "example": "Ночью на тёмном небе светят луна и звёзды.",
+        "gender": "feminine",
+        "emoji": "🌙"
+      },
+      "A1": {
+        "id": "ru:reka:noun",
+        "word": "река",
+        "pos": "noun",
+        "definition": "Поток воды, текущий по руслу.",
+        "example": "Вдоль нашего города течёт широкая река.",
+        "gender": "feminine",
+        "emoji": "🏞️"
+      },
+      "A2": {
+        "id": "ru:vykhodnye:noun",
+        "word": "выходные",
+        "pos": "noun",
+        "definition": "Суббота и воскресенье, дни свободные от работы.",
+        "example": "В эти долгожданные выходные мы поедем за город.",
+        "gender": "masculine",
+        "emoji": "🎉"
+      }
+    },
+    "2027-01-14": {
+      "A0": {
+        "id": "ru:muzhchina:noun",
+        "word": "мужчина",
+        "pos": "noun",
+        "definition": "Взрослый человек мужского пола.",
+        "example": "Этот высокий мужчина работает в нашей школе.",
+        "gender": "masculine",
+        "emoji": "👨"
+      },
+      "A1": {
+        "id": "ru:krupnyy:adjective",
+        "word": "крупный",
+        "pos": "adjective",
+        "definition": "Больше среднего размера.",
+        "example": "В нашей стране построили крупный современный город.",
+        "emoji": "📏"
+      },
+      "A2": {
+        "id": "ru:seryoznyi:adjective",
+        "word": "серьёзный",
+        "pos": "adjective",
+        "definition": "Вдумчивый, рассудительный, настроенный на работу.",
+        "example": "Серьёзный студент внимательно слушает объяснения своего учителя.",
+        "emoji": "🧐"
+      }
+    },
+    "2027-01-15": {
+      "A0": {
+        "id": "ru:moloko:noun",
+        "word": "молоко",
+        "pos": "noun",
+        "definition": "Питательная белая жидкость от коров.",
+        "example": "Маленький ребёнок пьёт тёплое свежее молоко.",
+        "gender": "neuter",
+        "emoji": "🥛"
+      },
+      "A1": {
+        "id": "ru:ryba-anim:noun",
+        "word": "рыба",
+        "pos": "noun",
+        "definition": "Водное животное с чешуёй и плавниками.",
+        "example": "Маленькая рыба быстро плавает в реке.",
+        "gender": "feminine",
+        "emoji": "🐠"
+      },
+      "A2": {
+        "id": "ru:pravo:noun",
+        "word": "право",
+        "pos": "noun",
+        "definition": "Охраняемая законом возможность что-либо делать.",
+        "example": "Каждый человек имеет право на качественную медицинскую помощь.",
+        "gender": "neuter",
+        "emoji": "📜"
+      }
+    },
+    "2027-01-16": {
+      "A0": {
+        "id": "ru:metro:noun",
+        "word": "метро",
+        "pos": "noun",
+        "definition": "Подземная железная дорога в городе.",
+        "example": "Станция метро находится рядом с домом.",
+        "gender": "neuter",
+        "emoji": "🚇"
+      },
+      "A1": {
+        "id": "ru:sever:noun",
+        "word": "север",
+        "pos": "noun",
+        "definition": "Сторона света, противоположная югу и тёплым странам.",
+        "example": "Перелётные птицы улетают на холодный север весной.",
+        "gender": "masculine",
+        "emoji": "🧭"
+      },
+      "A2": {
+        "id": "ru:kompromiss:noun",
+        "word": "компромисс",
+        "pos": "noun",
+        "definition": "Соглашение, при котором обе стороны принимают меньше, чем хотели.",
+        "example": "Хорошие отношения требуют компромисса.",
+        "transcription": "/kəmprɐˈmʲis/",
+        "gender": "masculine",
+        "emoji": "🤝"
+      }
+    },
+    "2027-01-17": {
+      "A0": {
+        "id": "ru:malenkyi:adjective",
+        "word": "маленький",
+        "pos": "adjective",
+        "definition": "Небольшого размера, незначительного объёма.",
+        "example": "Маленький серый котёнок спит сладко.",
+        "emoji": "🐭"
+      },
+      "A1": {
+        "id": "ru:dekabr:noun",
+        "word": "декабрь",
+        "pos": "noun",
+        "definition": "Двенадцатый месяц года, первый месяц зимы.",
+        "example": "В декабре выпадает первый белый снег.",
+        "gender": "masculine",
+        "emoji": "🗓️"
+      },
+      "A2": {
+        "id": "ru:kemping:noun",
+        "word": "кемпинг",
+        "pos": "noun",
+        "definition": "Лагерь для автотуристов с палатками.",
+        "example": "Мы остановились в хорошем летнем кемпинге у озера.",
+        "gender": "masculine",
+        "emoji": "🏕️"
+      }
+    },
+    "2027-01-18": {
+      "A0": {
+        "id": "ru:magazin:noun",
+        "word": "магазин",
+        "pos": "noun",
+        "definition": "Здание, где продают товары покупателям.",
+        "example": "Мама покупает продукты в нашем магазине.",
+        "gender": "masculine",
+        "emoji": "🏪"
+      },
+      "A1": {
+        "id": "ru:osen:noun",
+        "word": "осень",
+        "pos": "noun",
+        "definition": "Время года между летом и зимой.",
+        "example": "Осенью часто идёт холодный дождь.",
+        "gender": "feminine",
+        "emoji": "🍂"
+      },
+      "A2": {
+        "id": "ru:prostuda:noun",
+        "word": "простуда",
+        "pos": "noun",
+        "definition": "Инфекционное заболевание от сильного охлаждения тела.",
+        "example": "Осенью многие люди болеют неприятной частой простудой.",
+        "gender": "feminine",
+        "emoji": "🤧"
+      }
+    },
+    "2027-01-19": {
+      "A0": {
+        "id": "ru:litso:noun",
+        "word": "лицо",
+        "pos": "noun",
+        "definition": "Передняя часть головы с глазами и носом.",
+        "example": "Мальчик умывает своё лицо холодной водою.",
+        "gender": "neuter",
+        "emoji": "😊"
+      },
+      "A1": {
+        "id": "ru:eshchyo:adverb",
+        "word": "ещё",
+        "pos": "adverb",
+        "definition": "В дополнение, до сих пор.",
+        "example": "Я хочу выпить ещё стакан сока.",
+        "emoji": "⏳"
+      },
+      "A2": {
+        "id": "ru:pererabotka:noun",
+        "word": "переработка",
+        "pos": "noun",
+        "definition": "Вторичное использование мусора и пластика.",
+        "example": "Переработка мусора помогает сохранять чистоту нашей планеты.",
+        "gender": "feminine",
+        "emoji": "♻️"
+      }
+    },
+    "2027-01-20": {
+      "A0": {
+        "id": "ru:seychas:adverb",
+        "word": "сейчас",
+        "pos": "adverb",
+        "definition": "В настоящее время, в этот момент.",
+        "example": "Сейчас дети слушают учителя в классе.",
+        "emoji": "⏰"
+      },
+      "A1": {
+        "id": "ru:pivo:noun",
+        "word": "пиво",
+        "pos": "noun",
+        "definition": "Слабоалкогольный напиток из солода и хмеля.",
+        "example": "В ресторане продают холодное свежее пиво.",
+        "gender": "neuter",
+        "emoji": "🍺"
+      },
+      "A2": {
+        "id": "ru:butylka:noun",
+        "word": "бутылка",
+        "pos": "noun",
+        "definition": "Узкий стеклянный сосуд для хранения жидкостей.",
+        "example": "На столе стоит большая стеклянная бутылка воды.",
+        "gender": "feminine",
+        "emoji": "🍾"
+      }
+    },
+    "2027-01-21": {
+      "A0": {
+        "id": "ru:sol:noun",
+        "word": "соль",
+        "pos": "noun",
+        "definition": "Белая кристаллическая приправа к еде.",
+        "example": "Пожалуйста, передай мне белую соль.",
+        "gender": "feminine",
+        "emoji": "🧂"
+      },
+      "A1": {
+        "id": "ru:vsegda:adverb",
+        "word": "всегда",
+        "pos": "adverb",
+        "definition": "Во всё время, во всех случаях.",
+        "example": "Она всегда читает книги перед сном.",
+        "emoji": "♾️"
+      },
+      "A2": {
+        "id": "ru:pochva:noun",
+        "word": "почва",
+        "pos": "noun",
+        "definition": "Верхний плодородный слой земли для растений.",
+        "example": "Плодородная мягкая почва подходит для выращивания овощей.",
+        "gender": "feminine",
+        "emoji": "🌱"
+      }
+    },
+    "2027-01-22": {
+      "A0": {
+        "id": "ru:semya:noun",
+        "word": "семья",
+        "pos": "noun",
+        "definition": "Группа близких родственников, живущих вместе.",
+        "example": "Наша большая семья часто ужинает вместе.",
+        "gender": "feminine",
+        "emoji": "👨‍👩‍👧‍👦"
+      },
+      "A1": {
+        "id": "ru:zvezda:noun",
+        "word": "звезда",
+        "pos": "noun",
+        "definition": "Светящееся небесное тело на ночном небе.",
+        "example": "Ночью на небе сияет яркая звезда.",
+        "gender": "feminine",
+        "emoji": "⭐"
+      },
+      "A2": {
+        "id": "ru:kompaniya:noun",
+        "word": "компания",
+        "pos": "noun",
+        "definition": "Торговое или промышленное предприятие для бизнеса.",
+        "example": "Наша международная компания занимается разработкой новых современных программ.",
+        "gender": "feminine",
+        "emoji": "🏢"
+      }
+    },
+    "2027-01-23": {
+      "A0": {
+        "id": "ru:sestra:noun",
+        "word": "сестра",
+        "pos": "noun",
+        "definition": "Дочь тех же родителей по отношению к детям.",
+        "example": "Моя сестра пишет письмо своей подруге.",
+        "gender": "feminine",
+        "emoji": "👧"
+      },
+      "A1": {
+        "id": "ru:banan:noun",
+        "word": "банан",
+        "pos": "noun",
+        "definition": "Сладкий длинный плод жёлтого цвета.",
+        "example": "Обезьяна держит сладкий жёлтый банан.",
+        "gender": "masculine",
+        "emoji": "🍌"
+      },
+      "A2": {
+        "id": "ru:pustynya:noun",
+        "word": "пустыня",
+        "pos": "noun",
+        "definition": "Сухая песчаная территория с редкой растительностью.",
+        "example": "Жаркая пустыня отличается сухим климатом и песками.",
+        "gender": "feminine",
+        "emoji": "🏜️"
+      }
+    },
+    "2027-01-24": {
+      "A0": {
+        "id": "ru:ruchka:noun",
+        "word": "ручка",
+        "pos": "noun",
+        "definition": "Письменный принадлежность с чернилами.",
+        "example": "Ученик пишет упражнение синей ручкой.",
+        "gender": "feminine",
+        "emoji": "🖊️"
+      },
+      "A1": {
+        "id": "ru:plecho:noun",
+        "word": "плечо",
+        "pos": "noun",
+        "definition": "Верхняя часть руки от шеи до сустава.",
+        "example": "Мальчик несёт портфель на одном плече.",
+        "gender": "neuter",
+        "emoji": "💪"
+      },
+      "A2": {
+        "id": "ru:svobodnyi:adjective",
+        "word": "свободный",
+        "pos": "adjective",
+        "definition": "Не имеющий дополнительных дел и обязанностей.",
+        "example": "В свободный вечер я люблю гулять в парке.",
+        "emoji": "🕊️"
+      }
+    },
+    "2027-01-25": {
+      "A0": {
+        "id": "ru:sakhar:noun",
+        "word": "сахар",
+        "pos": "noun",
+        "definition": "Сладкое белое вещество из свеклы.",
+        "example": "Я кладу одну ложку сахара в чай.",
+        "gender": "masculine",
+        "emoji": "🍬"
+      },
+      "A1": {
+        "id": "ru:odnakovyi:adjective",
+        "word": "одинаковый",
+        "pos": "adjective",
+        "definition": "Такой же, ничем не отличающийся.",
+        "example": "Дети носят одинаковые синие школьные формы.",
+        "emoji": "👯"
+      },
+      "A2": {
+        "id": "ru:kupalnik:noun",
+        "word": "купальник",
+        "pos": "noun",
+        "definition": "Специальная одежда для плавания в бассейне.",
+        "example": "Девочка взяла новый яркий купальник на пляж.",
+        "gender": "masculine",
+        "emoji": "🩱"
+      }
+    },
+    "2027-01-26": {
+      "A0": {
+        "id": "ru:roditeli:noun",
+        "word": "родители",
+        "pos": "noun",
+        "definition": "Отец и мать по отношению к детям.",
+        "example": "Мои родители живут в красивом городе.",
+        "gender": "masculine",
+        "emoji": "👨‍👩‍👧"
+      },
+      "A1": {
+        "id": "ru:kurtka:noun",
+        "word": "куртка",
+        "pos": "noun",
+        "definition": "Короткая верхняя одежда от прохладной погоды.",
+        "example": "Осенью дети носят тёплые куртки.",
+        "gender": "feminine",
+        "emoji": "🧥"
+      },
+      "A2": {
+        "id": "ru:serga:noun",
+        "word": "серьга",
+        "pos": "noun",
+        "definition": "Ювелирное украшение, вдеваемое в ухо.",
+        "example": "Девочка носит серебряные серьги в виде цветов.",
+        "gender": "feminine",
+        "emoji": "🦪"
+      }
+    },
+    "2027-01-27": {
+      "A0": {
+        "id": "ru:rot:noun",
+        "word": "рот",
+        "pos": "noun",
+        "definition": "Отверстие на лице для принятия пищи.",
+        "example": "Ребёнок открывает рот для приёма еды.",
+        "gender": "masculine",
+        "emoji": "👄"
+      },
+      "A1": {
+        "id": "ru:sup:noun",
+        "word": "суп",
+        "pos": "noun",
+        "definition": "Жидкое горячее блюдо из овощей и мяса.",
+        "example": "На обед мы всегда едим горячий суп.",
+        "gender": "masculine",
+        "emoji": "🥣"
+      },
+      "A2": {
+        "id": "ru:smelyi:adjective",
+        "word": "смелый",
+        "pos": "adjective",
+        "definition": "Проявляющий мужество и отсутствие всякого страха.",
+        "example": "Смелый спасатель быстро вытащил человека из воды.",
+        "emoji": "🦸"
+      }
+    },
+    "2027-01-28": {
+      "A0": {
+        "id": "ru:ulitsa:noun",
+        "word": "улица",
+        "pos": "noun",
+        "definition": "Пространство между двумя рядами домов.",
+        "example": "Дети гуляют по широкой красивой улице.",
+        "gender": "feminine",
+        "emoji": "🛣️"
+      },
+      "A1": {
+        "id": "ru:vysokyi:adjective",
+        "word": "высокий",
+        "pos": "adjective",
+        "definition": "Имеющий большую высоту от земли.",
+        "example": "Высокое зеленое дерево растёт перед домом.",
+        "emoji": "🦒"
+      },
+      "A2": {
+        "id": "ru:rasteniye:noun",
+        "word": "растение",
+        "pos": "noun",
+        "definition": "Живой организм: дерево, трава или цветок.",
+        "example": "Каждое зелёное растение выделяет чистый кислород для дыхания.",
+        "gender": "neuter",
+        "emoji": "🌱"
+      }
+    },
+    "2027-01-29": {
+      "A0": {
+        "id": "ru:vchera:adverb",
+        "word": "вчера",
+        "pos": "adverb",
+        "definition": "В день, который был перед сегодняшним днём.",
+        "example": "Вчера я прочитал интересную новую книгу.",
+        "emoji": "⏪"
+      },
+      "A1": {
+        "id": "ru:udivitelnyy:adjective",
+        "word": "удивительный",
+        "pos": "adjective",
+        "definition": "Вызывающий большое удивление или восхищение.",
+        "example": "Учитель рассказал нам очень удивительный факты сегодня.",
+        "emoji": "😲"
+      },
+      "A2": {
+        "id": "ru:fotoapparat:noun",
+        "word": "фотоаппарат",
+        "pos": "noun",
+        "definition": "Оптическое устройство для создания красивых фотографий.",
+        "example": "Турист взял современный фотоаппарат для съемки красивых видов.",
+        "gender": "masculine",
+        "emoji": "📷"
+      }
+    },
+    "2027-01-30": {
+      "A0": {
+        "id": "ru:zavtra:adverb",
+        "word": "завтра",
+        "pos": "adverb",
+        "definition": "В день, который будет после сегодняшнего дня.",
+        "example": "Завтра мой брат пойдёт в школу.",
+        "emoji": "⏩"
+      },
+      "A1": {
+        "id": "ru:yanvar:noun",
+        "word": "январь",
+        "pos": "noun",
+        "definition": "Первый месяц года, зимний месяц.",
+        "example": "Январь — это первый месяц года.",
+        "gender": "masculine",
+        "emoji": "🗓️"
+      },
+      "A2": {
+        "id": "ru:prestupleniye:noun",
+        "word": "преступление",
+        "pos": "noun",
+        "definition": "Опасное нарушение закона, караемое по закону.",
+        "example": "Полиция быстро расследовала опасное преступление в городе.",
+        "gender": "neuter",
+        "emoji": "🚨"
+      }
+    },
+    "2027-01-31": {
+      "A0": {
+        "id": "ru:yabloko:noun",
+        "word": "яблоко",
+        "pos": "noun",
+        "definition": "Сочный круглый плод яблони.",
+        "example": "Мальчик съел красное сочное яблоко.",
+        "gender": "neuter",
+        "emoji": "🍎"
+      },
+      "A1": {
+        "id": "ru:chesnok:noun",
+        "word": "чеснок",
+        "pos": "noun",
+        "definition": "Огородное растение с пахучими дольками.",
+        "example": "Чеснок придаёт мясу отличный острый вкус.",
+        "gender": "masculine",
+        "emoji": "🧄"
+      },
+      "A2": {
+        "id": "ru:vystavka:noun",
+        "word": "выставка",
+        "pos": "noun",
+        "definition": "Публичный показ картин и произведений искусства.",
+        "example": "В музее открылась новая интересная выставка картин.",
+        "gender": "feminine",
+        "emoji": "🖼️"
+      }
+    }
+  }
+}
