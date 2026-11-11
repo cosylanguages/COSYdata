@@ -1,34 +1,42 @@
 #!/usr/bin/env node
 /**
- * Builds the dictionary-backed daily calendar for the COSY daily strip.
+ * Builds the dictionary-backed daily calendars for the COSY daily ecosystem.
  *
- *   daily/<lang>/calendar/idiom/YYYY-MM.json
+ *   daily/<lang>/calendar/<slot>/YYYY-MM.json
  *
- * One idiom per CEFR level per day, picked from vocabulary/<lang>/<level>/idioms.json.
- * Each day carries a small card payload (word, definition, example, ...) so clients make one
- * tiny request instead of loading a vocabulary file.
+ * Supported slots:
+ *  - word: Word of the Day (creative explanation & synonym expansion for B1+)
+ *  - phrasal_verb: Phrasal Verb of the Day
+ *  - collocation: Collocation of the Day
+ *  - idiom: Idiom of the Day
  *
- * Rules
- *  - Deterministic: the pick depends only on lang, level, date and what was already used.
- *  - No repeats within min(90, pool/2) days at the same level.
- *  - Existing month files are never re-picked (published days stay stable). Their card payloads are
- *    refreshed from the dictionary on every run; a retired ID is replaced via shared/id-aliases.json.
- *  - Hand edits: daily/<lang>/calendar/overrides.json  {"idiom": {"2026-12-25": {"B1": "<entry id>"}}}
- *  - Editorial filter: daily/<lang>/calendar/exclude.json  {"idiom": {"<entry id>": "<word>"}}
- *    idioms.json also holds plain collocations and phrasal verbs; excluded entries are never featured.
- *  - Only languages listed in daily/calendar-config.json are built, i.e. languages whose idiom pool
- *    has been reviewed. Add a language there after reviewing it and writing its exclude.json.
+ * CEFR Bands:
+ *  - A0-A1 (dirs: a0, a0_a1, a1)
+ *  - A2 (dirs: a2)
+ *  - B1-B2 (dirs: b1, b2)
+ *  - C1-C2 (dirs: c1, c2)
  *
- * Usage: node scripts/build-daily-calendar.cjs [--from YYYY-MM-DD] [--months N] [--lang xx]
- *        Defaults: first day of the current month, 14 months, every language in daily/calendar-config.json.
+ * Each card carries a lightweight, ready-to-show payload with creative prompts
+ * and cross-ecosystem deep links to COSYlanguages, COSYpractice, and COSYtools.
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
 
 const root = path.resolve(__dirname, '..');
-const LEVEL_DIRS = { a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
-const SLOT = 'idiom';
+
+// Definition of CEFR bands mapped to directory names
+const CEFR_BANDS = {
+  'A0-A1': ['a0', 'a0_a1', 'a1'],
+  'A2': ['a2'],
+  'B1-B2': ['b1', 'b2'],
+  'C1-C2': ['c1', 'c2']
+};
+
+// Legacy idiom-only level directories for backward compatibility if needed
+const LEGACY_IDIOM_LEVELS = { a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
+
+const ALL_SLOTS = ['idiom', 'word', 'phrasal_verb', 'collocation'];
 
 function arg(name, dflt) {
   const i = process.argv.indexOf('--' + name);
@@ -49,31 +57,127 @@ function writeJson(p, data) {
 
 const aliases = readJson(path.join(root, 'shared', 'id-aliases.json'), {});
 
-function loadPools(lang, excluded) {
-  const pools = {}; // level -> [entry]
+/**
+ * Filter and load vocabulary pools for a given slot & language.
+ */
+function loadPools(lang, slot, excluded) {
+  const pools = {}; // level/band -> [entry]
   const byId = {};
-  for (const [dir, level] of Object.entries(LEVEL_DIRS)) {
-    const file = path.join(root, 'vocabulary', lang, dir, 'idioms.json');
-    if (!fs.existsSync(file)) continue;
-    const seen = new Set();
-    for (const e of readJson(file, [])) {
-      byId[e.id] = e;
-      const ok = e.definitions && String(e.definitions[0] || '').trim() && e.examples && String(e.examples[0] || '').trim();
-      const key = String(e.word).toLowerCase();
-      if (!ok || seen.has(key) || excluded[e.id]) continue;
-      seen.add(key);
-      (pools[level] = pools[level] || []).push(e);
+
+  if (slot === 'idiom') {
+    // Preserve exact existing idiom levels (A2, B1, B2, C1, C2) for compatibility
+    for (const [dir, level] of Object.entries(LEGACY_IDIOM_LEVELS)) {
+      const file = path.join(root, 'vocabulary', lang, dir, 'idioms.json');
+      if (!fs.existsSync(file)) continue;
+      const seen = new Set();
+      for (const e of readJson(file, [])) {
+        byId[e.id] = e;
+        const ok = e.definitions && String(e.definitions[0] || '').trim() && e.examples && String(e.examples[0] || '').trim();
+        const key = String(e.word).toLowerCase();
+        if (!ok || seen.has(key) || excluded[e.id]) continue;
+        seen.add(key);
+        (pools[level] = pools[level] || []).push(e);
+      }
+    }
+  } else {
+    // Banded slots: word, phrasal_verb, collocation
+    for (const [band, dirs] of Object.entries(CEFR_BANDS)) {
+      const seen = new Set();
+      for (const dir of dirs) {
+        const dirPath = path.join(root, 'vocabulary', lang, dir);
+        if (!fs.existsSync(dirPath)) continue;
+
+        let targetFiles = [];
+        if (slot === 'phrasal_verb') {
+          const pvFile = path.join(dirPath, 'phrasal_verbs.json');
+          if (fs.existsSync(pvFile)) targetFiles.push(pvFile);
+        } else if (slot === 'collocation') {
+          const colFile = path.join(dirPath, 'collocations.json');
+          if (fs.existsSync(colFile)) targetFiles.push(colFile);
+        } else if (slot === 'word') {
+          // All files except idioms, phrasal_verbs, collocations
+          const files = fs.readdirSync(dirPath).filter((f) =>
+            f.endsWith('.json') &&
+            !['idioms.json', 'phrasal_verbs.json', 'collocations.json', 'index.json', 'flat-index.json', 'search-index.json', 'themes-index.json'].includes(f)
+          );
+          targetFiles = files.map((f) => path.join(dirPath, f));
+        }
+
+        for (const file of targetFiles) {
+          for (const e of readJson(file, [])) {
+            byId[e.id] = e;
+            const ok = e.definitions && String(e.definitions[0] || '').trim() && e.examples && String(e.examples[0] || '').trim();
+            const key = String(e.word).toLowerCase();
+            if (!ok || seen.has(key) || excluded[e.id]) continue;
+
+            // Form matching
+            if (slot === 'phrasal_verb' && e.form !== 'phrasal_verb' && !file.endsWith('phrasal_verbs.json')) continue;
+            if (slot === 'collocation' && e.form !== 'collocation' && !file.endsWith('collocations.json')) continue;
+            if (slot === 'word') {
+              if (['idiom', 'phrase', 'phrasal_verb', 'collocation'].includes(e.form)) continue;
+            }
+
+            seen.add(key);
+            (pools[band] = pools[band] || []).push(e);
+          }
+        }
+      }
     }
   }
+
   for (const l of Object.keys(pools)) pools[l].sort((a, b) => (a.id < b.id ? -1 : 1));
   return { pools, byId };
 }
 
-function card(e, level) {
+/**
+ * Generate lightweight card payload with creative prompts and cross-repo links.
+ */
+function makeCard(e, slot, levelOrBand, lang, date) {
   const c = { id: e.id, word: e.word, definition: e.definitions[0], example: e.examples[0] };
   if (e.literal_meaning) c.literal_meaning = e.literal_meaning;
   if (e.emoji) c.emoji = e.emoji;
   if (e.audio) c.audio = e.audio;
+
+  // Add rich pedagogic enhancements for new slots
+  if (slot === 'word') {
+    c.cefr = e.level || levelOrBand;
+    if (e.theme) c.theme = e.theme;
+    if (e.synonyms && e.synonyms.length > 0) {
+      c.synonyms = e.synonyms.slice(0, 5);
+    }
+    const isHigherLevel = ['B1-B2', 'C1-C2', 'B1', 'B2', 'C1', 'C2'].includes(levelOrBand);
+    c.creative_prompt = {
+      type: 'explain_in_own_words',
+      instruction: `Explain '${e.word}' in your own words without using the word itself.`
+    };
+    if (isHigherLevel) {
+      c.creative_prompt.synonym_challenge = 'How many synonyms or alternative expressions can you generate?';
+    }
+  } else if (slot === 'phrasal_verb') {
+    c.cefr = e.level || levelOrBand;
+    if (e.theme) c.theme = e.theme;
+    c.creative_prompt = {
+      type: 'particle_usage',
+      instruction: `Create two sentences using '${e.word}': one showing its main meaning and one testing pronoun placement.`
+    };
+  } else if (slot === 'collocation') {
+    c.cefr = e.level || levelOrBand;
+    if (e.theme) c.theme = e.theme;
+    c.creative_prompt = {
+      type: 'natural_pairing',
+      instruction: `Why is '${e.word}' a natural word pairing? Write a realistic sentence using it.`
+    };
+  }
+
+  // Cross-ecosystem links
+  if (slot !== 'idiom') {
+    c.ecosystem_links = {
+      cosylanguages: `https://cosylanguages.github.io/COSYlanguages/?slot=${slot}&id=${encodeURIComponent(e.id)}`,
+      cosypractice: `https://cosylanguages.github.io/COSYpractice/?slot=${slot}&id=${encodeURIComponent(e.id)}`,
+      cosytools: `https://cosylanguages.github.io/COSYtools/?word=${encodeURIComponent(e.word)}`
+    };
+  }
+
   return c;
 }
 
@@ -89,12 +193,12 @@ function daysOf(month) {
   return Array.from({ length: n }, (_, i) => `${month}-${pad(i + 1)}`);
 }
 
-function buildLang(lang, months) {
-  const excluded = (readJson(path.join(root, 'daily', lang, 'calendar', 'exclude.json'), {})[SLOT]) || {};
-  const { pools, byId } = loadPools(lang, excluded);
+function buildLangSlot(lang, slot, months) {
+  const excluded = (readJson(path.join(root, 'daily', lang, 'calendar', 'exclude.json'), {})[slot]) || {};
+  const { pools, byId } = loadPools(lang, slot, excluded);
   const levels = Object.keys(pools);
-  if (!levels.length) return { lang, skipped: true };
-  const overrides = (readJson(path.join(root, 'daily', lang, 'calendar', 'overrides.json'), {})[SLOT]) || {};
+  if (!levels.length) return { lang, slot, skipped: true };
+  const overrides = (readJson(path.join(root, 'daily', lang, 'calendar', 'overrides.json'), {})[slot]) || {};
   const history = {}; // level -> [{date,id}] in date order
   levels.forEach((l) => (history[l] = []));
   const stats = { created: 0, refreshed: 0, replaced: 0 };
@@ -106,11 +210,11 @@ function buildLang(lang, months) {
     const recent = new Set(history[level].slice(-window).map((h) => h.id));
     const cands = pool.filter((e) => !recent.has(e.id));
     const list = cands.length ? cands : pool;
-    return list[fnv1a(`${lang}|${SLOT}|${level}|${date}`) % list.length];
+    return list[fnv1a(`${lang}|${slot}|${level}|${date}`) % list.length];
   }
 
   for (const month of months) {
-    const file = path.join(root, 'daily', lang, 'calendar', SLOT, `${month}.json`);
+    const file = path.join(root, 'daily', lang, 'calendar', slot, `${month}.json`);
     const existing = readJson(file, null);
     const days = {};
     for (const date of daysOf(month)) {
@@ -127,30 +231,36 @@ function buildLang(lang, months) {
         if (overrides[date] && overrides[date][level] && byId[overrides[date][level]]) entry = byId[overrides[date][level]];
         if (!entry) { entry = pick(level, date); stats.created++; }
         history[level].push({ date, id: entry.id });
-        day[level] = card(entry, level);
+        day[level] = makeCard(entry, slot, level, lang, date);
       }
       days[date] = day;
     }
-    const next = { lang, slot: SLOT, month, days };
+    const next = { lang, slot, month, days };
     if (!existing || JSON.stringify(existing) !== JSON.stringify(next)) {
       if (existing) stats.refreshed++;
       writeJson(file, next);
     }
   }
-  return { lang, levels, ...stats };
+  return { lang, slot, levels, ...stats };
 }
 
 function main() {
   const now = new Date();
   const from = arg('from', `${now.getUTCFullYear()}-${pad(now.getUTCMonth() + 1)}-01`);
   const months = monthsFrom(from.slice(0, 7), parseInt(arg('months', '14'), 10));
-  const only = arg('lang', null);
+  const onlyLang = arg('lang', null);
+  const onlySlot = arg('slot', null);
   const config = readJson(path.join(root, 'daily', 'calendar-config.json'), {});
-  const langs = ((config[SLOT] && config[SLOT].languages) || []).filter((l) => !only || l === only);
-  for (const lang of langs) {
-    const r = buildLang(lang, months);
-    if (r.skipped) continue;
-    console.log(`daily calendar [${lang}] levels ${r.levels.join(',')}: ${r.created} picked, ${r.replaced} re-pointed, ${r.refreshed} month file(s) rewritten`);
+
+  const slotsToBuild = onlySlot ? [onlySlot] : ALL_SLOTS;
+
+  for (const slot of slotsToBuild) {
+    const langs = ((config[slot] && config[slot].languages) || []).filter((l) => !onlyLang || l === onlyLang);
+    for (const lang of langs) {
+      const r = buildLangSlot(lang, slot, months);
+      if (r.skipped) continue;
+      console.log(`daily calendar [${lang}:${slot}] levels ${r.levels.join(',')}: ${r.created} picked, ${r.replaced} re-pointed, ${r.refreshed} month file(s) rewritten`);
+    }
   }
 }
 
