@@ -43,6 +43,29 @@ function getDailyEntry(items) {
 
 ---
 
+## Dictionary-backed calendar (idiom of the day)
+
+`daily/<lang>/calendar/idiom/YYYY-MM.json` holds one idiom per CEFR level per day, picked from
+`vocabulary/<lang>/<level>/idioms.json`. Each day carries a ready-to-show card (word, definition,
+example, optional `literal_meaning`, `emoji`, `audio`), so a client needs one small request:
+
+```json
+{ "lang": "en", "slot": "idiom", "month": "2026-11",
+  "days": { "2026-11-10": { "B1": { "id": "en:feather-in-ones-cap:idiom", "word": "Feather in one's cap",
+                                    "definition": "An achievement to be proud of", "example": "..." } } } }
+```
+
+- **Build:** `npm run build:daily` (also part of `npm run build`). Defaults to the current month plus 13.
+  Existing month files are never re-picked, so published days stay stable; their cards are refreshed from the
+  dictionary on every run, and a retired ID is re-pointed through `shared/id-aliases.json`.
+- **Picking:** deterministic (language, level, date), no repeat within min(90, pool/2) days at a level.
+- **Editorial filter:** `idioms.json` also contains plain collocations and phrasal verbs.
+  `daily/<lang>/calendar/exclude.json` lists entries that are never featured (`{"idiom": {"<id>": "<word>"}}`).
+- **Hand edits:** `daily/<lang>/calendar/overrides.json`, `{"idiom": {"2026-12-25": {"B1": "<entry id>"}}}`.
+- **Languages:** only those listed in `daily/calendar-config.json`. Add a language after reviewing its idiom pool and
+  writing its `exclude.json`. Currently `en`. Levels without a pool are skipped (fr: A2, it: A2-B1, ru: A2 today).
+- **Validation:** `npm run validate` fails if a pick no longer exists, its card is out of date, or it is excluded.
+
 ## CORS & Hosting
 
 All JSON files in this directory are hosted statically via GitHub Pages at:

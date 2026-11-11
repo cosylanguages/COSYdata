@@ -629,6 +629,34 @@ function main() {
     }
   }
 
+  // Daily calendar freshness: every pick must exist and its card payload must match the dictionary
+  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/]idiom[\\/]\d{4}-\d{2}\.json$/.test(f));
+  console.log(`Checking ${calendarFiles.length} daily calendar file(s)...`);
+  for (const file of calendarFiles) {
+    const rel = path.relative(rootDir, file).replace(/\\/g, '/');
+    const month = path.basename(file, '.json');
+    const excludePath = path.join(path.dirname(path.dirname(file)), 'exclude.json');
+    const excluded = fs.existsSync(excludePath) ? (JSON.parse(fs.readFileSync(excludePath, 'utf8')).idiom || {}) : {};
+    let cal;
+    try { cal = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (err) {
+      hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: ${err.message}`); continue;
+    }
+    if (cal.month !== month) { hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: month '${cal.month}' does not match file name`); }
+    for (const [date, day] of Object.entries(cal.days || {})) {
+      if (!date.startsWith(month + '-')) { hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: date ${date} is outside ${month}`); }
+      for (const [level, c] of Object.entries(day)) {
+        const hit = vocabIdMap.get(c.id);
+        const where = `${rel} ${date} ${level} (${c.id})`;
+        if (!hit) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry no longer exists - run npm run build:daily`); continue; }
+        const e = hit.entry;
+        const stale = c.word !== e.word || c.definition !== (e.definitions || [])[0] || c.example !== (e.examples || [])[0]
+          || (c.literal_meaning || null) !== (e.literal_meaning || null) || (c.emoji || null) !== (e.emoji || null);
+        if (stale) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: card is out of date with the dictionary - run npm run build:daily`); }
+        if (excluded[c.id]) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry is listed in exclude.json`); }
+      }
+    }
+  }
+
   if (hasError) {
     console.error('\nValidation failed.');
     process.exit(1);

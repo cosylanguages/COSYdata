@@ -6,7 +6,8 @@
   "types": "shared/types.d.ts",
   "scripts": {
     "audit": "node scripts/audit-a0-a1.cjs",
-    "build": "npm run build:index && npm run build:flat-index && npm run build:search-index",
+    "build": "npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily",
+    "build:daily": "node scripts/build-daily-calendar.cjs",
     "build:index": "node scripts/build-index.cjs",
     "build:flat-index": "node scripts/build-flat-index.js",
     "build:search-index": "node scripts/build-search-index.js",
