@@ -630,13 +630,15 @@ function main() {
   }
 
   // Daily calendar freshness: every pick must exist and its card payload must match the dictionary
-  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/]idiom[\\/]\d{4}-\d{2}\.json$/.test(f));
+  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/](idiom|word|phrasal_verb|collocation)[\\/]\d{4}-\d{2}\.json$/.test(f));
   console.log(`Checking ${calendarFiles.length} daily calendar file(s)...`);
   for (const file of calendarFiles) {
     const rel = path.relative(rootDir, file).replace(/\\/g, '/');
     const month = path.basename(file, '.json');
+    const slotMatch = rel.match(/calendar\/([^/]+)\//);
+    const slot = slotMatch ? slotMatch[1] : 'idiom';
     const excludePath = path.join(path.dirname(path.dirname(file)), 'exclude.json');
-    const excluded = fs.existsSync(excludePath) ? (JSON.parse(fs.readFileSync(excludePath, 'utf8')).idiom || {}) : {};
+    const excluded = fs.existsSync(excludePath) ? ((JSON.parse(fs.readFileSync(excludePath, 'utf8')))[slot] || {}) : {};
     let cal;
     try { cal = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (err) {
       hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: ${err.message}`); continue;
