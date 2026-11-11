@@ -1,6 +1,6 @@
 # English idiom audit: duplicates and placeholder entries
 
-Scope: `vocabulary/en/*/idioms.json` (generated 2026-11-10). Nothing in this report has been applied to the data.
+Scope: `vocabulary/en/*/idioms.json` (generated 2026-11-10). **Status: the proposal below was applied in `claude/idiom-dedupe`** (886 entries retired and aliased, 1,092 remain). The numbers below describe the data *before* that change.
 
 ## Numbers
 | | |
