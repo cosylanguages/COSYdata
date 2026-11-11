@@ -1,6 +1,19 @@
-# Native-Speaker Review TODO List for Daily Strip Datasets
+# Native-Speaker Review & Feature Implementation TODO List for Daily Strip Datasets
 
-This document tracks datasets that have been initialized with 10 placeholder entries per file and require review, expansion, and validation by native speakers and qualified linguists before scaling to 30+ items.
+This document tracks datasets that have been initialized with 10 placeholder entries per file and require review, expansion, and validation by native speakers, as well as the implementation roadmap for the 4-slot daily architecture.
+
+---
+
+## Unified Multi-Slot Daily Architecture Roadmap
+
+For architecture details and integration prompts, see [`docs/daily-ecosystem-architecture.md`](../docs/daily-ecosystem-architecture.md).
+
+- [x] Document unified daily architecture across 4 slots: Word, Phrasal Verb, Collocation, Idiom.
+- [x] Define CEFR level coverage (`A0–A1`, `A2`, `B1–B2`, `C1–C2`) and creative learning mechanics (own-words explanation and B1+ synonym challenges).
+- [x] Define client-side local midnight timezone synchronization logic.
+- [x] Create ecosystem engineering prompts for COSYlanguages, COSYpractice, and COSYtools.
+- [ ] Expand calendar builder (`scripts/build-daily-calendar.cjs`) to support `word`, `phrasal_verb`, and `collocation` slots alongside `idiom`.
+- [ ] Connect ecosystem dispatch events to ping COSYlanguages, COSYpractice, and COSYtools upon calendar regeneration.
 
 ---
 

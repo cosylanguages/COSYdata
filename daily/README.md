@@ -15,31 +15,48 @@ Additionally, `/daily/index.json` provides an aggregate index of available langu
 
 ---
 
-## Front-End Entry Selection Logic
+## Front-End Entry Selection Logic & Local Midnight Synchronization
 
-To present a consistent "Card of the Day" to users without requiring a backend server or database, front-end applications calculate the current Day of the Year (1–366) and select the card index using the modulo operator over the array length:
+To present consistent, synchronized daily learning cards across all client applications without requiring backend infrastructure, applications resolve the client's current date in their local timezone (`YYYY-MM-DD`). All daily feeds update simultaneously at local midnight.
 
 ```javascript
 /**
- * Computes the 0-indexed day of the year for a given date.
+ * Resolves current client date as YYYY-MM-DD in local time.
  */
-function getDayOfYear(date = new Date()) {
-  const start = new Date(date.getFullYear(), 0, 0);
-  const diff = date - start;
-  const oneDay = 1000 * 60 * 60 * 24;
-  return Math.floor(diff / oneDay);
+function getLocalMidnightDateKey(now = new Date()) {
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 /**
- * Selects the daily entry for today from a fetched array.
+ * Milliseconds until the next local midnight for automatic UI hot-refresh.
  */
-function getDailyEntry(items) {
-  if (!Array.isArray(items) || items.length === 0) return null;
-  const dayOfYear = getDayOfYear();
-  const index = dayOfYear % items.length;
-  return items[index];
+function getMsUntilLocalMidnight(now = new Date()) {
+  const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+  return tomorrow.getTime() - now.getTime();
 }
 ```
+
+---
+
+## The 4 Daily Components & Cross-Ecosystem Synchronization
+
+For full architectural blueprints, see [`docs/daily-ecosystem-architecture.md`](../docs/daily-ecosystem-architecture.md).
+
+The daily strip delivers four coordinated components divided into CEFR levels (`A0–A1`, `A2`, `B1–B2`, `C1–C2`):
+
+1. **Word of the Day (WOTD)** (`word`): Focuses on creative active production—explaining the concept in the learner's own words rather than passive reading. From **B1 upwards**, learners are challenged to provide as many synonyms and register variants as possible.
+2. **Phrasal Verb of the Day** (`phrasal_verb`): Particle semantics, transitivity, and literal vs. figurative usage.
+3. **Collocation of the Day** (`collocation`): Natural word partnerships (verb+noun, adj+noun) to build native-like fluency.
+4. **Idiom of the Day** (`idiom`): Figurative imagery, cultural contexts, literal translations, and real meanings.
+
+### Cross-Repository Connections
+All daily elements share a synchronized Daily Theme and link across the COSY ecosystem:
+- **COSYlanguages**: Daily Spoken and Written immersion strips.
+- **COSYpractice**: Interactive voice recording studio (Daily Spoken) and creative writing/synonym sandbox (Daily Written).
+- **COSYtools**: Daily Verb Conjugator (and irregular verbs) + Daily Verb & Preposition governance.
 
 ---
 
