@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/content-object.schema.json",
+  "title": "COSYdata Content Object Schema",
+  "description": "Universal database-first JSON schema for all 14 content object types and core metadata attributes.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "description",
+    "metadata",
+    "created_at",
+    "updated_at",
+    "version",
+    "payload"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^obj_[a-z0-9_]+_[a-zA-Z0-9_-]+$",
+      "description": "Immutable primary key unique identifier for the content object."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Lesson",
+        "Dialogue",
+        "Vocabulary",
+        "Grammar",
+        "Exercise",
+        "Quiz",
+        "Image",
+        "Video",
+        "Audio",
+        "Prompt",
+        "Worksheet",
+        "Article",
+        "Quest",
+        "Game"
+      ],
+      "description": "Discriminator indicating the content object type."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable title or label for the object."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short summary or context description."
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "language",
+        "cefr",
+        "theme",
+        "grammar",
+        "skills",
+        "age",
+        "target_audience",
+        "estimated_duration",
+        "learning_objectives",
+        "status",
+        "tags",
+        "difficulty",
+        "dependencies"
+      ],
+      "properties": {
+        "language": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$",
+          "description": "ISO 639 language code."
+        },
+        "cefr": {
+          "type": "string",
+          "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"],
+          "description": "CEFR level alignment."
+        },
+        "theme": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Taxonomy theme and optional subtheme (e.g. food/dining)."
+        },
+        "grammar": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Grammar topic keys associated with this object."
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "reading",
+              "writing",
+              "listening",
+              "speaking",
+              "grammar",
+              "vocabulary",
+              "pronunciation"
+            ]
+          },
+          "description": "Language learning skills practiced."
+        },
+        "age": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "early_childhood",
+              "children",
+              "teens",
+              "adults",
+              "seniors"
+            ]
+          },
+          "description": "Target age group brackets."
+        },
+        "target_audience": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Target demographic or interest audience segments."
+        },
+        "estimated_duration": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Estimated completion or interaction time in minutes."
+        },
+        "learning_objectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Pedagogical learning objective statements."
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "in_review",
+            "approved",
+            "published",
+            "archived",
+            "deprecated"
+          ],
+          "description": "Content lifecycle status."
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Freeform search and filtering keywords."
+        },
+        "difficulty": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Normalized difficulty rating within CEFR tier (0.0 to 1.0)."
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["target_id", "relation_type"],
+            "properties": {
+              "target_id": {
+                "type": "string",
+                "description": "ID of the target content object."
+              },
+              "relation_type": {
+                "type": "string",
+                "enum": [
+                  "prerequisite",
+                  "requires_asset",
+                  "embeds",
+                  "variant_of",
+                  "next_in_sequence",
+                  "reinforces",
+                  "supplementary"
+                ],
+                "description": "Relationship type code."
+              },
+              "sequence_order": {
+                "type": "integer",
+                "description": "Optional ordering weight within sequential items."
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "Directed links to other content objects."
+        }
+      },
+      "additionalProperties": false
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 creation timestamp."
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 last modified timestamp."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Version iteration counter."
+    },
+    "payload": {
+      "type": "object",
+      "description": "Type-specific payload attributes.",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}
