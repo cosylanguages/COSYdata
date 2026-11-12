@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+- Improved CEFR-A0/A1 English vocabulary content: clarified the `tree` and `cat` definitions, corrected the `cat` example sentence, and simplified the definitions for `long`, `good`, `easy`, and `short`.
+- Continued CEFR-aware English A0/A1 edits across common nouns, daily verbs, food, rooms, and colours: corrected article use, simplified definitions, and improved example naturalness.
+- Further polished English A0/A1 common-noun and food vocabulary: repaired missing articles in examples, clarified definitions, and simplified technical wording. Flagged likely part-of-speech/ID mismatches for reference-aware follow-up rather than renaming entries.
+
 ### Added
 - Added level-appropriate jobs and professions across CEFR levels A0–A1, A2, B1, and B2 to English (4 entries added), French (21 entries added), Italian (21 entries added), Russian (27 entries added), and Greek (28 entries added), with culturally and linguistically authentic definitions and examples adapted to each level, full IPA transcriptions, emojis, and complete grammatical metadata.
 - Restored 82 valid English vocabulary entries removed without logging in commit `bafad07` into their canonical primary theme files in `vocabulary/en/` (`a0_a1`, `a2`, `b1`, `b2`) per `schemas/themes.json` taxonomy, logged all 89 removed entries in `reports/restore-log.md` (marking 7 wrong-part-of-speech artifacts as dropped), resolved `dormitory` duplicate, and regenerated all English index files (`index.json`, `flat-index.json`, `search-index.json`, `themes-index.json`).
