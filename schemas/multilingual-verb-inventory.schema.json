@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/multilingual-verb-inventory.schema.json",
+  "title": "Multilingual Verb Inventory Schema",
+  "description": "Schema for CosyData and CosyTools canonical multilingual verb inventory and verb senses across 14 languages.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source_language",
+    "supported_languages",
+    "concepts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "example": "1.0.0"
+    },
+    "source_language": {
+      "type": "string",
+      "const": "en"
+    },
+    "supported_languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "en", "fr", "it", "ru", "el", "pt", "de", "es",
+          "tt", "ba", "cv", "br", "hy", "ka"
+        ]
+      },
+      "minItems": 14,
+      "uniqueItems": true
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/verbConcept"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "verbConcept": {
+      "type": "object",
+      "required": [
+        "concept_id",
+        "english_canonical_term",
+        "form_type",
+        "senses"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "concept_id": {
+          "type": "string",
+          "pattern": "^verb:[a-z0-9_-]+$",
+          "description": "Stable canonical ID for the English verb concept (e.g., verb:be, verb:have-to)"
+        },
+        "english_canonical_term": {
+          "type": "string",
+          "description": "The exact canonical source term or multiword expression (e.g., 'be', 'have to')"
+        },
+        "form_type": {
+          "type": "string",
+          "enum": ["single_word_verb", "multiword_expression", "modal_verb", "phrasal_verb"],
+          "description": "Classification of the source verb entry"
+        },
+        "senses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/verbSense"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "verbSense": {
+      "type": "object",
+      "required": [
+        "sense_id",
+        "definition_en",
+        "translations"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "sense_id": {
+          "type": "string",
+          "pattern": "^verb:[a-z0-9_-]+:[a-z0-9_-]+$",
+          "description": "Unique sense ID distinguishing homographs or distinct semantics (e.g., verb:know:facts vs verb:know:people)"
+        },
+        "definition_en": {
+          "type": "string",
+          "description": "Clear English explanation of this specific verb sense"
+        },
+        "context_notes": {
+          "type": "string",
+          "description": "Notes on context, register, or semantic nuances"
+        },
+        "translations": {
+          "type": "object",
+          "required": [
+            "en", "fr", "it", "ru", "el", "pt", "de", "es",
+            "tt", "ba", "cv", "br", "hy", "ka"
+          ],
+          "additionalProperties": false,
+          "patternProperties": {
+            "^[a-z]{2}$": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/languageTranslation"
+              },
+              "minItems": 1
+            }
+          }
+        }
+      }
+    },
+    "languageTranslation": {
+      "type": "object",
+      "required": [
+        "lemma",
+        "is_headword",
+        "translation_relationship",
+        "grammar"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "lemma": {
+          "type": "string",
+          "description": "Canonical dictionary lemma in native script (e.g., 'être', 'знать', 'είμαι', 'быть', 'ყოფნა')"
+        },
+        "transliteration": {
+          "type": "string",
+          "description": "Latin transliteration or IPA for non-Latin script lemmas"
+        },
+        "is_headword": {
+          "type": "boolean",
+          "description": "True if citation form is standard dictionary headword; false if conjugated form or periphrasis"
+        },
+        "citation_form_description": {
+          "type": "string",
+          "description": "Description of form (e.g. 'Infinitive in -er', '1sg Present Indicative', 'Masdar verbal noun')"
+        },
+        "translation_relationship": {
+          "type": "string",
+          "enum": ["exact_equivalent", "contextual_equivalent", "partial_equivalent", "periphrastic_construction", "aspectual_pair"],
+          "description": "Relationship between source verb sense and target language term"
+        },
+        "grammar": {
+          "type": "object",
+          "required": [
+            "pos"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "pos": {
+              "type": "string",
+              "enum": ["verb", "auxiliary", "modal", "phrase", "verbal_noun"],
+              "description": "Part of speech tag"
+            },
+            "transitivity": {
+              "type": "string",
+              "enum": ["transitive", "intransitive", "ditransitive", "ambitransitive", "impersonal"]
+            },
+            "aspect": {
+              "type": "string",
+              "enum": ["imperfective", "perfective", "biaspectual", "stative"]
+            },
+            "voice": {
+              "type": "string",
+              "enum": ["active", "passive", "deponent", "medio-passive"]
+            },
+            "auxiliary": {
+              "type": "string",
+              "description": "Auxiliary verb used in compound tenses (e.g. 'avoir' / 'être', 'avere' / 'essere', 'haben' / 'sein')"
+            },
+            "case_governance": {
+              "type": "string",
+              "description": "Governed case or prepositions (e.g. '+ accusative', '+ dative', '+ de')"
+            },
+            "conjugation_group": {
+              "type": "string",
+              "description": "Conjugation class or group (e.g. '1st conjugation -er', '2nd conjugation -ire', 'imperfective e-conjugation')"
+            }
+          }
+        },
+        "cosydata_entry_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{2}:[^:]+:[^:]+$"
+          },
+          "description": "Array of matching CosyData entry IDs in vocabulary/<lang>/*.json"
+        },
+        "cosytools_conjugation_pattern": {
+          "type": "string",
+          "description": "Key or pattern ID referencing CosyTools conjugation models (e.g. COSYtools:en-irregular-verbs:be, COSYtools:fr-verb:1st-group)"
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "status",
+            "source"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["verified", "needs_review", "corpus_attested"],
+              "description": "Verification status of translation"
+            },
+            "source": {
+              "type": "string",
+              "description": "Authoritative dictionary or grammar reference"
+            },
+            "notes": {
+              "type": "string",
+              "description": "Usage or lexicographical notes"
+            }
+          }
+        }
+      }
+    }
+  }
+}
