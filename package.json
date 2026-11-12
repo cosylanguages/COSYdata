@@ -6,7 +6,7 @@
   "types": "shared/types.d.ts",
   "scripts": {
     "audit": "node scripts/audit-a0-a1.cjs",
-    "build": "npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily",
+    "build": "npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily && npm run build:comparative",
     "build:daily": "node scripts/build-daily-calendar.cjs",
     "build:index": "node scripts/build-index.cjs",
     "build:flat-index": "node scripts/build-flat-index.js",
@@ -14,7 +14,8 @@
     "import:events": "node scripts/import-events-vocab.cjs",
     "parity": "node scripts/a0-a1-parity.cjs",
     "validate": "node scripts/validate.cjs",
-    "test:verb-inventory": "node scripts/validate-verb-inventory.cjs"
+    "test:verb-inventory": "node scripts/validate-verb-inventory.cjs",
+    "build:comparative": "node scripts/build-comparative.cjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
