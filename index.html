@@ -21,6 +21,7 @@
 
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-strip.css" />
   <style>
     body {
       margin: 0;
@@ -67,6 +68,16 @@
       font-weight: 700;
       margin-bottom: 20px;
     }
+    .today-section { margin-bottom: 36px; }
+    .today-section[hidden] { display: none; }
+    .today-picker { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .today-picker button {
+      font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+      padding: 6px 14px; border-radius: 999px;
+      border: 1px solid var(--cosy-dict-border, #d9d4c7);
+      background: var(--cosy-dict-card-bg, #fff); color: inherit;
+    }
+    .today-picker button[aria-pressed="true"] { background: var(--cosy-color-sage, #416B49); border-color: transparent; color: #fff; }
     .language-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -160,6 +171,12 @@
   </header>
 
   <main class="hub-container">
+    <section class="today-section" id="today-section" aria-labelledby="today-title" hidden>
+      <h2 class="hub-section-title" id="today-title">Today in the dictionary</h2>
+      <div class="today-picker" id="today-picker" role="group" aria-label="Language"></div>
+      <div id="today-strip"></div>
+    </section>
+
     <h2 class="hub-section-title">Available Language Dictionaries</h2>
     <div class="language-grid" id="language-grid">
       <!-- Dynamically generated language cards -->
@@ -170,6 +187,65 @@
     <p>Copyright (c) 2025-2026 COSY Languages. All rights reserved.</p>
   </footer>
 
+  <!-- Daily strip component, shared with the COSYlanguages hub. It must load before the script below. -->
+  <script src="https://cosylanguages.github.io/COSYlanguages/js/daily-strip.js" defer></script>
+  <script>
+    // "Today in the dictionary": word and idiom of the day. Which languages and slots exist comes from
+    // daily/calendar-config.json, so adding a language there adds it to this picker. If the strip script or the
+    // config is unavailable the whole section stays hidden and the page works as before.
+    async function initToday() {
+      const section = document.getElementById('today-section');
+      const host = document.getElementById('today-strip');
+      const picker = document.getElementById('today-picker');
+      if (!window.COSY_DailyStrip) return;
+      let config;
+      try {
+        const res = await fetch('./daily/calendar-config.json');
+        if (!res.ok) return;
+        config = await res.json();
+      } catch (err) { return; }
+
+      const slotOrder = ['word', 'idiom'];
+      const langsFor = (slot) => (config[slot] && config[slot].languages) || [];
+      const langs = Array.from(new Set(slotOrder.reduce((all, slot) => all.concat(langsFor(slot)), [])));
+      if (!langs.length) return;
+
+      let names = null;
+      try { names = new Intl.DisplayNames(['en'], { type: 'language' }); } catch (err) { /* older browsers */ }
+      let pinned = null;
+      try { pinned = localStorage.getItem('cosy.pinnedLang'); } catch (err) { /* storage unavailable */ }
+      const initial = langs.indexOf(pinned) > -1 ? pinned : (langs.indexOf('en') > -1 ? 'en' : langs[0]);
+
+      function show(code) {
+        Array.prototype.forEach.call(picker.querySelectorAll('button'), (b) => {
+          b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === code));
+        });
+        host.innerHTML = '';
+        host.setAttribute('data-lang', code);
+        host.setAttribute('data-slots', slotOrder.filter((slot) => langsFor(slot).indexOf(code) > -1).join(','));
+        host.setAttribute('data-compact', 'true');
+        host.setAttribute('data-title', 'Daily vocabulary');
+        host.__dailyStripInstance = new window.COSY_DailyStrip(host);
+      }
+
+      langs.forEach((code) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.setAttribute('data-lang', code);
+        btn.textContent = (names && names.of(code)) || code.toUpperCase();
+        btn.addEventListener('click', () => show(code));
+        picker.appendChild(btn);
+      });
+      section.hidden = false;
+      show(initial);
+    }
+    // Deferred scripts (the strip component) have run by DOMContentLoaded; an inline script has not waited for them.
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initToday);
+    } else {
+      initToday();
+    }
+  </script>
   <script type="module">
     const languages = [
       { code: 'en', name: 'English', flag: '🇬🇧' },
