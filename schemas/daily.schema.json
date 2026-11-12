@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://cosylanguages.github.io/COSYdata/schemas/daily.schema.json",
   "title": "Daily Strip File",
-  "description": "JSON Schema (draft 2020-12) for COSYdata daily strip files (speaking, writing, idioms, facts)",
+  "description": "JSON Schema (draft 2020-12) for daily strip files: idioms (COSYdata, legacy), speaking and writing (COSYpractice data/daily), facts (COSYlanguages data/daily)",
   "type": "array",
   "items": {
     "oneOf": [

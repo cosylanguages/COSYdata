@@ -4,14 +4,20 @@ This directory contains standardized, static daily content strips for language l
 
 ## Overview
 
-The daily strip content is organized by language ISO code under `/daily/<lang>/`. Four types of daily learning cards are provided for each supported language:
+COSYdata holds **vocabulary only**, so what lives here is what the dictionary generates or still backs:
 
-1. `speaking.json`: Daily speaking and conversation prompts.
-2. `writing.json`: Daily writing, essay, and journaling prompts.
-3. `idioms.json`: Daily idiomatic expressions with literal and figurative meanings, examples, and optional audio references.
-4. `facts.json`: Fun facts about the target language, culture, history, and linguistics.
+- `calendar/<slot>/YYYY-MM.json`: the dictionary-backed idiom and word of the day (see below). This is the current source.
+- `idioms.json` (legacy): the original hand-written idiom lists. The strip uses them only for languages that have no idiom
+  calendar yet; they will go once those languages have reviewed calendars.
 
-Additionally, `/daily/index.json` provides an aggregate index of available languages and entry counts per content file.
+Moved out in 2026-11 (the strip reads the new locations first):
+
+| Content | New home |
+|---|---|
+| Speaking and writing prompts | COSYpractice: `data/daily/<lang>/speaking.json`, `writing.json` |
+| Fun facts | COSYlanguages: `data/daily/<lang>/facts.json` |
+
+`/daily/index.json` lists the languages and the legacy idiom counts.
 
 ---
 
@@ -89,33 +95,9 @@ GitHub Pages automatically serves static assets with `Access-Control-Allow-Origi
 
 ## Schema Specifications
 
-All daily strip files are validated against [`schemas/daily.schema.json`](../schemas/daily.schema.json).
+The legacy idiom files follow [`schemas/daily.schema.json`](../schemas/daily.schema.json), which also describes the speaking, writing and facts formats now kept in COSYpractice and COSYlanguages.
 
-### 1. Speaking Prompts (`speaking.json`)
-```json
-[
-  {
-    "id": "en:speaking:1",
-    "prompt": "What is a morning routine that makes you feel productive and relaxed?",
-    "topic": "daily_routine",
-    "level": "A2-B1"
-  }
-]
-```
-
-### 2. Writing Prompts (`writing.json`)
-```json
-[
-  {
-    "id": "en:writing:1",
-    "prompt": "Write a short paragraph reflecting on a goal you set for yourself this year.",
-    "topic": "reflection",
-    "level": "A2-B1"
-  }
-]
-```
-
-### 3. Idiomatic Expressions (`idioms.json`)
+### Idiomatic Expressions (`idioms.json`, legacy)
 ```json
 [
   {
@@ -129,36 +111,25 @@ All daily strip files are validated against [`schemas/daily.schema.json`](../sch
 ]
 ```
 
-### 4. Language & Cultural Facts (`facts.json`)
-```json
-[
-  {
-    "id": "en:fact:1",
-    "fact": "English is the official international language of aviation and maritime communications worldwide.",
-    "topic": "linguistics"
-  }
-]
-```
-
 ---
 
 ## Supported Languages & Entry Counts
 
-| Code | Language | Speaking | Writing | Idioms | Facts | Status |
-|------|----------|----------|---------|--------|-------|--------|
-| `en` | English | 30 | 30 | 30 | 30 | Full production set |
-| `fr` | French | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `it` | Italian | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `ru` | Russian | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `el` | Greek | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `es` | Spanish | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `de` | German | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `pt` | Portuguese | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `hy` | Armenian | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `ka` | Georgian | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `ba` | Bashkir | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `br` | Breton | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `cv` | Chuvash | 10 | 10 | 10 | 10 | Placeholder (needs review) |
-| `tt` | Tatar | 10 | 10 | 10 | 10 | Placeholder (needs review) |
+| Code | Language | Idioms (legacy) | Status |
+|------|----------|-----------------|--------|
+| `en` | English | 30 | Full production set |
+| `fr` | French | 10 | Placeholder (needs review) |
+| `it` | Italian | 10 | Placeholder (needs review) |
+| `ru` | Russian | 10 | Placeholder (needs review) |
+| `el` | Greek | 10 | Placeholder (needs review) |
+| `es` | Spanish | 10 | Placeholder (needs review) |
+| `de` | German | 10 | Placeholder (needs review) |
+| `pt` | Portuguese | 10 | Placeholder (needs review) |
+| `hy` | Armenian | 10 | Placeholder (needs review) |
+| `ka` | Georgian | 10 | Placeholder (needs review) |
+| `ba` | Bashkir | 10 | Placeholder (needs review) |
+| `br` | Breton | 10 | Placeholder (needs review) |
+| `cv` | Chuvash | 10 | Placeholder (needs review) |
+| `tt` | Tatar | 10 | Placeholder (needs review) |
 
 See [`TODO.md`](./TODO.md) for details on outstanding native-speaker review items.
