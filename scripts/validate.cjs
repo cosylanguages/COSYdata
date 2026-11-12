@@ -629,30 +629,45 @@ function main() {
     }
   }
 
-  // Daily calendar freshness: every pick must exist and its card payload must match the dictionary
-  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/]idiom[\\/]\d{4}-\d{2}\.json$/.test(f));
+  // Daily calendar freshness: every pick must be eligible today and its card must match the dictionary
+  const dailyLib = require('./lib/daily-calendar.cjs');
+  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/][a-z]+[\\/]\d{4}-\d{2}\.json$/.test(f));
   console.log(`Checking ${calendarFiles.length} daily calendar file(s)...`);
+  const calendarConfig = dailyLib.readJson(path.join(rootDir, 'daily', 'calendar-config.json'), {});
+  const poolCache = {};
   for (const file of calendarFiles) {
     const rel = path.relative(rootDir, file).replace(/\\/g, '/');
-    const month = path.basename(file, '.json');
-    const excludePath = path.join(path.dirname(path.dirname(file)), 'exclude.json');
-    const excluded = fs.existsSync(excludePath) ? (JSON.parse(fs.readFileSync(excludePath, 'utf8')).idiom || {}) : {};
+    const m = rel.match(/^daily\/([^/]+)\/calendar\/([^/]+)\/(\d{4}-\d{2})\.json$/);
+    if (!m) continue;
+    const [, lang, slot, month] = m;
+    if (!dailyLib.SLOTS[slot]) { hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: unknown slot '${slot}'`); continue; }
+    const key = `${slot}/${lang}`;
+    if (!poolCache[key]) {
+      const minPool = (calendarConfig[slot] && calendarConfig[slot].minPool) || 1;
+      poolCache[key] = dailyLib.buildPools(slot, lang, minPool);
+    }
+    const { pools, byId } = poolCache[key];
+    const spec = dailyLib.SLOTS[slot];
     let cal;
     try { cal = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (err) {
       hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: ${err.message}`); continue;
     }
-    if (cal.month !== month) { hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: month '${cal.month}' does not match file name`); }
+    if (cal.month !== month || cal.slot !== slot || cal.lang !== lang) {
+      hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: lang/slot/month header does not match the file path`);
+    }
     for (const [date, day] of Object.entries(cal.days || {})) {
       if (!date.startsWith(month + '-')) { hasError = true; console.error(`\n[CALENDAR ERROR] ${rel}: date ${date} is outside ${month}`); }
       for (const [level, c] of Object.entries(day)) {
-        const hit = vocabIdMap.get(c.id);
         const where = `${rel} ${date} ${level} (${c.id})`;
-        if (!hit) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry no longer exists - run npm run build:daily`); continue; }
-        const e = hit.entry;
-        const stale = c.word !== e.word || c.definition !== (e.definitions || [])[0] || c.example !== (e.examples || [])[0]
-          || (c.literal_meaning || null) !== (e.literal_meaning || null) || (c.emoji || null) !== (e.emoji || null);
-        if (stale) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: card is out of date with the dictionary - run npm run build:daily`); }
-        if (excluded[c.id]) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry is listed in exclude.json`); }
+        const e = byId[c.id];
+        if (!e) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry no longer exists - run npm run build:daily`); continue; }
+        if (JSON.stringify(c) !== JSON.stringify(spec.card(e))) {
+          hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: card is out of date with the dictionary - run npm run build:daily`);
+        }
+        const overridden = ((dailyLib.readJson(path.join(rootDir, 'daily', lang, 'calendar', 'overrides.json'), {})[slot] || {})[date] || {})[level] === c.id;
+        if (!overridden && !(pools[level] || []).some((p) => p.id === c.id)) {
+          hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry is excluded or no longer eligible for this slot - run npm run build:daily`);
+        }
       }
     }
   }

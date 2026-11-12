@@ -43,28 +43,40 @@ function getDailyEntry(items) {
 
 ---
 
-## Dictionary-backed calendar (idiom of the day)
+## Dictionary-backed calendar (idiom and word of the day)
 
-`daily/<lang>/calendar/idiom/YYYY-MM.json` holds one idiom per CEFR level per day, picked from
-`vocabulary/<lang>/<level>/idioms.json`. Each day carries a ready-to-show card (word, definition,
-example, optional `literal_meaning`, `emoji`, `audio`), so a client needs one small request:
+`daily/<lang>/calendar/<slot>/YYYY-MM.json` holds one entry per CEFR level per day, picked from the vocabulary.
+Each day carries a ready-to-show card, so a client needs one small request (about 20 KB gzipped per month):
 
 ```json
-{ "lang": "en", "slot": "idiom", "month": "2026-11",
-  "days": { "2026-11-10": { "B1": { "id": "en:feather-in-ones-cap:idiom", "word": "Feather in one's cap",
-                                    "definition": "An achievement to be proud of", "example": "..." } } } }
+{ "lang": "fr", "slot": "word", "month": "2026-11",
+  "days": { "2026-11-10": { "A0": { "id": "fr:gare:noun", "word": "gare", "pos": "noun", "article": "la", "gender": "feminine",
+                                    "transcription": "/ɡaʁ/", "definition": "Bâtiment où s'arrêtent les trains.",
+                                    "example": "Le train s'arrête à la gare centrale.", "emoji": "🚉" } } } }
 ```
 
+| Slot | Pool | Cards carry |
+|---|---|---|
+| `idiom` | `vocabulary/<lang>/<level>/idioms.json` | word, definition, example, `literal_meaning`, emoji |
+| `word` | nouns, adjectives and adverbs from every vocabulary file (verbs are kept for a verb-of-the-day slot) | word, pos, definition, example, article, gender, IPA (only real IPA), emoji |
+
 - **Build:** `npm run build:daily` (also part of `npm run build`). Defaults to the current month plus 13.
-  Existing month files are never re-picked, so published days stay stable; their cards are refreshed from the
-  dictionary on every run, and a retired ID is re-pointed through `shared/id-aliases.json`.
-- **Picking:** deterministic (language, level, date), no repeat within min(90, pool/2) days at a level.
-- **Editorial filter:** `idioms.json` also contains plain collocations and phrasal verbs.
-  `daily/<lang>/calendar/exclude.json` lists entries that are never featured (`{"idiom": {"<id>": "<word>"}}`).
-- **Hand edits:** `daily/<lang>/calendar/overrides.json`, `{"idiom": {"2026-12-25": {"B1": "<entry id>"}}}`.
-- **Languages:** only those listed in `daily/calendar-config.json`. Add a language after reviewing its idiom pool and
-  writing its `exclude.json`. Currently `en`. Levels without a pool are skipped (fr: A2, it: A2-B1, ru: A2 today).
-- **Validation:** `npm run validate` fails if a pick no longer exists, its card is out of date, or it is excluded.
+  Existing month files are not re-picked, so published days stay stable; their cards are refreshed from the
+  dictionary on every run, a retired ID is re-pointed through `shared/id-aliases.json`, and a pick that is no
+  longer eligible (entry removed, newly excluded, failing a quality rule) is replaced.
+- **Picking:** deterministic (slot, language, level, date); no repeat within min(90, pool/2) days at a level.
+- **Quality rules (`scripts/lib/daily-calendar.cjs`, shared by the build and the validator).** For `word`:
+  a single lexeme; a real definition (12+ characters, not the word or the example); an example that uses the word and
+  is not a quotation of it; an emoji at A0-A2; not a template stub (a definition or example identical across 3+ headwords
+  once the headword is masked, e.g. "Terme désignant X."); not a fragment of a longer phrase ("as in caveat emptor").
+  Register labels such as "Formal / Literary noun:" are removed from the card definition.
+- **Editorial filter:** `daily/<lang>/calendar/exclude.json` lists entries that are never featured
+  (`{"<slot>": {"<id>": "<word>"}}`). `idioms.json` also holds collocations and phrasal verbs, so `idiom` needs it.
+- **Hand edits:** `daily/<lang>/calendar/overrides.json`, `{"<slot>": {"2026-12-25": {"B1": "<entry id>"}}}`.
+- **Languages and levels:** only slots/languages in `daily/calendar-config.json` are built. A level whose eligible
+  pool is below `minPool` (90 for `word`) is skipped, because it would repeat too often; clients fall back to the nearest
+  published level. Today: `idiom` en; `word` en (A0-C2), fr (A0, A2), it (A1-B1), ru (A0-A2), el (A1).
+- **Validation:** `npm run validate` fails if a pick no longer exists, is excluded or ineligible, or its card is out of date.
 
 ## CORS & Hosting
 
