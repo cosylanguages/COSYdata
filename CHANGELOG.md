@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Documentation
+- Added an initial COSYdata quality-audit report with directly inspected grammar, lexical, and taxonomy examples; made CEFR adaptation of definitions and examples an explicit review requirement.
+
 ### Added
 - Added level-appropriate jobs and professions across CEFR levels A0–A1, A2, B1, and B2 to English (4 entries added), French (21 entries added), Italian (21 entries added), Russian (27 entries added), and Greek (28 entries added), with culturally and linguistically authentic definitions and examples adapted to each level, full IPA transcriptions, emojis, and complete grammatical metadata.
 - Restored 82 valid English vocabulary entries removed without logging in commit `bafad07` into their canonical primary theme files in `vocabulary/en/` (`a0_a1`, `a2`, `b1`, `b2`) per `schemas/themes.json` taxonomy, logged all 89 removed entries in `reports/restore-log.md` (marking 7 wrong-part-of-speech artifacts as dropped), resolved `dormitory` duplicate, and regenerated all English index files (`index.json`, `flat-index.json`, `search-index.json`, `themes-index.json`).
