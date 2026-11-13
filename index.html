@@ -193,7 +193,7 @@
   <!-- Daily strip component, shared with the COSYlanguages hub. It must load before the script below. -->
   <script src="https://cosylanguages.github.io/COSYlanguages/js/daily-strip.js" defer></script>
   <script>
-    // "Today in the dictionary": word and idiom of the day. Which languages and slots exist comes from
+    // "Today in the dictionary": word, phrasal verb and idiom of the day. Which languages and slots exist comes from
     // daily/calendar-config.json, so adding a language there adds it to this picker. If the strip script or the
     // config is unavailable the whole section stays hidden and the page works as before.
     async function initToday() {
@@ -208,7 +208,7 @@
         config = await res.json();
       } catch (err) { return; }
 
-      const slotOrder = ['word', 'idiom'];
+      const slotOrder = ['word', 'phrasal-verb', 'idiom'];
       const langsFor = (slot) => (config[slot] && config[slot].languages) || [];
       const langs = Array.from(new Set(slotOrder.reduce((all, slot) => all.concat(langsFor(slot)), [])));
       if (!langs.length) return;
