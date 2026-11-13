@@ -631,7 +631,7 @@ function main() {
 
   // Daily calendar freshness: every pick must be eligible today and its card must match the dictionary
   const dailyLib = require('./lib/daily-calendar.cjs');
-  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/][a-z]+[\\/]\d{4}-\d{2}\.json$/.test(f));
+  const calendarFiles = findFiles(path.join(rootDir, 'daily')).filter((f) => /[\\/]calendar[\\/][a-z-]+[\\/]\d{4}-\d{2}\.json$/.test(f));
   console.log(`Checking ${calendarFiles.length} daily calendar file(s)...`);
   const calendarConfig = dailyLib.readJson(path.join(rootDir, 'daily', 'calendar-config.json'), {});
   const poolCache = {};

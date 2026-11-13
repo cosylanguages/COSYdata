@@ -42,6 +42,19 @@ function cleanTranscription(e) {
 
 const WORD_POS = ['noun', 'adjective', 'adverb'];
 
+// Template stubs ("Terme désignant X." / "Nous utilisons X tous les jours.") are identical across many words once
+// the headword is masked. Flags (meta.template) any definition or example shared by 3+ headwords.
+function markTemplates(items) {
+  const mask = (text, w) => String(text || '').toLowerCase().split(String(w || '').toLowerCase()).join('\u00a7');
+  const count = {};
+  const keys = items.map(({ entry: e }) => [mask(first(e.definitions), e.word), mask(first(e.examples), e.word)]);
+  keys.forEach(([d, x]) => { count['d' + d] = (count['d' + d] || 0) + 1; count['x' + x] = (count['x' + x] || 0) + 1; });
+  items.forEach((item, i) => {
+    const [d, x] = keys[i];
+    item.meta.template = (d.includes('\u00a7') && count['d' + d] >= 3) || (x.includes('\u00a7') && count['x' + x] >= 3);
+  });
+}
+
 // Advanced English entries often open with a register/part-of-speech label, e.g. "Formal / Literary noun: <definition>".
 // Learners should see the definition itself.
 const TAG = '(?:Formal|Informal|Literary|Technical|Academic|Legal|Medical|Slang)';
@@ -93,16 +106,7 @@ const SLOTS = {
           if (WORD_POS.includes(e.form) && LEVELS_ALL.includes(level)) out.push({ entry: e, level, meta: {} });
         }
       }
-      // Template stubs ("Terme désignant X." / "Nous utilisons X tous les jours.") are identical across many
-      // words once the headword is masked. Flag any definition or example shared by 3+ headwords.
-      const mask = (text, w) => String(text || '').toLowerCase().split(String(w || '').toLowerCase()).join('\u00a7');
-      const count = {};
-      const keys = out.map(({ entry: e }) => [mask(first(e.definitions), e.word), mask(first(e.examples), e.word)]);
-      keys.forEach(([d, x]) => { count['d' + d] = (count['d' + d] || 0) + 1; count['x' + x] = (count['x' + x] || 0) + 1; });
-      out.forEach((item, i) => {
-        const [d, x] = keys[i];
-        item.meta.template = (d.includes('\u00a7') && count['d' + d] >= 3) || (x.includes('\u00a7') && count['x' + x] >= 3);
-      });
+      markTemplates(out);
       return out;
     },
     // Automatic quality rules; editorial exclusions live in daily/<lang>/calendar/exclude.json
@@ -134,6 +138,59 @@ const SLOTS = {
       if (e.audio) c.audio = e.audio;
       return c;
     }
+  }
+};
+
+// ---- phrasal-verb slot -------------------------------------------------------------------------------------
+const PARTICLES = new Set(['up', 'down', 'out', 'off', 'on', 'in', 'into', 'over', 'away', 'back', 'through', 'across', 'along',
+  'around', 'apart', 'together', 'after', 'by', 'for', 'with', 'from', 'about', 'at', 'to', 'of', 'ahead', 'forward', 'behind',
+  'without', 'upon', 'against', 'onto', 'round', 'aside', 'beyond', 'under', 'towards', 'toward', 'past']);
+// phrasal_verbs.json also holds modals, polite formulas and bare particles; a leading modal/pronoun/"be" is never a phrasal verb
+const NOT_A_VERB_START = new Set(['can', 'could', 'may', 'might', 'must', 'shall', 'should', "shouldn't", "mustn't", "don't", 'would',
+  'will', 'i', "i'd", 'you', 'we', 'he', 'she', 'it', "it's", 'be']);
+const stripTo = (w) => String(w || '').trim().replace(/^to\s+/i, '');
+
+SLOTS['phrasal-verb'] = {
+  levels: LEVELS_ALL,
+  collect(lang) {
+    const out = [];
+    for (const f of vocabFiles(lang)) {
+      if (f.name !== 'phrasal_verbs.json') continue;
+      for (const e of entriesOf(f.file)) {
+        const level = String(e.level || '').toUpperCase();
+        if (LEVELS_ALL.includes(level)) out.push({ entry: e, level, meta: {} });
+      }
+    }
+    markTemplates(out);
+    return out;
+  },
+  eligible(e, level, meta) {
+    if (meta && meta.template) return false;
+    const toks = stripTo(e.word).toLowerCase().split(/\s+/);
+    if (toks.length < 2 || toks.length > 4) return false;           // verb + particle(s), no bare particles
+    if (NOT_A_VERB_START.has(toks[0])) return false;
+    const idx = toks.findIndex((t, i) => i > 0 && PARTICLES.has(t));
+    if (idx < 0 || !PARTICLES.has(toks[toks.length - 1])) return false; // must be verb ... particle
+    const d = first(e.definitions);
+    const x = first(e.examples);
+    if (d.length < 12 || norm(d) === norm(e.word) || norm(d) === norm(x)) return false;
+    if (x.length < 15) return false;
+    if (!new RegExp('\\b' + toks[idx] + '\\b', 'i').test(x)) return false; // the example must use the particle
+    if (['A0', 'A1', 'A2'].includes(level) && !e.emoji) return false;
+    return true;
+  },
+  card(e) {
+    const word = stripTo(e.word);
+    const c = { id: e.id, word, definition: first(e.definitions), example: first(e.examples) };
+    // "to stand out" has an IPA that may include the infinitive marker; only keep IPA that matches the cleaned headword
+    const ipa = word === String(e.word).trim() ? cleanTranscription(e) : null;
+    if (ipa) c.transcription = ipa;
+    if (e.emoji) c.emoji = e.emoji;
+    const syn = (Array.isArray(e.synonyms) ? e.synonyms : []).filter((x) => typeof x === 'string' && x.trim()).slice(0, 2);
+    if (syn.length) c.synonyms = syn;
+    const tool = (Array.isArray(e.related_forms) ? e.related_forms : []).find((r) => typeof r === 'string' && r.startsWith('COSYtools:'));
+    if (tool) c.tool = tool.slice('COSYtools:'.length);
+    return c;
   }
 };
 
