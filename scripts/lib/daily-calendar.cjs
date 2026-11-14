@@ -194,6 +194,56 @@ SLOTS['phrasal-verb'] = {
   }
 };
 
+// ---- verb and verb-prep slots ---------------------------------------------------------------------------------
+// Verb of the day (to conjugate) and verb + preposition of the day (to guess). Only verbs the COSYtools drills can
+// handle are featured, taken from shared/cosytools-verbs.json (see scripts/sync-cosytools-verbs.cjs). Pools are
+// cumulative: the B1 pool holds every eligible verb up to B1, because verbs are drilled, not read once.
+const verbLemma = (w) => String(w || '').normalize('NFC').toLowerCase().replace(/\u0301/g, '').replace(/^to\s+/, '').trim();
+let toolsVerbs = null;
+function toolsVerbSet(kind, lang) {
+  if (!toolsVerbs) toolsVerbs = readJson(path.join(root, 'shared', 'cosytools-verbs.json'), { conjugation: {}, governance: {} });
+  return new Set((toolsVerbs[kind] && toolsVerbs[kind][lang]) || []);
+}
+
+function verbSlot(kind) {
+  return {
+    levels: LEVELS_ALL,
+    cumulative: true,
+    collect(lang) {
+      const out = [];
+      for (const f of vocabFiles(lang)) {
+        if (f.name === 'idioms.json' || f.name === 'phrasal_verbs.json') continue;
+        for (const e of entriesOf(f.file)) {
+          const level = String(e.level || '').toUpperCase();
+          if (e.form === 'verb' && LEVELS_ALL.includes(level)) out.push({ entry: e, level, meta: { lang } });
+        }
+      }
+      markTemplates(out);
+      return out;
+    },
+    eligible(e, level, meta) {
+      if (meta && meta.template) return false;
+      const lang = (meta && meta.lang) || String(e.language || '');
+      if (!toolsVerbSet(kind, lang).has(verbLemma(e.word))) return false;   // the tool must be able to drill it
+      const d = first(e.definitions);
+      const x = first(e.examples);
+      if (d.length < 12 || norm(d) === norm(e.word) || norm(d) === norm(x)) return false;
+      if (x.length < 15) return false;
+      if (['A0', 'A1', 'A2'].includes(level) && !e.emoji) return false;
+      return true;
+    },
+    card(e) {
+      const c = { id: e.id, word: e.word.trim().replace(/^to\s+/i, ''), level: String(e.level).toUpperCase(), definition: first(e.definitions), example: first(e.examples) };
+      const ipa = cleanTranscription(e);
+      if (ipa) c.transcription = ipa;
+      if (e.emoji) c.emoji = e.emoji;
+      return c;
+    }
+  };
+}
+SLOTS.verb = verbSlot('conjugation');
+SLOTS['verb-prep'] = verbSlot('governance');
+
 function loadExclude(lang, slot) {
   return (readJson(path.join(root, 'daily', lang, 'calendar', 'exclude.json'), {})[slot]) || {};
 }
@@ -215,9 +265,32 @@ function buildPools(slotName, lang, minPool) {
     (pools[level] = pools[level] || []).push(entry);
   }
   const skipped = [];
-  for (const level of Object.keys(pools)) {
-    if (pools[level].length < (minPool || 1)) { skipped.push(`${level}(${pools[level].length})`); delete pools[level]; continue; }
-    pools[level].sort((a, b) => (a.id < b.id ? -1 : 1));
+  if (!spec.cumulative) {
+    for (const level of Object.keys(pools)) {
+      if (pools[level].length < (minPool || 1)) { skipped.push(`${level}(${pools[level].length})`); delete pools[level]; continue; }
+      pools[level].sort((a, b) => (a.id < b.id ? -1 : 1));
+    }
+  }
+  if (spec.cumulative) {
+    // one verb per lemma (the lowest level wins), and each level's pool is every verb up to that level
+    const own = {};
+    const taken = new Set();
+    for (const level of spec.levels) {
+      own[level] = (pools[level] || []).filter((e) => !taken.has(verbLemma(e.word)));
+      own[level].forEach((e) => taken.add(verbLemma(e.word)));
+    }
+    const merged = {};
+    let running = [];
+    for (const level of spec.levels) {
+      running = running.concat(own[level]);
+      if (running.length) merged[level] = running.slice();
+    }
+    for (const level of Object.keys(pools)) delete pools[level];
+    Object.assign(pools, merged);
+    for (const level of Object.keys(pools)) {
+      if (pools[level].length < (minPool || 1)) { skipped.push(`${level}(${pools[level].length})`); delete pools[level]; continue; }
+      pools[level].sort((a, b) => (a.id < b.id ? -1 : 1));
+    }
   }
   const levels = spec.levels.filter((l) => pools[l]);
   return { pools, byId, levels, skipped };

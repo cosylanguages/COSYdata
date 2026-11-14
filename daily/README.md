@@ -49,7 +49,7 @@ function getDailyEntry(items) {
 
 ---
 
-## Dictionary-backed calendar (idiom, word and phrasal verb of the day)
+## Dictionary-backed calendar (idiom, word, phrasal verb and verb of the day)
 
 `daily/<lang>/calendar/<slot>/YYYY-MM.json` holds one entry per CEFR level per day, picked from the vocabulary.
 Each day carries a ready-to-show card, so a client needs one small request (about 20 KB gzipped per month):
@@ -65,6 +65,8 @@ Each day carries a ready-to-show card, so a client needs one small request (abou
 |---|---|---|
 | `idiom` | `vocabulary/<lang>/<level>/idioms.json` | word, definition, example, `literal_meaning`, emoji |
 | `word` | nouns, adjectives and adverbs from every vocabulary file (verbs are kept for a verb-of-the-day slot) | word, pos, definition, example, article, gender, IPA (only real IPA), emoji |
+| `verb` | dictionary verbs that COSYtools can conjugate | word (lemma), `level` (the verb's own level), definition, example, IPA, emoji |
+| `verb-prep` | dictionary verbs with governance data in COSYtools (preposition or case) | same card; COSYtools supplies the governed preposition |
 | `phrasal-verb` | `vocabulary/<lang>/<level>/phrasal_verbs.json` | word (without "to"), definition, example, IPA, emoji, up to 2 `synonyms`, `tool` (the COSYtools page for the verb, e.g. `en-verb-prep:wake up`) |
 
 - **Build:** `npm run build:daily` (also part of `npm run build`). Defaults to the current month plus 13.
@@ -81,12 +83,17 @@ Each day carries a ready-to-show card, so a client needs one small request (abou
   trend phrases ("upward trend"). A pick is verb + particle(s) (2-4 words, last word a particle or preposition, no leading
   modal/pronoun/"be"), its example must use the particle, and a leading "to" is dropped ("to stand out" and "stand out" are one
   entry). Idioms that are not phrasal verbs ("fall prey to") are in `exclude.json`.
+- **Verb slots and COSYtools.** `verb` and `verb-prep` only feature verbs the tools can drill, taken from
+  `shared/cosytools-verbs.json`, a snapshot written by `node scripts/sync-cosytools-verbs.cjs ../COSYtools` (conjugation lists
+  per language, plus the governance lists for en, fr, it, el; Russian has no governance dataset yet). Re-run it when COSYtools
+  adds or removes verbs, then `npm run build:daily`; `npm run validate` fails if a pick is no longer in the snapshot.
+  Pools are **cumulative**: the B1 pool holds every eligible verb up to B1, and the card's `level` is the verb's own level.
 - **Editorial filter:** `daily/<lang>/calendar/exclude.json` lists entries that are never featured
   (`{"<slot>": {"<id>": "<word>"}}`). `idioms.json` also holds collocations and phrasal verbs, so `idiom` needs it.
 - **Hand edits:** `daily/<lang>/calendar/overrides.json`, `{"<slot>": {"2026-12-25": {"B1": "<entry id>"}}}`.
 - **Languages and levels:** only slots/languages in `daily/calendar-config.json` are built. A level whose eligible
   pool is below `minPool` (90 for `word`) is skipped, because it would repeat too often; clients fall back to the nearest
-  published level. Today: `idiom` en; `word` en (A0-C2), fr (A0, A2), it (A1-B1), ru (A0-A2), el (A1); `phrasal-verb` en (A2-C1, minPool 55). Italian has 55 `phrasal_verbs.json` entries at A2 but they are ordinary verbs, so it is not enabled; fr, ru and el have none.
+  published level. Today: `idiom` en; `word` en (A0-C2), fr (A0, A2), it (A1-B1), ru (A0-A2), el (A1); `phrasal-verb` en (A2-C1, minPool 55); `verb` en, fr, it, ru, el and `verb-prep` en, fr, it, el (minPool 30, so A0 is skipped where fewer than 30 verbs qualify). Italian has 55 `phrasal_verbs.json` entries at A2 but they are ordinary verbs, so it is not enabled; fr, ru and el have none.
 - **Validation:** `npm run validate` fails if a pick no longer exists, is excluded or ineligible, or its card is out of date.
 
 ## CORS & Hosting
