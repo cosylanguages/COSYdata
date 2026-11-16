@@ -1,0 +1,38 @@
+name: Rebuild Daily Calendars
+
+on:
+  schedule:
+    # Run every day at 03:30 UTC, before the COSYevents spotlights job at 04:00.
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-daily-calendars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild the daily calendars
+        run: node scripts/build-daily-calendar.cjs
+
+      - name: Commit and push if updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add daily
+          if git diff --staged --quiet; then
+            echo "Daily calendars already cover the horizon."
+          else
+            git commit -m "chore(daily): rebuild daily calendars for $(date -u +'%Y-%m')"
+            git push
+          fi
