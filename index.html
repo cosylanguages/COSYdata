@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-strip.css" />
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-directory.css" />
   <style>
     body {
       margin: 0;
@@ -184,6 +185,9 @@
     <div class="language-grid" id="language-grid">
       <!-- Dynamically generated language cards -->
     </div>
+
+    <!-- Daily directory: link out to every repo's daily surface, keeping each element in its owner. -->
+    <div data-daily-directory data-self="data" data-lang="en"></div>
   </main>
 
   <footer class="hub-footer">
@@ -192,6 +196,7 @@
 
   <!-- Daily strip component, shared with the COSYlanguages hub. It must load before the script below. -->
   <script src="https://cosylanguages.github.io/COSYlanguages/js/daily-strip.js" defer></script>
+  <script src="https://cosylanguages.github.io/COSYlanguages/js/daily-directory.js" defer></script>
   <script>
     // "Today in the dictionary": word, verb, verb + preposition, phrasal verb and idiom of the day. Which languages and slots exist comes from
     // daily/calendar-config.json, so adding a language there adds it to this picker. If the strip script or the
