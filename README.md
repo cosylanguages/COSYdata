@@ -107,4 +107,24 @@ npm run build:index
 npm run build
 ```
 
+---
+
+## Daily vocabulary
+
+`index.html` shows "Today in the dictionary": the word, verb, verb + preposition, phrasal verb and
+idiom of the day. This repository owns that vocabulary; the other daily elements live where they
+belong and the page links out to them.
+
+| Element | Owner |
+|---|---|
+| Word, verb, verb + preposition, phrasal verb and idiom of the day | COSYdata (`daily/<lang>/calendar/<slot>/YYYY-MM.json`, `daily/<lang>/idioms.json`) |
+| Speaking and writing prompts, Daily Challenge | [COSYpractice](https://github.com/cosylanguages/COSYpractice) |
+| Fun fact and the hub daily strip | [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) |
+| Cultural spotlights | [COSYevents](https://github.com/cosylanguages/COSYevents) |
+
+The page loads the shared hub strip and directory from COSYlanguages
+(`https://cosylanguages.github.io/COSYlanguages/js/daily-strip.js`, `.../js/daily-directory.js`) and
+mounts the directory with `<div data-daily-directory data-self="data">`. The calendars are prebuilt
+monthly by `scripts/build-daily-calendar.cjs`; the vocabulary of the day rotates by date.
+
 Copyright (c) 2025-2026 COSY Languages. All rights reserved.
