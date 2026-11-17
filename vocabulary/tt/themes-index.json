@@ -1,11 +1,18 @@
 {
   "actions": [
+    "tt:analizlau:verb",
+    "tt:bashlap-ibaru:verb",
     "tt:buldyru:verb",
+    "tt:chagyshtyru:verb",
     "tt:israf-itu:verb",
+    "tt:khezmattashlek-itu:verb",
     "tt:kiraku:verb",
+    "tt:nygytu:verb",
+    "tt:ozata-baru:verb",
     "tt:telar-ide:phrase",
     "tt:tiesh-bulu:verb",
     "tt:tieshlek:phrase",
+    "tt:tizlatu:verb",
     "tt:utkaru:verb",
     "tt:yasau:verb"
   ],
@@ -428,6 +435,13 @@
     "tt:ruchka:noun",
     "tt:telefon:noun"
   ],
+  "emotions": [
+    "tt:achu:noun",
+    "tt:kaltyrancha:adjective",
+    "tt:kunelle:adjective",
+    "tt:sagyshly:adjective",
+    "tt:shafkatle:adjective"
+  ],
   "expressions": [
     "tt:bairam:noun",
     "tt:dus:noun",
@@ -583,10 +597,24 @@
     "tt:oynau:verb"
   ],
   "media": [
-    "tt:karap-toru:verb"
+    "tt:analitik-yazma:noun",
+    "tt:bastyru:verb",
+    "tt:karap-toru:verb",
+    "tt:khabar-itu:verb",
+    "tt:makala:noun",
+    "tt:tasvirlau:verb",
+    "tt:yazma:noun"
   ],
   "media/general": [
     "tt:karap-toru:verb"
+  ],
+  "nature": [
+    "tt:biologik-torlelek:noun",
+    "tt:ekologik-saklanysh:noun",
+    "tt:mangelek:adjective",
+    "tt:tabigatne-kaygyrtu:verb",
+    "tt:tira-yak-mokhit:noun",
+    "tt:totrykly:adjective"
   ],
   "numbers": [
     "tt:altmysh-alty:number",
@@ -833,6 +861,9 @@
     "tt:zhek-kuru:verb"
   ],
   "shopping": [
+    "tt:burychka-alu:verb",
+    "tt:saklap-kalu:verb",
+    "tt:sauda:noun",
     "tt:tolaw:verb"
   ],
   "shopping/general": [
@@ -850,23 +881,48 @@
     "tt:soylashu:verb",
     "tt:yazu:verb"
   ],
+  "technology": [
+    "tt:anonim:adjective",
+    "tt:cheltar:noun",
+    "tt:cheltarlashu:noun",
+    "tt:dinamik-uzgara-torgan:adjective",
+    "tt:kurenmi-torgan:adjective",
+    "tt:sistema:noun",
+    "tt:struktur-uzgaresh:noun",
+    "tt:synalgan:adjective",
+    "tt:synau:verb",
+    "tt:tapshyru:verb",
+    "tt:taratu:verb",
+    "tt:tobe-tamyry-belan-uzgartu:verb",
+    "tt:togal:adjective"
+  ],
   "time": [
+    "tt:aldan-aytu:verb",
+    "tt:anakhronik:adjective",
     "tt:aprel:noun",
     "tt:atna:noun",
     "tt:avgust:noun",
+    "tt:daimi:adjective",
     "tt:dekabr:noun",
+    "tt:donya:noun",
     "tt:dushambe:noun",
+    "tt:farazlau-sangate:noun",
     "tt:fevral:noun",
     "tt:gyynvar:noun",
+    "tt:harkaydagy:adjective",
     "tt:irta:noun",
     "tt:iyul:noun",
     "tt:iyun:noun",
     "tt:kich:noun",
+    "tt:kilachak:noun",
+    "tt:kin-taralgan:adjective",
     "tt:kon:noun",
     "tt:koz:noun",
+    "tt:kurelmagan:adjective",
     "tt:kysh:noun",
     "tt:mart:noun",
     "tt:may:noun",
+    "tt:nigez-saluchy:adjective",
     "tt:noyabr:noun",
     "tt:oktyabr:noun",
     "tt:panjeshambe:noun",
@@ -874,7 +930,12 @@
     "tt:sharshambe:noun",
     "tt:shimba:noun",
     "tt:shishambe:noun",
+    "tt:suzylgan:adjective",
     "tt:ton:noun",
+    "tt:utkan-vakyt:noun",
+    "tt:utkenche:adjective",
+    "tt:vakytly:adjective",
+    "tt:vakytlylyk:noun",
     "tt:yakshambe:noun",
     "tt:yaz:noun",
     "tt:zhay:noun",
@@ -914,13 +975,54 @@
     "tt:yanggyr:noun"
   ],
   "work": [
+    "tt:aklarga:verb",
+    "tt:aldan-kuru-salate:noun",
+    "tt:alyshtyryrga:verb",
     "tt:ashchy:noun",
+    "tt:assyzyklarga:verb",
+    "tt:ayak-chalyrga:verb",
     "tt:basu:verb",
+    "tt:bayle-bulyrga:verb",
+    "tt:bozarga:verb",
+    "tt:chagyshtyrmagyy-analiz:noun",
+    "tt:chiklangan:adjective",
+    "tt:daraa:noun",
     "tt:esh:noun",
+    "tt:farazlau:verb",
+    "tt:ireshu:verb",
+    "tt:ishlarga:verb",
+    "tt:iskarterga:verb",
+    "tt:khezmat-khaky:noun",
+    "tt:kileshtererga:verb",
+    "tt:kinaytu-eshe:noun",
+    "tt:kinaytu:verb",
+    "tt:kiskenlashtererga:verb",
+    "tt:kullanyrga:verb",
+    "tt:mabur-itarga:verb",
+    "tt:maksat:noun",
+    "tt:natia:noun",
+    "tt:natiale:adjective",
+    "tt:nigezlanerga:verb",
+    "tt:ostalyk:noun",
+    "tt:paradigma-uzgaru:verb",
+    "tt:protsent:noun",
+    "tt:shartnama:noun",
     "tt:shofer:noun",
+    "tt:songy-nokta-kuyu:verb",
+    "tt:strukturaly:adjective",
+    "tt:synau:noun",
     "tt:tabib:noun",
+    "tt:taralyrga:verb",
+    "tt:tiran-oyranu:verb",
+    "tt:tormyshka-ashyru:verb",
+    "tt:tulysyncha-tamamlau:verb",
     "tt:ukytuchy:noun",
-    "tt:vrach:noun"
+    "tt:urnak-bulyrga:verb",
+    "tt:usteru:verb",
+    "tt:vrach:noun",
+    "tt:yoklama:noun",
+    "tt:yomshartyrga:verb",
+    "tt:yugary-ostalykly:adjective"
   ],
   "work/office_business": [
     "tt:basu:verb"

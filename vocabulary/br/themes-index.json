@@ -1,8 +1,13 @@
 {
   "actions": [
+    "br:ambroug:verb",
     "br:anaiat-1:verb",
     "br:comprenan-1:verb",
+    "br:dielfenna:verb",
     "br:diskouizhan-1:verb",
+    "br:dizalea:verb",
+    "br:dizolei:verb",
+    "br:ensellet:verb",
     "br:ezhomm-kaout-1:phrase",
     "br:gallout-1:verb",
     "br:gastan-1:verb",
@@ -10,8 +15,13 @@
     "br:gouest-bezan-1:phrase",
     "br:gwelout-1:verb",
     "br:kaout-ezhomm-1:phrase",
+    "br:kemma:verb",
+    "br:kenlabourat:verb",
+    "br:keveria:verb",
     "br:klevout-1:verb",
     "br:kounaat-1:verb",
+    "br:krevaat:verb",
+    "br:mora-penn:verb",
     "br:oberian-1:verb",
     "br:rankout-1:verb",
     "br:rankout-beazn-1:phrase",
@@ -224,6 +234,14 @@
     "br:trugarekaat-1:verb",
     "br:urzhian-1:verb"
   ],
+  "emotions": [
+    "br:damantus:adjective",
+    "br:drouk:noun",
+    "br:fentus:adjective",
+    "br:hiraezhus:adjective",
+    "br:kounnaret:adjective",
+    "br:krenus:adjective"
+  ],
   "expressions": [
     "br:demat:phrase",
     "br:kenavo:phrase",
@@ -397,7 +415,13 @@
     "br:liorzh:noun"
   ],
   "media": [
-    "br:arvestin-1:verb"
+    "br:arvestin-1:verb",
+    "br:diwar-bennad:noun",
+    "br:embann:verb",
+    "br:kemennet:verb",
+    "br:pennad:noun",
+    "br:skeudenni:verb",
+    "br:skrid:noun"
   ],
   "media/general": [
     "br:arvestin-1:verb"
@@ -424,6 +448,16 @@
     "br:spagn-1:noun",
     "br:stadou-unanet-1:noun",
     "br:ti-1:noun"
+  ],
+  "nature": [
+    "br:arveza:verb",
+    "br:arveziadur:noun",
+    "br:endro:noun",
+    "br:gwarezi:verb",
+    "br:liesseurted:noun",
+    "br:mora:verb",
+    "br:padus:adjective",
+    "br:peurbaduz:adjective"
   ],
   "numbers": [
     "br:boul:number",
@@ -723,6 +757,10 @@
     "br:talvout-1:verb",
     "br:tremen-1:verb"
   ],
+  "shopping": [
+    "br:ampresta:verb",
+    "br:kenwerzh:noun"
+  ],
   "social_expressions": [
     "br:a-du-bezan-1:phrase",
     "br:discontentin-1:verb",
@@ -735,9 +773,35 @@
   "social_expressions/socializing": [
     "br:lavaret-1:verb"
   ],
+  "technology": [
+    "br:amprouet:adjective",
+    "br:amproui:verb",
+    "br:diwelus:adjective",
+    "br:dizanv:adjective",
+    "br:kenstag:noun",
+    "br:kenstagadur:noun",
+    "br:reizhiad:noun",
+    "br:resis:adjective",
+    "br:skigna:verb",
+    "br:treusfurluk:adjective",
+    "br:treusfurmadur:noun",
+    "br:treusfurmi:verb",
+    "br:treuzkas:verb"
+  ],
   "time": [
+    "br:amzer-dazont:noun",
+    "br:amzer-dremenet:noun",
+    "br:amzeriek:adjective",
+    "br:amzeriekter:noun",
+    "br:anachronikel:adjective",
     "br:chwevrer:noun",
+    "br:daoulamm:adjective",
+    "br:dazont:noun",
     "br:deiz:noun",
+    "br:diazezel:adjective",
+    "br:dichortoz:adjective",
+    "br:diougana:verb",
+    "br:diouganerezh:noun",
     "br:diskar-amzer:noun",
     "br:du:noun",
     "br:ebrel:noun",
@@ -749,8 +813,11 @@
     "br:gwengolo:noun",
     "br:hanv:noun",
     "br:here:noun",
+    "br:hirbadus:adjective",
     "br:hizio-1:noun",
     "br:hiziv:adverb",
+    "br:hollek:adjective",
+    "br:holllechiel:adjective",
     "br:kerzu:noun",
     "br:kousket-1:verb",
     "br:lun:noun",
@@ -762,6 +829,7 @@
     "br:mintin:noun",
     "br:nevez-amzer:noun",
     "br:noz:noun",
+    "br:reoliek:adjective",
     "br:sadorn:noun",
     "br:sizhun:noun",
     "br:sul:noun",
@@ -812,14 +880,56 @@
     "br:yen-1:adjective"
   ],
   "work": [
+    "br:ampart-meurbet:adjective",
+    "br:amprouadenn:noun",
     "br:arc-hant:noun",
+    "br:astenn:verb",
+    "br:astennadur:noun",
+    "br:barregezh:noun",
+    "br:bevennet:adjective",
     "br:bizskrivan-1:verb",
+    "br:chechamant-paradign:verb",
+    "br:degas-a-benn:verb",
+    "br:dependi-diouzh:verb",
+    "br:diarbenn:verb",
+    "br:diazeza:verb",
+    "br:dielfenna-don:verb",
+    "br:diorren:verb",
+    "br:disoch:noun",
+    "br:efedus:adjective",
+    "br:erlechia:verb",
+    "br:feur:noun",
+    "br:framma:verb",
+    "br:frammet:adjective",
+    "br:gopr:noun",
+    "br:gwalla:verb",
+    "br:gwashaat:verb",
+    "br:kefrdi:noun",
     "br:keginer-1:noun",
     "br:kelenner:noun",
     "br:kellenner-1:noun",
+    "br:kempoueza:verb",
+    "br:kenvella:verb",
+    "br:keveriadur:noun",
+    "br:kevrat:noun",
+    "br:koazha:verb",
     "br:labour:noun",
+    "br:lakaat-e-pleustr:verb",
     "br:liorzhour-1:noun",
-    "br:medisin:noun"
+    "br:medisin:noun",
+    "br:mirchella:verb",
+    "br:pal:noun",
+    "br:peurdraa:verb",
+    "br:peurechui:verb",
+    "br:peurglokaat:verb",
+    "br:poueza-war:verb",
+    "br:ragwelerezh:noun",
+    "br:ragwelet:verb",
+    "br:raing:noun",
+    "br:redia:verb",
+    "br:reizha:verb",
+    "br:skoilha:verb",
+    "br:skoueriaat:verb"
   ],
   "work/office_business": [
     "br:bizskrivan-1:verb"
