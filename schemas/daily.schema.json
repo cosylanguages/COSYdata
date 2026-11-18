@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://cosylanguages.github.io/COSYdata/schemas/daily.schema.json",
   "title": "Daily Strip File",
-  "description": "JSON Schema (draft 2020-12) for daily strip files: idioms (COSYdata, legacy), speaking and writing (COSYpractice data/daily), facts (COSYlanguages data/daily)",
+  "description": "JSON Schema (draft 2020-12) for daily strip files: idioms (COSYdata, legacy), speaking and writing (COSYpractice data/daily). Fun facts live in COSYlanguages data/daily and are documented in that repository.",
   "type": "array",
   "items": {
     "oneOf": [
@@ -14,9 +14,6 @@
       },
       {
         "$ref": "#/$defs/idiomEntry"
-      },
-      {
-        "$ref": "#/$defs/factEntry"
       }
     ]
   },
@@ -98,26 +95,6 @@
             "string",
             "null"
           ]
-        }
-      },
-      "additionalProperties": false
-    },
-    "factEntry": {
-      "type": "object",
-      "required": [
-        "id",
-        "fact"
-      ],
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^[a-z]{2}:fact:[a-zA-Z0-9_-]+$"
-        },
-        "fact": {
-          "type": "string"
-        },
-        "topic": {
-          "type": "string"
         }
       },
       "additionalProperties": false

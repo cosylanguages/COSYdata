@@ -1,16 +1,17 @@
 # Native-speaker review of the daily content
 
-Spreadsheet workflow for reviewing the short texts the daily strip shows, which live in three repositories:
-speaking/writing prompts (COSYpractice `data/daily`), fun facts (COSYlanguages `data/daily`) and the legacy idiom lists
-(COSYdata `daily/<lang>/idioms.json`). Needs Python 3 and `openpyxl`. Run from this repository with the others cloned beside it.
+Spreadsheet workflow for reviewing the short texts the daily strip shows, which live in two repositories:
+speaking/writing prompts (COSYpractice `data/daily`) and the legacy idiom lists (COSYdata `daily/<lang>/idioms.json`).
+Fun facts are owned by COSYlanguages (`data/daily/<lang>/facts.json`) and reviewed there. Needs Python 3 and
+`openpyxl`. Run from this repository with the other cloned beside it.
 
 1. **Make the sheets** (one workbook per language, 14 languages):
-   `python scripts/review/make_review_sheets.py --practice ../COSYpractice --hub ../COSYlanguages --data . --out review-sheets`
+   `python scripts/review/make_review_sheets.py --practice ../COSYpractice --data . --out review-sheets`
    (add `--lang fr` for one language). Send each reviewer their `review-<lang>.xlsx`; they fill the cream columns
    (Verdict: OK / Fix / Remove, Corrected text, Corrected example, Comment) and send it back. The generated workbooks are
    snapshots, so they are not committed.
 2. **Apply the returned sheet** (dry run first, then `--write`):
-   `python scripts/review/apply_review.py review-fr.xlsx --practice ../COSYpractice --hub ../COSYlanguages --data .`
+   `python scripts/review/apply_review.py review-fr.xlsx --practice ../COSYpractice --data .`
    A row is skipped when its text changed after the sheet was made, so newer edits are never overwritten.
 3. **Check and commit in each repo that changed:** `node scripts/validate-daily-prompts.js` (COSYpractice, also keeps a curated
    prompt for every level band), `npm run build && npm run validate` (COSYdata).

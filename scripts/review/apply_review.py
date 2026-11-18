@@ -2,12 +2,12 @@
 """
 Applies a returned review workbook (made by make_review_sheets.py) to the COSY data files.
 
-  python apply_review.py review-fr.xlsx --practice ../COSYpractice --hub ../COSYlanguages --data .          # dry run
-  python apply_review.py review-fr.xlsx --practice ... --hub ... --data ... --write                                  # apply
+  python apply_review.py review-fr.xlsx --practice ../COSYpractice --data .          # dry run
+  python apply_review.py review-fr.xlsx --practice ... --data ... --write            # apply
 
 Verdicts (column "Verdict"):
   OK      nothing changes
-  Fix     "Corrected text" replaces the prompt / fact / idiom; for idioms "Corrected example" replaces the example sentence
+  Fix     "Corrected text" replaces the prompt / idiom; for idioms "Corrected example" replaces the example sentence
   Remove  the entry is deleted
 
 Safety: a row is skipped (and reported) when the "Text" in the sheet no longer matches the data file, i.e. the
@@ -21,7 +21,6 @@ from openpyxl import load_workbook
 KINDS = {  # id kind -> (repo key, relative path template, text field)
     'speaking': ('practice', 'data/daily/{lang}/speaking.json', 'prompt'),
     'writing': ('practice', 'data/daily/{lang}/writing.json', 'prompt'),
-    'fact': ('hub', 'data/daily/{lang}/facts.json', 'fact'),
     'idiom': ('data', 'daily/{lang}/idioms.json', 'idiom'),
 }
 
@@ -44,11 +43,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('workbook')
     ap.add_argument('--practice', required=True)
-    ap.add_argument('--hub', required=True)
     ap.add_argument('--data', required=True)
     ap.add_argument('--write', action='store_true')
     a = ap.parse_args()
-    roots = {'practice': a.practice, 'hub': a.hub, 'data': a.data}
+    roots = {'practice': a.practice, 'data': a.data}
 
     ws = load_workbook(a.workbook, data_only=True)['Review']
     head = [c.value for c in ws[1]]

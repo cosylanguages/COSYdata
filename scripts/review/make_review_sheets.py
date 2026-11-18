@@ -2,13 +2,15 @@
 """
 Builds one native-speaker review workbook per language from the COSY daily content.
 
-  python scripts/review/make_review_sheets.py --practice ../COSYpractice --hub ../COSYlanguages --data . --out review-sheets
+  python scripts/review/make_review_sheets.py --practice ../COSYpractice --data . --out review-sheets
   python make_review_sheets.py ... --lang fr          # a single language
 
 Content reviewed (the texts the daily strip shows to learners):
   speaking / writing prompts   COSYpractice  data/daily/<lang>/{speaking,writing}.json
-  fun facts                    COSYlanguages data/daily/<lang>/facts.json
   idioms (legacy list)         COSYdata      daily/<lang>/idioms.json
+
+Fun facts are owned by COSYlanguages (`data/daily/<lang>/facts.json`) and reviewed
+there (`data/daily/TODO.md`); they are not collected here.
 
 The ID column is how apply_review.py finds each entry again, so reviewers must not change it.
 """
@@ -43,14 +45,12 @@ def read(path):
         return json.load(f)
 
 
-def collect(lang, practice, hub, data):
+def collect(lang, practice, data):
     rows = []
     for kind, label in (('speaking', 'Speaking prompt'), ('writing', 'Writing prompt')):
         for e in read(os.path.join(practice, 'data', 'daily', lang, kind + '.json')):
             level = e.get('level', '') + (' (curated)' if e.get('curated') else '')
             rows.append([e['id'], label, level, e['prompt'], '', ''])
-    for e in read(os.path.join(hub, 'data', 'daily', lang, 'facts.json')):
-        rows.append([e['id'], 'Fun fact', e.get('topic', ''), e['fact'], '', ''])
     for e in read(os.path.join(data, 'daily', lang, 'idioms.json')):
         rows.append([e['id'], 'Idiom', '', e['idiom'], e.get('real_meaning', ''), e.get('example', '')])
     return rows
@@ -79,7 +79,6 @@ def instructions(ws, lang, n_items):
         ('How to review', '1. Go to the "Review" sheet. 2. In each row, choose a Verdict in the cream "Verdict" column: OK (nothing to change), Fix (type the better version in "Corrected text", and in "Corrected example" for idioms) or Remove (cannot be fixed, or not suitable). 3. Add a Comment if it helps. 4. Save the file and send it back.'),
         ('Please do not change', 'The ID and Text columns (grey). Corrections go only in the cream columns, so they can be applied automatically. Do not add, delete or re-sort rows.'),
         ('Speaking / writing prompts', 'Natural wording a teacher would really use. Correct grammar and spelling. Suitable for the CEFR level shown (A0-A1 beginner: short, concrete, present tense; A2: simple personal topics; B1-B2: opinions, experiences, explanations; C1-C2: abstract topics, nuance). Speaking prompts should invite a spoken answer, writing prompts a clear written task. "(curated)" means hand-written for that level.'),
-        ('Fun facts', 'The fact must be true and still true today. Please check every number and date and use Fix to correct them. One neutral sentence; no opinions. Remove a fact you cannot confirm.'),
         ('Idioms', 'Is it a real expression that native speakers use today (not a literal translation or an invention)? Is the spelling right? Is the English meaning correct? Is the example sentence natural and does it contain the idiom? Fix the idiom in "Corrected text" and the sentence in "Corrected example".'),
     ]
     for head, body in blocks:
@@ -125,8 +124,8 @@ def instructions(ws, lang, n_items):
     ws.cell(r, 4).fill = INPUT_FILL
 
 
-def build(lang, practice, hub, data, out_dir):
-    rows = collect(lang, practice, hub, data)
+def build(lang, practice, data, out_dir):
+    rows = collect(lang, practice, data)
     wb = Workbook()
     ins = wb.active
     ins.title = 'Instructions'
@@ -168,12 +167,11 @@ def build(lang, practice, hub, data, out_dir):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--practice', required=True)
-    ap.add_argument('--hub', required=True)
     ap.add_argument('--data', required=True)
     ap.add_argument('--out', default='review-sheets')
     ap.add_argument('--lang')
     a = ap.parse_args()
     langs = [a.lang] if a.lang else sorted(d for d in os.listdir(os.path.join(a.practice, 'data', 'daily')) if len(d) == 2)
     for lang in langs:
-        path, n = build(lang, a.practice, a.hub, a.data, a.out)
+        path, n = build(lang, a.practice, a.data, a.out)
         print(f'{path}: {n} items')
