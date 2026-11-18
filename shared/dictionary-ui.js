@@ -1136,24 +1136,13 @@ export async function initDictionaryUI(container, options = {}) {
 
   targetEl.innerHTML = '';
 
-  // Ecosystem Strip Header Landmark
+  // Ecosystem strip (shared component: COSYlanguages/js/ecosystem-strip.js)
   const stripEl = document.createElement('div');
-  stripEl.className = 'cosy-ecosystem-strip';
-  stripEl.setAttribute('role', 'navigation');
-  stripEl.setAttribute('aria-label', 'COSY Ecosystem Products');
-  stripEl.innerHTML = `
-    <div class="cosy-strip-inner">
-      <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
-      <ul class="cosy-strip-links">
-        <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages</a></li>
-        <li><a href="${baseUrl}index.html" class="cosy-strip-link active">COSYdata 📚</a></li>
-        <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
-        <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
-        <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
-      </ul>
-    </div>
-  `;
+  stripEl.setAttribute('data-ecosystem-strip', '');
+  stripEl.setAttribute('data-self', 'data');
+  stripEl.setAttribute('data-lang', lang);
   targetEl.appendChild(stripEl);
+  if (window.COSY_EcosystemStrip) window.COSY_EcosystemStrip.render(stripEl);
 
   // Active UI Navigation State
   // mode: 'home' | 'letter' | 'category' | 'level' | 'domain' | 'favorites' | 'recent' | 'search'
