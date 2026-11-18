@@ -107,7 +107,7 @@ GitHub Pages automatically serves static assets with `Access-Control-Allow-Origi
 
 ## Schema Specifications
 
-The legacy idiom files follow [`schemas/daily.schema.json`](../schemas/daily.schema.json), which also describes the speaking, writing and facts formats now kept in COSYpractice and COSYlanguages.
+The legacy idiom files follow [`schemas/daily.schema.json`](../schemas/daily.schema.json), which also describes the speaking and writing formats now kept in COSYpractice. Fun facts live in COSYlanguages `data/daily/<lang>/facts.json`.
 
 ### Idiomatic Expressions (`idioms.json`, legacy)
 ```json
