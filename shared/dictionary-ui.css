@@ -28,27 +28,36 @@
   --cosy-dict-radius: var(--cosy-radius-md, 14px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cosy-dict-bg: var(--cosy-color-cream, #1a1f1a);
-    --cosy-dict-card-bg: var(--cosy-color-warm-white, #222b22);
-    --cosy-dict-text: var(--cosy-color-ink, #e8f0e9);
-    --cosy-dict-text-muted: var(--cosy-color-ink-soft, #c8d8c9);
-    --cosy-dict-border: var(--cosy-color-border, rgba(107, 143, 113, 0.20));
-    --cosy-dict-primary: var(--cosy-color-sage, #5a7a5f);
-    --cosy-dict-primary-hover: var(--cosy-color-sage-dark, #8a9e8b);
-    --cosy-dict-accent: var(--cosy-color-sage, #5a7a5f);
-    --cosy-dict-badge-bg: var(--cosy-color-sage-pale, #222c23);
-    --cosy-dict-badge-text: var(--cosy-color-sage-dark, #8a9e8b);
-    --cosy-dict-chip-bg: var(--cosy-color-sage-pale, #222c23);
-    --cosy-dict-chip-text: var(--cosy-color-sage-deep, #e8f0e9);
-    --cosy-dict-chip-antonym-bg: var(--cosy-color-coral-light, #2d1a15);
-    --cosy-dict-chip-antonym-text: var(--cosy-color-coral, #B84318);
-    --cosy-dict-wotd-bg: var(--cosy-color-sage-mist, #1f2720);
-    --cosy-dict-wotd-border: var(--cosy-color-border-hover, rgba(107, 143, 113, 0.35));
-    --cosy-dict-shadow: var(--cosy-shadow-base, 0 6px 28px rgba(0, 0, 0, 0.3));
-  }
+/* Dark mode: every --cosy-dict-* value above is built from the shared tokens, which switch with
+   <html data-theme="dark"> (set by cosy-theme.js from the system setting or the visitor's saved choice).
+   Only the few values that need a different shade on dark are listed here. */
+html[data-theme="dark"] {
+  --cosy-dict-accent: #9cc9a5;
+  --cosy-dict-badge-text: #d6e8d9;
+  --cosy-dict-chip-antonym-text: #f4906f;
+  --cosy-dict-shadow: 0 6px 28px rgba(0, 0, 0, 0.3);
 }
+
+body { background-color: var(--cosy-dict-bg); }
+
+/* Floating light/dark switch on dictionary pages */
+.cosy-theme-fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 50;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--cosy-dict-border);
+  background: var(--cosy-dict-card-bg);
+  color: var(--cosy-dict-text);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--cosy-dict-shadow);
+}
+.cosy-theme-fab:focus-visible { outline: 3px solid var(--cosy-dict-primary); outline-offset: 2px; }
 
 /* Global High-Contrast Focus Indicator for Accessibility */
 .cosy-dict-container *:focus-visible {
@@ -81,7 +90,7 @@
   width: 36px;
   height: 36px;
   border: 4px solid var(--cosy-dict-border);
-  border-top-color: var(--cosy-dict-primary);
+  border-top-color: var(--cosy-dict-accent);
   border-radius: 50%;
   animation: cosy-dict-spin 0.8s linear infinite;
   margin-bottom: 12px;
@@ -243,7 +252,7 @@
 }
 
 .cosy-dict-export-btn {
-  background-color: var(--cosy-dict-primary);
+  background-color: var(--cosy-dict-accent);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -284,7 +293,7 @@
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
   &:focus {
-    border-color: var(--cosy-dict-primary);
+    border-color: var(--cosy-dict-accent);
   }
 }
 
@@ -333,7 +342,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background-color: var(--cosy-dict-primary);
+  background-color: var(--cosy-dict-accent);
   color: #ffffff;
   padding: 3px 9px;
   border-radius: 4px;
@@ -403,8 +412,8 @@
   transition: all 0.15s ease;
 
   &:hover {
-    background-color: var(--cosy-dict-primary);
-    border-color: var(--cosy-dict-primary);
+    background-color: var(--cosy-dict-accent);
+    border-color: var(--cosy-dict-accent);
     color: #ffffff;
   }
 }
@@ -480,7 +489,7 @@
   transition: border-color 0.15s ease, transform 0.15s ease;
 
   &:hover {
-    border-color: var(--cosy-dict-primary);
+    border-color: var(--cosy-dict-accent);
     transform: translateY(-1px);
   }
 }
@@ -624,7 +633,7 @@
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
   &.is-expanded {
-    border-color: var(--cosy-dict-primary);
+    border-color: var(--cosy-dict-accent);
   }
 }
 
@@ -689,8 +698,8 @@
   cursor: pointer;
 
   &:hover {
-    border-color: var(--cosy-dict-primary);
-    color: var(--cosy-dict-primary);
+    border-color: var(--cosy-dict-accent);
+    color: var(--cosy-dict-accent);
   }
 }
 
@@ -873,7 +882,7 @@
   padding: 12px 24px;
   font-size: 15px;
   font-weight: 700;
-  background-color: var(--cosy-dict-primary);
+  background-color: var(--cosy-dict-accent);
   color: #ffffff;
   border: none;
   border-radius: var(--cosy-dict-radius);
@@ -906,7 +915,7 @@
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 6px 0;
-  color: var(--cosy-dict-primary);
+  color: var(--cosy-dict-accent);
 }
 
 .cosy-dict-footer-desc {
@@ -939,7 +948,7 @@
 
   strong {
     font-size: 14px;
-    color: var(--cosy-dict-primary);
+    color: var(--cosy-dict-accent);
     margin-bottom: 2px;
   }
 
