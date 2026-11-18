@@ -7,16 +7,19 @@
   <meta name="description" content="Interactive present simple verb conjugation tool for COSYmagazine's Top 10 Verbs series (Part 1, Part 2, Part 3) across 14 languages." />
   <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/top10-verbs.html" />
 
+  <script src="./shared/cosy-theme.js"></script>
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/fonts.css" />
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
   <style>
     :root {
       --cosy-bg: var(--cosy-color-cream, #fdfcf8);
-      --cosy-card-bg: #ffffff;
-      --cosy-text: #2a2a2a;
-      --cosy-muted: #666666;
+      --cosy-card-bg: var(--cosy-color-warm-white, #ffffff);
+      --t10-soft: #f3f4f1; --t10-soft2: #f9f8f3; --t10-soft3: #eef2ed; --t10-line: #f0f0f0;
+      --cosy-text: var(--cosy-color-ink, #2a2a2a);
+      --cosy-muted: var(--cosy-color-ink-soft, #666666);
       --cosy-sage: #416b49;
-      --cosy-sage-light: #eaf1eb;
+      --cosy-sage-light: var(--cosy-color-sage-light, #eaf1eb);
       --cosy-border: rgba(65, 107, 73, 0.15);
       --cosy-accent: #d97706;
       --cosy-accent-bg: #fef3c7;
@@ -32,7 +35,7 @@
       line-height: 1.6;
     }
     .hero {
-      background-color: #ffffff;
+      background-color: var(--cosy-card-bg);
       border-bottom: 1px solid var(--cosy-border);
       padding: 40px 20px;
       text-align: center;
@@ -74,7 +77,7 @@
       gap: 6px;
       padding: 8px 16px;
       border-radius: 20px;
-      background: #f3f4f1;
+      background: var(--t10-soft);
       color: var(--cosy-text);
       text-decoration: none;
       font-weight: 600;
@@ -96,7 +99,7 @@
 
     /* Filter Controls */
     .filter-card {
-      background-color: #ffffff;
+      background-color: var(--cosy-card-bg);
       border: 1px solid var(--cosy-border);
       border-radius: var(--cosy-radius);
       padding: 20px;
@@ -123,7 +126,7 @@
       padding: 6px 14px;
       border-radius: 8px;
       border: 1px solid var(--cosy-border);
-      background: #f9f8f3;
+      background: var(--t10-soft2);
       color: var(--cosy-text);
       font-weight: 600;
       font-size: 13px;
@@ -131,7 +134,7 @@
       transition: all 0.15s ease;
     }
     .btn-toggle:hover {
-      background: #eef2ed;
+      background: var(--t10-soft3);
       border-color: var(--cosy-sage);
     }
     .btn-toggle.active {
@@ -147,7 +150,7 @@
       font-family: inherit;
       font-size: 14px;
       outline: none;
-      background: #ffffff;
+      background: var(--cosy-card-bg);
     }
     select:focus, input[type="text"]:focus {
       border-color: var(--cosy-sage);
@@ -161,7 +164,7 @@
       gap: 24px;
     }
     .verb-card {
-      background: #ffffff;
+      background: var(--cosy-card-bg);
       border: 1px solid var(--cosy-border);
       border-radius: var(--cosy-radius);
       padding: 20px;
@@ -210,7 +213,7 @@
     .verb-notes {
       font-size: 12px;
       color: var(--cosy-muted);
-      background-color: #f9f8f3;
+      background-color: var(--t10-soft2);
       padding: 6px 10px;
       border-radius: 6px;
       margin-bottom: 14px;
@@ -225,7 +228,7 @@
     }
     .conjugation-table th, .conjugation-table td {
       padding: 6px 10px;
-      border-bottom: 1px solid #f0f0f0;
+      border-bottom: 1px solid var(--t10-line);
       text-align: left;
     }
     .conjugation-table th {
@@ -254,9 +257,20 @@
       color: var(--cosy-muted);
       font-size: 14px;
     }
+  
+    html[data-theme="dark"] {
+      --t10-soft: #1f2720; --t10-soft2: #1c241d; --t10-soft3: #26312a; --t10-line: rgba(255, 255, 255, 0.08);
+      --cosy-border: rgba(107, 143, 113, 0.25);
+      --cosy-sage: #6b9474;
+      --cosy-accent: #f0b34a;
+      --cosy-accent-bg: #2d2417;
+      --cosy-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    }
+    html[data-theme="dark"] .hero { background-color: var(--cosy-card-bg); }
   </style>
 </head>
 <body>
+  <button type="button" class="cosy-theme-fab" data-cosy-theme-toggle aria-label="Switch theme">🌙</button>
   <!-- Top Ecosystem Strip Nav -->
   <div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
     <div class="cosy-strip-inner">

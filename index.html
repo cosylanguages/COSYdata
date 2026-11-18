@@ -19,8 +19,11 @@
   <meta name="twitter:title" content="COSYdata — Machine-Readable Vocabulary &amp; Data" />
   <meta name="twitter:description" content="Explore machine-readable vocabulary datasets, functional phrases, and language dictionaries for the COSYlanguages ecosystem." />
 
+  <script src="./shared/cosy-theme.js"></script>
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/fonts.css" />
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
+  <link rel="stylesheet" href="./shared/hero.css" />
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-strip.css" />
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-directory.css" />
   <style>
@@ -30,33 +33,6 @@
       background-color: var(--cosy-color-cream, #fdfcf8);
       color: var(--cosy-color-ink, #2a2a2a);
       font-family: var(--cosy-font-sans, 'Nunito', 'DM Sans', sans-serif);
-    }
-    .hub-header {
-      background-color: var(--cosy-color-warm-white, #FFFEFB);
-      border-bottom: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
-      padding: 40px 20px;
-      text-align: center;
-      box-shadow: var(--cosy-shadow-base, 0 6px 28px rgba(46, 74, 51, 0.10));
-    }
-    .hub-title {
-      font-family: var(--cosy-font-serif, 'Fraunces', 'Lora', Georgia, serif);
-      font-size: 36px;
-      margin: 0 0 12px 0;
-      color: var(--cosy-color-sage, #416b49);
-    }
-    .hub-tagline {
-      font-size: 18px;
-      color: var(--cosy-dict-text-muted);
-      max-width: 720px;
-      margin: 0 auto 16px auto;
-      line-height: 1.5;
-    }
-    .hub-description {
-      font-size: 14px;
-      color: var(--cosy-dict-text-muted);
-      max-width: 800px;
-      margin: 0 auto;
-      line-height: 1.6;
     }
     .hub-container {
       max-width: 1000px;
@@ -69,8 +45,7 @@
       font-weight: 700;
       margin-bottom: 20px;
     }
-    .today-section { margin-bottom: 36px; }
-    .today-section[hidden] { display: none; }
+    .dh-today[hidden] { display: none; }
     .today-picker { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
     .today-picker button {
       font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
@@ -161,27 +136,52 @@
     </div>
   </div>
 
-  <header class="hub-header">
-    <h1 class="hub-title">COSYdata Vocabulary Hub</h1>
-    <p class="hub-tagline">
-      Oxford/Cambridge-style dictionary browsing for the COSYlanguages ecosystem
-    </p>
-    <p class="hub-description">
-      <strong>COSYdata</strong> serves as the single source of truth for machine-readable vocabulary datasets, functional phrases, and curriculum competencies consumed across the COSYlanguages ecosystem (<a href="https://github.com/cosylanguages/COSYlanguages" target="_blank" style="color: inherit;">COSYlanguages</a>, <a href="https://github.com/cosylanguages/COSYmanuals" target="_blank" style="color: inherit;">COSYmanuals</a>, <a href="https://github.com/cosylanguages/COSYgames" target="_blank" style="color: inherit;">COSYgames</a>, <a href="https://github.com/cosylanguages/COSYtools" target="_blank" style="color: inherit;">COSYtools</a>).
-    </p>
-    <p class="hub-tagline">
-      <a href="./top10-verbs.html">✨ Top 10 Verbs Present Simple Conjugation Tool</a>
-    </p>
+  <div class="dh-topbar">
+    <a class="dh-brand" href="./index.html" aria-label="COSYdata home">
+      <span class="dh-brand-mark" aria-hidden="true">📚</span>
+      <span>COSYdata</span>
+    </a>
+    <button type="button" class="dh-theme-btn" data-cosy-theme-toggle aria-label="Switch theme">🌙</button>
+  </div>
+
+  <header class="dh-hero" id="top">
+    <div class="dh-hero-inner">
+      <div class="dh-hero-copy">
+        <p class="dh-eyebrow">📚 Vocabulary &amp; data</p>
+        <h1 class="dh-title">The dictionary behind <em>COSY.</em></h1>
+        <p class="dh-sub">
+          Oxford/Cambridge-style dictionaries and machine-readable vocabulary, phrases and curriculum data, shared by
+          <a href="https://cosylanguages.github.io/COSYlanguages/">COSYlanguages</a>,
+          <a href="https://github.com/cosylanguages/COSYmanuals" target="_blank" rel="noopener">COSYmanuals</a>,
+          <a href="https://github.com/cosylanguages/COSYgames" target="_blank" rel="noopener">COSYgames</a> and
+          <a href="https://cosylanguages.github.io/COSYtools/">COSYtools</a>.
+        </p>
+        <div class="dh-actions">
+          <a href="#dictionaries" class="dh-btn dh-btn-primary">Browse the dictionaries</a>
+          <a href="./top10-verbs.html" class="dh-btn dh-btn-secondary">✨ Top 10 Verbs tool</a>
+          <a href="https://github.com/cosylanguages/COSYdata" class="dh-link" target="_blank" rel="noopener">Data on GitHub →</a>
+        </div>
+        <nav class="dh-chips" aria-label="Open a dictionary">
+          <a class="dh-chip" href="./vocabulary/en/index.html">🇬🇧 English</a>
+          <a class="dh-chip" href="./vocabulary/fr/index.html">🇫🇷 French</a>
+          <a class="dh-chip" href="./vocabulary/it/index.html">🇮🇹 Italian</a>
+          <a class="dh-chip" href="./vocabulary/ru/index.html">🇷🇺 Russian</a>
+          <a class="dh-chip" href="./vocabulary/el/index.html">🇬🇷 Greek</a>
+          <a class="dh-chip dh-chip-more" href="#dictionaries">+ 9 more</a>
+        </nav>
+      </div>
+
+      <aside class="dh-today" id="today-section" aria-labelledby="today-title" hidden>
+        <h2 class="dh-today-title" id="today-title">Today in the dictionary</h2>
+        <div class="today-picker" id="today-picker" role="group" aria-label="Language"></div>
+        <div id="today-strip"></div>
+      </aside>
+    </div>
   </header>
 
   <main class="hub-container">
-    <section class="today-section" id="today-section" aria-labelledby="today-title" hidden>
-      <h2 class="hub-section-title" id="today-title">Today in the dictionary</h2>
-      <div class="today-picker" id="today-picker" role="group" aria-label="Language"></div>
-      <div id="today-strip"></div>
-    </section>
 
-    <h2 class="hub-section-title">Available Language Dictionaries</h2>
+    <h2 class="hub-section-title" id="dictionaries">Available Language Dictionaries</h2>
     <div class="language-grid" id="language-grid">
       <!-- Dynamically generated language cards -->
     </div>
