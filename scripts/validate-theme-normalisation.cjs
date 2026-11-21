@@ -6,6 +6,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const INCLUDE_STAGING = process.argv.includes('--include-staging');
+const ALLOW_MISSING_THEME = process.argv.includes('--allow-missing-theme') || INCLUDE_STAGING;
 const schema = JSON.parse(fs.readFileSync(path.join(ROOT, 'schemas/themes.json'), 'utf8'));
 const THEMES = schema.themes;
 const THEME_KEYS = new Set(Object.keys(THEMES));
@@ -69,6 +70,9 @@ function main() {
         entries += 1;
         if (!entry.theme) {
           missingTheme += 1;
+          if (!ALLOW_MISSING_THEME) {
+            errors.push(`${relPath} (${entry.id}): missing theme`);
+          }
           continue;
         }
         if (!THEME_KEYS.has(entry.theme)) {
@@ -108,7 +112,10 @@ function main() {
     process.exit(1);
   }
 
-  console.log(`Theme normalisation validation passed: ${entries} entries, ${missingTheme} without a theme (allowed), 0 invalid themes/sub-themes.`);
+  console.log(
+    `Theme normalisation validation passed: ${entries} entries, ${missingTheme} without a theme` +
+    `${ALLOW_MISSING_THEME ? ' (allowed)' : ''}, 0 invalid themes/sub-themes.`
+  );
 }
 
 main();
