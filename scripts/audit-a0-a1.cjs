@@ -79,13 +79,17 @@ function parseArgs() {
 }
 
 function loadThemes(rootDir) {
-  const themesPath = path.join(rootDir, 'shared', 'themes.json');
-  if (fs.existsSync(themesPath)) {
+  const candidates = [
+    path.join(rootDir, 'schemas', 'themes.json'),
+    path.join(rootDir, 'shared', 'themes.json'),
+  ];
+  for (const themesPath of candidates) {
+    if (!fs.existsSync(themesPath)) continue;
     try {
       const data = JSON.parse(fs.readFileSync(themesPath, 'utf8'));
       return data.themes || {};
     } catch (e) {
-      console.warn('Warning: Could not parse shared/themes.json');
+      console.warn(`Warning: Could not parse ${path.relative(rootDir, themesPath)}`);
     }
   }
   return {};
@@ -369,30 +373,39 @@ function auditLanguage(rootDir, lang, knownThemes, englishIds) {
     }
   });
 
-  // Check 11: theme / sub_theme / secondary_themes not in shared/themes.json
+  // Check 11: theme / sub_theme / secondary_themes not in schemas/themes.json
   entries.forEach((e) => {
     if (Object.keys(knownThemes).length > 0) {
       if (e.theme && !knownThemes[e.theme]) {
         results.counts['11_invalid_theme_or_subtheme']++;
         results.examples['11_invalid_theme_or_subtheme'].push(
-          `Entry '${e.id}' theme '${e.theme}' not in shared/themes.json`
+          `Entry '${e.id}' theme '${e.theme}' not in schemas/themes.json`
         );
       } else if (e.theme && e.sub_theme) {
         const allowedSubs = knownThemes[e.theme] || [];
         if (!allowedSubs.includes(e.sub_theme)) {
           results.counts['11_invalid_theme_or_subtheme']++;
           results.examples['11_invalid_theme_or_subtheme'].push(
-            `Entry '${e.id}' sub_theme '${e.sub_theme}' not valid for theme '${e.theme}' in shared/themes.json`
+            `Entry '${e.id}' sub_theme '${e.sub_theme}' not valid for theme '${e.theme}' in schemas/themes.json`
           );
         }
       }
 
       if (e.secondary_themes && Array.isArray(e.secondary_themes)) {
         e.secondary_themes.forEach((st) => {
-          if (!knownThemes[st]) {
+          if (typeof st !== 'string') return;
+          if (st.includes('/')) {
+            const [theme, subTheme] = st.split('/', 2);
+            if (!knownThemes[theme] || !knownThemes[theme].includes(subTheme)) {
+              results.counts['11_invalid_theme_or_subtheme']++;
+              results.examples['11_invalid_theme_or_subtheme'].push(
+                `Entry '${e.id}' secondary_theme '${st}' not in schemas/themes.json`
+              );
+            }
+          } else if (!knownThemes[st]) {
             results.counts['11_invalid_theme_or_subtheme']++;
             results.examples['11_invalid_theme_or_subtheme'].push(
-              `Entry '${e.id}' secondary_theme '${st}' not in shared/themes.json`
+              `Entry '${e.id}' secondary_theme '${st}' not in schemas/themes.json`
             );
           }
         });
@@ -576,7 +589,7 @@ function main() {
     md += '\n---\n\n';
   });
 
-  fs.writeFileSync(path.join(reportsDir, 'audit-a0-a1.md'), md, 'utf8');
+  fs.writeFileSync(path.join(reportsDir, 'audit-a0-a1.md'), `${md.replace(/\n+$/, '')}\n`, 'utf8');
   console.log(`Written report to ${path.relative(rootDir, path.join(reportsDir, 'audit-a0-a1.md'))}`);
 
   // Write baseline JSON if --baseline flag is provided

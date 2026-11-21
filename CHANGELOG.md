@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- Normalized legacy theme and sub-theme values across 9,234 entries in 420 files to the `schemas/themes.json` taxonomy: mapped 4,672 invalid primary themes and 230 invalid sub-themes, and filled 4,326 missing sub-themes. Added `scripts/normalize-vocabulary-themes.cjs`, `scripts/validate-theme-normalisation.cjs`, and `reports/theme-normalisation.md` with a review CSV. `scripts/audit-a0-a1.cjs` now validates against `schemas/themes.json` and handles `theme/sub_theme` secondary pairs. Regenerated indexes.
+- Corrected the duplicate `en:uncle:noun` example sentence.
 - Improved CEFR-A0/A1 English vocabulary content: clarified the `tree` and `cat` definitions, corrected the `cat` example sentence, and simplified the definitions for `long`, `good`, `easy`, and `short`.
 - Continued CEFR-aware English A0/A1 edits across common nouns, daily verbs, food, rooms, and colours: corrected article use, simplified definitions, and improved example naturalness.
 - Further polished English A0/A1 common-noun and food vocabulary: repaired missing articles in examples, clarified definitions, and simplified technical wording. Flagged likely part-of-speech/ID mismatches for reference-aware follow-up rather than renaming entries.

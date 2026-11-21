@@ -40,6 +40,9 @@ jobs:
       - name: Validate Vocabulary Files & Index References
         run: node scripts/validate.cjs
 
+      - name: Validate Theme Normalisation
+        run: node scripts/validate-theme-normalisation.cjs
+
       - name: Validate Taxonomy
         run: node scripts/validate-taxonomy.cjs
 
