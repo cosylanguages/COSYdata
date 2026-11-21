@@ -15,6 +15,7 @@
     "parity": "node scripts/a0-a1-parity.cjs",
     "normalize:themes": "node scripts/normalize-vocabulary-themes.cjs",
     "backfill:form-themes": "node scripts/backfill-form-themes.cjs",
+    "fix:theme-mismatches": "node scripts/fix-theme-mismatches.cjs",
     "sync:shared-themes": "node scripts/sync-shared-themes.cjs",
     "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs",
     "validate:themes": "node scripts/validate-theme-normalisation.cjs",
