@@ -29,4 +29,5 @@ Final coverage across the non-staging dataset: **32,469 entries**, **0 without a
 - The backfill is idempotent: re-running `npm run backfill:form-themes` reports 0 changes.
 - Use `npm run backfill:form-themes -- --dry-run` to preview.
 - `scripts/validate-theme-normalisation.cjs` now rejects entries without a theme by default. Pass `--allow-missing-theme` only for transitional data.
-- The **2,712 file/theme mismatches** still need semantic review. They are entries with a valid theme that differs from the theme suggested by the file name or directory. The filtered list is in `reports/theme-mismatches-review.csv`; the original combined snapshot remains in `reports/theme-normalisation-review.csv`.
+- The **310 highest-confidence mismatches** were corrected by `scripts/fix-theme-mismatches.cjs`; see `reports/theme-mismatch-corrections.md`.
+- The remaining **2,411 mismatches** are split into **1,663 expected form-file mismatches** (`reports/theme-mismatches-form-files.csv`) and **748 semantic review items** (`reports/theme-mismatches-review.csv`). The full snapshot remains in `reports/theme-normalisation-review.csv`.

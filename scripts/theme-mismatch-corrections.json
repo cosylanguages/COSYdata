@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "de:koennen:verb",
+    "word": "können",
+    "file": "vocabulary/de/a0_a1/auxiliary_verbs.json",
+    "from": "actions/daily_routines",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "de:muessen:verb",
+    "word": "müssen",
+    "file": "vocabulary/de/a0_a1/auxiliary_verbs.json",
+    "from": "actions/daily_routines",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "el:prepei:verb",
+    "word": "πρέπει",
+    "file": "vocabulary/el/a0_a1/auxiliary_verbs.json",
+    "from": "actions/daily_routines",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "el:daskalos:noun",
+    "word": "δάσκαλος",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:giatros:noun",
+    "word": "γιατρός",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:mathitis:noun",
+    "word": "μαθητής",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:michanikos:noun",
+    "word": "μηχανικός",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:dikigoros:noun",
+    "word": "δικηγόρος",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:nosokoma:noun",
+    "word": "νοσοκόμα",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:astynomikos:noun",
+    "word": "αστυνομικός",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:mageiras:noun",
+    "word": "μάγειρας",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:odigos:noun",
+    "word": "οδηγός",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "el:ergatis:noun",
+    "word": "εργάτης",
+    "file": "vocabulary/el/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:sunscreen:noun",
+    "word": "sunscreen",
+    "file": "vocabulary/en/a0_a1/body_health.json",
+    "from": "body/body_parts",
+    "to": "health/fitness_hygiene",
+    "reason": "hygiene products misclassified as body parts"
+  },
+  {
+    "id": "en:shampoo:noun",
+    "word": "shampoo",
+    "file": "vocabulary/en/a0_a1/body_health.json",
+    "from": "body/body_parts",
+    "to": "health/fitness_hygiene",
+    "reason": "hygiene products misclassified as body parts"
+  },
+  {
+    "id": "en:toilet-paper:noun",
+    "word": "toilet paper",
+    "file": "vocabulary/en/a0_a1/body_health.json",
+    "from": "body/body_parts",
+    "to": "health/fitness_hygiene",
+    "reason": "hygiene products misclassified as body parts"
+  },
+  {
+    "id": "en:toothpaste:noun",
+    "word": "toothpaste",
+    "file": "vocabulary/en/a0_a1/body_health.json",
+    "from": "body/fitness_hygiene",
+    "to": "health/fitness_hygiene",
+    "reason": "hygiene products misclassified as body parts"
+  },
+  {
+    "id": "en:brush-teeth:noun",
+    "word": "brush teeth",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:have-lunch:noun",
+    "word": "have lunch",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:take-a-nap:noun",
+    "word": "take a nap",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:clean-the-house:noun",
+    "word": "clean the house",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:wash-the-dishes:noun",
+    "word": "wash the dishes",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:do-the-laundry:noun",
+    "word": "do the laundry",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:cook-dinner:noun",
+    "word": "cook dinner",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:take-out-the-trash:noun",
+    "word": "take out the trash",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:walk-the-dog:noun",
+    "word": "walk the dog",
+    "file": "vocabulary/en/a0_a1/family.json",
+    "from": "activities/immediate_family",
+    "to": "activities/daily_routines",
+    "reason": "daily routines misclassified as immediate_family"
+  },
+  {
+    "id": "en:tame:adjective",
+    "word": "tame",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:wild:adjective",
+    "word": "wild",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:crocodile:noun",
+    "word": "crocodile",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:dolphin:noun",
+    "word": "dolphin",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:hamster:noun",
+    "word": "hamster",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:lizard:noun",
+    "word": "lizard",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:octopus:noun",
+    "word": "octopus",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:shark:noun",
+    "word": "shark",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:turtle:noun",
+    "word": "turtle",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:whale:noun",
+    "word": "whale",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:bite:verb",
+    "word": "bite",
+    "file": "vocabulary/en/a2/animals.json",
+    "from": "general/miscellaneous",
+    "to": "animals/general",
+    "reason": "animals misclassified as general"
+  },
+  {
+    "id": "en:artistic:adjective",
+    "word": "artistic",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:anonymous:adjective",
+    "word": "anonymous",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:journal:noun",
+    "word": "journal",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:composition:noun",
+    "word": "composition",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:harmony:noun",
+    "word": "harmony",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:association:noun",
+    "word": "association",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:glance:noun",
+    "word": "glance",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:humor:noun",
+    "word": "humor",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:interaction:noun",
+    "word": "interaction",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:amuse:verb",
+    "word": "amuse",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:bet:verb",
+    "word": "bet",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:beg:verb",
+    "word": "beg",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:boast:verb",
+    "word": "boast",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:bow:verb",
+    "word": "bow",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:express:verb",
+    "word": "express",
+    "file": "vocabulary/en/a2/communication.json",
+    "from": "general/miscellaneous",
+    "to": "communication/general",
+    "reason": "communication terms in communication.json"
+  },
+  {
+    "id": "en:steal:verb",
+    "word": "steal",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:fine:noun",
+    "word": "fine",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:crime:noun",
+    "word": "crime",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:criminal:noun",
+    "word": "criminal",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:stolen:noun",
+    "word": "stolen",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:theft:noun",
+    "word": "theft",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:robbery:noun",
+    "word": "robbery",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:arrest:noun",
+    "word": "arrest",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:escape:noun",
+    "word": "escape",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:witness:noun",
+    "word": "witness",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:victim:noun",
+    "word": "victim",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:report:noun",
+    "word": "report",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:punishment:noun",
+    "word": "punishment",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:illegal:noun",
+    "word": "illegal",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:legal:noun",
+    "word": "legal",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:safety:noun",
+    "word": "safety",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:danger:noun",
+    "word": "danger",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:dangerous:noun",
+    "word": "dangerous",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:lost:noun",
+    "word": "lost",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:found:noun",
+    "word": "found",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:warning:noun",
+    "word": "warning",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:prison:noun",
+    "word": "prison",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:guard:noun",
+    "word": "guard",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:accident:noun",
+    "word": "accident",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:fire-department:noun",
+    "word": "fire department",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:missing:noun",
+    "word": "missing",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:broken:noun",
+    "word": "broken",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:damaged:noun",
+    "word": "damaged",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:complain:noun",
+    "word": "complain",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:solve:noun",
+    "word": "solve",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:fault:noun",
+    "word": "fault",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:blame:noun",
+    "word": "blame",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:courthouse:noun",
+    "word": "courthouse",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:forbid:verb",
+    "word": "forbid",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:file-a-police-report:phrase",
+    "word": "file a police report",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:report-a-crime:phrase",
+    "word": "report a crime",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:sign:verb",
+    "word": "sign",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:claim:noun",
+    "word": "claim",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:report:verb",
+    "word": "report",
+    "file": "vocabulary/en/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "en:generation:noun",
+    "word": "generation",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:public:noun",
+    "word": "public",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:national:noun",
+    "word": "national",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:festival:noun",
+    "word": "festival",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:celebration:noun",
+    "word": "celebration",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:ceremony:noun",
+    "word": "ceremony",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:wedding:noun",
+    "word": "wedding",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:funeral:noun",
+    "word": "funeral",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:religion:noun",
+    "word": "religion",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:religious:adjective",
+    "word": "religious",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:costume:noun",
+    "word": "costume",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:parade:noun",
+    "word": "parade",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:fireworks:noun",
+    "word": "fireworks",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:decoration:noun",
+    "word": "decoration",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:ornament:noun",
+    "word": "ornament",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:exchange:noun",
+    "word": "exchange",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:belief:noun",
+    "word": "belief",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:folk:noun",
+    "word": "folk",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:tale:noun",
+    "word": "tale",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:legend:noun",
+    "word": "legend",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:myth:noun",
+    "word": "myth",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:heritage:noun",
+    "word": "heritage",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:cards:noun",
+    "word": "cards",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:mosque:noun",
+    "word": "mosque",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:temple:noun",
+    "word": "temple",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:donation:noun",
+    "word": "donation",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:street-food-culture:noun",
+    "word": "street food culture",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:food-festival:noun",
+    "word": "food festival",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:art-gallery:noun",
+    "word": "art gallery",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:folk-dance:noun",
+    "word": "folk dance",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:historical-site:noun",
+    "word": "historical site",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:local-festival:noun",
+    "word": "local festival",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:ruins:noun",
+    "word": "ruins",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:traditional-costume:noun",
+    "word": "traditional costume",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:street-performer:noun",
+    "word": "street performer",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:live-music:noun",
+    "word": "live music",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:official-language:noun",
+    "word": "official language",
+    "file": "vocabulary/en/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "en:unfriendly:adjective",
+    "word": "unfriendly",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:unkind:adjective",
+    "word": "unkind",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:honest:adjective",
+    "word": "honest",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:dishonest:adjective",
+    "word": "dishonest",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:generous:adjective",
+    "word": "generous",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:mean:adjective",
+    "word": "mean",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:selfish:adjective",
+    "word": "selfish",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:patient:adjective",
+    "word": "patient",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:impatient:adjective",
+    "word": "impatient",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:confident:adjective",
+    "word": "confident",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:serious:adjective",
+    "word": "serious",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:sensible:adjective",
+    "word": "sensible",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:silly:adjective",
+    "word": "silly",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:clever:adjective",
+    "word": "clever",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:intelligent:adjective",
+    "word": "intelligent",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:smart:adjective",
+    "word": "smart",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:stupid:adjective",
+    "word": "stupid",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:foolish:adjective",
+    "word": "foolish",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:brave:adjective",
+    "word": "brave",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:hardworking:adjective",
+    "word": "hardworking",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:careful:adjective",
+    "word": "careful",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:careless:adjective",
+    "word": "careless",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:stubborn:adjective",
+    "word": "stubborn",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:cheerful:adjective",
+    "word": "cheerful",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:moody:adjective",
+    "word": "moody",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:talkative:adjective",
+    "word": "talkative",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:curious:adjective",
+    "word": "curious",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:jealous:adjective",
+    "word": "jealous",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:reliable:adjective",
+    "word": "reliable",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:helpful:adjective",
+    "word": "helpful",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:thoughtful:adjective",
+    "word": "thoughtful",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:cowardly:adjective",
+    "word": "cowardly",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:modest:adjective",
+    "word": "modest",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:unreliable:adjective",
+    "word": "unreliable",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:easy-going:adjective",
+    "word": "easy-going",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:strict:adjective",
+    "word": "strict",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:wise:adjective",
+    "word": "wise",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:cute:adjective",
+    "word": "cute",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:charming:adjective",
+    "word": "charming",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:sociable:adjective",
+    "word": "sociable",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:responsible:adjective",
+    "word": "responsible",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:mature:adjective",
+    "word": "mature",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:immature:adjective",
+    "word": "immature",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:active:adjective",
+    "word": "active",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:gentle:adjective",
+    "word": "gentle",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:loyal:adjective",
+    "word": "loyal",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:willing:adjective",
+    "word": "willing",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:polite:adjective",
+    "word": "polite",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:rude:adjective",
+    "word": "rude",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:lazy:adjective",
+    "word": "lazy",
+    "file": "vocabulary/en/a2/personality.json",
+    "from": "descriptors/physical_appearance",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:absent:adjective",
+    "word": "absent",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:qualified:adjective",
+    "word": "qualified",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:examination:noun",
+    "word": "examination",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:institute:noun",
+    "word": "institute",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:calculator:noun",
+    "word": "calculator",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:pencil-case:noun",
+    "word": "pencil case",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:stapler:noun",
+    "word": "stapler",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:activity:noun",
+    "word": "activity",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:conclusion:noun",
+    "word": "conclusion",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:difficulty:noun",
+    "word": "difficulty",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:emphasis:noun",
+    "word": "emphasis",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:evaluation:noun",
+    "word": "evaluation",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:guidance:noun",
+    "word": "guidance",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:illustration:noun",
+    "word": "illustration",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:memorise:verb",
+    "word": "memorise",
+    "file": "vocabulary/en/a2/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:bat:noun",
+    "word": "bat",
+    "file": "vocabulary/en/a2/sports.json",
+    "from": "leisure/general",
+    "to": "sports/general",
+    "reason": "sports terms misclassified as leisure"
+  },
+  {
+    "id": "en:beat:verb",
+    "word": "beat",
+    "file": "vocabulary/en/a2/sports.json",
+    "from": "leisure/general",
+    "to": "sports/general",
+    "reason": "sports terms misclassified as leisure"
+  },
+  {
+    "id": "en:bounce:verb",
+    "word": "bounce",
+    "file": "vocabulary/en/a2/sports.json",
+    "from": "leisure/general",
+    "to": "sports/general",
+    "reason": "sports terms misclassified as leisure"
+  },
+  {
+    "id": "en:assistant:adjective",
+    "word": "assistant",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:baker:noun",
+    "word": "baker",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:librarian:noun",
+    "word": "librarian",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:politician:noun",
+    "word": "politician",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:expert:noun",
+    "word": "expert",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:handler:noun",
+    "word": "handler",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:historian:noun",
+    "word": "historian",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:illustrator:noun",
+    "word": "illustrator",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:keeper:noun",
+    "word": "keeper",
+    "file": "vocabulary/en/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "en:coverage:noun",
+    "word": "coverage",
+    "file": "vocabulary/en/b1/health.json",
+    "from": "money/legal-english",
+    "to": "health/medical_care",
+    "reason": "health insurance terms misclassified as money"
+  },
+  {
+    "id": "en:health-insurance-plan:noun",
+    "word": "health insurance plan",
+    "file": "vocabulary/en/b1/health.json",
+    "from": "money/finance",
+    "to": "health/medical_care",
+    "reason": "health insurance terms misclassified as money"
+  },
+  {
+    "id": "en:sophisticated:adjective",
+    "word": "sophisticated",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:capable:adjective",
+    "word": "capable",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "descriptors/quality_condition",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:agreeable:adjective",
+    "word": "agreeable",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:apologetic:adjective",
+    "word": "apologetic",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:charismatic:adjective",
+    "word": "charismatic",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:courageous:adjective",
+    "word": "courageous",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:courteous:adjective",
+    "word": "courteous",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:humorous:adjective",
+    "word": "humorous",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:persevering:adjective",
+    "word": "persevering",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:tolerant:adjective",
+    "word": "tolerant",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:absurd:adjective",
+    "word": "absurd",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:inventive:adjective",
+    "word": "inventive",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:observant:adjective",
+    "word": "observant",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:rational:adjective",
+    "word": "rational",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:self-reliant:adjective",
+    "word": "self-reliant",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:witty:adjective",
+    "word": "witty",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:flaw:noun",
+    "word": "flaw",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:virtue:noun",
+    "word": "virtue",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:aspiration:noun",
+    "word": "aspiration",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:disposition:noun",
+    "word": "disposition",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:individuality:noun",
+    "word": "individuality",
+    "file": "vocabulary/en/b1/personality.json",
+    "from": "general/miscellaneous",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:educational:adjective",
+    "word": "educational",
+    "file": "vocabulary/en/b1/school.json",
+    "from": "general/miscellaneous",
+    "to": "education/general",
+    "reason": "education terms in school.json"
+  },
+  {
+    "id": "en:deductible:noun",
+    "word": "deductible",
+    "file": "vocabulary/en/b2/health.json",
+    "from": "money/finance",
+    "to": "health/medical_care",
+    "reason": "health insurance terms misclassified as money"
+  },
+  {
+    "id": "en:long-term-care-insurance:noun",
+    "word": "long-term care insurance",
+    "file": "vocabulary/en/b2/health.json",
+    "from": "money/finance",
+    "to": "health/medical_care",
+    "reason": "health insurance terms misclassified as money"
+  },
+  {
+    "id": "en:aloof:adjective",
+    "word": "aloof",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:detached:adjective",
+    "word": "detached",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:flamboyant:adjective",
+    "word": "flamboyant",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:frugal:adjective",
+    "word": "frugal",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:grit:noun",
+    "word": "grit",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:impertinent:adjective",
+    "word": "impertinent",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:insolent:adjective",
+    "word": "insolent",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:presumptuous:adjective",
+    "word": "presumptuous",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:reserved:adjective",
+    "word": "reserved",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:self-deprecation:noun",
+    "word": "self-deprecation",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "en:spiteful:adjective",
+    "word": "spiteful",
+    "file": "vocabulary/en/c1/personality.json",
+    "from": "descriptors/general",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "fr:seulement:adverb",
+    "word": "seulement",
+    "file": "vocabulary/fr/a0_a1/adverbs_connectors.json",
+    "from": "descriptors/general",
+    "to": "grammar/adverbs",
+    "reason": "adverbs misclassified as descriptors"
+  },
+  {
+    "id": "fr:vraiment:adverb",
+    "word": "vraiment",
+    "file": "vocabulary/fr/a0_a1/adverbs_connectors.json",
+    "from": "descriptors/general",
+    "to": "grammar/adverbs",
+    "reason": "adverbs misclassified as descriptors"
+  },
+  {
+    "id": "fr:bien:adverb",
+    "word": "bien",
+    "file": "vocabulary/fr/a0_a1/adverbs_connectors.json",
+    "from": "descriptors/general",
+    "to": "grammar/adverbs",
+    "reason": "adverbs misclassified as descriptors"
+  },
+  {
+    "id": "fr:mal:adverb",
+    "word": "mal",
+    "file": "vocabulary/fr/a0_a1/adverbs_connectors.json",
+    "from": "descriptors/general",
+    "to": "grammar/adverbs",
+    "reason": "adverbs misclassified as descriptors"
+  },
+  {
+    "id": "fr:un-peu:adverb",
+    "word": "un peu",
+    "file": "vocabulary/fr/a0_a1/adverbs_connectors.json",
+    "from": "descriptors/general",
+    "to": "grammar/adverbs",
+    "reason": "adverbs misclassified as descriptors"
+  },
+  {
+    "id": "fr:professeur:noun",
+    "word": "professeur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:medecin:noun",
+    "word": "médecin",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:etudiant:noun",
+    "word": "étudiant",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:ingenieur:noun",
+    "word": "ingénieur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:avocat:noun",
+    "word": "avocat",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:infirmiere:noun",
+    "word": "infirmière",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:policier:noun",
+    "word": "policier",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:cuisinier:noun",
+    "word": "cuisinier",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:chauffeur:noun",
+    "word": "chauffeur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:travailleur:noun",
+    "word": "travailleur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:conducteur:noun",
+    "word": "conducteur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:directeur:noun",
+    "word": "directeur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:metier:noun",
+    "word": "métier",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:pilote:noun",
+    "word": "pilote",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:serveur:noun",
+    "word": "serveur",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:pompier:noun",
+    "word": "pompier",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:soldat:noun",
+    "word": "soldat",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:ecrivain:noun",
+    "word": "écrivain",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:secretaire:noun",
+    "word": "secrétaire",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:infirmier-1:noun",
+    "word": "infirmier",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:ouvrier:noun",
+    "word": "ouvrier",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:metier-avenir:noun",
+    "word": "métier d'avenir",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:patron-boite:noun",
+    "word": "patron d'entreprise",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:employe-bureau:noun",
+    "word": "employé de bureau",
+    "file": "vocabulary/fr/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "fr:police:noun",
+    "word": "police",
+    "file": "vocabulary/fr/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "fr:tribunal:noun",
+    "word": "tribunal",
+    "file": "vocabulary/fr/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "fr:crime:noun",
+    "word": "crime",
+    "file": "vocabulary/fr/a2/crime.json",
+    "from": "work/professions_jobs",
+    "to": "crime/general",
+    "reason": "crime terms misclassified as work"
+  },
+  {
+    "id": "fr:determine:adjective",
+    "word": "déterminé",
+    "file": "vocabulary/fr/b1/personality.json",
+    "from": "descriptors/personality_traits",
+    "to": "personality/personality_traits",
+    "reason": "personality traits in personality.json"
+  },
+  {
+    "id": "fr:diversite:noun",
+    "word": "diversité",
+    "file": "vocabulary/fr/b2/society.json",
+    "from": "communication/social_expressions",
+    "to": "society/general",
+    "reason": "society terms misclassified as communication"
+  },
+  {
+    "id": "fr:inclusion:noun",
+    "word": "inclusion",
+    "file": "vocabulary/fr/b2/society.json",
+    "from": "communication/social_expressions",
+    "to": "society/general",
+    "reason": "society terms misclassified as communication"
+  },
+  {
+    "id": "fr:egalite:noun",
+    "word": "égalité",
+    "file": "vocabulary/fr/b2/society.json",
+    "from": "communication/social_expressions",
+    "to": "society/general",
+    "reason": "society terms misclassified as communication"
+  },
+  {
+    "id": "hy:karoghanal:verb",
+    "word": "կարողանալ",
+    "file": "vocabulary/hy/a0_a1/auxiliary_verbs.json",
+    "from": "actions/daily_routines",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "it:imprenditore:noun",
+    "word": "imprenditore",
+    "file": "vocabulary/it/b1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "pt:poder:verb",
+    "word": "poder",
+    "file": "vocabulary/pt/a0_a1/auxiliary_verbs.json",
+    "from": "actions/daily_routines",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "ru:byt:verb",
+    "word": "быть",
+    "file": "vocabulary/ru/a0_a1/auxiliary_verbs.json",
+    "from": "actions/general",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "ru:imet:verb",
+    "word": "иметь",
+    "file": "vocabulary/ru/a0_a1/auxiliary_verbs.json",
+    "from": "actions/general",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "ru:dolzhen:verb",
+    "word": "должен",
+    "file": "vocabulary/ru/a0_a1/auxiliary_verbs.json",
+    "from": "actions/daily_routines",
+    "to": "grammar/auxiliaries_modals",
+    "reason": "modal verbs misclassified as actions"
+  },
+  {
+    "id": "ru:uchitel:noun",
+    "word": "учитель",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:vrach:noun",
+    "word": "врач",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:student:noun",
+    "word": "студент",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:inzhener:noun",
+    "word": "инженер",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:politseiski:noun",
+    "word": "полицейский",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:povar:noun",
+    "word": "повар",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:voditel:noun",
+    "word": "водитель",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:rabochyi:noun",
+    "word": "рабочий",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:prodavets:noun",
+    "word": "продавец",
+    "file": "vocabulary/ru/a0_a1/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:zakon:noun",
+    "word": "закон",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:pravitelstvo:noun",
+    "word": "правительство",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:prezident:noun",
+    "word": "президент",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:vybory:noun",
+    "word": "выборы",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:grazhdanin:noun",
+    "word": "гражданин",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:politsiya:noun",
+    "word": "полиция",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:sud:noun",
+    "word": "суд",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:prestupleniye:noun",
+    "word": "преступление",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:pravo:noun",
+    "word": "право",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:svoboda:noun",
+    "word": "свобода",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:nalog:noun",
+    "word": "налог",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:ekonomika:noun",
+    "word": "экономика",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:obshchestvo:noun",
+    "word": "общество",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:armiya:noun",
+    "word": "армия",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:golosovat:verb",
+    "word": "голосовать",
+    "file": "vocabulary/ru/a2/culture.json",
+    "from": "geography/countries_regions",
+    "to": "society/culture",
+    "reason": "culture terms in culture.json"
+  },
+  {
+    "id": "ru:yurist:noun",
+    "word": "юрист",
+    "file": "vocabulary/ru/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  },
+  {
+    "id": "ru:medsestra:noun",
+    "word": "медсестра",
+    "file": "vocabulary/ru/a2/work.json",
+    "from": "general/miscellaneous",
+    "to": "work/professions_jobs",
+    "reason": "professions in work.json"
+  }
+]
