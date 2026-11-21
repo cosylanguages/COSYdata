@@ -43,6 +43,9 @@ jobs:
       - name: Validate Theme Normalisation
         run: node scripts/validate-theme-normalisation.cjs
 
+      - name: Validate Theme Taxonomy Sync
+        run: node scripts/validate-theme-taxonomy-sync.cjs
+
       - name: Validate Taxonomy
         run: node scripts/validate-taxonomy.cjs
 

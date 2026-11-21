@@ -32,6 +32,8 @@
 
 ## Remaining entries without a primary theme
 
+> Follow-up: these entries were assigned broad form-based themes in `reports/theme-backfill.md`. The list below is retained as the original normalisation snapshot.
+
 These are mostly form-based files (`idiom.json`, `noun.json`, `adjective.json`, `verb.json`, `phrase.json`). They were left unthemed instead of guessing a semantic category. The full list is in `reports/theme-normalisation-review.csv`.
 
 | File | Entries | Forms | Sample entries |

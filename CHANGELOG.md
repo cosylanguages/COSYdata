@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- Backfilled broad form-based themes for the remaining 4,815 entries across 163 form-based files, so every vocabulary entry now has a valid primary theme and sub-theme. Added `scripts/backfill-form-themes.cjs`; the theme validator now rejects entries without a theme unless `--allow-missing-theme` is passed.
+- Synchronized `shared/themes.json` with `schemas/themes.json` by adding 27 canonical sub-themes, so every data theme is also available in the display taxonomy. Added `scripts/sync-shared-themes.cjs` and `scripts/validate-theme-taxonomy-sync.cjs`.
 - Normalized legacy theme and sub-theme values across 9,234 entries in 420 files to the `schemas/themes.json` taxonomy: mapped 4,672 invalid primary themes and 230 invalid sub-themes, and filled 4,326 missing sub-themes. Added `scripts/normalize-vocabulary-themes.cjs`, `scripts/validate-theme-normalisation.cjs`, and `reports/theme-normalisation.md` with a review CSV. `scripts/audit-a0-a1.cjs` now validates against `schemas/themes.json` and handles `theme/sub_theme` secondary pairs. Regenerated indexes.
 - Corrected the duplicate `en:uncle:noun` example sentence.
 - Improved CEFR-A0/A1 English vocabulary content: clarified the `tree` and `cat` definitions, corrected the `cat` example sentence, and simplified the definitions for `long`, `good`, `easy`, and `short`.
