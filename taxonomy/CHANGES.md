@@ -17,6 +17,13 @@ COSYpractice shows only covered pairs in its picker, so a pair never opens an
 empty session. Regenerate the flag after vocabulary changes with
 `npm run build:pair-coverage`; `npm run validate` checks it stays in sync.
 
+The 39 missing English terms that kept 35 pairs uncovered were added in
+`vocabulary/en/{a1,a2,b1,b2,c1,c2}/confusion_pairs.json`, so all 273
+vocabulary pairs are now `covered: true`. The new entries follow the normal
+vocabulary schema (definitions, examples, IPA, theme and level) and are
+included in the rebuilt `index.json`, `flat-index.json`, `search-index.json`
+and `themes-index.json`.
+
 This document records all modifications made to `level_min` values in `taxonomy/themes.json` compared to the initial draft in `docs/unified-taxonomy-draft/cefr_taxonomy.json`. These shifts align the unified taxonomy with actual CEFR A0–A1 vocabulary dataset content implemented in COSYdata.
 
 ## Level Minimum Shifts
