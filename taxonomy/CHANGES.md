@@ -11,6 +11,12 @@ questions are not duplicated here. The vocabulary taxonomy is the canonical
 COSYpractice pair banks with the pair topics that only existed in the removed
 generated drill files.
 
+Each vocabulary pair carries `covered: true` when both `termA` and `termB`
+exist in `vocabulary/en/flat-index.json`, and `covered: false` otherwise.
+COSYpractice shows only covered pairs in its picker, so a pair never opens an
+empty session. Regenerate the flag after vocabulary changes with
+`npm run build:pair-coverage`; `npm run validate` checks it stays in sync.
+
 This document records all modifications made to `level_min` values in `taxonomy/themes.json` compared to the initial draft in `docs/unified-taxonomy-draft/cefr_taxonomy.json`. These shifts align the unified taxonomy with actual CEFR A0–A1 vocabulary dataset content implemented in COSYdata.
 
 ## Level Minimum Shifts

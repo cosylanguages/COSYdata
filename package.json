@@ -23,7 +23,8 @@
     "test:verb-inventory": "node scripts/validate-verb-inventory.cjs",
     "build:comparative": "node scripts/build-comparative.cjs",
     "build:conjugation": "node scripts/build-conjugation-registry.mjs",
-    "test:conjugation": "node --test tests/conjugation-embed.test.mjs"
+    "test:conjugation": "node --test tests/conjugation-embed.test.mjs",
+    "build:pair-coverage": "node scripts/build-confusion-pair-coverage.cjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

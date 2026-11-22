@@ -32,6 +32,10 @@ for (const relative of FILES) {
     continue;
   }
 
+  const flatIndex = relative === 'taxonomy/vocab-confusion-pairs.json'
+    ? JSON.parse(fs.readFileSync(path.join(ROOT, 'vocabulary', 'en', 'flat-index.json'), 'utf8'))
+    : null;
+
   let total = 0;
   for (const [level, entries] of Object.entries(data.levels)) {
     if (!LEVELS.has(level)) {
@@ -49,6 +53,17 @@ for (const relative of FILES) {
         failed = true;
       }
       seen.add(entry.id);
+      if (flatIndex) {
+        const has = term => Boolean(term && flatIndex[String(term).toLowerCase().trim()]);
+        const actual = has(entry.termA) && has(entry.termB);
+        if (typeof entry.covered !== 'boolean') {
+          console.error(`${relative}: ${entry.id} is missing "covered"`);
+          failed = true;
+        } else if (entry.covered !== actual) {
+          console.error(`${relative}: ${entry.id} says covered=${entry.covered} but COSYdata has ${actual}`);
+          failed = true;
+        }
+      }
     }
     total += entries.length;
   }
