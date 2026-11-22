@@ -24,6 +24,12 @@ vocabulary schema (definitions, examples, IPA, theme and level) and are
 included in the rebuilt `index.json`, `flat-index.json`, `search-index.json`
 and `themes-index.json`.
 
+The English grammar taxonomy originally carried 27 French pair IDs copied from
+the French bank. Those entries were removed, leaving 79 English entries.
+`scripts/validate-confusion-pairs.cjs` now checks each file's `language` and
+rejects any ID shared between the English and French grammar files, so the
+same mix cannot return.
+
 This document records all modifications made to `level_min` values in `taxonomy/themes.json` compared to the initial draft in `docs/unified-taxonomy-draft/cefr_taxonomy.json`. These shifts align the unified taxonomy with actual CEFR A0–A1 vocabulary dataset content implemented in COSYdata.
 
 ## Level Minimum Shifts
