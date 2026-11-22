@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cosylanguages.github.io/COSYdata/schemas/taxonomy-confusion-pairs.schema.json",
+  "title": "COSYdata Confusion Pairs Taxonomy Schema",
+  "type": "object",
+  "required": ["schema_version", "language", "levels"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "language": { "type": "string" },
+    "description": { "type": "string" },
+    "levels": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "label", "level", "termA", "termB"],
+          "properties": {
+            "id": { "type": "string", "minLength": 1 },
+            "label": { "type": "string", "minLength": 1 },
+            "group": { "type": ["string", "null"] },
+            "level": { "type": "string", "enum": ["a1", "a2", "b1", "b2", "c1", "c2"] },
+            "termA": { "type": "string", "minLength": 1 },
+            "termB": { "type": ["string", "null"] },
+            "terms": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 },
+              "minItems": 2
+            },
+            "covered": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

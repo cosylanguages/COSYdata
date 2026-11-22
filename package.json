@@ -17,13 +17,14 @@
     "backfill:form-themes": "node scripts/backfill-form-themes.cjs",
     "fix:theme-mismatches": "node scripts/fix-theme-mismatches.cjs",
     "sync:shared-themes": "node scripts/sync-shared-themes.cjs",
-    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs",
+    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs",
     "validate:themes": "node scripts/validate-theme-normalisation.cjs",
     "validate:theme-sync": "node scripts/validate-theme-taxonomy-sync.cjs",
     "test:verb-inventory": "node scripts/validate-verb-inventory.cjs",
     "build:comparative": "node scripts/build-comparative.cjs",
     "build:conjugation": "node scripts/build-conjugation-registry.mjs",
-    "test:conjugation": "node --test tests/conjugation-embed.test.mjs"
+    "test:conjugation": "node --test tests/conjugation-embed.test.mjs",
+    "build:pair-coverage": "node scripts/build-confusion-pair-coverage.cjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
