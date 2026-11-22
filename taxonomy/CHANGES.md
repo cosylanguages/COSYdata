@@ -1,5 +1,16 @@
 # Taxonomy Level Minimum Adjustments (CHANGES.md)
 
+## Confusion pair taxonomies
+
+`taxonomy/vocab-confusion-pairs.json`, `taxonomy/grammar-confusion-pairs.json`
+and `taxonomy/french-grammar-confusion-pairs.json` preserve the confusion-pair
+indexes that previously lived in COSYpractice. They contain metadata only
+(`id`, `label`, `group`, `level`, `termA`, `termB`, optional `terms`); practice
+questions are not duplicated here. The vocabulary taxonomy is the canonical
+273-pair index used by COSYpractice; the grammar files combine the curated
+COSYpractice pair banks with the pair topics that only existed in the removed
+generated drill files.
+
 This document records all modifications made to `level_min` values in `taxonomy/themes.json` compared to the initial draft in `docs/unified-taxonomy-draft/cefr_taxonomy.json`. These shifts align the unified taxonomy with actual CEFR A0–A1 vocabulary dataset content implemented in COSYdata.
 
 ## Level Minimum Shifts
