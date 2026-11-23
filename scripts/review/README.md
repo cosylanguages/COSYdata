@@ -32,16 +32,16 @@ The calendars show entries from the dictionary itself, so these get their own sh
 Not covered by either workflow: the rest of the dictionary. Only the entries about to be featured are reviewed; everything else is
 checked only by the automatic quality rules in `scripts/lib/daily-calendar.cjs`, not by a native speaker.
 
-## New prompts for the thinnest level bands
+## New prompts for a thin level band (optional, not needed today)
 
-Speaking and writing prompts rotate through the prompts of the learner's level band. The beginner (A0-A1) and advanced (C1-C2) bands have only
-2-3 curated prompts (A0-A1 speaking in the nine non-core languages has one), so they repeat every few days. `prompt_drafts.json` holds 174 drafted
-prompts (en, fr, it, ru, el: 24 each; de, es, pt: 18 each) and the English source set for the languages that need a native translator.
+These tools build review sheets for *new* speaking/writing prompts, to fill a level band that has too few. As of November 2026 no band needs them:
+after the prompt expansion in COSYpractice every band of every language has 10-35 distinct prompts a year. `prompt_drafts.json` (174 prompts drafted
+earlier, when A0-A1 and C1-C2 had only 2-3) is therefore **not needed and has not been applied**. Keep the tools for a new language or a band that
+falls thin, and check the real pool sizes in the current data before drafting anything.
 
 1. `python scripts/review/make_prompt_draft_sheets.py --out prompt-draft-sheets` builds `prompt-drafts-<lang>.xlsx` (Verdict OK / Fix / Remove, corrected prompt,
-   comment) for the eight drafted languages and `prompt-translate-<lang>.xlsx` (English prompt, translation) for ba, br, cv, hy, ka, tt.
+   comment) for the languages in `prompt_drafts.json` and `prompt-translate-<lang>.xlsx` (English prompt, translation) for ba, br, cv, hy, ka, tt.
 2. Send each sheet to a native speaker; they send it back.
 3. `python scripts/review/apply_prompt_drafts.py prompt-drafts-fr.xlsx prompt-translate-ka.xlsx --practice ../COSYpractice` (dry run), then `--write`, then
    `node scripts/validate-daily-prompts.js` in COSYpractice. Approved prompts are appended as `curated: true` entries with their level band; a prompt that is
-   already present is never added twice, so re-running is safe. Nothing reaches learners until it has been approved and applied.
-
+   already present is never added twice, so re-running is safe.

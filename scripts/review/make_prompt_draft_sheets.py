@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Builds review sheets for NEW speaking/writing prompts that fill the thinnest level bands (A0-A1 and C1-C2).
+Builds review sheets for NEW speaking/writing prompts to fill a level band that has too few (optional; see README).
 
   python scripts/review/make_prompt_draft_sheets.py --out prompt-draft-sheets      (reads scripts/review/prompt_drafts.json)
 
@@ -84,7 +84,7 @@ def build_draft_sheet(lang, drafts, out_dir):
     ins.cell(1, 1, f'COSYlanguages: new {name} prompts to approve').font = Font(name=FONT, bold=True, size=16, color=GREEN)
     reg = REGISTER.get(lang, '')
     blocks = [
-        ('What this is', f'Learners of {name} see one speaking and one writing prompt a day, chosen for their level. The beginner (A0-A1) and advanced (C1-C2) levels have only two or three prompts each, so they repeat every few days. The {len(rows)} prompts below are drafts to fill those levels. They were drafted without a native-speaker check, so please judge each one.'),
+        ('What this is', f'Learners of {name} see one speaking and one writing prompt a day, chosen for their level. The {len(rows)} prompts below are drafts that would add more variety. They were drafted without a native-speaker check, so please judge each one.'),
         ('How to review', '1. Go to the "Review" sheet. 2. In each row choose a Verdict: OK (add it as it is), Fix (type the better version in "Corrected prompt") or Remove (do not add it). 3. Add a Comment if useful. 4. Save the file and send it back. Only OK and Fix rows are added.'),
         ('What to check', 'Natural wording a teacher would really use; correct grammar and spelling; the right level (' + LEVEL_HELP + ') ' + (f'Address form: the existing prompts use {reg} address; please keep it consistent. ' if reg else '') + 'Speaking prompts should invite a spoken answer, writing prompts a clear written task. Remove anything culturally awkward or too close to an existing prompt. ' + EXTRA.get(lang, '')),
         ('Please do not change', 'The grey columns or the order of the rows. Corrections go only in the cream columns.'),
@@ -135,7 +135,7 @@ def build_translate_sheet(lang, source, out_dir):
         ins.column_dimensions[col].width = w
     ins.cell(1, 1, f'COSYlanguages: {name} beginner prompts to translate').font = Font(name=FONT, bold=True, size=16, color=GREEN)
     blocks = [
-        ('What this is', f'Learners of {name} see one speaking prompt a day for their level, but beginners (A0-A1) have only one prompt, so they see it every day. Below are {len(rows)} short English prompts. Please write each one in {name}, the way a teacher would say it to a complete beginner.'),
+        ('What this is', f'Learners of {name} see one speaking prompt a day for their level. Below are {len(rows)} short English prompts for complete beginners (A0-A1). Please write each one in {name}, the way a teacher would say it to a beginner.'),
         ('How to translate', 'Type the prompt in the cream "Translation" column. Translate naturally, not word for word. Keep it very short and simple (present tense, everyday words). Use one address form (formal or informal) for all of them, and say which in a Comment. Leave a row empty to skip it. Save the file and send it back.'),
         ('Please do not change', 'The grey columns or the order of the rows.'),
     ]
