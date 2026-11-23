@@ -26,6 +26,7 @@
   --cosy-dict-wotd-border: var(--cosy-color-border-hover, rgba(74, 107, 80, 0.25));
   --cosy-dict-shadow: var(--cosy-shadow-base, 0 6px 28px rgba(46, 74, 51, 0.10));
   --cosy-dict-radius: var(--cosy-radius-md, 14px);
+  --cosy-dict-on-accent: #ffffff;
 }
 
 /* Dark mode: every --cosy-dict-* value above is built from the shared tokens, which switch with
@@ -33,6 +34,7 @@
    Only the few values that need a different shade on dark are listed here. */
 html[data-theme="dark"] {
   --cosy-dict-accent: #9cc9a5;
+  --cosy-dict-on-accent: #10231a;
   --cosy-dict-badge-text: #d6e8d9;
   --cosy-dict-chip-antonym-text: #f4906f;
   --cosy-dict-shadow: 0 6px 28px rgba(0, 0, 0, 0.3);
@@ -253,7 +255,7 @@ body { background-color: var(--cosy-dict-bg); }
 
 .cosy-dict-export-btn {
   background-color: var(--cosy-dict-accent);
-  color: #ffffff;
+  color: var(--cosy-dict-on-accent);
   border: none;
   border-radius: 8px;
   padding: 8px 14px;
@@ -343,7 +345,7 @@ body { background-color: var(--cosy-dict-bg); }
   text-transform: uppercase;
   letter-spacing: 0.05em;
   background-color: var(--cosy-dict-accent);
-  color: #ffffff;
+  color: var(--cosy-dict-on-accent);
   padding: 3px 9px;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -414,7 +416,7 @@ body { background-color: var(--cosy-dict-bg); }
   &:hover {
     background-color: var(--cosy-dict-accent);
     border-color: var(--cosy-dict-accent);
-    color: #ffffff;
+    color: var(--cosy-dict-on-accent);
   }
 }
 
@@ -724,6 +726,16 @@ body { background-color: var(--cosy-dict-bg); }
   color: #0369a1;
 }
 
+html[data-theme="dark"] .cosy-dict-level-a1,
+html[data-theme="dark"] .cosy-dict-level-a2,
+html[data-theme="dark"] .cosy-dict-level-b1,
+html[data-theme="dark"] .cosy-dict-level-b2,
+html[data-theme="dark"] .cosy-dict-level-c1,
+html[data-theme="dark"] .cosy-dict-tag-domain {
+  background-color: rgba(255, 255, 255, 0.10);
+  color: var(--cosy-color-ink, #E8F0E9);
+}
+
 /* Expanded Details Box */
 .cosy-dict-expanded-details {
   margin-top: 14px;
@@ -790,7 +802,7 @@ body { background-color: var(--cosy-dict-bg); }
 
 .cosy-dict-level-b2 {
   background-color: #bae6fd;
-  color: #0369a1;
+  color: #075985;
 }
 
 .cosy-dict-level-c1 {

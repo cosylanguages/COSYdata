@@ -15,14 +15,17 @@
     :root {
       --cosy-bg: var(--cosy-color-cream, #fdfcf8);
       --cosy-card-bg: var(--cosy-color-warm-white, #ffffff);
-      --t10-soft: #f3f4f1; --t10-soft2: #f9f8f3; --t10-soft3: #eef2ed; --t10-line: #f0f0f0;
+      --t10-soft: var(--cosy-color-sage-mist, #f3f4f1);
+      --t10-soft2: var(--cosy-color-cream-dark, #f9f8f3);
+      --t10-soft3: var(--cosy-color-sage-mist, #eef2ed);
+      --t10-line: var(--cosy-color-border, #f0f0f0);
       --cosy-text: var(--cosy-color-ink, #2a2a2a);
       --cosy-muted: var(--cosy-color-ink-soft, #666666);
-      --cosy-sage: #416b49;
+      --cosy-sage: var(--cosy-ink-sage, #416b49);
       --cosy-sage-light: var(--cosy-color-sage-light, #eaf1eb);
-      --cosy-border: rgba(65, 107, 73, 0.15);
-      --cosy-accent: #d97706;
-      --cosy-accent-bg: #fef3c7;
+      --cosy-border: var(--cosy-color-border, rgba(65, 107, 73, 0.15));
+      --cosy-accent: var(--cosy-ink-honey, #945E05);
+      --cosy-accent-bg: var(--cosy-color-honey-pale, #fef3c7);
       --cosy-radius: 12px;
       --cosy-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     }
@@ -138,9 +141,9 @@
       border-color: var(--cosy-sage);
     }
     .btn-toggle.active {
-      background: var(--cosy-sage);
-      color: #ffffff;
-      border-color: var(--cosy-sage);
+      background: var(--cosy-fill-sage, #375742);
+      color: var(--cosy-on-brand, #ffffff);
+      border-color: var(--cosy-fill-sage, #375742);
     }
 
     select, input[type="text"] {
@@ -233,7 +236,7 @@
     }
     .conjugation-table th {
       background-color: var(--cosy-sage-light);
-      color: var(--cosy-sage);
+      color: var(--cosy-ink-sage, #416b49);
       font-weight: 700;
     }
     .conjugation-table tr:last-child td {
@@ -258,14 +261,6 @@
       font-size: 14px;
     }
   
-    html[data-theme="dark"] {
-      --t10-soft: #1f2720; --t10-soft2: #1c241d; --t10-soft3: #26312a; --t10-line: rgba(255, 255, 255, 0.08);
-      --cosy-border: rgba(107, 143, 113, 0.25);
-      --cosy-sage: #6b9474;
-      --cosy-accent: #f0b34a;
-      --cosy-accent-bg: #2d2417;
-      --cosy-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
-    }
     html[data-theme="dark"] .hero { background-color: var(--cosy-card-bg); }
   </style>
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
