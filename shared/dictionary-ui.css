@@ -780,39 +780,39 @@ html[data-theme="dark"] .cosy-dict-tag-domain {
 }
 
 .cosy-dict-badge-level {
-  background-color: #cbd5e1;
-  color: #0f172a;
+  background-color: var(--cosy-color-sage-light, #cbd5e1);
+  color: var(--cosy-color-ink, #0f172a);
 }
 
 .cosy-dict-level-a0,
 .cosy-dict-level-a1 {
-  background-color: #dcfce7;
-  color: #14532d;
+  background-color: var(--cosy-color-green-light, #dcfce7);
+  color: var(--cosy-ink-green, #14532d);
 }
 
 .cosy-dict-level-a2 {
-  background-color: #bbf7d0;
-  color: #14532d;
+  background-color: var(--cosy-color-sage-light, #bbf7d0);
+  color: var(--cosy-ink-sage, #14532d);
 }
 
 .cosy-dict-level-b1 {
-  background-color: #e0f2fe;
-  color: #0369a1;
+  background-color: var(--cosy-color-blue-light, #e0f2fe);
+  color: var(--cosy-ink-blue, #0369a1);
 }
 
 .cosy-dict-level-b2 {
-  background-color: #bae6fd;
-  color: #075985;
+  background-color: var(--cosy-color-navy-light, #bae6fd);
+  color: var(--cosy-ink-navy, #075985);
 }
 
 .cosy-dict-level-c1 {
-  background-color: #fef3c7;
-  color: #78350f;
+  background-color: var(--cosy-color-honey-pale, #fef3c7);
+  color: var(--cosy-ink-honey, #78350f);
 }
 
 .cosy-dict-level-c2 {
-  background-color: #fce7f3;
-  color: #831843;
+  background-color: var(--cosy-color-rose-light, #fce7f3);
+  color: var(--cosy-ink-rose, #831843);
 }
 
 .cosy-dict-audio-btn {
