@@ -5,58 +5,108 @@
   "days": {
     "2027-01-01": {
       "A1": {
-        "id": "it:cambiare:verb",
-        "word": "cambiare",
+        "id": "it:amare:verb",
+        "word": "amare",
         "level": "A1",
-        "definition": "Rendere o diventare diverso da prima.",
-        "example": "Cambio vestiti dopo l'allenamento sportivo.",
-        "transcription": "/kamˈbjaː.re/",
-        "emoji": "🔄"
+        "definition": "Provare un forte sentimento d'affetto per qualcuno.",
+        "example": "Amo la musica classica e la pittura.",
+        "transcription": "/aˈmaː.re/",
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "amare + [persona/cosa/infinito]",
+        "common_mistake": "❌ Amo di la mia famiglia. ➜ ✅ Amo la mia famiglia.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:sentire:verb",
         "word": "sentire",
         "level": "A1",
         "definition": "Percepire un suono con l'udito o una sensazione.",
-        "example": "Sento il suono della campana della chiesa.",
+        "example": "Sento una bella musica in sottofondo.",
         "transcription": "/senˈtiː.re/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:odiare:verb",
         "word": "odiare",
         "level": "A1",
         "definition": "Fortemente non gradire.",
-        "example": "Odia fare il pendolare in autobus.",
+        "example": "Odio il freddo intenso.",
         "transcription": "/ˈodiare/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Odio di il freddo. ➜ ✅ Odio il freddo.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:mangiare:verb",
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:conoscere:verb",
         "word": "conoscere",
         "level": "A1",
         "definition": "Avere familiarità con una persona, un luogo o una cosa.",
-        "example": "Conosco bene Roma.",
+        "example": "Conosco molto bene il centro storico di Napoli.",
         "transcription": "/koˈnoʃʃere/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "conoscere + [persona/luogo]",
+        "common_mistake": "❌ Conosco con quella persona da anni. ➜ ✅ Conosco quella persona da anni.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-02": {
@@ -65,54 +115,102 @@
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:smettere:verb",
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:fare:verb",
         "word": "fare",
         "level": "A0",
         "definition": "Realizzare, produrre o compiere un'azione.",
-        "example": "Ogni mattina faccio colazione alle sette.",
+        "example": "Faccio i compiti.",
         "transcription": "/ˈfaː.re/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fare + [azione]",
+        "common_mistake": "❌ Faccio di i compiti. ➜ ✅ Faccio i compiti.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:guardare:verb",
         "word": "guardare",
         "level": "A1",
         "definition": "Fissare lo sguardo su qualcuno o qualcosa.",
-        "example": "Guardiamo un bel film in televisione stasera.",
+        "example": "Stiamo guardando un film bellissimo alla televisione.",
         "transcription": "/gwarˈdaː.re/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "guardare + [persona/cosa]",
+        "common_mistake": "❌ Guarda a la TV tutto il giorno. ➜ ✅ Guarda la TV tutto il giorno.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:smettere:verb",
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:cercare:verb",
         "word": "cercare",
         "level": "A1",
         "definition": "Sforzarsi di trovare qualcuno o qualcosa.",
-        "example": "Cerco le mie chiavi di casa nella borsa.",
+        "example": "Sto cercando le chiavi della macchina dappertutto.",
         "transcription": "/tʃerˈkaː.re/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "cercare + [oggetto/persona]",
+        "common_mistake": "❌ Cerco per i miei occhiali. ➜ ✅ Cerco i miei occhiali.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-03": {
@@ -121,54 +219,104 @@
         "word": "odiare",
         "level": "A1",
         "definition": "Fortemente non gradire.",
-        "example": "Odia fare il pendolare in autobus.",
+        "example": "Odio il freddo intenso.",
         "transcription": "/ˈodiare/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Odio di il freddo. ➜ ✅ Odio il freddo.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:mangiare:verb",
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:finire:verb",
         "word": "finire",
         "level": "A1",
         "definition": "Giungere al termine o completare qualcosa.",
-        "example": "Finisco i compiti di scuola prima di cena.",
+        "example": "Ho finito di lavorare.",
         "transcription": "/fiˈniː.re/",
-        "emoji": "⏹️"
+        "emoji": "⏹️",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "finire + di + [infinito]",
+        "common_mistake": "❌ Ho finito a lavorare. ➜ ✅ Ho finito di lavorare.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:sentire:verb",
         "word": "sentire",
         "level": "A1",
         "definition": "Percepire un suono con l'udito o una sensazione.",
-        "example": "Sento il suono della campana della chiesa.",
+        "example": "Sento una bella musica in sottofondo.",
         "transcription": "/senˈtiː.re/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:comprare:verb",
         "word": "comprare",
         "level": "A1",
         "definition": "Acquistare beni pagando un prezzo in denaro.",
-        "example": "Compro il pane fresco dal fornaio ogni mattina.",
+        "example": "Ho comprato un regalo per il compleanno di mia madre.",
         "transcription": "/komˈpraː.re/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprare + [oggetto] + a/da + [persona]",
+        "common_mistake": "❌ Compro per un vestito nuovo. ➜ ✅ Compro un vestito nuovo.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-04": {
@@ -177,54 +325,103 @@
         "word": "comprare",
         "level": "A1",
         "definition": "Acquistare beni pagando un prezzo in denaro.",
-        "example": "Compro il pane fresco dal fornaio ogni mattina.",
+        "example": "Ho comprato un regalo per il compleanno di mia madre.",
         "transcription": "/komˈpraː.re/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprare + [oggetto] + a/da + [persona]",
+        "common_mistake": "❌ Compro per un vestito nuovo. ➜ ✅ Compro un vestito nuovo.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:mettere:verb",
         "word": "mettere",
         "level": "A1",
         "definition": "Mettere qualcosa in una posizione.",
-        "example": "Metti la borsa qui.",
+        "example": "Metti il cappotto.",
         "transcription": "/ˈmettere/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "mettere + [un abito]",
+        "common_mistake": "❌ Metti a il cappotto. ➜ ✅ Metti il cappotto.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
-        "id": "it:pulire:verb",
-        "word": "pulire",
+        "id": "it:aspettare:verb",
+        "word": "aspettare",
         "level": "A1",
-        "definition": "Rendere pulito un oggetto o un ambiente.",
-        "example": "Pulisco la mia camera da letto il sabato mattina.",
-        "transcription": "/puˈliː.re/",
-        "emoji": "🧹"
+        "definition": "Trattenersi in un luogo attendendo l'arrivo di qualcuno.",
+        "example": "Aspetto il treno sul binario tre.",
+        "transcription": "/as.petˈtaː.re/",
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aspettare + [persona/evento]",
+        "common_mistake": "❌ Aspetto per l'autobus. ➜ ✅ Aspetto l'autobus.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:pagare:verb",
         "word": "pagare",
         "level": "A1",
         "definition": "Dare denaro per un acquisto o un servizio.",
-        "example": "Pago la cena con la carta di credito.",
+        "example": "Pago io la cena di stasera per tutti.",
         "transcription": "/paˈɡaː.re/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "pagare + [conto/somma]",
+        "common_mistake": "❌ Pago per il caffè al bar. ➜ ✅ Pago il caffè al bar.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:restare:verb",
         "word": "restare",
         "level": "A1",
         "definition": "Continuare a essere in un posto.",
-        "example": "Resto a casa la domenica.",
+        "example": "Resto a casa stasera.",
         "transcription": "/ˈrestare/",
-        "emoji": "🏨"
+        "emoji": "🏨",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "restare + a/in + [luogo]",
+        "common_mistake": "❌ Resto in casa stasera. ➜ ✅ Resto a casa stasera.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:aspettare:verb",
         "word": "aspettare",
         "level": "A1",
         "definition": "Trattenersi in un luogo attendendo l'arrivo di qualcuno.",
-        "example": "Aspetto l'autobus alla fermata in centro.",
+        "example": "Aspetto il treno sul binario tre.",
         "transcription": "/as.petˈtaː.re/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aspettare + [persona/evento]",
+        "common_mistake": "❌ Aspetto per l'autobus. ➜ ✅ Aspetto l'autobus.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-05": {
@@ -233,54 +430,102 @@
         "word": "ascoltare",
         "level": "A1",
         "definition": "Sentire con attenzione suoni o parole.",
-        "example": "Ascolto la musica italiana mentre cucino.",
+        "example": "Ascolto la radio ogni mattina mentre faccio colazione.",
         "transcription": "/as.kolˈtaː.re/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ascoltare + [persona/suono]",
+        "common_mistake": "❌ Ascolto a la musica classica. ➜ ✅ Ascolto la musica classica.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:pagare:verb",
         "word": "pagare",
         "level": "A1",
         "definition": "Dare denaro per un acquisto o un servizio.",
-        "example": "Pago la cena con la carta di credito.",
+        "example": "Pago io la cena di stasera per tutti.",
         "transcription": "/paˈɡaː.re/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "pagare + [conto/somma]",
+        "common_mistake": "❌ Pago per il caffè al bar. ➜ ✅ Pago il caffè al bar.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:sapere:verb",
         "word": "sapere",
         "level": "A0",
         "definition": "Avere la conoscenza o la nozione di una cosa.",
-        "example": "So parlare bene due lingue straniere.",
+        "example": "Sai nuotare molto bene?",
         "transcription": "/saˈpeː.re/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "sapere + [cosa/infinito]",
+        "common_mistake": "❌ So di la risposta. ➜ ✅ So la risposta.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:mettere:verb",
         "word": "mettere",
         "level": "A1",
         "definition": "Mettere qualcosa in una posizione.",
-        "example": "Metti la borsa qui.",
+        "example": "Metti il cappotto.",
         "transcription": "/ˈmettere/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "mettere + [un abito]",
+        "common_mistake": "❌ Metti a il cappotto. ➜ ✅ Metti il cappotto.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:preferire:verb",
         "word": "preferire",
         "level": "A1",
         "definition": "Preferire una cosa a un'altra.",
-        "example": "Preferisco il tè al caffè.",
+        "example": "Preferisco la montagna al mare in estate.",
         "transcription": "/ˈpreferire/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "preferire + [cosa] + a + [altra cosa]",
+        "common_mistake": "❌ Preferisco il tè che il caffè. ➜ ✅ Preferisco il tè al caffè.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:chiudere:verb",
         "word": "chiudere",
         "level": "A1",
         "definition": "Rendere chiuso uno spazio o un accesso.",
-        "example": "Chiudo la porta di casa prima di uscire.",
+        "example": "Chiudi la porta.",
         "transcription": "/ˈkjuː.de.re/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiudere + [porta/libro]",
+        "common_mistake": "❌ Chiudi a la porta. ➜ ✅ Chiudi la porta.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-06": {
@@ -289,54 +534,103 @@
         "word": "sentire",
         "level": "A1",
         "definition": "Percepire un suono con l'udito o una sensazione.",
-        "example": "Sento il suono della campana della chiesa.",
+        "example": "Sento una bella musica in sottofondo.",
         "transcription": "/senˈtiː.re/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:piacere:verb",
         "word": "piacere",
         "level": "A0",
         "definition": "Suscitare un'impressione gradita o gradimento.",
-        "example": "Mi piace molto mangiare la pizza napoletana.",
+        "example": "Mi piace il gelato.",
         "transcription": "/pjaˈtʃeː.re/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "piacere + a + [persona]",
+        "common_mistake": "❌ Mi piace di il gelato. ➜ ✅ Mi piace il gelato.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:preferire:verb",
         "word": "preferire",
         "level": "A1",
         "definition": "Preferire una cosa a un'altra.",
-        "example": "Preferisco il tè al caffè.",
+        "example": "Preferisco la montagna al mare in estate.",
         "transcription": "/ˈpreferire/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "preferire + [cosa] + a + [altra cosa]",
+        "common_mistake": "❌ Preferisco il tè che il caffè. ➜ ✅ Preferisco il tè al caffè.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:potere:verb",
         "word": "potere",
         "level": "A0",
         "definition": "Avere la possibilità o la capacità di compiere un'azione.",
-        "example": "Posso entrare in aula adesso?",
+        "example": "Posso uscire stasera con i miei amici?",
         "transcription": "/poˈteː.re/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "potere + [infinito]",
+        "common_mistake": "❌ Posso di parlare con lei? ➜ ✅ Posso parlare con lei?",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:finire:verb",
         "word": "finire",
         "level": "A1",
         "definition": "Giungere al termine o completare qualcosa.",
-        "example": "Finisco i compiti di scuola prima di cena.",
+        "example": "Ho finito di lavorare.",
         "transcription": "/fiˈniː.re/",
-        "emoji": "⏹️"
+        "emoji": "⏹️",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "finire + di + [infinito]",
+        "common_mistake": "❌ Ho finito a lavorare. ➜ ✅ Ho finito di lavorare.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:vedere:verb",
         "word": "vedere",
         "level": "A0",
         "definition": "Percepire con gli occhi le cose circostanti.",
-        "example": "Vedo un bel fiore rosso nel giardino.",
+        "example": "Vedo un bel panorama dalla finestra.",
         "transcription": "/veˈdeː.re/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vedere + [persona/cosa]",
+        "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-07": {
@@ -345,54 +639,105 @@
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:preferire:verb",
         "word": "preferire",
         "level": "A1",
         "definition": "Preferire una cosa a un'altra.",
-        "example": "Preferisco il tè al caffè.",
+        "example": "Preferisco la montagna al mare in estate.",
         "transcription": "/ˈpreferire/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "preferire + [cosa] + a + [altra cosa]",
+        "common_mistake": "❌ Preferisco il tè che il caffè. ➜ ✅ Preferisco il tè al caffè.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:restare:verb",
         "word": "restare",
         "level": "A1",
         "definition": "Continuare a essere in un posto.",
-        "example": "Resto a casa la domenica.",
+        "example": "Resto a casa stasera.",
         "transcription": "/ˈrestare/",
-        "emoji": "🏨"
+        "emoji": "🏨",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "restare + a/in + [luogo]",
+        "common_mistake": "❌ Resto in casa stasera. ➜ ✅ Resto a casa stasera.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:odiare:verb",
         "word": "odiare",
         "level": "A1",
         "definition": "Fortemente non gradire.",
-        "example": "Odia fare il pendolare in autobus.",
+        "example": "Odio il freddo intenso.",
         "transcription": "/ˈodiare/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Odio di il freddo. ➜ ✅ Odio il freddo.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:dire:verb",
         "word": "dire",
         "level": "A1",
         "definition": "Esprimere con parole un pensiero o una frase.",
-        "example": "Dico sempre la verità ai miei genitori.",
+        "example": "Ho detto la verità a Luca.",
         "transcription": "/ˈdiː.re/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "di"
+        ],
+        "pattern": "dire + [qualcosa] + a + [persona] / dire di + [infinito]",
+        "common_mistake": "❌ Ho detto per Marco. ➔ ✅ Ho detto a Marco.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:vestirsi:verb",
         "word": "vestirsi",
         "level": "A2",
         "definition": "Indossare i propri abiti e vestiti della giornata.",
-        "example": "Mi vesto rapidamente per non arrivare tardi.",
+        "example": "Mi vesto per andare al lavoro.",
         "transcription": "/vesˈtir.si/",
-        "emoji": "👔"
+        "emoji": "👔",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "vestirsi + di/con + [abiti]",
+        "common_mistake": "❌ Mi vesto di per andare al lavoro. ➜ ✅ Mi vesto per andare al lavoro.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-08": {
@@ -401,54 +746,103 @@
         "word": "guardare",
         "level": "A1",
         "definition": "Fissare lo sguardo su qualcuno o qualcosa.",
-        "example": "Guardiamo un bel film in televisione stasera.",
+        "example": "Stiamo guardando un film bellissimo alla televisione.",
         "transcription": "/gwarˈdaː.re/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "guardare + [persona/cosa]",
+        "common_mistake": "❌ Guarda a la TV tutto il giorno. ➜ ✅ Guarda la TV tutto il giorno.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:bere:verb",
         "word": "bere",
         "level": "A0",
         "definition": "Inghiottire liquidi come acqua o succhi.",
-        "example": "Bevo un bicchiere d'acqua fresca dopo la corsa.",
+        "example": "Bevo un bicchiere d’acqua ogni mattina.",
         "transcription": "/ˈbeː.re/",
-        "emoji": "🥤"
+        "emoji": "🥤",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "bere + [bevanda]",
+        "common_mistake": "❌ Bevo a un caffè. ➔ ✅ Bevo un caffè.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:aspettare:verb",
         "word": "aspettare",
         "level": "A1",
         "definition": "Trattenersi in un luogo attendendo l'arrivo di qualcuno.",
-        "example": "Aspetto l'autobus alla fermata in centro.",
+        "example": "Aspetto il treno sul binario tre.",
         "transcription": "/as.petˈtaː.re/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aspettare + [persona/evento]",
+        "common_mistake": "❌ Aspetto per l'autobus. ➜ ✅ Aspetto l'autobus.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:sapere:verb",
         "word": "sapere",
         "level": "A0",
         "definition": "Avere la conoscenza o la nozione di una cosa.",
-        "example": "So parlare bene due lingue straniere.",
+        "example": "Sai nuotare molto bene?",
         "transcription": "/saˈpeː.re/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "sapere + [cosa/infinito]",
+        "common_mistake": "❌ So di la risposta. ➜ ✅ So la risposta.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:bere:verb",
         "word": "bere",
         "level": "A0",
         "definition": "Inghiottire liquidi come acqua o succhi.",
-        "example": "Bevo un bicchiere d'acqua fresca dopo la corsa.",
+        "example": "Bevo un bicchiere d’acqua ogni mattina.",
         "transcription": "/ˈbeː.re/",
-        "emoji": "🥤"
+        "emoji": "🥤",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "bere + [bevanda]",
+        "common_mistake": "❌ Bevo a un caffè. ➔ ✅ Bevo un caffè.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:sentire:verb",
         "word": "sentire",
         "level": "A1",
         "definition": "Percepire un suono con l'udito o una sensazione.",
-        "example": "Sento il suono della campana della chiesa.",
+        "example": "Sento una bella musica in sottofondo.",
         "transcription": "/senˈtiː.re/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-09": {
@@ -457,54 +851,103 @@
         "word": "chiamare",
         "level": "A1",
         "definition": "Telefonare a qualcuno al cellulare per parlare.",
-        "example": "Chiamo mia madre al telefono per sapere come sta.",
+        "example": "Chiamo il taxi per andare in aeroporto.",
         "transcription": "/kjaˈmaː.re/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiamare + [persona]",
+        "common_mistake": "❌ Chiamo a Marco per la festa. ➜ ✅ Chiamo Marco per la festa.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
-        "id": "it:cambiare:verb",
-        "word": "cambiare",
-        "level": "A1",
-        "definition": "Rendere o diventare diverso da prima.",
-        "example": "Cambio vestiti dopo l'allenamento sportivo.",
-        "transcription": "/kamˈbjaː.re/",
-        "emoji": "🔄"
+        "id": "it:avere:verb",
+        "word": "avere",
+        "level": "A0",
+        "definition": "Verbo ausiliare che indica possesso o sensazione.",
+        "example": "Ho un libro nuovo.",
+        "transcription": "/aˈveː.re/",
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avere + [qualcosa]",
+        "common_mistake": "❌ Ho di un libro nuovo. ➜ ✅ Ho un libro nuovo.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
-        "id": "it:cambiare:verb",
-        "word": "cambiare",
+        "id": "it:sentire:verb",
+        "word": "sentire",
         "level": "A1",
-        "definition": "Rendere o diventare diverso da prima.",
-        "example": "Cambio vestiti dopo l'allenamento sportivo.",
-        "transcription": "/kamˈbjaː.re/",
-        "emoji": "🔄"
+        "definition": "Percepire un suono con l'udito o una sensazione.",
+        "example": "Sento una bella musica in sottofondo.",
+        "transcription": "/senˈtiː.re/",
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
-        "id": "it:pulire:verb",
-        "word": "pulire",
+        "id": "it:sedersi:verb",
+        "word": "sedersi",
         "level": "A1",
-        "definition": "Rendere pulito un oggetto o un ambiente.",
-        "example": "Pulisco la mia camera da letto il sabato mattina.",
-        "transcription": "/puˈliː.re/",
-        "emoji": "🧹"
+        "definition": "Mettersi a sedere su una sedia o poltrona.",
+        "example": "Siediti sulla sedia.",
+        "transcription": "/seˈder.si/",
+        "emoji": "🪑",
+        "preposition": "su",
+        "prepositions": [
+          "su"
+        ],
+        "pattern": "sedersi + su + [sedia]",
+        "common_mistake": "❌ Siediti a la sedia. ➜ ✅ Siediti sulla sedia.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:avere:verb",
         "word": "avere",
         "level": "A0",
         "definition": "Verbo ausiliare che indica possesso o sensazione.",
-        "example": "Ho due cani e un gatto a casa.",
+        "example": "Ho un libro nuovo.",
         "transcription": "/aˈveː.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avere + [qualcosa]",
+        "common_mistake": "❌ Ho di un libro nuovo. ➜ ✅ Ho un libro nuovo.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:significare:verb",
         "word": "significare",
         "level": "A1",
         "definition": "Avere un particolare significato; avere l intenzione.",
-        "example": "Cosa significa questa clausola nel contratto?",
+        "example": "Che cosa significa questa parola?",
         "transcription": "/ˈsignificare/",
-        "emoji": "❔"
+        "emoji": "❔",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "significare + [qualcosa]",
+        "common_mistake": "❌ Che cosa significa di questa parola? ➜ ✅ Che cosa significa questa parola?",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-10": {
@@ -513,110 +956,207 @@
         "word": "finire",
         "level": "A1",
         "definition": "Giungere al termine o completare qualcosa.",
-        "example": "Finisco i compiti di scuola prima di cena.",
+        "example": "Ho finito di lavorare.",
         "transcription": "/fiˈniː.re/",
-        "emoji": "⏹️"
+        "emoji": "⏹️",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "finire + di + [infinito]",
+        "common_mistake": "❌ Ho finito a lavorare. ➜ ✅ Ho finito di lavorare.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:restare:verb",
         "word": "restare",
         "level": "A1",
         "definition": "Continuare a essere in un posto.",
-        "example": "Resto a casa la domenica.",
+        "example": "Resto a casa stasera.",
         "transcription": "/ˈrestare/",
-        "emoji": "🏨"
+        "emoji": "🏨",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "restare + a/in + [luogo]",
+        "common_mistake": "❌ Resto in casa stasera. ➜ ✅ Resto a casa stasera.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:vedere:verb",
         "word": "vedere",
         "level": "A0",
         "definition": "Percepire con gli occhi le cose circostanti.",
-        "example": "Vedo un bel fiore rosso nel giardino.",
+        "example": "Vedo un bel panorama dalla finestra.",
         "transcription": "/veˈdeː.re/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vedere + [persona/cosa]",
+        "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
-        "id": "it:cambiare:verb",
-        "word": "cambiare",
+        "id": "it:chiudere:verb",
+        "word": "chiudere",
         "level": "A1",
-        "definition": "Rendere o diventare diverso da prima.",
-        "example": "Cambio vestiti dopo l'allenamento sportivo.",
-        "transcription": "/kamˈbjaː.re/",
-        "emoji": "🔄"
+        "definition": "Rendere chiuso uno spazio o un accesso.",
+        "example": "Chiudi la porta.",
+        "transcription": "/ˈkjuː.de.re/",
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiudere + [porta/libro]",
+        "common_mistake": "❌ Chiudi a la porta. ➜ ✅ Chiudi la porta.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:dimenticare:verb",
         "word": "dimenticare",
         "level": "A1",
         "definition": "Perdere il ricordo di un fatto o di una cosa.",
-        "example": "Dimentico spesso dove ho messo gli occhiali.",
+        "example": "Ho dimenticato le chiavi.",
         "transcription": "/di.men.tiˈkaː.re/",
-        "emoji": "🙈"
+        "emoji": "🙈",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "dimenticare + [qualcosa / di + infinito]",
+        "common_mistake": "❌ Ho dimenticato di le chiavi. ➜ ✅ Ho dimenticato le chiavi.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-11": {
       "A1": {
-        "id": "it:pulire:verb",
-        "word": "pulire",
+        "id": "it:dare:verb",
+        "word": "dare",
         "level": "A1",
-        "definition": "Rendere pulito un oggetto o un ambiente.",
-        "example": "Pulisco la mia camera da letto il sabato mattina.",
-        "transcription": "/puˈliː.re/",
-        "emoji": "🧹"
+        "definition": "Consegnare spontaneamente qualcosa a qualcuno.",
+        "example": "Dai questo libro a Giulia.",
+        "transcription": "/ˈdaː.re/",
+        "emoji": "🎁",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "dare + [cosa] + a + [persona]",
+        "common_mistake": "❌ Dare per qualcuno. ➔ ✅ Dare a qualcuno.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:prendere:verb",
         "word": "prendere",
         "level": "A1",
         "definition": "Afferrare con la mano o raccogliere un oggetto.",
-        "example": "Prendo l'autobus per andare in centro.",
+        "example": "Prendo l’autobus per andare al lavoro.",
         "transcription": "/ˈprɛn.de.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendere + [cosa/mezzo di trasporto]",
+        "common_mistake": "❌ Prendo a il treno. ➔ ✅ Prendo il treno.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
-        "id": "it:spazzolare:verb",
-        "word": "spazzolare",
+        "id": "it:amare:verb",
+        "word": "amare",
         "level": "A1",
-        "definition": "Pulire qualcosa con una spazzola.",
-        "example": "Mi spazzolo i denti ogni mattina.",
-        "transcription": "/ˈspazzolare/",
-        "emoji": "🪥"
+        "definition": "Provare un forte sentimento d'affetto per qualcuno.",
+        "example": "Amo la musica classica e la pittura.",
+        "transcription": "/aˈmaː.re/",
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "amare + [persona/cosa/infinito]",
+        "common_mistake": "❌ Amo di la mia famiglia. ➜ ✅ Amo la mia famiglia.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:cercare:verb",
         "word": "cercare",
         "level": "A1",
         "definition": "Sforzarsi di trovare qualcuno o qualcosa.",
-        "example": "Cerco le mie chiavi di casa nella borsa.",
+        "example": "Sto cercando le chiavi della macchina dappertutto.",
         "transcription": "/tʃerˈkaː.re/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "cercare + [oggetto/persona]",
+        "common_mistake": "❌ Cerco per i miei occhiali. ➜ ✅ Cerco i miei occhiali.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:esistere:verb",
         "word": "esistere",
         "level": "A1",
         "definition": "Avere realtà effettiva nella vita o nel mondo.",
-        "example": "Esistono molte specie animali diverse nel mondo.",
+        "example": "L'amore esiste in ogni cultura.",
         "transcription": "/eˈzis.te.re/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "in",
+        "prepositions": [
+          "in"
+        ],
+        "pattern": "esistere + in + [luogo]",
+        "common_mistake": "❌ Esistono in molte possibilità. ➜ ✅ Esistono molte possibilità.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:sedersi:verb",
         "word": "sedersi",
         "level": "A1",
         "definition": "Mettersi a sedere su una sedia o poltrona.",
-        "example": "Mi siedo a tavola per pranzare in tranquillità.",
+        "example": "Siediti sulla sedia.",
         "transcription": "/seˈder.si/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "preposition": "su",
+        "prepositions": [
+          "su"
+        ],
+        "pattern": "sedersi + su + [sedia]",
+        "common_mistake": "❌ Siediti a la sedia. ➜ ✅ Siediti sulla sedia.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-12": {
@@ -625,54 +1165,103 @@
         "word": "volere",
         "level": "A0",
         "definition": "Avere il desiderio di fare o ottenere qualcosa.",
-        "example": "Voglio comprare una pizza per cena.",
+        "example": "Voglio imparare l'italiano fluente.",
         "transcription": "/voˈleː.re/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "volere + [cosa/infinito]",
+        "common_mistake": "❌ Voglio di una pizza. ➜ ✅ Voglio una pizza.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:odiare:verb",
         "word": "odiare",
         "level": "A1",
         "definition": "Fortemente non gradire.",
-        "example": "Odia fare il pendolare in autobus.",
+        "example": "Odio il freddo intenso.",
         "transcription": "/ˈodiare/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Odio di il freddo. ➜ ✅ Odio il freddo.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:volere:verb",
         "word": "volere",
         "level": "A0",
         "definition": "Avere il desiderio di fare o ottenere qualcosa.",
-        "example": "Voglio comprare una pizza per cena.",
+        "example": "Voglio imparare l'italiano fluente.",
         "transcription": "/voˈleː.re/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "volere + [cosa/infinito]",
+        "common_mistake": "❌ Voglio di una pizza. ➜ ✅ Voglio una pizza.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:chiamare:verb",
         "word": "chiamare",
         "level": "A1",
         "definition": "Telefonare a qualcuno al cellulare per parlare.",
-        "example": "Chiamo mia madre al telefono per sapere come sta.",
+        "example": "Chiamo il taxi per andare in aeroporto.",
         "transcription": "/kjaˈmaː.re/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiamare + [persona]",
+        "common_mistake": "❌ Chiamo a Marco per la festa. ➜ ✅ Chiamo Marco per la festa.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:mangiare:verb",
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:ascoltare:verb",
         "word": "ascoltare",
         "level": "A1",
         "definition": "Sentire con attenzione suoni o parole.",
-        "example": "Ascolto la musica italiana mentre cucino.",
+        "example": "Ascolto la radio ogni mattina mentre faccio colazione.",
         "transcription": "/as.kolˈtaː.re/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ascoltare + [persona/suono]",
+        "common_mistake": "❌ Ascolto a la musica classica. ➜ ✅ Ascolto la musica classica.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-13": {
@@ -681,54 +1270,102 @@
         "word": "capire",
         "level": "A0",
         "definition": "Comprendere il significato di qualcosa.",
-        "example": "Ora capisco benissimo la spiegazione del professore.",
+        "example": "Capisco la lezione.",
         "transcription": "/kaˈpiː.re/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "capire + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Capisco di la lezione. ➜ ✅ Capisco la lezione.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:guardare:verb",
         "word": "guardare",
         "level": "A1",
         "definition": "Fissare lo sguardo su qualcuno o qualcosa.",
-        "example": "Guardiamo un bel film in televisione stasera.",
+        "example": "Stiamo guardando un film bellissimo alla televisione.",
         "transcription": "/gwarˈdaː.re/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "guardare + [persona/cosa]",
+        "common_mistake": "❌ Guarda a la TV tutto il giorno. ➜ ✅ Guarda la TV tutto il giorno.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:chiudere:verb",
         "word": "chiudere",
         "level": "A1",
         "definition": "Rendere chiuso uno spazio o un accesso.",
-        "example": "Chiudo la porta di casa prima di uscire.",
+        "example": "Chiudi la porta.",
         "transcription": "/ˈkjuː.de.re/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiudere + [porta/libro]",
+        "common_mistake": "❌ Chiudi a la porta. ➜ ✅ Chiudi la porta.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:prendere:verb",
         "word": "prendere",
         "level": "A1",
         "definition": "Afferrare con la mano o raccogliere un oggetto.",
-        "example": "Prendo l'autobus per andare in centro.",
+        "example": "Prendo l’autobus per andare al lavoro.",
         "transcription": "/ˈprɛn.de.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendere + [cosa/mezzo di trasporto]",
+        "common_mistake": "❌ Prendo a il treno. ➔ ✅ Prendo il treno.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:aprire:verb",
         "word": "aprire",
         "level": "A1",
         "definition": "Spostare un battente per permettere il passaggio.",
-        "example": "Apro la finestra della camera per far entrare aria fresca.",
+        "example": "Apri la finestra.",
         "transcription": "/aˈpriː.re/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aprire + [porta/finestra]",
+        "common_mistake": "❌ Apri a la finestra. ➜ ✅ Apri la finestra.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-14": {
@@ -737,54 +1374,103 @@
         "word": "iniziare",
         "level": "A1",
         "definition": "Dare avvio o principio a un'azione.",
-        "example": "La lezione d'italiano inizia alle nove punto.",
+        "example": "Iniziamo a studiare.",
         "transcription": "/i.nitˈtsjaː.re/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "con"
+        ],
+        "pattern": "iniziare + a + [infinito] / con + [cosa]",
+        "common_mistake": "❌ Iniziamo di studiare. ➜ ✅ Iniziamo a studiare.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:fare:verb",
         "word": "fare",
         "level": "A0",
         "definition": "Realizzare, produrre o compiere un'azione.",
-        "example": "Ogni mattina faccio colazione alle sette.",
+        "example": "Faccio i compiti.",
         "transcription": "/ˈfaː.re/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fare + [azione]",
+        "common_mistake": "❌ Faccio di i compiti. ➜ ✅ Faccio i compiti.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:potere:verb",
         "word": "potere",
         "level": "A0",
         "definition": "Avere la possibilità o la capacità di compiere un'azione.",
-        "example": "Posso entrare in aula adesso?",
+        "example": "Posso uscire stasera con i miei amici?",
         "transcription": "/poˈteː.re/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "potere + [infinito]",
+        "common_mistake": "❌ Posso di parlare con lei? ➜ ✅ Posso parlare con lei?",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:comprare:verb",
         "word": "comprare",
         "level": "A1",
         "definition": "Acquistare beni pagando un prezzo in denaro.",
-        "example": "Compro il pane fresco dal fornaio ogni mattina.",
+        "example": "Ho comprato un regalo per il compleanno di mia madre.",
         "transcription": "/komˈpraː.re/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprare + [oggetto] + a/da + [persona]",
+        "common_mistake": "❌ Compro per un vestito nuovo. ➜ ✅ Compro un vestito nuovo.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:capire:verb",
         "word": "capire",
         "level": "A0",
         "definition": "Comprendere il significato di qualcosa.",
-        "example": "Ora capisco benissimo la spiegazione del professore.",
+        "example": "Capisco la lezione.",
         "transcription": "/kaˈpiː.re/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "capire + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Capisco di la lezione. ➜ ✅ Capisco la lezione.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:capire:verb",
         "word": "capire",
         "level": "A0",
         "definition": "Comprendere il significato di qualcosa.",
-        "example": "Ora capisco benissimo la spiegazione del professore.",
+        "example": "Capisco la lezione.",
         "transcription": "/kaˈpiː.re/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "capire + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Capisco di la lezione. ➜ ✅ Capisco la lezione.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-15": {
@@ -793,54 +1479,103 @@
         "word": "restare",
         "level": "A1",
         "definition": "Continuare a essere in un posto.",
-        "example": "Resto a casa la domenica.",
+        "example": "Resto a casa stasera.",
         "transcription": "/ˈrestare/",
-        "emoji": "🏨"
+        "emoji": "🏨",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "restare + a/in + [luogo]",
+        "common_mistake": "❌ Resto in casa stasera. ➜ ✅ Resto a casa stasera.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:esistere:verb",
         "word": "esistere",
         "level": "A1",
         "definition": "Avere realtà effettiva nella vita o nel mondo.",
-        "example": "Esistono molte specie animali diverse nel mondo.",
+        "example": "L'amore esiste in ogni cultura.",
         "transcription": "/eˈzis.te.re/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "in",
+        "prepositions": [
+          "in"
+        ],
+        "pattern": "esistere + in + [luogo]",
+        "common_mistake": "❌ Esistono in molte possibilità. ➜ ✅ Esistono molte possibilità.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:pagare:verb",
         "word": "pagare",
         "level": "A1",
         "definition": "Dare denaro per un acquisto o un servizio.",
-        "example": "Pago la cena con la carta di credito.",
+        "example": "Pago io la cena di stasera per tutti.",
         "transcription": "/paˈɡaː.re/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "pagare + [conto/somma]",
+        "common_mistake": "❌ Pago per il caffè al bar. ➜ ✅ Pago il caffè al bar.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:dare:verb",
         "word": "dare",
         "level": "A1",
         "definition": "Consegnare spontaneamente qualcosa a qualcuno.",
-        "example": "Dò una mela rossa alla mia bambina.",
+        "example": "Dai questo libro a Giulia.",
         "transcription": "/ˈdaː.re/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "dare + [cosa] + a + [persona]",
+        "common_mistake": "❌ Dare per qualcuno. ➔ ✅ Dare a qualcuno.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:chiamare:verb",
         "word": "chiamare",
         "level": "A1",
         "definition": "Telefonare a qualcuno al cellulare per parlare.",
-        "example": "Chiamo mia madre al telefono per sapere come sta.",
+        "example": "Chiamo il taxi per andare in aeroporto.",
         "transcription": "/kjaˈmaː.re/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiamare + [persona]",
+        "common_mistake": "❌ Chiamo a Marco per la festa. ➜ ✅ Chiamo Marco per la festa.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
-        "id": "it:cambiare:verb",
-        "word": "cambiare",
-        "level": "A1",
-        "definition": "Rendere o diventare diverso da prima.",
-        "example": "Cambio vestiti dopo l'allenamento sportivo.",
-        "transcription": "/kamˈbjaː.re/",
-        "emoji": "🔄"
+        "id": "it:avere:verb",
+        "word": "avere",
+        "level": "A0",
+        "definition": "Verbo ausiliare che indica possesso o sensazione.",
+        "example": "Ho un libro nuovo.",
+        "transcription": "/aˈveː.re/",
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avere + [qualcosa]",
+        "common_mistake": "❌ Ho di un libro nuovo. ➜ ✅ Ho un libro nuovo.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-16": {
@@ -849,54 +1584,103 @@
         "word": "amare",
         "level": "A1",
         "definition": "Provare un forte sentimento d'affetto per qualcuno.",
-        "example": "Amo molto la mia famiglia e i miei amici.",
+        "example": "Amo la musica classica e la pittura.",
         "transcription": "/aˈmaː.re/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "amare + [persona/cosa/infinito]",
+        "common_mistake": "❌ Amo di la mia famiglia. ➜ ✅ Amo la mia famiglia.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:diventare:verb",
         "word": "diventare",
         "level": "A2",
         "definition": "Cominciare a essere qualcosa.",
-        "example": "Lui vuole diventare un pilota.",
+        "example": "Vuole diventare un medico.",
         "transcription": "/divenˈtare/",
-        "emoji": "🦋"
+        "emoji": "🦋",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "diventare + [qualcosa]",
+        "common_mistake": "❌ Vuole diventare di un medico. ➜ ✅ Vuole diventare un medico.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "it:sedersi:verb",
         "word": "sedersi",
         "level": "A1",
         "definition": "Mettersi a sedere su una sedia o poltrona.",
-        "example": "Mi siedo a tavola per pranzare in tranquillità.",
+        "example": "Siediti sulla sedia.",
         "transcription": "/seˈder.si/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "preposition": "su",
+        "prepositions": [
+          "su"
+        ],
+        "pattern": "sedersi + su + [sedia]",
+        "common_mistake": "❌ Siediti a la sedia. ➜ ✅ Siediti sulla sedia.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:esistere:verb",
         "word": "esistere",
         "level": "A1",
         "definition": "Avere realtà effettiva nella vita o nel mondo.",
-        "example": "Esistono molte specie animali diverse nel mondo.",
+        "example": "L'amore esiste in ogni cultura.",
         "transcription": "/eˈzis.te.re/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "in",
+        "prepositions": [
+          "in"
+        ],
+        "pattern": "esistere + in + [luogo]",
+        "common_mistake": "❌ Esistono in molte possibilità. ➜ ✅ Esistono molte possibilità.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:comprare:verb",
         "word": "comprare",
         "level": "A1",
         "definition": "Acquistare beni pagando un prezzo in denaro.",
-        "example": "Compro il pane fresco dal fornaio ogni mattina.",
+        "example": "Ho comprato un regalo per il compleanno di mia madre.",
         "transcription": "/komˈpraː.re/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprare + [oggetto] + a/da + [persona]",
+        "common_mistake": "❌ Compro per un vestito nuovo. ➜ ✅ Compro un vestito nuovo.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:dire:verb",
         "word": "dire",
         "level": "A1",
         "definition": "Esprimere con parole un pensiero o una frase.",
-        "example": "Dico sempre la verità ai miei genitori.",
+        "example": "Ho detto la verità a Luca.",
         "transcription": "/ˈdiː.re/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "di"
+        ],
+        "pattern": "dire + [qualcosa] + a + [persona] / dire di + [infinito]",
+        "common_mistake": "❌ Ho detto per Marco. ➔ ✅ Ho detto a Marco.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-17": {
@@ -905,54 +1689,104 @@
         "word": "chiudere",
         "level": "A1",
         "definition": "Rendere chiuso uno spazio o un accesso.",
-        "example": "Chiudo la porta di casa prima di uscire.",
+        "example": "Chiudi la porta.",
         "transcription": "/ˈkjuː.de.re/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiudere + [porta/libro]",
+        "common_mistake": "❌ Chiudi a la porta. ➜ ✅ Chiudi la porta.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:dire:verb",
         "word": "dire",
         "level": "A1",
         "definition": "Esprimere con parole un pensiero o una frase.",
-        "example": "Dico sempre la verità ai miei genitori.",
+        "example": "Ho detto la verità a Luca.",
         "transcription": "/ˈdiː.re/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "di"
+        ],
+        "pattern": "dire + [qualcosa] + a + [persona] / dire di + [infinito]",
+        "common_mistake": "❌ Ho detto per Marco. ➔ ✅ Ho detto a Marco.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:piacere:verb",
         "word": "piacere",
         "level": "A0",
         "definition": "Suscitare un'impressione gradita o gradimento.",
-        "example": "Mi piace molto mangiare la pizza napoletana.",
+        "example": "Mi piace il gelato.",
         "transcription": "/pjaˈtʃeː.re/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "piacere + a + [persona]",
+        "common_mistake": "❌ Mi piace di il gelato. ➜ ✅ Mi piace il gelato.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:iniziare:verb",
         "word": "iniziare",
         "level": "A1",
         "definition": "Dare avvio o principio a un'azione.",
-        "example": "La lezione d'italiano inizia alle nove punto.",
+        "example": "Iniziamo a studiare.",
         "transcription": "/i.nitˈtsjaː.re/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "con"
+        ],
+        "pattern": "iniziare + a + [infinito] / con + [cosa]",
+        "common_mistake": "❌ Iniziamo di studiare. ➜ ✅ Iniziamo a studiare.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:dare:verb",
         "word": "dare",
         "level": "A1",
         "definition": "Consegnare spontaneamente qualcosa a qualcuno.",
-        "example": "Dò una mela rossa alla mia bambina.",
+        "example": "Dai questo libro a Giulia.",
         "transcription": "/ˈdaː.re/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "dare + [cosa] + a + [persona]",
+        "common_mistake": "❌ Dare per qualcuno. ➔ ✅ Dare a qualcuno.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:dare:verb",
         "word": "dare",
         "level": "A1",
         "definition": "Consegnare spontaneamente qualcosa a qualcuno.",
-        "example": "Dò una mela rossa alla mia bambina.",
+        "example": "Dai questo libro a Giulia.",
         "transcription": "/ˈdaː.re/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "dare + [cosa] + a + [persona]",
+        "common_mistake": "❌ Dare per qualcuno. ➔ ✅ Dare a qualcuno.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-18": {
@@ -961,54 +1795,103 @@
         "word": "dimenticare",
         "level": "A1",
         "definition": "Perdere il ricordo di un fatto o di una cosa.",
-        "example": "Dimentico spesso dove ho messo gli occhiali.",
+        "example": "Ho dimenticato le chiavi.",
         "transcription": "/di.men.tiˈkaː.re/",
-        "emoji": "🙈"
+        "emoji": "🙈",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "dimenticare + [qualcosa / di + infinito]",
+        "common_mistake": "❌ Ho dimenticato di le chiavi. ➜ ✅ Ho dimenticato le chiavi.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:avere:verb",
         "word": "avere",
         "level": "A0",
         "definition": "Verbo ausiliare che indica possesso o sensazione.",
-        "example": "Ho due cani e un gatto a casa.",
+        "example": "Ho un libro nuovo.",
         "transcription": "/aˈveː.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avere + [qualcosa]",
+        "common_mistake": "❌ Ho di un libro nuovo. ➜ ✅ Ho un libro nuovo.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:conoscere:verb",
         "word": "conoscere",
         "level": "A1",
         "definition": "Avere familiarità con una persona, un luogo o una cosa.",
-        "example": "Conosco bene Roma.",
+        "example": "Conosco molto bene il centro storico di Napoli.",
         "transcription": "/koˈnoʃʃere/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "conoscere + [persona/luogo]",
+        "common_mistake": "❌ Conosco con quella persona da anni. ➜ ✅ Conosco quella persona da anni.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:restare:verb",
         "word": "restare",
         "level": "A1",
         "definition": "Continuare a essere in un posto.",
-        "example": "Resto a casa la domenica.",
+        "example": "Resto a casa stasera.",
         "transcription": "/ˈrestare/",
-        "emoji": "🏨"
+        "emoji": "🏨",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "restare + a/in + [luogo]",
+        "common_mistake": "❌ Resto in casa stasera. ➜ ✅ Resto a casa stasera.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
-        "id": "it:spazzolare:verb",
-        "word": "spazzolare",
+        "id": "it:alzarsi:verb",
+        "word": "alzarsi",
         "level": "A1",
-        "definition": "Pulire qualcosa con una spazzola.",
-        "example": "Mi spazzolo i denti ogni mattina.",
-        "transcription": "/ˈspazzolare/",
-        "emoji": "🪥"
+        "definition": "Uscire dal letto dopo essersi svegliati.",
+        "example": "Mi alzai dal letto.",
+        "transcription": "/alˈtsar.si/",
+        "emoji": "🌅",
+        "preposition": "da",
+        "prepositions": [
+          "da"
+        ],
+        "pattern": "alzarsi + da + [sedia/letto]",
+        "common_mistake": "❌ Mi alzai dal il letto. ➜ ✅ Mi alzai dal letto.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:esistere:verb",
         "word": "esistere",
         "level": "A1",
         "definition": "Avere realtà effettiva nella vita o nel mondo.",
-        "example": "Esistono molte specie animali diverse nel mondo.",
+        "example": "L'amore esiste in ogni cultura.",
         "transcription": "/eˈzis.te.re/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "in",
+        "prepositions": [
+          "in"
+        ],
+        "pattern": "esistere + in + [luogo]",
+        "common_mistake": "❌ Esistono in molte possibilità. ➜ ✅ Esistono molte possibilità.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-19": {
@@ -1017,54 +1900,103 @@
         "word": "potere",
         "level": "A0",
         "definition": "Avere la possibilità o la capacità di compiere un'azione.",
-        "example": "Posso entrare in aula adesso?",
+        "example": "Posso uscire stasera con i miei amici?",
         "transcription": "/poˈteː.re/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "potere + [infinito]",
+        "common_mistake": "❌ Posso di parlare con lei? ➜ ✅ Posso parlare con lei?",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:ascoltare:verb",
         "word": "ascoltare",
         "level": "A1",
         "definition": "Sentire con attenzione suoni o parole.",
-        "example": "Ascolto la musica italiana mentre cucino.",
+        "example": "Ascolto la radio ogni mattina mentre faccio colazione.",
         "transcription": "/as.kolˈtaː.re/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ascoltare + [persona/suono]",
+        "common_mistake": "❌ Ascolto a la musica classica. ➜ ✅ Ascolto la musica classica.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:comprare:verb",
         "word": "comprare",
         "level": "A1",
         "definition": "Acquistare beni pagando un prezzo in denaro.",
-        "example": "Compro il pane fresco dal fornaio ogni mattina.",
+        "example": "Ho comprato un regalo per il compleanno di mia madre.",
         "transcription": "/komˈpraː.re/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprare + [oggetto] + a/da + [persona]",
+        "common_mistake": "❌ Compro per un vestito nuovo. ➜ ✅ Compro un vestito nuovo.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:dire:verb",
         "word": "dire",
         "level": "A1",
         "definition": "Esprimere con parole un pensiero o una frase.",
-        "example": "Dico sempre la verità ai miei genitori.",
+        "example": "Ho detto la verità a Luca.",
         "transcription": "/ˈdiː.re/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "di"
+        ],
+        "pattern": "dire + [qualcosa] + a + [persona] / dire di + [infinito]",
+        "common_mistake": "❌ Ho detto per Marco. ➔ ✅ Ho detto a Marco.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:vedere:verb",
         "word": "vedere",
         "level": "A0",
         "definition": "Percepire con gli occhi le cose circostanti.",
-        "example": "Vedo un bel fiore rosso nel giardino.",
+        "example": "Vedo un bel panorama dalla finestra.",
         "transcription": "/veˈdeː.re/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vedere + [persona/cosa]",
+        "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:diventare:verb",
         "word": "diventare",
         "level": "A2",
         "definition": "Cominciare a essere qualcosa.",
-        "example": "Lui vuole diventare un pilota.",
+        "example": "Vuole diventare un medico.",
         "transcription": "/divenˈtare/",
-        "emoji": "🦋"
+        "emoji": "🦋",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "diventare + [qualcosa]",
+        "common_mistake": "❌ Vuole diventare di un medico. ➜ ✅ Vuole diventare un medico.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-20": {
@@ -1073,54 +2005,102 @@
         "word": "bere",
         "level": "A0",
         "definition": "Inghiottire liquidi come acqua o succhi.",
-        "example": "Bevo un bicchiere d'acqua fresca dopo la corsa.",
+        "example": "Bevo un bicchiere d’acqua ogni mattina.",
         "transcription": "/ˈbeː.re/",
-        "emoji": "🥤"
+        "emoji": "🥤",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "bere + [bevanda]",
+        "common_mistake": "❌ Bevo a un caffè. ➔ ✅ Bevo un caffè.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:capire:verb",
         "word": "capire",
         "level": "A0",
         "definition": "Comprendere il significato di qualcosa.",
-        "example": "Ora capisco benissimo la spiegazione del professore.",
+        "example": "Capisco la lezione.",
         "transcription": "/kaˈpiː.re/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "capire + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Capisco di la lezione. ➜ ✅ Capisco la lezione.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:alzarsi:verb",
         "word": "alzarsi",
         "level": "A1",
         "definition": "Uscire dal letto dopo essersi svegliati.",
-        "example": "Mi alzo subito dal letto per fare colazione.",
+        "example": "Mi alzai dal letto.",
         "transcription": "/alˈtsar.si/",
-        "emoji": "🌅"
+        "emoji": "🌅",
+        "preposition": "da",
+        "prepositions": [
+          "da"
+        ],
+        "pattern": "alzarsi + da + [sedia/letto]",
+        "common_mistake": "❌ Mi alzai dal il letto. ➜ ✅ Mi alzai dal letto.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:avere:verb",
         "word": "avere",
         "level": "A0",
         "definition": "Verbo ausiliare che indica possesso o sensazione.",
-        "example": "Ho due cani e un gatto a casa.",
+        "example": "Ho un libro nuovo.",
         "transcription": "/aˈveː.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avere + [qualcosa]",
+        "common_mistake": "❌ Ho di un libro nuovo. ➜ ✅ Ho un libro nuovo.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:chiudere:verb",
         "word": "chiudere",
         "level": "A1",
         "definition": "Rendere chiuso uno spazio o un accesso.",
-        "example": "Chiudo la porta di casa prima di uscire.",
+        "example": "Chiudi la porta.",
         "transcription": "/ˈkjuː.de.re/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiudere + [porta/libro]",
+        "common_mistake": "❌ Chiudi a la porta. ➜ ✅ Chiudi la porta.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:guardare:verb",
         "word": "guardare",
         "level": "A1",
         "definition": "Fissare lo sguardo su qualcuno o qualcosa.",
-        "example": "Guardiamo un bel film in televisione stasera.",
+        "example": "Stiamo guardando un film bellissimo alla televisione.",
         "transcription": "/gwarˈdaː.re/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "guardare + [persona/cosa]",
+        "common_mistake": "❌ Guarda a la TV tutto il giorno. ➜ ✅ Guarda la TV tutto il giorno.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-21": {
@@ -1129,54 +2109,103 @@
         "word": "vedere",
         "level": "A0",
         "definition": "Percepire con gli occhi le cose circostanti.",
-        "example": "Vedo un bel fiore rosso nel giardino.",
+        "example": "Vedo un bel panorama dalla finestra.",
         "transcription": "/veˈdeː.re/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vedere + [persona/cosa]",
+        "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:chiamare:verb",
         "word": "chiamare",
         "level": "A1",
         "definition": "Telefonare a qualcuno al cellulare per parlare.",
-        "example": "Chiamo mia madre al telefono per sapere come sta.",
+        "example": "Chiamo il taxi per andare in aeroporto.",
         "transcription": "/kjaˈmaː.re/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiamare + [persona]",
+        "common_mistake": "❌ Chiamo a Marco per la festa. ➜ ✅ Chiamo Marco per la festa.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:aprire:verb",
         "word": "aprire",
         "level": "A1",
         "definition": "Spostare un battente per permettere il passaggio.",
-        "example": "Apro la finestra della camera per far entrare aria fresca.",
+        "example": "Apri la finestra.",
         "transcription": "/aˈpriː.re/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aprire + [porta/finestra]",
+        "common_mistake": "❌ Apri a la finestra. ➜ ✅ Apri la finestra.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:aspettare:verb",
         "word": "aspettare",
         "level": "A1",
         "definition": "Trattenersi in un luogo attendendo l'arrivo di qualcuno.",
-        "example": "Aspetto l'autobus alla fermata in centro.",
+        "example": "Aspetto il treno sul binario tre.",
         "transcription": "/as.petˈtaː.re/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aspettare + [persona/evento]",
+        "common_mistake": "❌ Aspetto per l'autobus. ➜ ✅ Aspetto l'autobus.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:cercare:verb",
         "word": "cercare",
         "level": "A1",
         "definition": "Sforzarsi di trovare qualcuno o qualcosa.",
-        "example": "Cerco le mie chiavi di casa nella borsa.",
+        "example": "Sto cercando le chiavi della macchina dappertutto.",
         "transcription": "/tʃerˈkaː.re/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "cercare + [oggetto/persona]",
+        "common_mistake": "❌ Cerco per i miei occhiali. ➜ ✅ Cerco i miei occhiali.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:mangiare:verb",
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-22": {
@@ -1185,54 +2214,102 @@
         "word": "prendere",
         "level": "A1",
         "definition": "Afferrare con la mano o raccogliere un oggetto.",
-        "example": "Prendo l'autobus per andare in centro.",
+        "example": "Prendo l’autobus per andare al lavoro.",
         "transcription": "/ˈprɛn.de.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendere + [cosa/mezzo di trasporto]",
+        "common_mistake": "❌ Prendo a il treno. ➔ ✅ Prendo il treno.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:aprire:verb",
         "word": "aprire",
         "level": "A1",
         "definition": "Spostare un battente per permettere il passaggio.",
-        "example": "Apro la finestra della camera per far entrare aria fresca.",
+        "example": "Apri la finestra.",
         "transcription": "/aˈpriː.re/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aprire + [porta/finestra]",
+        "common_mistake": "❌ Apri a la finestra. ➜ ✅ Apri la finestra.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:smettere:verb",
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:dimenticare:verb",
         "word": "dimenticare",
         "level": "A1",
         "definition": "Perdere il ricordo di un fatto o di una cosa.",
-        "example": "Dimentico spesso dove ho messo gli occhiali.",
+        "example": "Ho dimenticato le chiavi.",
         "transcription": "/di.men.tiˈkaː.re/",
-        "emoji": "🙈"
+        "emoji": "🙈",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "dimenticare + [qualcosa / di + infinito]",
+        "common_mistake": "❌ Ho dimenticato di le chiavi. ➜ ✅ Ho dimenticato le chiavi.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:guardare:verb",
         "word": "guardare",
         "level": "A1",
         "definition": "Fissare lo sguardo su qualcuno o qualcosa.",
-        "example": "Guardiamo un bel film in televisione stasera.",
+        "example": "Stiamo guardando un film bellissimo alla televisione.",
         "transcription": "/gwarˈdaː.re/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "guardare + [persona/cosa]",
+        "common_mistake": "❌ Guarda a la TV tutto il giorno. ➜ ✅ Guarda la TV tutto il giorno.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:odiare:verb",
         "word": "odiare",
         "level": "A1",
         "definition": "Fortemente non gradire.",
-        "example": "Odia fare il pendolare in autobus.",
+        "example": "Odio il freddo intenso.",
         "transcription": "/ˈodiare/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Odio di il freddo. ➜ ✅ Odio il freddo.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-23": {
@@ -1241,54 +2318,102 @@
         "word": "fare",
         "level": "A0",
         "definition": "Realizzare, produrre o compiere un'azione.",
-        "example": "Ogni mattina faccio colazione alle sette.",
+        "example": "Faccio i compiti.",
         "transcription": "/ˈfaː.re/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fare + [azione]",
+        "common_mistake": "❌ Faccio di i compiti. ➜ ✅ Faccio i compiti.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:cercare:verb",
         "word": "cercare",
         "level": "A1",
         "definition": "Sforzarsi di trovare qualcuno o qualcosa.",
-        "example": "Cerco le mie chiavi di casa nella borsa.",
+        "example": "Sto cercando le chiavi della macchina dappertutto.",
         "transcription": "/tʃerˈkaː.re/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "cercare + [oggetto/persona]",
+        "common_mistake": "❌ Cerco per i miei occhiali. ➜ ✅ Cerco i miei occhiali.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:vestirsi:verb",
         "word": "vestirsi",
         "level": "A2",
         "definition": "Indossare i propri abiti e vestiti della giornata.",
-        "example": "Mi vesto rapidamente per non arrivare tardi.",
+        "example": "Mi vesto per andare al lavoro.",
         "transcription": "/vesˈtir.si/",
-        "emoji": "👔"
+        "emoji": "👔",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "vestirsi + di/con + [abiti]",
+        "common_mistake": "❌ Mi vesto di per andare al lavoro. ➜ ✅ Mi vesto per andare al lavoro.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:conoscere:verb",
         "word": "conoscere",
         "level": "A1",
         "definition": "Avere familiarità con una persona, un luogo o una cosa.",
-        "example": "Conosco bene Roma.",
+        "example": "Conosco molto bene il centro storico di Napoli.",
         "transcription": "/koˈnoʃʃere/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "conoscere + [persona/luogo]",
+        "common_mistake": "❌ Conosco con quella persona da anni. ➜ ✅ Conosco quella persona da anni.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:fare:verb",
         "word": "fare",
         "level": "A0",
         "definition": "Realizzare, produrre o compiere un'azione.",
-        "example": "Ogni mattina faccio colazione alle sette.",
+        "example": "Faccio i compiti.",
         "transcription": "/ˈfaː.re/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fare + [azione]",
+        "common_mistake": "❌ Faccio di i compiti. ➜ ✅ Faccio i compiti.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:pagare:verb",
         "word": "pagare",
         "level": "A1",
         "definition": "Dare denaro per un acquisto o un servizio.",
-        "example": "Pago la cena con la carta di credito.",
+        "example": "Pago io la cena di stasera per tutti.",
         "transcription": "/paˈɡaː.re/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "pagare + [conto/somma]",
+        "common_mistake": "❌ Pago per il caffè al bar. ➜ ✅ Pago il caffè al bar.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-24": {
@@ -1297,110 +2422,208 @@
         "word": "avere",
         "level": "A0",
         "definition": "Verbo ausiliare che indica possesso o sensazione.",
-        "example": "Ho due cani e un gatto a casa.",
+        "example": "Ho un libro nuovo.",
         "transcription": "/aˈveː.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avere + [qualcosa]",
+        "common_mistake": "❌ Ho di un libro nuovo. ➜ ✅ Ho un libro nuovo.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:finire:verb",
         "word": "finire",
         "level": "A1",
         "definition": "Giungere al termine o completare qualcosa.",
-        "example": "Finisco i compiti di scuola prima di cena.",
+        "example": "Ho finito di lavorare.",
         "transcription": "/fiˈniː.re/",
-        "emoji": "⏹️"
+        "emoji": "⏹️",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "finire + di + [infinito]",
+        "common_mistake": "❌ Ho finito a lavorare. ➜ ✅ Ho finito di lavorare.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:odiare:verb",
         "word": "odiare",
         "level": "A1",
         "definition": "Fortemente non gradire.",
-        "example": "Odia fare il pendolare in autobus.",
+        "example": "Odio il freddo intenso.",
         "transcription": "/ˈodiare/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Odio di il freddo. ➜ ✅ Odio il freddo.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:mangiare:verb",
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:ascoltare:verb",
         "word": "ascoltare",
         "level": "A1",
         "definition": "Sentire con attenzione suoni o parole.",
-        "example": "Ascolto la musica italiana mentre cucino.",
+        "example": "Ascolto la radio ogni mattina mentre faccio colazione.",
         "transcription": "/as.kolˈtaː.re/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ascoltare + [persona/suono]",
+        "common_mistake": "❌ Ascolto a la musica classica. ➜ ✅ Ascolto la musica classica.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:piacere:verb",
         "word": "piacere",
         "level": "A0",
         "definition": "Suscitare un'impressione gradita o gradimento.",
-        "example": "Mi piace molto mangiare la pizza napoletana.",
+        "example": "Mi piace il gelato.",
         "transcription": "/pjaˈtʃeː.re/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "piacere + a + [persona]",
+        "common_mistake": "❌ Mi piace di il gelato. ➜ ✅ Mi piace il gelato.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-25": {
       "A1": {
-        "id": "it:spazzolare:verb",
-        "word": "spazzolare",
+        "id": "it:smettere:verb",
+        "word": "smettere",
         "level": "A1",
-        "definition": "Pulire qualcosa con una spazzola.",
-        "example": "Mi spazzolo i denti ogni mattina.",
-        "transcription": "/ˈspazzolare/",
-        "emoji": "🪥"
+        "definition": "Finire di fare qualcosa.",
+        "example": "Smettila di parlare.",
+        "transcription": "/ˈzmettere/",
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:mangiare:verb",
         "word": "mangiare",
         "level": "A0",
         "definition": "Masticare e inghiottire cibo per nutrirsi.",
-        "example": "Mangiamo la pasta al pomodoro a pranzo.",
+        "example": "Mangio una mela.",
         "transcription": "/manˈdʒaː.re/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pattern": "mangiare + [cibo] / al + [ristorante]",
+        "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:prendere:verb",
         "word": "prendere",
         "level": "A1",
         "definition": "Afferrare con la mano o raccogliere un oggetto.",
-        "example": "Prendo l'autobus per andare in centro.",
+        "example": "Prendo l’autobus per andare al lavoro.",
         "transcription": "/ˈprɛn.de.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendere + [cosa/mezzo di trasporto]",
+        "common_mistake": "❌ Prendo a il treno. ➔ ✅ Prendo il treno.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:finire:verb",
         "word": "finire",
         "level": "A1",
         "definition": "Giungere al termine o completare qualcosa.",
-        "example": "Finisco i compiti di scuola prima di cena.",
+        "example": "Ho finito di lavorare.",
         "transcription": "/fiˈniː.re/",
-        "emoji": "⏹️"
+        "emoji": "⏹️",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "finire + di + [infinito]",
+        "common_mistake": "❌ Ho finito a lavorare. ➜ ✅ Ho finito di lavorare.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:aprire:verb",
         "word": "aprire",
         "level": "A1",
         "definition": "Spostare un battente per permettere il passaggio.",
-        "example": "Apro la finestra della camera per far entrare aria fresca.",
+        "example": "Apri la finestra.",
         "transcription": "/aˈpriː.re/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aprire + [porta/finestra]",
+        "common_mistake": "❌ Apri a la finestra. ➜ ✅ Apri la finestra.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:potere:verb",
         "word": "potere",
         "level": "A0",
         "definition": "Avere la possibilità o la capacità di compiere un'azione.",
-        "example": "Posso entrare in aula adesso?",
+        "example": "Posso uscire stasera con i miei amici?",
         "transcription": "/poˈteː.re/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "potere + [infinito]",
+        "common_mistake": "❌ Posso di parlare con lei? ➜ ✅ Posso parlare con lei?",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-26": {
@@ -1409,54 +2632,103 @@
         "word": "piacere",
         "level": "A0",
         "definition": "Suscitare un'impressione gradita o gradimento.",
-        "example": "Mi piace molto mangiare la pizza napoletana.",
+        "example": "Mi piace il gelato.",
         "transcription": "/pjaˈtʃeː.re/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "piacere + a + [persona]",
+        "common_mistake": "❌ Mi piace di il gelato. ➜ ✅ Mi piace il gelato.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "it:dare:verb",
         "word": "dare",
         "level": "A1",
         "definition": "Consegnare spontaneamente qualcosa a qualcuno.",
-        "example": "Dò una mela rossa alla mia bambina.",
+        "example": "Dai questo libro a Giulia.",
         "transcription": "/ˈdaː.re/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "dare + [cosa] + a + [persona]",
+        "common_mistake": "❌ Dare per qualcuno. ➔ ✅ Dare a qualcuno.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:sentire:verb",
         "word": "sentire",
         "level": "A1",
         "definition": "Percepire un suono con l'udito o una sensazione.",
-        "example": "Sento il suono della campana della chiesa.",
+        "example": "Sento una bella musica in sottofondo.",
         "transcription": "/senˈtiː.re/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:preferire:verb",
         "word": "preferire",
         "level": "A1",
         "definition": "Preferire una cosa a un'altra.",
-        "example": "Preferisco il tè al caffè.",
+        "example": "Preferisco la montagna al mare in estate.",
         "transcription": "/ˈpreferire/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "preferire + [cosa] + a + [altra cosa]",
+        "common_mistake": "❌ Preferisco il tè che il caffè. ➜ ✅ Preferisco il tè al caffè.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:diventare:verb",
         "word": "diventare",
         "level": "A2",
         "definition": "Cominciare a essere qualcosa.",
-        "example": "Lui vuole diventare un pilota.",
+        "example": "Vuole diventare un medico.",
         "transcription": "/divenˈtare/",
-        "emoji": "🦋"
+        "emoji": "🦋",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "diventare + [qualcosa]",
+        "common_mistake": "❌ Vuole diventare di un medico. ➜ ✅ Vuole diventare un medico.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:preferire:verb",
         "word": "preferire",
         "level": "A1",
         "definition": "Preferire una cosa a un'altra.",
-        "example": "Preferisco il tè al caffè.",
+        "example": "Preferisco la montagna al mare in estate.",
         "transcription": "/ˈpreferire/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "preferire + [cosa] + a + [altra cosa]",
+        "common_mistake": "❌ Preferisco il tè che il caffè. ➜ ✅ Preferisco il tè al caffè.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-27": {
@@ -1465,54 +2737,104 @@
         "word": "dire",
         "level": "A1",
         "definition": "Esprimere con parole un pensiero o una frase.",
-        "example": "Dico sempre la verità ai miei genitori.",
+        "example": "Ho detto la verità a Luca.",
         "transcription": "/ˈdiː.re/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "di"
+        ],
+        "pattern": "dire + [qualcosa] + a + [persona] / dire di + [infinito]",
+        "common_mistake": "❌ Ho detto per Marco. ➔ ✅ Ho detto a Marco.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:iniziare:verb",
         "word": "iniziare",
         "level": "A1",
         "definition": "Dare avvio o principio a un'azione.",
-        "example": "La lezione d'italiano inizia alle nove punto.",
+        "example": "Iniziamo a studiare.",
         "transcription": "/i.nitˈtsjaː.re/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "a",
+        "prepositions": [
+          "a",
+          "con"
+        ],
+        "pattern": "iniziare + a + [infinito] / con + [cosa]",
+        "common_mistake": "❌ Iniziamo di studiare. ➜ ✅ Iniziamo a studiare.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:significare:verb",
         "word": "significare",
         "level": "A1",
         "definition": "Avere un particolare significato; avere l intenzione.",
-        "example": "Cosa significa questa clausola nel contratto?",
+        "example": "Che cosa significa questa parola?",
         "transcription": "/ˈsignificare/",
-        "emoji": "❔"
+        "emoji": "❔",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "significare + [qualcosa]",
+        "common_mistake": "❌ Che cosa significa di questa parola? ➜ ✅ Che cosa significa questa parola?",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:pagare:verb",
         "word": "pagare",
         "level": "A1",
         "definition": "Dare denaro per un acquisto o un servizio.",
-        "example": "Pago la cena con la carta di credito.",
+        "example": "Pago io la cena di stasera per tutti.",
         "transcription": "/paˈɡaː.re/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "pagare + [conto/somma]",
+        "common_mistake": "❌ Pago per il caffè al bar. ➜ ✅ Pago il caffè al bar.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:conoscere:verb",
         "word": "conoscere",
         "level": "A1",
         "definition": "Avere familiarità con una persona, un luogo o una cosa.",
-        "example": "Conosco bene Roma.",
+        "example": "Conosco molto bene il centro storico di Napoli.",
         "transcription": "/koˈnoʃʃere/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "conoscere + [persona/luogo]",
+        "common_mistake": "❌ Conosco con quella persona da anni. ➜ ✅ Conosco quella persona da anni.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:prendere:verb",
         "word": "prendere",
         "level": "A1",
         "definition": "Afferrare con la mano o raccogliere un oggetto.",
-        "example": "Prendo l'autobus per andare in centro.",
+        "example": "Prendo l’autobus per andare al lavoro.",
         "transcription": "/ˈprɛn.de.re/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendere + [cosa/mezzo di trasporto]",
+        "common_mistake": "❌ Prendo a il treno. ➔ ✅ Prendo il treno.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-28": {
@@ -1521,54 +2843,102 @@
         "word": "ascoltare",
         "level": "A1",
         "definition": "Sentire con attenzione suoni o parole.",
-        "example": "Ascolto la musica italiana mentre cucino.",
+        "example": "Ascolto la radio ogni mattina mentre faccio colazione.",
         "transcription": "/as.kolˈtaː.re/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ascoltare + [persona/suono]",
+        "common_mistake": "❌ Ascolto a la musica classica. ➜ ✅ Ascolto la musica classica.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:capire:verb",
         "word": "capire",
         "level": "A0",
         "definition": "Comprendere il significato di qualcosa.",
-        "example": "Ora capisco benissimo la spiegazione del professore.",
+        "example": "Capisco la lezione.",
         "transcription": "/kaˈpiː.re/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "capire + [qualcuno/qualcosa]",
+        "common_mistake": "❌ Capisco di la lezione. ➜ ✅ Capisco la lezione.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:vedere:verb",
         "word": "vedere",
         "level": "A0",
         "definition": "Percepire con gli occhi le cose circostanti.",
-        "example": "Vedo un bel fiore rosso nel giardino.",
+        "example": "Vedo un bel panorama dalla finestra.",
         "transcription": "/veˈdeː.re/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vedere + [persona/cosa]",
+        "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:volere:verb",
         "word": "volere",
         "level": "A0",
         "definition": "Avere il desiderio di fare o ottenere qualcosa.",
-        "example": "Voglio comprare una pizza per cena.",
+        "example": "Voglio imparare l'italiano fluente.",
         "transcription": "/voˈleː.re/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "volere + [cosa/infinito]",
+        "common_mistake": "❌ Voglio di una pizza. ➜ ✅ Voglio una pizza.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:alzarsi:verb",
         "word": "alzarsi",
         "level": "A1",
         "definition": "Uscire dal letto dopo essersi svegliati.",
-        "example": "Mi alzo subito dal letto per fare colazione.",
+        "example": "Mi alzai dal letto.",
         "transcription": "/alˈtsar.si/",
-        "emoji": "🌅"
+        "emoji": "🌅",
+        "preposition": "da",
+        "prepositions": [
+          "da"
+        ],
+        "pattern": "alzarsi + da + [sedia/letto]",
+        "common_mistake": "❌ Mi alzai dal il letto. ➜ ✅ Mi alzai dal letto.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-29": {
@@ -1577,54 +2947,102 @@
         "word": "significare",
         "level": "A1",
         "definition": "Avere un particolare significato; avere l intenzione.",
-        "example": "Cosa significa questa clausola nel contratto?",
+        "example": "Che cosa significa questa parola?",
         "transcription": "/ˈsignificare/",
-        "emoji": "❔"
+        "emoji": "❔",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "significare + [qualcosa]",
+        "common_mistake": "❌ Che cosa significa di questa parola? ➜ ✅ Che cosa significa questa parola?",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:vedere:verb",
         "word": "vedere",
         "level": "A0",
         "definition": "Percepire con gli occhi le cose circostanti.",
-        "example": "Vedo un bel fiore rosso nel giardino.",
+        "example": "Vedo un bel panorama dalla finestra.",
         "transcription": "/veˈdeː.re/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vedere + [persona/cosa]",
+        "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:chiamare:verb",
         "word": "chiamare",
         "level": "A1",
         "definition": "Telefonare a qualcuno al cellulare per parlare.",
-        "example": "Chiamo mia madre al telefono per sapere come sta.",
+        "example": "Chiamo il taxi per andare in aeroporto.",
         "transcription": "/kjaˈmaː.re/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiamare + [persona]",
+        "common_mistake": "❌ Chiamo a Marco per la festa. ➜ ✅ Chiamo Marco per la festa.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
-        "id": "it:spazzolare:verb",
-        "word": "spazzolare",
+        "id": "it:svegliarsi:verb",
+        "word": "svegliarsi",
         "level": "A1",
-        "definition": "Pulire qualcosa con una spazzola.",
-        "example": "Mi spazzolo i denti ogni mattina.",
-        "transcription": "/ˈspazzolare/",
-        "emoji": "🪥"
+        "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
+        "example": "Mi sveglio alle sette.",
+        "transcription": "/zveˈʎar.si/",
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:aspettare:verb",
         "word": "aspettare",
         "level": "A1",
         "definition": "Trattenersi in un luogo attendendo l'arrivo di qualcuno.",
-        "example": "Aspetto l'autobus alla fermata in centro.",
+        "example": "Aspetto il treno sul binario tre.",
         "transcription": "/as.petˈtaː.re/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aspettare + [persona/evento]",
+        "common_mistake": "❌ Aspetto per l'autobus. ➜ ✅ Aspetto l'autobus.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-30": {
@@ -1633,54 +3051,103 @@
         "word": "chiamare",
         "level": "A1",
         "definition": "Telefonare a qualcuno al cellulare per parlare.",
-        "example": "Chiamo mia madre al telefono per sapere come sta.",
+        "example": "Chiamo il taxi per andare in aeroporto.",
         "transcription": "/kjaˈmaː.re/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chiamare + [persona]",
+        "common_mistake": "❌ Chiamo a Marco per la festa. ➜ ✅ Chiamo Marco per la festa.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
-        "id": "it:pulire:verb",
-        "word": "pulire",
+        "id": "it:sentire:verb",
+        "word": "sentire",
         "level": "A1",
-        "definition": "Rendere pulito un oggetto o un ambiente.",
-        "example": "Pulisco la mia camera da letto il sabato mattina.",
-        "transcription": "/puˈliː.re/",
-        "emoji": "🧹"
+        "definition": "Percepire un suono con l'udito o una sensazione.",
+        "example": "Sento una bella musica in sottofondo.",
+        "transcription": "/senˈtiː.re/",
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:cercare:verb",
         "word": "cercare",
         "level": "A1",
         "definition": "Sforzarsi di trovare qualcuno o qualcosa.",
-        "example": "Cerco le mie chiavi di casa nella borsa.",
+        "example": "Sto cercando le chiavi della macchina dappertutto.",
         "transcription": "/tʃerˈkaː.re/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "cercare + [oggetto/persona]",
+        "common_mistake": "❌ Cerco per i miei occhiali. ➜ ✅ Cerco i miei occhiali.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:smettere:verb",
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:smettere:verb",
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:smettere:verb",
         "word": "smettere",
         "level": "A1",
         "definition": "Finire di fare qualcosa.",
-        "example": "Smetti di parlare!",
+        "example": "Smettila di parlare.",
         "transcription": "/ˈzmettere/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "smettere + di + [infinito]",
+        "common_mistake": "❌ Smettila a parlare. ➜ ✅ Smettila di parlare.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-01-31": {
@@ -1689,54 +3156,103 @@
         "word": "guardare",
         "level": "A1",
         "definition": "Fissare lo sguardo su qualcuno o qualcosa.",
-        "example": "Guardiamo un bel film in televisione stasera.",
+        "example": "Stiamo guardando un film bellissimo alla televisione.",
         "transcription": "/gwarˈdaː.re/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "guardare + [persona/cosa]",
+        "common_mistake": "❌ Guarda a la TV tutto il giorno. ➜ ✅ Guarda la TV tutto il giorno.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "it:potere:verb",
         "word": "potere",
         "level": "A0",
         "definition": "Avere la possibilità o la capacità di compiere un'azione.",
-        "example": "Posso entrare in aula adesso?",
+        "example": "Posso uscire stasera con i miei amici?",
         "transcription": "/poˈteː.re/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "potere + [infinito]",
+        "common_mistake": "❌ Posso di parlare con lei? ➜ ✅ Posso parlare con lei?",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "it:bere:verb",
         "word": "bere",
         "level": "A0",
         "definition": "Inghiottire liquidi come acqua o succhi.",
-        "example": "Bevo un bicchiere d'acqua fresca dopo la corsa.",
+        "example": "Bevo un bicchiere d’acqua ogni mattina.",
         "transcription": "/ˈbeː.re/",
-        "emoji": "🥤"
+        "emoji": "🥤",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "bere + [bevanda]",
+        "common_mistake": "❌ Bevo a un caffè. ➔ ✅ Bevo un caffè.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "it:svegliarsi:verb",
         "word": "svegliarsi",
         "level": "A1",
         "definition": "Uscire dal sonno e riaprire gli occhi al mattino.",
-        "example": "Mi sveglio ogni mattina esattamente alle sette.",
+        "example": "Mi sveglio alle sette.",
         "transcription": "/zveˈʎar.si/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "a",
+        "prepositions": [
+          "a"
+        ],
+        "pattern": "svegliarsi + [a orario]",
+        "common_mistake": "❌ Mi sveglio in le sette. ➜ ✅ Mi sveglio alle sette.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "it:vestirsi:verb",
         "word": "vestirsi",
         "level": "A2",
         "definition": "Indossare i propri abiti e vestiti della giornata.",
-        "example": "Mi vesto rapidamente per non arrivare tardi.",
+        "example": "Mi vesto per andare al lavoro.",
         "transcription": "/vesˈtir.si/",
-        "emoji": "👔"
+        "emoji": "👔",
+        "preposition": "di",
+        "prepositions": [
+          "di"
+        ],
+        "pattern": "vestirsi + di/con + [abiti]",
+        "common_mistake": "❌ Mi vesto di per andare al lavoro. ➜ ✅ Mi vesto per andare al lavoro.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "it:sentire:verb",
         "word": "sentire",
         "level": "A1",
         "definition": "Percepire un suono con l'udito o una sensazione.",
-        "example": "Sento il suono della campana della chiesa.",
+        "example": "Sento una bella musica in sottofondo.",
         "transcription": "/senˈtiː.re/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "di"
+        ],
+        "pattern": "sentire + [rumore/persona]",
+        "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+        "slot_level": "C2",
+        "review": true
       }
     }
   }

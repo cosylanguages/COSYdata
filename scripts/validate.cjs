@@ -661,8 +661,23 @@ function main() {
         const where = `${rel} ${date} ${level} (${c.id})`;
         const e = byId[c.id];
         if (!e) { hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: entry no longer exists - run npm run build:daily`); continue; }
-        if (JSON.stringify(c) !== JSON.stringify(spec.card(e))) {
+        if (JSON.stringify(c) !== JSON.stringify(dailyLib.cardFor(spec, e, level, lang))) {
           hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: card is out of date with the dictionary - run npm run build:daily`);
+        }
+        if (slot === 'verb-prep') {
+          if (!c.preposition) {
+            hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: verb-prep card has no governed preposition - run npm run build:daily`);
+          } else if (!c.pattern) {
+            hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: verb-prep card has no pattern - run npm run build:daily`);
+          } else if (c.preposition !== 'none' && !String(c.pattern).toLowerCase().includes(String(c.preposition).toLowerCase())) {
+            hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: pattern does not show the governed preposition '${c.preposition}' - run npm run build:daily`);
+          }
+        }
+        if ((slot === 'verb' || slot === 'verb-prep') && c.slot_level) {
+          const expectedReview = String(e.level || '').toUpperCase() !== level;
+          if (c.review !== expectedReview) {
+            hasError = true; console.error(`\n[CALENDAR ERROR] ${where}: review flag does not match the card level - run npm run build:daily`);
+          }
         }
         const overridden = ((dailyLib.readJson(path.join(rootDir, 'daily', lang, 'calendar', 'overrides.json'), {})[slot] || {})[date] || {})[level] === c.id;
         if (!overridden && !(pools[level] || []).some((p) => p.id === c.id)) {

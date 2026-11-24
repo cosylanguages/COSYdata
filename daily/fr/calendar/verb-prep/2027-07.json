@@ -9,27 +9,51 @@
         "word": "penser",
         "level": "A0",
         "definition": "Former des idées dans son esprit.",
-        "example": "Je pense que c'est une excellente idée.",
+        "example": "Je pense souvent à mes amis d'enfance.",
         "transcription": "/pɑ̃.se/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "penser à [quelqu'un / verbe] vs penser de [avis]",
+        "common_mistake": "❌ Que pensez-vous à ce livre ? ➜ ✅ Que pensez-vous de ce livre ?",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:penser:verb",
         "word": "penser",
         "level": "A0",
         "definition": "Former des idées dans son esprit.",
-        "example": "Je pense que c'est une excellente idée.",
+        "example": "Je pense souvent à mes amis d'enfance.",
         "transcription": "/pɑ̃.se/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "penser à [quelqu'un / verbe] vs penser de [avis]",
+        "common_mistake": "❌ Que pensez-vous à ce livre ? ➜ ✅ Que pensez-vous de ce livre ?",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:visiter:verb",
         "word": "visiter",
         "level": "A2",
         "definition": "Parcourir un lieu pour le découvrir.",
-        "example": "Nous allons visiter le grand musée ce matin.",
+        "example": "Nous visitons le musée du Louvre ce matin.",
         "transcription": "/vi.zi.te/",
-        "emoji": "🏛️"
+        "emoji": "🏛️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "visiter [un lieu]",
+        "common_mistake": "❌ Je vais visiter à mes grands-parents. ➜ ✅ Je vais rendre visite à mes grands-parents. (OU : Je vais visiter mes grands-parents - incorrect en français châtié)",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:prendre:verb",
@@ -38,34 +62,66 @@
         "definition": "Saisir quelque chose avec les mains.",
         "example": "Je prends le bus tous les matins.",
         "transcription": "/pʁɑ̃dʁ/",
-        "emoji": "✊"
+        "emoji": "✊",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendre [quelque chose / quelqu’un]",
+        "common_mistake": "❌ Je prends à l’autobus. ➔ ✅ Je prends l’autobus.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:regarder:verb",
         "word": "regarder",
         "level": "A0",
         "definition": "Porter ses yeux sur quelque chose.",
-        "example": "Nous regardons un film à la télévision.",
+        "example": "Nous regardons un film intéressant ce soir.",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "emoji": "📺"
+        "emoji": "📺",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "regarder [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Regarde à cette image ! ➜ ✅ Regarde cette image !",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:aller:verb",
         "word": "aller",
         "level": "A0",
         "definition": "Se déplacer d'un lieu à un autre.",
-        "example": "Nous allons à la boulangerie le matin.",
+        "example": "Je vais au cinéma ce soir avec mes amis.",
         "transcription": "/a.le/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aller à [lieu / événement]",
+        "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:visiter:verb",
         "word": "visiter",
         "level": "A2",
         "definition": "Parcourir un lieu pour le découvrir.",
-        "example": "Nous allons visiter le grand musée ce matin.",
+        "example": "Nous visitons le musée du Louvre ce matin.",
         "transcription": "/vi.zi.te/",
-        "emoji": "🏛️"
+        "emoji": "🏛️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "visiter [un lieu]",
+        "common_mistake": "❌ Je vais visiter à mes grands-parents. ➜ ✅ Je vais rendre visite à mes grands-parents. (OU : Je vais visiter mes grands-parents - incorrect en français châtié)",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-02": {
@@ -74,63 +130,119 @@
         "word": "écouter",
         "level": "A0",
         "definition": "Prêter l'oreille pour entendre un son.",
-        "example": "J'écoute de la musique douce le soir.",
+        "example": "J'écoute de la musique classique pour réviser.",
         "transcription": "/e.ku.te/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "écouter [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'écoute à la musique. ➜ ✅ J'écoute la musique.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:detester:verb",
         "word": "détester",
         "level": "A0",
         "definition": "Fortement ne pas aimer.",
-        "example": "Il déteste faire le trajet en bus.",
+        "example": "Je déteste attendre sous la pluie.",
         "transcription": "/de.tɛs.te/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "détester [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ Je déteste de le froid. ➜ ✅ Je déteste le froid.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:aller:verb",
         "word": "aller",
         "level": "A0",
         "definition": "Se déplacer d'un lieu à un autre.",
-        "example": "Nous allons à la boulangerie le matin.",
+        "example": "Je vais au cinéma ce soir avec mes amis.",
         "transcription": "/a.le/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aller à [lieu / événement]",
+        "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:detester:verb",
         "word": "détester",
         "level": "A0",
         "definition": "Fortement ne pas aimer.",
-        "example": "Il déteste faire le trajet en bus.",
+        "example": "Je déteste attendre sous la pluie.",
         "transcription": "/de.tɛs.te/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "détester [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ Je déteste de le froid. ➜ ✅ Je déteste le froid.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:payer:verb",
         "word": "payer",
         "level": "A0",
         "definition": "Donner de l'argent pour un achat.",
-        "example": "Je paye mon repas par carte bancaire.",
+        "example": "Je paye l'addition par carte bancaire.",
         "transcription": "/pɛ.je/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "payer [quelque chose / quelqu'un]",
+        "common_mistake": "❌ Je paye pour le café. ➜ ✅ Je paye le café.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:vouloir:verb",
         "word": "vouloir",
         "level": "A0",
         "definition": "Avoir le désir de faire ou d'obtenir quelque chose.",
-        "example": "Je veux apprendre à parler français.",
+        "example": "Je veux apprendre le français rapidement.",
         "transcription": "/vu.lwaʁ/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir [quelque chose / verbe]",
+        "common_mistake": "❌ Je veux pour un café. ➜ ✅ Je veux un café.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:mourir:verb",
         "word": "mourir",
         "level": "A0",
         "definition": "Cesser de vivre.",
-        "example": "Les plantes meurent sans eau.",
+        "example": "Il est mort de vieillesse.",
         "transcription": "/mu.ʁiʁ/",
-        "emoji": "⚰️"
+        "emoji": "⚰️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "mourir de [cause]",
+        "common_mistake": "❌ Il est mort par vieillesse. ➜ ✅ Il est mort de vieillesse.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-03": {
@@ -139,63 +251,119 @@
         "word": "aimer bien",
         "level": "A0",
         "definition": "Apprécier quelque chose ou quelqu'un de façon modérée.",
-        "example": "J'aime bien lire le journal le matin.",
+        "example": "J'aime bien ce film.",
         "transcription": "/ɛ.me bjɛ̃/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aimer bien [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'aime bien de ce film. ➜ ✅ J'aime bien ce film.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:adorer:verb",
         "word": "adorer",
         "level": "A0",
         "definition": "Aimer très fort quelque chose.",
-        "example": "Elle adore manger du chocolat chaud.",
+        "example": "J'adore voyager dans des pays étrangers.",
         "transcription": "/a.dɔ.ʁe/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "adorer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'adore de voyager en France. ➜ ✅ J'adore voyager en France.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:remercier:verb",
         "word": "remercier",
         "level": "A2",
         "definition": "Exprimer sa gratitude envers quelqu'un.",
-        "example": "Je vous remercie sincèrement pour votre aide.",
+        "example": "Je vous remercie de votre aide si précieuse.",
         "transcription": "/ʁə.mɛʁ.sje/",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "remercier [quelqu'un] de / pour [quelque chose]",
+        "common_mistake": "❌ Je remercie à vous pour l'invitation. ➜ ✅ Je vous remercie pour l'invitation.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:venir:verb",
         "word": "venir",
         "level": "A0",
         "definition": "Se déplacer pour arriver à l'endroit où l'on est.",
-        "example": "Mon ami vient chez moi ce soir.",
+        "example": "Il vient du Japon pour ses études.",
         "transcription": "/və.niʁ/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "venir de [lieu / verbe]",
+        "common_mistake": "❌ Il vient à Paris (pour dire sa provenance). ➜ ✅ Il vient de Paris.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:adorer:verb",
         "word": "adorer",
         "level": "A0",
         "definition": "Aimer très fort quelque chose.",
-        "example": "Elle adore manger du chocolat chaud.",
+        "example": "J'adore voyager dans des pays étrangers.",
         "transcription": "/a.dɔ.ʁe/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "adorer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'adore de voyager en France. ➜ ✅ J'adore voyager en France.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:esperer:verb",
         "word": "espérer",
         "level": "A2",
         "definition": "Attendre avec confiance une bonne chose.",
-        "example": "J'espère qu'il fera très beau demain.",
+        "example": "J'espère réussir mon examen avec mention.",
         "transcription": "/ɛs.pe.ʁe/",
-        "emoji": "🤞"
+        "emoji": "🤞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "espérer [quelque chose / verbe]",
+        "common_mistake": "❌ J'espère de réussir. ➜ ✅ J'espère réussir.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:changer:verb",
         "word": "changer",
         "level": "A0",
         "definition": "Devenir différent ou remplacer quelque chose.",
-        "example": "Le temps change rapidement en montagne.",
+        "example": "Nous devons changer de train à la prochaine gare.",
         "transcription": "/ʃɑ̃.ʒe/",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "changer de [quelque chose]",
+        "common_mistake": "❌ J'ai changé ma voiture pour une neuve (quand on veut dire modifier sa voiture). ➜ ✅ J'ai changé de voiture.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-04": {
@@ -204,9 +372,17 @@
         "word": "se lever",
         "level": "A0",
         "definition": "Passer de la position assise ou couchée à la position debout.",
-        "example": "Je me lève tôt tous les matins.",
+        "example": "Je me lève à six heures du matin en semaine.",
         "transcription": "/sə.lə.ve/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "se lever (à [heure])",
+        "common_mistake": "❌ Je me lève à tôt. ➜ ✅ Je me lève tôt.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:prendre:verb",
@@ -215,52 +391,100 @@
         "definition": "Saisir quelque chose avec les mains.",
         "example": "Je prends le bus tous les matins.",
         "transcription": "/pʁɑ̃dʁ/",
-        "emoji": "✊"
+        "emoji": "✊",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendre [quelque chose / quelqu’un]",
+        "common_mistake": "❌ Je prends à l’autobus. ➔ ✅ Je prends l’autobus.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:tenir:verb",
         "word": "tenir",
         "level": "A0",
         "definition": "Avoir ou garder quelque chose dans ses mains ou ses bras.",
-        "example": "Tiens le bébé avec précaution.",
+        "example": "Je tiens énormément à cette montre ancienne.",
         "transcription": "/tə.niʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "tenir à [quelqu'un / qqch / verbe]",
+        "common_mistake": "❌ Je tiens de réussir cet examen. ➜ ✅ Je tiens à réussir cet examen.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:ouvrir:verb",
         "word": "ouvrir",
         "level": "A0",
         "definition": "Rendre accessible un passage ou un objet.",
-        "example": "J'ouvre la fenêtre pour aérer la pièce.",
+        "example": "J'ouvre la porte.",
         "transcription": "/u.vʁiʁ/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ouvrir [porte/fenêtre]",
+        "common_mistake": "❌ J'ouvre à la porte. ➜ ✅ J'ouvre la porte.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:travailler:verb",
         "word": "travailler",
         "level": "A0",
         "definition": "Effectuer un travail ou une activité professionnelle.",
-        "example": "Mon père travaille dans un grand bureau.",
+        "example": "Elle travaille dans une grande banque.",
         "transcription": "/tʁa.va.je/",
-        "emoji": "💼"
+        "emoji": "💼",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "travailler à / dans / pour [lieu / entreprise]",
+        "common_mistake": "❌ Il travaille pour le hôpital. ➜ ✅ Il travaille à l'hôpital.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:demander:verb",
         "word": "demander",
         "level": "A0",
         "definition": "Poser une question ou solliciter quelque chose.",
-        "example": "L'élève demande l'heure au professeur.",
+        "example": "Il demande l'heure au passant.",
         "transcription": "/də.mɑ̃.de/",
-        "emoji": "❓"
+        "emoji": "❓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "demander [quelque chose] à [quelqu'un]",
+        "common_mistake": "❌ Je demande pour une question à le professeur. ➜ ✅ Je pose une question au professeur. (ou : Je demande de l'aide au professeur.)",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:s-habiller:verb",
         "word": "s'habiller",
         "level": "A2",
         "definition": "Mettre ses vêtements du jour.",
-        "example": "Je m'habille avant de prendre mon petit-déjeuner.",
+        "example": "Je m'habille pour sortir.",
         "transcription": "/sa.bi.je/",
-        "emoji": "👔"
+        "emoji": "👔",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'habiller [de/en vêtements]",
+        "common_mistake": "❌ Je m'habille de pour sortir. ➜ ✅ Je m'habille pour sortir.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-05": {
@@ -269,63 +493,120 @@
         "word": "habiter",
         "level": "A0",
         "definition": "Avoir sa résidence principale dans un lieu particulier.",
-        "example": "J'habite dans un grand appartement à Paris.",
+        "example": "J'habite à Lyon depuis deux ans.",
         "transcription": "/a.bi.te/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "habiter à / en / dans [lieu]",
+        "common_mistake": "❌ J'habite en Paris. ➜ ✅ J'habite à Paris.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:entendre:verb",
         "word": "entendre",
         "level": "A0",
         "definition": "Percevoir les sons par les oreilles.",
-        "example": "J entends l alarme chaque matin.",
+        "example": "J’entends des oiseaux chanter.",
         "transcription": "/ɑ̃.tɑ̃dʁ/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "parler de"
+        ],
+        "pattern": "entendre [un bruit/quelqu’un] / entendre parler de [quelque chose]",
+        "common_mistake": "❌ J’entends à la musique. ➔ ✅ J’entends la musique.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:manger:verb",
         "word": "manger",
         "level": "A0",
         "definition": "Mâcher et avaler un aliment.",
-        "example": "Nous mangeons une bonne salade à midi.",
+        "example": "Nous mangeons de la soupe chaude à midi.",
         "transcription": "/mɑ̃.ʒe/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "manger [quelque chose]",
+        "common_mistake": "❌ Je mange de la pomme à le matin. ➜ ✅ Je mange une pomme le matin.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:compter:verb",
         "word": "compter",
         "level": "A0",
         "definition": "Dire les nombres dans l'ordre.",
-        "example": "Peux-tu compter de un à dix ?",
+        "example": "Je compte sur toi pour m'aider à déménager.",
         "transcription": "/kɔ̃.te/",
-        "emoji": "🔢"
+        "emoji": "🔢",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "compter sur [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:devenir:verb",
         "word": "devenir",
         "level": "A2",
         "definition": "Commencer à être quelque chose.",
-        "example": "Il veut devenir pilote.",
+        "example": "Il est devenu médecin.",
         "transcription": "/dəvniʁ/",
-        "emoji": "🦋"
+        "emoji": "🦋",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "devenir [quelque chose]",
+        "common_mistake": "❌ Il est devenu à médecin. ➜ ✅ Il est devenu médecin.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:parler:verb",
         "word": "parler",
         "level": "A0",
         "definition": "S'exprimer au moyen de la parole.",
-        "example": "Elle parle français très bien.",
+        "example": "Je parle au médecin de mon mal de dos.",
         "transcription": "/paʁ.le/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "parler à [quelqu'un] / parler de [sujet]",
+        "common_mistake": "❌ Je parle de mon ami au téléphone. ➜ ✅ Je parle à mon ami au téléphone.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:faire:verb",
         "word": "faire",
         "level": "A0",
         "definition": "Réaliser une action ou fabriquer quelque chose.",
-        "example": "Je fais mes devoirs de français le soir.",
+        "example": "Je fais mes devoirs.",
         "transcription": "/fɛʁ/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "faire [action]",
+        "common_mistake": "❌ Je fais de mes devoirs. ➜ ✅ Je fais mes devoirs.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-06": {
@@ -336,52 +617,100 @@
         "definition": "Rester dans un lieu jusqu'à l'arrivée de quelqu'un.",
         "example": "J'attends le bus depuis dix minutes.",
         "transcription": "/a.tɑ̃dʁ/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "attendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'attends pour le bus. ➜ ✅ J'attends le bus.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:apprendre:verb",
         "word": "apprendre",
         "level": "A0",
         "definition": "Acquérir des connaissances nouvelles.",
-        "example": "J'apprends le français avec enthousiasme.",
+        "example": "Mon fils apprend à nager à la piscine.",
         "transcription": "/a.pʁɑ̃dʁ/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "apprendre à [faire quelque chose]",
+        "common_mistake": "❌ Il apprend de conduire sa voiture. ➜ ✅ Il apprend à conduire sa voiture.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:ouvrir:verb",
         "word": "ouvrir",
         "level": "A0",
         "definition": "Rendre accessible un passage ou un objet.",
-        "example": "J'ouvre la fenêtre pour aérer la pièce.",
+        "example": "J'ouvre la porte.",
         "transcription": "/u.vʁiʁ/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ouvrir [porte/fenêtre]",
+        "common_mistake": "❌ J'ouvre à la porte. ➜ ✅ J'ouvre la porte.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:savoir:verb",
         "word": "savoir",
         "level": "A0",
         "definition": "Avoir la connaissance de quelque chose.",
-        "example": "Je sais lire et écrire en français.",
+        "example": "Je sais la vérité.",
         "transcription": "/sa.vwaʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "savoir / savoir sur [sujet]",
+        "common_mistake": "❌ Je sais de la vérité. ➜ ✅ Je sais la vérité.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:compter:verb",
         "word": "compter",
         "level": "A0",
         "definition": "Dire les nombres dans l'ordre.",
-        "example": "Peux-tu compter de un à dix ?",
+        "example": "Je compte sur toi pour m'aider à déménager.",
         "transcription": "/kɔ̃.te/",
-        "emoji": "🔢"
+        "emoji": "🔢",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "compter sur [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:manger:verb",
         "word": "manger",
         "level": "A0",
         "definition": "Mâcher et avaler un aliment.",
-        "example": "Nous mangeons une bonne salade à midi.",
+        "example": "Nous mangeons de la soupe chaude à midi.",
         "transcription": "/mɑ̃.ʒe/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "manger [quelque chose]",
+        "common_mistake": "❌ Je mange de la pomme à le matin. ➜ ✅ Je mange une pomme le matin.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:attendre:verb",
@@ -390,7 +719,15 @@
         "definition": "Rester dans un lieu jusqu'à l'arrivée de quelqu'un.",
         "example": "J'attends le bus depuis dix minutes.",
         "transcription": "/a.tɑ̃dʁ/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "attendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'attends pour le bus. ➜ ✅ J'attends le bus.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-07": {
@@ -399,63 +736,120 @@
         "word": "tenir",
         "level": "A0",
         "definition": "Avoir ou garder quelque chose dans ses mains ou ses bras.",
-        "example": "Tiens le bébé avec précaution.",
+        "example": "Je tiens énormément à cette montre ancienne.",
         "transcription": "/tə.niʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "tenir à [quelqu'un / qqch / verbe]",
+        "common_mistake": "❌ Je tiens de réussir cet examen. ➜ ✅ Je tiens à réussir cet examen.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:repondre:verb",
         "word": "répondre",
         "level": "A0",
         "definition": "Donner une réponse à une question.",
-        "example": "Le professeur répond gentiment à l'élève.",
+        "example": "Le candidat répond aux questions du jury.",
         "transcription": "/ʁe.pɔ̃dʁ/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "répondre à [quelqu'un / une question]",
+        "common_mistake": "❌ J'ai répondu la lettre hier. ➜ ✅ J'ai répondu à la lettre hier.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:demander:verb",
         "word": "demander",
         "level": "A0",
         "definition": "Poser une question ou solliciter quelque chose.",
-        "example": "L'élève demande l'heure au professeur.",
+        "example": "Il demande l'heure au passant.",
         "transcription": "/də.mɑ̃.de/",
-        "emoji": "❓"
+        "emoji": "❓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "demander [quelque chose] à [quelqu'un]",
+        "common_mistake": "❌ Je demande pour une question à le professeur. ➜ ✅ Je pose une question au professeur. (ou : Je demande de l'aide au professeur.)",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:habiter:verb",
         "word": "habiter",
         "level": "A0",
         "definition": "Avoir sa résidence principale dans un lieu particulier.",
-        "example": "J'habite dans un grand appartement à Paris.",
+        "example": "J'habite à Lyon depuis deux ans.",
         "transcription": "/a.bi.te/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "habiter à / en / dans [lieu]",
+        "common_mistake": "❌ J'habite en Paris. ➜ ✅ J'habite à Paris.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:mourir:verb",
         "word": "mourir",
         "level": "A0",
         "definition": "Cesser de vivre.",
-        "example": "Les plantes meurent sans eau.",
+        "example": "Il est mort de vieillesse.",
         "transcription": "/mu.ʁiʁ/",
-        "emoji": "⚰️"
+        "emoji": "⚰️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "mourir de [cause]",
+        "common_mistake": "❌ Il est mort par vieillesse. ➜ ✅ Il est mort de vieillesse.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:tenir:verb",
         "word": "tenir",
         "level": "A0",
         "definition": "Avoir ou garder quelque chose dans ses mains ou ses bras.",
-        "example": "Tiens le bébé avec précaution.",
+        "example": "Je tiens énormément à cette montre ancienne.",
         "transcription": "/tə.niʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "tenir à [quelqu'un / qqch / verbe]",
+        "common_mistake": "❌ Je tiens de réussir cet examen. ➜ ✅ Je tiens à réussir cet examen.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:rester:verb",
         "word": "rester",
         "level": "A2",
         "definition": "Demeurer au même endroit ou dans le même état.",
-        "example": "Veuillez rester assis jusqu'à l'arrêt de l'avion.",
+        "example": "Je reste à la maison.",
         "transcription": "/ʁɛste/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "rester à / dans [lieu]",
+        "common_mistake": "❌ Je reste sur la maison. ➜ ✅ Je reste à la maison.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-08": {
@@ -464,63 +858,119 @@
         "word": "compter",
         "level": "A0",
         "definition": "Dire les nombres dans l'ordre.",
-        "example": "Peux-tu compter de un à dix ?",
+        "example": "Je compte sur toi pour m'aider à déménager.",
         "transcription": "/kɔ̃.te/",
-        "emoji": "🔢"
+        "emoji": "🔢",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "compter sur [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:manger:verb",
         "word": "manger",
         "level": "A0",
         "definition": "Mâcher et avaler un aliment.",
-        "example": "Nous mangeons une bonne salade à midi.",
+        "example": "Nous mangeons de la soupe chaude à midi.",
         "transcription": "/mɑ̃.ʒe/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "manger [quelque chose]",
+        "common_mistake": "❌ Je mange de la pomme à le matin. ➜ ✅ Je mange une pomme le matin.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:compter:verb",
         "word": "compter",
         "level": "A0",
         "definition": "Dire les nombres dans l'ordre.",
-        "example": "Peux-tu compter de un à dix ?",
+        "example": "Je compte sur toi pour m'aider à déménager.",
         "transcription": "/kɔ̃.te/",
-        "emoji": "🔢"
+        "emoji": "🔢",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "compter sur [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:arreter:verb",
         "word": "arrêter",
         "level": "A0",
         "definition": "Finir de faire quelque chose ou ne plus bouger.",
-        "example": "Arrête la voiture.",
+        "example": "Il a décidé d'arrêter de fumer le mois dernier.",
         "transcription": "/a.ʁɛ.te/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "arrêter de [faire quelque chose]",
+        "common_mistake": "❌ Arrête pour crier ! ➜ ✅ Arrête de crier !",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:finir:verb",
         "word": "finir",
         "level": "A0",
         "definition": "Arriver au terme d'une action.",
-        "example": "Je finis mes devoirs avant de sortir.",
+        "example": "J'ai fini de lire ce roman passionnant.",
         "transcription": "/fi.niʁ/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "finir de [faire quelque chose]",
+        "common_mistake": "❌ J'ai fini pour manger. ➜ ✅ J'ai fini de manger.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:s-habiller:verb",
         "word": "s'habiller",
         "level": "A2",
         "definition": "Mettre ses vêtements du jour.",
-        "example": "Je m'habille avant de prendre mon petit-déjeuner.",
+        "example": "Je m'habille pour sortir.",
         "transcription": "/sa.bi.je/",
-        "emoji": "👔"
+        "emoji": "👔",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'habiller [de/en vêtements]",
+        "common_mistake": "❌ Je m'habille de pour sortir. ➜ ✅ Je m'habille pour sortir.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:epouser:verb",
         "word": "épouser",
         "level": "A2",
         "definition": "S'unir par le mariage avec une personne.",
-        "example": "Il va épouser sa fiancée le mois prochain.",
+        "example": "Il va épouser sa fiancée en été.",
         "transcription": "/e.pu.ze/",
-        "emoji": "💍"
+        "emoji": "💍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "épouser [quelqu'un]",
+        "common_mistake": "❌ Il a épousé avec son amie. ➜ ✅ Il a épousé son amie. (OU : Il s'est marié avec son amie.)",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-09": {
@@ -529,63 +979,120 @@
         "word": "acheter",
         "level": "A0",
         "definition": "Obtenir un bien en échange d'argent.",
-        "example": "J'achète du pain frais chaque matin.",
+        "example": "J'achète des légumes au marché.",
         "transcription": "/aʃ.te/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "acheter [quelque chose] à [quelqu'un]",
+        "common_mistake": "❌ J'achète pour des fruits de le marchand. ➜ ✅ J'achète des fruits au marchand.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:comprendre:verb",
         "word": "comprendre",
         "level": "A0",
         "definition": "Saisir le sens de quelque chose.",
-        "example": "Je comprends très bien la leçon aujourd'hui.",
+        "example": "Je comprends la question.",
         "transcription": "/kɔ̃.pʁɑ̃dʁ/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je comprends à la question. ➜ ✅ Je comprends la question.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:se-lever:verb",
         "word": "se lever",
         "level": "A0",
         "definition": "Passer de la position assise ou couchée à la position debout.",
-        "example": "Je me lève tôt tous les matins.",
+        "example": "Je me lève à six heures du matin en semaine.",
         "transcription": "/sə.lə.ve/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "se lever (à [heure])",
+        "common_mistake": "❌ Je me lève à tôt. ➜ ✅ Je me lève tôt.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:rester:verb",
         "word": "rester",
         "level": "A2",
         "definition": "Demeurer au même endroit ou dans le même état.",
-        "example": "Veuillez rester assis jusqu'à l'arrêt de l'avion.",
+        "example": "Je reste à la maison.",
         "transcription": "/ʁɛste/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "rester à / dans [lieu]",
+        "common_mistake": "❌ Je reste sur la maison. ➜ ✅ Je reste à la maison.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:s-inquieter:verb",
         "word": "s'inquiéter",
         "level": "A2",
         "definition": "Ressentir de l'angoisse pour un sujet.",
-        "example": "Ne vous inquiétez pas, tout va très bien.",
+        "example": "Elle s'inquiète du retard de son train.",
         "transcription": "/sɛ̃.kje.te/",
-        "emoji": "😟"
+        "emoji": "😟",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'inquiéter de / pour [quelqu'un / qqch]",
+        "common_mistake": "❌ Elle s'inquiète à le problème. ➜ ✅ Elle s'inquiète du problème.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:choisir:verb",
         "word": "choisir",
         "level": "A2",
         "definition": "Prendre une possibilité parmi d'autres.",
-        "example": "Elle choisit une jolie robe rouge pour la soirée.",
+        "example": "Choisir entre deux options.",
         "transcription": "/ʃwa.ziʁ/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "entre",
+        "prepositions": [
+          "entre"
+        ],
+        "pattern": "choisir entre [options]",
+        "common_mistake": "❌ Choisir entre de deux options. ➜ ✅ Choisir entre deux options.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:aller:verb",
         "word": "aller",
         "level": "A0",
         "definition": "Se déplacer d'un lieu à un autre.",
-        "example": "Nous allons à la boulangerie le matin.",
+        "example": "Je vais au cinéma ce soir avec mes amis.",
         "transcription": "/a.le/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aller à [lieu / événement]",
+        "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-10": {
@@ -594,63 +1101,119 @@
         "word": "boire",
         "level": "A0",
         "definition": "Avaler un liquide.",
-        "example": "Je bois un grand verre d'eau fraîche.",
+        "example": "Elle boit un verre d’eau fraîche.",
         "transcription": "/bwaʁ/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "boire [un liquide]",
+        "common_mistake": "❌ Boire à du thé. ➔ ✅ Boire du thé.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:finir:verb",
         "word": "finir",
         "level": "A0",
         "definition": "Arriver au terme d'une action.",
-        "example": "Je finis mes devoirs avant de sortir.",
+        "example": "J'ai fini de lire ce roman passionnant.",
         "transcription": "/fi.niʁ/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "finir de [faire quelque chose]",
+        "common_mistake": "❌ J'ai fini pour manger. ➜ ✅ J'ai fini de manger.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:jouer:verb",
         "word": "jouer",
         "level": "A0",
         "definition": "Se divertir avec un jeu ou faire du sport.",
-        "example": "Les enfants jouent au ballon dans la cour.",
+        "example": "Mon frère joue au basket le samedi.",
         "transcription": "/ʒwe/",
-        "emoji": "🎮"
+        "emoji": "🎮",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "jouer à [jeu / sport] vs jouer de [instrument]",
+        "common_mistake": "❌ Il joue de le football et à la guitare. ➜ ✅ Il joue au football et de la guitare.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:comprendre:verb",
         "word": "comprendre",
         "level": "A0",
         "definition": "Saisir le sens de quelque chose.",
-        "example": "Je comprends très bien la leçon aujourd'hui.",
+        "example": "Je comprends la question.",
         "transcription": "/kɔ̃.pʁɑ̃dʁ/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je comprends à la question. ➜ ✅ Je comprends la question.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:ouvrir:verb",
         "word": "ouvrir",
         "level": "A0",
         "definition": "Rendre accessible un passage ou un objet.",
-        "example": "J'ouvre la fenêtre pour aérer la pièce.",
+        "example": "J'ouvre la porte.",
         "transcription": "/u.vʁiʁ/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ouvrir [porte/fenêtre]",
+        "common_mistake": "❌ J'ouvre à la porte. ➜ ✅ J'ouvre la porte.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:fermer:verb",
         "word": "fermer",
         "level": "A1",
         "definition": "Rendre inaccessible un passage ou un objet.",
-        "example": "Fermez la porte s'il vous plaît.",
+        "example": "Ferme la porte.",
         "transcription": "/fɛʁ.me/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fermer [porte/livre]",
+        "common_mistake": "❌ Ferme à la porte. ➜ ✅ Ferme la porte.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:inviter:verb",
         "word": "inviter",
         "level": "A2",
         "definition": "Prier quelqu'un de venir à une fête.",
-        "example": "Elle invite ses amis pour son anniversaire.",
+        "example": "Nous invitons nos voisins au dîner.",
         "transcription": "/ɛ̃.vi.te/",
-        "emoji": "💌"
+        "emoji": "💌",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "inviter [quelqu'un] à [événement / verbe]",
+        "common_mistake": "❌ Je t'invite de venir à ma fête. ➜ ✅ Je t'invite à venir à ma fête.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-11": {
@@ -659,63 +1222,119 @@
         "word": "manquer",
         "level": "A0",
         "definition": "Rater un moyen de transport ; ou se sentir triste de l absence.",
-        "example": "Il a manqué son train et a dû attendre une heure.",
+        "example": "Cette ville manque de transports en commun modernes.",
         "transcription": "/mɑ̃.ke/",
-        "emoji": "🏃‍♂️"
+        "emoji": "🏃‍♂️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "manquer de [quelque chose]",
+        "common_mistake": "❌ Il manque à courage pour réussir. ➜ ✅ Il manque de courage pour réussir.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:savoir:verb",
         "word": "savoir",
         "level": "A0",
         "definition": "Avoir la connaissance de quelque chose.",
-        "example": "Je sais lire et écrire en français.",
+        "example": "Je sais la vérité.",
         "transcription": "/sa.vwaʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "savoir / savoir sur [sujet]",
+        "common_mistake": "❌ Je sais de la vérité. ➜ ✅ Je sais la vérité.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:se-plaindre:verb",
         "word": "se plaindre",
         "level": "A2",
         "definition": "Exprimer son mécontentement.",
-        "example": "Le client se plaint du bruit de la rue.",
+        "example": "Les voisins se plaignent du bruit excessif.",
         "transcription": "/sə.plɛ̃dʁ/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "se plaindre de [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Elle se plaint à la chaleur. ➜ ✅ Elle se plaint de la chaleur.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:mourir:verb",
         "word": "mourir",
         "level": "A0",
         "definition": "Cesser de vivre.",
-        "example": "Les plantes meurent sans eau.",
+        "example": "Il est mort de vieillesse.",
         "transcription": "/mu.ʁiʁ/",
-        "emoji": "⚰️"
+        "emoji": "⚰️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "mourir de [cause]",
+        "common_mistake": "❌ Il est mort par vieillesse. ➜ ✅ Il est mort de vieillesse.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:choisir:verb",
         "word": "choisir",
         "level": "A2",
         "definition": "Prendre une possibilité parmi d'autres.",
-        "example": "Elle choisit une jolie robe rouge pour la soirée.",
+        "example": "Choisir entre deux options.",
         "transcription": "/ʃwa.ziʁ/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "entre",
+        "prepositions": [
+          "entre"
+        ],
+        "pattern": "choisir entre [options]",
+        "common_mistake": "❌ Choisir entre de deux options. ➜ ✅ Choisir entre deux options.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:aimer:verb",
         "word": "aimer",
         "level": "A0",
         "definition": "Ressentir de l'affection ou du plaisir pour quelque chose.",
-        "example": "J'aime écouter le chant des oiseaux.",
+        "example": "J'aime le chocolat chaud en hiver.",
         "transcription": "/e.me/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aimer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'aime de ma famille. ➜ ✅ J'aime ma famille.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:se-lever:verb",
         "word": "se lever",
         "level": "A0",
         "definition": "Passer de la position assise ou couchée à la position debout.",
-        "example": "Je me lève tôt tous les matins.",
+        "example": "Je me lève à six heures du matin en semaine.",
         "transcription": "/sə.lə.ve/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "se lever (à [heure])",
+        "common_mistake": "❌ Je me lève à tôt. ➜ ✅ Je me lève tôt.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-12": {
@@ -724,9 +1343,17 @@
         "word": "savoir",
         "level": "A0",
         "definition": "Avoir la connaissance de quelque chose.",
-        "example": "Je sais lire et écrire en français.",
+        "example": "Je sais la vérité.",
         "transcription": "/sa.vwaʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "savoir / savoir sur [sujet]",
+        "common_mistake": "❌ Je sais de la vérité. ➜ ✅ Je sais la vérité.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:attendre:verb",
@@ -735,52 +1362,101 @@
         "definition": "Rester dans un lieu jusqu'à l'arrivée de quelqu'un.",
         "example": "J'attends le bus depuis dix minutes.",
         "transcription": "/a.tɑ̃dʁ/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "attendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'attends pour le bus. ➜ ✅ J'attends le bus.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:rester:verb",
         "word": "rester",
         "level": "A2",
         "definition": "Demeurer au même endroit ou dans le même état.",
-        "example": "Veuillez rester assis jusqu'à l'arrêt de l'avion.",
+        "example": "Je reste à la maison.",
         "transcription": "/ʁɛste/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "rester à / dans [lieu]",
+        "common_mistake": "❌ Je reste sur la maison. ➜ ✅ Je reste à la maison.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:travailler:verb",
         "word": "travailler",
         "level": "A0",
         "definition": "Effectuer un travail ou une activité professionnelle.",
-        "example": "Mon père travaille dans un grand bureau.",
+        "example": "Elle travaille dans une grande banque.",
         "transcription": "/tʁa.va.je/",
-        "emoji": "💼"
+        "emoji": "💼",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "travailler à / dans / pour [lieu / entreprise]",
+        "common_mistake": "❌ Il travaille pour le hôpital. ➜ ✅ Il travaille à l'hôpital.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:douter:verb",
         "word": "douter",
         "level": "A2",
         "definition": "Hesiter à croire une chose.",
-        "example": "Elle doute de la véracité de cette histoire.",
+        "example": "Le juge doute de la sincérité du témoin.",
         "transcription": "/du.te/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "douter de [quelque chose / quelqu'un]",
+        "common_mistake": "❌ Je doute sur ses intentions. ➜ ✅ Je doute de ses intentions.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:chercher:verb",
         "word": "chercher",
         "level": "A0",
         "definition": "Faire des efforts pour trouver quelqu'un ou quelque chose.",
-        "example": "Je cherche mes clés dans mon sac.",
+        "example": "Je cherche mes clés de voiture partout.",
         "transcription": "/ʃɛʁ.ʃe/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chercher [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je cherche pour mes clés. ➜ ✅ Je cherche mes clés.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:comprendre:verb",
         "word": "comprendre",
         "level": "A0",
         "definition": "Saisir le sens de quelque chose.",
-        "example": "Je comprends très bien la leçon aujourd'hui.",
+        "example": "Je comprends la question.",
         "transcription": "/kɔ̃.pʁɑ̃dʁ/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je comprends à la question. ➜ ✅ Je comprends la question.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-13": {
@@ -789,63 +1465,119 @@
         "word": "aimer",
         "level": "A0",
         "definition": "Ressentir de l'affection ou du plaisir pour quelque chose.",
-        "example": "J'aime écouter le chant des oiseaux.",
+        "example": "J'aime le chocolat chaud en hiver.",
         "transcription": "/e.me/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aimer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'aime de ma famille. ➜ ✅ J'aime ma famille.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:fermer:verb",
         "word": "fermer",
         "level": "A1",
         "definition": "Rendre inaccessible un passage ou un objet.",
-        "example": "Fermez la porte s'il vous plaît.",
+        "example": "Ferme la porte.",
         "transcription": "/fɛʁ.me/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fermer [porte/livre]",
+        "common_mistake": "❌ Ferme à la porte. ➜ ✅ Ferme la porte.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
-        "id": "fr:brosser:verb",
-        "word": "brosser",
-        "level": "A0",
-        "definition": "Nettoyer quelque chose avec une brosse.",
-        "example": "Je me brosse les dents chaque matin.",
-        "transcription": "/bʁɔ.se/",
-        "emoji": "🪥"
+        "id": "fr:s-inquieter:verb",
+        "word": "s'inquiéter",
+        "level": "A2",
+        "definition": "Ressentir de l'angoisse pour un sujet.",
+        "example": "Elle s'inquiète du retard de son train.",
+        "transcription": "/sɛ̃.kje.te/",
+        "emoji": "😟",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'inquiéter de / pour [quelqu'un / qqch]",
+        "common_mistake": "❌ Elle s'inquiète à le problème. ➜ ✅ Elle s'inquiète du problème.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:decider:verb",
         "word": "décider",
         "level": "A2",
         "definition": "Prendre une décision claire.",
-        "example": "Nous avons décidé de partir en vacances à la mer.",
+        "example": "Nous avons décidé de partir en vacances en Italie.",
         "transcription": "/de.si.de/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "décider de [faire quelque chose]",
+        "common_mistake": "❌ J'ai décidé à partir en voyage. ➜ ✅ J'ai décidé de partir en voyage.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:acheter:verb",
         "word": "acheter",
         "level": "A0",
         "definition": "Obtenir un bien en échange d'argent.",
-        "example": "J'achète du pain frais chaque matin.",
+        "example": "J'achète des légumes au marché.",
         "transcription": "/aʃ.te/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "acheter [quelque chose] à [quelqu'un]",
+        "common_mistake": "❌ J'achète pour des fruits de le marchand. ➜ ✅ J'achète des fruits au marchand.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:s-excuser:verb",
         "word": "s'excuser",
         "level": "A2",
         "definition": "Demander pardon pour une erreur.",
-        "example": "Il s'excuse pour son léger retard ce matin.",
+        "example": "Je m'excuse de mon retard ce matin.",
         "transcription": "/sɛks.ky.ze/",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'excuser de / pour [quelque chose]",
+        "common_mistake": "❌ Je m'excuse à le bruit. ➜ ✅ Je m'excuse du bruit.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:ouvrir:verb",
         "word": "ouvrir",
         "level": "A0",
         "definition": "Rendre accessible un passage ou un objet.",
-        "example": "J'ouvre la fenêtre pour aérer la pièce.",
+        "example": "J'ouvre la porte.",
         "transcription": "/u.vʁiʁ/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ouvrir [porte/fenêtre]",
+        "common_mistake": "❌ J'ouvre à la porte. ➜ ✅ J'ouvre la porte.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-14": {
@@ -854,63 +1586,119 @@
         "word": "adorer",
         "level": "A0",
         "definition": "Aimer très fort quelque chose.",
-        "example": "Elle adore manger du chocolat chaud.",
+        "example": "J'adore voyager dans des pays étrangers.",
         "transcription": "/a.dɔ.ʁe/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "adorer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'adore de voyager en France. ➜ ✅ J'adore voyager en France.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:chercher:verb",
         "word": "chercher",
         "level": "A0",
         "definition": "Faire des efforts pour trouver quelqu'un ou quelque chose.",
-        "example": "Je cherche mes clés dans mon sac.",
+        "example": "Je cherche mes clés de voiture partout.",
         "transcription": "/ʃɛʁ.ʃe/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chercher [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je cherche pour mes clés. ➜ ✅ Je cherche mes clés.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:vouloir-dire:verb",
         "word": "vouloir dire",
         "level": "A0",
         "definition": "Avoir une signification particulière ; avoir l intention de.",
-        "example": "Que veut dire cette clause dans le contrat ?",
+        "example": "Que veut dire ce mot ?",
         "transcription": "/vu.lwaʁ diʁ/",
-        "emoji": "❔"
+        "emoji": "❔",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir dire [quelque chose]",
+        "common_mistake": "❌ Que veut dire de ce mot ? ➜ ✅ Que veut dire ce mot ?",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:rencontrer:verb",
         "word": "rencontrer",
         "level": "A2",
         "definition": "Se trouver en présence de quelqu'un.",
-        "example": "J'ai rencontré un ancien ami dans la rue.",
+        "example": "J'ai rencontré mon ami par hasard au centre-ville.",
         "transcription": "/ʁɑ̃.kɔ̃.tʁe/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "rencontrer [quelqu'un]",
+        "common_mistake": "❌ J'ai rencontré avec mon ami. ➜ ✅ J'ai rencontré mon ami.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:apprendre:verb",
         "word": "apprendre",
         "level": "A0",
         "definition": "Acquérir des connaissances nouvelles.",
-        "example": "J'apprends le français avec enthousiasme.",
+        "example": "Mon fils apprend à nager à la piscine.",
         "transcription": "/a.pʁɑ̃dʁ/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "apprendre à [faire quelque chose]",
+        "common_mistake": "❌ Il apprend de conduire sa voiture. ➜ ✅ Il apprend à conduire sa voiture.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:se-lever:verb",
         "word": "se lever",
         "level": "A0",
         "definition": "Passer de la position assise ou couchée à la position debout.",
-        "example": "Je me lève tôt tous les matins.",
+        "example": "Je me lève à six heures du matin en semaine.",
         "transcription": "/sə.lə.ve/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "se lever (à [heure])",
+        "common_mistake": "❌ Je me lève à tôt. ➜ ✅ Je me lève tôt.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:arreter:verb",
         "word": "arrêter",
         "level": "A0",
         "definition": "Finir de faire quelque chose ou ne plus bouger.",
-        "example": "Arrête la voiture.",
+        "example": "Il a décidé d'arrêter de fumer le mois dernier.",
         "transcription": "/a.ʁɛ.te/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "arrêter de [faire quelque chose]",
+        "common_mistake": "❌ Arrête pour crier ! ➜ ✅ Arrête de crier !",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-15": {
@@ -919,63 +1707,122 @@
         "word": "dire",
         "level": "A0",
         "definition": "Exprimer quelque chose par la parole.",
-        "example": "Il dit toujours la vérité à ses amis.",
+        "example": "Il dit la vérité à ses parents.",
         "transcription": "/diʁ/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "à",
+          "de"
+        ],
+        "pattern": "dire [quelque chose] à [quelqu’un] / dire de [faire quelque chose]",
+        "common_mistake": "❌ Il a dit moi. ➔ ✅ Il m’a dit / Il a dit à Pierre.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:manquer:verb",
         "word": "manquer",
         "level": "A0",
         "definition": "Rater un moyen de transport ; ou se sentir triste de l absence.",
-        "example": "Il a manqué son train et a dû attendre une heure.",
+        "example": "Cette ville manque de transports en commun modernes.",
         "transcription": "/mɑ̃.ke/",
-        "emoji": "🏃‍♂️"
+        "emoji": "🏃‍♂️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "manquer de [quelque chose]",
+        "common_mistake": "❌ Il manque à courage pour réussir. ➜ ✅ Il manque de courage pour réussir.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:devenir:verb",
         "word": "devenir",
         "level": "A2",
         "definition": "Commencer à être quelque chose.",
-        "example": "Il veut devenir pilote.",
+        "example": "Il est devenu médecin.",
         "transcription": "/dəvniʁ/",
-        "emoji": "🦋"
+        "emoji": "🦋",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "devenir [quelque chose]",
+        "common_mistake": "❌ Il est devenu à médecin. ➜ ✅ Il est devenu médecin.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:aller:verb",
         "word": "aller",
         "level": "A0",
         "definition": "Se déplacer d'un lieu à un autre.",
-        "example": "Nous allons à la boulangerie le matin.",
+        "example": "Je vais au cinéma ce soir avec mes amis.",
         "transcription": "/a.le/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aller à [lieu / événement]",
+        "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:rester:verb",
         "word": "rester",
         "level": "A2",
         "definition": "Demeurer au même endroit ou dans le même état.",
-        "example": "Veuillez rester assis jusqu'à l'arrêt de l'avion.",
+        "example": "Je reste à la maison.",
         "transcription": "/ʁɛste/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "rester à / dans [lieu]",
+        "common_mistake": "❌ Je reste sur la maison. ➜ ✅ Je reste à la maison.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:jouer:verb",
         "word": "jouer",
         "level": "A0",
         "definition": "Se divertir avec un jeu ou faire du sport.",
-        "example": "Les enfants jouent au ballon dans la cour.",
+        "example": "Mon frère joue au basket le samedi.",
         "transcription": "/ʒwe/",
-        "emoji": "🎮"
+        "emoji": "🎮",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "jouer à [jeu / sport] vs jouer de [instrument]",
+        "common_mistake": "❌ Il joue de le football et à la guitare. ➜ ✅ Il joue au football et de la guitare.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:exister:verb",
         "word": "exister",
         "level": "A0",
         "definition": "Avoir une réalité physique ou réelle.",
-        "example": "De très belles villes existent dans le monde.",
+        "example": "Ce problème existe dans tous les pays.",
         "transcription": "/ɛɡ.zis.te/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "dans",
+        "prepositions": [
+          "dans"
+        ],
+        "pattern": "exister [dans un lieu]",
+        "common_mistake": "❌ Ce problème existe sur tous les pays. ➜ ✅ Ce problème existe dans tous les pays.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-16": {
@@ -984,63 +1831,119 @@
         "word": "parler",
         "level": "A0",
         "definition": "S'exprimer au moyen de la parole.",
-        "example": "Elle parle français très bien.",
+        "example": "Je parle au médecin de mon mal de dos.",
         "transcription": "/paʁ.le/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "parler à [quelqu'un] / parler de [sujet]",
+        "common_mistake": "❌ Je parle de mon ami au téléphone. ➜ ✅ Je parle à mon ami au téléphone.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:se-souvenir:verb",
         "word": "se souvenir",
         "level": "A0",
         "definition": "Garder en mémoire un événement passé.",
-        "example": "Je me souviens très bien de ce voyage.",
+        "example": "Je me souviens très bien du jour de notre rencontre.",
         "transcription": "/sə.su.və.niʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "se souvenir de [quelque chose / quelqu'un]",
+        "common_mistake": "❌ Je me souviens ce moment. ➜ ✅ Je me souviens de ce moment.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:contacter:verb",
         "word": "contacter",
         "level": "A2",
         "definition": "Entrer en contact avec quelqu'un.",
-        "example": "Je vous contacterai d'ici la fin de la semaine avec une réponse.",
+        "example": "Veuillez contacter le support client par courriel.",
         "transcription": "/kɔ̃takte/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "contacter [quelqu'un]",
+        "common_mistake": "❌ Je vais contacter avec le directeur. ➜ ✅ Je vais contacter le directeur.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:exister:verb",
         "word": "exister",
         "level": "A0",
         "definition": "Avoir une réalité physique ou réelle.",
-        "example": "De très belles villes existent dans le monde.",
+        "example": "Ce problème existe dans tous les pays.",
         "transcription": "/ɛɡ.zis.te/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "dans",
+        "prepositions": [
+          "dans"
+        ],
+        "pattern": "exister [dans un lieu]",
+        "common_mistake": "❌ Ce problème existe sur tous les pays. ➜ ✅ Ce problème existe dans tous les pays.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:s-asseoir:verb",
         "word": "s'asseoir",
         "level": "A0",
         "definition": "Se placer sur une chaise ou un siège.",
-        "example": "Asseyez-vous sur ce confortable fauteuil.",
+        "example": "Asseyez-vous sur cette chaise.",
         "transcription": "/sa.swaʁ/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "s'asseoir [sur une chaise]",
+        "common_mistake": "❌ Asseyez-vous à cette chaise. ➜ ✅ Asseyez-vous sur cette chaise.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:oublier:verb",
         "word": "oublier",
         "level": "A0",
         "definition": "Ne plus avoir en mémoire quelque chose.",
-        "example": "N'oubliez pas vos clés sur la table !",
+        "example": "N'oublie pas de fermer la porte à clé.",
         "transcription": "/u.bli.je/",
-        "emoji": "🤷"
+        "emoji": "🤷",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "oublier de [faire quelque chose]",
+        "common_mistake": "❌ J'ai oublié de mes clés. ➜ ✅ J'ai oublié mes clés.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:s-excuser:verb",
         "word": "s'excuser",
         "level": "A2",
         "definition": "Demander pardon pour une erreur.",
-        "example": "Il s'excuse pour son léger retard ce matin.",
+        "example": "Je m'excuse de mon retard ce matin.",
         "transcription": "/sɛks.ky.ze/",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'excuser de / pour [quelque chose]",
+        "common_mistake": "❌ Je m'excuse à le bruit. ➜ ✅ Je m'excuse du bruit.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-17": {
@@ -1049,128 +1952,242 @@
         "word": "venir",
         "level": "A0",
         "definition": "Se déplacer pour arriver à l'endroit où l'on est.",
-        "example": "Mon ami vient chez moi ce soir.",
+        "example": "Il vient du Japon pour ses études.",
         "transcription": "/və.niʁ/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "venir de [lieu / verbe]",
+        "common_mistake": "❌ Il vient à Paris (pour dire sa provenance). ➜ ✅ Il vient de Paris.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
-        "id": "fr:brosser:verb",
-        "word": "brosser",
+        "id": "fr:ouvrir:verb",
+        "word": "ouvrir",
         "level": "A0",
-        "definition": "Nettoyer quelque chose avec une brosse.",
-        "example": "Je me brosse les dents chaque matin.",
-        "transcription": "/bʁɔ.se/",
-        "emoji": "🪥"
+        "definition": "Rendre accessible un passage ou un objet.",
+        "example": "J'ouvre la porte.",
+        "transcription": "/u.vʁiʁ/",
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ouvrir [porte/fenêtre]",
+        "common_mistake": "❌ J'ouvre à la porte. ➜ ✅ J'ouvre la porte.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:oublier:verb",
         "word": "oublier",
         "level": "A0",
         "definition": "Ne plus avoir en mémoire quelque chose.",
-        "example": "N'oubliez pas vos clés sur la table !",
+        "example": "N'oublie pas de fermer la porte à clé.",
         "transcription": "/u.bli.je/",
-        "emoji": "🤷"
+        "emoji": "🤷",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "oublier de [faire quelque chose]",
+        "common_mistake": "❌ J'ai oublié de mes clés. ➜ ✅ J'ai oublié mes clés.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:s-excuser:verb",
         "word": "s'excuser",
         "level": "A2",
         "definition": "Demander pardon pour une erreur.",
-        "example": "Il s'excuse pour son léger retard ce matin.",
+        "example": "Je m'excuse de mon retard ce matin.",
         "transcription": "/sɛks.ky.ze/",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'excuser de / pour [quelque chose]",
+        "common_mistake": "❌ Je m'excuse à le bruit. ➜ ✅ Je m'excuse du bruit.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:etre:verb",
         "word": "être",
         "level": "A0",
         "definition": "Exister, avoir une réalité ou une qualité.",
-        "example": "Je suis très heureux de vous rencontrer.",
+        "example": "Je suis à la maison.",
         "transcription": "/ɛtʁ/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "être + à/dans + lieu",
+        "common_mistake": "❌ Je suis en la maison. ➜ ✅ Je suis à la maison.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:comprendre:verb",
         "word": "comprendre",
         "level": "A0",
         "definition": "Saisir le sens de quelque chose.",
-        "example": "Je comprends très bien la leçon aujourd'hui.",
+        "example": "Je comprends la question.",
         "transcription": "/kɔ̃.pʁɑ̃dʁ/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je comprends à la question. ➜ ✅ Je comprends la question.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:choisir:verb",
         "word": "choisir",
         "level": "A2",
         "definition": "Prendre une possibilité parmi d'autres.",
-        "example": "Elle choisit une jolie robe rouge pour la soirée.",
+        "example": "Choisir entre deux options.",
         "transcription": "/ʃwa.ziʁ/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "entre",
+        "prepositions": [
+          "entre"
+        ],
+        "pattern": "choisir entre [options]",
+        "common_mistake": "❌ Choisir entre de deux options. ➜ ✅ Choisir entre deux options.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-18": {
       "A0": {
-        "id": "fr:nettoyer:verb",
-        "word": "nettoyer",
+        "id": "fr:mourir:verb",
+        "word": "mourir",
         "level": "A0",
-        "definition": "Rendre propre un lieu ou un objet.",
-        "example": "Je nettoie la table après le repas.",
-        "transcription": "/nɛ.twa.je/",
-        "emoji": "🧹"
+        "definition": "Cesser de vivre.",
+        "example": "Il est mort de vieillesse.",
+        "transcription": "/mu.ʁiʁ/",
+        "emoji": "⚰️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "mourir de [cause]",
+        "common_mistake": "❌ Il est mort par vieillesse. ➜ ✅ Il est mort de vieillesse.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:aimer-bien:verb",
         "word": "aimer bien",
         "level": "A0",
         "definition": "Apprécier quelque chose ou quelqu'un de façon modérée.",
-        "example": "J'aime bien lire le journal le matin.",
+        "example": "J'aime bien ce film.",
         "transcription": "/ɛ.me bjɛ̃/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "aimer bien [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'aime bien de ce film. ➜ ✅ J'aime bien ce film.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:essayer:verb",
         "word": "essayer",
         "level": "A2",
         "definition": "Mettre un vêtement pour vérifier sa taille.",
-        "example": "Je vais essayer cette robe en cabine.",
+        "example": "J'essaie de comprendre cette règle complexe.",
         "transcription": "/e.sɛ.je/",
-        "emoji": "👗"
+        "emoji": "👗",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "essayer de [faire quelque chose]",
+        "common_mistake": "❌ J'essaie à parler français. ➜ ✅ J'essaie de parler français.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:ecouter:verb",
         "word": "écouter",
         "level": "A0",
         "definition": "Prêter l'oreille pour entendre un son.",
-        "example": "J'écoute de la musique douce le soir.",
+        "example": "J'écoute de la musique classique pour réviser.",
         "transcription": "/e.ku.te/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "écouter [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'écoute à la musique. ➜ ✅ J'écoute la musique.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:jouer:verb",
         "word": "jouer",
         "level": "A0",
         "definition": "Se divertir avec un jeu ou faire du sport.",
-        "example": "Les enfants jouent au ballon dans la cour.",
+        "example": "Mon frère joue au basket le samedi.",
         "transcription": "/ʒwe/",
-        "emoji": "🎮"
+        "emoji": "🎮",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "jouer à [jeu / sport] vs jouer de [instrument]",
+        "common_mistake": "❌ Il joue de le football et à la guitare. ➜ ✅ Il joue au football et de la guitare.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:entendre:verb",
         "word": "entendre",
         "level": "A0",
         "definition": "Percevoir les sons par les oreilles.",
-        "example": "J entends l alarme chaque matin.",
+        "example": "J’entends des oiseaux chanter.",
         "transcription": "/ɑ̃.tɑ̃dʁ/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "parler de"
+        ],
+        "pattern": "entendre [un bruit/quelqu’un] / entendre parler de [quelque chose]",
+        "common_mistake": "❌ J’entends à la musique. ➔ ✅ J’entends la musique.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:promettre:verb",
         "word": "promettre",
         "level": "A2",
         "definition": "S'engager formellement à faire une chose.",
-        "example": "Je vous promets d'arriver parfaitement à l'heure.",
+        "example": "Il a promis à sa mère d'étudier sérieusement.",
         "transcription": "/pʁɔ.mɛtʁ/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "promettre [quelque chose] à [qqn] / de [verbe]",
+        "common_mistake": "❌ Il promet à venir demain. ➜ ✅ Il promet de venir demain.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-19": {
@@ -1179,63 +2196,119 @@
         "word": "se souvenir",
         "level": "A0",
         "definition": "Garder en mémoire un événement passé.",
-        "example": "Je me souviens très bien de ce voyage.",
+        "example": "Je me souviens très bien du jour de notre rencontre.",
         "transcription": "/sə.su.və.niʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "se souvenir de [quelque chose / quelqu'un]",
+        "common_mistake": "❌ Je me souviens ce moment. ➜ ✅ Je me souviens de ce moment.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:habiter:verb",
         "word": "habiter",
         "level": "A0",
         "definition": "Avoir sa résidence principale dans un lieu particulier.",
-        "example": "J'habite dans un grand appartement à Paris.",
+        "example": "J'habite à Lyon depuis deux ans.",
         "transcription": "/a.bi.te/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "habiter à / en / dans [lieu]",
+        "common_mistake": "❌ J'habite en Paris. ➜ ✅ J'habite à Paris.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:rencontrer:verb",
         "word": "rencontrer",
         "level": "A2",
         "definition": "Se trouver en présence de quelqu'un.",
-        "example": "J'ai rencontré un ancien ami dans la rue.",
+        "example": "J'ai rencontré mon ami par hasard au centre-ville.",
         "transcription": "/ʁɑ̃.kɔ̃.tʁe/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "rencontrer [quelqu'un]",
+        "common_mistake": "❌ J'ai rencontré avec mon ami. ➜ ✅ J'ai rencontré mon ami.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:promettre:verb",
         "word": "promettre",
         "level": "A2",
         "definition": "S'engager formellement à faire une chose.",
-        "example": "Je vous promets d'arriver parfaitement à l'heure.",
+        "example": "Il a promis à sa mère d'étudier sérieusement.",
         "transcription": "/pʁɔ.mɛtʁ/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "promettre [quelque chose] à [qqn] / de [verbe]",
+        "common_mistake": "❌ Il promet à venir demain. ➜ ✅ Il promet de venir demain.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
-        "id": "fr:brosser:verb",
-        "word": "brosser",
+        "id": "fr:changer:verb",
+        "word": "changer",
         "level": "A0",
-        "definition": "Nettoyer quelque chose avec une brosse.",
-        "example": "Je me brosse les dents chaque matin.",
-        "transcription": "/bʁɔ.se/",
-        "emoji": "🪥"
+        "definition": "Devenir différent ou remplacer quelque chose.",
+        "example": "Nous devons changer de train à la prochaine gare.",
+        "transcription": "/ʃɑ̃.ʒe/",
+        "emoji": "🔄",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "changer de [quelque chose]",
+        "common_mistake": "❌ J'ai changé ma voiture pour une neuve (quand on veut dire modifier sa voiture). ➜ ✅ J'ai changé de voiture.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:venir:verb",
         "word": "venir",
         "level": "A0",
         "definition": "Se déplacer pour arriver à l'endroit où l'on est.",
-        "example": "Mon ami vient chez moi ce soir.",
+        "example": "Il vient du Japon pour ses études.",
         "transcription": "/və.niʁ/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "venir de [lieu / verbe]",
+        "common_mistake": "❌ Il vient à Paris (pour dire sa provenance). ➜ ✅ Il vient de Paris.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:aider:verb",
         "word": "aider",
         "level": "A0",
         "definition": "Apporter son assistance à quelqu'un.",
-        "example": "Je peux vous aider à porter votre sac.",
+        "example": "J'aide mon fils à faire ses devoirs.",
         "transcription": "/e.de/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aider [quelqu'un] à [faire quelque chose]",
+        "common_mistake": "❌ J'aide mon ami de faire ses devoirs. ➜ ✅ J'aide mon ami à faire ses devoirs.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-20": {
@@ -1244,63 +2317,120 @@
         "word": "être",
         "level": "A0",
         "definition": "Exister, avoir une réalité ou une qualité.",
-        "example": "Je suis très heureux de vous rencontrer.",
+        "example": "Je suis à la maison.",
         "transcription": "/ɛtʁ/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "être + à/dans + lieu",
+        "common_mistake": "❌ Je suis en la maison. ➜ ✅ Je suis à la maison.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:vouloir-dire:verb",
         "word": "vouloir dire",
         "level": "A0",
         "definition": "Avoir une signification particulière ; avoir l intention de.",
-        "example": "Que veut dire cette clause dans le contrat ?",
+        "example": "Que veut dire ce mot ?",
         "transcription": "/vu.lwaʁ diʁ/",
-        "emoji": "❔"
+        "emoji": "❔",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir dire [quelque chose]",
+        "common_mistake": "❌ Que veut dire de ce mot ? ➜ ✅ Que veut dire ce mot ?",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:choisir:verb",
         "word": "choisir",
         "level": "A2",
         "definition": "Prendre une possibilité parmi d'autres.",
-        "example": "Elle choisit une jolie robe rouge pour la soirée.",
+        "example": "Choisir entre deux options.",
         "transcription": "/ʃwa.ziʁ/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "entre",
+        "prepositions": [
+          "entre"
+        ],
+        "pattern": "choisir entre [options]",
+        "common_mistake": "❌ Choisir entre de deux options. ➜ ✅ Choisir entre deux options.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:apprendre:verb",
         "word": "apprendre",
         "level": "A0",
         "definition": "Acquérir des connaissances nouvelles.",
-        "example": "J'apprends le français avec enthousiasme.",
+        "example": "Mon fils apprend à nager à la piscine.",
         "transcription": "/a.pʁɑ̃dʁ/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "apprendre à [faire quelque chose]",
+        "common_mistake": "❌ Il apprend de conduire sa voiture. ➜ ✅ Il apprend à conduire sa voiture.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:reussir:verb",
         "word": "réussir",
         "level": "A2",
         "definition": "Obtenir un bon résultat dans une action.",
-        "example": "Elle a réussi son examen avec brio.",
+        "example": "Elle a réussi à obtenir son permis de conduire.",
         "transcription": "/ʁe.y.siʁ/",
-        "emoji": "🎉"
+        "emoji": "🎉",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "réussir [examen] / réussir à [verbe]",
+        "common_mistake": "❌ Il a réussi de trouver une solution. ➜ ✅ Il a réussi à trouver une solution.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:aider:verb",
         "word": "aider",
         "level": "A0",
         "definition": "Apporter son assistance à quelqu'un.",
-        "example": "Je peux vous aider à porter votre sac.",
+        "example": "J'aide mon fils à faire ses devoirs.",
         "transcription": "/e.de/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aider [quelqu'un] à [faire quelque chose]",
+        "common_mistake": "❌ J'aide mon ami de faire ses devoirs. ➜ ✅ J'aide mon ami à faire ses devoirs.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:finir:verb",
         "word": "finir",
         "level": "A0",
         "definition": "Arriver au terme d'une action.",
-        "example": "Je finis mes devoirs avant de sortir.",
+        "example": "J'ai fini de lire ce roman passionnant.",
         "transcription": "/fi.niʁ/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "finir de [faire quelque chose]",
+        "common_mistake": "❌ J'ai fini pour manger. ➜ ✅ J'ai fini de manger.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-21": {
@@ -1309,63 +2439,119 @@
         "word": "avoir",
         "level": "A0",
         "definition": "Posséder quelque chose ou ressentir un état.",
-        "example": "J'ai deux frères et une sœur.",
+        "example": "J'ai une voiture.",
         "transcription": "/a.vwaʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avoir [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'ai de une voiture. ➜ ✅ J'ai une voiture.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:payer:verb",
         "word": "payer",
         "level": "A0",
         "definition": "Donner de l'argent pour un achat.",
-        "example": "Je paye mon repas par carte bancaire.",
+        "example": "Je paye l'addition par carte bancaire.",
         "transcription": "/pɛ.je/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "payer [quelque chose / quelqu'un]",
+        "common_mistake": "❌ Je paye pour le café. ➜ ✅ Je paye le café.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:s-excuser:verb",
         "word": "s'excuser",
         "level": "A2",
         "definition": "Demander pardon pour une erreur.",
-        "example": "Il s'excuse pour son léger retard ce matin.",
+        "example": "Je m'excuse de mon retard ce matin.",
         "transcription": "/sɛks.ky.ze/",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'excuser de / pour [quelque chose]",
+        "common_mistake": "❌ Je m'excuse à le bruit. ➜ ✅ Je m'excuse du bruit.",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "fr:repondre:verb",
         "word": "répondre",
         "level": "A0",
         "definition": "Donner une réponse à une question.",
-        "example": "Le professeur répond gentiment à l'élève.",
+        "example": "Le candidat répond aux questions du jury.",
         "transcription": "/ʁe.pɔ̃dʁ/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "répondre à [quelqu'un / une question]",
+        "common_mistake": "❌ J'ai répondu la lettre hier. ➜ ✅ J'ai répondu à la lettre hier.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:arreter:verb",
         "word": "arrêter",
         "level": "A0",
         "definition": "Finir de faire quelque chose ou ne plus bouger.",
-        "example": "Arrête la voiture.",
+        "example": "Il a décidé d'arrêter de fumer le mois dernier.",
         "transcription": "/a.ʁɛ.te/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "arrêter de [faire quelque chose]",
+        "common_mistake": "❌ Arrête pour crier ! ➜ ✅ Arrête de crier !",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:faire:verb",
         "word": "faire",
         "level": "A0",
         "definition": "Réaliser une action ou fabriquer quelque chose.",
-        "example": "Je fais mes devoirs de français le soir.",
+        "example": "Je fais mes devoirs.",
         "transcription": "/fɛʁ/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "faire [action]",
+        "common_mistake": "❌ Je fais de mes devoirs. ➜ ✅ Je fais mes devoirs.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:boire:verb",
         "word": "boire",
         "level": "A0",
         "definition": "Avaler un liquide.",
-        "example": "Je bois un grand verre d'eau fraîche.",
+        "example": "Elle boit un verre d’eau fraîche.",
         "transcription": "/bwaʁ/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "boire [un liquide]",
+        "common_mistake": "❌ Boire à du thé. ➔ ✅ Boire du thé.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-22": {
@@ -1374,63 +2560,120 @@
         "word": "aider",
         "level": "A0",
         "definition": "Apporter son assistance à quelqu'un.",
-        "example": "Je peux vous aider à porter votre sac.",
+        "example": "J'aide mon fils à faire ses devoirs.",
         "transcription": "/e.de/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aider [quelqu'un] à [faire quelque chose]",
+        "common_mistake": "❌ J'aide mon ami de faire ses devoirs. ➜ ✅ J'aide mon ami à faire ses devoirs.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:parler:verb",
         "word": "parler",
         "level": "A0",
         "definition": "S'exprimer au moyen de la parole.",
-        "example": "Elle parle français très bien.",
+        "example": "Je parle au médecin de mon mal de dos.",
         "transcription": "/paʁ.le/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "parler à [quelqu'un] / parler de [sujet]",
+        "common_mistake": "❌ Je parle de mon ami au téléphone. ➜ ✅ Je parle à mon ami au téléphone.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:faire:verb",
         "word": "faire",
         "level": "A0",
         "definition": "Réaliser une action ou fabriquer quelque chose.",
-        "example": "Je fais mes devoirs de français le soir.",
+        "example": "Je fais mes devoirs.",
         "transcription": "/fɛʁ/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "faire [action]",
+        "common_mistake": "❌ Je fais de mes devoirs. ➜ ✅ Je fais mes devoirs.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:s-inquieter:verb",
         "word": "s'inquiéter",
         "level": "A2",
         "definition": "Ressentir de l'angoisse pour un sujet.",
-        "example": "Ne vous inquiétez pas, tout va très bien.",
+        "example": "Elle s'inquiète du retard de son train.",
         "transcription": "/sɛ̃.kje.te/",
-        "emoji": "😟"
+        "emoji": "😟",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'inquiéter de / pour [quelqu'un / qqch]",
+        "common_mistake": "❌ Elle s'inquiète à le problème. ➜ ✅ Elle s'inquiète du problème.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:fermer:verb",
         "word": "fermer",
         "level": "A1",
         "definition": "Rendre inaccessible un passage ou un objet.",
-        "example": "Fermez la porte s'il vous plaît.",
+        "example": "Ferme la porte.",
         "transcription": "/fɛʁ.me/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "fermer [porte/livre]",
+        "common_mistake": "❌ Ferme à la porte. ➜ ✅ Ferme la porte.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:rester:verb",
         "word": "rester",
         "level": "A2",
         "definition": "Demeurer au même endroit ou dans le même état.",
-        "example": "Veuillez rester assis jusqu'à l'arrêt de l'avion.",
+        "example": "Je reste à la maison.",
         "transcription": "/ʁɛste/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "rester à / dans [lieu]",
+        "common_mistake": "❌ Je reste sur la maison. ➜ ✅ Je reste à la maison.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:compter:verb",
         "word": "compter",
         "level": "A0",
         "definition": "Dire les nombres dans l'ordre.",
-        "example": "Peux-tu compter de un à dix ?",
+        "example": "Je compte sur toi pour m'aider à déménager.",
         "transcription": "/kɔ̃.te/",
-        "emoji": "🔢"
+        "emoji": "🔢",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "compter sur [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-23": {
@@ -1439,63 +2682,119 @@
         "word": "regarder",
         "level": "A0",
         "definition": "Porter ses yeux sur quelque chose.",
-        "example": "Nous regardons un film à la télévision.",
+        "example": "Nous regardons un film intéressant ce soir.",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "emoji": "📺"
+        "emoji": "📺",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "regarder [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Regarde à cette image ! ➜ ✅ Regarde cette image !",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:demander:verb",
         "word": "demander",
         "level": "A0",
         "definition": "Poser une question ou solliciter quelque chose.",
-        "example": "L'élève demande l'heure au professeur.",
+        "example": "Il demande l'heure au passant.",
         "transcription": "/də.mɑ̃.de/",
-        "emoji": "❓"
+        "emoji": "❓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "demander [quelque chose] à [quelqu'un]",
+        "common_mistake": "❌ Je demande pour une question à le professeur. ➜ ✅ Je pose une question au professeur. (ou : Je demande de l'aide au professeur.)",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:apprendre:verb",
         "word": "apprendre",
         "level": "A0",
         "definition": "Acquérir des connaissances nouvelles.",
-        "example": "J'apprends le français avec enthousiasme.",
+        "example": "Mon fils apprend à nager à la piscine.",
         "transcription": "/a.pʁɑ̃dʁ/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "apprendre à [faire quelque chose]",
+        "common_mistake": "❌ Il apprend de conduire sa voiture. ➜ ✅ Il apprend à conduire sa voiture.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:faire:verb",
         "word": "faire",
         "level": "A0",
         "definition": "Réaliser une action ou fabriquer quelque chose.",
-        "example": "Je fais mes devoirs de français le soir.",
+        "example": "Je fais mes devoirs.",
         "transcription": "/fɛʁ/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "faire [action]",
+        "common_mistake": "❌ Je fais de mes devoirs. ➜ ✅ Je fais mes devoirs.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:se-plaindre:verb",
         "word": "se plaindre",
         "level": "A2",
         "definition": "Exprimer son mécontentement.",
-        "example": "Le client se plaint du bruit de la rue.",
+        "example": "Les voisins se plaignent du bruit excessif.",
         "transcription": "/sə.plɛ̃dʁ/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "se plaindre de [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Elle se plaint à la chaleur. ➜ ✅ Elle se plaint de la chaleur.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:boire:verb",
         "word": "boire",
         "level": "A0",
         "definition": "Avaler un liquide.",
-        "example": "Je bois un grand verre d'eau fraîche.",
+        "example": "Elle boit un verre d’eau fraîche.",
         "transcription": "/bwaʁ/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "boire [un liquide]",
+        "common_mistake": "❌ Boire à du thé. ➔ ✅ Boire du thé.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:savoir:verb",
         "word": "savoir",
         "level": "A0",
         "definition": "Avoir la connaissance de quelque chose.",
-        "example": "Je sais lire et écrire en français.",
+        "example": "Je sais la vérité.",
         "transcription": "/sa.vwaʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "savoir / savoir sur [sujet]",
+        "common_mistake": "❌ Je sais de la vérité. ➜ ✅ Je sais la vérité.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-24": {
@@ -1504,63 +2803,119 @@
         "word": "comprendre",
         "level": "A0",
         "definition": "Saisir le sens de quelque chose.",
-        "example": "Je comprends très bien la leçon aujourd'hui.",
+        "example": "Je comprends la question.",
         "transcription": "/kɔ̃.pʁɑ̃dʁ/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je comprends à la question. ➜ ✅ Je comprends la question.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:commencer:verb",
         "word": "commencer",
         "level": "A0",
         "definition": "Faire le premier pas d'une action.",
-        "example": "Le cours de français commence à neuf heures.",
+        "example": "Il commence à pleuvoir sur la ville.",
         "transcription": "/kɔ.mɑ̃.se/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "commencer à [faire quelque chose]",
+        "common_mistake": "❌ Nous commençons de lire. ➜ ✅ Nous commençons à lire.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:regarder:verb",
         "word": "regarder",
         "level": "A0",
         "definition": "Porter ses yeux sur quelque chose.",
-        "example": "Nous regardons un film à la télévision.",
+        "example": "Nous regardons un film intéressant ce soir.",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "emoji": "📺"
+        "emoji": "📺",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "regarder [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Regarde à cette image ! ➜ ✅ Regarde cette image !",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:preferer:verb",
         "word": "préférer",
         "level": "A0",
         "definition": "Aimer une chose plus qu'une autre.",
-        "example": "Je préfère le thé au café.",
+        "example": "Je préfère le thé chaud au café amertume.",
         "transcription": "/pʁe.fe.ʁe/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "préférer [quelque chose] à [autre chose]",
+        "common_mistake": "❌ Je préfère le thé que le café. ➜ ✅ Je préfère le thé au café.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:chercher:verb",
         "word": "chercher",
         "level": "A0",
         "definition": "Faire des efforts pour trouver quelqu'un ou quelque chose.",
-        "example": "Je cherche mes clés dans mon sac.",
+        "example": "Je cherche mes clés de voiture partout.",
         "transcription": "/ʃɛʁ.ʃe/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "chercher [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je cherche pour mes clés. ➜ ✅ Je cherche mes clés.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:inviter:verb",
         "word": "inviter",
         "level": "A2",
         "definition": "Prier quelqu'un de venir à une fête.",
-        "example": "Elle invite ses amis pour son anniversaire.",
+        "example": "Nous invitons nos voisins au dîner.",
         "transcription": "/ɛ̃.vi.te/",
-        "emoji": "💌"
+        "emoji": "💌",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "inviter [quelqu'un] à [événement / verbe]",
+        "common_mistake": "❌ Je t'invite de venir à ma fête. ➜ ✅ Je t'invite à venir à ma fête.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:adorer:verb",
         "word": "adorer",
         "level": "A0",
         "definition": "Aimer très fort quelque chose.",
-        "example": "Elle adore manger du chocolat chaud.",
+        "example": "J'adore voyager dans des pays étrangers.",
         "transcription": "/a.dɔ.ʁe/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "adorer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'adore de voyager en France. ➜ ✅ J'adore voyager en France.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-25": {
@@ -1569,63 +2924,121 @@
         "word": "vouloir dire",
         "level": "A0",
         "definition": "Avoir une signification particulière ; avoir l intention de.",
-        "example": "Que veut dire cette clause dans le contrat ?",
+        "example": "Que veut dire ce mot ?",
         "transcription": "/vu.lwaʁ diʁ/",
-        "emoji": "❔"
+        "emoji": "❔",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir dire [quelque chose]",
+        "common_mistake": "❌ Que veut dire de ce mot ? ➜ ✅ Que veut dire ce mot ?",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:venir:verb",
         "word": "venir",
         "level": "A0",
         "definition": "Se déplacer pour arriver à l'endroit où l'on est.",
-        "example": "Mon ami vient chez moi ce soir.",
+        "example": "Il vient du Japon pour ses études.",
         "transcription": "/və.niʁ/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "venir de [lieu / verbe]",
+        "common_mistake": "❌ Il vient à Paris (pour dire sa provenance). ➜ ✅ Il vient de Paris.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:entendre:verb",
         "word": "entendre",
         "level": "A0",
         "definition": "Percevoir les sons par les oreilles.",
-        "example": "J entends l alarme chaque matin.",
+        "example": "J’entends des oiseaux chanter.",
         "transcription": "/ɑ̃.tɑ̃dʁ/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "parler de"
+        ],
+        "pattern": "entendre [un bruit/quelqu’un] / entendre parler de [quelque chose]",
+        "common_mistake": "❌ J’entends à la musique. ➔ ✅ J’entends la musique.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:donner:verb",
         "word": "donner",
         "level": "A0",
         "definition": "Transférer la possession de quelque chose à quelqu'un.",
-        "example": "Elle donne un beau cadeau à son frère.",
+        "example": "Elle donne un cadeau à son ami.",
         "transcription": "/dɔ.ne/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "à"
+        ],
+        "pattern": "donner [quelque chose] à [quelqu’un]",
+        "common_mistake": "❌ Donner pour quelqu’un. ➔ ✅ Donner à quelqu’un.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:manquer:verb",
         "word": "manquer",
         "level": "A0",
         "definition": "Rater un moyen de transport ; ou se sentir triste de l absence.",
-        "example": "Il a manqué son train et a dû attendre une heure.",
+        "example": "Cette ville manque de transports en commun modernes.",
         "transcription": "/mɑ̃.ke/",
-        "emoji": "🏃‍♂️"
+        "emoji": "🏃‍♂️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "manquer de [quelque chose]",
+        "common_mistake": "❌ Il manque à courage pour réussir. ➜ ✅ Il manque de courage pour réussir.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:savoir:verb",
         "word": "savoir",
         "level": "A0",
         "definition": "Avoir la connaissance de quelque chose.",
-        "example": "Je sais lire et écrire en français.",
+        "example": "Je sais la vérité.",
         "transcription": "/sa.vwaʁ/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "savoir / savoir sur [sujet]",
+        "common_mistake": "❌ Je sais de la vérité. ➜ ✅ Je sais la vérité.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:regarder:verb",
         "word": "regarder",
         "level": "A0",
         "definition": "Porter ses yeux sur quelque chose.",
-        "example": "Nous regardons un film à la télévision.",
+        "example": "Nous regardons un film intéressant ce soir.",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "emoji": "📺"
+        "emoji": "📺",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "regarder [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Regarde à cette image ! ➜ ✅ Regarde cette image !",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-26": {
@@ -1634,63 +3047,119 @@
         "word": "s'arrêter",
         "level": "A0",
         "definition": "Cesser de se déplacer ou de faire une action.",
-        "example": "La voiture s'arrête au feu rouge.",
+        "example": "Le train s'arrête en gare de Lyon.",
         "transcription": "/sa.ʁɛ.te/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "s'arrêter de [faire quelque chose]",
+        "common_mistake": "❌ Il s'arrête à travailler à cinq heures. ➜ ✅ Il s'arrête de travailler à cinq heures.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:tenir:verb",
         "word": "tenir",
         "level": "A0",
         "definition": "Avoir ou garder quelque chose dans ses mains ou ses bras.",
-        "example": "Tiens le bébé avec précaution.",
+        "example": "Je tiens énormément à cette montre ancienne.",
         "transcription": "/tə.niʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "tenir à [quelqu'un / qqch / verbe]",
+        "common_mistake": "❌ Je tiens de réussir cet examen. ➜ ✅ Je tiens à réussir cet examen.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:adorer:verb",
         "word": "adorer",
         "level": "A0",
         "definition": "Aimer très fort quelque chose.",
-        "example": "Elle adore manger du chocolat chaud.",
+        "example": "J'adore voyager dans des pays étrangers.",
         "transcription": "/a.dɔ.ʁe/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "adorer [quelqu'un / quelque chose / verbe]",
+        "common_mistake": "❌ J'adore de voyager en France. ➜ ✅ J'adore voyager en France.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:esperer:verb",
         "word": "espérer",
         "level": "A2",
         "definition": "Attendre avec confiance une bonne chose.",
-        "example": "J'espère qu'il fera très beau demain.",
+        "example": "J'espère réussir mon examen avec mention.",
         "transcription": "/ɛs.pe.ʁe/",
-        "emoji": "🤞"
+        "emoji": "🤞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "espérer [quelque chose / verbe]",
+        "common_mistake": "❌ J'espère de réussir. ➜ ✅ J'espère réussir.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:tenir:verb",
         "word": "tenir",
         "level": "A0",
         "definition": "Avoir ou garder quelque chose dans ses mains ou ses bras.",
-        "example": "Tiens le bébé avec précaution.",
+        "example": "Je tiens énormément à cette montre ancienne.",
         "transcription": "/tə.niʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "tenir à [quelqu'un / qqch / verbe]",
+        "common_mistake": "❌ Je tiens de réussir cet examen. ➜ ✅ Je tiens à réussir cet examen.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:compter:verb",
         "word": "compter",
         "level": "A0",
         "definition": "Dire les nombres dans l'ordre.",
-        "example": "Peux-tu compter de un à dix ?",
+        "example": "Je compte sur toi pour m'aider à déménager.",
         "transcription": "/kɔ̃.te/",
-        "emoji": "🔢"
+        "emoji": "🔢",
+        "preposition": "sur",
+        "prepositions": [
+          "sur"
+        ],
+        "pattern": "compter sur [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:repondre:verb",
         "word": "répondre",
         "level": "A0",
         "definition": "Donner une réponse à une question.",
-        "example": "Le professeur répond gentiment à l'élève.",
+        "example": "Le candidat répond aux questions du jury.",
         "transcription": "/ʁe.pɔ̃dʁ/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "répondre à [quelqu'un / une question]",
+        "common_mistake": "❌ J'ai répondu la lettre hier. ➜ ✅ J'ai répondu à la lettre hier.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-27": {
@@ -1699,18 +3168,34 @@
         "word": "manger",
         "level": "A0",
         "definition": "Mâcher et avaler un aliment.",
-        "example": "Nous mangeons une bonne salade à midi.",
+        "example": "Nous mangeons de la soupe chaude à midi.",
         "transcription": "/mɑ̃.ʒe/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "manger [quelque chose]",
+        "common_mistake": "❌ Je mange de la pomme à le matin. ➜ ✅ Je mange une pomme le matin.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:mourir:verb",
         "word": "mourir",
         "level": "A0",
         "definition": "Cesser de vivre.",
-        "example": "Les plantes meurent sans eau.",
+        "example": "Il est mort de vieillesse.",
         "transcription": "/mu.ʁiʁ/",
-        "emoji": "⚰️"
+        "emoji": "⚰️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "mourir de [cause]",
+        "common_mistake": "❌ Il est mort par vieillesse. ➜ ✅ Il est mort de vieillesse.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:prendre:verb",
@@ -1719,43 +3204,84 @@
         "definition": "Saisir quelque chose avec les mains.",
         "example": "Je prends le bus tous les matins.",
         "transcription": "/pʁɑ̃dʁ/",
-        "emoji": "✊"
+        "emoji": "✊",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendre [quelque chose / quelqu’un]",
+        "common_mistake": "❌ Je prends à l’autobus. ➔ ✅ Je prends l’autobus.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:aider:verb",
         "word": "aider",
         "level": "A0",
         "definition": "Apporter son assistance à quelqu'un.",
-        "example": "Je peux vous aider à porter votre sac.",
+        "example": "J'aide mon fils à faire ses devoirs.",
         "transcription": "/e.de/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "aider [quelqu'un] à [faire quelque chose]",
+        "common_mistake": "❌ J'aide mon ami de faire ses devoirs. ➜ ✅ J'aide mon ami à faire ses devoirs.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:decider:verb",
         "word": "décider",
         "level": "A2",
         "definition": "Prendre une décision claire.",
-        "example": "Nous avons décidé de partir en vacances à la mer.",
+        "example": "Nous avons décidé de partir en vacances en Italie.",
         "transcription": "/de.si.de/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "décider de [faire quelque chose]",
+        "common_mistake": "❌ J'ai décidé à partir en voyage. ➜ ✅ J'ai décidé de partir en voyage.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:ouvrir:verb",
         "word": "ouvrir",
         "level": "A0",
         "definition": "Rendre accessible un passage ou un objet.",
-        "example": "J'ouvre la fenêtre pour aérer la pièce.",
+        "example": "J'ouvre la porte.",
         "transcription": "/u.vʁiʁ/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "ouvrir [porte/fenêtre]",
+        "common_mistake": "❌ J'ouvre à la porte. ➜ ✅ J'ouvre la porte.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:entendre:verb",
         "word": "entendre",
         "level": "A0",
         "definition": "Percevoir les sons par les oreilles.",
-        "example": "J entends l alarme chaque matin.",
+        "example": "J’entends des oiseaux chanter.",
         "transcription": "/ɑ̃.tɑ̃dʁ/",
-        "emoji": "👂"
+        "emoji": "👂",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "parler de"
+        ],
+        "pattern": "entendre [un bruit/quelqu’un] / entendre parler de [quelque chose]",
+        "common_mistake": "❌ J’entends à la musique. ➔ ✅ J’entends la musique.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-28": {
@@ -1764,63 +3290,121 @@
         "word": "apprendre",
         "level": "A0",
         "definition": "Acquérir des connaissances nouvelles.",
-        "example": "J'apprends le français avec enthousiasme.",
+        "example": "Mon fils apprend à nager à la piscine.",
         "transcription": "/a.pʁɑ̃dʁ/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "apprendre à [faire quelque chose]",
+        "common_mistake": "❌ Il apprend de conduire sa voiture. ➜ ✅ Il apprend à conduire sa voiture.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:faire:verb",
         "word": "faire",
         "level": "A0",
         "definition": "Réaliser une action ou fabriquer quelque chose.",
-        "example": "Je fais mes devoirs de français le soir.",
+        "example": "Je fais mes devoirs.",
         "transcription": "/fɛʁ/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "faire [action]",
+        "common_mistake": "❌ Je fais de mes devoirs. ➜ ✅ Je fais mes devoirs.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:donner:verb",
         "word": "donner",
         "level": "A0",
         "definition": "Transférer la possession de quelque chose à quelqu'un.",
-        "example": "Elle donne un beau cadeau à son frère.",
+        "example": "Elle donne un cadeau à son ami.",
         "transcription": "/dɔ.ne/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "à"
+        ],
+        "pattern": "donner [quelque chose] à [quelqu’un]",
+        "common_mistake": "❌ Donner pour quelqu’un. ➔ ✅ Donner à quelqu’un.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:vouloir:verb",
         "word": "vouloir",
         "level": "A0",
         "definition": "Avoir le désir de faire ou d'obtenir quelque chose.",
-        "example": "Je veux apprendre à parler français.",
+        "example": "Je veux apprendre le français rapidement.",
         "transcription": "/vu.lwaʁ/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir [quelque chose / verbe]",
+        "common_mistake": "❌ Je veux pour un café. ➜ ✅ Je veux un café.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:se-sentir:verb",
         "word": "se sentir",
         "level": "A0",
         "definition": "Éprouver une émotion ou une sensation physique.",
-        "example": "Je me sens fatigué.",
+        "example": "Je me sens bien.",
         "transcription": "/sə sɑ̃.tiʁ/",
-        "emoji": "🌡️"
+        "emoji": "🌡️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "se sentir [adjectif]",
+        "common_mistake": "❌ Je me sens de bien. ➜ ✅ Je me sens bien.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:commencer:verb",
         "word": "commencer",
         "level": "A0",
         "definition": "Faire le premier pas d'une action.",
-        "example": "Le cours de français commence à neuf heures.",
+        "example": "Il commence à pleuvoir sur la ville.",
         "transcription": "/kɔ.mɑ̃.se/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "commencer à [faire quelque chose]",
+        "common_mistake": "❌ Nous commençons de lire. ➜ ✅ Nous commençons à lire.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:donner:verb",
         "word": "donner",
         "level": "A0",
         "definition": "Transférer la possession de quelque chose à quelqu'un.",
-        "example": "Elle donne un beau cadeau à son frère.",
+        "example": "Elle donne un cadeau à son ami.",
         "transcription": "/dɔ.ne/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "none",
+        "prepositions": [
+          "none",
+          "à"
+        ],
+        "pattern": "donner [quelque chose] à [quelqu’un]",
+        "common_mistake": "❌ Donner pour quelqu’un. ➔ ✅ Donner à quelqu’un.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-29": {
@@ -1831,61 +3415,117 @@
         "definition": "Saisir quelque chose avec les mains.",
         "example": "Je prends le bus tous les matins.",
         "transcription": "/pʁɑ̃dʁ/",
-        "emoji": "✊"
+        "emoji": "✊",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "prendre [quelque chose / quelqu’un]",
+        "common_mistake": "❌ Je prends à l’autobus. ➔ ✅ Je prends l’autobus.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:avoir:verb",
         "word": "avoir",
         "level": "A0",
         "definition": "Posséder quelque chose ou ressentir un état.",
-        "example": "J'ai deux frères et une sœur.",
+        "example": "J'ai une voiture.",
         "transcription": "/a.vwaʁ/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "avoir [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'ai de une voiture. ➜ ✅ J'ai une voiture.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:voir:verb",
         "word": "voir",
         "level": "A0",
         "definition": "Percevoir les objets par les yeux.",
-        "example": "Je vois un bel oiseau dans l'arbre.",
+        "example": "Je vois mon ami ce week-end à Paris.",
         "transcription": "/vwaʁ/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "voir [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je vois à mon ami ce soir. ➜ ✅ Je vois mon ami ce soir.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:parler:verb",
         "word": "parler",
         "level": "A0",
         "definition": "S'exprimer au moyen de la parole.",
-        "example": "Elle parle français très bien.",
+        "example": "Je parle au médecin de mon mal de dos.",
         "transcription": "/paʁ.le/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "parler à [quelqu'un] / parler de [sujet]",
+        "common_mistake": "❌ Je parle de mon ami au téléphone. ➜ ✅ Je parle à mon ami au téléphone.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:contacter:verb",
         "word": "contacter",
         "level": "A2",
         "definition": "Entrer en contact avec quelqu'un.",
-        "example": "Je vous contacterai d'ici la fin de la semaine avec une réponse.",
+        "example": "Veuillez contacter le support client par courriel.",
         "transcription": "/kɔ̃takte/",
-        "emoji": "📞"
+        "emoji": "📞",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "contacter [quelqu'un]",
+        "common_mistake": "❌ Je vais contacter avec le directeur. ➜ ✅ Je vais contacter le directeur.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:mourir:verb",
         "word": "mourir",
         "level": "A0",
         "definition": "Cesser de vivre.",
-        "example": "Les plantes meurent sans eau.",
+        "example": "Il est mort de vieillesse.",
         "transcription": "/mu.ʁiʁ/",
-        "emoji": "⚰️"
+        "emoji": "⚰️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "mourir de [cause]",
+        "common_mistake": "❌ Il est mort par vieillesse. ➜ ✅ Il est mort de vieillesse.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:vouloir:verb",
         "word": "vouloir",
         "level": "A0",
         "definition": "Avoir le désir de faire ou d'obtenir quelque chose.",
-        "example": "Je veux apprendre à parler français.",
+        "example": "Je veux apprendre le français rapidement.",
         "transcription": "/vu.lwaʁ/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir [quelque chose / verbe]",
+        "common_mistake": "❌ Je veux pour un café. ➜ ✅ Je veux un café.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-30": {
@@ -1894,63 +3534,120 @@
         "word": "payer",
         "level": "A0",
         "definition": "Donner de l'argent pour un achat.",
-        "example": "Je paye mon repas par carte bancaire.",
+        "example": "Je paye l'addition par carte bancaire.",
         "transcription": "/pɛ.je/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "payer [quelque chose / quelqu'un]",
+        "common_mistake": "❌ Je paye pour le café. ➜ ✅ Je paye le café.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:ecouter:verb",
         "word": "écouter",
         "level": "A0",
         "definition": "Prêter l'oreille pour entendre un son.",
-        "example": "J'écoute de la musique douce le soir.",
+        "example": "J'écoute de la musique classique pour réviser.",
         "transcription": "/e.ku.te/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "écouter [quelqu'un / quelque chose]",
+        "common_mistake": "❌ J'écoute à la musique. ➜ ✅ J'écoute la musique.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:etre:verb",
         "word": "être",
         "level": "A0",
         "definition": "Exister, avoir une réalité ou une qualité.",
-        "example": "Je suis très heureux de vous rencontrer.",
+        "example": "Je suis à la maison.",
         "transcription": "/ɛtʁ/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "à",
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pattern": "être + à/dans + lieu",
+        "common_mistake": "❌ Je suis en la maison. ➜ ✅ Je suis à la maison.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:devenir:verb",
         "word": "devenir",
         "level": "A2",
         "definition": "Commencer à être quelque chose.",
-        "example": "Il veut devenir pilote.",
+        "example": "Il est devenu médecin.",
         "transcription": "/dəvniʁ/",
-        "emoji": "🦋"
+        "emoji": "🦋",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "devenir [quelque chose]",
+        "common_mistake": "❌ Il est devenu à médecin. ➜ ✅ Il est devenu médecin.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:oublier:verb",
         "word": "oublier",
         "level": "A0",
         "definition": "Ne plus avoir en mémoire quelque chose.",
-        "example": "N'oubliez pas vos clés sur la table !",
+        "example": "N'oublie pas de fermer la porte à clé.",
         "transcription": "/u.bli.je/",
-        "emoji": "🤷"
+        "emoji": "🤷",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "oublier de [faire quelque chose]",
+        "common_mistake": "❌ J'ai oublié de mes clés. ➜ ✅ J'ai oublié mes clés.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:se-plaindre:verb",
         "word": "se plaindre",
         "level": "A2",
         "definition": "Exprimer son mécontentement.",
-        "example": "Le client se plaint du bruit de la rue.",
+        "example": "Les voisins se plaignent du bruit excessif.",
         "transcription": "/sə.plɛ̃dʁ/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "de",
+        "prepositions": [
+          "de"
+        ],
+        "pattern": "se plaindre de [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Elle se plaint à la chaleur. ➜ ✅ Elle se plaint de la chaleur.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:preferer:verb",
         "word": "préférer",
         "level": "A0",
         "definition": "Aimer une chose plus qu'une autre.",
-        "example": "Je préfère le thé au café.",
+        "example": "Je préfère le thé chaud au café amertume.",
         "transcription": "/pʁe.fe.ʁe/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "préférer [quelque chose] à [autre chose]",
+        "common_mistake": "❌ Je préfère le thé que le café. ➜ ✅ Je préfère le thé au café.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-31": {
@@ -1959,63 +3656,119 @@
         "word": "vouloir",
         "level": "A0",
         "definition": "Avoir le désir de faire ou d'obtenir quelque chose.",
-        "example": "Je veux apprendre à parler français.",
+        "example": "Je veux apprendre le français rapidement.",
         "transcription": "/vu.lwaʁ/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "vouloir [quelque chose / verbe]",
+        "common_mistake": "❌ Je veux pour un café. ➜ ✅ Je veux un café.",
+        "slot_level": "A0",
+        "review": false
       },
       "A1": {
         "id": "fr:regarder:verb",
         "word": "regarder",
         "level": "A0",
         "definition": "Porter ses yeux sur quelque chose.",
-        "example": "Nous regardons un film à la télévision.",
+        "example": "Nous regardons un film intéressant ce soir.",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "emoji": "📺"
+        "emoji": "📺",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "regarder [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Regarde à cette image ! ➜ ✅ Regarde cette image !",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "fr:repondre:verb",
         "word": "répondre",
         "level": "A0",
         "definition": "Donner une réponse à une question.",
-        "example": "Le professeur répond gentiment à l'élève.",
+        "example": "Le candidat répond aux questions du jury.",
         "transcription": "/ʁe.pɔ̃dʁ/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "répondre à [quelqu'un / une question]",
+        "common_mistake": "❌ J'ai répondu la lettre hier. ➜ ✅ J'ai répondu à la lettre hier.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "fr:penser:verb",
         "word": "penser",
         "level": "A0",
         "definition": "Former des idées dans son esprit.",
-        "example": "Je pense que c'est une excellente idée.",
+        "example": "Je pense souvent à mes amis d'enfance.",
         "transcription": "/pɑ̃.se/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "penser à [quelqu'un / verbe] vs penser de [avis]",
+        "common_mistake": "❌ Que pensez-vous à ce livre ? ➜ ✅ Que pensez-vous de ce livre ?",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "fr:comprendre:verb",
         "word": "comprendre",
         "level": "A0",
         "definition": "Saisir le sens de quelque chose.",
-        "example": "Je comprends très bien la leçon aujourd'hui.",
+        "example": "Je comprends la question.",
         "transcription": "/kɔ̃.pʁɑ̃dʁ/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "comprendre [quelqu'un / quelque chose]",
+        "common_mistake": "❌ Je comprends à la question. ➜ ✅ Je comprends la question.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "fr:habiter:verb",
         "word": "habiter",
         "level": "A0",
         "definition": "Avoir sa résidence principale dans un lieu particulier.",
-        "example": "J'habite dans un grand appartement à Paris.",
+        "example": "J'habite à Lyon depuis deux ans.",
         "transcription": "/a.bi.te/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "à",
+        "prepositions": [
+          "à"
+        ],
+        "pattern": "habiter à / en / dans [lieu]",
+        "common_mistake": "❌ J'habite en Paris. ➜ ✅ J'habite à Paris.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "fr:acheter:verb",
         "word": "acheter",
         "level": "A0",
         "definition": "Obtenir un bien en échange d'argent.",
-        "example": "J'achète du pain frais chaque matin.",
+        "example": "J'achète des légumes au marché.",
         "transcription": "/aʃ.te/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "acheter [quelque chose] à [quelqu'un]",
+        "common_mistake": "❌ J'achète pour des fruits de le marchand. ➜ ✅ J'achète des fruits au marchand.",
+        "slot_level": "C2",
+        "review": true
       }
     }
   }
