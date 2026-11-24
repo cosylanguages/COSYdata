@@ -72,12 +72,22 @@ const LEVELS_ALL = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const SLOTS = {
   idiom: {
     levels: ['A2', 'B1', 'B2', 'C1', 'C2'],
-    // idioms live in one file per level; the directory decides the level
+    // idioms live in one file per level; the directory decides the level.
+    // The source set is inconsistent: most levels use idioms.json, while the
+    // advanced fr/it/ru levels only have idiom.json. Prefer the plural file
+    // where it is populated so the existing A2/B1 selections stay stable.
     collect(lang) {
       const out = [];
       const dirLevel = { a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
-      for (const f of vocabFiles(lang)) {
-        if (f.name !== 'idioms.json' || !dirLevel[f.dir]) continue;
+      const files = vocabFiles(lang);
+      const populated = new Set();
+      for (const f of files) {
+        if (f.name === 'idioms.json' && dirLevel[f.dir] && entriesOf(f.file).length) populated.add(f.dir);
+      }
+      for (const f of files) {
+        if (!dirLevel[f.dir]) continue;
+        if (f.name === 'idiom.json' && populated.has(f.dir)) continue;
+        if (f.name !== 'idioms.json' && f.name !== 'idiom.json') continue;
         for (const e of entriesOf(f.file)) out.push({ entry: e, level: dirLevel[f.dir], meta: {} });
       }
       return out;
