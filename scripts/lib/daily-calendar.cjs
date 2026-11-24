@@ -83,7 +83,17 @@ const SLOTS = {
       return out;
     },
     eligible(e) {
-      return Boolean(first(e.definitions) && first(e.examples));
+      const w = String(e.word || '').trim().toLowerCase();
+      const d = first(e.definitions);
+      const x = first(e.examples);
+      if (!w || !d || !x) return false;
+      if (d.length < 12 || x.length < 15) return false;
+      if (norm(d) === norm(w) || norm(d) === norm(x)) return false;
+      // Meta examples ("He uses the expression "..." in conversation") teach nothing about usage.
+      if (new RegExp('["«“„]\\s*' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(x.toLowerCase())) return false;
+      if (/\b(?:uses?|used|using|says?|said)\b[^.!?]{0,30}\b(?:expression|phrase|idiom|word)\b/i.test(x)) return false;
+      if (/\b(?:expression|phrase|idiom)\b[^.!?]{0,20}\b(?:means?|is used)\b/i.test(x)) return false;
+      return true;
     },
     card(e) {
       const c = { id: e.id, word: e.word, definition: first(e.definitions), example: first(e.examples) };
@@ -200,15 +210,23 @@ SLOTS['phrasal-verb'] = {
 // cumulative: the B1 pool holds every eligible verb up to B1, because verbs are drilled, not read once.
 const verbLemma = (w) => String(w || '').normalize('NFC').toLowerCase().replace(/\u0301/g, '').replace(/^to\s+/, '').trim();
 let toolsVerbs = null;
+function loadToolsVerbs() {
+  if (!toolsVerbs) toolsVerbs = readJson(path.join(root, 'shared', 'cosytools-verbs.json'), { conjugation: {}, governance: {}, governanceData: {} });
+  return toolsVerbs;
+}
 function toolsVerbSet(kind, lang) {
-  if (!toolsVerbs) toolsVerbs = readJson(path.join(root, 'shared', 'cosytools-verbs.json'), { conjugation: {}, governance: {} });
-  return new Set((toolsVerbs[kind] && toolsVerbs[kind][lang]) || []);
+  return new Set((loadToolsVerbs()[kind] && loadToolsVerbs()[kind][lang]) || []);
+}
+function governanceFor(lang, word) {
+  const data = loadToolsVerbs().governanceData && loadToolsVerbs().governanceData[lang];
+  return data ? data[verbLemma(word)] || null : null;
 }
 
 function verbSlot(kind) {
   return {
     levels: LEVELS_ALL,
     cumulative: true,
+    reviewable: true,
     collect(lang) {
       const out = [];
       for (const f of vocabFiles(lang)) {
@@ -225,6 +243,12 @@ function verbSlot(kind) {
       if (meta && meta.template) return false;
       const lang = (meta && meta.lang) || String(e.language || '');
       if (!toolsVerbSet(kind, lang).has(verbLemma(e.word))) return false;   // the tool must be able to drill it
+      if (kind === 'governance') {
+        const g = governanceFor(lang, e.word);
+        if (!g || !g.pattern) return false;                                  // the card must carry a real pattern
+        // Skip entries whose own pattern does not demonstrate the preposition (e.g. an instrumental "con").
+        if (g.preposition && g.preposition !== 'none' && !String(g.pattern).toLowerCase().includes(String(g.preposition).toLowerCase())) return false;
+      }
       const d = first(e.definitions);
       const x = first(e.examples);
       if (d.length < 12 || norm(d) === norm(e.word) || norm(d) === norm(x)) return false;
@@ -232,17 +256,42 @@ function verbSlot(kind) {
       if (['A0', 'A1', 'A2'].includes(level) && !e.emoji) return false;
       return true;
     },
-    card(e) {
+    card(e, slotLevel, lang) {
       const c = { id: e.id, word: e.word.trim().replace(/^to\s+/i, ''), level: String(e.level).toUpperCase(), definition: first(e.definitions), example: first(e.examples) };
       const ipa = cleanTranscription(e);
       if (ipa) c.transcription = ipa;
       if (e.emoji) c.emoji = e.emoji;
+      if (kind === 'governance') {
+        const g = governanceFor(lang, e.word);
+        if (g) {
+          c.preposition = g.preposition || 'none';
+          if (Array.isArray(g.prepositions) && g.prepositions.length) c.prepositions = g.prepositions;
+          if (g.case) c.case = g.case;
+          if (g.pattern) c.pattern = g.pattern;
+          if (g.common_mistake) c.common_mistake = g.common_mistake;
+          const governedExample = Array.isArray(g.examples)
+            ? g.examples.find((e) => typeof e === 'string' && e.trim())
+            : null;
+          if (governedExample) c.example = governedExample;
+        }
+      }
       return c;
     }
   };
 }
 SLOTS.verb = verbSlot('conjugation');
 SLOTS['verb-prep'] = verbSlot('governance');
+
+// Build the published card and record whether it is at the slot's level or a review card drawn from a lower level.
+// Clients use `review` to say so instead of silently presenting an A1 verb as C1 material.
+function cardFor(spec, entry, level, lang) {
+  const card = spec.card(entry, level, lang);
+  if (spec.reviewable && entry && entry.level) {
+    card.slot_level = level;
+    card.review = String(entry.level).toUpperCase() !== level;
+  }
+  return card;
+}
 
 function loadExclude(lang, slot) {
   return (readJson(path.join(root, 'daily', lang, 'calendar', 'exclude.json'), {})[slot]) || {};
@@ -296,4 +345,4 @@ function buildPools(slotName, lang, minPool) {
   return { pools, byId, levels, skipped };
 }
 
-module.exports = { root, SLOTS, loadExclude, readJson, buildPools };
+module.exports = { root, SLOTS, loadExclude, readJson, buildPools, cardFor, governanceFor };

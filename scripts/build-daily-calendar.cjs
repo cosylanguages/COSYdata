@@ -26,7 +26,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { root, SLOTS, readJson, buildPools } = require('./lib/daily-calendar.cjs');
+const { root, SLOTS, readJson, buildPools, cardFor } = require('./lib/daily-calendar.cjs');
 
 function arg(name, dflt) {
   const i = process.argv.indexOf('--' + name);
@@ -67,10 +67,14 @@ function buildLang(slotName, lang, months, minPool) {
 
   function pick(level, date) {
     const pool = pools[level];
-    const window = Math.min(90, Math.floor(pool.length / 2));
+    // Prefer verbs whose own level matches the slot. A level with only one or two at-level verbs would repeat
+    // every day, so fall back to the cumulative pool and let cardFor mark the result as a review card.
+    const own = pool.filter((e) => String(e.level || '').toUpperCase() === level);
+    const source = own.length >= 3 ? own : pool;
+    const window = Math.min(90, Math.floor(source.length / 2));
     const recent = new Set(history[level].slice(-window).map((h) => h.id));
-    const cands = pool.filter((e) => !recent.has(e.id));
-    const list = cands.length ? cands : pool;
+    const cands = source.filter((e) => !recent.has(e.id));
+    const list = cands.length ? cands : source;
     return list[fnv1a(`${lang}|${slotName}|${level}|${date}`) % list.length];
   }
 
@@ -91,7 +95,7 @@ function buildLang(slotName, lang, months, minPool) {
         if (overrides[date] && overrides[date][level] && byId[overrides[date][level]]) entry = byId[overrides[date][level]];
         if (!entry) { entry = pick(level, date); if (!old) stats.created++; }
         history[level].push({ date, id: entry.id });
-        day[level] = spec.card(entry);
+        day[level] = cardFor(spec, entry, level, lang);
       }
       days[date] = day;
     }

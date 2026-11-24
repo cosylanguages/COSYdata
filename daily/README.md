@@ -65,8 +65,8 @@ Each day carries a ready-to-show card, so a client needs one small request (abou
 |---|---|---|
 | `idiom` | `vocabulary/<lang>/<level>/idioms.json` | word, definition, example, `literal_meaning`, emoji |
 | `word` | nouns, adjectives and adverbs from every vocabulary file (verbs are kept for a verb-of-the-day slot) | word, pos, definition, example, article, gender, IPA (only real IPA), emoji |
-| `verb` | dictionary verbs that COSYtools can conjugate | word (lemma), `level` (the verb's own level), definition, example, IPA, emoji |
-| `verb-prep` | dictionary verbs with governance data in COSYtools (preposition or case) | same card; COSYtools supplies the governed preposition |
+| `verb` | dictionary verbs that COSYtools can conjugate | word (lemma), `level` (the verb's own level), definition, example, IPA, emoji, `slot_level` and `review` |
+| `verb-prep` | dictionary verbs with governance data in COSYtools (preposition or case) | same card plus `preposition`/`prepositions`, `pattern`, `case` and `common_mistake`; `slot_level` and `review` mark a card drawn below the slot level |
 | `phrasal-verb` | `vocabulary/<lang>/<level>/phrasal_verbs.json` | word (without "to"), definition, example, IPA, emoji, up to 2 `synonyms`, `tool` (the COSYtools page for the verb, e.g. `en-verb-prep:wake up`) |
 
 - **Build:** `npm run build:daily` (also part of `npm run build`). Defaults to the current month plus 13.
@@ -85,15 +85,28 @@ Each day carries a ready-to-show card, so a client needs one small request (abou
   entry). Idioms that are not phrasal verbs ("fall prey to") are in `exclude.json`.
 - **Verb slots and COSYtools.** `verb` and `verb-prep` only feature verbs the tools can drill, taken from
   `shared/cosytools-verbs.json`, a snapshot written by `node scripts/sync-cosytools-verbs.cjs ../COSYtools` (conjugation lists
-  per language, plus the governance lists for en, fr, it, el; Russian has no governance dataset yet). Re-run it when COSYtools
-  adds or removes verbs, then `npm run build:daily`; `npm run validate` fails if a pick is no longer in the snapshot.
+  per language, plus the governance lists and full governance records for en, fr, it, de, el; Russian has no governance dataset yet).
+  Re-run it when COSYtools adds or removes verbs, then `npm run build:daily`; `npm run validate` fails if a pick is no longer in the snapshot.
   Pools are **cumulative**: the B1 pool holds every eligible verb up to B1, and the card's `level` is the verb's own level.
+  A card drawn below the slot level carries `slot_level` and `review: true` so clients can say "Review for C1" instead of
+  presenting an A2 verb as C1 material.
+- **Verb-prep rules:** a `verb-prep` card must carry a governed `preposition` and a `pattern`; the pattern must contain the
+  preposition. Entries whose own pattern does not demonstrate the preposition (for example an instrumental "con" in Italian)
+  are skipped rather than shown as a misleading drill.
 - **Editorial filter:** `daily/<lang>/calendar/exclude.json` lists entries that are never featured
   (`{"<slot>": {"<id>": "<word>"}}`). `idioms.json` also holds collocations and phrasal verbs, so `idiom` needs it.
+  The `idiom` slot also rejects meta examples that only quote the expression ("He uses the phrase … in conversation")
+  and examples shorter than 15 characters; the card must show the expression in a real sentence.
 - **Hand edits:** `daily/<lang>/calendar/overrides.json`, `{"<slot>": {"2026-12-25": {"B1": "<entry id>"}}}`.
 - **Languages and levels:** only slots/languages in `daily/calendar-config.json` are built. A level whose eligible
-  pool is below `minPool` (90 for `word`) is skipped, because it would repeat too often; clients fall back to the nearest
-  published level. Today: `idiom` en; `word` en (A0-C2), fr (A0, A2), it (A1-B1), ru (A0-A2), el (A1); `phrasal-verb` en (A2-C1, minPool 55); `verb` en, fr, it, ru, el and `verb-prep` en, fr, it, el (minPool 30, so A0 is skipped where fewer than 30 verbs qualify). Italian has 55 `phrasal_verbs.json` entries at A2 but they are ordinary verbs, so it is not enabled; fr, ru and el have none.
+  pool is below `minPool` (30 for `word`, 15 for `verb`, 30 for `verb-prep`) is skipped, because it would repeat too often;
+  clients fall back to the nearest published level and say so. Today: `idiom` en (A2-C2), fr (A2), it (A2-B1), ru (A2);
+  `word` en (A0-C2), fr (A0, A1, A2, B1, C2), it (A0, A1, A2, B1, B2, C2), ru (A0, A1, A2, B1, B2, C2), el (A0, A1, A2, B1, B2);
+  `phrasal-verb` en (A2-C1, minPool 55); `verb` en, fr, it, ru, el, de; `verb-prep` en (A1-C2), fr (A0-C2), it (A1-C2), el (A1-C2).
+  Italian has 55 `phrasal_verbs.json` entries at A2 but they are ordinary verbs, so it is not enabled; fr, ru and el have none.
+- **Advanced verb slots:** the C1/C2 verb pools are empty or nearly empty in most languages, so those slots show
+  cumulative review cards with `review: true` and `slot_level: "C1"`/`"C2"` instead of pretending an A2 verb is C1
+  material. Expanding the advanced verb dictionaries is the durable fix; the picker deliberately does not re-label them.
 - **Validation:** `npm run validate` fails if a pick no longer exists, is excluded or ineligible, or its card is out of date.
 
 ## CORS & Hosting

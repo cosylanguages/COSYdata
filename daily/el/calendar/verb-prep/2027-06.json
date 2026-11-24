@@ -9,54 +9,107 @@
         "word": "είμαι",
         "level": "A0",
         "definition": "ρήμα ύπαρξης και ταυτότητας",
-        "example": "Είμαι μαθητής στο σχολείο.",
+        "example": "Είμαι στο σπίτι.",
         "transcription": "/ˈime/",
-        "emoji": "👤"
+        "emoji": "👤",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "είμαι + σε + αιτιατική",
+        "common_mistake": "❌ Είμαι για το σπίτι. ➜ ✅ Είμαι στο σπίτι.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:mou-aresei:verb",
         "word": "μου αρέσει",
         "level": "A1",
         "definition": "βρίσκω κάτι ευχάριστο",
-        "example": "Μου αρέσει το παγωτό σοκολάτα.",
+        "example": "Μου αρέσει το σοκολατένιο παγωτό.",
         "transcription": "/mu aˈresi/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "genitive",
+        "pattern": "μου αρέσει + ονομαστική",
+        "common_mistake": "❌ Μου αρέσει για το παγωτό. ➜ ✅ Μου αρέσει το σοκολατένιο παγωτό.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:xechnao:verb",
         "word": "ξεχνάω",
         "level": "A1",
         "definition": "χάνω από τη μνήμη μου",
-        "example": "Ξέχασα τα γυαλιά μου στο σπίτι.",
+        "example": "Ξεχνάω πάντα τα κλειδιά μου.",
         "transcription": "/ksexˈnao/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ξεχνάω + αιτιατική",
+        "common_mistake": "❌ Ξέχασα για τα κλειδιά μου. ➜ ✅ Ξέχασα τα κλειδιά μου.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:poulao:verb",
         "word": "πουλάω",
         "level": "A1",
         "definition": "δίνω κάτι έναντι χρημάτων",
-        "example": "Ο έμπορος πουλάει φρούτα.",
+        "example": "Πουλάω το παλιό μου σπίτι.",
         "transcription": "/puˈlao/",
-        "emoji": "🏷️"
+        "emoji": "🏷️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "πουλάω + αιτιατική",
+        "common_mistake": "❌ Πουλάω από το σπίτι. ➜ ✅ Πουλάω το σπίτι.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:stelno:verb",
         "word": "στέλνω",
         "level": "A1",
         "definition": "διαβιβάζω κάτι σε άλλον",
-        "example": "Στέλνω ένα μήνυμα στον φίλο μου.",
+        "example": "Στέλνω ένα μήνυμα στη μητέρα μου.",
         "transcription": "/ˈstelno/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "στέλνω + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Στέλνω προς τη μητέρα. ➜ ✅ Στέλνω στη μητέρα.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
-        "id": "el:allazo:verb",
-        "word": "αλλάζω",
-        "level": "A1",
-        "definition": "κάνω κάτι διαφορετικό",
-        "example": "Αλλάζω ρούχα μετά τη γυμναστική.",
-        "transcription": "/aˈlazo/",
-        "emoji": "🔄"
+        "id": "el:katigoro:verb",
+        "word": "κατηγορώ",
+        "level": "C2",
+        "definition": "Αποδίδω μια ιδιότητα σε ένα υποκείμενο (predicate).",
+        "example": "Κατηγορούν τον υπάλληλο για την κλοπή.",
+        "emoji": "🗣️",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "κατηγορώ + αιτιατική + [για + αιτιατική]",
+        "common_mistake": "❌ Κατηγορώ τον υπάλληλο από την κλοπή. ➜ ✅ Κατηγορώ τον υπάλληλο για την κλοπή.",
+        "slot_level": "C2",
+        "review": false
       }
     },
     "2027-06-02": {
@@ -65,45 +118,91 @@
         "word": "δουλεύω",
         "level": "A1",
         "definition": "εργάζομαι επαγγελματικά",
-        "example": "Δουλεύω σε ένα γραφείο.",
+        "example": "Δουλεύω σε μια μεγάλη τράπεζα.",
         "transcription": "/ðuˈlevo/",
-        "emoji": "💼"
+        "emoji": "💼",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "δουλεύω + [σε + αιτιατική]",
+        "common_mistake": "❌ Δουλεύω για μια τράπεζα (acceptable for 'for', but workplace is 'σε'). ➜ ✅ Δουλεύω σε τράπεζα.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:koitazo:verb",
         "word": "κοιτάζω",
         "level": "A1",
         "definition": "στρέφω το βλέμμα σε κάτι",
-        "example": "Κοιτάζω την όμορφη θέα.",
+        "example": "Κοιτάζω τη θάλασσα από το μπαλκόνι.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κοιτάζω + αιτιατική",
+        "common_mistake": "❌ Κοιτάζω σε εσένα. ➔ ✅ Σε κοιτάζω / Κοιτάζω εσένα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:yparcho:verb",
         "word": "υπάρχω",
         "level": "A1",
         "definition": "βρίσκομαι σε κατάσταση ύπαρξης",
-        "example": "Υπάρχουν πολλά βιβλία στη βιβλιοθήκη.",
+        "example": "Υπάρχει ελπίδα στην καρδιά μας.",
         "transcription": "/iˈparxo/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "υπάρχω + σε + αιτιατική",
+        "common_mistake": "❌ Υπάρχει ελπίδα για την καρδιά. ➜ ✅ Υπάρχει ελπίδα στην καρδιά μας.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:skeftomai:verb",
         "word": "σκέφτομαι",
         "level": "A1",
         "definition": "χρησιμοποιώ το μυαλό μου",
-        "example": "Σκέφτομαι τη σωστή απάντηση.",
+        "example": "Σκέφτομαι το πρόβλημά σου.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "σκέφτομαι + αιτιατική / [για + αιτιατική]",
+        "common_mistake": "❌ Σκέφτομαι περί το μέλλον. ➜ ✅ Σκέφτομαι το μέλλον μου.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:taxideyo:verb",
         "word": "ταξιδεύω",
         "level": "A1",
         "definition": "μεταβαίνω σε μακρινούς τόπους",
-        "example": "Ταξιδεύω στην Ελλάδα κάθε καλοκαίρι.",
+        "example": "Ταξιδεύω στο νησί με αεροπλάνο.",
         "transcription": "/taksiˈðevo/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε",
+          "με"
+        ],
+        "case": "accusative",
+        "pattern": "ταξιδεύω + [σε/με + αιτιατική]",
+        "common_mistake": "❌ Ταξιδεύω από αεροπλάνο. ➜ ✅ Ταξιδεύω με αεροπλάνο.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:anoigo:verb",
@@ -112,7 +211,16 @@
         "definition": "κάνω κάτι προσβάσιμο",
         "example": "Ανοίγω την πόρτα του σπιτιού.",
         "transcription": "/aˈniɣo/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ανοίγω + αιτιατική",
+        "common_mistake": "❌ Ανοίγω για το παράθυρο. ➜ ✅ Ανοίγω το παράθυρο.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-03": {
@@ -121,9 +229,18 @@
         "word": "απαντάω",
         "level": "A1",
         "definition": "δίνω απάντηση σε ερώτηση",
-        "example": "Απαντάω αμέσως στην ερώτηση.",
+        "example": "Απαντάω στην επιστολή του καθηγητή.",
         "transcription": "/apanˈtao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "απαντάω + σε + αιτιατική",
+        "common_mistake": "❌ Απαντάω την ερώτηση. ➜ ✅ Απαντάω στην ερώτηση.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:meno:verb",
@@ -132,63 +249,126 @@
         "definition": "κατοικώ κάπου ή παραμένω σε ένα μέρος",
         "example": "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
         "transcription": "/ˈmeno/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μένω + σε + αιτιατική",
+        "common_mistake": "❌ Μένω σε την Αθήνα. ➜ ✅ Μένω στην Αθήνα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:agorazo:verb",
         "word": "αγοράζω",
         "level": "A1",
         "definition": "αποκτώ κάτι πληρώνοντας",
-        "example": "Αγοράζω φρέσκο ψωμί.",
+        "example": "Αγοράζω ένα νέο αυτοκίνητο.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγοράζω + αιτιατική",
+        "common_mistake": "❌ Αγοράζω για ένα βιβλίο. ➜ ✅ Αγοράζω ένα βιβλίο.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:simaino:verb",
         "word": "σημαίνω",
         "level": "A1",
         "definition": "έχω μια συγκεκριμένη σημασία",
-        "example": "Τι σημαίνει αυτή η νέα λέξη;",
+        "example": "Τι σημαίνει αυτή η λέξη;",
         "transcription": "/siˈmeno/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "σημαίνω + αιτιατική",
+        "common_mistake": "❌ Τι σημαίνει για αυτή τη λέξη; ➜ ✅ Τι σημαίνει αυτή η λέξη;",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:symfono:verb",
         "word": "συμφωνώ",
         "level": "A1",
         "definition": "έχω την ίδια γνώμη με κάποιον",
-        "example": "Συμφωνώ απόλυτα με την πρότασή σου.",
+        "example": "Συμφωνώ απόλυτα με τη γνώμη σου.",
         "transcription": "/simfoˈno/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "με",
+        "prepositions": [
+          "με"
+        ],
+        "case": "accusative",
+        "pattern": "συμφωνώ + με + αιτιατική",
+        "common_mistake": "❌ Συμφωνώ σε τη γνώμη σου. ➜ ✅ Συμφωνώ με τη γνώμη σου.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:apantao:verb",
         "word": "απαντάω",
         "level": "A1",
         "definition": "δίνω απάντηση σε ερώτηση",
-        "example": "Απαντάω αμέσως στην ερώτηση.",
+        "example": "Απαντάω στην επιστολή του καθηγητή.",
         "transcription": "/apanˈtao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "απαντάω + σε + αιτιατική",
+        "common_mistake": "❌ Απαντάω την ερώτηση. ➜ ✅ Απαντάω στην ερώτηση.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-04": {
       "A1": {
-        "id": "el:allazo:verb",
-        "word": "αλλάζω",
+        "id": "el:apolamvano:verb",
+        "word": "απολαμβάνω",
         "level": "A1",
-        "definition": "κάνω κάτι διαφορετικό",
-        "example": "Αλλάζω ρούχα μετά τη γυμναστική.",
-        "transcription": "/aˈlazo/",
-        "emoji": "🔄"
+        "definition": "νιώθω μεγάλη ευχαρίστηση από κάτι",
+        "example": "Απολαμβάνω τον πρωινό μου καφέ.",
+        "transcription": "/apolamˈvano/",
+        "emoji": "😌",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "απολαμβάνω + αιτιατική",
+        "common_mistake": "❌ Απολαμβάνω από τον καφέ. ➜ ✅ Απολαμβάνω τον καφέ.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:pethaino:verb",
         "word": "πεθαίνω",
         "level": "A1",
         "definition": "χάνω τη ζωή μου",
-        "example": "Τα λουλούδια πεθαίνουν χωρίς νερό.",
+        "example": "Πέθανε από γηρατειά.",
         "transcription": "/peˈθeno/",
-        "emoji": "🥀"
+        "emoji": "🥀",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "πεθαίνω + από + αιτιατική",
+        "common_mistake": "❌ Πεθαίνω από της ζέστης. ➜ ✅ Πεθαίνω από τη ζέστη.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:anoigo:verb",
@@ -197,34 +377,70 @@
         "definition": "κάνω κάτι προσβάσιμο",
         "example": "Ανοίγω την πόρτα του σπιτιού.",
         "transcription": "/aˈniɣo/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ανοίγω + αιτιατική",
+        "common_mistake": "❌ Ανοίγω για το παράθυρο. ➜ ✅ Ανοίγω το παράθυρο.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:troo:verb",
         "word": "τρώω",
         "level": "A0",
         "definition": "καταναλώνω τροφή",
-        "example": "Τρώω μήλο για δεκατιανό.",
+        "example": "Τρώω φρέσκο ψωμί με τυρί.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τρώω + αιτιατική",
+        "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:proskalo:verb",
         "word": "προσκαλώ",
         "level": "A1",
         "definition": "ζητώ από κάποιον να έρθει σε εκδήλωση",
-        "example": "Προσκαλώ τους φίλους μου στο πάρτι.",
+        "example": "Προσκαλώ τους φίλους μου στο γεύμα.",
         "transcription": "/proskaˈlo/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "προσκαλώ + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Προσκαλώ για το γεύμα. ➜ ✅ Προσκαλώ στο γεύμα.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:xypnao:verb",
         "word": "ξυπνάω",
         "level": "A1",
         "definition": "σταματώ να κοιμάμαι",
-        "example": "Ξυπνάω στις επτά κάθε πρωί.",
+        "example": "Ξυπνάω στις επτά το πρωί.",
         "transcription": "/ksiˈpnao/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "στις",
+        "prepositions": [
+          "στις"
+        ],
+        "case": "accusative",
+        "pattern": "ξυπνάω + στις + ώρα",
+        "common_mistake": "❌ Ξυπνάω σε επτά το πρωί. ➜ ✅ Ξυπνάω στις επτά το πρωί.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-05": {
@@ -233,54 +449,108 @@
         "word": "ακούω",
         "level": "A0",
         "definition": "αντιλαμβάνομαι ήχους",
-        "example": "Ακούω μουσική στο δωμάτιο.",
+        "example": "Ακούω μουσική στο δωμάτιό μου.",
         "transcription": "/aˈkuo/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ακούω + αιτιατική",
+        "common_mistake": "❌ Ακούω σε μουσική. ➜ ✅ Ακούω μουσική.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:proskalo:verb",
         "word": "προσκαλώ",
         "level": "A1",
         "definition": "ζητώ από κάποιον να έρθει σε εκδήλωση",
-        "example": "Προσκαλώ τους φίλους μου στο πάρτι.",
+        "example": "Προσκαλώ τους φίλους μου στο γεύμα.",
         "transcription": "/proskaˈlo/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "προσκαλώ + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Προσκαλώ για το γεύμα. ➜ ✅ Προσκαλώ στο γεύμα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:apolamvano:verb",
         "word": "απολαμβάνω",
         "level": "A1",
         "definition": "νιώθω μεγάλη ευχαρίστηση από κάτι",
-        "example": "Απολαμβάνω τον καφέ μου το πρωί.",
+        "example": "Απολαμβάνω τον πρωινό μου καφέ.",
         "transcription": "/apolamˈvano/",
-        "emoji": "😌"
+        "emoji": "😌",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "απολαμβάνω + αιτιατική",
+        "common_mistake": "❌ Απολαμβάνω από τον καφέ. ➜ ✅ Απολαμβάνω τον καφέ.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:thelo:verb",
         "word": "θέλω",
         "level": "A0",
         "definition": "έχω την επιθυμία για κάτι",
-        "example": "Θέλω έναν χυμό πορτοκάλι.",
+        "example": "Θέλω έναν ζεστό καφέ.",
         "transcription": "/ˈθelo/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "θέλω + αιτιατική",
+        "common_mistake": "❌ Θέλω για ένα νερό. ➜ ✅ Θέλω ένα νερό.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:plyrono:verb",
         "word": "πληρώνω",
         "level": "A1",
         "definition": "δίνω χρήματα για αγαθό",
-        "example": "Πληρώνω το λογαριασμό στο εστιατόριο.",
+        "example": "Πληρώνω τον λογαριασμό στο εστιατόριο.",
         "transcription": "/pliˈrono/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "πληρώνω + αιτιατική + [για + αιτιατική]",
+        "common_mistake": "❌ Πληρώνω για τον λογαριασμό. ➜ ✅ Πληρώνω τον λογαριασμό.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:yparcho:verb",
         "word": "υπάρχω",
         "level": "A1",
         "definition": "βρίσκομαι σε κατάσταση ύπαρξης",
-        "example": "Υπάρχουν πολλά βιβλία στη βιβλιοθήκη.",
+        "example": "Υπάρχει ελπίδα στην καρδιά μας.",
         "transcription": "/iˈparxo/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "υπάρχω + σε + αιτιατική",
+        "common_mistake": "❌ Υπάρχει ελπίδα για την καρδιά. ➜ ✅ Υπάρχει ελπίδα στην καρδιά μας.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-06": {
@@ -289,54 +559,108 @@
         "word": "αγοράζω",
         "level": "A1",
         "definition": "αποκτώ κάτι πληρώνοντας",
-        "example": "Αγοράζω φρέσκο ψωμί.",
+        "example": "Αγοράζω ένα νέο αυτοκίνητο.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγοράζω + αιτιατική",
+        "common_mistake": "❌ Αγοράζω για ένα βιβλίο. ➜ ✅ Αγοράζω ένα βιβλίο.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:miso:verb",
         "word": "μισώ",
         "level": "A1",
         "definition": "νιώθω έντονη απέχθεια για κάτι",
-        "example": "Μισώ την καθυστέρηση στο ραντεβού.",
+        "example": "Μισώ το κρύο.",
         "transcription": "/miˈso/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "μισώ + αιτιατική",
+        "common_mistake": "❌ Μισώ για το κρύο. ➜ ✅ Μισώ το κρύο.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:areso:verb",
         "word": "αρέσω",
         "level": "A1",
         "definition": "Προκαλώ ευχάριστο συναισθήμα σε κάποιον.",
-        "example": "Μου αρέσει πολύ η μουσική.",
+        "example": "Μου αρέσει η κλασική μουσική.",
         "transcription": "/aˈre.so/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μου / σου / σε + αιτιατική + αρέσει + ονομαστική",
+        "common_mistake": "❌ Αρέσω την μουσική. ➔ ✅ Μου αρέσει η μουσική.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:xechnao:verb",
         "word": "ξεχνάω",
         "level": "A1",
         "definition": "χάνω από τη μνήμη μου",
-        "example": "Ξέχασα τα γυαλιά μου στο σπίτι.",
+        "example": "Ξεχνάω πάντα τα κλειδιά μου.",
         "transcription": "/ksexˈnao/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ξεχνάω + αιτιατική",
+        "common_mistake": "❌ Ξέχασα για τα κλειδιά μου. ➜ ✅ Ξέχασα τα κλειδιά μου.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:simaino:verb",
         "word": "σημαίνω",
         "level": "A1",
         "definition": "έχω μια συγκεκριμένη σημασία",
-        "example": "Τι σημαίνει αυτή η νέα λέξη;",
+        "example": "Τι σημαίνει αυτή η λέξη;",
         "transcription": "/siˈmeno/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "σημαίνω + αιτιατική",
+        "common_mistake": "❌ Τι σημαίνει για αυτή τη λέξη; ➜ ✅ Τι σημαίνει αυτή η λέξη;",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:zo:verb",
         "word": "ζω",
         "level": "A1",
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
-        "example": "Ζω σε μια μεγάλη πόλη.",
+        "example": "Ζω στην Αθήνα εδώ και δέκα χρόνια.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ζω + σε + αιτιατική",
+        "common_mistake": "❌ Ζω με Αθήνα. ➔ ✅ Ζω στην Αθήνα.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-07": {
@@ -345,9 +669,18 @@
         "word": "αγαπώ",
         "level": "A0",
         "definition": "Νιώθω αγάπη για κάποιον ή κάτι.",
-        "example": "Αγαπώ πολύ την οικογένειά μου.",
+        "example": "Αγαπώ την οικογένειά μου.",
         "transcription": "/a.ɣaˈpo/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγαπώ + αιτιατική",
+        "common_mistake": "❌ Αγαπώ για την οικογένειά μου. ➜ ✅ Αγαπώ την οικογένειά μου.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:perimeno:verb",
@@ -356,34 +689,70 @@
         "definition": "μένω σε έναν τόπο προσδοκώντας κάτι",
         "example": "Περιμένω το λεωφορείο στη στάση.",
         "transcription": "/periˈmeno/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "περιμένω + αιτιατική",
+        "common_mistake": "❌ Περιμένω για το λεωφορείο. ➜ ✅ Περιμένω το λεωφορείο.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:chreiazomai:verb",
         "word": "χρειάζομαι",
         "level": "A1",
         "definition": "έχω ανάγκη από κάτι",
-        "example": "Χρειάζομαι βοήθεια με τις ασκήσεις.",
+        "example": "Χρειάζομαι περισσότερο χρόνο.",
         "transcription": "/xriaˈzome/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "χρειάζομαι + αιτιατική",
+        "common_mistake": "❌ Χρειάζομαι για νερό. ➜ ✅ Χρειάζομαι νερό.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:vazo:verb",
         "word": "βάζω",
         "level": "A1",
         "definition": "τοποθετώ κάτι σε ένα μέρος",
-        "example": "Βάζω το βιβλίο πάνω στο τραπέζι.",
+        "example": "Βάζω το παλτό μου.",
         "transcription": "/ˈvazo/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βάζω + αιτιατική",
+        "common_mistake": "❌ Βάζω για το παλτό μου. ➜ ✅ Βάζω το παλτό μου.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:rotao:verb",
         "word": "ρωτάω",
         "level": "A1",
         "definition": "διατυπώνω ερώτηση",
-        "example": "Ρωτάω τον καθηγητή για το μάθημα.",
+        "example": "Ρωτάω τον δάσκαλο για την άσκηση.",
         "transcription": "/roˈtao/",
-        "emoji": "❓"
+        "emoji": "❓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ρωτάω + αιτιατική",
+        "common_mistake": "❌ Ρωτάω σε τον δάσκαλο. ➜ ✅ Ρωτάω τον δάσκαλο.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:agapao:verb",
@@ -392,7 +761,16 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγαπάω + αιτιατική",
+        "common_mistake": "❌ Αγαπάω για την οικογένεια. ➜ ✅ Αγαπάω την οικογένεια.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-08": {
@@ -401,54 +779,109 @@
         "word": "προσκαλώ",
         "level": "A1",
         "definition": "ζητώ από κάποιον να έρθει σε εκδήλωση",
-        "example": "Προσκαλώ τους φίλους μου στο πάρτι.",
+        "example": "Προσκαλώ τους φίλους μου στο γεύμα.",
         "transcription": "/proskaˈlo/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "προσκαλώ + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Προσκαλώ για το γεύμα. ➜ ✅ Προσκαλώ στο γεύμα.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:thymamai:verb",
         "word": "θυμάμαι",
         "level": "A1",
         "definition": "κρατώ στη μνήμη μου",
-        "example": "Θυμάμαι το όνομά σου.",
+        "example": "Θυμάμαι το όνομά σου πολύ καλά.",
         "transcription": "/θiˈmame/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "θυμάμαι + αιτιατική",
+        "common_mistake": "❌ Θυμάμαι για το όνομά σου. ➜ ✅ Θυμάμαι το όνομά σου.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:diavazo:verb",
         "word": "διαβάζω",
         "level": "A1",
         "definition": "κατανοώ γραπτό κείμενο",
-        "example": "Διαβάζω ένα βιβλίο το βράδυ.",
+        "example": "Διαβάζω ένα ενδιαφέρον βιβλίο.",
         "transcription": "/ðiaˈvazo/",
-        "emoji": "📖"
+        "emoji": "📖",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "διαβάζω + αιτιατική",
+        "common_mistake": "❌ Διαβάζω για το βιβλίο. ➜ ✅ Διαβάζω το βιβλίο.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:koitazo:verb",
         "word": "κοιτάζω",
         "level": "A1",
         "definition": "στρέφω το βλέμμα σε κάτι",
-        "example": "Κοιτάζω την όμορφη θέα.",
+        "example": "Κοιτάζω τη θάλασσα από το μπαλκόνι.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κοιτάζω + αιτιατική",
+        "common_mistake": "❌ Κοιτάζω σε εσένα. ➔ ✅ Σε κοιτάζω / Κοιτάζω εσένα.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:milao:verb",
         "word": "μιλάω",
         "level": "A1",
         "definition": "επικοινωνώ με λόγια",
-        "example": "Μιλάω στο τηλέφωνο με τη μητέρα μου.",
+        "example": "Μιλάω στον φίλο μου για το ταξίδι.",
         "transcription": "/miˈlao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "για",
+        "prepositions": [
+          "για",
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μιλάω + [σε + αιτιατική] + [για + αιτιατική]",
+        "common_mistake": "❌ Μιλάω με τον φίλο για το ταξίδι (acceptable in informal Greek, but 'σε' marks indirect object target). ➜ ✅ Μιλάω στον φίλο μου.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:dino:verb",
         "word": "δίνω",
         "level": "A1",
         "definition": "προσφέρω κάτι σε κάποιον",
-        "example": "Δίνω ένα δώρο στον φίλο μου.",
+        "example": "Δίνω το βιβλίο στον μαθητή.",
         "transcription": "/ˈðino/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "δίνω + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Δίνω το βιβλίο για τον μαθητή. ➜ ✅ Δίνω το βιβλίο στον μαθητή.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-09": {
@@ -457,27 +890,54 @@
         "word": "πεθαίνω",
         "level": "A1",
         "definition": "χάνω τη ζωή μου",
-        "example": "Τα λουλούδια πεθαίνουν χωρίς νερό.",
+        "example": "Πέθανε από γηρατειά.",
         "transcription": "/peˈθeno/",
-        "emoji": "🥀"
+        "emoji": "🥀",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "πεθαίνω + από + αιτιατική",
+        "common_mistake": "❌ Πεθαίνω από της ζέστης. ➜ ✅ Πεθαίνω από τη ζέστη.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:troo:verb",
         "word": "τρώω",
         "level": "A0",
         "definition": "καταναλώνω τροφή",
-        "example": "Τρώω μήλο για δεκατιανό.",
+        "example": "Τρώω φρέσκο ψωμί με τυρί.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τρώω + αιτιατική",
+        "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:doyleyo:verb",
         "word": "δουλεύω",
         "level": "A1",
         "definition": "εργάζομαι επαγγελματικά",
-        "example": "Δουλεύω σε ένα γραφείο.",
+        "example": "Δουλεύω σε μια μεγάλη τράπεζα.",
         "transcription": "/ðuˈlevo/",
-        "emoji": "💼"
+        "emoji": "💼",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "δουλεύω + [σε + αιτιατική]",
+        "common_mistake": "❌ Δουλεύω για μια τράπεζα (acceptable for 'for', but workplace is 'σε'). ➜ ✅ Δουλεύω σε τράπεζα.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:kleino:verb",
@@ -486,25 +946,52 @@
         "definition": "εμποδίζω την πρόσβαση σε κάτι",
         "example": "Κλείνω το παράθυρο λόγω κρύου.",
         "transcription": "/ˈklino/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κλείνω + αιτιατική",
+        "common_mistake": "❌ Κλείσε για την πόρτα. ➜ ✅ Κλείσε την πόρτα.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:koitazo:verb",
         "word": "κοιτάζω",
         "level": "A1",
         "definition": "στρέφω το βλέμμα σε κάτι",
-        "example": "Κοιτάζω την όμορφη θέα.",
+        "example": "Κοιτάζω τη θάλασσα από το μπαλκόνι.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κοιτάζω + αιτιατική",
+        "common_mistake": "❌ Κοιτάζω σε εσένα. ➔ ✅ Σε κοιτάζω / Κοιτάζω εσένα.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:echo:verb",
         "word": "έχω",
         "level": "A0",
         "definition": "ρήμα που δηλώνει κατοχή",
-        "example": "Έχω ένα κόκκινο αυτοκίνητο.",
+        "example": "Έχω ένα βιβλίο.",
         "transcription": "/ˈexo/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "έχω + αιτιατική",
+        "common_mistake": "❌ Έχω για ένα βιβλίο. ➜ ✅ Έχω ένα βιβλίο.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-10": {
@@ -513,54 +1000,109 @@
         "word": "σηκώνομαι",
         "level": "A1",
         "definition": "στέκομαι όρθιος από τη θέση μου",
-        "example": "Σηκώνομαι νωρίς το πρωί από το κρεβάτι.",
+        "example": "Σηκώνομαι στις οκτώ.",
         "transcription": "/siˈkonome/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "σηκώνομαι + από + αιτιατική",
+        "common_mistake": "❌ Σηκώνομαι σε τις οκτώ. ➜ ✅ Σηκώνομαι στις οκτώ.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:skeftomai:verb",
         "word": "σκέφτομαι",
         "level": "A1",
         "definition": "χρησιμοποιώ το μυαλό μου",
-        "example": "Σκέφτομαι τη σωστή απάντηση.",
+        "example": "Σκέφτομαι το πρόβλημά σου.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "σκέφτομαι + αιτιατική / [για + αιτιατική]",
+        "common_mistake": "❌ Σκέφτομαι περί το μέλλον. ➜ ✅ Σκέφτομαι το μέλλον μου.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:chano:verb",
         "word": "χάνω",
         "level": "A1",
         "definition": "δεν έχω πια κάτι στην κατοχή μου",
-        "example": "Έχασα τα κλειδιά μου στο πάρκο.",
+        "example": "Έχασα το τρένο των εννέα.",
         "transcription": "/ˈxano/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "χάνω + αιτιατική",
+        "common_mistake": "❌ Χάνω από το τρένο. ➜ ✅ Χάνω το τρένο.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:milao:verb",
         "word": "μιλάω",
         "level": "A1",
         "definition": "επικοινωνώ με λόγια",
-        "example": "Μιλάω στο τηλέφωνο με τη μητέρα μου.",
+        "example": "Μιλάω στον φίλο μου για το ταξίδι.",
         "transcription": "/miˈlao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "για",
+        "prepositions": [
+          "για",
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μιλάω + [σε + αιτιατική] + [για + αιτιατική]",
+        "common_mistake": "❌ Μιλάω με τον φίλο για το ταξίδι (acceptable in informal Greek, but 'σε' marks indirect object target). ➜ ✅ Μιλάω στον φίλο μου.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:mou-aresei:verb",
         "word": "μου αρέσει",
         "level": "A1",
         "definition": "βρίσκω κάτι ευχάριστο",
-        "example": "Μου αρέσει το παγωτό σοκολάτα.",
+        "example": "Μου αρέσει το σοκολατένιο παγωτό.",
         "transcription": "/mu aˈresi/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "genitive",
+        "pattern": "μου αρέσει + ονομαστική",
+        "common_mistake": "❌ Μου αρέσει για το παγωτό. ➜ ✅ Μου αρέσει το σοκολατένιο παγωτό.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:diavazo:verb",
         "word": "διαβάζω",
         "level": "A1",
         "definition": "κατανοώ γραπτό κείμενο",
-        "example": "Διαβάζω ένα βιβλίο το βράδυ.",
+        "example": "Διαβάζω ένα ενδιαφέρον βιβλίο.",
         "transcription": "/ðiaˈvazo/",
-        "emoji": "📖"
+        "emoji": "📖",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "διαβάζω + αιτιατική",
+        "common_mistake": "❌ Διαβάζω για το βιβλίο. ➜ ✅ Διαβάζω το βιβλίο.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-11": {
@@ -569,54 +1111,108 @@
         "word": "σταματάω",
         "level": "A1",
         "definition": "παύω να κινούμαι",
-        "example": "Το αυτοκίνητο σταματάει στο κόκκινο.",
+        "example": "Σταμάτα να μιλάς.",
         "transcription": "/stamaˈtao/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "σταματάω + να / από + αιτιατική",
+        "common_mistake": "❌ Σταμάτα για να μιλάς. ➜ ✅ Σταμάτα να μιλάς.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:simaino:verb",
         "word": "σημαίνω",
         "level": "A1",
         "definition": "έχω μια συγκεκριμένη σημασία",
-        "example": "Τι σημαίνει αυτή η νέα λέξη;",
+        "example": "Τι σημαίνει αυτή η λέξη;",
         "transcription": "/siˈmeno/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "σημαίνω + αιτιατική",
+        "common_mistake": "❌ Τι σημαίνει για αυτή τη λέξη; ➜ ✅ Τι σημαίνει αυτή η λέξη;",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:aniko:verb",
         "word": "ανήκω",
         "level": "A1",
         "definition": "είμαι ιδιοκτησία ή μέρος κάποιου σύνολου",
-        "example": "Αυτό το βιβλίο ανήκει στη βιβλιοθήκη.",
+        "example": "Το βιβλίο ανήκει στον καθηγητή.",
         "transcription": "/aˈniko/",
-        "emoji": "🧩"
+        "emoji": "🧩",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ανήκω + σε + αιτιατική",
+        "common_mistake": "❌ Ανήκει σε μένα το βιβλίο. ➜ ✅ Αυτό το βιβλίο ανήκει σε μένα.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:miso:verb",
         "word": "μισώ",
         "level": "A1",
         "definition": "νιώθω έντονη απέχθεια για κάτι",
-        "example": "Μισώ την καθυστέρηση στο ραντεβού.",
+        "example": "Μισώ το κρύο.",
         "transcription": "/miˈso/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "μισώ + αιτιατική",
+        "common_mistake": "❌ Μισώ για το κρύο. ➜ ✅ Μισώ το κρύο.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:mporo:verb",
         "word": "μπορώ",
         "level": "A0",
         "definition": "έχω τη δυνατότητα να κάνω κάτι",
-        "example": "Μπορώ να μιλήσω ελληνικά.",
+        "example": "Μπορώ να σε βοηθήσω;",
         "transcription": "/boˈro/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "να",
+        "prepositions": [
+          "να"
+        ],
+        "case": "accusative",
+        "pattern": "μπορώ + να + υποτακτική",
+        "common_mistake": "❌ Μπορώ για να έρθω. ➔ ✅ Μπορώ να έρθω.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:diacheirizomai:verb",
         "word": "διαχειρίζομαι",
         "level": "A1",
         "definition": "διοικώ ή κατευθύνω μια υπόθεση",
-        "example": "Διαχειρίζομαι το χρόνο μου προσεκτικά.",
+        "example": "Διαχειρίζομαι τα οικονομικά της εταιρείας.",
         "transcription": "/ðiaxeriˈzome/",
-        "emoji": "📊"
+        "emoji": "📊",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "διαχειρίζομαι + αιτιατική",
+        "common_mistake": "❌ Διαχειρίζομαι με τα οικονομικά. ➜ ✅ Διαχειρίζομαι τα οικονομικά.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-12": {
@@ -625,54 +1221,108 @@
         "word": "στέλνω",
         "level": "A1",
         "definition": "διαβιβάζω κάτι σε άλλον",
-        "example": "Στέλνω ένα μήνυμα στον φίλο μου.",
+        "example": "Στέλνω ένα μήνυμα στη μητέρα μου.",
         "transcription": "/ˈstelno/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "στέλνω + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Στέλνω προς τη μητέρα. ➜ ✅ Στέλνω στη μητέρα.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:vlepo:verb",
         "word": "βλέπω",
         "level": "A0",
         "definition": "αντιλαμβάνομαι με τα μάτια",
-        "example": "Βλέπω μια όμορφη εικόνα.",
+        "example": "Βλέπω μια καλή ταινία.",
         "transcription": "/ˈvlepo/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βλέπω + αιτιατική",
+        "common_mistake": "❌ Βλέπω σε μια ταινία. ➜ ✅ Βλέπω μια ταινία.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
-        "id": "el:allazo:verb",
-        "word": "αλλάζω",
+        "id": "el:apantao:verb",
+        "word": "απαντάω",
         "level": "A1",
-        "definition": "κάνω κάτι διαφορετικό",
-        "example": "Αλλάζω ρούχα μετά τη γυμναστική.",
-        "transcription": "/aˈlazo/",
-        "emoji": "🔄"
+        "definition": "δίνω απάντηση σε ερώτηση",
+        "example": "Απαντάω στην επιστολή του καθηγητή.",
+        "transcription": "/apanˈtao/",
+        "emoji": "💬",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "απαντάω + σε + αιτιατική",
+        "common_mistake": "❌ Απαντάω την ερώτηση. ➜ ✅ Απαντάω στην ερώτηση.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:katalavaino:verb",
         "word": "καταλαβαίνω",
         "level": "A1",
         "definition": "νοώ το νόημα μιας έννοιας",
-        "example": "Καταλαβαίνω πολύ καλά το μάθημα.",
+        "example": "Καταλαβαίνω το μάθημα.",
         "transcription": "/katalaˈveno/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "καταλαβαίνω + αιτιατική",
+        "common_mistake": "❌ Καταλαβαίνω για το μάθημα. ➜ ✅ Καταλαβαίνω το μάθημα.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:katharizo:verb",
         "word": "καθαρίζω",
         "level": "A1",
         "definition": "αφαιρώ τη βρωμιά",
-        "example": "Καθαρίζω το δωμάτιό μου.",
+        "example": "Καθαρίζω το δωμάτιό μου κάθε Σάββατο.",
         "transcription": "/kaθaˈrizo/",
-        "emoji": "🧹"
+        "emoji": "🧹",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "καθαρίζω + αιτιατική",
+        "common_mistake": "❌ Καθαρίζω για το δωμάτιό μου. ➜ ✅ Καθαρίζω το δωμάτιό μου.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:chreiazomai:verb",
         "word": "χρειάζομαι",
         "level": "A1",
         "definition": "έχω ανάγκη από κάτι",
-        "example": "Χρειάζομαι βοήθεια με τις ασκήσεις.",
+        "example": "Χρειάζομαι περισσότερο χρόνο.",
         "transcription": "/xriaˈzome/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "χρειάζομαι + αιτιατική",
+        "common_mistake": "❌ Χρειάζομαι για νερό. ➜ ✅ Χρειάζομαι νερό.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-13": {
@@ -681,54 +1331,108 @@
         "word": "συμφωνώ",
         "level": "A1",
         "definition": "έχω την ίδια γνώμη με κάποιον",
-        "example": "Συμφωνώ απόλυτα με την πρότασή σου.",
+        "example": "Συμφωνώ απόλυτα με τη γνώμη σου.",
         "transcription": "/simfoˈno/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "με",
+        "prepositions": [
+          "με"
+        ],
+        "case": "accusative",
+        "pattern": "συμφωνώ + με + αιτιατική",
+        "common_mistake": "❌ Συμφωνώ σε τη γνώμη σου. ➜ ✅ Συμφωνώ με τη γνώμη σου.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:teleiono:verb",
         "word": "τελειώνω",
         "level": "A1",
         "definition": "ολοκληρώνω μια δραστηριότητα",
-        "example": "Τελειώνω τη δουλειά στις πέντε.",
+        "example": "Τελειώνω τις ασκήσεις μου νωρίς.",
         "transcription": "/teleˈono/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τελειώνω + αιτιατική",
+        "common_mistake": "❌ Τελείωσα για την εργασία. ➜ ✅ Τελείωσα την εργασία.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:akoyo:verb",
         "word": "ακούω",
         "level": "A0",
         "definition": "αντιλαμβάνομαι ήχους",
-        "example": "Ακούω μουσική στο δωμάτιο.",
+        "example": "Ακούω μουσική στο δωμάτιό μου.",
         "transcription": "/aˈkuo/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ακούω + αιτιατική",
+        "common_mistake": "❌ Ακούω σε μουσική. ➜ ✅ Ακούω μουσική.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:katharizo:verb",
         "word": "καθαρίζω",
         "level": "A1",
         "definition": "αφαιρώ τη βρωμιά",
-        "example": "Καθαρίζω το δωμάτιό μου.",
+        "example": "Καθαρίζω το δωμάτιό μου κάθε Σάββατο.",
         "transcription": "/kaθaˈrizo/",
-        "emoji": "🧹"
+        "emoji": "🧹",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "καθαρίζω + αιτιατική",
+        "common_mistake": "❌ Καθαρίζω για το δωμάτιό μου. ➜ ✅ Καθαρίζω το δωμάτιό μου.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:leo:verb",
         "word": "λέω",
         "level": "A1",
         "definition": "εκφράζω με λέξεις",
-        "example": "Λέω την αλήθεια στους φίλους μου.",
+        "example": "Λέω την αλήθεια στον φίλο μου.",
         "transcription": "/ˈleo/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "λέω + αιτιατική (πράγμα) + σε / αδύνατος τύπος (πρόσωπο)",
+        "common_mistake": "❌ Λέω για αυτόν την αλήθεια. ➔ ✅ Του λέω την αλήθεια.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:chano:verb",
         "word": "χάνω",
         "level": "A1",
         "definition": "δεν έχω πια κάτι στην κατοχή μου",
-        "example": "Έχασα τα κλειδιά μου στο πάρκο.",
+        "example": "Έχασα το τρένο των εννέα.",
         "transcription": "/ˈxano/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "χάνω + αιτιατική",
+        "common_mistake": "❌ Χάνω από το τρένο. ➜ ✅ Χάνω το τρένο.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-14": {
@@ -737,54 +1441,109 @@
         "word": "καθαρίζω",
         "level": "A1",
         "definition": "αφαιρώ τη βρωμιά",
-        "example": "Καθαρίζω το δωμάτιό μου.",
+        "example": "Καθαρίζω το δωμάτιό μου κάθε Σάββατο.",
         "transcription": "/kaθaˈrizo/",
-        "emoji": "🧹"
+        "emoji": "🧹",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "καθαρίζω + αιτιατική",
+        "common_mistake": "❌ Καθαρίζω για το δωμάτιό μου. ➜ ✅ Καθαρίζω το δωμάτιό μου.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:milao:verb",
         "word": "μιλάω",
         "level": "A1",
         "definition": "επικοινωνώ με λόγια",
-        "example": "Μιλάω στο τηλέφωνο με τη μητέρα μου.",
+        "example": "Μιλάω στον φίλο μου για το ταξίδι.",
         "transcription": "/miˈlao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "για",
+        "prepositions": [
+          "για",
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μιλάω + [σε + αιτιατική] + [για + αιτιατική]",
+        "common_mistake": "❌ Μιλάω με τον φίλο για το ταξίδι (acceptable in informal Greek, but 'σε' marks indirect object target). ➜ ✅ Μιλάω στον φίλο μου.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:fainomai:verb",
         "word": "φαίνομαι",
         "level": "A1",
         "definition": "δίνω την εντύπωση ότι είμαι κάτι",
-        "example": "Φαίνεται πολύ χαρούμενος σήμερα.",
+        "example": "Φαίνεται κουρασμένος.",
         "transcription": "/ˈfenome/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "nominative",
+        "pattern": "φαίνομαι + ονομαστική",
+        "common_mistake": "❌ Φαίνεται κουρασμένο. ➜ ✅ Φαίνεται κουρασμένος.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:ginomai:verb",
         "word": "γίνομαι",
         "level": "A1",
         "definition": "μεταβάλλομαι σε κάτι άλλο",
-        "example": "Θέλει να γίνει γιατρός όταν μεγαλώσει.",
+        "example": "Θέλει να γίνει γιατρός.",
         "transcription": "/ˈjinome/",
-        "emoji": "🌱"
+        "emoji": "🌱",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "nominative",
+        "pattern": "γίνομαι + ονομαστική",
+        "common_mistake": "❌ Θέλει να γίνει γιατρό. ➜ ✅ Θέλει να γίνει γιατρός.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:sikonomai:verb",
         "word": "σηκώνομαι",
         "level": "A1",
         "definition": "στέκομαι όρθιος από τη θέση μου",
-        "example": "Σηκώνομαι νωρίς το πρωί από το κρεβάτι.",
+        "example": "Σηκώνομαι στις οκτώ.",
         "transcription": "/siˈkonome/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "σηκώνομαι + από + αιτιατική",
+        "common_mistake": "❌ Σηκώνομαι σε τις οκτώ. ➜ ✅ Σηκώνομαι στις οκτώ.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:apolamvano:verb",
         "word": "απολαμβάνω",
         "level": "A1",
         "definition": "νιώθω μεγάλη ευχαρίστηση από κάτι",
-        "example": "Απολαμβάνω τον καφέ μου το πρωί.",
+        "example": "Απολαμβάνω τον πρωινό μου καφέ.",
         "transcription": "/apolamˈvano/",
-        "emoji": "😌"
+        "emoji": "😌",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "απολαμβάνω + αιτιατική",
+        "common_mistake": "❌ Απολαμβάνω από τον καφέ. ➜ ✅ Απολαμβάνω τον καφέ.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-15": {
@@ -795,52 +1554,106 @@
         "definition": "κατοικώ κάπου ή παραμένω σε ένα μέρος",
         "example": "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
         "transcription": "/ˈmeno/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μένω + σε + αιτιατική",
+        "common_mistake": "❌ Μένω σε την Αθήνα. ➜ ✅ Μένω στην Αθήνα.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:kathomai:verb",
         "word": "κάθομαι",
         "level": "A1",
         "definition": "κάθομαι σε καρέκλα",
-        "example": "Κάθομαι στην άνετη καρέκλα.",
+        "example": "Κάθισε στην καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "κάθομαι + σε + αιτιατική",
+        "common_mistake": "❌ Κάθισε με την καρέκλα. ➜ ✅ Κάθισε στην καρέκλα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:episkeyazo:verb",
         "word": "επισκευάζω",
         "level": "A1",
         "definition": "διορθώνω κάτι που είναι χαλασμένο",
-        "example": "Επισκευάζω το ποδήλατό μου στον κήπο.",
+        "example": "Επισκευάζω το ποδήλατο.",
         "transcription": "/episkeiˈazo/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "επισκευάζω + αιτιατική",
+        "common_mistake": "❌ Επισκευάζω για το ποδήλατο. ➜ ✅ Επισκευάζω το ποδήλατο.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:kano:verb",
         "word": "κάνω",
         "level": "A0",
         "definition": "πράττω ή κατασκευάζω κάτι",
-        "example": "Κάνω τις ασκήσεις μου κάθε μέρα.",
+        "example": "Κάνω τα μαθήματά μου.",
         "transcription": "/ˈkano/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κάνω + αιτιατική",
+        "common_mistake": "❌ Κάνω για τα μαθήματά μου. ➜ ✅ Κάνω τα μαθήματά μου.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:stamatao:verb",
         "word": "σταματάω",
         "level": "A1",
         "definition": "παύω να κινούμαι",
-        "example": "Το αυτοκίνητο σταματάει στο κόκκινο.",
+        "example": "Σταμάτα να μιλάς.",
         "transcription": "/stamaˈtao/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "σταματάω + να / από + αιτιατική",
+        "common_mistake": "❌ Σταμάτα για να μιλάς. ➜ ✅ Σταμάτα να μιλάς.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:aniko:verb",
         "word": "ανήκω",
         "level": "A1",
         "definition": "είμαι ιδιοκτησία ή μέρος κάποιου σύνολου",
-        "example": "Αυτό το βιβλίο ανήκει στη βιβλιοθήκη.",
+        "example": "Το βιβλίο ανήκει στον καθηγητή.",
         "transcription": "/aˈniko/",
-        "emoji": "🧩"
+        "emoji": "🧩",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ανήκω + σε + αιτιατική",
+        "common_mistake": "❌ Ανήκει σε μένα το βιβλίο. ➜ ✅ Αυτό το βιβλίο ανήκει σε μένα.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-16": {
@@ -849,54 +1662,109 @@
         "word": "μιλάω",
         "level": "A1",
         "definition": "επικοινωνώ με λόγια",
-        "example": "Μιλάω στο τηλέφωνο με τη μητέρα μου.",
+        "example": "Μιλάω στον φίλο μου για το ταξίδι.",
         "transcription": "/miˈlao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "preposition": "για",
+        "prepositions": [
+          "για",
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μιλάω + [σε + αιτιατική] + [για + αιτιατική]",
+        "common_mistake": "❌ Μιλάω με τον φίλο για το ταξίδι (acceptable in informal Greek, but 'σε' marks indirect object target). ➜ ✅ Μιλάω στον φίλο μου.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:poulao:verb",
         "word": "πουλάω",
         "level": "A1",
         "definition": "δίνω κάτι έναντι χρημάτων",
-        "example": "Ο έμπορος πουλάει φρούτα.",
+        "example": "Πουλάω το παλιό μου σπίτι.",
         "transcription": "/puˈlao/",
-        "emoji": "🏷️"
+        "emoji": "🏷️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "πουλάω + αιτιατική",
+        "common_mistake": "❌ Πουλάω από το σπίτι. ➜ ✅ Πουλάω το σπίτι.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:elpizo:verb",
         "word": "ελπίζω",
         "level": "A1",
         "definition": "προσδοκώ κάτι καλό στο μέλλον",
-        "example": "Ελπίζω να κάνει καλό καιρό αύριο.",
+        "example": "Ελπίζω σε μια καλύτερη ζωή.",
         "transcription": "/elˈpizo/",
-        "emoji": "🤞"
+        "emoji": "🤞",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ελπίζω + σε + αιτιατική",
+        "common_mistake": "❌ Ελπίζω για μια καλύτερη ζωή. ➜ ✅ Ελπίζω σε μια καλύτερη ζωή.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:fainomai:verb",
         "word": "φαίνομαι",
         "level": "A1",
         "definition": "δίνω την εντύπωση ότι είμαι κάτι",
-        "example": "Φαίνεται πολύ χαρούμενος σήμερα.",
+        "example": "Φαίνεται κουρασμένος.",
         "transcription": "/ˈfenome/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "nominative",
+        "pattern": "φαίνομαι + ονομαστική",
+        "common_mistake": "❌ Φαίνεται κουρασμένο. ➜ ✅ Φαίνεται κουρασμένος.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:pigaino:verb",
         "word": "πηγαίνω",
         "level": "A0",
         "definition": "μεταβαίνω σε έναν τόπο",
-        "example": "Πηγαίνω στο σχολείο το πρωί.",
+        "example": "Πηγαίνω στο σχολείο κάθε πρωί.",
         "transcription": "/piˈjeno/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "πηγαίνω + σε + αιτιατική",
+        "common_mistake": "❌ Πηγαίνω προς το σχολείο (unless emphasizing direction towards). ➜ ✅ Πηγαίνω στο σχολείο.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:akoyo:verb",
         "word": "ακούω",
         "level": "A0",
         "definition": "αντιλαμβάνομαι ήχους",
-        "example": "Ακούω μουσική στο δωμάτιο.",
+        "example": "Ακούω μουσική στο δωμάτιό μου.",
         "transcription": "/aˈkuo/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ακούω + αιτιατική",
+        "common_mistake": "❌ Ακούω σε μουσική. ➜ ✅ Ακούω μουσική.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-17": {
@@ -905,9 +1773,18 @@
         "word": "μισώ",
         "level": "A1",
         "definition": "νιώθω έντονη απέχθεια για κάτι",
-        "example": "Μισώ την καθυστέρηση στο ραντεβού.",
+        "example": "Μισώ το κρύο.",
         "transcription": "/miˈso/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "μισώ + αιτιατική",
+        "common_mistake": "❌ Μισώ για το κρύο. ➜ ✅ Μισώ το κρύο.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:kleino:verb",
@@ -916,43 +1793,88 @@
         "definition": "εμποδίζω την πρόσβαση σε κάτι",
         "example": "Κλείνω το παράθυρο λόγω κρύου.",
         "transcription": "/ˈklino/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κλείνω + αιτιατική",
+        "common_mistake": "❌ Κλείσε για την πόρτα. ➜ ✅ Κλείσε την πόρτα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:echo:verb",
         "word": "έχω",
         "level": "A0",
         "definition": "ρήμα που δηλώνει κατοχή",
-        "example": "Έχω ένα κόκκινο αυτοκίνητο.",
+        "example": "Έχω ένα βιβλίο.",
         "transcription": "/ˈexo/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "έχω + αιτιατική",
+        "common_mistake": "❌ Έχω για ένα βιβλίο. ➜ ✅ Έχω ένα βιβλίο.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:feygo:verb",
         "word": "φεύγω",
         "level": "A0",
         "definition": "αποχωρώ από έναν τόπο",
-        "example": "Φεύγω από το σπίτι το πρωί.",
+        "example": "Φεύγω από τη δουλειά στις πέντε.",
         "transcription": "/ˈfevɣo/",
-        "emoji": "🛫"
+        "emoji": "🛫",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "φεύγω + από + αιτιατική",
+        "common_mistake": "❌ Φεύγω εκ τη δουλειά. ➜ ✅ Φεύγω από τη δουλειά.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:pino:verb",
         "word": "πίνω",
         "level": "A0",
         "definition": "καταπίνω υγρό",
-        "example": "Πίνω πολύ νερό το καλοκαίρι.",
+        "example": "Πίνω ένα ποτήρι νερό.",
         "transcription": "/ˈpino/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "πίνω + αιτιατική",
+        "common_mistake": "❌ Πίνω από νερό. ➜ ✅ Πίνω νερό.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:agorazo:verb",
         "word": "αγοράζω",
         "level": "A1",
         "definition": "αποκτώ κάτι πληρώνοντας",
-        "example": "Αγοράζω φρέσκο ψωμί.",
+        "example": "Αγοράζω ένα νέο αυτοκίνητο.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγοράζω + αιτιατική",
+        "common_mistake": "❌ Αγοράζω για ένα βιβλίο. ➜ ✅ Αγοράζω ένα βιβλίο.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-18": {
@@ -961,45 +1883,90 @@
         "word": "θυμάμαι",
         "level": "A1",
         "definition": "κρατώ στη μνήμη μου",
-        "example": "Θυμάμαι το όνομά σου.",
+        "example": "Θυμάμαι το όνομά σου πολύ καλά.",
         "transcription": "/θiˈmame/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "θυμάμαι + αιτιατική",
+        "common_mistake": "❌ Θυμάμαι για το όνομά σου. ➜ ✅ Θυμάμαι το όνομά σου.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:yparcho:verb",
         "word": "υπάρχω",
         "level": "A1",
         "definition": "βρίσκομαι σε κατάσταση ύπαρξης",
-        "example": "Υπάρχουν πολλά βιβλία στη βιβλιοθήκη.",
+        "example": "Υπάρχει ελπίδα στην καρδιά μας.",
         "transcription": "/iˈparxo/",
-        "emoji": "✨"
+        "emoji": "✨",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "υπάρχω + σε + αιτιατική",
+        "common_mistake": "❌ Υπάρχει ελπίδα για την καρδιά. ➜ ✅ Υπάρχει ελπίδα στην καρδιά μας.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:magireyo:verb",
         "word": "μαγειρεύω",
         "level": "A1",
         "definition": "ετοιμάζω φαγητό",
-        "example": "Μαγειρεύω νόστιμη σούπα το βράδυ.",
+        "example": "Μαγειρεύω κρέας με πατάτες.",
         "transcription": "/maʝiˈrevo/",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "μαγειρεύω + αιτιατική",
+        "common_mistake": "❌ Μαγειρεύω για το φαγητό. ➜ ✅ Μαγειρεύω το φαγητό.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:plyrono:verb",
         "word": "πληρώνω",
         "level": "A1",
         "definition": "δίνω χρήματα για αγαθό",
-        "example": "Πληρώνω το λογαριασμό στο εστιατόριο.",
+        "example": "Πληρώνω τον λογαριασμό στο εστιατόριο.",
         "transcription": "/pliˈrono/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "πληρώνω + αιτιατική + [για + αιτιατική]",
+        "common_mistake": "❌ Πληρώνω για τον λογαριασμό. ➜ ✅ Πληρώνω τον λογαριασμό.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:doyleyo:verb",
         "word": "δουλεύω",
         "level": "A1",
         "definition": "εργάζομαι επαγγελματικά",
-        "example": "Δουλεύω σε ένα γραφείο.",
+        "example": "Δουλεύω σε μια μεγάλη τράπεζα.",
         "transcription": "/ðuˈlevo/",
-        "emoji": "💼"
+        "emoji": "💼",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "δουλεύω + [σε + αιτιατική]",
+        "common_mistake": "❌ Δουλεύω για μια τράπεζα (acceptable for 'for', but workplace is 'σε'). ➜ ✅ Δουλεύω σε τράπεζα.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:kleino:verb",
@@ -1008,7 +1975,16 @@
         "definition": "εμποδίζω την πρόσβαση σε κάτι",
         "example": "Κλείνω το παράθυρο λόγω κρύου.",
         "transcription": "/ˈklino/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κλείνω + αιτιατική",
+        "common_mistake": "❌ Κλείσε για την πόρτα. ➜ ✅ Κλείσε την πόρτα.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-19": {
@@ -1017,54 +1993,108 @@
         "word": "τρώω",
         "level": "A0",
         "definition": "καταναλώνω τροφή",
-        "example": "Τρώω μήλο για δεκατιανό.",
+        "example": "Τρώω φρέσκο ψωμί με τυρί.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τρώω + αιτιατική",
+        "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:xero:verb",
         "word": "ξέρω",
         "level": "A0",
         "definition": "γνωρίζω μια πληροφορία",
-        "example": "Ξέρω την απάντηση στην ερώτηση.",
+        "example": "Ξέρω την απάντηση.",
         "transcription": "/ˈksero/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "ξέρω + αιτιατική / για + αιτιατική",
+        "common_mistake": "❌ Ξέρω για την απάντηση. ➜ ✅ Ξέρω την απάντηση.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:leo:verb",
         "word": "λέω",
         "level": "A1",
         "definition": "εκφράζω με λέξεις",
-        "example": "Λέω την αλήθεια στους φίλους μου.",
+        "example": "Λέω την αλήθεια στον φίλο μου.",
         "transcription": "/ˈleo/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "λέω + αιτιατική (πράγμα) + σε / αδύνατος τύπος (πρόσωπο)",
+        "common_mistake": "❌ Λέω για αυτόν την αλήθεια. ➔ ✅ Του λέω την αλήθεια.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:proskalo:verb",
         "word": "προσκαλώ",
         "level": "A1",
         "definition": "ζητώ από κάποιον να έρθει σε εκδήλωση",
-        "example": "Προσκαλώ τους φίλους μου στο πάρτι.",
+        "example": "Προσκαλώ τους φίλους μου στο γεύμα.",
         "transcription": "/proskaˈlo/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "προσκαλώ + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Προσκαλώ για το γεύμα. ➜ ✅ Προσκαλώ στο γεύμα.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:echo:verb",
         "word": "έχω",
         "level": "A0",
         "definition": "ρήμα που δηλώνει κατοχή",
-        "example": "Έχω ένα κόκκινο αυτοκίνητο.",
+        "example": "Έχω ένα βιβλίο.",
         "transcription": "/ˈexo/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "έχω + αιτιατική",
+        "common_mistake": "❌ Έχω για ένα βιβλίο. ➜ ✅ Έχω ένα βιβλίο.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:kathomai:verb",
         "word": "κάθομαι",
         "level": "A1",
         "definition": "κάθομαι σε καρέκλα",
-        "example": "Κάθομαι στην άνετη καρέκλα.",
+        "example": "Κάθισε στην καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "κάθομαι + σε + αιτιατική",
+        "common_mistake": "❌ Κάθισε με την καρέκλα. ➜ ✅ Κάθισε στην καρέκλα.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-20": {
@@ -1073,18 +2103,36 @@
         "word": "ελπίζω",
         "level": "A1",
         "definition": "προσδοκώ κάτι καλό στο μέλλον",
-        "example": "Ελπίζω να κάνει καλό καιρό αύριο.",
+        "example": "Ελπίζω σε μια καλύτερη ζωή.",
         "transcription": "/elˈpizo/",
-        "emoji": "🤞"
+        "emoji": "🤞",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ελπίζω + σε + αιτιατική",
+        "common_mistake": "❌ Ελπίζω για μια καλύτερη ζωή. ➜ ✅ Ελπίζω σε μια καλύτερη ζωή.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:xechnao:verb",
         "word": "ξεχνάω",
         "level": "A1",
         "definition": "χάνω από τη μνήμη μου",
-        "example": "Ξέχασα τα γυαλιά μου στο σπίτι.",
+        "example": "Ξεχνάω πάντα τα κλειδιά μου.",
         "transcription": "/ksexˈnao/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ξεχνάω + αιτιατική",
+        "common_mistake": "❌ Ξέχασα για τα κλειδιά μου. ➜ ✅ Ξέχασα τα κλειδιά μου.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:voithao:verb",
@@ -1093,34 +2141,70 @@
         "definition": "προσφέρω συνδρομή σε κάποιον",
         "example": "Βοηθάω τη μητέρα μου στην κουζίνα.",
         "transcription": "/voiˈθao/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βοηθάω + αιτιατική",
+        "common_mistake": "❌ Βοηθάω με τη μητέρα. ➜ ✅ Βοηθάω τη μητέρα.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:pino:verb",
         "word": "πίνω",
         "level": "A0",
         "definition": "καταπίνω υγρό",
-        "example": "Πίνω πολύ νερό το καλοκαίρι.",
+        "example": "Πίνω ένα ποτήρι νερό.",
         "transcription": "/ˈpino/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "πίνω + αιτιατική",
+        "common_mistake": "❌ Πίνω από νερό. ➜ ✅ Πίνω νερό.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:troo:verb",
         "word": "τρώω",
         "level": "A0",
         "definition": "καταναλώνω τροφή",
-        "example": "Τρώω μήλο για δεκατιανό.",
+        "example": "Τρώω φρέσκο ψωμί με τυρί.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τρώω + αιτιατική",
+        "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:xero:verb",
         "word": "ξέρω",
         "level": "A0",
         "definition": "γνωρίζω μια πληροφορία",
-        "example": "Ξέρω την απάντηση στην ερώτηση.",
+        "example": "Ξέρω την απάντηση.",
         "transcription": "/ˈksero/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "ξέρω + αιτιατική / για + αιτιατική",
+        "common_mistake": "❌ Ξέρω για την απάντηση. ➜ ✅ Ξέρω την απάντηση.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-21": {
@@ -1129,54 +2213,108 @@
         "word": "δίνω",
         "level": "A1",
         "definition": "προσφέρω κάτι σε κάποιον",
-        "example": "Δίνω ένα δώρο στον φίλο μου.",
+        "example": "Δίνω το βιβλίο στον μαθητή.",
         "transcription": "/ˈðino/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "δίνω + αιτιατική + [σε + αιτιατική]",
+        "common_mistake": "❌ Δίνω το βιβλίο για τον μαθητή. ➜ ✅ Δίνω το βιβλίο στον μαθητή.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:xypnao:verb",
         "word": "ξυπνάω",
         "level": "A1",
         "definition": "σταματώ να κοιμάμαι",
-        "example": "Ξυπνάω στις επτά κάθε πρωί.",
+        "example": "Ξυπνάω στις επτά το πρωί.",
         "transcription": "/ksiˈpnao/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "στις",
+        "prepositions": [
+          "στις"
+        ],
+        "case": "accusative",
+        "pattern": "ξυπνάω + στις + ώρα",
+        "common_mistake": "❌ Ξυπνάω σε επτά το πρωί. ➜ ✅ Ξυπνάω στις επτά το πρωί.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:vrisko:verb",
         "word": "βρίσκω",
         "level": "A1",
         "definition": "ανακαλύπτω αυτό που ψάχνω",
-        "example": "Βρήκα τα κλειδιά στο τραπέζι.",
+        "example": "Βρίσκω τα κλειδιά μου στο συρτάρι.",
         "transcription": "/ˈvrisko/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βρίσκω + αιτιατική",
+        "common_mistake": "❌ Βρίσκω σε τα κλειδιά. ➜ ✅ Βρίσκω τα κλειδιά.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:pethaino:verb",
         "word": "πεθαίνω",
         "level": "A1",
         "definition": "χάνω τη ζωή μου",
-        "example": "Τα λουλούδια πεθαίνουν χωρίς νερό.",
+        "example": "Πέθανε από γηρατειά.",
         "transcription": "/peˈθeno/",
-        "emoji": "🥀"
+        "emoji": "🥀",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "πεθαίνω + από + αιτιατική",
+        "common_mistake": "❌ Πεθαίνω από της ζέστης. ➜ ✅ Πεθαίνω από τη ζέστη.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:teleiono:verb",
         "word": "τελειώνω",
         "level": "A1",
         "definition": "ολοκληρώνω μια δραστηριότητα",
-        "example": "Τελειώνω τη δουλειά στις πέντε.",
+        "example": "Τελειώνω τις ασκήσεις μου νωρίς.",
         "transcription": "/teleˈono/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τελειώνω + αιτιατική",
+        "common_mistake": "❌ Τελείωσα για την εργασία. ➜ ✅ Τελείωσα την εργασία.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:agapo:verb",
         "word": "αγαπώ",
         "level": "A0",
         "definition": "Νιώθω αγάπη για κάποιον ή κάτι.",
-        "example": "Αγαπώ πολύ την οικογένειά μου.",
+        "example": "Αγαπώ την οικογένειά μου.",
         "transcription": "/a.ɣaˈpo/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγαπώ + αιτιατική",
+        "common_mistake": "❌ Αγαπώ για την οικογένειά μου. ➜ ✅ Αγαπώ την οικογένειά μου.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-22": {
@@ -1185,54 +2323,108 @@
         "word": "κοιτάζω",
         "level": "A1",
         "definition": "στρέφω το βλέμμα σε κάτι",
-        "example": "Κοιτάζω την όμορφη θέα.",
+        "example": "Κοιτάζω τη θάλασσα από το μπαλκόνι.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κοιτάζω + αιτιατική",
+        "common_mistake": "❌ Κοιτάζω σε εσένα. ➔ ✅ Σε κοιτάζω / Κοιτάζω εσένα.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:zo:verb",
         "word": "ζω",
         "level": "A1",
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
-        "example": "Ζω σε μια μεγάλη πόλη.",
+        "example": "Ζω στην Αθήνα εδώ και δέκα χρόνια.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ζω + σε + αιτιατική",
+        "common_mistake": "❌ Ζω με Αθήνα. ➔ ✅ Ζω στην Αθήνα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:thymamai:verb",
         "word": "θυμάμαι",
         "level": "A1",
         "definition": "κρατώ στη μνήμη μου",
-        "example": "Θυμάμαι το όνομά σου.",
+        "example": "Θυμάμαι το όνομά σου πολύ καλά.",
         "transcription": "/θiˈmame/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "θυμάμαι + αιτιατική",
+        "common_mistake": "❌ Θυμάμαι για το όνομά σου. ➜ ✅ Θυμάμαι το όνομά σου.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:pairno:verb",
         "word": "παίρνω",
         "level": "A1",
         "definition": "λαμβάνω κάτι στα χέρια μου",
-        "example": "Παίρνω το βιβλίο από το τραπέζι.",
+        "example": "Παίρνω το λεωφορείο για το σχολείο.",
         "transcription": "/ˈperno/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "παίρνω + αιτιατική",
+        "common_mistake": "❌ Παίρνω για τα κλειδιά. ➜ ✅ Παίρνω τα κλειδιά.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:skeftomai:verb",
         "word": "σκέφτομαι",
         "level": "A1",
         "definition": "χρησιμοποιώ το μυαλό μου",
-        "example": "Σκέφτομαι τη σωστή απάντηση.",
+        "example": "Σκέφτομαι το πρόβλημά σου.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "σκέφτομαι + αιτιατική / [για + αιτιατική]",
+        "common_mistake": "❌ Σκέφτομαι περί το μέλλον. ➜ ✅ Σκέφτομαι το μέλλον μου.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:vazo:verb",
         "word": "βάζω",
         "level": "A1",
         "definition": "τοποθετώ κάτι σε ένα μέρος",
-        "example": "Βάζω το βιβλίο πάνω στο τραπέζι.",
+        "example": "Βάζω το παλτό μου.",
         "transcription": "/ˈvazo/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βάζω + αιτιατική",
+        "common_mistake": "❌ Βάζω για το παλτό μου. ➜ ✅ Βάζω το παλτό μου.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-23": {
@@ -1243,7 +2435,16 @@
         "definition": "εμποδίζω την πρόσβαση σε κάτι",
         "example": "Κλείνω το παράθυρο λόγω κρύου.",
         "transcription": "/ˈklino/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "κλείνω + αιτιατική",
+        "common_mistake": "❌ Κλείσε για την πόρτα. ➜ ✅ Κλείσε την πόρτα.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:agapao:verb",
@@ -1252,25 +2453,52 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγαπάω + αιτιατική",
+        "common_mistake": "❌ Αγαπάω για την οικογένεια. ➜ ✅ Αγαπάω την οικογένεια.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:troo:verb",
         "word": "τρώω",
         "level": "A0",
         "definition": "καταναλώνω τροφή",
-        "example": "Τρώω μήλο για δεκατιανό.",
+        "example": "Τρώω φρέσκο ψωμί με τυρί.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τρώω + αιτιατική",
+        "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:mporo:verb",
         "word": "μπορώ",
         "level": "A0",
         "definition": "έχω τη δυνατότητα να κάνω κάτι",
-        "example": "Μπορώ να μιλήσω ελληνικά.",
+        "example": "Μπορώ να σε βοηθήσω;",
         "transcription": "/boˈro/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "να",
+        "prepositions": [
+          "να"
+        ],
+        "case": "accusative",
+        "pattern": "μπορώ + να + υποτακτική",
+        "common_mistake": "❌ Μπορώ για να έρθω. ➔ ✅ Μπορώ να έρθω.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:perimeno:verb",
@@ -1279,16 +2507,34 @@
         "definition": "μένω σε έναν τόπο προσδοκώντας κάτι",
         "example": "Περιμένω το λεωφορείο στη στάση.",
         "transcription": "/periˈmeno/",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "περιμένω + αιτιατική",
+        "common_mistake": "❌ Περιμένω για το λεωφορείο. ➜ ✅ Περιμένω το λεωφορείο.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:vrisko:verb",
         "word": "βρίσκω",
         "level": "A1",
         "definition": "ανακαλύπτω αυτό που ψάχνω",
-        "example": "Βρήκα τα κλειδιά στο τραπέζι.",
+        "example": "Βρίσκω τα κλειδιά μου στο συρτάρι.",
         "transcription": "/ˈvrisko/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βρίσκω + αιτιατική",
+        "common_mistake": "❌ Βρίσκω σε τα κλειδιά. ➜ ✅ Βρίσκω τα κλειδιά.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-24": {
@@ -1297,27 +2543,54 @@
         "word": "μπορώ",
         "level": "A0",
         "definition": "έχω τη δυνατότητα να κάνω κάτι",
-        "example": "Μπορώ να μιλήσω ελληνικά.",
+        "example": "Μπορώ να σε βοηθήσω;",
         "transcription": "/boˈro/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "preposition": "να",
+        "prepositions": [
+          "να"
+        ],
+        "case": "accusative",
+        "pattern": "μπορώ + να + υποτακτική",
+        "common_mistake": "❌ Μπορώ για να έρθω. ➔ ✅ Μπορώ να έρθω.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:agorazo:verb",
         "word": "αγοράζω",
         "level": "A1",
         "definition": "αποκτώ κάτι πληρώνοντας",
-        "example": "Αγοράζω φρέσκο ψωμί.",
+        "example": "Αγοράζω ένα νέο αυτοκίνητο.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγοράζω + αιτιατική",
+        "common_mistake": "❌ Αγοράζω για ένα βιβλίο. ➜ ✅ Αγοράζω ένα βιβλίο.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:zo:verb",
         "word": "ζω",
         "level": "A1",
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
-        "example": "Ζω σε μια μεγάλη πόλη.",
+        "example": "Ζω στην Αθήνα εδώ και δέκα χρόνια.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ζω + σε + αιτιατική",
+        "common_mistake": "❌ Ζω με Αθήνα. ➔ ✅ Ζω στην Αθήνα.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:meno:verb",
@@ -1326,25 +2599,52 @@
         "definition": "κατοικώ κάπου ή παραμένω σε ένα μέρος",
         "example": "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
         "transcription": "/ˈmeno/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "μένω + σε + αιτιατική",
+        "common_mistake": "❌ Μένω σε την Αθήνα. ➜ ✅ Μένω στην Αθήνα.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:xechnao:verb",
         "word": "ξεχνάω",
         "level": "A1",
         "definition": "χάνω από τη μνήμη μου",
-        "example": "Ξέχασα τα γυαλιά μου στο σπίτι.",
+        "example": "Ξεχνάω πάντα τα κλειδιά μου.",
         "transcription": "/ksexˈnao/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ξεχνάω + αιτιατική",
+        "common_mistake": "❌ Ξέχασα για τα κλειδιά μου. ➜ ✅ Ξέχασα τα κλειδιά μου.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:thelo:verb",
         "word": "θέλω",
         "level": "A0",
         "definition": "έχω την επιθυμία για κάτι",
-        "example": "Θέλω έναν χυμό πορτοκάλι.",
+        "example": "Θέλω έναν ζεστό καφέ.",
         "transcription": "/ˈθelo/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "θέλω + αιτιατική",
+        "common_mistake": "❌ Θέλω για ένα νερό. ➜ ✅ Θέλω ένα νερό.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-25": {
@@ -1353,18 +2653,36 @@
         "word": "μαγειρεύω",
         "level": "A1",
         "definition": "ετοιμάζω φαγητό",
-        "example": "Μαγειρεύω νόστιμη σούπα το βράδυ.",
+        "example": "Μαγειρεύω κρέας με πατάτες.",
         "transcription": "/maʝiˈrevo/",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "μαγειρεύω + αιτιατική",
+        "common_mistake": "❌ Μαγειρεύω για το φαγητό. ➜ ✅ Μαγειρεύω το φαγητό.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
-        "id": "el:allazo:verb",
-        "word": "αλλάζω",
+        "id": "el:aniko:verb",
+        "word": "ανήκω",
         "level": "A1",
-        "definition": "κάνω κάτι διαφορετικό",
-        "example": "Αλλάζω ρούχα μετά τη γυμναστική.",
-        "transcription": "/aˈlazo/",
-        "emoji": "🔄"
+        "definition": "είμαι ιδιοκτησία ή μέρος κάποιου σύνολου",
+        "example": "Το βιβλίο ανήκει στον καθηγητή.",
+        "transcription": "/aˈniko/",
+        "emoji": "🧩",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ανήκω + σε + αιτιατική",
+        "common_mistake": "❌ Ανήκει σε μένα το βιβλίο. ➜ ✅ Αυτό το βιβλίο ανήκει σε μένα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:agapao:verb",
@@ -1373,34 +2691,70 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγαπάω + αιτιατική",
+        "common_mistake": "❌ Αγαπάω για την οικογένεια. ➜ ✅ Αγαπάω την οικογένεια.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:leo:verb",
         "word": "λέω",
         "level": "A1",
         "definition": "εκφράζω με λέξεις",
-        "example": "Λέω την αλήθεια στους φίλους μου.",
+        "example": "Λέω την αλήθεια στον φίλο μου.",
         "transcription": "/ˈleo/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "λέω + αιτιατική (πράγμα) + σε / αδύνατος τύπος (πρόσωπο)",
+        "common_mistake": "❌ Λέω για αυτόν την αλήθεια. ➔ ✅ Του λέω την αλήθεια.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:vrisko:verb",
         "word": "βρίσκω",
         "level": "A1",
         "definition": "ανακαλύπτω αυτό που ψάχνω",
-        "example": "Βρήκα τα κλειδιά στο τραπέζι.",
+        "example": "Βρίσκω τα κλειδιά μου στο συρτάρι.",
         "transcription": "/ˈvrisko/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βρίσκω + αιτιατική",
+        "common_mistake": "❌ Βρίσκω σε τα κλειδιά. ➜ ✅ Βρίσκω τα κλειδιά.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:troo:verb",
         "word": "τρώω",
         "level": "A0",
         "definition": "καταναλώνω τροφή",
-        "example": "Τρώω μήλο για δεκατιανό.",
+        "example": "Τρώω φρέσκο ψωμί με τυρί.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "τρώω + αιτιατική",
+        "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-26": {
@@ -1409,9 +2763,18 @@
         "word": "παίρνω",
         "level": "A1",
         "definition": "λαμβάνω κάτι στα χέρια μου",
-        "example": "Παίρνω το βιβλίο από το τραπέζι.",
+        "example": "Παίρνω το λεωφορείο για το σχολείο.",
         "transcription": "/ˈperno/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "παίρνω + αιτιατική",
+        "common_mistake": "❌ Παίρνω για τα κλειδιά. ➜ ✅ Παίρνω τα κλειδιά.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:anoigo:verb",
@@ -1420,43 +2783,88 @@
         "definition": "κάνω κάτι προσβάσιμο",
         "example": "Ανοίγω την πόρτα του σπιτιού.",
         "transcription": "/aˈniɣo/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "ανοίγω + αιτιατική",
+        "common_mistake": "❌ Ανοίγω για το παράθυρο. ➜ ✅ Ανοίγω το παράθυρο.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:vlepo:verb",
         "word": "βλέπω",
         "level": "A0",
         "definition": "αντιλαμβάνομαι με τα μάτια",
-        "example": "Βλέπω μια όμορφη εικόνα.",
+        "example": "Βλέπω μια καλή ταινία.",
         "transcription": "/ˈvlepo/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βλέπω + αιτιατική",
+        "common_mistake": "❌ Βλέπω σε μια ταινία. ➜ ✅ Βλέπω μια ταινία.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:kathomai:verb",
         "word": "κάθομαι",
         "level": "A1",
         "definition": "κάθομαι σε καρέκλα",
-        "example": "Κάθομαι στην άνετη καρέκλα.",
+        "example": "Κάθισε στην καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "κάθομαι + σε + αιτιατική",
+        "common_mistake": "❌ Κάθισε με την καρέκλα. ➜ ✅ Κάθισε στην καρέκλα.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:vazo:verb",
         "word": "βάζω",
         "level": "A1",
         "definition": "τοποθετώ κάτι σε ένα μέρος",
-        "example": "Βάζω το βιβλίο πάνω στο τραπέζι.",
+        "example": "Βάζω το παλτό μου.",
         "transcription": "/ˈvazo/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "βάζω + αιτιατική",
+        "common_mistake": "❌ Βάζω για το παλτό μου. ➜ ✅ Βάζω το παλτό μου.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:synechizo:verb",
         "word": "συνεχίζω",
         "level": "A1",
         "definition": "δεν σταματώ μια δραστηριότητα",
-        "example": "Συνεχίζω το διάβασμα μέχρι το βράδυ.",
+        "example": "Συνεχίζουμε την προσπάθεια για βελτίωση.",
         "transcription": "/sineˈxizo/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "συνεχίζω + αιτιατική",
+        "common_mistake": "❌ Συνεχίζουμε για το μάθημα. ➜ ✅ Συνεχίζουμε το μάθημα.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-27": {
@@ -1465,54 +2873,109 @@
         "word": "μου αρέσει",
         "level": "A1",
         "definition": "βρίσκω κάτι ευχάριστο",
-        "example": "Μου αρέσει το παγωτό σοκολάτα.",
+        "example": "Μου αρέσει το σοκολατένιο παγωτό.",
         "transcription": "/mu aˈresi/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "genitive",
+        "pattern": "μου αρέσει + ονομαστική",
+        "common_mistake": "❌ Μου αρέσει για το παγωτό. ➜ ✅ Μου αρέσει το σοκολατένιο παγωτό.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:apolamvano:verb",
         "word": "απολαμβάνω",
         "level": "A1",
         "definition": "νιώθω μεγάλη ευχαρίστηση από κάτι",
-        "example": "Απολαμβάνω τον καφέ μου το πρωί.",
+        "example": "Απολαμβάνω τον πρωινό μου καφέ.",
         "transcription": "/apolamˈvano/",
-        "emoji": "😌"
+        "emoji": "😌",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "απολαμβάνω + αιτιατική",
+        "common_mistake": "❌ Απολαμβάνω από τον καφέ. ➜ ✅ Απολαμβάνω τον καφέ.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:xero:verb",
         "word": "ξέρω",
         "level": "A0",
         "definition": "γνωρίζω μια πληροφορία",
-        "example": "Ξέρω την απάντηση στην ερώτηση.",
+        "example": "Ξέρω την απάντηση.",
         "transcription": "/ˈksero/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "ξέρω + αιτιατική / για + αιτιατική",
+        "common_mistake": "❌ Ξέρω για την απάντηση. ➜ ✅ Ξέρω την απάντηση.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:ftano:verb",
         "word": "φτάνω",
         "level": "A0",
         "definition": "φτάνω στον προορισμό μου",
-        "example": "Φτάνω στον σταθμό στις έξι.",
+        "example": "Φτάνω στον σταθμό σε δέκα λεπτά.",
         "transcription": "/ˈftano/",
-        "emoji": "🛬"
+        "emoji": "🛬",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "φτάνω + σε + αιτιατική",
+        "common_mistake": "❌ Φτάνω σε το αεροδρόμιο χωρίς άρθρο. ➜ ✅ Φτάνω στο αεροδρόμιο.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:synechizo:verb",
         "word": "συνεχίζω",
         "level": "A1",
         "definition": "δεν σταματώ μια δραστηριότητα",
-        "example": "Συνεχίζω το διάβασμα μέχρι το βράδυ.",
+        "example": "Συνεχίζουμε την προσπάθεια για βελτίωση.",
         "transcription": "/sineˈxizo/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "συνεχίζω + αιτιατική",
+        "common_mistake": "❌ Συνεχίζουμε για το μάθημα. ➜ ✅ Συνεχίζουμε το μάθημα.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:taxideyo:verb",
         "word": "ταξιδεύω",
         "level": "A1",
         "definition": "μεταβαίνω σε μακρινούς τόπους",
-        "example": "Ταξιδεύω στην Ελλάδα κάθε καλοκαίρι.",
+        "example": "Ταξιδεύω στο νησί με αεροπλάνο.",
         "transcription": "/taksiˈðevo/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "preposition": "σε",
+        "prepositions": [
+          "σε",
+          "με"
+        ],
+        "case": "accusative",
+        "pattern": "ταξιδεύω + [σε/με + αιτιατική]",
+        "common_mistake": "❌ Ταξιδεύω από αεροπλάνο. ➜ ✅ Ταξιδεύω με αεροπλάνο.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-28": {
@@ -1521,36 +2984,73 @@
         "word": "πηγαίνω",
         "level": "A0",
         "definition": "μεταβαίνω σε έναν τόπο",
-        "example": "Πηγαίνω στο σχολείο το πρωί.",
+        "example": "Πηγαίνω στο σχολείο κάθε πρωί.",
         "transcription": "/piˈjeno/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "πηγαίνω + σε + αιτιατική",
+        "common_mistake": "❌ Πηγαίνω προς το σχολείο (unless emphasizing direction towards). ➜ ✅ Πηγαίνω στο σχολείο.",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:katharizo:verb",
         "word": "καθαρίζω",
         "level": "A1",
         "definition": "αφαιρώ τη βρωμιά",
-        "example": "Καθαρίζω το δωμάτιό μου.",
+        "example": "Καθαρίζω το δωμάτιό μου κάθε Σάββατο.",
         "transcription": "/kaθaˈrizo/",
-        "emoji": "🧹"
+        "emoji": "🧹",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "καθαρίζω + αιτιατική",
+        "common_mistake": "❌ Καθαρίζω για το δωμάτιό μου. ➜ ✅ Καθαρίζω το δωμάτιό μου.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:plyrono:verb",
         "word": "πληρώνω",
         "level": "A1",
         "definition": "δίνω χρήματα για αγαθό",
-        "example": "Πληρώνω το λογαριασμό στο εστιατόριο.",
+        "example": "Πληρώνω τον λογαριασμό στο εστιατόριο.",
         "transcription": "/pliˈrono/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "πληρώνω + αιτιατική + [για + αιτιατική]",
+        "common_mistake": "❌ Πληρώνω για τον λογαριασμό. ➜ ✅ Πληρώνω τον λογαριασμό.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:erchomai:verb",
         "word": "έρχομαι",
         "level": "A0",
         "definition": "πλησιάζω ή φτάνω σε έναν τόπο",
-        "example": "Έρχομαι στο σπίτι σου τώρα.",
+        "example": "Έρχομαι από το σπίτι μου.",
         "transcription": "/ˈerxome/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "preposition": "από",
+        "prepositions": [
+          "από",
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "έρχομαι + [από/σε + αιτιατική]",
+        "common_mistake": "❌ Έρχομαι εκ το σπίτι (archaic). ➜ ✅ Έρχομαι από το σπίτι.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:agapao:verb",
@@ -1559,16 +3059,34 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αγαπάω + αιτιατική",
+        "common_mistake": "❌ Αγαπάω για την οικογένεια. ➜ ✅ Αγαπάω την οικογένεια.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:skeftomai:verb",
         "word": "σκέφτομαι",
         "level": "A1",
         "definition": "χρησιμοποιώ το μυαλό μου",
-        "example": "Σκέφτομαι τη σωστή απάντηση.",
+        "example": "Σκέφτομαι το πρόβλημά σου.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "preposition": "για",
+        "prepositions": [
+          "για"
+        ],
+        "case": "accusative",
+        "pattern": "σκέφτομαι + αιτιατική / [για + αιτιατική]",
+        "common_mistake": "❌ Σκέφτομαι περί το μέλλον. ➜ ✅ Σκέφτομαι το μέλλον μου.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-29": {
@@ -1577,54 +3095,108 @@
         "word": "νιώθω",
         "level": "A1",
         "definition": "αισθάνομαι ένα συναισθημα",
-        "example": "Νιώθω πολύ χαρούμενος σήμερα.",
+        "example": "Νιώθω χαρά.",
         "transcription": "/ˈnioθo/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "νιώθω + αιτιατική",
+        "common_mistake": "❌ Νιώθω για χαρά. ➜ ✅ Νιώθω χαρά.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:sikonomai:verb",
         "word": "σηκώνομαι",
         "level": "A1",
         "definition": "στέκομαι όρθιος από τη θέση μου",
-        "example": "Σηκώνομαι νωρίς το πρωί από το κρεβάτι.",
+        "example": "Σηκώνομαι στις οκτώ.",
         "transcription": "/siˈkonome/",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "σηκώνομαι + από + αιτιατική",
+        "common_mistake": "❌ Σηκώνομαι σε τις οκτώ. ➜ ✅ Σηκώνομαι στις οκτώ.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:poulao:verb",
         "word": "πουλάω",
         "level": "A1",
         "definition": "δίνω κάτι έναντι χρημάτων",
-        "example": "Ο έμπορος πουλάει φρούτα.",
+        "example": "Πουλάω το παλιό μου σπίτι.",
         "transcription": "/puˈlao/",
-        "emoji": "🏷️"
+        "emoji": "🏷️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "πουλάω + αιτιατική",
+        "common_mistake": "❌ Πουλάω από το σπίτι. ➜ ✅ Πουλάω το σπίτι.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:episkeyazo:verb",
         "word": "επισκευάζω",
         "level": "A1",
         "definition": "διορθώνω κάτι που είναι χαλασμένο",
-        "example": "Επισκευάζω το ποδήλατό μου στον κήπο.",
+        "example": "Επισκευάζω το ποδήλατο.",
         "transcription": "/episkeiˈazo/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "επισκευάζω + αιτιατική",
+        "common_mistake": "❌ Επισκευάζω για το ποδήλατο. ➜ ✅ Επισκευάζω το ποδήλατο.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:zo:verb",
         "word": "ζω",
         "level": "A1",
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
-        "example": "Ζω σε μια μεγάλη πόλη.",
+        "example": "Ζω στην Αθήνα εδώ και δέκα χρόνια.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ζω + σε + αιτιατική",
+        "common_mistake": "❌ Ζω με Αθήνα. ➔ ✅ Ζω στην Αθήνα.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:stamatao:verb",
         "word": "σταματάω",
         "level": "A1",
         "definition": "παύω να κινούμαι",
-        "example": "Το αυτοκίνητο σταματάει στο κόκκινο.",
+        "example": "Σταμάτα να μιλάς.",
         "transcription": "/stamaˈtao/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "preposition": "από",
+        "prepositions": [
+          "από"
+        ],
+        "case": "accusative",
+        "pattern": "σταματάω + να / από + αιτιατική",
+        "common_mistake": "❌ Σταμάτα για να μιλάς. ➜ ✅ Σταμάτα να μιλάς.",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-06-30": {
@@ -1633,54 +3205,108 @@
         "word": "ζω",
         "level": "A1",
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
-        "example": "Ζω σε μια μεγάλη πόλη.",
+        "example": "Ζω στην Αθήνα εδώ και δέκα χρόνια.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "preposition": "σε",
+        "prepositions": [
+          "σε"
+        ],
+        "case": "accusative",
+        "pattern": "ζω + σε + αιτιατική",
+        "common_mistake": "❌ Ζω με Αθήνα. ➔ ✅ Ζω στην Αθήνα.",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:archizo:verb",
         "word": "αρχίζω",
         "level": "A1",
         "definition": "ξεκινώ μια δραστηριότητα",
-        "example": "Το μάθημα αρχίζει στις εννέα.",
+        "example": "Αρχίζω τη δουλειά στις εννέα.",
         "transcription": "/arˈxizo/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αρχίζω + αιτιατική",
+        "common_mistake": "❌ Αρχίζουμε για το μάθημα. ➜ ✅ Αρχίζουμε το μάθημα.",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:archizo:verb",
         "word": "αρχίζω",
         "level": "A1",
         "definition": "ξεκινώ μια δραστηριότητα",
-        "example": "Το μάθημα αρχίζει στις εννέα.",
+        "example": "Αρχίζω τη δουλειά στις εννέα.",
         "transcription": "/arˈxizo/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "accusative",
+        "pattern": "αρχίζω + αιτιατική",
+        "common_mistake": "❌ Αρχίζουμε για το μάθημα. ➜ ✅ Αρχίζουμε το μάθημα.",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:xypnao:verb",
         "word": "ξυπνάω",
         "level": "A1",
         "definition": "σταματώ να κοιμάμαι",
-        "example": "Ξυπνάω στις επτά κάθε πρωί.",
+        "example": "Ξυπνάω στις επτά το πρωί.",
         "transcription": "/ksiˈpnao/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "preposition": "στις",
+        "prepositions": [
+          "στις"
+        ],
+        "case": "accusative",
+        "pattern": "ξυπνάω + στις + ώρα",
+        "common_mistake": "❌ Ξυπνάω σε επτά το πρωί. ➜ ✅ Ξυπνάω στις επτά το πρωί.",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:ginomai:verb",
         "word": "γίνομαι",
         "level": "A1",
         "definition": "μεταβάλλομαι σε κάτι άλλο",
-        "example": "Θέλει να γίνει γιατρός όταν μεγαλώσει.",
+        "example": "Θέλει να γίνει γιατρός.",
         "transcription": "/ˈjinome/",
-        "emoji": "🌱"
+        "emoji": "🌱",
+        "preposition": "none",
+        "prepositions": [
+          "none"
+        ],
+        "case": "nominative",
+        "pattern": "γίνομαι + ονομαστική",
+        "common_mistake": "❌ Θέλει να γίνει γιατρό. ➜ ✅ Θέλει να γίνει γιατρός.",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:symfono:verb",
         "word": "συμφωνώ",
         "level": "A1",
         "definition": "έχω την ίδια γνώμη με κάποιον",
-        "example": "Συμφωνώ απόλυτα με την πρότασή σου.",
+        "example": "Συμφωνώ απόλυτα με τη γνώμη σου.",
         "transcription": "/simfoˈno/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "preposition": "με",
+        "prepositions": [
+          "με"
+        ],
+        "case": "accusative",
+        "pattern": "συμφωνώ + με + αιτιατική",
+        "common_mistake": "❌ Συμφωνώ σε τη γνώμη σου. ➜ ✅ Συμφωνώ με τη γνώμη σου.",
+        "slot_level": "C2",
+        "review": true
       }
     }
   }

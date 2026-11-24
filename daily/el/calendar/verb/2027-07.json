@@ -4,6 +4,17 @@
   "month": "2027-07",
   "days": {
     "2027-07-01": {
+      "A0": {
+        "id": "el:troo:verb",
+        "word": "τρώω",
+        "level": "A0",
+        "definition": "καταναλώνω τροφή",
+        "example": "Τρώω μήλο για δεκατιανό.",
+        "transcription": "/ˈtroo/",
+        "emoji": "🍽️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:katharizo:verb",
         "word": "καθαρίζω",
@@ -11,7 +22,9 @@
         "definition": "αφαιρώ τη βρωμιά",
         "example": "Καθαρίζω το δωμάτιό μου.",
         "transcription": "/kaθaˈrizo/",
-        "emoji": "🧹"
+        "emoji": "🧹",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:thelo:verb",
@@ -20,7 +33,9 @@
         "definition": "έχω την επιθυμία για κάτι",
         "example": "Θέλω έναν χυμό πορτοκάλι.",
         "transcription": "/ˈθelo/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:grafo:verb",
@@ -29,7 +44,9 @@
         "definition": "σχηματίζω γράμματα στο χαρτί",
         "example": "Γράφω ένα γράμμα στον φίλο μου.",
         "transcription": "/ˈɣrafo/",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:kathomai:verb",
@@ -38,7 +55,9 @@
         "definition": "κάθομαι σε καρέκλα",
         "example": "Κάθομαι στην άνετη καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:pino:verb",
@@ -47,7 +66,9 @@
         "definition": "καταπίνω υγρό",
         "example": "Πίνω πολύ νερό το καλοκαίρι.",
         "transcription": "/ˈpino/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:odigo:verb",
@@ -56,10 +77,23 @@
         "definition": "κατευθύνω ένα όχημα",
         "example": "Οδηγώ το αυτοκίνητο προσεκτικά.",
         "transcription": "/oðiˈɣo/",
-        "emoji": "🚗"
+        "emoji": "🚗",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-02": {
+      "A0": {
+        "id": "el:meno:verb",
+        "word": "μένω",
+        "level": "A0",
+        "definition": "κατοικώ κάπου ή παραμένω σε ένα μέρος",
+        "example": "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
+        "transcription": "/ˈmeno/",
+        "emoji": "🏠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:grafo:verb",
         "word": "γράφω",
@@ -67,7 +101,9 @@
         "definition": "σχηματίζω γράμματα στο χαρτί",
         "example": "Γράφω ένα γράμμα στον φίλο μου.",
         "transcription": "/ˈɣrafo/",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:psachno:verb",
@@ -76,7 +112,9 @@
         "definition": "αναζητώ κάτι που χάθηκε",
         "example": "Ψάχνω τα κλειδιά μου.",
         "transcription": "/ˈpsaxno/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:spatalo:verb",
@@ -85,7 +123,9 @@
         "definition": "Ξοδεύω άσκοπα χρήματα ή χρόνο.",
         "example": "Δεν πρέπει να σπαταλάμε το νερό.",
         "transcription": "/spa.taˈlo/",
-        "emoji": "🗑️"
+        "emoji": "🗑️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:pairno:verb",
@@ -94,7 +134,9 @@
         "definition": "λαμβάνω κάτι στα χέρια μου",
         "example": "Παίρνω το βιβλίο από το τραπέζι.",
         "transcription": "/ˈperno/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:synanto:verb",
@@ -103,7 +145,9 @@
         "definition": "βλέπω κάποιον σε ορισμένο μέρος",
         "example": "Συναντώ τους φίλους μου στο πάρκο.",
         "transcription": "/sinanˈto/",
-        "emoji": "👥"
+        "emoji": "👥",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:xechno:verb",
@@ -112,10 +156,23 @@
         "definition": "Δεν θυμάμαι κάτι που ήξερα.",
         "example": "Συχνά ξεχνώ τα κλειδιά μου στο σπίτι.",
         "transcription": "/kseˈchno/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-03": {
+      "A0": {
+        "id": "el:xero:verb",
+        "word": "ξέρω",
+        "level": "A0",
+        "definition": "γνωρίζω μια πληροφορία",
+        "example": "Ξέρω την απάντηση στην ερώτηση.",
+        "transcription": "/ˈksero/",
+        "emoji": "🧠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:katalavaino:verb",
         "word": "καταλαβαίνω",
@@ -123,7 +180,9 @@
         "definition": "νοώ το νόημα μιας έννοιας",
         "example": "Καταλαβαίνω πολύ καλά το μάθημα.",
         "transcription": "/katalaˈveno/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:paizo:verb",
@@ -132,7 +191,9 @@
         "definition": "συμμετέχω σε παιχνίδι",
         "example": "Τα παιδιά παίζουν στο πάρκο.",
         "transcription": "/ˈpezo/",
-        "emoji": "🎮"
+        "emoji": "🎮",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:perpatao:verb",
@@ -141,7 +202,9 @@
         "definition": "μετακινούμαι με τα πόδια",
         "example": "Περπατάω στο πάρκο κάθε απόγευμα.",
         "transcription": "/perpataˈo/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:spoydazo:verb",
@@ -150,7 +213,9 @@
         "definition": "φοιτώ σε σχολή ή πανεπιστήμιο",
         "example": "Σπουδάζω ελληνική φιλολογία στο πανεπιστήμιο.",
         "transcription": "/spuˈðazo/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:vrisko:verb",
@@ -159,7 +224,9 @@
         "definition": "ανακαλύπτω αυτό που ψάχνω",
         "example": "Βρήκα τα κλειδιά στο τραπέζι.",
         "transcription": "/ˈvrisko/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:synechizo:verb",
@@ -168,10 +235,23 @@
         "definition": "δεν σταματώ μια δραστηριότητα",
         "example": "Συνεχίζω το διάβασμα μέχρι το βράδυ.",
         "transcription": "/sineˈxizo/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-04": {
+      "A0": {
+        "id": "el:pino:verb",
+        "word": "πίνω",
+        "level": "A0",
+        "definition": "καταπίνω υγρό",
+        "example": "Πίνω πολύ νερό το καλοκαίρι.",
+        "transcription": "/ˈpino/",
+        "emoji": "🥛",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:leo:verb",
         "word": "λέω",
@@ -179,7 +259,9 @@
         "definition": "εκφράζω με λέξεις",
         "example": "Λέω την αλήθεια στους φίλους μου.",
         "transcription": "/ˈleo/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:kleino:verb",
@@ -188,7 +270,9 @@
         "definition": "εμποδίζω την πρόσβαση σε κάτι",
         "example": "Κλείνω το παράθυρο λόγω κρύου.",
         "transcription": "/ˈklino/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:teleiono:verb",
@@ -197,7 +281,9 @@
         "definition": "ολοκληρώνω μια δραστηριότητα",
         "example": "Τελειώνω τη δουλειά στις πέντε.",
         "transcription": "/teleˈono/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:pono:verb",
@@ -206,7 +292,9 @@
         "definition": "αισθάνομαι σωματικό πόνο",
         "example": "Πονάει το κεφάλι μου σήμερα.",
         "transcription": "/poˈno/",
-        "emoji": "🤕"
+        "emoji": "🤕",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:tragoudao:verb",
@@ -215,7 +303,9 @@
         "definition": "εκφέρω μουσικούς ήχους με τη φωνή",
         "example": "Τραγουδάω ένα ωραίο τραγούδι.",
         "transcription": "/traɣuˈðao/",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:agapo:verb",
@@ -224,10 +314,23 @@
         "definition": "Νιώθω αγάπη για κάποιον ή κάτι.",
         "example": "Αγαπώ πολύ την οικογένειά μου.",
         "transcription": "/a.ɣaˈpo/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-05": {
+      "A0": {
+        "id": "el:echo:verb",
+        "word": "έχω",
+        "level": "A0",
+        "definition": "ρήμα που δηλώνει κατοχή",
+        "example": "Έχω ένα κόκκινο αυτοκίνητο.",
+        "transcription": "/ˈexo/",
+        "emoji": "🤲",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:mathaino:verb",
         "word": "μαθαίνω",
@@ -235,7 +338,9 @@
         "definition": "αποκτώ γνώσεις",
         "example": "Μαθαίνω ελληνικά κάθε μέρα.",
         "transcription": "/maˈθeno/",
-        "emoji": "📚"
+        "emoji": "📚",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:feygo:verb",
@@ -244,7 +349,9 @@
         "definition": "αποχωρώ από έναν τόπο",
         "example": "Φεύγω από το σπίτι το πρωί.",
         "transcription": "/ˈfevɣo/",
-        "emoji": "🛫"
+        "emoji": "🛫",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:pono:verb",
@@ -253,7 +360,9 @@
         "definition": "αισθάνομαι σωματικό πόνο",
         "example": "Πονάει το κεφάλι μου σήμερα.",
         "transcription": "/poˈno/",
-        "emoji": "🤕"
+        "emoji": "🤕",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:thelo:verb",
@@ -262,7 +371,9 @@
         "definition": "έχω την επιθυμία για κάτι",
         "example": "Θέλω έναν χυμό πορτοκάλι.",
         "transcription": "/ˈθelo/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:agapao:verb",
@@ -271,7 +382,9 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:tragoudao:verb",
@@ -280,10 +393,23 @@
         "definition": "εκφέρω μουσικούς ήχους με τη φωνή",
         "example": "Τραγουδάω ένα ωραίο τραγούδι.",
         "transcription": "/traɣuˈðao/",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-06": {
+      "A0": {
+        "id": "el:agapo:verb",
+        "word": "αγαπώ",
+        "level": "A0",
+        "definition": "Νιώθω αγάπη για κάποιον ή κάτι.",
+        "example": "Αγαπώ πολύ την οικογένειά μου.",
+        "transcription": "/a.ɣaˈpo/",
+        "emoji": "❤️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:koimamai:verb",
         "word": "κοιμάμαι",
@@ -291,7 +417,9 @@
         "definition": "αναπαύομαι σε κατάσταση ύπνου",
         "example": "Κοιμάμαι οκτώ ώρες κάθε νύχτα.",
         "transcription": "/kiˈmame/",
-        "emoji": "😴"
+        "emoji": "😴",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:archizo:verb",
@@ -300,7 +428,9 @@
         "definition": "ξεκινώ μια δραστηριότητα",
         "example": "Το μάθημα αρχίζει στις εννέα.",
         "transcription": "/arˈxizo/",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:areso:verb",
@@ -309,7 +439,9 @@
         "definition": "Προκαλώ ευχάριστο συναισθήμα σε κάποιον.",
         "example": "Μου αρέσει πολύ η μουσική.",
         "transcription": "/aˈre.so/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:xodeyo:verb",
@@ -318,7 +450,9 @@
         "definition": "δίνω χρήματα για να αγοράσω πράγματα",
         "example": "Ξοδεύω χρήματα για τα ψώνια της εβδομάδας.",
         "transcription": "/ksoˈðevo/",
-        "emoji": "💸"
+        "emoji": "💸",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:diavazo:verb",
@@ -327,7 +461,9 @@
         "definition": "κατανοώ γραπτό κείμενο",
         "example": "Διαβάζω ένα βιβλίο το βράδυ.",
         "transcription": "/ðiaˈvazo/",
-        "emoji": "📖"
+        "emoji": "📖",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:grafo:verb",
@@ -336,10 +472,23 @@
         "definition": "σχηματίζω γράμματα στο χαρτί",
         "example": "Γράφω ένα γράμμα στον φίλο μου.",
         "transcription": "/ˈɣrafo/",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-07": {
+      "A0": {
+        "id": "el:ftano:verb",
+        "word": "φτάνω",
+        "level": "A0",
+        "definition": "φτάνω στον προορισμό μου",
+        "example": "Φτάνω στον σταθμό στις έξι.",
+        "transcription": "/ˈftano/",
+        "emoji": "🛬",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:magireyo:verb",
         "word": "μαγειρεύω",
@@ -347,7 +496,9 @@
         "definition": "ετοιμάζω φαγητό",
         "example": "Μαγειρεύω νόστιμη σούπα το βράδυ.",
         "transcription": "/maʝiˈrevo/",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:xekoyrazomai:verb",
@@ -356,7 +507,9 @@
         "definition": "αναπαύομαι μετά από κούραση",
         "example": "Ξεκουράζομαι στον καναπέ το απόγευμα.",
         "transcription": "/ksekuˈrazome/",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:zo:verb",
@@ -365,7 +518,9 @@
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
         "example": "Ζω σε μια μεγάλη πόλη.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:anoigo:verb",
@@ -374,7 +529,9 @@
         "definition": "κάνω κάτι προσβάσιμο",
         "example": "Ανοίγω την πόρτα του σπιτιού.",
         "transcription": "/aˈniɣo/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:katalavaino:verb",
@@ -383,7 +540,9 @@
         "definition": "νοώ το νόημα μιας έννοιας",
         "example": "Καταλαβαίνω πολύ καλά το μάθημα.",
         "transcription": "/katalaˈveno/",
-        "emoji": "💡"
+        "emoji": "💡",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:deichno:verb",
@@ -392,10 +551,23 @@
         "definition": "φανερώνω κάτι με το χέρι ή το βλέμμα",
         "example": "Δείχνω τον δρόμο στον τουρίστα.",
         "transcription": "/ˈðixno/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-08": {
+      "A0": {
+        "id": "el:erchomai:verb",
+        "word": "έρχομαι",
+        "level": "A0",
+        "definition": "πλησιάζω ή φτάνω σε έναν τόπο",
+        "example": "Έρχομαι στο σπίτι σου τώρα.",
+        "transcription": "/ˈerxome/",
+        "emoji": "🏃",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:pigaino:verb",
         "word": "πηγαίνω",
@@ -403,7 +575,9 @@
         "definition": "μεταβαίνω σε έναν τόπο",
         "example": "Πηγαίνω στο σχολείο το πρωί.",
         "transcription": "/piˈjeno/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:stelno:verb",
@@ -412,7 +586,9 @@
         "definition": "διαβιβάζω κάτι σε άλλον",
         "example": "Στέλνω ένα μήνυμα στον φίλο μου.",
         "transcription": "/ˈstelno/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:petao:verb",
@@ -421,7 +597,9 @@
         "definition": "κινούμαι στον αέρα",
         "example": "Το πουλί πετάει στον ουρανό.",
         "transcription": "/peˈtao/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:koitazo:verb",
@@ -430,7 +608,9 @@
         "definition": "στρέφω το βλέμμα σε κάτι",
         "example": "Κοιτάζω την όμορφη θέα.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:psachno:verb",
@@ -439,7 +619,9 @@
         "definition": "αναζητώ κάτι που χάθηκε",
         "example": "Ψάχνω τα κλειδιά μου.",
         "transcription": "/ˈpsaxno/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:thymamai:verb",
@@ -448,10 +630,23 @@
         "definition": "κρατώ στη μνήμη μου",
         "example": "Θυμάμαι το όνομά σου.",
         "transcription": "/θiˈmame/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-09": {
+      "A0": {
+        "id": "el:pigaino:verb",
+        "word": "πηγαίνω",
+        "level": "A0",
+        "definition": "μεταβαίνω σε έναν τόπο",
+        "example": "Πηγαίνω στο σχολείο το πρωί.",
+        "transcription": "/piˈjeno/",
+        "emoji": "🚶",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:plyrono:verb",
         "word": "πληρώνω",
@@ -459,7 +654,9 @@
         "definition": "δίνω χρήματα για αγαθό",
         "example": "Πληρώνω το λογαριασμό στο εστιατόριο.",
         "transcription": "/pliˈrono/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:pino:verb",
@@ -468,7 +665,9 @@
         "definition": "καταπίνω υγρό",
         "example": "Πίνω πολύ νερό το καλοκαίρι.",
         "transcription": "/ˈpino/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:magireyo:verb",
@@ -477,7 +676,9 @@
         "definition": "ετοιμάζω φαγητό",
         "example": "Μαγειρεύω νόστιμη σούπα το βράδυ.",
         "transcription": "/maʝiˈrevo/",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:pigaino:verb",
@@ -486,7 +687,9 @@
         "definition": "μεταβαίνω σε έναν τόπο",
         "example": "Πηγαίνω στο σχολείο το πρωί.",
         "transcription": "/piˈjeno/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:thymamai:verb",
@@ -495,7 +698,9 @@
         "definition": "κρατώ στη μνήμη μου",
         "example": "Θυμάμαι το όνομά σου.",
         "transcription": "/θiˈmame/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:psachno:verb",
@@ -504,10 +709,23 @@
         "definition": "αναζητώ κάτι που χάθηκε",
         "example": "Ψάχνω τα κλειδιά μου.",
         "transcription": "/ˈpsaxno/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-10": {
+      "A0": {
+        "id": "el:kano:verb",
+        "word": "κάνω",
+        "level": "A0",
+        "definition": "πράττω ή κατασκευάζω κάτι",
+        "example": "Κάνω τις ασκήσεις μου κάθε μέρα.",
+        "transcription": "/ˈkano/",
+        "emoji": "🛠️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:stamatao:verb",
         "word": "σταματάω",
@@ -515,7 +733,9 @@
         "definition": "παύω να κινούμαι",
         "example": "Το αυτοκίνητο σταματάει στο κόκκινο.",
         "transcription": "/stamaˈtao/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:taxideyo:verb",
@@ -524,7 +744,9 @@
         "definition": "μεταβαίνω σε μακρινούς τόπους",
         "example": "Ταξιδεύω στην Ελλάδα κάθε καλοκαίρι.",
         "transcription": "/taksiˈðevo/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:eimai:verb",
@@ -533,7 +755,9 @@
         "definition": "ρήμα ύπαρξης και ταυτότητας",
         "example": "Είμαι μαθητής στο σχολείο.",
         "transcription": "/ˈime/",
-        "emoji": "👤"
+        "emoji": "👤",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:kerdizo:verb",
@@ -542,7 +766,9 @@
         "definition": "βγαίνω πρώτος ή αποκτώ όφελος",
         "example": "Η ομάδα μας κερδίζει τον αγώνα.",
         "transcription": "/kerˈðizo/",
-        "emoji": "🏆"
+        "emoji": "🏆",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:kleino:verb",
@@ -551,7 +777,9 @@
         "definition": "εμποδίζω την πρόσβαση σε κάτι",
         "example": "Κλείνω το παράθυρο λόγω κρύου.",
         "transcription": "/ˈklino/",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:prospatho:verb",
@@ -560,10 +788,23 @@
         "definition": "κάνω προσπάθεια για να πετύχω κάτι",
         "example": "Προσπαθώ να καταλάβω το μάθημα.",
         "transcription": "/prospaˈθo/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-11": {
+      "A0": {
+        "id": "el:akoyo:verb",
+        "word": "ακούω",
+        "level": "A0",
+        "definition": "αντιλαμβάνομαι ήχους",
+        "example": "Ακούω μουσική στο δωμάτιο.",
+        "transcription": "/aˈkuo/",
+        "emoji": "🎧",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:skeftomai:verb",
         "word": "σκέφτομαι",
@@ -571,7 +812,9 @@
         "definition": "χρησιμοποιώ το μυαλό μου",
         "example": "Σκέφτομαι τη σωστή απάντηση.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:xodeyo:verb",
@@ -580,7 +823,9 @@
         "definition": "δίνω χρήματα για να αγοράσω πράγματα",
         "example": "Ξοδεύω χρήματα για τα ψώνια της εβδομάδας.",
         "transcription": "/ksoˈðevo/",
-        "emoji": "💸"
+        "emoji": "💸",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:kerdizo:verb",
@@ -589,7 +834,9 @@
         "definition": "βγαίνω πρώτος ή αποκτώ όφελος",
         "example": "Η ομάδα μας κερδίζει τον αγώνα.",
         "transcription": "/kerˈðizo/",
-        "emoji": "🏆"
+        "emoji": "🏆",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:erchomai:verb",
@@ -598,7 +845,9 @@
         "definition": "πλησιάζω ή φτάνω σε έναν τόπο",
         "example": "Έρχομαι στο σπίτι σου τώρα.",
         "transcription": "/ˈerxome/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:ftiachno:verb",
@@ -607,7 +856,9 @@
         "definition": "κατασκευάζω ή ετοιμάζω κάτι",
         "example": "Φτιάχνω έναν ζεστό καφέ το πρωί.",
         "transcription": "/ˈftiaxno/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:teleiono:verb",
@@ -616,10 +867,23 @@
         "definition": "ολοκληρώνω μια δραστηριότητα",
         "example": "Τελειώνω τη δουλειά στις πέντε.",
         "transcription": "/teleˈono/",
-        "emoji": "🏁"
+        "emoji": "🏁",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-12": {
+      "A0": {
+        "id": "el:feygo:verb",
+        "word": "φεύγω",
+        "level": "A0",
+        "definition": "αποχωρώ από έναν τόπο",
+        "example": "Φεύγω από το σπίτι το πρωί.",
+        "transcription": "/ˈfevɣo/",
+        "emoji": "🛫",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:symfono:verb",
         "word": "συμφωνώ",
@@ -627,7 +891,9 @@
         "definition": "έχω την ίδια γνώμη με κάποιον",
         "example": "Συμφωνώ απόλυτα με την πρότασή σου.",
         "transcription": "/simfoˈno/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:areso:verb",
@@ -636,7 +902,9 @@
         "definition": "Προκαλώ ευχάριστο συναισθήμα σε κάποιον.",
         "example": "Μου αρέσει πολύ η μουσική.",
         "transcription": "/aˈre.so/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:vrisko:verb",
@@ -645,7 +913,9 @@
         "definition": "ανακαλύπτω αυτό που ψάχνω",
         "example": "Βρήκα τα κλειδιά στο τραπέζι.",
         "transcription": "/ˈvrisko/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:choreyo:verb",
@@ -654,7 +924,9 @@
         "definition": "κινώ το σώμα στον ρυθμό της μουσικής",
         "example": "Χορεύουμε στο πάρτι.",
         "transcription": "/xoˈrevo/",
-        "emoji": "💃"
+        "emoji": "💃",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:chano:verb",
@@ -663,7 +935,9 @@
         "definition": "δεν έχω πια κάτι στην κατοχή μου",
         "example": "Έχασα τα κλειδιά μου στο πάρκο.",
         "transcription": "/ˈxano/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:kathomai:verb",
@@ -672,10 +946,23 @@
         "definition": "κάθομαι σε καρέκλα",
         "example": "Κάθομαι στην άνετη καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-13": {
+      "A0": {
+        "id": "el:vlepo:verb",
+        "word": "βλέπω",
+        "level": "A0",
+        "definition": "αντιλαμβάνομαι με τα μάτια",
+        "example": "Βλέπω μια όμορφη εικόνα.",
+        "transcription": "/ˈvlepo/",
+        "emoji": "👁️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:spoydazo:verb",
         "word": "σπουδάζω",
@@ -683,7 +970,9 @@
         "definition": "φοιτώ σε σχολή ή πανεπιστήμιο",
         "example": "Σπουδάζω ελληνική φιλολογία στο πανεπιστήμιο.",
         "transcription": "/spuˈðazo/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:elpizo:verb",
@@ -692,7 +981,9 @@
         "definition": "προσδοκώ κάτι καλό στο μέλλον",
         "example": "Ελπίζω να κάνει καλό καιρό αύριο.",
         "transcription": "/elˈpizo/",
-        "emoji": "🤞"
+        "emoji": "🤞",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:aniko:verb",
@@ -701,7 +992,9 @@
         "definition": "είμαι ιδιοκτησία ή μέρος κάποιου σύνολου",
         "example": "Αυτό το βιβλίο ανήκει στη βιβλιοθήκη.",
         "transcription": "/aˈniko/",
-        "emoji": "🧩"
+        "emoji": "🧩",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:zo:verb",
@@ -710,7 +1003,9 @@
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
         "example": "Ζω σε μια μεγάλη πόλη.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:xekoyrazomai:verb",
@@ -719,7 +1014,9 @@
         "definition": "αναπαύομαι μετά από κούραση",
         "example": "Ξεκουράζομαι στον καναπέ το απόγευμα.",
         "transcription": "/ksekuˈrazome/",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:milao:verb",
@@ -728,10 +1025,23 @@
         "definition": "επικοινωνώ με λόγια",
         "example": "Μιλάω στο τηλέφωνο με τη μητέρα μου.",
         "transcription": "/miˈlao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-14": {
+      "A0": {
+        "id": "el:xero:verb",
+        "word": "ξέρω",
+        "level": "A0",
+        "definition": "γνωρίζω μια πληροφορία",
+        "example": "Ξέρω την απάντηση στην ερώτηση.",
+        "transcription": "/ˈksero/",
+        "emoji": "🧠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:pino:verb",
         "word": "πίνω",
@@ -739,7 +1049,9 @@
         "definition": "καταπίνω υγρό",
         "example": "Πίνω πολύ νερό το καλοκαίρι.",
         "transcription": "/ˈpino/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:diavazo:verb",
@@ -748,7 +1060,9 @@
         "definition": "κατανοώ γραπτό κείμενο",
         "example": "Διαβάζω ένα βιβλίο το βράδυ.",
         "transcription": "/ðiaˈvazo/",
-        "emoji": "📖"
+        "emoji": "📖",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:trecho:verb",
@@ -757,7 +1071,9 @@
         "definition": "κινούμαι πολύ γρήγορα με τα πόδια",
         "example": "Τρέχω για να προλάβω το λεωφορείο.",
         "transcription": "/ˈtrexo/",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:tragoudao:verb",
@@ -766,7 +1082,9 @@
         "definition": "εκφέρω μουσικούς ήχους με τη φωνή",
         "example": "Τραγουδάω ένα ωραίο τραγούδι.",
         "transcription": "/traɣuˈðao/",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:spoydazo:verb",
@@ -775,7 +1093,9 @@
         "definition": "φοιτώ σε σχολή ή πανεπιστήμιο",
         "example": "Σπουδάζω ελληνική φιλολογία στο πανεπιστήμιο.",
         "transcription": "/spuˈðazo/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:feygo:verb",
@@ -784,10 +1104,23 @@
         "definition": "αποχωρώ από έναν τόπο",
         "example": "Φεύγω από το σπίτι το πρωί.",
         "transcription": "/ˈfevɣo/",
-        "emoji": "🛫"
+        "emoji": "🛫",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-15": {
+      "A0": {
+        "id": "el:mporo:verb",
+        "word": "μπορώ",
+        "level": "A0",
+        "definition": "έχω τη δυνατότητα να κάνω κάτι",
+        "example": "Μπορώ να μιλήσω ελληνικά.",
+        "transcription": "/boˈro/",
+        "emoji": "💪",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:perpatao:verb",
         "word": "περπατάω",
@@ -795,7 +1128,9 @@
         "definition": "μετακινούμαι με τα πόδια",
         "example": "Περπατάω στο πάρκο κάθε απόγευμα.",
         "transcription": "/perpataˈo/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:kathomai:verb",
@@ -804,7 +1139,9 @@
         "definition": "κάθομαι σε καρέκλα",
         "example": "Κάθομαι στην άνετη καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:agapao:verb",
@@ -813,7 +1150,9 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:psachno:verb",
@@ -822,7 +1161,9 @@
         "definition": "αναζητώ κάτι που χάθηκε",
         "example": "Ψάχνω τα κλειδιά μου.",
         "transcription": "/ˈpsaxno/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:pefto:verb",
@@ -831,7 +1172,9 @@
         "definition": "κινούμαι προς τα κάτω λόγω βαρύτητας",
         "example": "Τα φύλλα πέφτουν από το δέντρο.",
         "transcription": "/ˈpefto/",
-        "emoji": "🍂"
+        "emoji": "🍂",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:kolympao:verb",
@@ -840,10 +1183,23 @@
         "definition": "κινούμαι στο νερό",
         "example": "Κολυμπάω στη θάλασσα το καλοκαίρι.",
         "transcription": "/kolimˈpao/",
-        "emoji": "🏊"
+        "emoji": "🏊",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-16": {
+      "A0": {
+        "id": "el:pino:verb",
+        "word": "πίνω",
+        "level": "A0",
+        "definition": "καταπίνω υγρό",
+        "example": "Πίνω πολύ νερό το καλοκαίρι.",
+        "transcription": "/ˈpino/",
+        "emoji": "🥛",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:poulao:verb",
         "word": "πουλάω",
@@ -851,7 +1207,9 @@
         "definition": "δίνω κάτι έναντι χρημάτων",
         "example": "Ο έμπορος πουλάει φρούτα.",
         "transcription": "/puˈlao/",
-        "emoji": "🏷️"
+        "emoji": "🏷️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:niotho:verb",
@@ -860,7 +1218,9 @@
         "definition": "αισθάνομαι ένα συναισθημα",
         "example": "Νιώθω πολύ χαρούμενος σήμερα.",
         "transcription": "/ˈnioθo/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:pairno:verb",
@@ -869,7 +1229,9 @@
         "definition": "λαμβάνω κάτι στα χέρια μου",
         "example": "Παίρνω το βιβλίο από το τραπέζι.",
         "transcription": "/ˈperno/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:miso:verb",
@@ -878,7 +1240,9 @@
         "definition": "νιώθω έντονη απέχθεια για κάτι",
         "example": "Μισώ την καθυστέρηση στο ραντεβού.",
         "transcription": "/miˈso/",
-        "emoji": "😡"
+        "emoji": "😡",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:leo:verb",
@@ -887,7 +1251,9 @@
         "definition": "εκφράζω με λέξεις",
         "example": "Λέω την αλήθεια στους φίλους μου.",
         "transcription": "/ˈleo/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:zo:verb",
@@ -896,10 +1262,23 @@
         "definition": "βρίσκομαι στη ζωή, κατοικώ",
         "example": "Ζω σε μια μεγάλη πόλη.",
         "transcription": "/zo/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-17": {
+      "A0": {
+        "id": "el:eimai:verb",
+        "word": "είμαι",
+        "level": "A0",
+        "definition": "ρήμα ύπαρξης και ταυτότητας",
+        "example": "Είμαι μαθητής στο σχολείο.",
+        "transcription": "/ˈime/",
+        "emoji": "👤",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:pleno:verb",
         "word": "πλένω",
@@ -907,7 +1286,9 @@
         "definition": "καθαρίζω με νερό και σαπούνι",
         "example": "Πλένω τα χέρια μου πριν το φαγητό.",
         "transcription": "/ˈpleno/",
-        "emoji": "🧼"
+        "emoji": "🧼",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:prospatho:verb",
@@ -916,7 +1297,9 @@
         "definition": "κάνω προσπάθεια για να πετύχω κάτι",
         "example": "Προσπαθώ να καταλάβω το μάθημα.",
         "transcription": "/prospaˈθo/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:skeftomai:verb",
@@ -925,7 +1308,9 @@
         "definition": "χρησιμοποιώ το μυαλό μου",
         "example": "Σκέφτομαι τη σωστή απάντηση.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:grafo:verb",
@@ -934,7 +1319,9 @@
         "definition": "σχηματίζω γράμματα στο χαρτί",
         "example": "Γράφω ένα γράμμα στον φίλο μου.",
         "transcription": "/ˈɣrafo/",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:grafo:verb",
@@ -943,7 +1330,9 @@
         "definition": "σχηματίζω γράμματα στο χαρτί",
         "example": "Γράφω ένα γράμμα στον φίλο μου.",
         "transcription": "/ˈɣrafo/",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:areso:verb",
@@ -952,10 +1341,23 @@
         "definition": "Προκαλώ ευχάριστο συναισθήμα σε κάποιον.",
         "example": "Μου αρέσει πολύ η μουσική.",
         "transcription": "/aˈre.so/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-18": {
+      "A0": {
+        "id": "el:ftano:verb",
+        "word": "φτάνω",
+        "level": "A0",
+        "definition": "φτάνω στον προορισμό μου",
+        "example": "Φτάνω στον σταθμό στις έξι.",
+        "transcription": "/ˈftano/",
+        "emoji": "🛬",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:vazo:verb",
         "word": "βάζω",
@@ -963,7 +1365,9 @@
         "definition": "τοποθετώ κάτι σε ένα μέρος",
         "example": "Βάζω το βιβλίο πάνω στο τραπέζι.",
         "transcription": "/ˈvazo/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:pigaino:verb",
@@ -972,7 +1376,9 @@
         "definition": "μεταβαίνω σε έναν τόπο",
         "example": "Πηγαίνω στο σχολείο το πρωί.",
         "transcription": "/piˈjeno/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:leo:verb",
@@ -981,7 +1387,9 @@
         "definition": "εκφράζω με λέξεις",
         "example": "Λέω την αλήθεια στους φίλους μου.",
         "transcription": "/ˈleo/",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:plyrono:verb",
@@ -990,7 +1398,9 @@
         "definition": "δίνω χρήματα για αγαθό",
         "example": "Πληρώνω το λογαριασμό στο εστιατόριο.",
         "transcription": "/pliˈrono/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:odigo:verb",
@@ -999,7 +1409,9 @@
         "definition": "κατευθύνω ένα όχημα",
         "example": "Οδηγώ το αυτοκίνητο προσεκτικά.",
         "transcription": "/oðiˈɣo/",
-        "emoji": "🚗"
+        "emoji": "🚗",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:vlepo:verb",
@@ -1008,10 +1420,23 @@
         "definition": "αντιλαμβάνομαι με τα μάτια",
         "example": "Βλέπω μια όμορφη εικόνα.",
         "transcription": "/ˈvlepo/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-19": {
+      "A0": {
+        "id": "el:agapo:verb",
+        "word": "αγαπώ",
+        "level": "A0",
+        "definition": "Νιώθω αγάπη για κάποιον ή κάτι.",
+        "example": "Αγαπώ πολύ την οικογένειά μου.",
+        "transcription": "/a.ɣaˈpo/",
+        "emoji": "❤️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:troo:verb",
         "word": "τρώω",
@@ -1019,7 +1444,9 @@
         "definition": "καταναλώνω τροφή",
         "example": "Τρώω μήλο για δεκατιανό.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:stamatao:verb",
@@ -1028,7 +1455,9 @@
         "definition": "παύω να κινούμαι",
         "example": "Το αυτοκίνητο σταματάει στο κόκκινο.",
         "transcription": "/stamaˈtao/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:pino:verb",
@@ -1037,7 +1466,9 @@
         "definition": "καταπίνω υγρό",
         "example": "Πίνω πολύ νερό το καλοκαίρι.",
         "transcription": "/ˈpino/",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:meno:verb",
@@ -1046,7 +1477,9 @@
         "definition": "κατοικώ κάπου ή παραμένω σε ένα μέρος",
         "example": "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
         "transcription": "/ˈmeno/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:koitazo:verb",
@@ -1055,7 +1488,9 @@
         "definition": "στρέφω το βλέμμα σε κάτι",
         "example": "Κοιτάζω την όμορφη θέα.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:akoyo:verb",
@@ -1064,10 +1499,23 @@
         "definition": "αντιλαμβάνομαι ήχους",
         "example": "Ακούω μουσική στο δωμάτιο.",
         "transcription": "/aˈkuo/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-20": {
+      "A0": {
+        "id": "el:akoyo:verb",
+        "word": "ακούω",
+        "level": "A0",
+        "definition": "αντιλαμβάνομαι ήχους",
+        "example": "Ακούω μουσική στο δωμάτιο.",
+        "transcription": "/aˈkuo/",
+        "emoji": "🎧",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:agapao:verb",
         "word": "αγαπάω",
@@ -1075,7 +1523,9 @@
         "definition": "νιώθω αγάπη για κάποιον",
         "example": "Αγαπάω πολύ την οικογένειά μου.",
         "transcription": "/aɣaˈpao/",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:petao:verb",
@@ -1084,7 +1534,9 @@
         "definition": "κινούμαι στον αέρα",
         "example": "Το πουλί πετάει στον ουρανό.",
         "transcription": "/peˈtao/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:ftano:verb",
@@ -1093,7 +1545,9 @@
         "definition": "φτάνω στον προορισμό μου",
         "example": "Φτάνω στον σταθμό στις έξι.",
         "transcription": "/ˈftano/",
-        "emoji": "🛬"
+        "emoji": "🛬",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:xypnao:verb",
@@ -1102,7 +1556,9 @@
         "definition": "σταματώ να κοιμάμαι",
         "example": "Ξυπνάω στις επτά κάθε πρωί.",
         "transcription": "/ksiˈpnao/",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:xechno:verb",
@@ -1111,7 +1567,9 @@
         "definition": "Δεν θυμάμαι κάτι που ήξερα.",
         "example": "Συχνά ξεχνώ τα κλειδιά μου στο σπίτι.",
         "transcription": "/kseˈchno/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:agorazo:verb",
@@ -1120,10 +1578,23 @@
         "definition": "αποκτώ κάτι πληρώνοντας",
         "example": "Αγοράζω φρέσκο ψωμί.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-21": {
+      "A0": {
+        "id": "el:kano:verb",
+        "word": "κάνω",
+        "level": "A0",
+        "definition": "πράττω ή κατασκευάζω κάτι",
+        "example": "Κάνω τις ασκήσεις μου κάθε μέρα.",
+        "transcription": "/ˈkano/",
+        "emoji": "🛠️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:akoyo:verb",
         "word": "ακούω",
@@ -1131,7 +1602,9 @@
         "definition": "αντιλαμβάνομαι ήχους",
         "example": "Ακούω μουσική στο δωμάτιο.",
         "transcription": "/aˈkuo/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:kolympao:verb",
@@ -1140,7 +1613,9 @@
         "definition": "κινούμαι στο νερό",
         "example": "Κολυμπάω στη θάλασσα το καλοκαίρι.",
         "transcription": "/kolimˈpao/",
-        "emoji": "🏊"
+        "emoji": "🏊",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:chano:verb",
@@ -1149,7 +1624,9 @@
         "definition": "δεν έχω πια κάτι στην κατοχή μου",
         "example": "Έχασα τα κλειδιά μου στο πάρκο.",
         "transcription": "/ˈxano/",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:apantao:verb",
@@ -1158,7 +1635,9 @@
         "definition": "δίνω απάντηση σε ερώτηση",
         "example": "Απαντάω αμέσως στην ερώτηση.",
         "transcription": "/apanˈtao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:anoigo:verb",
@@ -1167,7 +1646,9 @@
         "definition": "κάνω κάτι προσβάσιμο",
         "example": "Ανοίγω την πόρτα του σπιτιού.",
         "transcription": "/aˈniɣo/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:taxideyo:verb",
@@ -1176,10 +1657,23 @@
         "definition": "μεταβαίνω σε μακρινούς τόπους",
         "example": "Ταξιδεύω στην Ελλάδα κάθε καλοκαίρι.",
         "transcription": "/taksiˈðevo/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-22": {
+      "A0": {
+        "id": "el:troo:verb",
+        "word": "τρώω",
+        "level": "A0",
+        "definition": "καταναλώνω τροφή",
+        "example": "Τρώω μήλο για δεκατιανό.",
+        "transcription": "/ˈtroo/",
+        "emoji": "🍽️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:allazo:verb",
         "word": "αλλάζω",
@@ -1187,7 +1681,9 @@
         "definition": "κάνω κάτι διαφορετικό",
         "example": "Αλλάζω ρούχα μετά τη γυμναστική.",
         "transcription": "/aˈlazo/",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:vlepo:verb",
@@ -1196,7 +1692,9 @@
         "definition": "αντιλαμβάνομαι με τα μάτια",
         "example": "Βλέπω μια όμορφη εικόνα.",
         "transcription": "/ˈvlepo/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:agorazo:verb",
@@ -1205,7 +1703,9 @@
         "definition": "αποκτώ κάτι πληρώνοντας",
         "example": "Αγοράζω φρέσκο ψωμί.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:spatalo:verb",
@@ -1214,7 +1714,9 @@
         "definition": "Ξοδεύω άσκοπα χρήματα ή χρόνο.",
         "example": "Δεν πρέπει να σπαταλάμε το νερό.",
         "transcription": "/spa.taˈlo/",
-        "emoji": "🗑️"
+        "emoji": "🗑️",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:petao:verb",
@@ -1223,7 +1725,9 @@
         "definition": "κινούμαι στον αέρα",
         "example": "Το πουλί πετάει στον ουρανό.",
         "transcription": "/peˈtao/",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:poulao:verb",
@@ -1232,10 +1736,23 @@
         "definition": "δίνω κάτι έναντι χρημάτων",
         "example": "Ο έμπορος πουλάει φρούτα.",
         "transcription": "/puˈlao/",
-        "emoji": "🏷️"
+        "emoji": "🏷️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-23": {
+      "A0": {
+        "id": "el:erchomai:verb",
+        "word": "έρχομαι",
+        "level": "A0",
+        "definition": "πλησιάζω ή φτάνω σε έναν τόπο",
+        "example": "Έρχομαι στο σπίτι σου τώρα.",
+        "transcription": "/ˈerxome/",
+        "emoji": "🏃",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:anoigo:verb",
         "word": "ανοίγω",
@@ -1243,7 +1760,9 @@
         "definition": "κάνω κάτι προσβάσιμο",
         "example": "Ανοίγω την πόρτα του σπιτιού.",
         "transcription": "/aˈniɣo/",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:spoydazo:verb",
@@ -1252,7 +1771,9 @@
         "definition": "φοιτώ σε σχολή ή πανεπιστήμιο",
         "example": "Σπουδάζω ελληνική φιλολογία στο πανεπιστήμιο.",
         "transcription": "/spuˈðazo/",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:troo:verb",
@@ -1261,7 +1782,9 @@
         "definition": "καταναλώνω τροφή",
         "example": "Τρώω μήλο για δεκατιανό.",
         "transcription": "/ˈtroo/",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:thymamai:verb",
@@ -1270,7 +1793,9 @@
         "definition": "κρατώ στη μνήμη μου",
         "example": "Θυμάμαι το όνομά σου.",
         "transcription": "/θiˈmame/",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:stelno:verb",
@@ -1279,7 +1804,9 @@
         "definition": "διαβιβάζω κάτι σε άλλον",
         "example": "Στέλνω ένα μήνυμα στον φίλο μου.",
         "transcription": "/ˈstelno/",
-        "emoji": "✉️"
+        "emoji": "✉️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:pairno:verb",
@@ -1288,10 +1815,23 @@
         "definition": "λαμβάνω κάτι στα χέρια μου",
         "example": "Παίρνω το βιβλίο από το τραπέζι.",
         "transcription": "/ˈperno/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-24": {
+      "A0": {
+        "id": "el:pigaino:verb",
+        "word": "πηγαίνω",
+        "level": "A0",
+        "definition": "μεταβαίνω σε έναν τόπο",
+        "example": "Πηγαίνω στο σχολείο το πρωί.",
+        "transcription": "/piˈjeno/",
+        "emoji": "🚶",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:apofasizo:verb",
         "word": "αποφασίζω",
@@ -1299,7 +1839,9 @@
         "definition": "παίρνω μια απόφαση για κάτι",
         "example": "Αποφασίζω να μάθω μια νέα γλώσσα.",
         "transcription": "/apofaˈsizo/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:deichno:verb",
@@ -1308,7 +1850,9 @@
         "definition": "φανερώνω κάτι με το χέρι ή το βλέμμα",
         "example": "Δείχνω τον δρόμο στον τουρίστα.",
         "transcription": "/ˈðixno/",
-        "emoji": "👉"
+        "emoji": "👉",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:xechnao:verb",
@@ -1317,7 +1861,9 @@
         "definition": "χάνω από τη μνήμη μου",
         "example": "Ξέχασα τα γυαλιά μου στο σπίτι.",
         "transcription": "/ksexˈnao/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:giortazo:verb",
@@ -1326,7 +1872,9 @@
         "definition": "κάνω γιορτή για μια χαρούμενη μέρα",
         "example": "Γιορτάζουμε τα γενέθλιά μου σήμερα.",
         "transcription": "/jorˈtazo/",
-        "emoji": "🎉"
+        "emoji": "🎉",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:giortazo:verb",
@@ -1335,7 +1883,9 @@
         "definition": "κάνω γιορτή για μια χαρούμενη μέρα",
         "example": "Γιορτάζουμε τα γενέθλιά μου σήμερα.",
         "transcription": "/jorˈtazo/",
-        "emoji": "🎉"
+        "emoji": "🎉",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:pigaino:verb",
@@ -1344,10 +1894,23 @@
         "definition": "μεταβαίνω σε έναν τόπο",
         "example": "Πηγαίνω στο σχολείο το πρωί.",
         "transcription": "/piˈjeno/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-25": {
+      "A0": {
+        "id": "el:xero:verb",
+        "word": "ξέρω",
+        "level": "A0",
+        "definition": "γνωρίζω μια πληροφορία",
+        "example": "Ξέρω την απάντηση στην ερώτηση.",
+        "transcription": "/ˈksero/",
+        "emoji": "🧠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:areso:verb",
         "word": "αρέσω",
@@ -1355,7 +1918,9 @@
         "definition": "Προκαλώ ευχάριστο συναισθήμα σε κάποιον.",
         "example": "Μου αρέσει πολύ η μουσική.",
         "transcription": "/aˈre.so/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:akoloytho:verb",
@@ -1364,7 +1929,9 @@
         "definition": "πηγαίνω πίσω από κάποιον",
         "example": "Ακολουθώ τον οδηγό στο δρόμο.",
         "transcription": "/akoluˈθo/",
-        "emoji": "🚶‍♂️"
+        "emoji": "🚶‍♂️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:stamatao:verb",
@@ -1373,7 +1940,9 @@
         "definition": "παύω να κινούμαι",
         "example": "Το αυτοκίνητο σταματάει στο κόκκινο.",
         "transcription": "/stamaˈtao/",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:niotho:verb",
@@ -1382,7 +1951,9 @@
         "definition": "αισθάνομαι ένα συναισθημα",
         "example": "Νιώθω πολύ χαρούμενος σήμερα.",
         "transcription": "/ˈnioθo/",
-        "emoji": "😊"
+        "emoji": "😊",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:meno:verb",
@@ -1391,7 +1962,9 @@
         "definition": "κατοικώ κάπου ή παραμένω σε ένα μέρος",
         "example": "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
         "transcription": "/ˈmeno/",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:magireyo:verb",
@@ -1400,10 +1973,23 @@
         "definition": "ετοιμάζω φαγητό",
         "example": "Μαγειρεύω νόστιμη σούπα το βράδυ.",
         "transcription": "/maʝiˈrevo/",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-26": {
+      "A0": {
+        "id": "el:feygo:verb",
+        "word": "φεύγω",
+        "level": "A0",
+        "definition": "αποχωρώ από έναν τόπο",
+        "example": "Φεύγω από το σπίτι το πρωί.",
+        "transcription": "/ˈfevɣo/",
+        "emoji": "🛫",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:eimai:verb",
         "word": "είμαι",
@@ -1411,7 +1997,9 @@
         "definition": "ρήμα ύπαρξης και ταυτότητας",
         "example": "Είμαι μαθητής στο σχολείο.",
         "transcription": "/ˈime/",
-        "emoji": "👤"
+        "emoji": "👤",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:mporo:verb",
@@ -1420,7 +2008,9 @@
         "definition": "έχω τη δυνατότητα να κάνω κάτι",
         "example": "Μπορώ να μιλήσω ελληνικά.",
         "transcription": "/boˈro/",
-        "emoji": "💪"
+        "emoji": "💪",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:pefto:verb",
@@ -1429,7 +2019,9 @@
         "definition": "κινούμαι προς τα κάτω λόγω βαρύτητας",
         "example": "Τα φύλλα πέφτουν από το δέντρο.",
         "transcription": "/ˈpefto/",
-        "emoji": "🍂"
+        "emoji": "🍂",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:akoloytho:verb",
@@ -1438,7 +2030,9 @@
         "definition": "πηγαίνω πίσω από κάποιον",
         "example": "Ακολουθώ τον οδηγό στο δρόμο.",
         "transcription": "/akoluˈθo/",
-        "emoji": "🚶‍♂️"
+        "emoji": "🚶‍♂️",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:akoyo:verb",
@@ -1447,7 +2041,9 @@
         "definition": "αντιλαμβάνομαι ήχους",
         "example": "Ακούω μουσική στο δωμάτιο.",
         "transcription": "/aˈkuo/",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:kano:verb",
@@ -1456,10 +2052,23 @@
         "definition": "πράττω ή κατασκευάζω κάτι",
         "example": "Κάνω τις ασκήσεις μου κάθε μέρα.",
         "transcription": "/ˈkano/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-27": {
+      "A0": {
+        "id": "el:pino:verb",
+        "word": "πίνω",
+        "level": "A0",
+        "definition": "καταπίνω υγρό",
+        "example": "Πίνω πολύ νερό το καλοκαίρι.",
+        "transcription": "/ˈpino/",
+        "emoji": "🥛",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:giortazo:verb",
         "word": "γιορτάζω",
@@ -1467,7 +2076,9 @@
         "definition": "κάνω γιορτή για μια χαρούμενη μέρα",
         "example": "Γιορτάζουμε τα γενέθλιά μου σήμερα.",
         "transcription": "/jorˈtazo/",
-        "emoji": "🎉"
+        "emoji": "🎉",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:kano:verb",
@@ -1476,7 +2087,9 @@
         "definition": "πράττω ή κατασκευάζω κάτι",
         "example": "Κάνω τις ασκήσεις μου κάθε μέρα.",
         "transcription": "/ˈkano/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:koitazo:verb",
@@ -1485,7 +2098,9 @@
         "definition": "στρέφω το βλέμμα σε κάτι",
         "example": "Κοιτάζω την όμορφη θέα.",
         "transcription": "/kiˈtazo/",
-        "emoji": "👀"
+        "emoji": "👀",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:dino:verb",
@@ -1494,7 +2109,9 @@
         "definition": "προσφέρω κάτι σε κάποιον",
         "example": "Δίνω ένα δώρο στον φίλο μου.",
         "transcription": "/ˈðino/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:dino:verb",
@@ -1503,7 +2120,9 @@
         "definition": "προσφέρω κάτι σε κάποιον",
         "example": "Δίνω ένα δώρο στον φίλο μου.",
         "transcription": "/ˈðino/",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:diavazo:verb",
@@ -1512,10 +2131,23 @@
         "definition": "κατανοώ γραπτό κείμενο",
         "example": "Διαβάζω ένα βιβλίο το βράδυ.",
         "transcription": "/ðiaˈvazo/",
-        "emoji": "📖"
+        "emoji": "📖",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-28": {
+      "A0": {
+        "id": "el:agapo:verb",
+        "word": "αγαπώ",
+        "level": "A0",
+        "definition": "Νιώθω αγάπη για κάποιον ή κάτι.",
+        "example": "Αγαπώ πολύ την οικογένειά μου.",
+        "transcription": "/a.ɣaˈpo/",
+        "emoji": "❤️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:vrisko:verb",
         "word": "βρίσκω",
@@ -1523,7 +2155,9 @@
         "definition": "ανακαλύπτω αυτό που ψάχνω",
         "example": "Βρήκα τα κλειδιά στο τραπέζι.",
         "transcription": "/ˈvrisko/",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:klaio:verb",
@@ -1532,7 +2166,9 @@
         "definition": "βγάζω δάκρυα από λύπη",
         "example": "Το μωρό κλαίει γιατί πεινάει.",
         "transcription": "/ˈkleo/",
-        "emoji": "😢"
+        "emoji": "😢",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:apantao:verb",
@@ -1541,7 +2177,9 @@
         "definition": "δίνω απάντηση σε ερώτηση",
         "example": "Απαντάω αμέσως στην ερώτηση.",
         "transcription": "/apanˈtao/",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:symfono:verb",
@@ -1550,7 +2188,9 @@
         "definition": "έχω την ίδια γνώμη με κάποιον",
         "example": "Συμφωνώ απόλυτα με την πρότασή σου.",
         "transcription": "/simfoˈno/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:skeftomai:verb",
@@ -1559,7 +2199,9 @@
         "definition": "χρησιμοποιώ το μυαλό μου",
         "example": "Σκέφτομαι τη σωστή απάντηση.",
         "transcription": "/ˈskeftome/",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:symfono:verb",
@@ -1568,10 +2210,23 @@
         "definition": "έχω την ίδια γνώμη με κάποιον",
         "example": "Συμφωνώ απόλυτα με την πρότασή σου.",
         "transcription": "/simfoˈno/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-29": {
+      "A0": {
+        "id": "el:ftano:verb",
+        "word": "φτάνω",
+        "level": "A0",
+        "definition": "φτάνω στον προορισμό μου",
+        "example": "Φτάνω στον σταθμό στις έξι.",
+        "transcription": "/ˈftano/",
+        "emoji": "🛬",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:xechnao:verb",
         "word": "ξεχνάω",
@@ -1579,7 +2234,9 @@
         "definition": "χάνω από τη μνήμη μου",
         "example": "Ξέχασα τα γυαλιά μου στο σπίτι.",
         "transcription": "/ksexˈnao/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:echo:verb",
@@ -1588,7 +2245,9 @@
         "definition": "ρήμα που δηλώνει κατοχή",
         "example": "Έχω ένα κόκκινο αυτοκίνητο.",
         "transcription": "/ˈexo/",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:xekoyrazomai:verb",
@@ -1597,7 +2256,9 @@
         "definition": "αναπαύομαι μετά από κούραση",
         "example": "Ξεκουράζομαι στον καναπέ το απόγευμα.",
         "transcription": "/ksekuˈrazome/",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:voithao:verb",
@@ -1606,7 +2267,9 @@
         "definition": "προσφέρω συνδρομή σε κάποιον",
         "example": "Βοηθάω τη μητέρα μου στην κουζίνα.",
         "transcription": "/voiˈθao/",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:vazo:verb",
@@ -1615,7 +2278,9 @@
         "definition": "τοποθετώ κάτι σε ένα μέρος",
         "example": "Βάζω το βιβλίο πάνω στο τραπέζι.",
         "transcription": "/ˈvazo/",
-        "emoji": "📥"
+        "emoji": "📥",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:plyrono:verb",
@@ -1624,10 +2289,23 @@
         "definition": "δίνω χρήματα για αγαθό",
         "example": "Πληρώνω το λογαριασμό στο εστιατόριο.",
         "transcription": "/pliˈrono/",
-        "emoji": "💳"
+        "emoji": "💳",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-30": {
+      "A0": {
+        "id": "el:echo:verb",
+        "word": "έχω",
+        "level": "A0",
+        "definition": "ρήμα που δηλώνει κατοχή",
+        "example": "Έχω ένα κόκκινο αυτοκίνητο.",
+        "transcription": "/ˈexo/",
+        "emoji": "🤲",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:kathomai:verb",
         "word": "κάθομαι",
@@ -1635,7 +2313,9 @@
         "definition": "κάθομαι σε καρέκλα",
         "example": "Κάθομαι στην άνετη καρέκλα.",
         "transcription": "/ˈkaθome/",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "el:magireyo:verb",
@@ -1644,7 +2324,9 @@
         "definition": "ετοιμάζω φαγητό",
         "example": "Μαγειρεύω νόστιμη σούπα το βράδυ.",
         "transcription": "/maʝiˈrevo/",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:choreyo:verb",
@@ -1653,7 +2335,9 @@
         "definition": "κινώ το σώμα στον ρυθμό της μουσικής",
         "example": "Χορεύουμε στο πάρτι.",
         "transcription": "/xoˈrevo/",
-        "emoji": "💃"
+        "emoji": "💃",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:agorazo:verb",
@@ -1662,7 +2346,9 @@
         "definition": "αποκτώ κάτι πληρώνοντας",
         "example": "Αγοράζω φρέσκο ψωμί.",
         "transcription": "/aɣoˈrazo/",
-        "emoji": "🛒"
+        "emoji": "🛒",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:feygo:verb",
@@ -1671,7 +2357,9 @@
         "definition": "αποχωρώ από έναν τόπο",
         "example": "Φεύγω από το σπίτι το πρωί.",
         "transcription": "/ˈfevɣo/",
-        "emoji": "🛫"
+        "emoji": "🛫",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:thelo:verb",
@@ -1680,10 +2368,23 @@
         "definition": "έχω την επιθυμία για κάτι",
         "example": "Θέλω έναν χυμό πορτοκάλι.",
         "transcription": "/ˈθelo/",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2027-07-31": {
+      "A0": {
+        "id": "el:troo:verb",
+        "word": "τρώω",
+        "level": "A0",
+        "definition": "καταναλώνω τροφή",
+        "example": "Τρώω μήλο για δεκατιανό.",
+        "transcription": "/ˈtroo/",
+        "emoji": "🍽️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "el:kano:verb",
         "word": "κάνω",
@@ -1691,7 +2392,9 @@
         "definition": "πράττω ή κατασκευάζω κάτι",
         "example": "Κάνω τις ασκήσεις μου κάθε μέρα.",
         "transcription": "/ˈkano/",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "el:perpatao:verb",
@@ -1700,7 +2403,9 @@
         "definition": "μετακινούμαι με τα πόδια",
         "example": "Περπατάω στο πάρκο κάθε απόγευμα.",
         "transcription": "/perpataˈo/",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "el:feygo:verb",
@@ -1709,7 +2414,9 @@
         "definition": "αποχωρώ από έναν τόπο",
         "example": "Φεύγω από το σπίτι το πρωί.",
         "transcription": "/ˈfevɣo/",
-        "emoji": "🛫"
+        "emoji": "🛫",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "el:vlepo:verb",
@@ -1718,7 +2425,9 @@
         "definition": "αντιλαμβάνομαι με τα μάτια",
         "example": "Βλέπω μια όμορφη εικόνα.",
         "transcription": "/ˈvlepo/",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "el:areso:verb",
@@ -1727,7 +2436,9 @@
         "definition": "Προκαλώ ευχάριστο συναισθήμα σε κάποιον.",
         "example": "Μου αρέσει πολύ η μουσική.",
         "transcription": "/aˈre.so/",
-        "emoji": "👍"
+        "emoji": "👍",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "el:xodeyo:verb",
@@ -1736,7 +2447,9 @@
         "definition": "δίνω χρήματα για να αγοράσω πράγματα",
         "example": "Ξοδεύω χρήματα για τα ψώνια της εβδομάδας.",
         "transcription": "/ksoˈðevo/",
-        "emoji": "💸"
+        "emoji": "💸",
+        "slot_level": "C2",
+        "review": true
       }
     }
   }

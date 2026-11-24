@@ -4,13 +4,25 @@
   "month": "2026-11",
   "days": {
     "2026-11-01": {
+      "A0": {
+        "id": "ru:pit:verb",
+        "word": "пить",
+        "level": "A0",
+        "definition": "Проглатывать жидкость для утоления жажды.",
+        "example": "Дети пьют чистую воду после игры.",
+        "emoji": "🥛",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:menyat:verb",
         "word": "менять",
         "level": "A1",
         "definition": "Делать иным, отдавать за другое.",
         "example": "Люди меняют старую одежду на новую.",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:razgovarivat:verb",
@@ -18,7 +30,9 @@
         "level": "A1",
         "definition": "Вести беседу с кем-либо.",
         "example": "Друзья приятно разговаривают в уютном городском кафе.",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:pet:verb",
@@ -26,7 +40,9 @@
         "level": "A1",
         "definition": "Исполнять музыкальные звуки голосом.",
         "example": "Девочка красиво поёт весёлую детскую песню.",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:imet:verb",
@@ -34,7 +50,9 @@
         "level": "A1",
         "definition": "Владеть чем-либо, обладать предметом.",
         "example": "Он хочет иметь свой собственный дом.",
-        "emoji": "💼"
+        "emoji": "💼",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:zabolet:verb",
@@ -42,7 +60,9 @@
         "level": "A2",
         "definition": "Стать больным, заразиться вирусной инфекцией.",
         "example": "Зимой очень легко заболеть от сильного холодного ветра.",
-        "emoji": "🤒"
+        "emoji": "🤒",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:idti:verb",
@@ -50,17 +70,31 @@
         "level": "A0",
         "definition": "Двигаться пешком в определённом направлении.",
         "example": "Мы идём в школу каждый день.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-02": {
+      "A0": {
+        "id": "ru:byt:verb",
+        "word": "быть",
+        "level": "A0",
+        "definition": "Существовать, находиться в каком-либо месте.",
+        "example": "Завтра мы будем в новом музее.",
+        "emoji": "⚡",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:delat:verb",
         "word": "делать",
         "level": "A0",
         "definition": "Выполнять работу, совершать какое-либо действие.",
         "example": "Что ты делаешь сейчас дома вечером?",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:priezzhat:verb",
@@ -68,7 +102,9 @@
         "level": "A1",
         "definition": "Прибывать на транспорте в город.",
         "example": "Гости приезжают в наш город сегодня.",
-        "emoji": "🚆"
+        "emoji": "🚆",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:teryat:verb",
@@ -76,7 +112,9 @@
         "level": "A1",
         "definition": "Лишаться чего-либо.",
         "example": "Мальчик случайно теряет свои металлические ключи сегодня.",
-        "emoji": "📉"
+        "emoji": "📉",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:ponyat:verb",
@@ -84,7 +122,9 @@
         "level": "A1",
         "definition": "Осознать смысл и главную суть.",
         "example": "Я смог быстро понять этот урок.",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:reshat:verb",
@@ -92,7 +132,9 @@
         "level": "A2",
         "definition": "Обдумывать задачу для нахождения нужного ответа.",
         "example": "Ученики начинают решать сложные математические задачи.",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:plavat:verb",
@@ -100,17 +142,31 @@
         "level": "A1",
         "definition": "Перемещаться по поверхности воды со сноровкой.",
         "example": "Дети любят плавать в тёплом море.",
-        "emoji": "🏊"
+        "emoji": "🏊",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-03": {
+      "A0": {
+        "id": "ru:delat:verb",
+        "word": "делать",
+        "level": "A0",
+        "definition": "Выполнять работу, совершать какое-либо действие.",
+        "example": "Что ты делаешь сейчас дома вечером?",
+        "emoji": "🛠️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:govorit:verb",
         "word": "говорить",
         "level": "A0",
         "definition": "Владеть речью, выражать мысли словами.",
         "example": "Она прекрасно говорит по-русски и по-английски.",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:povtoryat:verb",
@@ -118,7 +174,9 @@
         "level": "A2",
         "definition": "Произносить или делать что-либо снова еще.",
         "example": "Ученик должен часто повторять прочитанные новые слова.",
-        "emoji": "🔁"
+        "emoji": "🔁",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:menyat:verb",
@@ -126,7 +184,9 @@
         "level": "A1",
         "definition": "Делать иным, отдавать за другое.",
         "example": "Люди меняют старую одежду на новую.",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:chitat:verb",
@@ -134,7 +194,9 @@
         "level": "A0",
         "definition": "Воспринимать написанный текст и понимание его.",
         "example": "Бабушка читает интересную книгу каждый вечер.",
-        "emoji": "📖"
+        "emoji": "📖",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:pomnit:verb",
@@ -142,7 +204,9 @@
         "level": "A1",
         "definition": "Удерживать информацию в своей памяти.",
         "example": "Я хорошо помню имя нашего учителя.",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:govorit:verb",
@@ -150,17 +214,31 @@
         "level": "A0",
         "definition": "Владеть речью, выражать мысли словами.",
         "example": "Она прекрасно говорит по-русски и по-английски.",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-04": {
+      "A0": {
+        "id": "ru:ponimat:verb",
+        "word": "понимать",
+        "level": "A0",
+        "definition": "Усваивать смысл слов и чужих мыслей.",
+        "example": "Студенты хорошо понимают новое правило учителя.",
+        "emoji": "💡",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:pisat:verb",
         "word": "писать",
         "level": "A0",
         "definition": "Изображать знаки и слова на бумаге.",
         "example": "Ученик пишет письмо своему лучшему другу.",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:predstavlyat:verb",
@@ -168,7 +246,9 @@
         "level": "A2",
         "definition": "Знакомить одного человека с другими людьми.",
         "example": "Директор начинает представлять нового сотрудника нашему коллективу.",
-        "emoji": "🙋"
+        "emoji": "🙋",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:brat:verb",
@@ -176,7 +256,9 @@
         "level": "A1",
         "definition": "Брать предмет руками для использования.",
         "example": "Ученик берёт свой синий карандаш.",
-        "emoji": "🖐️"
+        "emoji": "🖐️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:obyasnit:verb",
@@ -184,7 +266,9 @@
         "level": "A2",
         "definition": "Понятно изложить смысл вопроса ученику полностью.",
         "example": "Учитель смог быстро объяснить задачу слабому ученику.",
-        "emoji": "💡"
+        "emoji": "💡",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:rasskazyvat:verb",
@@ -192,7 +276,9 @@
         "level": "A1",
         "definition": "Сообщать что-либо кому-либо.",
         "example": "Дедушка рассказывает детям добрую и интересную сказку.",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:uvidet:verb",
@@ -200,17 +286,31 @@
         "level": "A1",
         "definition": "Заметить глазами предмет или человека.",
         "example": "Мы сможем увидеть красивое море завтра.",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-05": {
+      "A0": {
+        "id": "ru:moch:verb",
+        "word": "мочь",
+        "level": "A0",
+        "definition": "Иметь физическую или умственную возможность.",
+        "example": "Мой брат может быстро бегать в парке.",
+        "emoji": "💪",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:podumat:verb",
         "word": "подумать",
         "level": "A1",
         "definition": "Поразмышлять некоторое время над чем-либо.",
         "example": "Мне нужно подумать перед вашим ответом.",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:vybrat:verb",
@@ -218,7 +318,9 @@
         "level": "A2",
         "definition": "Сделать окончательный выбор одного нужного предмета.",
         "example": "Мальчик смог выбрать новую книгу в библиотеке.",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:ponimat:verb",
@@ -226,7 +328,9 @@
         "level": "A0",
         "definition": "Усваивать смысл слов и чужих мыслей.",
         "example": "Студенты хорошо понимают новое правило учителя.",
-        "emoji": "💡"
+        "emoji": "💡",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:zakryvat:verb",
@@ -234,7 +338,9 @@
         "level": "A1",
         "definition": "Затворять открытую дверь или окно.",
         "example": "Вечером мы закрываем окна от холода.",
-        "emoji": "🔒"
+        "emoji": "🔒",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:izvinyatsya:verb",
@@ -242,7 +348,9 @@
         "level": "A2",
         "definition": "Просить прощения за свой плохой поступик.",
         "example": "Ученик должен извиняться перед учителем за опоздание.",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:uzhinat:verb",
@@ -250,17 +358,31 @@
         "level": "A1",
         "definition": "принимать пищу вечером",
         "example": "Семья ужинает вместе в семь часов.",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-06": {
+      "A0": {
+        "id": "ru:dumat:verb",
+        "word": "думать",
+        "level": "A0",
+        "definition": "Размышлять, задействовать свой разум.",
+        "example": "Он долго думает над этим вопросом.",
+        "emoji": "🤔",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:dumat:verb",
         "word": "думать",
         "level": "A0",
         "definition": "Размышлять, задействовать свой разум.",
         "example": "Он долго думает над этим вопросом.",
-        "emoji": "🤔"
+        "emoji": "🤔",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:delat:verb",
@@ -268,7 +390,9 @@
         "level": "A0",
         "definition": "Выполнять работу, совершать какое-либо действие.",
         "example": "Что ты делаешь сейчас дома вечером?",
-        "emoji": "🛠️"
+        "emoji": "🛠️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:tantsevat:verb",
@@ -276,7 +400,9 @@
         "level": "A1",
         "definition": "Двигаться ритмично под звучащую музыку.",
         "example": "Они любят танцевать на весёлом празднике.",
-        "emoji": "💃"
+        "emoji": "💃",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:gulyat:verb",
@@ -284,7 +410,9 @@
         "level": "A1",
         "definition": "Идти пешком.",
         "example": "Дети любят весело гулять в школьном саду.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:poslushat:verb",
@@ -292,7 +420,9 @@
         "level": "A1",
         "definition": "Уделить некоторое время слушанию чего-либо.",
         "example": "Давай послушаем эту прекрасную новую песню.",
-        "emoji": "🎵"
+        "emoji": "🎵",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:igrat:verb",
@@ -300,17 +430,31 @@
         "level": "A1",
         "definition": "Проводить время в играх и забавах.",
         "example": "Дети любят играть в большой футбол.",
-        "emoji": "🎮"
+        "emoji": "🎮",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-07": {
+      "A0": {
+        "id": "ru:est:verb",
+        "word": "есть",
+        "level": "A0",
+        "definition": "Принимать пищу, питаться едой.",
+        "example": "Мы едим свежие фрукты каждый день.",
+        "emoji": "🍽️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:idti:verb",
         "word": "идти",
         "level": "A0",
         "definition": "Двигаться пешком в определённом направлении.",
         "example": "Мы идём в школу каждый день.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:vyazat:verb",
@@ -318,7 +462,9 @@
         "level": "A2",
         "definition": "Изготавливать вещи из шерстяных ниток спицами.",
         "example": "Наша бабушка любит вязать тёплые носки зимой.",
-        "emoji": "🧶"
+        "emoji": "🧶",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:ukhodit:verb",
@@ -326,7 +472,9 @@
         "level": "A1",
         "definition": "Отправляться из какого-либо места.",
         "example": "Все сотрудники уходят из офиса вечером.",
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:prosypatsya:verb",
@@ -334,7 +482,9 @@
         "level": "A1",
         "definition": "Прекращать спать в утренние часы суток.",
         "example": "Каждое утро я привык просыпаться ровно в семь часов.",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:menyat:verb",
@@ -342,7 +492,9 @@
         "level": "A1",
         "definition": "Делать иным, отдавать за другое.",
         "example": "Люди меняют старую одежду на новую.",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:lomat:verb",
@@ -350,17 +502,31 @@
         "level": "A2",
         "definition": "Повреждать или разрушать целостность вещи случайно.",
         "example": "Дети не должны ломать свои новые школьные принадлежности.",
-        "emoji": "💥"
+        "emoji": "💥",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-08": {
+      "A0": {
+        "id": "ru:smotret:verb",
+        "word": "смотреть",
+        "level": "A0",
+        "definition": "Направлять взгляд для разглядывания чего-либо.",
+        "example": "Вечером мы смотрим интересный фильм вместе.",
+        "emoji": "📺",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:brat:verb",
         "word": "брать",
         "level": "A1",
         "definition": "Брать предмет руками для использования.",
         "example": "Ученик берёт свой синий карандаш.",
-        "emoji": "🖐️"
+        "emoji": "🖐️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:uvidet:verb",
@@ -368,7 +534,9 @@
         "level": "A1",
         "definition": "Заметить глазами предмет или человека.",
         "example": "Мы сможем увидеть красивое море завтра.",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:govorit:verb",
@@ -376,7 +544,9 @@
         "level": "A0",
         "definition": "Владеть речью, выражать мысли словами.",
         "example": "Она прекрасно говорит по-русски и по-английски.",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:verit:verb",
@@ -384,7 +554,9 @@
         "level": "A2",
         "definition": "Иметь убеждённость в истинности чьих-либо слов.",
         "example": "Мы всегда верим в честность нашего друга.",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:skazat:verb",
@@ -392,7 +564,9 @@
         "level": "A1",
         "definition": "Произнести слово или предложение устно.",
         "example": "Учитель хотел сказать важное правило нам.",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:znat:verb",
@@ -400,17 +574,31 @@
         "level": "A0",
         "definition": "Иметь сведения, владеть информацией о чем-либо.",
         "example": "Я хорошо знаю этот красивый город.",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-09": {
+      "A0": {
+        "id": "ru:znat:verb",
+        "word": "знать",
+        "level": "A0",
+        "definition": "Иметь сведения, владеть информацией о чем-либо.",
+        "example": "Я хорошо знаю этот красивый город.",
+        "emoji": "🧠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:prodat:verb",
         "word": "продать",
         "level": "A1",
         "definition": "Завершить продажу товара за деньги.",
         "example": "Фермер смог продать все спелые яблоки.",
-        "emoji": "💰"
+        "emoji": "💰",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:pozharit:verb",
@@ -418,7 +606,9 @@
         "level": "A2",
         "definition": "Приготовить еду на масле на сковороде.",
         "example": "Отец смог пожарить сочное мясо для всей семьи.",
-        "emoji": "🥩"
+        "emoji": "🥩",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:uvidet:verb",
@@ -426,7 +616,9 @@
         "level": "A1",
         "definition": "Заметить глазами предмет или человека.",
         "example": "Мы сможем увидеть красивое море завтра.",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:nanimat:verb",
@@ -434,7 +626,9 @@
         "level": "A2",
         "definition": "Брать человека на работу по контракту.",
         "example": "Наша компания начинает нанимать новых молодых сотрудников сегодня.",
-        "emoji": "📝"
+        "emoji": "📝",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:smeyatsya:verb",
@@ -442,7 +636,9 @@
         "level": "A1",
         "definition": "Издавать весёлые звуки при радости.",
         "example": "Дети громко смеются во время игры.",
-        "emoji": "😄"
+        "emoji": "😄",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:vybrat:verb",
@@ -450,17 +646,31 @@
         "level": "A2",
         "definition": "Сделать окончательный выбор одного нужного предмета.",
         "example": "Мальчик смог выбрать новую книгу в библиотеке.",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-10": {
+      "A0": {
+        "id": "ru:stoyat:verb",
+        "word": "стоять",
+        "level": "A0",
+        "definition": "Находиться в вертикальном положении ногами.",
+        "example": "Учитель стоит возле большой классной доски.",
+        "emoji": "🧍",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:uzhinat:verb",
         "word": "ужинать",
         "level": "A1",
         "definition": "принимать пищу вечером",
         "example": "Семья ужинает вместе в семь часов.",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:kupit:verb",
@@ -468,7 +678,9 @@
         "level": "A1",
         "definition": "Совершить покупку товара за деньги.",
         "example": "Отец хочет купить новый белый автомобиль.",
-        "emoji": "🛍️"
+        "emoji": "🛍️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:reshit:verb",
@@ -476,7 +688,9 @@
         "level": "A2",
         "definition": "Принять окончательное решение или найти ответ.",
         "example": "Студент смог успешно решить важную проблему сегодня.",
-        "emoji": "💡"
+        "emoji": "💡",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:posmotret:verb",
@@ -484,7 +698,9 @@
         "level": "A1",
         "definition": "Устремить взгляд на короткое время.",
         "example": "Я хочу посмотреть этот весёлый мультфильм.",
-        "emoji": "🎬"
+        "emoji": "🎬",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:lyubit:verb",
@@ -492,7 +708,9 @@
         "level": "A0",
         "definition": "Чувствовать глубокую привязанность и симпатию.",
         "example": "Дети очень любят свою добрую маму.",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:chitat:verb",
@@ -500,17 +718,31 @@
         "level": "A0",
         "definition": "Воспринимать написанный текст и понимание его.",
         "example": "Бабушка читает интересную книгу каждый вечер.",
-        "emoji": "📖"
+        "emoji": "📖",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-11": {
+      "A0": {
+        "id": "ru:idti:verb",
+        "word": "идти",
+        "level": "A0",
+        "definition": "Двигаться пешком в определённом направлении.",
+        "example": "Мы идём в школу каждый день.",
+        "emoji": "🚶",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:davat:verb",
         "word": "давать",
         "level": "A1",
         "definition": "Предоставлять предмет кому-либо в руки.",
         "example": "Мама даёт сыну сочное красное яблоко.",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:sdelat:verb",
@@ -518,7 +750,9 @@
         "level": "A1",
         "definition": "Закончить выполнение работы, завершить действие.",
         "example": "Студент должен сделать домашнее задание сегодня.",
-        "emoji": "✅"
+        "emoji": "✅",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:syest:verb",
@@ -526,7 +760,9 @@
         "level": "A1",
         "definition": "Закончить приём пищи, проглотить еду.",
         "example": "Мальчик смог съесть всё красное яблоко.",
-        "emoji": "🍏"
+        "emoji": "🍏",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:spech:verb",
@@ -534,7 +770,9 @@
         "level": "A2",
         "definition": "Приготовить пирог или торт в духовке.",
         "example": "Мама смогла испечь красивый праздничный торт на день.",
-        "emoji": "🎂"
+        "emoji": "🎂",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:vykhodit:verb",
@@ -542,7 +780,9 @@
         "level": "A1",
         "definition": "Идти наружу из здания помещения.",
         "example": "Люди выходят из здания большого магазина.",
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:brat:verb",
@@ -550,17 +790,31 @@
         "level": "A1",
         "definition": "Брать предмет руками для использования.",
         "example": "Ученик берёт свой синий карандаш.",
-        "emoji": "🖐️"
+        "emoji": "🖐️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-12": {
+      "A0": {
+        "id": "ru:lyubit:verb",
+        "word": "любить",
+        "level": "A0",
+        "definition": "Чувствовать глубокую привязанность и симпатию.",
+        "example": "Дети очень любят свою добрую маму.",
+        "emoji": "❤️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:pomogat:verb",
         "word": "помогать",
         "level": "A1",
         "definition": "Оказывать содействие другому человеку.",
         "example": "Брат помогает своей младшей сестре учиться.",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:zabyvat:verb",
@@ -568,7 +822,9 @@
         "level": "A1",
         "definition": "Утрачивать информацию из своей памяти.",
         "example": "Ученик иногда забывает свою новую тетрадь.",
-        "emoji": "🤷"
+        "emoji": "🤷",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:lyubit:verb",
@@ -576,7 +832,9 @@
         "level": "A0",
         "definition": "Чувствовать глубокую привязанность и симпатию.",
         "example": "Дети очень любят свою добрую маму.",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:davat:verb",
@@ -584,7 +842,9 @@
         "level": "A1",
         "definition": "Предоставлять предмет кому-либо в руки.",
         "example": "Мама даёт сыну сочное красное яблоко.",
-        "emoji": "🤲"
+        "emoji": "🤲",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:znat:verb",
@@ -592,7 +852,9 @@
         "level": "A0",
         "definition": "Иметь сведения, владеть информацией о чем-либо.",
         "example": "Я хорошо знаю этот красивый город.",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:priezzhat:verb",
@@ -600,17 +862,31 @@
         "level": "A1",
         "definition": "Прибывать на транспорте в город.",
         "example": "Гости приезжают в наш город сегодня.",
-        "emoji": "🚆"
+        "emoji": "🚆",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-13": {
+      "A0": {
+        "id": "ru:pisat:verb",
+        "word": "писать",
+        "level": "A0",
+        "definition": "Изображать знаки и слова на бумаге.",
+        "example": "Ученик пишет письмо своему лучшему другу.",
+        "emoji": "✍️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:otkryvat:verb",
         "word": "открывать",
         "level": "A1",
         "definition": "Распахивать закрытую дверь или окно.",
         "example": "Утром мы открываем окно в комнате.",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:zhdat:verb",
@@ -618,7 +894,9 @@
         "level": "A1",
         "definition": "Проводить время в ожидании события.",
         "example": "Мы ждём красный автобус у остановки.",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:pit:verb",
@@ -626,7 +904,9 @@
         "level": "A0",
         "definition": "Проглатывать жидкость для утоления жажды.",
         "example": "Дети пьют чистую воду после игры.",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:vybrat:verb",
@@ -634,7 +914,9 @@
         "level": "A2",
         "definition": "Сделать окончательный выбор одного нужного предмета.",
         "example": "Мальчик смог выбрать новую книгу в библиотеке.",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:byt:verb",
@@ -642,7 +924,9 @@
         "level": "A0",
         "definition": "Существовать, находиться в каком-либо месте.",
         "example": "Завтра мы будем в новом музее.",
-        "emoji": "⚡"
+        "emoji": "⚡",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:teryat:verb",
@@ -650,17 +934,31 @@
         "level": "A1",
         "definition": "Лишаться чего-либо.",
         "example": "Мальчик случайно теряет свои металлические ключи сегодня.",
-        "emoji": "📉"
+        "emoji": "📉",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-14": {
+      "A0": {
+        "id": "ru:slushat:verb",
+        "word": "слушать",
+        "level": "A0",
+        "definition": "Направлять слух на восприятие звуков.",
+        "example": "Дети любят слушать красивую музыку.",
+        "emoji": "🎧",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:zhdat:verb",
         "word": "ждать",
         "level": "A1",
         "definition": "Проводить время в ожидании события.",
         "example": "Мы ждём красный автобус у остановки.",
-        "emoji": "⏳"
+        "emoji": "⏳",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:igrat:verb",
@@ -668,7 +966,9 @@
         "level": "A1",
         "definition": "Проводить время в играх и забавах.",
         "example": "Дети любят играть в большой футбол.",
-        "emoji": "🎮"
+        "emoji": "🎮",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:bolet:verb",
@@ -676,7 +976,9 @@
         "level": "A2",
         "definition": "Испытывать болевые ощущения в теле.",
         "example": "У меня сильно болят зубы после сладкого пирожного.",
-        "emoji": "🤕"
+        "emoji": "🤕",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:otdykhat:verb",
@@ -684,7 +986,9 @@
         "level": "A2",
         "definition": "Проводить время в покое для восстановления сил.",
         "example": "В выходные дни наша семья любит отдыхать на природе.",
-        "emoji": "🏖️"
+        "emoji": "🏖️",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:pet:verb",
@@ -692,7 +996,9 @@
         "level": "A1",
         "definition": "Исполнять музыкальные звуки голосом.",
         "example": "Девочка красиво поёт весёлую детскую песню.",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:syest:verb",
@@ -700,17 +1006,31 @@
         "level": "A1",
         "definition": "Закончить приём пищи, проглотить еду.",
         "example": "Мальчик смог съесть всё красное яблоко.",
-        "emoji": "🍏"
+        "emoji": "🍏",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-15": {
+      "A0": {
+        "id": "ru:videt:verb",
+        "word": "видеть",
+        "level": "A0",
+        "definition": "Воспринимать предметы и людей глазами.",
+        "example": "Я вижу птицу на высоком дереве.",
+        "emoji": "👁️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:sprashivat:verb",
         "word": "спрашивать",
         "level": "A1",
         "definition": "Задавать вопрос для получения ответа.",
         "example": "Ученик спрашивает учителя о новом слове.",
-        "emoji": "❓"
+        "emoji": "❓",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:menyat:verb",
@@ -718,7 +1038,9 @@
         "level": "A1",
         "definition": "Делать иным, отдавать за другое.",
         "example": "Люди меняют старую одежду на новую.",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:idti:verb",
@@ -726,7 +1048,9 @@
         "level": "A0",
         "definition": "Двигаться пешком в определённом направлении.",
         "example": "Мы идём в школу каждый день.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:pozharit:verb",
@@ -734,7 +1058,9 @@
         "level": "A2",
         "definition": "Приготовить еду на масле на сковороде.",
         "example": "Отец смог пожарить сочное мясо для всей семьи.",
-        "emoji": "🥩"
+        "emoji": "🥩",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:otpravlyat:verb",
@@ -742,7 +1068,9 @@
         "level": "A2",
         "definition": "Посылать письмо или файл через интернет.",
         "example": "Студенты должны отправлять готовые работы учителю вовремя.",
-        "emoji": "📤"
+        "emoji": "📤",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:nachinat:verb",
@@ -750,17 +1078,31 @@
         "level": "A1",
         "definition": "Приступать к первому этапу действия.",
         "example": "Мы начинаем наш урок ровно утром.",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-16": {
+      "A0": {
+        "id": "ru:zhit:verb",
+        "word": "жить",
+        "level": "A0",
+        "definition": "Существовать, находиться в живых, обитать.",
+        "example": "Моя семья живёт в большом городе.",
+        "emoji": "🏠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:prosypatsya:verb",
         "word": "просыпаться",
         "level": "A1",
         "definition": "Прекращать спать в утренние часы суток.",
         "example": "Каждое утро я привык просыпаться ровно в семь часов.",
-        "emoji": "⏰"
+        "emoji": "⏰",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:smeyatsya:verb",
@@ -768,7 +1110,9 @@
         "level": "A1",
         "definition": "Издавать весёлые звуки при радости.",
         "example": "Дети громко смеются во время игры.",
-        "emoji": "😄"
+        "emoji": "😄",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:zvonit:verb",
@@ -776,7 +1120,9 @@
         "level": "A1",
         "definition": "Набирать номер и вызывать по телефону.",
         "example": "Мама привыкла звонить мне по телефону каждый вечер.",
-        "emoji": "📞"
+        "emoji": "📞",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:lomat:verb",
@@ -784,7 +1130,9 @@
         "level": "A2",
         "definition": "Повреждать или разрушать целостность вещи случайно.",
         "example": "Дети не должны ломать свои новые школьные принадлежности.",
-        "emoji": "💥"
+        "emoji": "💥",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:khotet:verb",
@@ -792,7 +1140,9 @@
         "level": "A0",
         "definition": "Иметь желание сделать или получить что-либо.",
         "example": "Я хочу выпить чашку горячего чая.",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:varit:verb",
@@ -800,17 +1150,31 @@
         "level": "A2",
         "definition": "Готовить пищу в кипящей воде на плите.",
         "example": "Бабушка учит меня варить вкусный овощной суп.",
-        "emoji": "🍲"
+        "emoji": "🍲",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-17": {
+      "A0": {
+        "id": "ru:byt:verb",
+        "word": "быть",
+        "level": "A0",
+        "definition": "Существовать, находиться в каком-либо месте.",
+        "example": "Завтра мы будем в новом музее.",
+        "emoji": "⚡",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:smeyatsya:verb",
         "word": "смеяться",
         "level": "A1",
         "definition": "Издавать весёлые звуки при радости.",
         "example": "Дети громко смеются во время игры.",
-        "emoji": "😄"
+        "emoji": "😄",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:smotret:verb",
@@ -818,7 +1182,9 @@
         "level": "A0",
         "definition": "Направлять взгляд для разглядывания чего-либо.",
         "example": "Вечером мы смотрим интересный фильм вместе.",
-        "emoji": "📺"
+        "emoji": "📺",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:nesti:verb",
@@ -826,7 +1192,9 @@
         "level": "A1",
         "definition": "Перемещать тяжесть руками в движении.",
         "example": "Ученик несёт тяжёлый портфель в школу.",
-        "emoji": "🎒"
+        "emoji": "🎒",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:menyat:verb",
@@ -834,7 +1202,9 @@
         "level": "A1",
         "definition": "Делать иным, отдавать за другое.",
         "example": "Люди меняют старую одежду на новую.",
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:vybirat:verb",
@@ -842,7 +1212,9 @@
         "level": "A2",
         "definition": "Отбирать нужный предмет из нескольких вариантов.",
         "example": "Она долго любит выбирать красивое платье в магазине.",
-        "emoji": "🔀"
+        "emoji": "🔀",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:zvonit:verb",
@@ -850,17 +1222,31 @@
         "level": "A1",
         "definition": "Набирать номер и вызывать по телефону.",
         "example": "Мама привыкла звонить мне по телефону каждый вечер.",
-        "emoji": "📞"
+        "emoji": "📞",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-18": {
+      "A0": {
+        "id": "ru:rabotat:verb",
+        "word": "работать",
+        "level": "A0",
+        "definition": "Заниматься трудом, выполнять свою работу.",
+        "example": "Мой отец работает в центральной больнице.",
+        "emoji": "💼",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:smotret:verb",
         "word": "смотреть",
         "level": "A0",
         "definition": "Направлять взгляд для разглядывания чего-либо.",
         "example": "Вечером мы смотрим интересный фильм вместе.",
-        "emoji": "📺"
+        "emoji": "📺",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:vypit:verb",
@@ -868,7 +1254,9 @@
         "level": "A1",
         "definition": "Проглотить определённое количество жидкости полностью.",
         "example": "Я хочу выпить стакан свежего сока.",
-        "emoji": "☕"
+        "emoji": "☕",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:svarit:verb",
@@ -876,7 +1264,9 @@
         "level": "A2",
         "definition": "Приготовить блюдо в кипятке полностью.",
         "example": "Мама успела сварить вкусную кашу к утреннему завтраку.",
-        "emoji": "🥣"
+        "emoji": "🥣",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:pisat:verb",
@@ -884,7 +1274,9 @@
         "level": "A0",
         "definition": "Изображать знаки и слова на бумаге.",
         "example": "Ученик пишет письмо своему лучшему другу.",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:idti:verb",
@@ -892,7 +1284,9 @@
         "level": "A0",
         "definition": "Двигаться пешком в определённом направлении.",
         "example": "Мы идём в школу каждый день.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:pit:verb",
@@ -900,17 +1294,31 @@
         "level": "A0",
         "definition": "Проглатывать жидкость для утоления жажды.",
         "example": "Дети пьют чистую воду после игры.",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-19": {
+      "A0": {
+        "id": "ru:chitat:verb",
+        "word": "читать",
+        "level": "A0",
+        "definition": "Воспринимать написанный текст и понимание его.",
+        "example": "Бабушка читает интересную книгу каждый вечер.",
+        "emoji": "📖",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:plavat:verb",
         "word": "плавать",
         "level": "A1",
         "definition": "Перемещаться по поверхности воды со сноровкой.",
         "example": "Дети любят плавать в тёплом море.",
-        "emoji": "🏊"
+        "emoji": "🏊",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:vyklyuchat:verb",
@@ -918,7 +1326,9 @@
         "level": "A2",
         "definition": "Прекращать действие прибора перед сном.",
         "example": "Перед сном необходимо выключать свет в комнате.",
-        "emoji": "🛑"
+        "emoji": "🛑",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:plavat:verb",
@@ -926,7 +1336,9 @@
         "level": "A1",
         "definition": "Перемещаться по поверхности воды со сноровкой.",
         "example": "Дети любят плавать в тёплом море.",
-        "emoji": "🏊"
+        "emoji": "🏊",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:prodat:verb",
@@ -934,7 +1346,9 @@
         "level": "A1",
         "definition": "Завершить продажу товара за деньги.",
         "example": "Фермер смог продать все спелые яблоки.",
-        "emoji": "💰"
+        "emoji": "💰",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:slushat:verb",
@@ -942,7 +1356,9 @@
         "level": "A0",
         "definition": "Направлять слух на восприятие звуков.",
         "example": "Дети любят слушать красивую музыку.",
-        "emoji": "🎧"
+        "emoji": "🎧",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:sdelat:verb",
@@ -950,17 +1366,31 @@
         "level": "A1",
         "definition": "Закончить выполнение работы, завершить действие.",
         "example": "Студент должен сделать домашнее задание сегодня.",
-        "emoji": "✅"
+        "emoji": "✅",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-20": {
+      "A0": {
+        "id": "ru:est:verb",
+        "word": "есть",
+        "level": "A0",
+        "definition": "Принимать пищу, питаться едой.",
+        "example": "Мы едим свежие фрукты каждый день.",
+        "emoji": "🍽️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:prikhodit:verb",
         "word": "приходить",
         "level": "A1",
         "definition": "Прибывать пешком в какое-либо место.",
         "example": "Ученики приходят в школу утром рано.",
-        "emoji": "🚶‍♀️"
+        "emoji": "🚶‍♀️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:obyasnyat:verb",
@@ -968,7 +1398,9 @@
         "level": "A2",
         "definition": "Делать понятной новую сложную тему детям.",
         "example": "Учитель начинает подробно объяснять новое сложное правило.",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:prodat:verb",
@@ -976,7 +1408,9 @@
         "level": "A1",
         "definition": "Завершить продажу товара за деньги.",
         "example": "Фермер смог продать все спелые яблоки.",
-        "emoji": "💰"
+        "emoji": "💰",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:byt:verb",
@@ -984,7 +1418,9 @@
         "level": "A0",
         "definition": "Существовать, находиться в каком-либо месте.",
         "example": "Завтра мы будем в новом музее.",
-        "emoji": "⚡"
+        "emoji": "⚡",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:rabotat:verb",
@@ -992,7 +1428,9 @@
         "level": "A0",
         "definition": "Заниматься трудом, выполнять свою работу.",
         "example": "Мой отец работает в центральной больнице.",
-        "emoji": "💼"
+        "emoji": "💼",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:pisat:verb",
@@ -1000,17 +1438,31 @@
         "level": "A0",
         "definition": "Изображать знаки и слова на бумаге.",
         "example": "Ученик пишет письмо своему лучшему другу.",
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-21": {
+      "A0": {
+        "id": "ru:dumat:verb",
+        "word": "думать",
+        "level": "A0",
+        "definition": "Размышлять, задействовать свой разум.",
+        "example": "Он долго думает над этим вопросом.",
+        "emoji": "🤔",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:probovat:verb",
         "word": "пробовать",
         "level": "A1",
         "definition": "Делать попытку что-либо совершить.",
         "example": "Повар хочет попробовать новый вкусный рецепт супа.",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:izvinitsya:verb",
@@ -1018,7 +1470,9 @@
         "level": "A2",
         "definition": "Попросить прощения у друга за причинённую обиду.",
         "example": "Мальчик смог искренне извиниться за сломанный карандаш.",
-        "emoji": "🤝"
+        "emoji": "🤝",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:otkryvat:verb",
@@ -1026,7 +1480,9 @@
         "level": "A1",
         "definition": "Распахивать закрытую дверь или окно.",
         "example": "Утром мы открываем окно в комнате.",
-        "emoji": "🔓"
+        "emoji": "🔓",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:nadeyatsya:verb",
@@ -1034,7 +1490,9 @@
         "level": "A2",
         "definition": "Рассчитывать на благополучный исход происходящих событий.",
         "example": "Мы искренне надеемся на хорошую солнечную погоду.",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:padat:verb",
@@ -1042,7 +1500,9 @@
         "level": "A1",
         "definition": "Двигаться сверху вниз под силой тяжести.",
         "example": "Осенью жёлтые листья падают с деревьев.",
-        "emoji": "⬇️"
+        "emoji": "⬇️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:khotet:verb",
@@ -1050,17 +1510,31 @@
         "level": "A0",
         "definition": "Иметь желание сделать или получить что-либо.",
         "example": "Я хочу выпить чашку горячего чая.",
-        "emoji": "💭"
+        "emoji": "💭",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-22": {
+      "A0": {
+        "id": "ru:moch:verb",
+        "word": "мочь",
+        "level": "A0",
+        "definition": "Иметь физическую или умственную возможность.",
+        "example": "Мой брат может быстро бегать в парке.",
+        "emoji": "💪",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:puteshestvovat:verb",
         "word": "путешествовать",
         "level": "A1",
         "definition": "Совершать поездки по разным дальним странам.",
         "example": "Летом мы любим путешествовать по красивым древним городам.",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:vklyuchat:verb",
@@ -1068,7 +1542,9 @@
         "level": "A2",
         "definition": "Пускать в действие электрический прибор светом.",
         "example": "Вечером в комнате нужно включать настольную лампу.",
-        "emoji": "🔌"
+        "emoji": "🔌",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:izvinyatsya:verb",
@@ -1076,7 +1552,9 @@
         "level": "A2",
         "definition": "Просить прощения за свой плохой поступик.",
         "example": "Ученик должен извиняться перед учителем за опоздание.",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:sdelat:verb",
@@ -1084,7 +1562,9 @@
         "level": "A1",
         "definition": "Закончить выполнение работы, завершить действие.",
         "example": "Студент должен сделать домашнее задание сегодня.",
-        "emoji": "✅"
+        "emoji": "✅",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:obyasnit:verb",
@@ -1092,7 +1572,9 @@
         "level": "A2",
         "definition": "Понятно изложить смысл вопроса ученику полностью.",
         "example": "Учитель смог быстро объяснить задачу слабому ученику.",
-        "emoji": "💡"
+        "emoji": "💡",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:pomnit:verb",
@@ -1100,17 +1582,31 @@
         "level": "A1",
         "definition": "Удерживать информацию в своей памяти.",
         "example": "Я хорошо помню имя нашего учителя.",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-23": {
+      "A0": {
+        "id": "ru:khotet:verb",
+        "word": "хотеть",
+        "level": "A0",
+        "definition": "Иметь желание сделать или получить что-либо.",
+        "example": "Я хочу выпить чашку горячего чая.",
+        "emoji": "💭",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:znat:verb",
         "word": "знать",
         "level": "A0",
         "definition": "Иметь сведения, владеть информацией о чем-либо.",
         "example": "Я хорошо знаю этот красивый город.",
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "slot_level": "A1",
+        "review": true
       },
       "A2": {
         "id": "ru:myt:verb",
@@ -1118,7 +1614,9 @@
         "level": "A1",
         "definition": "Очищать водой и мылом предметы.",
         "example": "Она моет белые тарелки после обеда.",
-        "emoji": "🧼"
+        "emoji": "🧼",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:nahodit:verb",
@@ -1126,7 +1624,9 @@
         "level": "A1",
         "definition": "Обнаруживать нужный предмет при поиске.",
         "example": "Мальчик часто находит интересные старые монеты.",
-        "emoji": "🔎"
+        "emoji": "🔎",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:vstavat:verb",
@@ -1134,7 +1634,9 @@
         "level": "A1",
         "definition": "Подниматься с кровати после ночного сна.",
         "example": "Мой отец встаёт очень рано утром для работы.",
-        "emoji": "🌅"
+        "emoji": "🌅",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:gotovit:verb",
@@ -1142,7 +1644,9 @@
         "level": "A1",
         "definition": "Варить или жарить еду на кухне.",
         "example": "Мама готовит вкусный суп на кухне.",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:spech:verb",
@@ -1150,17 +1654,31 @@
         "level": "A2",
         "definition": "Приготовить пирог или торт в духовке.",
         "example": "Мама смогла испечь красивый праздничный торт на день.",
-        "emoji": "🎂"
+        "emoji": "🎂",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-24": {
+      "A0": {
+        "id": "ru:ponimat:verb",
+        "word": "понимать",
+        "level": "A0",
+        "definition": "Усваивать смысл слов и чужих мыслей.",
+        "example": "Студенты хорошо понимают новое правило учителя.",
+        "emoji": "💡",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:imet:verb",
         "word": "иметь",
         "level": "A1",
         "definition": "Владеть чем-либо, обладать предметом.",
         "example": "Он хочет иметь свой собственный дом.",
-        "emoji": "💼"
+        "emoji": "💼",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:zabolet:verb",
@@ -1168,7 +1686,9 @@
         "level": "A2",
         "definition": "Стать больным, заразиться вирусной инфекцией.",
         "example": "Зимой очень легко заболеть от сильного холодного ветра.",
-        "emoji": "🤒"
+        "emoji": "🤒",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:khodit:verb",
@@ -1176,7 +1696,9 @@
         "level": "A1",
         "definition": "Двигаться пешком регулярно в разные стороны.",
         "example": "Дети любят ходить в городской парк.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:bolet:verb",
@@ -1184,7 +1706,9 @@
         "level": "A2",
         "definition": "Испытывать болевые ощущения в теле.",
         "example": "У меня сильно болят зубы после сладкого пирожного.",
-        "emoji": "🤕"
+        "emoji": "🤕",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:spech:verb",
@@ -1192,7 +1716,9 @@
         "level": "A2",
         "definition": "Приготовить пирог или торт в духовке.",
         "example": "Мама смогла испечь красивый праздничный торт на день.",
-        "emoji": "🎂"
+        "emoji": "🎂",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:pet:verb",
@@ -1200,17 +1726,31 @@
         "level": "A1",
         "definition": "Исполнять музыкальные звуки голосом.",
         "example": "Девочка красиво поёт весёлую детскую песню.",
-        "emoji": "🎤"
+        "emoji": "🎤",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-25": {
+      "A0": {
+        "id": "ru:pit:verb",
+        "word": "пить",
+        "level": "A0",
+        "definition": "Проглатывать жидкость для утоления жажды.",
+        "example": "Дети пьют чистую воду после игры.",
+        "emoji": "🥛",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:prodavat:verb",
         "word": "продавать",
         "level": "A1",
         "definition": "Отдавать товар за деньги покупателям.",
         "example": "Магазин продаёт вкусный хлеб и молоко.",
-        "emoji": "🏷️"
+        "emoji": "🏷️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:prikhodit:verb",
@@ -1218,7 +1758,9 @@
         "level": "A1",
         "definition": "Прибывать пешком в какое-либо место.",
         "example": "Ученики приходят в школу утром рано.",
-        "emoji": "🚶‍♀️"
+        "emoji": "🚶‍♀️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:vykhodit:verb",
@@ -1226,7 +1768,9 @@
         "level": "A1",
         "definition": "Идти наружу из здания помещения.",
         "example": "Люди выходят из здания большого магазина.",
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:zharit:verb",
@@ -1234,7 +1778,9 @@
         "level": "A2",
         "definition": "Готовить пищу на раскаленной сковороде с маслом.",
         "example": "Мама начинает жарить свежую рыбу на обед.",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:zakanchivat:verb",
@@ -1242,7 +1788,9 @@
         "level": "A1",
         "definition": "Доводить действие до финального конца.",
         "example": "Мы заканчиваем читать эту книгу вечером.",
-        "emoji": "⏹️"
+        "emoji": "⏹️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:gulyat:verb",
@@ -1250,17 +1798,31 @@
         "level": "A1",
         "definition": "Идти пешком.",
         "example": "Дети любят весело гулять в школьном саду.",
-        "emoji": "🚶"
+        "emoji": "🚶",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-26": {
+      "A0": {
+        "id": "ru:videt:verb",
+        "word": "видеть",
+        "level": "A0",
+        "definition": "Воспринимать предметы и людей глазами.",
+        "example": "Я вижу птицу на высоком дереве.",
+        "emoji": "👁️",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:razgovarivat:verb",
         "word": "разговаривать",
         "level": "A1",
         "definition": "Вести беседу с кем-либо.",
         "example": "Друзья приятно разговаривают в уютном городском кафе.",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:nachinat:verb",
@@ -1268,7 +1830,9 @@
         "level": "A1",
         "definition": "Приступать к первому этапу действия.",
         "example": "Мы начинаем наш урок ровно утром.",
-        "emoji": "▶️"
+        "emoji": "▶️",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:otvechat:verb",
@@ -1276,7 +1840,9 @@
         "level": "A1",
         "definition": "Давать ответ на заданный вопрос.",
         "example": "Студент отлично отвечает на уроке учителя.",
-        "emoji": "💬"
+        "emoji": "💬",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:predstavlyat:verb",
@@ -1284,7 +1850,9 @@
         "level": "A2",
         "definition": "Знакомить одного человека с другими людьми.",
         "example": "Директор начинает представлять нового сотрудника нашему коллективу.",
-        "emoji": "🙋"
+        "emoji": "🙋",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:soglasitsya:verb",
@@ -1292,7 +1860,9 @@
         "level": "A2",
         "definition": "Дать своё согласие на предложение друга.",
         "example": "Отец смог согласиться с нашей новой идеей.",
-        "emoji": "✅"
+        "emoji": "✅",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:nadeyatsya:verb",
@@ -1300,17 +1870,31 @@
         "level": "A2",
         "definition": "Рассчитывать на благополучный исход происходящих событий.",
         "example": "Мы искренне надеемся на хорошую солнечную погоду.",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-27": {
+      "A0": {
+        "id": "ru:stoyat:verb",
+        "word": "стоять",
+        "level": "A0",
+        "definition": "Находиться в вертикальном положении ногами.",
+        "example": "Учитель стоит возле большой классной доски.",
+        "emoji": "🧍",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:prochitat:verb",
         "word": "прочитать",
         "level": "A1",
         "definition": "Закончить чтение книги или статьи.",
         "example": "Я смог прочитать всю книгу за день.",
-        "emoji": "📕"
+        "emoji": "📕",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:chistit:verb",
@@ -1318,7 +1902,9 @@
         "level": "A1",
         "definition": "Удалять грязь с поверхности предметов.",
         "example": "Дети чистят зубы каждое утро водою.",
-        "emoji": "🪥"
+        "emoji": "🪥",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:zabolet:verb",
@@ -1326,7 +1912,9 @@
         "level": "A2",
         "definition": "Стать больным, заразиться вирусной инфекцией.",
         "example": "Зимой очень легко заболеть от сильного холодного ветра.",
-        "emoji": "🤒"
+        "emoji": "🤒",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:vyrasti:verb",
@@ -1334,7 +1922,9 @@
         "level": "A2",
         "definition": "Стать взрослым человеком или большим деревом.",
         "example": "Маленькое дерево смогло вырасти за пять лет.",
-        "emoji": "🌳"
+        "emoji": "🌳",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:nadeyatsya:verb",
@@ -1342,7 +1932,9 @@
         "level": "A2",
         "definition": "Рассчитывать на благополучный исход происходящих событий.",
         "example": "Мы искренне надеемся на хорошую солнечную погоду.",
-        "emoji": "🙏"
+        "emoji": "🙏",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:nesti:verb",
@@ -1350,17 +1942,31 @@
         "level": "A1",
         "definition": "Перемещать тяжесть руками в движении.",
         "example": "Ученик несёт тяжёлый портфель в школу.",
-        "emoji": "🎒"
+        "emoji": "🎒",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-28": {
+      "A0": {
+        "id": "ru:byt:verb",
+        "word": "быть",
+        "level": "A0",
+        "definition": "Существовать, находиться в каком-либо месте.",
+        "example": "Завтра мы будем в новом музее.",
+        "emoji": "⚡",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:uchit:verb",
         "word": "учить",
         "level": "A1",
         "definition": "Запоминать знания или передавать их другим.",
         "example": "Учитель учит детей читать и писать.",
-        "emoji": "👨‍🏫"
+        "emoji": "👨‍🏫",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:plakat:verb",
@@ -1368,7 +1974,9 @@
         "level": "A1",
         "definition": "Проливать слёзы от боли или печали.",
         "example": "Маленький ребёнок плачет от сильной боли.",
-        "emoji": "😭"
+        "emoji": "😭",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:chuvstvovat:verb",
@@ -1376,7 +1984,9 @@
         "level": "A1",
         "definition": "Испытывать эмоции или физические ощущения.",
         "example": "Я чувствую себя отлично сегодняшним утром.",
-        "emoji": "❤️"
+        "emoji": "❤️",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:zvonit:verb",
@@ -1384,7 +1994,9 @@
         "level": "A1",
         "definition": "Набирать номер и вызывать по телефону.",
         "example": "Мама привыкла звонить мне по телефону каждый вечер.",
-        "emoji": "📞"
+        "emoji": "📞",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:vyazat:verb",
@@ -1392,7 +2004,9 @@
         "level": "A2",
         "definition": "Изготавливать вещи из шерстяных ниток спицами.",
         "example": "Наша бабушка любит вязать тёплые носки зимой.",
-        "emoji": "🧶"
+        "emoji": "🧶",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:sushchestvovat:verb",
@@ -1400,17 +2014,31 @@
         "level": "A2",
         "definition": "Быть в реальности, находиться в мире.",
         "example": "В мире существуют тысячи разных красивых городов.",
-        "emoji": "🌐"
+        "emoji": "🌐",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-29": {
+      "A0": {
+        "id": "ru:znat:verb",
+        "word": "знать",
+        "level": "A0",
+        "definition": "Иметь сведения, владеть информацией о чем-либо.",
+        "example": "Я хорошо знаю этот красивый город.",
+        "emoji": "🧠",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:rasskazyvat:verb",
         "word": "рассказывать",
         "level": "A1",
         "definition": "Сообщать что-либо кому-либо.",
         "example": "Дедушка рассказывает детям добрую и интересную сказку.",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:lomat:verb",
@@ -1418,7 +2046,9 @@
         "level": "A2",
         "definition": "Повреждать или разрушать целостность вещи случайно.",
         "example": "Дети не должны ломать свои новые школьные принадлежности.",
-        "emoji": "💥"
+        "emoji": "💥",
+        "slot_level": "A2",
+        "review": false
       },
       "B1": {
         "id": "ru:soglasitsya:verb",
@@ -1426,7 +2056,9 @@
         "level": "A2",
         "definition": "Дать своё согласие на предложение друга.",
         "example": "Отец смог согласиться с нашей новой идеей.",
-        "emoji": "✅"
+        "emoji": "✅",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:stoyat:verb",
@@ -1434,7 +2066,9 @@
         "level": "A0",
         "definition": "Находиться в вертикальном положении ногами.",
         "example": "Учитель стоит возле большой классной доски.",
-        "emoji": "🧍"
+        "emoji": "🧍",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:pokazyvat:verb",
@@ -1442,7 +2076,9 @@
         "level": "A1",
         "definition": "Давать возможность увидеть что-либо.",
         "example": "Экскурсовод показывает туристу красивый музей в центре.",
-        "emoji": "📽️"
+        "emoji": "📽️",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:poslushat:verb",
@@ -1450,17 +2086,31 @@
         "level": "A1",
         "definition": "Уделить некоторое время слушанию чего-либо.",
         "example": "Давай послушаем эту прекрасную новую песню.",
-        "emoji": "🎵"
+        "emoji": "🎵",
+        "slot_level": "C2",
+        "review": true
       }
     },
     "2026-11-30": {
+      "A0": {
+        "id": "ru:idti:verb",
+        "word": "идти",
+        "level": "A0",
+        "definition": "Двигаться пешком в определённом направлении.",
+        "example": "Мы идём в школу каждый день.",
+        "emoji": "🚶",
+        "slot_level": "A0",
+        "review": false
+      },
       "A1": {
         "id": "ru:pokazyvat:verb",
         "word": "показывать",
         "level": "A1",
         "definition": "Давать возможность увидеть что-либо.",
         "example": "Экскурсовод показывает туристу красивый музей в центре.",
-        "emoji": "📽️"
+        "emoji": "📽️",
+        "slot_level": "A1",
+        "review": false
       },
       "A2": {
         "id": "ru:nahodit:verb",
@@ -1468,7 +2118,9 @@
         "level": "A1",
         "definition": "Обнаруживать нужный предмет при поиске.",
         "example": "Мальчик часто находит интересные старые монеты.",
-        "emoji": "🔎"
+        "emoji": "🔎",
+        "slot_level": "A2",
+        "review": true
       },
       "B1": {
         "id": "ru:prochitat:verb",
@@ -1476,7 +2128,9 @@
         "level": "A1",
         "definition": "Закончить чтение книги или статьи.",
         "example": "Я смог прочитать всю книгу за день.",
-        "emoji": "📕"
+        "emoji": "📕",
+        "slot_level": "B1",
+        "review": true
       },
       "B2": {
         "id": "ru:ukhodit:verb",
@@ -1484,7 +2138,9 @@
         "level": "A1",
         "definition": "Отправляться из какого-либо места.",
         "example": "Все сотрудники уходят из офиса вечером.",
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "slot_level": "B2",
+        "review": true
       },
       "C1": {
         "id": "ru:pit:verb",
@@ -1492,7 +2148,9 @@
         "level": "A0",
         "definition": "Проглатывать жидкость для утоления жажды.",
         "example": "Дети пьют чистую воду после игры.",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "slot_level": "C1",
+        "review": true
       },
       "C2": {
         "id": "ru:ukhodit:verb",
@@ -1500,7 +2158,9 @@
         "level": "A1",
         "definition": "Отправляться из какого-либо места.",
         "example": "Все сотрудники уходят из офиса вечером.",
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "slot_level": "C2",
+        "review": true
       }
     }
   }

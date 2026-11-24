@@ -1,8 +1,12 @@
 {
   "idiom": {
     "languages": [
-      "en"
-    ]
+      "en",
+      "fr",
+      "it",
+      "ru"
+    ],
+    "minPool": 30
   },
   "word": {
     "languages": [
@@ -12,7 +16,7 @@
       "ru",
       "el"
     ],
-    "minPool": 90
+    "minPool": 30
   },
   "phrasal-verb": {
     "languages": [
@@ -26,9 +30,10 @@
       "fr",
       "it",
       "ru",
-      "el"
+      "el",
+      "de"
     ],
-    "minPool": 30
+    "minPool": 15
   },
   "verb-prep": {
     "languages": [
