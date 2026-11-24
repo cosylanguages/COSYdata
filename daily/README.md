@@ -63,7 +63,7 @@ Each day carries a ready-to-show card, so a client needs one small request (abou
 
 | Slot | Pool | Cards carry |
 |---|---|---|
-| `idiom` | `vocabulary/<lang>/<level>/idioms.json` | word, definition, example, `literal_meaning`, emoji |
+| `idiom` | `vocabulary/<lang>/<level>/idioms.json` (or `idiom.json` where the plural file is empty) | word, definition, example, `literal_meaning`, emoji |
 | `word` | nouns, adjectives and adverbs from every vocabulary file (verbs are kept for a verb-of-the-day slot) | word, pos, definition, example, article, gender, IPA (only real IPA), emoji |
 | `verb` | dictionary verbs that COSYtools can conjugate | word (lemma), `level` (the verb's own level), definition, example, IPA, emoji, `slot_level` and `review` |
 | `verb-prep` | dictionary verbs with governance data in COSYtools (preposition or case) | same card plus `preposition`/`prepositions`, `pattern`, `case` and `common_mistake`; `slot_level` and `review` mark a card drawn below the slot level |
@@ -99,10 +99,16 @@ Each day carries a ready-to-show card, so a client needs one small request (abou
   and examples shorter than 15 characters; the card must show the expression in a real sentence.
 - **Hand edits:** `daily/<lang>/calendar/overrides.json`, `{"<slot>": {"2026-12-25": {"B1": "<entry id>"}}}`.
 - **Languages and levels:** only slots/languages in `daily/calendar-config.json` are built. A level whose eligible
-  pool is below `minPool` (30 for `word`, 15 for `verb`, 30 for `verb-prep`) is skipped, because it would repeat too often;
-  clients fall back to the nearest published level and say so. Today: `idiom` en (A2-C2), fr (A2), it (A2-B1), ru (A2);
-  `word` en (A0-C2), fr (A0, A1, A2, B1, C2), it (A0, A1, A2, B1, B2, C2), ru (A0, A1, A2, B1, B2, C2), el (A0, A1, A2, B1, B2);
-  `phrasal-verb` en (A2-C1, minPool 55); `verb` en, fr, it, ru, el, de; `verb-prep` en (A1-C2), fr (A0-C2), it (A1-C2), el (A1-C2).
+  pool is below `minPool` (15 for `word`, 15 for `verb`, 30 for `verb-prep`) is skipped, because it would repeat too often;
+  clients fall back to the nearest published level and say so. Today: `idiom` en, fr, it, ru (A2-C2);
+  `word` en, fr, it, ru, el (A0-C2); `phrasal-verb` en (A2-C1, minPool 55); `verb` en, fr, it, ru, el, de;
+  `verb-prep` en (A1-C2), fr (A0-C2), it (A1-C2), el (A1-C2).
+  The advanced `word` pools are thin (16-23 entries for C1), so a C1 word repeats within a 30-day month. Publishing the
+  level with a few repeats is more useful than omitting C1 and showing the nearest level instead; the repeat gap is still
+  at least `pool/2` days.
+  The advanced fr/it/ru idiom levels come from `vocabulary/<lang>/<level>/idiom.json`; those entries are marked
+  `status: "needs_review"` in the source. They are published so B1-C2 are not empty, but they still need native-speaker
+  review. Malformed Russian headwords found during the audit are listed in `daily/ru/calendar/exclude.json`.
   Italian has 55 `phrasal_verbs.json` entries at A2 but they are ordinary verbs, so it is not enabled; fr, ru and el have none.
 - **Advanced verb slots:** the C1/C2 verb pools are empty or nearly empty in most languages, so those slots show
   cumulative review cards with `review: true` and `slot_level: "C1"`/`"C2"` instead of pretending an A2 verb is C1

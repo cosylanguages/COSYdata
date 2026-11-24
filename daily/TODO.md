@@ -46,3 +46,15 @@ This document tracks datasets that have been initialized with 10 placeholder ent
 - [ ] Verify `daily/tt/idioms.json` idiomatic expressions and examples.
 
 > Speaking and writing review items moved to `COSYpractice/data/daily/TODO.md`, fun-fact items to `COSYlanguages/data/daily/TODO.md`.
+
+## Advanced Idiom Calendars
+
+The French, Italian and Russian B1-C2 idiom calendars draw from `vocabulary/<lang>/<level>/idiom.json`. Every entry in
+those files is marked `status: "needs_review"`, so the cards are published but not yet native-reviewed.
+
+- [ ] French: review `vocabulary/fr/{b1,b2,c1,c2}/idiom.json` definitions and examples.
+- [ ] Italian: review `vocabulary/it/{b2,c1,c2}/idiom.json`; two typos found during the audit were corrected
+      (`Abbattere`, `retorici`), but the rest still needs a native check.
+- [ ] Russian: review `vocabulary/ru/{b1,b2,c1,c2}/idiom.json`; six malformed headwords were excluded in
+      `daily/ru/calendar/exclude.json`.
+
