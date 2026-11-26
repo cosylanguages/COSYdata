@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P63 added French transcriptions for 1,175 entries from French Wiktionary (7,152 findings / 31,498 entries).
 - P62 added examples for 249 Russian entries, removed one duplicate idiom and fixed six malformed headwords (8,327 findings / 31,498 entries).
 - P61 added examples for 160 French A2 entries (8,577 findings / 31,499 entries).
 - P60 added examples for 70 French A0–A1 entries and replaced 65 example-shaped definitions (8,737 findings / 31,499 entries).
