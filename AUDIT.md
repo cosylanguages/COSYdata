@@ -56,6 +56,7 @@ Highest-impact problems:
 - P33 fixed the last 18 headword-only definitions, reclassified two French/Italian C2 phrases from verb to noun, and reduced findings to 11,747. No definition now equals its headword.
 - P34 removed 68 real named people from English, French, Spanish, Italian, Portuguese and Greek. They are now null aliases; entries fell from 31,636 to 31,568.
 - P35 removed 3,313 invalid transcription values (slug-only, native-script and `-`); they are now empty strings and counted as missing rather than false IPA.
+- P36 added `npm run test:integrity`, which fails if any previously fixed defect class or removed real-person entry returns.
 - `en`, `fr`, `it`, `ru` and `el` have three overlapping beginner schemes: `a0/`, `a0_a1/`, `a1/`.
 - Nested `home/furniture/**` directories exist across all 14 languages, in addition to flat theme files. They are valid data but outside the documented flat layout and outside the parity scan.
 - Entries by level (including nested):
@@ -261,7 +262,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 15. Keep escaping every field inserted into `innerHTML` (P13 did this) and add a CSP meta tag and SRI for third-party scripts. P20 pinned GitHub Actions to commit SHAs; P14 switched CI to `npm ci`.
 16. `test:conjugation` now runs in CI with Playwright; keep the browser install step in sync with the package version.
 17. Update README/`AUDIT.md` claims that still describe the old layout (transcription/emoji requirements, concept format, theme counts, top10 verb count, level layout); the stray file and archive duplicates are removed.
-18. Add regression tests for: ID/form consistency, same-word/same-form uniqueness, required definitions/examples, transcription format, theme catalog usage, reference resolution (including `COSYtools:`), and resolver failure classification.
+18. **Partially done (P36):** `test:integrity` now locks the zero-defect classes: ID/form consistency, duplicate word/form/sense, template examples, definition-equals-word, invalid/native/placeholder transcriptions, real-person aliases, and the quality baseline. Still to add: theme-catalog checks, reference resolution including `COSYtools:`, and resolver failure classification.
 
 ## Bottom line
 
