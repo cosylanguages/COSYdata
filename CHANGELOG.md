@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P47 added French A0 definitions and examples for 44 basic entries (9,842 findings / 31,568 entries).
 - P46 added Russian B1/B2 definitions and examples for 61 housing entries; Russian housing is complete except one headword in needs-review (9,930 findings / 31,568 entries).
 - P45 added Russian A2 definitions and examples for 99 housing entries (10,052 findings / 31,568 entries).
 - P44 added Russian A0/A1 definitions and examples for 61 housing entries (10,250 findings / 31,568 entries).
