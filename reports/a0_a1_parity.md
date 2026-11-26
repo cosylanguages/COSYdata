@@ -1,6 +1,6 @@
 # A0–A1 Parity Report
 
-*Generated automatically on 2026-10-19*
+*Generated automatically on 2026-11-26*
 
 ## Target Metrics
 
@@ -12,46 +12,50 @@
 
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EN | 1656 | 455 | 1201 | -13 | -19 | +6 | 0 | 18 |
-| FR | 1611 | 1027 | 584 | -58 | +553 | -611 | 8 | 36 |
-| IT | 1199 | 250 | 949 | -470 | -224 | -246 | 3 | 23 |
-| RU | 697 | 191 | 506 | -972 | -283 | -689 | 4 | 70 |
-| EL | 882 | 133 | 749 | -787 | -341 | -446 | 11 | 68 |
+| EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 0 | 6 |
+| FR | 1615 | 1036 | 579 | -54 | +562 | -616 | 25 | 32 |
+| IT | 1234 | 266 | 968 | -435 | -208 | -227 | 28 | 11 |
+| RU | 736 | 205 | 530 | -933 | -269 | -665 | 25 | 63 |
+| EL | 925 | 151 | 774 | -744 | -323 | -421 | 31 | 55 |
 
 ### Details: EN
 
 *No structural or policy violations found.*
 
-#### Missing Essentials (18)
+#### Missing Essentials (6)
 
-- **house** (expected: `house`)
-- **room** (expected: `room`)
-- **kitchen** (expected: `kitchen`)
-- **bedroom** (expected: `bedroom`)
-- **bathroom** (expected: `bathroom`)
-- **door** (expected: `door`)
-- **window** (expected: `window`)
-- **table** (expected: `table`)
-- **chair** (expected: `chair`)
-- **bed** (expected: `bed`)
 - **key** (expected: `key`)
 - **garden** (expected: `garden`)
 - **apartment** (expected: `apartment`)
-- **toilet** (expected: `toilet`)
-- **clock** (expected: `clock`)
 - **all** (expected: `all`)
 - **some** (expected: `some`)
 - **many** (expected: `many`)
 
 ### Details: FR
 
-#### Structural & Policy Violations (4)
+#### Structural & Policy Violations (21)
 
-##### Duplicate Word+Form+Sense (4)
-- Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:idiom, fr:ce-soir:idiom
-- Word+form+sense 'ticket de caisse::noun::' duplicated across IDs: fr:ticket-de-caisse:noun, fr:ticket-caisse:noun
+##### Domain Violations (19)
+- Entry 'fr:taper:verb' domain tag 'professional' not allowed at A0-A1
+- Entry 'fr:couverture:noun' has missing domain
+- Entry 'fr:chevet:noun' has missing domain
+- Entry 'fr:commode:noun' has missing domain
+- Entry 'fr:cuisine:noun' has missing domain
+- Entry 'fr:poubelle:noun' has missing domain
+- Entry 'fr:rideau:noun' has missing domain
+- Entry 'fr:rayon-de-bibliotheque:noun' has missing domain
+- Entry 'fr:table-basse:noun' has missing domain
+- Entry 'fr:balai:noun' has missing domain
+- Entry 'fr:seau:noun' has missing domain
+- Entry 'fr:maison:noun' has missing domain
+- Entry 'fr:immeuble-d-habitation:noun' has missing domain
+- Entry 'fr:chambre:noun' has missing domain
+- Entry 'fr:salle-a-manger:noun' has missing domain
+- *...and 4 more*
+
+##### Duplicate Word+Form+Sense (2)
+- Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:phrase, fr:ce-soir:phrase
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
-- Word+form+sense 'regarder la television::phrase::' duplicated across IDs: fr:regarder-la-tele:phrase, fr:regarder-la-television:phrase
 
 ##### Missing Contractions (4)
 - Missing contracted preposition form 'au'
@@ -59,7 +63,7 @@
 - Missing contracted preposition form 'du'
 - Missing contracted preposition form 'des'
 
-#### Missing Essentials (36)
+#### Missing Essentials (32)
 
 - **good luck** (expected: `bonne chance`)
 - **to call** (expected: `appeler`)
@@ -67,12 +71,7 @@
 - **to travel** (expected: `voyager`)
 - **to stay** (expected: `rester`)
 - **to wait for/meet** (expected: `rencontrer`)
-- **room** (expected: `pièce/chambre`)
-- **kitchen** (expected: `cuisine`)
-- **bedroom** (expected: `chambre`)
 - **bathroom** (expected: `salle de bains`)
-- **door** (expected: `porte`)
-- **window** (expected: `fenêtre`)
 - **table** (expected: `table`)
 - **chair** (expected: `chaise`)
 - **bed** (expected: `lit`)
@@ -86,56 +85,86 @@
 - **ticket** (expected: `billet`)
 - **weekend** (expected: `week-end`)
 - **expensive** (expected: `cher`)
-- *...and 11 more*
+- **cheap** (expected: `bon marché`)
+- **free (no cost)** (expected: `gratuit`)
+- **kind** (expected: `gentil`)
+- **phone** (expected: `téléphone`)
+- **computer** (expected: `ordinateur`)
+- *...and 7 more*
 
 ### Details: IT
 
-#### Structural & Policy Violations (3)
+#### Structural & Policy Violations (28)
+
+##### Domain Violations (25)
+- Entry 'it:digitare:verb' domain tag 'professional' not allowed at A0-A1
+- Entry 'it:doccia:noun' has missing domain
+- Entry 'it:gabinetto:noun' has missing domain
+- Entry 'it:letto:noun' has missing domain
+- Entry 'it:coperta:noun' has missing domain
+- Entry 'it:comodino:noun' has missing domain
+- Entry 'it:cassettiera:noun' has missing domain
+- Entry 'it:sedia:noun' has missing domain
+- Entry 'it:orologio:noun' has missing domain
+- Entry 'it:cucina:noun' has missing domain
+- Entry 'it:tavolo:noun' has missing domain
+- Entry 'it:cestino:noun' has missing domain
+- Entry 'it:tenda:noun' has missing domain
+- Entry 'it:scaffale-per-libri:noun' has missing domain
+- Entry 'it:tavolino-da-salotto:noun' has missing domain
+- *...and 10 more*
 
 ##### Level Violations (1)
-- Entry 'it:scrivania:noun' level 'A1' does not equal min of levels [A0, A1] ('A0')
+- Entry 'it:scrivania:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
 
 ##### Duplicate Word+Form+Sense (2)
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
 - Word+form+sense '::determiner::article' duplicated across IDs: it:l-apostrofo:determiner, it:un-apostrofo:determiner
 
-#### Missing Essentials (23)
+#### Missing Essentials (11)
 
 - **enjoy your meal** (expected: `buon appetito`)
 - **good luck** (expected: `buona fortuna/in bocca al lupo`)
-- **house** (expected: `casa`)
-- **room** (expected: `stanza/camera`)
-- **kitchen** (expected: `cucina`)
-- **bedroom** (expected: `camera da letto/camera`)
-- **bathroom** (expected: `bagno`)
-- **door** (expected: `porta`)
-- **window** (expected: `finestra`)
-- **table** (expected: `tavolo/tavola`)
-- **chair** (expected: `sedia`)
-- **bed** (expected: `letto`)
 - **key** (expected: `chiave`)
 - **garden** (expected: `giardino`)
 - **apartment** (expected: `appartamento`)
-- **toilet** (expected: `bagno/toilette`)
 - **phone** (expected: `telefono`)
 - **computer** (expected: `computer`)
 - **television** (expected: `televisione/tv`)
-- **clock** (expected: `orologio`)
 - **straight on** (expected: `dritto/sempre dritto/diritto`)
 - **all** (expected: `tutto`)
 - **turn** (expected: `girare`)
 
 ### Details: RU
 
-#### Structural & Policy Violations (4)
+#### Structural & Policy Violations (25)
 
-##### Duplicate Word+Form+Sense (4)
-- Word+form+sense 'рыба::noun::' duplicated across IDs: ru:ryba-anim:noun, ru:ryba:noun
-- Word+form+sense 'курица::noun::' duplicated across IDs: ru:kuritsa-anim:noun, ru:kuritsa:noun
-- Word+form+sense 'мир::noun::' duplicated across IDs: ru:mir-peace:noun, ru:mir-country:noun
+##### Domain Violations (22)
+- Entry 'ru:dush:noun' has missing domain
+- Entry 'ru:tualet:noun' has missing domain
+- Entry 'ru:odeyalo:noun' has missing domain
+- Entry 'ru:prikrovatnyy-stolik:noun' has missing domain
+- Entry 'ru:komod:noun' has missing domain
+- Entry 'ru:kukhnya:noun' has missing domain
+- Entry 'ru:musornoe-vedro:noun' has missing domain
+- Entry 'ru:shtora:noun' has missing domain
+- Entry 'ru:knizhnaya-polka:noun' has missing domain
+- Entry 'ru:zhurnalnyy-stolik:noun' has missing domain
+- Entry 'ru:metla:noun' has missing domain
+- Entry 'ru:vedro:noun' has missing domain
+- Entry 'ru:dom:noun' has missing domain
+- Entry 'ru:mnogokvartirnyy-dom:noun' has missing domain
+- Entry 'ru:vannaya-komnata:noun' has missing domain
+- *...and 7 more*
+
+##### Level Violations (2)
+- Entry 'ru:dolzhenstvovat:verb' level 'A2' must be 'A0' or 'A1'
+- Entry 'ru:pismennyi-stol:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
+
+##### Duplicate Word+Form+Sense (1)
 - Word+form+sense 'дешевыи::adjective::' duplicated across IDs: ru:deshevyi:adjective, ru:deshyovyi:adjective
 
-#### Missing Essentials (70)
+#### Missing Essentials (63)
 
 - **no** (expected: `нет`)
 - **I don't understand** (expected: `я не понимаю`)
@@ -155,35 +184,44 @@
 - **vegetable** (expected: `овощ`)
 - **fruit** (expected: `фрукт`)
 - **meal** (expected: `еда/приём пищи`)
-- **house** (expected: `дом`)
-- **room** (expected: `комната`)
-- **kitchen** (expected: `кухня`)
-- **bedroom** (expected: `спальня`)
 - **bathroom** (expected: `ванная`)
-- **door** (expected: `дверь`)
-- **window** (expected: `окно`)
-- *...and 45 more*
+- **table** (expected: `стол`)
+- **chair** (expected: `стул`)
+- **bed** (expected: `кровать`)
+- **key** (expected: `ключ`)
+- **garden** (expected: `сад`)
+- **apartment** (expected: `квартира`)
+- *...and 38 more*
 
 ### Details: EL
 
-#### Structural & Policy Violations (11)
+#### Structural & Policy Violations (31)
+
+##### Domain Violations (29)
+- Entry 'el:pliktrologio:verb' domain tag 'professional' not allowed at A0-A1
+- Entry 'el:ntoyziera:noun' has missing domain
+- Entry 'el:toyaleta:noun' has missing domain
+- Entry 'el:krevati:noun' has missing domain
+- Entry 'el:koyverta:noun' has missing domain
+- Entry 'el:komodino:noun' has missing domain
+- Entry 'el:syrtariera:noun' has missing domain
+- Entry 'el:karekla:noun' has missing domain
+- Entry 'el:roloi:noun' has missing domain
+- Entry 'el:koyzina:noun' has missing domain
+- Entry 'el:lampa:noun' has missing domain
+- Entry 'el:trapezi:noun' has missing domain
+- Entry 'el:kados:noun' has missing domain
+- Entry 'el:koyrtina:noun' has missing domain
+- Entry 'el:rafi-vivlion:noun' has missing domain
+- *...and 14 more*
 
 ##### Level Violations (1)
 - Entry 'el:grafeio:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
 
-##### Duplicate Word+Form+Sense (10)
+##### Duplicate Word+Form+Sense (1)
 - Word+form+sense 'ποτε::adverb::' duplicated across IDs: el:pote-never:adverb, el:pote:adverb
-- Word+form+sense 'σαββατο::noun::' duplicated across IDs: el:sabbato:noun, el:savvato:noun
-- Word+form+sense 'ιανουαριος::noun::' duplicated across IDs: el:ianouarios:noun, el:ianoyarios:noun
-- Word+form+sense 'φεβρουαριος::noun::' duplicated across IDs: el:fevrouarios:noun, el:fevroyarios:noun
-- Word+form+sense 'ιουνιος::noun::' duplicated across IDs: el:iounios:noun, el:ioynios:noun
-- Word+form+sense 'ιουλιος::noun::' duplicated across IDs: el:ioulios:noun, el:ioylios:noun
-- Word+form+sense 'αυγουστος::noun::' duplicated across IDs: el:avgoustos:noun, el:aygoystos:noun
-- Word+form+sense 'σεπτεμβριος::noun::' duplicated across IDs: el:septembrios:noun, el:septemvrios:noun
-- Word+form+sense 'νοεμβριος::noun::' duplicated across IDs: el:noembrios:noun, el:noemvrios:noun
-- Word+form+sense 'δεκεμβριος::noun::' duplicated across IDs: el:dekembrios:noun, el:dekemvrios:noun
 
-#### Missing Essentials (68)
+#### Missing Essentials (55)
 
 - **hello** (expected: `γεια`)
 - **I don't understand** (expected: `δεν καταλαβαίνω`)
@@ -192,7 +230,6 @@
 - **nice to meet you** (expected: `χαίρω πολύ`)
 - **how much is it** (expected: `πόσο κάνει/πόσο κοστίζει`)
 - **do you speak English** (expected: `μιλάτε αγγλικά/μιλάς αγγλικά`)
-- **I would like** (expected: `θα ήθελα`)
 - **happy birthday** (expected: `χρόνια πολλά`)
 - **enjoy your meal** (expected: `καλή όρεξη`)
 - **good luck** (expected: `καλή τύχη`)
@@ -200,17 +237,18 @@
 - **boy** (expected: `αγόρι`)
 - **girl** (expected: `κορίτσι`)
 - **beer** (expected: `μπύρα`)
-- **house** (expected: `σπίτι`)
-- **room** (expected: `δωμάτιο`)
-- **kitchen** (expected: `κουζίνα`)
-- **bedroom** (expected: `υπνοδωμάτιο`)
-- **bathroom** (expected: `μπάνιο`)
-- **door** (expected: `πόρτα`)
-- **window** (expected: `παράθυρο`)
-- **table** (expected: `τραπέζι`)
-- **chair** (expected: `καρέκλα`)
-- **bed** (expected: `κρεβάτι`)
-- *...and 43 more*
+- **key** (expected: `κλειδί`)
+- **garden** (expected: `κήπος`)
+- **apartment** (expected: `διαμέρισμα`)
+- **pharmacy** (expected: `φαρμακείο`)
+- **post office** (expected: `ταχυδρομείο`)
+- **village** (expected: `χωριό`)
+- **beach** (expected: `παραλία`)
+- **sometimes** (expected: `μερικές φορές/καμιά φορά/μερικές φορές`)
+- **weekend** (expected: `σαββατοκύριακο`)
+- **wrong** (expected: `λάθος`)
+- **phone** (expected: `τηλέφωνο`)
+- *...and 30 more*
 
 ## Exempt Essentials Keys (5)
 

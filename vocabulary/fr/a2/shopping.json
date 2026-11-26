@@ -269,18 +269,23 @@
       "Objet de cuir où l'on range ses billets et ses cartes."
     ],
     "examples": [
-      "Il garde son argent dans son portefeuille."
+      "Il garde son argent dans son portefeuille.",
+      "Son portefeuille est dans sa veste."
     ],
     "domain": "general",
     "theme": "shopping",
-    "updated": "2025-05-18",
+    "updated": "2026-11-26",
     "emoji": "👛",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
     "plural_form": "portefeuilles",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "levels": [
+      "A1",
+      "A2"
+    ]
   },
   {
     "id": "fr:monnaie:noun",
@@ -306,7 +311,7 @@
     "sub_theme": "money_currency"
   },
   {
-    "id": "fr:billet-a2:noun",
+    "id": "fr:billet-banknote:noun",
     "word": "billet",
     "language": "fr",
     "form": "noun",
@@ -320,14 +325,15 @@
     ],
     "domain": "general",
     "theme": "shopping",
-    "updated": "2025-05-18",
+    "updated": "2026-11-26",
     "emoji": "💵",
     "no_antonym": true,
     "countability": "countable",
     "article": "le",
     "gender": "masculine",
     "plural_form": "billets",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "sense": "banknote"
   },
   {
     "id": "fr:piece-monnaie:noun",
@@ -344,14 +350,15 @@
     ],
     "domain": "general",
     "theme": "shopping",
-    "updated": "2025-05-18",
+    "updated": "2026-11-26",
     "emoji": "🪙",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
     "plural_form": "pièces",
-    "sub_theme": "money_currency"
+    "sub_theme": "money_currency",
+    "sense": "coin"
   },
   {
     "id": "fr:essayer:verb",

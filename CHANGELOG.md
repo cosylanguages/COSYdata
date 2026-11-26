@@ -4,7 +4,35 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
+
 ### Changed
+- P25 merged 31 more duplicate entries, assigned 46 distinct `sense` labels to true homographs, removed one empty file, and drove the strict same-sense duplicate signal to 0 (12,122 findings / 31,644 entries).
+- P24 merged 43 exact or malformed duplicate entries across 20 exact-definition pairs and 23 empty/transliteration variants, added redirect aliases, rebuilt indexes/daily/comparative data, and reduced duplicate groups from 123 to 81 (12,178 findings / 31,675 entries).
+- P23 capped Chuvash, Tatar, Bashkir and Breton at B2: removed their C1/C2 directories and 661 entries, added null aliases for all removed IDs, and refreshed the quality baseline to 12,265 findings / 31,718 entries.
+- Resolved all 122 French/Italian/Russian `-a2` IDs: renamed nine distinct senses with semantic IDs and `sense` values, merged 113 level variants into their base entries with A2 in `levels`, added aliases, and refreshed the quality baseline to 13,104 findings / 32,379 entries.
+- Replaced six malformed French phrase IPA strings that used `_` separators, and recorded the 126 remaining phrase pseudo-transcriptions and the 122 `-a2` semantic-ID cases in `reports/needs-review/`.
+- Pinned `actions/checkout` and `actions/setup-node` to v4.4.0 commit SHAs and added least-privilege permissions to the workflows.
+- Corrected the README `concept` description to match the 80 English dotted keys and 2,664 non-English `en:` references in the data.
+- Added the missing `domain` and `updated` fields to five English A0-A1 furniture entries; the EN parity violation count is now 0.
+- Declared `playwright`, installed Chromium in CI, and added `test:conjugation` to the validation workflow; all four conjugation tests now pass.
+- Removed the one-byte `docs/unified-taxonomy-draft/123` stray file and 57 exact duplicate files from `reports/archive/`, leaving three unique historical reports.
+- Replaced the one-word Spanish examples and pseudo-IPA for `es:enfermo:adjective` and `es:util:adjective`; refreshed the baseline to 13,371 findings.
+- Updated the CI validation workflow to install from the lockfile and run the full `npm run validate` chain; removed the duplicate baseline step.
+- Escaped the remaining data-derived `emoji`, `form`, `level` and entry-ID values rendered by `shared/dictionary-ui.js`, closing the stored-XSS surface in the autocomplete and Word of the Day cards.
+- Changed the final non-ASCII ID `fr:fêter-un-anniversaire:phrase` to `fr:feter-un-anniversaire:phrase`, fixed its malformed IPA underscore, and refreshed the baseline to 13,372 findings.
+- Repaired the last four Italian ID/form mismatches (`it:ma`, `it:e`, `it:o` to `:conjunction`; `it:non-piacere` to `:phrase`), removed the duplicate daily-verbs copy, and refreshed the baseline to 13,373 findings.
+- Renamed 126 French `avoir …` IDs from `:idiom` to `:phrase` to match their `form`, added retired-ID aliases, refreshed the quality baseline to 13,378 findings, and regenerated French indexes.
+- Repaired the Spanish `a0_a1/places_transport` country/city batch: merged 4 entries into existing A2 nouns, converted 52 `:other` IDs to `:noun` with Spanish definitions, examples and IPA checked against Spanish Wiktionary, and added 56 retired-ID aliases. Entry count is now 32,493; findings fell to 13,504. Three manual IPA readings are listed in `reports/needs-review/p9-es-places.md`.
+- Repaired the French `a0_a1/sports_hobbies` verb batch: removed 11 mislabeled `noun` duplicates, converted 8 unique entries to `verb` with real French definitions/examples and ASCII IDs, filled the weak canonical `fr:jardiner:verb`, and added 19 retired-ID aliases. Entry count is now 32,497; findings fell to 13,620.
+- Corrected documentation and UI naming: README now documents `a0/`, `a1/` and nested `home/` layouts, distinguishes target quality requirements from baselined debt, and the 40-verb page is titled "Core Verbs" instead of "Top 10".
+- Decoded 74 double-escaped `transcription` values and 4 escaped definition/example strings across 10 family files; refreshed `reports/quality-baseline.json` to 13,680 findings and regenerated indexes.
+- Added CI steps for `npm run test:verb-inventory`, `npm run audit`, and `npm run parity`, so those data checks now run on vocabulary/schema/script changes.
+- Escaped every dynamic value rendered by `top10-verbs.html` (`english_title`, `emoji`, infinitive, notes, pronouns and conjugated forms), closing the data-to-HTML injection sink.
+- Replaced the HTML-unsafe `emoji` values in `en:more-than:adverb` (`>` -> `➕`) and `en:less-than:adverb` (`<` -> `➖`); refreshed `reports/quality-baseline.json` to 13,754 findings.
+- Fixed the A0/A1 parity loader to recurse into nested `a0_a1/home/**` files instead of reading only the top-level directory. Corrected totals: EN 1,686, FR 1,639, IT 1,235, RU 737, EL 934; false "missing essentials" fell from 18/36/23/70/67 to 6/31/11/63/55. Added `npm run test:parity` and a CI check.
+- Removed 688 empty vocabulary JSON files (`[]`) that were unreferenced by indexes, scripts, schemas, or documentation, reducing the data set from 1,850 to 1,162 files. Indexes, daily calendars, comparative artifacts, and entry counts are unchanged; `npm run validate` no longer emits empty-file warnings. Full list: `reports/empty-vocabulary-files-pruned.md`.
 - Applied 310 curated, high-confidence semantic theme corrections across 30 files, including personality traits, culture terms, professions, crime terms, modal verbs, and adverbs. Added `scripts/fix-theme-mismatches.cjs` and `scripts/theme-mismatch-corrections.json`. The remaining 2,411 file/theme mismatches are split into 1,663 expected form-file mismatches and 748 semantic review items; see `reports/theme-mismatch-corrections.md`.
 - Backfilled broad form-based themes for the remaining 4,815 entries across 163 form-based files, so every vocabulary entry now has a valid primary theme and sub-theme. Added `scripts/backfill-form-themes.cjs`; the theme validator now rejects entries without a theme unless `--allow-missing-theme` is passed.
 - Synchronized `shared/themes.json` with `schemas/themes.json` by adding 27 canonical sub-themes, so every data theme is also available in the display taxonomy. Added `scripts/sync-shared-themes.cjs` and `scripts/validate-theme-taxonomy-sync.cjs`.

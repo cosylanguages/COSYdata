@@ -50,14 +50,15 @@
     "domain": "general, spoken",
     "theme": "family",
     "sub_theme": "relationships",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/ko.noˈʃen.tsa/",
     "emoji": "🧑",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "conoscenze"
+    "plural_form": "conoscenze",
+    "sense": "acquaintance"
   },
   {
     "id": "it:fiducia:noun",
@@ -78,7 +79,7 @@
     "domain": "general, spoken",
     "theme": "family",
     "sub_theme": "relationships",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/fiˈduː.tʃa/",
     "emoji": "🤝",
     "antonyms": [
@@ -86,7 +87,13 @@
     ],
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "classification": "regular",
+    "no_antonym": true,
+    "levels": [
+      "A2",
+      "B1"
+    ]
   },
   {
     "id": "it:sostegno:noun",
@@ -107,14 +114,19 @@
     "domain": "general, spoken",
     "theme": "family",
     "sub_theme": "relationships",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/sosˈteɲ.ɲo/",
     "emoji": "🤲",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "sostegni"
+    "plural_form": "sostegni",
+    "classification": "regular",
+    "levels": [
+      "A2",
+      "B1"
+    ]
   },
   {
     "id": "it:conflitto:noun",
@@ -391,13 +403,18 @@
     "domain": "general, spoken",
     "theme": "family",
     "sub_theme": "relationships",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/ko.mu.niˈta/",
     "emoji": "🌐",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "classification": "regular",
+    "levels": [
+      "A2",
+      "B1"
+    ]
   },
   {
     "id": "it:solitudine:noun",
@@ -504,11 +521,20 @@
     "domain": "general, spoken",
     "theme": "family",
     "sub_theme": "relationships",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/sos.teˈneː.re/",
     "emoji": "🤲",
     "antonyms": [
       "ostacolare"
+    ],
+    "classification": "irregular",
+    "aspect": "action",
+    "group": "ere",
+    "auxiliary": "avere",
+    "no_antonym": true,
+    "levels": [
+      "A2",
+      "B1"
     ]
   },
   {

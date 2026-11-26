@@ -11,6 +11,8 @@ on:
       - 'schemas/**'
       - 'scripts/**'
       - 'shared/**'
+      - 'tests/**'
+      - 'reports/quality-baseline.json'
   pull_request:
     branches: [ main ]
     paths:
@@ -21,33 +23,53 @@ on:
       - 'schemas/**'
       - 'scripts/**'
       - 'shared/**'
+      - 'tests/**'
+      - 'reports/quality-baseline.json'
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install --no-save ajv@^8 ajv-formats@^2
+        run: npm ci
 
-      - name: Validate Vocabulary Files & Index References
-        run: node scripts/validate.cjs
-
-      - name: Validate Theme Normalisation
-        run: node scripts/validate-theme-normalisation.cjs
-
-      - name: Validate Theme Taxonomy Sync
-        run: node scripts/validate-theme-taxonomy-sync.cjs
+      - name: Validate vocabulary, themes and quality baseline
+        run: npm run validate
 
       - name: Validate Taxonomy
         run: node scripts/validate-taxonomy.cjs
+
+      - name: Validate Verb Inventory
+        run: npm run test:verb-inventory
+
+      - name: Audit A0/A1 Data
+        run: npm run audit
+
+      - name: Build A0/A1 Parity Report
+        run: npm run parity
+
+      - name: Test Quality Rules
+        run: npm run test:quality
+
+      - name: Test Parity Loader
+        run: npm run test:parity
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Test Conjugation Embed
+        run: npm run test:conjugation
 
       - name: Check Index Freshness
         run: |

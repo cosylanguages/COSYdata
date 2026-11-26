@@ -207,20 +207,6 @@
     "plural_form": "сушильные машины"
   },
   {
-    "id": "ru:lift-elevator:noun",
-    "word": "лифт",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:elevator:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "лифты"
-  },
-  {
     "id": "ru:zapasnyy-vykhod:noun",
     "word": "запасный выход",
     "language": "ru",
@@ -436,20 +422,6 @@
     "plural_form": "выезды"
   },
   {
-    "id": "ru:rayon:noun",
-    "word": "район",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "status": "needs_review",
-    "concept": "en:neighborhood:noun",
-    "theme": "housing",
-    "sub_theme": "rooms_spaces",
-    "gender": "masculine",
-    "countability": "countable",
-    "plural_form": "районы"
-  },
-  {
     "id": "ru:detskaya-vstrecha:noun",
     "word": "детская встреча",
     "language": "ru",
@@ -597,7 +569,11 @@
     "sub_theme": "rooms_spaces",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "лифты"
+    "plural_form": "лифты",
+    "levels": [
+      "A2"
+    ],
+    "updated": "2026-11-26"
   },
   {
     "id": "ru:navodit-poryadok:verb",

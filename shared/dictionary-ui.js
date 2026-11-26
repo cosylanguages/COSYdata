@@ -1276,14 +1276,14 @@ export async function initDictionaryUI(container, options = {}) {
     autocompleteList.innerHTML = matches
       .map(
         (m, idx) => `
-        <div class="cosy-dict-autocomplete-item" data-autocomplete-idx="${idx}" data-entry-id="${m.id}" role="option">
+        <div class="cosy-dict-autocomplete-item" data-autocomplete-idx="${idx}" data-entry-id="${escapeHtml(m.id)}" role="option">
           <div class="cosy-dict-autocomplete-left">
-            ${m.emoji ? `<span style="font-size: 16px;">${m.emoji}</span>` : ''}
+            ${m.emoji ? `<span style="font-size: 16px;">${escapeHtml(m.emoji)}</span>` : ''}
             <span class="cosy-dict-autocomplete-word">${escapeHtml(m.word)}</span>
           </div>
           <div class="cosy-dict-autocomplete-badges">
             ${m.form ? `<span class="cosy-dict-badge cosy-dict-badge-form">${escapeHtml(m.form)}</span>` : ''}
-            ${m.level ? `<span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${m.level.toLowerCase()}">${escapeHtml(m.level)}</span>` : ''}
+            ${m.level ? `<span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${escapeHtml(m.level.toLowerCase())}">${escapeHtml(m.level)}</span>` : ''}
           </div>
         </div>
       `
@@ -1432,10 +1432,10 @@ export async function initDictionaryUI(container, options = {}) {
         <div class="cosy-dict-wotd-badge">Word of the Day</div>
         <div class="cosy-dict-wotd-card" id="cosy-wotd-card-body">
           <div class="cosy-dict-wotd-header">
-            ${wotdLightweight.emoji ? `<span class="cosy-dict-wotd-emoji">${wotdLightweight.emoji}</span>` : ''}
+            ${wotdLightweight.emoji ? `<span class="cosy-dict-wotd-emoji">${escapeHtml(wotdLightweight.emoji)}</span>` : ''}
             <strong class="cosy-dict-wotd-word">${escapeHtml(wotdLightweight.word)}</strong>
-            <span class="cosy-dict-badge cosy-dict-badge-form">${wotdLightweight.form || ''}</span>
-            <span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${(wotdLightweight.level || 'a1').toLowerCase()}">${wotdLightweight.level || ''}</span>
+            <span class="cosy-dict-badge cosy-dict-badge-form">${escapeHtml(wotdLightweight.form || '')}</span>
+            <span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${escapeHtml((wotdLightweight.level || 'a1').toLowerCase())}">${escapeHtml(wotdLightweight.level || '')}</span>
           </div>
           <p class="cosy-dict-wotd-loading">Fetching definition...</p>
         </div>
@@ -1453,11 +1453,11 @@ export async function initDictionaryUI(container, options = {}) {
             const ex = (fullWotd.examples && fullWotd.examples[0]) || '';
             wotdCardBody.innerHTML = `
               <div class="cosy-dict-wotd-header">
-                ${fullWotd.emoji ? `<span class="cosy-dict-wotd-emoji">${fullWotd.emoji}</span>` : ''}
+                ${fullWotd.emoji ? `<span class="cosy-dict-wotd-emoji">${escapeHtml(fullWotd.emoji)}</span>` : ''}
                 <strong class="cosy-dict-wotd-word">${escapeHtml(fullWotd.word)}</strong>
                 ${fullWotd.transcription ? `<span class="cosy-dict-ipa">${escapeHtml(fullWotd.transcription)}</span>` : ''}
-                <span class="cosy-dict-badge cosy-dict-badge-form">${fullWotd.form || ''}</span>
-                <span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${(fullWotd.level || 'a1').toLowerCase()}">${fullWotd.level || ''}</span>
+                <span class="cosy-dict-badge cosy-dict-badge-form">${escapeHtml(fullWotd.form || '')}</span>
+                <span class="cosy-dict-badge cosy-dict-badge-level cosy-dict-level-${escapeHtml((fullWotd.level || 'a1').toLowerCase())}">${escapeHtml(fullWotd.level || '')}</span>
               </div>
               ${def ? `<p class="cosy-dict-wotd-def">${escapeHtml(def)}</p>` : ''}
               ${ex ? `<blockquote class="cosy-dict-wotd-ex">"${escapeHtml(ex)}"</blockquote>` : ''}

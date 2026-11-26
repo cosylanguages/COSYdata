@@ -725,7 +725,7 @@
     "domain": "general, spoken",
     "theme": "actions",
     "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/aˈpriː.re/",
     "emoji": "🔓",
     "antonyms": [
@@ -733,7 +733,8 @@
     ],
     "related_forms": [
       "COSYtools:it-coniugatore:aprire"
-    ]
+    ],
+    "sense": "open"
   },
   {
     "id": "it:chiudere:verb",
@@ -804,7 +805,7 @@
     "domain": "general, spoken",
     "theme": "actions",
     "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/ˈprɛn.de.re/",
     "emoji": "🤲",
     "antonyms": [
@@ -843,7 +844,12 @@
         "prefix": "intra-",
         "meaning_shift": "iniziare un attivita"
       }
-    ]
+    ],
+    "classification": "irregular",
+    "aspect": "action",
+    "group": "ere",
+    "auxiliary": "avere",
+    "no_antonym": true
   },
   {
     "id": "it:camminare:verb",
@@ -1076,7 +1082,7 @@
     "domain": "general, spoken",
     "theme": "actions",
     "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "transcription": "/tʃerˈkaː.re/",
     "emoji": "🔍",
     "antonyms": [
@@ -1084,6 +1090,15 @@
     ],
     "related_forms": [
       "COSYtools:it-coniugatore:cercare"
+    ],
+    "classification": "regular",
+    "aspect": "action",
+    "group": "are",
+    "auxiliary": "avere",
+    "no_antonym": true,
+    "levels": [
+      "A1",
+      "A2"
     ]
   },
   {
@@ -3567,31 +3582,6 @@
     "sub_theme": "positive_feelings",
     "translation_of": "en:adore:verb",
     "concept": "feelings.emotions.adore",
-    "updated": "2026-11-21",
-    "no_antonym": true,
-    "no_emoji": true
-  },
-  {
-    "id": "it:non-piacere:verb",
-    "word": "non piacere",
-    "language": "it",
-    "form": "phrase",
-    "level": "A1",
-    "levels": [
-      "A1"
-    ],
-    "transcription": "/non pjaˈtʃe.re/",
-    "definitions": [
-      "Non gradire o non apprezzare."
-    ],
-    "examples": [
-      "Non mi piace la pioggia."
-    ],
-    "domain": "general",
-    "theme": "emotions",
-    "sub_theme": "positive_feelings",
-    "translation_of": "en:dislike:verb",
-    "concept": "feelings.emotions.dislike",
     "updated": "2026-11-21",
     "no_antonym": true,
     "no_emoji": true

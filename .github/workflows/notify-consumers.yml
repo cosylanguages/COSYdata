@@ -8,6 +8,9 @@ on:
       - 'functional-phrases/**'
       - 'curriculum/**'
 
+permissions:
+  contents: read
+
 jobs:
   notify-consumers:
     runs-on: ubuntu-latest

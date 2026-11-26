@@ -38,7 +38,7 @@
     ],
     "domain": "general",
     "theme": "housing",
-    "updated": "2026-10-11",
+    "updated": "2026-11-26",
     "emoji": "🛗",
     "no_antonym": true,
     "gender": "masculine",
@@ -49,7 +49,8 @@
     "levels": [
       "A0",
       "A2"
-    ]
+    ],
+    "concept": "en:elevator:noun"
   },
   {
     "id": "fr:bain:noun",
@@ -86,18 +87,23 @@
       "Objet creux pour ranger."
     ],
     "examples": [
-      "Le chat est dans la boîte."
+      "Le chat est dans la boîte.",
+      "Une boîte en carton."
     ],
     "domain": "general",
     "theme": "housing",
-    "updated": "2026-10-11",
+    "updated": "2026-11-26",
     "emoji": "📦",
     "no_antonym": true,
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
     "plural_form": "boîtes",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "levels": [
+      "A0",
+      "A1"
+    ]
   },
   {
     "id": "fr:chaise:noun",
@@ -340,14 +346,15 @@
     ],
     "domain": "general",
     "theme": "housing",
-    "updated": "2026-10-11",
+    "updated": "2026-11-26",
     "emoji": "🚪",
     "no_antonym": true,
     "countability": "countable",
     "article": "la",
     "gender": "feminine",
     "plural_form": "pièces",
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "sense": "room"
   },
   {
     "id": "fr:radio:noun",
@@ -363,15 +370,19 @@
       "Écouter la radio."
     ],
     "domain": "general",
-    "theme": "housing",
-    "updated": "2026-10-11",
+    "theme": "objects",
+    "updated": "2026-11-26",
     "emoji": "📻",
     "no_antonym": true,
     "gender": "feminine",
     "article": "la",
     "countability": "countable",
     "plural_form": "radios",
-    "sub_theme": "furniture"
+    "sub_theme": "general",
+    "levels": [
+      "A0",
+      "A1"
+    ]
   },
   {
     "id": "fr:robinet:noun",
