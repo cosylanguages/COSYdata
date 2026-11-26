@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P55 fixed French, Portuguese and Russian definition gaps, removed a named-person entry and duplicate verbs, and renamed three malformed IDs (9,351 findings / 31,565 entries).
 - P54 defined eleven Greek B1 place names and fixed two malformed Greek housing headwords (9,377 findings / 31,567 entries).
 - P53 defined eight Italian B1 place names, fixed their themes, and removed a duplicate C1 verb entry for `infrastruttura` (9,403 findings / 31,567 entries).
 - P52 added Italian A0 definitions and examples for the last 26 identity, time, navigation and school entries (9,422 findings / 31,568 entries).
