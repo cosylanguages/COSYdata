@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P32 added Greek definitions and examples for 60 entries (11,767 findings / 31,636 entries).
 - P31 added Russian definitions and examples for 88 entries (11,827 findings / 31,636 entries).
 - P30 added source-backed definitions and examples for 52 place/animal entries and removed the last real-person entry (11,996 findings / 31,636 entries).
 - P29 removed 628 template examples from French, Italian and Russian; missing-example debt is now visible (12,102 findings / 31,637 entries).
