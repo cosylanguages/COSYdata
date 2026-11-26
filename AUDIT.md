@@ -182,8 +182,8 @@ The validator's "placeholder definitions and examples" check only checks values 
 - `daily-calendar.yml` has `contents: write` and commits directly to `main` on a schedule; there is no test gate for generated daily content.
 
 ### C2 - Stored-XSS surface in the dictionary UI (Medium)
-- `dictionary-ui.js` inserts `emoji` and `form` directly into `innerHTML` in several places: lines 1281, 1435, 1437, 1456, 1459, 1460. Some other fields are escaped, so sanitisation is inconsistent.
-- `emoji` and `form` are unconstrained strings in the schema. A future entry with `emoji: "<img src=x onerror=…>"` or a malicious `form` would execute in any consumer that uses `dictionary-ui.js`. Current data contains no `<script>`/`onerror`/`javascript:` payloads. P3 replaced the two HTML-unsafe `<`/`>` values; 5 entries still use safe symbols (`%`, `=`).
+- P13 escaped all data-derived `emoji`, `form`, `level` and entry-ID values inserted into `innerHTML` in `dictionary-ui.js`; previously these fields were interpolated raw at lines 1279, 1281, 1435, 1437, 1438, 1456, 1459 and 1460.
+- `emoji` and `form` remain unconstrained strings in the schema, so the UI must keep escaping them. Current data contains no `<script>`/`onerror`/`javascript:` payloads. P3 replaced the two HTML-unsafe `<`/`>` values; 5 entries still use safe symbols (`%`, `=`).
 - `index.html` loads three external scripts from `https://cosylanguages.github.io/...` with no SRI and no CSP meta tag: `daily-strip.js`, `daily-directory.js`, `ecosystem-strip.js`. A compromise of the COSYlanguages Pages repo would execute in COSYdata consumers.
 - `top10-verbs.html` previously inserted values from `shared/top10-verbs.json` into HTML without escaping. P4 added `escapeHtml` around every interpolated verb/conjugation field.
 
