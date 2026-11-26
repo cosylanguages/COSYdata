@@ -39,16 +39,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install --no-save ajv@^8 ajv-formats@^2
+        run: npm ci
 
-      - name: Validate Vocabulary Files & Index References
-        run: node scripts/validate.cjs
-
-      - name: Validate Theme Normalisation
-        run: node scripts/validate-theme-normalisation.cjs
-
-      - name: Validate Theme Taxonomy Sync
-        run: node scripts/validate-theme-taxonomy-sync.cjs
+      - name: Validate vocabulary, themes and quality baseline
+        run: npm run validate
 
       - name: Validate Taxonomy
         run: node scripts/validate-taxonomy.cjs
@@ -67,9 +61,6 @@ jobs:
 
       - name: Test Parity Loader
         run: npm run test:parity
-
-      - name: Check Vocabulary Quality Baseline
-        run: npm run quality
 
       - name: Check Index Freshness
         run: |
