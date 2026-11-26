@@ -11,6 +11,8 @@ on:
       - 'schemas/**'
       - 'scripts/**'
       - 'shared/**'
+      - 'tests/**'
+      - 'reports/quality-baseline.json'
   pull_request:
     branches: [ main ]
     paths:
@@ -21,6 +23,8 @@ on:
       - 'schemas/**'
       - 'scripts/**'
       - 'shared/**'
+      - 'tests/**'
+      - 'reports/quality-baseline.json'
 
 jobs:
   validate:
@@ -48,6 +52,12 @@ jobs:
 
       - name: Validate Taxonomy
         run: node scripts/validate-taxonomy.cjs
+
+      - name: Test Quality Rules
+        run: npm run test:quality
+
+      - name: Check Vocabulary Quality Baseline
+        run: npm run quality
 
       - name: Check Index Freshness
         run: |

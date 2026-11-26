@@ -27,6 +27,27 @@
     },
     "form": {
       "type": "string",
+      "enum": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "phrase",
+        "idiom",
+        "preposition",
+        "pronoun",
+        "determiner",
+        "conjunction",
+        "interjection",
+        "expression",
+        "number",
+        "article",
+        "postposition",
+        "particle",
+        "phrasal_verb",
+        "prefix",
+        "suffix"
+      ],
       "description": "Grammatical form or part of speech, e.g. noun, verb, adjective, adverb"
     },
     "level": {

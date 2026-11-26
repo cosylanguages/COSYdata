@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,756 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
+
 ### Changed
 - Applied 310 curated, high-confidence semantic theme corrections across 30 files, including personality traits, culture terms, professions, crime terms, modal verbs, and adverbs. Added `scripts/fix-theme-mismatches.cjs` and `scripts/theme-mismatch-corrections.json`. The remaining 2,411 file/theme mismatches are split into 1,663 expected form-file mismatches and 748 semantic review items; see `reports/theme-mismatch-corrections.md`.
 - Backfilled broad form-based themes for the remaining 4,815 entries across 163 form-based files, so every vocabulary entry now has a valid primary theme and sub-theme. Added `scripts/backfill-form-themes.cjs`; the theme validator now rejects entries without a theme unless `--allow-missing-theme` is passed.

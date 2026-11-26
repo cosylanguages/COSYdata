@@ -97,8 +97,15 @@ Vocabulary entries are JSON objects defined and validated against `schemas/vocab
 ## Build & Validation Commands
 
 ```bash
-# Run schema and taxonomy validation, index mapping, and partitive/contraction checks
+# Run schema and taxonomy validation, index mapping, partitive/contraction checks,
+# and the vocabulary quality regression gate
 npm run validate
+
+# Check vocabulary quality against the accepted baseline only
+npm run quality
+
+# Accept the current quality debt as the baseline (use only after reviewing the diff)
+npm run quality:update-baseline
 
 # Build primary index.json and themes-index.json for all language datasets
 npm run build:index
@@ -106,6 +113,16 @@ npm run build:index
 # Build all index artifacts (index.json, flat-index.json, search-index.json)
 npm run build
 ```
+
+### Vocabulary quality gate
+
+`schemas/vocabulary.quality.schema.json` is the target quality profile. It requires
+definitions and examples, enforces the `lang:slug:form` ID pattern, and restricts
+forms and unsafe emoji. Because the repository already has substantial data debt,
+`scripts/quality-audit.cjs` records existing violations in
+`reports/quality-baseline.json` and fails only when a new violation is introduced.
+`npm run quality:update-baseline` is intentionally explicit: it should only be run
+after reviewing the new findings.
 
 ---
 

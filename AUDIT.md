@@ -1,93 +1,260 @@
 # COSYdata Repository Audit Report
 
-This audit assesses the structural integrity, CI validation accuracy, client API robustness, and developer documentation of the `COSYdata` repository. As `COSYdata` is primarily a static JSON dataset served via GitHub Pages alongside shared JS resolver utilities, visual UI/CSS analysis is not applicable and is noted accordingly.
+**Audit date:** 2026-11-26
+**Revision:** `3502aa4` (`main`, shallow clone)
+**Scope:** structural integrity, vocabulary quality, schema/index consistency, taxonomy, resolver, parity tooling, tests/CI, documentation, security, repository hygiene.
 
----
+**Method:** static inspection plus reproducible commands. `npm run validate`, `npm run build`, `npm run audit`, `npm run parity`, `npm run test:verb-inventory` and `npm run test:conjugation` were run. Indexes were rebuilt and compared with committed files; no drift was found. No vocabulary data was changed; the P0 remediation adds a quality gate and records existing debt in `reports/quality-baseline.json`.
 
-## STRUCTURAL / LOGIC AUDIT
+> This report replaces the previous `AUDIT.md`. Its claims that validation fails with 78 retired IDs and that `KNOWN_FORMS` lacks `idiom`/`phrasal_verb` are false on this revision: validation passes and `KNOWN_FORMS` covers every form currently in the data.
 
-### Finding 1: `resolveVocab` Suppresses Errors and Returns `null` on Missing Entries or Network/404 Failures
-- **Severity:** High
-- **Location:** `shared/vocab-resolver.js` (`fetchJson` function, lines 84–95; `resolveVocab` function, lines 109–246)
-- **Why it matters:** When `resolveVocab` is asked to resolve a non-existent ID (e.g. `en:nonexistent:noun`) or encounters a network error / HTTP 404 while fetching `index.json` or a theme file, it catches the error, outputs a `console.warn` log, and returns `null`. While returning `null` allows simple boolean checks (`if (!entry) ...`), consuming applications (such as `COSYlanguages` practice hub or `COSYgames`) receive no error object, status code, or structural error classification distinguishing between:
-  1. Word reference missing from `index.json` or alias mapping (404 / content gap),
-  2. Temporary network or HTTP server outage (500 / offline / CORS issue),
-  3. Malformed JSON or parse error.
+## Executive verdict
 
-  Furthermore, `hydrateVocabElements` silently catches exceptions and leaves DOM node text completely unchanged when `resolveVocab` returns `null`. On consuming practice pages, missing entries fail silently, leaving blank or unhydrated placeholder spans without triggering fallback visual states or retry mechanisms.
+The repository is **not yet a reliable 14-language A0-C2 dataset**. English is substantially populated; most other languages are partial scaffolds. Validators pass because they check schema shape, unique IDs, index coverage and theme names, but they do **not** enforce definitions, examples, real IPA, correct POS, level progression, or same-word/same-form uniqueness. The repo therefore contains large blocks of placeholder, duplicate and mislabeled entries that consumers will render as real vocabulary.
 
----
+Highest-impact problems:
 
-### Finding 2: CI Workflow Validates Index Freshness via Git Diff, but `validate.cjs` Lacks Flat-Index and Search-Index Cross-Checks
-- **Severity:** Medium
-- **Location:** `.github/workflows/validate-vocabulary.yml` (lines 35–56) & `scripts/validate.cjs`
-- **Why it matters:** The README claims CI validates index freshness. In `.github/workflows/validate-vocabulary.yml`, index freshness is checked by running `npm run build:index`, `npm run build:flat-index`, and `npm run build:search-index` sequentially and verifying `git diff --exit-code vocabulary/`. However:
-  1. `scripts/validate.cjs` itself only checks `index.json` mappings against theme files; it does **not** validate whether `flat-index.json` or `search-index.json` contain dangling IDs, orphaned surface forms, or out-of-sync metadata.
-  2. If a contributor runs `npm run validate` locally, `validate.cjs` passes without alerting them that `flat-index.json` or `search-index.json` are stale unless they also run `npm run build`.
+1. **Level coverage is not a progression.** German, Spanish and Portuguese have zero B2 and C1 entries; Chuvash has zero A2, B1, B2 and C1; Armenian, Georgian, Bashkir, Tatar and Breton have only 17 A2 and 11 B1 entries but 88-140 B2/C1 entries.
+2. **688 of 1,850 vocabulary JSON files are empty (37%).**
+3. **1,279 entries have no definition and 1,803 have no example.** Another 710 examples are template sentences and 273 "definitions" are just the headword.
+4. **483 entries share the same word and the same form with another entry; 447 share word, form and sense.** This includes 122 explicit `-a2` duplicates, 126 French `avoir …` entries with an `:idiom` ID but `form: phrase`, and 56 Spanish country/city `:other` entries.
+5. **205 IDs violate their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but pass the schema; 76 of them fail the stricter quality ID pattern outright.
+6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 74 are double-escaped Unicode, 281 are `-`, and 5,779 are missing.
+7. **The parity tool ignores nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`.
+8. **Tests and CI do not protect the data.** The only test file fails because `playwright` is not declared; CI does not run it, nor `audit`, `parity`, or `test:verb-inventory`.
 
----
+## Verification results
 
-### Finding 3: Repository CI Validation Currently Fails (`scripts/validate.cjs`) Due to Retired IDs in Data Files and Unmapped Themes
-- **Severity:** High
-- **Location:** `scripts/validate.cjs`, `shared/id-aliases.json`, and dataset JSON files (e.g., `vocabulary/tt/a0_a1/*.json`)
-- **Why it matters:** Running `npm run validate` fails on the current `main` branch with 78 retired ID errors (e.g. `[RETIRED ID ERROR] ID 'en:eyes:noun' is listed in shared/id-aliases.json as retired, but still exists in data files`). `scripts/validate.cjs` enforces that retired IDs in `shared/id-aliases.json` must not exist in data files. Because these retired IDs were not purged from the source theme JSON files during alias creation, any PR or CI run touching vocabulary files will fail validation.
+| Command | Result |
+|---|---|
+| `npm run validate` | Passes, with many "contains no entries" warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
+| `npm run quality` | Passes against the baseline: 32,508 entries, 13,756 recorded findings, 0 new. |
+| `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
+| `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
+| `npm run parity` | Passes but covers only five languages and ignores nested `a0_a1/home/**` entries. |
+| `npm run test:verb-inventory` | Passes: 53 concepts, 55 senses, 772 translations, 14 languages. |
+| `npm run test:conjugation` | **Fails:** `ERR_MODULE_NOT_FOUND: Cannot find package 'playwright'`. `playwright` is absent from `package.json` and `package-lock.json`. |
 
----
+## Structural findings
 
-### Finding 4: Fragile 3-Part Reference Parsing in `resolveVocab` for Hyphenated Words or Custom Forms
-- **Severity:** Medium
-- **Location:** `shared/vocab-resolver.js` (lines 130–152)
-- **Why it matters:** `resolveVocab` parses colon-delimited references (`ref.split(':')`). If a reference has 3 parts (`lang:part2:part3`), `resolveVocab` checks if `part3` is in `KNOWN_FORMS` (`Set(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase', 'number'])`).
-  If `part3` matches a known form, `part2` is assumed to be `wordSlug`.
-  However:
-  - If a novel or extended form is used (e.g., `en:take-care-of:phrasal_verb`), `phrasal_verb` is not in `KNOWN_FORMS`, so `resolveVocab` misinterprets `part2` (`take-care-of`) as a `theme` and `part3` (`phrasal_verb`) as `wordSlug`.
-  - If a reference has more than 3 colon segments, `wordSlug` parsing relies on array slicing (`parts.slice(2).join(':')`) which fails to resolve standard canonical IDs correctly.
+### S1 - Empty scaffold files (Critical)
+- **688 empty JSON arrays out of 1,850 vocabulary data files (37.2%).**
+- Worst: `ru/b1` 46, `el/b1` 46, `it/b2` 45, `ru/b2` 45, `el/b2` 45, `fr/c1` 43, `it/c1` 43, `ru/c1` 43, `el/c1` 43, `fr/b2` 41, `fr/b1` 36, `el/a2` 31.
+- Empty by theme name: `phrasal_verbs` 18, `idioms` 17, `linking_words` 17, `teachers_scientists` 16, `academic_english` 16, `media` 16, `it_specialists` 16, `register` 16, `ethics`/`emotions`/`politics`/`society` 15 each.
+- The validator only warns. Empty files look like supported themes/levels to consumers and make coverage reports misleading.
 
----
+### S2 - Level directories and level coverage are inconsistent (Critical)
+- `de`, `es` and `pt` have no `a0` and no `b2` directory. `cv` has only `a0_a1`, `a1` and `c2`.
+- `en`, `fr`, `it`, `ru` and `el` have three overlapping beginner schemes: `a0/`, `a0_a1/`, `a1/`.
+- Nested `home/furniture/**` directories exist across all 14 languages, in addition to flat theme files. They are valid data but outside the documented flat layout and outside the parity scan.
+- Entries by level (including nested):
 
-### Finding 5: `localStorage` Cache Invalidations and Exception Handling Gaps in Resolver
-- **Severity:** Low
-- **Location:** `shared/vocab-resolver.js` (`getCache` & `setCache`, lines 29–82)
-- **Why it matters:** When `localStorage.setItem` fails (e.g. quota exceeded or private browsing restrictions in iOS Safari), `setCache` silently ignores the error and relies on `memoryCache`. However, cached index and theme payloads have a fixed 24-hour TTL (`DEFAULT_TTL_MS = 86400000`). If a dataset update is deployed to GitHub Pages, client browsers will continue serving stale cached JSON definitions for up to 24 hours with no cache-busting version parameter or cache-revalidation mechanism (`ETag` / `If-None-Match`).
+| Lang | A0 | A1 | A2 | B1 | B2 | C1 | C2 | Total |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| en | 478 | 1,264 | 3,080 | 2,706 | 2,286 | 1,826 | 1,171 | 12,811 |
+| fr | 1,072 | 635 | 1,001 | 279 | 212 | 189 | 301 | 3,689 |
+| it | 275 | 1,006 | 1,009 | 761 | 226 | 188 | 296 | 3,761 |
+| de | 40 | 592 | 17 | 11 | 0 | 0 | 133 | 793 |
+| ru | 213 | 570 | 1,314 | 268 | 230 | 186 | 290 | 3,071 |
+| el | 155 | 824 | 317 | 113 | 72 | 27 | 141 | 1,649 |
+| es | 35 | 592 | 33 | 11 | 0 | 0 | 132 | 803 |
+| pt | 36 | 584 | 18 | 3 | 0 | 0 | 131 | 772 |
+| br | 29 | 523 | 17 | 11 | 140 | 89 | 125 | 934 |
+| cv | 28 | 572 | 0 | 0 | 0 | 0 | 3 | 603 |
+| hy | 29 | 500 | 17 | 11 | 125 | 88 | 128 | 898 |
+| ka | 28 | 517 | 17 | 11 | 130 | 88 | 126 | 917 |
+| ba | 33 | 498 | 17 | 11 | 127 | 88 | 134 | 908 |
+| tt | 31 | 495 | 17 | 11 | 123 | 88 | 134 | 899 |
 
----
+- **German/Spanish/Portuguese C2-only blocks:** `de` has 133 C2 entries and zero B2/C1; `es` 132; `pt` 131. The C2 files look like real philosophical vocabulary but are `status: needs_review`; the level jump is not credible and needs review.
+- **Chuvash C2** has only 3 entries (`noun.json`, `verb.json`, `adjective.json`), none with examples.
+- **French A0/A1 imbalance:** 1,072 A0 vs 635 A1, while the parity target is 474 A0 / 1,195 A1. This looks like mass A0 labeling, not progression.
 
-## UX / UI (API / DX) AUDIT
+### S3 - Stray, dead and duplicate artefacts (Low/Medium)
+- One-byte stray file `docs/unified-taxonomy-draft/123`.
+- `vocabulary/_canonical/` is an unconsumed second English source: `A0-A1_master.json` has 1,262 words with a different ID scheme (`en_preposition_about`) and definitions such as `"Basic A1 English preposition: 'about'."`; `flat-index.json` is `{}` and `search-index.json` is `[]`. It is not built or validated.
+- `reports/archive/` is 4.4 MB of 61 exact duplicate files; e.g. `reports/content-audit.md` and `reports/archive/content-audit.md` have identical MD5. `reports/` totals 145 files / 11 MB.
+- Pre-existing reports already flag unresolved data: `reports/idiom-duplicates.json` has 786 duplicate idiom groups, `reports/placeholder_merged_entries.json` has 866 entries, and `reports/home-audit.json` (2026-10-11) lists 89 non-home entries in home files, 11 home entries outside home, 4 duplicates, 4 level discrepancies and 20 missing home words.
 
-### Finding 1: `shared/README.md` Lacks Response Shape Specifications and Error Case Documentation
-- **Severity:** Medium
-- **Location:** `shared/README.md`
-- **Why it matters:** `shared/README.md` documents only happy-path examples for `resolveVocab` and `hydrateVocabElements`. It does not provide:
-  1. The explicit TypeScript or JSDoc object shape returned by `resolveVocab` (e.g., list of mandatory vs optional fields: `word`, `form`, `transcription`, `definitions`, `examples`, `level`, `domain`).
-  2. Documentation on what `resolveVocab` returns when an entry is not found (`null` vs throwing).
-  3. Guidance on how consuming apps should handle `null` returns (e.g. fallback UI components, displaying raw word slug, or error boundaries).
-  4. Documentation on `flat-index.json` schema or its return structure (maps surface form strings to arrays of `{ id, field }` objects).
+## Vocabulary quality findings
 
----
+### Q1 - Missing definitions and examples (Critical)
+- **1,279 entries have no `definitions`:** it 381, fr 341, el 256, ru 232, de 11, hy/ka/tt/ba/br 11 each, pt 3.
+- **1,803 entries have no `examples`:** fr 438, it 392, el 314, ru 268, tt/ba 70, hy/ka 69, br 68, es 27, de 11, pt 4, cv 3.
+- All 1,279 entries missing definitions also lack examples; 524 additional entries have definitions but no examples.
+- Cause: the JSON Schema requires only `id`, `word`, `language` and `form`; `definitions` is only constrained to `minItems: 1` **if present**. The "placeholder definitions" check cannot see an absent field.
 
-### Finding 2: `hydrateVocabElements` Field Resolver Supports Limited Array Indexing
-- **Severity:** Low
-- **Location:** `shared/vocab-resolver.js` (`hydrateVocabElements`, lines 266–274) & `shared/README.md`
-- **Why it matters:** `hydrateVocabElements` explicitly checks for `field === 'definitions[0]' || field === 'definition'` and `field === 'examples[0]' || field === 'example'`. However, it does not support generalized array index notation (e.g., `definitions[1]`, `examples[1]`, or `synonyms[0]`), nor does it support joined array fields (e.g., comma-separated `synonyms` or `antonyms`). Developers attempting to display secondary examples or synonym lists via `data-vocab-field` attributes will find those fields evaluated as `undefined` and left unhydrated.
+### Q2 - Placeholder, template and tautological content (High)
+- **710 examples are template sentences:** fr 177 (`Il utilise l'expression "…" dans sa conversation.`), it 210 (`Usa l'espressione "…" nella sua conversazione.`), ru 323 (`Он использует выражение "…" в своем разговоре.` and `Мы знаем известное выражение …`).
+- **273 definitions are just the headword** (case-insensitive): ru 119, el 60, es 27, fr 26, it 25, cv 11, tt 3, ba 2. Examples: `ru:deshevyi:adjective` definition `"дешевый"`; `el:dorean:adjective` definition `"δωρεάν"`; `fr:lyon:noun` definition `"Lyon"`.
+- **133 entries have at least two of these defects** (definition = word, template example, pseudo-IPA): ru 75, it 28, fr 17, el 13.
+- **110 entries use "used to …" style definitions** (`en:maybe`, `en:no`, `en:not`, `en:remote-control`, `en:email-address`, `en:phone-number`, `en:credit-card`): usage notes, not definitions.
 
----
+### Q3 - Duplicate words and forms (Critical)
+- **483 entries share the same `(language, word, form)` with another entry**, in about 241 groups; **447 entries in 223 groups also share the same `sense`** (the stricter duplicate signal used by the quality gate). By language: it 160, fr 124, ru 75, en 60, el 34, es 8, pt 8, ka 8, tt 2, ba 2, br 2.
+- **122 `-a2` duplicate IDs** exist (fr 31, it 67, ru 24); every one has a base entry for the same word. 42 are definition = word, 35 use template examples, 45 are otherwise real duplicate content. Examples: `fr:oiseau:noun` vs `fr:oiseau-a2:noun`; `it:cavallo:noun` vs `it:cavallo-a2:noun`; `ru:lev:noun` vs `ru:lev-a2:noun`.
+- **Theme-suffixed duplicates:** `en:data-breach:noun` vs `en:data-breach-technology:noun`; `en:consciousness:noun` vs `en:consciousness-philosophy:noun`; `fr:poisson:noun` vs `fr:poisson-aliment:noun`; `it:pesce:noun` vs `it:pesce-animale:noun`; `ru:ryba:noun` vs `ru:ryba-anim:noun`. These violate the rule to use `secondary_themes` instead of duplicate entries. Only 120 entries use `secondary_themes`.
+- **Transliteration duplicates:** `el:sabbato:noun` vs `el:savvato:noun`; `el:ianouarios:noun` vs `el:ianoyarios:noun`; `ka:tkma:verb` vs `ka:thqma:verb`; `ba:yahau:verb` vs `ba:yasau:verb`.
+- **371 IDs have numeric suffixes** (`-1`, `-2`, `-a2`). Some are legitimate (`en:catch-22:idiom`), but many are collision workarounds (`fr:soeur-1:noun`, `fr:oeil-1:noun`, `pt:alemanha-1:noun`, `br:bleiz-1:noun`).
 
-## VISUAL / CSS AUDIT
+### Q4 - POS/form is wrong for many entries (High)
+- **169 English entries** have a definition that does not match the declared form (171 entries match the three patterns below; 2 match both):
+  - 87 nouns whose definition is a verb phrase (`en:empower:noun`, `en:adjudicate:noun`, `en:bootstrap:noun`, `en:breed:noun`, `en:migrate:noun`, `en:solve:noun`, `en:blame:noun`, `en:get:noun`, `en:propose:noun`).
+  - 25 adjectives whose definition is a verb phrase (`en:hone-a-skill:adjective`, `en:master-a-skill:adjective`, `en:fine-tune:adjective`, `en:refine:adjective`, `en:excel-at:adjective`).
+  - 59 verbs whose definition is a noun phrase (`en:assertion:verb`, `en:fallacy:verb`, `en:credibility:verb`, `en:opinion:verb`, `en:example:verb`, `en:suspect:verb`, `en:cause:verb`).
+- Defects cluster by source file (`en/b1/relationships.json` 20, `en/b2/opinions.json` 11, `en/a2/relationships.json` 11, `en/b2/work.json` 10), suggesting a batch import assigned `form` from the file/theme rather than the word's POS.
+- Semantic mislabels: `en:look:adjective` ("To have a particular appearance"); `en:albeit:adjective`; `en:groundbreaking:noun`; `en:deadpan:noun`; `en:here:noun` and `en:here:pronoun` alongside `en:here:adverb`; `en:as:noun`/`en:as:verb` whose definitions describe the conjunction.
+- The schema does not constrain `form`, so these all validate.
 
-- **Status:** **NOT APPLICABLE**
-- **Note:** `COSYdata` is a static JSON data repository paired with client-side JavaScript resolution modules (`shared/vocab-resolver.js`, `shared/cosy-word-popup.js`, `shared/dictionary-ui.js`). There is no visitor-facing standalone website or visual frontend application maintained within this repository. Visual UI testing and CSS layout verification are handled downstream in consumer frontend applications (e.g., `COSYlanguages`, `COSYgames`, `COSYtools`).
+### Q5 - ID integrity is not enforced (Critical)
+- Schema pattern is `^[a-z]{2}:[^:]+:[^:]+$`; the description says `<form>`, but any third token passes.
+- **205 ID/form mismatches:** fr 145, es 56, it 4.
+  - **126 French `avoir …` entries** in `vocabulary/fr/a0_a1/common_nouns.json` have IDs ending `:idiom` but `form: phrase` (`fr:avoir-faim:idiom`, `fr:avoir-soif:idiom`, …). The canonical `fr:avoir-faim:phrase` reference cannot resolve.
+  - **19 French sports entries** put IPA in the ID: `fr:dessiner:/de.si.ne/`, `fr:danser:/dɑ̃.se/`, etc. They are also labeled `form: noun` though they are verbs, their `definitions` contain example sentences (`"L'enfant dessine."`), and they have no `examples`.
+  - **56 Spanish `:other` entries** (`es:alemania:other`, `es:berlin:other`, …) have `form: noun`.
+  - **4 Italian entries:** `it:ma:phrase`/`it:e:phrase`/`it:o:phrase` have `form: conjunction`; `it:non-piacere:verb` has `form: phrase`.
+- **3 IDs have non-ASCII slugs:** `fr:pédaler:/pe.da.le/`, `fr:pêcher:/pɛ.ʃe/`, `fr:fêter-un-anniversaire:phrase`. Most French IDs drop accents; these do not.
+- **Accent-stripping creates ambiguity:** `es:teleologa:noun` (word `teleología`) collides conceptually with `teleóloga` (a female teleologist); `es:ontologa:noun` has the same issue.
+- Consequence: `resolveVocab("fr:avoir-faim:phrase")` searches for `phrase` but the index key is `fr:avoir-faim:idiom`; there is no alias, so it returns `null`. The same applies to the Spanish `:other` IDs and Italian conjunctions.
 
----
+### Q6 - Pronunciation/transcription is unreliable (High)
+- **5,779 entries have no `transcription`** (17.8%).
+- **281 entries use `"-"`** as transcription.
+- **1,997 entries have a transcription exactly `/<id-slug>/`**, e.g. `/hen/`, `/send/`, `/katze/`, `/gato/`, `/perro/`, `/rome/`, `/se/`. These are spellings/transliterations, not IPA (English `/hɛn/`, German `/ˈkatsə/`, Spanish `/ˈɡato/`).
+- **1,054 transcriptions across Tatar 428, Russian 290, Bashkir 112, Chuvash 112 and Armenian 112 use native-script spelling**, e.g. `/эт/`, `/мәче/`, `/ноль/`, `/զրո/`, `[та́нец]`. These are not IPA.
+- **74 transcriptions are double-escaped Unicode**, e.g. `\u02c8m\u0251\u02d0m\u0259` instead of `ˈmɑːmə`; 3 examples and 1 definition are also double-escaped (`l\u0027enseignement`). Affected: en 46, fr 8, it 8, ru 6, el 6.
+- **1,246 transcriptions use brackets**, 869 have no delimiter, 281 are `-`, and 24,333 use slashes. Notation is inconsistent.
+- `dictionary-ui.js` renders expanded entries as `<span>/ ${transcription} /</span>`; because most data already contains slashes, users see `/ /kæt/ /` (double-delimited IPA). The WOTD and popup render the value as-is, so the same entry looks different in different components.
+- No schema constraint rejects `-`, native script, double-escaped Unicode or pseudo-IPA.
 
-## TOP 5 PRIORITY FIXES
+### Q7 - Spanish legacy country/city batch is low quality (High)
+- All 56 `es/*/places_transport.json` entries with `:other` IDs have generic definitions:
+  - 28 countries: `"Un país en el mundo."` with example `"país"`.
+  - 28 cities: `"Un famosa ciudad en el mundo."` (grammatically wrong; should be `"Una famosa ciudad…"`) with the same "Visitamos … durante las vacaciones." template.
+- All 56 have pseudo-IPA such as `/ˈalemania/`, `/ˈcanadá/`, `/ˈbarcelona/`.
+- The same words also exist as A2 `noun`/`phrase` entries (`es:alemania:noun`, `es:alemania:phrase`), producing three-way duplicates.
 
-1. **Purge Retired IDs from Source Theme JSON Files (`scripts/validate.cjs` failure)**
-   - *Action:* Remove the 78 retired entry IDs listed in `shared/id-aliases.json` from their respective theme JSON files across `vocabulary/en/` so that `npm run validate` passes cleanly.
-2. **Expand `KNOWN_FORMS` in `shared/vocab-resolver.js` to Include All Schema Forms**
-   - *Action:* Add missing forms (`phrasal_verb`, `idiom`, `expression`, `prefix`, `suffix`, `particle`) to the `KNOWN_FORMS` `Set` in `shared/vocab-resolver.js` to prevent reference resolution misparsing.
-3. **Enhance `shared/README.md` DX Documentation with Response Shapes and Error Handling**
-   - *Action:* Update `shared/README.md` to document the exact JSON return structure of `resolveVocab`, document `null` return behavior on missing entries/network failures, provide integration pattern examples for error handling, and document `flat-index.json` schema.
-4. **Integrate Flat-Index and Search-Index Verification into `scripts/validate.cjs`**
-   - *Action:* Update `scripts/validate.cjs` so that running local validation also checks the integrity and sync status of `flat-index.json` and `search-index.json`, matching CI guarantees.
-5. **Add Optional Error / Fallback Options to `resolveVocab` and `hydrateVocabElements`**
-   - *Action:* Add a `fallback` option or custom error handler callback to `resolveVocab` and `hydrateVocabElements` so consuming apps can cleanly render placeholder text or handle missing entries without silent failures.
+### Q8 - Other language-specific clusters (Medium)
+- **19 French sports verbs** (`dessiner`, `danser`, `chanter`, `cuisiner`, `jardiner`, `bricoler`, `courir`, `nager`, …) are `form: noun`, have IPA in the ID, use an example sentence as their only definition and have no `examples`.
+- **126 French `avoir …` phrases** are in `common_nouns.json`, themed `general/common_things`, although they are phrases/idioms about hunger, thirst, fear, etc. Their IDs end `:idiom` while `form` is `phrase`.
+- **Russian 119 adjectives** and **Greek 60 adjectives** have `definitions` equal to the word and template examples; Russian examples also use the `Он использует выражение …` template and `/дешевый/`-style transcriptions.
+- **39 examples are one token or less:** 9 Chuvash place names (`"Шупашкар."`), 28 Spanish country entries (`"país"`), and `es:enfermo:adjective` (`"enfermo"`), `es:util:adjective` (`"útil"`).
+
+## Reference, schema and taxonomy findings
+
+### T1 - The schema does not enforce the quality contract (Critical)
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the 13,756 existing violations are baselined rather than fixed. The core schema still allows:
+- missing `definitions` and `examples`;
+- any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
+- any string for `transcription` (including `-`, native script and double-escaped Unicode);
+- any string for `emoji` (including `<`, `>`, `%`, `=`), while the UI inserts it into HTML unescaped.
+The validator's "placeholder definitions and examples" check only checks values that exist. This is why `npm run validate` succeeds while 1,279 entries have no definition.
+
+### T2 - Competing taxonomy and concept schemes (High)
+- `schemas/themes.json`: **46 themes / 236 sub-themes**.
+- `shared/themes.json`: **55 themes / 369 sub-themes**; 9 themes are unused (`city`, `drinks`, `games`, `history`, `home`, `military`, `music`, `plants`, `space`) and **136 of 369 sub-themes are unused**.
+- `taxonomy/themes.json`: a separate 10-domain / 4-course-format model with `level_rules`, `repo_map`, `events_map`.
+- `docs/unified-taxonomy-draft/cefr_taxonomy.json`: another 10-domain / 4-format model, 87 KB, with `tracks`, `language_modules`, `tools_coverage`.
+- `taxonomy/` also contains `languages.json`, `levels.json`, `tracks.json` and `crosswalk-themes.json`.
+- Six narrative taxonomy documents (`TAXONOMY.md`, `docs/TAXONOMY.md`, `docs/theme-taxonomy.md`, `docs/domain-and-tagging-conventions.md`, `docs/unified-taxonomy-draft/*.md`) describe overlapping models. `shared/themes.json` says 55; README calls `schemas/themes.json` "canonical (46 themes)".
+- **`concept` is split:** 2,664 values are valid `en:` entry IDs; 199 are dotted semantic keys such as `actions.daily_life.be`, including all 80 English values. README describes the dotted form as canonical and claims "all 48 existing concept values in vocabulary/en are self-references"; the actual data has 80 English values, all dotted and none self-referential. `concept` is documented as optional, but 2,783 non-English entries have it.
+- **`_canonical/en/A0-A1_master.json`** is a third English source with 1,262 words and a fourth ID convention; it is not consumed by build or validation.
+
+### T3 - Cross-reference integrity (Medium)
+- **`translation_of`:** 119 values, 23 unresolved (7 unique targets). Most target `en:have-to:phrase`, but only `en:have-to:verb` exists; others target `en:be-able_to:phrase` (underscore typo), `en:need:phrase`, `en:dislike:phrase`, `en:watch:phrase`, `en:understand:verb`, none of which exist as referenced.
+- **`related_forms`:** 1 dangling reference, `ru:zapomnit:verb` from `ru:pomnit:verb`; no such entry.
+- **`regional_equivalents`:** 124 references, all English and currently resolvable.
+- **`COSYtools:` references:** 659 `related_forms` values such as `COSYtools:fr-conjugeur:manquer`. The browser resolver cannot resolve these: its language part is uppercase `COSYtools`, so it attempts `vocabulary/COSYtools/index.json` and returns `null`. If consumers pass these to `resolveVocab`, they fail silently.
+- **`concept`:** 199 dotted values are not entry IDs and cannot be resolved by the index; 2,664 `en:` IDs are valid.
+- **Antonym contradiction:** 13 entries have both a non-empty `antonyms` array and `no_antonym: true` (`en:good-job:phrase`, `en:no-problem:phrase`, `en:see-you-later:phrase`, `es:posible:adjective`, `es:terrible:adjective`, etc.). Several `antonyms` values are not opposites (`en:no-problem` -> `["yes"]`; `en:come-to-a-conclusion` -> `["leave","depart"]`).
+
+### T4 - Resolver behaviour (Medium)
+- `resolveVocab` returns `null` for missing entries, network failures and parse errors. `handleFailure` logs a warning and suppresses the cause; callers cannot distinguish "entry does not exist" from "offline/404/500". Existing finding is valid.
+- `hydrateVocabElements` silently leaves DOM unchanged on failure; no fallback/error event.
+- The parser treats a 3-part reference as `lang:slug:form` only when the third part is in `KNOWN_FORMS`; otherwise it treats part 2 as a theme. `KNOWN_FORMS` now covers all 19 forms used in data, so current canonical forms parse correctly, but novel forms reproduce the original bug.
+- Circular aliases are guarded by `_visited`; cache TTL is 24 hours with no revalidation. Index and theme payloads can be stale for a day after deployment.
+- All 14 observed forms are in `KNOWN_FORMS`; the old "extend KNOWN_FORMS" finding no longer applies.
+
+## Tooling, CI and security findings
+
+### C1 - Tests/CI do not exercise the dataset (High)
+- Only one test file: `tests/conjugation-embed.test.mjs`. It imports `playwright`, which is **not declared** in `package.json` or `package-lock.json`; `npm run test:conjugation` fails before running any assertion.
+- `validate-vocabulary.yml` runs schema/theme/taxonomy checks and index-freshness checks, but **does not run** `npm run validate`, `npm run audit`, `npm run parity`, `npm run test:verb-inventory`, or `npm run test:conjugation`. Local and CI validation are different sets.
+- Workflows use `actions/checkout@v4` and `actions/setup-node@v4` tags, not commit SHAs. `npm install --no-save ajv@^8 ajv-formats@^2` uses floating ranges rather than the lockfile.
+- `daily-calendar.yml` has `contents: write` and commits directly to `main` on a schedule; there is no test gate for generated daily content.
+
+### C2 - Stored-XSS surface in the dictionary UI (Medium)
+- `dictionary-ui.js` inserts `emoji` and `form` directly into `innerHTML` in several places: lines 1281, 1435, 1437, 1456, 1459, 1460. Some other fields are escaped, so sanitisation is inconsistent.
+- `emoji` and `form` are unconstrained strings in the schema. A future entry with `emoji: "<img src=x onerror=…>"` or a malicious `form` would execute in any consumer that uses `dictionary-ui.js`. Current data contains no `<script>`/`onerror`/`javascript:` payloads, but 7 entries use non-emoji symbols (`%`, `=`, `>`, `<`), including `en:less-than:adverb` with `emoji: "<"`.
+- `index.html` loads three external scripts from `https://cosylanguages.github.io/...` with no SRI and no CSP meta tag: `daily-strip.js`, `daily-directory.js`, `ecosystem-strip.js`. A compromise of the COSYlanguages Pages repo would execute in COSYdata consumers.
+- `top10-verbs.html` inserts values from `shared/top10-verbs.json` into HTML without escaping; the JSON is trusted now, but it is another data-to-HTML sink.
+
+### C3 - Parity tool undercounts and covers only five languages (High)
+- `a0-a1-parity.cjs` reads only top-level `vocabulary/<lang>/a0_a1/*.json`; it ignores nested `a0_a1/home/**` entries. Reported totals exactly match top-level counts:
+  - EN reported 1,657; actual with nested 29 entries **1,686**; target 1,669 -> actual **+17**, not -12.
+  - FR reported 1,620; actual 1,639; target 1,669 -> -30, not -49.
+  - IT reported 1,210; actual 1,235 -> -434, not -459.
+  - RU reported 712; actual 737 -> -932, not -957.
+  - EL reported 906; actual 934 -> -735, not -763.
+- Consequently, "missing essentials" includes false positives: `house`, `room`, `kitchen`, `bedroom`, `bathroom`, `door`, `window`, `table`, `chair`, `bed`, `toilet`, `clock` all exist in English nested home files. Truly absent English essentials include `garden`, `apartment` and `key`.
+- The parity report has no section for `de`, `es`, `pt`, `br`, `cv`, `hy`, `ka`, `ba` or `tt`; 9 of 14 languages are outside the parity target.
+- Real parity violations that remain: FR A0 1,072 vs 474 and A1 635 vs 1,195; IT `it:digitare:verb` domain `professional` at A0-A1 and `it:scrivania:noun` level mismatch; RU `ru:dolzhenstvovat:verb` at A2; EL `el:pliktrologio:verb` domain `professional` and `el:grafeio:noun` level mismatch; 10 EL duplicate word+form+sense groups; 4 FR, 4 RU; missing FR contractions `au`, `aux`, `du`, `des`.
+- `reports/a0_a1_parity.md` is generated from these incomplete numbers and was already stale relative to actual nested content.
+
+## Documentation findings
+
+- `README.md` says `transcription` is "required for non-contractions" and `emoji` is "required unless `no_emoji: true`"; data has 5,779 missing transcriptions and 3,287 entries with neither emoji nor `no_emoji`.
+- README describes `concept` as a dotted language-independent key and says all 48 English values are self-references; actual English values are 80 dotted keys and none are self-references. Non-English entries mostly use `en:` IDs instead.
+- README documents a flat `a0_a1/` layout and omits `a0/`, `a1/` and nested `home/furniture/`; those exist.
+- README/`schemas/themes.json` describe 46 themes as canonical; `shared/themes.json` has 55 and 136 unused sub-themes.
+- Previous `AUDIT.md` said CI currently fails with 78 retired IDs and that `KNOWN_FORMS` lacks `idiom`/`phrasal_verb`; both are false on this revision.
+- `top10-verbs.html` is titled "Top 10 Verbs … Part 1, Part 2 & Part 3", but `shared/top10-verbs.json` has **40 verbs**, with part counts 12/11/17. The page has no Part 4 button; "Top 10" and the three-part framing no longer match the data.
+- `docs/unified-taxonomy-draft/123` is a 1-byte stray file with no purpose.
+- `reports/multi-theme-audit.md` describes 13,615 English entries; the current English total is 12,811.
+
+## What is actually healthy
+
+- All vocabulary JSON files parse; no empty required fields (`id`, `word`, `language`, `form`).
+- There are **no duplicate IDs** in the vocabulary data; all index mappings resolve.
+- `npm run build` is deterministic and made no changes to committed indexes.
+- Schema themes are all covered by shared themes; used themes are all valid; no wrong-script definitions/examples in non-Latin languages.
+- `functional-phrases/` (79 files, 714 IDs) has no empty files, duplicate IDs or parse errors.
+- `inventory/multilingual-verb-inventory.json` validates: 53 concepts, 55 senses, 772 translations, 14 languages.
+- No `<script>`, `onerror=`, `javascript:` or `<iframe>` payloads were found in vocabulary data.
+- Conjugation index has 560 tables; top10 verbs has 40 verbs x 14 languages with no missing language payloads.
+
+## Recommended remediation
+
+### P0 - stop the false sense of quality
+1. **Tighten the schema or add a second quality schema:**
+   - `form` enum matching the forms actually supported;
+   - `id` pattern `^[a-z]{2}:[a-z0-9]+(?:-[a-z0-9]+)*:(form)$`;
+   - require `definitions` (minItems 1) and `examples` (minItems 1), or add explicit `no_definition`/`no_example` flags;
+   - constrain `transcription` to a documented IPA format or `no_transcription`;
+   - constrain `emoji` to a Unicode emoji/symbol allowlist;
+   - add cross-field rules: exactly one of `emoji`/`no_emoji`, exactly one of `antonyms`/`no_antonym`.
+2. **Make `npm run validate` call the same checks as CI and fail on quality**, not only IDs/themes. Add a generated quality report with per-language/per-level counts.
+3. **Delete or explicitly mark empty scaffold files**; do not publish 688 empty theme files as supported content. If they are placeholders, move them out of `vocabulary/` or add a `planned` manifest.
+4. **Choose one level layout** (`a0_a1` or `a0`+`a1`) and one home layout (flat theme file or nested `home/`); migrate consistently and make parity/build/validator walk recursively.
+
+### P1 - data correction, by cluster
+5. **Deduplicate the 483 same-word/same-form entries** and the 122 `-a2` entries. Keep the richest entry, merge definitions/examples/forms, add `"old": "new"` aliases to `shared/id-aliases.json`, and update every `regional_equivalents`, `synonyms`, `related_forms`, `concept`, index and consumer reference.
+6. **Repair the 205 malformed IDs** (126 FR `:idiom` -> `:phrase`, 19 FR IPA-in-ID -> `:verb`, 56 ES `:other` -> `:noun`, 4 IT). Add aliases for every old ID. Correct the affected `form` values and move the French `avoir …` phrases out of `common_nouns.json`.
+7. **Fix the English POS batch:** re-derive `form` from a dictionary POS, not from the file/theme; correct 169 entries and re-review the files listed in Q4.
+8. **Remove or backfill the 1,279 no-definition and 1,803 no-example entries.** Delete template examples and def=word entries rather than keeping them as "content". For Russian/Greek adjective batches, regenerate real definitions and examples.
+9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; decode the 74 double-escaped values; standardize on one delimiter and remove the UI's extra `/ … /` wrapper.
+10. **Fix Spanish `:other` batch:** delete or merge into canonical `es:<word>:noun` entries; replace generic definitions, `"país"` examples and pseudo-IPA; fix `"Un famosa"` -> `"Una famosa"`.
+11. **Fill the level gaps or stop advertising them:** either add A2/B1/B2/C1 for de/es/pt/cv and A2/B1 for hy/ka/ba/tt/br, or mark those levels unsupported; re-level FR A0/A1 and de/es/pt C2 entries.
+12. **Fix and run parity recursively for all 14 languages;** include nested `home/` files; publish a report that distinguishes true missing essentials from false positives.
+
+### P2 - references, taxonomy, security, hygiene
+13. Resolve the 23 `translation_of` references, the 1 dangling `related_forms`, and the 199 dotted `concept` values; decide whether `concept` is an `en:` ID or a dotted key and enforce one.
+14. Collapse the taxonomy sources: one machine-readable file, one human document; delete/mark deprecated `taxonomy/themes.json`, `docs/unified-taxonomy-draft/cefr_taxonomy.json`, unused 9 themes and 136 sub-themes, and `_canonical` empty indexes.
+15. Escape every field inserted into `innerHTML` (`emoji`, `form`, `level`), or build DOM nodes with `textContent`. Add a CSP meta tag and SRI for third-party scripts; pin GitHub Actions to commit SHAs; use `npm ci` in CI.
+16. Add `playwright` to devDependencies and run `test:conjugation` in CI; also run `test:verb-inventory`, `audit`, `parity` and the full `validate` chain.
+17. Remove `docs/unified-taxonomy-draft/123`, deduplicate `reports/archive/`, and update README/`AUDIT.md` claims (transcription/emoji requirements, concept format, theme counts, top10 verb count, level layout).
+18. Add regression tests for: ID/form consistency, same-word/same-form uniqueness, required definitions/examples, transcription format, theme catalog usage, reference resolution (including `COSYtools:`), and resolver failure classification.
+
+## Bottom line
+
+The repository has a solid mechanical backbone: JSON parses, IDs are unique, indexes rebuild deterministically, schema themes resolve, and the resolver handles aliases and cycles. But the **content layer is not trustworthy yet**. The most damaging pattern is that placeholder and duplicate entries are structurally valid, so the current validators certify them. Fixing the schema quality rules and the level/deduplication clusters should come before adding more vocabulary; otherwise more content will simply amplify the same defects.
