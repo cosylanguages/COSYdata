@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P29 removed 628 template examples from French, Italian and Russian; missing-example debt is now visible (12,102 findings / 31,637 entries).
 - P28 removed 7 real named people from the Russian vocabulary and added null aliases (12,102 findings / 31,637 entries).
 - P27 repaired 23 broken `translation_of` targets and removed one broken internal `related_forms` reference; no quality counts changed.
 - P26 removed 51 contradictory `no_antonym` flags and 9 self-referential synonyms; no quality counts changed.
