@@ -71,9 +71,8 @@ Highest-impact problems:
 - **French A0/A1 imbalance:** 1,072 A0 vs 635 A1, while the parity target is 474 A0 / 1,195 A1. This looks like mass A0 labeling, not progression.
 
 ### S3 - Stray, dead and duplicate artefacts (Low/Medium)
-- One-byte stray file `docs/unified-taxonomy-draft/123`.
 - `vocabulary/_canonical/` is an unconsumed second English source: `A0-A1_master.json` has 1,262 words with a different ID scheme (`en_preposition_about`) and definitions such as `"Basic A1 English preposition: 'about'."`; `flat-index.json` is `{}` and `search-index.json` is `[]`. It is not built or validated.
-- `reports/archive/` is 4.4 MB of 61 exact duplicate files; e.g. `reports/content-audit.md` and `reports/archive/content-audit.md` have identical MD5. `reports/` totals 145 files / 11 MB.
+- P16 removed 57 exact duplicate files from `reports/archive/`; 3 unique historical files remain (136 KB). `reports/` is now much smaller.
 - Pre-existing reports already flag unresolved data: `reports/idiom-duplicates.json` has 786 duplicate idiom groups, `reports/placeholder_merged_entries.json` has 866 entries, and `reports/home-audit.json` (2026-10-11) lists 89 non-home entries in home files, 11 home entries outside home, 4 duplicates, 4 level discrepancies and 20 missing home words.
 
 ## Vocabulary quality findings
@@ -207,7 +206,6 @@ The validator's "placeholder definitions and examples" check only checks values 
 - README/`schemas/themes.json` describe 46 themes as canonical; `shared/themes.json` has 55 and 369 pairs (9 extra themes and 133 extra sub-themes). README now states both counts; the two files remain separate sources.
 - Previous `AUDIT.md` said CI currently fails with 78 retired IDs and that `KNOWN_FORMS` lacks `idiom`/`phrasal_verb`; both are false on this revision.
 - `top10-verbs.html` is titled "Top 10 Verbs … Part 1, Part 2 & Part 3", but `shared/top10-verbs.json` has **40 verbs**, with part counts 12/11/17. P7 retitled the page and link to "Core Verbs" and removed the stale "Top 10" claim; the filename keeps its historical name.
-- `docs/unified-taxonomy-draft/123` is a 1-byte stray file with no purpose.
 - `reports/multi-theme-audit.md` describes 13,615 English entries; the current English total is 12,811.
 
 ## What is actually healthy
@@ -250,7 +248,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 14. Collapse the taxonomy sources: one machine-readable file, one human document; delete/mark deprecated `taxonomy/themes.json`, `docs/unified-taxonomy-draft/cefr_taxonomy.json`, unused 9 themes and 136 sub-themes, and `_canonical` empty indexes.
 15. Keep escaping every field inserted into `innerHTML` (P13 did this) and add a CSP meta tag and SRI for third-party scripts; pin GitHub Actions to commit SHAs (P14 switched CI to `npm ci`).
 16. Add `playwright` to devDependencies and run `test:conjugation` in CI.
-17. Remove `docs/unified-taxonomy-draft/123`, deduplicate `reports/archive/`, and update README/`AUDIT.md` claims (transcription/emoji requirements, concept format, theme counts, top10 verb count, level layout).
+17. Update README/`AUDIT.md` claims that still describe the old layout (transcription/emoji requirements, concept format, theme counts, top10 verb count, level layout); the stray file and archive duplicates are removed.
 18. Add regression tests for: ID/form consistency, same-word/same-form uniqueness, required definitions/examples, transcription format, theme catalog usage, reference resolution (including `COSYtools:`), and resolver failure classification.
 
 ## Bottom line
