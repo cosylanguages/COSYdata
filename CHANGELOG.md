@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- Changed the final non-ASCII ID `fr:fêter-un-anniversaire:phrase` to `fr:feter-un-anniversaire:phrase`, fixed its malformed IPA underscore, and refreshed the baseline to 13,372 findings.
 - Repaired the last four Italian ID/form mismatches (`it:ma`, `it:e`, `it:o` to `:conjunction`; `it:non-piacere` to `:phrase`), removed the duplicate daily-verbs copy, and refreshed the baseline to 13,373 findings.
 - Renamed 126 French `avoir …` IDs from `:idiom` to `:phrase` to match their `form`, added retired-ID aliases, refreshed the quality baseline to 13,378 findings, and regenerated French indexes.
 - Repaired the Spanish `a0_a1/places_transport` country/city batch: merged 4 entries into existing A2 nouns, converted 52 `:other` IDs to `:noun` with Spanish definitions, examples and IPA checked against Spanish Wiktionary, and added 56 retired-ID aliases. Entry count is now 32,493; findings fell to 13,504. Three manual IPA readings are listed in `reports/needs-review/p9-es-places.md`.

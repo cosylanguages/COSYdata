@@ -18,7 +18,7 @@ Highest-impact problems:
 2. **688 of the original 1,850 vocabulary JSON files were empty (37%).** P1 pruned them; 1,162 data files remain, with 0 empty files.
 3. **1,279 entries have no definition and 1,803 have no example.** Another 710 examples are template sentences and 273 "definitions" are just the headword.
 4. **473 entries share the same word and the same form with another entry; 437 share word, form and sense.** This includes 122 explicit `-a2` duplicates. P9 removed the four Spanish country/city duplicates.
-5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs, P9 repaired all 56 Spanish IDs, P10 renamed 126 French `avoir …` IDs, and P11 repaired the last 4 Italian IDs; none remain, with 1 strict failure (`fr:fêter-un-anniversaire:phrase`).
+5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs, P9 repaired all 56 Spanish IDs, P10 renamed 126 French `avoir …` IDs, and P11 repaired the last 4 Italian IDs and P12 fixed the final non-ASCII slug; none remain, with 0 strict failures.
 6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 281 are `-`, and 5,778 are missing.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
 8. **Tests and CI do not fully protect the data.** `playwright` is still undeclared, so `test:conjugation` fails; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, but the full `npm run validate` chain and conjugation test remain outside CI.
@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 32,492 entries, 13,373 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 32,492 entries, 13,372 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -108,7 +108,7 @@ Highest-impact problems:
 
 ### Q5 - ID integrity is not enforced (Critical)
 - Schema pattern is `^[a-z]{2}:[^:]+:[^:]+$`; the description says `<form>`, but any third token passes.
-- **0 ID/form mismatches.** The last four Italian IDs were fixed in P11; one strict invalid ID remains (`fr:fêter-un-anniversaire:phrase`).
+- **0 ID/form mismatches and 0 strict ID-pattern failures.** The last four Italian IDs were fixed in P11; P12 changed `fr:fêter-un-anniversaire:phrase` to `fr:feter-un-anniversaire:phrase`.
   - The 126 French `avoir …` entries in `vocabulary/fr/a0_a1/common_nouns.json` had IDs ending `:idiom` while `form` was `phrase`; P10 renamed them to `:phrase` and added aliases.
   - **19 French sports entries** previously put IPA in the ID: `fr:dessiner:/de.si.ne/`, etc. P8 fixed all 19 (8 became unique verbs, 11 were duplicates of existing verbs).
   - The 56 Spanish `:other` entries were repaired in P9: four were merged into canonical nouns and 52 now use `:noun`.
@@ -141,7 +141,7 @@ Highest-impact problems:
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,373 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,372 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);
