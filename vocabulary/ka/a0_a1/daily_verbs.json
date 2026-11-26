@@ -507,14 +507,19 @@
       "სიტყვების გამოთქმა."
     ],
     "examples": [
-      "ის ყოველ დილით გამარჯობას ამბობს."
+      "ის ყოველ დილით გამარჯობას ამბობს.",
+      "მან თქვა სიმართლე."
     ],
     "domain": "general",
     "theme": "actions",
     "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "emoji": "🗨️",
-    "no_antonym": true
+    "no_antonym": true,
+    "concept": "actions.daily_life.say",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "ka:tkroba:verb",
@@ -547,14 +552,19 @@
       "შეკითხვის დასმა."
     ],
     "examples": [
-      "ის აზრს ეკითხება ყოველი პრეზენტაციის შემდეგ."
+      "ის აზრს ეკითხება ყოველი პრეზენტაციის შემდეგ.",
+      "ის სვამს კითხვას."
     ],
     "domain": "general",
     "theme": "actions",
     "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "emoji": "❓",
-    "no_antonym": true
+    "no_antonym": true,
+    "concept": "actions.daily_life.ask",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "ka:laparaki:verb",
@@ -1075,28 +1085,6 @@
     ]
   },
   {
-    "id": "ka:tskovreba:verb",
-    "word": "ცხოვრება",
-    "language": "ka",
-    "form": "verb",
-    "level": "A1",
-    "transcription": "/tsʰχɔvrɛbɑ/",
-    "definitions": [
-      "სახლის ქონა სადმე, ყოფნა ცოცხალი."
-    ],
-    "examples": [
-      "ის ცენტრთან ახლოს ცხოვრობს."
-    ],
-    "domain": "general",
-    "theme": "actions",
-    "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
-    "emoji": "🏠",
-    "antonyms": [
-      "სიკვდილი"
-    ]
-  },
-  {
     "id": "ka:pikri:verb",
     "word": "ფიქრი",
     "language": "ka",
@@ -1167,14 +1155,19 @@
       "რაიმეს მოთხოვნილება."
     ],
     "examples": [
-      "მე მჭირდება დასვენება."
+      "მე მჭირდება დასვენება.",
+      "მე მჭირდება დახმარება."
     ],
     "domain": "general",
     "theme": "actions",
     "sub_theme": "daily_routines",
-    "updated": "2026-11-21",
+    "updated": "2026-11-26",
     "emoji": "🆘",
-    "no_antonym": true
+    "no_antonym": true,
+    "concept": "actions.daily_life.need",
+    "levels": [
+      "A1"
+    ]
   },
   {
     "id": "ka:motsoneba:verb",
@@ -3144,31 +3137,6 @@
     "no_emoji": true
   },
   {
-    "id": "ka:thqma:verb",
-    "word": "თქმა",
-    "language": "ka",
-    "form": "verb",
-    "level": "A1",
-    "levels": [
-      "A1"
-    ],
-    "transcription": "/thqma/",
-    "definitions": [
-      "აზრის გამოთქმა."
-    ],
-    "examples": [
-      "მან თქვა სიმართლე."
-    ],
-    "domain": "general",
-    "theme": "actions",
-    "sub_theme": "daily_routines",
-    "translation_of": "en:say:verb",
-    "concept": "actions.daily_life.say",
-    "updated": "2025-02-23",
-    "no_antonym": true,
-    "no_emoji": true
-  },
-  {
     "id": "ka:tvalis-devneba:phrase",
     "word": "თვალის დევნება",
     "language": "ka",
@@ -3239,56 +3207,6 @@
     "sub_theme": "daily_routines",
     "translation_of": "en:tell:verb",
     "concept": "actions.daily_life.tell",
-    "updated": "2025-02-23",
-    "no_antonym": true,
-    "no_emoji": true
-  },
-  {
-    "id": "ka:satsiroeba:verb",
-    "word": "საჭიროება",
-    "language": "ka",
-    "form": "verb",
-    "level": "A1",
-    "levels": [
-      "A1"
-    ],
-    "transcription": "/satsiroeba/",
-    "definitions": [
-      "საჭიროების ქონა."
-    ],
-    "examples": [
-      "მე მჭირდება დახმარება."
-    ],
-    "domain": "general",
-    "theme": "actions",
-    "sub_theme": "daily_routines",
-    "translation_of": "en:need:verb",
-    "concept": "actions.daily_life.need",
-    "updated": "2025-02-23",
-    "no_antonym": true,
-    "no_emoji": true
-  },
-  {
-    "id": "ka:kitkhva:verb",
-    "word": "კითხვა",
-    "language": "ka",
-    "form": "verb",
-    "level": "A1",
-    "levels": [
-      "A1"
-    ],
-    "transcription": "/kitkhva/",
-    "definitions": [
-      "კითხვის დასმა."
-    ],
-    "examples": [
-      "ის სვამს კითხვას."
-    ],
-    "domain": "general",
-    "theme": "actions",
-    "sub_theme": "daily_routines",
-    "translation_of": "en:ask:verb",
-    "concept": "actions.daily_life.ask",
     "updated": "2025-02-23",
     "no_antonym": true,
     "no_emoji": true
@@ -3382,16 +3300,17 @@
       "ადგილზე ცხოვრება."
     ],
     "examples": [
-      "მე ვცხოვრობ თბილისში."
+      "მე ვცხოვრობ თბილისში.",
+      "ის ცენტრთან ახლოს ცხოვრობს."
     ],
     "domain": "general",
     "theme": "actions",
     "sub_theme": "daily_routines",
     "translation_of": "en:live:verb",
     "concept": "actions.daily_life.live",
-    "updated": "2025-02-23",
+    "updated": "2026-11-26",
     "no_antonym": true,
-    "no_emoji": true
+    "emoji": "🏠"
   },
   {
     "id": "ka:goneba:verb",

@@ -13,10 +13,10 @@
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 0 | 6 |
-| FR | 1628 | 1036 | 592 | -41 | +562 | -603 | 27 | 31 |
+| FR | 1626 | 1036 | 590 | -43 | +562 | -605 | 26 | 31 |
 | IT | 1234 | 266 | 968 | -435 | -208 | -227 | 28 | 11 |
-| RU | 737 | 206 | 530 | -932 | -268 | -665 | 29 | 63 |
-| EL | 934 | 152 | 782 | -735 | -322 | -413 | 40 | 55 |
+| RU | 736 | 205 | 530 | -933 | -269 | -665 | 28 | 63 |
+| EL | 925 | 151 | 774 | -744 | -323 | -421 | 31 | 55 |
 
 ### Details: EN
 
@@ -33,7 +33,7 @@
 
 ### Details: FR
 
-#### Structural & Policy Violations (23)
+#### Structural & Policy Violations (22)
 
 ##### Domain Violations (19)
 - Entry 'fr:taper:verb' domain tag 'professional' not allowed at A0-A1
@@ -53,9 +53,8 @@
 - Entry 'fr:salle-a-manger:noun' has missing domain
 - *...and 4 more*
 
-##### Duplicate Word+Form+Sense (4)
+##### Duplicate Word+Form+Sense (3)
 - Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:phrase, fr:ce-soir:phrase
-- Word+form+sense 'ticket de caisse::noun::' duplicated across IDs: fr:ticket-de-caisse:noun, fr:ticket-caisse:noun
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
 - Word+form+sense 'regarder la television::phrase::' duplicated across IDs: fr:regarder-la-tele:phrase, fr:regarder-la-television:phrase
 
@@ -139,9 +138,9 @@
 
 ### Details: RU
 
-#### Structural & Policy Violations (29)
+#### Structural & Policy Violations (28)
 
-##### Domain Violations (23)
+##### Domain Violations (22)
 - Entry 'ru:dush:noun' has missing domain
 - Entry 'ru:tualet:noun' has missing domain
 - Entry 'ru:odeyalo:noun' has missing domain
@@ -152,22 +151,22 @@
 - Entry 'ru:shtora:noun' has missing domain
 - Entry 'ru:knizhnaya-polka:noun' has missing domain
 - Entry 'ru:zhurnalnyy-stolik:noun' has missing domain
-- Entry 'ru:pismennyy-stol:noun' has missing domain
 - Entry 'ru:metla:noun' has missing domain
 - Entry 'ru:vedro:noun' has missing domain
 - Entry 'ru:dom:noun' has missing domain
 - Entry 'ru:mnogokvartirnyy-dom:noun' has missing domain
-- *...and 8 more*
+- Entry 'ru:vannaya-komnata:noun' has missing domain
+- *...and 7 more*
 
-##### Level Violations (1)
+##### Level Violations (2)
 - Entry 'ru:dolzhenstvovat:verb' level 'A2' must be 'A0' or 'A1'
+- Entry 'ru:pismennyi-stol:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
 
-##### Duplicate Word+Form+Sense (5)
+##### Duplicate Word+Form+Sense (4)
 - Word+form+sense 'рыба::noun::' duplicated across IDs: ru:ryba-anim:noun, ru:ryba:noun
 - Word+form+sense 'курица::noun::' duplicated across IDs: ru:kuritsa-anim:noun, ru:kuritsa:noun
 - Word+form+sense 'мир::noun::' duplicated across IDs: ru:mir-peace:noun, ru:mir-country:noun
 - Word+form+sense 'дешевыи::adjective::' duplicated across IDs: ru:deshevyi:adjective, ru:deshyovyi:adjective
-- Word+form+sense 'письменныи стол::noun::' duplicated across IDs: ru:pismennyy-stol:noun, ru:pismennyi-stol:noun
 
 #### Missing Essentials (63)
 
@@ -200,7 +199,7 @@
 
 ### Details: EL
 
-#### Structural & Policy Violations (40)
+#### Structural & Policy Violations (31)
 
 ##### Domain Violations (29)
 - Entry 'el:pliktrologio:verb' domain tag 'professional' not allowed at A0-A1
@@ -223,17 +222,8 @@
 ##### Level Violations (1)
 - Entry 'el:grafeio:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
 
-##### Duplicate Word+Form+Sense (10)
+##### Duplicate Word+Form+Sense (1)
 - Word+form+sense 'ποτε::adverb::' duplicated across IDs: el:pote-never:adverb, el:pote:adverb
-- Word+form+sense 'σαββατο::noun::' duplicated across IDs: el:sabbato:noun, el:savvato:noun
-- Word+form+sense 'ιανουαριος::noun::' duplicated across IDs: el:ianouarios:noun, el:ianoyarios:noun
-- Word+form+sense 'φεβρουαριος::noun::' duplicated across IDs: el:fevrouarios:noun, el:fevroyarios:noun
-- Word+form+sense 'ιουνιος::noun::' duplicated across IDs: el:iounios:noun, el:ioynios:noun
-- Word+form+sense 'ιουλιος::noun::' duplicated across IDs: el:ioulios:noun, el:ioylios:noun
-- Word+form+sense 'αυγουστος::noun::' duplicated across IDs: el:avgoustos:noun, el:aygoystos:noun
-- Word+form+sense 'σεπτεμβριος::noun::' duplicated across IDs: el:septembrios:noun, el:septemvrios:noun
-- Word+form+sense 'νοεμβριος::noun::' duplicated across IDs: el:noembrios:noun, el:noemvrios:noun
-- Word+form+sense 'δεκεμβριος::noun::' duplicated across IDs: el:dekembrios:noun, el:dekemvrios:noun
 
 #### Missing Essentials (55)
 

@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P24 merged 43 exact or malformed duplicate entries across 20 exact-definition pairs and 23 empty/transliteration variants, added redirect aliases, rebuilt indexes/daily/comparative data, and reduced duplicate groups from 123 to 81 (12,178 findings / 31,675 entries).
 - P23 capped Chuvash, Tatar, Bashkir and Breton at B2: removed their C1/C2 directories and 661 entries, added null aliases for all removed IDs, and refreshed the quality baseline to 12,265 findings / 31,718 entries.
 - Resolved all 122 French/Italian/Russian `-a2` IDs: renamed nine distinct senses with semantic IDs and `sense` values, merged 113 level variants into their base entries with A2 in `levels`, added aliases, and refreshed the quality baseline to 13,104 findings / 32,379 entries.
 - Replaced six malformed French phrase IPA strings that used `_` separators, and recorded the 126 remaining phrase pseudo-transcriptions and the 122 `-a2` semantic-ID cases in `reports/needs-review/`.
