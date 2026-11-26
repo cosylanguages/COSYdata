@@ -53,6 +53,15 @@ jobs:
       - name: Validate Taxonomy
         run: node scripts/validate-taxonomy.cjs
 
+      - name: Validate Verb Inventory
+        run: npm run test:verb-inventory
+
+      - name: Audit A0/A1 Data
+        run: npm run audit
+
+      - name: Build A0/A1 Parity Report
+        run: npm run parity
+
       - name: Test Quality Rules
         run: npm run test:quality
 

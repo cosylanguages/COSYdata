@@ -21,7 +21,7 @@ Highest-impact problems:
 5. **205 IDs violate their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but pass the schema; 76 of them fail the stricter quality ID pattern outright.
 6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 74 are double-escaped Unicode, 281 are `-`, and 5,779 are missing.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
-8. **Tests and CI do not protect the data.** The only test file fails because `playwright` is not declared; CI does not run it, nor `audit`, `parity`, or `test:verb-inventory`.
+8. **Tests and CI do not fully protect the data.** `playwright` is still undeclared, so `test:conjugation` fails; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, but the full `npm run validate` chain and conjugation test remain outside CI.
 
 ## Verification results
 
@@ -178,8 +178,8 @@ The validator's "placeholder definitions and examples" check only checks values 
 ## Tooling, CI and security findings
 
 ### C1 - Tests/CI do not exercise the dataset (High)
-- Only one test file: `tests/conjugation-embed.test.mjs`. It imports `playwright`, which is **not declared** in `package.json` or `package-lock.json`; `npm run test:conjugation` fails before running any assertion.
-- `validate-vocabulary.yml` runs schema/theme/taxonomy checks and index-freshness checks, but **does not run** `npm run validate`, `npm run audit`, `npm run parity`, `npm run test:verb-inventory`, or `npm run test:conjugation`. Local and CI validation are different sets.
+- Existing tests: `tests/conjugation-embed.test.mjs`, `tests/quality-audit.test.mjs`, and `tests/parity-recursion.test.mjs`. The conjugation test imports `playwright`, which is **not declared** in `package.json` or `package-lock.json`; `npm run test:conjugation` fails before running any assertion.
+- `validate-vocabulary.yml` runs schema/theme/taxonomy checks, quality tests, parity-loader tests, `npm run audit`, `npm run parity`, `npm run test:verb-inventory`, and index-freshness checks. It still **does not run** the full `npm run validate` chain or `npm run test:conjugation`.
 - Workflows use `actions/checkout@v4` and `actions/setup-node@v4` tags, not commit SHAs. `npm install --no-save ajv@^8 ajv-formats@^2` uses floating ranges rather than the lockfile.
 - `daily-calendar.yml` has `contents: write` and commits directly to `main` on a schedule; there is no test gate for generated daily content.
 
