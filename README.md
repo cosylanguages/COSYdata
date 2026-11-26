@@ -2,6 +2,8 @@
 
 COSYdata is the canonical, machine-readable data repository and vocabulary hub for the COSY Languages ecosystem, serving standardized dictionary entries, functional phrases, and curriculum competencies across multiple languages via GitHub Pages.
 
+Chuvash (`cv`), Tatar (`tt`), Bashkir (`ba`) and Breton (`br`) currently stop at B2; C1/C2 are intentionally not maintained for those four languages yet.
+
 - **Live Site**: [COSYdata Vocabulary Hub](https://cosylanguages.github.io/COSYdata/)
 - **Main Site**: [COSYlanguages Platform](https://cosylanguages.github.io/COSYlanguages/)
 
@@ -19,8 +21,8 @@ COSYdata/
 │   │   ├── a2/               # Elementary level vocabulary entries
 │   │   ├── b1/               # Intermediate level vocabulary entries
 │   │   ├── b2/               # Upper-intermediate level vocabulary entries
-│   │   ├── c1/               # Advanced level vocabulary entries
-│   │   ├── c2/               # Proficiency level vocabulary entries
+│   │   ├── c1/               # Advanced level vocabulary entries (not yet for cv, tt, ba, br)
+│   │   ├── c2/               # Proficiency level vocabulary entries (not yet for cv, tt, ba, br)
 │   │   ├── index.json        # Maps entry IDs -> relative file path
 │   │   ├── flat-index.json   # Maps surface word forms -> entry ID & field references
 │   │   ├── search-index.json # Lightweight search index items
