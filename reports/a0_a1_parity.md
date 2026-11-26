@@ -13,9 +13,9 @@
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 0 | 6 |
-| FR | 1628 | 1036 | 592 | -41 | +562 | -603 | 28 | 31 |
-| IT | 1234 | 266 | 968 | -435 | -208 | -227 | 29 | 11 |
-| RU | 737 | 206 | 530 | -932 | -268 | -665 | 31 | 63 |
+| FR | 1628 | 1036 | 592 | -41 | +562 | -603 | 27 | 31 |
+| IT | 1234 | 266 | 968 | -435 | -208 | -227 | 28 | 11 |
+| RU | 737 | 206 | 530 | -932 | -268 | -665 | 29 | 63 |
 | EL | 934 | 152 | 782 | -735 | -322 | -413 | 40 | 55 |
 
 ### Details: EN
@@ -33,15 +33,14 @@
 
 ### Details: FR
 
-#### Structural & Policy Violations (24)
+#### Structural & Policy Violations (23)
 
-##### Domain Violations (20)
+##### Domain Violations (19)
 - Entry 'fr:taper:verb' domain tag 'professional' not allowed at A0-A1
 - Entry 'fr:couverture:noun' has missing domain
 - Entry 'fr:chevet:noun' has missing domain
 - Entry 'fr:commode:noun' has missing domain
 - Entry 'fr:cuisine:noun' has missing domain
-- Entry 'fr:lampe:noun' has missing domain
 - Entry 'fr:poubelle:noun' has missing domain
 - Entry 'fr:rideau:noun' has missing domain
 - Entry 'fr:rayon-de-bibliotheque:noun' has missing domain
@@ -51,7 +50,8 @@
 - Entry 'fr:maison:noun' has missing domain
 - Entry 'fr:immeuble-d-habitation:noun' has missing domain
 - Entry 'fr:chambre:noun' has missing domain
-- *...and 5 more*
+- Entry 'fr:salle-a-manger:noun' has missing domain
+- *...and 4 more*
 
 ##### Duplicate Word+Form+Sense (4)
 - Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:phrase, fr:ce-soir:phrase
@@ -96,9 +96,9 @@
 
 ### Details: IT
 
-#### Structural & Policy Violations (29)
+#### Structural & Policy Violations (28)
 
-##### Domain Violations (26)
+##### Domain Violations (25)
 - Entry 'it:digitare:verb' domain tag 'professional' not allowed at A0-A1
 - Entry 'it:doccia:noun' has missing domain
 - Entry 'it:gabinetto:noun' has missing domain
@@ -109,15 +109,15 @@
 - Entry 'it:sedia:noun' has missing domain
 - Entry 'it:orologio:noun' has missing domain
 - Entry 'it:cucina:noun' has missing domain
-- Entry 'it:lampada:noun' has missing domain
 - Entry 'it:tavolo:noun' has missing domain
 - Entry 'it:cestino:noun' has missing domain
 - Entry 'it:tenda:noun' has missing domain
 - Entry 'it:scaffale-per-libri:noun' has missing domain
-- *...and 11 more*
+- Entry 'it:tavolino-da-salotto:noun' has missing domain
+- *...and 10 more*
 
 ##### Level Violations (1)
-- Entry 'it:scrivania:noun' level 'A1' does not equal min of levels [A0, A1] ('A0')
+- Entry 'it:scrivania:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
 
 ##### Duplicate Word+Form+Sense (2)
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
@@ -139,17 +139,15 @@
 
 ### Details: RU
 
-#### Structural & Policy Violations (31)
+#### Structural & Policy Violations (29)
 
-##### Domain Violations (25)
+##### Domain Violations (23)
 - Entry 'ru:dush:noun' has missing domain
 - Entry 'ru:tualet:noun' has missing domain
 - Entry 'ru:odeyalo:noun' has missing domain
 - Entry 'ru:prikrovatnyy-stolik:noun' has missing domain
 - Entry 'ru:komod:noun' has missing domain
-- Entry 'ru:chasy:noun' has missing domain
 - Entry 'ru:kukhnya:noun' has missing domain
-- Entry 'ru:lampa:noun' has missing domain
 - Entry 'ru:musornoe-vedro:noun' has missing domain
 - Entry 'ru:shtora:noun' has missing domain
 - Entry 'ru:knizhnaya-polka:noun' has missing domain
@@ -157,7 +155,9 @@
 - Entry 'ru:pismennyy-stol:noun' has missing domain
 - Entry 'ru:metla:noun' has missing domain
 - Entry 'ru:vedro:noun' has missing domain
-- *...and 10 more*
+- Entry 'ru:dom:noun' has missing domain
+- Entry 'ru:mnogokvartirnyy-dom:noun' has missing domain
+- *...and 8 more*
 
 ##### Level Violations (1)
 - Entry 'ru:dolzhenstvovat:verb' level 'A2' must be 'A0' or 'A1'

@@ -372,7 +372,7 @@
     "sub_theme": "physical_appearance"
   },
   {
-    "id": "fr:sur-a2:adjective",
+    "id": "fr:sur-certain:adjective",
     "word": "sûr",
     "language": "fr",
     "form": "adjective",
@@ -386,12 +386,13 @@
     ],
     "domain": "general",
     "theme": "descriptors",
-    "updated": "2025-05-18",
+    "updated": "2026-11-26",
     "emoji": "🎯",
     "antonyms": [
       "incertain"
     ],
-    "sub_theme": "physical_appearance"
+    "sub_theme": "quality_condition",
+    "sense": "certain"
   },
   {
     "id": "fr:faux:adjective",
@@ -651,52 +652,6 @@
     "updated": "2025-05-18",
     "emoji": "🇫🇷",
     "no_antonym": true,
-    "sub_theme": "physical_appearance"
-  },
-  {
-    "id": "fr:beau-a2:adjective",
-    "word": "beau",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/beau/",
-    "feminine": "belle",
-    "feminine_plural": "belles",
-    "comparative": "plus beau",
-    "superlative": "le plus beau",
-    "emoji": "✨",
-    "definitions": [
-      "Qui plaît à l'œil ou à l'esprit."
-    ],
-    "examples": [
-      "Il utilise l'expression \"beau\" dans sa conversation."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
-    "id": "fr:fort-a2:adjective",
-    "word": "fort",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/fort/",
-    "feminine": "forte",
-    "feminine_plural": "fortes",
-    "comparative": "plus fort",
-    "superlative": "le plus fort",
-    "emoji": "💪",
-    "definitions": [
-      "Qui a de la force physique ou morale."
-    ],
-    "examples": [
-      "C'est un nageur fort qui peut traverser le lac facilement."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
     "sub_theme": "physical_appearance"
   },
   {
@@ -1330,52 +1285,6 @@
     "sub_theme": "physical_appearance"
   },
   {
-    "id": "fr:riche-a2:adjective",
-    "word": "riche",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/riche/",
-    "feminine": "riche",
-    "feminine_plural": "riches",
-    "comparative": "plus riche",
-    "superlative": "le plus riche",
-    "emoji": "🏦",
-    "definitions": [
-      "Ayant beaucoup d'argent."
-    ],
-    "examples": [
-      "Elle est devenue très riche après avoir vendu son entreprise."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
-    "id": "fr:pauvre-a2:adjective",
-    "word": "pauvre",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/pauvre/",
-    "feminine": "pauvre",
-    "feminine_plural": "pauvres",
-    "comparative": "plus pauvre",
-    "superlative": "le plus pauvre",
-    "emoji": "🏚️",
-    "definitions": [
-      "Ayant très peu d'argent."
-    ],
-    "examples": [
-      "L'entreprise a commencé très pauvre et s'est construite d'elle-même."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
     "id": "fr:sain:adjective",
     "word": "sain",
     "language": "fr",
@@ -1415,52 +1324,6 @@
     ],
     "examples": [
       "Rester assis à un bureau toute la journée est malsain."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
-    "id": "fr:malade-a2:adjective",
-    "word": "malade",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/malade/",
-    "feminine": "malade",
-    "feminine_plural": "malades",
-    "comparative": "plus malade",
-    "superlative": "le plus malade",
-    "emoji": "🤒",
-    "definitions": [
-      "Qui n'est pas bien ; souffrant d'une maladie."
-    ],
-    "examples": [
-      "Elle est malade et travaille à domicile cette semaine."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
-    "id": "fr:fatigue-a2:adjective",
-    "word": "fatigué",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/fatigué/",
-    "feminine": "fatiguée",
-    "feminine_plural": "fatiguées",
-    "comparative": "plus fatigué",
-    "superlative": "le plus fatigué",
-    "emoji": "😴",
-    "definitions": [
-      "Ressentant le besoin de se reposer."
-    ],
-    "examples": [
-      "Je me sens très fatigué après ce long voyage d'affaires."
     ],
     "no_antonym": true,
     "domain": "general",
@@ -1767,29 +1630,6 @@
     "sub_theme": "physical_appearance"
   },
   {
-    "id": "fr:difficile-a2:adjective",
-    "word": "difficile",
-    "language": "fr",
-    "form": "adjective",
-    "level": "A2",
-    "transcription": "/difficile/",
-    "feminine": "difficile",
-    "feminine_plural": "difficiles",
-    "comparative": "plus difficile",
-    "superlative": "le plus difficile",
-    "emoji": "🧩",
-    "definitions": [
-      "Pas facile ; nécessitant de l'effort ou de la compétence."
-    ],
-    "examples": [
-      "La négociation a été très difficile."
-    ],
-    "no_antonym": true,
-    "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
-  },
-  {
     "id": "fr:direct:adjective",
     "word": "direct",
     "language": "fr",
@@ -2072,7 +1912,7 @@
     "sub_theme": "physical_appearance"
   },
   {
-    "id": "fr:attendre-a2:verb",
+    "id": "fr:attendre-expect:verb",
     "word": "attendre",
     "language": "fr",
     "form": "verb",
@@ -2086,13 +1926,15 @@
     "definitions": [
       "Penser que quelque chose va arriver."
     ],
-    "examples": [
-      "Il utilise l'expression \"attendre\" dans sa conversation."
-    ],
     "no_antonym": true,
     "domain": "general",
-    "theme": "descriptors",
-    "sub_theme": "physical_appearance"
+    "theme": "actions",
+    "sub_theme": "mental_cognition",
+    "sense": "expect",
+    "updated": "2026-11-26",
+    "examples": [
+      "Je vais attendre une réponse avant de décider."
+    ]
   },
   {
     "id": "fr:construire:verb",

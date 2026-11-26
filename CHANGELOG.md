@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- Resolved all 122 French/Italian/Russian `-a2` IDs: renamed nine distinct senses with semantic IDs and `sense` values, merged 113 level variants into their base entries with A2 in `levels`, added aliases, and refreshed the quality baseline to 13,104 findings / 32,379 entries.
 - Replaced six malformed French phrase IPA strings that used `_` separators, and recorded the 126 remaining phrase pseudo-transcriptions and the 122 `-a2` semantic-ID cases in `reports/needs-review/`.
 - Pinned `actions/checkout` and `actions/setup-node` to v4.4.0 commit SHAs and added least-privilege permissions to the workflows.
 - Corrected the README `concept` description to match the 80 English dotted keys and 2,664 non-English `en:` references in the data.
