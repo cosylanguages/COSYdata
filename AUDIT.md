@@ -201,7 +201,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 ## Documentation findings
 
 - `README.md` says `transcription` is "required for non-contractions" and `emoji` is "required unless `no_emoji: true`"; data has 5,779 missing transcriptions and 3,287 entries with neither emoji nor `no_emoji`.
-- README describes `concept` as a dotted language-independent key and says all 48 English values are self-references; actual English values are 80 dotted keys and none are self-references. Non-English entries mostly use `en:` IDs instead.
+- P19 corrected README's `concept` description: the data has 80 dotted English keys and 2,664 non-English `en:` IDs, with no self-references.
 - README previously documented a flat `a0_a1/` layout and omitted `a0/`, `a1/` and nested `home/furniture/`; P7 now documents them.
 - README/`schemas/themes.json` describe 46 themes as canonical; `shared/themes.json` has 55 and 369 pairs (9 extra themes and 133 extra sub-themes). README now states both counts; the two files remain separate sources.
 - Previous `AUDIT.md` said CI currently fails with 78 retired IDs and that `KNOWN_FORMS` lacks `idiom`/`phrasal_verb`; both are false on this revision.

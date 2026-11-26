@@ -83,7 +83,7 @@ Vocabulary entries are JSON objects defined and validated against `schemas/vocab
 - `rooms` *(array of strings, optional)*: Associated rooms or house spaces (`entrance`, `hallway`, `living_room`, `dining_room`, `kitchen`, `pantry`, `bedroom`, `nursery`, `childrens_room`, `bathroom`, `study`, `laundry_room`, `garage`, `basement`, `attic`, `balcony`, `terrace`, `garden`, `storage`, `shared`).
 - `verbs` *(array of strings, optional)*: Action verb entry IDs associated with the term (e.g., `["en:clean:verb", "en:wash:verb"]`).
 - `see_also` *(array of strings, optional)*: Related entry IDs (e.g., `["en:broom:noun"]`).
-- `concept` *(string, optional)*: Language-independent concept key (e.g., `housing.furniture.chair`). *Audit Note*: An audit revealed that all 48 existing `concept` values in `vocabulary/en/` are self-references (pointing to the entry's own ID).
+- `concept` *(string, optional)*: Legacy concept key. The data currently contains 80 dotted English keys (e.g., `housing.furniture.chair`) and 2,664 non-English `en:<entry-id>` references; no value is a self-reference. New entries should follow the current optional-English-ID convention in `AGENTS.md`, not the old dotted form.
 
 ### Grammar & Morphology
 - `article` / `gender` / `countability` / `plural_form` / `partitive` / `contraction`: Grammatical properties for nouns and prepositions.

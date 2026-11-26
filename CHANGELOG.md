@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- Corrected the README `concept` description to match the 80 English dotted keys and 2,664 non-English `en:` references in the data.
 - Added the missing `domain` and `updated` fields to five English A0-A1 furniture entries; the EN parity violation count is now 0.
 - Declared `playwright`, installed Chromium in CI, and added `test:conjugation` to the validation workflow; all four conjugation tests now pass.
 - Removed the one-byte `docs/unified-taxonomy-draft/123` stray file and 57 exact duplicate files from `reports/archive/`, leaving three unique historical reports.
