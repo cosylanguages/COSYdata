@@ -17,9 +17,9 @@ Highest-impact problems:
 1. **Level coverage is not a progression.** German, Spanish and Portuguese have zero B2 and C1 entries; Chuvash has zero A2, B1, B2 and C1; Armenian, Georgian, Bashkir, Tatar and Breton have only 17 A2 and 11 B1 entries but 88-140 B2/C1 entries.
 2. **688 of the original 1,850 vocabulary JSON files were empty (37%).** P1 pruned them; 1,162 data files remain, with 0 empty files.
 3. **1,279 entries have no definition and 1,803 have no example.** Another 710 examples are template sentences and 273 "definitions" are just the headword.
-4. **483 entries share the same word and the same form with another entry; 447 share word, form and sense.** This includes 122 explicit `-a2` duplicates, 126 French `avoir …` entries with an `:idiom` ID but `form: phrase`, and 56 Spanish country/city `:other` entries.
-5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs; 186 remain (126 French, 56 Spanish, 4 Italian), 57 of them strict failures.
-6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 281 are `-`, and 5,779 are missing.
+4. **475 entries share the same word and the same form with another entry; 439 share word, form and sense.** This includes 122 explicit `-a2` duplicates and 126 French `avoir …` entries with an `:idiom` ID but `form: phrase`. P9 removed the four Spanish country/city duplicates.
+5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs and P9 repaired all 56 Spanish IDs; 130 remain (126 French, 4 Italian), with 1 strict failure.
+6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 281 are `-`, and 5,778 are missing.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
 8. **Tests and CI do not fully protect the data.** `playwright` is still undeclared, so `test:conjugation` fails; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, but the full `npm run validate` chain and conjugation test remain outside CI.
 
@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 32,497 entries, 13,620 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 32,493 entries, 13,504 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -79,7 +79,7 @@ Highest-impact problems:
 ## Vocabulary quality findings
 
 ### Q1 - Missing definitions and examples (Critical)
-- **1,279 entries have no `definitions`:** it 381, fr 341, el 256, ru 232, de 11, hy/ka/tt/ba/br 11 each, pt 3.
+- **1,278 entries have no `definitions`:** it 381, fr 341, el 256, ru 232, de 11, hy/ka/tt/ba/br 11 each, pt 3.
 - **1,803 entries have no `examples`:** fr 438, it 392, el 314, ru 268, tt/ba 70, hy/ka 69, br 68, es 27, de 11, pt 4, cv 3.
 - All 1,279 entries missing definitions also lack examples; 524 additional entries have definitions but no examples.
 - Cause: the JSON Schema requires only `id`, `word`, `language` and `form`; `definitions` is only constrained to `minItems: 1` **if present**. The "placeholder definitions" check cannot see an absent field.
@@ -91,7 +91,7 @@ Highest-impact problems:
 - **110 entries use "used to …" style definitions** (`en:maybe`, `en:no`, `en:not`, `en:remote-control`, `en:email-address`, `en:phone-number`, `en:credit-card`): usage notes, not definitions.
 
 ### Q3 - Duplicate words and forms (Critical)
-- **483 entries share the same `(language, word, form)` with another entry**, in about 241 groups; **447 entries in 223 groups also share the same `sense`** (the stricter duplicate signal used by the quality gate). By language: it 160, fr 124, ru 75, en 60, el 34, es 8, pt 8, ka 8, tt 2, ba 2, br 2.
+- **475 entries share the same `(language, word, form)` with another entry**, in 237 groups; **439 entries in 219 groups also share the same `sense`** (the stricter duplicate signal used by the quality gate). By language: it 160, fr 124, ru 75, en 60, el 34, es 0, pt 8, ka 8, tt 2, ba 2, br 2.
 - **122 `-a2` duplicate IDs** exist (fr 31, it 67, ru 24); every one has a base entry for the same word. 42 are definition = word, 35 use template examples, 45 are otherwise real duplicate content. Examples: `fr:oiseau:noun` vs `fr:oiseau-a2:noun`; `it:cavallo:noun` vs `it:cavallo-a2:noun`; `ru:lev:noun` vs `ru:lev-a2:noun`.
 - **Theme-suffixed duplicates:** `en:data-breach:noun` vs `en:data-breach-technology:noun`; `en:consciousness:noun` vs `en:consciousness-philosophy:noun`; `fr:poisson:noun` vs `fr:poisson-aliment:noun`; `it:pesce:noun` vs `it:pesce-animale:noun`; `ru:ryba:noun` vs `ru:ryba-anim:noun`. These violate the rule to use `secondary_themes` instead of duplicate entries. Only 120 entries use `secondary_themes`.
 - **Transliteration duplicates:** `el:sabbato:noun` vs `el:savvato:noun`; `el:ianouarios:noun` vs `el:ianoyarios:noun`; `ka:tkma:verb` vs `ka:thqma:verb`; `ba:yahau:verb` vs `ba:yasau:verb`.
@@ -108,17 +108,17 @@ Highest-impact problems:
 
 ### Q5 - ID integrity is not enforced (Critical)
 - Schema pattern is `^[a-z]{2}:[^:]+:[^:]+$`; the description says `<form>`, but any third token passes.
-- **205 ID/form mismatches:** fr 145, es 56, it 4.
+- **130 ID/form mismatches:** fr 126, es 0, it 4.
   - **126 French `avoir …` entries** in `vocabulary/fr/a0_a1/common_nouns.json` have IDs ending `:idiom` but `form: phrase` (`fr:avoir-faim:idiom`, `fr:avoir-soif:idiom`, …). The canonical `fr:avoir-faim:phrase` reference cannot resolve.
-  - **19 French sports entries** put IPA in the ID: `fr:dessiner:/de.si.ne/`, `fr:danser:/dɑ̃.se/`, etc. They are also labeled `form: noun` though they are verbs, their `definitions` contain example sentences (`"L'enfant dessine."`), and they have no `examples`.
-  - **56 Spanish `:other` entries** (`es:alemania:other`, `es:berlin:other`, …) have `form: noun`.
+  - **19 French sports entries** previously put IPA in the ID: `fr:dessiner:/de.si.ne/`, etc. P8 fixed all 19 (8 became unique verbs, 11 were duplicates of existing verbs).
+  - The 56 Spanish `:other` entries were repaired in P9: four were merged into canonical nouns and 52 now use `:noun`.
   - **4 Italian entries:** `it:ma:phrase`/`it:e:phrase`/`it:o:phrase` have `form: conjunction`; `it:non-piacere:verb` has `form: phrase`.
-- **3 IDs have non-ASCII slugs:** `fr:pédaler:/pe.da.le/`, `fr:pêcher:/pɛ.ʃe/`, `fr:fêter-un-anniversaire:phrase`. Most French IDs drop accents; these do not.
+- **1 ID has a non-ASCII slug:** `fr:fêter-un-anniversaire:phrase`. Most French IDs drop accents; this one does not.
 - **Accent-stripping creates ambiguity:** `es:teleologa:noun` (word `teleología`) collides conceptually with `teleóloga` (a female teleologist); `es:ontologa:noun` has the same issue.
-- Consequence: `resolveVocab("fr:avoir-faim:phrase")` searches for `phrase` but the index key is `fr:avoir-faim:idiom`; there is no alias, so it returns `null`. The same applies to the Spanish `:other` IDs and Italian conjunctions.
+- Consequence: `resolveVocab("fr:avoir-faim:phrase")` searches for `phrase` but the index key is `fr:avoir-faim:idiom`; there is no alias, so it returns `null`. The same applies to the Italian conjunction IDs; Spanish `:other` aliases are now in place.
 
 ### Q6 - Pronunciation/transcription is unreliable (High)
-- **5,779 entries have no `transcription`** (17.8%).
+- **5,778 entries have no `transcription`** (17.8%).
 - **281 entries use `"-"`** as transcription.
 - **1,997 entries have a transcription exactly `/<id-slug>/`**, e.g. `/hen/`, `/send/`, `/katze/`, `/gato/`, `/perro/`, `/rome/`, `/se/`. These are spellings/transliterations, not IPA (English `/hɛn/`, German `/ˈkatsə/`, Spanish `/ˈɡato/`).
 - **1,054 transcriptions across Tatar 428, Russian 290, Bashkir 112, Chuvash 112 and Armenian 112 use native-script spelling**, e.g. `/эт/`, `/мәче/`, `/ноль/`, `/զրո/`, `[та́нец]`. These are not IPA.
@@ -127,23 +127,21 @@ Highest-impact problems:
 - `dictionary-ui.js` renders expanded entries as `<span>/ ${transcription} /</span>`; because most data already contains slashes, users see `/ /kæt/ /` (double-delimited IPA). The WOTD and popup render the value as-is, so the same entry looks different in different components.
 - No schema constraint rejects `-`, native script, double-escaped Unicode or pseudo-IPA.
 
-### Q7 - Spanish legacy country/city batch is low quality (High)
-- All 56 `es/*/places_transport.json` entries with `:other` IDs have generic definitions:
-  - 28 countries: `"Un país en el mundo."` with example `"país"`.
-  - 28 cities: `"Un famosa ciudad en el mundo."` (grammatically wrong; should be `"Una famosa ciudad…"`) with the same "Visitamos … durante las vacaciones." template.
-- All 56 have pseudo-IPA such as `/ˈalemania/`, `/ˈcanadá/`, `/ˈbarcelona/`.
-- The same words also exist as A2 `noun`/`phrase` entries (`es:alemania:noun`, `es:alemania:phrase`), producing three-way duplicates.
+### Q7 - Spanish legacy country/city batch was low quality (fixed in P9)
+- P9 replaced the generic `"Un país en el mundo."` / `"Un famosa ciudad en el mundo."` definitions with concise Spanish definitions and real examples, and replaced the pseudo-IPA with IPA checked against Spanish Wiktionary (`es.wiktionary.org`).
+- Four words already had A2 noun entries (`es:alemania:noun`, `es:berlin:noun`, `es:canada:noun`, `es:egipto:noun`); those duplicates were removed and aliased. Some of the same words still exist as separate `:phrase` entries, which is a valid homograph but should be reviewed for redundancy.
+- Three manual IPA readings (`EE. UU.`, `San Francisco`, `Washington D.C.`) are recorded in `reports/needs-review/p9-es-places.md`.
 
 ### Q8 - Other language-specific clusters (Medium)
-- **19 French sports verbs** (`dessiner`, `danser`, `chanter`, `cuisiner`, `jardiner`, `bricoler`, `courir`, `nager`, …) are `form: noun`, have IPA in the ID, use an example sentence as their only definition and have no `examples`.
+- The **19 French sports verbs** (`dessiner`, `danser`, `chanter`, …) were repaired in P8; the duplicate and mislabeled noun entries are gone.
 - **126 French `avoir …` phrases** are in `common_nouns.json`, themed `general/common_things`, although they are phrases/idioms about hunger, thirst, fear, etc. Their IDs end `:idiom` while `form` is `phrase`.
 - **Russian 119 adjectives** and **Greek 60 adjectives** have `definitions` equal to the word and template examples; Russian examples also use the `Он использует выражение …` template and `/дешевый/`-style transcriptions.
-- **39 examples are one token or less:** 9 Chuvash place names (`"Шупашкар."`), 28 Spanish country entries (`"país"`), and `es:enfermo:adjective` (`"enfermo"`), `es:util:adjective` (`"útil"`).
+- **11 examples are one token or less:** 9 Chuvash place names (`"Шупашкар."`), `es:enfermo:adjective` (`"enfermo"`), and `es:util:adjective` (`"útil"`). The 28 Spanish `"país"` examples were fixed in P9.
 
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,620 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,504 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);
@@ -238,12 +236,12 @@ The validator's "placeholder definitions and examples" check only checks values 
 4. **Choose one level layout** (`a0_a1` or `a0`+`a1`) and one home layout (flat theme file or nested `home/`); migrate consistently and make parity/build/validator walk recursively.
 
 ### P1 - data correction, by cluster
-5. **Deduplicate the 483 same-word/same-form entries** and the 122 `-a2` entries. Keep the richest entry, merge definitions/examples/forms, add `"old": "new"` aliases to `shared/id-aliases.json`, and update every `regional_equivalents`, `synonyms`, `related_forms`, `concept`, index and consumer reference.
-6. **Repair the 205 malformed IDs** (126 FR `:idiom` -> `:phrase`, 19 FR IPA-in-ID -> `:verb`, 56 ES `:other` -> `:noun`, 4 IT). Add aliases for every old ID. Correct the affected `form` values and move the French `avoir …` phrases out of `common_nouns.json`.
+5. **Deduplicate the 475 same-word/same-form entries** and the 122 `-a2` entries. Keep the richest entry, merge definitions/examples/forms, add `"old": "new"` aliases to `shared/id-aliases.json`, and update every `regional_equivalents`, `synonyms`, `related_forms`, `concept`, index and consumer reference.
+6. **Repair the remaining 130 malformed IDs** (126 FR `:idiom` -> `:phrase`, 4 IT). The 19 French IPA-in-ID entries and 56 Spanish `:other` entries are already fixed. Add aliases for every old ID and move the French `avoir …` phrases out of `common_nouns.json`.
 7. **Fix the English POS batch:** re-derive `form` from a dictionary POS, not from the file/theme; correct 169 entries and re-review the files listed in Q4.
 8. **Remove or backfill the 1,279 no-definition and 1,803 no-example entries.** Delete template examples and def=word entries rather than keeping them as "content". For Russian/Greek adjective batches, regenerate real definitions and examples.
 9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; standardize on one delimiter and remove the UI's extra `/ … /` wrapper. P6 decoded all double-escaped values.
-10. **Fix Spanish `:other` batch:** delete or merge into canonical `es:<word>:noun` entries; replace generic definitions, `"país"` examples and pseudo-IPA; fix `"Un famosa"` -> `"Una famosa"`.
+10. **Spanish `:other` batch:** fixed in P9; review the remaining `:phrase` homographs for redundancy.
 11. **Fill the level gaps or stop advertising them:** either add A2/B1/B2/C1 for de/es/pt/cv and A2/B1 for hy/ka/ba/tt/br, or mark those levels unsupported; re-level FR A0/A1 and de/es/pt C2 entries.
 12. **Parity recursion is fixed in P2 for the five target languages.** Extending parity to all 14 languages still needs essentials columns and targets for the other nine; the report now distinguishes the rechecked five-language result from that unstarted expansion.
 
