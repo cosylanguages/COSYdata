@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P42 added Greek A2 definitions and examples for 100 housing entries (10,500 findings / 31,568 entries).
 - P41 added Greek A0/A1 definitions and examples for 72 housing entries (10,700 findings / 31,568 entries).
 - P40 added Italian B1/B2 definitions and examples for 63 housing entries; Italian housing is complete (10,844 findings / 31,568 entries).
 - P39 added Italian A2 definitions and examples for 97 housing entries (10,970 findings / 31,568 entries).
