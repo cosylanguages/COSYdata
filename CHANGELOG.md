@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P57 added examples for 58 Greek C2 adjectives and corrected the Portuguese July definition (9,094 findings / 31,499 entries).
 - P56 removed 66 empty B1 placeholders from ba, br, de, hy, ka and tt; no entry now lacks a definition (9,153 findings / 31,499 entries).
 - P55 fixed French, Portuguese and Russian definition gaps, removed a named-person entry and duplicate verbs, and renamed three malformed IDs (9,351 findings / 31,565 entries).
 - P54 defined eleven Greek B1 place names and fixed two malformed Greek housing headwords (9,377 findings / 31,567 entries).
