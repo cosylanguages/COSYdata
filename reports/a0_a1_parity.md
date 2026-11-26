@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 5 | 6 |
 | FR | 1628 | 1036 | 592 | -41 | +562 | -603 | 28 | 31 |
-| IT | 1235 | 266 | 969 | -434 | -208 | -226 | 30 | 11 |
+| IT | 1234 | 266 | 968 | -435 | -208 | -227 | 29 | 11 |
 | RU | 737 | 206 | 530 | -932 | -268 | -665 | 31 | 63 |
 | EL | 934 | 152 | 782 | -735 | -322 | -413 | 40 | 55 |
 
@@ -103,7 +103,7 @@
 
 ### Details: IT
 
-#### Structural & Policy Violations (30)
+#### Structural & Policy Violations (29)
 
 ##### Domain Violations (26)
 - Entry 'it:digitare:verb' domain tag 'professional' not allowed at A0-A1
@@ -126,8 +126,7 @@
 ##### Level Violations (1)
 - Entry 'it:scrivania:noun' level 'A1' does not equal min of levels [A0, A1] ('A0')
 
-##### Duplicate Word+Form+Sense (3)
-- Word+form+sense 'non piacere::phrase::' duplicated across IDs: it:non-piacere:verb, it:non-piacere:phrase
+##### Duplicate Word+Form+Sense (2)
 - Word+form+sense 'chi::pronoun::' duplicated across IDs: it:chi:pronoun, it:a-chi:pronoun
 - Word+form+sense '::determiner::article' duplicated across IDs: it:l-apostrofo:determiner, it:un-apostrofo:determiner
 
