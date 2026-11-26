@@ -187,7 +187,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 - `dictionary-ui.js` inserts `emoji` and `form` directly into `innerHTML` in several places: lines 1281, 1435, 1437, 1456, 1459, 1460. Some other fields are escaped, so sanitisation is inconsistent.
 - `emoji` and `form` are unconstrained strings in the schema. A future entry with `emoji: "<img src=x onerror=…>"` or a malicious `form` would execute in any consumer that uses `dictionary-ui.js`. Current data contains no `<script>`/`onerror`/`javascript:` payloads. P3 replaced the two HTML-unsafe `<`/`>` values; 5 entries still use safe symbols (`%`, `=`).
 - `index.html` loads three external scripts from `https://cosylanguages.github.io/...` with no SRI and no CSP meta tag: `daily-strip.js`, `daily-directory.js`, `ecosystem-strip.js`. A compromise of the COSYlanguages Pages repo would execute in COSYdata consumers.
-- `top10-verbs.html` inserts values from `shared/top10-verbs.json` into HTML without escaping; the JSON is trusted now, but it is another data-to-HTML sink.
+- `top10-verbs.html` previously inserted values from `shared/top10-verbs.json` into HTML without escaping. P4 added `escapeHtml` around every interpolated verb/conjugation field.
 
 ### C3 - Parity tool undercounted and covers only five languages (High; recursion fixed in P2)
 - Before P2, `a0-a1-parity.cjs` read only top-level `vocabulary/<lang>/a0_a1/*.json` and ignored nested `a0_a1/home/**`. P2 now recurses; the historical top-level counts were:

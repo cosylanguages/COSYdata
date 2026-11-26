@@ -343,6 +343,12 @@
       }
     }
 
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, (ch) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      })[ch]);
+    }
+
     function setPart(part) {
       currentPart = part;
       for (let i = 0; i <= 3; i++) {
@@ -379,8 +385,8 @@
 
         const conjRows = Object.entries(langInfo.conjugation || {}).map(([pronoun, form]) => `
           <tr>
-            <td class="pronoun-col">${pronoun}</td>
-            <td class="verb-col">${form}</td>
+            <td class="pronoun-col">${escapeHtml(pronoun)}</td>
+            <td class="verb-col">${escapeHtml(form)}</td>
           </tr>
         `).join('');
 
@@ -388,11 +394,11 @@
           <div class="verb-card">
             <div>
               <div class="verb-header">
-                <h3 class="verb-title"><span>${v.emoji}</span> ${v.english_title}</h3>
-                <span class="part-badge">Part ${v.part}</span>
+                <h3 class="verb-title"><span>${escapeHtml(v.emoji)}</span> ${escapeHtml(v.english_title)}</h3>
+                <span class="part-badge">Part ${escapeHtml(v.part)}</span>
               </div>
-              <div class="verb-infinitive">${flag} ${langInfo.infinitive}</div>
-              <div class="verb-notes">${langInfo.notes || 'Standard present simple conjugation.'}</div>
+              <div class="verb-infinitive">${escapeHtml(flag)} ${escapeHtml(langInfo.infinitive)}</div>
+              <div class="verb-notes">${escapeHtml(langInfo.notes || 'Standard present simple conjugation.')}</div>
             </div>
             <table class="conjugation-table">
               <thead>
