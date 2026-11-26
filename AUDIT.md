@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 32,492 entries, 13,372 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 32,492 entries, 13,371 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -136,12 +136,12 @@ Highest-impact problems:
 - The **19 French sports verbs** (`dessiner`, `danser`, `chanter`, …) were repaired in P8; the duplicate and mislabeled noun entries are gone.
 - **126 French `avoir …` phrases** are in `common_nouns.json`, themed `general/common_things`, although they are phrases/idioms about hunger, thirst, fear, etc. Their IDs end `:idiom` while `form` is `phrase`.
 - **Russian 119 adjectives** and **Greek 60 adjectives** have `definitions` equal to the word and template examples; Russian examples also use the `Он использует выражение …` template and `/дешевый/`-style transcriptions.
-- **11 examples are one token or less:** 9 Chuvash place names (`"Шупашкар."`), `es:enfermo:adjective` (`"enfermo"`), and `es:util:adjective` (`"útil"`). The 28 Spanish `"país"` examples were fixed in P9.
+- **9 examples are one token or less:** 9 Chuvash place names (`"Шупашкар."`). The Spanish `enfermo`, `útil` and `país` examples were fixed in P9/P15.
 
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,372 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,371 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);

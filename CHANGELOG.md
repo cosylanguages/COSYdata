@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- Replaced the one-word Spanish examples and pseudo-IPA for `es:enfermo:adjective` and `es:util:adjective`; refreshed the baseline to 13,371 findings.
 - Updated the CI validation workflow to install from the lockfile and run the full `npm run validate` chain; removed the duplicate baseline step.
 - Escaped the remaining data-derived `emoji`, `form`, `level` and entry-ID values rendered by `shared/dictionary-ui.js`, closing the stored-XSS surface in the autocomplete and Word of the Day cards.
 - Changed the final non-ASCII ID `fr:fêter-un-anniversaire:phrase` to `fr:feter-un-anniversaire:phrase`, fixed its malformed IPA underscore, and refreshed the baseline to 13,372 findings.
