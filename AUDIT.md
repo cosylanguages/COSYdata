@@ -19,7 +19,7 @@ Highest-impact problems:
 3. **1,279 entries have no definition and 1,803 have no example.** Another 710 examples are template sentences and 273 "definitions" are just the headword.
 4. **483 entries share the same word and the same form with another entry; 447 share word, form and sense.** This includes 122 explicit `-a2` duplicates, 126 French `avoir …` entries with an `:idiom` ID but `form: phrase`, and 56 Spanish country/city `:other` entries.
 5. **205 IDs violate their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but pass the schema; 76 of them fail the stricter quality ID pattern outright.
-6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 74 are double-escaped Unicode, 281 are `-`, and 5,779 are missing.
+6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 281 are `-`, and 5,779 are missing.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
 8. **Tests and CI do not fully protect the data.** `playwright` is still undeclared, so `test:conjugation` fails; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, but the full `npm run validate` chain and conjugation test remain outside CI.
 
@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 32,508 entries, 13,754 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 32,508 entries, 13,680 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -122,7 +122,7 @@ Highest-impact problems:
 - **281 entries use `"-"`** as transcription.
 - **1,997 entries have a transcription exactly `/<id-slug>/`**, e.g. `/hen/`, `/send/`, `/katze/`, `/gato/`, `/perro/`, `/rome/`, `/se/`. These are spellings/transliterations, not IPA (English `/hɛn/`, German `/ˈkatsə/`, Spanish `/ˈɡato/`).
 - **1,054 transcriptions across Tatar 428, Russian 290, Bashkir 112, Chuvash 112 and Armenian 112 use native-script spelling**, e.g. `/эт/`, `/мәче/`, `/ноль/`, `/զրո/`, `[та́нец]`. These are not IPA.
-- **74 transcriptions are double-escaped Unicode**, e.g. `\u02c8m\u0251\u02d0m\u0259` instead of `ˈmɑːmə`; 3 examples and 1 definition are also double-escaped (`l\u0027enseignement`). Affected: en 46, fr 8, it 8, ru 6, el 6.
+- **74 transcriptions were double-escaped Unicode**, e.g. `\u02c8m\u0251\u02d0m\u0259` instead of `ˈmɑːmə`; 3 examples and 1 definition were also double-escaped (`l\u0027enseignement`). P6 decoded all 78 values. Affected: en 46, fr 8, it 8, ru 6, el 6.
 - **1,246 transcriptions use brackets**, 869 have no delimiter, 281 are `-`, and 24,333 use slashes. Notation is inconsistent.
 - `dictionary-ui.js` renders expanded entries as `<span>/ ${transcription} /</span>`; because most data already contains slashes, users see `/ /kæt/ /` (double-delimited IPA). The WOTD and popup render the value as-is, so the same entry looks different in different components.
 - No schema constraint rejects `-`, native script, double-escaped Unicode or pseudo-IPA.
@@ -143,7 +143,7 @@ Highest-impact problems:
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,754 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,680 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);
@@ -242,7 +242,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 6. **Repair the 205 malformed IDs** (126 FR `:idiom` -> `:phrase`, 19 FR IPA-in-ID -> `:verb`, 56 ES `:other` -> `:noun`, 4 IT). Add aliases for every old ID. Correct the affected `form` values and move the French `avoir …` phrases out of `common_nouns.json`.
 7. **Fix the English POS batch:** re-derive `form` from a dictionary POS, not from the file/theme; correct 169 entries and re-review the files listed in Q4.
 8. **Remove or backfill the 1,279 no-definition and 1,803 no-example entries.** Delete template examples and def=word entries rather than keeping them as "content". For Russian/Greek adjective batches, regenerate real definitions and examples.
-9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; decode the 74 double-escaped values; standardize on one delimiter and remove the UI's extra `/ … /` wrapper.
+9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; standardize on one delimiter and remove the UI's extra `/ … /` wrapper. P6 decoded all double-escaped values.
 10. **Fix Spanish `:other` batch:** delete or merge into canonical `es:<word>:noun` entries; replace generic definitions, `"país"` examples and pseudo-IPA; fix `"Un famosa"` -> `"Una famosa"`.
 11. **Fill the level gaps or stop advertising them:** either add A2/B1/B2/C1 for de/es/pt/cv and A2/B1 for hy/ka/ba/tt/br, or mark those levels unsupported; re-level FR A0/A1 and de/es/pt C2 entries.
 12. **Parity recursion is fixed in P2 for the five target languages.** Extending parity to all 14 languages still needs essentials columns and targets for the other nine; the report now distinguishes the rechecked five-language result from that unstarted expansion.
