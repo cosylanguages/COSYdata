@@ -4217,13 +4217,13 @@
     {
       "id": "ru:derzhat-v-uezde:idiom",
       "field": "word"
-    },
-    {
-      "id": "ru:derzhat-v-uezde:phrase",
-      "field": "word"
     }
   ],
   "держать в узде": [
+    {
+      "id": "ru:derzhat-v-uezde:phrase",
+      "field": "word"
+    },
     {
       "id": "ru:derzhat-v-uzde:idiom",
       "field": "word"
@@ -9765,13 +9765,15 @@
       "field": "plural_form"
     }
   ],
+  "мотать на ус": [
+    {
+      "id": "ru:motat-na-usa:phrase",
+      "field": "word"
+    }
+  ],
   "мотать на уса": [
     {
       "id": "ru:motat-na-usa:idiom",
-      "field": "word"
-    },
-    {
-      "id": "ru:motat-na-usa:phrase",
       "field": "word"
     }
   ],
@@ -10307,10 +10309,6 @@
     {
       "id": "ru:namotat-na-usy:idiom",
       "field": "word"
-    },
-    {
-      "id": "ru:namotat-na-usy:phrase",
-      "field": "word"
     }
   ],
   "нанимать": [
@@ -10465,11 +10463,13 @@
       "field": "word"
     }
   ],
-  "наступить на любимый мозоль": [
+  "наступить на любимую мозоль": [
     {
       "id": "ru:nastupit-na-lyubimyi-mozol:phrase",
       "field": "word"
-    },
+    }
+  ],
+  "наступить на любимый мозоль": [
     {
       "id": "ru:nastupit-na-lyubimyy-mozol:idiom",
       "field": "word"
@@ -14141,10 +14141,6 @@
     {
       "id": "ru:popast-v-prosak:idiom",
       "field": "word"
-    },
-    {
-      "id": "ru:popast-v-prosak:phrase",
-      "field": "word"
     }
   ],
   "попасть в просак перед прессой": [
@@ -14190,6 +14186,12 @@
     },
     {
       "id": "ru:popast-v-tochku:phrase",
+      "field": "word"
+    }
+  ],
+  "попасть впросак": [
+    {
+      "id": "ru:popast-v-prosak:phrase",
       "field": "word"
     }
   ],
@@ -17767,7 +17769,9 @@
     {
       "id": "ru:sest-v-galoshu:idiom",
       "field": "word"
-    },
+    }
+  ],
+  "сесть в калошу": [
     {
       "id": "ru:sest-v-galoshu:phrase",
       "field": "word"
