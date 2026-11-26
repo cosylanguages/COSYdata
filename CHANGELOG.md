@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P50 added Italian A0 definitions and examples for 37 verb and communication-phrase entries (9,522 findings / 31,568 entries).
 - P49 added Italian A0 definitions and examples for 52 food, travel and everyday-object entries (9,596 findings / 31,568 entries).
 - P48 added French A1 definitions and examples for 71 basic entries (9,700 findings / 31,568 entries).
 - P47 added French A0 definitions and examples for 44 basic entries (9,842 findings / 31,568 entries).
