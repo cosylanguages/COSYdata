@@ -5,9 +5,10 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,756 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
+- Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,754 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- Replaced the HTML-unsafe `emoji` values in `en:more-than:adverb` (`>` -> `➕`) and `en:less-than:adverb` (`<` -> `➖`); refreshed `reports/quality-baseline.json` to 13,754 findings.
 - Fixed the A0/A1 parity loader to recurse into nested `a0_a1/home/**` files instead of reading only the top-level directory. Corrected totals: EN 1,686, FR 1,639, IT 1,235, RU 737, EL 934; false "missing essentials" fell from 18/36/23/70/67 to 6/31/11/63/55. Added `npm run test:parity` and a CI check.
 - Removed 688 empty vocabulary JSON files (`[]`) that were unreferenced by indexes, scripts, schemas, or documentation, reducing the data set from 1,850 to 1,162 files. Indexes, daily calendars, comparative artifacts, and entry counts are unchanged; `npm run validate` no longer emits empty-file warnings. Full list: `reports/empty-vocabulary-files-pruned.md`.
 - Applied 310 curated, high-confidence semantic theme corrections across 30 files, including personality traits, culture terms, professions, crime terms, modal verbs, and adverbs. Added `scripts/fix-theme-mismatches.cjs` and `scripts/theme-mismatch-corrections.json`. The remaining 2,411 file/theme mismatches are split into 1,663 expected form-file mismatches and 748 semantic review items; see `reports/theme-mismatch-corrections.md`.

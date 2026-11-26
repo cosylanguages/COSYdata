@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 32,508 entries, 13,756 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 32,508 entries, 13,754 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -143,7 +143,7 @@ Highest-impact problems:
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the 13,756 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 13,754 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);
@@ -185,7 +185,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 
 ### C2 - Stored-XSS surface in the dictionary UI (Medium)
 - `dictionary-ui.js` inserts `emoji` and `form` directly into `innerHTML` in several places: lines 1281, 1435, 1437, 1456, 1459, 1460. Some other fields are escaped, so sanitisation is inconsistent.
-- `emoji` and `form` are unconstrained strings in the schema. A future entry with `emoji: "<img src=x onerror=…>"` or a malicious `form` would execute in any consumer that uses `dictionary-ui.js`. Current data contains no `<script>`/`onerror`/`javascript:` payloads, but 7 entries use non-emoji symbols (`%`, `=`, `>`, `<`), including `en:less-than:adverb` with `emoji: "<"`.
+- `emoji` and `form` are unconstrained strings in the schema. A future entry with `emoji: "<img src=x onerror=…>"` or a malicious `form` would execute in any consumer that uses `dictionary-ui.js`. Current data contains no `<script>`/`onerror`/`javascript:` payloads. P3 replaced the two HTML-unsafe `<`/`>` values; 5 entries still use safe symbols (`%`, `=`).
 - `index.html` loads three external scripts from `https://cosylanguages.github.io/...` with no SRI and no CSP meta tag: `daily-strip.js`, `daily-directory.js`, `ecosystem-strip.js`. A compromise of the COSYlanguages Pages repo would execute in COSYdata consumers.
 - `top10-verbs.html` inserts values from `shared/top10-verbs.json` into HTML without escaping; the JSON is trusted now, but it is another data-to-HTML sink.
 
