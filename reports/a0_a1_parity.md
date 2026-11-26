@@ -13,9 +13,9 @@
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 0 | 6 |
-| FR | 1626 | 1036 | 590 | -43 | +562 | -605 | 26 | 31 |
+| FR | 1615 | 1036 | 579 | -54 | +562 | -616 | 25 | 32 |
 | IT | 1234 | 266 | 968 | -435 | -208 | -227 | 28 | 11 |
-| RU | 736 | 205 | 530 | -933 | -269 | -665 | 28 | 63 |
+| RU | 736 | 205 | 530 | -933 | -269 | -665 | 25 | 63 |
 | EL | 925 | 151 | 774 | -744 | -323 | -421 | 31 | 55 |
 
 ### Details: EN
@@ -33,7 +33,7 @@
 
 ### Details: FR
 
-#### Structural & Policy Violations (22)
+#### Structural & Policy Violations (21)
 
 ##### Domain Violations (19)
 - Entry 'fr:taper:verb' domain tag 'professional' not allowed at A0-A1
@@ -53,10 +53,9 @@
 - Entry 'fr:salle-a-manger:noun' has missing domain
 - *...and 4 more*
 
-##### Duplicate Word+Form+Sense (3)
+##### Duplicate Word+Form+Sense (2)
 - Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:phrase, fr:ce-soir:phrase
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
-- Word+form+sense 'regarder la television::phrase::' duplicated across IDs: fr:regarder-la-tele:phrase, fr:regarder-la-television:phrase
 
 ##### Missing Contractions (4)
 - Missing contracted preposition form 'au'
@@ -64,7 +63,7 @@
 - Missing contracted preposition form 'du'
 - Missing contracted preposition form 'des'
 
-#### Missing Essentials (31)
+#### Missing Essentials (32)
 
 - **good luck** (expected: `bonne chance`)
 - **to call** (expected: `appeler`)
@@ -91,7 +90,7 @@
 - **kind** (expected: `gentil`)
 - **phone** (expected: `téléphone`)
 - **computer** (expected: `ordinateur`)
-- *...and 6 more*
+- *...and 7 more*
 
 ### Details: IT
 
@@ -138,7 +137,7 @@
 
 ### Details: RU
 
-#### Structural & Policy Violations (28)
+#### Structural & Policy Violations (25)
 
 ##### Domain Violations (22)
 - Entry 'ru:dush:noun' has missing domain
@@ -162,10 +161,7 @@
 - Entry 'ru:dolzhenstvovat:verb' level 'A2' must be 'A0' or 'A1'
 - Entry 'ru:pismennyi-stol:noun' level 'A1' does not equal min of levels [A0, A1, A2] ('A0')
 
-##### Duplicate Word+Form+Sense (4)
-- Word+form+sense 'рыба::noun::' duplicated across IDs: ru:ryba-anim:noun, ru:ryba:noun
-- Word+form+sense 'курица::noun::' duplicated across IDs: ru:kuritsa-anim:noun, ru:kuritsa:noun
-- Word+form+sense 'мир::noun::' duplicated across IDs: ru:mir-peace:noun, ru:mir-country:noun
+##### Duplicate Word+Form+Sense (1)
 - Word+form+sense 'дешевыи::adjective::' duplicated across IDs: ru:deshevyi:adjective, ru:deshyovyi:adjective
 
 #### Missing Essentials (63)
