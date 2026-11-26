@@ -205,10 +205,10 @@ The validator's "placeholder definitions and examples" check only checks values 
 
 - `README.md` says `transcription` is "required for non-contractions" and `emoji` is "required unless `no_emoji: true`"; data has 5,779 missing transcriptions and 3,287 entries with neither emoji nor `no_emoji`.
 - README describes `concept` as a dotted language-independent key and says all 48 English values are self-references; actual English values are 80 dotted keys and none are self-references. Non-English entries mostly use `en:` IDs instead.
-- README documents a flat `a0_a1/` layout and omits `a0/`, `a1/` and nested `home/furniture/`; those exist.
-- README/`schemas/themes.json` describe 46 themes as canonical; `shared/themes.json` has 55 and 136 unused sub-themes.
+- README previously documented a flat `a0_a1/` layout and omitted `a0/`, `a1/` and nested `home/furniture/`; P7 now documents them.
+- README/`schemas/themes.json` describe 46 themes as canonical; `shared/themes.json` has 55 and 369 pairs (9 extra themes and 133 extra sub-themes). README now states both counts; the two files remain separate sources.
 - Previous `AUDIT.md` said CI currently fails with 78 retired IDs and that `KNOWN_FORMS` lacks `idiom`/`phrasal_verb`; both are false on this revision.
-- `top10-verbs.html` is titled "Top 10 Verbs … Part 1, Part 2 & Part 3", but `shared/top10-verbs.json` has **40 verbs**, with part counts 12/11/17. The page has no Part 4 button; "Top 10" and the three-part framing no longer match the data.
+- `top10-verbs.html` is titled "Top 10 Verbs … Part 1, Part 2 & Part 3", but `shared/top10-verbs.json` has **40 verbs**, with part counts 12/11/17. P7 retitled the page and link to "Core Verbs" and removed the stale "Top 10" claim; the filename keeps its historical name.
 - `docs/unified-taxonomy-draft/123` is a 1-byte stray file with no purpose.
 - `reports/multi-theme-audit.md` describes 13,615 English entries; the current English total is 12,811.
 

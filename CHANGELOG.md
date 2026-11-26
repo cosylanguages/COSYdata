@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,680 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- Corrected documentation and UI naming: README now documents `a0/`, `a1/` and nested `home/` layouts, distinguishes target quality requirements from baselined debt, and the 40-verb page is titled "Core Verbs" instead of "Top 10".
 - Decoded 74 double-escaped `transcription` values and 4 escaped definition/example strings across 10 family files; refreshed `reports/quality-baseline.json` to 13,680 findings and regenerated indexes.
 - Added CI steps for `npm run test:verb-inventory`, `npm run audit`, and `npm run parity`, so those data checks now run on vocabulary/schema/script changes.
 - Escaped every dynamic value rendered by `top10-verbs.html` (`english_title`, `emoji`, infinitive, notes, pronouns and conjugated forms), closing the data-to-HTML injection sink.

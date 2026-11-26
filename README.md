@@ -13,7 +13,9 @@ COSYdata is the canonical, machine-readable data repository and vocabulary hub f
 COSYdata/
 ├── vocabulary/               # Vocabulary datasets by language
 │   ├── <lang>/               # ISO language directory (en, fr, it, ru, el, es, de, pt, hy, ka, ba, br, cv, tt)
-│   │   ├── a0_a1/            # Beginner level vocabulary entries (JSON files by theme)
+│   │   ├── a0_a1/            # Beginner/A1 vocabulary entries (JSON files by theme)
+│   │   ├── a0/, a1/          # Split beginner level dirs used by some languages
+│   │   ├── <level>/home/     # Optional nested theme dirs, e.g. a0_a1/home/furniture/
 │   │   ├── a2/               # Elementary level vocabulary entries
 │   │   ├── b1/               # Intermediate level vocabulary entries
 │   │   ├── b2/               # Upper-intermediate level vocabulary entries
@@ -27,7 +29,7 @@ COSYdata/
 ├── curriculum/               # Competency maps and curriculum guidelines
 ├── schemas/                  # JSON Schemas (draft 2020-12)
 │   ├── vocabulary.schema.json
-│   ├── themes.json           # Canonical taxonomy (46 themes & sub-themes, secondary_theme enums)
+│   ├── themes.json           # Canonical data taxonomy (46 primary themes, 236 sub-theme pairs); shared/themes.json is the 55-theme display view
 │   ├── functional-phrase.schema.json
 │   ├── lesson.schema.json
 │   ├── curriculum-competency.schema.json
@@ -38,7 +40,8 @@ COSYdata/
 │   ├── build-flat-index.js   # Generates flat-index.json
 │   ├── build-search-index.js # Generates search-index.json
 │   ├── a0-a1-parity.cjs      # Cross-linguistic parity and benchmark reporting
-│   └── audit-a0-a1.cjs       # CEFR A0-A1 dataset audit tool
+│   ├── audit-a0-a1.cjs       # CEFR A0-A1 dataset audit tool
+│   └── quality-audit.cjs     # Baseline-gated vocabulary quality audit
 ├── shared/                   # Ecosystem modules and client utilities
 │   ├── vocab-resolver.js     # Framework-free client-side word resolver
 │   ├── cosy-word-popup.js    # Client-side word popup UI component
@@ -49,7 +52,8 @@ COSYdata/
     ├── theme-merges.md       # Proposed theme merge catalog
     ├── multi-theme-audit.md  # 13,615 English entries multi-theme audit summary
     ├── multi-theme-audit.json# Proposed primary/secondary theme and room re-mappings
-    └── a0_a1_parity.md       # Multi-language parity status report
+    ├── a0_a1_parity.md       # Multi-language parity status report
+    └── quality-baseline.json # Accepted quality debt; new violations fail validation
 ```
 
 ---
@@ -67,7 +71,7 @@ Vocabulary entries are JSON objects defined and validated against `schemas/vocab
 - `levels` *(array of strings, optional)*: All CEFR levels across merged source entries.
 
 ### Phonetics & Dialect / Regional Variants
-- `transcription` *(string, required for non-contractions)*: Primary IPA pronunciation transcription.
+- `transcription` *(string, required by the target quality profile)*: Primary IPA pronunciation transcription. Existing gaps are recorded in `reports/quality-baseline.json`; new entries must supply real IPA.
 - `transcription_variants` *(object, optional)*: Dialect IPA variants by regional code (`uk`, `us`, `ca`, `au`, `nz`).
 - `region` *(array of strings, optional)*: Regional preference tags (`UK`, `US`, `CA`, `AU`, `NZ`, `PT`, `BR`, `EA`, `WA`, `ES`, `LATAM`).
 - `regional_equivalents` *(array of strings, optional)*: Array of entry IDs pointing to equivalent terms in other dialects (e.g., `en:apartment:noun` <-> `en:flat:noun`).
@@ -86,9 +90,9 @@ Vocabulary entries are JSON objects defined and validated against `schemas/vocab
 - `past_tense` / `past_participle` / `present_participle` / `is_irregular` / `prepositions`: Verb conjugation and preposition pattern details.
 
 ### Content & Learning Metadata
-- `emoji` *(string, required unless `no_emoji: true`)*: Representative Unicode emoji or symbol.
-- `definitions` *(array of strings, optional)*: Clear definition strings in the entry language.
-- `examples` *(array of strings, optional)*: Example usage sentences.
+- `emoji` *(string, required by the target quality profile unless `no_emoji: true`)*: Representative Unicode emoji or symbol. Existing gaps are baselined; new entries must supply an emoji or `no_emoji`.
+- `definitions` *(array of strings)*: Clear definition strings in the entry language. Required by the target quality profile; existing gaps are baselined.
+- `examples` *(array of strings)*: Example usage sentences in the entry language. Required by the target quality profile; existing gaps are baselined.
 - `synonyms` / `antonyms` *(arrays of strings, optional)*: Near-synonyms and opposite terms.
 - `domain` *(string, optional)*: Course track tags (`general`, `spoken`, `travel`, `relocation`, `exam`, `professional`).
 
