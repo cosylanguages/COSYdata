@@ -61,7 +61,7 @@
 - *...and 5 more*
 
 ##### Duplicate Word+Form+Sense (4)
-- Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:idiom, fr:ce-soir:idiom
+- Word+form+sense 'ce soir::phrase::' duplicated across IDs: fr:a-ce-soir:phrase, fr:ce-soir:phrase
 - Word+form+sense 'ticket de caisse::noun::' duplicated across IDs: fr:ticket-de-caisse:noun, fr:ticket-caisse:noun
 - Word+form+sense 'qui::pronoun::' duplicated across IDs: fr:qui:pronoun, fr:a-qui:pronoun
 - Word+form+sense 'regarder la television::phrase::' duplicated across IDs: fr:regarder-la-tele:phrase, fr:regarder-la-television:phrase
