@@ -12,6 +12,21 @@ jobs:
   notify-consumers:
     runs-on: ubuntu-latest
     steps:
+      - name: Check the dispatch token
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_PAT}" ]; then
+            echo "::error::GH_PAT is not set. Create a token with access to every consumer repository and store it as the GH_PAT secret."
+            exit 1
+          fi
+          CODE=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer ${GH_PAT}" https://api.github.com/user)
+          if [ "${CODE}" != "200" ]; then
+            echo "::error::GH_PAT is rejected by the API (HTTP ${CODE}). It has expired or been revoked; issue a new token and update the secret."
+            exit 1
+          fi
+
       - name: Dispatch repository_dispatch event to consumer repos
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
