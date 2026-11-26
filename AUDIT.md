@@ -16,10 +16,10 @@ Highest-impact problems:
 
 1. **Level coverage is not a progression.** German, Spanish and Portuguese have zero B2 and C1 entries; Chuvash has zero A2, B1, B2 and C1; Armenian, Georgian, Bashkir, Tatar and Breton have only 17 A2 and 11 B1 entries but 88-140 B2/C1 entries.
 2. **688 of the original 1,850 vocabulary JSON files were empty (37%).** P1 pruned them; 1,140 data files remain, with 0 empty files.
-3. **1,256 entries have no definition and 2,217 have no example.** P29 removed 628 template examples, so they now count as missing until real examples are written; 219 "definitions" are still just the headword.
+3. **1,256 entries have no definition and 2,165 have no example.** P29 removed 628 template examples; P30 added source-backed definitions and examples for 52 French, Italian and Spanish place/animal entries. 166 "definitions" are still just the headword.
 4. **100 entries share the same word and the same form with another entry; 0 share word, form and sense.** P9 removed the four Spanish country/city duplicates. P22 resolved all 122 `-a2` IDs: 9 distinct senses were renamed with `sense`, and 113 level variants were merged into their base entries. P24 merged 43 exact or malformed duplicate entries; P25 merged 31 more and labelled 46 true homographs, reducing the duplicate groups from 123 to 50 and the same-sense duplicates to 0.
 5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs, P9 repaired all 56 Spanish IDs, P10 renamed 126 French `avoir …` IDs, and P11 repaired the last 4 Italian IDs and P12 fixed the final non-ASCII slug; none remain, with 0 strict failures.
-6. **Pronunciation data is heavily corrupted or non-IPA:** 1,993 transcriptions are the slug in slashes, at least 1,045 use native-script spelling instead of IPA, 281 are `-`, and 5,091 are missing.
+6. **Pronunciation data is heavily corrupted or non-IPA:** 1,993 transcriptions are the slug in slashes, at least 1,045 use native-script spelling instead of IPA, 280 are `-`, and 5,091 are missing.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
 8. **Tests and CI do not fully protect the data.** P17 declared `playwright` and added `test:conjugation` to CI; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, and P14 added the full `npm run validate` chain.
 
@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 31,637 entries, 12,102 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 31,636 entries, 11,996 recorded findings, 0 new. |
 | `npm run build` | Passes; generated indexes, daily calendars and comparative artifacts are in sync with the vocabulary data. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -50,29 +50,30 @@ Highest-impact problems:
 - P27 repaired 23 broken `translation_of` targets and removed one broken internal `related_forms` reference. These are cross-reference fixes; no dictionary content or quality counts changed.
 - P28 removed 7 real named people from the Russian vocabulary: `Пётр I`, `Фёдор Достоевский`, `Мария Шарапова`, `Анна Ахматова`, `Александр Пушкин`, `Лев Толстой`, `Виктор Цой`. They violated the no-real-named-people rule and are now null aliases.
 - P29 removed 628 template examples from French, Italian and Russian entries. They are listed in `reports/needs-review/p29-template-examples.md`; the entries now correctly report missing examples instead of fake ones.
+- P30 added real definitions and examples for 52 French, Italian and Spanish place/animal entries, reducing findings from 12,102 to 11,996. It also removed the last real-person entry, `ru:yuriy-gagarin:noun`.
 - `en`, `fr`, `it`, `ru` and `el` have three overlapping beginner schemes: `a0/`, `a0_a1/`, `a1/`.
 - Nested `home/furniture/**` directories exist across all 14 languages, in addition to flat theme files. They are valid data but outside the documented flat layout and outside the parity scan.
 - Entries by level (including nested):
 
 | Lang | A0 | A1 | A2 | B1 | B2 | C1 | C2 | Total |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| en | 478 | 1,264 | 3,080 | 2,706 | 2,286 | 1,826 | 1,171 | 12,811 |
-| fr | 1,072 | 624 | 974 | 279 | 212 | 189 | 301 | 3,651 |
-| it | 275 | 1,005 | 947 | 761 | 226 | 188 | 296 | 3,698 |
+| en | 478 | 1,264 | 3,080 | 2,706 | 2,281 | 1,811 | 1,163 | 12,783 |
+| fr | 1,072 | 611 | 972 | 279 | 212 | 189 | 301 | 3,636 |
+| it | 275 | 1,005 | 946 | 761 | 226 | 188 | 296 | 3,697 |
 | de | 40 | 592 | 17 | 11 | 0 | 0 | 133 | 793 |
-| ru | 213 | 570 | 1,290 | 268 | 230 | 186 | 290 | 3,047 |
-| el | 155 | 824 | 317 | 113 | 72 | 27 | 141 | 1,649 |
+| ru | 212 | 570 | 1,279 | 266 | 228 | 184 | 290 | 3,029 |
+| el | 154 | 815 | 316 | 113 | 72 | 27 | 141 | 1,638 |
 | es | 35 | 588 | 33 | 11 | 0 | 0 | 132 | 799 |
-| pt | 36 | 584 | 18 | 3 | 0 | 0 | 131 | 772 |
+| pt | 36 | 580 | 18 | 3 | 0 | 0 | 131 | 768 |
 | br | 29 | 523 | 17 | 11 | 140 | 0 | 0 | 720 |
 | cv | 28 | 572 | 0 | 0 | 0 | 0 | 0 | 600 |
 | hy | 29 | 500 | 17 | 11 | 125 | 88 | 128 | 898 |
-| ka | 28 | 517 | 17 | 11 | 130 | 88 | 126 | 917 |
-| ba | 33 | 498 | 17 | 11 | 127 | 0 | 0 | 686 |
+| ka | 28 | 513 | 17 | 11 | 130 | 88 | 126 | 913 |
+| ba | 32 | 498 | 17 | 11 | 127 | 0 | 0 | 685 |
 | tt | 31 | 495 | 17 | 11 | 123 | 0 | 0 | 677 |
 
 - **German/Spanish/Portuguese C2-only blocks:** `de` has 133 C2 entries and zero B2/C1; `es` 132; `pt` 131. The C2 files look like real philosophical vocabulary but are `status: needs_review`; the level jump is not credible and needs review.
-- **French A0/A1 imbalance:** 1,072 A0 vs 635 A1, while the parity target is 474 A0 / 1,195 A1. This looks like mass A0 labeling, not progression.
+- **French A0/A1 imbalance:** 1,072 A0 vs 611 A1, while the parity target is 474 A0 / 1,195 A1. This looks like mass A0 labeling, not progression.
 
 ### S3 - Stray, dead and duplicate artefacts (Low/Medium)
 - `vocabulary/_canonical/` is an unconsumed second English source: `A0-A1_master.json` has 1,262 words with a different ID scheme (`en_preposition_about`) and definitions such as `"Basic A1 English preposition: 'about'."`; `flat-index.json` is `{}` and `search-index.json` is `[]`. It is not built or validated.
@@ -83,13 +84,13 @@ Highest-impact problems:
 
 ### Q1 - Missing definitions and examples (Critical)
 - **1,256 entries have no `definitions`:** it 376, fr 334, el 254, ru 223, ba/br/de/hy/ka/tt 11 each, pt 3.
-- **2,217 entries have no `examples`:** fr 578, it 559, ru 555, el 312, hy/ka 69, es 27, ba/br/de/tt 11 each, pt 4. P29 removed the 628 template examples listed in `reports/needs-review/p29-template-examples.md`.
-- All 1,256 entries missing definitions also lack examples; 961 additional entries have definitions but no examples.
+- **2,165 entries have no `examples`:** fr 565, it 548, ru 554, el 312, hy/ka 69, ba/br/de/tt 11 each, pt 4. P29 removed the 628 template examples listed in `reports/needs-review/p29-template-examples.md`; P30 added real examples for 52 place/animal entries.
+- All 1,256 entries missing definitions also lack examples; 909 additional entries have definitions but no examples.
 - Cause: the JSON Schema requires only `id`, `word`, `language` and `form`; `definitions` is only constrained to `minItems: 1` **if present**. The "placeholder definitions" check cannot see an absent field.
 
 ### Q2 - Placeholder, template and tautological content (High)
 - **0 template examples remain.** P29 removed all 628: fr 162, it 168, ru 298. They were listed in `reports/needs-review/p29-template-examples.md`.
-- **219 definitions are just the headword** (case-insensitive): ru 89, el 60, es 27, fr 15, it 12, cv 11, tt 3, ba 2. Examples: `ru:deshevyi:adjective` definition `"дешевый"`; `el:dorean:adjective` definition `"δωρεάν"`; `fr:lyon:noun` definition `"Lyon"`.
+- **166 definitions are just the headword** (case-insensitive): ru 88, el 60, cv 11, tt 3, ba 2, fr 1, it 1. P30 fixed 52 French, Italian and Spanish place/animal entries; examples: `ru:deshevyi:adjective` definition `"дешевый"`; `el:dorean:adjective` definition `"δωρεάν"`.
 - **86 entries have at least two of these defects** (definition = word, template example, pseudo-IPA): ru 52, it 15, el 13, fr 6.
 - **110 entries use "used to …" style definitions** (`en:maybe`, `en:no`, `en:not`, `en:remote-control`, `en:email-address`, `en:phone-number`, `en:credit-card`): usage notes, not definitions.
 
@@ -124,11 +125,11 @@ Highest-impact problems:
 
 ### Q6 - Pronunciation/transcription is unreliable (High)
 - **5,091 entries have no `transcription`** (16.1%).
-- **281 entries use `"-"`** as transcription.
+- **280 entries use `"-"`** as transcription.
 - **1,993 entries have a transcription exactly `/<id-slug>/`**, e.g. `/hen/`, `/send/`, `/katze/`, `/gato/`, `/perro/`, `/rome/`, `/se/`. These are spellings/transliterations, not IPA (English `/hɛn/`, German `/ˈkatsə/`, Spanish `/ˈɡato/`).
 - **1,045 transcriptions across Tatar 428, Russian 281, Bashkir 112, Chuvash 112 and Armenian 112 use native-script spelling**, e.g. `/эт/`, `/мәче/`, `/ноль/`, `/զրո/`, `[та́нец]`. These are not IPA.
 - **74 transcriptions were double-escaped Unicode**, e.g. `\u02c8m\u0251\u02d0m\u0259` instead of `ˈmɑːmə`; 3 examples and 1 definition were also double-escaped (`l\u0027enseignement`). P6 decoded all 78 values. Affected: en 46, fr 8, it 8, ru 6, el 6.
-- **1,246 transcriptions use brackets**, 869 have no delimiter, 281 are `-`, and 24,333 use slashes. Notation is inconsistent.
+- **1,246 transcriptions use brackets**, 869 have no delimiter, 280 are `-`, and 24,333 use slashes. Notation is inconsistent.
 - `dictionary-ui.js` renders expanded entries as `<span>/ ${transcription} /</span>`; because most data already contains slashes, users see `/ /kæt/ /` (double-delimited IPA). The WOTD and popup render the value as-is, so the same entry looks different in different components.
 - No schema constraint rejects `-`, native script, double-escaped Unicode or pseudo-IPA.
 
@@ -146,7 +147,7 @@ Highest-impact problems:
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 12,102 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 11,996 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);
@@ -243,7 +244,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 5. **Deduplicate the remaining 247 same-word/same-form entries.** Keep the richest entry, merge definitions/examples/forms, add `"old": "new"` aliases to `shared/id-aliases.json`, and update every `regional_equivalents`, `synonyms`, `related_forms`, `concept`, index and consumer reference. The 122 `-a2` IDs were completed in P22.
 6. **ID contract:** all 205 malformed IDs are now repaired and aliased. Keep the alias map fresh and review whether the French `avoir …` phrases belong in `common_nouns.json`.
 7. **Fix the English POS batch:** re-derive `form` from a dictionary POS, not from the file/theme; correct 169 entries and re-review the files listed in Q4.
-8. **Remove or backfill the 1,256 no-definition and 2,217 no-example entries.** P29 already deleted the template examples. Delete def=word entries rather than keeping them as "content". For Russian/Greek adjective batches, regenerate real definitions and examples.
+8. **Remove or backfill the 1,256 no-definition and 2,165 no-example entries.** P29 already deleted the template examples; P30 fixed the French/Italian/Spanish place and animal batch. Delete the remaining def=word entries rather than keeping them as "content". For Russian/Greek adjective batches, regenerate real definitions and examples.
 9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; standardize on one delimiter and remove the UI's extra `/ … /` wrapper. P6 decoded all double-escaped values; P21 fixed six French phrase IPA values that used `_` as a separator and recorded the remaining 126 phrase pseudo-transcriptions in `reports/needs-review/p21-fr-phrase-ipa.md`.
 10. **Spanish `:other` batch:** fixed in P9; review the remaining `:phrase` homographs for redundancy.
 11. **Fill the level gaps or stop advertising them:** either add A2/B1/B2/C1 for de/es/pt/cv and A2/B1 for hy/ka/ba/tt/br, or mark those levels unsupported; re-level FR A0/A1 and de/es/pt C2 entries.
