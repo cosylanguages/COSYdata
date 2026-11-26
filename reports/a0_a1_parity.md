@@ -12,7 +12,7 @@
 
 | Language | Total | A0 | A1 | Deficit/Surplus (Total) | Deficit (A0) | Deficit (A1) | Violations | Missing Essentials |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 5 | 6 |
+| EN | 1686 | 474 | 1212 | +17 | +0 | +17 | 0 | 6 |
 | FR | 1628 | 1036 | 592 | -41 | +562 | -603 | 28 | 31 |
 | IT | 1234 | 266 | 968 | -435 | -208 | -227 | 29 | 11 |
 | RU | 737 | 206 | 530 | -932 | -268 | -665 | 31 | 63 |
@@ -20,14 +20,7 @@
 
 ### Details: EN
 
-#### Structural & Policy Violations (5)
-
-##### Domain Violations (5)
-- Entry 'en:bedside-table:noun' has missing domain
-- Entry 'en:chest-of-drawers:noun' has missing domain
-- Entry 'en:bin:noun' has missing domain
-- Entry 'en:bookshelf:noun' has missing domain
-- Entry 'en:coffee-table:noun' has missing domain
+*No structural or policy violations found.*
 
 #### Missing Essentials (6)
 

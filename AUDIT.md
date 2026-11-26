@@ -196,7 +196,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 - Consequently, "missing essentials" includes false positives: `house`, `room`, `kitchen`, `bedroom`, `bathroom`, `door`, `window`, `table`, `chair`, `bed`, `toilet`, `clock` all exist in English nested home files. Truly absent English essentials include `garden`, `apartment` and `key`.
 - The parity report has no section for `de`, `es`, `pt`, `br`, `cv`, `hy`, `ka`, `ba` or `tt`; 9 of 14 languages are outside the parity target.
 - Real parity violations that remain: FR A0 1,072 vs 474 and A1 635 vs 1,195; IT `it:digitare:verb` domain `professional` at A0-A1 and `it:scrivania:noun` level mismatch; RU `ru:dolzhenstvovat:verb` at A2; EL `el:pliktrologio:verb` domain `professional` and `el:grafeio:noun` level mismatch; 10 EL duplicate word+form+sense groups; 4 FR, 4 RU; missing FR contractions `au`, `aux`, `du`, `des`.
-- `reports/a0_a1_parity.md` was regenerated after P2 and now reflects the nested files; the five-language target limitation remains.
+- `reports/a0_a1_parity.md` was regenerated after P2 and now reflects the nested files; the five-language target limitation remains. P18 fixed the five English furniture entries that were missing a domain, so the EN structural-violation count is now 0.
 
 ## Documentation findings
 
