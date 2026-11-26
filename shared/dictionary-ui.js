@@ -861,6 +861,33 @@ const TAXONOMY_LOCALIZATIONS = {
   }
 };
 
+// Antonym and synonym relations live in one shared lexicon, owned by COSYtools.
+// The dictionary only reads them; entries that carry their own relations win.
+const RELATIONS_SCRIPT = "https://cosylanguages.github.io/COSYtools/shared/js/vocabulary-relations.js";
+let relationsPromise = null;
+
+function ensureRelations() {
+  if (typeof window === "undefined") return Promise.resolve(null);
+  if (window.COSYVocab) {
+    if (!relationsPromise) relationsPromise = window.COSYVocab.load();
+    return relationsPromise;
+  }
+  if (relationsPromise) return relationsPromise;
+  relationsPromise = new Promise((resolve) => {
+    const script = document.createElement("script");
+    script.src = RELATIONS_SCRIPT;
+    script.onload = () => resolve(window.COSYVocab ? window.COSYVocab.load() : null);
+    script.onerror = () => resolve(null);
+    document.head.appendChild(script);
+  });
+  return relationsPromise;
+}
+
+function sharedRelations(word, lang) {
+  if (typeof window === "undefined" || !window.COSYVocab || !word) return { synonyms: [], antonyms: [] };
+  return window.COSYVocab.relations(word, lang || "en");
+}
+
 function getI18n(lang) {
   return TAXONOMY_LOCALIZATIONS[lang] || TAXONOMY_LOCALIZATIONS["en"];
 }
@@ -1131,6 +1158,7 @@ export async function initDictionaryUI(container, options = {}) {
 
   // Fetch lightweight search index only
   const { entries, entryMap, letters, categories, levels, domains } = await loadSearchIndex(lang, baseUrl);
+  ensureRelations();
   const favorites = getFavorites(lang);
   const wotdLightweight = getWordOfTheDay(entries);
 
@@ -2114,19 +2142,26 @@ export async function initDictionaryUI(container, options = {}) {
           html += `</div>`;
         }
 
-        // Synonyms & Antonyms
-        if ((Array.isArray(fullEntry.synonyms) && fullEntry.synonyms.length > 0) || (Array.isArray(fullEntry.antonyms) && fullEntry.antonyms.length > 0)) {
+        // Synonyms & Antonyms — the entry's own first, then the shared lexicon
+        let synonyms = Array.isArray(fullEntry.synonyms) ? fullEntry.synonyms.slice() : [];
+        let antonyms = Array.isArray(fullEntry.antonyms) ? fullEntry.antonyms.slice() : [];
+        if (synonyms.length === 0 || antonyms.length === 0) {
+          const shared = sharedRelations(fullEntry.word || lightweightEntry.word, typeof lang !== "undefined" ? lang : "en");
+          if (synonyms.length === 0) synonyms = shared.synonyms;
+          if (antonyms.length === 0) antonyms = shared.antonyms;
+        }
+        if (synonyms.length > 0 || antonyms.length > 0) {
           html += `<div class="cosy-dict-chips-row">`;
-          if (Array.isArray(fullEntry.synonyms) && fullEntry.synonyms.length > 0) {
+          if (synonyms.length > 0) {
             html += `<div class="cosy-dict-chip-group"><span class="cosy-dict-chip-label">Synonyms:</span>`;
-            for (const syn of fullEntry.synonyms) {
+            for (const syn of synonyms) {
               html += `<span class="cosy-dict-chip cosy-dict-chip-synonym">${escapeHtml(syn)}</span>`;
             }
             html += `</div>`;
           }
-          if (Array.isArray(fullEntry.antonyms) && fullEntry.antonyms.length > 0) {
+          if (antonyms.length > 0) {
             html += `<div class="cosy-dict-chip-group"><span class="cosy-dict-chip-label">Antonyms:</span>`;
-            for (const ant of fullEntry.antonyms) {
+            for (const ant of antonyms) {
               html += `<span class="cosy-dict-chip cosy-dict-chip-antonym">${escapeHtml(ant)}</span>`;
             }
             html += `</div>`;
