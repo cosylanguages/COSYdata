@@ -24,6 +24,7 @@
     "validate:theme-sync": "node scripts/validate-theme-taxonomy-sync.cjs",
     "test:verb-inventory": "node scripts/validate-verb-inventory.cjs",
     "test:quality": "node --test tests/quality-audit.test.mjs",
+    "test:integrity": "node --test tests/data-integrity.test.mjs",
     "test:parity": "node --test tests/parity-recursion.test.mjs",
     "build:comparative": "node scripts/build-comparative.cjs",
     "build:conjugation": "node scripts/build-conjugation-registry.mjs",

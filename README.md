@@ -110,6 +110,9 @@ npm run validate
 # Check vocabulary quality against the accepted baseline only
 npm run quality
 
+# Data-integrity regression tests (no new defects, no removed people)
+npm run test:integrity
+
 # Accept the current quality debt as the baseline (use only after reviewing the diff)
 npm run quality:update-baseline
 

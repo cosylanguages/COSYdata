@@ -7,6 +7,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
+### Added
+- P36 added dataset integrity regression tests (`npm run test:integrity`).
+
 ### Changed
 - P35 removed 3,313 invalid transcription values (11,708 findings / 31,568 entries).
 - P34 removed 68 real named people from six languages (11,708 findings / 31,568 entries).
