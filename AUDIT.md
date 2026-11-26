@@ -21,7 +21,7 @@ Highest-impact problems:
 5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs, P9 repaired all 56 Spanish IDs, P10 renamed 126 French `avoir …` IDs, and P11 repaired the last 4 Italian IDs and P12 fixed the final non-ASCII slug; none remain, with 0 strict failures.
 6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 281 are `-`, and 5,778 are missing.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
-8. **Tests and CI do not fully protect the data.** `playwright` is still undeclared, so `test:conjugation` fails; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, and P14 added the full `npm run validate` chain, but the conjugation test remains outside CI.
+8. **Tests and CI do not fully protect the data.** P17 declared `playwright` and added `test:conjugation` to CI; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, and P14 added the full `npm run validate` chain.
 
 ## Verification results
 
@@ -33,7 +33,7 @@ Highest-impact problems:
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
 | `npm run test:verb-inventory` | Passes: 53 concepts, 55 senses, 772 translations, 14 languages. |
-| `npm run test:conjugation` | **Fails:** `ERR_MODULE_NOT_FOUND: Cannot find package 'playwright'`. `playwright` is absent from `package.json` and `package-lock.json`. |
+| `npm run test:conjugation` | Passes: 4 tests, including the browser render test. |
 
 ## Structural findings
 
@@ -175,8 +175,8 @@ The validator's "placeholder definitions and examples" check only checks values 
 ## Tooling, CI and security findings
 
 ### C1 - Tests/CI do not exercise the dataset (High)
-- Existing tests: `tests/conjugation-embed.test.mjs`, `tests/quality-audit.test.mjs`, and `tests/parity-recursion.test.mjs`. The conjugation test imports `playwright`, which is **not declared** in `package.json` or `package-lock.json`; `npm run test:conjugation` fails before running any assertion.
-- `validate-vocabulary.yml` now runs the full `npm run validate` chain, taxonomy/verb checks, data audit, parity, quality/parity tests and index-freshness checks. It still **does not run** `npm run test:conjugation` because that test currently needs Playwright.
+- Existing tests: `tests/conjugation-embed.test.mjs`, `tests/quality-audit.test.mjs`, and `tests/parity-recursion.test.mjs`. P17 added `playwright` to `devDependencies` and installed Chromium in CI; `npm run test:conjugation` now passes all four tests.
+- `validate-vocabulary.yml` now runs the full `npm run validate` chain, taxonomy/verb checks, data audit, parity, quality/parity and conjugation tests, and index-freshness checks.
 - Workflows use `actions/checkout@v4` and `actions/setup-node@v4` tags, not commit SHAs. P14 changed dependency installation to `npm ci`, so CI uses the lockfile instead of floating ranges.
 - `daily-calendar.yml` has `contents: write` and commits directly to `main` on a schedule; there is no test gate for generated daily content.
 
@@ -247,7 +247,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 13. Resolve the 23 `translation_of` references, the 1 dangling `related_forms`, and the 199 dotted `concept` values; decide whether `concept` is an `en:` ID or a dotted key and enforce one.
 14. Collapse the taxonomy sources: one machine-readable file, one human document; delete/mark deprecated `taxonomy/themes.json`, `docs/unified-taxonomy-draft/cefr_taxonomy.json`, unused 9 themes and 136 sub-themes, and `_canonical` empty indexes.
 15. Keep escaping every field inserted into `innerHTML` (P13 did this) and add a CSP meta tag and SRI for third-party scripts; pin GitHub Actions to commit SHAs (P14 switched CI to `npm ci`).
-16. Add `playwright` to devDependencies and run `test:conjugation` in CI.
+16. `test:conjugation` now runs in CI with Playwright; keep the browser install step in sync with the package version.
 17. Update README/`AUDIT.md` claims that still describe the old layout (transcription/emoji requirements, concept format, theme counts, top10 verb count, level layout); the stray file and archive duplicates are removed.
 18. Add regression tests for: ID/form consistency, same-word/same-form uniqueness, required definitions/examples, transcription format, theme catalog usage, reference resolution (including `COSYtools:`), and resolver failure classification.
 

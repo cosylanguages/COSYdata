@@ -62,6 +62,12 @@ jobs:
       - name: Test Parity Loader
         run: npm run test:parity
 
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Test Conjugation Embed
+        run: npm run test:conjugation
+
       - name: Check Index Freshness
         run: |
           npm run build:index
