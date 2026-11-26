@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P27 repaired 23 broken `translation_of` targets and removed one broken internal `related_forms` reference; no quality counts changed.
 - P26 removed 51 contradictory `no_antonym` flags and 9 self-referential synonyms; no quality counts changed.
 - P25 merged 31 more duplicate entries, assigned 46 distinct `sense` labels to true homographs, removed one empty file, and drove the strict same-sense duplicate signal to 0 (12,122 findings / 31,644 entries).
 - P24 merged 43 exact or malformed duplicate entries across 20 exact-definition pairs and 23 empty/transliteration variants, added redirect aliases, rebuilt indexes/daily/comparative data, and reduced duplicate groups from 123 to 81 (12,178 findings / 31,675 entries).

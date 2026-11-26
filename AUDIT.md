@@ -47,6 +47,7 @@ Highest-impact problems:
 - `de`, `es` and `pt` have no `a0` and no `b2` directory. `cv` has only `a0_a1` and `a1`.
 - P23 capped `cv`, `tt`, `ba` and `br` at B2: their C1/C2 directories and 661 entries were removed, and all old IDs are null aliases.
 - P26 removed 51 contradictory `no_antonym: true` flags from entries that already had `antonyms`, and removed 9 synonyms that repeated the headword. Quality counts did not change; these were structural contradictions the quality gate did not cover.
+- P27 repaired 23 broken `translation_of` targets and removed one broken internal `related_forms` reference. These are cross-reference fixes; no dictionary content or quality counts changed.
 - `en`, `fr`, `it`, `ru` and `el` have three overlapping beginner schemes: `a0/`, `a0_a1/`, `a1/`.
 - Nested `home/furniture/**` directories exist across all 14 languages, in addition to flat theme files. They are valid data but outside the documented flat layout and outside the parity scan.
 - Entries by level (including nested):
