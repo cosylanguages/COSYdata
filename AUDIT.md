@@ -19,7 +19,7 @@ Highest-impact problems:
 3. **1,243 entries have no definition and 2,069 have no example.** P29 removed 628 template examples; P30 added definitions and examples for 52 place/animal entries; P31 added Russian definitions and examples for 88 entries; P32 added Greek definitions and examples for 60 entries; P33 fixed the last 18 headword-only definitions. No definition now equals its headword.
 4. **100 entries share the same word and the same form with another entry; 0 share word, form and sense.** P9 removed the four Spanish country/city duplicates. P22 resolved all 122 `-a2` IDs: 9 distinct senses were renamed with `sense`, and 113 level variants were merged into their base entries. P24 merged 43 exact or malformed duplicate entries; P25 merged 31 more and labelled 46 true homographs, reducing the duplicate groups from 123 to 50 and the same-sense duplicates to 0.
 5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs, P9 repaired all 56 Spanish IDs, P10 renamed 126 French `avoir …` IDs, and P11 repaired the last 4 Italian IDs and P12 fixed the final non-ASCII slug; none remain, with 0 strict failures.
-6. **Pronunciation data is heavily corrupted or non-IPA:** 1,993 transcriptions are the slug in slashes, at least 1,045 use native-script spelling instead of IPA, 275 are `-`, and 5,083 are missing.
+6. **Pronunciation data has been cleaned of known corruptions:** P35 removed 1,993 slug-only values, 1,045 native-script values and 275 `-` placeholders. 8,396 entries now have no transcription. Real IPA still needs to be written for those entries.
 7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
 8. **Tests and CI do not fully protect the data.** P17 declared `playwright` and added `test:conjugation` to CI; P5 added CI runs for `audit`, `parity`, and `test:verb-inventory`, and P14 added the full `npm run validate` chain.
 
@@ -55,6 +55,7 @@ Highest-impact problems:
 - P32 added Greek definitions and examples for 60 entries, reducing findings from 11,827 to 11,767 and Greek headword-only definitions to 0.
 - P33 fixed the last 18 headword-only definitions, reclassified two French/Italian C2 phrases from verb to noun, and reduced findings to 11,747. No definition now equals its headword.
 - P34 removed 68 real named people from English, French, Spanish, Italian, Portuguese and Greek. They are now null aliases; entries fell from 31,636 to 31,568.
+- P35 removed 3,313 invalid transcription values (slug-only, native-script and `-`); they are now empty strings and counted as missing rather than false IPA.
 - `en`, `fr`, `it`, `ru` and `el` have three overlapping beginner schemes: `a0/`, `a0_a1/`, `a1/`.
 - Nested `home/furniture/**` directories exist across all 14 languages, in addition to flat theme files. They are valid data but outside the documented flat layout and outside the parity scan.
 - Entries by level (including nested):
@@ -128,12 +129,12 @@ Highest-impact problems:
 - Consequence: `resolveVocab("fr:avoir-faim:phrase")` now resolves directly; the retired `fr:avoir-faim:idiom` ID is also aliased. The Italian conjunction aliases and the Spanish `:other` aliases are in place too.
 
 ### Q6 - Pronunciation/transcription is unreliable (High)
-- **5,083 entries have no `transcription`** (16.1%).
-- **275 entries use `"-"`** as transcription.
-- **1,993 entries have a transcription exactly `/<id-slug>/`**, e.g. `/hen/`, `/send/`, `/katze/`, `/gato/`, `/perro/`, `/rome/`, `/se/`. These are spellings/transliterations, not IPA (English `/hɛn/`, German `/ˈkatsə/`, Spanish `/ˈɡato/`).
-- **1,045 transcriptions across Tatar 428, Russian 281, Bashkir 112, Chuvash 112 and Armenian 112 use native-script spelling**, e.g. `/эт/`, `/мәче/`, `/ноль/`, `/զրո/`, `[та́нец]`. These are not IPA.
+- **8,396 entries have no `transcription`** (26.6%).
+- **0 entries use `"-"`** as transcription.
+- **0 entries have a slug-only `/<id-slug>/` transcription.** P35 removed all 1,993 values, e.g. `/hen/`, `/send/`, `/katze/`, `/gato/`, `/perro/`, `/rome/`, `/se/`.
+- **0 transcriptions use native-script spelling.** P35 removed all 1,045 values (Tatar 428, Russian 281, Bashkir 112, Chuvash 112, Armenian 112), e.g. `/эт/`, `/мәче/`, `/ноль/`, `/զրո/`, `[та́нец]`.
 - **74 transcriptions were double-escaped Unicode**, e.g. `\u02c8m\u0251\u02d0m\u0259` instead of `ˈmɑːmə`; 3 examples and 1 definition were also double-escaped (`l\u0027enseignement`). P6 decoded all 78 values. Affected: en 46, fr 8, it 8, ru 6, el 6.
-- **1,246 transcriptions use brackets**, 869 have no delimiter, 275 are `-`, and 24,333 use slashes. Notation is inconsistent.
+- **1,210 transcriptions use brackets**, 869 have no delimiter, and 21,093 use slashes. Notation is still inconsistent; all 0 placeholder values are gone.
 - `dictionary-ui.js` renders expanded entries as `<span>/ ${transcription} /</span>`; because most data already contains slashes, users see `/ /kæt/ /` (double-delimited IPA). The WOTD and popup render the value as-is, so the same entry looks different in different components.
 - No schema constraint rejects `-`, native script, double-escaped Unicode or pseudo-IPA.
 
