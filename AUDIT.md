@@ -15,7 +15,7 @@ The repository is **not yet a reliable 14-language A0-C2 dataset**. English is s
 Highest-impact problems:
 
 1. **Level coverage is not a progression.** German, Spanish and Portuguese have zero B2 and C1 entries; Chuvash has zero A2, B1, B2 and C1; Armenian, Georgian, Bashkir, Tatar and Breton have only 17 A2 and 11 B1 entries but 88-140 B2/C1 entries.
-2. **688 of 1,850 vocabulary JSON files are empty (37%).**
+2. **688 of the original 1,850 vocabulary JSON files were empty (37%).** P1 pruned them; 1,162 data files remain, with 0 empty files.
 3. **1,279 entries have no definition and 1,803 have no example.** Another 710 examples are template sentences and 273 "definitions" are just the headword.
 4. **483 entries share the same word and the same form with another entry; 447 share word, form and sense.** This includes 122 explicit `-a2` duplicates, 126 French `avoir …` entries with an `:idiom` ID but `form: phrase`, and 56 Spanish country/city `:other` entries.
 5. **205 IDs violate their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but pass the schema; 76 of them fail the stricter quality ID pattern outright.
@@ -27,7 +27,7 @@ Highest-impact problems:
 
 | Command | Result |
 |---|---|
-| `npm run validate` | Passes, with many "contains no entries" warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
+| `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
 | `npm run quality` | Passes against the baseline: 32,508 entries, 13,756 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
@@ -38,7 +38,7 @@ Highest-impact problems:
 ## Structural findings
 
 ### S1 - Empty scaffold files (Critical)
-- **688 empty JSON arrays out of 1,850 vocabulary data files (37.2%).**
+- **688 empty JSON arrays out of the original 1,850 vocabulary data files (37.2%) were removed in P1.** 1,162 data files remain; 0 are empty. See `reports/empty-vocabulary-files-pruned.md`.
 - Worst: `ru/b1` 46, `el/b1` 46, `it/b2` 45, `ru/b2` 45, `el/b2` 45, `fr/c1` 43, `it/c1` 43, `ru/c1` 43, `el/c1` 43, `fr/b2` 41, `fr/b1` 36, `el/a2` 31.
 - Empty by theme name: `phrasal_verbs` 18, `idioms` 17, `linking_words` 17, `teachers_scientists` 16, `academic_english` 16, `media` 16, `it_specialists` 16, `register` 16, `ethics`/`emotions`/`politics`/`society` 15 each.
 - The validator only warns. Empty files look like supported themes/levels to consumers and make coverage reports misleading.
@@ -234,7 +234,7 @@ The validator's "placeholder definitions and examples" check only checks values 
    - constrain `emoji` to a Unicode emoji/symbol allowlist;
    - add cross-field rules: exactly one of `emoji`/`no_emoji`, exactly one of `antonyms`/`no_antonym`.
 2. **Make `npm run validate` call the same checks as CI and fail on quality**, not only IDs/themes. Add a generated quality report with per-language/per-level counts.
-3. **Delete or explicitly mark empty scaffold files**; do not publish 688 empty theme files as supported content. If they are placeholders, move them out of `vocabulary/` or add a `planned` manifest.
+3. **Done in P1: deleted the 688 empty scaffold files.** The removal is listed in `reports/empty-vocabulary-files-pruned.md`; no indexes or generated artifacts changed.
 4. **Choose one level layout** (`a0_a1` or `a0`+`a1`) and one home layout (flat theme file or nested `home/`); migrate consistently and make parity/build/validator walk recursively.
 
 ### P1 - data correction, by cluster
