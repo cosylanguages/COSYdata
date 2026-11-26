@@ -16,7 +16,7 @@ Highest-impact problems:
 
 1. **Level coverage is not a progression.** German, Spanish and Portuguese have zero B2 and C1 entries; Chuvash has zero A2, B1, B2 and C1; Armenian, Georgian, Bashkir, Tatar and Breton have only 17 A2 and 11 B1 entries but 88-140 B2/C1 entries.
 2. **688 of the original 1,850 vocabulary JSON files were empty (37%).** P1 pruned them; 1,140 data files remain, with 0 empty files.
-3. **639 entries have no definition and 1,465 have no example.** P29 removed 628 template examples; P30 added definitions and examples for 52 place/animal entries; P31 added Russian definitions and examples for 88 entries; P32 added Greek definitions and examples for 60 entries; P33 fixed the last 18 headword-only definitions. No definition now equals its headword.
+3. **575 entries have no definition and 1,401 have no example.** P29 removed 628 template examples; P30 added definitions and examples for 52 place/animal entries; P31 added Russian definitions and examples for 88 entries; P32 added Greek definitions and examples for 60 entries; P33 fixed the last 18 headword-only definitions. No definition now equals its headword.
 4. **100 entries share the same word and the same form with another entry; 0 share word, form and sense.** P9 removed the four Spanish country/city duplicates. P22 resolved all 122 `-a2` IDs: 9 distinct senses were renamed with `sense`, and 113 level variants were merged into their base entries. P24 merged 43 exact or malformed duplicate entries; P25 merged 31 more and labelled 46 true homographs, reducing the duplicate groups from 123 to 50 and the same-sense duplicates to 0.
 5. **205 IDs violated their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but passed the schema; 76 failed the stricter quality ID pattern outright. P8 repaired 19 French IDs, P9 repaired all 56 Spanish IDs, P10 renamed 126 French `avoir …` IDs, and P11 repaired the last 4 Italian IDs and P12 fixed the final non-ASCII slug; none remain, with 0 strict failures.
 6. **Pronunciation data has been cleaned of known corruptions:** P35 removed 1,993 slug-only values, 1,045 native-script values and 275 `-` placeholders. 8,396 entries now have no transcription. Real IPA still needs to be written for those entries.
@@ -28,7 +28,7 @@ Highest-impact problems:
 | Command | Result |
 |---|---|
 | `npm run validate` | Passes with no empty-file warnings. It now also runs the quality regression gate; existing debt is accepted in the baseline. |
-| `npm run quality` | Passes against the baseline: 31,568 entries, 10,500 recorded findings, 0 new. |
+| `npm run quality` | Passes against the baseline: 31,568 entries, 10,372 recorded findings, 0 new. |
 | `npm run build` | Passes; generated indexes, daily calendars and comparative artifacts are in sync with the vocabulary data. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
 | `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
@@ -63,6 +63,7 @@ Highest-impact problems:
 - P40 added Italian B1/B2 definitions and examples for 63 housing entries; the Italian housing theme is now complete, findings 10,844.
 - P41 added Greek A0/A1 definitions and examples for 72 housing entries, reducing findings to 10,700.
 - P42 added Greek A2 definitions and examples for 100 housing entries, reducing findings to 10,500; one headword order issue is in needs-review.
+- P43 added Greek B1/B2 definitions and examples for 64 housing entries; the Greek housing theme is now complete except two nonstandard headwords in needs-review, findings 10,372.
 - `en`, `fr`, `it`, `ru` and `el` have three overlapping beginner schemes: `a0/`, `a0_a1/`, `a1/`.
 - Nested `home/furniture/**` directories exist across all 14 languages, in addition to flat theme files. They are valid data but outside the documented flat layout and outside the parity scan.
 - Entries by level (including nested):
@@ -95,9 +96,9 @@ Highest-impact problems:
 ## Vocabulary quality findings
 
 ### Q1 - Missing definitions and examples (Critical)
-- **639 entries have no `definitions`:** ru 223, it 148, fr 122, el 77, ba/br/de/hy/ka/tt 11 each, pt 3.
-- **1,465 entries have no `examples`:** ru 473, fr 352, it 319, el 135, hy/ka 69, ba/br/de/tt 11 each, pt 4. P29 removed the 628 template examples listed in `reports/needs-review/p29-template-examples.md`; P30–P33 added real examples for 135 entries.
-- All 639 entries missing definitions also lack examples; 826 additional entries have definitions but no examples.
+- **575 entries have no `definitions`:** ru 223, it 148, fr 122, el 13, ba/br/de/hy/ka/tt 11 each, pt 3.
+- **1,401 entries have no `examples`:** ru 473, fr 352, it 319, el 71, hy/ka 69, ba/br/de/tt 11 each, pt 4. P29 removed the 628 template examples listed in `reports/needs-review/p29-template-examples.md`; P30–P33 added real examples for 135 entries.
+- All 575 entries missing definitions also lack examples; 826 additional entries have definitions but no examples.
 - Cause: the JSON Schema requires only `id`, `word`, `language` and `form`; `definitions` is only constrained to `minItems: 1` **if present**. The "placeholder definitions" check cannot see an absent field.
 
 ### Q2 - Placeholder, template and tautological content (High)
@@ -159,7 +160,7 @@ Highest-impact problems:
 ## Reference, schema and taxonomy findings
 
 ### T1 - The schema does not enforce the quality contract (Critical)
-`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 10,500 existing violations are baselined rather than fixed. The core schema still allows:
+`schemas/vocabulary.schema.json` requires only `id`, `word`, `language` and `form` (the P0 branch adds a `form` enum, but not the rest). A supplemental `schemas/vocabulary.quality.schema.json` and `scripts/quality-audit.cjs` now define and gate the target profile, but the remaining 10,372 existing violations are baselined rather than fixed. The core schema still allows:
 - missing `definitions` and `examples`;
 - any third token in `id` (the quality profile adds a strict pattern, but the core schema does not enforce it);
 - any string for `transcription` (including `-`, native script and double-escaped Unicode);
@@ -256,7 +257,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 5. **Deduplicate the remaining 247 same-word/same-form entries.** Keep the richest entry, merge definitions/examples/forms, add `"old": "new"` aliases to `shared/id-aliases.json`, and update every `regional_equivalents`, `synonyms`, `related_forms`, `concept`, index and consumer reference. The 122 `-a2` IDs were completed in P22.
 6. **ID contract:** all 205 malformed IDs are now repaired and aliased. Keep the alias map fresh and review whether the French `avoir …` phrases belong in `common_nouns.json`.
 7. **Fix the English POS batch:** re-derive `form` from a dictionary POS, not from the file/theme; correct 169 entries and re-review the files listed in Q4.
-8. **Remove or backfill the 639 no-definition and 1,465 no-example entries.** P29 deleted the template examples; P30 fixed the French/Italian/Spanish place and animal batch; P31 fixed the Russian batch; P32 fixed the Greek batch; P33 fixed the last def=word entries and reclassified two C2 phrases. For Russian/Greek adjective batches, regenerate real definitions and examples.
+8. **Remove or backfill the 575 no-definition and 1,401 no-example entries.** P29 deleted the template examples; P30 fixed the French/Italian/Spanish place and animal batch; P31 fixed the Russian batch; P32 fixed the Greek batch; P33 fixed the last def=word entries and reclassified two C2 phrases. For Russian/Greek adjective batches, regenerate real definitions and examples.
 9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; standardize on one delimiter and remove the UI's extra `/ … /` wrapper. P6 decoded all double-escaped values; P21 fixed six French phrase IPA values that used `_` as a separator and recorded the remaining 126 phrase pseudo-transcriptions in `reports/needs-review/p21-fr-phrase-ipa.md`.
 10. **Spanish `:other` batch:** fixed in P9; review the remaining `:phrase` homographs for redundancy.
 11. **Fill the level gaps or stop advertising them:** either add A2/B1/B2/C1 for de/es/pt/cv and A2/B1 for hy/ka/ba/tt/br, or mark those levels unsupported; re-level FR A0/A1 and de/es/pt C2 entries.
