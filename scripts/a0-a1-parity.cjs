@@ -75,21 +75,31 @@ function parseArgs() {
   return { strict };
 }
 
+function collectLevelFiles(dir, files = []) {
+  for (const name of fs.readdirSync(dir).sort()) {
+    const full = path.join(dir, name);
+    const stat = fs.statSync(full);
+    if (stat.isDirectory()) collectLevelFiles(full, files);
+    else if (name.endsWith('.json') && !['index.json', 'flat-index.json', 'search-index.json', 'themes-index.json'].includes(name)) files.push(full);
+  }
+  return files;
+}
+
 function loadLevelEntries(rootDir, lang, level) {
   const dir = path.join(rootDir, 'vocabulary', lang, level);
   if (!fs.existsSync(dir)) return [];
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json'));
   const entries = [];
-  files.forEach((f) => {
+  collectLevelFiles(dir).forEach((file) => {
+    const relFile = path.relative(dir, file).replace(/\\/g, '/');
     try {
-      const content = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      const content = JSON.parse(fs.readFileSync(file, 'utf8'));
       if (Array.isArray(content)) {
         content.forEach((e) => {
-          entries.push({ ...e, _filename: f });
+          entries.push({ ...e, _filename: relFile });
         });
       }
     } catch (err) {
-      console.error(`Error loading ${path.join(dir, f)}: ${err.message}`);
+      console.error(`Error loading ${file}: ${err.message}`);
     }
   });
   return entries;
@@ -607,7 +617,7 @@ function main() {
   }
 
   const reportPath = path.join(reportsDir, 'a0_a1_parity.md');
-  fs.writeFileSync(reportPath, md, 'utf8');
+  fs.writeFileSync(reportPath, `${md.replace(/\n+$/, '')}\n`, 'utf8');
   console.log(`Written report to ${path.relative(rootDir, reportPath)}`);
 
   // Exit logic
@@ -631,4 +641,8 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { loadLevelEntries };

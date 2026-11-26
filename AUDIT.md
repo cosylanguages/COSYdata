@@ -20,7 +20,7 @@ Highest-impact problems:
 4. **483 entries share the same word and the same form with another entry; 447 share word, form and sense.** This includes 122 explicit `-a2` duplicates, 126 French `avoir …` entries with an `:idiom` ID but `form: phrase`, and 56 Spanish country/city `:other` entries.
 5. **205 IDs violate their own `lang:slug:form` contract** (145 French, 56 Spanish, 4 Italian), but pass the schema; 76 of them fail the stricter quality ID pattern outright.
 6. **Pronunciation data is heavily corrupted or non-IPA:** 1,997 transcriptions are the slug in slashes, at least 1,054 use native-script spelling instead of IPA, 74 are double-escaped Unicode, 281 are `-`, and 5,779 are missing.
-7. **The parity tool ignores nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`.
+7. **The parity tool ignored nested `home/` directories**, undercounting major languages and producing false "missing essentials" such as English `house`, `room` and `kitchen`. P2 fixed the recursive loader; parity still covers only its five target languages.
 8. **Tests and CI do not protect the data.** The only test file fails because `playwright` is not declared; CI does not run it, nor `audit`, `parity`, or `test:verb-inventory`.
 
 ## Verification results
@@ -31,7 +31,7 @@ Highest-impact problems:
 | `npm run quality` | Passes against the baseline: 32,508 entries, 13,756 recorded findings, 0 new. |
 | `npm run build` | Passes; rebuilding all indexes/daily/comparative artifacts produced **no git diff**. Indexes are in sync. |
 | `npm run audit` | Passes; writes `reports/audit-a0-a1.md`, but does not fail on the defects below. |
-| `npm run parity` | Passes but covers only five languages and ignores nested `a0_a1/home/**` entries. |
+| `npm run parity` | Passes after P2; now includes nested `a0_a1/home/**` entries but still covers only its five target languages. |
 | `npm run test:verb-inventory` | Passes: 53 concepts, 55 senses, 772 translations, 14 languages. |
 | `npm run test:conjugation` | **Fails:** `ERR_MODULE_NOT_FOUND: Cannot find package 'playwright'`. `playwright` is absent from `package.json` and `package-lock.json`. |
 
@@ -189,8 +189,8 @@ The validator's "placeholder definitions and examples" check only checks values 
 - `index.html` loads three external scripts from `https://cosylanguages.github.io/...` with no SRI and no CSP meta tag: `daily-strip.js`, `daily-directory.js`, `ecosystem-strip.js`. A compromise of the COSYlanguages Pages repo would execute in COSYdata consumers.
 - `top10-verbs.html` inserts values from `shared/top10-verbs.json` into HTML without escaping; the JSON is trusted now, but it is another data-to-HTML sink.
 
-### C3 - Parity tool undercounts and covers only five languages (High)
-- `a0-a1-parity.cjs` reads only top-level `vocabulary/<lang>/a0_a1/*.json`; it ignores nested `a0_a1/home/**` entries. Reported totals exactly match top-level counts:
+### C3 - Parity tool undercounted and covers only five languages (High; recursion fixed in P2)
+- Before P2, `a0-a1-parity.cjs` read only top-level `vocabulary/<lang>/a0_a1/*.json` and ignored nested `a0_a1/home/**`. P2 now recurses; the historical top-level counts were:
   - EN reported 1,657; actual with nested 29 entries **1,686**; target 1,669 -> actual **+17**, not -12.
   - FR reported 1,620; actual 1,639; target 1,669 -> -30, not -49.
   - IT reported 1,210; actual 1,235 -> -434, not -459.
@@ -199,7 +199,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 - Consequently, "missing essentials" includes false positives: `house`, `room`, `kitchen`, `bedroom`, `bathroom`, `door`, `window`, `table`, `chair`, `bed`, `toilet`, `clock` all exist in English nested home files. Truly absent English essentials include `garden`, `apartment` and `key`.
 - The parity report has no section for `de`, `es`, `pt`, `br`, `cv`, `hy`, `ka`, `ba` or `tt`; 9 of 14 languages are outside the parity target.
 - Real parity violations that remain: FR A0 1,072 vs 474 and A1 635 vs 1,195; IT `it:digitare:verb` domain `professional` at A0-A1 and `it:scrivania:noun` level mismatch; RU `ru:dolzhenstvovat:verb` at A2; EL `el:pliktrologio:verb` domain `professional` and `el:grafeio:noun` level mismatch; 10 EL duplicate word+form+sense groups; 4 FR, 4 RU; missing FR contractions `au`, `aux`, `du`, `des`.
-- `reports/a0_a1_parity.md` is generated from these incomplete numbers and was already stale relative to actual nested content.
+- `reports/a0_a1_parity.md` was regenerated after P2 and now reflects the nested files; the five-language target limitation remains.
 
 ## Documentation findings
 
@@ -245,7 +245,7 @@ The validator's "placeholder definitions and examples" check only checks values 
 9. **Rebuild pronunciation data:** remove `-` and pseudo-IPA; use real IPA from authoritative sources or omit `transcription`; decode the 74 double-escaped values; standardize on one delimiter and remove the UI's extra `/ … /` wrapper.
 10. **Fix Spanish `:other` batch:** delete or merge into canonical `es:<word>:noun` entries; replace generic definitions, `"país"` examples and pseudo-IPA; fix `"Un famosa"` -> `"Una famosa"`.
 11. **Fill the level gaps or stop advertising them:** either add A2/B1/B2/C1 for de/es/pt/cv and A2/B1 for hy/ka/ba/tt/br, or mark those levels unsupported; re-level FR A0/A1 and de/es/pt C2 entries.
-12. **Fix and run parity recursively for all 14 languages;** include nested `home/` files; publish a report that distinguishes true missing essentials from false positives.
+12. **Parity recursion is fixed in P2 for the five target languages.** Extending parity to all 14 languages still needs essentials columns and targets for the other nine; the report now distinguishes the rechecked five-language result from that unstarted expansion.
 
 ### P2 - references, taxonomy, security, hygiene
 13. Resolve the 23 `translation_of` references, the 1 dangling `related_forms`, and the 199 dotted `concept` values; decide whether `concept` is an `en:` ID or a dotted key and enforce one.

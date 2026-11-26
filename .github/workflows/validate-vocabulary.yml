@@ -56,6 +56,9 @@ jobs:
       - name: Test Quality Rules
         run: npm run test:quality
 
+      - name: Test Parity Loader
+        run: npm run test:parity
+
       - name: Check Vocabulary Quality Baseline
         run: npm run quality
 
