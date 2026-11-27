@@ -33,9 +33,8 @@ mirrors upstream (`css/`, `js/`, `fonts/`) instead of flattening.
 
 **Never edit a vendored file.** `npm run validate` hashes every copy and fails on
 a mismatch, so a local tweak is caught before review. Upstream changes arrive by
-re-running the sync script and reviewing the diff like any dependency bump. The
-only patched behaviour in the tree is in `shared/dictionary-ui.js`, which passes a
-local lexicon URL to the unmodified `vocabulary-relations.js`.
+re-running the sync script and reviewing the diff like any dependency bump. No
+vendored file is patched at runtime.
 
 ## Enforcement
 
@@ -58,6 +57,23 @@ never to a broken page.
 | Hub daily strip (vocabulary calendars) | `COSYdata/daily/` | this repository | Slot stays empty |
 | Ecosystem strip sign-in state | `localStorage["cosy-auth"]` | shared platform key | Signed-in-only links stay hidden |
 
-Follow-up worth doing: `shared/vendor/js/vocabulary-relations.json` is compiled by
-COSYtools, but the relations are vocabulary data. It should be generated from the
-`antonyms`/`synonyms` fields in `vocabulary/` and owned here instead of vendored.
+## Relations
+
+The antonym and synonym lexicon used to be compiled by COSYtools and vendored in
+here, which made a tool repository the source of truth for vocabulary data. It is
+now generated from our own entries:
+
+```
+npm run build:relations     # writes shared/data/vocabulary-relations.json
+npm run check:relations     # exit 1 when it is stale (part of npm run validate)
+```
+
+The output keeps the shape COSYtools' loader reads — `{ langs: { <lang>: {
+<word>: { antonyms, synonyms } } } }` — so a consumer can point at it without
+changing code. Keys are lower-cased word forms, homographs are merged, and the
+schema's `no_antonym` placeholder is filtered out.
+
+The dictionary page itself no longer fetches a lexicon: every entry it renders
+already carries its own relations, and fetching a 1.4 MB table to fill gaps that
+the entries already fill was the wrong trade. The published file exists for the
+surfaces that have words but no entries.

@@ -861,43 +861,21 @@ const TAXONOMY_LOCALIZATIONS = {
   }
 };
 
-// Antonym and synonym relations live in one shared lexicon. It is compiled by
-// COSYtools and vendored into shared/vendor/ so this page needs no other
-// repository at runtime; re-sync with `npm run sync:ecosystem-assets`.
-// The dictionary only reads them; entries that carry their own relations win.
-const RELATIONS_ASSETS = {
-  script: "shared/vendor/js/vocabulary-relations.js",
-  lexicon: "shared/vendor/js/vocabulary-relations.json"
-};
-let relationsPromise = null;
+// Relations come from the entry itself. vocabulary/ is the source of truth, so the
+// page fetches no lexicon: the published shared/data/vocabulary-relations.json is
+// compiled from these same entries for sibling projects that have no entries.
+const RELATION_PLACEHOLDERS = new Set(["no_antonym", "no_synonym", "no_antonyms", "no_synonyms"]);
 
-function relationsAssetUrl(asset, baseUrl) {
-  const base = new URL(baseUrl || DEFAULT_BASE_URL, window.location.href);
-  return new URL(asset, base).href;
-}
-
-function ensureRelations(baseUrl) {
-  if (typeof window === "undefined") return Promise.resolve(null);
-  const scriptUrl = relationsAssetUrl(RELATIONS_ASSETS.script, baseUrl);
-  const lexiconUrl = relationsAssetUrl(RELATIONS_ASSETS.lexicon, baseUrl);
-  if (window.COSYVocab) {
-    if (!relationsPromise) relationsPromise = window.COSYVocab.load(lexiconUrl);
-    return relationsPromise;
+function entryRelations(list) {
+  if (!Array.isArray(list)) return [];
+  const kept = [];
+  for (const item of list) {
+    if (typeof item !== "string") continue;
+    const value = item.trim();
+    if (!value || RELATION_PLACEHOLDERS.has(value.toLowerCase())) continue;
+    kept.push(value);
   }
-  if (relationsPromise) return relationsPromise;
-  relationsPromise = new Promise((resolve) => {
-    const script = document.createElement("script");
-    script.src = scriptUrl;
-    script.onload = () => resolve(window.COSYVocab ? window.COSYVocab.load(lexiconUrl) : null);
-    script.onerror = () => resolve(null);
-    document.head.appendChild(script);
-  });
-  return relationsPromise;
-}
-
-function sharedRelations(word, lang) {
-  if (typeof window === "undefined" || !window.COSYVocab || !word) return { synonyms: [], antonyms: [] };
-  return window.COSYVocab.relations(word, lang || "en");
+  return kept;
 }
 
 function getI18n(lang) {
@@ -1170,7 +1148,6 @@ export async function initDictionaryUI(container, options = {}) {
 
   // Fetch lightweight search index only
   const { entries, entryMap, letters, categories, levels, domains, subCategoryMap, levelThemeMap } = await loadSearchIndex(lang, baseUrl);
-  ensureRelations(baseUrl);
   const favorites = getFavorites(lang);
   const wotdLightweight = getWordOfTheDay(entries);
 
@@ -2154,14 +2131,8 @@ export async function initDictionaryUI(container, options = {}) {
           html += `</div>`;
         }
 
-        // Synonyms & Antonyms — the entry's own first, then the shared lexicon
-        let synonyms = Array.isArray(fullEntry.synonyms) ? fullEntry.synonyms.slice() : [];
-        let antonyms = Array.isArray(fullEntry.antonyms) ? fullEntry.antonyms.slice() : [];
-        if (synonyms.length === 0 || antonyms.length === 0) {
-          const shared = sharedRelations(fullEntry.word || lightweightEntry.word, typeof lang !== "undefined" ? lang : "en");
-          if (synonyms.length === 0) synonyms = shared.synonyms;
-          if (antonyms.length === 0) antonyms = shared.antonyms;
-        }
+        const synonyms = entryRelations(fullEntry.synonyms);
+        const antonyms = entryRelations(fullEntry.antonyms);
         if (synonyms.length > 0 || antonyms.length > 0) {
           html += `<div class="cosy-dict-chips-row">`;
           if (synonyms.length > 0) {

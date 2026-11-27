@@ -22,7 +22,7 @@ const VENDOR = path.join(ROOT, 'shared', 'vendor');
 const MANIFEST = path.join(VENDOR, 'ASSETS.json');
 
 const LANGUAGES = 'https://cosylanguages.github.io/COSYlanguages';
-const TOOLS = 'https://cosylanguages.github.io/COSYtools';
+
 
 const FONT_FILES = [
   'commissioner-cyrillic-ext-wght-normal.woff2',
@@ -78,16 +78,6 @@ const ASSETS = [
     source: `${LANGUAGES}/js/daily-directory.js`,
     note: 'Daily directory card grid. Contains no asset URLs.'
   },
-  {
-    dest: 'js/vocabulary-relations.js',
-    source: `${TOOLS}/shared/js/vocabulary-relations.js`,
-    note: 'Antonym/synonym lexicon reader. Passed a local lexicon URL by shared/dictionary-ui.js.'
-  },
-  {
-    dest: 'js/vocabulary-relations.json',
-    source: `${TOOLS}/shared/js/vocabulary-relations.json`,
-    note: 'Compiled antonym/synonym lexicon. Follow-up: generate this from vocabulary entries instead of COSYtools.'
-  }
 ].concat(
   FONT_FILES.map((file) => ({
     dest: `fonts/${file}`,

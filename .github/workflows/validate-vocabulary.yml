@@ -80,6 +80,9 @@ jobs:
       - name: Test Repository Independence
         run: npm run test:independence
 
+      - name: Test Relations Lexicon
+        run: npm run test:relations
+
       - name: Test Dictionary UI
         run: npm run test:dictionary
 
@@ -104,6 +107,9 @@ jobs:
             echo "Error: vocabulary flat-index.json files are out of date! Please run 'npm run build:flat-index' and commit the changes."
             exit 1
           fi
+
+      - name: Check Relations Freshness
+        run: npm run check:relations
 
       - name: Check Stats Freshness
         run: npm run check:stats

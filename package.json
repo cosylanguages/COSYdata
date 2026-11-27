@@ -6,7 +6,7 @@
   "types": "shared/types.d.ts",
   "scripts": {
     "audit": "node scripts/audit-a0-a1.cjs",
-    "build": "npm run build:pages && npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily && npm run build:comparative && npm run build:stats",
+    "build": "npm run build:pages && npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily && npm run build:comparative && npm run build:stats && npm run build:relations",
     "build:daily": "node scripts/build-daily-calendar.cjs",
     "build:index": "node scripts/build-index.cjs",
     "build:flat-index": "node scripts/build-flat-index.js",
@@ -17,7 +17,7 @@
     "backfill:form-themes": "node scripts/backfill-form-themes.cjs",
     "fix:theme-mismatches": "node scripts/fix-theme-mismatches.cjs",
     "sync:shared-themes": "node scripts/sync-shared-themes.cjs",
-    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs && node scripts/quality-audit.cjs --check && node scripts/check-no-cross-repo-assets.cjs && node scripts/sync-ecosystem-assets.cjs --check && node scripts/build-pages.cjs --check",
+    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs && node scripts/quality-audit.cjs --check && node scripts/check-no-cross-repo-assets.cjs && node scripts/sync-ecosystem-assets.cjs --check && node scripts/build-pages.cjs --check && node scripts/build-relations.cjs --check",
     "quality": "node scripts/quality-audit.cjs --check",
     "quality:update-baseline": "node scripts/quality-audit.cjs --update-baseline",
     "validate:themes": "node scripts/validate-theme-normalisation.cjs",
@@ -40,7 +40,10 @@
     "build:pages": "node scripts/build-pages.cjs",
     "check:pages": "node scripts/build-pages.cjs --check",
     "test:pages": "node --test tests/pages.test.mjs",
-    "test:dictionary": "node --test tests/dictionary-ui.test.mjs"
+    "test:dictionary": "node --test tests/dictionary-ui.test.mjs",
+    "build:relations": "node scripts/build-relations.cjs",
+    "check:relations": "node scripts/build-relations.cjs --check",
+    "test:relations": "node --test tests/relations.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

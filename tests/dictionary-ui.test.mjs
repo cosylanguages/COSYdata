@@ -59,3 +59,35 @@ test('the dictionary page renders and its browse modes work', async () => {
     await close();
   }
 });
+
+test('an entry shows its own antonyms, and placeholders never reach the chips', async () => {
+  const { base, close } = await startStaticServer(ROOT);
+  const browser = await chromium.launch({ headless: true });
+
+  try {
+    const page = await (await browser.newContext()).newPage();
+    await page.goto(base + 'vocabulary/en/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.cosy-dict-search-input', { timeout: 20000 });
+
+    await page.fill('.cosy-dict-search-input', 'easy');
+    await page.keyboard.press('Enter'); // closes the autocomplete overlay
+    const card = page
+      .locator('.cosy-dict-card')
+      .filter({ has: page.locator('.cosy-dict-headword', { hasText: /^easy$/i }) })
+      .first();
+    await card.locator('.cosy-dict-expand-btn').click();
+    await page.waitForSelector('.cosy-dict-chip-antonym', { timeout: 10000 });
+
+    const antonyms = await page.locator('.cosy-dict-chip-antonym').allInnerTexts();
+    assert.deepEqual(antonyms.sort(), ['difficult', 'hard'], 'the entry renders the antonyms it stores');
+
+    const chips = await page.locator('.cosy-dict-chip').allInnerTexts();
+    assert.ok(
+      !chips.some((chip) => chip.trim().toLowerCase().startsWith('no_')),
+      `no placeholder chip rendered, got: ${chips.join(' | ')}`
+    );
+  } finally {
+    await browser.close();
+    await close();
+  }
+});
