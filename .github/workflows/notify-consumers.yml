@@ -7,6 +7,7 @@ on:
       - 'vocabulary/**'
       - 'functional-phrases/**'
       - 'curriculum/**'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -14,34 +15,83 @@ permissions:
 jobs:
   notify-consumers:
     runs-on: ubuntu-latest
+    env:
+      GH_PAT: ${{ secrets.GH_PAT }}
+      CONSUMERS: |
+        COSYlanguages/COSYlanguages
+        COSYlanguages/COSYmanuals
+        COSYlanguages/COSYtools
+        COSYlanguages/COSYgames
+        COSYlanguages/COSYplatform
     steps:
       - name: Check the dispatch token
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           set -euo pipefail
           if [ -z "${GH_PAT}" ]; then
-            echo "::error::GH_PAT is not set. Create a token with access to every consumer repository and store it as the GH_PAT secret."
+            echo "::error::The GH_PAT secret is not set, so no consumer was notified. Create a token that can reach all five consumer repositories and store it as GH_PAT. See docs/ecosystem-notifications.md."
             exit 1
           fi
-          CODE=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer ${GH_PAT}" https://api.github.com/user)
+          BODY=$(curl -s -w '\n%{http_code}' -H "Authorization: Bearer ${GH_PAT}" https://api.github.com/user)
+          CODE=$(printf '%s' "${BODY}" | tail -n1)
           if [ "${CODE}" != "200" ]; then
             echo "::error::GH_PAT is rejected by the API (HTTP ${CODE}). It has expired or been revoked; issue a new token and update the secret."
             exit 1
           fi
+          LOGIN=$(printf '%s' "${BODY}" | sed '$d' | grep -o '"login": *"[^"]*"' | head -n1 | cut -d'"' -f4)
+          echo "Token belongs to ${LOGIN}."
 
-      - name: Dispatch repository_dispatch event to consumer repos
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Check access to every consumer before notifying any
         run: |
           set -euo pipefail
-          REPOS=("COSYlanguages/COSYlanguages" "COSYlanguages/COSYmanuals" "COSYlanguages/COSYtools" "COSYlanguages/COSYgames" "COSYlanguages/COSYplatform")
-          for REPO in "${REPOS[@]}"; do
-            echo "Notifying $REPO..."
-            curl --fail-with-body --silent --show-error -X POST \
-              -H "Accept: application/vnd.github+json" \
-              -H "Authorization: Bearer $GH_PAT" \
-              -H "X-GitHub-Api-Version: 2022-11-28" \
-              https://api.github.com/repos/$REPO/dispatches \
-              -d '{"event_type":"vocabulary_updated"}'
+          MISSING=""
+          for REPO in ${CONSUMERS}; do
+            BODY=$(curl -s -w '\n%{http_code}' -H "Authorization: Bearer ${GH_PAT}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/${REPO}")
+            CODE=$(printf '%s' "${BODY}" | tail -n1)
+            if [ "${CODE}" != "200" ]; then
+              echo "::warning::${REPO} is not readable by this token (HTTP ${CODE})."
+              MISSING="${MISSING} ${REPO}(${CODE})"
+            elif ! printf '%s' "${BODY}" | sed '$d' | grep -q '"push": *true'; then
+              echo "::warning::${REPO} is readable but the token has no write permission on it."
+              MISSING="${MISSING} ${REPO}(no-write)"
+            else
+              echo "ok ${REPO}"
+            fi
           done
+          if [ -n "${MISSING}" ]; then
+            echo "::error::GH_PAT cannot notify:${MISSING}. A repository_dispatch needs write access to each consumer. Nothing was dispatched, so no consumer is half-notified."
+            exit 1
+          fi
+
+      - name: Dispatch repository_dispatch event to consumer repos
+        run: |
+          set -euo pipefail
+          FAILED=""
+          SENT=""
+          for REPO in ${CONSUMERS}; do
+            BODY=$(curl -s -w '\n%{http_code}' -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${GH_PAT}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${REPO}/dispatches" \
+              -d '{"event_type":"vocabulary_updated"}')
+            CODE=$(printf '%s' "${BODY}" | tail -n1)
+            if [ "${CODE}" = "204" ]; then
+              echo "notified ${REPO}"
+              SENT="${SENT} ${REPO}"
+            else
+              echo "::warning::${REPO} answered HTTP ${CODE}: $(printf '%s' "${BODY}" | sed '$d')"
+              FAILED="${FAILED} ${REPO}(${CODE})"
+            fi
+          done
+          {
+            echo "## Vocabulary update dispatched"
+            echo ""
+            echo "- commit: \`${GITHUB_SHA}\`"
+            echo "- notified:${SENT:- none}"
+            echo "- failed:${FAILED:- none}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "${FAILED}" ]; then
+            echo "::error::Dispatch failed for:${FAILED}. The other consumers were notified, so they are ahead of these; re-run this workflow once the token is fixed."
+            exit 1
+          fi
