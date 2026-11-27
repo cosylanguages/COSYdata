@@ -47,7 +47,8 @@
     "check:conjugation": "node scripts/build-conjugation-registry.mjs --check",
     "build:quality-report": "node scripts/build-quality-report.cjs",
     "check:quality-report": "node scripts/build-quality-report.cjs --check",
-    "test:validator": "node --test tests/validator.test.mjs"
+    "test:validator": "node --test tests/validator.test.mjs",
+    "test:products": "node --test tests/product-contract.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
