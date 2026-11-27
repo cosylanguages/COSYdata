@@ -13,7 +13,11 @@
  * Cross-language link: every table also records the shared `concept` id (the
  * source verb id, e.g. `be`), so `conj:be:present` resolves to all languages.
  *
+ * Conjugation itself belongs to COSYtools: this repository records the ids and the
+ * top-10 present tables it displays, and never conjugates a verb on its own.
+ *
  * Run: node scripts/build-conjugation-registry.mjs
+ *      node scripts/build-conjugation-registry.mjs --check
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -73,6 +77,8 @@ function slugify(infinitive, fallback) {
   return slug;
 }
 
+const check = process.argv.includes('--check');
+
 function main() {
   const verbs = JSON.parse(fs.readFileSync(SOURCE, 'utf8'));
   const entries = [];
@@ -112,13 +118,33 @@ function main() {
     count: entries.length,
     tables: entries
   };
-  fs.writeFileSync(REGISTRY, JSON.stringify(registry, null, 2) + '\n', 'utf8');
 
   // Compact index: id -> {lang, infinitive, concept, table} for the embed.
   const index = {};
   for (const e of entries) {
     index[e.id] = { lang: e.lang, infinitive: e.infinitive, concept: e.concept, notes: e.notes, table: e.table };
   }
+
+  if (check) {
+    // `generated` is a timestamp, so compare everything else.
+    const stable = (value) => {
+      const copy = JSON.parse(JSON.stringify(value));
+      delete copy.generated;
+      return JSON.stringify(copy);
+    };
+    const currentRegistry = fs.existsSync(REGISTRY) ? JSON.parse(fs.readFileSync(REGISTRY, 'utf8')) : null;
+    const currentIndex = fs.existsSync(INDEX) ? fs.readFileSync(INDEX, 'utf8') : null;
+    const same = currentRegistry && stable(currentRegistry) === stable(registry) && currentIndex === JSON.stringify(index) + '\n';
+    if (same) {
+      console.log(`conjugation registry is up to date (${entries.length} tables).`);
+      return;
+    }
+    console.error('conjugation registry is stale. Run: npm run build:conjugation');
+    process.exitCode = 1;
+    return;
+  }
+
+  fs.writeFileSync(REGISTRY, JSON.stringify(registry, null, 2) + '\n', 'utf8');
   fs.writeFileSync(INDEX, JSON.stringify(index) + '\n', 'utf8');
 
   console.log(`Wrote ${entries.length} conjugation tables`);

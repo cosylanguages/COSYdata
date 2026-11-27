@@ -9,6 +9,7 @@ import assert from 'node:assert/strict';
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
@@ -112,5 +113,32 @@ test('renders a single table and a concept group in shadow DOM', async () => {
     if (browser) await browser.close();
     server.close();
     fs.rmSync(path.join(ROOT, '__conj_test.html'), { force: true });
+  }
+});
+
+test('the registry matches the tables it is built from', () => {
+  const output = execFileSync(process.execPath, ['scripts/build-conjugation-registry.mjs', '--check'], {
+    cwd: ROOT,
+    encoding: 'utf8'
+  });
+  assert.match(output, /up to date/);
+});
+
+test('conjugation coverage is declared by COSYtools, never assumed here', () => {
+  const snapshot = JSON.parse(fs.readFileSync(path.join(ROOT, 'shared', 'cosytools-verbs.json'), 'utf8'));
+  const registry = JSON.parse(fs.readFileSync(REGISTRY, 'utf8'));
+  const verbs = JSON.parse(fs.readFileSync(path.join(ROOT, 'shared', 'top10-verbs.json'), 'utf8'));
+
+  assert.equal(snapshot.source, 'COSYtools', 'the snapshot names its owner');
+  assert.match(String(snapshot.commit || ''), /^[0-9a-f]{7,40}$/, 'the snapshot records the commit it came from');
+
+  const registryLangs = new Set(registry.tables.map((table) => table.lang));
+  const verbsLangs = new Set(verbs.flatMap((verb) => Object.keys(verb.languages || {})));
+
+  for (const lang of Object.keys(snapshot.conjugation || {})) {
+    assert.ok(registryLangs.has(lang), `snapshot language ${lang} has tables here`);
+  }
+  for (const lang of registryLangs) {
+    assert.ok(verbsLangs.has(lang), `registry language ${lang} comes from shared/top10-verbs.json`);
   }
 });

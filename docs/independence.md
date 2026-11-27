@@ -77,3 +77,31 @@ The dictionary page itself no longer fetches a lexicon: every entry it renders
 already carries its own relations, and fetching a 1.4 MB table to fill gaps that
 the entries already fill was the wrong trade. The published file exists for the
 surfaces that have words but no entries.
+
+## Verb conjugation
+
+Conjugation belongs to COSYtools. This repository records what COSYtools can do
+and displays a fixed set of tables; it never derives a form from a rule.
+
+| Thing | Owner | Where |
+| --- | --- | --- |
+| Conjugation engine and per-verb tables (`en`, `fr`, `it`, `de`, `ru`, `el`) | COSYtools | `COSYtools/tools/<lang>/…/data/verbs.json` |
+| Which verbs are drillable, and their preposition/case governance | COSYtools, snapshotted here | `shared/cosytools-verbs.json` (`source`, `commit`) |
+| Top-10 present-simple tables shown on this site | COSYdata | `shared/top10-verbs.json` |
+| Stable ids for those tables (`conj:<lang>:<verb-slug>:<form>`) | COSYdata, derived | `shared/conjugation-registry.json`, `shared/conjugation-index.json` |
+
+Rules:
+
+- No script in this repository conjugates a verb. Every form comes from a table
+  someone wrote, here or in COSYtools.
+- The verb-of-the-day slots may only feature a verb listed in the snapshot;
+  `scripts/lib/daily-calendar.cjs` builds its pools from it. A verb COSYtools
+  cannot drill is never offered.
+- The snapshot records the COSYtools commit it came from. Refresh it with
+  `node scripts/sync-cosytools-verbs.cjs ../COSYtools`, then `npm run build:daily`
+  and `npm run build:conjugation`.
+- `npm run check:conjugation` (part of `validate`) keeps the id registry in step
+  with `shared/top10-verbs.json`. The `generated` timestamp is ignored when
+  comparing, so a fresh build does not dirty the tree.
+- When a table is missing, the page shows the entry without a conjugation link.
+  It never invents one.

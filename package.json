@@ -17,7 +17,7 @@
     "backfill:form-themes": "node scripts/backfill-form-themes.cjs",
     "fix:theme-mismatches": "node scripts/fix-theme-mismatches.cjs",
     "sync:shared-themes": "node scripts/sync-shared-themes.cjs",
-    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs && node scripts/quality-audit.cjs --check && node scripts/check-no-cross-repo-assets.cjs && node scripts/sync-ecosystem-assets.cjs --check && node scripts/build-pages.cjs --check && node scripts/build-relations.cjs --check",
+    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs && node scripts/quality-audit.cjs --check && node scripts/check-no-cross-repo-assets.cjs && node scripts/sync-ecosystem-assets.cjs --check && node scripts/build-pages.cjs --check && node scripts/build-relations.cjs --check && node scripts/build-conjugation-registry.mjs --check",
     "quality": "node scripts/quality-audit.cjs --check",
     "quality:update-baseline": "node scripts/quality-audit.cjs --update-baseline",
     "validate:themes": "node scripts/validate-theme-normalisation.cjs",
@@ -43,7 +43,8 @@
     "test:dictionary": "node --test tests/dictionary-ui.test.mjs",
     "build:relations": "node scripts/build-relations.cjs",
     "check:relations": "node scripts/build-relations.cjs --check",
-    "test:relations": "node --test tests/relations.test.mjs"
+    "test:relations": "node --test tests/relations.test.mjs",
+    "check:conjugation": "node scripts/build-conjugation-registry.mjs --check"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
