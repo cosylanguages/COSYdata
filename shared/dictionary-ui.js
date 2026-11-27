@@ -861,22 +861,34 @@ const TAXONOMY_LOCALIZATIONS = {
   }
 };
 
-// Antonym and synonym relations live in one shared lexicon, owned by COSYtools.
+// Antonym and synonym relations live in one shared lexicon. It is compiled by
+// COSYtools and vendored into shared/vendor/ so this page needs no other
+// repository at runtime; re-sync with `npm run sync:ecosystem-assets`.
 // The dictionary only reads them; entries that carry their own relations win.
-const RELATIONS_SCRIPT = "https://cosylanguages.github.io/COSYtools/shared/js/vocabulary-relations.js";
+const RELATIONS_ASSETS = {
+  script: "shared/vendor/js/vocabulary-relations.js",
+  lexicon: "shared/vendor/js/vocabulary-relations.json"
+};
 let relationsPromise = null;
 
-function ensureRelations() {
+function relationsAssetUrl(asset, baseUrl) {
+  const base = new URL(baseUrl || DEFAULT_BASE_URL, window.location.href);
+  return new URL(asset, base).href;
+}
+
+function ensureRelations(baseUrl) {
   if (typeof window === "undefined") return Promise.resolve(null);
+  const scriptUrl = relationsAssetUrl(RELATIONS_ASSETS.script, baseUrl);
+  const lexiconUrl = relationsAssetUrl(RELATIONS_ASSETS.lexicon, baseUrl);
   if (window.COSYVocab) {
-    if (!relationsPromise) relationsPromise = window.COSYVocab.load();
+    if (!relationsPromise) relationsPromise = window.COSYVocab.load(lexiconUrl);
     return relationsPromise;
   }
   if (relationsPromise) return relationsPromise;
   relationsPromise = new Promise((resolve) => {
     const script = document.createElement("script");
-    script.src = RELATIONS_SCRIPT;
-    script.onload = () => resolve(window.COSYVocab ? window.COSYVocab.load() : null);
+    script.src = scriptUrl;
+    script.onload = () => resolve(window.COSYVocab ? window.COSYVocab.load(lexiconUrl) : null);
     script.onerror = () => resolve(null);
     document.head.appendChild(script);
   });
@@ -1158,7 +1170,7 @@ export async function initDictionaryUI(container, options = {}) {
 
   // Fetch lightweight search index only
   const { entries, entryMap, letters, categories, levels, domains } = await loadSearchIndex(lang, baseUrl);
-  ensureRelations();
+  ensureRelations(baseUrl);
   const favorites = getFavorites(lang);
   const wotdLightweight = getWordOfTheDay(entries);
 

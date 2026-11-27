@@ -20,12 +20,12 @@
   <meta name="twitter:description" content="Explore machine-readable vocabulary datasets, functional phrases, and language dictionaries for the COSYlanguages ecosystem." />
 
   <script src="./shared/cosy-theme.js"></script>
-  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/fonts.css" />
-  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css" />
+  <link rel="stylesheet" href="./shared/vendor/css/fonts.css" />
+  <link rel="stylesheet" href="./shared/vendor/tokens.css" />
   <link rel="stylesheet" href="./shared/dictionary-ui.css" />
   <link rel="stylesheet" href="./shared/hero.css" />
-  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-strip.css" />
-  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/daily-directory.css" />
+  <link rel="stylesheet" href="./shared/vendor/css/daily-strip.css" />
+  <link rel="stylesheet" href="./shared/vendor/css/daily-directory.css" />
   <style>
     body {
       margin: 0;
@@ -121,7 +121,7 @@
       font-size: 14px;
     }
   </style>
-  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
+  <link rel="stylesheet" href="./shared/vendor/css/ecosystem-strip.css">
 </head>
 <body>
   <div data-ecosystem-strip data-self="data"></div>
@@ -185,8 +185,8 @@
   </footer>
 
   <!-- Daily strip component, shared with the COSYlanguages hub. It must load before the script below. -->
-  <script src="https://cosylanguages.github.io/COSYlanguages/js/daily-strip.js" defer></script>
-  <script src="https://cosylanguages.github.io/COSYlanguages/js/daily-directory.js" defer></script>
+  <script src="./shared/vendor/js/daily-strip.js" defer></script>
+  <script src="./shared/vendor/js/daily-directory.js" defer></script>
   <script>
     // "Today in the dictionary": word, verb, verb + preposition, phrasal verb and idiom of the day. Which languages and slots exist comes from
     // daily/calendar-config.json, so adding a language there adds it to this picker. If the strip script or the
@@ -305,6 +305,6 @@
 
     loadWordCounts();
   </script>
-  <script src="https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js" defer></script>
+  <script src="./shared/vendor/js/ecosystem-strip.js" defer></script>
 </body>
 </html>

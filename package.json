@@ -17,7 +17,7 @@
     "backfill:form-themes": "node scripts/backfill-form-themes.cjs",
     "fix:theme-mismatches": "node scripts/fix-theme-mismatches.cjs",
     "sync:shared-themes": "node scripts/sync-shared-themes.cjs",
-    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs && node scripts/quality-audit.cjs --check",
+    "validate": "node scripts/validate.cjs && node scripts/validate-theme-normalisation.cjs && node scripts/validate-theme-taxonomy-sync.cjs && node scripts/validate-confusion-pairs.cjs && node scripts/quality-audit.cjs --check && node scripts/check-no-cross-repo-assets.cjs && node scripts/sync-ecosystem-assets.cjs --check",
     "quality": "node scripts/quality-audit.cjs --check",
     "quality:update-baseline": "node scripts/quality-audit.cjs --update-baseline",
     "validate:themes": "node scripts/validate-theme-normalisation.cjs",
@@ -29,6 +29,10 @@
     "build:comparative": "node scripts/build-comparative.cjs",
     "build:conjugation": "node scripts/build-conjugation-registry.mjs",
     "test:conjugation": "node --test tests/conjugation-embed.test.mjs",
+    "test:independence": "node --test tests/independence.test.mjs",
+    "sync:ecosystem-assets": "node scripts/sync-ecosystem-assets.cjs --update",
+    "check:ecosystem-assets": "node scripts/sync-ecosystem-assets.cjs --check",
+    "check:independence": "node scripts/check-no-cross-repo-assets.cjs",
     "build:pair-coverage": "node scripts/build-confusion-pair-coverage.cjs"
   },
   "devDependencies": {

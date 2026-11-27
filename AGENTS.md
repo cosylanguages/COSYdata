@@ -5,6 +5,7 @@
 - English is the size reference for A0–A1 only. Dictionaries are independent; `concept` is optional, never required, never created for non-English entries; existing values are left untouched.
 - Schema: `schemas/vocabulary.schema.json` (+ fixtures in `schemas/examples/`). Indexes: `vocabulary/<lang>/index.json`, `flat-index.json`, and `search-index.json`.
 - Theme taxonomy: `docs/theme-taxonomy.md` and its machine-readable copy `shared/themes.json`.
+- `shared/vendor/` holds pinned copies of sibling-repository assets (design tokens, fonts, ecosystem strip, daily widgets, relations lexicon). Never edit a file there: `npm run validate` hashes every copy. Refresh with `npm run sync:ecosystem-assets` and review the diff. Rules in `docs/independence.md`.
 
 ## Commands (run all before finishing; all must pass)
     npm ci

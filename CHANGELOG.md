@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 
 ### Changed
+- P68 made COSYdata render with no sibling-repository assets: `tokens.css`, `fonts.css` and its 10 WOFF2 files, the ecosystem strip, the daily strip and directory, and the COSYtools relations lexicon are vendored into `shared/vendor/` (23 files, refreshed with `npm run sync:ecosystem-assets`). All 16 pages load local copies, and `npm run validate` plus `npm run test:independence` fail if a cross-repository stylesheet, script, font or image reference returns.
 - P67 added Greek transcriptions for 202 entries from English Wiktionary (5,580 findings / 31,498 entries).
 - P66 added Armenian transcriptions for 373 entries from English Wiktionary (5,782 findings / 31,498 entries).
 - P65 added Russian transcriptions for 500 entries from English Wiktionary (6,155 findings / 31,498 entries).

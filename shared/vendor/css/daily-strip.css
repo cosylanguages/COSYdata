@@ -1,0 +1,849 @@
+/**
+ * COSYlanguages Daily Strip Component Styles
+ * File: css/daily-strip.css
+ */
+
+.daily-strip-container {
+    max-width: 1120px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background: var(--cosy-color-warm-white, #FFFEFB);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    border-radius: var(--cosy-radius-lg, 22px);
+    box-shadow: var(--cosy-shadow-sm, 0 2px 8px rgba(46, 74, 51, 0.08));
+    font-family: var(--font-sans);
+    color: var(--cosy-color-ink, #1C1917);
+    box-sizing: border-box;
+    transition: background-color var(--cosy-transition-fast, 0.15s ease), border-color var(--cosy-transition-fast, 0.15s ease);
+}
+
+/* Header strip */
+.daily-strip-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px dashed var(--cosy-color-border, rgba(74, 107, 80, 0.15));
+}
+
+.daily-strip-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.daily-strip-title-icon {
+    font-size: 1.35rem;
+    line-height: 1;
+}
+
+.daily-strip-title {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--cosy-color-sage-dark, #375742);
+    margin: 0;
+}
+
+.daily-strip-lang-badge {
+    background: var(--cosy-color-sage-light, #E8F0E9);
+    color: var(--cosy-color-sage-deep, #233827);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.daily-strip-header-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.65rem 0.75rem;
+}
+
+/* COSYpractice Daily Challenge Banner / Pill */
+.daily-strip-challenge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--cosy-color-coral-light);
+    color: var(--cosy-ink-coral);
+    border: 1px solid color-mix(in srgb, var(--cosy-ink-coral) 40%, transparent);
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-challenge-pill:hover {
+    background: color-mix(in srgb, var(--cosy-ink-coral) 16%, var(--cosy-color-surface));
+    border-color: var(--cosy-ink-coral);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(234, 88, 12, 0.15);
+}
+
+.daily-strip-challenge-pill.completed {
+    background: var(--cosy-color-green-light);
+    color: var(--cosy-ink-green);
+    border-color: color-mix(in srgb, var(--cosy-ink-green) 40%, transparent);
+}
+
+.daily-strip-challenge-icon {
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.daily-strip-streak {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--cosy-color-honey-pale, #FFF8E7);
+    color: var(--cosy-color-honey-dark, #7D4D03);
+    border: 1px solid var(--cosy-color-honey-mid, #FEF0C7);
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.daily-strip-done-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--cosy-color-sage-light, #E8F0E9);
+    color: var(--cosy-color-sage-deep, #233827);
+    border: 1.5px solid var(--cosy-color-sage, #416B49);
+    border-radius: var(--cosy-radius-full, 100px);
+    padding: 0.38rem 0.85rem;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-done-btn:hover {
+    background: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-on-brand);
+}
+
+.daily-strip-done-btn.completed {
+    background: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-on-brand);
+    border-color: var(--cosy-color-sage-dark, #375742);
+}
+
+.daily-strip-done-btn:focus-visible,
+.daily-strip-challenge-pill:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
+}
+
+/* Tabs */
+.daily-strip-tabs {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    scrollbar-width: thin;
+}
+
+.daily-strip-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 0.55rem 0.95rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--cosy-color-ink-muted, #5C5957);
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: var(--cosy-radius-sm, 8px) var(--cosy-radius-sm, 8px) 0 0;
+    transition: color var(--cosy-transition-fast, 0.15s ease), border-color var(--cosy-transition-fast, 0.15s ease), background-color var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-tab:hover {
+    color: var(--cosy-color-sage, #416B49);
+    background: var(--cosy-color-sage-pale, #E8F0E9);
+}
+
+.daily-strip-tab[aria-selected="true"] {
+    color: var(--cosy-color-sage-dark, #375742);
+    border-bottom-color: var(--cosy-color-sage, #416B49);
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+}
+
+.daily-strip-tab:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
+}
+
+/* CEFR Level Selector Pills */
+.daily-strip-level-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.daily-strip-level-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--cosy-color-sage-dark, #375742);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.daily-strip-level-btn {
+    padding: 0.25rem 0.65rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: var(--cosy-radius-full, 100px);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+    background-color: var(--cosy-color-warm-white, #FFFEFB);
+    color: var(--cosy-color-ink-soft, #4A4A4A);
+    cursor: pointer;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-level-btn:hover {
+    background-color: var(--cosy-color-sage-light, #E8F0E9);
+    border-color: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-color-sage-dark, #375742);
+}
+
+.daily-strip-level-btn.active {
+    background-color: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-on-brand);
+    border-color: var(--cosy-color-sage-dark, #375742);
+}
+
+/* Panels */
+.daily-strip-panel {
+    background: var(--cosy-color-cream, #FAF7F2);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    border-radius: var(--cosy-radius-md, 14px);
+    padding: 1.25rem 1.5rem;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.daily-strip-panel[hidden] {
+    display: none !important;
+}
+
+.daily-strip-content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.daily-strip-prompt {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: var(--cosy-color-ink, #1C1917);
+    margin: 0;
+}
+
+.daily-strip-translation,
+.daily-strip-definition {
+    font-size: 0.98rem;
+    color: var(--cosy-color-ink-soft, #4A4A4A);
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0.5rem 0.85rem;
+    border-left: 3px solid var(--cosy-color-sage, #416B49);
+    border-radius: var(--cosy-radius-xs, 4px);
+    margin-top: 0.25rem;
+}
+
+.daily-strip-meta {
+    font-size: 0.88rem;
+    color: var(--cosy-color-ink-muted, #5C5957);
+}
+
+/* Prompt chips: the general-course activity label, the word target and the timers */
+.daily-strip-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.daily-strip-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.76rem;
+    font-weight: 600;
+    line-height: 1.4;
+    border-radius: var(--cosy-radius-full, 100px);
+    background: rgba(65, 107, 73, 0.08);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+    color: var(--cosy-color-ink-soft, #4A4A4A);
+}
+
+/* General-course cards have no exam, so the activity takes the exam chip's place. */
+.daily-strip-chip-activity {
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+    border-color: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-color-sage-dark, #375742);
+    font-weight: 600;
+}
+
+.daily-strip-followups {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.85rem;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: var(--cosy-radius-xs, 4px);
+    border-left: 3px solid var(--cosy-color-sage-light, #E8F0E9);
+}
+
+.daily-strip-followups-label {
+    display: block;
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--cosy-color-sage-dark, #375742);
+    margin-bottom: 0.3rem;
+}
+
+.daily-strip-followups-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-size: 0.92rem;
+    color: var(--cosy-color-ink-soft, #4A4A4A);
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.daily-strip-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+}
+
+.daily-strip-actions-left,
+.daily-strip-actions-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.daily-strip-reveal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+    border-radius: var(--cosy-radius-full, 100px);
+    padding: 0.35rem 0.75rem;
+    margin: 0.25rem 0 0.5rem;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--cosy-color-sage-dark, #375742);
+    cursor: pointer;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-reveal-btn:hover {
+    background: var(--cosy-color-sage-light, #E8F0E9);
+    border-color: var(--cosy-color-sage, #416B49);
+}
+
+.daily-strip-answer[hidden] {
+    display: none;
+}
+
+.daily-strip-toggle-translation-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--cosy-color-warm-white, #FFFEFB);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+    border-radius: var(--cosy-radius-full, 100px);
+    padding: 0.35rem 0.75rem;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--cosy-color-sage-dark, #375742);
+    cursor: pointer;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-toggle-translation-btn:hover {
+    background: var(--cosy-color-sage-light, #E8F0E9);
+    border-color: var(--cosy-color-sage, #416B49);
+}
+
+/* Deep link to COSYpractice Hub */
+.daily-strip-practice-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-on-brand);
+    border: 1px solid var(--cosy-color-sage-dark, #375742);
+    border-radius: var(--cosy-radius-full, 100px);
+    padding: 0.35rem 0.85rem;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-practice-link:hover {
+    background: var(--cosy-color-sage-dark, #375742);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(46, 74, 51, 0.2);
+}
+
+.daily-strip-ext-icon {
+    font-size: 0.85rem;
+    line-height: 1;
+}
+
+.daily-strip-toggle-translation-btn:focus-visible,
+.daily-strip-reveal-btn:focus-visible,
+.daily-strip-practice-link:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    .daily-strip-container,
+    .daily-strip-done-btn,
+    .daily-strip-tab,
+    .daily-strip-toggle-translation-btn,
+    .daily-strip-practice-link,
+    .daily-strip-challenge-pill {
+        transition: none !important;
+        transform: none !important;
+    }
+}
+
+/* Dark mode refinements */
+html[data-theme="dark"] .daily-strip-container,
+body.theme-dark .daily-strip-container {
+    background: #1C241E;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #E8F0E9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] .daily-strip-header,
+body.theme-dark .daily-strip-header {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] .daily-strip-title,
+body.theme-dark .daily-strip-title {
+    color: #E8F0E9;
+}
+
+html[data-theme="dark"] .daily-strip-lang-badge,
+body.theme-dark .daily-strip-lang-badge {
+    background: #2D4A37;
+    color: #A7F3D0;
+}
+
+html[data-theme="dark"] .daily-strip-streak,
+body.theme-dark .daily-strip-streak {
+    background: #3A2F18;
+    color: #F6E9C8;
+    border-color: rgba(232, 168, 56, 0.3);
+}
+
+html[data-theme="dark"] .daily-strip-done-btn,
+body.theme-dark .daily-strip-done-btn {
+    background: #243127;
+    color: #D6E8D9;
+    border-color: rgba(143, 177, 147, 0.3);
+}
+
+html[data-theme="dark"] .daily-strip-done-btn:hover,
+body.theme-dark .daily-strip-done-btn:hover {
+    background: var(--cosy-color-sage);
+    color: var(--cosy-on-brand);
+}
+
+html[data-theme="dark"] .daily-strip-tab,
+body.theme-dark .daily-strip-tab {
+    color: #A3A3A3;
+}
+
+html[data-theme="dark"] .daily-strip-tab:hover,
+body.theme-dark .daily-strip-tab:hover {
+    color: var(--cosy-on-brand);
+    background: #243127;
+}
+
+html[data-theme="dark"] .daily-strip-tab[aria-selected="true"],
+body.theme-dark .daily-strip-tab[aria-selected="true"] {
+    color: #E8F0E9;
+    background: #243127;
+    border-bottom-color: #8FB193;
+}
+
+html[data-theme="dark"] .daily-strip-tabs,
+body.theme-dark .daily-strip-tabs {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] .daily-strip-level-label,
+body.theme-dark .daily-strip-level-label {
+    color: #A7F3D0;
+}
+
+html[data-theme="dark"] .daily-strip-level-btn,
+body.theme-dark .daily-strip-level-btn {
+    background-color: #243127;
+    border-color: rgba(255, 255, 255, 0.15);
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-level-btn:hover,
+body.theme-dark .daily-strip-level-btn:hover {
+    background-color: #2D4A37;
+    color: var(--cosy-on-brand);
+}
+
+html[data-theme="dark"] .daily-strip-level-btn.active,
+body.theme-dark .daily-strip-level-btn.active {
+    background-color: var(--cosy-color-sage);
+    border-color: #8FB193;
+    color: var(--cosy-on-brand);
+}
+
+html[data-theme="dark"] .daily-strip-panel,
+body.theme-dark .daily-strip-panel {
+    background: #141A15;
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .daily-strip-prompt,
+body.theme-dark .daily-strip-prompt {
+    color: #F6F1E6;
+}
+
+html[data-theme="dark"] .daily-strip-translation,
+html[data-theme="dark"] .daily-strip-definition,
+body.theme-dark .daily-strip-translation,
+body.theme-dark .daily-strip-definition {
+    background: rgba(0, 0, 0, 0.35);
+    color: #D6E8D9;
+    border-left-color: #8FB193;
+}
+
+html[data-theme="dark"] .daily-strip-meta,
+body.theme-dark .daily-strip-meta {
+    color: #9CA3AF;
+}
+
+html[data-theme="dark"] .daily-strip-chip,
+body.theme-dark .daily-strip-chip {
+    background: rgba(143, 177, 147, 0.14);
+    border-color: rgba(143, 177, 147, 0.35);
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-chip-activity,
+body.theme-dark .daily-strip-chip-activity {
+    background: rgba(143, 177, 147, 0.2);
+    border-color: #8FB193;
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-followups,
+body.theme-dark .daily-strip-followups {
+    background: rgba(0, 0, 0, 0.35);
+    border-left-color: var(--cosy-color-sage);
+}
+
+html[data-theme="dark"] .daily-strip-followups-label,
+body.theme-dark .daily-strip-followups-label {
+    color: #8FB193;
+}
+
+html[data-theme="dark"] .daily-strip-followups-list,
+body.theme-dark .daily-strip-followups-list {
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-footer,
+body.theme-dark .daily-strip-footer {
+    border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .daily-strip-toggle-translation-btn,
+body.theme-dark .daily-strip-toggle-translation-btn,
+html[data-theme="dark"] .daily-strip-reveal-btn,
+body.theme-dark .daily-strip-reveal-btn {
+    background: #243127;
+    border-color: rgba(255, 255, 255, 0.15);
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-toggle-translation-btn:hover,
+body.theme-dark .daily-strip-toggle-translation-btn:hover,
+html[data-theme="dark"] .daily-strip-reveal-btn:hover,
+body.theme-dark .daily-strip-reveal-btn:hover {
+    background: #2D4A37;
+    color: var(--cosy-on-brand);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .daily-strip-container {
+        padding: 1.15rem;
+        margin: 1.25rem 0.75rem;
+    }
+    .daily-strip-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .daily-strip-header-actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .daily-strip-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .daily-strip-actions-left,
+    .daily-strip-actions-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .daily-strip-practice-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .daily-strip-tab {
+        padding: 0.45rem 0.65rem;
+        font-size: 0.85rem;
+    }
+}
+
+.daily-strip-emoji {
+    font-size: 1.35em;
+    line-height: 1;
+    margin-right: 0.15em;
+}
+
+/* ---- Visual polish ----
+   A sage-to-honey accent edge, a segmented tab control that never clips, a calmer header and a
+   reading panel with an accent rule. Overrides the base rules above; colours keep the COSYlanguages tokens. */
+.daily-strip-container {
+    position: relative;
+    overflow: hidden;
+    container-type: inline-size;
+    background: linear-gradient(180deg, var(--cosy-color-sage-mist, #F0F5F1) 0, var(--cosy-color-warm-white, #FFFEFB) 120px);
+    box-shadow: 0 10px 30px rgba(46, 74, 51, 0.10), 0 1px 3px rgba(46, 74, 51, 0.06);
+}
+
+.daily-strip-container::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--cosy-color-sage, #416B49), var(--cosy-color-honey-mid, #E9B949));
+}
+
+.daily-strip-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.daily-strip-title-icon {
+    display: inline-grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--cosy-color-honey-pale, #FFF8E7);
+    font-size: 1.1rem;
+}
+
+.daily-strip-header-actions {
+    gap: 0.45rem;
+}
+
+.daily-strip-challenge-pill,
+.daily-strip-streak,
+.daily-strip-done-btn {
+    padding: 0.28rem 0.65rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+}
+
+/* Tabs: segmented control */
+.daily-strip-tabs {
+    gap: 0.25rem;
+    padding: 0.25rem;
+    margin-bottom: 0.9rem;
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    border-radius: var(--cosy-radius-full, 100px);
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+}
+
+.daily-strip-tab {
+    flex: 1 1 0;
+    justify-content: center;
+    min-width: 0;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.88rem;
+    border: 0;
+    border-radius: var(--cosy-radius-full, 100px);
+}
+
+.daily-strip-tab:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.daily-strip-tab[aria-selected="true"] {
+    background: var(--cosy-color-surface);
+    color: var(--cosy-color-sage-dark, #2E4A33);
+    box-shadow: 0 1px 4px rgba(46, 74, 51, 0.18);
+}
+
+/* Reading panel */
+.daily-strip-panel {
+    background: var(--cosy-color-surface);
+    border-left: 4px solid var(--cosy-color-sage, #416B49);
+    box-shadow: 0 1px 2px rgba(46, 74, 51, 0.05);
+    animation: daily-strip-in 0.25s ease both;
+}
+
+.daily-strip-prompt {
+    font-size: 1.28rem;
+    line-height: 1.45;
+}
+
+.daily-strip-level-bar {
+    padding: 0.2rem;
+    width: fit-content;
+    max-width: 100%;
+    border-radius: var(--cosy-radius-full, 100px);
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+    gap: 0.15rem;
+}
+
+.daily-strip-level-label {
+    padding: 0 0.5rem 0 0.6rem;
+}
+
+.daily-strip-level-btn {
+    border-color: transparent;
+    background: transparent;
+}
+
+.daily-strip-level-btn.active {
+    background: var(--cosy-color-sage, #416B49);
+}
+
+.daily-strip-practice-link {
+    padding: 0.4rem 0.9rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(65, 107, 73, 0.3);
+}
+
+@keyframes daily-strip-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .daily-strip-panel { animation: none; }
+}
+
+html[data-theme="dark"] .daily-strip-container,
+body.theme-dark .daily-strip-container {
+    background: linear-gradient(180deg, #223026 0, #1B241E 120px);
+}
+
+html[data-theme="dark"] .daily-strip-tabs,
+html[data-theme="dark"] .daily-strip-level-bar,
+body.theme-dark .daily-strip-tabs,
+body.theme-dark .daily-strip-level-bar {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .daily-strip-tab[aria-selected="true"],
+body.theme-dark .daily-strip-tab[aria-selected="true"] {
+    background: #2D4A37;
+    color: var(--cosy-on-brand);
+}
+
+html[data-theme="dark"] .daily-strip-panel,
+body.theme-dark .daily-strip-panel {
+    background: #1F2A22;
+}
+
+/* The strip is placed in columns of very different widths, so the tabs react to the strip's own width,
+   not the screen's: below ~600px they stack icon over label and the label may wrap instead of overlapping. */
+@container (max-width: 600px) {
+    .daily-strip-tabs { border-radius: 18px; }
+    .daily-strip-tab {
+        flex-direction: column;
+        gap: 0.1rem;
+        font-size: 0.78rem;
+        line-height: 1.15;
+        text-align: center;
+        white-space: normal;
+        padding: 0.4rem 0.25rem;
+        border-radius: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .daily-strip-tabs { border-radius: 18px; }
+    .daily-strip-tab {
+        flex-direction: column;
+        gap: 0.1rem;
+        font-size: 0.76rem;
+        line-height: 1.15;
+        text-align: center;
+        white-space: normal;
+        padding: 0.4rem 0.25rem;
+        border-radius: 14px;
+    }
+    .daily-strip-level-bar { border-radius: 18px; }
+    .daily-strip-prompt { font-size: 1.15rem; }
+}
