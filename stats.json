@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "counting_rule": "One entry is one object in a JSON array under vocabulary/<lang>/<level>/, excluding index.json, flat-index.json, search-index.json, themes-index.json, *-tracks.json and vocabulary/_canonical.",
+  "data_updated": "2026-11-26",
+  "totals": {
+    "languages": 14,
+    "entries": 31498,
+    "data_files": 1125,
+    "levels": 7,
+    "themes": 46,
+    "sub_themes": 236,
+    "functional_phrases": 714,
+    "functional_phrase_languages": 5
+  },
+  "by_level": {
+    "A0": 2469,
+    "A1": 9104,
+    "A2": 6724,
+    "B1": 4132,
+    "B2": 3659,
+    "C1": 2569,
+    "C2": 2841
+  },
+  "by_form": [
+    {
+      "name": "noun",
+      "entries": 12839
+    },
+    {
+      "name": "verb",
+      "entries": 5046
+    },
+    {
+      "name": "adjective",
+      "entries": 4495
+    },
+    {
+      "name": "idiom",
+      "entries": 3415
+    },
+    {
+      "name": "phrase",
+      "entries": 2947
+    },
+    {
+      "name": "number",
+      "entries": 1568
+    },
+    {
+      "name": "adverb",
+      "entries": 542
+    },
+    {
+      "name": "pronoun",
+      "entries": 261
+    },
+    {
+      "name": "preposition",
+      "entries": 190
+    },
+    {
+      "name": "conjunction",
+      "entries": 127
+    },
+    {
+      "name": "determiner",
+      "entries": 54
+    },
+    {
+      "name": "postposition",
+      "entries": 8
+    },
+    {
+      "name": "article",
+      "entries": 3
+    },
+    {
+      "name": "particle",
+      "entries": 3
+    }
+  ],
+  "coverage": {
+    "definitions": 100,
+    "examples": 100,
+    "transcription": 82.3,
+    "emoji": 74.6,
+    "audio": 0,
+    "image": 0,
+    "synonyms": 27.7,
+    "antonyms": 21.5,
+    "related_forms": 2.7,
+    "plural_form": 23.2,
+    "gender": 14.9,
+    "countability": 40.8,
+    "concept": 9.1,
+    "secondary_themes": 0.4
+  },
+  "languages": [
+    {
+      "code": "ba",
+      "entries": 674,
+      "by_level": {
+        "A0": 32,
+        "A1": 498,
+        "A2": 17,
+        "B1": 0,
+        "B2": 127,
+        "C1": 0,
+        "C2": 0
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 63.6,
+        "emoji": 81.9,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 9.6,
+        "related_forms": 0,
+        "plural_form": 13.4,
+        "gender": 0,
+        "countability": 29.4,
+        "concept": 20.3,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "br",
+      "entries": 709,
+      "by_level": {
+        "A0": 29,
+        "A1": 523,
+        "A2": 17,
+        "B1": 0,
+        "B2": 140,
+        "C1": 0,
+        "C2": 0
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 74.9,
+        "emoji": 71.1,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 9,
+        "related_forms": 0,
+        "plural_form": 14,
+        "gender": 14.2,
+        "countability": 29.2,
+        "concept": 19.3,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "cv",
+      "entries": 600,
+      "by_level": {
+        "A0": 28,
+        "A1": 572,
+        "A2": 0,
+        "B1": 0,
+        "B2": 0,
+        "C1": 0,
+        "C2": 0
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 25.7,
+        "emoji": 77.5,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 11.7,
+        "related_forms": 0,
+        "plural_form": 20.7,
+        "gender": 0,
+        "countability": 29.7,
+        "concept": 22.5,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "de",
+      "entries": 782,
+      "by_level": {
+        "A0": 40,
+        "A1": 592,
+        "A2": 17,
+        "B1": 0,
+        "B2": 0,
+        "C1": 0,
+        "C2": 133
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 33.6,
+        "emoji": 72.3,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 7.2,
+        "related_forms": 0,
+        "plural_form": 23.9,
+        "gender": 26.6,
+        "countability": 32.9,
+        "concept": 16.4,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "el",
+      "entries": 1631,
+      "by_level": {
+        "A0": 154,
+        "A1": 815,
+        "A2": 314,
+        "B1": 111,
+        "B2": 70,
+        "C1": 26,
+        "C2": 141
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 80.2,
+        "emoji": 77,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 2.7,
+        "antonyms": 9.7,
+        "related_forms": 6.4,
+        "plural_form": 36.6,
+        "gender": 39.4,
+        "countability": 49.3,
+        "concept": 25.2,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "en",
+      "entries": 12772,
+      "by_level": {
+        "A0": 478,
+        "A1": 1264,
+        "A2": 3071,
+        "B1": 2704,
+        "B2": 2281,
+        "C1": 1811,
+        "C2": 1163
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 96.9,
+        "emoji": 83.9,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 63.7,
+        "antonyms": 39.6,
+        "related_forms": 2.8,
+        "plural_form": 23.2,
+        "gender": 0,
+        "countability": 49.6,
+        "concept": 0.6,
+        "secondary_themes": 0.9
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "es",
+      "entries": 788,
+      "by_level": {
+        "A0": 35,
+        "A1": 577,
+        "A2": 33,
+        "B1": 11,
+        "B2": 0,
+        "C1": 0,
+        "C2": 132
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 50.6,
+        "emoji": 74.6,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 10.8,
+        "related_forms": 0,
+        "plural_form": 16,
+        "gender": 18.8,
+        "countability": 30.1,
+        "concept": 15.9,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "fr",
+      "entries": 3621,
+      "by_level": {
+        "A0": 1062,
+        "A1": 611,
+        "A2": 972,
+        "B1": 278,
+        "B2": 210,
+        "C1": 187,
+        "C2": 301
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 88.1,
+        "emoji": 51.9,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 2.1,
+        "antonyms": 8.6,
+        "related_forms": 1.9,
+        "plural_form": 28.1,
+        "gender": 34.4,
+        "countability": 36.4,
+        "concept": 11.2,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "hy",
+      "entries": 887,
+      "by_level": {
+        "A0": 29,
+        "A1": 500,
+        "A2": 17,
+        "B1": 0,
+        "B2": 125,
+        "C1": 88,
+        "C2": 128
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 67.8,
+        "emoji": 86.6,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 6.3,
+        "related_forms": 0,
+        "plural_form": 9.9,
+        "gender": 0,
+        "countability": 28.6,
+        "concept": 13.9,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "it",
+      "entries": 3682,
+      "by_level": {
+        "A0": 275,
+        "A1": 1005,
+        "A2": 936,
+        "B1": 759,
+        "B2": 225,
+        "C1": 186,
+        "C2": 296
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 74.7,
+        "emoji": 68,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 11.6,
+        "antonyms": 12.1,
+        "related_forms": 4.5,
+        "plural_form": 26.6,
+        "gender": 34.5,
+        "countability": 37.3,
+        "concept": 10.5,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "ka",
+      "entries": 902,
+      "by_level": {
+        "A0": 28,
+        "A1": 513,
+        "A2": 17,
+        "B1": 0,
+        "B2": 130,
+        "C1": 88,
+        "C2": 126
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 52.3,
+        "emoji": 85.8,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 6.1,
+        "related_forms": 0,
+        "plural_form": 10.6,
+        "gender": 0,
+        "countability": 29.4,
+        "concept": 15.4,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "pt",
+      "entries": 757,
+      "by_level": {
+        "A0": 36,
+        "A1": 569,
+        "A2": 18,
+        "B1": 3,
+        "B2": 0,
+        "C1": 0,
+        "C2": 131
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 72.5,
+        "emoji": 84.1,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 1.3,
+        "related_forms": 0,
+        "plural_form": 18,
+        "gender": 27.2,
+        "countability": 31.8,
+        "concept": 16.4,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "ru",
+      "entries": 3027,
+      "by_level": {
+        "A0": 212,
+        "A1": 570,
+        "A2": 1278,
+        "B1": 266,
+        "B2": 228,
+        "C1": 183,
+        "C2": 290
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 92,
+        "emoji": 57.1,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 1.5,
+        "antonyms": 9,
+        "related_forms": 4.7,
+        "plural_form": 23.6,
+        "gender": 28.8,
+        "countability": 31.7,
+        "concept": 13,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    },
+    {
+      "code": "tt",
+      "entries": 666,
+      "by_level": {
+        "A0": 31,
+        "A1": 495,
+        "A2": 17,
+        "B1": 0,
+        "B2": 123,
+        "C1": 0,
+        "C2": 0
+      },
+      "coverage": {
+        "definitions": 100,
+        "examples": 100,
+        "transcription": 16.7,
+        "emoji": 82.3,
+        "audio": 0,
+        "image": 0,
+        "synonyms": 0,
+        "antonyms": 9.8,
+        "related_forms": 0,
+        "plural_form": 15,
+        "gender": 0,
+        "countability": 31.4,
+        "concept": 19.8,
+        "secondary_themes": 0
+      },
+      "updated": "2026-11-26"
+    }
+  ],
+  "themes": [
+    {
+      "theme": "communication",
+      "entries": 5797,
+      "languages": 14
+    },
+    {
+      "theme": "actions",
+      "entries": 3623,
+      "languages": 14
+    },
+    {
+      "theme": "descriptors",
+      "entries": 2890,
+      "languages": 14
+    },
+    {
+      "theme": "general",
+      "entries": 2608,
+      "languages": 14
+    },
+    {
+      "theme": "numbers",
+      "entries": 1599,
+      "languages": 14
+    },
+    {
+      "theme": "housing",
+      "entries": 1438,
+      "languages": 14
+    },
+    {
+      "theme": "grammar",
+      "entries": 1295,
+      "languages": 14
+    },
+    {
+      "theme": "travel",
+      "entries": 1060,
+      "languages": 13
+    },
+    {
+      "theme": "work",
+      "entries": 989,
+      "languages": 14
+    },
+    {
+      "theme": "time",
+      "entries": 794,
+      "languages": 14
+    },
+    {
+      "theme": "education",
+      "entries": 733,
+      "languages": 14
+    },
+    {
+      "theme": "food",
+      "entries": 729,
+      "languages": 14
+    },
+    {
+      "theme": "health",
+      "entries": 659,
+      "languages": 14
+    },
+    {
+      "theme": "family",
+      "entries": 595,
+      "languages": 14
+    },
+    {
+      "theme": "society",
+      "entries": 562,
+      "languages": 4
+    },
+    {
+      "theme": "geography",
+      "entries": 560,
+      "languages": 14
+    },
+    {
+      "theme": "emotions",
+      "entries": 540,
+      "languages": 14
+    },
+    {
+      "theme": "technology",
+      "entries": 421,
+      "languages": 11
+    },
+    {
+      "theme": "business",
+      "entries": 354,
+      "languages": 2
+    },
+    {
+      "theme": "politics",
+      "entries": 321,
+      "languages": 2
+    },
+    {
+      "theme": "shopping",
+      "entries": 320,
+      "languages": 10
+    },
+    {
+      "theme": "nature",
+      "entries": 270,
+      "languages": 10
+    },
+    {
+      "theme": "science",
+      "entries": 268,
+      "languages": 2
+    },
+    {
+      "theme": "leisure",
+      "entries": 266,
+      "languages": 7
+    },
+    {
+      "theme": "philosophy",
+      "entries": 265,
+      "languages": 5
+    },
+    {
+      "theme": "personality",
+      "entries": 228,
+      "languages": 3
+    },
+    {
+      "theme": "environment",
+      "entries": 227,
+      "languages": 5
+    },
+    {
+      "theme": "activities",
+      "entries": 226,
+      "languages": 4
+    },
+    {
+      "theme": "media",
+      "entries": 226,
+      "languages": 8
+    },
+    {
+      "theme": "clothing",
+      "entries": 221,
+      "languages": 14
+    },
+    {
+      "theme": "weather",
+      "entries": 218,
+      "languages": 14
+    },
+    {
+      "theme": "animals",
+      "entries": 213,
+      "languages": 14
+    },
+    {
+      "theme": "measurement",
+      "entries": 178,
+      "languages": 5
+    },
+    {
+      "theme": "law",
+      "entries": 170,
+      "languages": 1
+    },
+    {
+      "theme": "objects",
+      "entries": 160,
+      "languages": 5
+    },
+    {
+      "theme": "navigation",
+      "entries": 133,
+      "languages": 4
+    },
+    {
+      "theme": "colors",
+      "entries": 107,
+      "languages": 9
+    },
+    {
+      "theme": "money",
+      "entries": 83,
+      "languages": 2
+    },
+    {
+      "theme": "crime",
+      "entries": 58,
+      "languages": 2
+    },
+    {
+      "theme": "shapes",
+      "entries": 53,
+      "languages": 4
+    },
+    {
+      "theme": "arts",
+      "entries": 20,
+      "languages": 1
+    },
+    {
+      "theme": "sports",
+      "entries": 10,
+      "languages": 1
+    },
+    {
+      "theme": "body",
+      "entries": 4,
+      "languages": 2
+    },
+    {
+      "theme": "internet",
+      "entries": 4,
+      "languages": 2
+    },
+    {
+      "theme": "transport",
+      "entries": 2,
+      "languages": 1
+    },
+    {
+      "theme": "religion",
+      "entries": 1,
+      "languages": 1
+    }
+  ],
+  "functional_phrases": {
+    "entries": 714,
+    "data_files": 74,
+    "by_language": [
+      {
+        "name": "en",
+        "entries": 242
+      },
+      {
+        "name": "el",
+        "entries": 118
+      },
+      {
+        "name": "fr",
+        "entries": 118
+      },
+      {
+        "name": "it",
+        "entries": 118
+      },
+      {
+        "name": "ru",
+        "entries": 118
+      }
+    ],
+    "by_level": [
+      {
+        "name": "A1",
+        "entries": 590
+      },
+      {
+        "name": "B2",
+        "entries": 44
+      },
+      {
+        "name": "A2",
+        "entries": 36
+      },
+      {
+        "name": "B1",
+        "entries": 29
+      },
+      {
+        "name": "C1",
+        "entries": 15
+      }
+    ]
+  }
+}

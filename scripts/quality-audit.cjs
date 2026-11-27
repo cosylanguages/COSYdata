@@ -9,18 +9,12 @@
 const fs = require('fs');
 const path = require('path');
 const Ajv2020 = require('ajv/dist/2020');
+const { readEntries } = require('./lib/vocabulary-scan.cjs');
 
 const rootDir = path.resolve(__dirname, '..');
 const qualitySchemaPath = path.join(rootDir, 'schemas', 'vocabulary.quality.schema.json');
 const baselinePath = path.join(rootDir, 'reports', 'quality-baseline.json');
 let entriesCount = 0;
-
-const INDEX_FILES = new Set([
-  'index.json',
-  'flat-index.json',
-  'search-index.json',
-  'themes-index.json',
-]);
 
 const SCHEMA_CODE_BY_ERROR = {
   missingDefinitions: 'missing-definitions',
@@ -52,21 +46,6 @@ const NATIVE_SCRIPT_LANGUAGES = {
 
 function today() {
   return new Date().toISOString().slice(0, 10);
-}
-
-function findVocabularyFiles(dir, files = []) {
-  if (!fs.existsSync(dir)) return files;
-  for (const name of fs.readdirSync(dir)) {
-    if (name === '_canonical') continue;
-    const full = path.join(dir, name);
-    const stat = fs.statSync(full);
-    if (stat.isDirectory()) {
-      findVocabularyFiles(full, files);
-    } else if (name.endsWith('.json') && !name.endsWith('-tracks.json') && !INDEX_FILES.has(name)) {
-      files.push(full);
-    }
-  }
-  return files;
 }
 
 function normalizeText(value) {
@@ -110,21 +89,14 @@ function mapSchemaError(err) {
 }
 
 function loadEntries() {
-  const files = findVocabularyFiles(path.join(rootDir, 'vocabulary'));
-  const entries = [];
-  for (const file of files) {
-    let content;
-    try {
-      content = JSON.parse(fs.readFileSync(file, 'utf8'));
-    } catch (err) {
-      throw new Error(`Cannot parse ${path.relative(rootDir, file)}: ${err.message}`);
-    }
-    if (!Array.isArray(content)) continue;
-    const rel = path.relative(rootDir, file).replace(/\\/g, '/');
-    for (const entry of content) {
-      if (entry && typeof entry === 'object') entries.push({ entry, file: rel });
-    }
+  let files;
+  let pairs;
+  try {
+    ({ files, entries: pairs } = readEntries(path.join(rootDir, 'vocabulary')));
+  } catch (err) {
+    throw new Error(`Cannot parse vocabulary data: ${err.message}`);
   }
+  const entries = pairs.map(({ entry, file }) => ({ entry, file: path.relative(rootDir, file).replace(/\\/g, '/') }));
   return { files, entries };
 }
 

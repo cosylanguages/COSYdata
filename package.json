@@ -6,7 +6,7 @@
   "types": "shared/types.d.ts",
   "scripts": {
     "audit": "node scripts/audit-a0-a1.cjs",
-    "build": "npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily && npm run build:comparative",
+    "build": "npm run build:index && npm run build:flat-index && npm run build:search-index && npm run build:daily && npm run build:comparative && npm run build:stats",
     "build:daily": "node scripts/build-daily-calendar.cjs",
     "build:index": "node scripts/build-index.cjs",
     "build:flat-index": "node scripts/build-flat-index.js",
@@ -33,7 +33,10 @@
     "sync:ecosystem-assets": "node scripts/sync-ecosystem-assets.cjs --update",
     "check:ecosystem-assets": "node scripts/sync-ecosystem-assets.cjs --check",
     "check:independence": "node scripts/check-no-cross-repo-assets.cjs",
-    "build:pair-coverage": "node scripts/build-confusion-pair-coverage.cjs"
+    "build:pair-coverage": "node scripts/build-confusion-pair-coverage.cjs",
+    "build:stats": "node scripts/build-stats.cjs",
+    "check:stats": "node scripts/build-stats.cjs --check",
+    "test:stats": "node --test tests/stats.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",
