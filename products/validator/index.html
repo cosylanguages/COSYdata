@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validator — COSYdata</title>
+  <meta name="description" content="The quality audit of the COSYdata vocabulary: every rule it enforces, what each rule found, and where the findings sit." />
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/products/validator/" />
+
+  <meta property="og:title" content="Validator — COSYdata" />
+  <meta property="og:description" content="Every rule the quality audit enforces, what each one found, and where the findings sit." />
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYdata/products/validator/" />
+  <meta property="og:type" content="website" />
+
+  <script src="../../shared/cosy-theme.js"></script>
+  <link rel="stylesheet" href="../../shared/vendor/css/fonts.css" />
+  <link rel="stylesheet" href="../../shared/vendor/tokens.css" />
+  <link rel="stylesheet" href="../../shared/vendor/css/ecosystem-strip.css" />
+  <link rel="stylesheet" href="./validator.css" />
+</head>
+<body>
+  <div data-ecosystem-strip data-self="data"></div>
+
+  <header class="vd-topbar">
+    <a class="vd-back" href="../../index.html">← COSYdata</a>
+    <span class="vd-topbar-title">Validator</span>
+    <button type="button" class="vd-theme-btn" data-cosy-theme-toggle aria-label="Switch theme">🌙</button>
+  </header>
+
+  <main class="vd-main">
+    <p class="vd-eyebrow">Product 02 · Quality</p>
+    <h1 class="vd-title">What the audit knows.</h1>
+    <p class="vd-lede">
+      Every entry is checked against <code>schemas/vocabulary.quality.schema.json</code> and a set of
+      linguistic rules. This page is that audit, published as
+      <a href="../../reports/quality.json">quality.json</a> so you can read it without a terminal.
+    </p>
+    <p class="vd-stamp" id="vd-stamp">Loading the report…</p>
+
+    <p class="vd-error" id="vd-error" role="alert" hidden>
+      The report could not be loaded. It is published at
+      <a href="../../reports/quality.json">reports/quality.json</a>.
+    </p>
+
+    <section class="vd-tiles" aria-label="Totals">
+      <div class="vd-tile">
+        <span class="vd-tile-value" data-stat="entries">—</span>
+        <span class="vd-tile-label">entries audited</span>
+      </div>
+      <div class="vd-tile">
+        <span class="vd-tile-value" data-stat="rules">—</span>
+        <span class="vd-tile-label">rules in force</span>
+      </div>
+      <div class="vd-tile">
+        <span class="vd-tile-value" data-stat="findings">—</span>
+        <span class="vd-tile-label">findings recorded</span>
+      </div>
+      <div class="vd-tile vd-tile-good">
+        <span class="vd-tile-value" data-stat="new">—</span>
+        <span class="vd-tile-label">new since baseline</span>
+      </div>
+    </section>
+
+    <section class="vd-section" aria-labelledby="rules-title">
+      <h2 class="vd-h2" id="rules-title">The rule catalogue</h2>
+      <p class="vd-note">
+        A rule with no findings is not decoration: it means the data passes it today. Findings marked
+        <em>recorded debt</em> were already in
+        <a href="../../reports/quality-baseline.json">quality-baseline.json</a> before this run, so they
+        are accepted, counted and visible rather than hidden.
+      </p>
+      <div class="vd-table-wrap">
+        <table class="vd-table">
+          <caption class="vd-caption">Every rule the audit can raise, with what it found on this run.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Rule</th>
+              <th scope="col">What it means</th>
+              <th scope="col" class="vd-num">Findings</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody id="vd-rules"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="vd-section" aria-labelledby="levels-title">
+      <h2 class="vd-h2" id="levels-title">Findings by CEFR level</h2>
+      <div class="vd-bars" id="vd-levels"></div>
+    </section>
+
+    <section class="vd-section" aria-labelledby="languages-title">
+      <h2 class="vd-h2" id="languages-title">Findings by language</h2>
+      <div class="vd-table-wrap">
+        <table class="vd-table">
+          <caption class="vd-caption">Share is findings per entry in that language. A language can be large and clean, or small and noisy.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Language</th>
+              <th scope="col" class="vd-num">Entries</th>
+              <th scope="col" class="vd-num">Findings</th>
+              <th scope="col" class="vd-num">Share</th>
+            </tr>
+          </thead>
+          <tbody id="vd-languages"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="vd-section" aria-labelledby="sample-title">
+      <h2 class="vd-h2" id="sample-title">A sample of the findings</h2>
+      <p class="vd-note" id="vd-sample-note">
+        The first findings in audit order. The complete list, entry by entry, is in the baseline file.
+      </p>
+      <ul class="vd-sample" id="vd-sample"></ul>
+    </section>
+
+    <footer class="vd-footer">
+      <p>
+        Generated by <code>npm run build:quality-report</code>, checked by
+        <code>npm run check:quality-report</code>, and gated by <code>npm run test:quality</code>.
+        The rules live in
+        <a href="https://github.com/cosylanguages/COSYdata/blob/main/scripts/quality-audit.cjs">scripts/quality-audit.cjs</a>.
+      </p>
+      <p class="vd-footer-fine">
+        COSYdata is the data layer of the COSY Languages ecosystem. This page reads one file from this
+        repository and nothing else.
+      </p>
+    </footer>
+  </main>
+
+  <noscript><p class="vd-main vd-note">This page renders its numbers in the browser from reports/quality.json, so JavaScript is required.</p></noscript>
+
+  <script type="module" src="./validator.js"></script>
+  <script src="../../shared/vendor/js/ecosystem-strip.js" defer></script>
+</body>
+</html>

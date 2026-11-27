@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0.0",
+  "source": "scripts/quality-audit.cjs",
+  "counting_rule": "One finding per (rule, subject). A subject is an entry id, or several ids joined by \"|\" for a duplicate group.",
+  "entries": 31498,
+  "findings": 5580,
+  "entries_with_findings": 5580,
+  "findings_share": 17.7,
+  "baseline": {
+    "total": 5580,
+    "generated": "2026-11-26"
+  },
+  "new": 0,
+  "resolved": 0,
+  "rules": [
+    {
+      "code": "missing-definitions",
+      "description": "The entry has no definitions field.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "missing-examples",
+      "description": "The entry has no examples field.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "empty-definitions",
+      "description": "The definitions array is empty.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "empty-examples",
+      "description": "The examples array is empty.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "definition-too-short",
+      "description": "A definition is shorter than two characters.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "example-too-short",
+      "description": "An example is shorter than two characters.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "invalid-definitions",
+      "description": "The definitions field is not an array of strings.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "invalid-examples",
+      "description": "The examples field is not an array of strings.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "invalid-id",
+      "description": "The id does not follow lang:slug:form.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "invalid-form",
+      "description": "The form is not one of the allowed parts of speech.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "invalid-emoji",
+      "description": "The emoji field is missing or would break HTML.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "invalid-transcription",
+      "description": "The transcription field is not a string.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "transcription-placeholder",
+      "description": "The transcription is the schema placeholder \"-\".",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "missing-transcription",
+      "description": "The entry has no IPA transcription.",
+      "findings": 5580,
+      "new": 0
+    },
+    {
+      "code": "pseudo-transcription",
+      "description": "The transcription is only the slug in slashes, not IPA.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "double-escaped-transcription",
+      "description": "The transcription contains literal backslash-u escapes.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "native-script-transcription",
+      "description": "The IPA field holds native script instead of IPA.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "id-form-mismatch",
+      "description": "The id form segment does not match the form field.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "definition-equals-word",
+      "description": "A definition just repeats the headword.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "template-example",
+      "description": "An example is a fixed template sentence reused across entries.",
+      "findings": 0,
+      "new": 0
+    },
+    {
+      "code": "duplicate-word-form-sense",
+      "description": "Several entries share language, word, form and sense.",
+      "findings": 0,
+      "new": 0
+    }
+  ],
+  "by_code": [
+    {
+      "code": "missing-transcription",
+      "findings": 5580,
+      "examples": [
+        "ba:et:noun",
+        "ba:at:noun",
+        "ba:ir:noun",
+        "ba:al:adjective",
+        "ba:as:adjective",
+        "ba:nol:number",
+        "ba:ber:number",
+        "ba:ike:number"
+      ],
+      "new": 0,
+      "share": 100
+    }
+  ],
+  "by_language": [
+    {
+      "code": "ba",
+      "findings": 245,
+      "entries": 674,
+      "share": 36.4
+    },
+    {
+      "code": "br",
+      "findings": 178,
+      "entries": 709,
+      "share": 25.1
+    },
+    {
+      "code": "cv",
+      "findings": 446,
+      "entries": 600,
+      "share": 74.3
+    },
+    {
+      "code": "de",
+      "findings": 519,
+      "entries": 782,
+      "share": 66.4
+    },
+    {
+      "code": "el",
+      "findings": 323,
+      "entries": 1631,
+      "share": 19.8
+    },
+    {
+      "code": "en",
+      "findings": 396,
+      "entries": 12772,
+      "share": 3.1
+    },
+    {
+      "code": "es",
+      "findings": 389,
+      "entries": 788,
+      "share": 49.4
+    },
+    {
+      "code": "fr",
+      "findings": 432,
+      "entries": 3621,
+      "share": 11.9
+    },
+    {
+      "code": "hy",
+      "findings": 286,
+      "entries": 887,
+      "share": 32.2
+    },
+    {
+      "code": "it",
+      "findings": 931,
+      "entries": 3682,
+      "share": 25.3
+    },
+    {
+      "code": "ka",
+      "findings": 430,
+      "entries": 902,
+      "share": 47.7
+    },
+    {
+      "code": "pt",
+      "findings": 208,
+      "entries": 757,
+      "share": 27.5
+    },
+    {
+      "code": "ru",
+      "findings": 242,
+      "entries": 3027,
+      "share": 8
+    },
+    {
+      "code": "tt",
+      "findings": 555,
+      "entries": 666,
+      "share": 83.3
+    }
+  ],
+  "by_level": [
+    {
+      "level": "A0",
+      "findings": 279,
+      "entries": 2469,
+      "share": 11.3
+    },
+    {
+      "level": "A1",
+      "findings": 1927,
+      "entries": 9104,
+      "share": 21.2
+    },
+    {
+      "level": "A2",
+      "findings": 445,
+      "entries": 6724,
+      "share": 6.6
+    },
+    {
+      "level": "B1",
+      "findings": 394,
+      "entries": 4132,
+      "share": 9.5
+    },
+    {
+      "level": "B2",
+      "findings": 1119,
+      "entries": 3659,
+      "share": 30.6
+    },
+    {
+      "level": "C1",
+      "findings": 396,
+      "entries": 2569,
+      "share": 15.4
+    },
+    {
+      "level": "C2",
+      "findings": 1020,
+      "entries": 2841,
+      "share": 35.9
+    }
+  ],
+  "sample": [
+    {
+      "code": "missing-transcription",
+      "subject": "ba:et:noun",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "br:e-barzh:preposition",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "cv:valli:postposition",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "de:online:adverb",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "el:diamerisma:noun",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "en:hen:noun",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "es:abierto:adjective",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "fr:la:adverb",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "hy:teghapokhvel:verb",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "it:e:conjunction",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ka:dzviri:adjective",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "pt:gato:noun",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ru:ogorchennyy:adjective",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "tt:ochen:postposition",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:at:noun",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:ir:noun",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:al:adjective",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:as:adjective",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:nol:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:ber:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:ike:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:os:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:durt:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:bish:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:alty:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:zhide:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:higez:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:tuyz:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-ber:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-ike:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-os:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-durt:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-bish:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-alty:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-zhide:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-higez:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:un-tuyz:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:egerme:number",
+      "detail": "transcription is absent or empty"
+    },
+    {
+      "code": "missing-transcription",
+      "subject": "ba:egerme-ber:number",
+      "detail": "transcription is absent or empty"
+    }
+  ]
+}

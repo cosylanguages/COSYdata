@@ -16,6 +16,33 @@ const qualitySchemaPath = path.join(rootDir, 'schemas', 'vocabulary.quality.sche
 const baselinePath = path.join(rootDir, 'reports', 'quality-baseline.json');
 let entriesCount = 0;
 
+// Every rule the audit can raise, with the sentence a reader needs. The report
+// page renders this catalogue, including the rules that found nothing: a clean
+// rule is information too.
+const RULES = {
+  'missing-definitions': 'The entry has no definitions field.',
+  'missing-examples': 'The entry has no examples field.',
+  'empty-definitions': 'The definitions array is empty.',
+  'empty-examples': 'The examples array is empty.',
+  'definition-too-short': 'A definition is shorter than two characters.',
+  'example-too-short': 'An example is shorter than two characters.',
+  'invalid-definitions': 'The definitions field is not an array of strings.',
+  'invalid-examples': 'The examples field is not an array of strings.',
+  'invalid-id': 'The id does not follow lang:slug:form.',
+  'invalid-form': 'The form is not one of the allowed parts of speech.',
+  'invalid-emoji': 'The emoji field is missing or would break HTML.',
+  'invalid-transcription': 'The transcription field is not a string.',
+  'transcription-placeholder': 'The transcription is the schema placeholder "-".',
+  'missing-transcription': 'The entry has no IPA transcription.',
+  'pseudo-transcription': 'The transcription is only the slug in slashes, not IPA.',
+  'double-escaped-transcription': 'The transcription contains literal backslash-u escapes.',
+  'native-script-transcription': 'The IPA field holds native script instead of IPA.',
+  'id-form-mismatch': 'The id form segment does not match the form field.',
+  'definition-equals-word': 'A definition just repeats the headword.',
+  'template-example': 'An example is a fixed template sentence reused across entries.',
+  'duplicate-word-form-sense': 'Several entries share language, word, form and sense.'
+};
+
 const SCHEMA_CODE_BY_ERROR = {
   missingDefinitions: 'missing-definitions',
   missingExamples: 'missing-examples',
@@ -288,5 +315,5 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { collectFindings, recordsByCode };
+module.exports = { collectFindings, recordsByCode, RULES };
 

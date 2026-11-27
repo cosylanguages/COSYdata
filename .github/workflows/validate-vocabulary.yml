@@ -89,6 +89,9 @@ jobs:
       - name: Test Statistics Artifact
         run: npm run test:stats
 
+      - name: Test Validator Product
+        run: npm run test:validator
+
       - name: Test Generated Pages
         run: npm run test:pages
 
