@@ -13,52 +13,21 @@
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { startStaticServer } from './helpers/static-server.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SIBLING_ORIGIN = 'https://cosylanguages.github.io/';
 const ASSET_TYPES = new Set(['stylesheet', 'script', 'font', 'image', 'media']);
-const MIME = {
-  '.html': 'text/html; charset=utf-8',
-  '.css': 'text/css; charset=utf-8',
-  '.js': 'text/javascript; charset=utf-8',
-  '.json': 'application/json; charset=utf-8',
-  '.woff2': 'font/woff2',
-  '.svg': 'image/svg+xml',
-  '.png': 'image/png'
-};
-
 function isSiblingAsset(url) {
   const parsed = new URL(url);
   if (parsed.hostname !== 'cosylanguages.github.io') return false;
   return !(parsed.pathname === '/COSYdata' || parsed.pathname.startsWith('/COSYdata/'));
 }
-
-function makeServer() {
-  return http.createServer((req, res) => {
-    let pathname;
-    try { pathname = decodeURIComponent(new URL(req.url, 'http://127.0.0.1').pathname); }
-    catch { res.writeHead(400).end('Bad request'); return; }
-    const file = path.resolve(ROOT, '.' + pathname);
-    if (!file.startsWith(ROOT + path.sep) && file !== ROOT) { res.writeHead(403).end('Forbidden'); return; }
-    try {
-      const stat = fs.statSync(file);
-      const target = stat.isDirectory() ? path.join(file, 'index.html') : file;
-      res.writeHead(200, { 'Content-Type': MIME[path.extname(target)] || 'application/octet-stream' });
-      fs.createReadStream(target).pipe(res);
-    } catch { res.writeHead(404).end('Not found'); }
-  });
-}
-
-const listen = (server) => new Promise((resolve, reject) => {
-  server.once('error', reject);
-  server.listen(0, '127.0.0.1', () => resolve(server.address().port));
-});
 
 test('no page references a sibling repository asset', () => {
   const output = execFileSync(process.execPath, ['scripts/check-no-cross-repo-assets.cjs'], { cwd: ROOT, encoding: 'utf8' });
@@ -66,9 +35,7 @@ test('no page references a sibling repository asset', () => {
 });
 
 test('pages render without loading sibling repository assets', async () => {
-  const server = makeServer();
-  const port = await listen(server);
-  const base = `http://127.0.0.1:${port}/`;
+  const { base, close } = await startStaticServer(ROOT);
   let browser;
 
   try {
@@ -106,6 +73,6 @@ test('pages render without loading sibling repository assets', async () => {
     assert.equal(await page.locator('#languages tr').count(), published.languages.length, 'one table row per language');
   } finally {
     if (browser) await browser.close();
-    server.close();
+    await close();
   }
 });

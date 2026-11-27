@@ -39,7 +39,8 @@
     "test:stats": "node --test tests/stats.test.mjs",
     "build:pages": "node scripts/build-pages.cjs",
     "check:pages": "node scripts/build-pages.cjs --check",
-    "test:pages": "node --test tests/pages.test.mjs"
+    "test:pages": "node --test tests/pages.test.mjs",
+    "test:dictionary": "node --test tests/dictionary-ui.test.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

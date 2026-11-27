@@ -1169,7 +1169,7 @@ export async function initDictionaryUI(container, options = {}) {
   `;
 
   // Fetch lightweight search index only
-  const { entries, entryMap, letters, categories, levels, domains } = await loadSearchIndex(lang, baseUrl);
+  const { entries, entryMap, letters, categories, levels, domains, subCategoryMap, levelThemeMap } = await loadSearchIndex(lang, baseUrl);
   ensureRelations(baseUrl);
   const favorites = getFavorites(lang);
   const wotdLightweight = getWordOfTheDay(entries);

@@ -80,6 +80,9 @@ jobs:
       - name: Test Repository Independence
         run: npm run test:independence
 
+      - name: Test Dictionary UI
+        run: npm run test:dictionary
+
       - name: Test Statistics Artifact
         run: npm run test:stats
 
