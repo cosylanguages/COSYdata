@@ -16,7 +16,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SKIP_DIRS = new Set(['.git', 'node_modules', 'shared/vendor', 'reports/archive']);
+// templates/ holds page sources, not pages: their relative paths only resolve
+// once build-pages.cjs writes them to their output directory.
+const SKIP_DIRS = new Set(['.git', 'node_modules', 'shared/vendor', 'reports/archive', 'templates']);
 
 const SIBLING_ORIGIN = 'https://cosylanguages.github.io/';
 const RESOURCE_EXTENSIONS = 'css|mjs|js|woff2?|ttf|otf|eot|png|jpe?g|gif|svg|webp|ico|mp3|wav|ogg|mp4|webm';
