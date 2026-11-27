@@ -89,6 +89,9 @@ jobs:
       - name: Test Statistics Artifact
         run: npm run test:stats
 
+      - name: Test Exporter Product
+        run: npm run test:exporter
+
       - name: Test Product Contract
         run: npm run test:products
 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exporter — COSYdata</title>
+  <meta name="description" content="Download the COSYdata vocabulary: JSONL with every field, CSV for spreadsheets, one file per language." />
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/products/exporter/" />
+
+  <meta property="og:title" content="Exporter — COSYdata" />
+  <meta property="og:description" content="Download the whole vocabulary, or one language, as JSONL or CSV." />
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYdata/products/exporter/" />
+  <meta property="og:type" content="website" />
+
+  <script src="../../shared/cosy-theme.js"></script>
+  <link rel="stylesheet" href="../../shared/vendor/css/fonts.css" />
+  <link rel="stylesheet" href="../../shared/vendor/tokens.css" />
+  <link rel="stylesheet" href="../../shared/vendor/css/ecosystem-strip.css" />
+  <link rel="stylesheet" href="./exporter.css" />
+</head>
+<body>
+  <div data-ecosystem-strip data-self="data"></div>
+
+  <header class="ex-topbar">
+    <a class="ex-back" href="../../index.html">← COSYdata</a>
+    <span class="ex-topbar-title">Exporter</span>
+    <button type="button" class="ex-theme-btn" data-cosy-theme-toggle aria-label="Switch theme">🌙</button>
+  </header>
+
+  <main class="ex-main">
+    <p class="ex-eyebrow">Product 03 · Downloads</p>
+    <h1 class="ex-title">Take the data with you.</h1>
+    <p class="ex-lede">
+      The same entries the dictionaries show, as files you can open in a spreadsheet or read
+      line by line. Regenerated from <code>vocabulary/</code> on every build, so a download is
+      never older than the site.
+    </p>
+    <p class="ex-stamp" id="ex-stamp">Loading the manifest…</p>
+
+    <p class="ex-error" id="ex-error" role="alert" hidden>
+      The manifest could not be loaded. It is published at
+      <a href="../../exports/manifest.json">exports/manifest.json</a>.
+    </p>
+
+    <section class="ex-tiles" aria-label="Totals">
+      <div class="ex-tile">
+        <span class="ex-tile-value" data-stat="rows">—</span>
+        <span class="ex-tile-label">entries</span>
+      </div>
+      <div class="ex-tile">
+        <span class="ex-tile-value" data-stat="languages">—</span>
+        <span class="ex-tile-label">languages</span>
+      </div>
+      <div class="ex-tile">
+        <span class="ex-tile-value" data-stat="files">—</span>
+        <span class="ex-tile-label">files</span>
+      </div>
+      <div class="ex-tile">
+        <span class="ex-tile-value" data-stat="size">—</span>
+        <span class="ex-tile-label">total size</span>
+      </div>
+    </section>
+
+    <section class="ex-section" aria-labelledby="all-title">
+      <h2 class="ex-h2" id="all-title">Everything, in one file</h2>
+      <p class="ex-note">
+        Two shapes of the same data. JSONL keeps every field exactly as stored; CSV flattens the
+        lists into readable columns. Both are sorted by id, so two downloads of the same version
+        diff cleanly.
+      </p>
+      <div class="ex-cards" id="ex-downloads"></div>
+    </section>
+
+    <section class="ex-section" aria-labelledby="lang-title">
+      <h2 class="ex-h2" id="lang-title">One language at a time</h2>
+      <p class="ex-note">The same CSV columns, filtered to a single dictionary. Useful when you want French, not fourteen languages in one sheet.</p>
+      <div class="ex-chips" id="ex-languages"></div>
+    </section>
+
+    <section class="ex-section" aria-labelledby="cols-title">
+      <h2 class="ex-h2" id="cols-title">What the CSV columns mean</h2>
+      <div class="ex-table-wrap">
+        <table class="ex-table">
+          <caption class="ex-caption">Column names are stable; new columns are only ever added at the end.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Column</th>
+              <th scope="col">Contents</th>
+            </tr>
+          </thead>
+          <tbody id="ex-columns"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="ex-section" aria-labelledby="recipes-title">
+      <h2 class="ex-h2" id="recipes-title">Recipes</h2>
+      <div class="ex-recipes">
+        <figure class="ex-recipe">
+          <figcaption>Download and count</figcaption>
+          <pre><code>curl -sO https://cosylanguages.github.io/COSYdata/exports/vocabulary.jsonl
+wc -l vocabulary.jsonl</code></pre>
+        </figure>
+        <figure class="ex-recipe">
+          <figcaption>Only entries that still need a transcription</figcaption>
+          <pre><code>jq -r 'select(.transcription == null or .transcription == "")
+       | .id' vocabulary.jsonl</code></pre>
+        </figure>
+        <figure class="ex-recipe">
+          <figcaption>One theme across all languages</figcaption>
+          <pre><code>jq -c 'select(.theme == "food")' vocabulary.jsonl</code></pre>
+        </figure>
+        <figure class="ex-recipe">
+          <figcaption>Open in Python</figcaption>
+          <pre><code>import json
+rows = [json.loads(line)
+        for line in open("vocabulary.jsonl")]</code></pre>
+        </figure>
+      </div>
+    </section>
+
+    <footer class="ex-footer">
+      <p>
+        Built by <code>npm run build:exports</code>, checked by
+        <code>npm run check:exports</code> and <code>npm run test:exporter</code>.
+        The generator is
+        <a href="https://github.com/cosylanguages/COSYdata/blob/main/scripts/build-exports.cjs">scripts/build-exports.cjs</a>.
+      </p>
+      <p class="ex-footer-fine">
+        COSYdata is the data layer of the COSY Languages ecosystem. Downloads are served from this
+        repository; no request leaves it.
+      </p>
+    </footer>
+  </main>
+
+  <noscript><p class="ex-main ex-note">This page lists the downloads from exports/manifest.json, so JavaScript is required. The files themselves are static links.</p></noscript>
+
+  <script type="module" src="./exporter.js"></script>
+  <script src="../../shared/vendor/js/ecosystem-strip.js" defer></script>
+</body>
+</html>

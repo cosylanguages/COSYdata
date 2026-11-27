@@ -22,7 +22,7 @@ const PRODUCT_DIRS = fs
 
 const EXTERNAL = /^(https?:|mailto:|#|\/$)/;
 const SHARED_PREFIXES = ['shared/'];
-const DATA_FILES = ['stats.json', 'reports/quality.json', 'reports/quality-baseline.json'];
+const DATA_FILES = ['stats.json', 'reports/quality.json', 'reports/quality-baseline.json', 'exports/manifest.json'];
 const ASSET_EXTENSIONS = /\.(css|js|json|png|svg|woff2?|ico)$/;
 
 // Assets are loaded by the page; navigation is only a link a reader may follow.

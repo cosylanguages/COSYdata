@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "scripts/build-exports.cjs",
+  "source": "vocabulary/<language>/<level>/*.json",
+  "rows": 31498,
+  "ordering": "sorted by id",
+  "csv_columns": [
+    {
+      "name": "id",
+      "note": "Stable entry id: language, slug, part of speech."
+    },
+    {
+      "name": "language",
+      "note": "ISO code of the dictionary the entry belongs to."
+    },
+    {
+      "name": "level",
+      "note": "CEFR level: A0, A1, A2, B1, B2, C1 or C2."
+    },
+    {
+      "name": "word",
+      "note": "The headword as displayed."
+    },
+    {
+      "name": "form",
+      "note": "Grammatical form: noun, verb, adjective, phrase and so on."
+    },
+    {
+      "name": "transcription",
+      "note": "IPA transcription, empty when the entry has none."
+    },
+    {
+      "name": "definitions",
+      "note": "Definitions in the entry's own language, joined with \" | \"."
+    },
+    {
+      "name": "examples",
+      "note": "Example sentences, joined with \" | \"."
+    },
+    {
+      "name": "domain",
+      "note": "Comma-separated domains, general first when present."
+    },
+    {
+      "name": "theme",
+      "note": "Primary theme from shared/themes.json."
+    },
+    {
+      "name": "sub_theme",
+      "note": "Primary sub-theme, or empty."
+    },
+    {
+      "name": "antonyms",
+      "note": "Antonym ids, joined with \" | \"."
+    },
+    {
+      "name": "synonyms",
+      "note": "Synonym ids, joined with \" | \"."
+    },
+    {
+      "name": "emoji",
+      "note": "Emoji, or empty when the entry uses no_emoji."
+    },
+    {
+      "name": "updated",
+      "note": "Date of the last edit, YYYY-MM-DD."
+    }
+  ],
+  "jsonl_note": "One JSON object per line: the entry exactly as stored, no columns dropped.",
+  "languages": [
+    {
+      "code": "ba",
+      "rows": 674,
+      "csv": "by-language/ba.csv"
+    },
+    {
+      "code": "br",
+      "rows": 709,
+      "csv": "by-language/br.csv"
+    },
+    {
+      "code": "cv",
+      "rows": 600,
+      "csv": "by-language/cv.csv"
+    },
+    {
+      "code": "de",
+      "rows": 782,
+      "csv": "by-language/de.csv"
+    },
+    {
+      "code": "el",
+      "rows": 1631,
+      "csv": "by-language/el.csv"
+    },
+    {
+      "code": "en",
+      "rows": 12772,
+      "csv": "by-language/en.csv"
+    },
+    {
+      "code": "es",
+      "rows": 788,
+      "csv": "by-language/es.csv"
+    },
+    {
+      "code": "fr",
+      "rows": 3621,
+      "csv": "by-language/fr.csv"
+    },
+    {
+      "code": "hy",
+      "rows": 887,
+      "csv": "by-language/hy.csv"
+    },
+    {
+      "code": "it",
+      "rows": 3682,
+      "csv": "by-language/it.csv"
+    },
+    {
+      "code": "ka",
+      "rows": 902,
+      "csv": "by-language/ka.csv"
+    },
+    {
+      "code": "pt",
+      "rows": 757,
+      "csv": "by-language/pt.csv"
+    },
+    {
+      "code": "ru",
+      "rows": 3027,
+      "csv": "by-language/ru.csv"
+    },
+    {
+      "code": "tt",
+      "rows": 666,
+      "csv": "by-language/tt.csv"
+    }
+  ],
+  "files": [
+    {
+      "path": "vocabulary.jsonl",
+      "format": "jsonl",
+      "rows": 31498,
+      "bytes": 15060380,
+      "sha256": "18153d458ac4e42b954dbd923743e5af4f455257447195d86d9e432ebd7ac5df"
+    },
+    {
+      "path": "vocabulary.csv",
+      "format": "csv",
+      "rows": 31498,
+      "bytes": 7964397,
+      "sha256": "9e41fb6b788807d601633b57742e4bf18894e9f40f37a0e86f765f467b9c15fe"
+    },
+    {
+      "path": "by-language/ba.csv",
+      "format": "csv",
+      "rows": 674,
+      "bytes": 127614,
+      "sha256": "06199af9436fa792e254d18a6a40dc3c8881fe90557bb812915f563629b26ff9"
+    },
+    {
+      "path": "by-language/br.csv",
+      "format": "csv",
+      "rows": 709,
+      "bytes": 117913,
+      "sha256": "d92b01b2766fb0efea5b57666727a78d5bae05c0a220fb30008981b2ebf3d53f"
+    },
+    {
+      "path": "by-language/cv.csv",
+      "format": "csv",
+      "rows": 600,
+      "bytes": 115379,
+      "sha256": "c7615b33e317c452fd9f8cdacf874109ca2bc0538f077b56c87571b87e26022b"
+    },
+    {
+      "path": "by-language/de.csv",
+      "format": "csv",
+      "rows": 782,
+      "bytes": 134481,
+      "sha256": "57ce6a1cce727a023871aefbb7e82d07371ed20a93ddee8e450990ee11f9536f"
+    },
+    {
+      "path": "by-language/el.csv",
+      "format": "csv",
+      "rows": 1631,
+      "bytes": 413018,
+      "sha256": "12c6e5bd490e8155c96e6dbe754c5232daa987302efbbaefd691bef1653625c7"
+    },
+    {
+      "path": "by-language/en.csv",
+      "format": "csv",
+      "rows": 12772,
+      "bytes": 3832346,
+      "sha256": "e3ac1626acb262686bd35552165626f7b8de75df342be222fb6df9d1590d5870"
+    },
+    {
+      "path": "by-language/es.csv",
+      "format": "csv",
+      "rows": 788,
+      "bytes": 136532,
+      "sha256": "f0f9897e237899e5e770e3b0afbdfbcb0aa16f25aa63fc4982b5f90522b0bc89"
+    },
+    {
+      "path": "by-language/fr.csv",
+      "format": "csv",
+      "rows": 3621,
+      "bytes": 719467,
+      "sha256": "d4779625d733c553308d9c8b7b461b7f00888403a976f547c801582b184cbc66"
+    },
+    {
+      "path": "by-language/hy.csv",
+      "format": "csv",
+      "rows": 887,
+      "bytes": 210253,
+      "sha256": "5bdd715230c10c9bf40189f0e063309146d8ad670d6669d8d0991095607cfa57"
+    },
+    {
+      "path": "by-language/it.csv",
+      "format": "csv",
+      "rows": 3682,
+      "bytes": 786247,
+      "sha256": "bd6d59762040b3d845f338436a534cd07b44d5804962eaaa5bdd95490a495964"
+    },
+    {
+      "path": "by-language/ka.csv",
+      "format": "csv",
+      "rows": 902,
+      "bytes": 261528,
+      "sha256": "1fb1bfbe4cee1296b0180c3a9548f9a63371fd6505862c5012b8e467000045b9"
+    },
+    {
+      "path": "by-language/pt.csv",
+      "format": "csv",
+      "rows": 757,
+      "bytes": 132075,
+      "sha256": "6cf78a0c8752b3a27451c5081df5b6ca506324a98850d548808c07b6a1687397"
+    },
+    {
+      "path": "by-language/ru.csv",
+      "format": "csv",
+      "rows": 3027,
+      "bytes": 857097,
+      "sha256": "987bed70916b4219bebdda47529e4700b25da73de8d623c4bb46b8b20ad795c8"
+    },
+    {
+      "path": "by-language/tt.csv",
+      "format": "csv",
+      "rows": 666,
+      "bytes": 121981,
+      "sha256": "80ab76423e7cd71f4518aa6c4bf12769a055b1d4a72671d3da9d1031c067fe98"
+    }
+  ]
+}
