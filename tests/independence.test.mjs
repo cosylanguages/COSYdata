@@ -94,6 +94,16 @@ test('pages render without loading sibling repository assets', async () => {
     violations.length = 0;
     await page.goto(base, { waitUntil: 'networkidle' });
     assert.deepEqual(violations, [], 'hub page asset requests stay on this repository');
+
+    violations.length = 0;
+    await page.goto(base + 'products/statistics/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('body[data-rendered="true"]', { timeout: 20000 });
+    assert.deepEqual(violations, [], 'statistics page asset requests stay on this repository');
+
+    const published = JSON.parse(fs.readFileSync(path.join(ROOT, 'stats.json'), 'utf8'));
+    const shownEntries = await page.textContent('[data-stat="entries"]');
+    assert.equal(Number(shownEntries.replace(/[^0-9]/g, '')), published.totals.entries, 'statistics page shows the published entry count');
+    assert.equal(await page.locator('#languages tr').count(), published.languages.length, 'one table row per language');
   } finally {
     if (browser) await browser.close();
     server.close();

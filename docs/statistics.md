@@ -71,3 +71,14 @@ npm run build:stats     # rewrite stats.json
 npm run check:stats     # exit 1 when it is stale (CI runs this)
 npm run test:stats      # reproducibility, internal consistency, counting-rule agreement
 ```
+
+## The page
+
+`products/statistics/` renders this file for humans at
+`https://cosylanguages.github.io/COSYdata/products/statistics/`. It is the first
+product in the `products/` layout: its own HTML, CSS and JavaScript, no shared
+code beyond the design tokens, and it resolves `stats.json` relative to its own
+module, so the folder can be copied elsewhere without edits.
+
+The page holds no numbers of its own. If a field is missing from `stats.json`,
+the page leaves the slot blank instead of filling it in.

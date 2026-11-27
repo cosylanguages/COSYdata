@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- P71 added the first standalone product, `products/statistics/`, which renders `stats.json` at `/products/statistics/`: totals, CEFR distribution, field coverage, a per-language table, word forms and themes. It uses only the design tokens, resolves `stats.json` relative to its own module, and hardcodes no numbers. Linked from the hub, listed in `sitemap.xml`, and covered by the independence test (no sibling requests, published entry count matches the table).
 - P70 added `stats.json`, a generated and committed summary of the repository (31,498 entries, 14 languages, 1,125 data files, 714 functional phrases, coverage per field and per language). `scripts/build-stats.cjs` writes it, `npm run check:stats` fails when it goes stale, and `tests/stats.test.mjs` checks reproducibility, internal consistency and agreement with the validator's entry count. The counting rule now lives in one place, `scripts/lib/vocabulary-scan.cjs`, shared with the quality audit. Documented in `docs/statistics.md`.
 - Added a baseline-based vocabulary quality gate: `schemas/vocabulary.quality.schema.json` defines the target profile, `scripts/quality-audit.cjs` reports 13,620 existing violations accepted in `reports/quality-baseline.json`, and `npm run quality` fails only on new violations. `npm run validate` now runs the gate; the main vocabulary schema now enumerates valid `form` values.
 

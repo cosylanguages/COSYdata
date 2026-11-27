@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dataset Statistics — COSYdata</title>
+  <meta name="description" content="How large the COSYdata vocabulary dataset is: entries, CEFR levels, languages, themes and field coverage, generated from the data itself." />
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYdata/products/statistics/" />
+
+  <meta property="og:title" content="Dataset Statistics — COSYdata" />
+  <meta property="og:description" content="Entries, levels, languages, themes and coverage, generated from the data itself." />
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYdata/products/statistics/" />
+  <meta property="og:type" content="website" />
+
+  <script src="../../shared/cosy-theme.js"></script>
+  <link rel="stylesheet" href="../../shared/vendor/css/fonts.css" />
+  <link rel="stylesheet" href="../../shared/vendor/tokens.css" />
+  <link rel="stylesheet" href="../../shared/vendor/css/ecosystem-strip.css" />
+  <link rel="stylesheet" href="./statistics.css" />
+</head>
+<body>
+  <div data-ecosystem-strip data-self="data"></div>
+
+  <header class="st-topbar">
+    <a class="st-back" href="../../index.html">← COSYdata</a>
+    <span class="st-topbar-title">Dataset statistics</span>
+    <button type="button" class="st-theme-btn" data-cosy-theme-toggle aria-label="Switch theme">🌙</button>
+  </header>
+
+  <main class="st-main">
+    <p class="st-eyebrow">Generated from the data</p>
+    <h1 class="st-title">The dataset, counted.</h1>
+    <p class="st-lede">
+      Every number on this page is computed from <code>vocabulary/</code> and <code>functional-phrases/</code>
+      and published as <a href="../../stats.json">stats.json</a>. Nothing here is estimated or copied from a slide.
+    </p>
+    <p class="st-stamp">
+      Data last updated <time id="data-updated" datetime="">—</time>
+      <span class="st-stamp-sep" aria-hidden="true">·</span>
+      <span id="data-files">—</span> data files
+    </p>
+
+    <p class="st-error" id="stats-error" role="alert" hidden>
+      The statistics file could not be loaded. It is published at
+      <a href="../../stats.json">stats.json</a>.
+    </p>
+
+    <section class="st-tiles" aria-label="Totals">
+      <div class="st-tile">
+        <span class="st-tile-value" data-stat="entries">—</span>
+        <span class="st-tile-label">entries</span>
+      </div>
+      <div class="st-tile">
+        <span class="st-tile-value" data-stat="languages">—</span>
+        <span class="st-tile-label">languages</span>
+      </div>
+      <div class="st-tile">
+        <span class="st-tile-value" data-stat="themes">—</span>
+        <span class="st-tile-label">themes</span>
+      </div>
+      <div class="st-tile">
+        <span class="st-tile-value" data-stat="phrases">—</span>
+        <span class="st-tile-label">functional phrases</span>
+      </div>
+    </section>
+
+    <section class="st-section" aria-labelledby="levels-title">
+      <h2 class="st-h2" id="levels-title">Entries by CEFR level</h2>
+      <div class="st-bars" id="levels"></div>
+    </section>
+
+    <section class="st-section" aria-labelledby="coverage-title">
+      <h2 class="st-h2" id="coverage-title">Field coverage</h2>
+      <p class="st-note">
+        Share of entries where the field is present and non-empty. This measures presence, not quality:
+        an entry with a thin definition still counts as having one.
+      </p>
+      <div class="st-bars" id="coverage"></div>
+    </section>
+
+    <section class="st-section" aria-labelledby="languages-title">
+      <h2 class="st-h2" id="languages-title">Languages</h2>
+      <div class="st-table-wrap">
+        <table class="st-table">
+          <caption class="st-caption">Sorted by entry count. Percentages are field coverage within that language.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Language</th>
+              <th scope="col" class="st-num">Entries</th>
+              <th scope="col" class="st-num">Levels</th>
+              <th scope="col" class="st-num">Transcription</th>
+              <th scope="col" class="st-num">Emoji</th>
+              <th scope="col" class="st-num">Synonyms</th>
+              <th scope="col" class="st-num">Antonyms</th>
+              <th scope="col" class="st-num">Updated</th>
+            </tr>
+          </thead>
+          <tbody id="languages"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="st-section" aria-labelledby="forms-title">
+      <h2 class="st-h2" id="forms-title">Word forms</h2>
+      <div class="st-bars" id="forms"></div>
+    </section>
+
+    <section class="st-section" aria-labelledby="themes-title">
+      <h2 class="st-h2" id="themes-title">Themes</h2>
+      <p class="st-note" id="themes-note">The twelve largest themes by entry count.</p>
+      <div class="st-bars" id="themes"></div>
+    </section>
+
+    <footer class="st-footer">
+      <p>
+        Generated by <code>npm run build:stats</code> and checked by <code>npm run check:stats</code>.
+        The counting rule and field reference are in
+        <a href="https://github.com/cosylanguages/COSYdata/blob/main/docs/statistics.md">docs/statistics.md</a>.
+      </p>
+      <p class="st-footer-fine">COSYdata is the data layer of the COSY Languages ecosystem. No sibling repository is needed to render this page.</p>
+    </footer>
+  </main>
+
+  <noscript><p class="st-main st-note">This page renders its numbers in the browser from stats.json, so JavaScript is required.</p></noscript>
+
+  <script type="module" src="./statistics.js"></script>
+  <script src="../../shared/vendor/js/ecosystem-strip.js" defer></script>
+</body>
+</html>
