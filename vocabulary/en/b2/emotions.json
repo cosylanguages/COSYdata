@@ -1346,7 +1346,13 @@
     "no_emoji": true,
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "attentions"
+    "plural_form": "attentions",
+    "derivatives": [
+      {
+        "term": "attend",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:cognitive-reserve:noun",
@@ -1395,7 +1401,13 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "delusions"
+    "plural_form": "delusions",
+    "derivatives": [
+      {
+        "term": "delusional",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:delusional:adjective",
@@ -1415,7 +1427,13 @@
     "updated": "2026-11-28",
     "transcription": "/dɪˈluːʒənəl/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "delusion",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:emotional-detachment:noun",
@@ -1464,7 +1482,17 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "illusions"
+    "plural_form": "illusions",
+    "derivatives": [
+      {
+        "term": "illusionist",
+        "form": "noun"
+      },
+      {
+        "term": "illusory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:legal-autonomy:noun",
@@ -1567,7 +1595,13 @@
     "antonyms": [
       "abnormality"
     ],
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "normal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:personal-sacrifice:noun",

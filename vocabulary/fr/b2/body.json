@@ -20,7 +20,13 @@
     "no_antonym": true,
     "feminine": "invisible",
     "feminine_plural": "invisibles",
-    "masculine_plural": "invisibles"
+    "masculine_plural": "invisibles",
+    "derivatives": [
+      {
+        "term": "invisibilité",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "fr:rondeur:noun",
@@ -44,7 +50,17 @@
     "countability": "countable",
     "gender": "masculine",
     "article": "le",
-    "plural_form": "rondeurs"
+    "plural_form": "rondeurs",
+    "derivatives": [
+      {
+        "term": "rond",
+        "form": "adjective"
+      },
+      {
+        "term": "rondement",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "fr:vulnerabilite:noun",
@@ -68,6 +84,12 @@
     "no_antonym": true,
     "countability": "uncountable",
     "gender": "feminine",
-    "article": "la"
+    "article": "la",
+    "derivatives": [
+      {
+        "term": "vulnérable",
+        "form": "adjective"
+      }
+    ]
   }
 ]

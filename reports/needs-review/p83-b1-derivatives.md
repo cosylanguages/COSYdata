@@ -315,4 +315,31 @@ was not added.
   example `en:kindness:adjective`, `en:tact:adjective`, `it:prevention:noun`).
   Annotating those would have required fixing the part of speech and the id,
   which is out of scope for this task.
-- C1 and C2: the next passes.
+- Entries with no secure family after the follow-up passes: `riad`,
+  `ciononostante`, and the remaining English concrete nouns and loanwords.
+  These need a later manual pass, not a speculative form.
+
+### Post-#291 B1/B2/C1 follow-up
+
+The #291 import added vocabulary after the first P83 passes, so a follow-up
+annotated the new entries.
+
+- English B1: 209 entries and 253 links from the WordNet prefix filter.
+- English B2: 99 entries and 108 links from the same filter.
+- English C1: 48 entries and 52 links from the same filter.
+- French B2: 66 entries and 108 links, all hand-curated. Forms such as
+  `éphémérité`, `indélébilité`, `inévitabilité` and `métissage` are standard
+  derivation but formal or technical. `fr:ephemere` received only the noun.
+- Italian B2: 5 entries and 11 links: `lacrimare`, `lacrimoso`, `sedurre`,
+  `seduzione`, `seduttivo`, `incantare`, `incantamento`, `incantevole`,
+  `incostante`, `malinconico`, `malinconicamente`.
+- Russian B2: 47 entries and 87 links. The `-ость` nouns received their
+  adjective and adverb, and verbs received their action noun or participle.
+  `джентрифицировать`, `казуальный` and `призматический` are formal or
+  technical; a reviewer should confirm them in a large dictionary.
+- Greek B2: 19 entries and 31 links. `κεραμίδι` and `παραδοξολογία` are
+  transparent but the first is a concrete variant; `τρικυμιώδης` is literary.
+
+Remaining non-English B2 gaps are lexical: `riad`, `ciononostante`, `terreno`,
+and Greek `υποδομή` and `ριάδ` have no single-word relative that is
+both common and semantically direct.

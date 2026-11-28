@@ -1015,7 +1015,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "stocks",
     "transcription": "/stɒk/",
     "emoji": "📈",
@@ -1029,7 +1029,13 @@
     "transcription_variants": {
       "us": "/stɑːk/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "stocker",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:merger:noun",
@@ -4246,7 +4252,17 @@
     ],
     "no_antonym": true,
     "countability": "uncountable",
-    "updated": "2026-11-28"
+    "updated": "2026-11-28",
+    "derivatives": [
+      {
+        "term": "capitalist",
+        "form": "noun"
+      },
+      {
+        "term": "capitalise",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:market-trade:noun",
@@ -4308,6 +4324,12 @@
     ],
     "no_antonym": true,
     "countability": "uncountable",
-    "updated": "2026-11-28"
+    "updated": "2026-11-28",
+    "derivatives": [
+      {
+        "term": "interesting",
+        "form": "adjective"
+      }
+    ]
   }
 ]

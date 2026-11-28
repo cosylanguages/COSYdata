@@ -1332,7 +1332,13 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "alleles"
+    "plural_form": "alleles",
+    "derivatives": [
+      {
+        "term": "allelic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:cellular-replication:noun",
@@ -1379,6 +1385,16 @@
     "emoji": "🤝",
     "antonyms": [
       "uncooperative"
+    ],
+    "derivatives": [
+      {
+        "term": "cooperativeness",
+        "form": "noun"
+      },
+      {
+        "term": "cooperate",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -1446,7 +1462,17 @@
     "emoji": "🧬",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "mutations"
+    "plural_form": "mutations",
+    "derivatives": [
+      {
+        "term": "mutate",
+        "form": "verb"
+      },
+      {
+        "term": "mutational",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:neural-firing:noun",
@@ -1534,7 +1560,17 @@
     },
     "emoji": "🐜",
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "sociobiologist",
+        "form": "noun"
+      },
+      {
+        "term": "sociobiologic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:wean:verb",
@@ -1557,6 +1593,12 @@
     "synonyms": [
       "ablactate"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "weaning",
+        "form": "noun"
+      }
+    ]
   }
 ]
