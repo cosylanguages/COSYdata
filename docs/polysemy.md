@@ -53,7 +53,7 @@ same word from another dictionary.
 
 ## Passes so far
 
-The model was applied in four passes on 2026-11-28. Together they split 101
+The model was applied in five passes on 2026-11-28. Together they split 131
 English senses out of existing headwords.
 
 Pass 1 added 13 senses: `bank` (river), `match` (game), `court` (sport),
@@ -112,6 +112,24 @@ definition: `land` (noun) now means solid ground, `mean` (noun) means average,
 `free` (adjective) means costing no money, `hard` (adjective) means solid and
 firm, `pound` (noun) means British money, `present` (noun) means gift, and
 `tip` (noun) means advice. The other meanings live in the new entries.
+
+Pass 5 added 30 senses:
+
+- A1: `fine` (good enough).
+- A2: `kind` (type), `story` (building level), `glass` (material), `table`
+  (list in rows), `floor` (building level), `last` (final), `time` (occasion),
+  `wood` (small forest), `account` (bank account), `card` (playing card),
+  `mouse` (computer device), `bug` (insect), `coach` (long-distance bus).
+- B1: `fine` (very thin), `last` (continue), `market` (buying and selling),
+  `interest` (money for a loan), `page` (web page), `program` (computer
+  software), `cloud` (internet storage), `file` (folder for papers), `virus`
+  (illness), `field` (area of study), `plane` (flat surface), `ground`
+  (reason), `ship` (send goods), `right` (morally good).
+- B2: `company` (companionship), `window` (chance for a limited time).
+
+Pass 5 also narrowed two base entries: `last` (adjective) now means most
+recent, with the final sense in `last-final`, and `right` (adjective) now means
+correct or true, with the moral sense in `right-moral`.
 
 The base entry of every split pair now carries its own `sense` and
 `sense_label`, so the dictionary shows both meanings instead of only the new

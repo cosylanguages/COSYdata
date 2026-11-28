@@ -9,23 +9,24 @@
       "A2"
     ],
     "definitions": [
-      "most recent; coming after all others"
+      "The last thing is the most recent one."
     ],
     "examples": [
-      "I saw her last week."
+      "I saw her last week.",
+      "This is his last message."
     ],
     "domain": "general, spoken",
     "theme": "time",
     "sub_theme": "time_periods",
-    "updated": "2026-11-22",
+    "updated": "2026-11-28",
     "transcription": "/lɑːst/",
     "emoji": "⏮️",
     "tags": [
       "confusion-pair"
     ],
-    "antonyms": [
-      "first"
-    ]
+    "sense": "most-recent",
+    "sense_label": "most recent",
+    "no_antonym": true
   },
   {
     "id": "en:following:adjective",
@@ -53,6 +54,41 @@
     ],
     "antonyms": [
       "previous"
+    ]
+  },
+  {
+    "id": "en:last-final:adjective",
+    "word": "last",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "final",
+    "sense_label": "final one",
+    "definitions": [
+      "The last thing is the final one."
+    ],
+    "examples": [
+      "This is the last train tonight.",
+      "She read the last page."
+    ],
+    "domain": "general, spoken",
+    "theme": "time",
+    "sub_theme": "time_periods",
+    "transcription": "/lɑːst/",
+    "emoji": "🏁",
+    "synonyms": [
+      "final",
+      "final one"
+    ],
+    "updated": "2026-11-28",
+    "antonyms": [
+      "first"
+    ],
+    "tags": [
+      "confusion-pair"
     ]
   }
 ]

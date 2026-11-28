@@ -79,7 +79,7 @@ only because a dictionary or a productive pattern supports them.
 
 ### Polysemy pilot
 
-- Four passes added 101 English sense entries. Pass 1: `court` sport and
+- Five passes added 131 English sense entries. Pass 1: `court` sport and
   `light` not heavy A2; `bank` river, `match` game, `spring` water, `case`
   instance, `point` idea, `state` condition and `matter` be important B1;
   `season` add flavour, `charge` accusation, `issue` release and `right`
@@ -101,8 +101,17 @@ only because a dictionary or a productive pattern supports them.
   factory, `post` job, `capital` business money, `degree` university
   qualification, `figure` body shape, `well` healthy, `note` musical sound,
   `rock` music, `present` now, `tap` knock, `tip` pointed end) and 2 B2 senses
-  (`land` property, `word` promise). Definitions and examples use short
-  language at the entry's own level.
+  (`land` property, `word` promise). Pass 5: 1 A1 sense (`fine` good enough),
+  13 A2 senses (`kind` type, `story` building level, `glass` material, `table`
+  list, `floor` building level, `last` final, `time` occasion, `wood` small
+  forest, `account` bank account, `card` playing card, `mouse` computer
+  device, `bug` insect, `coach` long-distance bus), 14 B1 senses (`fine` very
+  thin, `last` continue, `market` buying and selling, `interest` money for a
+  loan, `page` web page, `program` computer software, `cloud` internet
+  storage, `file` folder, `virus` illness, `field` area of study, `plane`
+  flat surface, `ground` reason, `ship` send goods, `right` morally good) and
+  2 B2 senses (`company` companionship, `window` chance for a limited time).
+  Definitions and examples use short language at the entry's own level.
 - `en:court:noun` had a basketball example mixed into the legal sense; it moved
   to `en:court-sport:noun` and the legal entry now has legal examples only.
 - Base entries fixed because they described a different part of speech or
@@ -118,7 +127,9 @@ only because a dictionary or a productive pattern supports them.
   uncountable; `ring` (phone) is British-leaning; `live` (not dead) is rarer
   than `live` (broadcast) and needs a frequency check; `fire` (shoot) is
   labelled B1 but some lists put it at B2; `well` (healthy) is normally
-  predicative (`she is well`), not attributive.
+  predicative (`she is well`), not attributive; `story` (building level) is
+  US spelling and `coach` (bus) is British usage; `fine` (very thin) is less
+  common than `fine` (good enough) and needs a frequency check.
 - Existing entries with a definition from the wrong part of speech were left
   untouched when they were outside this pass: `en:look:adjective`,
   `en:show:adjective`, `en:stage:adverb` and `en:support:noun` (technical help
