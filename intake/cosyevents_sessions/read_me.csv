@@ -7,3 +7,7 @@
 "  • Run: node scripts/import-events-vocab.cjs intake/cosyevents_sessions/cosyevents-vocabulary.json"
 "  • Then run: npm run build && npm run validate"
 "  • Refer to PLAN.md for schema alignment, enrichment sources, and taxonomy rules."
+"Multilingual batch (2026-11-28): 481 new entries across French (223), Russian (125), Greek (53), Italian (46), Spanish (34)."
+"82 terms already existed and were linked; 10 cards skipped (plural phrases, proper names, acronym, grammatical form)."
+"Machine-readable files: vocabulary-export-fr.json, vocabulary-export-ru.json, vocabulary-export-el.json, vocabulary-export-it.json, vocabulary-export-es.json."
+"Run node scripts/import-events-vocab.cjs <file>, then npm run build and npm run validate. Report: reports/cosyevents-import-multilang-2026-11-28.json."

@@ -89,3 +89,26 @@ npm run validate
 ```
 
 Enrichment sources: session definitions/examples first; Wiktionary (English section) for IPA, noun countability, and plural evidence; WordNet for part of speech, synonyms, and antonyms. Missing phrase IPA is composed from component headwords, with manual overrides for technical and loanword items. The quality audit reports zero new findings for this batch.
+
+### Multilingual batch (2026-11-28)
+
+The same harvest was extended to the non-English club cards. After removing duplicates, non-units and terms already present in COSYdata, 481 entries were added across five languages:
+
+- French: 223
+- Russian: 125
+- Greek: 53
+- Italian: 46
+- Spanish: 34
+
+By level: A2=16, B1=345, B2=120. By form: noun=431, verb=27, adjective=17, phrase=6. 82 terms already existed and were linked rather than duplicated; 10 cards were skipped (5 plural phrases, 3 proper names, 1 acronym, 1 grammatical form).
+
+The machine-readable files are `vocabulary-export-fr.json`, `vocabulary-export-ru.json`, `vocabulary-export-el.json`, `vocabulary-export-it.json`, and `vocabulary-export-es.json`. They can be imported together:
+
+```bash
+node scripts/import-events-vocab.cjs intake/cosyevents_sessions/vocabulary-export-fr.json
+# repeat for ru, el, it, es, then:
+npm run build
+npm run validate
+```
+
+Enrichment differs by language. Wiktionary supplied IPA, gender, plural and part-of-speech evidence where available. Epitran supplied fallback IPA for French, Russian, Italian and Spanish; a rule-based modern Greek fallback covered Greek cards without a pronunciation section. `pymorphy3` normalised Russian plural lemmas and generated Russian plural forms. Levels retain the CEFR level assigned by the originating club card. The quality audit reported zero new findings.
