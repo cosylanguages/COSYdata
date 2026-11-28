@@ -39,7 +39,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -53,7 +53,13 @@
       "systematic procedure"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "methodological",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:variable:noun",
@@ -101,7 +107,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -119,7 +125,21 @@
       "uncorrelatedness",
       "independence"
     ],
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "correlate",
+        "form": "verb"
+      },
+      {
+        "term": "correlational",
+        "form": "adjective"
+      },
+      {
+        "term": "correlative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:causation:noun",
@@ -226,7 +246,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -244,7 +264,17 @@
       "theoretical",
       "hypothetical"
     ],
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "empirically",
+        "form": "adverb"
+      },
+      {
+        "term": "empiricism",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:theoretical:adjective",
@@ -262,7 +292,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -277,7 +307,17 @@
       "empirical",
       "practical"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "theoretically",
+        "form": "adverb"
+      },
+      {
+        "term": "theory",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:replicate:verb",
@@ -294,7 +334,7 @@
     ],
     "domain": "general, professional",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "synonyms": [
       "reproduce",
@@ -302,7 +342,17 @@
       "repeat"
     ],
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "replica",
+        "form": "noun"
+      },
+      {
+        "term": "replication",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:replication:noun",
@@ -319,7 +369,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "countability": "countable",
     "synonyms": [
@@ -327,7 +377,13 @@
       "duplication"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "replicate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:prototype:noun",
@@ -344,7 +400,7 @@
     ],
     "domain": "general, professional",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "countability": "countable",
     "synonyms": [
@@ -353,7 +409,21 @@
       "model"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "prototypal",
+        "form": "adjective"
+      },
+      {
+        "term": "prototypic",
+        "form": "adjective"
+      },
+      {
+        "term": "prototypical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:biotechnology:noun",
@@ -400,7 +470,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "countability": "uncountable",
     "synonyms": [
@@ -412,6 +482,12 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "engineer",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -457,7 +533,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -472,7 +548,17 @@
       "traditional",
       "incremental"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "disrupt",
+        "form": "verb"
+      },
+      {
+        "term": "disruptively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:quantum:adjective",
@@ -513,7 +599,7 @@
     ],
     "domain": "general, relocation",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "synonyms": [
       "model",
@@ -521,7 +607,17 @@
       "imitate"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "simulation",
+        "form": "noun"
+      },
+      {
+        "term": "simulator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:simulation:noun",
@@ -538,7 +634,7 @@
     ],
     "domain": "general, professional",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "countability": "countable",
     "synonyms": [
@@ -548,7 +644,13 @@
     "antonyms": [
       "real-world phenomenon"
     ],
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "simulate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:optimize:verb",
@@ -565,7 +667,7 @@
     ],
     "domain": "general, relocation, travel, exam",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "synonyms": [
       "streamline",
@@ -576,7 +678,17 @@
       "impair",
       "worsen"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "optimisation",
+        "form": "noun"
+      },
+      {
+        "term": "optimization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:optimise:verb",
@@ -593,7 +705,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "synonyms": [
       "streamline",
@@ -607,7 +719,17 @@
     "region": [
       "UK"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "optimisation",
+        "form": "noun"
+      },
+      {
+        "term": "optimization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:cutting-edge:noun",
@@ -725,7 +847,7 @@
       "spoken",
       "upper-intermediate"
     ],
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🔬",
     "countability": "countable",
     "synonyms": [
@@ -735,7 +857,13 @@
     "antonyms": [
       "traditional approach"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "revolution",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:machine-learning:noun",
@@ -1251,7 +1379,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kənˈvɜːdʒ/",
     "emoji": "🔀",
     "synonyms": [
@@ -1261,7 +1389,25 @@
     "antonyms": [
       "diverge"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "convergence",
+        "form": "noun"
+      },
+      {
+        "term": "convergency",
+        "form": "noun"
+      },
+      {
+        "term": "convergent",
+        "form": "adjective"
+      },
+      {
+        "term": "converging",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:artificial-general-intelligence:noun",

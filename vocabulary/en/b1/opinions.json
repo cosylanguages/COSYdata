@@ -40,7 +40,7 @@
     ],
     "domain": "general, travel, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -55,7 +55,21 @@
       "begin",
       "start"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "conclusion",
+        "form": "noun"
+      },
+      {
+        "term": "conclusive",
+        "form": "adjective"
+      },
+      {
+        "term": "conclusively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:evidence:verb",
@@ -160,7 +174,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -179,6 +193,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "claim",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -195,7 +215,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -210,7 +230,19 @@
       "deny",
       "refute"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "state",
+        "form": "noun"
+      },
+      {
+        "term": "statement",
+        "form": "noun"
+      }
+    ],
+    "sense": "express",
+    "sense_label": "express in words"
   },
   {
     "id": "en:declare:verb",
@@ -226,7 +258,7 @@
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -243,7 +275,17 @@
     "transcription_variants": {
       "us": "/dɪˈkler/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "declaration",
+        "form": "noun"
+      },
+      {
+        "term": "declared",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:oppose:verb",
@@ -259,7 +301,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/əˈpəʊz/",
     "emoji": "🚫",
     "synonyms": [
@@ -273,7 +315,21 @@
     "transcription_variants": {
       "us": "/əˈpoʊz/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "opposition",
+        "form": "noun"
+      },
+      {
+        "term": "opposed",
+        "form": "adjective"
+      },
+      {
+        "term": "opposing",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:justify:verb",
@@ -290,7 +346,7 @@
     ],
     "domain": "general, relocation, travel, professional, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈdʒʌs.tɪ.faɪ/",
     "emoji": "⚖️",
     "synonyms": [
@@ -308,6 +364,20 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "justification",
+        "form": "noun"
+      },
+      {
+        "term": "justifiable",
+        "form": "adjective"
+      },
+      {
+        "term": "justified",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -407,7 +477,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌkɒn.trəˈdɪkt/",
     "emoji": "🚫",
     "synonyms": [
@@ -421,7 +491,17 @@
     "transcription_variants": {
       "us": "/ˌkɑːn.trəˈdɪkt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "contradiction",
+        "form": "noun"
+      },
+      {
+        "term": "contradictory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:contradiction:verb",
@@ -469,7 +549,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈkrɪt.ɪ.saɪz/",
     "emoji": "✍️",
     "synonyms": [
@@ -483,7 +563,25 @@
     "transcription_variants": {
       "us": "/ˈkrɪt̬.ɪ.saɪz/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "criticism",
+        "form": "noun"
+      },
+      {
+        "term": "critic",
+        "form": "noun"
+      },
+      {
+        "term": "critical",
+        "form": "adjective"
+      },
+      {
+        "term": "critically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:criticism:verb",
@@ -529,7 +627,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/preɪz/",
     "emoji": "👏",
     "synonyms": [
@@ -540,7 +638,17 @@
       "criticize",
       "censure"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "praise",
+        "form": "noun"
+      },
+      {
+        "term": "praiseworthy",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:acknowledge:verb",
@@ -558,7 +666,7 @@
     ],
     "domain": "general, relocation, travel, professional, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1",
@@ -577,7 +685,17 @@
     "transcription_variants": {
       "us": "/əkˈnɑː.lɪdʒ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "acknowledgement",
+        "form": "noun"
+      },
+      {
+        "term": "acknowledgment",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:admit:verb",
@@ -594,7 +712,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -612,6 +730,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "admission",
+        "form": "noun"
+      },
+      {
+        "term": "admittance",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -628,7 +756,7 @@
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -648,7 +776,21 @@
     "regional_equivalents": [
       "en:emphasise:verb"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "emphasis",
+        "form": "noun"
+      },
+      {
+        "term": "emphatic",
+        "form": "adjective"
+      },
+      {
+        "term": "emphatically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:emphasise:verb",
@@ -665,7 +807,7 @@
     ],
     "domain": "general, professional",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈem.fə.saɪz/",
     "emoji": "❗",
     "synonyms": [
@@ -686,7 +828,21 @@
       "B1",
       "B2"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "emphasis",
+        "form": "noun"
+      },
+      {
+        "term": "emphatic",
+        "form": "adjective"
+      },
+      {
+        "term": "emphatically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:highlight:verb",
@@ -703,7 +859,7 @@
     ],
     "domain": "general, relocation, travel, professional, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈhaɪ.laɪt/",
     "emoji": "🖍️",
     "synonyms": [
@@ -717,6 +873,12 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "highlight",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -949,7 +1111,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -969,7 +1131,17 @@
     "transcription_variants": {
       "us": "/ˌkɑːn.trəˈvɝː.ʃəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "controversy",
+        "form": "noun"
+      },
+      {
+        "term": "controversially",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:controversy:verb",
@@ -1018,7 +1190,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈbeɪ.tə.bəl/",
     "emoji": "❓",
     "synonyms": [
@@ -1032,7 +1204,21 @@
     "transcription_variants": {
       "us": "/dɪˈbeɪ.t̬ə.bəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "debate",
+        "form": "noun"
+      },
+      {
+        "term": "debatably",
+        "form": "adverb"
+      },
+      {
+        "term": "debate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:i-d-say-that:phrase",
@@ -2460,7 +2646,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈæd.ə.kwət/",
     "emoji": "👌",
     "comparative": "more adequate",
@@ -2478,6 +2664,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "adequacy",
+        "form": "noun"
+      },
+      {
+        "term": "adequately",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -2497,7 +2693,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈtʃæl.ɪn.dʒɪŋ/",
     "emoji": "⛰️",
     "comparative": "more challenging",
@@ -2511,7 +2707,21 @@
       "easy",
       "simple"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "challenge",
+        "form": "noun"
+      },
+      {
+        "term": "challengingly",
+        "form": "adverb"
+      },
+      {
+        "term": "challenge",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:comparison:noun",
@@ -2532,7 +2742,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kəmˈpær.ɪ.sən/",
     "emoji": "⚖️",
     "countability": "countable",
@@ -2547,7 +2757,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "compare",
+        "form": "verb"
+      },
+      {
+        "term": "comparable",
+        "form": "adjective"
+      },
+      {
+        "term": "comparative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:demanding:adjective",
@@ -2567,7 +2791,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈmɑːn.dɪŋ/",
     "emoji": "🏋️",
     "comparative": "more demanding",
@@ -2581,7 +2805,17 @@
       "easy",
       "undemanding"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "demand",
+        "form": "noun"
+      },
+      {
+        "term": "demand",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:exceptional:adjective",
@@ -2601,7 +2835,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ɪkˈsep.ʃən.əl/",
     "emoji": "⭐",
     "comparative": "more exceptional",
@@ -2619,6 +2853,16 @@
     "levels": [
       "B1",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "exception",
+        "form": "noun"
+      },
+      {
+        "term": "exceptionally",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -2638,7 +2882,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/fʊlˈfɪl.ɪŋ/",
     "emoji": "😊",
     "comparative": "more fulfilling",
@@ -2652,7 +2896,17 @@
       "unfulfilling",
       "frustrating"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fulfilment",
+        "form": "noun"
+      },
+      {
+        "term": "fulfil",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:impression:noun",
@@ -2673,7 +2927,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪmˈpreʃ.ən/",
     "emoji": "💭",
     "countability": "countable",
@@ -2688,7 +2942,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "impress",
+        "form": "verb"
+      },
+      {
+        "term": "impressive",
+        "form": "adjective"
+      },
+      {
+        "term": "impressionable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:inappropriate:adjective",
@@ -2707,7 +2975,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪn.əˈprəʊ.pri.ət/",
     "emoji": "🚫",
     "comparative": "more inappropriate",
@@ -2721,7 +2989,17 @@
       "appropriate",
       "suitable"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "inappropriateness",
+        "form": "noun"
+      },
+      {
+        "term": "inappropriately",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:inconsistent:adjective",
@@ -2740,7 +3018,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪn.kənˈsɪs.tənt/",
     "emoji": "〰️",
     "comparative": "more inconsistent",
@@ -2754,7 +3032,17 @@
       "consistent",
       "steady"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "inconsistency",
+        "form": "noun"
+      },
+      {
+        "term": "inconsistently",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:insufficient:adjective",
@@ -2773,7 +3061,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪn.səˈfɪʃ.ənt/",
     "emoji": "⚠️",
     "comparative": "more insufficient",
@@ -2787,7 +3075,17 @@
       "sufficient",
       "adequate"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "insufficiency",
+        "form": "noun"
+      },
+      {
+        "term": "insufficiently",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:meaningful:adjective",
@@ -2806,7 +3104,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmiː.nɪŋ.fəl/",
     "emoji": "✨",
     "comparative": "more meaningful",
@@ -2820,7 +3118,17 @@
       "meaningless",
       "pointless"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "meaning",
+        "form": "noun"
+      },
+      {
+        "term": "meaningfully",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:mediocre:adjective",
@@ -2839,7 +3147,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌmiː.diˈəʊ.kər/",
     "emoji": "😐",
     "comparative": "more mediocre",
@@ -2853,7 +3161,13 @@
       "excellent",
       "outstanding"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "mediocrity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:noticeable:adjective",
@@ -2872,7 +3186,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈnəʊ.tɪ.sə.bəl/",
     "emoji": "👁️",
     "comparative": "more noticeable",
@@ -2886,7 +3200,17 @@
       "unnoticeable",
       "subtle"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "noticeably",
+        "form": "adverb"
+      },
+      {
+        "term": "notice",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:observation:noun",
@@ -2905,7 +3229,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɒb.zəˈveɪ.ʃən/",
     "emoji": "🔍",
     "countability": "countable",
@@ -2916,7 +3240,17 @@
       "remark"
     ],
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "observe",
+        "form": "verb"
+      },
+      {
+        "term": "observer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:option:noun",
@@ -2935,7 +3269,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɒp.ʃən/",
     "emoji": "🔘",
     "countability": "countable",
@@ -2946,7 +3280,21 @@
       "selection"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "optional",
+        "form": "adjective"
+      },
+      {
+        "term": "optionally",
+        "form": "adverb"
+      },
+      {
+        "term": "opt",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:outstanding:adjective",
@@ -2966,7 +3314,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˌaʊtˈstæn.dɪŋ/",
     "emoji": "🌟",
     "comparative": "more outstanding",
@@ -2984,6 +3332,12 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "outstandingly",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -3003,7 +3357,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌəʊ.vəˈwel.mɪŋ/",
     "emoji": "🌊",
     "comparative": "more overwhelming",
@@ -3017,7 +3371,17 @@
       "slight",
       "minor"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "overwhelmingly",
+        "form": "adverb"
+      },
+      {
+        "term": "overwhelm",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:remarkable:adjective",
@@ -3037,7 +3401,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/rɪˈmɑː.kə.bəl/",
     "emoji": "⭐",
     "comparative": "more remarkable",
@@ -3055,6 +3419,20 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "remark",
+        "form": "noun"
+      },
+      {
+        "term": "remarkably",
+        "form": "adverb"
+      },
+      {
+        "term": "remark",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -3074,7 +3452,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/rɪˈwɔː.dɪŋ/",
     "emoji": "🎁",
     "comparative": "more rewarding",
@@ -3088,7 +3466,21 @@
       "unrewarding",
       "frustrating"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "reward",
+        "form": "noun"
+      },
+      {
+        "term": "rewardingly",
+        "form": "adverb"
+      },
+      {
+        "term": "reward",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:satisfactory:adjective",
@@ -3107,7 +3499,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌsæt.ɪsˈfæk.tər.i/",
     "emoji": "👍",
     "comparative": "more satisfactory",
@@ -3121,7 +3513,21 @@
       "unsatisfactory",
       "poor"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "satisfaction",
+        "form": "noun"
+      },
+      {
+        "term": "satisfactorily",
+        "form": "adverb"
+      },
+      {
+        "term": "satisfy",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:shallow:adjective",
@@ -3141,7 +3547,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈʃæl.əʊ/",
     "emoji": "🌊",
     "comparative": "shallower",
@@ -3158,7 +3564,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "shallowness",
+        "form": "noun"
+      },
+      {
+        "term": "shallowly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:stimulating:adjective",
@@ -3177,7 +3593,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈstɪm.jə.leɪ.tɪŋ/",
     "emoji": "⚡",
     "comparative": "more stimulating",
@@ -3191,7 +3607,17 @@
       "boring",
       "dull"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "stimulation",
+        "form": "noun"
+      },
+      {
+        "term": "stimulate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:aware:adjective",
@@ -3208,7 +3634,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "actions",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1"
@@ -3225,7 +3651,13 @@
     "antonyms": [
       "unaware"
     ],
-    "sub_theme": "mental_cognition"
+    "sub_theme": "mental_cognition",
+    "derivatives": [
+      {
+        "term": "awareness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:inspiring:adjective",
@@ -3241,7 +3673,7 @@
     ],
     "domain": "general, relocation",
     "theme": "personality",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -3260,7 +3692,21 @@
       "uninspiring",
       "discouraging"
     ],
-    "sub_theme": "character"
+    "sub_theme": "character",
+    "derivatives": [
+      {
+        "term": "inspiration",
+        "form": "noun"
+      },
+      {
+        "term": "inspiringly",
+        "form": "adverb"
+      },
+      {
+        "term": "inspire",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:point-of-view:noun",
@@ -3312,7 +3758,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "emotions",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -3332,7 +3778,21 @@
       "predictable",
       "unremarkable"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "shock",
+        "form": "noun"
+      },
+      {
+        "term": "shockingly",
+        "form": "adverb"
+      },
+      {
+        "term": "shock",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:worthwhile:adjective",
@@ -3425,5 +3885,72 @@
       "The advisor made a valid point regarding the importance of health insurance."
     ],
     "sub_theme": "social_expressions"
+  },
+  {
+    "id": "en:point-idea:noun",
+    "word": "point",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "idea",
+    "sense_label": "idea or opinion",
+    "definitions": [
+      "A point is an idea or opinion that someone expresses."
+    ],
+    "examples": [
+      "She made a good point about the cost.",
+      "I understand your point."
+    ],
+    "domain": "general, spoken, exam",
+    "theme": "general",
+    "sub_theme": "abstract_concepts",
+    "transcription": "/pɔɪnt/",
+    "emoji": "💡",
+    "synonyms": [
+      "idea",
+      "argument",
+      "detail"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "points",
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:state-condition:noun",
+    "word": "state",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "condition",
+    "sense_label": "condition of something",
+    "definitions": [
+      "A state is the condition that someone or something is in."
+    ],
+    "examples": [
+      "The building is in a poor state.",
+      "Her state of health improved."
+    ],
+    "domain": "general, spoken, exam",
+    "theme": "general",
+    "sub_theme": "abstract_concepts",
+    "transcription": "/steɪt/",
+    "emoji": "📊",
+    "synonyms": [
+      "condition",
+      "situation"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "states",
+    "updated": "2026-11-28"
   }
 ]

@@ -125,7 +125,7 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/de.fo.res.tatˈtsjoː.ne/",
     "emoji": "🪓",
     "antonyms": [
@@ -133,7 +133,17 @@
     ],
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "deforestare",
+        "form": "verb"
+      },
+      {
+        "term": "foresta",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:estinzione:noun",
@@ -154,14 +164,24 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/es.tinˈtsjoː.ne/",
     "emoji": "🦤",
     "no_antonym": true,
     "article": "l'",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "estinzioni"
+    "plural_form": "estinzioni",
+    "derivatives": [
+      {
+        "term": "estinguere",
+        "form": "verb"
+      },
+      {
+        "term": "estinto",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:sostenibilita:noun",
@@ -182,13 +202,23 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/sos.te.ni.bi.liˈta/",
     "emoji": "🌱",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "derivatives": [
+      {
+        "term": "sostenibile",
+        "form": "adjective"
+      },
+      {
+        "term": "sostenere",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "it:impronta-di-carbonio:noun",
@@ -263,7 +293,7 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/sik.tʃiˈta/",
     "emoji": "🏜️",
     "antonyms": [
@@ -271,7 +301,17 @@
     ],
     "article": "la",
     "gender": "feminine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "derivatives": [
+      {
+        "term": "secco",
+        "form": "adjective"
+      },
+      {
+        "term": "secchezza",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:alluvione:noun",
@@ -292,7 +332,7 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/al.luˈvjoː.ne/",
     "emoji": "🌊",
     "antonyms": [
@@ -301,7 +341,17 @@
     "article": "l'",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "alluvioni"
+    "plural_form": "alluvioni",
+    "derivatives": [
+      {
+        "term": "alluvionare",
+        "form": "verb"
+      },
+      {
+        "term": "alluvionale",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:disastro-naturale:noun",
@@ -349,14 +399,24 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/riˈfjuː.ti/",
     "emoji": "🗑️",
     "no_antonym": true,
     "article": "i",
     "gender": "masculine",
     "countability": "pluralia_tantum",
-    "singular_workaround": "un rifiuto"
+    "singular_workaround": "un rifiuto",
+    "derivatives": [
+      {
+        "term": "rifiuto",
+        "form": "noun"
+      },
+      {
+        "term": "rifiutare",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "it:risorsa:noun",
@@ -405,13 +465,19 @@
     "domain": "general, spoken",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/e.ko.sisˈtɛː.ma/",
     "emoji": "🌿",
     "no_antonym": true,
     "article": "l'",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "ecosistemi"
+    "plural_form": "ecosistemi",
+    "derivatives": [
+      {
+        "term": "ecosistemico",
+        "form": "adjective"
+      }
+    ]
   }
 ]

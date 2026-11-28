@@ -7143,6 +7143,10 @@
   ],
   "bank": [
     {
+      "id": "en:bank-river:noun",
+      "field": "word"
+    },
+    {
       "id": "en:bank:noun",
       "field": "word"
     }
@@ -7202,6 +7206,10 @@
     }
   ],
   "banks": [
+    {
+      "id": "en:bank-river:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:bank:noun",
       "field": "plural_form"
@@ -12875,6 +12883,10 @@
   ],
   "case": [
     {
+      "id": "en:case-instance:noun",
+      "field": "word"
+    },
+    {
       "id": "en:case:conjunction",
       "field": "word"
     },
@@ -12884,6 +12896,10 @@
     }
   ],
   "cases": [
+    {
+      "id": "en:case-instance:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:case:noun",
       "field": "plural_form"
@@ -13867,6 +13883,10 @@
   ],
   "charge": [
     {
+      "id": "en:charge-accusation:noun",
+      "field": "word"
+    },
+    {
       "id": "en:charge:noun",
       "field": "word"
     },
@@ -13894,6 +13914,10 @@
     }
   ],
   "charges": [
+    {
+      "id": "en:charge-accusation:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:charge:noun",
       "field": "plural_form"
@@ -19667,6 +19691,10 @@
   ],
   "court": [
     {
+      "id": "en:court-sport:noun",
+      "field": "word"
+    },
+    {
       "id": "en:court:noun",
       "field": "word"
     }
@@ -19696,6 +19724,10 @@
     }
   ],
   "courts": [
+    {
+      "id": "en:court-sport:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:court:noun",
       "field": "plural_form"
@@ -46977,6 +47009,10 @@
   ],
   "issue": [
     {
+      "id": "en:issue-release:verb",
+      "field": "word"
+    },
+    {
       "id": "en:issue:noun",
       "field": "word"
     }
@@ -50301,6 +50337,10 @@
   ],
   "light": [
     {
+      "id": "en:light-notheavy:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:light:adjective",
       "field": "word"
     },
@@ -50339,6 +50379,10 @@
   ],
   "lighter": [
     {
+      "id": "en:light-notheavy:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:light:adjective",
       "field": "comparative"
     },
@@ -50354,6 +50398,10 @@
     }
   ],
   "lightest": [
+    {
+      "id": "en:light-notheavy:adjective",
+      "field": "superlative"
+    },
     {
       "id": "en:light:adjective",
       "field": "superlative"
@@ -52909,11 +52957,19 @@
   ],
   "match": [
     {
+      "id": "en:match-game:noun",
+      "field": "word"
+    },
+    {
       "id": "en:match:noun",
       "field": "word"
     }
   ],
   "matches": [
+    {
+      "id": "en:match-game:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:match:noun",
       "field": "plural_form"
@@ -52974,6 +53030,10 @@
     }
   ],
   "matter": [
+    {
+      "id": "en:matter-important:verb",
+      "field": "word"
+    },
     {
       "id": "en:matter:noun",
       "field": "word"
@@ -65301,6 +65361,10 @@
   ],
   "point": [
     {
+      "id": "en:point-idea:noun",
+      "field": "word"
+    },
+    {
       "id": "en:point:noun",
       "field": "word"
     },
@@ -65331,6 +65395,12 @@
     {
       "id": "en:pointless:adjective",
       "field": "word"
+    }
+  ],
+  "points": [
+    {
+      "id": "en:point-idea:noun",
+      "field": "plural_form"
     }
   ],
   "points of view": [
@@ -72453,6 +72523,10 @@
   ],
   "right": [
     {
+      "id": "en:right-entitlement:noun",
+      "field": "word"
+    },
+    {
       "id": "en:right:adjective",
       "field": "word"
     },
@@ -72494,6 +72568,10 @@
     }
   ],
   "rights": [
+    {
+      "id": "en:right-entitlement:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:rights:noun",
       "field": "word"
@@ -74452,6 +74530,10 @@
     }
   ],
   "season": [
+    {
+      "id": "en:season-flavour:verb",
+      "field": "word"
+    },
     {
       "id": "en:season:noun",
       "field": "word"
@@ -79339,6 +79421,10 @@
   ],
   "spring": [
     {
+      "id": "en:spring-water:noun",
+      "field": "word"
+    },
+    {
       "id": "en:spring:noun",
       "field": "word"
     }
@@ -79350,6 +79436,10 @@
     }
   ],
   "springs": [
+    {
+      "id": "en:spring-water:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:spring:noun",
       "field": "plural_form"
@@ -79751,6 +79841,10 @@
   ],
   "state": [
     {
+      "id": "en:state-condition:noun",
+      "field": "word"
+    },
+    {
       "id": "en:state:verb",
       "field": "word"
     }
@@ -79788,6 +79882,12 @@
   "statements": [
     {
       "id": "en:statement:noun",
+      "field": "plural_form"
+    }
+  ],
+  "states": [
+    {
+      "id": "en:state-condition:noun",
       "field": "plural_form"
     }
   ],

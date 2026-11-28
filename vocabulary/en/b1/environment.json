@@ -15,7 +15,7 @@
     ],
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "fuels",
     "transcription": "/ˈfjʊə.əl/",
     "emoji": "⛽",
@@ -32,7 +32,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fuel",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:campaign:verb",
@@ -48,7 +54,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "environment",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -63,7 +69,17 @@
       "advocate"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "campaign",
+        "form": "noun"
+      },
+      {
+        "term": "campaigner",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:awareness:noun",
@@ -81,7 +97,7 @@
     ],
     "domain": "general, spoken",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -105,7 +121,13 @@
     "transcription_variants": {
       "us": "/əˈwer.nəs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "aware",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:ecosystem:noun",
@@ -160,7 +182,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "environment",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -183,7 +205,21 @@
     "transcription_variants": {
       "us": "/səˈsteɪ.nə.bɪl.ə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "sustainable",
+        "form": "adjective"
+      },
+      {
+        "term": "sustainably",
+        "form": "adverb"
+      },
+      {
+        "term": "sustain",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:renewable:adjective",
@@ -199,7 +235,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -216,7 +252,17 @@
     "transcription_variants": {
       "us": "/rɪˈnuː.ə.bəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "renewability",
+        "form": "noun"
+      },
+      {
+        "term": "renew",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:resource:noun",
@@ -233,7 +279,7 @@
     ],
     "domain": "general, exam",
     "theme": "environment",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "resources",
     "transcription": "/rɪˈzɔːs/",
     "emoji": "📦",
@@ -251,6 +297,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "resourceful",
+        "form": "adjective"
+      },
+      {
+        "term": "resourcefully",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -300,7 +356,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -313,7 +369,17 @@
       "gases"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "emit",
+        "form": "verb"
+      },
+      {
+        "term": "emission",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:greenhouse:noun",
@@ -382,7 +448,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "environment",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -400,7 +466,17 @@
     "transcription_variants": {
       "us": "/diːˌfɔːr.əˈsteɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "deforest",
+        "form": "verb"
+      },
+      {
+        "term": "forest",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:conservation:noun",
@@ -418,7 +494,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "environment",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -441,7 +517,17 @@
     "transcription_variants": {
       "us": "/ˌkɑːn.sɚˈveɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "conserve",
+        "form": "verb"
+      },
+      {
+        "term": "conservationist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:preserve:verb",
@@ -457,7 +543,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/prɪˈzɜːv/",
     "emoji": "🛡️",
     "synonyms": [
@@ -472,7 +558,21 @@
     "transcription_variants": {
       "us": "/prɪˈzɝːv/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "preservation",
+        "form": "noun"
+      },
+      {
+        "term": "preserver",
+        "form": "noun"
+      },
+      {
+        "term": "preserved",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:biodiversity:noun",
@@ -489,7 +589,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -509,7 +609,13 @@
     "transcription_variants": {
       "us": "/ˌbaɪ.oʊ.dɪˈvɝː.sə.t̬i/"
     },
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "biodiverse",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:extinct:adjective",
@@ -525,7 +631,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "environment",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -540,7 +646,13 @@
       "extant",
       "surviving"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "extinction",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:crisis:noun",
@@ -593,7 +705,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "environment",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -608,7 +720,17 @@
       "discard",
       "throw away"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "reuse",
+        "form": "noun"
+      },
+      {
+        "term": "reusable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:reduce:verb",
@@ -625,7 +747,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "environment",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -647,6 +769,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "reduction",
+        "form": "noun"
+      },
+      {
+        "term": "reduced",
+        "form": "adjective"
+      },
+      {
+        "term": "reducible",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -663,7 +799,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "panels",
     "transcription": "/ˈpæn.əl/",
     "emoji": "☀️",
@@ -673,7 +809,17 @@
       "solar panel"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "panelist",
+        "form": "noun"
+      },
+      {
+        "term": "panel",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:turbine:noun",
@@ -718,7 +864,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kənˈtæm.ɪ.neɪt/",
     "emoji": "☣️",
     "synonyms": [
@@ -733,7 +879,21 @@
     "transcription_variants": {
       "us": "/kənˈtæm.ə.neɪt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "contamination",
+        "form": "noun"
+      },
+      {
+        "term": "contaminant",
+        "form": "noun"
+      },
+      {
+        "term": "contaminated",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:eco-friendly:adjective",
@@ -1060,7 +1220,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ɪkˈstɪŋk.ʃən/",
     "emoji": "🦴",
     "countability": "uncountable",
@@ -1072,7 +1232,17 @@
       "survival",
       "continuation"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "extinct",
+        "form": "adjective"
+      },
+      {
+        "term": "extinguish",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:contamination:noun",
@@ -1092,7 +1262,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kənˌtæm.ɪˈneɪ.ʃən/",
     "emoji": "☣️",
     "countability": "uncountable",
@@ -1108,7 +1278,21 @@
     "transcription_variants": {
       "us": "/kənˌtæm.əˈneɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "contaminate",
+        "form": "verb"
+      },
+      {
+        "term": "contaminant",
+        "form": "noun"
+      },
+      {
+        "term": "contaminated",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:sea-level:noun",
@@ -1315,7 +1499,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈkɒm.pɒst/",
     "emoji": "🌱",
     "countability": "uncountable",
@@ -1328,7 +1512,17 @@
     "transcription_variants": {
       "us": "/ˈkɑːm.poʊst/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "compost",
+        "form": "verb"
+      },
+      {
+        "term": "compostable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:organic-farming:noun",
@@ -1414,7 +1608,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪˈmɪʃ.ən/",
     "emoji": "🏭",
     "countability": "countable",
@@ -1425,7 +1619,13 @@
       "leakage"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "emit",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:air-quality:noun",
@@ -1507,7 +1707,7 @@
     ],
     "domain": "general, relocation",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1525,7 +1725,17 @@
       "recycling",
       "proper disposal"
     ],
-    "sub_theme": "pollution"
+    "sub_theme": "pollution",
+    "derivatives": [
+      {
+        "term": "litter",
+        "form": "verb"
+      },
+      {
+        "term": "litter",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:arid-climate:noun",
@@ -1688,7 +1898,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "The starting point where a hiking trail begins."
     ],
@@ -1708,7 +1918,13 @@
       "environment",
       "travel"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "trail",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:tropical-climate:noun",
@@ -1899,7 +2115,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "Capable of decaying naturally into nutrient-rich organic soil."
     ],
@@ -1919,7 +2135,21 @@
       "environment",
       "travel"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "compost",
+        "form": "noun"
+      },
+      {
+        "term": "compostability",
+        "form": "noun"
+      },
+      {
+        "term": "compost",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:conservation-area:noun",
@@ -2312,7 +2542,7 @@
     ],
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈkəʊst.laɪn/",
     "emoji": "🏖️",
     "no_antonym": true,
@@ -2322,7 +2552,17 @@
     ],
     "countability": "countable",
     "plural_form": "coastlines",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "coast",
+        "form": "noun"
+      },
+      {
+        "term": "coastal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:coral-reef:noun",
@@ -2364,7 +2604,7 @@
     ],
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/dæm/",
     "emoji": "🌊",
     "no_antonym": true,
@@ -2374,7 +2614,13 @@
     ],
     "countability": "countable",
     "plural_form": "dams",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "dam",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:glacier:noun",
@@ -2392,7 +2638,7 @@
     ],
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɡlæs.i.ər/",
     "emoji": "🧊",
     "no_antonym": true,
@@ -2406,7 +2652,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "glacial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:waste:verb",
@@ -2422,7 +2674,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/weɪst/",
     "emoji": "🗑️",
     "synonyms": [
@@ -2432,7 +2684,21 @@
     "antonyms": [
       "save"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "waste",
+        "form": "noun"
+      },
+      {
+        "term": "wasteful",
+        "form": "adjective"
+      },
+      {
+        "term": "wastefully",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:fire:noun",
@@ -2451,7 +2717,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/faɪər/",
     "emoji": "🔥",
     "countability": "countable",
@@ -2462,6 +2728,13 @@
       "conflagration"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fire",
+        "form": "verb",
+        "meaning_shift": "to set alight"
+      }
+    ]
   }
 ]

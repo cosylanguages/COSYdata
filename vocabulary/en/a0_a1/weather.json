@@ -106,7 +106,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "weather",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "seasons",
     "tags": [
       "spoken"
@@ -120,7 +120,9 @@
       "A2"
     ],
     "article": "a",
-    "sub_theme": "seasons_atmosphere"
+    "sub_theme": "seasons_atmosphere",
+    "sense": "weather-period",
+    "sense_label": "part of the year"
   },
   {
     "id": "en:plant:noun",
@@ -772,5 +774,42 @@
     "transcription_variants": {
       "us": "/snoʊ/"
     }
+  },
+  {
+    "id": "en:season-flavour:verb",
+    "word": "season",
+    "language": "en",
+    "form": "verb",
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "sense": "flavour",
+    "sense_label": "add flavour to food",
+    "definitions": [
+      "To season food means to add salt, herbs or spices to it."
+    ],
+    "examples": [
+      "Season the soup with salt and pepper.",
+      "The chef seasoned the meat before cooking."
+    ],
+    "domain": "general, spoken",
+    "theme": "food",
+    "sub_theme": "general",
+    "transcription": "/ˈsiː.zən/",
+    "emoji": "🧂",
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "seasoning",
+        "form": "noun"
+      },
+      {
+        "term": "seasoned",
+        "form": "adjective",
+        "meaning_shift": "flavoured, or experienced"
+      }
+    ],
+    "updated": "2026-11-28"
   }
 ]

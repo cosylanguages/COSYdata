@@ -13,7 +13,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "grammar",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -37,7 +37,13 @@
     "related_forms": [
       "COSYtools:en-irregular-verbs:fall"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fall",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:shift:verb",
@@ -53,7 +59,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "grammar",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -68,7 +74,13 @@
       "remain",
       "stay"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "shift",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:contrast:verb",
@@ -84,7 +96,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "grammar",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -102,7 +114,17 @@
     "transcription_variants": {
       "us": "/kənˈtræst/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "contrast",
+        "form": "noun"
+      },
+      {
+        "term": "contrasting",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:similarity:verb",
@@ -218,7 +240,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "grammar",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -237,6 +259,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "decrease",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -253,7 +281,7 @@
     ],
     "domain": "general",
     "theme": "grammar",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈwɜː.sən/",
     "emoji": "📉",
     "synonyms": [
@@ -268,7 +296,13 @@
     "transcription_variants": {
       "us": "/ˈwɝː.sən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "worsening",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:double:verb",
@@ -284,7 +318,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "grammar",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -297,7 +331,17 @@
     "antonyms": [
       "halve"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "double",
+        "form": "noun"
+      },
+      {
+        "term": "doubly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:halve:verb",
@@ -313,7 +357,7 @@
     ],
     "domain": "general, spoken",
     "theme": "grammar",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -329,7 +373,14 @@
     "transcription_variants": {
       "us": "/hæv/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "half",
+        "form": "noun",
+        "meaning_shift": "one of two equal parts"
+      }
+    ]
   },
   {
     "id": "en:fluctuate:verb",
@@ -346,7 +397,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "grammar",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -364,6 +415,12 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "fluctuation",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -381,7 +438,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "grammar",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/rɪˈmeɪn/",
     "emoji": "🛑",
     "synonyms": [
@@ -397,7 +454,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "remaining",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:stable:adjective",
@@ -413,7 +476,7 @@
     ],
     "domain": "general, exam",
     "theme": "grammar",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈsteɪ.bəl/",
     "emoji": "⚖️",
     "synonyms": [
@@ -425,7 +488,21 @@
       "unstable",
       "unsteady"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "stability",
+        "form": "noun"
+      },
+      {
+        "term": "stably",
+        "form": "adverb"
+      },
+      {
+        "term": "stabilize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:gradually:verb",
@@ -646,7 +723,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "grammar",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1",
       "C1"
@@ -665,7 +742,17 @@
     "transcription_variants": {
       "us": "/trænsˈfɔːrm/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "transformation",
+        "form": "noun"
+      },
+      {
+        "term": "transformative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:transformation:verb",
@@ -728,7 +815,17 @@
     "domain": "general",
     "theme": "grammar",
     "concept": "grammar.general.contrast",
-    "updated": "2025-05-20",
-    "sub_theme": "general"
+    "updated": "2026-11-28",
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "contrast",
+        "form": "verb"
+      },
+      {
+        "term": "contrasting",
+        "form": "adjective"
+      }
+    ]
   }
 ]

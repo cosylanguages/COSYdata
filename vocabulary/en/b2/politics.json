@@ -81,7 +81,7 @@
     ],
     "domain": "general, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -97,7 +97,21 @@
       "aggression",
       "offense"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "defenceless",
+        "form": "adjective"
+      },
+      {
+        "term": "defenceless",
+        "form": "adverb"
+      },
+      {
+        "term": "defend",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:defense:noun",
@@ -113,7 +127,7 @@
     ],
     "domain": "general",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -129,7 +143,29 @@
       "aggression",
       "offense"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "defend",
+        "form": "verb"
+      },
+      {
+        "term": "defenseless",
+        "form": "adjective"
+      },
+      {
+        "term": "defenseless",
+        "form": "adverb"
+      },
+      {
+        "term": "defensive",
+        "form": "adjective"
+      },
+      {
+        "term": "defensive",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:amendment:noun",
@@ -145,7 +181,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -158,7 +194,13 @@
       "modification"
     ],
     "no_antonym": true,
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "amend",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:constitution:noun",
@@ -174,7 +216,7 @@
     ],
     "domain": "general, spoken",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -189,7 +231,25 @@
     "transcription_variants": {
       "us": "/ˌkɑːn.stəˈtuː.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "constitute",
+        "form": "verb"
+      },
+      {
+        "term": "constitutional",
+        "form": "adjective"
+      },
+      {
+        "term": "constitutional",
+        "form": "noun"
+      },
+      {
+        "term": "constitutionalize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:constitutional:adjective",
@@ -205,7 +265,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌkɒn.stɪˈtjuː.ʃən.əl/",
     "emoji": "🏛️",
     "synonyms": [
@@ -220,7 +280,25 @@
     "transcription_variants": {
       "us": "/ˌkɑːn.stəˈtuː.ʃən.əl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "constitute",
+        "form": "verb"
+      },
+      {
+        "term": "constitution",
+        "form": "noun"
+      },
+      {
+        "term": "constitutionalize",
+        "form": "verb"
+      },
+      {
+        "term": "constitutionally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:bureaucracy:noun",
@@ -237,7 +315,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -259,7 +337,13 @@
       "B2",
       "C1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "bureaucratic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:lobbying:noun",
@@ -371,7 +455,7 @@
     ],
     "domain": "general",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɔːˈtɒn.ə.məs/",
     "emoji": "🏛️",
     "synonyms": [
@@ -386,7 +470,13 @@
     "transcription_variants": {
       "us": "/ɑːˈtɑː.nə.məs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "autonomy",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:regime:adjective",
@@ -489,7 +579,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -511,7 +601,21 @@
     "transcription_variants": {
       "us": "/ˌdɪp.ləˈmæt̬.ɪk/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "diplomacy",
+        "form": "noun"
+      },
+      {
+        "term": "diplomat",
+        "form": "noun"
+      },
+      {
+        "term": "diplomatically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:jurisdiction:noun",
@@ -528,7 +632,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -548,6 +652,12 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "jurisdictional",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -565,7 +675,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -586,6 +696,16 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "litigate",
+        "form": "verb"
+      },
+      {
+        "term": "litigious",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -640,7 +760,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -655,7 +775,13 @@
       "plaintiff",
       "prosecution"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "defend",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:prosecution:noun",
@@ -671,7 +797,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -688,7 +814,13 @@
     "transcription_variants": {
       "us": "/ˌprɑː.səˈkjuː.ʃən/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "prosecute",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:testimony:noun",
@@ -704,7 +836,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -720,7 +852,17 @@
     "transcription_variants": {
       "us": "/ˈtes.tə.moʊ.ni/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "testify",
+        "form": "verb"
+      },
+      {
+        "term": "testimonial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:acquit:verb",
@@ -736,7 +878,7 @@
     ],
     "domain": "general",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈkwɪt/",
     "emoji": "🏛️",
     "synonyms": [
@@ -748,7 +890,13 @@
       "convict",
       "find guilty"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "acquittal",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:appeal:verb",
@@ -764,7 +912,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -775,7 +923,13 @@
       "re-try"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "appealable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:opposition:noun",
@@ -795,7 +949,7 @@
       "spoken",
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɒp.əˈzɪʃ.ən/",
     "emoji": "🏛️",
     "countability": "countable",
@@ -810,7 +964,17 @@
     "transcription_variants": {
       "us": "/ˌɑː.pəˈzɪʃ.ən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "oppose",
+        "form": "verb"
+      },
+      {
+        "term": "opposite",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:transparency:noun",
@@ -832,7 +996,7 @@
       "spoken",
       "upper-intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/trænˈspær.ən.si/",
     "emoji": "🏛️",
     "countability": "uncountable",
@@ -847,7 +1011,17 @@
     "transcription_variants": {
       "us": "/trænˈsper.ən.si/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "transparent",
+        "form": "adjective"
+      },
+      {
+        "term": "transparently",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:civil-liberties:noun",
@@ -935,7 +1109,7 @@
       "spoken",
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈkwɪt.əl/",
     "emoji": "🏛️",
     "countability": "countable",
@@ -953,6 +1127,12 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "acquit",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -1068,7 +1248,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈɑː.bɪ.treɪt/",
     "emoji": "⚖️",
     "synonyms": [
@@ -1076,7 +1256,37 @@
       "adjudicate"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "arbiter",
+        "form": "noun"
+      },
+      {
+        "term": "arbitrable",
+        "form": "adjective"
+      },
+      {
+        "term": "arbitrament",
+        "form": "noun"
+      },
+      {
+        "term": "arbitration",
+        "form": "noun"
+      },
+      {
+        "term": "arbitrative",
+        "form": "adjective"
+      },
+      {
+        "term": "arbitrator",
+        "form": "noun"
+      },
+      {
+        "term": "arbitrement",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:coercion:noun",
@@ -1095,7 +1305,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kəʊˈɜː.ʃən/",
     "emoji": "🛡️",
     "synonyms": [
@@ -1106,7 +1316,13 @@
       "volition"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "coerce",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:coexistence:noun",
@@ -1125,7 +1341,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌkəʊ.ɪɡˈzɪs.təns/",
     "emoji": "🕊️",
     "synonyms": [
@@ -1136,7 +1352,17 @@
       "hostility"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "coexist",
+        "form": "verb"
+      },
+      {
+        "term": "coexistent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:consensus:noun",
@@ -1157,7 +1383,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/kənˈsen.səs/",
     "emoji": "🤝",
     "synonyms": [
@@ -1168,7 +1394,13 @@
       "discord"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "consensual",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:dictate:verb",
@@ -1187,7 +1419,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/dɪkˈteɪt/",
     "emoji": "📜",
     "synonyms": [
@@ -1195,7 +1427,17 @@
       "order"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "dictation",
+        "form": "noun"
+      },
+      {
+        "term": "dictator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:doctrine:noun",
@@ -1214,7 +1456,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "transcription": "/ˈdɒk.trɪn/",
     "emoji": "🏛️",
     "synonyms": [
@@ -1223,7 +1465,13 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "doctrinal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:dominate:verb",
@@ -1242,7 +1490,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈdɒm.ɪ.neɪt/",
     "emoji": "👑",
     "synonyms": [
@@ -1252,7 +1500,21 @@
     "antonyms": [
       "submit"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "dominance",
+        "form": "noun"
+      },
+      {
+        "term": "dominant",
+        "form": "adjective"
+      },
+      {
+        "term": "domination",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:impose:verb",
@@ -1271,7 +1533,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪmˈpəʊz/",
     "emoji": "⚖️",
     "synonyms": [
@@ -1281,7 +1543,13 @@
     "antonyms": [
       "lift"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "imposition",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:judiciary:noun",
@@ -1328,7 +1596,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈledʒ.ɪs.lə.tʃər/",
     "emoji": "🏛️",
     "synonyms": [
@@ -1337,7 +1605,13 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "legislate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:liberty:noun",
@@ -1356,7 +1630,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈlɪb.ə.ti/",
     "emoji": "🗽",
     "synonyms": [
@@ -1367,7 +1641,13 @@
       "oppression"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "liberate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:manifesto:noun",
@@ -1415,7 +1695,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈmiː.di.eɪt/",
     "emoji": "🕊️",
     "synonyms": [
@@ -1427,6 +1707,20 @@
     "levels": [
       "B2",
       "C2"
+    ],
+    "derivatives": [
+      {
+        "term": "mediateer",
+        "form": "adjective"
+      },
+      {
+        "term": "mediation",
+        "form": "noun"
+      },
+      {
+        "term": "mediator",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -1504,7 +1798,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/nɔːm/",
     "emoji": "📏",
     "synonyms": [
@@ -1517,7 +1811,21 @@
       "B2",
       "C1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "normal",
+        "form": "adjective"
+      },
+      {
+        "term": "normal",
+        "form": "noun"
+      },
+      {
+        "term": "normen",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:rebellion:noun",
@@ -1536,7 +1844,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/rɪˈbel.jən/",
     "emoji": "⚔️",
     "synonyms": [
@@ -1547,7 +1855,17 @@
       "loyalty"
     ],
     "countability": "countable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "rebel",
+        "form": "verb"
+      },
+      {
+        "term": "rebellious",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:represent:verb",
@@ -1568,7 +1886,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˌrep.rɪˈzent/",
     "emoji": "🏛️",
     "synonyms": [
@@ -1580,6 +1898,20 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "representable",
+        "form": "adjective"
+      },
+      {
+        "term": "representation",
+        "form": "noun"
+      },
+      {
+        "term": "representative",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -1599,7 +1931,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌrev.əˈluː.ʃən/",
     "emoji": "🔄",
     "synonyms": [
@@ -1608,7 +1940,29 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "revolutionary",
+        "form": "adjective"
+      },
+      {
+        "term": "revolutionary",
+        "form": "noun"
+      },
+      {
+        "term": "revolutionise",
+        "form": "verb"
+      },
+      {
+        "term": "revolutionist",
+        "form": "noun"
+      },
+      {
+        "term": "revolutionize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:segregate:verb",
@@ -1627,7 +1981,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈseg.rɪ.ɡeɪt/",
     "emoji": "🚫",
     "synonyms": [
@@ -1637,7 +1991,17 @@
     "antonyms": [
       "integrate"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "segregation",
+        "form": "noun"
+      },
+      {
+        "term": "segregator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:municipality:noun",
@@ -1653,7 +2017,7 @@
     ],
     "domain": "relocation",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -1669,7 +2033,13 @@
       "town council"
     ],
     "no_antonym": true,
-    "sub_theme": "government"
+    "sub_theme": "government",
+    "derivatives": [
+      {
+        "term": "municipal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:bureaucratic-red-tape:noun",

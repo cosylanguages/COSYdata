@@ -79,7 +79,7 @@
     ],
     "domain": "general, professional",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -95,7 +95,13 @@
     "transcription_variants": {
       "us": "/ˈven.tʃɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "venturous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:shareholder:noun",
@@ -234,7 +240,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -250,7 +256,13 @@
       "solvency",
       "financial stability"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "bankrupt",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:insolvency:noun",
@@ -266,7 +278,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈsɒl.vən.si/",
     "emoji": "📉",
     "countability": "uncountable",
@@ -280,7 +292,13 @@
     "transcription_variants": {
       "us": "/ɪnˈsɑːl.vən.si/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "insolvent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:acquisition:noun",
@@ -296,7 +314,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "business",
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -315,7 +333,13 @@
     "transcription_variants": {
       "us": "/ˌæk.wəˈzɪʃ.ən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "acquire",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:outsourcing:noun",
@@ -367,7 +391,7 @@
     ],
     "domain": "general, exam",
     "theme": "business",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/kəmˈpet.ɪ.tɪv/",
     "emoji": "🏆",
     "synonyms": [
@@ -386,6 +410,20 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "compete",
+        "form": "verb"
+      },
+      {
+        "term": "competitively",
+        "form": "adverb"
+      },
+      {
+        "term": "competitiveness",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -402,7 +440,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "business",
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -420,7 +458,25 @@
     "transcription_variants": {
       "us": "/məˈnɑː.pəl.i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "monopolise",
+        "form": "verb"
+      },
+      {
+        "term": "monopolist",
+        "form": "noun"
+      },
+      {
+        "term": "monopolistic",
+        "form": "adjective"
+      },
+      {
+        "term": "monopolize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:oligopoly:noun",
@@ -466,7 +522,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "business",
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -485,7 +541,17 @@
     "transcription_variants": {
       "us": "/ˈsʌb.sə.di/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "subsidise",
+        "form": "verb"
+      },
+      {
+        "term": "subsidize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:tariff:noun",
@@ -530,7 +596,7 @@
     ],
     "domain": "general, exam",
     "theme": "business",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈfɪs.kəl/",
     "emoji": "🏛️",
     "synonyms": [
@@ -539,7 +605,13 @@
       "budgetary"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fiscally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:monetary:adjective",
@@ -583,7 +655,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɡrəʊs/",
     "emoji": "📊",
     "synonyms": [
@@ -597,7 +669,17 @@
     "transcription_variants": {
       "us": "/ɡroʊs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "grossly",
+        "form": "adverb"
+      },
+      {
+        "term": "grossness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:domestic:adjective",
@@ -614,7 +696,7 @@
     ],
     "domain": "general, exam",
     "theme": "business",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/dəˈmes.tɪk/",
     "emoji": "🏠",
     "synonyms": [
@@ -626,7 +708,21 @@
       "foreign",
       "international"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "domestically",
+        "form": "adverb"
+      },
+      {
+        "term": "domesticity",
+        "form": "noun"
+      },
+      {
+        "term": "domesticize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:product:noun",
@@ -642,7 +738,7 @@
     ],
     "domain": "general, professional",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -658,7 +754,17 @@
     "transcription_variants": {
       "us": "/ˈprɑː.dʌkt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "produce",
+        "form": "verb"
+      },
+      {
+        "term": "productive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:gdp:noun",
@@ -703,7 +809,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "business",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈfleɪ.ʃən/",
     "emoji": "📉",
     "countability": "uncountable",
@@ -714,7 +820,17 @@
     "antonyms": [
       "inflation"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "deflate",
+        "form": "verb"
+      },
+      {
+        "term": "deflationary",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:diversify:verb",
@@ -731,7 +847,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "business",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -749,7 +865,17 @@
     "transcription_variants": {
       "us": "/dəˈvɝː.sə.faɪ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "diversification",
+        "form": "noun"
+      },
+      {
+        "term": "diversity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:diversification:noun",
@@ -765,7 +891,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/daɪˌvɜː.sɪ.fɪˈkeɪ.ʃən/",
     "emoji": "🔀",
     "countability": "uncountable",
@@ -780,7 +906,13 @@
     "transcription_variants": {
       "us": "/dəˌvɝː.sə.fəˈkeɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "diversify",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:liquidity:noun",
@@ -796,7 +928,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "business",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/lɪˈkwɪd.ə.ti/",
     "emoji": "💧",
     "countability": "uncountable",
@@ -811,7 +943,13 @@
     "transcription_variants": {
       "us": "/lɪˈkwɪd.ə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "liquid",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:board-of-directors:noun",
@@ -1875,7 +2013,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈdwɪn.dəl/",
     "emoji": "📉",
     "synonyms": [
@@ -1885,7 +2023,13 @@
     "antonyms": [
       "grow"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "dwindling",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:maximize:verb",
@@ -1904,7 +2048,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmæk.sɪ.maɪz/",
     "emoji": "📈",
     "synonyms": [
@@ -1914,7 +2058,17 @@
     "antonyms": [
       "minimize"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "maximisation",
+        "form": "noun"
+      },
+      {
+        "term": "maximization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:minimize:verb",
@@ -1933,7 +2087,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmɪn.ɪ.maɪz/",
     "emoji": "📉",
     "synonyms": [
@@ -1943,7 +2097,17 @@
     "antonyms": [
       "maximize"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "minimisation",
+        "form": "noun"
+      },
+      {
+        "term": "minimization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:portfolio:noun",
@@ -2018,7 +2182,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈpɜː.tʃəs/",
     "emoji": "🛍️",
     "synonyms": [
@@ -2028,7 +2192,17 @@
     "antonyms": [
       "sell"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "purchaser",
+        "form": "noun"
+      },
+      {
+        "term": "purchasing",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:soar:verb",
@@ -2047,7 +2221,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/sɔːr/",
     "emoji": "🚀",
     "synonyms": [
@@ -2057,7 +2231,13 @@
     "antonyms": [
       "plummet"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "soaring",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:stabilize:verb",
@@ -2076,7 +2256,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsteɪ.bəl.aɪz/",
     "emoji": "⚖️",
     "synonyms": [
@@ -2086,7 +2266,25 @@
     "antonyms": [
       "destabilize"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "stabilisation",
+        "form": "noun"
+      },
+      {
+        "term": "stabiliser",
+        "form": "noun"
+      },
+      {
+        "term": "stabilization",
+        "form": "noun"
+      },
+      {
+        "term": "stabilizer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:stagnate:verb",
@@ -2105,7 +2303,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/stæɡˈneɪt/",
     "emoji": "📉",
     "synonyms": [
@@ -2115,7 +2313,21 @@
     "antonyms": [
       "flourish"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "stagnancy",
+        "form": "noun"
+      },
+      {
+        "term": "stagnant",
+        "form": "adjective"
+      },
+      {
+        "term": "stagnation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:beneficiary:noun",
@@ -2190,7 +2402,7 @@
     ],
     "domain": "relocation",
     "theme": "money",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -2206,7 +2418,13 @@
       "liability",
       "obligation"
     ],
-    "sub_theme": "banking"
+    "sub_theme": "banking",
+    "derivatives": [
+      {
+        "term": "exempt",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:financial-advisor:noun",
@@ -2439,7 +2657,7 @@
     ],
     "domain": "relocation, travel",
     "theme": "money",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -2451,7 +2669,13 @@
       "foreign wire"
     ],
     "no_antonym": true,
-    "sub_theme": "banking"
+    "sub_theme": "banking",
+    "derivatives": [
+      {
+        "term": "remit",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:retirement-fund:noun",
@@ -2775,7 +2999,7 @@
     "domain": "general, relocation",
     "theme": "business",
     "transcription": "/ˈsaɪ.klɪ.kəl/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "occurring in cycles or recurring regularly in predictable economic or seasonal intervals"
     ],
@@ -2795,7 +3019,13 @@
       "linear",
       "constant"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "cyclicity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:administrative-fee:noun",
@@ -3420,7 +3650,7 @@
     "level": "B2",
     "domain": "general, travel",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "Repayment of money spent or lost by an individual."
     ],
@@ -3440,7 +3670,13 @@
       "economy",
       "travel"
     ],
-    "sub_theme": "commerce"
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "reimburse",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:venture:verb",
@@ -3469,8 +3705,14 @@
     "domain": "general",
     "theme": "business",
     "concept": "business.commerce.venture",
-    "updated": "2025-05-20",
-    "sub_theme": "commerce"
+    "updated": "2026-11-28",
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "venturous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:audit:verb",
@@ -3499,8 +3741,22 @@
     "domain": "general",
     "theme": "business",
     "concept": "business.commerce.audit",
-    "updated": "2025-05-20",
-    "sub_theme": "commerce"
+    "updated": "2026-11-28",
+    "sub_theme": "commerce",
+    "derivatives": [
+      {
+        "term": "auditing",
+        "form": "noun"
+      },
+      {
+        "term": "auditor",
+        "form": "noun"
+      },
+      {
+        "term": "auditory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:yield:noun",

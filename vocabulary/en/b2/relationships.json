@@ -48,7 +48,7 @@
     ],
     "domain": "general",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C2"
@@ -63,7 +63,21 @@
       "withhold",
       "ignore"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "reciprocation",
+        "form": "noun"
+      },
+      {
+        "term": "reciprocative",
+        "form": "adjective"
+      },
+      {
+        "term": "reciprocatory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:boundaries:noun",
@@ -111,7 +125,7 @@
     ],
     "domain": "general",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -126,7 +140,13 @@
       "unilateralism",
       "one-sidedness"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "reciprocal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:reconcile:noun",
@@ -262,7 +282,7 @@
     ],
     "domain": "general",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "synonyms": [
       "maladjusted",
@@ -273,7 +293,13 @@
       "functional",
       "healthy"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "dysfunction",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:estranged:adjective",
@@ -321,7 +347,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -335,7 +361,13 @@
       "estrangement",
       "alienation"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "reconcile",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:alienate:verb",
@@ -353,7 +385,7 @@
     ],
     "domain": "general",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "synonyms": [
       "estrange",
@@ -368,7 +400,17 @@
       "B2",
       "C2"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "alienable",
+        "form": "adjective"
+      },
+      {
+        "term": "alienator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:alienation:noun",
@@ -481,7 +523,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -495,7 +537,13 @@
       "decisive",
       "certain"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "ambivalence",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:validate:verb",
@@ -512,7 +560,7 @@
     ],
     "domain": "general, relocation, travel, professional, exam",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "synonyms": [
       "affirm",
@@ -523,7 +571,17 @@
       "invalidate",
       "nullify"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "validation",
+        "form": "noun"
+      },
+      {
+        "term": "validatory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:validation:noun",
@@ -540,7 +598,7 @@
     ],
     "domain": "general, spoken",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -555,7 +613,13 @@
       "invalidation",
       "rejection"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "validate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:attachment:noun",
@@ -574,7 +638,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "countability": "countable",
     "synonyms": [
@@ -590,6 +654,12 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "attach",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -607,7 +677,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "countability": "countable",
     "synonyms": [
@@ -619,7 +689,13 @@
       "attachment",
       "involvement"
     ],
-    "sub_theme": "relationships"
+    "sub_theme": "relationships",
+    "derivatives": [
+      {
+        "term": "detach",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:vulnerability:noun",
@@ -636,7 +712,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "family",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "countability": "uncountable",
     "synonyms": [
@@ -648,7 +724,13 @@
       "defensiveness",
       "invulnerability"
     ],
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "vulnerable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:emotional-baggage:noun",
@@ -1201,7 +1283,7 @@
       "spoken",
       "upper-intermediate"
     ],
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🤝",
     "countability": "uncountable",
     "synonyms": [
@@ -1216,6 +1298,20 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "chemic",
+        "form": "adjective"
+      },
+      {
+        "term": "chemical",
+        "form": "adjective"
+      },
+      {
+        "term": "chemist",
+        "form": "noun"
+      }
     ]
   },
   {

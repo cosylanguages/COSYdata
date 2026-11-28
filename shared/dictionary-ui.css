@@ -883,6 +883,20 @@ html[data-theme="dark"] .cosy-dict-tag-domain {
   color: var(--cosy-dict-chip-antonym-text);
 }
 
+.cosy-dict-sense-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--cosy-dict-text-muted);
+  font-style: italic;
+}
+
+.cosy-dict-chip-derivative,
+.cosy-dict-chip-form {
+  background-color: transparent;
+  color: var(--cosy-dict-text);
+  border: 1px solid var(--cosy-dict-border);
+}
+
 /* Load More Pagination */
 .cosy-dict-load-more-container {
   display: flex;

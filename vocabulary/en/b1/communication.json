@@ -15,7 +15,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "contexts",
     "tags": [
       "spoken"
@@ -37,7 +37,21 @@
     "transcription_variants": {
       "us": "/ˈkɑːn.tekst/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "contextual",
+        "form": "adjective"
+      },
+      {
+        "term": "contextually",
+        "form": "adverb"
+      },
+      {
+        "term": "contextualize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:implication:noun",
@@ -54,7 +68,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "implications",
     "tags": [
       "spoken"
@@ -75,7 +89,13 @@
     "transcription_variants": {
       "us": "/ˌɪm.pləˈkeɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "imply",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:nuance:noun",
@@ -92,7 +112,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "nuances",
     "tags": [
       "spoken"
@@ -114,7 +134,17 @@
     "transcription_variants": {
       "us": "/ˈnuː.ɑːns/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "nuanced",
+        "form": "adjective"
+      },
+      {
+        "term": "nuance",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:ambiguous:adjective",
@@ -130,7 +160,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -149,7 +179,17 @@
       "clear",
       "unambiguous"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "ambiguity",
+        "form": "noun"
+      },
+      {
+        "term": "ambiguously",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:fluency:noun",
@@ -165,7 +205,7 @@
     ],
     "domain": "general, relocation",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈfluː.ən.si/",
     "emoji": "🗣️",
     "countability": "uncountable",
@@ -178,7 +218,17 @@
       "inarticulacy",
       "hesitancy"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fluent",
+        "form": "adjective"
+      },
+      {
+        "term": "fluently",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:bilingual:adjective",
@@ -194,7 +244,7 @@
     ],
     "domain": "general, relocation, travel",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/baɪˈlɪŋ.ɡwəl/",
     "emoji": "🗣️",
     "synonyms": [
@@ -204,7 +254,17 @@
     "antonyms": [
       "monolingual"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "bilingualism",
+        "form": "noun"
+      },
+      {
+        "term": "bilingually",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:multilingual:adjective",
@@ -220,7 +280,7 @@
     ],
     "domain": "general, relocation",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌmʌl.tiˈlɪŋ.ɡwəl/",
     "emoji": "🌐",
     "synonyms": [
@@ -230,7 +290,17 @@
     "antonyms": [
       "monolingual"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "multilingualism",
+        "form": "noun"
+      },
+      {
+        "term": "multilingually",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:slang:noun",
@@ -246,7 +316,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -260,7 +330,13 @@
     "antonyms": [
       "formal language"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "slangy",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:jargon:noun",
@@ -308,7 +384,7 @@
     ],
     "domain": "general, professional",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌtɜː.mɪˈnɒl.ə.dʒi/",
     "emoji": "📚",
     "countability": "uncountable",
@@ -321,7 +397,17 @@
     "transcription_variants": {
       "us": "/ˌtɝː.məˈnɑː.lə.dʒi/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "term",
+        "form": "noun"
+      },
+      {
+        "term": "terminological",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:paraphrase:verb",
@@ -337,7 +423,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈpær.ə.freɪz/",
     "emoji": "🔄",
     "synonyms": [
@@ -348,7 +434,13 @@
     "antonyms": [
       "quote directly"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "paraphrase",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:summarise:verb",
@@ -364,7 +456,7 @@
     ],
     "domain": "general, professional",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsʌm.ər.aɪz/",
     "emoji": "📝",
     "synonyms": [
@@ -385,7 +477,17 @@
     "regional_equivalents": [
       "en:summarize:verb"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "summary",
+        "form": "noun"
+      },
+      {
+        "term": "summarisation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:summarize:verb",
@@ -401,7 +503,7 @@
     ],
     "domain": "general, relocation, travel",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈsʌm.ər.aɪz/",
     "emoji": "📝",
     "synonyms": [
@@ -422,7 +524,17 @@
     "regional_equivalents": [
       "en:summarise:verb"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "summary",
+        "form": "noun"
+      },
+      {
+        "term": "summarization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:elaborate:verb",
@@ -439,7 +551,7 @@
     ],
     "domain": "general, relocation, travel",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ɪˈlæb.ər.eɪt/",
     "emoji": "💬",
     "synonyms": [
@@ -455,6 +567,20 @@
     "levels": [
       "B1",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "elaboration",
+        "form": "noun"
+      },
+      {
+        "term": "elaborate",
+        "form": "adjective"
+      },
+      {
+        "term": "elaborately",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -471,7 +597,7 @@
     ],
     "domain": "general, relocation, travel, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈklær.ɪ.faɪ/",
     "emoji": "💡",
     "synonyms": [
@@ -486,7 +612,17 @@
     "transcription_variants": {
       "us": "/ˈklær.ə.faɪ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "clarification",
+        "form": "noun"
+      },
+      {
+        "term": "clarity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:literal:adjective",
@@ -502,7 +638,7 @@
     ],
     "domain": "general, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈlɪt.ər.əl/",
     "emoji": "📖",
     "synonyms": [
@@ -517,7 +653,17 @@
     "transcription_variants": {
       "us": "/ˈlɪt̬.ɚ.əl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "literalism",
+        "form": "noun"
+      },
+      {
+        "term": "literally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:figurative:adjective",
@@ -533,7 +679,7 @@
     ],
     "domain": "general, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈfɪɡ.ər.ət.ɪv/",
     "emoji": "🎨",
     "synonyms": [
@@ -547,7 +693,13 @@
     "transcription_variants": {
       "us": "/ˈfɪɡ.jɚ.ə.t̬ɪv/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "figuratively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:sarcasm:noun",
@@ -563,7 +715,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -581,7 +733,17 @@
     "transcription_variants": {
       "us": "/ˈsɑːr.kæz.əm/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "sarcastic",
+        "form": "adjective"
+      },
+      {
+        "term": "sarcastically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:tone:noun",
@@ -597,7 +759,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "tones",
     "transcription": "/təʊn/",
     "emoji": "🎵",
@@ -611,7 +773,17 @@
     "transcription_variants": {
       "us": "/toʊn/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "tonal",
+        "form": "adjective"
+      },
+      {
+        "term": "tone",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:register:noun",
@@ -627,7 +799,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "registers",
     "tags": [
       "spoken"
@@ -644,7 +816,17 @@
     "transcription_variants": {
       "us": "/ˈredʒ.ə.stɚ/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "register",
+        "form": "verb"
+      },
+      {
+        "term": "registration",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:announcement:noun",
@@ -665,7 +847,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/əˈnaʊns.mənt/",
     "emoji": "📢",
     "countability": "countable",
@@ -680,6 +862,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "announce",
+        "form": "verb"
+      },
+      {
+        "term": "announcer",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -700,7 +892,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/əˈpɒl.ə.dʒi/",
     "emoji": "🙏",
     "countability": "countable",
@@ -715,6 +907,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "apologize",
+        "form": "verb"
+      },
+      {
+        "term": "apologetic",
+        "form": "adjective"
+      },
+      {
+        "term": "apologetically",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -736,7 +942,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈkɒm.plɪ.mənt/",
     "emoji": "👏",
     "countability": "countable",
@@ -754,6 +960,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "compliment",
+        "form": "verb"
+      },
+      {
+        "term": "complimentary",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -807,7 +1023,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/kənˈfeʃ.ən/",
     "emoji": "💬",
     "countability": "countable",
@@ -820,7 +1036,17 @@
     "antonyms": [
       "denial"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "confess",
+        "form": "verb"
+      },
+      {
+        "term": "confessor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:congratulation:noun",
@@ -839,7 +1065,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/kənˌɡrætʃ.əˈleɪ.ʃən/",
     "emoji": "🎉",
     "countability": "countable",
@@ -850,7 +1076,17 @@
       "compliment"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "congratulate",
+        "form": "verb"
+      },
+      {
+        "term": "congratulatory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:declaration:noun",
@@ -869,7 +1105,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌdek.ləˈreɪ.ʃən/",
     "emoji": "📜",
     "countability": "countable",
@@ -880,7 +1116,17 @@
       "proclamation"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "declare",
+        "form": "verb"
+      },
+      {
+        "term": "declared",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:definition:noun",
@@ -901,7 +1147,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˌdef.ɪˈnɪʃ.ən/",
     "emoji": "📖",
     "countability": "countable",
@@ -916,6 +1162,24 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "define",
+        "form": "verb"
+      },
+      {
+        "term": "definite",
+        "form": "adjective"
+      },
+      {
+        "term": "definitely",
+        "form": "adverb"
+      },
+      {
+        "term": "definitive",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -935,7 +1199,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌdɪs.əˈɡriː.mənt/",
     "emoji": "🗣️",
     "countability": "countable",
@@ -949,7 +1213,17 @@
       "agreement",
       "harmony"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "disagree",
+        "form": "verb"
+      },
+      {
+        "term": "disagreeable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:disclose:verb",
@@ -968,7 +1242,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/dɪsˈkləʊz/",
     "emoji": "🔓",
     "synonyms": [
@@ -980,7 +1254,13 @@
       "conceal",
       "hide"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "disclosure",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:explanation:noun",
@@ -1001,7 +1281,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˌek.spləˈneɪ.ʃən/",
     "emoji": "💡",
     "countability": "countable",
@@ -1016,6 +1296,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "explain",
+        "form": "verb"
+      },
+      {
+        "term": "explanatory",
+        "form": "adjective"
+      },
+      {
+        "term": "explainable",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -1070,7 +1364,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈɡriː.tɪŋ/",
     "emoji": "🙋",
     "countability": "countable",
@@ -1088,6 +1382,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "greet",
+        "form": "verb"
+      },
+      {
+        "term": "greeter",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -1107,7 +1411,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈnəʊ.tɪ.faɪ/",
     "emoji": "🔔",
     "synonyms": [
@@ -1116,7 +1420,17 @@
       "alert"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "notification",
+        "form": "noun"
+      },
+      {
+        "term": "notified",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:quotation:noun",
@@ -1135,7 +1449,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/kwəʊˈteɪ.ʃən/",
     "emoji": "💬",
     "countability": "countable",
@@ -1146,7 +1460,17 @@
       "excerpt"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "quote",
+        "form": "verb"
+      },
+      {
+        "term": "quotable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:quote:verb",
@@ -1165,7 +1489,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kwəʊt/",
     "emoji": "💬",
     "synonyms": [
@@ -1174,7 +1498,21 @@
       "recap"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "quotation",
+        "form": "noun"
+      },
+      {
+        "term": "quote",
+        "form": "noun"
+      },
+      {
+        "term": "quotable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:quote:noun",
@@ -1193,7 +1531,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kwəʊt/",
     "emoji": "💬",
     "countability": "countable",
@@ -1204,7 +1542,13 @@
       "extract"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "quote",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:reassurance:noun",
@@ -1223,7 +1567,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌriː.əˈʃɔː.rəns/",
     "emoji": "🤝",
     "countability": "countable",
@@ -1241,7 +1585,21 @@
       "B1",
       "C1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "reassure",
+        "form": "verb"
+      },
+      {
+        "term": "reassuring",
+        "form": "adjective"
+      },
+      {
+        "term": "reassuringly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:refusal:noun",
@@ -1260,7 +1618,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/rɪˈfjuː.zəl/",
     "emoji": "🙅",
     "countability": "countable",
@@ -1274,7 +1632,13 @@
       "acceptance",
       "consent"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "refuse",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:remark:noun",
@@ -1295,7 +1659,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/rɪˈmɑːk/",
     "emoji": "💬",
     "countability": "countable",
@@ -1310,6 +1674,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "remark",
+        "form": "verb"
+      },
+      {
+        "term": "remarkable",
+        "form": "adjective"
+      },
+      {
+        "term": "remarkably",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -1331,7 +1709,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsteɪt.mənt/",
     "emoji": "📄",
     "countability": "countable",
@@ -1346,6 +1724,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "state",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -1367,7 +1751,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/səˈdʒes.tʃən/",
     "emoji": "💡",
     "countability": "countable",
@@ -1382,6 +1766,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "suggest",
+        "form": "verb"
+      },
+      {
+        "term": "suggestive",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -1403,7 +1797,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsʌm.ər.i/",
     "emoji": "📝",
     "countability": "countable",
@@ -1418,6 +1812,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "summarize",
+        "form": "verb"
+      },
+      {
+        "term": "summarise",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -1465,7 +1869,7 @@
     ],
     "domain": "general, relocation",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1483,7 +1887,17 @@
     "antonyms": [
       "confusion"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "clarify",
+        "form": "verb"
+      },
+      {
+        "term": "clarity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:eye-contact:noun",
@@ -1559,7 +1973,7 @@
     ],
     "domain": "general, relocation",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1572,7 +1986,17 @@
       "expression"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "idiomatic",
+        "form": "adjective"
+      },
+      {
+        "term": "idiomatically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:mother-tongue:noun",
@@ -2202,7 +2626,7 @@
     ],
     "domain": "general",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈkɒm.ent/",
     "emoji": "💬",
     "synonyms": [
@@ -2219,6 +2643,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "comment",
+        "form": "verb"
+      },
+      {
+        "term": "commentary",
+        "form": "noun"
+      },
+      {
+        "term": "commentator",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -2235,7 +2673,7 @@
     ],
     "domain": "general",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/pəʊst/",
     "emoji": "📮",
     "synonyms": [
@@ -2246,7 +2684,21 @@
     "transcription_variants": {
       "us": "/poʊst/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "post",
+        "form": "noun"
+      },
+      {
+        "term": "posting",
+        "form": "noun"
+      },
+      {
+        "term": "posted",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:i-d-recommend:phrase",

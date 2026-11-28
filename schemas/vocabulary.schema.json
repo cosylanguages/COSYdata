@@ -217,6 +217,11 @@
       "pattern": "^[a-z0-9-]+$",
       "description": "Short slug distinguishing homographs"
     },
+    "sense_label": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short English gloss that tells the senses apart, for example 'financial institution' or 'river bank'"
+    },
     "usage_note": {
       "type": "string",
       "description": "Short sentence of usage guidance in English"
@@ -621,6 +626,10 @@
       "type": "string",
       "description": "Feminine plural form of adjective"
     },
+    "neuter_plural": {
+      "type": "string",
+      "description": "Neuter plural form of adjective"
+    },
     "position": {
       "type": "string",
       "enum": [
@@ -770,6 +779,55 @@
       },
       "minItems": 1,
       "description": "Array of derived verb forms or base verb derivation linkages"
+    },
+    "derivatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "term",
+          "form"
+        ],
+        "properties": {
+          "term": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Derived surface form or vocabulary entry ID"
+          },
+          "form": {
+            "type": "string",
+            "enum": [
+              "noun",
+              "verb",
+              "adjective",
+              "adverb",
+              "phrase",
+              "idiom",
+              "preposition",
+              "pronoun",
+              "determiner",
+              "conjunction",
+              "interjection",
+              "expression",
+              "number",
+              "article",
+              "postposition",
+              "particle",
+              "phrasal_verb",
+              "prefix",
+              "suffix"
+            ],
+            "description": "Part of speech of the derived term"
+          },
+          "meaning_shift": {
+            "type": "string",
+            "description": "Brief note on the semantic difference from the headword"
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "description": "Cross-part-of-speech members of the entry's word family (noun, verb, adjective, adverb forms). Distinct from 'derivations', which records verb-to-verb prefix and aspect relations"
     }
   },
   "allOf": [

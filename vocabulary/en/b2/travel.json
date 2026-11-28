@@ -69,7 +69,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "travel",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -83,7 +83,13 @@
       "de-zoning",
       "unregulated building"
     ],
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "regulate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:biometric-passport:noun",
@@ -161,7 +167,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "travel",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🏙️",
     "countability": "countable",
     "synonyms": [
@@ -173,6 +179,12 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "commute",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -270,7 +282,7 @@
     "level": "B2",
     "domain": "general, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "An alternative route or flight rerouting caused by obstacles."
     ],
@@ -289,7 +301,21 @@
       "travel",
       "urban_housing"
     ],
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "diversionary",
+        "form": "adjective"
+      },
+      {
+        "term": "diversionist",
+        "form": "noun"
+      },
+      {
+        "term": "divert",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:frequent-flyer-status:noun",

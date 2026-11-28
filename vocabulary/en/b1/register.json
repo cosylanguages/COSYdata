@@ -133,7 +133,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈfɔː.məl/",
     "emoji": "👔",
     "synonyms": [
@@ -151,7 +151,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "formality",
+        "form": "noun"
+      },
+      {
+        "term": "formally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:informal:adjective",
@@ -167,7 +177,7 @@
     ],
     "domain": "general, relocation",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈfɔː.məl/",
     "emoji": "👕",
     "synonyms": [
@@ -181,7 +191,17 @@
     "transcription_variants": {
       "us": "/ɪnˈfɔːr.məl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "informality",
+        "form": "noun"
+      },
+      {
+        "term": "informally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:impolite:adjective",
@@ -198,7 +218,7 @@
     ],
     "domain": "general, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪm.pəˈlaɪt/",
     "emoji": "😡",
     "synonyms": [
@@ -213,6 +233,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "impoliteness",
+        "form": "noun"
+      },
+      {
+        "term": "impolitely",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -231,7 +261,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -252,7 +282,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "request",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:basically:phrase",
@@ -772,7 +808,13 @@
     "domain": "general",
     "theme": "communication",
     "concept": "communication.general.request",
-    "updated": "2025-05-20",
-    "sub_theme": "general"
+    "updated": "2026-11-28",
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "request",
+        "form": "verb"
+      }
+    ]
   }
 ]

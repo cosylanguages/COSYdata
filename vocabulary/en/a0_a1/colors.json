@@ -435,7 +435,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "colors",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -452,7 +452,9 @@
     "sub_theme": "general",
     "related_forms": [
       "light (weight)"
-    ]
+    ],
+    "sense": "brightness",
+    "sense_label": "not dark"
   },
   {
     "id": "en:dark:adjective",
@@ -686,5 +688,50 @@
     "comparative": "more colorful",
     "superlative": "most colorful",
     "sub_theme": "descriptors"
+  },
+  {
+    "id": "en:light-notheavy:adjective",
+    "word": "light",
+    "language": "en",
+    "form": "adjective",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "not-heavy",
+    "sense_label": "not heavy",
+    "definitions": [
+      "Something light does not weigh much and is easy to lift."
+    ],
+    "examples": [
+      "This bag is light enough to carry.",
+      "I need a light jacket."
+    ],
+    "domain": "general, spoken, travel",
+    "theme": "general",
+    "sub_theme": "common_things",
+    "transcription": "/laɪt/",
+    "emoji": "🪶",
+    "antonyms": [
+      "heavy"
+    ],
+    "comparative": "lighter",
+    "superlative": "lightest",
+    "derivatives": [
+      {
+        "term": "lightly",
+        "form": "adverb"
+      },
+      {
+        "term": "lightness",
+        "form": "noun"
+      },
+      {
+        "term": "lighten",
+        "form": "verb",
+        "meaning_shift": "make less heavy"
+      }
+    ],
+    "updated": "2026-11-28"
   }
 ]

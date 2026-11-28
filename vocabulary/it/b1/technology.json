@@ -72,14 +72,20 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/dis.po.ziˈtiː.vo/",
     "emoji": "📱",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "dispositivi"
+    "plural_form": "dispositivi",
+    "derivatives": [
+      {
+        "term": "disporre",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "it:aggiornamento:noun",
@@ -100,14 +106,24 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ad.dʒor.naˈmen.to/",
     "emoji": "🔄",
     "no_antonym": true,
     "article": "l'",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "aggiornamenti"
+    "plural_form": "aggiornamenti",
+    "derivatives": [
+      {
+        "term": "aggiornare",
+        "form": "verb"
+      },
+      {
+        "term": "aggiornato",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:virus-computer:noun",
@@ -267,13 +283,23 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/roˈbɔt/",
     "emoji": "🤖",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "derivatives": [
+      {
+        "term": "robotico",
+        "form": "adjective"
+      },
+      {
+        "term": "robotica",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:segnale:noun",
@@ -294,14 +320,28 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/seɲˈɲaː.le/",
     "emoji": "📶",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "segnali"
+    "plural_form": "segnali",
+    "derivatives": [
+      {
+        "term": "segnalare",
+        "form": "verb"
+      },
+      {
+        "term": "segnalazione",
+        "form": "noun"
+      },
+      {
+        "term": "segnalatore",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:codice:noun",
@@ -322,14 +362,28 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈkɔː.di.tʃe/",
     "emoji": "💻",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "codici"
+    "plural_form": "codici",
+    "derivatives": [
+      {
+        "term": "codificare",
+        "form": "verb"
+      },
+      {
+        "term": "codifica",
+        "form": "noun"
+      },
+      {
+        "term": "codificazione",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:installare:verb",
@@ -350,11 +404,21 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/in.stalˈlaː.re/",
     "emoji": "📲",
     "antonyms": [
       "disinstallare"
+    ],
+    "derivatives": [
+      {
+        "term": "installazione",
+        "form": "noun"
+      },
+      {
+        "term": "installatore",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -376,11 +440,25 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/konˈnet.te.re/",
     "emoji": "🔌",
     "antonyms": [
       "disconnettere"
+    ],
+    "derivatives": [
+      {
+        "term": "connessione",
+        "form": "noun"
+      },
+      {
+        "term": "connesso",
+        "form": "adjective"
+      },
+      {
+        "term": "connettore",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -402,9 +480,19 @@
     "domain": "general, spoken",
     "theme": "technology",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ad.dʒorˈnaː.re/",
     "emoji": "🔄",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "aggiornamento",
+        "form": "noun"
+      },
+      {
+        "term": "aggiornato",
+        "form": "adjective"
+      }
+    ]
   }
 ]

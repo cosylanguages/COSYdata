@@ -18,14 +18,20 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈsin.to.mo/",
     "emoji": "🤒",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "sintomi"
+    "plural_form": "sintomi",
+    "derivatives": [
+      {
+        "term": "sintomatico",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:diagnosi:noun",
@@ -46,13 +52,23 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈdjaɡ.no.zi/",
     "emoji": "🩺",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "derivatives": [
+      {
+        "term": "diagnosticare",
+        "form": "verb"
+      },
+      {
+        "term": "diagnostico",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:trattamento:noun",
@@ -73,14 +89,20 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/trat.taˈmen.to/",
     "emoji": "💊",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "trattamenti"
+    "plural_form": "trattamenti",
+    "derivatives": [
+      {
+        "term": "trattare",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "it:chirurgia:noun",
@@ -100,13 +122,23 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ki.rurˈdʒiː.a/",
     "emoji": "🏥",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "chirurgo",
+        "form": "noun"
+      },
+      {
+        "term": "chirurgico",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:vaccino:noun",
@@ -127,14 +159,24 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/vatˈtʃiː.no/",
     "emoji": "💉",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "vaccini"
+    "plural_form": "vaccini",
+    "derivatives": [
+      {
+        "term": "vaccinare",
+        "form": "verb"
+      },
+      {
+        "term": "vaccinazione",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:ricetta-medica:noun",
@@ -182,7 +224,7 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ma.latˈtiː.a/",
     "emoji": "🤒",
     "antonyms": [
@@ -191,7 +233,17 @@
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "malattie"
+    "plural_form": "malattie",
+    "derivatives": [
+      {
+        "term": "malato",
+        "form": "adjective"
+      },
+      {
+        "term": "male",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:infezione:noun",
@@ -212,14 +264,28 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/in.fetˈtsjoː.ne/",
     "emoji": "🦠",
     "no_antonym": true,
     "article": "l'",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "infezioni"
+    "plural_form": "infezioni",
+    "derivatives": [
+      {
+        "term": "infettare",
+        "form": "verb"
+      },
+      {
+        "term": "infettivo",
+        "form": "adjective"
+      },
+      {
+        "term": "infetto",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:guarigione:noun",
@@ -240,7 +306,7 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/gwa.riˈdʒoː.ne/",
     "emoji": "🌱",
     "antonyms": [
@@ -249,7 +315,17 @@
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "guarigioni"
+    "plural_form": "guarigioni",
+    "derivatives": [
+      {
+        "term": "guarire",
+        "form": "verb"
+      },
+      {
+        "term": "guarito",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:salute-mentale:noun",
@@ -296,7 +372,7 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/stres/",
     "emoji": "🤯",
     "antonyms": [
@@ -308,6 +384,20 @@
     "levels": [
       "A1",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "stressare",
+        "form": "verb"
+      },
+      {
+        "term": "stressante",
+        "form": "adjective"
+      },
+      {
+        "term": "stressato",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -329,7 +419,7 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/e.zerˈtʃiː.tsjo/",
     "emoji": "🏃",
     "no_antonym": true,
@@ -340,6 +430,16 @@
     "levels": [
       "A1",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "esercitare",
+        "form": "verb"
+      },
+      {
+        "term": "esercitazione",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -360,13 +460,27 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/nu.triˈtsjoː.ne/",
     "emoji": "🥗",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "nutrire",
+        "form": "verb"
+      },
+      {
+        "term": "nutrimento",
+        "form": "noun"
+      },
+      {
+        "term": "nutrizionale",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:primo-soccorso:noun",
@@ -413,13 +527,23 @@
     "domain": "general, spoken",
     "theme": "health",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ra.djo.ɡraˈfiː.a/",
     "emoji": "🩻",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "radiografie"
+    "plural_form": "radiografie",
+    "derivatives": [
+      {
+        "term": "radiologo",
+        "form": "noun"
+      },
+      {
+        "term": "radiografico",
+        "form": "adjective"
+      }
+    ]
   }
 ]

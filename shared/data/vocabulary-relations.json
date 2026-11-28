@@ -2,9 +2,9 @@
  "version": 1,
  "note": "Antonym and synonym relations compiled from vocabulary/ by scripts/build-relations.cjs. Keys are lower-cased word forms; homographs are merged. Do not edit by hand.",
  "totals": {
-  "words": 10927,
-  "antonyms": 9836,
-  "synonyms": 19857,
+  "words": 10931,
+  "antonyms": 9837,
+  "synonyms": 19875,
   "languages": 14
  },
  "langs": {
@@ -9127,6 +9127,13 @@
      "scourge"
     ]
    },
+   "bank": {
+    "antonyms": [],
+    "synonyms": [
+     "riverbank",
+     "shore"
+    ]
+   },
    "bank account opening": {
     "antonyms": [],
     "synonyms": [
@@ -12647,6 +12654,7 @@
     "antonyms": [],
     "synonyms": [
      "event",
+     "example",
      "instance",
      "situation"
     ]
@@ -13291,6 +13299,8 @@
    "charge": {
     "antonyms": [],
     "synonyms": [
+     "accusation",
+     "allegation",
      "bill"
     ]
    },
@@ -41003,6 +41013,8 @@
     "antonyms": [],
     "synonyms": [
      "problem",
+     "publish",
+     "release",
      "topic"
     ]
    },
@@ -43263,7 +43275,8 @@
    },
    "light": {
     "antonyms": [
-     "dark"
+     "dark",
+     "heavy"
     ],
     "synonyms": []
    },
@@ -45240,6 +45253,13 @@
      "masterwork"
     ]
    },
+   "match": {
+    "antonyms": [],
+    "synonyms": [
+     "contest",
+     "game"
+    ]
+   },
    "materialism": {
     "antonyms": [
      "asceticism",
@@ -45283,6 +45303,12 @@
     "antonyms": [],
     "synonyms": [
      "female head of the family"
+    ]
+   },
+   "matter": {
+    "antonyms": [],
+    "synonyms": [
+     "count"
     ]
    },
    "matter of priority": {
@@ -53672,8 +53698,11 @@
    "point": {
     "antonyms": [],
     "synonyms": [
+     "argument",
      "critical juncture",
      "crossroads",
+     "detail",
+     "idea",
      "threshold"
     ]
    },
@@ -60191,7 +60220,10 @@
      "left",
      "wrong"
     ],
-    "synonyms": []
+    "synonyms": [
+     "entitlement",
+     "freedom"
+    ]
    },
    "right here": {
     "antonyms": [
@@ -64862,6 +64894,12 @@
      "worksheet"
     ]
    },
+   "spring": {
+    "antonyms": [],
+    "synonyms": [
+     "water source"
+    ]
+   },
    "spring up": {
     "antonyms": [
      "die out",
@@ -65205,8 +65243,10 @@
     ],
     "synonyms": [
      "affirm",
+     "condition",
      "declare",
-     "express"
+     "express",
+     "situation"
     ]
    },
    "state-of-the-art": {

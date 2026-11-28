@@ -50,7 +50,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -70,7 +70,21 @@
       "injustice",
       "unfairness"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "just",
+        "form": "adjective"
+      },
+      {
+        "term": "justly",
+        "form": "adverb"
+      },
+      {
+        "term": "justify",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:bias:noun",
@@ -86,7 +100,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "biases",
     "tags": [
       "spoken"
@@ -107,7 +121,17 @@
       "impartiality",
       "fairness"
     ],
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "bias",
+        "form": "verb"
+      },
+      {
+        "term": "biased",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:biased:adjective",
@@ -123,7 +147,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈbaɪ.əst/",
     "emoji": "⚖️",
     "synonyms": [
@@ -135,7 +159,17 @@
       "unbiased",
       "impartial"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "bias",
+        "form": "noun"
+      },
+      {
+        "term": "bias",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:equality:noun",
@@ -153,7 +187,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -176,7 +210,21 @@
     "transcription_variants": {
       "us": "/iˈkwɑː.lə.t̬i/"
     },
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "equal",
+        "form": "adjective"
+      },
+      {
+        "term": "equally",
+        "form": "adverb"
+      },
+      {
+        "term": "equalize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:discrimination:noun",
@@ -193,7 +241,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -216,7 +264,17 @@
     "transcription_variants": {
       "us": "/dɪˌskrɪm.əˈneɪ.ʃən/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "discriminate",
+        "form": "verb"
+      },
+      {
+        "term": "discriminatory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:prejudice:noun",
@@ -232,7 +290,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -252,7 +310,17 @@
       "impartiality",
       "fairness"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "prejudiced",
+        "form": "adjective"
+      },
+      {
+        "term": "prejudicial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:principle:noun",
@@ -269,7 +337,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "principles",
     "tags": [
       "spoken"
@@ -287,7 +355,13 @@
       "tenet"
     ],
     "no_antonym": true,
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "principled",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:stereotype:noun",
@@ -303,7 +377,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "stereotypes",
     "tags": [
       "spoken"
@@ -321,7 +395,21 @@
       "generalization"
     ],
     "no_antonym": true,
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "stereotype",
+        "form": "verb"
+      },
+      {
+        "term": "stereotypical",
+        "form": "adjective"
+      },
+      {
+        "term": "stereotypically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:judge:verb",
@@ -337,7 +425,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -349,7 +437,21 @@
       "appraise"
     ],
     "no_antonym": true,
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "judge",
+        "form": "noun"
+      },
+      {
+        "term": "judgment",
+        "form": "noun"
+      },
+      {
+        "term": "judgement",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:ethical:adjective",
@@ -367,7 +469,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈeθ.ɪ.kəl/",
     "emoji": "⚖️",
     "synonyms": [
@@ -383,6 +485,16 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "ethics",
+        "form": "noun"
+      },
+      {
+        "term": "ethically",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -401,7 +513,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -423,7 +535,13 @@
     "transcription_variants": {
       "us": "/əˌkaʊn.t̬əˈbɪl.ə.t̬i/"
     },
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "accountable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:integrity:noun",
@@ -482,7 +600,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -504,7 +622,21 @@
       "B1",
       "B2"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "morality",
+        "form": "noun"
+      },
+      {
+        "term": "morally",
+        "form": "adverb"
+      },
+      {
+        "term": "moralize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:value:noun",
@@ -521,7 +653,7 @@
     ],
     "domain": "general, spoken",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "values",
     "tags": [
       "spoken"
@@ -541,7 +673,21 @@
       "principle"
     ],
     "no_antonym": true,
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "value",
+        "form": "verb"
+      },
+      {
+        "term": "valuable",
+        "form": "adjective"
+      },
+      {
+        "term": "valuation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:immoral:adjective",
@@ -557,7 +703,7 @@
     ],
     "domain": "general",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪˈmɒr.əl/",
     "emoji": "🚫",
     "synonyms": [
@@ -572,7 +718,17 @@
     "transcription_variants": {
       "us": "/ɪˈmɔːr.əl/"
     },
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "immorality",
+        "form": "noun"
+      },
+      {
+        "term": "immorally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:unethical:adjective",
@@ -588,7 +744,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ʌnˈeθ.ɪ.kəl/",
     "emoji": "🚫",
     "synonyms": [
@@ -600,7 +756,13 @@
       "ethical",
       "moral"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "unethically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:honesty:noun",
@@ -618,7 +780,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɒn.ə.sti/",
     "emoji": "🕊️",
     "countability": "uncountable",
@@ -638,6 +800,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "honest",
+        "form": "adjective"
+      },
+      {
+        "term": "honestly",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -654,7 +826,7 @@
     ],
     "domain": "general",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "countability": "uncountable",
     "transcription": "/ˈfeə.nəs/",
     "emoji": "⚖️",
@@ -670,7 +842,17 @@
     "transcription_variants": {
       "us": "/ˈfer.nəs/"
     },
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "fair",
+        "form": "adjective"
+      },
+      {
+        "term": "fairly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:injustice:noun",
@@ -686,7 +868,7 @@
     ],
     "domain": "general, spoken",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "injustices",
     "tags": [
       "spoken"
@@ -703,7 +885,17 @@
       "justice",
       "fairness"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "unjust",
+        "form": "adjective"
+      },
+      {
+        "term": "unjustly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:conscience:noun",
@@ -719,7 +911,7 @@
     ],
     "domain": "general",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "consciences",
     "transcription": "/ˈkɒn.ʃəns/",
     "emoji": "🧠",
@@ -733,7 +925,17 @@
     "transcription_variants": {
       "us": "/ˈkɑːn.ʃəns/"
     },
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "conscientious",
+        "form": "adjective"
+      },
+      {
+        "term": "conscientiously",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:dilemma:noun",
@@ -784,7 +986,7 @@
     ],
     "domain": "general",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "judgments",
     "transcription": "/ˈdʒʌdʒ.mənt/",
     "emoji": "⚖️",
@@ -799,7 +1001,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "judge",
+        "form": "verb"
+      },
+      {
+        "term": "judgmental",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:judgement:noun",
@@ -815,7 +1027,7 @@
     ],
     "domain": "general",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "judgements",
     "transcription": "/ˈdʒʌdʒ.mənt/",
     "emoji": "⚖️",
@@ -826,7 +1038,17 @@
       "ruling"
     ],
     "no_antonym": true,
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "judge",
+        "form": "verb"
+      },
+      {
+        "term": "judgmental",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:infidelity:noun",
@@ -845,7 +1067,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪn.fɪˈdel.ə.ti/",
     "emoji": "💔",
     "countability": "uncountable",
@@ -858,7 +1080,17 @@
       "fidelity",
       "loyalty"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "fidelity",
+        "form": "noun"
+      },
+      {
+        "term": "unfaithful",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:norms:noun",
@@ -957,7 +1189,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "Feeling or showing deference and respect toward others."
     ],
@@ -978,7 +1210,17 @@
       "ethics",
       "travel"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "respect",
+        "form": "noun"
+      },
+      {
+        "term": "respectfully",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:disrespectful:adjective",
@@ -988,7 +1230,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "Showing a lack of courtesy, reverence, or respect for local customs."
     ],
@@ -1008,6 +1250,16 @@
       "ethics",
       "travel"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "disrespect",
+        "form": "noun"
+      },
+      {
+        "term": "disrespectfully",
+        "form": "adverb"
+      }
+    ]
   }
 ]

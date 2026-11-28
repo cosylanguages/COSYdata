@@ -4,6 +4,11 @@
     "word": "πολιτικός",
     "level": "B2",
     "form": "adjective",
+    "feminine": "πολιτική",
+    "neuter": "πολιτικό",
+    "masculine_plural": "πολιτικοί",
+    "feminine_plural": "πολιτικές",
+    "neuter_plural": "πολιτικά",
     "language": "el",
     "status": "needs_review",
     "emoji": "🏛️",
@@ -15,13 +20,28 @@
     ],
     "theme": "descriptors",
     "sub_theme": "general",
-    "updated": "2026-11-21"
+    "updated": "2026-11-28",
+    "derivatives": [
+      {
+        "term": "πολιτική",
+        "form": "noun"
+      },
+      {
+        "term": "πολιτικά",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "el:chronios:adjective",
     "word": "χρόνιος",
     "level": "B2",
     "form": "adjective",
+    "feminine": "χρόνια",
+    "neuter": "χρόνιο",
+    "masculine_plural": "χρόνιοι",
+    "feminine_plural": "χρόνιες",
+    "neuter_plural": "χρόνια",
     "language": "el",
     "status": "needs_review",
     "emoji": "⏳🤒",
@@ -33,13 +53,24 @@
     ],
     "theme": "descriptors",
     "sub_theme": "general",
-    "updated": "2026-11-21"
+    "updated": "2026-11-28",
+    "derivatives": [
+      {
+        "term": "χρονιότητα",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "el:proliptikos:adjective",
     "word": "προληπτικός",
     "level": "B2",
     "form": "adjective",
+    "feminine": "προληπτική",
+    "neuter": "προληπτικό",
+    "masculine_plural": "προληπτικοί",
+    "feminine_plural": "προληπτικές",
+    "neuter_plural": "προληπτικά",
     "language": "el",
     "status": "needs_review",
     "emoji": "🛡️",
@@ -51,14 +82,29 @@
     ],
     "theme": "descriptors",
     "sub_theme": "general",
-    "updated": "2026-11-26",
-    "transcription": "/pɾo.li.ptiˈkos/"
+    "updated": "2026-11-28",
+    "transcription": "/pɾo.li.ptiˈkos/",
+    "derivatives": [
+      {
+        "term": "πρόληψη",
+        "form": "noun"
+      },
+      {
+        "term": "προληπτικά",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "el:ithikos:adjective",
     "word": "ηθικός",
     "level": "B2",
     "form": "adjective",
+    "feminine": "ηθική",
+    "neuter": "ηθικό",
+    "masculine_plural": "ηθικοί",
+    "feminine_plural": "ηθικές",
+    "neuter_plural": "ηθικά",
     "language": "el",
     "status": "needs_review",
     "emoji": "⚖️",
@@ -70,7 +116,21 @@
     ],
     "theme": "descriptors",
     "sub_theme": "general",
-    "updated": "2026-11-26",
-    "transcription": "/i.θiˈkos/"
+    "updated": "2026-11-28",
+    "transcription": "/i.θiˈkos/",
+    "derivatives": [
+      {
+        "term": "ηθική",
+        "form": "noun"
+      },
+      {
+        "term": "ηθικά",
+        "form": "adverb"
+      },
+      {
+        "term": "ηθικότητα",
+        "form": "noun"
+      }
+    ]
   }
 ]

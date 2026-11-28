@@ -13,7 +13,7 @@
     ],
     "domain": "general, spoken, travel, exam",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -31,7 +31,17 @@
     "transcription_variants": {
       "us": "/ɔːrˈɡæn.ɪk/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "organism",
+        "form": "noun"
+      },
+      {
+        "term": "organically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:processed:adjective",
@@ -47,7 +57,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈprəʊ.sest/",
     "emoji": "🥫",
     "synonyms": [
@@ -63,7 +73,17 @@
     "transcription_variants": {
       "us": "/ˈprɑː.sest/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "process",
+        "form": "noun"
+      },
+      {
+        "term": "process",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:additive:noun",
@@ -79,7 +99,7 @@
     ],
     "domain": "general, exam",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "additives",
     "transcription": "/ˈæd.ɪ.tɪv/",
     "emoji": "🧪",
@@ -93,7 +113,17 @@
     "transcription_variants": {
       "us": "/ˈæd.ə.t̬ɪv/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "add",
+        "form": "verb"
+      },
+      {
+        "term": "addition",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:preservative:noun",
@@ -109,7 +139,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "preservatives",
     "transcription": "/prɪˈzɜː.və.tɪv/",
     "emoji": "🧪",
@@ -122,7 +152,17 @@
     "transcription_variants": {
       "us": "/prɪˈzɝː.və.t̬ɪv/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "preserve",
+        "form": "verb"
+      },
+      {
+        "term": "preservation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:calorie:noun",
@@ -140,7 +180,7 @@
     ],
     "domain": "general, exam",
     "theme": "health",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "calories",
     "transcription": "/ˈkæl.ər.i/",
     "emoji": "🔥",
@@ -157,6 +197,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "caloric",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -231,7 +277,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈfaɪ.bə/",
     "emoji": "🌾",
     "countability": "uncountable",
@@ -249,7 +295,13 @@
     "regional_equivalents": [
       "en:fiber:noun"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fibrous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:fiber:noun",
@@ -265,7 +317,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈfaɪ.bə/",
     "emoji": "🌾",
     "countability": "uncountable",
@@ -283,7 +335,13 @@
     "regional_equivalents": [
       "en:fibre:noun"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fibrous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:cholesterol:noun",
@@ -327,7 +385,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌəʊ.vərˈiːt/",
     "emoji": "🍔",
     "synonyms": [
@@ -345,7 +403,13 @@
     "related_forms": [
       "COSYtools:en-irregular-verbs:overeat"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "overeating",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:malnutrition:noun",
@@ -361,7 +425,7 @@
     ],
     "domain": "general, exam",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌmæl.njuːˈtrɪʃ.ən/",
     "emoji": "⚠️",
     "countability": "uncountable",
@@ -376,7 +440,21 @@
     "transcription_variants": {
       "us": "/ˌmæl.nuːˈtrɪʃ.ən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "nutrition",
+        "form": "noun"
+      },
+      {
+        "term": "nutritious",
+        "form": "adjective"
+      },
+      {
+        "term": "nourish",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:poisoning:noun",
@@ -392,7 +470,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈpɔɪ.zən.ɪŋ/",
     "emoji": "🤢",
     "countability": "uncountable",
@@ -401,7 +479,21 @@
       "intoxication"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "poison",
+        "form": "noun"
+      },
+      {
+        "term": "poison",
+        "form": "verb"
+      },
+      {
+        "term": "poisonous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:allergic:adjective",
@@ -419,7 +511,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "health",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -440,6 +532,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "allergy",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -456,7 +554,7 @@
     ],
     "domain": "general, professional",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "reactions",
     "transcription": "/riˈæk.ʃən/",
     "emoji": "💥",
@@ -467,7 +565,17 @@
       "reflex"
     ],
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "react",
+        "form": "verb"
+      },
+      {
+        "term": "reactive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:intolerance:noun",
@@ -483,7 +591,7 @@
     ],
     "domain": "general, exam",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈtɒl.ər.əns/",
     "emoji": "🚫",
     "countability": "uncountable",
@@ -497,7 +605,17 @@
     "transcription_variants": {
       "us": "/ɪnˈtɑː.lɚ.əns/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "intolerant",
+        "form": "adjective"
+      },
+      {
+        "term": "tolerate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:fasting:noun",
@@ -513,7 +631,7 @@
     ],
     "domain": "general, exam",
     "theme": "health",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈfɑː.stɪŋ/",
     "emoji": "⏳",
     "countability": "uncountable",
@@ -528,7 +646,13 @@
     "transcription_variants": {
       "us": "/ˈfæs.tɪŋ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fast",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:supplement:noun",
@@ -544,7 +668,7 @@
     ],
     "domain": "general, relocation",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "supplements",
     "transcription": "/ˈsʌp.lɪ.mənt/",
     "emoji": "💊",
@@ -558,7 +682,17 @@
     "transcription_variants": {
       "us": "/ˈsʌp.lə.mənt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "supplement",
+        "form": "verb"
+      },
+      {
+        "term": "supplementary",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:metabolism:noun",
@@ -574,7 +708,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/məˈtæb.əl.ɪ.zəm/",
     "emoji": "⚡",
     "countability": "uncountable",
@@ -583,7 +717,17 @@
       "energy processing"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "metabolize",
+        "form": "verb"
+      },
+      {
+        "term": "metabolic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:digestion:noun",
@@ -599,7 +743,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/daɪˈdʒes.tʃən/",
     "emoji": "🩺",
     "countability": "uncountable",
@@ -608,7 +752,17 @@
       "assimilation"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "digest",
+        "form": "verb"
+      },
+      {
+        "term": "digestive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:hydration:noun",
@@ -624,7 +778,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/haɪˈdreɪ.ʃən/",
     "emoji": "💧",
     "countability": "uncountable",
@@ -635,7 +789,21 @@
     "antonyms": [
       "dehydration"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "hydrate",
+        "form": "verb"
+      },
+      {
+        "term": "hydrated",
+        "form": "adjective"
+      },
+      {
+        "term": "dehydration",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:moderation:noun",
@@ -651,7 +819,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌmɒd.ərˈeɪ.ʃən/",
     "emoji": "⚖️",
     "countability": "uncountable",
@@ -667,7 +835,21 @@
     "transcription_variants": {
       "us": "/ˌmɑː.dəˈreɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "moderate",
+        "form": "verb"
+      },
+      {
+        "term": "moderate",
+        "form": "adjective"
+      },
+      {
+        "term": "moderator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:craving:noun",
@@ -683,7 +865,7 @@
     ],
     "domain": "general",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "cravings",
     "transcription": "/ˈkreɪ.vɪŋ/",
     "emoji": "🍫",
@@ -697,7 +879,13 @@
       "aversion",
       "dislike"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "crave",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:dish:noun",
@@ -774,7 +962,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "food",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "Made in a traditional or non-automated way using high-quality ingredients."
     ],
@@ -794,7 +982,13 @@
       "food_health",
       "travel"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "artisan",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:cross-contamination:noun",
@@ -978,7 +1172,7 @@
     ],
     "domain": "general",
     "theme": "food",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈdaɪ.ət/",
     "emoji": "🥗",
     "synonyms": [
@@ -986,6 +1180,20 @@
       "slim"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "diet",
+        "form": "noun"
+      },
+      {
+        "term": "dieter",
+        "form": "noun"
+      },
+      {
+        "term": "dietary",
+        "form": "adjective"
+      }
+    ]
   }
 ]

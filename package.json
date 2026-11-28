@@ -41,6 +41,7 @@
     "check:pages": "node scripts/build-pages.cjs --check",
     "test:pages": "node --test tests/pages.test.mjs",
     "test:dictionary": "node --test tests/dictionary-ui.test.mjs",
+    "test:derivatives": "node --test tests/derivatives.test.mjs",
     "build:relations": "node scripts/build-relations.cjs",
     "check:relations": "node scripts/build-relations.cjs --check",
     "test:relations": "node --test tests/relations.test.mjs",

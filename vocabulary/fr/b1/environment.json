@@ -42,7 +42,7 @@
     "domain": "general",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/dy.ʁa.bi.li.te/",
     "emoji": "♻️",
     "gender": "feminine",
@@ -52,13 +52,30 @@
       "viabilité",
       "pérennité"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "durable",
+        "form": "adjective"
+      },
+      {
+        "term": "durablement",
+        "form": "adverb"
+      },
+      {
+        "term": "durer",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "fr:durable:adjective",
     "word": "durable",
     "language": "fr",
     "form": "adjective",
+    "feminine": "durable",
+    "masculine_plural": "durables",
+    "feminine_plural": "durables",
     "level": "B1",
     "concept": "en:sustainable:adjective",
     "definitions": [
@@ -70,7 +87,7 @@
     "domain": "general",
     "theme": "environment",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/dy.ʁabl/",
     "emoji": "🌱",
     "synonyms": [
@@ -79,6 +96,20 @@
     ],
     "antonyms": [
       "éphémère"
+    ],
+    "derivatives": [
+      {
+        "term": "durabilité",
+        "form": "noun"
+      },
+      {
+        "term": "durablement",
+        "form": "adverb"
+      },
+      {
+        "term": "durer",
+        "form": "verb"
+      }
     ]
   }
 ]

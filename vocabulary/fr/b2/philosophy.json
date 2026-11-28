@@ -46,7 +46,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kɔ̃.sjɑ̃s/",
     "emoji": "💡",
     "gender": "feminine",
@@ -58,6 +58,16 @@
     ],
     "antonyms": [
       "inconscience"
+    ],
+    "derivatives": [
+      {
+        "term": "conscient",
+        "form": "adjective"
+      },
+      {
+        "term": "consciemment",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -104,7 +114,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "logic",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/lɔ.ʒik/",
     "emoji": "🧠",
     "gender": "feminine",
@@ -116,6 +126,16 @@
     ],
     "antonyms": [
       "illogisme"
+    ],
+    "derivatives": [
+      {
+        "term": "logiquement",
+        "form": "adverb"
+      },
+      {
+        "term": "logicien",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -190,7 +210,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ethics_morality",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/mɔ.ʁa.li.te/",
     "emoji": "⚖️",
     "gender": "feminine",
@@ -202,6 +222,16 @@
     ],
     "antonyms": [
       "immoralité"
+    ],
+    "derivatives": [
+      {
+        "term": "moral",
+        "form": "adjective"
+      },
+      {
+        "term": "immoralité",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -220,7 +250,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ethics_morality",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/e.tik/",
     "emoji": "💡",
     "gender": "feminine",
@@ -230,13 +260,22 @@
       "philosophie morale",
       "déontologie"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "éthiquement",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "fr:ethique:adjective",
     "word": "éthique",
     "language": "fr",
     "form": "adjective",
+    "feminine": "éthique",
+    "masculine_plural": "éthiques",
+    "feminine_plural": "éthiques",
     "level": "B2",
     "concept": "en:ethical:adjective",
     "definitions": [
@@ -248,7 +287,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ethics_morality",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/e.tik/",
     "emoji": "⚖️",
     "synonyms": [
@@ -257,6 +296,12 @@
     ],
     "antonyms": [
       "immoral"
+    ],
+    "derivatives": [
+      {
+        "term": "éthiquement",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -275,7 +320,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "existentialism",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/de.tɛʁ.mi.nism/",
     "no_emoji": true,
     "gender": "masculine",
@@ -288,6 +333,12 @@
     "antonyms": [
       "libre arbitre",
       "indéterminisme"
+    ],
+    "derivatives": [
+      {
+        "term": "déterministe",
+        "form": "adjective"
+      }
     ]
   }
 ]
