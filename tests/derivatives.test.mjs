@@ -96,6 +96,17 @@ test('C2 non-English families include adjectives in every language', () => {
   }
 });
 
+test('C2 non-English families include adverbs in every language', () => {
+  const threshold = { fr: 20, it: 40, ru: 40, el: 35 };
+  for (const [lang, minimum] of Object.entries(threshold)) {
+    const adverbs = entries
+      .filter((entry) => entry.language === lang && entry.level === 'C2')
+      .flatMap((entry) => entry.derivatives ?? [])
+      .filter((derivative) => derivative.form === 'adverb');
+    assert.ok(adverbs.length >= minimum, `${lang} has at least ${minimum} C2 adverb links, got ${adverbs.length}`);
+  }
+});
+
 test('derivatives stay out of multi-word entries in the first pass', () => {
   for (const entry of entries) {
     if (!entry.derivatives) continue;

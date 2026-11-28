@@ -183,19 +183,47 @@ repository languages are not part of this pass.
 
 ### C2 adjective and adverb pass
 
-Second C2 pass: 95 adjective links and 13 adverb links.
+Second C2 pass: 95 adjective links and 13 adverb links. A third pass added 150 noun links and 150 adverb links from 150 non-English adjectives.
 
 | Language | Adjectives | Adverbs | Left out |
 | --- | ---: | ---: | --- |
-| French | 22 | 0 | `médié`, `invoqué`, `abrogé`, and other participles that are not lexical adjectives. French `-ment` adverbs from these participles were mostly stilted, so none were added. |
-| Italian | 22 | 3 | `contravvenuto`, `precluso`, `sussunto` and other participles not used adjectivally. Adverbs: `trascendentemente`, `diffusamente`, `accentuatamente`. |
-| Russian | 27 | 7 | `превосходный` and `отрицательный` were skipped because their meaning shifted; `обязанный` was skipped for the same reason. Adverbs: `ограниченно`, `запутанно`, `отчуждённо`, `искажённо`, `подчёркнуто`, `смягчённо`, `пронизывающе`. |
-| Greek | 24 | 3 | `αναιρεμένος` and `υπαγμένος` are rare or awkward; `παρακαμπτόμενος` is a passive participle rather than a lexical adjective. Adverbs: `υπερβατικά`, `συγκεχυμένα`, `διαδεδομένα`. |
+| French | 22 | 27 | `médié`, `invoqué`, `abrogé`, and other participles that are not lexical adjectives. French `-ment` adverbs from these participles were mostly stilted, so none were added. |
+| Italian | 22 | 47 | `contravvenuto`, `precluso`, `sussunto` and other participles not used adjectivally. Adverbs: `trascendentemente`, `diffusamente`, `accentuatamente`. |
+| Russian | 27 | 49 | `превосходный` and `отрицательный` were skipped because their meaning shifted; `обязанный` was skipped for the same reason. Adverbs: `ограниченно`, `запутанно`, `отчуждённо`, `искажённо`, `подчёркнуто`, `смягчённо`, `пронизывающе`. |
+| Greek | 24 | 40 | `αναιρεμένος` and `υπαγμένος` are rare or awkward; `παρακαμπτόμενος` is a passive participle rather than a lexical adjective. Adverbs: `υπερβατικά`, `συγκεχυμένα`, `διαδεδομένα`. |
 
 The adjective forms are standard past participles or lexical adjectives. Some
 are technical or formal, especially the Russian `-ированный` forms and the Greek
 `-ποιημένος` forms. They should be read as derivational relatives, not as
 everyday conversational adjectives.
+
+### C2 English curated pass
+
+
+94 English C2 entries received 118 links where WordNet had no usable relative:
+Latin and Greek terms such as `mimesis → mimetic`, `noumenon → noumenal`,
+`anaphora → anaphoric`, and verbs such as `reify → reification`,
+`bequeath → bequest`, `deride → derision`. Every term in this pass was checked
+against WordNet before it was written. The 159 English C2 entries still without
+a field are mostly fixed Latin phrases (`prima facie`, `reductio ad absurdum`),
+proper or technical terms, and adjectives whose only relatives are too distant
+to count as a word family.
+
+### C2 non-English adjective pass
+
+
+150 adjective entries received one derived noun and one adverb. The forms are
+standard morphology, but several are formal or technical:
+
+- French `abstrusité`, `inimitabilité`, `apodicticité`
+- Italian `astrusità`, `inequivocabilità`, `apoditticità`
+- Russian `нюансированность`, `аподиктичность`, `гетеродоксальность`
+- Greek `πολυπολικότητα`, `κατηγορηματικότητα`, `αποδεικτικότητα`
+
+Adverbs were left out where the form is rare or stilted, for example French
+`circonspectement`; only the noun was added for `circonspect`, `inhérent` and
+`liminal`. Greek `δυσκίνητος` was not found under the expected ID, so that pair
+was not added.
 
 ### Polysemy pilot
 
