@@ -3276,7 +3276,7 @@
     ],
     "domain": "general, travel",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsɪmp.təmz/",
     "emoji": "🌡️",
     "no_antonym": true,
@@ -3285,7 +3285,13 @@
       "health indicators"
     ],
     "countability": "pluralia_tantum",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "symptomatic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:travel-vaccination:noun",
@@ -3541,7 +3547,13 @@
       "dementedness"
     ],
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "demented",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:grooming:noun",
@@ -3567,7 +3579,13 @@
       "curry"
     ],
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "groom",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:heal:verb",
@@ -3587,7 +3605,13 @@
     "updated": "2026-11-28",
     "transcription": "/ˈhiːl/",
     "emoji": "🩹",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "healer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:pediatrician:noun",
@@ -3614,7 +3638,13 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "pediatricians"
+    "plural_form": "pediatricians",
+    "derivatives": [
+      {
+        "term": "pediatrics",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:figure-body:noun",
@@ -3681,6 +3711,12 @@
     "antonyms": [
       "ill",
       "sick"
+    ],
+    "derivatives": [
+      {
+        "term": "wellness",
+        "form": "noun"
+      }
     ]
   }
 ]

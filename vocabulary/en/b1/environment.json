@@ -323,7 +323,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1",
       "B2"
@@ -339,7 +339,17 @@
     "transcription_variants": {
       "us": "/ˈkɑːr.bən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "carbonate",
+        "form": "verb"
+      },
+      {
+        "term": "carbonic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:emissions:noun",
@@ -2517,7 +2527,7 @@
     ],
     "domain": "general, travel",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈæl.tɪ.tʃuːd/",
     "emoji": "🏔️",
     "no_antonym": true,
@@ -2526,7 +2536,13 @@
       "elevation"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "altitudinal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:coastline:noun",
@@ -2802,7 +2818,13 @@
       "verdure"
     ],
     "no_antonym": true,
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "green",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:territory:noun",
@@ -2827,7 +2849,13 @@
     "emoji": "🗺️",
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "territories"
+    "plural_form": "territories",
+    "derivatives": [
+      {
+        "term": "territorial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:live-alive:adjective",
@@ -2858,6 +2886,12 @@
     "updated": "2026-11-28",
     "antonyms": [
       "dead"
+    ],
+    "derivatives": [
+      {
+        "term": "liveness",
+        "form": "noun"
+      }
     ]
   }
 ]

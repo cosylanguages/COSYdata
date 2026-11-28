@@ -363,7 +363,17 @@
     "no_antonym": true,
     "countability": "uncountable",
     "gender": "feminine",
-    "article": "la"
+    "article": "la",
+    "derivatives": [
+      {
+        "term": "absurde",
+        "form": "adjective"
+      },
+      {
+        "term": "absurdement",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "fr:alienation:noun",
@@ -387,7 +397,17 @@
     "no_antonym": true,
     "countability": "uncountable",
     "gender": "feminine",
-    "article": "la"
+    "article": "la",
+    "derivatives": [
+      {
+        "term": "aliéner",
+        "form": "verb"
+      },
+      {
+        "term": "aliéné",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "fr:legitimite:noun",
@@ -411,7 +431,17 @@
     "no_antonym": true,
     "countability": "uncountable",
     "gender": "feminine",
-    "article": "la"
+    "article": "la",
+    "derivatives": [
+      {
+        "term": "légitime",
+        "form": "adjective"
+      },
+      {
+        "term": "légitimement",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "fr:prejuge:noun",
@@ -436,7 +466,13 @@
     "countability": "countable",
     "gender": "masculine",
     "article": "le",
-    "plural_form": "préjugés"
+    "plural_form": "préjugés",
+    "derivatives": [
+      {
+        "term": "préjuger",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "fr:recherche:noun",
@@ -461,6 +497,16 @@
     "countability": "countable",
     "gender": "feminine",
     "article": "la",
-    "plural_form": "recherches"
+    "plural_form": "recherches",
+    "derivatives": [
+      {
+        "term": "rechercher",
+        "form": "verb"
+      },
+      {
+        "term": "recherché",
+        "form": "adjective"
+      }
+    ]
   }
 ]

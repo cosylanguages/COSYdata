@@ -69,7 +69,7 @@
     ],
     "domain": "relocation",
     "theme": "housing",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -84,7 +84,17 @@
       "weatherproofing"
     ],
     "no_antonym": true,
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "derivatives": [
+      {
+        "term": "insulate",
+        "form": "verb"
+      },
+      {
+        "term": "insular",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:ventilation:noun",
@@ -100,7 +110,7 @@
     ],
     "domain": "general, relocation",
     "theme": "housing",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -115,6 +125,12 @@
       "fresh air system"
     ],
     "no_antonym": true,
-    "sub_theme": "furniture"
+    "sub_theme": "furniture",
+    "derivatives": [
+      {
+        "term": "ventilate",
+        "form": "verb"
+      }
+    ]
   }
 ]
