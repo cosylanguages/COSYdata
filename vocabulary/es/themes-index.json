@@ -5,6 +5,7 @@
     "es:acostarse:verb",
     "es:agradecer:verb",
     "es:ahorrar:verb",
+    "es:alejarse:verb",
     "es:alienar:verb",
     "es:alquilar:verb",
     "es:amar:verb",
@@ -82,6 +83,7 @@
     "es:excluir:verb",
     "es:explicar:verb",
     "es:fetichizar:verb",
+    "es:fluir:verb",
     "es:fusionar:verb",
     "es:ganar:verb",
     "es:gastar:verb",
@@ -97,6 +99,7 @@
     "es:hegemonizar:verb",
     "es:impedir:verb",
     "es:impregnar:verb",
+    "es:improvisar:verb",
     "es:incluir:verb",
     "es:instrumentalizar:verb",
     "es:intentar:verb",
@@ -113,6 +116,7 @@
     "es:llegar:verb",
     "es:llevar:verb",
     "es:llorar:verb",
+    "es:madurar:verb",
     "es:mantener:verb",
     "es:mediar:verb",
     "es:militar:verb",
@@ -124,6 +128,7 @@
     "es:nadar:verb",
     "es:necesitar:verb",
     "es:negar:verb",
+    "es:no-querer-insistir:verb",
     "es:observar:verb",
     "es:obtener:verb",
     "es:odiar:verb",
@@ -211,6 +216,7 @@
     "es:acostarse:verb",
     "es:agradecer:verb",
     "es:ahorrar:verb",
+    "es:alejarse:verb",
     "es:alienar:verb",
     "es:alquilar:verb",
     "es:amar:verb",
@@ -287,6 +293,7 @@
     "es:excluir:verb",
     "es:explicar:verb",
     "es:fetichizar:verb",
+    "es:fluir:verb",
     "es:fusionar:verb",
     "es:ganar:verb",
     "es:gastar:verb",
@@ -301,6 +308,7 @@
     "es:hegemonizar:verb",
     "es:impedir:verb",
     "es:impregnar:verb",
+    "es:improvisar:verb",
     "es:incluir:verb",
     "es:instrumentalizar:verb",
     "es:intentar:verb",
@@ -317,6 +325,7 @@
     "es:llegar:verb",
     "es:llevar:verb",
     "es:llorar:verb",
+    "es:madurar:verb",
     "es:mantener:verb",
     "es:mediar:verb",
     "es:militar:verb",
@@ -328,6 +337,7 @@
     "es:nadar:verb",
     "es:necesitar:verb",
     "es:negar:verb",
+    "es:no-querer-insistir:verb",
     "es:observar:verb",
     "es:obtener:verb",
     "es:odiar:verb",
@@ -418,6 +428,20 @@
     "es:perro:noun",
     "es:pez:noun",
     "es:vaca:noun"
+  ],
+  "arts": [
+    "es:valla-de-madrid:noun",
+    "es:vulnerabilidad-mental:noun"
+  ],
+  "arts/general": [
+    "es:valla-de-madrid:noun",
+    "es:vulnerabilidad-mental:noun"
+  ],
+  "body": [
+    "es:paredes-en-el-corazon:phrase"
+  ],
+  "body/body_parts": [
+    "es:paredes-en-el-corazon:phrase"
   ],
   "clothing": [
     "es:bolsa:noun",
@@ -895,7 +919,21 @@
   ],
   "emotions": [
     "es:adorar:verb",
-    "es:disgustar:verb"
+    "es:amor-fallido:noun",
+    "es:amor-libre:noun",
+    "es:besar:verb",
+    "es:confianza-terapeutica:noun",
+    "es:disgustar:verb",
+    "es:lluvia-de-fuego:noun",
+    "es:nostalgia:noun"
+  ],
+  "emotions/general": [
+    "es:amor-fallido:noun",
+    "es:amor-libre:noun",
+    "es:besar:verb",
+    "es:confianza-terapeutica:noun",
+    "es:lluvia-de-fuego:noun",
+    "es:nostalgia:noun"
   ],
   "emotions/positive_feelings": [
     "es:adorar:verb",
@@ -903,6 +941,7 @@
   ],
   "family": [
     "es:amigo:noun",
+    "es:coincidencia:noun",
     "es:familia:noun",
     "es:hermana:noun",
     "es:hermano:noun",
@@ -914,6 +953,7 @@
   ],
   "family/general": [
     "es:amigo:noun",
+    "es:coincidencia:noun",
     "es:familia:noun",
     "es:hermana:noun",
     "es:hermano:noun",
@@ -971,18 +1011,26 @@
     "es:dialctica:noun",
     "es:espacio-liminal:noun",
     "es:heurstico:noun",
+    "es:infancia:noun",
+    "es:inocencia:noun",
     "es:jouissance:noun",
+    "es:lo-normal:adjective",
     "es:neutralidad-liberal:noun",
+    "es:olvido:noun",
     "es:ontologa:noun",
     "es:paralepsis:noun",
+    "es:pedir-explicacion:phrase",
     "es:principio-de-precaucin:noun",
     "es:principio-proactivo:noun",
     "es:pronatalismo:noun",
     "es:quiasmo:noun",
+    "es:rebelde:noun",
+    "es:reencuentro:noun",
     "es:shibboleth:noun",
     "es:sublimacin:noun",
     "es:teleologa:noun",
-    "es:tnatos:noun"
+    "es:tnatos:noun",
+    "es:transformacion:noun"
   ],
   "general/miscellaneous": [
     "es:apofasis:noun",
@@ -994,18 +1042,26 @@
     "es:dialctica:noun",
     "es:espacio-liminal:noun",
     "es:heurstico:noun",
+    "es:infancia:noun",
+    "es:inocencia:noun",
     "es:jouissance:noun",
+    "es:lo-normal:adjective",
     "es:neutralidad-liberal:noun",
+    "es:olvido:noun",
     "es:ontologa:noun",
     "es:paralepsis:noun",
+    "es:pedir-explicacion:phrase",
     "es:principio-de-precaucin:noun",
     "es:principio-proactivo:noun",
     "es:pronatalismo:noun",
     "es:quiasmo:noun",
+    "es:rebelde:noun",
+    "es:reencuentro:noun",
     "es:shibboleth:noun",
     "es:sublimacin:noun",
     "es:teleologa:noun",
-    "es:tnatos:noun"
+    "es:tnatos:noun",
+    "es:transformacion:noun"
   ],
   "geography": [
     "es:espanol:adjective",
@@ -1042,6 +1098,7 @@
     "es:yo:pronoun"
   ],
   "health": [
+    "es:apoyo-psicologico:noun",
     "es:boca:noun",
     "es:cabeza:noun",
     "es:mano:noun",
@@ -1052,6 +1109,7 @@
     "es:pierna:noun"
   ],
   "health/general": [
+    "es:apoyo-psicologico:noun",
     "es:boca:noun",
     "es:cabeza:noun",
     "es:mano:noun",
@@ -1146,6 +1204,18 @@
     "es:suelo:noun",
     "es:techo:noun",
     "es:ventana:noun"
+  ],
+  "nature": [
+    "es:brisa:noun",
+    "es:condicion:noun",
+    "es:libertad:noun",
+    "es:nada-es-para-siempre:phrase"
+  ],
+  "nature/general": [
+    "es:brisa:noun",
+    "es:condicion:noun",
+    "es:libertad:noun",
+    "es:nada-es-para-siempre:phrase"
   ],
   "numbers": [
     "es:catorce:number",
@@ -1377,6 +1447,20 @@
     "es:sexto:number",
     "es:tercero:number"
   ],
+  "philosophy": [
+    "es:destruir-la-razon:phrase"
+  ],
+  "philosophy/general": [
+    "es:destruir-la-razon:phrase"
+  ],
+  "society": [
+    "es:mundo-robotizado:noun",
+    "es:que-diran:noun"
+  ],
+  "society/general": [
+    "es:mundo-robotizado:noun",
+    "es:que-diran:noun"
+  ],
   "technology": [
     "es:instanciar:verb"
   ],
@@ -1389,8 +1473,10 @@
     "es:dia:noun",
     "es:diciembre:noun",
     "es:domingo:noun",
+    "es:efimero:adjective",
     "es:enero:noun",
     "es:febrero:noun",
+    "es:futuro-distopico:noun",
     "es:hoy:adverb",
     "es:invierno:noun",
     "es:jueves:noun",
@@ -1408,6 +1494,7 @@
     "es:octubre:noun",
     "es:otono:noun",
     "es:primavera:noun",
+    "es:refugio:noun",
     "es:sabado:noun",
     "es:semana:noun",
     "es:septiembre:noun",
@@ -1444,10 +1531,13 @@
   ],
   "time/general": [
     "es:dia:noun",
+    "es:efimero:adjective",
+    "es:futuro-distopico:noun",
     "es:hoy:adverb",
     "es:manana:noun",
     "es:noche:noun",
     "es:nunca:adverb",
+    "es:refugio:noun",
     "es:semana:noun",
     "es:siempre:adverb",
     "es:tarde:noun",

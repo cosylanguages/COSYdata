@@ -2,16 +2,16 @@
   "schema_version": "1.0.0",
   "source": "scripts/quality-audit.cjs",
   "counting_rule": "One finding per (rule, subject). A subject is an entry id, or several ids joined by \"|\" for a duplicate group.",
-  "entries": 31625,
+  "entries": 32807,
   "findings": 5574,
   "entries_with_findings": 5574,
-  "findings_share": 17.6,
+  "findings_share": 17,
   "baseline": {
-    "total": 5580,
-    "generated": "2026-11-26"
+    "total": 5574,
+    "generated": "2026-11-28"
   },
   "new": 0,
-  "resolved": 6,
+  "resolved": 0,
   "rules": [
     {
       "code": "missing-definitions",
@@ -186,26 +186,26 @@
     {
       "code": "el",
       "findings": 323,
-      "entries": 1631,
-      "share": 19.8
+      "entries": 1684,
+      "share": 19.2
     },
     {
       "code": "en",
       "findings": 391,
-      "entries": 12904,
-      "share": 3
+      "entries": 13605,
+      "share": 2.9
     },
     {
       "code": "es",
       "findings": 388,
-      "entries": 787,
-      "share": 49.3
+      "entries": 821,
+      "share": 47.3
     },
     {
       "code": "fr",
       "findings": 432,
-      "entries": 3620,
-      "share": 11.9
+      "entries": 3843,
+      "share": 11.2
     },
     {
       "code": "hy",
@@ -216,8 +216,8 @@
     {
       "code": "it",
       "findings": 931,
-      "entries": 3679,
-      "share": 25.3
+      "entries": 3725,
+      "share": 25
     },
     {
       "code": "ka",
@@ -234,8 +234,8 @@
     {
       "code": "ru",
       "findings": 242,
-      "entries": 3027,
-      "share": 8
+      "entries": 3152,
+      "share": 7.7
     },
     {
       "code": "tt",
@@ -254,32 +254,32 @@
     {
       "level": "A1",
       "findings": 1926,
-      "entries": 9099,
+      "entries": 9101,
       "share": 21.2
     },
     {
       "level": "A2",
       "findings": 444,
-      "entries": 6770,
-      "share": 6.6
+      "entries": 6858,
+      "share": 6.5
     },
     {
       "level": "B1",
       "findings": 394,
-      "entries": 4212,
-      "share": 9.4
+      "entries": 4803,
+      "share": 8.2
     },
     {
       "level": "B2",
       "findings": 1117,
-      "entries": 3668,
-      "share": 30.5
+      "entries": 4054,
+      "share": 27.6
     },
     {
       "level": "C1",
       "findings": 396,
-      "entries": 2569,
-      "share": 15.4
+      "entries": 2684,
+      "share": 14.8
     },
     {
       "level": "C2",

@@ -1,0 +1,195 @@
+{
+  "generated": "2026-11-28",
+  "batch": "COSYevents multilingual club vocabulary",
+  "source": "Karaoke Club and Cinema Club session cards (fr, ru, el, it, es)",
+  "new_entries": 481,
+  "linked_existing_terms": 82,
+  "skipped_non_units": 10,
+  "by_language": {
+    "es": 34,
+    "it": 46,
+    "el": 53,
+    "fr": 223,
+    "ru": 125
+  },
+  "by_level": {
+    "A2": 35,
+    "B1": 273,
+    "B2": 161,
+    "C1": 12
+  },
+  "by_form": {
+    "verb": 27,
+    "noun": 431,
+    "phrase": 6,
+    "adjective": 17
+  },
+  "by_theme": {
+    "actions": 18,
+    "emotions": 97,
+    "health": 6,
+    "nature": 10,
+    "family": 5,
+    "philosophy": 19,
+    "time": 26,
+    "general": 241,
+    "society": 10,
+    "body": 18,
+    "arts": 18,
+    "communication": 5,
+    "work": 1,
+    "science": 7
+  },
+  "concept_links": 233,
+  "transcription_sources": {
+    "epitran": 126,
+    "wiktionary": 330,
+    "rule": 25
+  },
+  "noun_countability": {
+    "uncountable": 210,
+    "countable": 220,
+    "invariable": 1
+  },
+  "noun_gender": {
+    "masculine": 131,
+    "feminine": 260,
+    "neuter": 40
+  },
+  "skipped": [
+    {
+      "language": "it",
+      "word": "Sospeso",
+      "reason": "likely proper noun/name"
+    },
+    {
+      "language": "fr",
+      "word": "Le DM",
+      "reason": "acronym/non-unit"
+    },
+    {
+      "language": "fr",
+      "word": "les liens incassables (m.pl.)",
+      "reason": "plural phrase not a single unit"
+    },
+    {
+      "language": "fr",
+      "word": "Paris",
+      "reason": "likely proper noun/name"
+    },
+    {
+      "language": "fr",
+      "word": "Stone",
+      "reason": "likely proper noun/name"
+    },
+    {
+      "language": "ru",
+      "word": "будет",
+      "reason": "inflected/grammatical form"
+    },
+    {
+      "language": "ru",
+      "word": "классовые барьеры (м.pl.)",
+      "reason": "plural phrase not a single unit"
+    },
+    {
+      "language": "ru",
+      "word": "классовые различия (м.pl.)",
+      "reason": "plural phrase not a single unit"
+    },
+    {
+      "language": "ru",
+      "word": "петербургские каналы (м.pl.)",
+      "reason": "plural phrase not a single unit"
+    },
+    {
+      "language": "ru",
+      "word": "социальные перемены (ж.pl.)",
+      "reason": "plural phrase not a single unit"
+    }
+  ],
+  "linked_sample": [
+    {
+      "language": "es",
+      "term": "verano",
+      "cosydata_word": "verano",
+      "id": "es:verano:noun"
+    },
+    {
+      "language": "it",
+      "term": "amore",
+      "cosydata_word": "amore",
+      "id": "it:amore:noun"
+    },
+    {
+      "language": "it",
+      "term": "energia",
+      "cosydata_word": "energia",
+      "id": "it:energia:noun"
+    },
+    {
+      "language": "it",
+      "term": "estate",
+      "cosydata_word": "estate",
+      "id": "it:estate:noun"
+    },
+    {
+      "language": "it",
+      "term": "proteggere",
+      "cosydata_word": "proteggere",
+      "id": "it:proteggere:verb"
+    },
+    {
+      "language": "it",
+      "term": "scomparire",
+      "cosydata_word": "scomparire",
+      "id": "it:scomparire:verb"
+    },
+    {
+      "language": "it",
+      "term": "soffrire",
+      "cosydata_word": "soffrire",
+      "id": "it:soffrire:verb"
+    },
+    {
+      "language": "it",
+      "term": "solitudine",
+      "cosydata_word": "solitudine",
+      "id": "it:solitudine:noun"
+    },
+    {
+      "language": "it",
+      "term": "spiaggia",
+      "cosydata_word": "spiaggia",
+      "id": "it:spiaggia:noun"
+    },
+    {
+      "language": "it",
+      "term": "vento",
+      "cosydata_word": "vento",
+      "id": "it:vento:noun"
+    }
+  ],
+  "quality_audit": {
+    "baseline_findings": 5580,
+    "new_findings": 0
+  },
+  "notes": "Levels were recalibrated after review: the source cards over-used B2 for common nouns and under-used A2/B1 for some advanced literary items. The final levels use English concept level and target-language frequency as signals, with manual checks for concrete nouns, phrases and rare derivatives. Wiktionary provided IPA, gender, plural and part-of-speech evidence; Epitran supplied fallback IPA for fr/ru/it/es; a rule-based modern Greek IPA fallback covered Greek cards without a pronunciation section. pymorphy3 normalised Russian plural lemmas and plurals. Multiword plural phrases were skipped rather than imported with partial agreement.",
+  "level_review": {
+    "entries_reviewed": 481,
+    "levels_changed": 198,
+    "from_to": {
+      "B1->A2": 28,
+      "B1->B2": 96,
+      "B2->B1": 49,
+      "B2->A2": 3,
+      "B2->C1": 6,
+      "B1->C1": 4,
+      "A2->C1": 2,
+      "A2->B1": 7,
+      "A2->B2": 3
+    },
+    "method": "Compared the source card level with the English concept level and target-language word frequency; applied conservative corrections and manually checked concrete nouns, phrases and rare derivatives.",
+    "remaining_caveat": "Levels are a best-effort CEFR calibration from card context, concept level and frequency. Literary nouns and rare derivatives can reasonably sit one band higher or lower."
+  }
+}

@@ -52,6 +52,18 @@ function loadVocabularySchema(rootDir) {
   return JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
 }
 
+function loadIdAliases(rootDir) {
+  const aliasesPath = path.join(rootDir, 'shared', 'id-aliases.json');
+  if (!fs.existsSync(aliasesPath)) return {};
+  return JSON.parse(fs.readFileSync(aliasesPath, 'utf8'));
+}
+
+function loadSchemaThemes(rootDir) {
+  const themesPath = path.join(rootDir, 'schemas', 'themes.json');
+  if (!fs.existsSync(themesPath)) return {};
+  return JSON.parse(fs.readFileSync(themesPath, 'utf8')).themes || {};
+}
+
 function loadAllExistingIds(rootDir) {
   const existingIds = new Map(); // id -> relative file path
   const vocabDir = path.join(rootDir, 'vocabulary');
@@ -130,11 +142,17 @@ function main() {
   }
 
   const schemaData = loadVocabularySchema(rootDir);
-  const ajv = new Ajv2020({ allErrors: true });
+  const ajv = new Ajv2020({ allErrors: true, strict: false });
   addFormats(ajv);
+  const themesSchemaPath = path.join(rootDir, 'schemas', 'themes.json');
+  if (fs.existsSync(themesSchemaPath)) {
+    ajv.addSchema(JSON.parse(fs.readFileSync(themesSchemaPath, 'utf8')));
+  }
   const validateSchema = ajv.compile(schemaData);
 
   const knownThemes = loadThemes(rootDir);
+  const schemaThemes = loadSchemaThemes(rootDir);
+  const idAliases = loadIdAliases(rootDir);
   const existingIds = loadAllExistingIds(rootDir);
 
   const resolvedEntriesByFile = new Map(); // targetRelPath -> entry array
@@ -185,6 +203,13 @@ function main() {
       reasons.push("Missing or empty required field 'theme'");
     }
 
+    if (theme && schemaThemes[theme] && rawEntry.sub_theme) {
+      const subTheme = String(rawEntry.sub_theme).trim();
+      if (!schemaThemes[theme].includes(subTheme)) {
+        reasons.push(`Sub-theme '${subTheme}' is not valid for theme '${theme}' in schemas/themes.json`);
+      }
+    }
+
     const wordSlug = word ? slugify(word) : '';
     const constructedId = rawEntry.id || (wordSlug && form ? `${language}:${wordSlug}:${form}` : null);
 
@@ -193,6 +218,8 @@ function main() {
     } else if (existingIds.has(constructedId)) {
       const existingFile = existingIds.get(constructedId);
       reasons.push(`Entry ID '${constructedId}' already exists in COSYdata (${existingFile})`);
+    } else if (idAliases[constructedId]) {
+      reasons.push(`Entry ID '${constructedId}' is retired; use '${idAliases[constructedId]}'`);
     }
 
     // Build candidate object
@@ -210,6 +237,9 @@ function main() {
     // Note: context is not a schema field, so we omit non-schema property context from candidate for vocabulary.schema.json
     delete candidate.context;
     delete candidate.cefr_level;
+    delete candidate.clubs;
+    delete candidate.session_level;
+    delete candidate.sources;
 
     // Validate against JSON schema
     const valid = validateSchema(candidate);
