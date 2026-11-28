@@ -53,7 +53,7 @@ same word from another dictionary.
 
 ## Passes so far
 
-The model was applied in three passes on 2026-11-28. Together they split 71
+The model was applied in four passes on 2026-11-28. Together they split 101
 English senses out of existing headwords.
 
 Pass 1 added 13 senses: `bank` (river), `match` (game), `court` (sport),
@@ -94,6 +94,24 @@ Three conflated base entries were corrected in the same pass: `play` (noun)
 now means activity for fun, `light` (adjective) now means full of light and not
 dark, and `set` (verb) now only carries the begin sense with a real
 transcription. The other senses moved to the new entries.
+
+Pass 4 added 30 senses:
+
+- A2: `place` (seat), `hard` (difficult), `class` (lesson), `pound` (weight),
+  `subject` (topic), `tip` (money), `wave` (hand movement).
+- B1: `state` (country), `power` (control), `mean` (intend), `support`
+  (hold up), `support` (a prop), `open` (available), `free` (not busy),
+  `key` (important), `stage` (phase), `board` (committee), `plant` (factory),
+  `post` (job), `capital` (business money), `degree` (university
+  qualification), `figure` (body shape), `well` (healthy), `note` (musical
+  sound), `rock` (music), `present` (now), `tap` (knock), `tip` (pointed end).
+- B2: `land` (property), `word` (promise).
+
+Pass 4 also corrected seven base entries that mixed two senses in one
+definition: `land` (noun) now means solid ground, `mean` (noun) means average,
+`free` (adjective) means costing no money, `hard` (adjective) means solid and
+firm, `pound` (noun) means British money, `present` (noun) means gift, and
+`tip` (noun) means advice. The other meanings live in the new entries.
 
 The base entry of every split pair now carries its own `sense` and
 `sense_label`, so the dictionary shows both meanings instead of only the new

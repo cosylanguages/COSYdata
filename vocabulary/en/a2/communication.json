@@ -37,25 +37,35 @@
     "word": "mean",
     "language": "en",
     "form": "noun",
-    "level": "A2",
+    "level": "B2",
     "definitions": [
-      "To express or signify a particular idea."
+      "The mean is the average of a set of numbers."
     ],
     "examples": [
-      "What does this unusual word mean?"
+      "The mean of 2, 4 and 6 is 4.",
+      "They compared the mean scores of both groups."
     ],
-    "domain": "general, spoken, professional, exam",
-    "theme": "communication",
-    "updated": "2025-05-20",
+    "domain": "general, professional, exam",
+    "theme": "measurement",
+    "updated": "2026-11-28",
     "plural_form": "means",
     "tags": [
       "spoken"
     ],
     "transcription": "/miːn/",
-    "emoji": "💡",
+    "emoji": "📊",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "greetings"
+    "sub_theme": "units_scales",
+    "levels": [
+      "B2"
+    ],
+    "sense": "average",
+    "sense_label": "average amount",
+    "synonyms": [
+      "average"
+    ],
+    "article": "the"
   },
   {
     "id": "en:explain:verb",
@@ -1890,5 +1900,39 @@
     ],
     "no_antonym": true,
     "updated": "2026-11-28"
+  },
+  {
+    "id": "en:subject-topic:noun",
+    "word": "subject",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "topic",
+    "sense_label": "topic",
+    "definitions": [
+      "A subject is a topic that is discussed or studied."
+    ],
+    "examples": [
+      "The subject of the meeting was money.",
+      "We changed the subject."
+    ],
+    "domain": "general, spoken",
+    "theme": "communication",
+    "sub_theme": "general",
+    "transcription": "/ˈsʌb.dʒekt/",
+    "emoji": "💬",
+    "synonyms": [
+      "topic",
+      "theme",
+      "issue"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "subjects"
   }
 ]

@@ -175,7 +175,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "descriptors",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -197,7 +197,9 @@
     "related_forms": [
       "to open",
       "open (adj)"
-    ]
+    ],
+    "sense": "not-closed",
+    "sense_label": "not closed"
   },
   {
     "id": "en:full:adjective",
@@ -405,14 +407,15 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "solid and firm, or difficult to do"
+      "Something hard is solid and firm, not soft."
     ],
     "examples": [
-      "The bed was too hard to sleep on."
+      "The bed was too hard to sleep on.",
+      "The ground was hard and dry."
     ],
     "domain": "general, spoken, travel",
     "theme": "descriptors",
-    "updated": "2026-10-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -421,8 +424,7 @@
     ],
     "transcription": "/hɑːd/",
     "antonyms": [
-      "soft",
-      "easy"
+      "soft"
     ],
     "emoji": "🪨",
     "transcription_variants": {
@@ -430,7 +432,9 @@
     },
     "comparative": "harder",
     "superlative": "hardest",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "sense": "firm",
+    "sense_label": "solid and firm"
   },
   {
     "id": "en:friendly:adjective",
@@ -665,22 +669,20 @@
     "form": "adjective",
     "level": "A1",
     "definitions": [
-      "costing no money; not busy"
+      "Something that is free costs no money."
     ],
     "examples": [
-      "Are you free this Saturday afternoon?"
+      "The museum is free on Sundays.",
+      "They gave us a free drink."
     ],
     "domain": "general, spoken, travel",
     "theme": "descriptors",
-    "updated": "2026-10-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
     "transcription": "/friː/",
     "emoji": "🕊️",
-    "antonyms": [
-      "busy"
-    ],
     "comparative": "freer",
     "superlative": "freest",
     "sub_theme": "general",
@@ -692,7 +694,10 @@
     ],
     "related_forms": [
       "free (no cost)"
-    ]
+    ],
+    "sense": "no-cost",
+    "sense_label": "costing no money",
+    "no_antonym": true
   },
   {
     "id": "en:famous:adjective",

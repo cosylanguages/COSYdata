@@ -2,16 +2,16 @@
   "schema_version": "1.0.0",
   "source": "scripts/quality-audit.cjs",
   "counting_rule": "One finding per (rule, subject). A subject is an entry id, or several ids joined by \"|\" for a duplicate group.",
-  "entries": 31569,
-  "findings": 5579,
-  "entries_with_findings": 5579,
+  "entries": 31599,
+  "findings": 5578,
+  "entries_with_findings": 5578,
   "findings_share": 17.7,
   "baseline": {
     "total": 5580,
     "generated": "2026-11-26"
   },
   "new": 0,
-  "resolved": 1,
+  "resolved": 2,
   "rules": [
     {
       "code": "missing-definitions",
@@ -94,7 +94,7 @@
     {
       "code": "missing-transcription",
       "description": "The entry has no IPA transcription.",
-      "findings": 5579,
+      "findings": 5578,
       "new": 0
     },
     {
@@ -143,7 +143,7 @@
   "by_code": [
     {
       "code": "missing-transcription",
-      "findings": 5579,
+      "findings": 5578,
       "examples": [
         "ba:et:noun",
         "ba:at:noun",
@@ -191,8 +191,8 @@
     },
     {
       "code": "en",
-      "findings": 395,
-      "entries": 12843,
+      "findings": 394,
+      "entries": 12873,
       "share": 3.1
     },
     {
@@ -260,19 +260,19 @@
     {
       "level": "A2",
       "findings": 444,
-      "entries": 6749,
+      "entries": 6756,
       "share": 6.6
     },
     {
       "level": "B1",
       "findings": 394,
-      "entries": 4172,
+      "entries": 4193,
       "share": 9.4
     },
     {
       "level": "B2",
-      "findings": 1119,
-      "entries": 3665,
+      "findings": 1118,
+      "entries": 3667,
       "share": 30.5
     },
     {

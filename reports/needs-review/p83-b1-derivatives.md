@@ -79,7 +79,7 @@ only because a dictionary or a productive pattern supports them.
 
 ### Polysemy pilot
 
-- Three passes added 71 English sense entries. Pass 1: `court` sport and
+- Four passes added 101 English sense entries. Pass 1: `court` sport and
   `light` not heavy A2; `bank` river, `match` game, `spring` water, `case`
   instance, `point` idea, `state` condition and `matter` be important B1;
   `season` add flavour, `charge` accusation, `issue` release and `right`
@@ -93,25 +93,38 @@ only because a dictionary or a productive pattern supports them.
   `call` name, `hold` contain, `hold` event, `keep` record, `break` rule,
   `check` inspection, `fire` shoot, `form` type, `run` manage, `run` series,
   `set` fixed, `order` arrangement, `case` legal, `live` alive) and 2 B2
-  senses (`paper` article, `matter` substance). Definitions and examples use
-  short language at the entry's own level.
+  senses (`paper` article, `matter` substance). Pass 4: 7 A2 senses (`place`
+  seat, `hard` difficult, `class` lesson, `pound` weight, `subject` topic,
+  `tip` money, `wave` hand movement), 21 B1 senses (`state` country, `power`
+  control, `mean` intend, `support` hold up, `support` prop, `open` available,
+  `free` not busy, `key` important, `stage` phase, `board` committee, `plant`
+  factory, `post` job, `capital` business money, `degree` university
+  qualification, `figure` body shape, `well` healthy, `note` musical sound,
+  `rock` music, `present` now, `tap` knock, `tip` pointed end) and 2 B2 senses
+  (`land` property, `word` promise). Definitions and examples use short
+  language at the entry's own level.
 - `en:court:noun` had a basketball example mixed into the legal sense; it moved
   to `en:court-sport:noun` and the legal entry now has legal examples only.
-- Base entries fixed because they described a different part of speech:
-  `en:cover:noun` (protective cover), `en:pass:noun` (exam result),
-  `en:play:noun` (activity for fun), `en:light:adjective` (full of light) and
-  `en:set:verb` (begin). New entries carry the other senses.
+- Base entries fixed because they described a different part of speech or
+  mixed two meanings: `en:cover:noun` (protective cover), `en:pass:noun` (exam
+  result), `en:play:noun` (activity for fun), `en:light:adjective` (full of
+  light), `en:set:verb` (begin), `en:land:noun` (solid ground), `en:mean:noun`
+  (average), `en:free:adjective` (no cost), `en:hard:adjective` (solid),
+  `en:pound:noun` (British money), `en:present:noun` (gift) and `en:tip:noun`
+  (advice). New entries carry the other senses.
 - Doubts for a reviewer: `rest` (remainder), `room` (space), `order`
-  (arrangement) and `wear` (damage) are tagged uncountable; `ring` (phone) is
-  British-leaning; `live` (not dead) is rarer than `live` (broadcast) and needs
-  a frequency check; `fire` (shoot) is labelled B1 but some lists put it at B2.
+  (arrangement), `wear` (damage), `land` (ground and property), `word`
+  (promise), `capital` (money), `present` (now) and `rock` (music) are tagged
+  uncountable; `ring` (phone) is British-leaning; `live` (not dead) is rarer
+  than `live` (broadcast) and needs a frequency check; `fire` (shoot) is
+  labelled B1 but some lists put it at B2; `well` (healthy) is normally
+  predicative (`she is well`), not attributive.
 - Existing entries with a definition from the wrong part of speech were left
-  untouched when they were outside this pass: `en:mean:noun`,
-  `en:look:adjective`, `en:show:adjective`, `en:land:noun` and
-  `en:support:noun` (technical help only). `en:point:noun` is also narrow
-  (`critical moment`), with the common senses split into `point-idea` and
-  `point-score`. They should be fixed in a cleanup task, not silently changed
-  here.
+  untouched when they were outside this pass: `en:look:adjective`,
+  `en:show:adjective`, `en:stage:adverb` and `en:support:noun` (technical help
+  only). `en:point:noun` is also narrow (`critical moment`), with the common
+  senses split into `point-idea` and `point-score`. They should be fixed in a
+  cleanup task, not silently changed here.
 - `challenge` and `agency` already had a `sense` slug but no label; they were
   left untouched because they were outside this task.
 
