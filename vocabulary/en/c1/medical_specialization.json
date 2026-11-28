@@ -13,7 +13,7 @@
     ],
     "no_antonym": true,
     "language": "en",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɔː.təʊ.ɪˈmjuːn/",
     "transcription_variants": {
       "us": "/ˌɑː.t̬oʊ.ɪˈmjuːn/"
@@ -24,7 +24,13 @@
     "examples": [
       "Patients with autoimmune disorders require continuous specialized medical supervision."
     ],
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "autoimmunity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:chronic-pain-management:noun",
@@ -100,7 +106,7 @@
       "non-genetic"
     ],
     "language": "en",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/hɪˈred.ɪ.tər.i/",
     "transcription_variants": {
       "us": "/həˈred.ə.ter.i/"
@@ -111,7 +117,13 @@
     "examples": [
       "Doctors inquired whether the patient had any hereditary medical conditions in their family history."
     ],
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "heredity",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:hospice:noun",
@@ -235,7 +247,7 @@
     "domain": "general, relocation",
     "theme": "health",
     "transcription": "/ˌkɒn.trəˌɪn.dɪˈkeɪ.ʃən/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "a specific situation or medical condition in which a drug, procedure, or surgery should not be used"
     ],
@@ -254,7 +266,13 @@
     "antonyms": [
       "indication"
     ],
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "contraindicate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:degenerative:adjective",
@@ -265,7 +283,7 @@
     "domain": "general, relocation",
     "theme": "health",
     "transcription": "/dɪˈdʒen.ər.ə.tɪv/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "characterized by progressive deterioration or loss of function in tissues, organs, or health over time"
     ],
@@ -283,7 +301,13 @@
     "antonyms": [
       "regenerative"
     ],
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "degenerate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:differential-diagnosis:noun",
@@ -379,7 +403,7 @@
     "domain": "general, relocation",
     "theme": "health",
     "transcription": "/pəˈθɒl.ə.dʒi/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "the scientific study of the causes and effects of diseases or a specific manifestation of disease"
     ],
@@ -396,7 +420,21 @@
       "medical disorder"
     ],
     "no_antonym": true,
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "pathologic",
+        "form": "adjective"
+      },
+      {
+        "term": "pathological",
+        "form": "adjective"
+      },
+      {
+        "term": "pathologist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:pharmacological:adjective",
@@ -407,7 +445,7 @@
     "domain": "general, relocation",
     "theme": "health",
     "transcription": "/ˌfɑː.mə.kəˈlɒdʒ.ɪ.kəl/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "relating to the branch of medicine concerned with the uses, effects, and modes of action of drugs"
     ],
@@ -423,7 +461,13 @@
       "drug-based"
     ],
     "no_antonym": true,
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "pharmacology",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:rehabilitation-protocol:noun",
@@ -488,7 +532,7 @@
     "level": "C1",
     "domain": "general, travel",
     "theme": "health",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "Action or medication taken to prevent disease."
     ],
@@ -507,6 +551,12 @@
       "medical_specialization",
       "travel"
     ],
-    "sub_theme": "medical_care"
+    "sub_theme": "medical_care",
+    "derivatives": [
+      {
+        "term": "prophylactic",
+        "form": "adjective"
+      }
+    ]
   }
 ]

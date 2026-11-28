@@ -47,7 +47,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -63,7 +63,13 @@
       "pattern"
     ],
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "paradigmatic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:proprietary:adjective",
@@ -79,7 +85,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1"
     ],
@@ -98,7 +104,13 @@
     "transcription_variants": {
       "us": "/prəˈpraɪ.ə.ter.i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "proprietor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:shift:noun",
@@ -116,7 +128,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "business",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -133,7 +145,13 @@
       "realignment"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "shifty",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:diligence:noun",
@@ -149,7 +167,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1",
       "C2"
@@ -170,7 +188,13 @@
     "transcription_variants": {
       "us": "/ˈdɪl.ə.dʒəns/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "diligent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:corporate:noun",
@@ -221,7 +245,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1"
     ],
@@ -241,7 +265,21 @@
     "transcription_variants": {
       "us": "/ˈsɪn.ɚ.dʒi/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "synergetic",
+        "form": "adjective"
+      },
+      {
+        "term": "synergist",
+        "form": "noun"
+      },
+      {
+        "term": "synergistic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:governance:noun",
@@ -257,7 +295,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɡʌv.ən.əns/",
     "emoji": "🏛️",
     "countability": "uncountable",
@@ -270,7 +308,13 @@
     "transcription_variants": {
       "us": "/ˈɡʌv.ɚ.nəns/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "govern",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:fiduciary:noun",
@@ -563,7 +607,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈlaɪn.mənt/",
     "emoji": "📐",
     "countability": "uncountable",
@@ -577,7 +621,13 @@
       "divergence",
       "incongruity"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "align",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:succession:noun",
@@ -593,7 +643,7 @@
     ],
     "domain": "general",
     "theme": "business",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/səkˈseʃ.ən/",
     "emoji": "👑",
     "countability": "uncountable",
@@ -603,7 +653,17 @@
       "inheritance"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "succeed",
+        "form": "verb"
+      },
+      {
+        "term": "successive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:strategic-vision:noun",
@@ -1105,7 +1165,7 @@
       "spoken",
       "advanced"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌvæl.juˈeɪ.ʃən/",
     "emoji": "💰",
     "countability": "countable",
@@ -1115,7 +1175,13 @@
       "estimation"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "valuate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:intellectual-property:noun",
@@ -1579,11 +1645,21 @@
       "supply management",
       "distribution planning"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "emoji": "🚚",
     "no_antonym": true,
     "countability": "pluralia_tantum",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "logistic",
+        "form": "adjective"
+      },
+      {
+        "term": "logistical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:patent-pending:adjective",
@@ -1629,11 +1705,17 @@
       "purchasing",
       "sourcing"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "📦",
     "no_antonym": true,
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "procure",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:interdepartmental:adjective",

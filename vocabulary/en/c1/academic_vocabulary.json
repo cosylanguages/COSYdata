@@ -42,7 +42,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1",
       "C2"
@@ -59,7 +59,17 @@
       "distort",
       "obfuscate"
     ],
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "delineation",
+        "form": "noun"
+      },
+      {
+        "term": "delineative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:distinction:noun",
@@ -75,7 +85,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -92,7 +102,13 @@
       "resemblance",
       "equivalence"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "distinguish",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:methodological:adjective",
@@ -108,7 +124,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -123,7 +139,13 @@
     "transcription_variants": {
       "us": "/ˌmeθ.ə.dəˈlɑː.dʒɪ.kəl/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "methodology",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:epistemological:adjective",
@@ -141,7 +163,7 @@
     ],
     "domain": "general, professional",
     "theme": "education",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "transcription": "/ɪˌpɪs.tɪ.məˈlɒdʒ.ɪ.kəl/",
     "no_emoji": true,
     "synonyms": [
@@ -155,6 +177,16 @@
     "sub_theme": "teachers-scientists",
     "levels": [
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "episteme",
+        "form": "noun"
+      },
+      {
+        "term": "epistemology",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -171,7 +203,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1",
       "C2"
@@ -186,7 +218,13 @@
     "transcription_variants": {
       "us": "/ˌɑːn.t̬əˈlɑː.dʒɪ.kəl/"
     },
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "ontology",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:overarching:adjective",
@@ -338,7 +376,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kəˈnɒn.ɪ.kəl/",
     "emoji": "📚",
     "synonyms": [
@@ -354,7 +392,13 @@
     "transcription_variants": {
       "us": "/kəˈnɑː.nɪ.kəl/"
     },
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "canon",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:corroborating:noun",
@@ -1056,11 +1100,17 @@
       "causation",
       "cause-and-effect relationship"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🔗",
     "no_antonym": true,
     "countability": "uncountable",
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "causal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:control-group:noun",
@@ -1137,11 +1187,17 @@
       "estimation",
       "inference"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "📈",
     "no_antonym": true,
     "countability": "countable",
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "extrapolate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:falsifiability:noun",
@@ -1219,13 +1275,23 @@
       "inductive reasoning",
       "generalization"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🧠",
     "antonyms": [
       "deduction"
     ],
     "countability": "uncountable",
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "induce",
+        "form": "verb"
+      },
+      {
+        "term": "induct",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:semantics:noun",
@@ -1246,11 +1312,21 @@
       "linguistic meaning",
       "interpretation"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🗣️",
     "no_antonym": true,
     "countability": "pluralia_tantum",
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "semantic",
+        "form": "adjective"
+      },
+      {
+        "term": "semanticist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:syntax:noun",
@@ -1272,11 +1348,21 @@
       "grammar rules",
       "coding rules"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "💻",
     "no_antonym": true,
     "countability": "uncountable",
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "syntactic",
+        "form": "adjective"
+      },
+      {
+        "term": "syntactical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:trajectory:noun",
@@ -1351,7 +1437,7 @@
       "unworkability"
     ],
     "language": "en",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌfiː.zəˈbɪl.ə.ti/",
     "transcription_variants": {
       "us": "/ˌfiː.zəˈbɪl.ə.t̬i/"
@@ -1362,7 +1448,13 @@
     "examples": [
       "Consultants conducted a study to assess the financial feasibility of opening an overseas office."
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "feasible",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:viability:noun",
@@ -1433,7 +1525,7 @@
     "domain": "general, relocation",
     "theme": "education",
     "transcription": "/ɪmˈpɜː.mə.nəns/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "the state or quality of lasting for only a limited time; transience or mortality"
     ],
@@ -1453,7 +1545,13 @@
     "antonyms": [
       "permanence"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "impermanent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:permanence:noun",
@@ -1464,7 +1562,7 @@
     "domain": "general, relocation",
     "theme": "education",
     "transcription": "/ˈpɜː.mə.nəns/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "the state or quality of lasting or remaining unchanged indefinitely"
     ],
@@ -1484,7 +1582,13 @@
     "antonyms": [
       "impermanence"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "permanent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:taxonomy:noun",
@@ -1495,7 +1599,7 @@
     "domain": "general, relocation, exam",
     "theme": "education",
     "transcription": "/tækˈsɒn.ə.mi/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "a scheme or framework for classifying and categorizing concepts, organisms, or data into ordered groups"
     ],
@@ -1512,7 +1616,21 @@
       "categorization"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "taxonomic",
+        "form": "adjective"
+      },
+      {
+        "term": "taxonomical",
+        "form": "adjective"
+      },
+      {
+        "term": "taxonomist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:unfolding:noun",
@@ -1523,7 +1641,7 @@
     "domain": "general, relocation",
     "theme": "education",
     "transcription": "/ʌnˈfəʊl.dɪŋ/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "the gradual process of revealing, developing, or taking place over a period of time"
     ],
@@ -1541,7 +1659,13 @@
       "revelation"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "unfold",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:these-findings-suggest:phrase",

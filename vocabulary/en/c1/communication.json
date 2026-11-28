@@ -83,7 +83,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "communication",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -105,6 +105,12 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "misinform",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -239,7 +245,7 @@
     ],
     "domain": "general, relocation",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌpɑː.tɪ.zænˈʃɪp/",
     "emoji": "🗳️",
     "countability": "uncountable",
@@ -256,7 +262,13 @@
     "transcription_variants": {
       "us": "/ˌpɑːr.t̬ə.zənˈʃɪp/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "partial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:polemic:noun",
@@ -272,7 +284,7 @@
     ],
     "domain": "general, spoken",
     "theme": "communication",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -288,7 +300,25 @@
       "panegyric",
       "eulogy"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "polemical",
+        "form": "adjective"
+      },
+      {
+        "term": "polemicise",
+        "form": "verb"
+      },
+      {
+        "term": "polemicize",
+        "form": "verb"
+      },
+      {
+        "term": "polemize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:punditry:noun",
@@ -335,7 +365,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "communication",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -351,7 +381,17 @@
       "understatement",
       "sobriety"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "sensationalist",
+        "form": "noun"
+      },
+      {
+        "term": "sensationalistic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:tabloidization:noun",
@@ -1071,7 +1111,7 @@
     "domain": "general, relocation",
     "theme": "communication",
     "transcription": "/vɜːˈbɒs.ə.ti/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "the quality or state of using more words than are necessary; wordiness"
     ],
@@ -1092,7 +1132,13 @@
       "conciseness",
       "brevity"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "verbose",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:even-if-it-s-hard-to-hear:phrase",
@@ -1433,7 +1479,7 @@
     "domain": "general, relocation, exam",
     "theme": "communication",
     "transcription": "/ˈel.ə.kwəns/",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "definitions": [
       "fluent, persuasive, and graceful speaking or writing that moves an audience"
     ],
@@ -1450,6 +1496,12 @@
     "antonyms": [
       "inarticulate speech"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "eloquent",
+        "form": "adjective"
+      }
+    ]
   }
 ]

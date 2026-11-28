@@ -77,6 +77,60 @@ only because a dictionary or a productive pattern supports them.
 - Adverbs were added only when WordNet contains the adverb. This avoids
   non-words such as `*doctoral+ly` patterns that a spelling rule would create.
 
+### C1 review notes
+
+#### English
+
+- 501 of 879 single-word C1 open-class entries have a family, from 791 WordNet
+  links. The filter required a matching part of speech, the candidate to start
+  with the first five letters of the headword, and the candidate not to be in
+  the same synset as the headword. This removes near-synonyms such as
+  `desirable` → `suitableness` but still leaves some low-frequency forms.
+- Both spelling variants are kept when WordNet has both, for example
+  `normalisation`/`normalization`, `centralise`/`centralize` and
+  `subsidisation`/`subsidization`. A later pass may choose one variant per
+  entry.
+- Some links are base nouns rather than suffixed derivatives: `prestige` from
+  `prestigious`, `moment` from `momentary`, `planet` from `planetary`,
+  `episteme` from `epistemic`. They are still the same word family.
+- `en:practices:noun` is a plural headword; WordNet resolves it to `practice`,
+  so the family member is `practical`. A reviewer may prefer to move the field
+  to a singular headword if one is added.
+- 378 English C1 entries still have no field. Most are concrete nouns,
+  loanwords, or words whose only WordNet relatives failed the prefix test.
+
+#### French
+
+- Left out: `invite` (AI prompt; the ordinary verb `inviter` is unrelated),
+  `itinéraire` (no confident single-word family) and `infrastructure`
+  (`infrastructurel` is specialist).
+- `utilitaire` is listed for `utilitarisme` with the everyday sense
+  "practical" rather than a strict philosophical counterpart.
+- `hameçon` is a base noun ("hook, bait"), not a suffixed derivative of
+  `hameçonnage`.
+
+#### Italian
+
+- Left out: `chatbot`, `prompt`, `phishing`, `malware`, `firewall` (loanwords),
+  `itinerario` (`itinerante` has a different sense).
+- `crittografo`, `climatizzatore` and `arredatore` are agent/instrument nouns,
+  not abstract counterparts.
+
+#### Russian
+
+- Left out: `промпт`, `фишинг`, `брандмауэр` (loanwords) and
+  `здравоохранение` (no confident single-word family).
+- `шифр` is a base noun ("code, cipher"), not a suffixed derivative of
+  `шифрование`.
+
+#### Greek
+
+- Left out: `διαδρομή` (no confident single-word family).
+- `τηλεργαζόμενος` is an agent noun ("remote worker"), not an abstract
+  counterpart of `τηλεργασία`.
+- `αυτοματοποιώ`, `κρυπτογραφώ`, `διακοσμώ` and the philosophy adjectives are
+  regular derivations; the corresponding nouns in -ση/-ία are the headwords.
+
 ### Polysemy pilot
 
 - Six passes added 143 English sense entries. Pass 1: `court` sport and

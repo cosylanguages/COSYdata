@@ -39,9 +39,9 @@ the same entry. Do not move or rewrite existing `derivations` values.
 
 ## Scope
 
-B1 and B2 entries whose `form` is `noun`, `verb`, `adjective` or `adverb` and
-whose headword is a single word. Higher levels follow in later tasks. The field
-is optional, so entries with no confident family simply have no `derivatives`.
+B1, B2 and C1 entries whose `form` is `noun`, `verb`, `adjective` or `adverb`
+and whose headword is a single word. C2 follows in a later task. The field is
+optional, so entries with no confident family simply have no `derivatives`.
 
 B1 (2026-11-28): 1,446 of 1,869 eligible entries annotated, 3,022 links. The
 entries without a field are concrete nouns with no derivational family
@@ -66,6 +66,25 @@ headword, be a single word, and pass a manual review that removed semantic
 near-synonyms (`dismissal` → `fire`) and rare variants. Adverbs were added only
 when WordNet contains the adverb. The 386 English B2 entries without a field
 need a later manual pass.
+
+C1 (2026-11-28):
+
+| Language | Annotated | Eligible | Links |
+| --- | ---: | ---: | ---: |
+| English | 501 | 879 | 791 |
+| French | 16 | 19 | 33 |
+| Italian | 17 | 23 | 38 |
+| Russian | 12 | 16 | 28 |
+| Greek | 15 | 16 | 33 |
+
+English C1 used the B2 WordNet method with a stricter prefix test: the candidate
+must start with the first five letters of the headword, belong to a synset with
+the entry's own part of speech, and not be a synonym in the same synset. This
+removes pairs such as `desirable` → `suitableness`. The 378 English C1 entries
+without a field are mostly concrete nouns, loanwords, or words whose only
+WordNet relatives failed the prefix test. The four non-English C1 sets were
+curated by hand from standard morphology; doubtful forms were left out and are
+listed in `reports/needs-review/`.
 
 Polysemous entries carry one `derivatives` list per sense, because each sense has
 its own family (`issue` as a topic has no `issuer`; `issue` as a release does).
