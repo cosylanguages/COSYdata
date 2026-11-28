@@ -564,39 +564,37 @@
     "word": "cover",
     "language": "en",
     "form": "noun",
-    "level": "B1",
+    "level": "A2",
     "definitions": [
-      "To take over someone's duties during their absence or time off."
+      "A cover is something you put over an object to protect it."
     ],
     "examples": [
-      "Could you please cover my shift while I attend doctor appointment?"
+      "Put the cover on the pan.",
+      "The book has a blue cover."
     ],
-    "domain": "general",
-    "theme": "work",
+    "domain": "general, spoken",
+    "theme": "general",
     "updated": "2026-11-28",
     "transcription": "/ˈkʌv.ə/",
-    "emoji": "📄",
-    "countability": "uncountable",
+    "emoji": "📦",
+    "countability": "countable",
     "synonyms": [
-      "shelter",
-      "protection",
-      "substitute"
+      "lid",
+      "top",
+      "case"
     ],
     "no_antonym": true,
     "transcription_variants": {
       "us": "/ˈkʌv.ɚ/"
     },
-    "sub_theme": "general",
-    "derivatives": [
-      {
-        "term": "cover",
-        "form": "verb"
-      },
-      {
-        "term": "coverage",
-        "form": "noun"
-      }
-    ]
+    "sub_theme": "common_things",
+    "levels": [
+      "A2"
+    ],
+    "sense": "lid",
+    "sense_label": "thing that covers",
+    "article": "a",
+    "plural_form": "covers"
   },
   {
     "id": "en:soft:noun",
@@ -3876,5 +3874,69 @@
     "no_antonym": true,
     "sub_theme": "general",
     "updated": "2025-05-20"
+  },
+  {
+    "id": "en:cover-takeover:verb",
+    "word": "cover",
+    "language": "en",
+    "form": "verb",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "takeover",
+    "sense_label": "do someone's work",
+    "definitions": [
+      "To cover for someone means to do their work while they are away."
+    ],
+    "examples": [
+      "Can you cover for me while I am on holiday?",
+      "She covered his shift."
+    ],
+    "domain": "general, spoken",
+    "theme": "work",
+    "sub_theme": "general",
+    "transcription": "/ˈkʌv.ər/",
+    "emoji": "🔁",
+    "synonyms": [
+      "substitute",
+      "replace"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:head-leader:noun",
+    "word": "head",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "leader",
+    "sense_label": "person in charge",
+    "definitions": [
+      "The head of a group is the person in charge of it."
+    ],
+    "examples": [
+      "She is the head of the sales team.",
+      "The head of the school spoke to parents."
+    ],
+    "domain": "general, spoken",
+    "theme": "work",
+    "sub_theme": "professions_jobs",
+    "transcription": "/hed/",
+    "emoji": "👔",
+    "synonyms": [
+      "leader",
+      "chief",
+      "director"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "heads"
   }
 ]

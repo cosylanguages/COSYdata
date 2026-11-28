@@ -51,13 +51,34 @@ Definitions and examples must be understandable at the entry's own level. For a
 B1 sense, use B1 words and short sentences; do not copy the C1 definition of the
 same word from another dictionary.
 
-## First pass
+## Passes so far
 
-The first pass adds missing high-frequency second senses that learners meet
-early: `bank` (river), `match` (game), `court` (sport), `spring` (water),
-`case` (instance), `point` (idea), `state` (condition), `light` (not heavy),
-`season` (add flavour), `charge` (accusation), `issue` (release), `matter`
-(be important) and `right` (entitlement). Each new entry has its own level,
-definition, examples and derivatives, so `season` the verb is B2 while
-`season` the noun stays A1. It is a demonstration of the model, not a claim that
-English polysemy is complete. Later tasks extend it by frequency and by level.
+The model was applied in two passes on 2026-11-28. Together they split 44
+English senses out of existing headwords.
+
+Pass 1 added 13 senses: `bank` (river), `match` (game), `court` (sport),
+`spring` (water), `case` (instance), `point` (idea), `state` (condition),
+`light` (not heavy), `season` (add flavour), `charge` (accusation), `issue`
+(release), `matter` (be important) and `right` (entitlement).
+
+Pass 2 added 31 senses:
+
+- A2: `set` (group), `turn` (chance), `line` (queue), `drop` (liquid),
+  `note` (message), `pass` (ticket), `plan` (map), `press` (push), `ring`
+  (phone), `top` (highest part), `treat` (something special), `way` (method).
+- B1: `order` (command), `cover` (take over work), `face` (deal with),
+  `head` (leader), `live` (happening now), `look` (appearance), `mean`
+  (unkind), `paper` (newspaper), `part` (role), `raise` (increase), `rest`
+  (remainder), `room` (space), `store` (keep), `strike` (hit), `support`
+  (help), `term` (word), `train` (teach skills), `wear` (damage from use),
+  `wonder` (feeling of surprise).
+
+Two base entries were also corrected because their definitions described a
+different part of speech: `cover` (noun) now means a lid or protective cover,
+and `pass` (noun) now means a successful exam result. The old duty-taking sense
+of `cover` lives on as `en:cover-takeover:verb`.
+
+The base entry of every split pair now carries its own `sense` and
+`sense_label`, so the dictionary shows both meanings instead of only the new
+one. This is a demonstration of the model, not a claim that English polysemy is
+complete. Later tasks extend it by frequency and by level.
