@@ -131,6 +131,56 @@ only because a dictionary or a productive pattern supports them.
 - `αυτοματοποιώ`, `κρυπτογραφώ`, `διακοσμώ` and the philosophy adjectives are
   regular derivations; the corresponding nouns in -ση/-ία are the headwords.
 
+### C2 review notes
+
+Only English, French, Italian, Russian and Greek are in scope. The other
+repository languages are not part of this pass.
+
+#### English
+
+- 365 of 618 single-word C2 open-class entries have a family, from 556 WordNet
+  links. The same filter as C1 applies: matching part of speech, five-letter
+  prefix, and no same-synset synonym.
+- The 253 English C2 entries without a field are mostly nouns and adjectives
+  whose WordNet relatives failed the prefix test, or where the only relative is
+  a near-synonym.
+- Low-frequency forms were kept when WordNet lists them, for example
+  `syllogise`/`syllogize` and `comprehendible`.
+
+#### French
+
+- 37 of 124 entries annotated, one derived noun per verb.
+- Left out when the noun is irregular or not transparent: `nier` (`négation`),
+  `militer` (`militantisme`), `vicier` (`viciation`), and verbs whose usual noun
+  is a phrase.
+- `acquiescement` is standard but less common than `consentement`.
+  `médiation` is listed for the rare verb `médier`.
+
+#### Italian
+
+- 35 of 121 entries annotated, one derived noun per verb.
+- Left out: `viziare` (`vizio` is a base noun), `acconsentire`
+  (`acconsentimento` is rare beside `consenso`), `racchiudere`
+  (`racchiusura` is uncommon), and `ingenerare`.
+- `recupero` is listed for `recuperare`; `recuperazione` exists but is
+  specialist.
+
+#### Russian
+
+- 40 of 120 entries annotated, one derived noun per verb.
+- `превосходство` is the usual noun for `превосходить` but means superiority,
+  not transcendence. `обязательство` means obligation, not the act of obliging.
+  `ссылка` means reference or link, not the act of referring in every context.
+- `подчёркивание` keeps the ё spelling used by the headword family.
+
+#### Greek
+
+- 40 of 122 entries annotated, one derived noun per verb.
+- `κατηγόρημα` is the predicate noun of `κατηγορώ` in the logical sense; the
+  same verb also means "accuse".
+- `ηγεμονία` is hegemony, not a -ποίηση formation. `σύγχυση` is the standard
+  noun for `συγχέω`.
+
 ### Polysemy pilot
 
 - Six passes added 143 English sense entries. Pass 1: `court` sport and

@@ -39,9 +39,9 @@ the same entry. Do not move or rewrite existing `derivations` values.
 
 ## Scope
 
-B1, B2 and C1 entries whose `form` is `noun`, `verb`, `adjective` or `adverb`
-and whose headword is a single word. C2 follows in a later task. The field is
-optional, so entries with no confident family simply have no `derivatives`.
+B1, B2, C1 and C2 entries whose `form` is `noun`, `verb`, `adjective` or
+`adverb` and whose headword is a single word. The field is optional, so entries
+with no confident family simply have no `derivatives`.
 
 B1 (2026-11-28): 1,446 of 1,869 eligible entries annotated, 3,022 links. The
 entries without a field are concrete nouns with no derivational family
@@ -85,6 +85,22 @@ without a field are mostly concrete nouns, loanwords, or words whose only
 WordNet relatives failed the prefix test. The four non-English C1 sets were
 curated by hand from standard morphology; doubtful forms were left out and are
 listed in `reports/needs-review/`.
+
+C2 (2026-11-28):
+
+| Language | Annotated | Eligible | Links |
+| --- | ---: | ---: | ---: |
+| English | 365 | 618 | 556 |
+| French | 37 | 124 | 37 |
+| Italian | 35 | 121 | 35 |
+| Russian | 40 | 120 | 40 |
+| Greek | 40 | 122 | 40 |
+
+English C2 used the same WordNet filter as C1. The four non-English C2 sets are
+dominated by academic and philosophy verbs; each annotated verb received one
+high-confidence derived noun. Adjectives, adverbs and less transparent families
+are left for a later pass, as are the remaining English C2 nouns and adjectives
+without a defensible single-word relative.
 
 Polysemous entries carry one `derivatives` list per sense, because each sense has
 its own family (`issue` as a topic has no `issuer`; `issue` as a release does).

@@ -55,7 +55,7 @@ test('every derivative names a real term and a valid part of speech', () => {
 
 test('the first-pass scope is covered in every target language', () => {
   for (const lang of ['en', 'fr', 'it', 'ru', 'el']) {
-    for (const level of ['B1', 'B2', 'C1']) {
+    for (const level of ['B1', 'B2', 'C1', 'C2']) {
       const annotated = entries.filter((entry) => entry.language === lang && entry.level === level && entry.derivatives);
       assert.ok(annotated.length > 0, `${lang} has ${level} derivatives`);
     }
@@ -77,10 +77,18 @@ test('C1 word families cover all five target languages', () => {
   }
 });
 
+test('C2 word families cover all five target languages', () => {
+  const threshold = { en: 350, fr: 30, it: 30, ru: 30, el: 30 };
+  for (const [lang, minimum] of Object.entries(threshold)) {
+    const annotated = entries.filter((entry) => entry.language === lang && entry.level === 'C2' && entry.derivatives);
+    assert.ok(annotated.length >= minimum, `${lang} has at least ${minimum} C2 entries with derivatives, got ${annotated.length}`);
+  }
+});
+
 test('derivatives stay out of multi-word entries in the first pass', () => {
   for (const entry of entries) {
     if (!entry.derivatives) continue;
-    if (!['B1', 'B2', 'C1'].includes(entry.level)) continue;
+    if (!['B1', 'B2', 'C1', 'C2'].includes(entry.level)) continue;
     assert.ok(!entry.word.includes(' '), `${entry.id} is a single-word headword`);
   }
 });
