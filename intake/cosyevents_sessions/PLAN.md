@@ -6,7 +6,7 @@ This document establishes the intake specification, data file layout, schema ali
 
 - **Batch Source**: Vocabulary items, key phrases, and domain-specific terms introduced or surfaced during live community events, workshops, and interactive practice sessions hosted on `COSYevents`.
 - **Primary Objective**: Provide a structured intake staging workflow to capture real-time vocabulary generated during events, enrich them with standard metadata (IPA transcriptions, CEFR level, definitions, examples, emoji, and course track tagging), and integrate them into canonical `vocabulary/<lang>/<level>/<theme>.json` files.
-- **External Dependency Note**: As of this writing, `COSYevents` is an empty/unpopulated repository with no automated export pipeline or exported vocabulary content yet. Consequently, this intake directory (`intake/cosyevents_sessions/`) is established as a **ready-to-fill batch template**. Once `COSYevents` exports session vocabulary logs or CSVs, data will be placed into the per-language CSV files in this folder following the specification below.
+- **Batch Status (2026-11-28)**: Executed. 1,597 unique English terms were harvested from 12 COSYevents club folders (Speaking Clubs, Cinema Club, Karaoke Club, Long Reads, Keeping Up with Science, Mind Matters, I Couldn't Help But Wonder, The Greatest Quotes, Let's Celebrate, Debatable & Relatable, My Life With & Without, If You Were), using structured Markdown frontmatter and HTML vocabulary cards. 869 were already present in COSYdata, 27 non-unit or metadata cards were skipped, and 701 new entries were added. Provenance and the machine-readable batch are in `cosyevents-vocabulary.json`; the human-editable export is `english.csv`.
 
 ---
 
@@ -74,3 +74,41 @@ When `COSYevents` exports vocabulary files into `intake/cosyevents_sessions/`:
    - Merge new vocabulary entries into target level theme files (`vocabulary/<lang>/<level>/<theme>.json`).
    - Run `npm run build` (`npm run build:index`, `npm run build:flat-index`, `npm run build:search-index`).
    - Run `npm run validate` to ensure complete repository compliance.
+
+### Executed batch (2026-11-28)
+
+The enriched batch is `intake/cosyevents_sessions/cosyevents-vocabulary.json`. Each entry keeps its COSYevents provenance in `clubs`, `session_level`, and `sources`; the importer strips those fields before writing canonical data. Re-running the importer against an already-imported batch reports the entries as existing IDs instead of duplicating them.
+
+```bash
+# Re-run the import (idempotent: existing IDs are reported, not duplicated)
+node scripts/import-events-vocab.cjs intake/cosyevents_sessions/cosyevents-vocabulary.json
+
+# Required after any successful import
+npm run build
+npm run validate
+```
+
+Enrichment sources: session definitions/examples first; Wiktionary (English section) for IPA, noun countability, and plural evidence; WordNet for part of speech, synonyms, and antonyms. Missing phrase IPA is composed from component headwords, with manual overrides for technical and loanword items. The quality audit reports zero new findings for this batch.
+
+### Multilingual batch (2026-11-28)
+
+The same harvest was extended to the non-English club cards. After removing duplicates, non-units and terms already present in COSYdata, 481 entries were added across five languages:
+
+- French: 223
+- Russian: 125
+- Greek: 53
+- Italian: 46
+- Spanish: 34
+
+After level review: A2=35, B1=273, B2=161, C1=12. The source card levels were unreliable: B2 was over-used for common nouns and some advanced literary items were marked A2. 198 entries were recalibrated against the English concept level and target-language frequency, with manual review of concrete nouns and phrases. By form: noun=431, verb=27, adjective=17, phrase=6. 82 terms already existed and were linked rather than duplicated; 10 cards were skipped (5 plural phrases, 3 proper names, 1 acronym, 1 grammatical form).
+
+The machine-readable files are `vocabulary-export-fr.json`, `vocabulary-export-ru.json`, `vocabulary-export-el.json`, `vocabulary-export-it.json`, and `vocabulary-export-es.json`. They can be imported together:
+
+```bash
+node scripts/import-events-vocab.cjs intake/cosyevents_sessions/vocabulary-export-fr.json
+# repeat for ru, el, it, es, then:
+npm run build
+npm run validate
+```
+
+Enrichment differs by language. Wiktionary supplied IPA, gender, plural and part-of-speech evidence where available. Epitran supplied fallback IPA for French, Russian, Italian and Spanish; a rule-based modern Greek fallback covered Greek cards without a pronunciation section. `pymorphy3` normalised Russian plural lemmas and generated Russian plural forms. Levels retain the CEFR level assigned by the originating club card. The quality audit reported zero new findings.
