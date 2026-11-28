@@ -91,16 +91,18 @@ C2 (2026-11-28):
 | Language | Annotated | Eligible | Links |
 | --- | ---: | ---: | ---: |
 | English | 365 | 618 | 556 |
-| French | 37 | 124 | 37 |
-| Italian | 35 | 121 | 35 |
-| Russian | 40 | 120 | 40 |
-| Greek | 40 | 122 | 40 |
+| French | 37 | 124 | 59 |
+| Italian | 35 | 121 | 60 |
+| Russian | 40 | 120 | 74 |
+| Greek | 40 | 122 | 67 |
 
 English C2 used the same WordNet filter as C1. The four non-English C2 sets are
 dominated by academic and philosophy verbs; each annotated verb received one
-high-confidence derived noun. Adjectives, adverbs and less transparent families
-are left for a later pass, as are the remaining English C2 nouns and adjectives
-without a defensible single-word relative.
+high-confidence derived noun. A second pass added 95 adjective links and 13
+clear adverb links. The adjectives are mostly past participles used
+adjectivally; adverbs were added only where the form is lexical and common.
+Less transparent families, and English C2 nouns and adjectives without a
+defensible single-word relative, remain for a later pass.
 
 Polysemous entries carry one `derivatives` list per sense, because each sense has
 its own family (`issue` as a topic has no `issuer`; `issue` as a release does).

@@ -181,6 +181,22 @@ repository languages are not part of this pass.
 - `ηγεμονία` is hegemony, not a -ποίηση formation. `σύγχυση` is the standard
   noun for `συγχέω`.
 
+### C2 adjective and adverb pass
+
+Second C2 pass: 95 adjective links and 13 adverb links.
+
+| Language | Adjectives | Adverbs | Left out |
+| --- | ---: | ---: | --- |
+| French | 22 | 0 | `médié`, `invoqué`, `abrogé`, and other participles that are not lexical adjectives. French `-ment` adverbs from these participles were mostly stilted, so none were added. |
+| Italian | 22 | 3 | `contravvenuto`, `precluso`, `sussunto` and other participles not used adjectivally. Adverbs: `trascendentemente`, `diffusamente`, `accentuatamente`. |
+| Russian | 27 | 7 | `превосходный` and `отрицательный` were skipped because their meaning shifted; `обязанный` was skipped for the same reason. Adverbs: `ограниченно`, `запутанно`, `отчуждённо`, `искажённо`, `подчёркнуто`, `смягчённо`, `пронизывающе`. |
+| Greek | 24 | 3 | `αναιρεμένος` and `υπαγμένος` are rare or awkward; `παρακαμπτόμενος` is a passive participle rather than a lexical adjective. Adverbs: `υπερβατικά`, `συγκεχυμένα`, `διαδεδομένα`. |
+
+The adjective forms are standard past participles or lexical adjectives. Some
+are technical or formal, especially the Russian `-ированный` forms and the Greek
+`-ποιημένος` forms. They should be read as derivational relatives, not as
+everyday conversational adjectives.
+
 ### Polysemy pilot
 
 - Six passes added 143 English sense entries. Pass 1: `court` sport and
