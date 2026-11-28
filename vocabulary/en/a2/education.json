@@ -98,14 +98,15 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "To achieve the required standard in an exam."
+      "A pass is a successful result in an exam or test."
     ],
     "examples": [
-      "She worked hard to pass the test."
+      "She got a pass in her driving test.",
+      "He was happy with a pass."
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "passes",
     "tags": [
       "spoken"
@@ -122,7 +123,9 @@
     "transcription_variants": {
       "us": "/pæs/"
     },
-    "sub_theme": "school_subjects"
+    "sub_theme": "school_subjects",
+    "sense": "exam-success",
+    "sense_label": "successful exam result"
   },
   {
     "id": "en:understand:noun",
@@ -566,7 +569,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "terms",
     "tags": [
       "spoken"
@@ -578,7 +581,9 @@
     "transcription_variants": {
       "us": "/tɝːm/"
     },
-    "sub_theme": "school_subjects"
+    "sub_theme": "school_subjects",
+    "sense": "school-period",
+    "sense_label": "part of a school year"
   },
   {
     "id": "en:semester:noun",
@@ -1725,5 +1730,38 @@
     "antonyms": [
       "original"
     ]
+  },
+  {
+    "id": "en:class-lesson:noun",
+    "word": "class",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "lesson",
+    "sense_label": "period of teaching",
+    "definitions": [
+      "A class is a period of teaching in a school."
+    ],
+    "examples": [
+      "I have a maths class at nine.",
+      "The class lasts one hour."
+    ],
+    "domain": "general, spoken",
+    "theme": "education",
+    "sub_theme": "learning_activities",
+    "transcription": "/klɑːs/",
+    "emoji": "📚",
+    "synonyms": [
+      "lesson",
+      "session"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "classes"
   }
 ]

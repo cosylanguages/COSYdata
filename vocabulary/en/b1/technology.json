@@ -15,7 +15,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "technology",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "plural_form": "algorithms",
     "tags": [
       "spoken"
@@ -37,7 +37,13 @@
     "sub_theme": "it-specialists",
     "transcription_variants": {
       "us": "/ˈæl.ɡə.rɪ.ðəm/"
-    }
+    },
+    "derivatives": [
+      {
+        "term": "algorithmic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:network:noun",
@@ -55,7 +61,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "networks",
     "tags": [
       "spoken"
@@ -77,7 +83,17 @@
     "transcription_variants": {
       "us": "/ˈnet.wɝːk/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "network",
+        "form": "verb"
+      },
+      {
+        "term": "networking",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:cybersecurity:noun",
@@ -133,7 +149,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -156,7 +172,17 @@
     "transcription_variants": {
       "us": "/ˈpraɪ.və.si/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "private",
+        "form": "adjective"
+      },
+      {
+        "term": "privately",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:hacking:noun",
@@ -172,7 +198,7 @@
     ],
     "domain": "general, professional",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈhæk.ɪŋ/",
     "emoji": "💻",
     "countability": "uncountable",
@@ -181,7 +207,17 @@
       "cybercrime"
     ],
     "no_antonym": true,
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "hack",
+        "form": "verb"
+      },
+      {
+        "term": "hacker",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:hacker:noun",
@@ -197,7 +233,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "hackers",
     "tags": [
       "spoken"
@@ -213,7 +249,17 @@
     "transcription_variants": {
       "us": "/ˈhæk.ɚ/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "hack",
+        "form": "verb"
+      },
+      {
+        "term": "hacking",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:virus:noun",
@@ -230,7 +276,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "viruses",
     "tags": [
       "spoken"
@@ -251,7 +297,15 @@
     "levels": [
       "A2",
       "B1"
-    ]
+    ],
+    "derivatives": [
+      {
+        "term": "viral",
+        "form": "adjective"
+      }
+    ],
+    "sense": "computer",
+    "sense_label": "computer virus"
   },
   {
     "id": "en:malware:noun",
@@ -301,7 +355,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -316,7 +370,17 @@
     "transcription_variants": {
       "us": "/ˈstɔːr.ɪdʒ/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "store",
+        "form": "verb"
+      },
+      {
+        "term": "store",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:streaming:noun",
@@ -334,7 +398,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "technology",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -350,6 +414,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "stream",
+        "form": "verb"
+      },
+      {
+        "term": "stream",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -397,7 +471,7 @@
     ],
     "domain": "general",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈdiː.tɒks/",
     "emoji": "🧘",
     "countability": "uncountable",
@@ -410,7 +484,17 @@
     "transcription_variants": {
       "us": "/ˈdiː.tɑːks/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "detox",
+        "form": "verb"
+      },
+      {
+        "term": "detoxification",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:influencer:noun",
@@ -426,7 +510,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "influencers",
     "tags": [
       "spoken"
@@ -442,7 +526,17 @@
     "transcription_variants": {
       "us": "/ˈɪn.flu.ən.sɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "influence",
+        "form": "verb"
+      },
+      {
+        "term": "influence",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:viral:adjective",
@@ -458,7 +552,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "technology",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -472,7 +566,17 @@
     "transcription_variants": {
       "us": "/ˈvaɪ.rəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "virus",
+        "form": "noun"
+      },
+      {
+        "term": "virally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:content:noun",
@@ -526,7 +630,7 @@
     ],
     "domain": "general, relocation, spoken, travel",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "notifications",
     "tags": [
       "spoken"
@@ -543,7 +647,13 @@
     "transcription_variants": {
       "us": "/ˌnoʊ.t̬ə.fəˈkeɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "notify",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:subscription:noun",
@@ -559,7 +669,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "subscriptions",
     "tags": [
       "spoken"
@@ -572,7 +682,17 @@
       "service plan"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "subscribe",
+        "form": "verb"
+      },
+      {
+        "term": "subscriber",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:interface:noun",
@@ -588,7 +708,7 @@
     ],
     "domain": "general, professional",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "interfaces",
     "transcription": "/ˈɪn.tə.feɪs/",
     "emoji": "🖥️",
@@ -602,7 +722,13 @@
     "transcription_variants": {
       "us": "/ˈɪn.t̬ɚ.feɪs/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "interface",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:user-friendly:adjective",
@@ -649,7 +775,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -667,7 +793,13 @@
     "transcription_variants": {
       "us": "/kəmˌpæt.əˈbɪl.ə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "compatible",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:artificial-intelligence:noun",
@@ -764,7 +896,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈkrɪp.ʃən/",
     "emoji": "🔐",
     "countability": "uncountable",
@@ -784,6 +916,16 @@
     "levels": [
       "B1",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "encrypt",
+        "form": "verb"
+      },
+      {
+        "term": "encrypted",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -908,7 +1050,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "upgrades",
     "transcription": "/ˈʌp.ɡreɪd/",
     "emoji": "⬆️",
@@ -921,7 +1063,13 @@
     "antonyms": [
       "downgrade"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "upgrade",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:outdated:noun",
@@ -1009,7 +1157,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "malfunctions",
     "transcription": "/ˌmælˈfʌŋk.ʃən/",
     "emoji": "⚠️",
@@ -1022,7 +1170,13 @@
     "antonyms": [
       "proper functioning"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "malfunction",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:glitch:noun",
@@ -1042,7 +1196,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "glitches",
     "transcription": "/ɡlɪtʃ/",
     "emoji": "👾",
@@ -1053,7 +1207,13 @@
       "snag"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "glitchy",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:troubleshoot:noun",
@@ -1073,7 +1233,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈtrʌb.əl.ʃuːt/",
     "emoji": "🔧",
     "countability": "uncountable",
@@ -1083,7 +1243,17 @@
       "fix"
     ],
     "no_antonym": true,
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "troubleshooter",
+        "form": "noun"
+      },
+      {
+        "term": "troubleshooting",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:backup:noun",
@@ -1134,7 +1304,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/sɪŋk/",
     "emoji": "🔄",
     "countability": "uncountable",
@@ -1145,7 +1315,17 @@
     "antonyms": [
       "desync"
     ],
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "sync",
+        "form": "verb"
+      },
+      {
+        "term": "synchronization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:streaming-service:noun",
@@ -1230,7 +1410,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "feeds",
     "transcription": "/fiːd/",
     "emoji": "📱",
@@ -1241,7 +1421,13 @@
       "newsfeed"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "feed",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:digital-detox:noun",
@@ -1353,7 +1539,7 @@
     ],
     "domain": "general, relocation",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1369,7 +1555,13 @@
       "security software"
     ],
     "no_antonym": true,
-    "sub_theme": "devices_hardware"
+    "sub_theme": "devices_hardware",
+    "derivatives": [
+      {
+        "term": "virus",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:factory-reset:noun",
@@ -1846,7 +2038,7 @@
     ],
     "domain": "general, relocation, travel",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈrəʊ.mɪŋ/",
     "emoji": "📶",
     "no_antonym": true,
@@ -1855,7 +2047,13 @@
       "network roaming"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "roam",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:voltage:noun",
@@ -1871,7 +2069,7 @@
     ],
     "domain": "general, relocation, travel",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈvəʊl.tɪdʒ/",
     "emoji": "⚡",
     "no_antonym": true,
@@ -1880,7 +2078,17 @@
       "electrical voltage"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "volt",
+        "form": "noun"
+      },
+      {
+        "term": "voltaic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:accelerometer:noun",
@@ -1949,5 +2157,102 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "nodes"
+  },
+  {
+    "id": "en:page-website:noun",
+    "word": "page",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "web-page",
+    "sense_label": "web page",
+    "definitions": [
+      "A page is one part of a website."
+    ],
+    "examples": [
+      "Visit the contact page for details.",
+      "The page would not load."
+    ],
+    "domain": "general, spoken",
+    "theme": "internet",
+    "sub_theme": "web_social_media",
+    "transcription": "/peɪdʒ/",
+    "emoji": "🌐",
+    "synonyms": [
+      "web page",
+      "site page"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "pages"
+  },
+  {
+    "id": "en:program-software:noun",
+    "word": "program",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "software",
+    "sense_label": "computer program",
+    "definitions": [
+      "A program is a set of instructions for a computer."
+    ],
+    "examples": [
+      "This program edits photos.",
+      "Install the program before you start."
+    ],
+    "domain": "general, spoken",
+    "theme": "technology",
+    "sub_theme": "general",
+    "transcription": "/ˈprəʊ.ɡræm/",
+    "emoji": "💻",
+    "synonyms": [
+      "software",
+      "application"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "programs"
+  },
+  {
+    "id": "en:cloud-computing:noun",
+    "word": "cloud",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "computing",
+    "sense_label": "internet storage",
+    "definitions": [
+      "The cloud is storage and services on the internet."
+    ],
+    "examples": [
+      "The photos are stored in the cloud.",
+      "The company moved its data to the cloud."
+    ],
+    "domain": "general, spoken",
+    "theme": "internet",
+    "sub_theme": "general",
+    "transcription": "/klaʊd/",
+    "emoji": "☁️",
+    "synonyms": [
+      "cloud storage",
+      "cloud computing"
+    ],
+    "no_antonym": true,
+    "countability": "uncountable",
+    "updated": "2026-11-28"
   }
 ]

@@ -2018,6 +2018,13 @@ export async function initDictionaryUI(container, options = {}) {
     wordSpan.textContent = lightweightEntry.word || lightweightEntry.id;
     titleGroup.appendChild(wordSpan);
 
+    if (lightweightEntry.sense_label) {
+      const senseSpan = document.createElement('span');
+      senseSpan.className = 'cosy-dict-sense-label';
+      senseSpan.textContent = lightweightEntry.sense_label;
+      titleGroup.appendChild(senseSpan);
+    }
+
     if (lightweightEntry.form) {
       const formBadge = document.createElement('span');
       formBadge.className = 'cosy-dict-badge cosy-dict-badge-form';
@@ -2131,6 +2138,22 @@ export async function initDictionaryUI(container, options = {}) {
           html += `</div>`;
         }
 
+        const formFields = [
+          ['Feminine', fullEntry.feminine],
+          ['Feminine plural', fullEntry.feminine_plural],
+          ['Masculine plural', fullEntry.masculine_plural],
+          ['Neuter', fullEntry.neuter],
+          ['Neuter plural', fullEntry.neuter_plural],
+          ['Plural', fullEntry.plural_form]
+        ].filter(([, value]) => typeof value === 'string' && value.trim().length > 0);
+        if (formFields.length > 0) {
+          html += `<div class="cosy-dict-chips-row"><div class="cosy-dict-chip-group"><span class="cosy-dict-chip-label">Forms:</span>`;
+          for (const [label, value] of formFields) {
+            html += `<span class="cosy-dict-chip cosy-dict-chip-form">${escapeHtml(label)}: ${escapeHtml(value)}</span>`;
+          }
+          html += `</div></div>`;
+        }
+
         const synonyms = entryRelations(fullEntry.synonyms);
         const antonyms = entryRelations(fullEntry.antonyms);
         if (synonyms.length > 0 || antonyms.length > 0) {
@@ -2150,6 +2173,19 @@ export async function initDictionaryUI(container, options = {}) {
             html += `</div>`;
           }
           html += `</div>`;
+        }
+
+        const derivatives = Array.isArray(fullEntry.derivatives)
+          ? fullEntry.derivatives.filter((item) => item && typeof item.term === 'string' && item.term.trim().length > 0)
+          : [];
+        if (derivatives.length > 0) {
+          html += `<div class="cosy-dict-chips-row"><div class="cosy-dict-chip-group"><span class="cosy-dict-chip-label">Word family:</span>`;
+          for (const item of derivatives) {
+            const suffix = item.form ? ` (${escapeHtml(item.form)})` : '';
+            const shift = item.meaning_shift ? ` title="${escapeHtml(item.meaning_shift)}"` : '';
+            html += `<span class="cosy-dict-chip cosy-dict-chip-derivative"${shift}>${escapeHtml(item.term)}${suffix}</span>`;
+          }
+          html += `</div></div>`;
         }
 
         detailsBox.innerHTML = html;

@@ -1803,29 +1803,6 @@
     "updated": "2025-05-20"
   },
   {
-    "id": "en:crisps:noun",
-    "word": "crisps",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "theme": "general",
-    "definitions": [
-      "Thin potato slices fried until crisp."
-    ],
-    "examples": [
-      "Eat a bag of salted crisps.",
-      "British crisps come in many flavors."
-    ],
-    "transcription": "/krɪsps/",
-    "emoji": "🥔",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "plural_form": "crispss",
-    "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
-  },
-  {
     "id": "en:dough:noun",
     "word": "dough",
     "language": "en",
@@ -2744,7 +2721,9 @@
     "article": "a",
     "plural_form": "cases",
     "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
+    "updated": "2026-11-28",
+    "sense": "container",
+    "sense_label": "container for keeping things"
   },
   {
     "id": "en:fixture:noun",
@@ -2904,29 +2883,6 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "pillowcases",
-    "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
-  },
-  {
-    "id": "en:shutters:noun",
-    "word": "shutters",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "theme": "general",
-    "definitions": [
-      "Wooden window covers."
-    ],
-    "examples": [
-      "Close the outdoor shutters during storms.",
-      "White wooden shutters decorated the cottage."
-    ],
-    "transcription": "/ˈʃʌtərz/",
-    "emoji": "🪟",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "plural_form": "shutterss",
     "sub_theme": "miscellaneous",
     "updated": "2025-05-20"
   },
@@ -3263,29 +3219,6 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "groves",
-    "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
-  },
-  {
-    "id": "en:woods:noun",
-    "word": "woods",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "theme": "general",
-    "definitions": [
-      "An area of land covered with growing trees; forest."
-    ],
-    "examples": [
-      "Take a peaceful walk through the autumn woods.",
-      "Birds sang in the surrounding woods."
-    ],
-    "transcription": "/wʊdz/",
-    "emoji": "🌲",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "plural_form": "woodss",
     "sub_theme": "miscellaneous",
     "updated": "2025-05-20"
   },
@@ -4071,52 +4004,6 @@
     "updated": "2025-05-20"
   },
   {
-    "id": "en:citizens:noun",
-    "word": "citizens",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "theme": "general",
-    "definitions": [
-      "Legal members of a state or nation."
-    ],
-    "examples": [
-      "Local citizens voted in the election.",
-      "Rights belong to all citizens."
-    ],
-    "transcription": "/ˈsɪtəzənz/",
-    "emoji": "👥",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "plural_form": "citizenss",
-    "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
-  },
-  {
-    "id": "en:crowds:noun",
-    "word": "crowds",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "theme": "general",
-    "definitions": [
-      "Large gatherings of people."
-    ],
-    "examples": [
-      "Crowds filled the city streets.",
-      "Police managed the festival crowds."
-    ],
-    "transcription": "/kraʊdz/",
-    "emoji": "👥",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "plural_form": "crowdss",
-    "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
-  },
-  {
     "id": "en:fellow:noun",
     "word": "fellow",
     "language": "en",
@@ -4182,29 +4069,6 @@
     "countability": "countable",
     "article": "a",
     "plural_form": "heroines",
-    "sub_theme": "miscellaneous",
-    "updated": "2025-05-20"
-  },
-  {
-    "id": "en:ladies:noun",
-    "word": "ladies",
-    "language": "en",
-    "form": "noun",
-    "level": "A2",
-    "theme": "general",
-    "definitions": [
-      "Plural form of lady."
-    ],
-    "examples": [
-      "Ladies and gentlemen, welcome!",
-      "The ladies sat in the lounge."
-    ],
-    "transcription": "/ˈleɪdiz/",
-    "emoji": "👩‍🦰",
-    "no_antonym": true,
-    "countability": "countable",
-    "article": "a",
-    "plural_form": "ladiess",
     "sub_theme": "miscellaneous",
     "updated": "2025-05-20"
   },
@@ -6656,5 +6520,142 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "wildernesses"
+  },
+  {
+    "id": "en:crisp:noun",
+    "word": "crisp",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "general",
+    "definitions": [
+      "A crisp is a thin fried slice of potato."
+    ],
+    "examples": [
+      "She ate one crisp.",
+      "The crisp was salty."
+    ],
+    "transcription": "/krɪsp/",
+    "emoji": "🥔",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "crisps",
+    "sub_theme": "miscellaneous",
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:shutter:noun",
+    "word": "shutter",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "general",
+    "definitions": [
+      "A shutter is a wooden cover for a window."
+    ],
+    "examples": [
+      "The shutter was closed.",
+      "One shutter banged in the wind."
+    ],
+    "transcription": "/ˈʃʌt.ə/",
+    "emoji": "🪟",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "shutters",
+    "sub_theme": "miscellaneous",
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:crowd:noun",
+    "word": "crowd",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "theme": "general",
+    "definitions": [
+      "A crowd is a large group of people."
+    ],
+    "examples": [
+      "A crowd gathered outside.",
+      "The crowd cheered."
+    ],
+    "transcription": "/kraʊd/",
+    "emoji": "👥",
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "crowds",
+    "sub_theme": "miscellaneous",
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:case-instance:noun",
+    "word": "case",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "instance",
+    "sense_label": "situation or example",
+    "definitions": [
+      "A case is a situation or example of something happening."
+    ],
+    "examples": [
+      "In this case, the rule does not apply.",
+      "We saw a clear case of unfair treatment."
+    ],
+    "domain": "general, spoken, exam",
+    "theme": "general",
+    "sub_theme": "abstract_concepts",
+    "transcription": "/keɪs/",
+    "emoji": "🔎",
+    "synonyms": [
+      "instance",
+      "example",
+      "situation"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "article": "a",
+    "plural_form": "cases",
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:plan-map:noun",
+    "word": "plan",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "map",
+    "sense_label": "drawing from above",
+    "definitions": [
+      "A plan is a drawing of a room or building seen from above."
+    ],
+    "examples": [
+      "The plan shows the kitchen and two bedrooms.",
+      "Draw a plan of your classroom."
+    ],
+    "domain": "general, spoken",
+    "theme": "general",
+    "sub_theme": "common_things",
+    "transcription": "/plæn/",
+    "emoji": "🗺️",
+    "synonyms": [
+      "map",
+      "diagram",
+      "layout"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "plans"
   }
 ]

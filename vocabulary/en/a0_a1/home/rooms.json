@@ -142,7 +142,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "housing",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "floors",
     "tags": [
       "spoken"
@@ -167,7 +167,9 @@
       "en:vacuum:verb",
       "en:scrub:verb",
       "en:clean:verb"
-    ]
+    ],
+    "sense": "surface",
+    "sense_label": "bottom surface"
   },
   {
     "id": "en:room:noun",
@@ -183,7 +185,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "housing",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "rooms",
     "tags": [
       "spoken"
@@ -196,7 +198,9 @@
     "sub_theme": "rooms_spaces",
     "levels": [
       "A0"
-    ]
+    ],
+    "sense": "chamber",
+    "sense_label": "space inside a building"
   },
   {
     "id": "en:wall:noun",
@@ -244,7 +248,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "housing",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "windows",
     "tags": [
       "spoken"
@@ -267,6 +271,8 @@
       "en:clean:verb",
       "en:wash:verb",
       "en:wipe:verb"
-    ]
+    ],
+    "sense": "opening",
+    "sense_label": "glass opening"
   }
 ]

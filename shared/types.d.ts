@@ -22,6 +22,15 @@ export type Gender = 'masculine' | 'feminine' | 'neuter';
 export type Register = 'formal' | 'neutral' | 'informal';
 
 /**
+ * A member of an entry's cross-part-of-speech word family.
+ */
+export interface VocabularyDerivative {
+  term: string;
+  form: GrammaticalForm;
+  meaning_shift?: string;
+}
+
+/**
  * Vocabulary Entry Model
  */
 export interface VocabEntry {
@@ -30,6 +39,9 @@ export interface VocabEntry {
   word: string;
   form: GrammaticalForm;
   level: CEFRLevel;
+  levels?: CEFRLevel[];
+  sense?: string;
+  sense_label?: string;
   theme: string;
   sub_theme?: string;
   secondary_themes?: string[];
@@ -45,6 +57,11 @@ export interface VocabEntry {
   concept?: string;
   translation_of?: string;
   gender?: Gender;
+  feminine?: string;
+  feminine_plural?: string;
+  masculine_plural?: string;
+  neuter?: string;
+  neuter_plural?: string;
   article?: string;
   countability?: Countability;
   plural_form?: string;
@@ -55,6 +72,7 @@ export interface VocabEntry {
   exam_level?: string;
   transliteration?: string;
   related_forms?: string[];
+  derivatives?: VocabularyDerivative[];
   status?: 'published' | 'needs_review' | 'deprecated';
 }
 

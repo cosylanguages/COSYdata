@@ -1121,6 +1121,14 @@
   ],
   "account": [
     {
+      "id": "en:account-bank:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:account-description:noun",
+      "field": "word"
+    },
+    {
       "id": "en:account:noun",
       "field": "word"
     }
@@ -1166,6 +1174,14 @@
     }
   ],
   "accounts": [
+    {
+      "id": "en:account-bank:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:account-description:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:account:noun",
       "field": "plural_form"
@@ -7587,6 +7603,10 @@
   ],
   "bank": [
     {
+      "id": "en:bank-river:noun",
+      "field": "word"
+    },
+    {
       "id": "en:bank:noun",
       "field": "word"
     }
@@ -7646,6 +7666,10 @@
     }
   ],
   "banks": [
+    {
+      "id": "en:bank-river:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:bank:noun",
       "field": "plural_form"
@@ -9585,14 +9609,6 @@
     {
       "id": "en:block:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:blocks:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:blocks:noun",
-      "field": "word"
     }
   ],
   "blocks of flats": [
@@ -9747,6 +9763,10 @@
   ],
   "board": [
     {
+      "id": "en:board-committee:noun",
+      "field": "word"
+    },
+    {
       "id": "en:board:noun",
       "field": "word"
     },
@@ -9828,6 +9848,10 @@
     }
   ],
   "boards": [
+    {
+      "id": "en:board-committee:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:board:noun",
       "field": "plural_form"
@@ -10031,6 +10055,10 @@
   ],
   "book": [
     {
+      "id": "en:book-record:noun",
+      "field": "word"
+    },
+    {
       "id": "en:book:noun",
       "field": "word"
     },
@@ -10064,6 +10092,10 @@
     }
   ],
   "books": [
+    {
+      "id": "en:book-record:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:book:noun",
       "field": "plural_form"
@@ -10139,14 +10171,6 @@
     {
       "id": "en:boot:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:boots:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:boots:noun",
-      "field": "word"
     }
   ],
   "bootstrap": [
@@ -10639,6 +10663,14 @@
   ],
   "break": [
     {
+      "id": "en:break-rest:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:break-rule:verb",
+      "field": "word"
+    },
+    {
       "id": "en:break:verb",
       "field": "word"
     }
@@ -10793,6 +10825,12 @@
     {
       "id": "en:breaking-the-ice:phrase",
       "field": "word"
+    }
+  ],
+  "breaks": [
+    {
+      "id": "en:break-rest:noun",
+      "field": "plural_form"
     }
   ],
   "breakthrough": [
@@ -11421,11 +11459,19 @@
   ],
   "bug": [
     {
+      "id": "en:bug-insect:noun",
+      "field": "word"
+    },
+    {
       "id": "en:bug:noun",
       "field": "word"
     }
   ],
   "bugs": [
+    {
+      "id": "en:bug-insect:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:bug:noun",
       "field": "plural_form"
@@ -12487,6 +12533,14 @@
   ],
   "call": [
     {
+      "id": "en:call-name:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:call-shout:verb",
+      "field": "word"
+    },
+    {
       "id": "en:call:noun",
       "field": "word"
     },
@@ -13043,6 +13097,10 @@
   ],
   "capital": [
     {
+      "id": "en:capital-money:noun",
+      "field": "word"
+    },
+    {
       "id": "en:capital:noun",
       "field": "word"
     }
@@ -13247,6 +13305,14 @@
   ],
   "card": [
     {
+      "id": "en:card-greeting:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:card-playing:noun",
+      "field": "word"
+    },
+    {
       "id": "en:card:noun",
       "field": "word"
     }
@@ -13270,6 +13336,14 @@
     }
   ],
   "cards": [
+    {
+      "id": "en:card-greeting:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:card-playing:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:card:noun",
       "field": "plural_form"
@@ -13541,6 +13615,14 @@
   ],
   "case": [
     {
+      "id": "en:case-instance:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:case-legal:noun",
+      "field": "word"
+    },
+    {
       "id": "en:case:conjunction",
       "field": "word"
     },
@@ -13550,6 +13632,14 @@
     }
   ],
   "cases": [
+    {
+      "id": "en:case-instance:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:case-legal:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:case:noun",
       "field": "plural_form"
@@ -14429,6 +14519,10 @@
   ],
   "change": [
     {
+      "id": "en:change-money:noun",
+      "field": "word"
+    },
+    {
       "id": "en:change:adjective",
       "field": "word"
     },
@@ -14569,6 +14663,10 @@
   ],
   "charge": [
     {
+      "id": "en:charge-accusation:noun",
+      "field": "word"
+    },
+    {
       "id": "en:charge:noun",
       "field": "word"
     },
@@ -14596,6 +14694,10 @@
     }
   ],
   "charges": [
+    {
+      "id": "en:charge-accusation:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:charge:noun",
       "field": "plural_form"
@@ -14721,6 +14823,10 @@
   ],
   "check": [
     {
+      "id": "en:check-inspection:noun",
+      "field": "word"
+    },
+    {
       "id": "en:check:noun",
       "field": "word"
     },
@@ -14824,6 +14930,10 @@
     }
   ],
   "checks": [
+    {
+      "id": "en:check-inspection:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:check:noun",
       "field": "plural_form"
@@ -15227,15 +15337,15 @@
       "field": "word"
     }
   ],
-  "chopsticks": [
+  "chopstick": [
     {
-      "id": "en:chopsticks:noun",
+      "id": "en:chopstick:noun",
       "field": "word"
     }
   ],
-  "chopstickss": [
+  "chopsticks": [
     {
-      "id": "en:chopsticks:noun",
+      "id": "en:chopstick:noun",
       "field": "plural_form"
     }
   ],
@@ -15485,22 +15595,12 @@
     {
       "id": "en:citizen:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:citizens:noun",
-      "field": "word"
     }
   ],
   "citizenship": [
     {
       "id": "en:citizenship:noun",
       "field": "word"
-    }
-  ],
-  "citizenss": [
-    {
-      "id": "en:citizens:noun",
-      "field": "plural_form"
     }
   ],
   "city": [
@@ -15713,6 +15813,10 @@
   ],
   "class": [
     {
+      "id": "en:class-lesson:noun",
+      "field": "word"
+    },
+    {
       "id": "en:class:noun",
       "field": "word"
     }
@@ -15730,6 +15834,10 @@
     }
   ],
   "classes": [
+    {
+      "id": "en:class-lesson:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:class:noun",
       "field": "plural_form"
@@ -16351,6 +16459,10 @@
   ],
   "cloud": [
     {
+      "id": "en:cloud-computing:noun",
+      "field": "word"
+    },
+    {
       "id": "en:cloud:noun",
       "field": "word"
     }
@@ -16459,8 +16571,18 @@
   ],
   "coach": [
     {
+      "id": "en:coach-bus:noun",
+      "field": "word"
+    },
+    {
       "id": "en:coach:verb",
       "field": "word"
+    }
+  ],
+  "coaches": [
+    {
+      "id": "en:coach-bus:noun",
+      "field": "plural_form"
     }
   ],
   "coalesce": [
@@ -17786,6 +17908,10 @@
     }
   ],
   "company": [
+    {
+      "id": "en:company-companionship:noun",
+      "field": "word"
+    },
     {
       "id": "en:company:noun",
       "field": "word"
@@ -20715,6 +20841,10 @@
   ],
   "court": [
     {
+      "id": "en:court-sport:noun",
+      "field": "word"
+    },
+    {
       "id": "en:court:noun",
       "field": "word"
     }
@@ -20757,6 +20887,10 @@
   ],
   "courts": [
     {
+      "id": "en:court-sport:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:court:noun",
       "field": "plural_form"
     }
@@ -20786,6 +20920,10 @@
     }
   ],
   "cover": [
+    {
+      "id": "en:cover-takeover:verb",
+      "field": "word"
+    },
     {
       "id": "en:cover:noun",
       "field": "word"
@@ -20819,6 +20957,12 @@
     {
       "id": "en:coverage:noun",
       "field": "word"
+    }
+  ],
+  "covers": [
+    {
+      "id": "en:cover:noun",
+      "field": "plural_form"
     }
   ],
   "covert": [
@@ -21203,6 +21347,12 @@
       "field": "word"
     }
   ],
+  "crisp": [
+    {
+      "id": "en:crisp:noun",
+      "field": "word"
+    }
+  ],
   "crispr": [
     {
       "id": "en:crispr:noun",
@@ -21211,13 +21361,7 @@
   ],
   "crisps": [
     {
-      "id": "en:crisps:noun",
-      "field": "word"
-    }
-  ],
-  "crispss": [
-    {
-      "id": "en:crisps:noun",
+      "id": "en:crisp:noun",
       "field": "plural_form"
     }
   ],
@@ -21481,6 +21625,12 @@
       "field": "plural_form"
     }
   ],
+  "crowd": [
+    {
+      "id": "en:crowd:noun",
+      "field": "word"
+    }
+  ],
   "crowd-sourced information": [
     {
       "id": "en:crowd-sourced-information:noun",
@@ -21513,13 +21663,7 @@
   ],
   "crowds": [
     {
-      "id": "en:crowds:noun",
-      "field": "word"
-    }
-  ],
-  "crowdss": [
-    {
-      "id": "en:crowds:noun",
+      "id": "en:crowd:noun",
       "field": "plural_form"
     }
   ],
@@ -23713,11 +23857,19 @@
   ],
   "degree": [
     {
+      "id": "en:degree-university:noun",
+      "field": "word"
+    },
+    {
       "id": "en:degree:noun",
       "field": "word"
     }
   ],
   "degrees": [
+    {
+      "id": "en:degree-university:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:degree:noun",
       "field": "plural_form"
@@ -27791,6 +27943,10 @@
   ],
   "drop": [
     {
+      "id": "en:drop-liquid:noun",
+      "field": "word"
+    },
+    {
       "id": "en:drop:verb",
       "field": "word"
     }
@@ -27846,6 +28002,12 @@
   "dropouts": [
     {
       "id": "en:dropout:noun",
+      "field": "plural_form"
+    }
+  ],
+  "drops": [
+    {
+      "id": "en:drop-liquid:noun",
       "field": "plural_form"
     }
   ],
@@ -28851,14 +29013,6 @@
     {
       "id": "en:effort:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:efforts:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:efforts:noun",
-      "field": "word"
     }
   ],
   "egalitarianism": [
@@ -29887,6 +30041,10 @@
   ],
   "end": [
     {
+      "id": "en:end-purpose:noun",
+      "field": "word"
+    },
+    {
       "id": "en:end:noun",
       "field": "word"
     },
@@ -29968,6 +30126,10 @@
     }
   ],
   "ends": [
+    {
+      "id": "en:end-purpose:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:end:noun",
       "field": "plural_form"
@@ -32765,6 +32927,10 @@
   ],
   "face": [
     {
+      "id": "en:face-confront:verb",
+      "field": "word"
+    },
+    {
       "id": "en:face:noun",
       "field": "word"
     }
@@ -34123,11 +34289,19 @@
   ],
   "field": [
     {
+      "id": "en:field-subject:noun",
+      "field": "word"
+    },
+    {
       "id": "en:field:noun",
       "field": "word"
     }
   ],
   "fields": [
+    {
+      "id": "en:field-subject:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:field:noun",
       "field": "plural_form"
@@ -34255,6 +34429,14 @@
   ],
   "figure": [
     {
+      "id": "en:figure-body:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:figure-shape:noun",
+      "field": "word"
+    },
+    {
       "id": "en:figure:noun",
       "field": "word"
     },
@@ -34281,6 +34463,14 @@
   ],
   "figures": [
     {
+      "id": "en:figure-body:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:figure-shape:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:figure:noun",
       "field": "plural_form"
     }
@@ -34293,6 +34483,10 @@
   ],
   "file": [
     {
+      "id": "en:file-folder:noun",
+      "field": "word"
+    },
+    {
       "id": "en:file:noun",
       "field": "word"
     }
@@ -34304,6 +34498,10 @@
     }
   ],
   "files": [
+    {
+      "id": "en:file-folder:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:file:noun",
       "field": "plural_form"
@@ -34481,6 +34679,14 @@
   ],
   "fine": [
     {
+      "id": "en:fine-good:adjective",
+      "field": "word"
+    },
+    {
+      "id": "en:fine-thin:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:fine:noun",
       "field": "word"
     },
@@ -34519,6 +34725,16 @@
       "field": "word"
     }
   ],
+  "finer": [
+    {
+      "id": "en:fine-good:adjective",
+      "field": "comparative"
+    },
+    {
+      "id": "en:fine-thin:adjective",
+      "field": "comparative"
+    }
+  ],
   "fines": [
     {
       "id": "en:fine:noun",
@@ -34529,6 +34745,16 @@
     {
       "id": "en:fine-for-fare-evasion:noun",
       "field": "plural_form"
+    }
+  ],
+  "finest": [
+    {
+      "id": "en:fine-good:adjective",
+      "field": "superlative"
+    },
+    {
+      "id": "en:fine-thin:adjective",
+      "field": "superlative"
     }
   ],
   "finger": [
@@ -34572,6 +34798,10 @@
     }
   ],
   "fire": [
+    {
+      "id": "en:fire-shoot:verb",
+      "field": "word"
+    },
     {
       "id": "en:fire:noun",
       "field": "word"
@@ -35373,11 +35603,19 @@
   ],
   "floor": [
     {
+      "id": "en:floor-level:noun",
+      "field": "word"
+    },
+    {
       "id": "en:floor:noun",
       "field": "word"
     }
   ],
   "floors": [
+    {
+      "id": "en:floor-level:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:floor:noun",
       "field": "plural_form"
@@ -36225,6 +36463,14 @@
   ],
   "form": [
     {
+      "id": "en:form-shape:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:form-type:noun",
+      "field": "word"
+    },
+    {
       "id": "en:form:noun",
       "field": "word"
     },
@@ -36300,6 +36546,14 @@
     }
   ],
   "forms": [
+    {
+      "id": "en:form-shape:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:form-type:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:form:noun",
       "field": "plural_form"
@@ -36678,6 +36932,10 @@
     }
   ],
   "free": [
+    {
+      "id": "en:free-available:adjective",
+      "field": "word"
+    },
     {
       "id": "en:free:adjective",
       "field": "word"
@@ -38927,6 +39185,10 @@
   ],
   "glass": [
     {
+      "id": "en:glass-material:noun",
+      "field": "word"
+    },
+    {
       "id": "en:glass:noun",
       "field": "word"
     }
@@ -39033,14 +39295,6 @@
     {
       "id": "en:glove:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:gloves:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:gloves:noun",
-      "field": "word"
     }
   ],
   "glue": [
@@ -39507,12 +39761,6 @@
     {
       "id": "en:goods:noun",
       "field": "word"
-    }
-  ],
-  "goodss": [
-    {
-      "id": "en:goods:noun",
-      "field": "plural_form"
     }
   ],
   "google effect": [
@@ -40551,6 +40799,10 @@
   ],
   "ground": [
     {
+      "id": "en:ground-reason:noun",
+      "field": "word"
+    },
+    {
       "id": "en:ground:noun",
       "field": "word"
     }
@@ -40565,6 +40817,12 @@
     {
       "id": "en:groundedness:noun",
       "field": "word"
+    }
+  ],
+  "grounds": [
+    {
+      "id": "en:ground-reason:noun",
+      "field": "plural_form"
     }
   ],
   "group": [
@@ -41499,6 +41757,10 @@
   ],
   "hard": [
     {
+      "id": "en:hard-difficult:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:hard:adjective",
       "field": "word"
     },
@@ -41901,6 +42163,10 @@
   ],
   "head": [
     {
+      "id": "en:head-leader:noun",
+      "field": "word"
+    },
+    {
       "id": "en:head:noun",
       "field": "word"
     }
@@ -41978,6 +42244,10 @@
     }
   ],
   "heads": [
+    {
+      "id": "en:head-leader:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:head:noun",
       "field": "plural_form"
@@ -42691,12 +42961,6 @@
       "field": "word"
     }
   ],
-  "heuristics": [
-    {
-      "id": "en:heuristics:noun",
-      "field": "word"
-    }
-  ],
   "hi": [
     {
       "id": "en:hi:phrase",
@@ -43172,6 +43436,14 @@
     }
   ],
   "hold": [
+    {
+      "id": "en:hold-contain:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:hold-event:verb",
+      "field": "word"
+    },
     {
       "id": "en:hold:verb",
       "field": "word"
@@ -48803,6 +49075,10 @@
   ],
   "interest": [
     {
+      "id": "en:interest-money:noun",
+      "field": "word"
+    },
+    {
       "id": "en:interest:noun",
       "field": "word"
     }
@@ -49734,6 +50010,10 @@
     }
   ],
   "issue": [
+    {
+      "id": "en:issue-release:verb",
+      "field": "word"
+    },
     {
       "id": "en:issue:noun",
       "field": "word"
@@ -50771,6 +51051,14 @@
   ],
   "keep": [
     {
+      "id": "en:keep-continue:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:keep-record:verb",
+      "field": "word"
+    },
+    {
       "id": "en:keep:verb",
       "field": "word"
     }
@@ -50995,6 +51283,10 @@
   ],
   "key": [
     {
+      "id": "en:key-important:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:key:noun",
       "field": "word"
     }
@@ -51197,6 +51489,10 @@
   ],
   "kind": [
     {
+      "id": "en:kind-type:noun",
+      "field": "word"
+    },
+    {
       "id": "en:kind:adjective",
       "field": "word"
     }
@@ -51241,6 +51537,12 @@
     {
       "id": "en:kindness:adjective",
       "field": "word"
+    }
+  ],
+  "kinds": [
+    {
+      "id": "en:kind-type:noun",
+      "field": "plural_form"
     }
   ],
   "kingdom": [
@@ -51529,22 +51831,10 @@
       "field": "plural_form"
     }
   ],
-  "ladies": [
-    {
-      "id": "en:ladies:noun",
-      "field": "word"
-    }
-  ],
   "ladies and gentlemen": [
     {
       "id": "en:ladies-and-gentlemen:phrase",
       "field": "word"
-    }
-  ],
-  "ladiess": [
-    {
-      "id": "en:ladies:noun",
-      "field": "plural_form"
     }
   ],
   "lady": [
@@ -51602,6 +51892,10 @@
     }
   ],
   "land": [
+    {
+      "id": "en:land-property:noun",
+      "field": "word"
+    },
     {
       "id": "en:land:noun",
       "field": "word"
@@ -51852,6 +52146,14 @@
     }
   ],
   "last": [
+    {
+      "id": "en:last-continue:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:last-final:adjective",
+      "field": "word"
+    },
     {
       "id": "en:last:adjective",
       "field": "word"
@@ -53167,6 +53469,14 @@
   ],
   "light": [
     {
+      "id": "en:light-notheavy:adjective",
+      "field": "word"
+    },
+    {
+      "id": "en:light-pale:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:light:adjective",
       "field": "word"
     },
@@ -53205,6 +53515,10 @@
   ],
   "lighter": [
     {
+      "id": "en:light-notheavy:adjective",
+      "field": "comparative"
+    },
+    {
       "id": "en:light:adjective",
       "field": "comparative"
     },
@@ -53220,6 +53534,10 @@
     }
   ],
   "lightest": [
+    {
+      "id": "en:light-notheavy:adjective",
+      "field": "superlative"
+    },
     {
       "id": "en:light:adjective",
       "field": "superlative"
@@ -53327,6 +53645,10 @@
   ],
   "line": [
     {
+      "id": "en:line-queue:noun",
+      "field": "word"
+    },
+    {
       "id": "en:line:noun",
       "field": "word"
     }
@@ -53338,6 +53660,10 @@
     }
   ],
   "lines": [
+    {
+      "id": "en:line-queue:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:line:noun",
       "field": "plural_form"
@@ -53608,6 +53934,14 @@
     }
   ],
   "live": [
+    {
+      "id": "en:live-alive:adjective",
+      "field": "word"
+    },
+    {
+      "id": "en:live-broadcast:adjective",
+      "field": "word"
+    },
     {
       "id": "en:live:verb",
       "field": "word"
@@ -54207,6 +54541,10 @@
   ],
   "look": [
     {
+      "id": "en:look-appearance:noun",
+      "field": "word"
+    },
+    {
       "id": "en:look:adjective",
       "field": "word"
     },
@@ -54332,6 +54670,10 @@
     }
   ],
   "looks": [
+    {
+      "id": "en:look-appearance:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:look:noun",
       "field": "plural_form"
@@ -55715,6 +56057,10 @@
   ],
   "market": [
     {
+      "id": "en:market-trade:noun",
+      "field": "word"
+    },
+    {
       "id": "en:market:noun",
       "field": "word"
     }
@@ -55877,11 +56223,19 @@
   ],
   "match": [
     {
+      "id": "en:match-game:noun",
+      "field": "word"
+    },
+    {
       "id": "en:match:noun",
       "field": "word"
     }
   ],
   "matches": [
+    {
+      "id": "en:match-game:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:match:noun",
       "field": "plural_form"
@@ -55978,6 +56332,14 @@
     }
   ],
   "matter": [
+    {
+      "id": "en:matter-important:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:matter-substance:noun",
+      "field": "word"
+    },
     {
       "id": "en:matter:noun",
       "field": "word"
@@ -56138,6 +56500,14 @@
     }
   ],
   "mean": [
+    {
+      "id": "en:mean-intend:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:mean-unpleasant:adjective",
+      "field": "word"
+    },
     {
       "id": "en:mean:adjective",
       "field": "word"
@@ -57122,6 +57492,10 @@
     }
   ],
   "mice": [
+    {
+      "id": "en:mouse-computer:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:mouse:noun",
       "field": "plural_form"
@@ -59849,6 +60223,10 @@
   ],
   "mouse": [
     {
+      "id": "en:mouse-computer:noun",
+      "field": "word"
+    },
+    {
       "id": "en:mouse:noun",
       "field": "word"
     }
@@ -62495,6 +62873,14 @@
   ],
   "note": [
     {
+      "id": "en:note-message:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:note-music:noun",
+      "field": "word"
+    },
+    {
       "id": "en:note:noun",
       "field": "word"
     }
@@ -62512,6 +62898,14 @@
     }
   ],
   "notes": [
+    {
+      "id": "en:note-message:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:note-music:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:note:noun",
       "field": "plural_form"
@@ -64131,6 +64525,10 @@
   ],
   "open": [
     {
+      "id": "en:open-available:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:open:adjective",
       "field": "word"
     },
@@ -64449,6 +64847,14 @@
   ],
   "order": [
     {
+      "id": "en:order-command:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:order-sequence:noun",
+      "field": "word"
+    },
+    {
       "id": "en:order:noun",
       "field": "word"
     },
@@ -64458,6 +64864,10 @@
     }
   ],
   "orders": [
+    {
+      "id": "en:order-command:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:order:noun",
       "field": "plural_form"
@@ -64893,14 +65303,6 @@
     {
       "id": "en:outcome:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:outcomes:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:outcomes:noun",
-      "field": "word"
     }
   ],
   "outdated": [
@@ -65583,11 +65985,19 @@
   ],
   "page": [
     {
+      "id": "en:page-website:noun",
+      "field": "word"
+    },
+    {
       "id": "en:page:noun",
       "field": "word"
     }
   ],
   "pages": [
+    {
+      "id": "en:page-website:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:page:noun",
       "field": "plural_form"
@@ -65843,6 +66253,14 @@
   ],
   "paper": [
     {
+      "id": "en:paper-article:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:paper-newspaper:noun",
+      "field": "word"
+    },
+    {
       "id": "en:paper:noun",
       "field": "word"
     }
@@ -65851,6 +66269,16 @@
     {
       "id": "en:paper-over:verb",
       "field": "word"
+    }
+  ],
+  "papers": [
+    {
+      "id": "en:paper-article:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:paper-newspaper:noun",
+      "field": "plural_form"
     }
   ],
   "par excellence": [
@@ -66169,6 +66597,10 @@
   ],
   "part": [
     {
+      "id": "en:part-role:noun",
+      "field": "word"
+    },
+    {
       "id": "en:part:noun",
       "field": "word"
     }
@@ -66299,6 +66731,10 @@
   ],
   "parts": [
     {
+      "id": "en:part-role:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:part:noun",
       "field": "plural_form"
     }
@@ -66322,6 +66758,10 @@
     }
   ],
   "pass": [
+    {
+      "id": "en:pass-ticket:noun",
+      "field": "word"
+    },
     {
       "id": "en:pass:noun",
       "field": "word"
@@ -66380,6 +66820,10 @@
     }
   ],
   "passes": [
+    {
+      "id": "en:pass-ticket:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:pass:noun",
       "field": "plural_form"
@@ -68407,6 +68851,10 @@
   ],
   "place": [
     {
+      "id": "en:place-seat:noun",
+      "field": "word"
+    },
+    {
       "id": "en:place:noun",
       "field": "word"
     }
@@ -68442,6 +68890,10 @@
     }
   ],
   "places": [
+    {
+      "id": "en:place-seat:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:place:noun",
       "field": "plural_form"
@@ -68491,6 +68943,10 @@
   ],
   "plan": [
     {
+      "id": "en:plan-map:noun",
+      "field": "word"
+    },
+    {
       "id": "en:plan:noun",
       "field": "word"
     },
@@ -68513,11 +68969,19 @@
   ],
   "plane": [
     {
+      "id": "en:plane-surface:noun",
+      "field": "word"
+    },
+    {
       "id": "en:plane:noun",
       "field": "word"
     }
   ],
   "planes": [
+    {
+      "id": "en:plane-surface:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:plane:noun",
       "field": "plural_form"
@@ -68567,11 +69031,19 @@
   ],
   "plans": [
     {
+      "id": "en:plan-map:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:plan:noun",
       "field": "plural_form"
     }
   ],
   "plant": [
+    {
+      "id": "en:plant-factory:noun",
+      "field": "word"
+    },
     {
       "id": "en:plant:noun",
       "field": "word"
@@ -68588,6 +69060,10 @@
     }
   ],
   "plants": [
+    {
+      "id": "en:plant-factory:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:plant:noun",
       "field": "plural_form"
@@ -68718,6 +69194,14 @@
     }
   ],
   "play": [
+    {
+      "id": "en:play-music:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:play-theatre:noun",
+      "field": "word"
+    },
     {
       "id": "en:play:noun",
       "field": "word"
@@ -68861,7 +69345,7 @@
   ],
   "plays": [
     {
-      "id": "en:play:noun",
+      "id": "en:play-theatre:noun",
       "field": "plural_form"
     }
   ],
@@ -69121,6 +69605,14 @@
   ],
   "point": [
     {
+      "id": "en:point-idea:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:point-score:noun",
+      "field": "word"
+    },
+    {
       "id": "en:point:noun",
       "field": "word"
     },
@@ -69151,6 +69643,16 @@
     {
       "id": "en:pointless:adjective",
       "field": "word"
+    }
+  ],
+  "points": [
+    {
+      "id": "en:point-idea:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:point-score:noun",
+      "field": "plural_form"
     }
   ],
   "points of view": [
@@ -69619,6 +70121,10 @@
   ],
   "post": [
     {
+      "id": "en:post-job:noun",
+      "field": "word"
+    },
+    {
       "id": "en:post:noun",
       "field": "word"
     },
@@ -69775,6 +70281,12 @@
       "field": "word"
     }
   ],
+  "posts": [
+    {
+      "id": "en:post-job:noun",
+      "field": "plural_form"
+    }
+  ],
   "postulate": [
     {
       "id": "en:postulate:verb",
@@ -69835,11 +70347,19 @@
   ],
   "pound": [
     {
+      "id": "en:pound-weight:noun",
+      "field": "word"
+    },
+    {
       "id": "en:pound:noun",
       "field": "word"
     }
   ],
   "pounds": [
+    {
+      "id": "en:pound-weight:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:pound:noun",
       "field": "plural_form"
@@ -69864,6 +70384,10 @@
     }
   ],
   "power": [
+    {
+      "id": "en:power-control:noun",
+      "field": "word"
+    },
     {
       "id": "en:power:noun",
       "field": "word"
@@ -70335,6 +70859,10 @@
   ],
   "present": [
     {
+      "id": "en:present-now:noun",
+      "field": "word"
+    },
+    {
       "id": "en:present:adjective",
       "field": "word"
     },
@@ -70396,6 +70924,10 @@
     }
   ],
   "press": [
+    {
+      "id": "en:press-push:verb",
+      "field": "word"
+    },
     {
       "id": "en:press:noun",
       "field": "word"
@@ -71357,6 +71889,10 @@
   ],
   "program": [
     {
+      "id": "en:program-software:noun",
+      "field": "word"
+    },
+    {
       "id": "en:program:noun",
       "field": "word"
     }
@@ -71374,6 +71910,10 @@
     }
   ],
   "programs": [
+    {
+      "id": "en:program-software:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:program:noun",
       "field": "plural_form"
@@ -73104,6 +73644,10 @@
     }
   ],
   "raise": [
+    {
+      "id": "en:raise-increase:verb",
+      "field": "word"
+    },
     {
       "id": "en:raise:verb",
       "field": "word"
@@ -76079,6 +76623,10 @@
   ],
   "rest": [
     {
+      "id": "en:rest-remainder:noun",
+      "field": "word"
+    },
+    {
       "id": "en:rest:noun",
       "field": "word"
     },
@@ -76753,6 +77301,14 @@
   ],
   "right": [
     {
+      "id": "en:right-entitlement:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:right-moral:adjective",
+      "field": "word"
+    },
+    {
       "id": "en:right:adjective",
       "field": "word"
     },
@@ -76801,6 +77357,10 @@
   ],
   "rights": [
     {
+      "id": "en:right-entitlement:noun",
+      "field": "plural_form"
+    },
+    {
       "id": "en:rights:noun",
       "field": "word"
     }
@@ -76830,6 +77390,10 @@
     }
   ],
   "ring": [
+    {
+      "id": "en:ring-phone:verb",
+      "field": "word"
+    },
     {
       "id": "en:ring:noun",
       "field": "word"
@@ -77115,6 +77679,10 @@
   ],
   "rock": [
     {
+      "id": "en:rock-music:noun",
+      "field": "word"
+    },
+    {
       "id": "en:rock:noun",
       "field": "word"
     }
@@ -77220,6 +77788,10 @@
     }
   ],
   "room": [
+    {
+      "id": "en:room-space:noun",
+      "field": "word"
+    },
     {
       "id": "en:room:noun",
       "field": "word"
@@ -77449,6 +78021,26 @@
       "field": "plural_form"
     }
   ],
+  "row": [
+    {
+      "id": "en:row-argument:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:row-line:noun",
+      "field": "word"
+    }
+  ],
+  "rows": [
+    {
+      "id": "en:row-argument:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:row-line:noun",
+      "field": "plural_form"
+    }
+  ],
   "royal duties": [
     {
       "id": "en:royal-duty:noun",
@@ -77625,6 +78217,14 @@
   ],
   "run": [
     {
+      "id": "en:run-manage:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:run-series:noun",
+      "field": "word"
+    },
+    {
       "id": "en:run:noun",
       "field": "word"
     },
@@ -77704,6 +78304,10 @@
     }
   ],
   "runs": [
+    {
+      "id": "en:run-series:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:run:noun",
       "field": "plural_form"
@@ -78926,6 +79530,10 @@
     }
   ],
   "season": [
+    {
+      "id": "en:season-flavour:verb",
+      "field": "word"
+    },
     {
       "id": "en:season:noun",
       "field": "word"
@@ -80195,6 +80803,18 @@
   ],
   "set": [
     {
+      "id": "en:set-fixed:adjective",
+      "field": "word"
+    },
+    {
+      "id": "en:set-group:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:set-place:verb",
+      "field": "word"
+    },
+    {
       "id": "en:set:verb",
       "field": "word"
     }
@@ -80268,6 +80888,12 @@
   "setbacks": [
     {
       "id": "en:setback:noun",
+      "field": "plural_form"
+    }
+  ],
+  "sets": [
+    {
+      "id": "en:set-group:noun",
       "field": "plural_form"
     }
   ],
@@ -80785,6 +81411,10 @@
   ],
   "ship": [
     {
+      "id": "en:ship-send:verb",
+      "field": "word"
+    },
+    {
       "id": "en:ship:noun",
       "field": "word"
     }
@@ -80853,14 +81483,6 @@
     {
       "id": "en:shoe:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:shoes:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:shoes:noun",
-      "field": "word"
     }
   ],
   "shoot oneself in the foot": [
@@ -81095,6 +81717,10 @@
   ],
   "show": [
     {
+      "id": "en:show-performance:noun",
+      "field": "word"
+    },
+    {
       "id": "en:show:adjective",
       "field": "word"
     },
@@ -81140,6 +81766,10 @@
     }
   ],
   "shows": [
+    {
+      "id": "en:show-performance:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:show:noun",
       "field": "plural_form"
@@ -81195,17 +81825,15 @@
     {
       "id": "en:shut:adjective",
       "field": "comparative"
+    },
+    {
+      "id": "en:shutter:noun",
+      "field": "word"
     }
   ],
   "shutters": [
     {
-      "id": "en:shutters:noun",
-      "field": "word"
-    }
-  ],
-  "shutterss": [
-    {
-      "id": "en:shutters:noun",
+      "id": "en:shutter:noun",
       "field": "plural_form"
     }
   ],
@@ -82941,14 +83569,6 @@
     {
       "id": "en:sock:noun",
       "field": "plural_form"
-    },
-    {
-      "id": "en:socks:noun",
-      "field": "plural_form"
-    },
-    {
-      "id": "en:socks:noun",
-      "field": "word"
     }
   ],
   "socratic": [
@@ -83632,6 +84252,14 @@
     }
   ],
   "space": [
+    {
+      "id": "en:space-outer:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:space-room:noun",
+      "field": "word"
+    },
     {
       "id": "en:space:noun",
       "field": "word"
@@ -84395,6 +85023,10 @@
   ],
   "spring": [
     {
+      "id": "en:spring-water:noun",
+      "field": "word"
+    },
+    {
       "id": "en:spring:noun",
       "field": "word"
     }
@@ -84406,6 +85038,10 @@
     }
   ],
   "springs": [
+    {
+      "id": "en:spring-water:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:spring:noun",
       "field": "plural_form"
@@ -84495,6 +85131,10 @@
   ],
   "stage": [
     {
+      "id": "en:stage-phase:noun",
+      "field": "word"
+    },
+    {
       "id": "en:stage:adverb",
       "field": "word"
     },
@@ -84522,6 +85162,10 @@
     }
   ],
   "stages": [
+    {
+      "id": "en:stage-phase:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:stage:noun",
       "field": "plural_form"
@@ -84791,6 +85435,10 @@
   ],
   "start": [
     {
+      "id": "en:start-sudden:verb",
+      "field": "word"
+    },
+    {
       "id": "en:start:noun",
       "field": "word"
     },
@@ -84837,6 +85485,14 @@
   ],
   "state": [
     {
+      "id": "en:state-condition:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:state-country:noun",
+      "field": "word"
+    },
+    {
       "id": "en:state:verb",
       "field": "word"
     }
@@ -84874,6 +85530,16 @@
   "statements": [
     {
       "id": "en:statement:noun",
+      "field": "plural_form"
+    }
+  ],
+  "states": [
+    {
+      "id": "en:state-condition:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:state-country:noun",
       "field": "plural_form"
     }
   ],
@@ -85561,6 +86227,10 @@
   ],
   "store": [
     {
+      "id": "en:store-keep:verb",
+      "field": "word"
+    },
+    {
       "id": "en:store:noun",
       "field": "word"
     }
@@ -85572,6 +86242,10 @@
     }
   ],
   "stories": [
+    {
+      "id": "en:story-floor:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:story:noun",
       "field": "plural_form"
@@ -85608,6 +86282,10 @@
     }
   ],
   "story": [
+    {
+      "id": "en:story-floor:noun",
+      "field": "word"
+    },
     {
       "id": "en:story:noun",
       "field": "word"
@@ -85935,6 +86613,10 @@
   ],
   "strike": [
     {
+      "id": "en:strike-hit:verb",
+      "field": "word"
+    },
+    {
       "id": "en:strike:noun",
       "field": "word"
     }
@@ -86225,6 +86907,10 @@
   ],
   "subject": [
     {
+      "id": "en:subject-topic:noun",
+      "field": "word"
+    },
+    {
       "id": "en:subject:noun",
       "field": "word"
     }
@@ -86254,6 +86940,10 @@
     }
   ],
   "subjects": [
+    {
+      "id": "en:subject-topic:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:subject:noun",
       "field": "plural_form"
@@ -87137,6 +87827,18 @@
   ],
   "support": [
     {
+      "id": "en:support-help:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:support-hold:verb",
+      "field": "word"
+    },
+    {
+      "id": "en:support-prop:noun",
+      "field": "word"
+    },
+    {
       "id": "en:support:noun",
       "field": "word"
     },
@@ -87203,6 +87905,12 @@
     {
       "id": "en:supportive:adjective",
       "field": "word"
+    }
+  ],
+  "supports": [
+    {
+      "id": "en:support-prop:noun",
+      "field": "plural_form"
     }
   ],
   "suppose": [
@@ -88057,11 +88765,19 @@
   ],
   "table": [
     {
+      "id": "en:table-list:noun",
+      "field": "word"
+    },
+    {
       "id": "en:table:noun",
       "field": "word"
     }
   ],
   "tables": [
+    {
+      "id": "en:table-list:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:table:noun",
       "field": "plural_form"
@@ -88696,6 +89412,10 @@
     }
   ],
   "tap": [
+    {
+      "id": "en:tap-knock:verb",
+      "field": "word"
+    },
     {
       "id": "en:tap:noun",
       "field": "word"
@@ -89457,6 +90177,10 @@
   ],
   "term": [
     {
+      "id": "en:term-word:noun",
+      "field": "word"
+    },
+    {
       "id": "en:term:noun",
       "field": "word"
     }
@@ -89492,6 +90216,10 @@
     }
   ],
   "terms": [
+    {
+      "id": "en:term-word:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:term:noun",
       "field": "plural_form"
@@ -91175,6 +91903,10 @@
   ],
   "time": [
     {
+      "id": "en:time-occasion:noun",
+      "field": "word"
+    },
+    {
       "id": "en:time:adverb",
       "field": "word"
     },
@@ -91232,6 +91964,10 @@
     }
   ],
   "times": [
+    {
+      "id": "en:time-occasion:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:times:adverb",
       "field": "word"
@@ -91323,6 +92059,14 @@
   ],
   "tip": [
     {
+      "id": "en:tip-end:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:tip-money:noun",
+      "field": "word"
+    },
+    {
       "id": "en:tip:noun",
       "field": "word"
     }
@@ -91358,6 +92102,14 @@
     }
   ],
   "tips": [
+    {
+      "id": "en:tip-end:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:tip-money:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:tip:noun",
       "field": "plural_form"
@@ -92789,6 +93541,10 @@
   ],
   "top": [
     {
+      "id": "en:top-cover:noun",
+      "field": "word"
+    },
+    {
       "id": "en:top:adverb",
       "field": "word"
     }
@@ -92820,6 +93576,12 @@
   "topographic maps": [
     {
       "id": "en:topographic-map:noun",
+      "field": "plural_form"
+    }
+  ],
+  "tops": [
+    {
+      "id": "en:top-cover:noun",
       "field": "plural_form"
     }
   ],
@@ -93413,6 +94175,10 @@
   ],
   "train": [
     {
+      "id": "en:train-teach:verb",
+      "field": "word"
+    },
+    {
       "id": "en:train:noun",
       "field": "word"
     },
@@ -93433,15 +94199,15 @@
       "field": "plural_form"
     }
   ],
-  "trainers": [
+  "trainer": [
     {
-      "id": "en:trainers:noun",
+      "id": "en:trainer:noun",
       "field": "word"
     }
   ],
-  "trainerss": [
+  "trainers": [
     {
-      "id": "en:trainers:noun",
+      "id": "en:trainer:noun",
       "field": "plural_form"
     }
   ],
@@ -94019,6 +94785,10 @@
   ],
   "treat": [
     {
+      "id": "en:treat-gift:noun",
+      "field": "word"
+    },
+    {
       "id": "en:treat:verb",
       "field": "word"
     }
@@ -94068,6 +94838,12 @@
   "treatments": [
     {
       "id": "en:treatment:noun",
+      "field": "plural_form"
+    }
+  ],
+  "treats": [
+    {
+      "id": "en:treat-gift:noun",
       "field": "plural_form"
     }
   ],
@@ -94551,6 +95327,10 @@
   ],
   "turn": [
     {
+      "id": "en:turn-chance:noun",
+      "field": "word"
+    },
+    {
       "id": "en:turn:verb",
       "field": "word"
     }
@@ -94669,6 +95449,12 @@
     {
       "id": "en:turnover:noun",
       "field": "word"
+    }
+  ],
+  "turns": [
+    {
+      "id": "en:turn-chance:noun",
+      "field": "plural_form"
     }
   ],
   "turns of phrase": [
@@ -97541,11 +98327,19 @@
   ],
   "virus": [
     {
+      "id": "en:virus-illness:noun",
+      "field": "word"
+    },
+    {
       "id": "en:virus:noun",
       "field": "word"
     }
   ],
   "viruses": [
+    {
+      "id": "en:virus-illness:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:virus:noun",
       "field": "plural_form"
@@ -98631,6 +99425,10 @@
   ],
   "wave": [
     {
+      "id": "en:wave-hand:noun",
+      "field": "word"
+    },
+    {
       "id": "en:wave:noun",
       "field": "word"
     },
@@ -98640,6 +99438,10 @@
     }
   ],
   "waves": [
+    {
+      "id": "en:wave-hand:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:wave:noun",
       "field": "plural_form"
@@ -98665,6 +99467,10 @@
   ],
   "way": [
     {
+      "id": "en:way-method:noun",
+      "field": "word"
+    },
+    {
       "id": "en:way:noun",
       "field": "word"
     }
@@ -98676,6 +99482,10 @@
     }
   ],
   "ways": [
+    {
+      "id": "en:way-method:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:way:noun",
       "field": "plural_form"
@@ -98758,6 +99568,10 @@
     }
   ],
   "wear": [
+    {
+      "id": "en:wear-damage:noun",
+      "field": "word"
+    },
     {
       "id": "en:wear:noun",
       "field": "word"
@@ -99044,6 +99858,10 @@
     }
   ],
   "well": [
+    {
+      "id": "en:well-healthy:adjective",
+      "field": "word"
+    },
     {
       "id": "en:well:adverb",
       "field": "word"
@@ -99965,6 +100783,10 @@
   ],
   "window": [
     {
+      "id": "en:window-opportunity:noun",
+      "field": "word"
+    },
+    {
       "id": "en:window:noun",
       "field": "word"
     }
@@ -99988,6 +100810,10 @@
     }
   ],
   "windows": [
+    {
+      "id": "en:window-opportunity:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:window:noun",
       "field": "plural_form"
@@ -100343,6 +101169,10 @@
   ],
   "wonder": [
     {
+      "id": "en:wonder-feeling:noun",
+      "field": "word"
+    },
+    {
       "id": "en:wonder:verb",
       "field": "word"
     }
@@ -100355,19 +101185,17 @@
   ],
   "wood": [
     {
+      "id": "en:wood-forest:noun",
+      "field": "word"
+    },
+    {
       "id": "en:wood:noun",
       "field": "word"
     }
   ],
   "woods": [
     {
-      "id": "en:woods:noun",
-      "field": "word"
-    }
-  ],
-  "woodss": [
-    {
-      "id": "en:woods:noun",
+      "id": "en:wood-forest:noun",
       "field": "plural_form"
     }
   ],
@@ -100384,6 +101212,10 @@
     }
   ],
   "word": [
+    {
+      "id": "en:word-promise:noun",
+      "field": "word"
+    },
     {
       "id": "en:word:noun",
       "field": "word"
@@ -100418,6 +101250,14 @@
     }
   ],
   "work": [
+    {
+      "id": "en:work-creation:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:work-function:verb",
+      "field": "word"
+    },
     {
       "id": "en:work:noun",
       "field": "word"
@@ -100646,6 +101486,12 @@
   "workplaces": [
     {
       "id": "en:workplace:noun",
+      "field": "plural_form"
+    }
+  ],
+  "works": [
+    {
+      "id": "en:work-creation:noun",
       "field": "plural_form"
     }
   ],

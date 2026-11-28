@@ -496,6 +496,60 @@ function main() {
         }
       }
     }
+
+    // Check 5: Cross-POS derivatives (word family)
+    if (entry.derivatives !== undefined) {
+      if (!Array.isArray(entry.derivatives)) {
+        hasError = true;
+        console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+        console.error(`  - Field 'derivatives': must be an array`);
+      } else {
+        const seen = new Set();
+        for (const derivative of entry.derivatives) {
+          if (!derivative || typeof derivative !== 'object' || typeof derivative.term !== 'string' || typeof derivative.form !== 'string') {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'derivatives': each item needs string 'term' and 'form'`);
+            continue;
+          }
+          const term = derivative.term.trim();
+          if (term.length === 0) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'derivatives': empty term`);
+          }
+          if (derivative.form === entry.form && term.toLowerCase() === String(entry.word).trim().toLowerCase()) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'derivatives': ${derivative.form} term '${term}' repeats the headword`);
+          }
+          const key = `${derivative.form}\u0000${term.toLowerCase()}`;
+          if (seen.has(key)) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'derivatives': duplicate ${derivative.form} term '${term}'`);
+          }
+          seen.add(key);
+
+          if (term.includes(':') && /^[a-z]{2}:[^:]+:[^:]+$/.test(term) && !vocabIdMap.has(term)) {
+            hasError = true;
+            console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+            console.error(`  - Field 'derivatives': entry ID '${term}' does not exist`);
+          } else if (!term.includes(':')) {
+            if (lang === 'el' && !/[\u0370-\u03ff\u1f00-\u1fff]/.test(term)) {
+              hasError = true;
+              console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+              console.error(`  - Field 'derivatives': term '${term}' is not written in Greek`);
+            }
+            if ((lang === 'ru' || lang === 'tt' || lang === 'ba' || lang === 'cv') && !/[\u0400-\u04ff]/.test(term)) {
+              hasError = true;
+              console.error(`\n[VALIDATION ERROR] File: ${relPath} (ID: ${entry.id})`);
+              console.error(`  - Field 'derivatives': term '${term}' is not written in Cyrillic`);
+            }
+          }
+        }
+      }
+    }
   }
 
   console.log(`Checking ${indexFiles.length} index.json file(s)...`);

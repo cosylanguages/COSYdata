@@ -81,7 +81,7 @@
     ],
     "domain": "general, exam",
     "theme": "law",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "offences",
     "transcription": "/əˈfens/",
     "emoji": "🚨",
@@ -92,7 +92,21 @@
       "transgression"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "offend",
+        "form": "verb"
+      },
+      {
+        "term": "offensive",
+        "form": "adjective"
+      },
+      {
+        "term": "offensively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:offense:noun",
@@ -108,7 +122,7 @@
     ],
     "domain": "general, travel",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "offenses",
     "transcription": "/əˈfens/",
     "emoji": "🚨",
@@ -119,7 +133,21 @@
       "transgression"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "offend",
+        "form": "verb"
+      },
+      {
+        "term": "offensive",
+        "form": "adjective"
+      },
+      {
+        "term": "offensively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:trial:noun",
@@ -160,17 +188,18 @@
     "language": "en",
     "form": "noun",
     "level": "B1",
+    "sense": "law",
+    "sense_label": "place where legal cases are heard",
     "definitions": [
       "A place where legal trials take place before judges and juries."
     ],
     "examples": [
       "Witnesses were called to testify in court during the trial today.",
-      "The case went to the supreme court.",
-      "Basketball is played on a court."
+      "The case went to the supreme court."
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "courts",
     "tags": [
       "spoken"
@@ -208,7 +237,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "juries",
     "transcription": "/ˈdʒʊə.ri/",
     "emoji": "👥",
@@ -225,6 +254,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "juror",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -243,7 +278,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -262,6 +297,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "guilt",
+        "form": "noun"
+      },
+      {
+        "term": "guiltily",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -279,7 +324,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɪn.ə.sənt/",
     "emoji": "🕊️",
     "synonyms": [
@@ -295,6 +340,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "innocence",
+        "form": "noun"
+      },
+      {
+        "term": "innocently",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -312,7 +367,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "law",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈves.tɪ.ɡeɪt/",
     "emoji": "🔍",
     "synonyms": [
@@ -331,6 +386,20 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "investigation",
+        "form": "noun"
+      },
+      {
+        "term": "investigator",
+        "form": "noun"
+      },
+      {
+        "term": "investigative",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -349,7 +418,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "law",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "investigations",
     "transcription": "/ɪnˌves.tɪˈɡeɪ.ʃən/",
     "emoji": "🔍",
@@ -367,6 +436,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "investigate",
+        "form": "verb"
+      },
+      {
+        "term": "investigator",
+        "form": "noun"
+      },
+      {
+        "term": "investigative",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -385,7 +468,7 @@
     ],
     "domain": "general",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "detectives",
     "transcription": "/dɪˈtek.tɪv/",
     "emoji": "🕵️",
@@ -400,7 +483,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "detect",
+        "form": "verb"
+      },
+      {
+        "term": "detection",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:fraud:noun",
@@ -416,7 +509,7 @@
     ],
     "domain": "general, relocation, travel, exam",
     "theme": "law",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/frɔːd/",
     "emoji": "💳",
     "countability": "uncountable",
@@ -432,7 +525,17 @@
     "transcription_variants": {
       "us": "/frɑːd/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fraudulent",
+        "form": "adjective"
+      },
+      {
+        "term": "fraudulently",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:bribery:noun",
@@ -448,7 +551,7 @@
     ],
     "domain": "general, spoken, travel, exam",
     "theme": "law",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -464,7 +567,17 @@
     "transcription_variants": {
       "us": "/ˈbraɪ.bɚ.i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "bribe",
+        "form": "verb"
+      },
+      {
+        "term": "bribe",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:corruption:noun",
@@ -480,7 +593,7 @@
     ],
     "domain": "general, spoken, travel, exam",
     "theme": "law",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -496,7 +609,21 @@
       "honesty",
       "integrity"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "corrupt",
+        "form": "verb"
+      },
+      {
+        "term": "corrupt",
+        "form": "adjective"
+      },
+      {
+        "term": "corruptible",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:lawsuit:noun",
@@ -546,7 +673,7 @@
     ],
     "domain": "general, relocation",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈfɔːs/",
     "emoji": "👮",
     "synonyms": [
@@ -565,7 +692,17 @@
       "B1",
       "B2"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "enforcement",
+        "form": "noun"
+      },
+      {
+        "term": "enforceable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:ban:verb",
@@ -586,7 +723,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/bæn/",
     "emoji": "🚫",
     "synonyms": [
@@ -602,7 +739,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "ban",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:ban:noun",
@@ -621,7 +764,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/bæn/",
     "emoji": "🚫",
     "countability": "countable",
@@ -635,7 +778,13 @@
       "permission",
       "allowance"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "ban",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:deceive:verb",
@@ -654,7 +803,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈsiːv/",
     "emoji": "🦊",
     "synonyms": [
@@ -666,7 +815,21 @@
       "be honest",
       "disclose"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "deception",
+        "form": "noun"
+      },
+      {
+        "term": "deceptive",
+        "form": "adjective"
+      },
+      {
+        "term": "deceptively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:prohibit:verb",
@@ -686,7 +849,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/prəˈhɪb.ɪt/",
     "emoji": "🚫",
     "synonyms": [
@@ -702,7 +865,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "prohibition",
+        "form": "noun"
+      },
+      {
+        "term": "prohibitive",
+        "form": "adjective"
+      },
+      {
+        "term": "prohibitively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:suspicion:noun",
@@ -721,7 +898,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/səˈspɪʃ.ən/",
     "emoji": "🕵️",
     "countability": "countable",
@@ -735,7 +912,21 @@
       "trust",
       "confidence"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "suspicious",
+        "form": "adjective"
+      },
+      {
+        "term": "suspiciously",
+        "form": "adverb"
+      },
+      {
+        "term": "suspect",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:threat:noun",
@@ -755,7 +946,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/θret/",
     "emoji": "⚠️",
     "countability": "countable",
@@ -773,6 +964,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "threaten",
+        "form": "verb"
+      },
+      {
+        "term": "threatening",
+        "form": "adjective"
+      },
+      {
+        "term": "threateningly",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -792,7 +997,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈθret.ən/",
     "emoji": "⚡",
     "synonyms": [
@@ -804,7 +1009,21 @@
       "protect",
       "reassure"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "threat",
+        "form": "noun"
+      },
+      {
+        "term": "threatening",
+        "form": "adjective"
+      },
+      {
+        "term": "threateningly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:scam:noun",
@@ -820,7 +1039,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "crime",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -836,7 +1055,17 @@
     "antonyms": [
       "honest transaction"
     ],
-    "sub_theme": "offenses"
+    "sub_theme": "offenses",
+    "derivatives": [
+      {
+        "term": "scam",
+        "form": "verb"
+      },
+      {
+        "term": "scammer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:pickpocketing:noun",
@@ -846,7 +1075,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "crime",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "The crime of stealing money or valuables from pockets or bags."
     ],
@@ -865,7 +1094,17 @@
       "crime",
       "travel"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "pickpocket",
+        "form": "noun"
+      },
+      {
+        "term": "pickpocket",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:sentence:verb",
@@ -882,7 +1121,7 @@
     "domain": "general, professional",
     "sub_theme": "legal-english",
     "theme": "crime",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsen.təns/",
     "emoji": "⚖️",
     "synonyms": [
@@ -890,7 +1129,13 @@
       "penalize",
       "condemn"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "sentence",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:appeal:noun",
@@ -907,7 +1152,7 @@
     "domain": "general, professional",
     "sub_theme": "legal-english",
     "theme": "crime",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈpiːl/",
     "emoji": "⚖️",
     "synonyms": [
@@ -917,7 +1162,17 @@
     ],
     "no_antonym": true,
     "countability": "countable",
-    "plural_form": "appeals"
+    "plural_form": "appeals",
+    "derivatives": [
+      {
+        "term": "appeal",
+        "form": "verb"
+      },
+      {
+        "term": "appealing",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:witness:verb",
@@ -934,7 +1189,7 @@
     "domain": "general, professional",
     "sub_theme": "legal-english",
     "theme": "crime",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈwɪt.nəs/",
     "emoji": "👁️",
     "synonyms": [
@@ -942,6 +1197,76 @@
       "attest",
       "testify"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "witness",
+        "form": "noun"
+      }
+    ]
+  },
+  {
+    "id": "en:break-rule:verb",
+    "word": "break",
+    "language": "en",
+    "form": "verb",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "rule",
+    "sense_label": "not obey a rule",
+    "definitions": [
+      "To break a rule or law means not to obey it."
+    ],
+    "examples": [
+      "Players who break the rules may be punished.",
+      "He broke the law and went to prison."
+    ],
+    "domain": "general, spoken",
+    "theme": "law",
+    "sub_theme": "general",
+    "transcription": "/breɪk/",
+    "emoji": "🚫",
+    "synonyms": [
+      "violate",
+      "disobey"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:case-legal:noun",
+    "word": "case",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "legal-matter",
+    "sense_label": "legal matter in court",
+    "definitions": [
+      "A case is a legal matter that is decided in court."
+    ],
+    "examples": [
+      "The lawyer took the case to court.",
+      "The police are investigating the case."
+    ],
+    "domain": "general, spoken",
+    "theme": "law",
+    "sub_theme": "court_procedures",
+    "transcription": "/keɪs/",
+    "emoji": "⚖️",
+    "synonyms": [
+      "lawsuit",
+      "trial",
+      "action"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "cases"
   }
 ]

@@ -78,7 +78,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "philosophy",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -102,7 +102,13 @@
     "sub_theme": "ethics_morality",
     "transcription_variants": {
       "us": "/ˈfæl.ə.si/"
-    }
+    },
+    "derivatives": [
+      {
+        "term": "fallacious",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:nihilism:noun",
@@ -118,7 +124,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1",
       "C2"
@@ -139,7 +145,17 @@
     "transcription_variants": {
       "us": "/ˈniː.ə.lɪ.zəm/"
     },
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "nihilist",
+        "form": "noun"
+      },
+      {
+        "term": "nihilistic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:solipsism:noun",
@@ -188,7 +204,7 @@
     ],
     "domain": "general, relocation",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈæk.si.əm/",
     "emoji": "📐",
     "countability": "countable",
@@ -201,7 +217,17 @@
       "absurdity",
       "paradox"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "axiomatic",
+        "form": "adjective"
+      },
+      {
+        "term": "axiomatical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:dialectic:noun",
@@ -219,7 +245,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "philosophy",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -238,6 +264,12 @@
     },
     "levels": [
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "dialectical",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -255,7 +287,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "transcription": "/ɪmˈpɪr.ɪ.sɪ.zəm/",
     "emoji": "👁️",
     "countability": "uncountable",
@@ -273,6 +305,20 @@
     "sub_theme": "ethics_morality",
     "levels": [
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "empiric",
+        "form": "adjective"
+      },
+      {
+        "term": "empirical",
+        "form": "adjective"
+      },
+      {
+        "term": "empiricist",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -290,7 +336,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "transcription": "/ˌeɡ.zɪˈsten.ʃəl.ɪ.zəm/",
     "emoji": "🤔",
     "countability": "uncountable",
@@ -305,6 +351,12 @@
     },
     "levels": [
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "existentialist",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -323,7 +375,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "philosophy",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -341,6 +393,12 @@
     "sub_theme": "teachers-scientists",
     "levels": [
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "ontological",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -392,7 +450,7 @@
     ],
     "domain": "general, exam",
     "theme": "philosophy",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌtiː.liˈɒl.ə.dʒi/",
     "emoji": "🎯",
     "countability": "uncountable",
@@ -409,6 +467,16 @@
     "levels": [
       "C1",
       "C2"
+    ],
+    "derivatives": [
+      {
+        "term": "teleological",
+        "form": "adjective"
+      },
+      {
+        "term": "teleologist",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -643,7 +711,7 @@
       "pardon",
       "exoneration"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🕊️",
     "antonyms": [
       "condemnation",
@@ -651,7 +719,13 @@
       "blame"
     ],
     "countability": "uncountable",
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "absolve",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:condone:verb",
@@ -673,14 +747,20 @@
       "overlook",
       "sanction"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🙈",
     "antonyms": [
       "condemn",
       "censure",
       "forbid"
     ],
-    "sub_theme": "ethics_morality"
+    "sub_theme": "ethics_morality",
+    "derivatives": [
+      {
+        "term": "condonation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:ethical-reasoning:noun",

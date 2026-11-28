@@ -13,7 +13,7 @@
     ],
     "domain": "general, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌəʊ.vəˈbʊkt/",
     "emoji": "🎟️",
     "no_antonym": true,
@@ -21,7 +21,13 @@
       "oversold",
       "fully reserved"
     ],
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "overbook",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:standby:noun",
@@ -62,7 +68,7 @@
     ],
     "domain": "general, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈtɜː.bjə.ləns/",
     "emoji": "☁️",
     "no_antonym": true,
@@ -71,7 +77,13 @@
       "rough air"
     ],
     "countability": "uncountable",
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "turbulent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:transit-visa:noun",
@@ -139,7 +151,7 @@
     ],
     "domain": "general, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmaɪ.lɪdʒ/",
     "emoji": "🚗",
     "no_antonym": true,
@@ -148,7 +160,13 @@
       "fuel economy"
     ],
     "countability": "uncountable",
-    "sub_theme": "vehicles_transportation"
+    "sub_theme": "vehicles_transportation",
+    "derivatives": [
+      {
+        "term": "mile",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:peak-hours:noun",
@@ -431,7 +449,7 @@
     ],
     "domain": "general, relocation, travel, exam",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kəˈmjuːt/",
     "emoji": "🚆",
     "synonyms": [
@@ -439,7 +457,17 @@
       "shuttle"
     ],
     "no_antonym": true,
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "commute",
+        "form": "noun"
+      },
+      {
+        "term": "commuter",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:concierge-service:noun",
@@ -479,7 +507,7 @@
     "level": "B1",
     "domain": "general, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "An official checking passenger tickets and ensuring safety on trains."
     ],
@@ -499,7 +527,17 @@
       "travel",
       "urban_housing"
     ],
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "conduct",
+        "form": "verb"
+      },
+      {
+        "term": "conduction",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:courier-service:noun",
@@ -663,7 +701,7 @@
     ],
     "domain": "relocation",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -680,7 +718,17 @@
     "antonyms": [
       "commencement"
     ],
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "expire",
+        "form": "verb"
+      },
+      {
+        "term": "expired",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:fixed-itinerary:noun",
@@ -1021,7 +1069,7 @@
     ],
     "domain": "relocation, professional",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌredʒ.ɪˈstreɪ.ʃən/",
     "transcription_variants": {
       "us": "/ˌredʒ.əˈstreɪ.ʃən/"
@@ -1033,7 +1081,13 @@
       "listing"
     ],
     "countability": "uncountable",
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "register",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:restricted-items:noun",
@@ -1389,7 +1443,7 @@
     ],
     "domain": "general, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈtræn.zɪt/",
     "emoji": "🛄",
     "no_antonym": true,
@@ -1397,7 +1451,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "transit_booking"
+    "sub_theme": "transit_booking",
+    "derivatives": [
+      {
+        "term": "transit",
+        "form": "verb"
+      },
+      {
+        "term": "transition",
+        "form": "noun"
+      },
+      {
+        "term": "transitional",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:upgrade-voucher:noun",

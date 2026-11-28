@@ -18,10 +18,20 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/dʒes.ti.koˈlaː.re/",
     "emoji": "🤌",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "gesto",
+        "form": "noun"
+      },
+      {
+        "term": "gesticolazione",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:tono:noun",
@@ -42,14 +52,20 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈtoː.no/",
     "emoji": "🎙️",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "toni"
+    "plural_form": "toni",
+    "derivatives": [
+      {
+        "term": "tonale",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:accento:noun",
@@ -70,20 +86,33 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/atˈtʃen.to/",
     "emoji": "🗣️",
     "no_antonym": true,
     "article": "l'",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "accenti"
+    "plural_form": "accenti",
+    "derivatives": [
+      {
+        "term": "accentare",
+        "form": "verb"
+      },
+      {
+        "term": "accentato",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:fluente:adjective",
     "word": "fluente",
     "language": "it",
     "form": "adjective",
+    "feminine": "fluente",
+    "masculine_plural": "fluenti",
+    "feminine_plural": "fluenti",
     "level": "B1",
     "definitions": [
       "Che parla una lingua in modo sciolto e senza pause."
@@ -98,11 +127,21 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/fluˈɛn.te/",
     "emoji": "💬",
     "antonyms": [
       "esitante"
+    ],
+    "derivatives": [
+      {
+        "term": "fluidità",
+        "form": "noun"
+      },
+      {
+        "term": "fluentemente",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -124,14 +163,28 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/tra.dutˈtsjoː.ne/",
     "emoji": "🌐",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "traduzioni"
+    "plural_form": "traduzioni",
+    "derivatives": [
+      {
+        "term": "tradurre",
+        "form": "verb"
+      },
+      {
+        "term": "traduttore",
+        "form": "noun"
+      },
+      {
+        "term": "tradotto",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:interprete:noun",
@@ -151,14 +204,24 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/inˈtɛr.pre.te/",
     "emoji": "🗣️",
     "no_antonym": true,
     "article": "l'",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "interpreti"
+    "plural_form": "interpreti",
+    "derivatives": [
+      {
+        "term": "interpretare",
+        "form": "verb"
+      },
+      {
+        "term": "interpretazione",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:significato:noun",
@@ -179,14 +242,28 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/si.ɲi.fiˈkaː.to/",
     "emoji": "💡",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "significati"
+    "plural_form": "significati",
+    "derivatives": [
+      {
+        "term": "significare",
+        "form": "verb"
+      },
+      {
+        "term": "significativo",
+        "form": "adjective"
+      },
+      {
+        "term": "significazione",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:espressione:noun",
@@ -207,14 +284,28 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/es.presˈsjoː.ne/",
     "emoji": "💬",
     "no_antonym": true,
     "article": "l'",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "espressioni"
+    "plural_form": "espressioni",
+    "derivatives": [
+      {
+        "term": "esprimere",
+        "form": "verb"
+      },
+      {
+        "term": "espressivo",
+        "form": "adjective"
+      },
+      {
+        "term": "espressivamente",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "it:grammatica:noun",
@@ -235,13 +326,23 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ɡramˈmaː.ti.ka/",
     "emoji": "📚",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
-    "countability": "uncountable"
+    "countability": "uncountable",
+    "derivatives": [
+      {
+        "term": "grammatico",
+        "form": "noun"
+      },
+      {
+        "term": "grammaticale",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:vocabolario:noun",
@@ -262,14 +363,20 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/vo.ka.boˈlaː.rjo/",
     "emoji": "📖",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "vocabolari"
+    "plural_form": "vocabolari",
+    "derivatives": [
+      {
+        "term": "vocabolo",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:pronuncia:noun",
@@ -290,14 +397,24 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/proˈnun.tʃa/",
     "emoji": "🗣️",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "pronuncie"
+    "plural_form": "pronuncie",
+    "derivatives": [
+      {
+        "term": "pronunciare",
+        "form": "verb"
+      },
+      {
+        "term": "pronunciato",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:dialogo:noun",
@@ -318,14 +435,24 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/diˈaː.lo.ɡo/",
     "emoji": "💬",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "dialoghi"
+    "plural_form": "dialoghi",
+    "derivatives": [
+      {
+        "term": "dialogare",
+        "form": "verb"
+      },
+      {
+        "term": "dialogico",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:conversazione:noun",
@@ -346,14 +473,24 @@
     "domain": "general, spoken",
     "theme": "communication",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/kon.ver.satˈtsjoː.ne/",
     "emoji": "🗣️",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "conversazioni"
+    "plural_form": "conversazioni",
+    "derivatives": [
+      {
+        "term": "conversare",
+        "form": "verb"
+      },
+      {
+        "term": "conversatore",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:lingua-dei-segni:noun",

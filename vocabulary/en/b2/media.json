@@ -132,7 +132,7 @@
     ],
     "domain": "general, travel, professional, exam",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "📰",
     "countability": "countable",
     "synonyms": [
@@ -140,7 +140,17 @@
       "leader"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "editorialist",
+        "form": "noun"
+      },
+      {
+        "term": "editorialize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:mainstream:noun",
@@ -247,7 +257,7 @@
     ],
     "domain": "general, travel, exam",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "📰",
     "synonyms": [
       "modern",
@@ -258,7 +268,17 @@
       "historical",
       "ancient"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "contemporaneity",
+        "form": "noun"
+      },
+      {
+        "term": "contemporaneousness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:aesthetic:adjective",
@@ -277,7 +297,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -291,6 +311,16 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "aesthetically",
+        "form": "adverb"
+      },
+      {
+        "term": "aesthetics",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -308,7 +338,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "📰",
     "countability": "uncountable",
     "synonyms": [
@@ -317,7 +347,13 @@
       "imagery"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "symbolist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:metaphor:noun",
@@ -334,7 +370,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -346,7 +382,17 @@
       "trope"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "metaphoric",
+        "form": "adjective"
+      },
+      {
+        "term": "metaphorical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:allegory:noun",
@@ -363,7 +409,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "📰",
     "countability": "countable",
     "synonyms": [
@@ -372,7 +418,25 @@
       "symbolic story"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "allegoric",
+        "form": "adjective"
+      },
+      {
+        "term": "allegorical",
+        "form": "adjective"
+      },
+      {
+        "term": "allegorise",
+        "form": "verb"
+      },
+      {
+        "term": "allegorize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:protagonist:noun",
@@ -420,7 +484,7 @@
     ],
     "domain": "general, spoken",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -434,7 +498,17 @@
     "antonyms": [
       "protagonist"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "antagonism",
+        "form": "noun"
+      },
+      {
+        "term": "antagonistic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:commercialization:noun",
@@ -451,7 +525,7 @@
     ],
     "domain": "general",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "📰",
     "countability": "uncountable",
     "synonyms": [
@@ -461,7 +535,17 @@
     "antonyms": [
       "de-commercialization"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "commercialise",
+        "form": "verb"
+      },
+      {
+        "term": "commercialize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:commercialisation:noun",
@@ -478,7 +562,7 @@
     ],
     "domain": "general",
     "theme": "media",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "📰",
     "countability": "countable",
     "synonyms": [
@@ -491,7 +575,17 @@
     "region": [
       "UK"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "commercialise",
+        "form": "verb"
+      },
+      {
+        "term": "commercialize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:mainstream-media:noun",
@@ -1176,7 +1270,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/prəˈvɒk.ə.tɪv/",
     "emoji": "📰",
     "synonyms": [
@@ -1186,7 +1280,17 @@
     "antonyms": [
       "uninspiring"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "provocatively",
+        "form": "adverb"
+      },
+      {
+        "term": "provoke",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:social-media-presence:noun",
@@ -1311,7 +1415,7 @@
     "level": "B2",
     "domain": "general, travel, professional",
     "theme": "media",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "A journalist employed to provide news reports from a specific region."
     ],
@@ -1330,7 +1434,13 @@
       "media",
       "travel"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "correspond",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:crowd-sourced-information:noun",
@@ -1672,5 +1782,40 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "solitaries"
+  },
+  {
+    "id": "en:issue-release:verb",
+    "word": "issue",
+    "language": "en",
+    "form": "verb",
+    "level": "B2",
+    "sense": "release",
+    "sense_label": "release officially",
+    "definitions": [
+      "To make something available to the public for the first time."
+    ],
+    "examples": [
+      "The company will issue a new version of the app next month."
+    ],
+    "domain": "general, professional",
+    "theme": "media",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "transcription": "/ˈɪs.juː/",
+    "emoji": "📢",
+    "synonyms": [
+      "release",
+      "publish"
+    ],
+    "no_antonym": true,
+    "levels": [
+      "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "issuer",
+        "form": "noun"
+      }
+    ]
   }
 ]

@@ -10,7 +10,7 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
 test('parity loader includes nested home vocabulary files', () => {
   const entries = loadLevelEntries(rootDir, 'en', 'a0_a1');
-  assert.equal(entries.length, 1688);
+  assert.equal(entries.length, 1686);
   const nested = entries.filter((entry) => entry._filename.startsWith('home/'));
   assert.ok(nested.length > 0);
   assert.ok(nested.some((entry) => entry._filename === 'home/homes.json'));

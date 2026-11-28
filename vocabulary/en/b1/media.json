@@ -13,7 +13,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "countability": "uncountable",
     "transcription": "/pres/",
     "emoji": "📰",
@@ -23,7 +23,19 @@
       "newspapers"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "press",
+        "form": "verb"
+      },
+      {
+        "term": "pressure",
+        "form": "noun"
+      }
+    ],
+    "sense": "media",
+    "sense_label": "newspapers and journalists"
   },
   {
     "id": "en:journalist:noun",
@@ -41,7 +53,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "journalists",
     "tags": [
       "spoken"
@@ -61,6 +73,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "journalism",
+        "form": "noun"
+      },
+      {
+        "term": "journalistic",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -79,7 +101,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈdʒɜː.nə.lɪ.zəm/",
     "emoji": "📰",
     "countability": "uncountable",
@@ -95,6 +117,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "journalist",
+        "form": "noun"
+      },
+      {
+        "term": "journalistic",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -111,7 +143,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "media",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -132,7 +164,17 @@
     "related_forms": [
       "COSYtools:en-irregular-verbs:broadcast"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "broadcast",
+        "form": "noun"
+      },
+      {
+        "term": "broadcaster",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:documentary:noun",
@@ -150,7 +192,7 @@
     ],
     "domain": "general, spoken, travel, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "documentaries",
     "tags": [
       "spoken"
@@ -170,6 +212,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "document",
+        "form": "noun"
+      },
+      {
+        "term": "document",
+        "form": "verb"
+      },
+      {
+        "term": "documentation",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -186,7 +242,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "media",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "critics",
     "tags": [
       "spoken"
@@ -199,7 +255,21 @@
       "commentator"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "criticize",
+        "form": "verb"
+      },
+      {
+        "term": "criticism",
+        "form": "noun"
+      },
+      {
+        "term": "critical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:plot:noun",
@@ -215,7 +285,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "media",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "plots",
     "tags": [
       "spoken"
@@ -231,7 +301,17 @@
     "transcription_variants": {
       "us": "/plɑːt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "plot",
+        "form": "verb"
+      },
+      {
+        "term": "plotting",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:character:noun",
@@ -249,7 +329,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "characters",
     "tags": [
       "spoken"
@@ -269,6 +349,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "characterize",
+        "form": "verb"
+      },
+      {
+        "term": "characterization",
+        "form": "noun"
+      },
+      {
+        "term": "characteristic",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -317,7 +411,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈfɪk.ʃən/",
     "emoji": "📖",
     "countability": "uncountable",
@@ -333,6 +427,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "fictional",
+        "form": "adjective"
+      },
+      {
+        "term": "fictionalize",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -381,7 +485,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "novels",
     "transcription": "/ˈnɒv.əl/",
     "emoji": "📖",
@@ -398,6 +502,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "novelist",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -416,7 +526,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "authors",
     "transcription": "/ˈɔː.θə/",
     "emoji": "✍️",
@@ -433,6 +543,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "authorship",
+        "form": "noun"
+      },
+      {
+        "term": "author",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -451,7 +571,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "poems",
     "transcription": "/ˈpəʊ.ɪm/",
     "emoji": "📜",
@@ -468,6 +588,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "poet",
+        "form": "noun"
+      },
+      {
+        "term": "poetry",
+        "form": "noun"
+      },
+      {
+        "term": "poetic",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -484,7 +618,7 @@
     ],
     "domain": "general, exam",
     "theme": "media",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "countability": "uncountable",
     "transcription": "/ˈpəʊ.ɪ.tri/",
     "emoji": "📜",
@@ -498,7 +632,17 @@
     "transcription_variants": {
       "us": "/ˈpoʊ.ə.tri/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "poet",
+        "form": "noun"
+      },
+      {
+        "term": "poetic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:soundtrack:noun",
@@ -545,7 +689,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "directors",
     "transcription": "/daɪˈrek.tə/",
     "emoji": "🎬",
@@ -562,6 +706,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "direction",
+        "form": "noun"
+      },
+      {
+        "term": "direct",
+        "form": "verb"
+      },
+      {
+        "term": "directorial",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -647,7 +805,7 @@
     ],
     "domain": "general",
     "theme": "media",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈkleɪmd/",
     "emoji": "👏",
     "synonyms": [
@@ -658,7 +816,17 @@
       "criticized",
       "panned"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "acclaim",
+        "form": "noun"
+      },
+      {
+        "term": "acclaim",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:bestseller:noun",
@@ -674,7 +842,7 @@
     ],
     "domain": "general",
     "theme": "media",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "bestsellers",
     "transcription": "/ˌbestˈsel.ə/",
     "emoji": "📚",
@@ -689,7 +857,13 @@
     "transcription_variants": {
       "us": "/ˌbestˈsel.ɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "bestselling",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:publish:verb",
@@ -707,7 +881,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "media",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈpʌb.lɪʃ/",
     "emoji": "📖",
     "synonyms": [
@@ -720,6 +894,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "publication",
+        "form": "noun"
+      },
+      {
+        "term": "publisher",
+        "form": "noun"
+      },
+      {
+        "term": "published",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -738,7 +926,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "media",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "publications",
     "transcription": "/ˌpʌb.lɪˈkeɪ.ʃən/",
     "emoji": "📖",
@@ -755,6 +943,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "publish",
+        "form": "verb"
+      },
+      {
+        "term": "publisher",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -771,7 +969,7 @@
     ],
     "domain": "general, spoken, travel, professional, exam",
     "theme": "media",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -789,7 +987,17 @@
     "transcription_variants": {
       "us": "/ˈsen.sɚ.ʃɪp/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "censor",
+        "form": "verb"
+      },
+      {
+        "term": "censor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:influence:noun",
@@ -807,7 +1015,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "media",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -824,7 +1032,17 @@
       "effect"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "influence",
+        "form": "verb"
+      },
+      {
+        "term": "influential",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:storyline:noun",
@@ -945,7 +1163,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "countability": "pluralia_tantum",
     "transcription": "/ˈlɪr.ɪks/",
     "emoji": "🎶",
@@ -954,7 +1172,17 @@
       "song text"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "lyric",
+        "form": "noun"
+      },
+      {
+        "term": "lyrical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:album:noun",
@@ -1010,7 +1238,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "releases",
     "transcription": "/rɪˈliːs/",
     "emoji": "🚀",
@@ -1022,7 +1250,13 @@
     "antonyms": [
       "withdrawal"
     ],
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "release",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:premiere:noun",
@@ -1042,7 +1276,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "premieres",
     "transcription": "/ˈprem.i.eə/",
     "emoji": "🎬",
@@ -1055,7 +1289,13 @@
     "transcription_variants": {
       "us": "/prɪˈmɪr/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "premiere",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:remake:noun",
@@ -1075,7 +1315,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "remakes",
     "transcription": "/ˈriː.meɪk/",
     "emoji": "🔄",
@@ -1085,7 +1325,13 @@
       "adaptation"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "remake",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:sequel:noun",
@@ -1201,7 +1447,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "countability": "invariable",
     "transcription": "/ˈsɪə.riːz/",
     "emoji": "📺",
@@ -1213,7 +1459,17 @@
     "transcription_variants": {
       "us": "/ˈsɪr.iːz/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "serial",
+        "form": "adjective"
+      },
+      {
+        "term": "serialize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:episode:noun",
@@ -1233,7 +1489,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "episodes",
     "transcription": "/ˈep.ɪ.səʊd/",
     "emoji": "📺",
@@ -1246,7 +1502,13 @@
     "transcription_variants": {
       "us": "/ˈep.ə.soʊd/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "episodic",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:cliffhanger:noun",
@@ -1298,7 +1560,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "spoilers",
     "transcription": "/ˈspɔɪ.lə/",
     "emoji": "⚠️",
@@ -1310,7 +1572,13 @@
     "transcription_variants": {
       "us": "/ˈspɔɪ.lɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "spoil",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:fan-base:noun",
@@ -1362,7 +1630,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "celebrities",
     "transcription": "/səˈleb.rə.ti/",
     "emoji": "⭐",
@@ -1382,7 +1650,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "celebrate",
+        "form": "verb"
+      },
+      {
+        "term": "celebration",
+        "form": "noun"
+      },
+      {
+        "term": "celebrated",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:fame:noun",
@@ -1404,7 +1686,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/feɪm/",
     "emoji": "⭐",
     "countability": "uncountable",
@@ -1420,7 +1702,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "famous",
+        "form": "adjective"
+      },
+      {
+        "term": "famously",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:gossip-magazine:noun",
@@ -1542,7 +1834,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "abstracts",
     "transcription": "/ˈæb.strækt/",
     "emoji": "🎨",
@@ -1554,7 +1846,21 @@
     "antonyms": [
       "concrete"
     ],
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "abstract",
+        "form": "adjective"
+      },
+      {
+        "term": "abstract",
+        "form": "verb"
+      },
+      {
+        "term": "abstraction",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:realistic:noun",
@@ -1608,7 +1914,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈfæn.tə.si/",
     "emoji": "🐉",
     "countability": "countable",
@@ -1622,7 +1928,17 @@
       "reality",
       "fact"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fantastic",
+        "form": "adjective"
+      },
+      {
+        "term": "fantasize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:publicity:noun",
@@ -1641,7 +1957,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/pʌbˈlɪs.ə.ti/",
     "emoji": "📺",
     "countability": "uncountable",
@@ -1654,7 +1970,21 @@
       "privacy",
       "anonymity"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "publicist",
+        "form": "noun"
+      },
+      {
+        "term": "publicize",
+        "form": "verb"
+      },
+      {
+        "term": "public",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:review-platform:noun",
@@ -2331,5 +2661,68 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "tracklists"
+  },
+  {
+    "id": "en:live-broadcast:adjective",
+    "word": "live",
+    "language": "en",
+    "form": "adjective",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "broadcast",
+    "sense_label": "happening now",
+    "definitions": [
+      "A live event is happening now, not recorded."
+    ],
+    "examples": [
+      "The concert is live on television.",
+      "We watched a live match."
+    ],
+    "domain": "general, spoken",
+    "theme": "media",
+    "sub_theme": "general",
+    "transcription": "/laɪv/",
+    "emoji": "🔴",
+    "synonyms": [
+      "current",
+      "direct"
+    ],
+    "updated": "2026-11-28",
+    "no_antonym": true
+  },
+  {
+    "id": "en:paper-newspaper:noun",
+    "word": "paper",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "newspaper",
+    "sense_label": "newspaper",
+    "definitions": [
+      "A paper is a newspaper."
+    ],
+    "examples": [
+      "He reads the paper every morning.",
+      "The story was in yesterday's paper."
+    ],
+    "domain": "general, spoken",
+    "theme": "media",
+    "sub_theme": "general",
+    "transcription": "/ˈpeɪ.pər/",
+    "emoji": "📰",
+    "synonyms": [
+      "newspaper",
+      "journal"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "papers"
   }
 ]

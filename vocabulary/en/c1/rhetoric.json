@@ -294,7 +294,7 @@
       "spoken",
       "advanced"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmɒn.ə.lɒɡ/",
     "emoji": "🎭",
     "countability": "countable",
@@ -310,7 +310,17 @@
     "transcription_variants": {
       "us": "/ˈmɑː.nə.lɑːɡ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "monologist",
+        "form": "noun"
+      },
+      {
+        "term": "monologuize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:non-sequitur:noun",
@@ -885,14 +895,24 @@
       "pleonasm",
       "repetition"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🔄",
     "antonyms": [
       "brevity",
       "conciseness"
     ],
     "countability": "countable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "tautologic",
+        "form": "adjective"
+      },
+      {
+        "term": "tautological",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:therein-lies-the-problem:phrase",
@@ -1005,7 +1025,7 @@
     "domain": "general, relocation",
     "theme": "communication",
     "transcription": "/ˌref.juˈteɪ.ʃən/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "the act of proving a statement, argument, or charge to be false or incorrect using evidence"
     ],
@@ -1025,7 +1045,13 @@
     "antonyms": [
       "confirmation"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "refute",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:allegorical:adjective",
@@ -1036,7 +1062,7 @@
     "domain": "general, relocation, exam",
     "theme": "communication",
     "transcription": "/ˌæl.ɪˈɡɒr.ɪ.kəl/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "containing a hidden spiritual, moral, or political meaning expressed through symbolic narrative elements"
     ],
@@ -1055,7 +1081,13 @@
     "antonyms": [
       "literal"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "allegory",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:truism:noun",
@@ -1092,7 +1124,7 @@
     "domain": "general, relocation, exam",
     "theme": "communication",
     "transcription": "/ˈplæt.ɪ.tjuːd/",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "definitions": [
       "a remark or statement, especially one with a moral content, that has been used too often to be interesting"
     ],
@@ -1111,6 +1143,12 @@
       "trite remark"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "platitudinous",
+        "form": "adjective"
+      }
+    ]
   }
 ]

@@ -14,7 +14,7 @@
     ],
     "domain": "general, professional",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1"
@@ -33,7 +33,21 @@
     "transcription_variants": {
       "us": "/ˈsoʊ.ʃəl/"
     },
-    "sub_theme": "it-specialists"
+    "sub_theme": "it-specialists",
+    "derivatives": [
+      {
+        "term": "society",
+        "form": "noun"
+      },
+      {
+        "term": "socially",
+        "form": "adverb"
+      },
+      {
+        "term": "socialize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:inequality:noun",
@@ -52,7 +66,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "inequalities",
     "tags": [
       "spoken"
@@ -72,7 +86,21 @@
     "transcription_variants": {
       "us": "/ˌɪn.ɪˈkwɑː.lə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "unequal",
+        "form": "adjective"
+      },
+      {
+        "term": "inequitable",
+        "form": "adjective"
+      },
+      {
+        "term": "equality",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:poverty:noun",
@@ -88,7 +116,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -107,7 +135,21 @@
     "transcription_variants": {
       "us": "/ˈpɑː.vɚ.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "poor",
+        "form": "adjective"
+      },
+      {
+        "term": "poorly",
+        "form": "adverb"
+      },
+      {
+        "term": "impoverish",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:wealth:noun",
@@ -123,7 +165,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/welθ/",
     "emoji": "💰",
     "countability": "uncountable",
@@ -136,7 +178,17 @@
       "poverty",
       "destitution"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "wealthy",
+        "form": "adjective"
+      },
+      {
+        "term": "wealthily",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:homeless:adjective",
@@ -152,7 +204,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈhəʊm.ləs/",
     "emoji": "🏚️",
     "synonyms": [
@@ -167,7 +219,13 @@
     "transcription_variants": {
       "us": "/ˈhoʊm.ləs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "homelessness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:homelessness:noun",
@@ -183,7 +241,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "countability": "uncountable",
     "transcription": "/ˈhəʊm.ləs.nəs/",
     "emoji": "🏚️",
@@ -195,7 +253,13 @@
     "transcription_variants": {
       "us": "/ˈhoʊm.ləs.nəs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "homeless",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:racism:noun",
@@ -211,7 +275,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈreɪ.sɪ.zəm/",
     "emoji": "🚫",
     "countability": "uncountable",
@@ -224,7 +288,21 @@
       "racial equality",
       "tolerance"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "racist",
+        "form": "noun"
+      },
+      {
+        "term": "racist",
+        "form": "adjective"
+      },
+      {
+        "term": "racial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:sexism:noun",
@@ -240,7 +318,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsek.sɪ.zəm/",
     "emoji": "🚫",
     "countability": "uncountable",
@@ -252,7 +330,21 @@
     "antonyms": [
       "gender equality"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "sexist",
+        "form": "noun"
+      },
+      {
+        "term": "sexist",
+        "form": "adjective"
+      },
+      {
+        "term": "sexual",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:immigration:noun",
@@ -268,7 +360,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -285,7 +377,17 @@
     "transcription_variants": {
       "us": "/ˌɪm.əˈɡreɪ.ʃən/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "immigrate",
+        "form": "verb"
+      },
+      {
+        "term": "immigrant",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:immigrant:noun",
@@ -301,7 +403,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "immigrants",
     "tags": [
       "spoken"
@@ -321,7 +423,17 @@
     "transcription_variants": {
       "us": "/ˈɪm.ə.ɡrənt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "immigrate",
+        "form": "verb"
+      },
+      {
+        "term": "immigration",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:emigrate:verb",
@@ -337,7 +449,7 @@
     ],
     "domain": "general, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈem.ɪ.ɡreɪt/",
     "emoji": "🛫",
     "synonyms": [
@@ -351,7 +463,17 @@
     "transcription_variants": {
       "us": "/ˈem.ə.ɡreɪt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "emigration",
+        "form": "noun"
+      },
+      {
+        "term": "emigrant",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:refugee:noun",
@@ -367,7 +489,7 @@
     ],
     "domain": "general, spoken, travel, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "refugees",
     "tags": [
       "spoken"
@@ -384,7 +506,13 @@
       "exile"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "refuge",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:asylum:noun",
@@ -560,7 +688,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "society",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "charities",
     "tags": [
       "spoken"
@@ -581,6 +709,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "charitable",
+        "form": "adjective"
+      },
+      {
+        "term": "charitably",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -597,7 +735,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -615,7 +753,17 @@
     "transcription_variants": {
       "us": "/ˈdəʊ.neɪt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "donation",
+        "form": "noun"
+      },
+      {
+        "term": "donor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:volunteer:verb",
@@ -631,7 +779,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -648,7 +796,13 @@
     "transcription_variants": {
       "us": "/ˌvɑː.lənˈtɪr/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "volunteer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:petition:verb",
@@ -664,7 +818,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "society",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -676,7 +830,17 @@
       "lobby"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "petition",
+        "form": "noun"
+      },
+      {
+        "term": "petitioner",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:human:noun",
@@ -694,7 +858,7 @@
     ],
     "domain": "general, exam",
     "theme": "society",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "humans",
     "transcription": "/ˈhjuː.mən/",
     "emoji": "👤",
@@ -709,6 +873,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "human",
+        "form": "adjective"
+      },
+      {
+        "term": "humanity",
+        "form": "noun"
+      },
+      {
+        "term": "humane",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -820,7 +998,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kənˈsjuː.mə.rɪ.zəm/",
     "emoji": "🛒",
     "countability": "uncountable",
@@ -835,7 +1013,21 @@
     "transcription_variants": {
       "us": "/kənˈsuː.mə.rɪ.zəm/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "consumer",
+        "form": "noun"
+      },
+      {
+        "term": "consume",
+        "form": "verb"
+      },
+      {
+        "term": "consumption",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:materialism:noun",
@@ -855,7 +1047,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/məˈtɪə.ri.ə.lɪ.zəm/",
     "emoji": "💎",
     "countability": "uncountable",
@@ -870,7 +1062,17 @@
     "transcription_variants": {
       "us": "/məˈtɪr.i.ə.lɪ.zəm/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "materialistic",
+        "form": "adjective"
+      },
+      {
+        "term": "materialist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:social-class:noun",
@@ -1060,7 +1262,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "taboos",
     "transcription": "/təˈbuː/",
     "emoji": "🚫",
@@ -1073,7 +1275,13 @@
       "acceptable norm",
       "custom"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "taboo",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:assimilate:verb",
@@ -1092,7 +1300,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈsɪm.ɪ.leɪt/",
     "emoji": "🤝",
     "synonyms": [
@@ -1104,7 +1312,13 @@
       "segregate",
       "isolate"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "assimilation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:division:noun",
@@ -1124,7 +1338,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈvɪʒ.ən/",
     "emoji": "➗",
     "countability": "countable",
@@ -1142,7 +1356,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "divide",
+        "form": "verb"
+      },
+      {
+        "term": "divisible",
+        "form": "adjective"
+      },
+      {
+        "term": "divided",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:immigrate:verb",
@@ -1161,7 +1389,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɪm.ɪ.ɡreɪt/",
     "emoji": "🧳",
     "synonyms": [
@@ -1172,7 +1400,17 @@
     "antonyms": [
       "emigrate"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "immigration",
+        "form": "noun"
+      },
+      {
+        "term": "immigrant",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:integrate:verb",
@@ -1191,7 +1429,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈɪn.tɪ.ɡreɪt/",
     "emoji": "🧩",
     "synonyms": [
@@ -1205,7 +1443,17 @@
       "B1",
       "B2"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "integration",
+        "form": "noun"
+      },
+      {
+        "term": "integrated",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:ritual:noun",
@@ -1224,7 +1472,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈrɪtʃ.u.əl/",
     "emoji": "🕯️",
     "synonyms": [
@@ -1238,7 +1486,17 @@
       "B1",
       "B2"
     ],
-    "sub_theme": "culture"
+    "sub_theme": "culture",
+    "derivatives": [
+      {
+        "term": "ritualistic",
+        "form": "adjective"
+      },
+      {
+        "term": "ritually",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:settle:verb",
@@ -1257,7 +1515,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈset.əl/",
     "emoji": "🏘️",
     "synonyms": [
@@ -1271,7 +1529,17 @@
       "B1",
       "B2"
     ],
-    "sub_theme": "demographics"
+    "sub_theme": "demographics",
+    "derivatives": [
+      {
+        "term": "settlement",
+        "form": "noun"
+      },
+      {
+        "term": "settler",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:curfew:noun",
@@ -1345,7 +1613,7 @@
     ],
     "domain": "general, relocation",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1359,7 +1627,17 @@
     "antonyms": [
       "supportiveness"
     ],
-    "sub_theme": "social_structures"
+    "sub_theme": "social_structures",
+    "derivatives": [
+      {
+        "term": "bully",
+        "form": "verb"
+      },
+      {
+        "term": "bully",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:civic-engagement:noun",
@@ -1438,7 +1716,7 @@
     ],
     "domain": "general, relocation",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1454,7 +1732,17 @@
       "benefit event"
     ],
     "no_antonym": true,
-    "sub_theme": "community"
+    "sub_theme": "community",
+    "derivatives": [
+      {
+        "term": "fundraise",
+        "form": "verb"
+      },
+      {
+        "term": "fundraising",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:nonprofit-organization:noun",
@@ -1535,7 +1823,7 @@
     ],
     "domain": "general, relocation",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1550,7 +1838,17 @@
       "community volunteering"
     ],
     "no_antonym": true,
-    "sub_theme": "community"
+    "sub_theme": "community",
+    "derivatives": [
+      {
+        "term": "volunteer",
+        "form": "verb"
+      },
+      {
+        "term": "volunteer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:homeland:noun",
@@ -2767,7 +3065,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌvɒl.ənˈtɪər/",
     "emoji": "🙋",
     "synonyms": [
@@ -2783,7 +3081,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "volunteer",
+        "form": "verb"
+      },
+      {
+        "term": "volunteering",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:influence:verb",
@@ -2799,7 +3107,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈɪn.flu.əns/",
     "emoji": "🌟",
     "synonyms": [
@@ -2811,7 +3119,17 @@
     "related_forms": [
       "COSYtools:en-verb-prep:influence"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "influence",
+        "form": "noun"
+      },
+      {
+        "term": "influential",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:gentrification:noun",
@@ -2829,7 +3147,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/",
     "emoji": "🏙️",
     "countability": "uncountable",
@@ -2845,6 +3163,12 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "gentrify",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -2863,7 +3187,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "infrastructures",
     "tags": [
       "spoken"
@@ -2884,6 +3208,12 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "infrastructural",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -2900,7 +3230,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/rɪˌdʒen.ərˈeɪ.ʃən/",
     "emoji": "🌱",
     "countability": "uncountable",
@@ -2916,7 +3246,17 @@
     "transcription_variants": {
       "us": "/rɪˌdʒen.əˈreɪ.ʃən/"
     },
-    "sub_theme": "community"
+    "sub_theme": "community",
+    "derivatives": [
+      {
+        "term": "regenerate",
+        "form": "verb"
+      },
+      {
+        "term": "regenerative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:urbanisation:noun",
@@ -2932,7 +3272,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
     "emoji": "🏙️",
     "countability": "uncountable",
@@ -2952,7 +3292,17 @@
     "regional_equivalents": [
       "en:urbanization:noun"
     ],
-    "sub_theme": "community"
+    "sub_theme": "community",
+    "derivatives": [
+      {
+        "term": "urbanise",
+        "form": "verb"
+      },
+      {
+        "term": "urban",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:urbanization:noun",
@@ -2968,7 +3318,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -2991,7 +3341,17 @@
     "regional_equivalents": [
       "en:urbanisation:noun"
     ],
-    "sub_theme": "community"
+    "sub_theme": "community",
+    "derivatives": [
+      {
+        "term": "urbanize",
+        "form": "verb"
+      },
+      {
+        "term": "urban",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:zoning:noun",
@@ -3007,7 +3367,7 @@
     ],
     "domain": "general",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈzəʊ.nɪŋ/",
     "emoji": "🗺️",
     "countability": "uncountable",
@@ -3019,7 +3379,17 @@
     "transcription_variants": {
       "us": "/ˈzoʊ.nɪŋ/"
     },
-    "sub_theme": "community"
+    "sub_theme": "community",
+    "derivatives": [
+      {
+        "term": "zone",
+        "form": "verb"
+      },
+      {
+        "term": "zone",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:achievement-pressure:noun",

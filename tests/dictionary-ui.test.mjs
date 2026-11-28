@@ -91,3 +91,37 @@ test('an entry shows its own antonyms, and placeholders never reach the chips', 
     await close();
   }
 });
+
+test('a polysemous headword shows sense labels and its word family', async () => {
+  const { base, close } = await startStaticServer(ROOT);
+  const browser = await chromium.launch({ headless: true });
+
+  try {
+    const page = await (await browser.newContext()).newPage();
+    await page.goto(base + 'vocabulary/en/', { waitUntil: 'networkidle' });
+    await page.waitForSelector('.cosy-dict-search-input', { timeout: 20000 });
+
+    await page.fill('.cosy-dict-search-input', 'bank');
+    await page.keyboard.press('Enter');
+    await page.waitForSelector('.cosy-dict-sense-label', { timeout: 10000 });
+    const labels = await page.locator('.cosy-dict-sense-label').allInnerTexts();
+    assert.ok(labels.includes('land beside a river'), `the river sense has a label, got: ${labels.join(' | ')}`);
+    assert.ok(labels.includes('financial institution'), `the finance sense has a label, got: ${labels.join(' | ')}`);
+
+    await page.fill('.cosy-dict-search-input', 'season');
+    await page.keyboard.press('Enter');
+    await page.waitForSelector('.cosy-dict-sense-label:has-text("add flavour to food")', { timeout: 10000 });
+    const card = page
+      .locator('.cosy-dict-card')
+      .filter({ has: page.locator('.cosy-dict-sense-label', { hasText: 'add flavour to food' }) })
+      .first();
+    await card.locator('.cosy-dict-expand-btn').click();
+    await page.waitForSelector('.cosy-dict-chip-derivative', { timeout: 10000 });
+    const family = await page.locator('.cosy-dict-chip-derivative').allInnerTexts();
+    assert.ok(family.some((chip) => chip.startsWith('seasoning')), `the verb shows its family, got: ${family.join(' | ')}`);
+  } finally {
+    await browser.close();
+    await close();
+  }
+});
+

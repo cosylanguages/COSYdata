@@ -13,7 +13,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -32,7 +32,17 @@
       "maladaptation",
       "rigidity"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "adapt",
+        "form": "verb"
+      },
+      {
+        "term": "adaptational",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:point:noun",
@@ -49,7 +59,7 @@
     ],
     "domain": "general, spoken",
     "theme": "environment",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -61,7 +71,19 @@
       "crossroads"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "pointed",
+        "form": "adjective"
+      },
+      {
+        "term": "pointless",
+        "form": "adjective"
+      }
+    ],
+    "sense": "critical-moment",
+    "sense_label": "critical moment"
   },
   {
     "id": "en:green:noun",
@@ -208,7 +230,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "💡",
     "countability": "countable",
     "synonyms": [
@@ -222,7 +244,13 @@
       "A2",
       "B2"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "fossilize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:neutral:noun",
@@ -239,7 +267,7 @@
     ],
     "domain": "general",
     "theme": "environment",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "💡",
     "countability": "countable",
     "synonyms": [
@@ -247,7 +275,13 @@
       "carbon neutrality"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "neutralize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:net:noun",
@@ -347,7 +381,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "environment",
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "transcription": "/ˌmɪt.ɪˈɡeɪ.ʃən/",
     "emoji": "💡",
     "countability": "uncountable",
@@ -363,7 +397,13 @@
     "transcription_variants": {
       "us": "/ˌmɪt.əˈɡeɪ.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "mitigate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:dependency:noun",
@@ -379,7 +419,7 @@
     ],
     "domain": "general, exam",
     "theme": "environment",
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈpen.dən.si/",
     "emoji": "💡",
     "countability": "countable",
@@ -391,7 +431,17 @@
       "independence",
       "self-sufficiency"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "depend",
+        "form": "verb"
+      },
+      {
+        "term": "dependent",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:trading:noun",
@@ -457,7 +507,7 @@
     ],
     "domain": "general, professional",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B2"
     ],
@@ -472,7 +522,17 @@
     "transcription_variants": {
       "us": "/ˌiː.kəˈlɑː.dʒɪ.kəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "ecologically",
+        "form": "adverb"
+      },
+      {
+        "term": "ecology",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:unsustainable:adjective",
@@ -516,7 +576,7 @@
     ],
     "domain": "general, professional",
     "theme": "environment",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈpliː.ʃən/",
     "emoji": "📉",
     "countability": "uncountable",
@@ -529,35 +589,13 @@
       "replenishment",
       "restoration"
     ],
-    "sub_theme": "general"
-  },
-  {
-    "id": "en:efforts:noun",
-    "word": "efforts",
-    "language": "en",
-    "form": "noun",
-    "level": "B2",
-    "transcription": "",
-    "definitions": [
-      "organized actions or initiatives aimed at preserving, protecting, or restoring natural ecosystems"
-    ],
-    "examples": [
-      "Community conservation efforts succeeded in restoring endangered wetland habitats along the coastal reservation."
-    ],
-    "domain": "general",
-    "theme": "environment",
-    "updated": "2026-11-26",
-    "plural_form": "efforts",
-    "countability": "countable",
-    "emoji": "💡",
-    "synonyms": [
-      "environmental protection",
-      "nature preservation"
-    ],
-    "antonyms": [
-      "nature destruction"
-    ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "deplete",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:regulatory:adjective",
@@ -575,7 +613,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "environment",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "💡",
     "synonyms": [
       "statutory",
@@ -590,7 +628,13 @@
       "B2",
       "C1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "regulate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:resilience:noun",
@@ -607,7 +651,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "environment",
-    "updated": "2025-10-05",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -628,7 +672,13 @@
       "vulnerability",
       "fragility"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "resilient",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:tipping:noun",
@@ -1375,7 +1425,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈfrædʒ.aɪl/",
     "emoji": "🌿",
     "synonyms": [
@@ -1389,6 +1439,12 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "fragility",
+        "form": "noun"
+      }
     ]
   },
   {

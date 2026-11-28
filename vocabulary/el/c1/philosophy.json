@@ -15,7 +15,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "epistemology",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/e.pi.sti.mo.lo.ʝi.a/",
     "no_emoji": true,
     "gender": "feminine",
@@ -25,7 +25,17 @@
       "γνωσιοθεωρία",
       "γνωσιολογία"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "επιστημολογικός",
+        "form": "adjective"
+      },
+      {
+        "term": "επιστημολόγος",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "el:epistimologikos:adjective",
@@ -43,13 +53,23 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "epistemology",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/e.pi.sti.mo.lo.ʝi.kos/",
     "no_emoji": true,
     "synonyms": [
       "γνωσιοθεωρητικός"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "επιστημολογία",
+        "form": "noun"
+      },
+      {
+        "term": "επιστημολογικά",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "el:ontologia:noun",
@@ -67,7 +87,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ontology",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/on.to.lo.ʝi.a/",
     "emoji": "🌌",
     "gender": "feminine",
@@ -80,6 +100,16 @@
     "levels": [
       "C1",
       "C2"
+    ],
+    "derivatives": [
+      {
+        "term": "οντολογικός",
+        "form": "adjective"
+      },
+      {
+        "term": "οντολόγος",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -98,7 +128,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ethics_morality",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ðe.on.to.lo.ʝi.a/",
     "no_emoji": true,
     "gender": "feminine",
@@ -109,6 +139,16 @@
     ],
     "antonyms": [
       "ωφελιμισμός"
+    ],
+    "derivatives": [
+      {
+        "term": "δεοντολογικός",
+        "form": "adjective"
+      },
+      {
+        "term": "δεοντολόγος",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -127,7 +167,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ethics_morality",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ðe.on.to.lo.ʝi.kos/",
     "no_emoji": true,
     "synonyms": [
@@ -139,6 +179,16 @@
     "levels": [
       "B2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "δεοντολογία",
+        "form": "noun"
+      },
+      {
+        "term": "δεοντολογικά",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -157,7 +207,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "existentialism",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/i.par.ksi.smos/",
     "emoji": "🤔",
     "gender": "masculine",
@@ -166,7 +216,17 @@
     "synonyms": [
       "υπαρξιακή φιλοσοφία"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "υπαρξιστής",
+        "form": "noun"
+      },
+      {
+        "term": "υπαρξιακός",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "el:empeirismos:noun",
@@ -184,7 +244,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "epistemology",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/em.pi.ri.smos/",
     "emoji": "👁️",
     "gender": "masculine",
@@ -196,6 +256,20 @@
     "antonyms": [
       "ορθολογισμός",
       "δογματισμός"
+    ],
+    "derivatives": [
+      {
+        "term": "εμπειρικός",
+        "form": "adjective"
+      },
+      {
+        "term": "εμπειριστής",
+        "form": "noun"
+      },
+      {
+        "term": "εμπειρικά",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -214,7 +288,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "ethics_morality",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/o.fe.li.mi.smos/",
     "emoji": "⚖️",
     "gender": "masculine",
@@ -224,7 +298,17 @@
       "αποτελεσματοκρατία",
       "πραγματισμός"
     ],
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "ωφελιμιστικός",
+        "form": "adjective"
+      },
+      {
+        "term": "ωφελιμιστής",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "el:logiki-plani:noun",
@@ -274,7 +358,7 @@
     "domain": "general, exam",
     "theme": "philosophy",
     "sub_theme": "logic",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ði.a.lek.ti.ki/",
     "emoji": "🗣️",
     "gender": "feminine",
@@ -289,6 +373,16 @@
     "levels": [
       "C1",
       "C2"
+    ],
+    "derivatives": [
+      {
+        "term": "διαλεκτικός",
+        "form": "adjective"
+      },
+      {
+        "term": "διαλεκτικά",
+        "form": "adverb"
+      }
     ]
   }
 ]

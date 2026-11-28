@@ -43,7 +43,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -59,7 +59,17 @@
     "transcription_variants": {
       "us": "/ˌɑːr.bəˈtreɪ.ʃən/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "arbitrate",
+        "form": "verb"
+      },
+      {
+        "term": "arbitrational",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:culpability:noun",
@@ -75,7 +85,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "law",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˌkʌl.pəˈbɪl.ə.ti/",
     "no_emoji": true,
     "countability": "uncountable",
@@ -91,7 +101,13 @@
     "transcription_variants": {
       "us": "/ˌkʌl.pəˈbɪl.ə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "culpable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:indictment:noun",
@@ -108,7 +124,7 @@
     ],
     "domain": "general, spoken",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -124,7 +140,13 @@
       "exoneration",
       "acquittal"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "indict",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:jurisprudence:noun",
@@ -141,7 +163,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "law",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -161,6 +183,16 @@
     "levels": [
       "C1",
       "C2"
+    ],
+    "derivatives": [
+      {
+        "term": "jurisprudential",
+        "form": "adjective"
+      },
+      {
+        "term": "jurist",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -178,7 +210,7 @@
     ],
     "domain": "general",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/lɪˈtɪdʒ.əs/",
     "emoji": "⚖️",
     "synonyms": [
@@ -193,7 +225,17 @@
     "transcription_variants": {
       "us": "/ləˈtɪdʒ.əs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "litigation",
+        "form": "noun"
+      },
+      {
+        "term": "litigiousness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:malfeasance:noun",
@@ -270,7 +312,7 @@
     ],
     "domain": "general",
     "theme": "law",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "countability": "pluralia_tantum",
     "transcription": "/ˈsɜː.kəm.stæn.sɪz/",
     "emoji": "📋",
@@ -284,7 +326,13 @@
     "transcription_variants": {
       "us": "/ˈsɝː.kəm.stæn.sɪz/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "circumstantial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:restorative:noun",
@@ -456,14 +504,20 @@
       "invalidate",
       "repeal"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "⚖️",
     "antonyms": [
       "validate",
       "enforce",
       "ratify"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "annulment",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:breach:noun",
@@ -515,11 +569,17 @@
       "section",
       "stipulation"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "📜",
     "no_antonym": true,
     "countability": "countable",
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "clausal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:de-jure:adjective",
@@ -595,10 +655,20 @@
       "permeate",
       "subvert"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🕵️",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "infiltration",
+        "form": "noun"
+      },
+      {
+        "term": "infiltrator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:infringe:verb",
@@ -620,14 +690,20 @@
       "transgress",
       "encroach"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🚫",
     "antonyms": [
       "comply",
       "respect",
       "uphold"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "infringement",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:invalidate:verb",
@@ -649,14 +725,24 @@
       "annul",
       "void"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "emoji": "❌",
     "antonyms": [
       "validate",
       "ratify",
       "confirm"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "invalidation",
+        "form": "noun"
+      },
+      {
+        "term": "invalidator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:modus-operandi:noun",
@@ -705,14 +791,24 @@
       "annul",
       "void"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "emoji": "❌",
     "antonyms": [
       "validate",
       "ratify",
       "enforce"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "nullification",
+        "form": "noun"
+      },
+      {
+        "term": "nullifier",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:provision:noun",
@@ -734,11 +830,21 @@
       "clause",
       "requirement"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "📜",
     "no_antonym": true,
     "countability": "countable",
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "provide",
+        "form": "verb"
+      },
+      {
+        "term": "provisionary",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:revoke:verb",
@@ -789,7 +895,7 @@
       "incitement",
       "insurrection"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "📢",
     "antonyms": [
       "loyalty",
@@ -797,7 +903,13 @@
       "patriotism"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "seditious",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:sentencing:noun",
@@ -844,14 +956,24 @@
       "infringe",
       "contravene"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🚷",
     "antonyms": [
       "obey",
       "comply",
       "observe"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "transgression",
+        "form": "noun"
+      },
+      {
+        "term": "transgressor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:treason:noun",
@@ -873,7 +995,7 @@
       "sedition",
       "disloyalty"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "⚖️",
     "antonyms": [
       "loyalty",
@@ -881,7 +1003,17 @@
       "allegiance"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "treasonist",
+        "form": "noun"
+      },
+      {
+        "term": "treasonous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:trespass:verb",
@@ -903,13 +1035,19 @@
       "encroach",
       "infringe"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🚫",
     "antonyms": [
       "withdraw",
       "vacate"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "trespasser",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:violate:verb",
@@ -931,14 +1069,32 @@
       "transgress",
       "breach"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "🚫",
     "antonyms": [
       "comply",
       "obey",
       "respect"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "violable",
+        "form": "adjective"
+      },
+      {
+        "term": "violation",
+        "form": "noun"
+      },
+      {
+        "term": "violative",
+        "form": "adjective"
+      },
+      {
+        "term": "violator",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:ombudsman:noun",
@@ -980,7 +1136,7 @@
     "level": "C1",
     "domain": "general, travel, exam",
     "theme": "crime",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "definitions": [
       "Obtaining something, especially money, through force, threats, or intimidation."
     ],
@@ -1000,6 +1156,16 @@
       "crime",
       "travel"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "extort",
+        "form": "verb"
+      },
+      {
+        "term": "extortionist",
+        "form": "noun"
+      }
+    ]
   }
 ]

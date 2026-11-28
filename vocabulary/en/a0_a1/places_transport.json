@@ -82,7 +82,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -102,7 +102,9 @@
     ],
     "levels": [
       "A1"
-    ]
+    ],
+    "sense": "mail",
+    "sense_label": "mail system"
   },
   {
     "id": "en:train:noun",
@@ -298,6 +300,8 @@
     "language": "en",
     "form": "noun",
     "level": "A0",
+    "sense": "direction",
+    "sense_label": "right side or direction",
     "definitions": [
       "the right side or direction"
     ],
@@ -306,7 +310,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -1014,7 +1018,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "planes",
     "tags": [
       "spoken"
@@ -1030,7 +1034,9 @@
     ],
     "levels": [
       "A0"
-    ]
+    ],
+    "sense": "aircraft",
+    "sense_label": "flying vehicle"
   },
   {
     "id": "en:airplane:noun",
@@ -1203,7 +1209,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "ships",
     "tags": [
       "spoken"
@@ -1216,7 +1222,9 @@
       "A0"
     ],
     "article": "a",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "sense": "boat",
+    "sense_label": "large boat"
   },
   {
     "id": "en:ticket:noun",
@@ -1688,34 +1696,6 @@
     ]
   },
   {
-    "id": "en:blocks:noun",
-    "word": "blocks",
-    "language": "en",
-    "form": "noun",
-    "level": "A1",
-    "definitions": [
-      "buildings or city street units bounded by streets"
-    ],
-    "examples": [
-      "Walk two blocks down this street to find the station."
-    ],
-    "domain": "general",
-    "theme": "travel",
-    "updated": "2025-05-20",
-    "transcription": "/blɒks/",
-    "transcription_variants": {
-      "us": "/blɑːks/"
-    },
-    "emoji": "🏙️",
-    "no_antonym": true,
-    "countability": "countable",
-    "plural_form": "blocks",
-    "sub_theme": "places_destinations",
-    "levels": [
-      "A1"
-    ]
-  },
-  {
     "id": "en:tram:noun",
     "word": "tram",
     "language": "en",
@@ -1763,7 +1743,7 @@
     ],
     "domain": "general",
     "theme": "travel",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/weɪ/",
     "transcription_variants": {
       "us": "/weɪ/"
@@ -1777,7 +1757,9 @@
     "levels": [
       "A1",
       "A2"
-    ]
+    ],
+    "sense": "route",
+    "sense_label": "path or route"
   },
   {
     "id": "en:cab:noun",

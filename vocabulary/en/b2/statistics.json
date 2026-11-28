@@ -47,7 +47,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -63,7 +63,13 @@
       "infer"
     ],
     "no_antonym": true,
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "extrapolation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:significant:adjective",
@@ -81,7 +87,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -98,7 +104,21 @@
       "insignificant",
       "negligible"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "significance",
+        "form": "noun"
+      },
+      {
+        "term": "significantly",
+        "form": "adverb"
+      },
+      {
+        "term": "signify",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:qualitative:adjective",
@@ -115,7 +135,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -131,7 +151,13 @@
     "antonyms": [
       "quantitative"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "qualitatively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:projection:noun",
@@ -148,7 +174,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -164,7 +190,13 @@
       "estimate"
     ],
     "no_antonym": true,
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "project",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:anomaly:noun",
@@ -181,7 +213,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -197,7 +229,17 @@
       "norm",
       "regularity"
     ],
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "anomalist",
+        "form": "noun"
+      },
+      {
+        "term": "anomalous",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:quantitative:adjective",
@@ -214,7 +256,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -226,7 +268,13 @@
     "antonyms": [
       "qualitative"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "quantitatively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:volatility:noun",
@@ -243,7 +291,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "B2",
       "C1"
@@ -259,7 +307,13 @@
       "stability",
       "steadiness"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "volatile",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:steady:noun",
@@ -306,7 +360,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "no_emoji": true,
     "synonyms": [
       "rapid",
@@ -317,7 +371,17 @@
       "linear",
       "sluggish"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "exponent",
+        "form": "noun"
+      },
+      {
+        "term": "exponentially",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:marginal:adjective",
@@ -335,7 +399,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -353,7 +417,25 @@
       "substantial",
       "significant"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "margin",
+        "form": "noun"
+      },
+      {
+        "term": "marginality",
+        "form": "noun"
+      },
+      {
+        "term": "marginalize",
+        "form": "verb"
+      },
+      {
+        "term": "marginally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:statistically:noun",
@@ -452,7 +534,7 @@
     ],
     "domain": "general, professional",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "no_emoji": true,
     "countability": "countable",
     "synonyms": [
@@ -460,7 +542,13 @@
       "confidence interval"
     ],
     "no_antonym": true,
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "marginal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:error:noun",
@@ -479,7 +567,7 @@
     ],
     "domain": "general, professional",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "no_emoji": true,
     "countability": "countable",
     "synonyms": [
@@ -491,6 +579,12 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "errorless",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -535,7 +629,7 @@
     ],
     "domain": "general",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "no_emoji": true,
     "synonyms": [
       "diachronic",
@@ -544,7 +638,17 @@
     "antonyms": [
       "cross-sectional"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "longitude",
+        "form": "noun"
+      },
+      {
+        "term": "longitudinally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:cross-sectional:adjective",
@@ -624,7 +728,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈdiː.vi.eɪt/",
     "emoji": "📊",
     "synonyms": [
@@ -634,7 +738,25 @@
     "antonyms": [
       "conform"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "deviant",
+        "form": "adjective"
+      },
+      {
+        "term": "deviant",
+        "form": "noun"
+      },
+      {
+        "term": "deviateer",
+        "form": "adjective"
+      },
+      {
+        "term": "deviation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:numerous:adjective",
@@ -654,7 +776,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈnjuː.mə.rəs/",
     "emoji": "🔢",
     "synonyms": [
@@ -668,6 +790,16 @@
     "levels": [
       "A2",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "numerosity",
+        "form": "noun"
+      },
+      {
+        "term": "numerousness",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -687,7 +819,7 @@
     "tags": [
       "upper-intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌəʊ.vərˈes.tɪ.meɪt/",
     "emoji": "📈",
     "synonyms": [
@@ -697,7 +829,13 @@
     "antonyms": [
       "underestimate"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "overestimation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:sample:verb",
@@ -726,7 +864,13 @@
     "domain": "general",
     "theme": "measurement",
     "concept": "measurement.units_scales.sample",
-    "updated": "2025-05-20",
-    "sub_theme": "units_scales"
+    "updated": "2026-11-28",
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "sampler",
+        "form": "noun"
+      }
+    ]
   }
 ]

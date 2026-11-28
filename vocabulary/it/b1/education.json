@@ -18,14 +18,28 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈlau.re.a/",
     "emoji": "🎓",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "lauree"
+    "plural_form": "lauree",
+    "derivatives": [
+      {
+        "term": "laurearsi",
+        "form": "verb"
+      },
+      {
+        "term": "laureato",
+        "form": "noun"
+      },
+      {
+        "term": "laureato",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:esame:noun",
@@ -46,7 +60,7 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/eˈzaː.me/",
     "emoji": "📝",
     "no_antonym": true,
@@ -57,6 +71,16 @@
     "levels": [
       "A1",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "esaminare",
+        "form": "verb"
+      },
+      {
+        "term": "esaminatore",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -78,14 +102,24 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈvoː.to/",
     "emoji": "💯",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "voti"
+    "plural_form": "voti",
+    "derivatives": [
+      {
+        "term": "votare",
+        "form": "verb"
+      },
+      {
+        "term": "votante",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:borsa-di-studio:noun",
@@ -134,14 +168,24 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/maˈtɛː.rja/",
     "emoji": "📚",
     "no_antonym": true,
     "article": "la",
     "gender": "feminine",
     "countability": "countable",
-    "plural_form": "materie"
+    "plural_form": "materie",
+    "derivatives": [
+      {
+        "term": "materiale",
+        "form": "adjective"
+      },
+      {
+        "term": "materiale",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:compiti:noun",
@@ -225,14 +269,24 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/diˈplɔː.ma/",
     "emoji": "📜",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "diplomi"
+    "plural_form": "diplomi",
+    "derivatives": [
+      {
+        "term": "diplomarsi",
+        "form": "verb"
+      },
+      {
+        "term": "diplomato",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:laurearsi:verb",
@@ -252,10 +306,20 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/lau.reˈar.si/",
     "emoji": "🎓",
-    "no_antonym": true
+    "no_antonym": true,
+    "derivatives": [
+      {
+        "term": "laurea",
+        "form": "noun"
+      },
+      {
+        "term": "laureato",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:asilo:noun",
@@ -303,14 +367,28 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/proˈɡram.ma/",
     "emoji": "📋",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "programmi"
+    "plural_form": "programmi",
+    "derivatives": [
+      {
+        "term": "programmare",
+        "form": "verb"
+      },
+      {
+        "term": "programmazione",
+        "form": "noun"
+      },
+      {
+        "term": "programmatore",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:saggio:noun",
@@ -331,14 +409,20 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈsad.dʒo/",
     "emoji": "📄",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "saggi"
+    "plural_form": "saggi",
+    "derivatives": [
+      {
+        "term": "saggista",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "it:conoscenza-sapere:noun",
@@ -359,7 +443,7 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "transcription": "/ko.noˈʃen.tsa/",
     "emoji": "🧠",
     "antonyms": [
@@ -369,7 +453,21 @@
     "gender": "feminine",
     "countability": "countable",
     "plural_form": "conoscenze",
-    "sense": "knowledge"
+    "sense": "knowledge",
+    "derivatives": [
+      {
+        "term": "conoscere",
+        "form": "verb"
+      },
+      {
+        "term": "conosciuto",
+        "form": "adjective"
+      },
+      {
+        "term": "conoscitivo",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "it:abilita:noun",
@@ -390,13 +488,27 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/a.bi.liˈta/",
     "emoji": "💪",
     "no_antonym": true,
     "article": "l'",
     "gender": "feminine",
-    "countability": "invariable"
+    "countability": "invariable",
+    "derivatives": [
+      {
+        "term": "abile",
+        "form": "adjective"
+      },
+      {
+        "term": "abilmente",
+        "form": "adverb"
+      },
+      {
+        "term": "abilitare",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "it:lezione-scolastica:noun",
@@ -493,14 +605,24 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/ˈprɛː.zi.de/",
     "emoji": "👨‍💼",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "presidi"
+    "plural_form": "presidi",
+    "derivatives": [
+      {
+        "term": "presidenza",
+        "form": "noun"
+      },
+      {
+        "term": "presiedere",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "it:semestre:noun",
@@ -520,13 +642,19 @@
     "domain": "general, spoken",
     "theme": "education",
     "sub_theme": "general",
-    "updated": "2026-11-21",
+    "updated": "2026-11-28",
     "transcription": "/seˈmes.tre/",
     "emoji": "📅",
     "no_antonym": true,
     "article": "il",
     "gender": "masculine",
     "countability": "countable",
-    "plural_form": "semestri"
+    "plural_form": "semestri",
+    "derivatives": [
+      {
+        "term": "semestrale",
+        "form": "adjective"
+      }
+    ]
   }
 ]

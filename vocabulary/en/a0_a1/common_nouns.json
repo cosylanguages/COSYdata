@@ -34,7 +34,7 @@
     "language": "en",
     "form": "verb",
     "level": "A0",
-    "transcription": "",
+    "transcription": "/ɛnd/",
     "definitions": [
       "to finish doing something or reach the end"
     ],
@@ -43,7 +43,7 @@
     ],
     "domain": "general",
     "theme": "general",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "A0"
     ],
@@ -59,7 +59,9 @@
     "sub_theme": "miscellaneous",
     "related_forms": [
       "to end"
-    ]
+    ],
+    "sense": "finish",
+    "sense_label": "finish or come to an end"
   },
   {
     "id": "en:news:noun",
@@ -171,7 +173,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "lights",
     "tags": [
       "spoken"
@@ -198,7 +200,9 @@
       "en:turn-on:verb",
       "en:turn-off:verb",
       "en:unplug:verb"
-    ]
+    ],
+    "sense": "illumination",
+    "sense_label": "brightness from the sun or a lamp"
   },
   {
     "id": "en:dark:noun",
@@ -406,7 +410,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "general",
-    "updated": "2026-10-15",
+    "updated": "2026-11-28",
     "plural_form": "plans",
     "tags": [
       "spoken"
@@ -419,7 +423,9 @@
     "sub_theme": "miscellaneous",
     "levels": [
       "A1"
-    ]
+    ],
+    "sense": "intention",
+    "sense_label": "idea for the future"
   },
   {
     "id": "en:problem:noun",
@@ -954,7 +960,7 @@
     ],
     "domain": "general, spoken",
     "theme": "general",
-    "updated": "2026-10-15",
+    "updated": "2026-11-28",
     "plural_form": "parts",
     "tags": [
       "spoken"
@@ -972,7 +978,9 @@
     "sub_theme": "miscellaneous",
     "levels": [
       "A0"
-    ]
+    ],
+    "sense": "piece",
+    "sense_label": "piece of a whole"
   },
   {
     "id": "en:beginning:noun",
@@ -1464,14 +1472,15 @@
     "form": "noun",
     "level": "A1",
     "definitions": [
-      "a gift or current time"
+      "A present is something you give to someone as a gift."
     ],
     "examples": [
-      "She received a birthday present."
+      "She received a birthday present.",
+      "He bought a present for his mother."
     ],
     "domain": "general, spoken",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "presents",
     "tags": [
       "spoken"
@@ -1481,13 +1490,12 @@
     ],
     "transcription": "/ˈprez.ənt/",
     "emoji": "🎁",
-    "antonyms": [
-      "past",
-      "future"
-    ],
     "countability": "countable",
     "article": "a",
-    "sub_theme": "common_things"
+    "sub_theme": "common_things",
+    "sense": "gift",
+    "sense_label": "gift",
+    "no_antonym": true
   },
   {
     "id": "en:dream:noun",
@@ -1788,7 +1796,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "stories",
     "transcription": "/ˈstɔː.ri/",
     "no_antonym": true,
@@ -1801,7 +1809,9 @@
     "sub_theme": "miscellaneous",
     "levels": [
       "A0"
-    ]
+    ],
+    "sense": "tale",
+    "sense_label": "story or tale"
   },
   {
     "id": "en:place:noun",
@@ -1822,7 +1832,7 @@
       "spoken",
       "beginner"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "places",
     "transcription": "/pleɪs/",
     "no_antonym": true,
@@ -1832,7 +1842,9 @@
     "sub_theme": "miscellaneous",
     "levels": [
       "A1"
-    ]
+    ],
+    "sense": "location",
+    "sense_label": "location or area"
   },
   {
     "id": "en:thing:noun",
@@ -2209,7 +2221,7 @@
     "theme": "work",
     "sub_theme": "office_business",
     "concept": "work.office_business.work",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A1",
       "B2"
@@ -2219,7 +2231,9 @@
     ],
     "transcription_variants": {
       "us": "/wɜːrk/"
-    }
+    },
+    "sense": "job",
+    "sense_label": "job or activity"
   },
   {
     "id": "en:help:noun",
@@ -2470,13 +2484,15 @@
     "theme": "actions",
     "sub_theme": "physical_movement",
     "concept": "actions.physical_movement.look",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A0"
     ],
     "related_forms": [
       "to look"
-    ]
+    ],
+    "sense": "glance",
+    "sense_label": "act of looking"
   },
   {
     "id": "en:sound:noun",
@@ -2557,7 +2573,7 @@
     "theme": "time",
     "sub_theme": "time_periods",
     "concept": "time.time_periods.start",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A0"
     ],
@@ -2566,7 +2582,9 @@
     ],
     "transcription_variants": {
       "us": "/stɑːrt/"
-    }
+    },
+    "sense": "beginning",
+    "sense_label": "beginning"
   },
   {
     "id": "en:end:noun",
@@ -2574,7 +2592,7 @@
     "language": "en",
     "form": "noun",
     "level": "A0",
-    "transcription": "",
+    "transcription": "/ɛnd/",
     "article": "an",
     "countability": "countable",
     "plural_form": "ends",
@@ -2590,9 +2608,11 @@
     "theme": "time",
     "sub_theme": "time_periods",
     "concept": "time.time_periods.end",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "levels": [
       "A0"
-    ]
+    ],
+    "sense": "final-part",
+    "sense_label": "final part"
   }
 ]

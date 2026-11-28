@@ -13,7 +13,7 @@
     ],
     "domain": "general, spoken",
     "theme": "actions",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -26,7 +26,9 @@
     },
     "no_antonym": true,
     "emoji": "⭕",
-    "sub_theme": "physical_actions"
+    "sub_theme": "physical_actions",
+    "sense": "make",
+    "sense_label": "make or create"
   },
   {
     "id": "en:bind:verb",
@@ -88,5 +90,126 @@
       "endure",
       "live on"
     ]
+  },
+  {
+    "id": "en:press-push:verb",
+    "word": "press",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "push",
+    "sense_label": "push firmly",
+    "definitions": [
+      "To press something means to push it firmly."
+    ],
+    "examples": [
+      "Press the button to start the machine.",
+      "She pressed her hand against the door."
+    ],
+    "domain": "general, spoken",
+    "theme": "general",
+    "sub_theme": "miscellaneous",
+    "transcription": "/pres/",
+    "emoji": "👆",
+    "synonyms": [
+      "push",
+      "squeeze"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:work-function:verb",
+    "word": "work",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "function",
+    "sense_label": "operate correctly",
+    "definitions": [
+      "If a machine works, it operates correctly."
+    ],
+    "examples": [
+      "Does this printer work?",
+      "The lift works again after the repair."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "transcription": "/wɜːk/",
+    "emoji": "⚙️",
+    "synonyms": [
+      "function",
+      "operate"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:keep-continue:verb",
+    "word": "keep",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "continue",
+    "sense_label": "continue doing something",
+    "definitions": [
+      "To keep doing something means to continue doing it."
+    ],
+    "examples": [
+      "Keep trying until you succeed.",
+      "She kept walking despite the rain."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "general",
+    "transcription": "/kiːp/",
+    "emoji": "🔁",
+    "synonyms": [
+      "continue",
+      "carry on"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
+  },
+  {
+    "id": "en:set-place:verb",
+    "word": "set",
+    "language": "en",
+    "form": "verb",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "place",
+    "sense_label": "put in a place",
+    "definitions": [
+      "To set something somewhere means to put it in a particular place."
+    ],
+    "examples": [
+      "She set the plates on the table.",
+      "Set the box by the door."
+    ],
+    "domain": "general, spoken",
+    "theme": "actions",
+    "sub_theme": "physical_actions",
+    "transcription": "/set/",
+    "emoji": "🍽️",
+    "synonyms": [
+      "put",
+      "place",
+      "lay"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
   }
 ]

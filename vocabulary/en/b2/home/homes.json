@@ -150,31 +150,33 @@
     "word": "land",
     "language": "en",
     "form": "noun",
-    "level": "B2",
-    "transcription": "",
+    "level": "A2",
+    "transcription": "/lænd/",
     "definitions": [
-      "The strategic purchase of real estate for urban development."
+      "Land is the solid ground that is not covered by water."
     ],
     "examples": [
-      "Land banking allowed the city council to preserve greenspaces before commercial developers purchased property.",
       "The ship approached land after two weeks at sea.",
-      "Farmers cultivate fertile agricultural land."
+      "Farmers cultivate fertile land."
     ],
-    "domain": "general, exam",
-    "theme": "housing",
-    "updated": "2026-11-26",
-    "emoji": "🏙️",
-    "countability": "countable",
+    "domain": "general, spoken, travel",
+    "theme": "nature",
+    "updated": "2026-11-28",
+    "emoji": "🌍",
+    "countability": "uncountable",
     "synonyms": [
-      "commercial development",
-      "real estate project"
+      "ground",
+      "earth",
+      "terrain"
     ],
     "no_antonym": true,
-    "sub_theme": "building_types",
+    "sub_theme": "general",
     "levels": [
       "A2",
       "B2"
-    ]
+    ],
+    "sense": "ground",
+    "sense_label": "solid ground"
   },
   {
     "id": "en:minimum-connection-time:noun",
@@ -390,5 +392,37 @@
     "definitions": [
       "A traditional Moroccan house or palace with an interior garden or central courtyard."
     ]
+  },
+  {
+    "id": "en:land-property:noun",
+    "word": "land",
+    "language": "en",
+    "form": "noun",
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "sense": "property",
+    "sense_label": "property or real estate",
+    "definitions": [
+      "Land is property, especially real estate bought for development."
+    ],
+    "examples": [
+      "The company bought land for a new housing development.",
+      "Land prices have risen sharply."
+    ],
+    "domain": "general, professional, exam",
+    "theme": "housing",
+    "sub_theme": "building_types",
+    "transcription": "/lænd/",
+    "emoji": "🏗️",
+    "synonyms": [
+      "property",
+      "real estate",
+      "plot"
+    ],
+    "no_antonym": true,
+    "countability": "uncountable",
+    "updated": "2026-11-28"
   }
 ]

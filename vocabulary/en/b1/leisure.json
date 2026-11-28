@@ -13,7 +13,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "draws",
     "tags": [
       "spoken"
@@ -37,7 +37,13 @@
     "transcription_variants": {
       "us": "/drɑː/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "draw",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:fan:noun",
@@ -55,7 +61,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "fans",
     "tags": [
       "spoken"
@@ -76,6 +82,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "fandom",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -92,7 +104,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "athletes",
     "tags": [
       "spoken"
@@ -106,7 +118,17 @@
       "competitor"
     ],
     "no_antonym": true,
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "athletic",
+        "form": "adjective"
+      },
+      {
+        "term": "athletics",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:opponent:noun",
@@ -122,7 +144,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "opponents",
     "tags": [
       "spoken"
@@ -142,7 +164,21 @@
     "transcription_variants": {
       "us": "/əˈpoʊ.nənt/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "oppose",
+        "form": "verb"
+      },
+      {
+        "term": "opposition",
+        "form": "noun"
+      },
+      {
+        "term": "opposing",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:qualify:verb",
@@ -159,7 +195,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈkwɒl.ɪ.faɪ/",
     "emoji": "✅",
     "synonyms": [
@@ -178,6 +214,16 @@
     "levels": [
       "B1",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "qualification",
+        "form": "noun"
+      },
+      {
+        "term": "qualified",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -195,7 +241,7 @@
     ],
     "domain": "general",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kəmˈpiːt/",
     "emoji": "🏃",
     "synonyms": [
@@ -211,6 +257,24 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "competition",
+        "form": "noun"
+      },
+      {
+        "term": "competitor",
+        "form": "noun"
+      },
+      {
+        "term": "competitive",
+        "form": "adjective"
+      },
+      {
+        "term": "competitively",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -227,7 +291,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -239,7 +303,19 @@
       "workout"
     ],
     "no_antonym": true,
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "trainer",
+        "form": "noun"
+      },
+      {
+        "term": "training",
+        "form": "noun"
+      }
+    ],
+    "sense": "sport-prep",
+    "sense_label": "prepare for a sport"
   },
   {
     "id": "en:record:noun",
@@ -255,7 +331,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "records",
     "transcription": "/ˈrek.ɔːd/",
     "emoji": "🏆",
@@ -268,7 +344,17 @@
     "transcription_variants": {
       "us": "/ˈrek.ɚd/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "record",
+        "form": "verb"
+      },
+      {
+        "term": "recording",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:medal:noun",
@@ -284,7 +370,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "medals",
     "tags": [
       "spoken"
@@ -298,7 +384,17 @@
       "trophy"
     ],
     "no_antonym": true,
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "medalist",
+        "form": "noun"
+      },
+      {
+        "term": "medal",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:victory:noun",
@@ -314,7 +410,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "victories",
     "tags": [
       "spoken"
@@ -334,7 +430,17 @@
     "transcription_variants": {
       "us": "/ˈvɪk.tɚ.i/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "victorious",
+        "form": "adjective"
+      },
+      {
+        "term": "victoriously",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:defeat:verb",
@@ -350,7 +456,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -365,7 +471,13 @@
       "lose to",
       "surrender to"
     ],
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "defeat",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:spectator:noun",
@@ -381,7 +493,7 @@
     ],
     "domain": "general, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "spectators",
     "transcription": "/spekˈteɪ.tə/",
     "emoji": "👀",
@@ -398,7 +510,13 @@
     "transcription_variants": {
       "us": "/ˈspek.teɪ.t̬ɚ/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "spectate",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:base:noun",
@@ -414,7 +532,7 @@
     ],
     "domain": "general, professional",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "bases",
     "transcription": "/beɪs/",
     "emoji": "⚾",
@@ -424,7 +542,21 @@
       "station"
     ],
     "no_antonym": true,
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "basic",
+        "form": "adjective"
+      },
+      {
+        "term": "basically",
+        "form": "adverb"
+      },
+      {
+        "term": "basis",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:sponsor:verb",
@@ -440,7 +572,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈspɒn.sə/",
     "emoji": "💵",
     "synonyms": [
@@ -452,7 +584,17 @@
     "transcription_variants": {
       "us": "/ˈspɑːn.sɚ/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "sponsor",
+        "form": "noun"
+      },
+      {
+        "term": "sponsorship",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:sponsorship:noun",
@@ -468,7 +610,7 @@
     ],
     "domain": "general, spoken, relocation",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "sponsorships",
     "tags": [
       "spoken"
@@ -485,7 +627,17 @@
     "transcription_variants": {
       "us": "/ˈspɑːn.sɚ.ʃɪp/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "sponsor",
+        "form": "verb"
+      },
+      {
+        "term": "sponsor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:professional:adjective",
@@ -502,7 +654,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/prəˈfeʃ.ən.əl/",
     "emoji": "💼",
     "synonyms": [
@@ -517,6 +669,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "profession",
+        "form": "noun"
+      },
+      {
+        "term": "professionalism",
+        "form": "noun"
+      },
+      {
+        "term": "professionally",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -533,7 +699,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -551,7 +717,13 @@
     "transcription_variants": {
       "us": "/ˈæm.ə.tʃɚ/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "amateurism",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:endurance:noun",
@@ -567,7 +739,7 @@
     ],
     "domain": "general, travel, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈdjʊə.rəns/",
     "emoji": "🏃",
     "countability": "uncountable",
@@ -583,7 +755,17 @@
     "transcription_variants": {
       "us": "/ɪnˈdʊr.əns/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "endure",
+        "form": "verb"
+      },
+      {
+        "term": "enduring",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:stamina:noun",
@@ -631,7 +813,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "strategies",
     "levels": [
       "B1",
@@ -649,7 +831,21 @@
     "transcription_variants": {
       "us": "/ˈstræt̬.ə.dʒi/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "strategic",
+        "form": "adjective"
+      },
+      {
+        "term": "strategically",
+        "form": "adverb"
+      },
+      {
+        "term": "strategist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:tactic:noun",
@@ -665,7 +861,7 @@
     ],
     "domain": "general, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "tactics",
     "transcription": "/ˈtæk.tɪk/",
     "emoji": "♟️",
@@ -676,7 +872,21 @@
       "ploy"
     ],
     "no_antonym": true,
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "derivatives": [
+      {
+        "term": "tactical",
+        "form": "adjective"
+      },
+      {
+        "term": "tactically",
+        "form": "adverb"
+      },
+      {
+        "term": "tactician",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:amateur-league:noun",
@@ -876,7 +1086,7 @@
     ],
     "domain": "general, travel",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈskaɪˌdaɪ.vɪŋ/",
     "emoji": "🪂",
     "no_antonym": true,
@@ -885,7 +1095,17 @@
       "air diving"
     ],
     "countability": "uncountable",
-    "sub_theme": "games_hobbies"
+    "sub_theme": "games_hobbies",
+    "derivatives": [
+      {
+        "term": "skydive",
+        "form": "verb"
+      },
+      {
+        "term": "skydiver",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:trekking:noun",
@@ -901,7 +1121,7 @@
     ],
     "domain": "general, travel",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈtrek.ɪŋ/",
     "emoji": "🥾",
     "no_antonym": true,
@@ -910,6 +1130,79 @@
       "backpacking"
     ],
     "countability": "uncountable",
-    "sub_theme": "games_hobbies"
+    "sub_theme": "games_hobbies",
+    "derivatives": [
+      {
+        "term": "trek",
+        "form": "verb"
+      },
+      {
+        "term": "trekker",
+        "form": "noun"
+      }
+    ]
+  },
+  {
+    "id": "en:match-game:noun",
+    "word": "match",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "sense": "game",
+    "sense_label": "sports event",
+    "definitions": [
+      "A sports event in which two people or teams play against each other."
+    ],
+    "examples": [
+      "Our team won the match by two goals."
+    ],
+    "domain": "general, spoken",
+    "theme": "leisure",
+    "sub_theme": "sports",
+    "updated": "2026-11-28",
+    "transcription": "/mætʃ/",
+    "emoji": "⚽",
+    "article": "a",
+    "plural_form": "matches",
+    "countability": "countable",
+    "synonyms": [
+      "game",
+      "contest"
+    ],
+    "no_antonym": true,
+    "levels": [
+      "B1"
+    ]
+  },
+  {
+    "id": "en:hold-event:verb",
+    "word": "hold",
+    "language": "en",
+    "form": "verb",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "event",
+    "sense_label": "organize an event",
+    "definitions": [
+      "To hold an event means to organize it."
+    ],
+    "examples": [
+      "The school holds a concert every year.",
+      "They held a meeting to discuss the plan."
+    ],
+    "domain": "general, spoken",
+    "theme": "activities",
+    "sub_theme": "events",
+    "transcription": "/həʊld/",
+    "emoji": "📅",
+    "synonyms": [
+      "organize",
+      "host",
+      "stage"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28"
   }
 ]

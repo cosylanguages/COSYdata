@@ -592,12 +592,12 @@
     ],
     "examples": [
       "Our IT support desk resolves user issues efficiently.",
-      "I need your support."
+      "Call support if the printer stops working."
     ],
     "domain": "general, professional",
     "sub_theme": "devices_hardware",
     "theme": "technology",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/səˈpɔːt/",
     "emoji": "🎧",
     "no_antonym": true,
@@ -607,7 +607,9 @@
     },
     "synonyms": [
       "assistance"
-    ]
+    ],
+    "sense": "technical-help",
+    "sense_label": "help for computer users"
   },
   {
     "id": "en:attached:adjective",
@@ -725,5 +727,37 @@
     "plural_form": "monitors",
     "sub_theme": "general",
     "updated": "2025-05-20"
+  },
+  {
+    "id": "en:mouse-computer:noun",
+    "word": "mouse",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "computer-device",
+    "sense_label": "computer device",
+    "definitions": [
+      "A mouse is a device used to control a computer."
+    ],
+    "examples": [
+      "Click the icon with the mouse.",
+      "The mouse needs a new battery."
+    ],
+    "domain": "general, spoken",
+    "theme": "technology",
+    "sub_theme": "devices_hardware",
+    "transcription": "/maʊs/",
+    "emoji": "🖱️",
+    "synonyms": [
+      "computer mouse"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "mice"
   }
 ]

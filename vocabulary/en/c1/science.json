@@ -107,7 +107,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌkɒm.pjəˈteɪ.ʃən.əl/",
     "emoji": "💻",
     "synonyms": [
@@ -119,7 +119,13 @@
     "transcription_variants": {
       "us": "/ˌkɑːm.pjəˈteɪ.ʃən.əl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "computation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:genome:noun",
@@ -163,7 +169,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈnjʊə.rəʊˌsaɪ.əns/",
     "emoji": "🧠",
     "countability": "uncountable",
@@ -175,7 +181,13 @@
     "transcription_variants": {
       "us": "/ˈnʊr.oʊˌsaɪ.əns/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "neuroscientist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:computing:noun",
@@ -191,7 +203,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kəmˈpjuː.tɪŋ/",
     "emoji": "💻",
     "countability": "uncountable",
@@ -203,7 +215,17 @@
     "transcription_variants": {
       "us": "/kəmˈpjuː.t̬ɪŋ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "computational",
+        "form": "adjective"
+      },
+      {
+        "term": "compute",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:replicability:noun",
@@ -250,7 +272,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -265,7 +287,13 @@
     "transcription_variants": {
       "us": "/ˌsɪŋ.ɡjəˈlær.ə.t̬i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "singular",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:speculative:adjective",
@@ -281,7 +309,7 @@
     ],
     "domain": "general, professional",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "C1"
     ],
@@ -300,7 +328,17 @@
     "transcription_variants": {
       "us": "/ˈspek.jə.lə.t̬ɪv/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "speculate",
+        "form": "verb"
+      },
+      {
+        "term": "speculativeness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:synthesis:noun",
@@ -317,7 +355,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "syntheses",
     "levels": [
       "C1",
@@ -335,7 +373,25 @@
       "analysis",
       "decomposition"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "synthesise",
+        "form": "verb"
+      },
+      {
+        "term": "synthesist",
+        "form": "noun"
+      },
+      {
+        "term": "synthetic",
+        "form": "adjective"
+      },
+      {
+        "term": "synthetical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:synthesize:verb",
@@ -351,7 +407,7 @@
     ],
     "domain": "general",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsɪn.θə.saɪz/",
     "emoji": "🧪",
     "synonyms": [
@@ -364,7 +420,21 @@
       "dissect",
       "deconstruct"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "synthesis",
+        "form": "noun"
+      },
+      {
+        "term": "synthesiser",
+        "form": "noun"
+      },
+      {
+        "term": "synthesizer",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:physics:noun",
@@ -381,7 +451,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "science",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "countability": "pluralia_tantum",
     "transcription": "/ˈfɪz.ɪks/",
     "emoji": "⚛️",
@@ -395,6 +465,16 @@
     "levels": [
       "A2",
       "C1"
+    ],
+    "derivatives": [
+      {
+        "term": "physical",
+        "form": "adjective"
+      },
+      {
+        "term": "physicist",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -1054,10 +1134,16 @@
       "procedural",
       "systematic"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "emoji": "💻",
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "algorithm",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:correlation-coefficient:noun",

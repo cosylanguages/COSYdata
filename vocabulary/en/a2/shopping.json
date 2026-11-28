@@ -2785,11 +2785,11 @@
       "merchandise",
       "items"
     ],
-    "countability": "countable",
+    "countability": "pluralia_tantum",
     "article": "a",
-    "plural_form": "goodss",
     "sub_theme": "general",
-    "updated": "2025-05-20"
+    "updated": "2026-11-28",
+    "singular_workaround": "an item of goods"
   },
   {
     "id": "en:item:noun",
@@ -2865,5 +2865,100 @@
     ],
     "sub_theme": "general",
     "updated": "2025-05-20"
+  },
+  {
+    "id": "en:tip-money:noun",
+    "word": "tip",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "money",
+    "sense_label": "extra money for service",
+    "definitions": [
+      "A tip is extra money you give for good service."
+    ],
+    "examples": [
+      "We left a tip for the waiter.",
+      "The taxi driver got a big tip."
+    ],
+    "domain": "general, spoken",
+    "theme": "money",
+    "sub_theme": "payments",
+    "transcription": "/tɪp/",
+    "emoji": "💵",
+    "synonyms": [
+      "gratuity"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "tips"
+  },
+  {
+    "id": "en:account-bank:noun",
+    "word": "account",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "bank-account",
+    "sense_label": "bank account",
+    "definitions": [
+      "An account is an arrangement with a bank to keep money."
+    ],
+    "examples": [
+      "I opened a bank account.",
+      "She put the money into her account."
+    ],
+    "domain": "general, spoken",
+    "theme": "money",
+    "sub_theme": "banking",
+    "transcription": "/əˈkaʊnt/",
+    "emoji": "🏦",
+    "synonyms": [
+      "bank account"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "an",
+    "plural_form": "accounts"
+  },
+  {
+    "id": "en:change-money:noun",
+    "word": "change",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "money-back",
+    "sense_label": "money returned after paying",
+    "definitions": [
+      "Change is the money you get back when you pay more than the price."
+    ],
+    "examples": [
+      "Keep the change.",
+      "The shop assistant gave me the wrong change."
+    ],
+    "domain": "general, spoken",
+    "theme": "money",
+    "sub_theme": "payments",
+    "transcription": "/tʃeɪndʒ/",
+    "emoji": "🪙",
+    "synonyms": [
+      "coins",
+      "refund"
+    ],
+    "no_antonym": true,
+    "countability": "uncountable",
+    "updated": "2026-11-28"
   }
 ]

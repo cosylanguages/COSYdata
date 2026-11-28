@@ -498,7 +498,7 @@
     ],
     "domain": "general, spoken, travel",
     "theme": "nature",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "waves",
     "tags": [
       "spoken"
@@ -507,7 +507,9 @@
     "emoji": "🌊",
     "countability": "countable",
     "no_antonym": true,
-    "sub_theme": "plants_trees"
+    "sub_theme": "plants_trees",
+    "sense": "sea-wave",
+    "sense_label": "wave in the sea"
   },
   {
     "id": "en:current:noun",
@@ -1487,7 +1489,7 @@
     ],
     "domain": "general, exam",
     "theme": "nature",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2"
     ],
@@ -1495,7 +1497,9 @@
     "no_antonym": true,
     "emoji": "🪵",
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "sense": "material",
+    "sense_label": "material from trees"
   },
   {
     "id": "en:ocean:noun",
@@ -1662,5 +1666,38 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "shape-shifters"
+  },
+  {
+    "id": "en:bug-insect:noun",
+    "word": "bug",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "insect",
+    "sense_label": "small insect",
+    "definitions": [
+      "A bug is a small insect."
+    ],
+    "examples": [
+      "A bug crawled across the floor.",
+      "The plant is covered in bugs."
+    ],
+    "domain": "general, spoken",
+    "theme": "animals",
+    "sub_theme": "insects",
+    "transcription": "/bʌɡ/",
+    "emoji": "🐛",
+    "synonyms": [
+      "insect",
+      "beetle"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "bugs"
   }
 ]

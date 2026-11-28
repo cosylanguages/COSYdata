@@ -41,7 +41,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -63,7 +63,13 @@
     "related_forms": [
       "COSYtools:en-irregular-verbs:rise"
     ],
-    "sub_theme": "abstract_concepts"
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "rise",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:therefore:noun",
@@ -111,7 +117,7 @@
     ],
     "domain": "general, spoken, relocation, professional",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -123,7 +129,13 @@
       "arise"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "result",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:cause:verb",
@@ -140,7 +152,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kɔːz/",
     "emoji": "⚡",
     "synonyms": [
@@ -154,7 +166,17 @@
     "transcription_variants": {
       "us": "/kɑːz/"
     },
-    "sub_theme": "abstract_concepts"
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "cause",
+        "form": "noun"
+      },
+      {
+        "term": "causal",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:lead:verb",
@@ -171,7 +193,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/liːd/",
     "emoji": "👉",
     "synonyms": [
@@ -189,6 +211,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "leader",
+        "form": "noun"
+      },
+      {
+        "term": "leadership",
+        "form": "noun"
+      },
+      {
+        "term": "leading",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -332,7 +368,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -350,7 +386,13 @@
     "transcription_variants": {
       "us": "/ˈtrɪɡ.ɚ/"
     },
-    "sub_theme": "abstract_concepts"
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "trigger",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:contribute:verb",
@@ -367,7 +409,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/kənˈtrɪb.juːt/",
     "emoji": "🧩",
     "synonyms": [
@@ -378,7 +420,21 @@
     "antonyms": [
       "detract from"
     ],
-    "sub_theme": "abstract_concepts"
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "contribution",
+        "form": "noun"
+      },
+      {
+        "term": "contributor",
+        "form": "noun"
+      },
+      {
+        "term": "contributory",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:affect:verb",
@@ -395,7 +451,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "general",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/əˈfekt/",
     "emoji": "💥",
     "synonyms": [
@@ -407,6 +463,12 @@
     "sub_theme": "abstract_concepts",
     "related_forms": [
       "COSYtools:en-verb-prep:affect"
+    ],
+    "derivatives": [
+      {
+        "term": "affected",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -424,7 +486,7 @@
     ],
     "domain": "general, professional",
     "theme": "general",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "emoji": "🌱",
     "synonyms": [
       "originate",
@@ -432,7 +494,13 @@
       "derive"
     ],
     "no_antonym": true,
-    "sub_theme": "abstract_concepts"
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "stem",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:knock-on:noun",
@@ -483,7 +551,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/prɪˈven.ʃən/",
     "emoji": "🛡️",
     "countability": "uncountable",
@@ -496,7 +564,21 @@
       "causation",
       "encouragement"
     ],
-    "sub_theme": "abstract_concepts"
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "prevent",
+        "form": "verb"
+      },
+      {
+        "term": "preventable",
+        "form": "adjective"
+      },
+      {
+        "term": "preventive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:as-a-result-of:preposition",
@@ -584,7 +666,13 @@
     "domain": "general",
     "theme": "general",
     "concept": "general.abstract_concepts.trigger",
-    "updated": "2025-05-20",
-    "sub_theme": "abstract_concepts"
+    "updated": "2026-11-28",
+    "sub_theme": "abstract_concepts",
+    "derivatives": [
+      {
+        "term": "trigger",
+        "form": "verb"
+      }
+    ]
   }
 ]

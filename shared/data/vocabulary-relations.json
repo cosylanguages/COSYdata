@@ -2,9 +2,9 @@
  "version": 1,
  "note": "Antonym and synonym relations compiled from vocabulary/ by scripts/build-relations.cjs. Keys are lower-cased word forms; homographs are merged. Do not edit by hand.",
  "totals": {
-  "words": 11300,
-  "antonyms": 9913,
-  "synonyms": 20488,
+  "words": 11352,
+  "antonyms": 9914,
+  "synonyms": 20814,
   "languages": 14
  },
  "langs": {
@@ -3848,6 +3848,15 @@
      "appropriately",
      "consequently",
      "therefore"
+    ]
+   },
+   "account": {
+    "antonyms": [],
+    "synonyms": [
+     "bank account",
+     "description",
+     "report",
+     "story"
     ]
    },
    "account for": {
@@ -9336,6 +9345,13 @@
      "scourge"
     ]
    },
+   "bank": {
+    "antonyms": [],
+    "synonyms": [
+     "riverbank",
+     "shore"
+    ]
+   },
    "bank account opening": {
     "antonyms": [],
     "synonyms": [
@@ -10659,6 +10675,9 @@
    "board": {
     "antonyms": [],
     "synonyms": [
+     "committee",
+     "council",
+     "directors",
      "embark",
      "get on"
     ]
@@ -10809,6 +10828,14 @@
     "synonyms": [
      "extra payment",
      "reward"
+    ]
+   },
+   "book": {
+    "antonyms": [],
+    "synonyms": [
+     "ledger",
+     "record",
+     "register"
     ]
    },
    "bookshop": {
@@ -11223,7 +11250,13 @@
      "fix",
      "repair"
     ],
-    "synonyms": []
+    "synonyms": [
+     "disobey",
+     "interval",
+     "pause",
+     "rest",
+     "violate"
+    ]
    },
    "break a deadlock": {
     "antonyms": [
@@ -11687,6 +11720,7 @@
    "bug": {
     "antonyms": [],
     "synonyms": [
+     "beetle",
      "error",
      "insect"
     ]
@@ -12306,6 +12340,16 @@
      "modulating voice"
     ]
    },
+   "call": {
+    "antonyms": [],
+    "synonyms": [
+     "cry",
+     "label",
+     "name",
+     "shout",
+     "term"
+    ]
+   },
    "call back": {
     "antonyms": [],
     "synonyms": [
@@ -12590,6 +12634,14 @@
      "volume"
     ]
    },
+   "capital": {
+    "antonyms": [],
+    "synonyms": [
+     "finance",
+     "funds",
+     "investment"
+    ]
+   },
    "capital appreciation": {
     "antonyms": [
      "capital depreciation"
@@ -12768,6 +12820,13 @@
      "net-zero"
     ]
    },
+   "card": {
+    "antonyms": [],
+    "synonyms": [
+     "greeting card",
+     "playing card"
+    ]
+   },
    "cardinal": {
     "antonyms": [
      "minor",
@@ -12934,9 +12993,13 @@
    "case": {
     "antonyms": [],
     "synonyms": [
+     "action",
      "event",
+     "example",
      "instance",
-     "situation"
+     "lawsuit",
+     "situation",
+     "trial"
     ]
    },
    "cash": {
@@ -13523,7 +13586,9 @@
     ],
     "synonyms": [
      "alter",
+     "coins",
      "metamorphose",
+     "refund",
      "transmute"
     ]
    },
@@ -13601,6 +13666,8 @@
    "charge": {
     "antonyms": [],
     "synonyms": [
+     "accusation",
+     "allegation",
      "bill"
     ]
    },
@@ -13669,6 +13736,14 @@
      "more expensive"
     ],
     "synonyms": []
+   },
+   "check": {
+    "antonyms": [],
+    "synonyms": [
+     "examination",
+     "inspection",
+     "test"
+    ]
    },
    "check in": {
     "antonyms": [],
@@ -14237,6 +14312,13 @@
      "clearness"
     ]
    },
+   "class": {
+    "antonyms": [],
+    "synonyms": [
+     "lesson",
+     "session"
+    ]
+   },
    "class action": {
     "antonyms": [],
     "synonyms": [
@@ -14617,6 +14699,13 @@
      "resolution"
     ]
    },
+   "cloud": {
+    "antonyms": [],
+    "synonyms": [
+     "cloud computing",
+     "cloud storage"
+    ]
+   },
    "cloud backup": {
     "antonyms": [],
     "synonyms": [
@@ -14675,6 +14764,13 @@
     "synonyms": [
      "flexible workspace",
      "shared office"
+    ]
+   },
+   "coach": {
+    "antonyms": [],
+    "synonyms": [
+     "bus",
+     "intercity bus"
     ]
    },
    "coalesce": {
@@ -15684,6 +15780,13 @@
     "synonyms": [
      "fellowship",
      "friendship"
+    ]
+   },
+   "company": {
+    "antonyms": [],
+    "synonyms": [
+     "companionship",
+     "presence"
     ]
    },
    "comparable": {
@@ -18479,6 +18582,7 @@
     "antonyms": [],
     "synonyms": [
      "protection",
+     "replace",
      "shelter",
      "substitute"
     ]
@@ -20816,6 +20920,13 @@
      "decline",
      "deterioration",
      "impairment"
+    ]
+   },
+   "degree": {
+    "antonyms": [],
+    "synonyms": [
+     "diploma",
+     "qualification"
     ]
    },
    "degrowth": {
@@ -24453,7 +24564,10 @@
      "hold",
      "pick up"
     ],
-    "synonyms": []
+    "synonyms": [
+     "bead",
+     "drip"
+    ]
    },
    "drop by": {
     "antonyms": [],
@@ -25294,15 +25408,6 @@
      "attempt",
      "endeavour",
      "exertion"
-    ]
-   },
-   "efforts": {
-    "antonyms": [
-     "nature destruction"
-    ],
-    "synonyms": [
-     "environmental protection",
-     "nature preservation"
     ]
    },
    "egalitarianism": {
@@ -26149,7 +26254,11 @@
      "begin",
      "start"
     ],
-    "synonyms": []
+    "synonyms": [
+     "aim",
+     "goal",
+     "purpose"
+    ]
    },
    "endangered": {
     "antonyms": [
@@ -28943,6 +29052,14 @@
      "frontal"
     ]
    },
+   "face": {
+    "antonyms": [],
+    "synonyms": [
+     "accept",
+     "confront",
+     "tackle"
+    ]
+   },
    "face fierce competition": {
     "antonyms": [],
     "synonyms": [
@@ -29959,6 +30076,14 @@
      "trustee obligation"
     ]
    },
+   "field": {
+    "antonyms": [],
+    "synonyms": [
+     "area",
+     "domain",
+     "subject"
+    ]
+   },
    "fierce": {
     "antonyms": [
      "gentle",
@@ -30015,8 +30140,13 @@
    "figure": {
     "antonyms": [],
     "synonyms": [
+     "body",
+     "diagram",
      "digit",
+     "drawing",
+     "form",
      "number",
+     "shape",
      "statistic"
     ]
    },
@@ -30026,6 +30156,13 @@
      "idiom",
      "metaphor",
      "trope"
+    ]
+   },
+   "file": {
+    "antonyms": [],
+    "synonyms": [
+     "binder",
+     "folder"
     ]
    },
    "file a police report": {
@@ -30172,9 +30309,15 @@
    },
    "fine": {
     "antonyms": [
-     "bad"
+     "bad",
+     "thick"
     ],
-    "synonyms": []
+    "synonyms": [
+     "acceptable",
+     "delicate",
+     "good",
+     "thin"
+    ]
    },
    "fine dining": {
     "antonyms": [
@@ -30234,7 +30377,8 @@
      "discharge",
      "dismiss",
      "flame",
-     "sack"
+     "sack",
+     "shoot"
     ]
    },
    "fired": {
@@ -30638,7 +30782,10 @@
     "antonyms": [
      "ceiling"
     ],
-    "synonyms": []
+    "synonyms": [
+     "level",
+     "story"
+    ]
    },
    "flout": {
     "antonyms": [
@@ -31247,6 +31394,17 @@
      "miserable"
     ]
    },
+   "form": {
+    "antonyms": [],
+    "synonyms": [
+     "figure",
+     "kind",
+     "outline",
+     "shape",
+     "type",
+     "variety"
+    ]
+   },
    "formal": {
     "antonyms": [
      "casual",
@@ -31597,7 +31755,10 @@
     "antonyms": [
      "busy"
     ],
-    "synonyms": []
+    "synonyms": [
+     "available",
+     "unoccupied"
+    ]
    },
    "free entry": {
     "antonyms": [
@@ -33250,6 +33411,12 @@
      "peek"
     ]
    },
+   "glass": {
+    "antonyms": [],
+    "synonyms": [
+     "crystal"
+    ]
+   },
    "glass ceiling": {
     "antonyms": [],
     "synonyms": [
@@ -34241,7 +34408,11 @@
     "antonyms": [
      "sky"
     ],
-    "synonyms": []
+    "synonyms": [
+     "basis",
+     "cause",
+     "reason"
+    ]
    },
    "groundbreaking": {
     "antonyms": [
@@ -34720,7 +34891,10 @@
      "easy",
      "soft"
     ],
-    "synonyms": []
+    "synonyms": [
+     "difficult",
+     "tough"
+    ]
    },
    "hard power": {
     "antonyms": [
@@ -35012,6 +35186,14 @@
      "she"
     ],
     "synonyms": []
+   },
+   "head": {
+    "antonyms": [],
+    "synonyms": [
+     "chief",
+     "director",
+     "leader"
+    ]
    },
    "head off": {
     "antonyms": [
@@ -35587,13 +35769,6 @@
      "representation"
     ]
    },
-   "heuristics": {
-    "antonyms": [],
-    "synonyms": [
-     "mental shortcuts",
-     "rules of thumb"
-    ]
-   },
    "hi": {
     "antonyms": [
      "bye",
@@ -35914,7 +36089,14 @@
     "antonyms": [
      "drop"
     ],
-    "synonyms": []
+    "synonyms": [
+     "accommodate",
+     "contain",
+     "host",
+     "organize",
+     "stage",
+     "take"
+    ]
    },
    "hold a grudge": {
     "antonyms": [
@@ -41314,7 +41496,9 @@
    "interest": {
     "antonyms": [],
     "synonyms": [
-     "bank profit"
+     "bank profit",
+     "charge",
+     "return"
     ]
    },
    "interest rate": {
@@ -42262,6 +42446,8 @@
     "antonyms": [],
     "synonyms": [
      "problem",
+     "publish",
+     "release",
      "topic"
     ]
    },
@@ -42973,7 +43159,13 @@
      "discard",
      "give away"
     ],
-    "synonyms": []
+    "synonyms": [
+     "carry on",
+     "continue",
+     "log",
+     "maintain",
+     "record"
+    ]
    },
    "keep a promise": {
     "antonyms": [
@@ -43109,6 +43301,14 @@
      "meat"
     ]
    },
+   "key": {
+    "antonyms": [],
+    "synonyms": [
+     "crucial",
+     "essential",
+     "important"
+    ]
+   },
    "key into": {
     "antonyms": [
      "be oblivious to"
@@ -43198,7 +43398,11 @@
      "mean",
      "unkind"
     ],
-    "synonyms": []
+    "synonyms": [
+     "sort",
+     "type",
+     "variety"
+    ]
    },
    "kind of": {
     "antonyms": [
@@ -43426,8 +43630,12 @@
    "land": {
     "antonyms": [],
     "synonyms": [
-     "commercial development",
-     "real estate project"
+     "earth",
+     "ground",
+     "plot",
+     "property",
+     "real estate",
+     "terrain"
     ]
    },
    "landfill": {
@@ -43596,7 +43804,12 @@
     "antonyms": [
      "first"
     ],
-    "synonyms": []
+    "synonyms": [
+     "continue",
+     "endure",
+     "final",
+     "final one"
+    ]
    },
    "last name": {
     "antonyms": [
@@ -44561,9 +44774,13 @@
    },
    "light": {
     "antonyms": [
-     "dark"
+     "dark",
+     "heavy"
     ],
-    "synonyms": []
+    "synonyms": [
+     "pale",
+     "soft"
+    ]
    },
    "light at the end of the tunnel": {
     "antonyms": [],
@@ -44645,6 +44862,13 @@
      "constraint",
      "restriction",
      "shortcoming"
+    ]
+   },
+   "line": {
+    "antonyms": [],
+    "synonyms": [
+     "queue",
+     "row"
     ]
    },
    "lineage": {
@@ -44846,9 +45070,14 @@
    },
    "live": {
     "antonyms": [
+     "dead",
      "die"
     ],
-    "synonyms": []
+    "synonyms": [
+     "current",
+     "direct",
+     "living"
+    ]
    },
    "live and learn": {
     "antonyms": [],
@@ -45271,6 +45500,14 @@
      "deep-seated",
      "enduring",
      "long-established"
+    ]
+   },
+   "look": {
+    "antonyms": [],
+    "synonyms": [
+     "appearance",
+     "image",
+     "style"
     ]
    },
    "look after": {
@@ -46433,6 +46670,13 @@
      "grade"
     ]
    },
+   "market": {
+    "antonyms": [],
+    "synonyms": [
+     "commerce",
+     "trade"
+    ]
+   },
    "market disruption": {
     "antonyms": [],
     "synonyms": [
@@ -46572,6 +46816,13 @@
      "masterwork"
     ]
    },
+   "match": {
+    "antonyms": [],
+    "synonyms": [
+     "contest",
+     "game"
+    ]
+   },
    "materialism": {
     "antonyms": [
      "asceticism",
@@ -46634,6 +46885,14 @@
     "antonyms": [],
     "synonyms": [
      "matriarchate"
+    ]
+   },
+   "matter": {
+    "antonyms": [],
+    "synonyms": [
+     "count",
+     "material",
+     "substance"
     ]
    },
    "matter of priority": {
@@ -46702,9 +46961,17 @@
    "mean": {
     "antonyms": [
      "generous",
-     "kind"
+     "kind",
+     "nice"
     ],
-    "synonyms": []
+    "synonyms": [
+     "aim",
+     "average",
+     "cruel",
+     "intend",
+     "nasty",
+     "unkind"
+    ]
    },
    "meandering": {
     "antonyms": [
@@ -48561,6 +48828,12 @@
      "sorrow"
     ]
    },
+   "mouse": {
+    "antonyms": [],
+    "synonyms": [
+     "computer mouse"
+    ]
+   },
    "mouth-watering": {
     "antonyms": [],
     "synonyms": [
@@ -50295,6 +50568,16 @@
      "notary public"
     ]
    },
+   "note": {
+    "antonyms": [],
+    "synonyms": [
+     "line",
+     "memo",
+     "message",
+     "pitch",
+     "tone"
+    ]
+   },
    "nothing": {
     "antonyms": [
      "everything",
@@ -51575,7 +51858,10 @@
      "closed",
      "shut"
     ],
-    "synonyms": []
+    "synonyms": [
+     "available",
+     "vacant"
+    ]
    },
    "open-jaw ticket": {
     "antonyms": [],
@@ -51831,6 +52117,17 @@
      "mastermind",
      "organize",
      "stage-manage"
+    ]
+   },
+   "order": {
+    "antonyms": [],
+    "synonyms": [
+     "arrangement",
+     "command",
+     "direction",
+     "instruction",
+     "sequence",
+     "series"
     ]
    },
    "ordinance": {
@@ -52231,17 +52528,6 @@
     "synonyms": [
      "hindsight evaluation bias",
      "result-oriented judgment"
-    ]
-   },
-   "outcomes": {
-    "antonyms": [
-     "causes",
-     "inputs"
-    ],
-    "synonyms": [
-     "achievements",
-     "consequences",
-     "results"
     ]
    },
    "outdated": {
@@ -52952,6 +53238,13 @@
      "sanctity of contracts"
     ]
    },
+   "page": {
+    "antonyms": [],
+    "synonyms": [
+     "site page",
+     "web page"
+    ]
+   },
    "pain": {
     "antonyms": [
      "comfort"
@@ -53075,6 +53368,16 @@
     "synonyms": [
      "scenic panorama",
      "sweeping view"
+    ]
+   },
+   "paper": {
+    "antonyms": [],
+    "synonyms": [
+     "article",
+     "essay",
+     "journal",
+     "newspaper",
+     "study"
     ]
    },
    "paper over": {
@@ -53328,7 +53631,11 @@
     "antonyms": [
      "whole"
     ],
-    "synonyms": []
+    "synonyms": [
+     "duty",
+     "role",
+     "share"
+    ]
    },
    "part-time": {
     "antonyms": [
@@ -53438,7 +53745,11 @@
     "antonyms": [
      "fail"
     ],
-    "synonyms": []
+    "synonyms": [
+     "card",
+     "permit",
+     "ticket"
+    ]
    },
    "pass away": {
     "antonyms": [
@@ -54859,6 +55170,14 @@
      "pacify"
     ]
    },
+   "place": {
+    "antonyms": [],
+    "synonyms": [
+     "position",
+     "seat",
+     "spot"
+    ]
+   },
    "place of worship": {
     "antonyms": [],
     "synonyms": [
@@ -54923,6 +55242,14 @@
      "complainant"
     ]
    },
+   "plan": {
+    "antonyms": [],
+    "synonyms": [
+     "diagram",
+     "layout",
+     "map"
+    ]
+   },
    "plan ahead": {
     "antonyms": [
      "improvise"
@@ -54943,7 +55270,9 @@
    "plane": {
     "antonyms": [],
     "synonyms": [
-     "en:airplane:noun"
+     "en:airplane:noun",
+     "level",
+     "surface"
     ]
    },
    "planetary": {
@@ -54983,6 +55312,13 @@
     "synonyms": [
      "optimistic planning",
      "underestimation of completion time"
+    ]
+   },
+   "plant": {
+    "antonyms": [],
+    "synonyms": [
+     "factory",
+     "works"
     ]
    },
    "plant-based": {
@@ -55057,7 +55393,13 @@
     "antonyms": [
      "work"
     ],
-    "synonyms": []
+    "synonyms": [
+     "drama",
+     "make music",
+     "perform",
+     "performance",
+     "show"
+    ]
    },
    "play a role": {
     "antonyms": [],
@@ -55337,8 +55679,13 @@
    "point": {
     "antonyms": [],
     "synonyms": [
+     "argument",
      "critical juncture",
      "crossroads",
+     "detail",
+     "idea",
+     "mark",
+     "score",
      "threshold"
     ]
    },
@@ -55684,7 +56031,10 @@
    "post": {
     "antonyms": [],
     "synonyms": [
+     "job",
+     "position",
      "publish",
+     "role",
      "share"
     ]
    },
@@ -55815,6 +56165,13 @@
      "shared meal"
     ]
    },
+   "pound": {
+    "antonyms": [],
+    "synonyms": [
+     "lb",
+     "sterling"
+    ]
+   },
    "poverty": {
     "antonyms": [
      "affluence",
@@ -55831,6 +56188,14 @@
     "synonyms": [
      "income threshold",
      "subsistence level"
+    ]
+   },
+   "power": {
+    "antonyms": [],
+    "synonyms": [
+     "authority",
+     "control",
+     "influence"
     ]
    },
    "power of attorney": {
@@ -56264,11 +56629,12 @@
    },
    "present": {
     "antonyms": [
-     "absent",
-     "future",
-     "past"
+     "absent"
     ],
-    "synonyms": []
+    "synonyms": [
+     "now",
+     "today"
+    ]
    },
    "preservative": {
     "antonyms": [],
@@ -56300,7 +56666,9 @@
     "synonyms": [
      "journalism",
      "news media",
-     "newspapers"
+     "newspapers",
+     "push",
+     "squeeze"
     ]
    },
    "press ahead with": {
@@ -57197,6 +57565,13 @@
      "forecast",
      "medical outlook",
      "prediction"
+    ]
+   },
+   "program": {
+    "antonyms": [],
+    "synonyms": [
+     "application",
+     "software"
     ]
    },
    "progress": {
@@ -58662,7 +59037,11 @@
     "antonyms": [
      "lower"
     ],
-    "synonyms": []
+    "synonyms": [
+     "boost",
+     "increase",
+     "lift"
+    ]
    },
    "raise awareness": {
     "antonyms": [
@@ -61487,7 +61866,10 @@
      "exercise",
      "work"
     ],
-    "synonyms": []
+    "synonyms": [
+     "balance",
+     "remainder"
+    ]
    },
    "rest on one's laurels": {
     "antonyms": [],
@@ -62053,7 +62435,13 @@
      "left",
      "wrong"
     ],
-    "synonyms": []
+    "synonyms": [
+     "entitlement",
+     "fair",
+     "freedom",
+     "good",
+     "just"
+    ]
    },
    "right here": {
     "antonyms": [
@@ -62112,6 +62500,13 @@
      "exactingness",
      "strictness",
      "thoroughness"
+    ]
+   },
+   "ring": {
+    "antonyms": [],
+    "synonyms": [
+     "call",
+     "phone"
     ]
    },
    "rip-off": {
@@ -62276,6 +62671,12 @@
      "sturdy"
     ]
    },
+   "rock": {
+    "antonyms": [],
+    "synonyms": [
+     "rock music"
+    ]
+   },
    "rock the boat": {
     "antonyms": [
      "keep the peace",
@@ -62332,6 +62733,13 @@
      "beginner",
      "greenhorn",
      "novice"
+    ]
+   },
+   "room": {
+    "antonyms": [],
+    "synonyms": [
+     "capacity",
+     "space"
     ]
    },
    "room mix-up": {
@@ -62472,6 +62880,17 @@
      "navigation planning"
     ]
    },
+   "row": {
+    "antonyms": [],
+    "synonyms": [
+     "argument",
+     "dispute",
+     "line",
+     "quarrel",
+     "queue",
+     "series"
+    ]
+   },
    "royalty": {
     "antonyms": [],
     "synonyms": [
@@ -62556,7 +62975,14 @@
     "antonyms": [
      "walk"
     ],
-    "synonyms": []
+    "synonyms": [
+     "direct",
+     "manage",
+     "operate",
+     "series",
+     "spell",
+     "streak"
+    ]
    },
    "run a risk": {
     "antonyms": [],
@@ -64522,6 +64948,20 @@
      "nature benefits"
     ]
    },
+   "set": {
+    "antonyms": [],
+    "synonyms": [
+     "arranged",
+     "collection",
+     "established",
+     "fixed",
+     "group",
+     "kit",
+     "lay",
+     "place",
+     "put"
+    ]
+   },
    "set a goal": {
     "antonyms": [],
     "synonyms": [
@@ -64839,6 +65279,14 @@
      "transition"
     ]
    },
+   "ship": {
+    "antonyms": [],
+    "synonyms": [
+     "deliver",
+     "send",
+     "transport"
+    ]
+   },
    "shipping": {
     "antonyms": [],
     "synonyms": [
@@ -64968,7 +65416,9 @@
     "synonyms": [
      "evince",
      "exhibit",
-     "manifest"
+     "manifest",
+     "performance",
+     "production"
     ]
    },
    "show one's true colors": {
@@ -66517,8 +66967,13 @@
    "space": {
     "antonyms": [],
     "synonyms": [
+     "area",
      "blank space",
-     "place"
+     "gap",
+     "outer space",
+     "place",
+     "room",
+     "the universe"
     ]
    },
    "spacious": {
@@ -67069,6 +67524,12 @@
      "worksheet"
     ]
    },
+   "spring": {
+    "antonyms": [],
+    "synonyms": [
+     "water source"
+    ]
+   },
    "spring up": {
     "antonyms": [
      "die out",
@@ -67142,7 +67603,10 @@
     "antonyms": [],
     "synonyms": [
      "performance area",
-     "platform"
+     "period",
+     "phase",
+     "platform",
+     "step"
     ]
    },
    "staged": {
@@ -67389,7 +67853,10 @@
      "finish",
      "stop"
     ],
-    "synonyms": []
+    "synonyms": [
+     "flinch",
+     "jump"
+    ]
    },
    "start a business": {
     "antonyms": [],
@@ -67420,8 +67887,13 @@
     ],
     "synonyms": [
      "affirm",
+     "condition",
+     "country",
      "declare",
-     "express"
+     "express",
+     "nation",
+     "region",
+     "situation"
     ]
    },
    "state-of-the-art": {
@@ -67926,6 +68398,14 @@
      "repository"
     ]
    },
+   "store": {
+    "antonyms": [],
+    "synonyms": [
+     "hold",
+     "keep",
+     "save"
+    ]
+   },
    "storm in a teacup": {
     "antonyms": [],
     "synonyms": [
@@ -67947,6 +68427,13 @@
     ],
     "synonyms": [
      "rough"
+    ]
+   },
+   "story": {
+    "antonyms": [],
+    "synonyms": [
+     "floor",
+     "level"
     ]
    },
    "storyline": {
@@ -68173,6 +68660,14 @@
     "synonyms": [
      "in a precise sense",
      "strictly"
+    ]
+   },
+   "strike": {
+    "antonyms": [],
+    "synonyms": [
+     "beat",
+     "hit",
+     "knock"
     ]
    },
    "strike a balance": {
@@ -68403,6 +68898,14 @@
     "synonyms": [
      "counterculture",
      "underground scene"
+    ]
+   },
+   "subject": {
+    "antonyms": [],
+    "synonyms": [
+     "issue",
+     "theme",
+     "topic"
     ]
    },
    "subject to approval": {
@@ -69216,7 +69719,16 @@
     "synonyms": [
      "assist",
      "assistance",
-     "back"
+     "back",
+     "backing",
+     "bear",
+     "brace",
+     "carry",
+     "encouragement",
+     "help",
+     "hold up",
+     "pillar",
+     "prop"
     ]
    },
    "support each other": {
@@ -69984,6 +70496,14 @@
      "contagion risk"
     ]
    },
+   "table": {
+    "antonyms": [],
+    "synonyms": [
+     "chart",
+     "grid",
+     "list"
+    ]
+   },
    "tabloid": {
     "antonyms": [
      "broadsheet"
@@ -70513,6 +71033,14 @@
      "palpable strain"
     ]
    },
+   "tap": {
+    "antonyms": [],
+    "synonyms": [
+     "knock",
+     "pat",
+     "touch"
+    ]
+   },
    "tap into": {
     "antonyms": [],
     "synonyms": [
@@ -71027,6 +71555,14 @@
      "flimsy",
      "fragile",
      "precarious"
+    ]
+   },
+   "term": {
+    "antonyms": [],
+    "synonyms": [
+     "expression",
+     "phrase",
+     "word"
     ]
    },
    "terminal illness": {
@@ -72274,6 +72810,8 @@
     "antonyms": [],
     "synonyms": [
      "duration",
+     "instance",
+     "occasion",
      "period"
     ]
    },
@@ -72355,8 +72893,11 @@
    "tip": {
     "antonyms": [],
     "synonyms": [
+     "end",
      "gratuity",
-     "service charge"
+     "point",
+     "service charge",
+     "top"
     ]
    },
    "tip the scales": {
@@ -73970,7 +74511,11 @@
     "antonyms": [
      "bottom"
     ],
-    "synonyms": []
+    "synonyms": [
+     "lid",
+     "peak",
+     "summit"
+    ]
    },
    "top-down approach": {
     "antonyms": [
@@ -74334,12 +74879,15 @@
    "train": {
     "antonyms": [],
     "synonyms": [
+     "coach",
      "exercise",
      "practice",
+     "prepare",
+     "teach",
      "workout"
     ]
    },
-   "trainers": {
+   "trainer": {
     "antonyms": [],
     "synonyms": [
      "🇺🇸 sneakers"
@@ -74780,7 +75328,10 @@
    "treat": {
     "antonyms": [],
     "synonyms": [
-     "handle"
+     "delight",
+     "gift",
+     "handle",
+     "pleasure"
     ]
    },
    "treat yourself": {
@@ -75163,6 +75714,14 @@
      "bombastic",
      "pompous",
      "swollen"
+    ]
+   },
+   "turn": {
+    "antonyms": [],
+    "synonyms": [
+     "chance",
+     "go",
+     "opportunity"
     ]
    },
    "turn a corner": {
@@ -78103,6 +78662,7 @@
     "antonyms": [],
     "synonyms": [
      "bug",
+     "disease",
      "infection",
      "malware"
     ]
@@ -78748,7 +79308,9 @@
      "ignore"
     ],
     "synonyms": [
-     "greet"
+     "gesture",
+     "greet",
+     "signal"
     ]
    },
    "wavy": {
@@ -78756,6 +79318,14 @@
      "straight"
     ],
     "synonyms": []
+   },
+   "way": {
+    "antonyms": [],
+    "synonyms": [
+     "approach",
+     "means",
+     "method"
+    ]
    },
    "waymarking": {
     "antonyms": [],
@@ -78835,6 +79405,13 @@
     "antonyms": [],
     "synonyms": [
      "manipulative compassion"
+    ]
+   },
+   "wear": {
+    "antonyms": [],
+    "synonyms": [
+     "damage",
+     "deterioration"
     ]
    },
    "wear and tear": {
@@ -79015,9 +79592,14 @@
    },
    "well": {
     "antonyms": [
-     "badly"
+     "badly",
+     "ill",
+     "sick"
     ],
-    "synonyms": []
+    "synonyms": [
+     "fit",
+     "healthy"
+    ]
    },
    "well-being": {
     "antonyms": [
@@ -79556,6 +80138,13 @@
      "wind power tool"
     ]
    },
+   "window": {
+    "antonyms": [],
+    "synonyms": [
+     "chance",
+     "opportunity"
+    ]
+   },
    "window seat": {
     "antonyms": [
      "aisle seat"
@@ -79846,6 +80435,9 @@
    "wonder": {
     "antonyms": [],
     "synonyms": [
+     "amazement",
+     "awe",
+     "surprise",
      "think about"
     ]
    },
@@ -79855,6 +80447,21 @@
      "terrible"
     ],
     "synonyms": []
+   },
+   "wood": {
+    "antonyms": [],
+    "synonyms": [
+     "forest",
+     "grove"
+    ]
+   },
+   "word": {
+    "antonyms": [],
+    "synonyms": [
+     "assurance",
+     "pledge",
+     "promise"
+    ]
    },
    "word of advice": {
     "antonyms": [],
@@ -79876,7 +80483,13 @@
      "play",
      "rest"
     ],
-    "synonyms": []
+    "synonyms": [
+     "composition",
+     "creation",
+     "function",
+     "operate",
+     "piece"
+    ]
    },
    "work culture": {
     "antonyms": [],

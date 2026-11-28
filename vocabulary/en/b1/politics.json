@@ -14,7 +14,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -31,7 +31,17 @@
       "support",
       "endorse"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "protest",
+        "form": "noun"
+      },
+      {
+        "term": "protester",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:politics:noun",
@@ -47,7 +57,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -66,7 +76,21 @@
     "transcription_variants": {
       "us": "/ˈpɑː.lə.tɪks/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "political",
+        "form": "adjective"
+      },
+      {
+        "term": "politically",
+        "form": "adverb"
+      },
+      {
+        "term": "politician",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:debate:verb",
@@ -82,7 +106,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -95,7 +119,17 @@
     "antonyms": [
       "agree"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "debate",
+        "form": "noun"
+      },
+      {
+        "term": "debatable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:political:adjective",
@@ -112,7 +146,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/pəˈlɪt.ɪ.kəl/",
     "emoji": "🏛️",
     "synonyms": [
@@ -127,6 +161,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "politics",
+        "form": "noun"
+      },
+      {
+        "term": "politician",
+        "form": "noun"
+      },
+      {
+        "term": "politically",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -143,7 +191,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "presidents",
     "tags": [
       "spoken"
@@ -156,7 +204,17 @@
       "leader"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "presidency",
+        "form": "noun"
+      },
+      {
+        "term": "presidential",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:prime:noun",
@@ -197,7 +255,7 @@
     ],
     "domain": "general, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "ministers",
     "transcription": "/ˈmɪn.ɪ.stə/",
     "emoji": "👔",
@@ -210,7 +268,17 @@
     "transcription_variants": {
       "us": "/ˈmɪn.ə.stɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "ministry",
+        "form": "noun"
+      },
+      {
+        "term": "ministerial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:election:noun",
@@ -227,7 +295,7 @@
     ],
     "domain": "general, spoken, travel, professional, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "elections",
     "tags": [
       "spoken"
@@ -244,6 +312,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "elect",
+        "form": "verb"
+      },
+      {
+        "term": "electorate",
+        "form": "noun"
+      },
+      {
+        "term": "electoral",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -261,7 +343,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -279,6 +361,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "vote",
+        "form": "noun"
+      },
+      {
+        "term": "voter",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -295,7 +387,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "voters",
     "tags": [
       "spoken"
@@ -311,7 +403,17 @@
     "transcription_variants": {
       "us": "/ˈvoʊ.t̬ɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "vote",
+        "form": "verb"
+      },
+      {
+        "term": "vote",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:democracy:noun",
@@ -327,7 +429,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "democracies",
     "tags": [
       "spoken"
@@ -346,7 +448,21 @@
     "transcription_variants": {
       "us": "/dɪˈmɑː.krə.si/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "democratic",
+        "form": "adjective"
+      },
+      {
+        "term": "democratically",
+        "form": "adverb"
+      },
+      {
+        "term": "democratize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:democratic:adjective",
@@ -363,7 +479,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˌdem.əˈkræt.ɪk/",
     "emoji": "🗳️",
     "synonyms": [
@@ -381,6 +497,20 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "democracy",
+        "form": "noun"
+      },
+      {
+        "term": "democratically",
+        "form": "adverb"
+      },
+      {
+        "term": "democratize",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -437,7 +567,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -456,7 +586,21 @@
     "transcription_variants": {
       "us": "/ˌledʒ.əˈsleɪ.ʃən/"
     },
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "legislate",
+        "form": "verb"
+      },
+      {
+        "term": "legislator",
+        "form": "noun"
+      },
+      {
+        "term": "legislative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:parliament:noun",
@@ -472,7 +616,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "parliaments",
     "transcription": "/ˈpɑː.lɪ.mənt/",
     "emoji": "🏛️",
@@ -485,7 +629,13 @@
     "transcription_variants": {
       "us": "/ˈpɑːr.lə.mənt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "parliamentary",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:congress:noun",
@@ -501,7 +651,7 @@
     ],
     "domain": "general, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "congresses",
     "countability": "countable",
     "collective_note": "Can take a singular or plural verb depending on whether the group is considered as a single unit or as individual members.",
@@ -515,7 +665,17 @@
     "transcription_variants": {
       "us": "/ˈkɑːŋ.ɡrəs/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "congressional",
+        "form": "adjective"
+      },
+      {
+        "term": "congressman",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:citizen:noun",
@@ -533,7 +693,7 @@
     ],
     "domain": "general, relocation, travel, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "citizens",
     "transcription": "/ˈsɪt.ɪ.zən/",
     "emoji": "👤",
@@ -553,6 +713,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "citizenship",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -571,7 +737,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "transcription": "/ˈsɪt.ɪ.zən.ʃɪp/",
     "emoji": "🪪",
     "countability": "uncountable",
@@ -587,6 +753,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "citizen",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -605,7 +777,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "taxes",
     "tags": [
       "spoken"
@@ -622,6 +794,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "tax",
+        "form": "verb"
+      },
+      {
+        "term": "taxation",
+        "form": "noun"
+      },
+      {
+        "term": "taxable",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -638,7 +824,7 @@
     ],
     "domain": "general",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/tækˈseɪ.ʃən/",
     "emoji": "💵",
     "countability": "uncountable",
@@ -646,7 +832,17 @@
       "revenue collection"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "tax",
+        "form": "verb"
+      },
+      {
+        "term": "tax",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:sector:noun",
@@ -662,7 +858,7 @@
     ],
     "domain": "general, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "sectors",
     "levels": [
       "B1"
@@ -678,7 +874,13 @@
     "transcription_variants": {
       "us": "/ˈsek.tɚ/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "sectoral",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:candidate:noun",
@@ -696,7 +898,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "politics",
-    "updated": "2026-10-01",
+    "updated": "2026-11-28",
     "plural_form": "candidates",
     "tags": [
       "spoken"
@@ -716,6 +918,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "candidacy",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -734,7 +942,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "authorities",
     "transcription": "/ɔːˈθɒr.ə.ti/",
     "emoji": "👮",
@@ -753,6 +961,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "authoritative",
+        "form": "adjective"
+      },
+      {
+        "term": "authorize",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -771,7 +989,7 @@
     ],
     "domain": "general, professional",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "councils",
     "transcription": "/ˈkaʊn.səl/",
     "emoji": "🏛️",
@@ -785,7 +1003,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "councillor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:international:noun",
@@ -835,7 +1059,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "reforms",
     "tags": [
       "spoken"
@@ -853,7 +1077,17 @@
     "transcription_variants": {
       "us": "/rɪˈfɔːrm/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "reform",
+        "form": "verb"
+      },
+      {
+        "term": "reformation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:demonstration:noun",
@@ -869,7 +1103,7 @@
     ],
     "domain": "general, relocation, spoken, travel, exam",
     "theme": "politics",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "demonstrations",
     "tags": [
       "spoken"
@@ -882,7 +1116,21 @@
       "rally"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "demonstrate",
+        "form": "verb"
+      },
+      {
+        "term": "demonstrator",
+        "form": "noun"
+      },
+      {
+        "term": "demonstrative",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:political-party:noun",
@@ -935,7 +1183,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "plural_form": "dictatorships",
     "transcription": "/dɪkˈteɪ.tə.ʃɪp/",
     "emoji": "👑",
@@ -950,7 +1198,17 @@
     "transcription_variants": {
       "us": "/dɪkˈteɪ.t̬ɚ.ʃɪp/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "dictator",
+        "form": "noun"
+      },
+      {
+        "term": "dictatorial",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:public-sector:noun",
@@ -1132,7 +1390,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈdəʊ.nər/",
     "emoji": "🎁",
     "countability": "countable",
@@ -1146,7 +1404,17 @@
       "recipient",
       "beneficiary"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "donate",
+        "form": "verb"
+      },
+      {
+        "term": "donation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:consulate:noun",
@@ -1162,7 +1430,7 @@
     ],
     "domain": "relocation, travel",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈkɒn.sjə.lət/",
     "transcription_variants": {
       "us": "/ˈkɑːn.sə.lət/"
@@ -1175,7 +1443,17 @@
     ],
     "countability": "countable",
     "plural_form": "consulates",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "consul",
+        "form": "noun"
+      },
+      {
+        "term": "consular",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:residence-permit:noun",
@@ -1475,7 +1753,7 @@
     ],
     "domain": "relocation, professional, exam",
     "theme": "society",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1"
@@ -1496,7 +1774,21 @@
       "visitor",
       "tourist"
     ],
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "reside",
+        "form": "verb"
+      },
+      {
+        "term": "residence",
+        "form": "noun"
+      },
+      {
+        "term": "residential",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:temporary-residency:noun",
@@ -1577,7 +1869,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "work",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -1590,7 +1882,21 @@
       "labor union"
     ],
     "no_antonym": true,
-    "sub_theme": "legal-english"
+    "sub_theme": "legal-english",
+    "derivatives": [
+      {
+        "term": "unite",
+        "form": "verb"
+      },
+      {
+        "term": "unity",
+        "form": "noun"
+      },
+      {
+        "term": "unified",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:workers-rights:noun",
@@ -1640,7 +1946,7 @@
     ],
     "domain": "general",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/dɪˈbeɪt/",
     "emoji": "🗣️",
     "synonyms": [
@@ -1655,7 +1961,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "debate",
+        "form": "verb"
+      },
+      {
+        "term": "debatable",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:vote:noun",
@@ -1672,7 +1988,7 @@
     ],
     "domain": "general",
     "theme": "politics",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/vəʊt/",
     "emoji": "🗳️",
     "synonyms": [
@@ -1690,6 +2006,82 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "vote",
+        "form": "verb"
+      },
+      {
+        "term": "voter",
+        "form": "noun"
+      }
+    ]
+  },
+  {
+    "id": "en:state-country:noun",
+    "word": "state",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "country",
+    "sense_label": "country or political region",
+    "definitions": [
+      "A state is a country or a political region with its own government."
+    ],
+    "examples": [
+      "The state of Texas is in the south of the US.",
+      "Some states have their own laws."
+    ],
+    "domain": "general, spoken",
+    "theme": "politics",
+    "sub_theme": "government",
+    "transcription": "/steɪt/",
+    "emoji": "🗺️",
+    "synonyms": [
+      "country",
+      "nation",
+      "region"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "states"
+  },
+  {
+    "id": "en:power-control:noun",
+    "word": "power",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "control",
+    "sense_label": "control over people",
+    "definitions": [
+      "Power is control over people or events."
+    ],
+    "examples": [
+      "The president has great power.",
+      "Money can buy power."
+    ],
+    "domain": "general, spoken",
+    "theme": "politics",
+    "sub_theme": "general",
+    "transcription": "/paʊər/",
+    "emoji": "👑",
+    "synonyms": [
+      "control",
+      "authority",
+      "influence"
+    ],
+    "no_antonym": true,
+    "countability": "uncountable",
+    "updated": "2026-11-28"
   }
 ]

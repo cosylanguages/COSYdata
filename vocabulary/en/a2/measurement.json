@@ -1323,14 +1323,15 @@
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "a unit of currency or weight"
+      "A pound is a unit of money in the UK."
     ],
     "examples": [
-      "The grocery bag weighs roughly three pounds."
+      "The book costs ten pounds.",
+      "She paid with a five-pound note."
     ],
     "domain": "general, relocation, travel",
-    "theme": "measurement",
-    "updated": "2025-05-20",
+    "theme": "money",
+    "updated": "2026-11-28",
     "transcription": "/paʊnd/",
     "transcription_variants": {
       "us": "/paʊnd/"
@@ -1339,7 +1340,12 @@
     "no_antonym": true,
     "countability": "countable",
     "plural_form": "pounds",
-    "sub_theme": "dimensions_weight"
+    "sub_theme": "payments",
+    "sense": "currency",
+    "sense_label": "British money",
+    "synonyms": [
+      "sterling"
+    ]
   },
   {
     "id": "en:gallon:noun",
@@ -1414,5 +1420,37 @@
     "synonyms": [
       "divided by two"
     ]
+  },
+  {
+    "id": "en:pound-weight:noun",
+    "word": "pound",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "weight",
+    "sense_label": "unit of weight",
+    "definitions": [
+      "A pound is a unit of weight."
+    ],
+    "examples": [
+      "The bag weighs five pounds.",
+      "Add a pound of sugar."
+    ],
+    "domain": "general, spoken",
+    "theme": "measurement",
+    "sub_theme": "dimensions_weight",
+    "transcription": "/paʊnd/",
+    "emoji": "⚖️",
+    "synonyms": [
+      "lb"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "pounds"
   }
 ]

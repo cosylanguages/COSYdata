@@ -10,12 +10,11 @@
     ],
     "examples": [
       "Official figures show a steady increase in tourist numbers this summer.",
-      "Sales figures rose sharply this quarter.",
-      "Draw a geometric figure on paper."
+      "Sales figures rose sharply this quarter."
     ],
     "domain": "general, spoken, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "figures",
     "tags": [
       "spoken"
@@ -36,7 +35,19 @@
     "levels": [
       "A2",
       "B1"
-    ]
+    ],
+    "derivatives": [
+      {
+        "term": "figure",
+        "form": "verb"
+      },
+      {
+        "term": "figurative",
+        "form": "adjective"
+      }
+    ],
+    "sense": "number",
+    "sense_label": "number or statistic"
   },
   {
     "id": "en:increase:verb",
@@ -54,7 +65,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -73,7 +84,21 @@
       "decrease",
       "decline"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "increase",
+        "form": "noun"
+      },
+      {
+        "term": "increasing",
+        "form": "adjective"
+      },
+      {
+        "term": "increasingly",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:decline:verb",
@@ -89,7 +114,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -107,7 +132,13 @@
       "increase",
       "rise"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "decline",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:trend:noun",
@@ -124,7 +155,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "measurement",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "plural_form": "trends",
     "tags": [
       "spoken"
@@ -140,7 +171,17 @@
       "drift"
     ],
     "no_antonym": true,
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "trend",
+        "form": "verb"
+      },
+      {
+        "term": "trendy",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:overall:noun",
@@ -187,7 +228,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "countability": "pluralia_tantum",
     "transcription": "/stəˈtɪs.tɪks/",
     "emoji": "📊",
@@ -197,7 +238,25 @@
       "numbers"
     ],
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "statistic",
+        "form": "noun"
+      },
+      {
+        "term": "statistician",
+        "form": "noun"
+      },
+      {
+        "term": "statistical",
+        "form": "adjective"
+      },
+      {
+        "term": "statistically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:survey:noun",
@@ -214,7 +273,7 @@
     ],
     "domain": "general, relocation, professional, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "surveys",
     "transcription": "/ˈsɜː.veɪ/",
     "emoji": "📋",
@@ -228,7 +287,17 @@
     "transcription_variants": {
       "us": "/ˈsɝː.veɪ/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "survey",
+        "form": "verb"
+      },
+      {
+        "term": "surveyor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:poll:noun",
@@ -244,7 +313,7 @@
     ],
     "domain": "general, relocation, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "polls",
     "transcription": "/pəʊl/",
     "emoji": "🗳️",
@@ -258,7 +327,17 @@
     "transcription_variants": {
       "us": "/poʊl/"
     },
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "poll",
+        "form": "verb"
+      },
+      {
+        "term": "pollster",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:proportion:noun",
@@ -274,7 +353,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "proportions",
     "transcription": "/prəˈpɔː.ʃən/",
     "emoji": "🍕",
@@ -288,7 +367,17 @@
     "transcription_variants": {
       "us": "/prəˈpɔːr.ʃən/"
     },
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "proportional",
+        "form": "adjective"
+      },
+      {
+        "term": "proportionally",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:chart:noun",
@@ -304,7 +393,7 @@
     ],
     "domain": "general",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "charts",
     "transcription": "/tʃɑːt/",
     "emoji": "📊",
@@ -318,7 +407,13 @@
     "transcription_variants": {
       "us": "/tʃɑːrt/"
     },
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "chart",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:graph:noun",
@@ -336,7 +431,7 @@
     ],
     "domain": "general",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "graphs",
     "transcription": "/ɡrɑːf/",
     "emoji": "📈",
@@ -354,7 +449,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "graphic",
+        "form": "adjective"
+      },
+      {
+        "term": "graphically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:diagram:noun",
@@ -372,7 +477,7 @@
     ],
     "domain": "general",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "diagrams",
     "transcription": "/ˈdaɪ.ə.ɡræm/",
     "emoji": "🖼️",
@@ -387,7 +492,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "diagrammatic",
+        "form": "adjective"
+      },
+      {
+        "term": "diagram",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:peak:noun",
@@ -405,7 +520,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "peaks",
     "tags": [
       "spoken"
@@ -426,6 +541,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "peak",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -442,7 +563,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -460,7 +581,21 @@
     "transcription_variants": {
       "us": "/ʃɑːrp/"
     },
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "sharpen",
+        "form": "verb"
+      },
+      {
+        "term": "sharply",
+        "form": "adverb"
+      },
+      {
+        "term": "sharpness",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:steady:adjective",
@@ -476,7 +611,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -491,7 +626,17 @@
       "unsteady",
       "erratic"
     ],
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "steadiness",
+        "form": "noun"
+      },
+      {
+        "term": "steadily",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:according:noun",
@@ -563,7 +708,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "measurement",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "countability": "pluralia_tantum",
     "transcription": "/ˈfaɪn.dɪŋz/",
     "emoji": "🔍",
@@ -573,7 +718,13 @@
       "data"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "finding",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:surge:verb",
@@ -593,7 +744,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/sɜːdʒ/",
     "emoji": "⚡",
     "synonyms": [
@@ -608,7 +759,13 @@
     "transcription_variants": {
       "us": "/sɝːdʒ/"
     },
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "surge",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:plummet:verb",
@@ -820,7 +977,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmɒd.ən.aɪz/",
     "emoji": "✨",
     "synonyms": [
@@ -834,7 +991,13 @@
     "transcription_variants": {
       "us": "/ˈmɑː.dɚ.naɪz/"
     },
-    "sub_theme": "units_scales"
+    "sub_theme": "units_scales",
+    "derivatives": [
+      {
+        "term": "modernization",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:on-average:phrase",

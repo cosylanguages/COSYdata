@@ -210,7 +210,7 @@
     ],
     "domain": "general, spoken, relocation, exam",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -224,7 +224,9 @@
     "transcription_variants": {
       "us": "/koʊtʃ/"
     },
-    "sub_theme": "sports"
+    "sub_theme": "sports",
+    "sense": "train",
+    "sense_label": "train a team"
   },
   {
     "id": "en:interest:noun",
@@ -241,7 +243,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "leisure",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "interests",
     "levels": [
       "A2",
@@ -257,7 +259,9 @@
     "sub_theme": "sports",
     "synonyms": [
       "bank profit"
-    ]
+    ],
+    "sense": "hobby",
+    "sense_label": "feeling of interest"
   },
   {
     "id": "en:pastime:noun",
@@ -1940,5 +1944,137 @@
     "no_antonym": true,
     "countability": "uncountable",
     "sub_theme": "sports"
+  },
+  {
+    "id": "en:court-sport:noun",
+    "word": "court",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "sense": "sport",
+    "sense_label": "area for ball games",
+    "definitions": [
+      "A flat area with lines where people play games such as tennis or basketball."
+    ],
+    "examples": [
+      "The players ran onto the court for the final game."
+    ],
+    "domain": "general, spoken",
+    "theme": "leisure",
+    "sub_theme": "sports",
+    "updated": "2026-11-28",
+    "transcription": "/kɔːt/",
+    "transcription_variants": {
+      "us": "/kɔːrt/"
+    },
+    "emoji": "🏀",
+    "article": "a",
+    "plural_form": "courts",
+    "countability": "countable",
+    "no_antonym": true,
+    "levels": [
+      "A2",
+      "B1"
+    ]
+  },
+  {
+    "id": "en:play-theatre:noun",
+    "word": "play",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "theatre",
+    "sense_label": "stage performance",
+    "definitions": [
+      "A play is a story that actors perform in a theatre."
+    ],
+    "examples": [
+      "We watched a play at the theatre.",
+      "She wrote a play for the school."
+    ],
+    "domain": "general, spoken",
+    "theme": "leisure",
+    "sub_theme": "entertainment_arts",
+    "transcription": "/pleɪ/",
+    "emoji": "🎭",
+    "synonyms": [
+      "drama",
+      "show",
+      "performance"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "plays"
+  },
+  {
+    "id": "en:break-rest:noun",
+    "word": "break",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "rest",
+    "sense_label": "short rest",
+    "definitions": [
+      "A break is a short period when you stop working."
+    ],
+    "examples": [
+      "Let's take a break for coffee.",
+      "She has a ten-minute break between classes."
+    ],
+    "domain": "general, spoken",
+    "theme": "leisure",
+    "sub_theme": "general",
+    "transcription": "/breɪk/",
+    "emoji": "☕",
+    "synonyms": [
+      "pause",
+      "rest",
+      "interval"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "breaks"
+  },
+  {
+    "id": "en:card-playing:noun",
+    "word": "card",
+    "language": "en",
+    "form": "noun",
+    "level": "A2",
+    "levels": [
+      "A2"
+    ],
+    "sense": "playing-card",
+    "sense_label": "playing card",
+    "definitions": [
+      "A card is a piece of stiff paper used in games."
+    ],
+    "examples": [
+      "We played cards after dinner.",
+      "He gave me a card from the pack."
+    ],
+    "domain": "general, spoken",
+    "theme": "leisure",
+    "sub_theme": "games_hobbies",
+    "transcription": "/kɑːd/",
+    "emoji": "🃏",
+    "synonyms": [
+      "playing card"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "cards"
   }
 ]

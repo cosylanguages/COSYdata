@@ -14,7 +14,7 @@
     ],
     "domain": "general, relocation, travel, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1",
       "B2"
@@ -33,7 +33,21 @@
     "transcription_variants": {
       "us": "/ɪnˈtɝː.prɪt/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "interpretation",
+        "form": "noun"
+      },
+      {
+        "term": "interpreter",
+        "form": "noun"
+      },
+      {
+        "term": "interpretive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:evaluate:verb",
@@ -50,7 +64,7 @@
     ],
     "domain": "general, travel, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1"
@@ -63,7 +77,13 @@
       "appraise"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "evaluation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:research:verb",
@@ -79,7 +99,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -97,7 +117,17 @@
     "transcription_variants": {
       "us": "/ˈriː.sɝːtʃ/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "research",
+        "form": "noun"
+      },
+      {
+        "term": "researcher",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:analyse:verb",
@@ -114,7 +144,7 @@
     ],
     "domain": "general, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1",
       "B2"
@@ -127,7 +157,21 @@
       "inspect"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "analysis",
+        "form": "noun"
+      },
+      {
+        "term": "analyst",
+        "form": "noun"
+      },
+      {
+        "term": "analytical",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:critical:adjective",
@@ -144,7 +188,7 @@
     ],
     "domain": "general",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1",
@@ -163,7 +207,21 @@
     "transcription_variants": {
       "us": "/ˈkrɪt̬.ɪ.kəl/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "criticism",
+        "form": "noun"
+      },
+      {
+        "term": "critically",
+        "form": "adverb"
+      },
+      {
+        "term": "criticize",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:peer:noun",
@@ -213,7 +271,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "graduates",
     "tags": [
       "spoken"
@@ -229,7 +287,17 @@
       "undergraduate",
       "dropout"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "graduate",
+        "form": "verb"
+      },
+      {
+        "term": "graduation",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:curriculum:noun",
@@ -247,7 +315,7 @@
     ],
     "domain": "general, relocation, spoken, travel, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "curricula",
     "tags": [
       "spoken"
@@ -264,6 +332,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "curricular",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -316,7 +390,7 @@
     ],
     "domain": "general, spoken, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -334,6 +408,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "academy",
+        "form": "noun"
+      },
+      {
+        "term": "academically",
+        "form": "adverb"
+      }
     ]
   },
   {
@@ -380,7 +464,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "tutorials",
     "transcription": "/tjuːˈtɔː.ri.əl/",
     "emoji": "💻",
@@ -393,7 +477,17 @@
     "transcription_variants": {
       "us": "/tuːˈtɔːr.i.əl/"
     },
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "tutor",
+        "form": "noun"
+      },
+      {
+        "term": "tutor",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:thesis:noun",
@@ -477,7 +571,7 @@
     ],
     "domain": "general, spoken, relocation, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -494,7 +588,17 @@
     "transcription_variants": {
       "us": "/ˈpleɪ.dʒɚ.ɪ.zəm/"
     },
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "plagiarize",
+        "form": "verb"
+      },
+      {
+        "term": "plagiarist",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:thinking:noun",
@@ -510,7 +614,7 @@
     ],
     "domain": "general",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈθɪŋ.kɪŋ/",
     "emoji": "🧠",
     "countability": "uncountable",
@@ -519,7 +623,17 @@
       "reasoning"
     ],
     "no_antonym": true,
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "think",
+        "form": "verb"
+      },
+      {
+        "term": "thinker",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:literacy:noun",
@@ -535,7 +649,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "education",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -556,7 +670,13 @@
     "transcription_variants": {
       "us": "/ˈlɪt̬.ɚ.ə.si/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "literate",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:numeracy:noun",
@@ -572,7 +692,7 @@
     ],
     "domain": "general, spoken, exam",
     "theme": "education",
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "tags": [
       "spoken"
     ],
@@ -589,7 +709,13 @@
     "transcription_variants": {
       "us": "/ˈnuː.mə.rə.si/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "numerate",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:learning:noun",
@@ -607,7 +733,7 @@
     ],
     "domain": "general, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈlɜː.nɪŋ/",
     "emoji": "📚",
     "countability": "uncountable",
@@ -623,6 +749,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "learn",
+        "form": "verb"
+      },
+      {
+        "term": "learner",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -670,7 +806,7 @@
     ],
     "domain": "general, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "assessments",
     "transcription": "/əˈses.mənt/",
     "emoji": "📝",
@@ -681,7 +817,17 @@
       "test"
     ],
     "no_antonym": true,
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "assess",
+        "form": "verb"
+      },
+      {
+        "term": "assessor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:mentor:noun",
@@ -697,7 +843,7 @@
     ],
     "domain": "general, spoken, professional, exam",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "mentors",
     "tags": [
       "spoken"
@@ -717,7 +863,17 @@
     "transcription_variants": {
       "us": "/ˈmen.tɔːr/"
     },
-    "sub_theme": "teachers-scientists"
+    "sub_theme": "teachers-scientists",
+    "derivatives": [
+      {
+        "term": "mentor",
+        "form": "verb"
+      },
+      {
+        "term": "mentorship",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:elective:noun",
@@ -806,7 +962,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/kəmˈpʌl.sər.i/",
     "emoji": "❗",
     "countability": "uncountable",
@@ -822,7 +978,21 @@
     "transcription_variants": {
       "us": "/kəmˈpʌl.sɚ.i/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "compulsion",
+        "form": "noun"
+      },
+      {
+        "term": "compel",
+        "form": "verb"
+      },
+      {
+        "term": "compulsive",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:comprehension:noun",
@@ -842,7 +1012,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌkɒm.prɪˈhen.ʃən/",
     "emoji": "🧠",
     "countability": "uncountable",
@@ -857,7 +1027,21 @@
     "transcription_variants": {
       "us": "/ˌkɑːm.prəˈhen.ʃən/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "comprehend",
+        "form": "verb"
+      },
+      {
+        "term": "comprehensive",
+        "form": "adjective"
+      },
+      {
+        "term": "comprehensively",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:critical-thinking:noun",
@@ -943,7 +1127,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "tutors",
     "transcription": "/ˈtjuː.tə/",
     "emoji": "👨‍🏫",
@@ -964,6 +1148,20 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "tutor",
+        "form": "verb"
+      },
+      {
+        "term": "tutorial",
+        "form": "noun"
+      },
+      {
+        "term": "tutoring",
+        "form": "noun"
+      }
     ]
   },
   {
@@ -1176,7 +1374,7 @@
       "spoken",
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "plural_form": "apprenticeships",
     "transcription": "/əˈpren.tɪs.ʃɪp/",
     "emoji": "🛠️",
@@ -1189,7 +1387,17 @@
     "transcription_variants": {
       "us": "/əˈpren.t̬ɪs.ʃɪp/"
     },
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "apprentice",
+        "form": "noun"
+      },
+      {
+        "term": "apprentice",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:vocational-training:noun",
@@ -1375,7 +1583,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ədˈvɑːnst/",
     "emoji": "📈",
     "comparative": "more advanced",
@@ -1394,7 +1602,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "advancement",
+        "form": "noun"
+      },
+      {
+        "term": "advance",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:basic:adjective",
@@ -1415,7 +1633,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈbeɪ.sɪk/",
     "emoji": "🔤",
     "comparative": "more basic",
@@ -1433,7 +1651,17 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "basis",
+        "form": "noun"
+      },
+      {
+        "term": "basically",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:campus:noun",
@@ -1517,7 +1745,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/krɪˈtiːk/",
     "emoji": "📝",
     "countability": "countable",
@@ -1532,6 +1760,20 @@
     "levels": [
       "B1",
       "B2"
+    ],
+    "derivatives": [
+      {
+        "term": "critique",
+        "form": "verb"
+      },
+      {
+        "term": "criticism",
+        "form": "noun"
+      },
+      {
+        "term": "criticize",
+        "form": "verb"
+      }
     ]
   },
   {
@@ -1622,7 +1864,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪn.stɪˈtjuː.ʃən/",
     "emoji": "🏛️",
     "countability": "countable",
@@ -1637,7 +1879,21 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "institute",
+        "form": "noun"
+      },
+      {
+        "term": "institute",
+        "form": "verb"
+      },
+      {
+        "term": "institutional",
+        "form": "adjective"
+      }
+    ]
   },
   {
     "id": "en:introduction:noun",
@@ -1658,7 +1914,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˌɪn.trəˈdʌk.ʃən/",
     "emoji": "📖",
     "countability": "countable",
@@ -1675,6 +1931,16 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "introduce",
+        "form": "verb"
+      },
+      {
+        "term": "introductory",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -1696,7 +1962,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈmɒd.juːl/",
     "emoji": "🧩",
     "countability": "countable",
@@ -1711,6 +1977,12 @@
     "levels": [
       "A2",
       "B1"
+    ],
+    "derivatives": [
+      {
+        "term": "modular",
+        "form": "adjective"
+      }
     ]
   },
   {
@@ -1730,7 +2002,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-01-15",
+    "updated": "2026-11-28",
     "transcription": "/ˈpraɪ.mər.i/",
     "emoji": "1️⃣",
     "comparative": "more primary",
@@ -1744,7 +2016,13 @@
       "secondary",
       "minor"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "primarily",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:secondary:adjective",
@@ -1765,7 +2043,7 @@
     "tags": [
       "intermediate"
     ],
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ˈsek.ən.drɪ/",
     "emoji": "2️⃣",
     "comparative": "more secondary",
@@ -1783,7 +2061,13 @@
       "A2",
       "B1"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "secondarily",
+        "form": "adverb"
+      }
+    ]
   },
   {
     "id": "en:computer-science:noun",
@@ -1827,7 +2111,7 @@
     ],
     "domain": "general, relocation",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈrəʊl/",
     "transcription_variants": {
       "us": "/ɪnˈroʊl/"
@@ -1840,7 +2124,13 @@
       "register",
       "sign up"
     ],
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "enrolment",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:enrollment:noun",
@@ -1856,7 +2146,7 @@
     ],
     "domain": "relocation, travel",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "transcription": "/ɪnˈrəʊl.mənt/",
     "transcription_variants": {
       "us": "/ɪnˈroʊl.mənt/"
@@ -1868,7 +2158,13 @@
       "matriculation"
     ],
     "countability": "uncountable",
-    "sub_theme": "general"
+    "sub_theme": "general",
+    "derivatives": [
+      {
+        "term": "enrol",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:headmaster:noun",
@@ -2006,7 +2302,7 @@
     ],
     "domain": "relocation",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -2022,7 +2318,21 @@
       "qualification"
     ],
     "no_antonym": true,
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "certify",
+        "form": "verb"
+      },
+      {
+        "term": "certified",
+        "form": "adjective"
+      },
+      {
+        "term": "certificate",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:college-application:noun",
@@ -2070,7 +2380,7 @@
     ],
     "domain": "general, relocation, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -2085,7 +2395,17 @@
     "antonyms": [
       "rejection"
     ],
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "admit",
+        "form": "verb"
+      },
+      {
+        "term": "admittance",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:bachelor-s-degree:noun",
@@ -2135,7 +2455,7 @@
     ],
     "domain": "general, relocation",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1"
@@ -2152,7 +2472,21 @@
       "therapist"
     ],
     "no_antonym": true,
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "counsel",
+        "form": "noun"
+      },
+      {
+        "term": "counsel",
+        "form": "verb"
+      },
+      {
+        "term": "counselling",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:english-as-a-second-language:noun",
@@ -2637,7 +2971,7 @@
     ],
     "domain": "relocation, professional",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "A2",
       "B1"
@@ -2651,7 +2985,17 @@
       "grade report"
     ],
     "no_antonym": true,
-    "sub_theme": "academic-english"
+    "sub_theme": "academic-english",
+    "derivatives": [
+      {
+        "term": "transcription",
+        "form": "noun"
+      },
+      {
+        "term": "transcribe",
+        "form": "verb"
+      }
+    ]
   },
   {
     "id": "en:tuition-fee:noun",
@@ -2699,7 +3043,7 @@
     ],
     "domain": "general, relocation",
     "theme": "education",
-    "updated": "2025-05-20",
+    "updated": "2026-11-28",
     "levels": [
       "B1"
     ],
@@ -2714,7 +3058,17 @@
       "academic instruction"
     ],
     "no_antonym": true,
-    "sub_theme": "learning_activities"
+    "sub_theme": "learning_activities",
+    "derivatives": [
+      {
+        "term": "tutor",
+        "form": "verb"
+      },
+      {
+        "term": "tutor",
+        "form": "noun"
+      }
+    ]
   },
   {
     "id": "en:university-application:noun",
@@ -3222,5 +3576,117 @@
       "travel"
     ],
     "sub_theme": "general"
+  },
+  {
+    "id": "en:train-teach:verb",
+    "word": "train",
+    "language": "en",
+    "form": "verb",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "teach",
+    "sense_label": "teach skills for a job",
+    "definitions": [
+      "To train someone means to teach them the skills for a job."
+    ],
+    "examples": [
+      "The company trains new staff.",
+      "They train teachers at this college."
+    ],
+    "domain": "general, spoken",
+    "theme": "education",
+    "sub_theme": "learning_activities",
+    "transcription": "/treɪn/",
+    "emoji": "🎓",
+    "synonyms": [
+      "teach",
+      "coach",
+      "prepare"
+    ],
+    "no_antonym": true,
+    "updated": "2026-11-28",
+    "derivatives": [
+      {
+        "term": "trainer",
+        "form": "noun"
+      },
+      {
+        "term": "training",
+        "form": "noun"
+      },
+      {
+        "term": "trainee",
+        "form": "noun"
+      }
+    ]
+  },
+  {
+    "id": "en:degree-university:noun",
+    "word": "degree",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "qualification",
+    "sense_label": "university qualification",
+    "definitions": [
+      "A degree is a qualification from a university."
+    ],
+    "examples": [
+      "She has a degree in history.",
+      "He is studying for a degree."
+    ],
+    "domain": "general, spoken",
+    "theme": "education",
+    "sub_theme": "academic-english",
+    "transcription": "/dɪˈɡriː/",
+    "emoji": "🎓",
+    "synonyms": [
+      "qualification",
+      "diploma"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "degrees"
+  },
+  {
+    "id": "en:field-subject:noun",
+    "word": "field",
+    "language": "en",
+    "form": "noun",
+    "level": "B1",
+    "levels": [
+      "B1"
+    ],
+    "sense": "subject-area",
+    "sense_label": "area of study",
+    "definitions": [
+      "A field is an area of study or work."
+    ],
+    "examples": [
+      "She works in the field of medicine.",
+      "This is a new field of research."
+    ],
+    "domain": "general, spoken",
+    "theme": "general",
+    "sub_theme": "abstract_concepts",
+    "transcription": "/fiːld/",
+    "emoji": "🔬",
+    "synonyms": [
+      "area",
+      "domain",
+      "subject"
+    ],
+    "no_antonym": true,
+    "countability": "countable",
+    "updated": "2026-11-28",
+    "article": "a",
+    "plural_form": "fields"
   }
 ]
