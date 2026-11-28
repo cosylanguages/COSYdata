@@ -1,5 +1,53 @@
 [
   {
+    "id": "el:agkalia:noun",
+    "word": "αγκαλιά",
+    "language": "el",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Το άνοιγμα των χεριών ως σύμβολο προστασίας, ζεστασιάς και αγάπης."
+    ],
+    "examples": [
+      "Στην αγκαλιά των αγαπημένων μας προσώπων βρίσκουμε καταφύγιο."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "transcription": "/agaliˈa/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "feminine",
+    "article": "η",
+    "plural_form": "αγκαλιές"
+  },
+  {
+    "id": "el:amfivolia:noun",
+    "word": "αμφιβολία",
+    "language": "el",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Η έλλειψη βεβαιότητας για κάποιο συναίσθημα ή γεγονός."
+    ],
+    "examples": [
+      "Οι αμφιβολίες διαλύθηκαν μόλις κοιτάχτηκαν στα μάτια."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:doubt:noun",
+    "transcription": "/aɱ.fi.voˈli.a/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "uncountable",
+    "gender": "feminine",
+    "article": "η"
+  },
+  {
     "id": "el:anagennisi:noun",
     "word": "αναγέννηση",
     "language": "el",
@@ -24,28 +72,29 @@
     "article": "η"
   },
   {
-    "id": "el:elpida:noun",
-    "word": "ελπίδα",
+    "id": "el:erotas:noun",
+    "word": "έρωτας",
     "language": "el",
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "Προσδοκία και αισιόδοξη πίστη για ένα καλύτερο μέλλον."
+      "Το έντονο και παράφορο συναίσθημα έλξης για κάποιο πρόσωπο."
     ],
     "examples": [
-      "Το φως του φάρου κρατά ζωντανή την ελπίδα των ναυτικών."
+      "Ο έρωτας μπορεί να μεταμορφώσει την καθημερινότητά μας σε ποίηση."
     ],
     "domain": "general, spoken",
     "theme": "emotions",
     "sub_theme": "general",
     "updated": "2026-11-28",
-    "concept": "en:hope:noun",
-    "transcription": "/elˈpi.ða/",
+    "concept": "en:love:noun",
+    "transcription": "/ˈe.ɾo.tas/",
     "no_emoji": true,
     "no_antonym": true,
-    "countability": "uncountable",
-    "gender": "feminine",
-    "article": "η"
+    "countability": "countable",
+    "gender": "masculine",
+    "article": "ο",
+    "plural_form": "έρωτες"
   },
   {
     "id": "el:eytychia:noun",
@@ -96,23 +145,22 @@
     "plural_form": "θαύματα"
   },
   {
-    "id": "el:melagcholia:noun",
-    "word": "μελαγχολία",
+    "id": "el:latreia:noun",
+    "word": "λατρεία",
     "language": "el",
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "κατάσταση θλίψης και στενοχώριας."
+      "Η βαθιά, σχεδόν θρησκευτική αγάπη και ο σεβασμός."
     ],
     "examples": [
-      "Το φθινόπωρο φέρνει πάντα μια γλυκιά μελαγχολία."
+      "Η λατρεία του για την τέχνη φαίνεται σε κάθε του δημιουργία."
     ],
     "domain": "general, spoken",
     "theme": "emotions",
     "sub_theme": "general",
     "updated": "2026-11-28",
-    "concept": "en:melancholy:noun",
-    "transcription": "/me.laŋ.xoˈli.a/",
+    "transcription": "/laˈtria/",
     "no_emoji": true,
     "no_antonym": true,
     "countability": "uncountable",
@@ -142,5 +190,55 @@
     "countability": "uncountable",
     "gender": "feminine",
     "article": "η"
+  },
+  {
+    "id": "el:pathos:noun",
+    "word": "πάθος",
+    "language": "el",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Η έντονη και ανεξέλεγκτη συναισθηματική ορμή."
+    ],
+    "examples": [
+      "Το πάθος μπορεί να φέρει τους ανθρώπους κοντά αλλά και να τους αναστατώσει."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:pathos:noun",
+    "transcription": "/ˈpa.θo̞s/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "neuter",
+    "article": "το",
+    "plural_form": "πάθη"
+  },
+  {
+    "id": "el:fovos:noun",
+    "word": "φόβος",
+    "language": "el",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Το συναίσθημα της ανησυχίας μπροστά στον κίνδυνο ή την απώλεια."
+    ],
+    "examples": [
+      "Ο φόβος της απόρριψης συχνά μας εμποδίζει να εκφράσουμε τα συναισθήματά μας."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:fear:noun",
+    "transcription": "/ˈfo.vos/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "masculine",
+    "article": "ο",
+    "plural_form": "φόβοι"
   }
 ]

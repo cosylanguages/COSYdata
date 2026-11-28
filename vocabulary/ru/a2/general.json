@@ -1,73 +1,49 @@
 [
   {
-    "id": "ru:volshebnik:noun",
-    "word": "волшебник",
+    "id": "ru:vera:noun",
+    "word": "вера",
     "language": "ru",
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "человек, совершающий чудеса и магию"
+      "уверенность в невидимом добром исходе"
     ],
     "examples": [
-      "Хотел стать настоящим волшебником, но пока учится."
+      "Главное — веру свою никогда не терять."
     ],
     "domain": "general, spoken",
     "theme": "general",
     "sub_theme": "miscellaneous",
     "updated": "2026-11-28",
-    "transcription": "/vɐɫˈʂɛbnʲɪk/",
+    "concept": "en:belief:noun",
+    "transcription": "/ˈvʲerə/",
     "no_emoji": true,
     "no_antonym": true,
-    "countability": "countable",
-    "gender": "masculine",
-    "plural_form": "волшебники"
+    "countability": "uncountable",
+    "gender": "feminine"
   },
   {
-    "id": "ru:zaklinanie:noun",
-    "word": "заклинание",
+    "id": "ru:detstvo:noun",
+    "word": "детство",
     "language": "ru",
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "магическая формула, требующая точности"
+      "период жизни, когда учеба кажется огромным испытанием"
     ],
     "examples": [
-      "Криво заклинание сказал и формулу перепутал."
+      "Школьная нагрузка резко меняет привычное беззаботное детство."
     ],
     "domain": "general, spoken",
     "theme": "general",
     "sub_theme": "miscellaneous",
     "updated": "2026-11-28",
-    "concept": "en:spell:verb",
-    "transcription": "/zəklʲɪˈnanʲɪje/",
+    "concept": "en:childhood:phrase",
+    "transcription": "/ˈdʲet͡stvə/",
     "no_emoji": true,
     "no_antonym": true,
     "countability": "uncountable",
     "gender": "neuter"
-  },
-  {
-    "id": "ru:kazus:noun",
-    "word": "казус",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "смешной и неожиданный случай в практике"
-    ],
-    "examples": [
-      "Слоник вместо утюга — главный казус юного мага."
-    ],
-    "domain": "general, spoken",
-    "theme": "general",
-    "sub_theme": "miscellaneous",
-    "updated": "2026-11-28",
-    "concept": "en:incident:noun",
-    "transcription": "/ˈkazʊs/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "masculine",
-    "plural_form": "казусы"
   },
   {
     "id": "ru:koza:noun",
@@ -94,72 +70,51 @@
     "plural_form": "козы"
   },
   {
-    "id": "ru:nelovkost:noun",
-    "word": "неловкость",
+    "id": "ru:moment:noun",
+    "word": "момент",
     "language": "ru",
     "form": "noun",
     "level": "A2",
     "definitions": [
-      "комичное смущение от непредвиденного результата заклинания"
+      "конкретный мгновенный отрезок времени, имеющий ценность"
     ],
     "examples": [
-      "Получив козу вместо грозы, герой чувствует неловкость."
+      "Важно запомнить этот светлый момент на всю жизнь."
     ],
     "domain": "general, spoken",
     "theme": "general",
     "sub_theme": "miscellaneous",
     "updated": "2026-11-28",
-    "concept": "en:awkwardness:noun",
-    "transcription": "/nʲɪˈɫofkəsʲtʲ/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "uncountable",
-    "gender": "feminine"
-  },
-  {
-    "id": "ru:samoironiya:noun",
-    "word": "самоирония",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "способность с юмором относиться к собственным ошибкам и неудачам"
-    ],
-    "examples": [
-      "Песня пропитана искрометной и доброй самоиронией."
-    ],
-    "domain": "general, spoken",
-    "theme": "general",
-    "sub_theme": "miscellaneous",
-    "updated": "2026-11-28",
-    "transcription": "/samoironʲia/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "uncountable",
-    "gender": "feminine"
-  },
-  {
-    "id": "ru:ucheba:noun",
-    "word": "учеба",
-    "language": "ru",
-    "form": "noun",
-    "level": "A2",
-    "definitions": [
-      "процесс освоения мастерства через пробы и ошибки"
-    ],
-    "examples": [
-      "Даром преподаватели тратили время на трудную учебу."
-    ],
-    "domain": "general, spoken",
-    "theme": "general",
-    "sub_theme": "miscellaneous",
-    "updated": "2026-11-28",
-    "concept": "en:learning:noun",
-    "transcription": "/ʊˈt͡ɕɵbə/",
+    "concept": "en:moment:noun",
+    "transcription": "/mɐˈmʲent/",
     "no_emoji": true,
     "no_antonym": true,
     "countability": "countable",
-    "gender": "feminine",
-    "plural_form": "учёбы"
+    "gender": "masculine",
+    "plural_form": "моменты"
+  },
+  {
+    "id": "ru:teplo:noun",
+    "word": "тепло",
+    "language": "ru",
+    "form": "noun",
+    "level": "A2",
+    "definitions": [
+      "нагретое состояние, а также душевная ласка"
+    ],
+    "examples": [
+      "Твое тепло хранит вся родная земля."
+    ],
+    "domain": "general, spoken",
+    "theme": "general",
+    "sub_theme": "miscellaneous",
+    "updated": "2026-11-28",
+    "concept": "en:heat:noun",
+    "transcription": "/tʲɪˈpɫo/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "neuter",
+    "plural_form": "тепла"
   }
 ]

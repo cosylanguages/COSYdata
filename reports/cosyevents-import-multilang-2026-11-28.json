@@ -13,9 +13,10 @@
     "ru": 125
   },
   "by_level": {
-    "B1": 345,
-    "B2": 120,
-    "A2": 16
+    "A2": 35,
+    "B1": 273,
+    "B2": 161,
+    "C1": 12
   },
   "by_form": {
     "verb": 27,
@@ -39,7 +40,7 @@
     "work": 1,
     "science": 7
   },
-  "concept_links": 234,
+  "concept_links": 233,
   "transcription_sources": {
     "epitran": 126,
     "wiktionary": 330,
@@ -173,5 +174,22 @@
     "baseline_findings": 5580,
     "new_findings": 0
   },
-  "notes": "Levels retain the CEFR level assigned by the originating club card. Wiktionary provided IPA, gender, plural and part-of-speech evidence; Epitran supplied fallback IPA for fr/ru/it/es; a rule-based modern Greek IPA fallback covered Greek cards without a pronunciation section. pymorphy3 normalised Russian plural lemmas and plurals. Multiword plural phrases were skipped rather than imported with partial agreement."
+  "notes": "Levels were recalibrated after review: the source cards over-used B2 for common nouns and under-used A2/B1 for some advanced literary items. The final levels use English concept level and target-language frequency as signals, with manual checks for concrete nouns, phrases and rare derivatives. Wiktionary provided IPA, gender, plural and part-of-speech evidence; Epitran supplied fallback IPA for fr/ru/it/es; a rule-based modern Greek IPA fallback covered Greek cards without a pronunciation section. pymorphy3 normalised Russian plural lemmas and plurals. Multiword plural phrases were skipped rather than imported with partial agreement.",
+  "level_review": {
+    "entries_reviewed": 481,
+    "levels_changed": 198,
+    "from_to": {
+      "B1->A2": 28,
+      "B1->B2": 96,
+      "B2->B1": 49,
+      "B2->A2": 3,
+      "B2->C1": 6,
+      "B1->C1": 4,
+      "A2->C1": 2,
+      "A2->B1": 7,
+      "A2->B2": 3
+    },
+    "method": "Compared the source card level with the English concept level and target-language word frequency; applied conservative corrections and manually checked concrete nouns, phrases and rare derivatives.",
+    "remaining_caveat": "Levels are a best-effort CEFR calibration from card context, concept level and frequency. Literary nouns and rare derivatives can reasonably sit one band higher or lower."
+  }
 }

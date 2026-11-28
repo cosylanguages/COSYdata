@@ -209,24 +209,29 @@
     "plural_form": "chagrins"
   },
   {
-    "id": "fr:cherir:verb",
-    "word": "chérir",
+    "id": "fr:connexion:noun",
+    "word": "connexion",
     "language": "fr",
-    "form": "verb",
+    "form": "noun",
     "level": "B1",
     "definitions": [
-      "Aimer d'une affection tendre et constante."
+      "Lien spirituel ou émotionnel profond entre deux êtres."
     ],
     "examples": [
-      "Chérir ses souvenirs ne nous empêche pas d'aimer au présent."
+      "Une connexion sincère résiste à la distance et au temps."
     ],
     "domain": "general, spoken",
     "theme": "emotions",
     "sub_theme": "general",
     "updated": "2026-11-28",
-    "transcription": "/ʃeʀiʀ/",
+    "concept": "en:connection:noun",
+    "transcription": "/kɔ.nɛk.sjɔ̃/",
     "no_emoji": true,
-    "no_antonym": true
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "feminine",
+    "article": "la",
+    "plural_form": "connexions"
   },
   {
     "id": "fr:courage:noun",
@@ -254,6 +259,56 @@
     "plural_form": "courages"
   },
   {
+    "id": "fr:crainte:noun",
+    "word": "crainte",
+    "language": "fr",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Appréhension ou peur de souffrir à nouveau en s'ouvrant aux autres."
+    ],
+    "examples": [
+      "Surmonter la crainte de l'échec est la première étape du succès."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:fear:noun",
+    "transcription": "/kʁɛ̃t/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "feminine",
+    "article": "la",
+    "plural_form": "craintes"
+  },
+  {
+    "id": "fr:cri:noun",
+    "word": "cri",
+    "language": "fr",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Expression intense et passionnée d'un besoin d'exister."
+    ],
+    "examples": [
+      "Cette chanson est son cri de vérité lancé au monde entier."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:cry:verb",
+    "transcription": "/kʁi/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "masculine",
+    "article": "le",
+    "plural_form": "cris"
+  },
+  {
     "id": "fr:devouement:noun",
     "word": "dévouement",
     "language": "fr",
@@ -279,56 +334,6 @@
     "plural_form": "dévouements"
   },
   {
-    "id": "fr:echo:noun",
-    "word": "écho",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "Répétition ou résurgence d'un sentiment ancien."
-    ],
-    "examples": [
-      "Cette chanson est l'écho d'un bonheur lointain mais vivant."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "concept": "en:echo:noun",
-    "transcription": "/e.ko/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "masculine",
-    "article": "le",
-    "plural_form": "échos"
-  },
-  {
-    "id": "fr:emerveillement:noun",
-    "word": "émerveillement",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "Sentiment de surprise admirative et joyeuse."
-    ],
-    "examples": [
-      "L'émerveillement des débuts illumine leur quotidien."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "concept": "en:wonder:verb",
-    "transcription": "/e.mɛʁ.vɛj.mɑ̃/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "masculine",
-    "article": "le",
-    "plural_form": "émerveillements"
-  },
-  {
     "id": "fr:empathie:noun",
     "word": "empathie",
     "language": "fr",
@@ -352,31 +357,6 @@
     "gender": "feminine",
     "article": "la",
     "plural_form": "empathies"
-  },
-  {
-    "id": "fr:espoir:noun",
-    "word": "espoir",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "Fait d'espérer, attente confiante en la réalisation de quelque chose de positif."
-    ],
-    "examples": [
-      "Garder l'espoir même dans les moments sombres donne la force de continuer."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "concept": "en:hope:noun",
-    "transcription": "/ɛs.pwaʁ/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "masculine",
-    "article": "le",
-    "plural_form": "espoirs"
   },
   {
     "id": "fr:fidelite:noun",
@@ -425,46 +405,6 @@
     "countability": "uncountable",
     "gender": "feminine",
     "article": "la"
-  },
-  {
-    "id": "fr:figer:verb",
-    "word": "figer",
-    "language": "fr",
-    "form": "verb",
-    "level": "B1",
-    "definitions": [
-      "Rendre immobile sous le coup d'une vive émotion."
-    ],
-    "examples": [
-      "La peur de perdre l'autre peut figer nos paroles."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "transcription": "/fiʒəʀ/",
-    "no_emoji": true,
-    "no_antonym": true
-  },
-  {
-    "id": "fr:fremir:verb",
-    "word": "frémir",
-    "language": "fr",
-    "form": "verb",
-    "level": "B1",
-    "definitions": [
-      "Trembler de manière imperceptible sous le coup de l'émotion."
-    ],
-    "examples": [
-      "L'enfant qu'on est resté frémira toujours à ce souvenir."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "transcription": "/fʀemiʀ/",
-    "no_emoji": true,
-    "no_antonym": true
   },
   {
     "id": "fr:frustration:noun",
@@ -537,31 +477,6 @@
     "article": "la"
   },
   {
-    "id": "fr:joie:noun",
-    "word": "joie",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "émotion agréable et intense, bonheur."
-    ],
-    "examples": [
-      "La naissance de sa fille a rempli sa vie de joie."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "concept": "en:joy:noun",
-    "transcription": "/ʒwa/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "feminine",
-    "article": "la",
-    "plural_form": "joies"
-  },
-  {
     "id": "fr:martyre:noun",
     "word": "martyre",
     "language": "fr",
@@ -586,29 +501,29 @@
     "plural_form": "martyres"
   },
   {
-    "id": "fr:melancolie:noun",
-    "word": "mélancolie",
+    "id": "fr:mouvement:noun",
+    "word": "mouvement",
     "language": "fr",
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "Tristesse vague, accompagnée de rêverie sombre."
+      "Changement d'état ou action de quitter la passivité de la solitude."
     ],
     "examples": [
-      "Une douce mélancolie s'empare d'elle lorsque la nuit tombe."
+      "Se mettre en mouvement permet de chasser les idées noires."
     ],
     "domain": "general, spoken",
     "theme": "emotions",
     "sub_theme": "general",
     "updated": "2026-11-28",
-    "concept": "en:melancholy:noun",
-    "transcription": "/me.lɑ̃.kɔ.li/",
+    "concept": "en:movement:noun",
+    "transcription": "/muv.mɑ̃/",
     "no_emoji": true,
     "no_antonym": true,
     "countability": "countable",
-    "gender": "feminine",
-    "article": "la",
-    "plural_form": "mélancolies"
+    "gender": "masculine",
+    "article": "le",
+    "plural_form": "mouvements"
   },
   {
     "id": "fr:nostalgique:adjective",
@@ -656,6 +571,30 @@
     "plural_form": "orgueils"
   },
   {
+    "id": "fr:passion:noun",
+    "word": "passion",
+    "language": "fr",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Sentiment amoureux intense et dévorant."
+    ],
+    "examples": [
+      "Une grande passion se consume souvent trop vite dans les flammes."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:passion:noun",
+    "transcription": "/pa.sjɔ̃/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "uncountable",
+    "gender": "feminine",
+    "article": "la"
+  },
+  {
     "id": "fr:proximite:noun",
     "word": "proximité",
     "language": "fr",
@@ -677,31 +616,6 @@
     "countability": "uncountable",
     "gender": "feminine",
     "article": "la"
-  },
-  {
-    "id": "fr:ranc-ur:noun",
-    "word": "rancœur",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "Ressentiment tenace accompagné d'amertume."
-    ],
-    "examples": [
-      "Elle préfère chanter sa liberté plutôt que d'entretenir la rancœur."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "concept": "en:resentment:noun",
-    "transcription": "/ʁɑ̃.kœʁ/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "feminine",
-    "article": "la",
-    "plural_form": "rancœurs"
   },
   {
     "id": "fr:regret:noun",
@@ -729,23 +643,48 @@
     "plural_form": "regrets"
   },
   {
-    "id": "fr:resilience:noun",
-    "word": "résilience",
+    "id": "fr:rythme:noun",
+    "word": "rythme",
     "language": "fr",
     "form": "noun",
     "level": "B1",
     "definitions": [
-      "Capacité à surmonter les chocs émotionnels et à se reconstruire."
+      "Cadence accélérée ou régulière qui cadence nos actions et émotions."
     ],
     "examples": [
-      "Sa résilience lui permet de transformer ses blessures en force d'action."
+      "La musique impose son rythme trépidant à la piste de danse."
     ],
     "domain": "general, spoken",
     "theme": "emotions",
     "sub_theme": "general",
     "updated": "2026-11-28",
-    "concept": "en:resilience:noun",
-    "transcription": "/ʁe.zi.ljɑ̃s/",
+    "concept": "en:rhythm:noun",
+    "transcription": "/ʁitm/",
+    "no_emoji": true,
+    "no_antonym": true,
+    "countability": "countable",
+    "gender": "masculine",
+    "article": "le",
+    "plural_form": "rythmes"
+  },
+  {
+    "id": "fr:sensibilite:noun",
+    "word": "sensibilité",
+    "language": "fr",
+    "form": "noun",
+    "level": "B1",
+    "definitions": [
+      "Capacité à ressentir vivement les émotions et la beauté."
+    ],
+    "examples": [
+      "Sa grande sensibilité lui permet de comprendre les peines des autres."
+    ],
+    "domain": "general, spoken",
+    "theme": "emotions",
+    "sub_theme": "general",
+    "updated": "2026-11-28",
+    "concept": "en:sensitivity:noun",
+    "transcription": "/sɑ̃.si.bi.li.te/",
     "no_emoji": true,
     "no_antonym": true,
     "countability": "uncountable",
@@ -821,30 +760,6 @@
     "article": "la"
   },
   {
-    "id": "fr:tendresse:noun",
-    "word": "tendresse",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "Sentiment d'affection douce et bienveillante."
-    ],
-    "examples": [
-      "Dans 'Les uns contre les autres', la tendresse apparaît comme un rempart."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "concept": "en:tenderness:noun",
-    "transcription": "/tɑ̃.dʁɛs/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "uncountable",
-    "gender": "feminine",
-    "article": "la"
-  },
-  {
     "id": "fr:tension-amoureuse:noun",
     "word": "tension amoureuse",
     "language": "fr",
@@ -866,30 +781,6 @@
     "countability": "uncountable",
     "gender": "feminine",
     "article": "la"
-  },
-  {
-    "id": "fr:tiedeur:noun",
-    "word": "tiédeur",
-    "language": "fr",
-    "form": "noun",
-    "level": "B1",
-    "definitions": [
-      "Manque d'enthousiasme ou de passion sincère."
-    ],
-    "examples": [
-      "Elle refuse la tiédeur d'une relation sans engagement."
-    ],
-    "domain": "general, spoken",
-    "theme": "emotions",
-    "sub_theme": "general",
-    "updated": "2026-11-28",
-    "transcription": "/tje.dœʁ/",
-    "no_emoji": true,
-    "no_antonym": true,
-    "countability": "countable",
-    "gender": "feminine",
-    "article": "la",
-    "plural_form": "tiédeurs"
   },
   {
     "id": "fr:vague:noun",

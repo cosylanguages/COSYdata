@@ -100,7 +100,7 @@ The same harvest was extended to the non-English club cards. After removing dupl
 - Italian: 46
 - Spanish: 34
 
-By level: A2=16, B1=345, B2=120. By form: noun=431, verb=27, adjective=17, phrase=6. 82 terms already existed and were linked rather than duplicated; 10 cards were skipped (5 plural phrases, 3 proper names, 1 acronym, 1 grammatical form).
+After level review: A2=35, B1=273, B2=161, C1=12. The source card levels were unreliable: B2 was over-used for common nouns and some advanced literary items were marked A2. 198 entries were recalibrated against the English concept level and target-language frequency, with manual review of concrete nouns and phrases. By form: noun=431, verb=27, adjective=17, phrase=6. 82 terms already existed and were linked rather than duplicated; 10 cards were skipped (5 plural phrases, 3 proper names, 1 acronym, 1 grammatical form).
 
 The machine-readable files are `vocabulary-export-fr.json`, `vocabulary-export-ru.json`, `vocabulary-export-el.json`, `vocabulary-export-it.json`, and `vocabulary-export-es.json`. They can be imported together:
 
