@@ -53,7 +53,7 @@ same word from another dictionary.
 
 ## Passes so far
 
-The model was applied in two passes on 2026-11-28. Together they split 44
+The model was applied in three passes on 2026-11-28. Together they split 71
 English senses out of existing headwords.
 
 Pass 1 added 13 senses: `bank` (river), `match` (game), `court` (sport),
@@ -77,6 +77,23 @@ Two base entries were also corrected because their definitions described a
 different part of speech: `cover` (noun) now means a lid or protective cover,
 and `pass` (noun) now means a successful exam result. The old duty-taking sense
 of `cover` lives on as `en:cover-takeover:verb`.
+
+Pass 3 added 27 senses:
+
+- A2: `work` (operate), `play` (music), `call` (shout), `play` (theatre),
+  `break` (rest), `point` (score), `form` (shape), `light` (pale colour),
+  `keep` (continue), `set` (put in place).
+- B1: `work` (something an artist made), `call` (give a name), `hold`
+  (contain), `hold` (organize an event), `keep` (write a record), `break`
+  (not obey a rule), `check` (inspection), `fire` (shoot), `form` (type),
+  `run` (manage), `run` (series of events), `set` (fixed), `order`
+  (arrangement), `case` (legal matter), `live` (not dead).
+- B2: `paper` (academic article), `matter` (physical substance).
+
+Three conflated base entries were corrected in the same pass: `play` (noun)
+now means activity for fun, `light` (adjective) now means full of light and not
+dark, and `set` (verb) now only carries the begin sense with a real
+transcription. The other senses moved to the new entries.
 
 The base entry of every split pair now carries its own `sense` and
 `sense_label`, so the dictionary shows both meanings instead of only the new

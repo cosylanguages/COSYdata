@@ -79,29 +79,39 @@ only because a dictionary or a productive pattern supports them.
 
 ### Polysemy pilot
 
-- Two passes added 44 English sense entries. Pass 1: `court` sport and `light`
-  not heavy A2; `bank` river, `match` game, `spring` water, `case` instance,
-  `point` idea, `state` condition and `matter` be important B1; `season` add
-  flavour, `charge` accusation, `issue` release and `right` entitlement B2.
-  Pass 2: 12 A2 senses (`set`, `turn`, `line`, `drop`, `note`, `pass`, `plan`,
-  `press`, `ring`, `top`, `treat`, `way`) and 19 B1 senses (`order`, `cover`,
-  `face`, `head`, `live`, `look`, `mean`, `paper`, `part`, `raise`, `rest`,
-  `room`, `store`, `strike`, `support`, `term`, `train`, `wear`, `wonder`).
-  Definitions and examples use short A2/B1 language.
+- Three passes added 71 English sense entries. Pass 1: `court` sport and
+  `light` not heavy A2; `bank` river, `match` game, `spring` water, `case`
+  instance, `point` idea, `state` condition and `matter` be important B1;
+  `season` add flavour, `charge` accusation, `issue` release and `right`
+  entitlement B2. Pass 2: 12 A2 senses (`set`, `turn`, `line`, `drop`, `note`,
+  `pass`, `plan`, `press`, `ring`, `top`, `treat`, `way`) and 19 B1 senses
+  (`order`, `cover`, `face`, `head`, `live`, `look`, `mean`, `paper`, `part`,
+  `raise`, `rest`, `room`, `store`, `strike`, `support`, `term`, `train`,
+  `wear`, `wonder`). Pass 3: 10 A2 senses (`work` operate, `play` music,
+  `call` shout, `play` theatre, `break` rest, `point` score, `form` shape,
+  `light` pale, `keep` continue, `set` put), 15 B1 senses (`work` artwork,
+  `call` name, `hold` contain, `hold` event, `keep` record, `break` rule,
+  `check` inspection, `fire` shoot, `form` type, `run` manage, `run` series,
+  `set` fixed, `order` arrangement, `case` legal, `live` alive) and 2 B2
+  senses (`paper` article, `matter` substance). Definitions and examples use
+  short language at the entry's own level.
 - `en:court:noun` had a basketball example mixed into the legal sense; it moved
   to `en:court-sport:noun` and the legal entry now has legal examples only.
-- Two base entries were wrong and are now fixed: `en:cover:noun` is a
-  protective cover (A2), and `en:pass:noun` is a successful exam result (A2).
-  The old cover duty sense is `en:cover-takeover:verb`.
-- Doubts for a reviewer: `rest` (remainder) and `room` (space) are tagged
-  uncountable because they normally appear in `the rest of` / `room for`
-  patterns; `ring` (phone) is British-leaning; `mean` (unkind) and `live`
-  (broadcast) are common but their comparative forms are not listed.
+- Base entries fixed because they described a different part of speech:
+  `en:cover:noun` (protective cover), `en:pass:noun` (exam result),
+  `en:play:noun` (activity for fun), `en:light:adjective` (full of light) and
+  `en:set:verb` (begin). New entries carry the other senses.
+- Doubts for a reviewer: `rest` (remainder), `room` (space), `order`
+  (arrangement) and `wear` (damage) are tagged uncountable; `ring` (phone) is
+  British-leaning; `live` (not dead) is rarer than `live` (broadcast) and needs
+  a frequency check; `fire` (shoot) is labelled B1 but some lists put it at B2.
 - Existing entries with a definition from the wrong part of speech were left
   untouched when they were outside this pass: `en:mean:noun`,
   `en:look:adjective`, `en:show:adjective`, `en:land:noun` and
-  `en:support:noun` (technical help only). They should be fixed in a cleanup
-  task, not silently changed here.
+  `en:support:noun` (technical help only). `en:point:noun` is also narrow
+  (`critical moment`), with the common senses split into `point-idea` and
+  `point-score`. They should be fixed in a cleanup task, not silently changed
+  here.
 - `challenge` and `agency` already had a `sense` slug but no label; they were
   left untouched because they were outside this task.
 
