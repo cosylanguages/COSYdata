@@ -53,7 +53,7 @@ same word from another dictionary.
 
 ## Passes so far
 
-The model was applied in five passes on 2026-11-28. Together they split 131
+The model was applied in six passes on 2026-11-28. Together they split 143
 English senses out of existing headwords.
 
 Pass 1 added 13 senses: `bank` (river), `match` (game), `court` (sport),
@@ -130,6 +130,19 @@ Pass 5 added 30 senses:
 Pass 5 also narrowed two base entries: `last` (adjective) now means most
 recent, with the final sense in `last-final`, and `right` (adjective) now means
 correct or true, with the moral sense in `right-moral`.
+
+Pass 6 added 12 senses:
+
+- A2: `change` (money returned), `figure` (shape), `space` (empty area),
+  `card` (greeting card), `show` (public performance).
+- B1: `account` (description), `row` (line), `row` (argument), `space`
+  (outer space), `book` (official record).
+- B2: `end` (purpose), `start` (move suddenly).
+
+Pass 6 also narrowed `show` (noun) to a television programme and removed the
+shape example from `figure` (number); the other meanings live in the new
+entries. `end` and `start` gained sense labels and `end` gained a real IPA
+transcription.
 
 The base entry of every split pair now carries its own `sense` and
 `sense_label`, so the dictionary shows both meanings instead of only the new

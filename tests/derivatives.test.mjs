@@ -100,9 +100,9 @@ test('homographs carry distinct sense labels once labels are used', () => {
 
 test('the polysemy pilot covers a meaningful set of English homographs', () => {
   const labeled = entries.filter((entry) => entry.language === 'en' && entry.sense_label);
-  assert.ok(labeled.length >= 230, `at least 230 English senses carry a label, got ${labeled.length}`);
+  assert.ok(labeled.length >= 250, `at least 250 English senses carry a label, got ${labeled.length}`);
   const groups = new Set(labeled.map((entry) => `${entry.word.toLowerCase()}\u0000${entry.form}`));
-  assert.ok(groups.size >= 130, `labels cover at least 130 word/form pairs, got ${groups.size}`);
+  assert.ok(groups.size >= 140, `labels cover at least 140 word/form pairs, got ${groups.size}`);
 });
 
 test('B1 and B2 adjectives carry the gendered forms their language needs', () => {

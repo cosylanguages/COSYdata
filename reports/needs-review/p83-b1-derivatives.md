@@ -79,7 +79,7 @@ only because a dictionary or a productive pattern supports them.
 
 ### Polysemy pilot
 
-- Five passes added 131 English sense entries. Pass 1: `court` sport and
+- Six passes added 143 English sense entries. Pass 1: `court` sport and
   `light` not heavy A2; `bank` river, `match` game, `spring` water, `case`
   instance, `point` idea, `state` condition and `matter` be important B1;
   `season` add flavour, `charge` accusation, `issue` release and `right`
@@ -111,7 +111,12 @@ only because a dictionary or a productive pattern supports them.
   storage, `file` folder, `virus` illness, `field` area of study, `plane`
   flat surface, `ground` reason, `ship` send goods, `right` morally good) and
   2 B2 senses (`company` companionship, `window` chance for a limited time).
-  Definitions and examples use short language at the entry's own level.
+  Pass 6: 5 A2 senses (`change` money returned, `figure` shape, `space` empty
+  area, `card` greeting card, `show` public performance), 5 B1 senses
+  (`account` description, `row` line, `row` argument, `space` outer space,
+  `book` official record) and 2 B2 senses (`end` purpose, `start` move
+  suddenly). Definitions and examples use short language at the entry's own
+  level.
 - `en:court:noun` had a basketball example mixed into the legal sense; it moved
   to `en:court-sport:noun` and the legal entry now has legal examples only.
 - Base entries fixed because they described a different part of speech or
@@ -128,8 +133,10 @@ only because a dictionary or a productive pattern supports them.
   than `live` (broadcast) and needs a frequency check; `fire` (shoot) is
   labelled B1 but some lists put it at B2; `well` (healthy) is normally
   predicative (`she is well`), not attributive; `story` (building level) is
-  US spelling and `coach` (bus) is British usage; `fine` (very thin) is less
-  common than `fine` (good enough) and needs a frequency check.
+  US spelling and `coach` (bus) and `row` (argument) are British usage;
+  `fine` (very thin) is less common than `fine` (good enough) and needs a
+  frequency check; `end` (purpose) is formal and `start` (move suddenly) is
+  literary.
 - Existing entries with a definition from the wrong part of speech were left
   untouched when they were outside this pass: `en:look:adjective`,
   `en:show:adjective`, `en:stage:adverb` and `en:support:noun` (technical help

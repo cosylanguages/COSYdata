@@ -2,16 +2,16 @@
   "schema_version": "1.0.0",
   "source": "scripts/quality-audit.cjs",
   "counting_rule": "One finding per (rule, subject). A subject is an entry id, or several ids joined by \"|\" for a duplicate group.",
-  "entries": 31629,
-  "findings": 5578,
-  "entries_with_findings": 5578,
+  "entries": 31641,
+  "findings": 5576,
+  "entries_with_findings": 5576,
   "findings_share": 17.6,
   "baseline": {
     "total": 5580,
     "generated": "2026-11-26"
   },
   "new": 0,
-  "resolved": 2,
+  "resolved": 4,
   "rules": [
     {
       "code": "missing-definitions",
@@ -94,7 +94,7 @@
     {
       "code": "missing-transcription",
       "description": "The entry has no IPA transcription.",
-      "findings": 5578,
+      "findings": 5576,
       "new": 0
     },
     {
@@ -143,7 +143,7 @@
   "by_code": [
     {
       "code": "missing-transcription",
-      "findings": 5578,
+      "findings": 5576,
       "examples": [
         "ba:et:noun",
         "ba:at:noun",
@@ -191,9 +191,9 @@
     },
     {
       "code": "en",
-      "findings": 394,
-      "entries": 12903,
-      "share": 3.1
+      "findings": 392,
+      "entries": 12915,
+      "share": 3
     },
     {
       "code": "es",
@@ -247,9 +247,9 @@
   "by_level": [
     {
       "level": "A0",
-      "findings": 279,
+      "findings": 277,
       "entries": 2469,
-      "share": 11.3
+      "share": 11.2
     },
     {
       "level": "A1",
@@ -260,19 +260,19 @@
     {
       "level": "A2",
       "findings": 444,
-      "entries": 6769,
+      "entries": 6774,
       "share": 6.6
     },
     {
       "level": "B1",
       "findings": 394,
-      "entries": 4207,
+      "entries": 4212,
       "share": 9.4
     },
     {
       "level": "B2",
       "findings": 1118,
-      "entries": 3669,
+      "entries": 3671,
       "share": 30.5
     },
     {

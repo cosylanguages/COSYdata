@@ -1047,6 +1047,10 @@
       "field": "word"
     },
     {
+      "id": "en:account-description:noun",
+      "field": "word"
+    },
+    {
       "id": "en:account:noun",
       "field": "word"
     }
@@ -1094,6 +1098,10 @@
   "accounts": [
     {
       "id": "en:account-bank:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:account-description:noun",
       "field": "plural_form"
     },
     {
@@ -9521,6 +9529,10 @@
   ],
   "book": [
     {
+      "id": "en:book-record:noun",
+      "field": "word"
+    },
+    {
       "id": "en:book:noun",
       "field": "word"
     },
@@ -9554,6 +9566,10 @@
     }
   ],
   "books": [
+    {
+      "id": "en:book-record:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:book:noun",
       "field": "plural_form"
@@ -12651,6 +12667,10 @@
   ],
   "card": [
     {
+      "id": "en:card-greeting:noun",
+      "field": "word"
+    },
+    {
       "id": "en:card-playing:noun",
       "field": "word"
     },
@@ -12678,6 +12698,10 @@
     }
   ],
   "cards": [
+    {
+      "id": "en:card-greeting:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:card-playing:noun",
       "field": "plural_form"
@@ -13814,6 +13838,10 @@
     }
   ],
   "change": [
+    {
+      "id": "en:change-money:noun",
+      "field": "word"
+    },
     {
       "id": "en:change:adjective",
       "field": "word"
@@ -28375,6 +28403,10 @@
   ],
   "end": [
     {
+      "id": "en:end-purpose:noun",
+      "field": "word"
+    },
+    {
       "id": "en:end:noun",
       "field": "word"
     },
@@ -28432,6 +28464,10 @@
     }
   ],
   "ends": [
+    {
+      "id": "en:end-purpose:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:end:noun",
       "field": "plural_form"
@@ -32507,6 +32543,10 @@
       "field": "word"
     },
     {
+      "id": "en:figure-shape:noun",
+      "field": "word"
+    },
+    {
       "id": "en:figure:noun",
       "field": "word"
     },
@@ -32534,6 +32574,10 @@
   "figures": [
     {
       "id": "en:figure-body:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:figure-shape:noun",
       "field": "plural_form"
     },
     {
@@ -73727,6 +73771,26 @@
       "field": "plural_form"
     }
   ],
+  "row": [
+    {
+      "id": "en:row-argument:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:row-line:noun",
+      "field": "word"
+    }
+  ],
+  "rows": [
+    {
+      "id": "en:row-argument:noun",
+      "field": "plural_form"
+    },
+    {
+      "id": "en:row-line:noun",
+      "field": "plural_form"
+    }
+  ],
   "royalty": [
     {
       "id": "en:royalty:noun",
@@ -76991,6 +77055,10 @@
   ],
   "show": [
     {
+      "id": "en:show-performance:noun",
+      "field": "word"
+    },
+    {
       "id": "en:show:adjective",
       "field": "word"
     },
@@ -77036,6 +77104,10 @@
     }
   ],
   "shows": [
+    {
+      "id": "en:show-performance:noun",
+      "field": "plural_form"
+    },
     {
       "id": "en:show:noun",
       "field": "plural_form"
@@ -79305,6 +79377,16 @@
       "field": "plural_form"
     }
   ],
+  "space": [
+    {
+      "id": "en:space-outer:noun",
+      "field": "word"
+    },
+    {
+      "id": "en:space-room:noun",
+      "field": "word"
+    }
+  ],
   "spacious": [
     {
       "id": "en:spacious:adjective",
@@ -80360,6 +80442,10 @@
     }
   ],
   "start": [
+    {
+      "id": "en:start-sudden:verb",
+      "field": "word"
+    },
     {
       "id": "en:start:noun",
       "field": "word"
