@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "counting_rule": "One entry is one object in a JSON array under vocabulary/<lang>/<level>/, excluding index.json, flat-index.json, search-index.json, themes-index.json, *-tracks.json and vocabulary/_canonical.",
-  "data_updated": "2026-11-27",
+  "data_updated": "2026-11-28",
   "totals": {
     "languages": 14,
-    "entries": 31498,
-    "data_files": 1125,
+    "entries": 32199,
+    "data_files": 1147,
     "levels": 7,
     "themes": 46,
     "sub_themes": 236,
@@ -14,29 +14,29 @@
   },
   "by_level": {
     "A0": 2469,
-    "A1": 9104,
-    "A2": 6724,
-    "B1": 4132,
-    "B2": 3659,
-    "C1": 2569,
+    "A1": 9106,
+    "A2": 6778,
+    "B1": 4449,
+    "B2": 3884,
+    "C1": 2672,
     "C2": 2841
   },
   "by_form": [
     {
       "name": "noun",
-      "entries": 12839
+      "entries": 13345
     },
     {
       "name": "verb",
-      "entries": 5046
+      "entries": 5106
     },
     {
       "name": "adjective",
-      "entries": 4495
+      "entries": 4628
     },
     {
       "name": "idiom",
-      "entries": 3415
+      "entries": 3416
     },
     {
       "name": "phrase",
@@ -77,22 +77,26 @@
     {
       "name": "particle",
       "entries": 3
+    },
+    {
+      "name": "phrasal_verb",
+      "entries": 1
     }
   ],
   "coverage": {
     "definitions": 100,
     "examples": 100,
-    "transcription": 82.3,
-    "emoji": 74.6,
+    "transcription": 82.7,
+    "emoji": 74.3,
     "audio": 0,
     "image": 0,
-    "synonyms": 27.7,
-    "antonyms": 21.5,
-    "related_forms": 2.7,
-    "plural_form": 23.2,
-    "gender": 14.9,
-    "countability": 40.8,
-    "concept": 9.1,
+    "synonyms": 28.2,
+    "antonyms": 21.2,
+    "related_forms": 2.6,
+    "plural_form": 23.6,
+    "gender": 14.6,
+    "countability": 41.4,
+    "concept": 8.9,
     "secondary_themes": 0.4
   },
   "languages": [
@@ -248,33 +252,33 @@
     },
     {
       "code": "en",
-      "entries": 12772,
+      "entries": 13473,
       "by_level": {
         "A0": 478,
-        "A1": 1264,
-        "A2": 3071,
-        "B1": 2704,
-        "B2": 2281,
-        "C1": 1811,
+        "A1": 1266,
+        "A2": 3125,
+        "B1": 3021,
+        "B2": 2506,
+        "C1": 1914,
         "C2": 1163
       },
       "coverage": {
         "definitions": 100,
         "examples": 100,
-        "transcription": 96.9,
-        "emoji": 83.9,
+        "transcription": 97.1,
+        "emoji": 82.8,
         "audio": 0,
         "image": 0,
-        "synonyms": 63.7,
-        "antonyms": 39.6,
-        "related_forms": 2.8,
-        "plural_form": 23.2,
+        "synonyms": 62.9,
+        "antonyms": 38,
+        "related_forms": 2.7,
+        "plural_form": 24.1,
         "gender": 0,
-        "countability": 49.6,
+        "countability": 50.8,
         "concept": 0.6,
         "secondary_themes": 0.9
       },
-      "updated": "2026-11-27"
+      "updated": "2026-11-28"
     },
     {
       "code": "es",
@@ -520,12 +524,12 @@
   "themes": [
     {
       "theme": "communication",
-      "entries": 5797,
+      "entries": 5811,
       "languages": 14
     },
     {
       "theme": "actions",
-      "entries": 3623,
+      "entries": 3626,
       "languages": 14
     },
     {
@@ -535,7 +539,7 @@
     },
     {
       "theme": "general",
-      "entries": 2608,
+      "entries": 2760,
       "languages": 14
     },
     {
@@ -560,12 +564,17 @@
     },
     {
       "theme": "work",
-      "entries": 989,
+      "entries": 996,
       "languages": 14
     },
     {
       "theme": "time",
-      "entries": 794,
+      "entries": 800,
+      "languages": 14
+    },
+    {
+      "theme": "food",
+      "entries": 738,
       "languages": 14
     },
     {
@@ -574,24 +583,24 @@
       "languages": 14
     },
     {
-      "theme": "food",
-      "entries": 729,
-      "languages": 14
-    },
-    {
       "theme": "health",
-      "entries": 659,
+      "entries": 670,
       "languages": 14
     },
     {
-      "theme": "family",
-      "entries": 595,
+      "theme": "emotions",
+      "entries": 650,
       "languages": 14
     },
     {
       "theme": "society",
-      "entries": 562,
+      "entries": 629,
       "languages": 4
+    },
+    {
+      "theme": "family",
+      "entries": 601,
+      "languages": 14
     },
     {
       "theme": "geography",
@@ -599,14 +608,14 @@
       "languages": 14
     },
     {
-      "theme": "emotions",
-      "entries": 540,
-      "languages": 14
+      "theme": "technology",
+      "entries": 427,
+      "languages": 11
     },
     {
-      "theme": "technology",
-      "entries": 421,
-      "languages": 11
+      "theme": "science",
+      "entries": 362,
+      "languages": 2
     },
     {
       "theme": "business",
@@ -619,6 +628,11 @@
       "languages": 2
     },
     {
+      "theme": "philosophy",
+      "entries": 320,
+      "languages": 5
+    },
+    {
       "theme": "shopping",
       "entries": 320,
       "languages": 10
@@ -629,18 +643,18 @@
       "languages": 10
     },
     {
-      "theme": "science",
-      "entries": 268,
-      "languages": 2
-    },
-    {
       "theme": "leisure",
       "entries": 266,
       "languages": 7
     },
     {
-      "theme": "philosophy",
-      "entries": 265,
+      "theme": "media",
+      "entries": 248,
+      "languages": 8
+    },
+    {
+      "theme": "environment",
+      "entries": 231,
       "languages": 5
     },
     {
@@ -649,19 +663,9 @@
       "languages": 3
     },
     {
-      "theme": "environment",
-      "entries": 227,
-      "languages": 5
-    },
-    {
       "theme": "activities",
       "entries": 226,
       "languages": 4
-    },
-    {
-      "theme": "media",
-      "entries": 226,
-      "languages": 8
     },
     {
       "theme": "clothing",
@@ -675,7 +679,7 @@
     },
     {
       "theme": "animals",
-      "entries": 213,
+      "entries": 216,
       "languages": 14
     },
     {
@@ -690,7 +694,7 @@
     },
     {
       "theme": "objects",
-      "entries": 160,
+      "entries": 166,
       "languages": 5
     },
     {
@@ -705,8 +709,13 @@
     },
     {
       "theme": "money",
-      "entries": 83,
+      "entries": 101,
       "languages": 2
+    },
+    {
+      "theme": "arts",
+      "entries": 90,
+      "languages": 1
     },
     {
       "theme": "crime",
@@ -719,19 +728,14 @@
       "languages": 4
     },
     {
-      "theme": "arts",
-      "entries": 20,
-      "languages": 1
+      "theme": "body",
+      "entries": 38,
+      "languages": 3
     },
     {
       "theme": "sports",
       "entries": 10,
       "languages": 1
-    },
-    {
-      "theme": "body",
-      "entries": 4,
-      "languages": 2
     },
     {
       "theme": "internet",
@@ -740,12 +744,12 @@
     },
     {
       "theme": "transport",
-      "entries": 2,
+      "entries": 4,
       "languages": 1
     },
     {
       "theme": "religion",
-      "entries": 1,
+      "entries": 3,
       "languages": 1
     }
   ],

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "generator": "scripts/build-exports.cjs",
   "source": "vocabulary/<language>/<level>/*.json",
-  "rows": 31498,
+  "rows": 32199,
   "ordering": "sorted by id",
   "csv_columns": [
     {
@@ -95,7 +95,7 @@
     },
     {
       "code": "en",
-      "rows": 12772,
+      "rows": 13473,
       "csv": "by-language/en.csv"
     },
     {
@@ -143,16 +143,16 @@
     {
       "path": "vocabulary.jsonl",
       "format": "jsonl",
-      "rows": 31498,
-      "bytes": 15060380,
-      "sha256": "18153d458ac4e42b954dbd923743e5af4f455257447195d86d9e432ebd7ac5df"
+      "rows": 32199,
+      "bytes": 15416806,
+      "sha256": "d45e2f549652c2523501560bde72f61c353289d28226c1245ed152d4a5ab9b48"
     },
     {
       "path": "vocabulary.csv",
       "format": "csv",
-      "rows": 31498,
-      "bytes": 7964397,
-      "sha256": "9e41fb6b788807d601633b57742e4bf18894e9f40f37a0e86f765f467b9c15fe"
+      "rows": 32199,
+      "bytes": 8161805,
+      "sha256": "4512f9292daef98cecc261f0275a7a8849bd7032c443cf752b64e1cb0739f9cf"
     },
     {
       "path": "by-language/ba.csv",
@@ -192,9 +192,9 @@
     {
       "path": "by-language/en.csv",
       "format": "csv",
-      "rows": 12772,
-      "bytes": 3832346,
-      "sha256": "e3ac1626acb262686bd35552165626f7b8de75df342be222fb6df9d1590d5870"
+      "rows": 13473,
+      "bytes": 4029754,
+      "sha256": "46c0f11ed581340be74eae03e3ab98b204f63fceee668747bf6b1d4b1e94e9ce"
     },
     {
       "path": "by-language/es.csv",

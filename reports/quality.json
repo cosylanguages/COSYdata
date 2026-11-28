@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "source": "scripts/quality-audit.cjs",
   "counting_rule": "One finding per (rule, subject). A subject is an entry id, or several ids joined by \"|\" for a duplicate group.",
-  "entries": 31498,
+  "entries": 32199,
   "findings": 5580,
   "entries_with_findings": 5580,
-  "findings_share": 17.7,
+  "findings_share": 17.3,
   "baseline": {
     "total": 5580,
     "generated": "2026-11-26"
@@ -192,8 +192,8 @@
     {
       "code": "en",
       "findings": 396,
-      "entries": 12772,
-      "share": 3.1
+      "entries": 13473,
+      "share": 2.9
     },
     {
       "code": "es",
@@ -254,32 +254,32 @@
     {
       "level": "A1",
       "findings": 1927,
-      "entries": 9104,
+      "entries": 9106,
       "share": 21.2
     },
     {
       "level": "A2",
       "findings": 445,
-      "entries": 6724,
+      "entries": 6778,
       "share": 6.6
     },
     {
       "level": "B1",
       "findings": 394,
-      "entries": 4132,
-      "share": 9.5
+      "entries": 4449,
+      "share": 8.9
     },
     {
       "level": "B2",
       "findings": 1119,
-      "entries": 3659,
-      "share": 30.6
+      "entries": 3884,
+      "share": 28.8
     },
     {
       "level": "C1",
       "findings": 396,
-      "entries": 2569,
-      "share": 15.4
+      "entries": 2672,
+      "share": 14.8
     },
     {
       "level": "C2",
